@@ -1,0 +1,59 @@
+# header:
+#   title: Re185(n,x)Re184m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: WangXiuyuann
+#   year: 1989
+#   subentry: 30935006
+#   X4 reaction: 75-RE-185(N,2N)75-RE-184-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30935006
+# target:
+#   Z: 75
+#   A: 185
+#   nuclide: Re185
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 75
+#   A: 184
+#   nuclide: Re184m
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.354000E+01   2.700000E-01   3.363173E+02   4.899456E+01   1.044464E+00
+   1.373000E+01   2.200000E-01   3.613001E+02   5.384270E+01   1.047247E+00
+   1.467000E+01   2.400000E-01   3.103302E+02   4.583940E+01   1.030998E+00
+   1.481000E+01   2.900000E-01   4.261176E+02   6.334789E+01   1.024321E+00
+# reference:
+#   author: Wang Xiuyuan,Hao Fanhua,Li Zhengtong,Huang Ruiliang
+#   title: Measurements of activation cross section.
+#   journal: Priv.Comm: Wang (1989)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.354000E+01
+#   E-max [MeV]:  1.481000E+01
+#   F-value:  1.169875E+00
+#   A-value:  1.090944E+00
+#   chi-2:  1.798437E+00
+#   p-value:  2.525650E-01
+#   exp. data sets for p-value:      5
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.256445E+00   1.208906E+00   3.591602E+00
+# jeff3.3       1.134476E+00   1.082096E+00   1.208517E+00
+# jendl5.0      1.079247E+00   9.925435E-01   5.951901E-01

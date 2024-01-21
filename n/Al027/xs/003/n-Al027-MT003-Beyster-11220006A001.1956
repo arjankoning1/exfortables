@@ -1,0 +1,50 @@
+# header:
+#   title: Al27(n,non) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Beyster
+#   year: 1956
+#   subentry: 11220006
+#   X4 reaction: 13-AL-27(N,NON),,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11220006
+# target:
+#   Z: 13
+#   A: 27
+#   nuclide: Al27
+# reaction:
+#   type: (n,non)
+#   ENDF_MF: 3
+#   ENDF_MT: 3
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.770000E+00   0.000000E+00   1.500000E+02   3.000000E+01   1.000000E+00
+   2.500000E+00   0.000000E+00   3.800000E+02   5.000000E+01   1.000000E+00
+   3.250000E+00   0.000000E+00   5.300000E+02   5.000000E+01   1.000000E+00
+   7.000000E+00   0.000000E+00   8.600000E+02   5.000000E+01   1.000000E+00
+# reference:
+#   author: J.R.Beyster,M.Walt,E.W.Salmi
+#   title: Interaction of 1.0-, 1.77-, 2.5-, 3.25-, and 7.0-Mev Neutrons with Nuclei
+#   journal: Jour: Physical Review, Vol.104, p.1319 (1956)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  1.770000E+00
+#   E-max [MeV]:  7.000000E+00
+#   F-value:  1.519440E+00
+#   A-value:  1.383183E+00
+#   chi-2:  1.224846E+01
+#   p-value:  2.997590E-01
+#   exp. data sets for p-value:      2
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.522750E+00   1.388951E+00   1.235074E+01
+# endfb8.0      1.517782E+00   1.380309E+00   1.219732E+01
+# jeff3.3       1.517782E+00   1.380309E+00   1.219732E+01

@@ -1,0 +1,51 @@
+# header:
+#   title: Fe0(n,x)Fe57 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Grace
+#   year: 1951
+#   subentry: 21381009
+#   X4 reaction: 26-FE-0(N,X)26-FE-57,PAR,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21381009
+# target:
+#   Z: 26
+#   A: 0
+#   nuclide: Fe0
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 26
+#   A: 57
+#   nuclide: Fe57
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.500000E+00   2.000000E-01   1.400000E+02   5.000000E+01   1.000000E+00
+# reference:
+#   author: M.A.GRACE,L.E.BEGHIAN,G.PRESTON,H.HALBAN
+#   title: -THE INELASTIC SCATTERING OF FAST NEUTRONS -.
+#   journal: Jour: Physical Review, Vol.82, p.969 (1951)
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  2.500000E+00
+#   E-max [MeV]:  2.500000E+00
+#   F-value:  3.393231E+00
+#   A-value:  2.949441E-01
+#   chi-2:  4.225449E+00
+#   p-value:  1.117542E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    3.183557E+00   3.141141E-01   4.039369E+00
+# jeff3.3       3.507265E+00   2.851224E-01   4.325356E+00
+# jendl5.0      3.490597E+00   2.864839E-01   4.311621E+00

@@ -1,0 +1,54 @@
+# header:
+#   title: Hg196(n,x)Hg195 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: JunhuaLuoo
+#   year: 2018
+#   subentry: 327810043
+#   X4 reaction: 80-HG-196(N,2N)80-HG-195,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/327810043
+# target:
+#   Z: 80
+#   A: 196
+#   nuclide: Hg196
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 80
+#   A: 195
+#   nuclide: Hg195
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.350000E+01   2.000000E-01   1.647176E+03   1.276407E+02   9.892946E-01
+   1.410000E+01   2.000000E-01   1.764459E+03   1.327599E+02   9.996933E-01
+   1.480000E+01   2.000000E-01   1.797953E+03   1.331325E+02   1.001088E+00
+# reference:
+#   author: Junhua Luo, Li Jiang, Long He
+#   title: Measurement of cross sections and isomeric cross-section ratios for the (n,2n) reactions on 196,198Hg at energies between 13 and 15 MeV
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.98, p.014619 (2018)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.350000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.121711E+00
+#   A-value:  1.114062E+00
+#   chi-2:  3.095131E+00
+#   p-value:  1.889702E-01
+#   exp. data sets for p-value:      2
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2023    1.063401E+00   1.062036E+00   1.257911E+00
+# endfb8.0      1.109132E+00   1.108652E+00   2.614473E+00
+# jeff3.3       1.109132E+00   1.108652E+00   2.614473E+00
+# jendl5.0      1.180484E+00   1.180069E+00   5.893665E+00

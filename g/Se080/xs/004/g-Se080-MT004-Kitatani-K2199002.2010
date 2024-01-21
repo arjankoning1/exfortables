@@ -1,0 +1,59 @@
+# header:
+#   title: Se80(g,n')Se79 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Kitatani
+#   year: 2010
+#   subentry: K2199002
+#   X4 reaction: 34-SE-80(G,N)34-SE-79,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/K2199002
+# target:
+#   Z: 34
+#   A: 80
+#   nuclide: Se80
+# reaction:
+#   type: (g,n')
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+# residual:
+#   Z: 34
+#   A: 79
+#   nuclide: Se79
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 10
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.020000E+01   6.120000E-02   8.500000E+00   9.095000E-01   1.000000E+00
+   1.050000E+01   1.260000E-01   1.160000E+01   1.113600E+00   1.000000E+00
+   1.120000E+01   5.600000E-02   1.890000E+01   1.323000E+00   1.000000E+00
+   1.150000E+01   5.750000E-02   2.070000E+01   1.386900E+00   1.000000E+00
+   1.190000E+01   5.950000E-02   2.520000E+01   1.587600E+00   1.000000E+00
+   1.230000E+01   6.150000E-02   2.930000E+01   1.904500E+00   1.000000E+00
+   1.290000E+01   7.740001E-02   3.960000E+01   2.455200E+00   1.000000E+00
+   1.310000E+01   7.860000E-02   4.130000E+01   2.560600E+00   1.000000E+00
+   1.360000E+01   8.160001E-02   5.630000E+01   3.603200E+00   1.000000E+00
+   1.460000E+01   1.168000E-01   8.920000E+01   5.708800E+00   1.000000E+00
+# reference:
+#   author: F.Kitatani, H.Harada, S.Goko, H.Utsunomiya, H.Akimune,  T.Kaihori, H.Toyokawa, K.Yamada
+#   title: Measurement of the 80Se(g,n) cross section using laser-Compton scattering gamma-rays
+#   journal: Jour: Jour. of Nuclear Science and Technology, Vol.47, p.367 (2010)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.020000E+01
+#   E-max [MeV]:  1.460000E+01
+#   F-value:  1.315487E+00
+#   A-value:  1.149596E+00
+#   chi-2:  1.455003E+01
+#   p-value:  2.608748E-01
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.349556E+00   1.079714E+00   1.315592E+01
+# jendl5.0      1.278893E+00   1.224000E+00   1.594414E+01

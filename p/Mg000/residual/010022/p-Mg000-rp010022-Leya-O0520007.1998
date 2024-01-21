@@ -1,0 +1,64 @@
+# header:
+#   title: Mg0(p,x)Ne22 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Leya
+#   year: 1998
+#   subentry: O0520007
+#   X4 reaction: 12-MG-0(P,X)10-NE-22,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O0520007
+# target:
+#   Z: 12
+#   A: 0
+#   nuclide: Mg0
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 10
+#   A: 22
+#   nuclide: Ne22
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 15
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.470000E+01   8.000000E-01   1.010000E+01   1.570000E+01   1.000000E+00
+   1.980000E+01   8.000000E-01   1.050000E+01   1.400000E+00   1.000000E+00
+   2.470000E+01   7.000000E-01   1.210000E+01   3.800000E+00   1.000000E+00
+   3.170000E+01   7.000000E-01   4.780000E+01   5.900000E+00   1.000000E+00
+   3.380000E+01   6.000000E-01   1.290000E+02   1.300000E+01   1.000000E+00
+   3.450000E+01   7.000000E-01   6.800000E+01   9.600000E+00   1.000000E+00
+   4.120000E+01   6.000000E-01   8.280001E+01   2.100000E+01   1.000000E+00
+   5.000000E+01   8.000000E-01   9.250001E+01   2.020000E+01   1.000000E+00
+   7.030000E+01   5.000000E-01   6.920000E+01   1.940000E+01   1.000000E+00
+   1.160000E+02   1.000000E+00   5.530000E+01   1.650000E+01   1.000000E+00
+   1.370000E+02   1.000000E+00   5.500000E+01   1.140000E+01   1.000000E+00
+   1.800000E+02   1.000000E+00   4.940001E+01   9.300000E+00   1.000000E+00
+   3.070000E+02   1.000000E+00   4.480000E+01   7.800000E+00   1.000000E+00
+   3.800000E+02   1.000000E+00   4.550000E+01   5.100000E+00   1.000000E+00
+   1.600000E+03   1.000000E+00   4.020000E+01   4.500000E+00   1.000000E+00
+# reference:
+#   author: I.Leya,H.Busemann,H.Baur,R.Wieler,M.Gloris,  S.Neumann,R.Michel,F.Sudbrock,U.Herpers
+#   title: Cross sections for the proton-induced production of He and Ne isotopes from magnesium, aluminum and silicon.
+#   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.145, p.449 (19
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  1.470000E+01
+#   E-max [MeV]:  1.600000E+03
+#   F-value:  3.430217E+00
+#   A-value:  3.186069E-01
+#   chi-2:  1.569450E+01
+#   p-value:  7.940283E-02
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    2.533191E+00   4.213994E-01   1.094935E+01
+# jendl5.0      4.369797E+00   2.408888E-01   2.043966E+01

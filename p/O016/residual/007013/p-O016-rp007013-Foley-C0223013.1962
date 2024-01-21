@@ -1,0 +1,51 @@
+# header:
+#   title: O16(p,x)N13 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Foley
+#   year: 1962
+#   subentry: C0223013
+#   X4 reaction: 8-O-16(P,X)7-N-13,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C0223013
+# target:
+#   Z: 8
+#   A: 16
+#   nuclide: O16
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 7
+#   A: 13
+#   nuclide: N13
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.460000E+02   0.000000E+00   8.400000E+00   2.000000E+00   1.000000E+00
+# reference:
+#   author: K.J.FOLEY,G.L.SALMON,A.B.CLEGG
+#   title: Gamma radiation from the bombardment of 16O and 19F  nuclei with 150 MeV protons
+#   journal: Jour: Nuclear Physics, Vol.31, p.43 (1962)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  1.460000E+02
+#   E-max [MeV]:  1.460000E+02
+#   F-value:  1.068497E+00
+#   A-value:  9.371684E-01
+#   chi-2:  3.505210E-01
+#   p-value:  1.612126E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.077170E+00   9.283584E-01   4.025700E-01
+# endfb8.0      1.077170E+00   9.283584E-01   4.025700E-01
+# jendl5.0      1.047076E+00   9.550400E-01   2.464230E-01

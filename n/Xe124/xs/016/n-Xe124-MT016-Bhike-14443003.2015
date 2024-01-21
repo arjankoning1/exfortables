@@ -1,0 +1,60 @@
+# header:
+#   title: Xe124(n,2n)Xe123 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Bhike
+#   year: 2015
+#   subentry: 14443003
+#   X4 reaction: 54-XE-124(N,2N)54-XE-123,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/14443003
+# target:
+#   Z: 54
+#   A: 124
+#   nuclide: Xe124
+# reaction:
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 54
+#   A: 123
+#   nuclide: Xe123
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.136000E+01   1.400000E-01   8.048239E+01   5.030000E+00   1.001523E+00
+   1.186000E+01   1.400000E-01   2.287255E+02   1.217000E+01   1.000724E+00
+   1.236000E+01   1.400000E-01   3.913628E+02   3.425000E+01   1.000365E+00
+   1.285000E+01   1.500000E-01   5.703073E+02   2.846000E+01   1.000416E+00
+   1.335000E+01   1.500000E-01   6.772503E+02   3.999000E+01   1.001435E+00
+   1.385000E+01   1.500000E-01   7.954249E+02   3.813000E+01   1.001946E+00
+   1.435000E+01   1.500000E-01   8.396285E+02   4.653000E+01   1.000070E+00
+   1.480000E+01   7.000000E-02   9.095786E+02   4.687000E+01   1.000152E+00
+# reference:
+#   author: M.Bhike,B.Fallin,M.E.Gooden,N.Ludin,W.Tornow
+#   title: Comprehensive sets of 124Xe(n,gamma)125Xe and 124Xe(n,2n)123Xe cross- section data for assessment of inertial-confinement deuterium-tritium fusion plasma
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.91, p.011601 (2015)
+# statistics:
+#   NEA score: T3
+#   IAEA score:  1
+#   E-min [MeV]:  1.136000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.464238E+00
+#   A-value:  1.289946E+00
+#   chi-2:  8.049773E+01
+#   p-value:  1.690056E-01
+#   exp. data sets for p-value:      1
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    1.304201E+00   1.294376E+00   2.859092E+01
+# endfb8.0      1.032584E+00   1.018944E+00   6.263940E-01
+# jeff3.3       1.441842E+00   1.418057E+00   6.166492E+01
+# jendl5.0      1.914429E+00   1.857077E+00   2.826703E+02
+# cendl3.2      1.371664E+00   1.028310E+00   2.893620E+01

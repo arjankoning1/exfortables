@@ -1,0 +1,57 @@
+# header:
+#   title: Sn118(n,np)In117m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Sakane
+#   year: 2003
+#   subentry: 22827009
+#   X4 reaction: 50-SN-118(N,X)49-IN-117-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22827009
+# target:
+#   Z: 50
+#   A: 118
+#   nuclide: Sn118
+# reaction:
+#   type: (n,np)
+#   ENDF_MF: 3
+#   ENDF_MT: 28
+# residual:
+#   Z: 49
+#   A: 117
+#   nuclide: In117m
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.435000E+01   0.000000E+00   1.700000E-01   3.060000E-02   1.000000E+00
+   1.464000E+01   0.000000E+00   2.500000E-01   4.250000E-02   1.000000E+00
+   1.487000E+01   0.000000E+00   4.000000E-01   6.800000E-02   1.000000E+00
+# reference:
+#   author: H.Sakane,Y.Kasugai,M.Shibata,H.Takeuchi,K.Kawade
+#   title: Measurement of the (n,np+d) activation cross section  with 13.4 - 14.9 MeV neutrons using a fusion  neutronics source/JAERI
+#   journal: Jour: Annals of Nuclear Energy, Vol.30, p.1847 (2003)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  1.435000E+01
+#   E-max [MeV]:  1.487000E+01
+#   F-value:  1.816647E+01
+#   A-value:  5.757656E-02
+#   chi-2:  2.915653E+01
+#   p-value:  1.589457E-07
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.071562E+01   9.363568E-02   2.732619E+01
+# jendl5.0      2.836525E+01   3.540382E-02   3.098689E+01

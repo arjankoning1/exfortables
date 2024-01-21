@@ -1,0 +1,53 @@
+# header:
+#   title: Ni0(n,x)Ni57 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Sisterson
+#   year: 2006
+#   subentry: 14092016
+#   X4 reaction: 28-NI-0(N,X)28-NI-57,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/14092016
+# target:
+#   Z: 28
+#   A: 0
+#   nuclide: Ni0
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 28
+#   A: 57
+#   nuclide: Ni57
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   7.350000E+01   0.000000E+00   8.400000E+00   1.100000E+00   1.000000E+00
+   1.118000E+02   0.000000E+00   6.000000E+00   6.000000E-01   1.000000E+00
+# reference:
+#   author: J.M.Sisterson,M.B.Chadwick
+#   title: Cross section measurements for neutron-induced  reactions in Ti, Fe and Ni at several neutron  energies ranging from 70.7 to 151.6 MeV
+#   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.245, p.371 (20
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  7.350000E+01
+#   E-max [MeV]:  1.118000E+02
+#   F-value:  3.475782E+01
+#   A-value:  3.513914E-01
+#   chi-2:  1.795091E+02
+#   p-value:  1.491946E-01
+#   exp. data sets for p-value:      1
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2023    1.861610E+00   1.838421E+00   5.355526E+01
+# endfb8.0      2.729353E+00   2.726551E+00   2.468762E+02
+# jeff3.3       1.002543E+03   1.010234E-03   7.896478E+01
+# jendl5.0      3.015354E+00   3.010813E+00   3.386400E+02

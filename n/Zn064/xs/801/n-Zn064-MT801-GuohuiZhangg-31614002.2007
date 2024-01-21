@@ -1,0 +1,53 @@
+# header:
+#   title: Zn64(n,p_01) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: GuohuiZhangg
+#   year: 2007
+#   subentry: 31614002
+#   X4 reaction: 30-ZN-64(N,A)28-NI-61,PAR,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/31614002
+#   level energy [MeV]  0.00000E+00
+# target:
+#   Z: 30
+#   A: 64
+#   nuclide: Zn64
+# reaction:
+#   type: (n,p_01)
+#   ENDF_MF: 3
+#   ENDF_MT: 801
+#   level: 
+#     number: 1
+#     energy [MeV]:  0.000000E+00
+#     spin:  2.000000E+00
+#     parity: 1
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.030000E+00   0.000000E+00   4.194940E+01   2.500000E+00   1.015724E+00
+   5.950000E+00   0.000000E+00   2.691668E+01   1.700000E+00   1.015724E+00
+# reference:
+#   author: Guohui Zhang,Rongtai Cao,Jinxiang Chen,Guoyou Tang, Yu.M.Gledenov, M.Sedysheva,G.Khuukhenkhuu
+#   title: Differential Cross-Section Measurement for the 64Zn(n,a) 61Ni Reaction at 5.03 and 5.95 MeV
+#   journal: Jour: Nuclear Science and Engineering, Vol.156, p.115 (2007)
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  5.030000E+00
+#   E-max [MeV]:  5.950000E+00
+#   F-value:  4.615039E+00
+#   A-value:  2.294951E-01
+#   chi-2:  1.524127E+02
+#   p-value:  1.172064E-01
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# jendl5.0      2.907647E+00   3.443688E-01   1.146836E+02
+# cendl3.2      6.560511E+00   1.529407E-01   1.901419E+02

@@ -1,0 +1,54 @@
+# header:
+#   title: Pd108(n,p)Rh108 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: ChangLinLannn
+#   year: 2008
+#   subentry: 31615004
+#   X4 reaction: 46-PD-108(N,P)45-RH-108,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/31615004
+# target:
+#   Z: 46
+#   A: 108
+#   nuclide: Pd108
+# reaction:
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 45
+#   A: 108
+#   nuclide: Rh108
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.350000E+01   3.000000E-01   7.990000E+00   6.400000E-01   1.000000E+00
+   1.480000E+01   3.000000E-01   1.350000E+01   1.340000E+00   1.000000E+00
+# reference:
+#   author: Chang-Lin Lan, Kai-Hong Fang, Xiao-San Xu, Qi Wang,  Xiang-Zhong Kong, Rong Liu, Li Jiang
+#   title: Activation cross-section measurements for producing  short-lived nuclei with 14 MeV neutrons - Ge, Pd, Yb
+#   journal: Jour: Radiation Physics and Chemistry, Vol.77, p.854 (2008)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.350000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.190400E+00
+#   A-value:  1.141339E+00
+#   chi-2:  5.200539E+00
+#   p-value:  2.908939E-01
+#   exp. data sets for p-value:      1
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    1.215974E+00   1.213594E+00   5.835896E+00
+# endfb8.0      1.268917E+00   1.266770E+00   9.981238E+00
+# jeff3.3       1.268917E+00   1.266770E+00   9.981238E+00
+# jendl5.0      1.014296E+00   9.946460E-01   2.007936E-01
+# cendl3.2      1.000304E+00   9.998517E-01   3.527456E-03

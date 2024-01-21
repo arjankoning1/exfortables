@@ -1,0 +1,54 @@
+# header:
+#   title: Ni60(n,p)Co60 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Lees
+#   year: 1979
+#   subentry: 21634005
+#   X4 reaction: 28-NI-60(N,P)27-CO-60,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21634005
+# target:
+#   Z: 28
+#   A: 60
+#   nuclide: Ni60
+# reaction:
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 27
+#   A: 60
+#   nuclide: Co60
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.470000E+01   2.000000E-01   1.127356E+02   3.305200E+00   8.807472E-01
+# reference:
+#   author: E.W.Lees,B.H.Patrick,S.Lindley
+#   title: -A search for the U-238(gamma,alpha)Th-234 and  U-238(n,alpha+n)Th-234 reactions and measurements  of the Ni-60(n,p)Co-60 and Ni-62(n,alpha)Fe-59  cross sections at 14.7 MeV neutron energy from  associated monitor foils.-
+#   journal: Rept: A.E.R.E. Harwell Reports, No.9390 (1979)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.470000E+01
+#   E-max [MeV]:  1.470000E+01
+#   F-value:  1.201557E+00
+#   A-value:  1.199306E+00
+#   chi-2:  4.754378E+01
+#   p-value:  6.404957E-02
+#   exp. data sets for p-value:      8
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2023    1.189066E+00   1.189066E+00   4.158664E+01
+# endfb8.0      1.235802E+00   1.235802E+00   6.468789E+01
+# jeff3.3       1.195150E+00   1.195150E+00   4.430633E+01
+# jendl5.0      1.239802E+00   1.239802E+00   6.690084E+01
+# cendl3.2      1.147126E+00   1.147126E+00   2.518308E+01
+# irdff2.0      1.191351E+00   1.191351E+00   4.259791E+01

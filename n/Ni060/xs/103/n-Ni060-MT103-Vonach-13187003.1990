@@ -1,0 +1,58 @@
+# header:
+#   title: Ni60(n,p)Co60 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Vonach
+#   year: 1990
+#   subentry: 13187003
+#   X4 reaction: 28-NI-60(N,P)27-CO-60,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/13187003
+# target:
+#   Z: 28
+#   A: 60
+#   nuclide: Ni60
+# reaction:
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 27
+#   A: 60
+#   nuclide: Co60
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   7.710000E+00   5.000000E-02   6.229001E+01   2.360000E+00   1.004678E+00
+   9.030000E+00   5.000000E-02   8.251042E+01   5.545500E+00   1.018647E+00
+   1.011000E+01   5.000000E-02   1.013444E+02   5.995600E+00   1.023681E+00
+   1.105000E+01   5.000000E-02   1.287824E+02   9.475500E+00   1.026155E+00
+   1.200000E+01   5.000000E-02   1.308590E+02   8.058600E+00   1.002751E+00
+# reference:
+#   author: H.Vonach,M.Wagner,R.C.Haight
+#   title: Neutron activation cross-sections of 58Ni and 60Ni for  8-12 MeV neutrons
+#   journal: Conf: Nucl. En. Agency Nucl. Data Committee reports, No.259, p.165 (1990
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  7.710000E+00
+#   E-max [MeV]:  1.200000E+01
+#   F-value:  1.110564E+00
+#   A-value:  1.084634E+00
+#   chi-2:  3.827128E+00
+#   p-value:  2.049382E-01
+#   exp. data sets for p-value:      3
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2023    1.107797E+00   1.092479E+00   3.486254E+00
+# endfb8.0      1.154281E+00   1.141409E+00   7.045145E+00
+# jeff3.3       1.047266E+00   1.032169E+00   1.174596E+00
+# jendl5.0      1.146799E+00   1.130906E+00   6.231917E+00
+# cendl3.2      1.058382E+00   1.021793E+00   1.414793E+00
+# irdff2.0      1.109530E+00   1.094726E+00   3.610062E+00

@@ -1,0 +1,55 @@
+# header:
+#   title: Zr90(p,x)Kr78 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Regnier
+#   year: 1982
+#   subentry: O0204027
+#   X4 reaction: 40-ZR-90(P,X)36-KR-78,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O0204027
+# target:
+#   Z: 40
+#   A: 90
+#   nuclide: Zr90
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 36
+#   A: 78
+#   nuclide: Kr78
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   7.500000E+01   0.000000E+00   1.363400E-03   2.069000E-04   4.869198E-01
+   1.680000E+02   0.000000E+00   7.110000E+00   7.100000E-01   1.000000E+00
+   2.000000E+02   0.000000E+00   1.310000E+01   1.300000E+00   1.000000E+00
+   1.000000E+03   0.000000E+00   2.830000E+01   2.800000E+00   1.000000E+00
+   2.500000E+03   0.000000E+00   1.720000E+01   1.700000E+00   1.000000E+00
+   2.400000E+04   0.000000E+00   1.160000E+01   1.200000E+00   1.000000E+00
+# reference:
+#   author: S.Regnier, B.Lavielle, M.Simonoff, G.N.Simonoff
+#   title: Nuclear reactions in Rb,Sr,Y and Zr targets
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.26, p.931 (1982)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  7.500000E+01
+#   E-max [MeV]:  2.400000E+04
+#   F-value:  1.893355E+00
+#   A-value:  1.745507E+00
+#   chi-2:  9.360864E+01
+#   p-value:  9.475281E-02
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    2.129112E+00   2.099072E+00   1.360028E+02
+# jendl5.0      1.638620E+00   1.451496E+00   5.121450E+01

@@ -1,0 +1,62 @@
+# header:
+#   title: Sr0(p,x)Kr80 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Gilabert
+#   year: 1998
+#   subentry: O0505037
+#   X4 reaction: 38-SR-0(P,X)36-KR-80,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O0505037
+# target:
+#   Z: 38
+#   A: 0
+#   nuclide: Sr0
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 36
+#   A: 80
+#   nuclide: Kr80
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 13
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   4.180000E+01   2.200000E+00   4.360000E-01   2.900000E-02   1.000000E+00
+   4.420000E+01   2.700000E+00   3.420000E-01   3.900000E-02   1.000000E+00
+   6.570000E+01   2.100000E+00   1.030000E+01   6.000000E-01   1.000000E+00
+   1.350000E+02   2.000000E+00   5.750000E+01   3.100000E+00   1.000000E+00
+   1.460000E+02   2.000000E+00   6.150001E+01   3.400000E+00   1.000000E+00
+   1.580000E+02   1.000000E+00   6.610000E+01   1.390000E+01   1.000000E+00
+   2.240000E+02   2.000000E+00   6.230000E+01   7.400000E+00   1.000000E+00
+   3.360000E+02   2.000000E+00   6.230000E+01   3.700000E+00   1.000000E+00
+   3.730000E+02   2.000000E+00   7.540001E+01   1.560000E+01   1.000000E+00
+   5.740000E+02   1.000000E+00   6.520000E+01   3.600000E+00   1.000000E+00
+   7.760000E+02   1.000000E+00   5.440000E+01   3.000000E+00   1.000000E+00
+   1.200000E+03   2.000000E+01   4.540000E+01   2.500000E+00   1.000000E+00
+   1.600000E+03   2.000000E+01   4.030000E+01   2.200000E+00   1.000000E+00
+# reference:
+#   author: E.Gilabert,B.Lavielle,S.Neumann,M.Gloris, R.Michel, Th.Schiekel,F.Sudbrock,U.Herpers
+#   title: Cross sections for the proton-induced production of krypton isotopes from Rb, Sr, Y, and Zr for energies up to 1600 MeV.
+#   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.145, p.293 (19
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  4.180000E+01
+#   E-max [MeV]:  1.600000E+03
+#   F-value:  2.033897E+00
+#   A-value:  5.531427E-01
+#   chi-2:  5.299146E+01
+#   p-value:  9.482872E-02
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    2.294561E+00   4.739460E-01   6.855294E+01
+# jendl5.0      1.757960E+00   6.455734E-01   3.742999E+01

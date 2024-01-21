@@ -1,0 +1,62 @@
+# header:
+#   title: Tc99(n,x)Nb96 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Reimer
+#   year: 2009
+#   subentry: 22655002
+#   X4 reaction: 43-TC-99(N,A)41-NB-96,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22655002
+# target:
+#   Z: 43
+#   A: 99
+#   nuclide: Tc99
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+# residual:
+#   Z: 41
+#   A: 96
+#   nuclide: Nb96
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 12
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   8.618000E+00   2.150000E-01   5.670000E-01   5.400000E-02   1.000000E+00
+   9.752000E+00   2.340000E-01   1.150000E+00   9.999999E-02   1.000000E+00
+   1.054600E+01   2.440000E-01   1.660000E+00   1.400000E-01   1.000000E+00
+   1.161600E+01   2.690000E-01   2.450000E+00   2.200000E-01   1.000000E+00
+   1.241800E+01   2.850000E-01   3.440000E+00   2.900000E-01   1.000000E+00
+   1.388300E+01   1.550000E-01   4.500000E+00   2.600000E-01   1.000000E+00
+   1.436000E+01   2.000000E-01   5.650000E+00   4.800000E-01   1.000000E+00
+   1.481300E+01   1.830000E-01   6.140000E+00   6.000000E-01   1.000000E+00
+   1.616000E+01   2.600000E-01   6.320000E+00   3.300000E-01   1.000000E+00
+   1.782000E+01   1.900000E-01   6.310000E+00   3.300000E-01   1.000000E+00
+   1.914000E+01   2.100000E-01   5.830000E+00   3.900000E-01   1.000000E+00
+   2.043000E+01   1.800000E-01   5.250000E+00   3.900000E-01   1.000000E+00
+# reference:
+#   author: P.Reimer, S.Sudar, A.J.M.Plompen, S.M.Qaim,A.J.Koning, V.Avrigeanu
+#   title: -Neutron induced reaction cross sections for the  radioactive target nucleus Tc-99.
+#   journal: Jour: Nuclear Physics, Section A, Vol.815, p.1 (2009)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  8.618000E+00
+#   E-max [MeV]:  2.043000E+01
+#   F-value:  1.335156E+00
+#   A-value:  1.294202E+00
+#   chi-2:  2.958224E+01
+#   p-value:  3.786541E-01
+#   exp. data sets for p-value:      2
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.330835E+00   1.297051E+00   2.883493E+01
+# jeff3.3       1.006024E+00   9.940119E-01   1.027606E-01
+# jendl5.0      1.574043E+00   1.574043E+00   5.971434E+01

@@ -1,0 +1,53 @@
+# header:
+#   title: Ga71(n,x)Ga70 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Luo
+#   year: 2012
+#   subentry: 327040031
+#   X4 reaction: 31-GA-71(N,2N)31-GA-70,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/327040031
+# target:
+#   Z: 31
+#   A: 71
+#   nuclide: Ga71
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 31
+#   A: 70
+#   nuclide: Ga70
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.350000E+01   2.000000E-01   9.481253E+02   1.587507E+02   9.980267E-01
+   1.410000E+01   2.000000E-01   1.024852E+03   1.462546E+02   9.950020E-01
+   1.480000E+01   2.000000E-01   1.071181E+03   1.785248E+02   9.918340E-01
+# reference:
+#   author: J.Luo,R.Liu,L.Jiang
+#   title: Cross section measurements for gallium in the neutron energy range of 13.5 to 14.8 MeV
+#   journal: Jour: Radiochimica Acta, Vol.100, Issue.4, p.231 (2012)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.350000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.011857E+00
+#   A-value:  9.917637E-01
+#   chi-2:  6.736213E-02
+#   p-value:  4.349022E-01
+#   exp. data sets for p-value:      3
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.002607E+00   9.976113E-01   1.961709E-02
+# jeff3.3       1.003413E+00   9.970954E-01   2.362322E-02
+# jendl5.0      1.020162E+00   9.806784E-01   1.588461E-01

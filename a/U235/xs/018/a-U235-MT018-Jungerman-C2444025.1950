@@ -1,0 +1,59 @@
+# header:
+#   title: U235(a,f) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Jungerman
+#   year: 1950
+#   subentry: C2444025
+#   X4 reaction: 92-U-235(A,F),,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C2444025
+# target:
+#   Z: 92
+#   A: 235
+#   nuclide: U235
+# reaction:
+#   type: (a,f)
+#   ENDF_MF: 3
+#   ENDF_MT: 18
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 15
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.967700E+01   0.000000E+00   4.010000E+00   0.000000E+00   1.000000E+00
+   1.996800E+01   0.000000E+00   1.627000E+01   0.000000E+00   1.000000E+00
+   1.999300E+01   0.000000E+00   1.458000E+01   0.000000E+00   1.000000E+00
+   2.000600E+01   0.000000E+00   1.318000E+01   0.000000E+00   1.000000E+00
+   2.037900E+01   0.000000E+00   1.552000E+01   0.000000E+00   1.000000E+00
+   2.076600E+01   0.000000E+00   1.683000E+01   0.000000E+00   1.000000E+00
+   2.090000E+01   0.000000E+00   2.021000E+01   0.000000E+00   1.000000E+00
+   2.092500E+01   0.000000E+00   1.535000E+01   0.000000E+00   1.000000E+00
+   2.119300E+01   0.000000E+00   2.094000E+01   0.000000E+00   1.000000E+00
+   2.147400E+01   0.000000E+00   2.703000E+01   0.000000E+00   1.000000E+00
+   2.169100E+01   0.000000E+00   4.389000E+01   0.000000E+00   1.000000E+00
+   2.208700E+01   0.000000E+00   3.038000E+01   0.000000E+00   1.000000E+00
+   2.228100E+01   0.000000E+00   8.549001E+01   0.000000E+00   1.000000E+00
+   2.259700E+01   0.000000E+00   5.865000E+01   0.000000E+00   1.000000E+00
+   2.284200E+01   0.000000E+00   1.231000E+02   0.000000E+00   1.000000E+00
+# reference:
+#   author: J.Jungerman
+#   title: Fission Excitation Functions for Charged Particles
+#   journal: Jour: Physical Review, Vol.79, p.632 (1950)
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  1.967700E+01
+#   E-max [MeV]:  2.284200E+01
+#   F-value:  1.848185E+00
+#   A-value:  9.793715E-01
+#   chi-2:  0.000000E+00
+#   p-value:  2.585551E-01
+#   exp. data sets for p-value:      2
+#   libraries:      1
+##  Library          F              A            chi-2
+# tendl.2023    1.848185E+00   9.793715E-01   0.000000E+00

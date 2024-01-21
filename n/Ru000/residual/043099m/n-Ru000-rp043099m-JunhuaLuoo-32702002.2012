@@ -1,0 +1,57 @@
+# header:
+#   title: Ru0(n,x)Tc99m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: JunhuaLuoo
+#   year: 2012
+#   subentry: 32702002
+#   X4 reaction: 44-RU-0(N,X)43-TC-99-M,IND,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/32702002
+# target:
+#   Z: 44
+#   A: 0
+#   nuclide: Ru0
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 43
+#   A: 99
+#   nuclide: Tc99m
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.350000E+01   2.000000E-01   9.587501E+00   1.498700E+00   9.986995E-01
+   1.480000E+01   2.000000E-01   9.131001E+00   1.091690E+00   9.925027E-01
+# reference:
+#   author: Junhua Luo, Jiuning Han, Fei Tuo, Xiangzhong Kong,  Rong Liu, Li Jiang
+#   title: Cross-sections for formation of 99mTc through  natRu(n,x)99mTc reaction induced by neutrons at 13.5  and 14.8 MeV
+#   journal: Jour: Radiation Physics and Chemistry, Vol.81, p.495 (2012)
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  1.350000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  4.662565E+00
+#   A-value:  2.221751E-01
+#   chi-2:  3.232636E+01
+#   p-value:  1.154912E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    2.914724E+00   3.439845E-01   2.333691E+01
+# jeff3.3       5.547834E+00   1.805881E-01   3.684017E+01
+# jendl5.0      5.702261E+00   1.765460E-01   3.680200E+01

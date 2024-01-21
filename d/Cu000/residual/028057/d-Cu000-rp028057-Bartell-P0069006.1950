@@ -1,0 +1,59 @@
+# header:
+#   title: Cu0(d,x)Ni57 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Bartell
+#   year: 1950
+#   subentry: P0069006
+#   X4 reaction: 29-CU-0(D,X)28-NI-57,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/P0069006
+# target:
+#   Z: 29
+#   A: 0
+#   nuclide: Cu0
+# reaction:
+#   type: (d,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 28
+#   A: 57
+#   nuclide: Ni57
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 11
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.100000E+00   0.000000E+00   6.000000E-03   0.000000E+00   1.000000E+00
+   2.600000E+01   0.000000E+00   6.000000E-03   0.000000E+00   1.000000E+00
+   4.150000E+01   0.000000E+00   6.000000E-03   0.000000E+00   1.000000E+00
+   5.150000E+01   0.000000E+00   6.000000E-03   0.000000E+00   1.000000E+00
+   7.000000E+01   0.000000E+00   3.700000E-01   0.000000E+00   1.000000E+00
+   9.040000E+01   0.000000E+00   3.800000E-01   0.000000E+00   1.000000E+00
+   1.100000E+02   0.000000E+00   4.630000E-01   0.000000E+00   1.000000E+00
+   1.300000E+02   0.000000E+00   4.760000E-01   0.000000E+00   1.000000E+00
+   1.540000E+02   0.000000E+00   4.780000E-01   0.000000E+00   1.000000E+00
+   1.750000E+02   0.000000E+00   5.060000E-01   0.000000E+00   1.000000E+00
+   1.930000E+02   0.000000E+00   5.110000E-01   0.000000E+00   1.000000E+00
+# reference:
+#   author: F.O.Bartell,A.C.Helmholz,S.D.Softky,D.B.Stewart
+#   title: Excitation functions for spallation reactions on Cu
+#   journal: Jour: Physical Review, Vol.80, p.1006 (1950)
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  1.100000E+00
+#   E-max [MeV]:  1.930000E+02
+#   F-value:  7.128093E+00
+#   A-value:  6.369582E+00
+#   chi-2:  0.000000E+00
+#   p-value:  8.512694E-02
+#   exp. data sets for p-value:      1
+#   libraries:      1
+##  Library          F              A            chi-2
+# tendl.2023    7.128093E+00   6.369582E+00   0.000000E+00

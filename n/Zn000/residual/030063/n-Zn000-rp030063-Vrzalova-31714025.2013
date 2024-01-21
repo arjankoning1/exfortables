@@ -1,0 +1,53 @@
+# header:
+#   title: Zn0(n,x)Zn63 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Vrzalova
+#   year: 2013
+#   subentry: 31714025
+#   X4 reaction: 30-ZN-0(N,X)30-ZN-63,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/31714025
+# target:
+#   Z: 30
+#   A: 0
+#   nuclide: Zn0
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 30
+#   A: 63
+#   nuclide: Zn63
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.750000E+01   8.000000E-01   1.190244E+02   1.658537E+01   9.756097E-01
+   3.040000E+01   8.000000E-01   7.902439E+01   1.268293E+01   9.756097E-01
+   3.590000E+01   8.000000E-01   7.609756E+01   1.170732E+01   9.756097E-01
+# reference:
+#   author: J.Vrzalova, O.Svoboda, A.Krasa, A.Kugler, M.Majerle,  M.Suchopar, V.Wagner
+#   title: Studies of (n,xn) cross-sections in Al, Au, Bi, Cu,  Fe, I, In, Mg, Ni, Ta, Y, and Zn by the activation  method
+#   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.A, Vol.726, p.84 (201
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  1.750000E+01
+#   E-max [MeV]:  3.590000E+01
+#   F-value:  1.088194E+00
+#   A-value:  9.805506E-01
+#   chi-2:  5.192620E-01
+#   p-value:  3.996820E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.060303E+00   9.842757E-01   4.650879E-01
+# jeff3.3       1.049617E+00   1.029338E+00   2.681498E-01
+# jendl5.0      1.133294E+00   9.305406E-01   8.245485E-01

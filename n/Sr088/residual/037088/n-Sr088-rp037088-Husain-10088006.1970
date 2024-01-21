@@ -1,0 +1,51 @@
+# header:
+#   title: Sr88(n,x)Rb88 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Husain
+#   year: 1970
+#   subentry: 10088006
+#   X4 reaction: 38-SR-88(N,P)37-RB-88,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/10088006
+# target:
+#   Z: 38
+#   A: 88
+#   nuclide: Sr88
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 37
+#   A: 88
+#   nuclide: Rb88
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.480000E+01   2.000000E-01   2.000000E+01   2.000000E+00   1.000000E+00
+# reference:
+#   author: L.Husain,A.Bari,P.K.Kuroda
+#   title: Neutron Activation Cross Sections at 14.8 MeV for Rubidium, Zirconium, and Niobium
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.1, p.1233 (1970)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.480000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.132544E+00
+#   A-value:  9.153877E-01
+#   chi-2:  1.626930E+00
+#   p-value:  3.248167E-01
+#   exp. data sets for p-value:      8
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.072812E+00   9.321295E-01   9.931757E-01
+# jeff3.3       1.225830E+00   8.157737E-01   3.776334E+00
+# jendl5.0      1.008717E+00   1.008717E+00   1.112801E-01

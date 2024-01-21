@@ -1,0 +1,55 @@
+# header:
+#   title: Ba136(n,x)Ba137 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Voss
+#   year: 1995
+#   subentry: 22385004
+#   X4 reaction: 56-BA-136(N,G)56-BA-137,,SIG,,AV
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22385004
+# target:
+#   Z: 56
+#   A: 136
+#   nuclide: Ba136
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+# residual:
+#   Z: 56
+#   A: 137
+#   nuclide: Ba137
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   4.000000E-03   6.997488E-06   3.541000E+02   2.080000E+01   1.000000E+00
+   6.250000E-03   1.366697E-05   9.750000E+01   8.200000E+00   1.000000E+00
+   8.750000E-03   2.263937E-05   9.920000E+01   3.700000E+00   1.000000E+00
+   1.125000E-02   3.300509E-05   8.900001E+01   3.800000E+00   1.000000E+00
+   1.375000E-02   4.459706E-05   1.004000E+02   2.400000E+00   1.000000E+00
+   1.750000E-02   6.403380E-05   8.870000E+01   1.900000E+00   1.000000E+00
+# reference:
+#   author: F.VOSS,K.WISSHAK,F.KAEPPELER
+#   title: .RESONANCE NEUTRON CAPTURE IN BA-136
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.52, Issue.2, p.1102
+# statistics:
+#   NEA score: T3
+#   IAEA score: -1
+#   E-min [MeV]:  4.000000E-03
+#   E-max [MeV]:  1.750000E-02
+#   F-value:  7.569701E+01
+#   A-value:  2.825633E-02
+#   chi-2:  2.137805E+03
+#   p-value:  1.688807E-07
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    7.853196E+01   2.839316E-02   2.929262E+03
+# jendl5.0      7.294141E+01   2.812013E-02   1.346348E+03

@@ -1,0 +1,54 @@
+# header:
+#   title: Be9(n,non) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Levin
+#   year: 1960
+#   subentry: 11192005
+#   X4 reaction: 4-BE-9(N,NON),,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11192005
+# target:
+#   Z: 4
+#   A: 9
+#   nuclide: Be9
+# reaction:
+#   type: (n,non)
+#   ENDF_MF: 3
+#   ENDF_MT: 3
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.480000E+00   0.000000E+00   1.500000E+02   1.300000E+02   1.000000E+00
+   2.630000E+00   0.000000E+00   1.300000E+02   1.700000E+02   1.000000E+00
+   2.770000E+00   0.000000E+00   1.600000E+02   2.300000E+02   1.000000E+00
+   2.970000E+00   0.000000E+00   4.500000E+02   1.500000E+02   1.000000E+00
+   3.230000E+00   0.000000E+00   4.300000E+02   1.200000E+02   1.000000E+00
+   3.460000E+00   0.000000E+00   6.300000E+02   1.000000E+02   1.000000E+00
+   4.100000E+00   0.000000E+00   6.700000E+02   8.000000E+01   1.000000E+00
+# reference:
+#   author: J.S.LEVIN,L.CRANBERG
+#   title: NONELASTIC CROSS SECTION OF BE-9.
+#   journal: Prog: Washington AEC Office Reports, No.1029, p.44 (1960)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.480000E+00
+#   E-max [MeV]:  4.100000E+00
+#   F-value:  1.073163E+00
+#   A-value:  9.904770E-01
+#   chi-2:  2.987005E-01
+#   p-value:  2.417868E-01
+#   exp. data sets for p-value:      3
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2023    1.064254E+00   9.898309E-01   2.795837E-01
+# endfb8.0      1.064254E+00   9.898309E-01   2.795837E-01
+# jendl5.0      1.095469E+00   9.922431E-01   3.565033E-01
+# cendl3.2      1.064208E+00   9.900053E-01   2.791310E-01

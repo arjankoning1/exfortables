@@ -1,0 +1,63 @@
+# header:
+#   title: Fe0(n,n'_01)Fe1 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Jacquot
+#   year: 1966
+#   subentry: 20379005
+#   X4 reaction: 26-FE-0(N,INL)26-FE-0,PAR,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20379005
+#   level energy [MeV]  2.00000E+00
+# target:
+#   Z: 26
+#   A: 0
+#   nuclide: Fe0
+# reaction:
+#   type: (n,n'_01)
+#   ENDF_MF: 3
+#   ENDF_MT: 51
+#   level: 
+#     number: 1
+#     energy [MeV]:  1.976630E+00
+#     spin:  1.500000E+00
+#     parity: -1
+# residual:
+#   Z: 26
+#   A: 1
+#   nuclide: Fe1
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.260000E+00   1.100000E-01   5.000000E+02   5.000000E+01   1.000000E+00
+   1.510000E+00   1.000000E-01   7.800000E+02   5.000000E+01   1.000000E+00
+   1.770000E+00   1.000000E-01   6.600000E+02   4.000000E+01   1.000000E+00
+   2.030000E+00   1.000000E-01   8.700000E+02   5.000000E+01   1.000000E+00
+   2.280000E+00   1.000000E-01   8.400000E+02   5.000000E+01   1.000000E+00
+# reference:
+#   author: A.Jacquot,C.Rousseau
+#   title: Fast neutron scattering cross sections of iron
+#   journal: Jour: Nuclear Physics, Vol.84, p.239 (1966)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.260000E+00
+#   E-max [MeV]:  2.280000E+00
+#   F-value:  1.700979E+00
+#   A-value:  7.039794E-01
+#   chi-2:  1.844659E+01
+#   p-value:  2.354361E-01
+#   exp. data sets for p-value:      6
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    1.626161E+00   7.153443E-01   1.563993E+01
+# endfb8.0      1.709689E+00   7.405631E-01   1.804997E+01
+# jeff3.3       1.753108E+00   6.866438E-01   1.934322E+01
+# jendl5.0      1.735540E+00   6.712976E-01   2.402670E+01
+# cendl3.2      1.677713E+00   7.080697E-01   1.517312E+01

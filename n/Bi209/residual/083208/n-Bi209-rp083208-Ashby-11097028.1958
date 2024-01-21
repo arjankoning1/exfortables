@@ -1,0 +1,50 @@
+# header:
+#   title: Bi209(n,x)Bi208 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Ashby
+#   year: 1958
+#   subentry: 11097028
+#   X4 reaction: 83-BI-209(N,2N)83-BI-208,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11097028
+# target:
+#   Z: 83
+#   A: 209
+#   nuclide: Bi209
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 83
+#   A: 208
+#   nuclide: Bi208
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.410000E+01   0.000000E+00   2.520000E+03   4.536000E+01   1.000000E+00
+# reference:
+#   author: V.J.Ashby,H.C.Catron,L.L.Newkirk,C.J.Taylor
+#   title: Absolute measurement of (n,2n) cross sections at 14.1  MeV.
+#   journal: Jour: Physical Review, Vol.111, p.616 (1958)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.410000E+01
+#   E-max [MeV]:  1.410000E+01
+#   F-value:  1.148989E+00
+#   A-value:  8.722560E-01
+#   chi-2:  5.158718E+01
+#   p-value:  3.156716E-01
+#   exp. data sets for p-value:      8
+#   libraries:      2
+##  Library          F              A            chi-2
+# endfb8.0      1.175099E+00   8.509921E-01   6.852890E+01
+# jendl5.0      1.118504E+00   8.940513E-01   3.464545E+01

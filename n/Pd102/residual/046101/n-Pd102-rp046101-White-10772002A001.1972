@@ -1,0 +1,54 @@
+# header:
+#   title: Pd102(n,x)Pd101 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: White
+#   year: 1972
+#   subentry: 10772002
+#   X4 reaction: 46-PD-102(N,2N)46-PD-101,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/10772002
+# target:
+#   Z: 46
+#   A: 102
+#   nuclide: Pd102
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 46
+#   A: 101
+#   nuclide: Pd101
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.510000E+01   0.000000E+00   1.320705E+03   1.271790E+02   9.783000E-01
+   1.540000E+01   0.000000E+00   1.506582E+03   1.173960E+02   9.783000E-01
+   1.590000E+01   0.000000E+00   1.760940E+03   1.173960E+02   9.783000E-01
+   1.630000E+01   0.000000E+00   1.623978E+03   1.173960E+02   9.783000E-01
+# reference:
+#   author: R.L.White,T.J.Gray
+#   title: Neutron cross sections in Pd isotopes over an energy  range of 15.1 to 16.3 MeV.
+#   journal: Jour: Bulletin of the American Physical Society Ser.II, Vol.17, p.687(FD
+# statistics:
+#   NEA score: E1
+#   IAEA score:  0
+#   E-min [MeV]:  1.510000E+01
+#   E-max [MeV]:  1.630000E+01
+#   F-value:  1.506896E+00
+#   A-value:  6.725027E-01
+#   chi-2:  2.083738E+01
+#   p-value:  1.084853E-01
+#   exp. data sets for p-value:      6
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.541734E+00   6.558821E-01   2.262189E+01
+# jeff3.3       1.498456E+00   6.749284E-01   2.036633E+01
+# jendl5.0      1.479536E+00   6.870663E-01   1.952392E+01

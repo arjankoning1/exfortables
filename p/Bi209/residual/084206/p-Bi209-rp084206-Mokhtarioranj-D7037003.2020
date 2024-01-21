@@ -1,0 +1,60 @@
+# header:
+#   title: Bi209(p,x)Po206 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Mokhtarioranj
+#   year: 2020
+#   subentry: D7037003
+#   X4 reaction: 83-BI-209(P,4N)84-PO-206,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D7037003
+# target:
+#   Z: 83
+#   A: 209
+#   nuclide: Bi209
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 37
+# residual:
+#   Z: 84
+#   A: 206
+#   nuclide: Po206
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 10
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   4.310000E+01   1.600000E+00   1.088600E+03   1.100000E+02   1.000000E+00
+   4.410000E+01   1.600000E+00   1.100400E+03   1.133000E+02   1.000000E+00
+   4.750000E+01   1.400000E+00   7.888001E+02   8.060000E+01   1.000000E+00
+   5.080000E+01   1.500000E+00   3.316000E+02   6.380000E+01   1.000000E+00
+   5.470000E+01   1.100000E+00   2.484000E+02   2.490000E+01   1.000000E+00
+   5.700000E+01   1.100000E+00   2.331000E+02   2.380000E+01   1.000000E+00
+   6.130000E+01   8.000000E-01   1.715000E+02   1.740000E+01   1.000000E+00
+   6.280000E+01   8.000000E-01   1.594000E+02   1.620000E+01   1.000000E+00
+   6.740000E+01   3.000000E-01   1.390000E+02   1.410000E+01   1.000000E+00
+   6.810000E+01   3.000000E-01   1.353000E+02   1.380000E+01   1.000000E+00
+# reference:
+#   author: L.Mokhtari Oranj, M.Bakhtiari, N.S.Jung, A.Lee,  H.S.Lee
+#   title: Extension of excitation functions of proton-induced reactions on bismuth
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.101, p.014602 (2020)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  4.310000E+01
+#   E-max [MeV]:  6.810000E+01
+#   F-value:  1.792603E+00
+#   A-value:  5.860431E-01
+#   chi-2:  1.622324E+01
+#   p-value:  1.252296E-01
+#   exp. data sets for p-value:      3
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    2.233511E+00   4.511444E-01   2.706354E+01
+# endfb8.0      1.433377E+00   7.154401E-01   8.458709E+00
+# jendl5.0      1.643191E+00   6.235910E-01   1.314747E+01

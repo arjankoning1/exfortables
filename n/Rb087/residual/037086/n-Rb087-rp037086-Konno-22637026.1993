@@ -1,0 +1,58 @@
+# header:
+#   title: Rb87(n,x)Rb86 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Konno
+#   year: 1993
+#   subentry: 22637026
+#   X4 reaction: 37-RB-87(N,2N)37-RB-86,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22637026
+# target:
+#   Z: 37
+#   A: 87
+#   nuclide: Rb87
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 37
+#   A: 86
+#   nuclide: Rb86
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.333000E+01   0.000000E+00   1.072761E+03   3.474469E+01   1.009183E+00
+   1.357000E+01   0.000000E+00   1.034412E+03   3.183802E+01   1.009183E+00
+   1.375000E+01   0.000000E+00   1.059642E+03   3.543287E+01   1.009183E+00
+   1.398000E+01   0.000000E+00   1.112119E+03   2.487515E+01   1.009183E+00
+   1.422000E+01   0.000000E+00   1.119184E+03   3.211748E+01   1.009183E+00
+   1.443000E+01   0.000000E+00   1.189826E+03   3.668431E+01   1.009183E+00
+   1.467000E+01   0.000000E+00   1.222120E+03   3.480337E+01   1.009183E+00
+   1.494000E+01   0.000000E+00   1.202946E+03   2.847523E+01   1.009183E+00
+# reference:
+#   author: C.Konno, Y.Ikeda, K.Oishi, K.Kawade, H.Yamamoto, H.Maekawa
+#   title: Activation Cross section measurements at neutron  energy from 13.3 to 14.9 MeV
+#   journal: Rept: JAERI Reports, No.1329 (1993)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.333000E+01
+#   E-max [MeV]:  1.494000E+01
+#   F-value:  1.045508E+00
+#   A-value:  9.726264E-01
+#   chi-2:  2.274727E+00
+#   p-value:  3.272030E-01
+#   exp. data sets for p-value:      7
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.037234E+00   9.773871E-01   1.538799E+00
+# jeff3.3       1.022913E+00   9.937238E-01   7.816996E-01
+# jendl5.0      1.066057E+00   9.473401E-01   4.503682E+00

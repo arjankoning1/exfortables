@@ -1,0 +1,50 @@
+# header:
+#   title: Zn0(p,non) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Bearpark
+#   year: 1965
+#   subentry: D0314005
+#   X4 reaction: 30-ZN-0(P,NON),,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D0314005
+# target:
+#   Z: 30
+#   A: 0
+#   nuclide: Zn0
+# reaction:
+#   type: (p,non)
+#   ENDF_MF: 3
+#   ENDF_MT: 3
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   8.770000E+00   7.300000E-01   7.400001E+02   3.600000E+01   1.000000E+00
+   9.310000E+00   7.000000E-01   7.710000E+02   3.300000E+01   1.000000E+00
+   9.830000E+00   6.700000E-01   8.100001E+02   3.200000E+01   1.000000E+00
+   1.036000E+01   6.400000E-01   8.440000E+02   3.200000E+01   1.000000E+00
+   1.088000E+01   6.200000E-01   8.620000E+02   3.100000E+01   1.000000E+00
+# reference:
+#   author: K.Bearpark, W.R.Graham, G.Jones
+#   title: Total proton and deuteron reaction cross-sections  in the energy range 8.5 to 11.5 MeV
+#   journal: Jour: Nuclear Physics, Vol.73, p.206 (1965)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  8.770000E+00
+#   E-max [MeV]:  1.088000E+01
+#   F-value:  1.047599E+00
+#   A-value:  9.730325E-01
+#   chi-2:  1.448192E+00
+#   p-value:  3.914872E-01
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.012906E+00   1.005571E+00   3.315983E-01
+# jendl5.0      1.066626E+00   9.415464E-01   2.564787E+00

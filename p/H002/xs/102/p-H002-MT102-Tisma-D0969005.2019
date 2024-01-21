@@ -1,0 +1,53 @@
+# header:
+#   title: H2(p,g)He3 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Tisma
+#   year: 2019
+#   subentry: D0969005
+#   X4 reaction: 1-H-2(P,G)2-HE-3,,SIG,,SFC
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D0969005
+# target:
+#   Z: 1
+#   A: 2
+#   nuclide: H2
+# reaction:
+#   type: (p,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+# residual:
+#   Z: 2
+#   A: 3
+#   nuclide: He3
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.455376E-01   1.000000E-03   5.958200E-04   1.128800E-04   1.000000E+00
+   1.785461E-01   1.000000E-03   8.091400E-04   1.527800E-04   1.000000E+00
+   2.550658E-01   1.000000E-03   1.288500E-03   2.416300E-04   1.000000E+00
+   3.150813E-01   1.000000E-03   1.504500E-03   2.550600E-04   1.000000E+00
+# reference:
+#   author: I.Tisma, M.Lipoglavsek, M.Mihovilovic, S.Markelj,  M.Vencelj, J.Vesic
+#   title: Experimental cross section and angular distribution  of the 2H(p,g)3He reaction at Big-Bang  nucleosynthesis energies
+#   journal: Jour: European Physical Journal A: Hadrons and Nuclei, Vol.55, p.137 (20
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  1.455376E-01
+#   E-max [MeV]:  3.150813E-01
+#   F-value:  1.028272E+00
+#   A-value:  1.020542E+00
+#   chi-2:  1.605739E-01
+#   p-value:  4.109331E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.028272E+00   1.020542E+00   1.605739E-01
+# endfb8.0      1.028272E+00   1.020542E+00   1.605739E-01

@@ -1,0 +1,55 @@
+# header:
+#   title: Mo97(n,np)Nb96 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Reimer
+#   year: 2005
+#   subentry: 22889012
+#   X4 reaction: 42-MO-97(N,X)41-NB-96,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22889012
+# target:
+#   Z: 42
+#   A: 97
+#   nuclide: Mo97
+# reaction:
+#   type: (n,np)
+#   ENDF_MF: 3
+#   ENDF_MT: 28
+# residual:
+#   Z: 41
+#   A: 96
+#   nuclide: Nb96
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.623000E+01   4.000000E-01   8.100000E+00   7.000000E-01   1.000000E+00
+   1.930000E+01   1.000000E-01   3.060000E+01   4.200000E+00   1.000000E+00
+   2.060000E+01   1.000000E-01   3.760000E+01   4.100000E+00   1.000000E+00
+# reference:
+#   author: P.Reimer, V.Avrigeanu, S.V.Chuvaev, A.A.Filatenkov, T.Glodariu,A.Koning,A.J.M.Plompen, S.M.Qaim, D.L.Smith, H.Weigmann
+#   title: Reaction mechanisms of fast neutrons on stable Mo  isotopes below 21 MeV.
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.71, p.044617 (2005)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.623000E+01
+#   E-max [MeV]:  2.060000E+01
+#   F-value:  1.291862E+00
+#   A-value:  8.210236E-01
+#   chi-2:  5.243299E+00
+#   p-value:  1.562470E-01
+#   exp. data sets for p-value:      1
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    1.222828E+00   8.481155E-01   3.823338E+00
+# endfb8.0      1.195857E+00   8.504652E-01   3.511193E+00
+# jeff3.3       1.518035E+00   6.637936E-01   1.227259E+01
+# jendl5.0      1.518035E+00   6.637936E-01   1.227259E+01
+# cendl3.2      1.249236E+00   8.168766E-01   4.960799E+00

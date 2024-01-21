@@ -1,0 +1,55 @@
+# header:
+#   title: Pt194(n,x)Pt195 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Koehler
+#   year: 2013
+#   subentry: 14372005
+#   X4 reaction: 78-PT-194(N,G)78-PT-195,,SIG,,AV
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/14372005
+# target:
+#   Z: 78
+#   A: 194
+#   nuclide: Pt194
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+# residual:
+#   Z: 78
+#   A: 195
+#   nuclide: Pt195
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   4.000000E-03   1.000000E-03   6.748000E+02   4.700000E+00   1.000000E+00
+   6.250000E-03   1.250000E-03   5.983000E+02   4.500000E+00   1.000000E+00
+   8.750000E-03   1.250000E-03   4.261000E+02   4.700000E+00   1.000000E+00
+   1.125000E-02   1.250000E-03   4.163000E+02   4.600000E+00   1.000000E+00
+   1.375000E-02   1.250000E-03   3.019000E+02   3.900000E+00   1.000000E+00
+# reference:
+#   author: P.E.Koehler,K.H.Guber
+#   title: Improved 192,194,195,196Pt(n,gamma) and 192Ir(n,gamma) astrophysical reaction rates
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.88, p.035802 (2013)
+# statistics:
+#   NEA score: T3
+#   IAEA score: -1
+#   E-min [MeV]:  4.000000E-03
+#   E-max [MeV]:  1.375000E-02
+#   F-value:  1.734043E+01
+#   A-value:  1.846083E-01
+#   chi-2:  6.348560E+03
+#   p-value:  3.573224E-01
+#   exp. data sets for p-value:      3
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.197145E+00   1.151036E+00   4.499349E+02
+# endfb8.0      3.284927E+01   7.393197E-02   9.297872E+03
+# jeff3.3       3.284927E+01   7.393197E-02   9.297872E+03

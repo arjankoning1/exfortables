@@ -1,0 +1,50 @@
+# header:
+#   title: U238(n,p)Pa238 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Trautmann
+#   year: 1969
+#   subentry: 22551002
+#   X4 reaction: 92-U-238(N,P)91-PA-238,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22551002
+# target:
+#   Z: 92
+#   A: 238
+#   nuclide: U238
+# reaction:
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 91
+#   A: 238
+#   nuclide: Pa238
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.480000E+01   3.000000E-01   1.500000E+00   4.000000E-01   1.000000E+00
+# reference:
+#   author: N.TRAUTMANN,R.DENIG,G.HERRMANN
+#   title: .NEUTRON-PROTON AND NEUTRON-ALPHA CROSS SECTION  MEASUREMENTS
+#   journal: Jour: Radiochimica Acta, Vol.11, p.168 (1969)
+# statistics:
+#   NEA score: T2
+#   IAEA score:  1
+#   E-min [MeV]:  1.480000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  3.227807E+00
+#   A-value:  3.098079E-01
+#   chi-2:  6.821224E+00
+#   p-value:  2.453448E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# jeff3.3       3.227807E+00   3.098079E-01   6.821224E+00
+# jendl5.0      0.000000E+00   0.000000E+00   0.000000E+00

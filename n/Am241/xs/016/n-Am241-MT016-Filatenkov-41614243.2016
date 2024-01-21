@@ -1,0 +1,59 @@
+# header:
+#   title: Am241(n,2n)Am240 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Filatenkov
+#   year: 2016
+#   subentry: 41614243
+#   X4 reaction: 95-AM-241(N,2N)95-AM-240,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/41614243
+# target:
+#   Z: 95
+#   A: 241
+#   nuclide: Am241
+# reaction:
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 95
+#   A: 240
+#   nuclide: Am240
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.348000E+01   0.000000E+00   2.469987E+02   1.977738E+01   9.999947E-01
+   1.356000E+01   0.000000E+00   2.400022E+02   2.495920E+01   1.000009E+00
+   1.409000E+01   0.000000E+00   2.079981E+02   2.183965E+01   9.999911E-01
+   1.421000E+01   0.000000E+00   2.289984E+02   2.496083E+01   9.999930E-01
+   1.469000E+01   0.000000E+00   1.989991E+02   2.189093E+01   9.999956E-01
+   1.484000E+01   0.000000E+00   1.939991E+02   2.192293E+01   9.999955E-01
+   1.486000E+01   0.000000E+00   2.170009E+02   1.491086E+01   1.000004E+00
+# reference:
+#   author: A.A.Filatenkov
+#   title: Neutron activation cross sections measured at KRI in neutron energy region 13.4 - 14.9 MeV
+#   journal: Rept: USSR report to the I.N.D.C., No.0460 (2016)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.348000E+01
+#   E-max [MeV]:  1.486000E+01
+#   F-value:  1.110197E+00
+#   A-value:  1.088267E+00
+#   chi-2:  1.564142E+00
+#   p-value:  2.134106E-01
+#   exp. data sets for p-value:      5
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    1.087129E+00   1.063304E+00   1.035283E+00
+# endfb8.0      1.127096E+00   1.107111E+00   1.937900E+00
+# jeff3.3       1.086812E+00   1.063757E+00   1.035724E+00
+# jendl5.0      1.122214E+00   1.102974E+00   1.966283E+00
+# cendl3.2      1.121367E+00   1.105149E+00   1.845522E+00

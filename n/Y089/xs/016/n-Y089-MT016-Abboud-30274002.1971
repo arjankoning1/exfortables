@@ -1,0 +1,61 @@
+# header:
+#   title: Y89(n,2n)Y88 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Abboud
+#   year: 1971
+#   subentry: 30274002
+#   X4 reaction: 39-Y-89(N,2N)39-Y-88,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30274002
+# target:
+#   Z: 39
+#   A: 89
+#   nuclide: Y89
+# reaction:
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 39
+#   A: 88
+#   nuclide: Y88
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.329000E+01   8.000000E-02   5.888962E+02   6.723200E+00   9.469305E-01
+   1.387000E+01   1.100000E-01   7.542399E+02   3.195108E+01   9.293246E-01
+   1.461000E+01   1.100000E-01   8.136602E+02   4.793532E+01   9.502045E-01
+   1.527000E+01   1.500000E-01   1.007128E+03   1.819878E+01   9.680201E-01
+   1.571000E+01   1.400000E-01   9.308726E+02   1.287219E+01   9.820365E-01
+   1.608000E+01   1.800000E-01   9.501635E+02   4.072272E+01   9.956654E-01
+   1.674000E+01   1.500000E-01   9.735883E+02   3.426203E+01   9.761261E-01
+   1.758000E+01   9.000000E-02   1.064198E+03   3.289618E+01   9.434384E-01
+# reference:
+#   author: A.Abboud,P.Decowski,W.Grochulski,A.Marcinkowski, K.Siwek,I.Turkiewicz,Z.Wilhelmi
+#   title: Cross-sections for the Y-89(n,n')Y-89m and Y-39 (n,2n)Y-88 reactions
+#   journal: Jour: Acta Physica Polonica, Part B, Vol.2, p.527 (1971)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.329000E+01
+#   E-max [MeV]:  1.758000E+01
+#   F-value:  1.180295E+00
+#   A-value:  1.152085E+00
+#   chi-2:  5.841917E+01
+#   p-value:  1.699648E-01
+#   exp. data sets for p-value:      8
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2023    1.159939E+00   1.134376E+00   4.316428E+01
+# endfb8.0      1.178281E+00   1.151554E+00   5.922366E+01
+# jeff3.3       1.178281E+00   1.151554E+00   5.922366E+01
+# jendl5.0      1.197261E+00   1.162668E+00   6.918866E+01
+# cendl3.2      1.201516E+00   1.173499E+00   7.355917E+01
+# irdff2.0      1.163411E+00   1.139315E+00   4.615557E+01

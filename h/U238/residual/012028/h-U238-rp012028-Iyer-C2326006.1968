@@ -1,0 +1,53 @@
+# header:
+#   title: U238(h,x)Mg28 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Iyer
+#   year: 1968
+#   subentry: C2326006
+#   X4 reaction: 92-U-238(HE3,F)ELEM/MASS,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C2326006
+# target:
+#   Z: 92
+#   A: 238
+#   nuclide: U238
+# reaction:
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+# residual:
+#   Z: 12
+#   A: 28
+#   nuclide: Mg28
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.260000E+01   1.000000E+00   1.550000E-05   4.600000E-06   1.000000E+00
+   3.260000E+01   1.000000E+00   1.800000E+00   0.000000E+00   1.000000E+00
+   3.880000E+01   5.000000E-01   1.350000E-04   2.700000E-06   1.000000E+00
+   3.940000E+01   5.000000E-01   1.720000E-04   3.500000E-05   1.000000E+00
+   3.940000E+01   5.000000E-01   2.420000E-05   5.000000E-06   1.000000E+00
+   3.940000E+01   5.000000E-01   4.700000E+00   0.000000E+00   1.000000E+00
+# reference:
+#   author: R.H.Iyer,J.W.Cobble
+#   title: Ternary Fission of U238 Induced by Intermediate-Energy Helium Ions
+#   journal: Jour: Physical Review, Vol.172, p.1186 (1968)
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  3.260000E+01
+#   E-max [MeV]:  3.940000E+01
+#   F-value:  0.000000E+00
+#   A-value:  0.000000E+00
+#   chi-2:  0.000000E+00
+#   p-value:  0.000000E+00
+#   exp. data sets for p-value:      1
+#   libraries:      0
+##  Library          F              A            chi-2

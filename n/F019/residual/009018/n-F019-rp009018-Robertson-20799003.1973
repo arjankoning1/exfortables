@@ -1,0 +1,49 @@
+# header:
+#   title: F19(n,x)F18 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Robertson
+#   year: 1973
+#   subentry: 20799003
+#   X4 reaction: 9-F-19(N,2N)9-F-18,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20799003
+# target:
+#   Z: 9
+#   A: 19
+#   nuclide: F19
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 9
+#   A: 18
+#   nuclide: F18
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.478000E+01   1.000000E-01   4.627429E+01   1.033700E+00   9.660600E-01
+# reference:
+#   author: J.C.Robertson,B.Audric,P.Kolkowski
+#   title: Some activation cross-sections at 14.78 MeV.
+#   journal: Jour: Journal of Nuclear Energy, Vol.27, p.531 (1973)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.478000E+01
+#   E-max [MeV]:  1.478000E+01
+#   F-value:  1.166367E+00
+#   A-value:  1.166367E+00
+#   chi-2:  5.546561E+01
+#   p-value:  1.946165E-01
+#   exp. data sets for p-value:      8
+#   libraries:      1
+##  Library          F              A            chi-2
+# jendl5.0      1.166367E+00   1.166367E+00   5.546561E+01

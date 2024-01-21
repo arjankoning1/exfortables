@@ -1,0 +1,58 @@
+# header:
+#   title: O16(n,p)N16 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Subashi
+#   year: 2000
+#   subentry: 22494002
+#   X4 reaction: 8-O-16(N,P)7-N-16,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22494002
+# target:
+#   Z: 8
+#   A: 16
+#   nuclide: O16
+# reaction:
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 7
+#   A: 16
+#   nuclide: N16
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.360000E+01   1.000000E-01   6.022289E+01   4.152400E+00   1.034757E+00
+   1.370000E+01   1.000000E-01   5.923563E+01   3.714930E+00   1.037402E+00
+   1.410000E+01   1.000000E-01   5.104515E+01   3.178400E+00   1.016836E+00
+   1.450000E+01   1.000000E-01   4.689299E+01   2.950810E+00   9.872209E-01
+   1.470000E+01   1.000000E-01   4.302723E+01   2.586500E+00   9.891317E-01
+   1.490000E+01   1.000000E-01   4.500971E+01   2.763800E+00   1.011454E+00
+# reference:
+#   author: M.SUBASHI, E.GUELTEKIN, I.A.REYHANKAN, Y.OEZBIR,  G.TARCAN, M.SHIRIN, M.N.ERDURAN
+#   title: 16O(N,P)16N Reaction Cross Section Around 14 MeV
+#   journal: Jour: Nuclear Science and Engineering, Vol.135, Issue.3, p.260 (2000)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.360000E+01
+#   E-max [MeV]:  1.490000E+01
+#   F-value:  1.240288E+00
+#   A-value:  8.142580E-01
+#   chi-2:  9.082442E+00
+#   p-value:  7.873487E-02
+#   exp. data sets for p-value:      5
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    1.234883E+00   8.192341E-01   8.686032E+00
+# endfb8.0      1.234883E+00   8.192341E-01   8.686033E+00
+# jeff3.3       1.234883E+00   8.192341E-01   8.686032E+00
+# jendl5.0      1.261112E+00   7.946543E-01   1.066809E+01
+# cendl3.2      1.234883E+00   8.192342E-01   8.686023E+00

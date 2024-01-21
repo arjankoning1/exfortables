@@ -1,0 +1,56 @@
+# header:
+#   title: Mg0(p,x)Ne22 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Baros
+#   year: 1984
+#   subentry: O2015008
+#   X4 reaction: 12-MG-0(P,X)10-NE-22,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O2015008
+# target:
+#   Z: 12
+#   A: 0
+#   nuclide: Mg0
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 10
+#   A: 22
+#   nuclide: Ne22
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.900000E+01   0.000000E+00   2.826721E+01   3.734800E+00   3.661555E-01
+   7.500000E+01   0.000000E+00   3.388314E+01   4.449300E+00   4.889341E-01
+   1.680000E+02   0.000000E+00   4.159584E+01   6.299370E+00   9.999000E-01
+   2.000000E+02   0.000000E+00   4.259574E+01   5.699430E+00   9.999000E-01
+   1.000000E+03   0.000000E+00   5.179482E+01   7.999200E+00   9.999000E-01
+   2.500000E+03   0.000000E+00   3.169683E+01   5.399460E+00   9.999000E-01
+   2.400000E+04   0.000000E+00   3.069693E+01   4.399560E+00   9.999000E-01
+# reference:
+#   author: F.Baros, S.Regnier
+#   title: Measurement of cross sections for 22Na, 20-22Ne and 36-42Ar in the spallation of Mg, Al, Si, Ca and Fe. Production ratios of some cosmogenic nuclides in meteorites
+#   journal: Jour: Journal de Physique, Vol.45, p.855 (1984)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  5.900000E+01
+#   E-max [MeV]:  2.400000E+04
+#   F-value:  2.643982E+00
+#   A-value:  4.591559E-01
+#   chi-2:  1.639271E+01
+#   p-value:  1.038257E-01
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    2.779670E+00   4.967023E-01   1.586405E+01
+# jendl5.0      2.508087E+00   4.244476E-01   1.692137E+01

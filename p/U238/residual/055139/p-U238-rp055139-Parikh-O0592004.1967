@@ -1,0 +1,55 @@
+# header:
+#   title: U238(p,x)Cs139 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Parikh
+#   year: 1967
+#   subentry: O0592004
+#   X4 reaction: 92-U-238(P,F)55-CS-139,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O0592004
+# target:
+#   Z: 92
+#   A: 238
+#   nuclide: U238
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+# residual:
+#   Z: 55
+#   A: 139
+#   nuclide: Cs139
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.000000E+01   2.000000E+00   2.550000E+01   3.200000E+00   1.000000E+00
+   3.000000E+01   2.000000E+00   2.540000E+01   3.200000E+00   1.000000E+00
+   4.000000E+01   2.000000E+00   1.660000E+01   2.100000E+00   1.000000E+00
+   5.000000E+01   2.000000E+00   1.310000E+01   1.600000E+00   1.000000E+00
+   6.000000E+01   2.000000E+00   1.490000E+01   1.500000E+00   1.000000E+00
+   7.000000E+01   2.000000E+00   1.010000E+01   1.000000E+00   1.000000E+00
+   8.000000E+01   2.000000E+00   8.700000E+00   9.000000E-01   1.000000E+00
+   8.500000E+01   2.000000E+00   7.500000E+00   8.000000E-01   1.000000E+00
+# reference:
+#   author: S.S.Parikh,D.A.Marsden,N.T.Porile,L.Yaffe
+#   title: Isobaric yield distribution in the fission of uranium by medium-energy protons.
+#   journal: Jour: Canadian Journal of Chemistry, Vol.45, p.1863 (1967)
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  2.000000E+01
+#   E-max [MeV]:  8.500000E+01
+#   F-value:  0.000000E+00
+#   A-value:  0.000000E+00
+#   chi-2:  0.000000E+00
+#   p-value:  0.000000E+00
+#   exp. data sets for p-value:      1
+#   libraries:      0
+##  Library          F              A            chi-2

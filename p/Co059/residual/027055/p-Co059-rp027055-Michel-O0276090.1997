@@ -1,0 +1,59 @@
+# header:
+#   title: Co59(p,x)Co55 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Michel
+#   year: 1997
+#   subentry: O0276090
+#   X4 reaction: 27-CO-59(P,X)27-CO-55,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O0276090
+# target:
+#   Z: 27
+#   A: 59
+#   nuclide: Co59
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 27
+#   A: 55
+#   nuclide: Co55
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 10
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.770000E+01   9.600000E-01   3.630000E+00   7.730000E-01   1.000000E+00
+   5.860000E+01   9.600000E-01   4.030000E+00   2.130000E-01   1.000000E+00
+   5.980000E+01   9.500000E-01   4.870000E+00   2.770000E-01   1.000000E+00
+   6.030000E+01   8.930000E-01   5.090000E+00   3.740000E-01   1.000000E+00
+   6.110000E+01   9.130000E-01   5.260000E+00   1.080000E+00   1.000000E+00
+   6.170000E+01   8.690000E-01   7.550000E+00   2.320000E+00   1.000000E+00
+   7.150000E+01   6.920000E-01   7.910000E+00   6.150000E-01   1.000000E+00
+   1.080000E+02   1.610000E+00   5.420000E+00   6.560000E-01   1.000000E+00
+   1.530000E+02   1.200000E+00   3.560000E+00   2.600000E-01   1.000000E+00
+   1.540000E+02   1.080000E+00   3.610000E+00   5.840001E-01   1.000000E+00
+# reference:
+#   author: R.Michel, R.Bodemann, H.Busemann, R.Daunke, M.Gloris, H.-J.Lange, B.Klug, A.Krins, I.Leya, M.Luepke, S.Neumann, H.Reinhardt, M.Schnatz-Buettgen, U.Herpers, Th.Schiekel, F.Sudbrock, B.Holmqvist, H.Conde, P.Malmborg, M.Suter, B.Dittrich-Hannen, P.-W.Kubik, H.-A.Synal, D.Filges
+#   title: Cross sections for the production of residual nuclides by low- and medium-energy protons from the target elements C, N, O, Mg, Al, Si, Ca, Ti, V, Mn, Fe, Co, Ni, Cu, Sr, Y, Zr, Nb, Ba and Au.
+#   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.129, p.153 (19
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  5.770000E+01
+#   E-max [MeV]:  1.540000E+02
+#   F-value:  1.334523E+00
+#   A-value:  8.536564E-01
+#   chi-2:  8.338190E+00
+#   p-value:  2.861710E-01
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.462847E+00   7.481273E-01   1.400844E+01
+# jendl5.0      1.159331E+00   9.740710E-01   2.667942E+00

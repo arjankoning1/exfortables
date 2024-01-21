@@ -1,0 +1,58 @@
+# header:
+#   title: Cr53(n,a)Ti50 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Khromyleva
+#   year: 2018
+#   subentry: 41653006
+#   X4 reaction: 24-CR-53(N,A)22-TI-50,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/41653006
+# target:
+#   Z: 24
+#   A: 53
+#   nuclide: Cr53
+# reaction:
+#   type: (n,a)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+# residual:
+#   Z: 22
+#   A: 50
+#   nuclide: Ti50
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   4.500000E+00   1.100000E-01   1.300000E+00   3.000000E-01   1.000000E+00
+   5.000000E+00   9.000000E-02   2.200000E+00   3.000000E-01   1.000000E+00
+   5.500000E+00   8.000000E-02   2.600000E+00   3.000000E-01   1.000000E+00
+   6.000000E+00   7.000000E-02   2.900000E+00   3.000000E-01   1.000000E+00
+   6.500000E+00   6.000000E-02   3.200000E+00   4.000000E-01   1.000000E+00
+   6.800000E+00   5.000000E-02   4.000000E+00   4.000000E-01   1.000000E+00
+   7.150000E+00   5.000000E-02   4.100000E+00   4.400000E-01   1.000000E+00
+# reference:
+#   author: T.Khromyleva, I.P.Bondarenko, A.Gurbich, V.Ketlerov, V.A.Khryachkov, P.Prusachenko
+#   title: Investigation of (n,alpha) reaction cross section for a number of structural material isotopes
+#   journal: Jour: Nuclear Science and Engineering, Vol.191, p.282 (2018)
+# statistics:
+#   NEA score: R2
+#   IAEA score:  1
+#   E-min [MeV]:  4.500000E+00
+#   E-max [MeV]:  7.150000E+00
+#   F-value:  2.197583E+00
+#   A-value:  1.675600E+00
+#   chi-2:  1.906038E+02
+#   p-value:  3.161370E-01
+#   exp. data sets for p-value:      1
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2023    1.138942E+00   8.977514E-01   1.481389E+00
+# endfb8.0      2.752532E+00   2.742118E+00   2.056016E+02
+# jendl5.0      1.129386E+00   1.090631E+00   1.698780E+00
+# cendl3.2      3.526014E+00   3.298371E+00   6.412145E+02

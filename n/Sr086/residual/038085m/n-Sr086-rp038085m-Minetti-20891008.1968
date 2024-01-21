@@ -1,0 +1,56 @@
+# header:
+#   title: Sr86(n,x)Sr85m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Minetti
+#   year: 1968
+#   subentry: 20891008
+#   X4 reaction: 38-SR-86(N,2N)38-SR-85-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20891008
+# target:
+#   Z: 38
+#   A: 86
+#   nuclide: Sr86
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 38
+#   A: 85
+#   nuclide: Sr85m
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.470000E+01   0.000000E+00   2.337108E+02   2.555418E+01   1.052751E+00
+# reference:
+#   author: B.MINETTI,A.PASQUARELLI
+#   title: -ISOMERIC CROSS SECTION RATIO FOR (N,2N) REACTIONS  INDUCED BY 14.7 MEV NEUTRONS-
+#   journal: Jour: Nuclear Physics, Section A, Vol.118, p.449 (1968)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.470000E+01
+#   E-max [MeV]:  1.470000E+01
+#   F-value:  1.024384E+00
+#   A-value:  1.012531E+00
+#   chi-2:  2.857833E-01
+#   p-value:  3.320203E-01
+#   exp. data sets for p-value:      8
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.016761E+00   9.835154E-01   1.951167E-01
+# jeff3.3       1.029393E+00   1.029393E+00   3.570702E-01
+# jendl5.0      1.025329E+00   1.025329E+00   3.051631E-01

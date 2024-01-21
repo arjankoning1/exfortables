@@ -1,0 +1,53 @@
+# header:
+#   title: Pb208(n,p)Tl208 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Hankla
+#   year: 1972
+#   subentry: 10244025
+#   X4 reaction: 82-PB-208(N,P)81-TL-208,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/10244025
+# target:
+#   Z: 82
+#   A: 208
+#   nuclide: Pb208
+# reaction:
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 81
+#   A: 208
+#   nuclide: Tl208
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.440000E+01   8.000000E-01   4.502600E-01   5.872900E-02   9.788235E-01
+# reference:
+#   author: A.K.Hankla,R.W.Fink,J.H.Hamilton
+#   title: Neutron activation cross sections at 14.4 MeV for some  naturally occurring heavy elements in the region  76 <= Z <= 82
+#   journal: Jour: Nuclear Physics, Section A, Vol.180, p.157 (1972)
+# statistics:
+#   NEA score: T2
+#   IAEA score:  1
+#   E-min [MeV]:  1.440000E+01
+#   E-max [MeV]:  1.440000E+01
+#   F-value:  1.509615E+00
+#   A-value:  9.473298E-01
+#   chi-2:  1.116585E+01
+#   p-value:  3.492368E-01
+#   exp. data sets for p-value:      8
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    1.396713E+00   1.396713E+00   9.293374E+00
+# endfb8.0      1.244868E+00   8.032978E-01   2.779665E+00
+# jeff3.3       1.575971E+00   6.345294E-01   7.928019E+00
+# jendl5.0      1.575971E+00   6.345294E-01   7.928019E+00
+# cendl3.2      1.688958E+00   1.688958E+00   2.790018E+01

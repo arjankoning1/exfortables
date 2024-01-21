@@ -1,0 +1,58 @@
+# header:
+#   title: Bi209(p,x)Hg194 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Titarenko
+#   year: 2022
+#   subentry: F1462003
+#   X4 reaction: 83-BI-209(P,X)80-HG-194,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/F1462003
+# target:
+#   Z: 83
+#   A: 209
+#   nuclide: Bi209
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 80
+#   A: 194
+#   nuclide: Hg194
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.490000E+02   1.000000E+00   1.780000E+01   2.000000E+00   1.000000E+00
+   2.490000E+02   1.000000E+00   4.380000E+01   3.400000E+00   1.000000E+00
+   4.000000E+02   2.000000E+00   5.840001E+01   4.500000E+00   1.000000E+00
+   5.990000E+02   2.000000E+00   6.250001E+01   4.800000E+00   1.000000E+00
+   7.990000E+02   2.000000E+00   4.830000E+01   4.000000E+00   1.000000E+00
+   1.190000E+03   3.000000E+00   3.860000E+01   3.200000E+00   1.000000E+00
+   1.598000E+03   4.000000E+00   2.870000E+01   2.700000E+00   1.000000E+00
+   2.609000E+03   8.000000E+00   2.510000E+01   3.000000E+00   1.000000E+00
+# reference:
+#   author: Yu.E.Titarenko,V.F.Batyaev,K.V.Pavlov,A.Yu.Titarenko, S.V.Malinovskiy,V.I.Rogov,V.M.Zhivun,T.V.Kulevoy, M.V.Chauzova,R.S.Khalikov,A.V.Ignatyuk, V.Yu.Blandinskiy,A.A.Kovalishin,M.I.Baznat, A.Yu.Stankovskiy,A.I.Dubrouski,H.I.Kiyavitskaya, Tao Xue,Yang Tian,Ming Zeng,Zhi Zeng,O.Normahmedov, T.Sato
+#   title: 206,207,208,natPb(p,x)194Hg and 209Bi(p,x)194Hg excitation functions in the energy range 0.04-2.6 GeV
+#   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.A, Vol.1026, p.166151
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  1.490000E+02
+#   E-max [MeV]:  2.609000E+03
+#   F-value:  2.833953E+01
+#   A-value:  3.788971E-02
+#   chi-2:  7.204636E+01
+#   p-value:  0.000000E+00
+#   exp. data sets for p-value:      2
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.239765E+01   8.066046E-02   6.694711E+01
+# endfb8.0      2.271971E+01   4.401464E-02   7.239065E+01
+# jendl5.0      6.526701E+01   1.532168E-02   7.680132E+01

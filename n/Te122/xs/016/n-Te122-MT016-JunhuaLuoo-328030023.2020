@@ -1,0 +1,54 @@
+# header:
+#   title: Te122(n,2n)Te121 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: JunhuaLuoo
+#   year: 2020
+#   subentry: 328030023
+#   X4 reaction: 52-TE-122(N,2N)52-TE-121,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/328030023
+# target:
+#   Z: 52
+#   A: 122
+#   nuclide: Te122
+# reaction:
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 52
+#   A: 121
+#   nuclide: Te121
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.350000E+01   2.000000E-01   1.023000E+03   8.400001E+01   1.000000E+00
+   1.410000E+01   2.000000E-01   1.061000E+03   9.300000E+01   1.000000E+00
+   1.480000E+01   2.000000E-01   1.162000E+03   9.600001E+01   1.000000E+00
+# reference:
+#   author: Junhua Luo, Li Jiang, Le Shan, Liang Zhou
+#   title: Activation cross-section and isomeric cross-section ratio for the 122Te(n,2n)121m,gTe process
+#   journal: Jour: Journal of Radioanalytical and Nuclear Chemistry, Vol.324, p.913 (
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.350000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.233351E+00
+#   A-value:  1.226218E+00
+#   chi-2:  7.936990E+00
+#   p-value:  1.653330E-01
+#   exp. data sets for p-value:      2
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2023    1.213327E+00   1.212249E+00   6.536628E+00
+# endfb8.0      1.154369E+00   1.153133E+00   3.726550E+00
+# jeff3.3       1.307110E+00   1.305600E+00   1.332775E+01
+# jendl5.0      1.239875E+00   1.238764E+00   8.157036E+00

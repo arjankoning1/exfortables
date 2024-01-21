@@ -1,0 +1,58 @@
+# header:
+#   title: Pd102(p,g)Ag103 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Ozkan
+#   year: 2002
+#   subentry: C0904002
+#   X4 reaction: 46-PD-102(P,G)47-AG-103,,SIG,,SFC
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C0904002
+# target:
+#   Z: 46
+#   A: 102
+#   nuclide: Pd102
+# reaction:
+#   type: (p,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+# residual:
+#   Z: 47
+#   A: 103
+#   nuclide: Ag103
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 9
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.527000E+00   0.000000E+00   5.099200E-02   8.719700E-03   1.000000E+00
+   2.626000E+00   0.000000E+00   5.686600E-02   1.580900E-02   1.000000E+00
+   2.725000E+00   0.000000E+00   1.006600E-01   1.912600E-02   1.000000E+00
+   2.924000E+00   0.000000E+00   2.051300E-01   4.102700E-02   1.000000E+00
+   3.173000E+00   0.000000E+00   4.009800E-01   6.255300E-02   1.000000E+00
+   3.422000E+00   0.000000E+00   7.671900E-01   1.319600E-01   1.000000E+00
+   3.672000E+00   0.000000E+00   1.036700E+00   1.793500E-01   1.000000E+00
+   3.919000E+00   0.000000E+00   2.412400E+00   3.522100E-01   1.000000E+00
+   4.171000E+00   0.000000E+00   3.790700E+00   4.473100E-01   1.000000E+00
+# reference:
+#   author: N.Ozkan,A.St.J.Murphy,R.N.Boyd,A.L.Cole,M.Famiano, R.T.Guray,M.Howard,L.Sahin,J.J.Zach,R.deHaan, J.Goerres,M.Wiescher,M.S.Islam,T.Raucher
+#   title: Cross section measurements of the 102Pd(p,gamma)103Ag,  116Sn(p,gamma)117Sn, and 112Sn(alpha,gamma)116Te  reactions relevant to the astrophysical rp- and  gamma-processes
+#   journal: Jour: Nuclear Physics, Section A, Vol.710, p.469 (2002)
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  2.527000E+00
+#   E-max [MeV]:  4.171000E+00
+#   F-value:  2.639689E+00
+#   A-value:  3.878633E-01
+#   chi-2:  1.433021E+01
+#   p-value:  1.524042E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    3.008933E+00   3.353510E-01   1.651900E+01
+# jendl5.0      2.268389E+00   4.485984E-01   1.214141E+01

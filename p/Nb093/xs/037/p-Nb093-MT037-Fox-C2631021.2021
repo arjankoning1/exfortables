@@ -1,0 +1,67 @@
+# header:
+#   title: Nb93(p,4n)Mo90 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Fox
+#   year: 2021
+#   subentry: C2631021
+#   X4 reaction: 41-NB-93(P,4N)42-MO-90,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C2631021
+# target:
+#   Z: 41
+#   A: 93
+#   nuclide: Nb93
+# reaction:
+#   type: (p,4n)
+#   ENDF_MF: 3
+#   ENDF_MT: 37
+# residual:
+#   Z: 42
+#   A: 90
+#   nuclide: Mo90
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 17
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.161000E+01   8.000000E-01   1.189000E+02   6.300000E+00   1.000000E+00
+   5.362000E+01   7.700000E-01   1.033000E+02   5.700000E+00   1.000000E+00
+   5.558000E+01   7.500000E-01   9.170000E+01   5.100000E+00   1.000000E+00
+   5.747000E+01   7.300000E-01   8.330001E+01   4.600000E+00   1.000000E+00
+   6.008000E+01   7.100000E-01   6.370001E+01   3.700000E+00   1.000000E+00
+   6.306000E+01   6.800000E-01   4.890000E+01   3.600000E+00   1.000000E+00
+   6.714000E+01   6.500000E-01   3.620000E+01   2.200000E+00   1.000000E+00
+   7.252000E+01   6.200000E-01   2.850000E+01   1.700000E+00   1.000000E+00
+   7.932000E+01   5.800000E-01   2.280000E+01   1.400000E+00   1.000000E+00
+   9.121000E+01   5.200000E-01   1.790000E+01   1.100000E+00   1.000000E+00
+   1.042000E+02   1.100000E-01   1.230000E+01   1.100000E+00   1.000000E+00
+   1.198000E+02   1.000000E-01   9.639999E+00   8.800000E-01   1.000000E+00
+   1.338700E+02   9.200000E-01   7.700000E+00   7.000000E-01   1.000000E+00
+   1.486600E+02   8.600000E-01   6.550000E+00   5.900000E-01   1.000000E+00
+   1.633100E+02   8.100000E-01   5.460000E+00   3.200000E-01   1.000000E+00
+   1.771100E+02   7.700000E-01   5.010000E+00   3.400000E-01   1.000000E+00
+   1.923800E+02   7.300000E-01   4.540000E+00   3.300000E-01   1.000000E+00
+# reference:
+#   author: M.B.Fox,A.S.Voyles,J.T.Morrell,L.A.Bernstein, A.M.Lewis,A.J.Koning,J.C.Batchelder,E.R.Birnbaum, C.S.Cutler,D.G.Medvedev,F.M.Nortier,E.M.O'Brien, C.Vermeulen
+#   title: Investigating high-energy proton-induced reactions on spherical nuclei: Implications for the preequilibrium exciton model
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.103, p.034601 (2021)
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  5.161000E+01
+#   E-max [MeV]:  1.923800E+02
+#   F-value:  3.293030E+00
+#   A-value:  3.340697E-01
+#   chi-2:  1.058453E+02
+#   p-value:  1.376795E-01
+#   exp. data sets for p-value:      3
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    4.036189E+00   2.637205E-01   1.338985E+02
+# endfb8.0      4.426414E+00   2.265050E-01   1.443857E+02
+# jendl5.0      1.911603E+00   5.338866E-01   5.625243E+01

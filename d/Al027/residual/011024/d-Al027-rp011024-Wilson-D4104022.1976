@@ -1,0 +1,50 @@
+# header:
+#   title: Al27(d,x)Na24 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Wilson
+#   year: 1976
+#   subentry: D4104022
+#   X4 reaction: 13-AL-27(D,X)11-NA-24,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D4104022
+# target:
+#   Z: 13
+#   A: 27
+#   nuclide: Al27
+# reaction:
+#   type: (d,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 11
+#   A: 24
+#   nuclide: Na24
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.210000E+01   1.100000E+00   2.900000E+00   3.000000E-01   1.000000E+00
+   1.645000E+01   8.500000E-01   1.900000E+01   1.000000E+00   1.000000E+00
+# reference:
+#   author: R.L.Wilson,D.J.Frantsvog,A.R.Kunselman,C.Detraz, C.S.Zasdins
+#   title: Excitation functions of reactions induced by 1H and 2H ions on natural Mg, Al and Si
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.13, p.976 (1976)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  1.210000E+01
+#   E-max [MeV]:  1.645000E+01
+#   F-value:  2.137401E+00
+#   A-value:  9.366574E-01
+#   chi-2:  1.938710E+02
+#   p-value:  2.294886E-01
+#   exp. data sets for p-value:      8
+#   libraries:      1
+##  Library          F              A            chi-2
+# tendl.2023    2.137401E+00   9.366574E-01   1.938710E+02

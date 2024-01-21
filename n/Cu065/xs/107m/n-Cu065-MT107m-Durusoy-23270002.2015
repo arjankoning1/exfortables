@@ -1,0 +1,60 @@
+# header:
+#   title: Cu65(n,a)Co62m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Durusoy
+#   year: 2015
+#   subentry: 23270002
+#   X4 reaction: 29-CU-65(N,A)27-CO-62-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/23270002
+# target:
+#   Z: 29
+#   A: 65
+#   nuclide: Cu65
+# reaction:
+#   type: (n,a)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+# residual:
+#   Z: 27
+#   A: 62
+#   nuclide: Co62m
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.360000E+01   4.000000E-02   8.019199E+00   6.113300E-01   1.055153E+00
+   1.368000E+01   4.000000E-02   7.038600E+00   5.398800E-01   1.072957E+00
+   1.410000E+01   5.000000E-02   8.083800E+00   6.107500E-01   1.041728E+00
+   1.446000E+01   6.000000E-02   8.890800E+00   6.717300E-01   1.016093E+00
+   1.472000E+01   6.000000E-02   8.121300E+00   6.167300E-01   1.018983E+00
+   1.486000E+01   8.000000E-02   8.408401E+00   6.380900E-01   1.036789E+00
+# reference:
+#   author: A.Durusoy,I.A.Reyhancan,Oe.Akcali
+#   title: 65Cu isomeric cross section for (n,alpha) reaction using approximately 14 MeV neutrons .
+#   journal: Jour: Applied Radiation and Isotopes, Vol.99, p.86 (2015)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.360000E+01
+#   E-max [MeV]:  1.486000E+01
+#   F-value:  1.061967E+00
+#   A-value:  1.027504E+00
+#   chi-2:  1.053846E+00
+#   p-value:  3.801870E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.071639E+00   1.038779E+00   1.281682E+00
+# jendl5.0      1.050661E+00   1.016351E+00   8.260109E-01

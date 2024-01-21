@@ -1,0 +1,50 @@
+# header:
+#   title: Bi209(h,f) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Becchetti
+#   year: 1983
+#   subentry: C2442009
+#   X4 reaction: 83-BI-209(HE3,F),,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C2442009
+# target:
+#   Z: 83
+#   A: 209
+#   nuclide: Bi209
+# reaction:
+#   type: (h,f)
+#   ENDF_MF: 3
+#   ENDF_MT: 18
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.931400E+01   0.000000E+00   2.738000E-03   4.074000E-03   1.000000E+00
+   2.519600E+01   0.000000E+00   7.867000E-01   6.123000E-01   1.000000E+00
+   2.951000E+01   0.000000E+00   2.738000E+00   2.131000E+00   1.000000E+00
+   3.392200E+01   0.000000E+00   9.084999E+00   5.593000E+00   1.000000E+00
+   3.735300E+01   0.000000E+00   1.468000E+01   1.142000E+01   1.000000E+00
+   4.441200E+01   0.000000E+00   3.162000E+01   2.461000E+01   1.000000E+00
+# reference:
+#   author: F.D.Becchetti,K.H.Hicks,C.A.Fields,R.J.Peterson, R.S.Raymond,R.A.Ristinen,J.L.Ullmann,C.S.Zaidins
+#   title: 3He-induced fission of nuclei 159<A<232
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.28, p.1217 (1983)
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  1.931400E+01
+#   E-max [MeV]:  4.441200E+01
+#   F-value:  5.283987E+00
+#   A-value:  1.926479E-01
+#   chi-2:  1.796896E+00
+#   p-value:  4.470348E-07
+#   exp. data sets for p-value:      1
+#   libraries:      1
+##  Library          F              A            chi-2
+# tendl.2023    5.283987E+00   1.926479E-01   1.796896E+00

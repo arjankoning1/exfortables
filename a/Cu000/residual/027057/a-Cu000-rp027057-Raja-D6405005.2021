@@ -1,0 +1,53 @@
+# header:
+#   title: Cu0(a,x)Co57 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Raja
+#   year: 2021
+#   subentry: D6405005
+#   X4 reaction: 29-CU-0(A,X)27-CO-57,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D6405005
+# target:
+#   Z: 29
+#   A: 0
+#   nuclide: Cu0
+# reaction:
+#   type: (a,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 27
+#   A: 57
+#   nuclide: Co57
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.880000E+01   6.000000E-01   2.700000E-01   2.000000E-02   1.000000E+00
+   4.050000E+01   1.300000E+00   4.900000E-01   4.000000E-02   1.000000E+00
+   4.340000E+01   1.100000E+00   6.600000E-01   5.000000E-02   1.000000E+00
+   4.630000E+01   9.000000E-01   8.000000E-01   6.000000E-02   1.000000E+00
+   4.900000E+01   5.000000E-01   1.580000E+00   1.200000E-01   1.000000E+00
+# reference:
+#   author: S.W.Raja, S.D.Chaudhuri, D.Banerjee, R.Acharya, P.K.Pujari
+#   title: Measurement of production cross sections of 66,67Ga, 65Zn and 57,58Co from alpha induced reactions of natural copper for energy up to 50 MeV utilizing cyclotron facility at VECC
+#   journal: Jour: Nuclear Physics, Section A, Vol.1015, p.122309 (2021)
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  3.880000E+01
+#   E-max [MeV]:  4.900000E+01
+#   F-value:  5.465279E+01
+#   A-value:  2.334618E-02
+#   chi-2:  1.535528E+02
+#   p-value:  7.152558E-08
+#   exp. data sets for p-value:      1
+#   libraries:      1
+##  Library          F              A            chi-2
+# tendl.2023    5.465279E+01   2.334618E-02   1.535528E+02

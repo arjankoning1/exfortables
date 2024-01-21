@@ -1,0 +1,59 @@
+# header:
+#   title: Ni58(n,p)Co58 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Okumura
+#   year: 1967
+#   subentry: 20303004
+#   X4 reaction: 28-NI-58(N,P)27-CO-58,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20303004
+# target:
+#   Z: 28
+#   A: 58
+#   nuclide: Ni58
+# reaction:
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 27
+#   A: 58
+#   nuclide: Co58
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.339000E+01   6.000000E-02   4.720000E+02   2.300000E+01   1.000000E+00
+   1.364000E+01   8.000000E-02   4.580000E+02   1.400000E+01   1.000000E+00
+   1.394000E+01   8.000000E-02   4.520000E+02   1.300000E+01   1.000000E+00
+   1.427000E+01   8.000000E-02   4.370000E+02   1.400000E+01   1.000000E+00
+   1.459000E+01   8.000000E-02   4.180000E+02   1.100000E+01   1.000000E+00
+   1.496000E+01   1.000000E-01   4.070000E+02   1.200000E+01   1.000000E+00
+# reference:
+#   author: S.Okumura
+#   title: Isomer pair cross sections by 13.4 - 15.0 MeV  neutrons
+#   journal: Jour: Nuclear Physics, Section A, Vol.93, p.74 (1967)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.339000E+01
+#   E-max [MeV]:  1.496000E+01
+#   F-value:  1.298328E+00
+#   A-value:  7.970221E-01
+#   chi-2:  5.848773E+01
+#   p-value:  9.817509E-02
+#   exp. data sets for p-value:      8
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2023    1.297750E+00   7.878063E-01   5.862908E+01
+# endfb8.0      1.343780E+00   7.671857E-01   7.230259E+01
+# jeff3.3       1.262469E+00   8.390545E-01   4.817183E+01
+# jendl5.0      1.322763E+00   7.754280E-01   6.609443E+01
+# cendl3.2      1.262935E+00   8.234342E-01   4.800212E+01
+# irdff2.0      1.294598E+00   7.916656E-01   5.772631E+01

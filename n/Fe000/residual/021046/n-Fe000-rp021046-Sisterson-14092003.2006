@@ -1,0 +1,53 @@
+# header:
+#   title: Fe0(n,x)Sc46 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Sisterson
+#   year: 2006
+#   subentry: 14092003
+#   X4 reaction: 26-FE-0(N,X)21-SC-46,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/14092003
+# target:
+#   Z: 26
+#   A: 0
+#   nuclide: Fe0
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 21
+#   A: 46
+#   nuclide: Sc46
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.122000E+02   0.000000E+00   3.600600E+00   6.001000E-01   1.000160E+00
+   1.516000E+02   0.000000E+00   2.600400E+00   1.100200E+00   1.000160E+00
+# reference:
+#   author: J.M.Sisterson,M.B.Chadwick
+#   title: Cross section measurements for neutron-induced  reactions in Ti, Fe and Ni at several neutron  energies ranging from 70.7 to 151.6 MeV
+#   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.245, p.371 (20
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.122000E+02
+#   E-max [MeV]:  1.516000E+02
+#   F-value:  2.456503E+00
+#   A-value:  1.766886E+00
+#   chi-2:  2.881058E+01
+#   p-value:  2.204456E-01
+#   exp. data sets for p-value:      1
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2023    3.617544E+00   3.189055E+00   7.040246E+01
+# endfb8.0      1.521132E+00   1.521132E+00   9.810832E+00
+# jeff3.3       1.450496E+00   7.703417E-01   3.096448E+00
+# jendl5.0      2.247740E+00   2.007521E+00   1.365606E+01

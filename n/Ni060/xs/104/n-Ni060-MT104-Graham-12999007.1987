@@ -1,0 +1,53 @@
+# header:
+#   title: Ni60(n,d)Co59 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Graham
+#   year: 1987
+#   subentry: 12999007
+#   X4 reaction: 28-NI-60(N,D)27-CO-59,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/12999007
+# target:
+#   Z: 28
+#   A: 60
+#   nuclide: Ni60
+# reaction:
+#   type: (n,d)
+#   ENDF_MF: 3
+#   ENDF_MT: 104
+# residual:
+#   Z: 27
+#   A: 59
+#   nuclide: Co59
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.100000E+01   2.100000E-01   4.000000E+00   2.500000E+00   1.000000E+00
+# reference:
+#   author: S.L.GRAHAM,M.AHMAD,S.M.GRIMES,H.SATYANARAYANA, S.K.SARAF
+#   title: CROSS SECTIONS AND SPECTRA FOR (N,XP) AND  (N,X ALPHA) REACTIONS ON 58NI AND 60NI AT ENERGIES  OF 9.4 AND 11 MEV.
+#   journal: Jour: Nuclear Science and Engineering, Vol.95, p.60 (1987)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  1.100000E+01
+#   E-max [MeV]:  1.100000E+01
+#   F-value:  4.989413E+00
+#   A-value:  2.363876E-01
+#   chi-2:  1.878363E+00
+#   p-value:  3.294051E-02
+#   exp. data sets for p-value:      1
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    7.098177E+00   1.408812E-01   2.433239E+00
+# endfb8.0      5.428339E+00   1.842184E-01   2.263582E+00
+# jeff3.3       1.038857E+00   9.625968E-01   7.595534E-02
+# jendl5.0      6.280435E+00   1.592246E-01   2.360600E+00
+# cendl3.2      5.389110E+00   1.855594E-01   2.258439E+00

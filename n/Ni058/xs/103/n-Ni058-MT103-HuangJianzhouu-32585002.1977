@@ -1,0 +1,62 @@
+# header:
+#   title: Ni58(n,p)Co58 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: HuangJianzhouu
+#   year: 1977
+#   subentry: 32585002
+#   X4 reaction: 28-NI-58(N,P)27-CO-58,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/32585002
+# target:
+#   Z: 28
+#   A: 58
+#   nuclide: Ni58
+# reaction:
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 27
+#   A: 58
+#   nuclide: Co58
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 9
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.360000E+01   1.300000E-01   4.610000E+02   1.600000E+01   1.000000E+00
+   1.409000E+01   1.400000E-01   3.660000E+02   1.200000E+01   1.000000E+00
+   1.458000E+01   2.000000E-01   3.410000E+02   1.100000E+01   1.000000E+00
+   1.460000E+01   2.200000E-01   3.310000E+02   1.700000E+01   1.000000E+00
+   1.477000E+01   2.800000E-01   2.850000E+02   1.700000E+01   1.000000E+00
+   1.481000E+01   3.000000E-01   2.900000E+02   1.800000E+01   1.000000E+00
+   1.537000E+01   4.400000E-01   2.600000E+02   1.800000E+01   1.000000E+00
+   1.642000E+01   6.000000E-01   1.990000E+02   1.300000E+01   1.000000E+00
+   1.777000E+01   1.800000E-01   1.660000E+02   9.000000E+00   1.000000E+00
+# reference:
+#   author: Huang Jianzhou,Ciu Yunfeng,Zhao Wenrong,Chem Baolin
+#   title: Activation function of fast neutron induced nuclear reaction for Ni-58 and Nb-93.
+#   journal: Jour: Atomic Energy Science and Technology, Vol.11, Issue.3, p.211 (1977
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.360000E+01
+#   E-max [MeV]:  1.777000E+01
+#   F-value:  1.138323E+00
+#   A-value:  9.126679E-01
+#   chi-2:  6.087519E+00
+#   p-value:  3.307265E-01
+#   exp. data sets for p-value:      8
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2023    1.128062E+00   9.156817E-01   5.806829E+00
+# endfb8.0      1.193492E+00   8.633403E-01   1.024651E+01
+# jeff3.3       1.057786E+00   9.797969E-01   2.208706E+00
+# jendl5.0      1.153285E+00   8.907909E-01   7.607455E+00
+# cendl3.2      1.135179E+00   9.174709E-01   4.856163E+00
+# irdff2.0      1.131803E+00   9.129481E-01   5.799448E+00

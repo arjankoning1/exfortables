@@ -1,0 +1,51 @@
+# header:
+#   title: Ni0(a,x)Co58 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Muramatsu
+#   year: 1978
+#   subentry: B0128010
+#   X4 reaction: 28-NI-0(A,X)27-CO-58,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/B0128010
+# target:
+#   Z: 28
+#   A: 0
+#   nuclide: Ni0
+# reaction:
+#   type: (a,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 27
+#   A: 58
+#   nuclide: Co58
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.110000E+01   0.000000E+00   9.954800E-01   0.000000E+00   9.954751E-01
+   3.410000E+01   0.000000E+00   5.375600E+00   0.000000E+00   9.954751E-01
+   3.680000E+01   0.000000E+00   1.592760E+01   0.000000E+00   9.954751E-01
+# reference:
+#   author: H.Muramatsu, E.Shirai, H.Nakahara, Y.Murakami
+#   title: Alpha particle bombardments of natural nickel target  for the production of 61Cu
+#   journal: Jour: Applied Radiation and Isotopes, Vol.29, p.611 (1978)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  3.110000E+01
+#   E-max [MeV]:  3.680000E+01
+#   F-value:  1.521330E+00
+#   A-value:  6.857923E-01
+#   chi-2:  0.000000E+00
+#   p-value:  1.652987E-01
+#   exp. data sets for p-value:      2
+#   libraries:      1
+##  Library          F              A            chi-2
+# tendl.2023    1.521330E+00   6.857923E-01   0.000000E+00

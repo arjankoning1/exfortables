@@ -1,0 +1,62 @@
+# header:
+#   title: Cu0(p,x)Co58 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Garrido
+#   year: 2016
+#   subentry: O2315023
+#   X4 reaction: 29-CU-0(P,X)27-CO-58,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O2315023
+# target:
+#   Z: 29
+#   A: 0
+#   nuclide: Cu0
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 27
+#   A: 58
+#   nuclide: Co58
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 12
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.948000E+01   6.000000E-01   7.864300E+00   7.565600E-01   9.954751E-01
+   3.637000E+01   1.060000E+00   4.999277E+01   5.325800E+00   9.954751E-01
+   4.045000E+01   8.300000E-01   6.135113E+01   5.694100E+00   9.954751E-01
+   4.543000E+01   5.900000E-01   5.210317E+01   4.857900E+00   9.954751E-01
+   5.674000E+01   1.130000E+00   3.080996E+01   1.901400E+00   9.954751E-01
+   5.712000E+01   1.090000E+00   3.033213E+01   2.508600E+00   9.954751E-01
+   5.755000E+01   1.070000E+00   3.060091E+01   2.986400E+00   9.954751E-01
+   6.349000E+01   9.200000E-01   3.065068E+01   1.333900E+00   9.954751E-01
+   6.386000E+01   8.600000E-01   3.090950E+01   1.403620E+00   9.954751E-01
+   6.973000E+01   5.900000E-01   3.922172E+01   2.409050E+00   9.954751E-01
+   6.999000E+01   5.500000E-01   3.973937E+01   2.926700E+00   9.954751E-01
+   7.008000E+01   5.400000E-01   3.932127E+01   2.827100E+00   9.954751E-01
+# reference:
+#   author: E.Garrido,C.Duchemin,A.Guertin,F.Haddad,N.Michel, V.Metivier
+#   title: New excitation functions for proton induced reactions on natural titanium, nickel and copper up to 70 MeV.
+#   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.383, p.191 (20
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  2.948000E+01
+#   E-max [MeV]:  7.008000E+01
+#   F-value:  1.326085E+00
+#   A-value:  8.797382E-01
+#   chi-2:  1.070008E+01
+#   p-value:  3.421821E-01
+#   exp. data sets for p-value:      4
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.499774E+00   6.938841E-01   1.873270E+01
+# endfb8.0      1.251147E+00   1.052393E+00   9.981717E+00
+# jendl5.0      1.169365E+00   9.323856E-01   3.385814E+00

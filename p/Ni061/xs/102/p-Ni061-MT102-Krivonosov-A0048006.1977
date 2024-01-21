@@ -1,0 +1,57 @@
+# header:
+#   title: Ni61(p,g)Cu62 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Krivonosov
+#   year: 1977
+#   subentry: A0048006
+#   X4 reaction: 28-NI-61(P,G)29-CU-62,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/A0048006
+# target:
+#   Z: 28
+#   A: 61
+#   nuclide: Ni61
+# reaction:
+#   type: (p,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+# residual:
+#   Z: 29
+#   A: 62
+#   nuclide: Cu62
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.110000E+00   2.000000E-03   8.200000E-03   2.000000E-03   1.000000E+00
+   1.310000E+00   2.000000E-03   2.480000E-02   3.100000E-03   1.000000E+00
+   1.520000E+00   2.000000E-03   1.230000E-01   1.400000E-02   1.000000E+00
+   1.720000E+00   2.000000E-03   2.320000E-01   2.700000E-02   1.000000E+00
+   1.920000E+00   2.000000E-03   4.420000E-01   4.800000E-02   1.000000E+00
+   2.330000E+00   2.000000E-03   8.170000E-01   8.400000E-02   1.000000E+00
+   2.740000E+00   2.000000E-03   1.260000E+00   1.300000E-02   1.000000E+00
+   2.940000E+00   2.000000E-03   1.460000E+00   1.500000E-02   1.000000E+00
+# reference:
+#   author: G.A.Krivonosov,O.I.Ekhichev,B.A.Nemashkalo, V.E.Storizhko,V.K.Chirt
+#   title: Radiative capture cross-section of protons by medium atomic weigh nuclei at low energy.
+#   journal: Jour: Izv. Rossiiskoi Akademii Nauk, Ser.Fiz., Vol.41, Issue.10, p.2196
+# statistics:
+#   NEA score: R3
+#   IAEA score: -1
+#   E-min [MeV]:  1.110000E+00
+#   E-max [MeV]:  2.940000E+00
+#   F-value:  2.124178E+00
+#   A-value:  5.963889E-01
+#   chi-2:  3.577967E+02
+#   p-value:  2.697459E-01
+#   exp. data sets for p-value:      4
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    2.757710E+00   3.914993E-01   3.814209E+02
+# jendl5.0      1.385188E+00   9.085066E-01   3.341725E+02

@@ -1,0 +1,56 @@
+# header:
+#   title: Ba135(n,n')Ba135m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Ikeda
+#   year: 1990
+#   subentry: 22191009
+#   X4 reaction: 56-BA-135(N,INL)56-BA-135-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22191009
+# target:
+#   Z: 56
+#   A: 135
+#   nuclide: Ba135
+# reaction:
+#   type: (n,n')
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+# residual:
+#   Z: 56
+#   A: 135
+#   nuclide: Ba135m
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.200000E+00   0.000000E+00   6.057504E+02   4.073150E+01   1.044397E+00
+   3.010000E+00   0.000000E+00   8.022101E+02   5.423104E+01   1.023227E+00
+# reference:
+#   author: Y.Ikeda,C.Konno,K.Kosako,K.Oishi
+#   title: Activation cross section measurement at a neutron  energy range from 2.1 to 3.0 MeV by d-d neutron  source at FNS.
+#   journal: Prog: Japanese report to NEANDC, No.155, p.11 (1990)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  2.200000E+00
+#   E-max [MeV]:  3.010000E+00
+#   F-value:  1.134539E+00
+#   A-value:  9.202543E-01
+#   chi-2:  3.156675E+00
+#   p-value:  4.413238E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.194190E+00   8.376856E-01   5.991286E+00
+# jendl5.0      1.019457E+00   1.010962E+00   3.220646E-01

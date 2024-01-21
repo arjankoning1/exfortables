@@ -1,0 +1,58 @@
+# header:
+#   title: Zr90(n,2n)Zr89m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: XinyiChangg
+#   year: 2021
+#   subentry: 32851003
+#   X4 reaction: 40-ZR-90(N,2N)40-ZR-89-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/32851003
+# target:
+#   Z: 40
+#   A: 90
+#   nuclide: Zr90
+# reaction:
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 40
+#   A: 89
+#   nuclide: Zr89m
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.350000E+01   2.000000E-01   2.344628E+01   9.363300E-01   9.892946E-01
+   1.410000E+01   2.000000E-01   5.158418E+01   2.081800E+00   9.996933E-01
+   1.480000E+01   2.000000E-01   7.037647E+01   2.830790E+00   1.001088E+00
+# reference:
+#   author: Xinyi Chang,Fengqun Zhou,Yong Li,Shuqing Yuan, Pengfei Ji,Guang Lu
+#   title: Measurements of formation cross-sections of short-lived nuclei around the 14 MeV neutron induced reactions on 180Hf and 90Zr and theoretical calculation of excitation functions
+#   journal: Jour: Applied Radiation and Isotopes, Vol.170, p.109588 (2021)
+# statistics:
+#   NEA score: R2
+#   IAEA score:  1
+#   E-min [MeV]:  1.350000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.639861E+00
+#   A-value:  1.576825E+00
+#   chi-2:  2.830701E+02
+#   p-value:  1.070329E-01
+#   exp. data sets for p-value:      6
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.665929E+00   1.621081E+00   3.011999E+02
+# endfb8.0      1.582045E+00   1.490856E+00   2.416706E+02
+# jendl5.0      1.670033E+00   1.622222E+00   3.063398E+02

@@ -1,0 +1,62 @@
+# header:
+#   title: Fe0(n,n'_01)Fe1 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Hopkins
+#   year: 1964
+#   subentry: 11706002
+#   X4 reaction: 26-FE-0(N,INL),PAR,DA,,4PI
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11706002
+#   level energy [MeV]  2.94000E+00
+# target:
+#   Z: 26
+#   A: 0
+#   nuclide: Fe0
+# reaction:
+#   type: (n,n'_01)
+#   ENDF_MF: 3
+#   ENDF_MT: 51
+#   level: 
+#     number: 1
+#     energy [MeV]:  2.941500E+00
+#     spin:  0.000000E+00
+#     parity: 1
+# residual:
+#   Z: 26
+#   A: 1
+#   nuclide: Fe1
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.500000E+00   0.000000E+00   2.050000E+02   8.000000E+00   1.000000E+00
+   4.000000E+00   0.000000E+00   1.730000E+02   8.000000E+00   1.000000E+00
+   4.500000E+00   0.000000E+00   1.660000E+02   8.000000E+00   1.000000E+00
+   5.000000E+00   0.000000E+00   1.020000E+02   8.000000E+00   1.000000E+00
+# reference:
+#   author: J.C.Hopkins,M.G.Silbert
+#   title: Inelastic scattering of a 2- to 5-MeV neutrons by iron.
+#   journal: Jour: Nuclear Science and Engineering, Vol.19, p.431 (1964)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  3.500000E+00
+#   E-max [MeV]:  5.000000E+00
+#   F-value:  1.978567E+00
+#   A-value:  1.926120E+00
+#   chi-2:  5.186262E+02
+#   p-value:  9.236561E-02
+#   exp. data sets for p-value:      7
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    2.056545E+00   2.005005E+00   6.391419E+02
+# endfb8.0      1.990117E+00   1.949494E+00   5.371952E+02
+# jeff3.3       2.135959E+00   2.114365E+00   6.290082E+02
+# jendl5.0      2.093289E+00   2.051199E+00   6.536274E+02
+# cendl3.2      1.586464E+00   1.563836E+00   1.341583E+02

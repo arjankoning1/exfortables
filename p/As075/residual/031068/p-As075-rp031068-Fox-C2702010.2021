@@ -1,0 +1,56 @@
+# header:
+#   title: As75(p,x)Ga68 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Fox
+#   year: 2021
+#   subentry: C2702010
+#   X4 reaction: 33-AS-75(P,X)31-GA-68,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C2702010
+# target:
+#   Z: 33
+#   A: 75
+#   nuclide: As75
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 31
+#   A: 68
+#   nuclide: Ga68
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.040900E+02   7.300000E-01   3.950000E+01   5.200000E+00   1.000000E+00
+   1.196600E+02   6.700000E-01   4.280000E+01   5.500000E+00   1.000000E+00
+   1.337500E+02   6.200000E-01   3.550000E+01   5.300000E+00   1.000000E+00
+   1.485500E+02   5.800000E-01   4.070000E+01   6.900000E+00   1.000000E+00
+   1.632100E+02   5.400000E-01   4.130000E+01   5.800000E+00   1.000000E+00
+   1.770100E+02   5.100000E-01   3.920000E+01   6.200000E+00   1.000000E+00
+   1.922800E+02   4.900000E-01   4.170000E+01   8.300000E+00   1.000000E+00
+# reference:
+#   author: M.B.Fox,A.S.Voyles,J.T.Morrell,L.A.Bernstein, J.C.Batchelder,E.R.Birnbaum,C.S.Cutler,A.J.Koning, A.M.Lewis,D.G.Medvedev,F.M.Nortier,E.M.O'Brien, Ch.Vermeulen
+#   title: Measurement and modeling of proton-induced reactions on arsenic from 35 to 200 MeV
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.104, p.064615 (2021)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  1.040900E+02
+#   E-max [MeV]:  1.922800E+02
+#   F-value:  1.478856E+00
+#   A-value:  7.737162E-01
+#   chi-2:  4.089295E+00
+#   p-value:  3.224666E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.731953E+00   5.900876E-01   7.615043E+00
+# jendl5.0      1.069444E+00   1.014488E+00   5.635483E-01

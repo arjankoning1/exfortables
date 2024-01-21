@@ -1,0 +1,52 @@
+# header:
+#   title: Pd110(n,2n)Pd109 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Temperley
+#   year: 1970
+#   subentry: 10214009
+#   X4 reaction: 46-PD-110(N,X)46-PD-109,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/10214009
+# target:
+#   Z: 46
+#   A: 110
+#   nuclide: Pd110
+# reaction:
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 46
+#   A: 109
+#   nuclide: Pd109
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.410000E+01   1.000000E+00   1.016652E+03   9.730570E+01   1.070160E+00
+# reference:
+#   author: J.K.Temperley,D.E.Barnes
+#   title: Neutron Activation Cross Sections for Some Isotopes of  Ruthenium, Palladium, Indium, Tin, and Iridium
+#   journal: Rept: Ballistic Research Labs Reports, No.1491 (1970)
+# statistics:
+#   NEA score: R3
+#   IAEA score: -1
+#   E-min [MeV]:  1.410000E+01
+#   E-max [MeV]:  1.410000E+01
+#   F-value:  1.556485E+00
+#   A-value:  1.556259E+00
+#   chi-2:  3.382310E+01
+#   p-value:  1.110683E-01
+#   exp. data sets for p-value:      7
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2023    1.542280E+00   1.542280E+00   3.210074E+01
+# endfb8.0      1.535797E+00   1.535797E+00   3.133775E+01
+# jeff3.3       1.570388E+00   1.570388E+00   3.551476E+01
+# jendl5.0      1.576970E+00   1.576970E+00   3.633917E+01

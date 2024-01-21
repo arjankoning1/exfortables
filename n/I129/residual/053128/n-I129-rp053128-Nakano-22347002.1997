@@ -1,0 +1,50 @@
+# header:
+#   title: I129(n,x)I128 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Nakano
+#   year: 1997
+#   subentry: 22347002
+#   X4 reaction: 53-I-129(N,2N)53-I-128,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22347002
+# target:
+#   Z: 53
+#   A: 129
+#   nuclide: I129
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 53
+#   A: 128
+#   nuclide: I128
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.480000E+01   0.000000E+00   1.100000E+03   1.000000E+02   1.000000E+00
+# reference:
+#   author: D.Nakano,I.Murata,A.Takahashi
+#   title: Measurement of Reaction Cross-Sections of Fission-  Products Induced by DT Neutrons
+#   journal: Conf: JAERI Conference proceedings, No.97-004, p.177 (1997)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.480000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.439368E+00
+#   A-value:  1.439363E+00
+#   chi-2:  2.335871E+01
+#   p-value:  3.849120E-01
+#   exp. data sets for p-value:      3
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.441573E+00   1.441573E+00   2.359344E+01
+# jendl5.0      1.437157E+00   1.437157E+00   2.312397E+01

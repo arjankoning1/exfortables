@@ -1,0 +1,52 @@
+# header:
+#   title: Ni58(a,x)Zn60 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Antropov
+#   year: 1985
+#   subentry: O0076010
+#   X4 reaction: 28-NI-58(A,2N)30-ZN-60,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O0076010
+# target:
+#   Z: 28
+#   A: 58
+#   nuclide: Ni58
+# reaction:
+#   type: (a,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 30
+#   A: 60
+#   nuclide: Zn60
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.650000E+01   0.000000E+00   1.100000E+01   1.000000E+00   1.000000E+00
+   1.910000E+01   0.000000E+00   4.500000E+01   2.000000E+00   1.000000E+00
+   2.180000E+01   0.000000E+00   3.800000E+01   1.000000E+00   1.000000E+00
+   2.450000E+01   0.000000E+00   3.100000E+01   5.000000E+00   1.000000E+00
+# reference:
+#   author: A.E.Antropov,P.P.Zarubin,Yu.A.Aleksandrov, I.Yu.Gorshkov
+#   title: Cross sections measurements of (p,n),(alpha,pn),  (alpha,xn) reactions on nuclei of middle atomic weight
+#   journal: Conf: 35.Conf.Nucl.Spectr.and Nucl.Struct.,Leningrad 1985, p.369 (1985)
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  1.650000E+01
+#   E-max [MeV]:  2.450000E+01
+#   F-value:  7.637202E+02
+#   A-value:  1.641541E-03
+#   chi-2:  7.404446E+02
+#   p-value:  0.000000E+00
+#   exp. data sets for p-value:      1
+#   libraries:      1
+##  Library          F              A            chi-2
+# tendl.2023    7.637202E+02   1.641541E-03   7.404446E+02

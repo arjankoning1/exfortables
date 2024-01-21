@@ -1,0 +1,61 @@
+# header:
+#   title: Pb206(g,x)Pb205 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Kondo
+#   year: 2012
+#   subentry: K2385004
+#   X4 reaction: 82-PB-206(G,N)82-PB-205,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/K2385004
+# target:
+#   Z: 82
+#   A: 206
+#   nuclide: Pb206
+# reaction:
+#   type: (g,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+# residual:
+#   Z: 82
+#   A: 205
+#   nuclide: Pb205
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 11
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   8.140001E+00   0.000000E+00   2.488000E+01   2.260800E+00   1.000000E+00
+   8.450000E+00   0.000000E+00   2.349000E+01   1.172700E+00   1.000000E+00
+   8.740000E+00   0.000000E+00   3.771000E+01   2.167000E+00   1.000000E+00
+   9.070000E+00   0.000000E+00   4.810000E+01   2.334800E+00   1.000000E+00
+   9.460000E+00   0.000000E+00   6.651001E+01   3.235900E+00   1.000000E+00
+   9.940000E+00   0.000000E+00   8.675001E+01   5.023700E+00   1.000000E+00
+   1.011000E+01   0.000000E+00   1.008800E+02   6.550500E+00   1.000000E+00
+   1.065000E+01   0.000000E+00   1.716500E+02   1.079079E+01   1.000000E+00
+   1.117000E+01   0.000000E+00   2.281500E+02   1.353296E+01   1.000000E+00
+   1.162000E+01   0.000000E+00   2.755300E+02   1.646379E+01   1.000000E+00
+   1.224000E+01   0.000000E+00   4.084200E+02   2.516278E+01   1.000000E+00
+# reference:
+#   author: T.Kondo, H.Utsunomiya, S.Goriely, I.Daoutidis,  C.Iwamoto, H.Akimune, A.Okamoto, T.Yamagata, M.Kamata,  O.Itoh, H.Toyokawa, Y.-W.Lui, H.Harada, F.Kitatani,  S.Hilaire, A.J.Koning
+#   title: Total and partial photoneutron cross sections for Pb isotopes
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.86, p.014316 (2012)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  8.140001E+00
+#   E-max [MeV]:  1.224000E+01
+#   F-value:  2.237937E+00
+#   A-value:  7.134609E-01
+#   chi-2:  2.758038E+01
+#   p-value:  3.340359E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    2.306071E+00   5.803910E-01   3.528054E+01
+# endfb8.0      1.215068E+00   1.131703E+00   1.816796E+01
+# jendl5.0      1.060189E+00   9.867383E-01   1.123922E+00

@@ -1,0 +1,60 @@
+# header:
+#   title: Fe56(n,p)Mn56 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Ikeda
+#   year: 1993
+#   subentry: 22312004
+#   X4 reaction: 26-FE-56(N,P)25-MN-56,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22312004
+# target:
+#   Z: 26
+#   A: 56
+#   nuclide: Fe56
+# reaction:
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 25
+#   A: 56
+#   nuclide: Mn56
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.357000E+01   0.000000E+00   1.182598E+02   4.002000E+00   1.000506E+00
+   1.375000E+01   0.000000E+00   1.156585E+02   4.002000E+00   1.000506E+00
+   1.398000E+01   0.000000E+00   1.152583E+02   4.002000E+00   1.000506E+00
+   1.422000E+01   0.000000E+00   1.122568E+02   5.002500E+00   1.000506E+00
+   1.442000E+01   0.000000E+00   1.111562E+02   3.801900E+00   1.000506E+00
+   1.465000E+01   0.000000E+00   1.098555E+02   3.801900E+00   1.000506E+00
+   1.491000E+01   0.000000E+00   1.061537E+02   3.701900E+00   1.000506E+00
+# reference:
+#   author: Y.Ikeda,C.Konno,Y.Oyama,K.Kosako,K.Oishi,H.Maekawa
+#   title: Absolute measurements of activation cross sections of  27-Al(n,p)27-Mg, 27-Al(n,alpha)24-Na, 56-Fe(n,p)56-Mn,  90-Zr(n,2n)89-Zr-m+g and 93-Nb(n,2n)92-Nb-m at  energy range of 13.3 - 14.9 MeV
+#   journal: Jour: Jour. of Nuclear Science and Technology, Vol.30, p.870 (1993)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.357000E+01
+#   E-max [MeV]:  1.491000E+01
+#   F-value:  1.006070E+00
+#   A-value:  9.967281E-01
+#   chi-2:  1.537265E-01
+#   p-value:  4.080219E-01
+#   exp. data sets for p-value:      8
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2023    1.010069E+00   9.931247E-01   2.758623E-01
+# endfb8.0      1.005888E+00   9.957656E-01   1.621468E-01
+# jeff3.3       1.004071E+00   9.981283E-01   1.024532E-01
+# jendl5.0      1.002700E+00   1.001371E+00   7.617197E-02
+# cendl3.2      1.005542E+00   9.959989E-01   1.528628E-01
+# irdff2.0      1.005542E+00   9.959989E-01   1.528617E-01

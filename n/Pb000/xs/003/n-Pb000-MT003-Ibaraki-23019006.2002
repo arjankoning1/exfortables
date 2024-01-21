@@ -1,0 +1,53 @@
+# header:
+#   title: Pb0(n,non) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Ibaraki
+#   year: 2002
+#   subentry: 23019006
+#   X4 reaction: 82-PB-0(N,NON),,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/23019006
+# target:
+#   Z: 82
+#   A: 0
+#   nuclide: Pb0
+# reaction:
+#   type: (n,non)
+#   ENDF_MF: 3
+#   ENDF_MT: 3
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   4.500000E+01   2.500000E+00   2.433000E+03   2.160000E+02   1.000000E+00
+   5.000000E+01   2.500000E+00   2.266000E+03   2.120000E+02   1.000000E+00
+   5.500000E+01   2.500000E+00   1.986000E+03   2.420000E+02   1.000000E+00
+   6.000000E+01   2.500000E+00   2.051000E+03   2.420000E+02   1.000000E+00
+   6.500000E+01   2.500000E+00   1.936000E+03   2.090000E+02   1.000000E+00
+   7.550000E+01   3.000000E+00   1.903000E+03   1.590000E+02   1.000000E+00
+# reference:
+#   author: M.Ibaraki, M.Baba, T.Miura, T.Aoki, T.Hiroishi, H.Nakashima, S.Meigo, S.Tanaka
+#   title: Measurement of neutron non-elastic cross sections of C, Si, Fe, Zr and Pb in 40 - 80 MeV region
+#   journal: Jour: Jour. of Nuclear Science and Technology Suppl., Vol.2, p.405 (2002
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  4.500000E+01
+#   E-max [MeV]:  7.550000E+01
+#   F-value:  1.183600E+01
+#   A-value:  1.975794E-01
+#   chi-2:  4.168359E+01
+#   p-value:  3.986766E-01
+#   exp. data sets for p-value:      1
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2023    2.000935E+00   5.011191E-01   2.568566E+01
+# endfb8.0      1.065506E+00   1.049933E+00   7.440121E-01
+# jeff3.3       6.824456E+01   1.465960E-02   9.862109E+01
+# cendl3.2      0.000000E+00   0.000000E+00   0.000000E+00

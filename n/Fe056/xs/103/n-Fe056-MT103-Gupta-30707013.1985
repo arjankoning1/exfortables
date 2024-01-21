@@ -1,0 +1,54 @@
+# header:
+#   title: Fe56(n,p)Mn56 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Gupta
+#   year: 1985
+#   subentry: 30707013
+#   X4 reaction: 26-FE-56(N,P)25-MN-56,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30707013
+# target:
+#   Z: 26
+#   A: 56
+#   nuclide: Fe56
+# reaction:
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 25
+#   A: 56
+#   nuclide: Mn56
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.480000E+01   5.000000E-01   1.037353E+02   6.000000E+00   1.037353E+00
+# reference:
+#   author: J.P.Gupta, H.D.Bhardwaj, R.Prasad
+#   title: Pre-equilibrium emission effect in (n,p) reaction  cross section at 14.8 MeV
+#   journal: Jour: Pramana, Vol.24, p.637 (1985)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.480000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.007634E+00
+#   A-value:  1.006972E+00
+#   chi-2:  1.559232E-01
+#   p-value:  2.816675E-01
+#   exp. data sets for p-value:      8
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2023    1.004156E+00   1.004156E+00   9.144188E-02
+# endfb8.0      1.004303E+00   1.004303E+00   9.472223E-02
+# jeff3.3       1.010541E+00   1.010541E+00   2.374783E-01
+# jendl5.0      1.012038E+00   1.012038E+00   2.727649E-01
+# cendl3.2      1.005410E+00   1.005410E+00   1.195660E-01
+# irdff2.0      1.005410E+00   1.005410E+00   1.195660E-01

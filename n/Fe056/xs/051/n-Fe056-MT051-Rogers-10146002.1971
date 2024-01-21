@@ -1,0 +1,68 @@
+# header:
+#   title: Fe56(n,n'_01)Fe57 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Rogers
+#   year: 1971
+#   subentry: 10146002
+#   X4 reaction: 26-FE-56(N,INL)26-FE-56,PAR,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/10146002
+#   level energy [MeV]  8.47000E-01
+# target:
+#   Z: 26
+#   A: 56
+#   nuclide: Fe56
+# reaction:
+#   type: (n,n'_01)
+#   ENDF_MF: 3
+#   ENDF_MT: 51
+#   level: 
+#     number: 1
+#     energy [MeV]:  8.467780E-01
+#     spin:  2.000000E+00
+#     parity: 1
+# residual:
+#   Z: 26
+#   A: 57
+#   nuclide: Fe57
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 10
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   9.200000E-01   0.000000E+00   1.450000E+02   1.595000E+01   1.000000E+00
+   9.800000E-01   0.000000E+00   3.520000E+02   3.872000E+01   1.000000E+00
+   1.070000E+00   0.000000E+00   4.180000E+02   4.598000E+01   1.000000E+00
+   1.160000E+00   0.000000E+00   4.620000E+02   5.082000E+01   1.000000E+00
+   1.250000E+00   0.000000E+00   4.990000E+02   5.489000E+01   1.000000E+00
+   1.340000E+00   0.000000E+00   4.710000E+02   5.181000E+01   1.000000E+00
+   1.420000E+00   0.000000E+00   5.300000E+02   5.830000E+01   1.000000E+00
+   1.510000E+00   0.000000E+00   6.680000E+02   7.348000E+01   1.000000E+00
+   1.690000E+00   0.000000E+00   7.490001E+02   8.239000E+01   1.000000E+00
+   1.790000E+00   0.000000E+00   8.340001E+02   9.174000E+01   1.000000E+00
+# reference:
+#   author: V.C.ROGERS,L.E.BEGHIAN,F.M.CLIKEMAN
+#   title: Neutron Inelastic Scattering Cross Sections for Iron,  Nickel, Niobium and Tantalum from Threshold to 1.8 MeV
+#   journal: Jour: Nuclear Science and Engineering, Vol.45, p.297 (1971)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  9.200000E-01
+#   E-max [MeV]:  1.790000E+00
+#   F-value:  2.267124E+00
+#   A-value:  6.610621E-01
+#   chi-2:  1.244010E+01
+#   p-value:  2.863348E-01
+#   exp. data sets for p-value:      8
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    2.620503E+00   6.871248E-01   1.140205E+01
+# endfb8.0      1.847790E+00   7.398854E-01   1.039220E+01
+# jeff3.3       2.141431E+00   6.680632E-01   1.231542E+01
+# jendl5.0      2.692869E+00   6.140645E-01   1.400834E+01
+# cendl3.2      2.004548E+00   6.053129E-01   1.408247E+01

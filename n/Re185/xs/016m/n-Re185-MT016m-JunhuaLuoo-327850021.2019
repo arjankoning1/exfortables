@@ -1,0 +1,58 @@
+# header:
+#   title: Re185(n,2n)Re184m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: JunhuaLuoo
+#   year: 2019
+#   subentry: 327850021
+#   X4 reaction: 75-RE-185(N,2N)75-RE-184-M,,SIG,,AV
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/327850021
+# target:
+#   Z: 75
+#   A: 185
+#   nuclide: Re185
+# reaction:
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 75
+#   A: 184
+#   nuclide: Re184m
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.350000E+01   2.000000E-01   7.231745E+02   2.799651E+01   9.892946E-01
+   1.410000E+01   2.000000E-01   7.767618E+02   3.226781E+01   9.996933E-01
+   1.480000E+01   2.000000E-01   8.268983E+02   2.490358E+01   1.001088E+00
+# reference:
+#   author: Junhua Luo, Li Jiang
+#   title: Activation cross-sections for the 185Re(n,2n) reaction and the isomeric cross-section ratio of 184m,gRe in the neutron energy range of 13-15 MeV
+#   journal: Jour: European Physical Journal A: Hadrons and Nuclei, Vol.55, p.27 (201
+# statistics:
+#   NEA score: T3
+#   IAEA score: -1
+#   E-min [MeV]:  1.350000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  2.005258E+00
+#   A-value:  5.024808E-01
+#   chi-2:  1.961659E+02
+#   p-value:  2.485839E-01
+#   exp. data sets for p-value:      5
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.767781E+00   5.663252E-01   1.504150E+02
+# jeff3.3       1.989159E+00   5.031075E-01   1.961324E+02
+# jendl5.0      2.246053E+00   4.452783E-01   2.419503E+02

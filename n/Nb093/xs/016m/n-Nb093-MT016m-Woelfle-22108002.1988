@@ -1,0 +1,71 @@
+# header:
+#   title: Nb93(n,2n)Nb92m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Woelfle
+#   year: 1988
+#   subentry: 22108002
+#   X4 reaction: 41-NB-93(N,2N)41-NB-92-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22108002
+# target:
+#   Z: 41
+#   A: 93
+#   nuclide: Nb93
+# reaction:
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 41
+#   A: 92
+#   nuclide: Nb92m
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 15
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.255000E+01   2.700000E-01   4.572304E+02   2.301160E+01   1.000504E+00
+   1.269000E+01   2.900000E-01   4.712375E+02   2.401210E+01   1.000504E+00
+   1.335000E+01   3.800000E-01   4.902471E+02   2.301160E+01   1.000504E+00
+   1.348000E+01   4.000000E-01   4.782410E+02   2.301160E+01   1.000504E+00
+   1.434000E+01   4.900000E-01   4.842440E+02   2.301160E+01   1.000504E+00
+   1.441000E+01   4.900000E-01   4.872456E+02   2.301160E+01   1.000504E+00
+   1.580000E+01   5.900000E-01   4.652345E+02   2.401210E+01   1.000504E+00
+   1.586000E+01   5.800000E-01   4.642340E+02   2.301160E+01   1.000504E+00
+   1.686000E+01   6.000000E-01   4.322178E+02   2.201109E+01   1.000504E+00
+   1.700000E+01   6.000000E-01   4.362198E+02   2.201109E+01   1.000504E+00
+   1.786000E+01   6.000000E-01   4.302168E+02   2.201109E+01   1.000504E+00
+   1.806000E+01   5.700000E-01   4.192113E+02   2.101059E+01   1.000504E+00
+   1.875000E+01   5.100000E-01   3.982007E+02   2.001009E+01   1.000504E+00
+   1.894000E+01   4.900000E-01   3.851941E+02   1.900958E+01   1.000504E+00
+   1.958000E+01   2.500000E-01   3.431730E+02   1.800908E+01   1.000504E+00
+# reference:
+#   author: R.Woelfle,A.Mannan,S.M.Qaim,H.Liskien,R.Widera
+#   title: -Excitation functions of Nb-93(N,2N)Nb-92-m,  Nb-93(N,a)Y-90-m,g, La-139(N,a)Cs-136 and  Ta-181(N,P)Hf-181 reactions in the energy range of  12.5 - 19.6 MeV.
+#   journal: Jour: Applied Radiation and Isotopes, Vol.39, Issue.5, p.407 (1988)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.255000E+01
+#   E-max [MeV]:  1.958000E+01
+#   F-value:  1.045461E+00
+#   A-value:  9.745127E-01
+#   chi-2:  1.068427E+00
+#   p-value:  3.507050E-01
+#   exp. data sets for p-value:      7
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2023    1.041288E+00   9.801637E-01   9.655897E-01
+# jeff3.3       1.040635E+00   9.749367E-01   9.346207E-01
+# jendl5.0      1.058128E+00   9.686139E-01   1.493412E+00
+# irdff2.0      1.039359E+00   9.743710E-01   8.800862E-01

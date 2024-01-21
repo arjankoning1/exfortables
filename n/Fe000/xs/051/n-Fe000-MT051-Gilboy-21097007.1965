@@ -1,0 +1,69 @@
+# header:
+#   title: Fe0(n,n'_01)Fe1 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Gilboy
+#   year: 1965
+#   subentry: 21097007
+#   X4 reaction: 26-FE-0(N,INL)26-FE-0,PAR,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21097007
+#   level energy [MeV]  8.45000E-01
+# target:
+#   Z: 26
+#   A: 0
+#   nuclide: Fe0
+# reaction:
+#   type: (n,n'_01)
+#   ENDF_MF: 3
+#   ENDF_MT: 51
+#   level: 
+#     number: 1
+#     energy [MeV]:  8.467780E-01
+#     spin:  2.000000E+00
+#     parity: 1
+# residual:
+#   Z: 26
+#   A: 1
+#   nuclide: Fe1
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 11
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.400000E+00   0.000000E+00   5.800000E+02   3.300000E+01   1.000000E+00
+   1.610000E+00   0.000000E+00   6.420000E+02   3.600000E+01   1.000000E+00
+   1.790000E+00   0.000000E+00   5.150000E+02   2.900000E+01   1.000000E+00
+   1.990000E+00   0.000000E+00   7.170001E+02   4.100000E+01   1.000000E+00
+   2.200000E+00   0.000000E+00   8.360000E+02   4.600000E+01   1.000000E+00
+   2.390000E+00   0.000000E+00   7.290000E+02   4.200000E+01   1.000000E+00
+   2.610000E+00   0.000000E+00   7.990000E+02   4.600000E+01   1.000000E+00
+   2.810000E+00   0.000000E+00   7.060000E+02   4.300000E+01   1.000000E+00
+   3.010000E+00   0.000000E+00   7.290000E+02   2.600000E+01   1.000000E+00
+   3.060000E+00   0.000000E+00   5.740001E+02   3.800000E+01   1.000000E+00
+   3.990000E+00   0.000000E+00   3.720000E+02   4.600000E+01   1.000000E+00
+# reference:
+#   author: W.B.GILBOY,J.H.TOWLE
+#   title: -A NEUTRON SCATTERING STUDY OF FE-56-
+#   journal: Jour: Nuclear Physics, Vol.64, p.130 (1965)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.400000E+00
+#   E-max [MeV]:  3.990000E+00
+#   F-value:  1.336163E+00
+#   A-value:  9.970142E-01
+#   chi-2:  2.372779E+01
+#   p-value:  2.827525E-01
+#   exp. data sets for p-value:      3
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    1.329280E+00   9.573497E-01   1.681065E+01
+# endfb8.0      1.321744E+00   1.091803E+00   2.975907E+01
+# jeff3.3       1.339033E+00   1.023292E+00   2.582602E+01
+# jendl5.0      1.429006E+00   1.032153E+00   3.629596E+01
+# cendl3.2      1.246147E+00   8.923768E-01   9.947247E+00

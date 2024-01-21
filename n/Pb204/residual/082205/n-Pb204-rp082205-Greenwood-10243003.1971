@@ -1,0 +1,52 @@
+# header:
+#   title: Pb204(n,x)Pb205 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Greenwood
+#   year: 1971
+#   subentry: 10243003
+#   X4 reaction: 82-PB-204(N,G)82-PB-205,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/10243003
+# target:
+#   Z: 82
+#   A: 204
+#   nuclide: Pb204
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+# residual:
+#   Z: 82
+#   A: 205
+#   nuclide: Pb205
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.950000E-03   7.000000E-04   1.818912E+03   5.000000E+02   1.010507E+00
+# reference:
+#   author: R.C.Greenwood,C.W.Reich
+#   title: Absolute Cross Sections for 2-KeV Neutron Capture in  204Pb and 207Pb.
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.4, p.2249 (1971)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  1.950000E-03
+#   E-max [MeV]:  1.950000E-03
+#   F-value:  9.387502E+01
+#   A-value:  1.068438E-02
+#   chi-2:  1.295700E+01
+#   p-value:  7.152557E-07
+#   exp. data sets for p-value:      2
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2023    7.965406E+01   1.255429E-02   1.291200E+01
+# endfb8.0      1.153874E+02   8.666458E-03   1.301343E+01
+# jeff3.3       1.048163E+02   9.540497E-03   1.299059E+01
+# jendl5.0      7.965406E+01   1.255429E-02   1.291200E+01

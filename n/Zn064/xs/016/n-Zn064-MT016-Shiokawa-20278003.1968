@@ -1,0 +1,59 @@
+# header:
+#   title: Zn64(n,2n)Zn63 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Shiokawa
+#   year: 1968
+#   subentry: 20278003
+#   X4 reaction: 30-ZN-64(N,2N)30-ZN-63,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20278003
+# target:
+#   Z: 30
+#   A: 64
+#   nuclide: Zn64
+# reaction:
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 30
+#   A: 63
+#   nuclide: Zn63
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.350000E+01   1.000000E-01   8.100000E+01   4.000000E+00   1.000000E+00
+   1.360000E+01   1.000000E-01   8.900000E+01   4.000000E+00   1.000000E+00
+   1.410000E+01   1.000000E-01   1.220000E+02   6.000000E+00   1.000000E+00
+   1.450000E+01   2.000000E-01   1.480000E+02   8.000000E+00   1.000000E+00
+   1.460000E+01   2.000000E-01   1.530000E+02   8.000000E+00   1.000000E+00
+   1.470000E+01   2.000000E-01   1.550000E+02   8.000000E+00   1.000000E+00
+   1.480000E+01   2.000000E-01   1.560000E+02   8.000000E+00   1.000000E+00
+# reference:
+#   author: T.SHIOKAWA, M.YAGI, H.KAJI, T.SASAKI
+#   title: -THE F-19(N,2N)F-18 REACTION AS A 14-MEV NEUTRON  FLUX MONITOR-
+#   journal: Jour: Journal of Inorganic and Nuclear Chemistry, Vol.30, p.1 (1968)
+# statistics:
+#   NEA score: T2
+#   IAEA score:  1
+#   E-min [MeV]:  1.350000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.318446E+00
+#   A-value:  8.326184E-01
+#   chi-2:  2.108924E+01
+#   p-value:  2.738135E-01
+#   exp. data sets for p-value:      8
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    1.638527E+00   6.224244E-01   5.989494E+01
+# endfb8.0      1.110425E+00   9.565914E-01   4.355938E+00
+# jeff3.3       1.325514E+00   7.762157E-01   2.394588E+01
+# jendl5.0      1.144784E+00   9.225741E-01   6.703107E+00
+# cendl3.2      1.187843E+00   9.384976E-01   1.054636E+01

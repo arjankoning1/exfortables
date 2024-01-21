@@ -1,0 +1,54 @@
+# header:
+#   title: In113(n,x)In111 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Liskien
+#   year: 1968
+#   subentry: 20380005
+#   X4 reaction: 49-IN-113(N,3N)49-IN-111,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20380005
+# target:
+#   Z: 49
+#   A: 113
+#   nuclide: In113
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 17
+# residual:
+#   Z: 49
+#   A: 111
+#   nuclide: In111
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.860000E+01   3.500000E-01   1.100000E+01   2.000000E+00   1.000000E+00
+   1.894000E+01   2.900000E-01   2.900000E+01   3.000000E+00   1.000000E+00
+   1.919000E+01   2.300000E-01   3.500000E+01   4.000000E+00   1.000000E+00
+   1.942000E+01   2.000000E-01   4.800000E+01   5.000000E+00   1.000000E+00
+   1.950000E+01   2.000000E-01   5.700000E+01   5.000000E+00   1.000000E+00
+# reference:
+#   author: H.LISKIEN
+#   title: -(N,3N) PROCESSES AND THE STATISTICAL THEORY
+#   journal: Jour: Nuclear Physics, Section A, Vol.118, p.379 (1968)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.860000E+01
+#   E-max [MeV]:  1.950000E+01
+#   F-value:  1.614836E+00
+#   A-value:  1.421803E+00
+#   chi-2:  3.066770E+01
+#   p-value:  3.731093E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.928386E+00   1.897125E+00   5.974794E+01
+# jendl5.0      1.182484E+00   1.065572E+00   1.587455E+00

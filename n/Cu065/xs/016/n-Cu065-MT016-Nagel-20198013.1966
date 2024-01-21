@@ -1,0 +1,55 @@
+# header:
+#   title: Cu65(n,2n)Cu64 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Nagel
+#   year: 1966
+#   subentry: 20198013
+#   X4 reaction: 29-CU-65(N,2N)29-CU-64,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20198013
+# target:
+#   Z: 29
+#   A: 65
+#   nuclide: Cu65
+# reaction:
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 29
+#   A: 64
+#   nuclide: Cu64
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.420000E+01   2.000000E-01   8.678278E+02   5.487849E+01   1.033128E+00
+   1.420000E+01   2.000000E-01   8.946893E+02   7.001210E+01   1.033128E+00
+# reference:
+#   author: W.Nagel
+#   title: - Some nuclear reactions induced by d+t neutrons -
+#   journal: Thesis: Nagel (1966)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.420000E+01
+#   E-max [MeV]:  1.420000E+01
+#   F-value:  1.011021E+00
+#   A-value:  1.005259E+00
+#   chi-2:  1.604930E-01
+#   p-value:  3.664807E-01
+#   exp. data sets for p-value:      8
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2023    1.011428E+00   1.008233E+00   1.722828E-01
+# endfb8.0      1.010658E+00   9.920231E-01   1.343565E-01
+# jeff3.3       1.011067E+00   1.007945E+00   1.660878E-01
+# jendl5.0      1.011113E+00   1.007982E+00   1.668835E-01
+# cendl3.2      1.008740E+00   1.006177E+00   1.280426E-01
+# irdff2.0      1.012740E+00   1.009300E+00   1.953046E-01

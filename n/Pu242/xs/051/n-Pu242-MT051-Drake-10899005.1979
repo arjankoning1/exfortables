@@ -1,0 +1,59 @@
+# header:
+#   title: Pu242(n,n'_01)Pu243 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Drake
+#   year: 1979
+#   subentry: 10899005
+#   X4 reaction: 94-PU-242(N,INL)94-PU-242,PAR,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/10899005
+#   level energy [MeV]  4.50000E-02
+# target:
+#   Z: 94
+#   A: 242
+#   nuclide: Pu242
+# reaction:
+#   type: (n,n'_01)
+#   ENDF_MF: 3
+#   ENDF_MT: 51
+#   level: 
+#     number: 1
+#     energy [MeV]:  4.454000E-02
+#     spin:  2.000000E+00
+#     parity: 1
+# residual:
+#   Z: 94
+#   A: 243
+#   nuclide: Pu243
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.700000E-01   0.000000E+00   1.280000E+03   2.285271E+02   1.000000E+00
+   1.000000E+00   0.000000E+00   1.190000E+03   2.145572E+02   1.000000E+00
+# reference:
+#   author: D.M.Drake,M.Drosg,P.Lisowski,L.Veeser
+#   title: Neutron scattering cross sections for Pu-242
+#   journal: Rept: Los Alamos Scientific Lab. Reports, No.7855 (1979)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  5.700000E-01
+#   E-max [MeV]:  1.000000E+00
+#   F-value:  1.179732E+00
+#   A-value:  9.165617E-01
+#   chi-2:  8.800154E-01
+#   p-value:  3.016503E-01
+#   exp. data sets for p-value:      2
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2023    1.046830E+00   9.803503E-01   2.991240E-01
+# endfb8.0      1.049064E+00   9.786875E-01   3.107748E-01
+# jendl5.0      1.049064E+00   9.786875E-01   3.107748E-01
+# cendl3.2      1.377551E+00   7.515839E-01   2.599388E+00

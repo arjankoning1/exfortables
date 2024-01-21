@@ -1,0 +1,57 @@
+# header:
+#   title: Rb85(n,a)Br82 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Bormann
+#   year: 1972
+#   subentry: 20797003
+#   X4 reaction: 37-RB-85(N,A)35-BR-82,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20797003
+# target:
+#   Z: 37
+#   A: 85
+#   nuclide: Rb85
+# reaction:
+#   type: (n,a)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+# residual:
+#   Z: 35
+#   A: 82
+#   nuclide: Br82
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.456000E+01   1.500000E-01   8.450000E+00   7.400000E-01   1.000000E+00
+   1.562000E+01   1.600000E-01   9.160000E+00   1.420000E+00   1.000000E+00
+   1.641000E+01   1.600000E-01   1.173000E+01   1.040000E+00   1.000000E+00
+   1.712000E+01   1.500000E-01   1.036000E+01   8.200000E-01   1.000000E+00
+   1.812000E+01   1.300000E-01   9.139999E+00   6.200000E-01   1.000000E+00
+# reference:
+#   author: M.BORMANN, H.K.FEDDERSEN, H.H.HOLSCHER, H.WAGNER,  W.SCOBEL
+#   title: -EXCITATION FUNCTIONS OF SOME (N,2N) AND (N,ALPHA)  REACTIONS BETWEEN 13 AND 18 MEV NEUTRON ENERGIES.
+#   journal: Prog: Report from Euratom-countries + Euratom to EANDC, No.150, p.30 (19
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.456000E+01
+#   E-max [MeV]:  1.812000E+01
+#   F-value:  1.234427E+00
+#   A-value:  1.006514E+00
+#   chi-2:  1.021190E+01
+#   p-value:  2.592632E-01
+#   exp. data sets for p-value:      7
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    1.270750E+00   1.134407E+00   1.796918E+01
+# endfb8.0      1.172186E+00   1.004855E+00   5.425120E+00
+# jeff3.3       1.279547E+00   1.171056E+00   1.935249E+01
+# jendl5.0      1.245844E+00   8.451924E-01   4.745473E+00
+# cendl3.2      1.189253E+00   9.155761E-01   3.567217E+00

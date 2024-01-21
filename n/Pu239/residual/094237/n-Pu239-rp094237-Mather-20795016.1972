@@ -1,0 +1,50 @@
+# header:
+#   title: Pu239(n,x)Pu237 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Mather
+#   year: 1972
+#   subentry: 20795016
+#   X4 reaction: 94-PU-239(N,3N)94-PU-237,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20795016
+# target:
+#   Z: 94
+#   A: 239
+#   nuclide: Pu239
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 17
+# residual:
+#   Z: 94
+#   A: 237
+#   nuclide: Pu237
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.310000E+01   0.000000E+00   1.242971E+02   5.932612E+01   1.010545E+00
+# reference:
+#   author: D.S.MATHER,P.F.BAMPTON,R.E.COLES,G.JAMES,P.J.NIND
+#   title: -MEASUREMENT OF (N,2N) CROSS SECTIONS FOR INCIDENT  ENERGIES BETWEEN 6 AND 14 MEV-.
+#   journal: Rept: A.W.R.E. Aldermaston Reports, No.72/72 (1972)
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  1.310000E+01
+#   E-max [MeV]:  1.310000E+01
+#   F-value:  2.668995E+01
+#   A-value:  3.746766E-02
+#   chi-2:  4.379651E+00
+#   p-value:  4.172325E-07
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# jeff3.3       2.647459E+01   3.777207E-02   4.377340E+00
+# jendl5.0      2.690652E+01   3.716571E-02   4.381961E+00

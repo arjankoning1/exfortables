@@ -1,0 +1,59 @@
+# header:
+#   title: Kr0(p,x)Rb81 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Kovacs
+#   year: 1991
+#   subentry: A04890021
+#   X4 reaction: 36-KR-0(P,X)37-RB-81,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/A04890021
+# target:
+#   Z: 36
+#   A: 0
+#   nuclide: Kr0
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 37
+#   A: 81
+#   nuclide: Rb81
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 10
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.451000E+01   7.700000E-01   9.100000E-01   1.300000E-01   1.000000E+00
+   1.635000E+01   6.800000E-01   2.120000E+01   2.700000E+00   1.000000E+00
+   1.841000E+01   5.800000E-01   5.040000E+01   6.700000E+00   1.000000E+00
+   1.957000E+01   5.200000E-01   5.350000E+01   6.600000E+00   1.000000E+00
+   2.022000E+01   4.900000E-01   5.900000E+01   8.200000E+00   1.000000E+00
+   2.184000E+01   4.300000E-01   5.660000E+01   9.300000E+00   1.000000E+00
+   2.240000E+01   4.000000E-01   5.380000E+01   6.800000E+00   1.000000E+00
+   2.493000E+01   3.000000E-01   5.120000E+01   7.800000E+00   1.000000E+00
+   2.725000E+01   2.100000E-01   6.400000E+01   8.100000E+00   1.000000E+00
+   2.948000E+01   1.200000E-01   6.820000E+01   9.000000E+00   1.000000E+00
+# reference:
+#   author: Z.Kovacs, F.Tarkanyi, S.M.Qaim, G.Stocklin
+#   title: Excitation functions for the formation of some radioisotopes of rubidium in proton induced nuclear reactions on Kr-nat,Kr-82 and Kr-83 with special reference to the production of Rb-81(Kr-81-m) generator radionuclide.
+#   journal: Jour: Applied Radiation and Isotopes, Vol.42, p.329 (1991)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  1.451000E+01
+#   E-max [MeV]:  2.948000E+01
+#   F-value:  2.161678E+00
+#   A-value:  1.885593E+00
+#   chi-2:  2.253761E+02
+#   p-value:  1.350593E-01
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    2.369540E+00   1.918087E+00   3.880012E+02
+# jendl5.0      1.947498E+00   1.853649E+00   6.275088E+01

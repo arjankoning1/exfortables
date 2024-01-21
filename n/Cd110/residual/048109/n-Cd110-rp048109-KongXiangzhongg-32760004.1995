@@ -1,0 +1,54 @@
+# header:
+#   title: Cd110(n,x)Cd109 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: KongXiangzhongg
+#   year: 1995
+#   subentry: 32760004
+#   X4 reaction: 48-CD-110(N,2N)48-CD-109,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/32760004
+# target:
+#   Z: 48
+#   A: 110
+#   nuclide: Cd110
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 48
+#   A: 109
+#   nuclide: Cd109
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.340000E+01   1.000000E-01   1.217046E+03   8.001684E+01   9.878621E-01
+   1.370000E+01   1.000000E-01   1.229888E+03   8.396827E+01   9.878621E-01
+   1.425000E+01   1.300000E-01   1.220010E+03   8.001684E+01   9.878621E-01
+   1.450000E+01   1.500000E-01   1.211119E+03   7.804111E+01   9.878621E-01
+   1.480000E+01   1.600000E-01   1.206180E+03   7.804111E+01   9.878621E-01
+# reference:
+#   author: Kong Xiangzhong, Wang Yongchang, Yuan Jungqiang, Yang Jingkang
+#   title: Cross section measurements for 111Cd(n,p)111mAg, 106Cd(n,2n)105Cd, 110Cd(n,2n)109Cd, 116Cd(n,2n)115mCd and 116Cd(n,2n)115gCd reactions
+#   journal: Jour: Communication of Nuclear Data Progress, Vol.13, p.13 (1995)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.340000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.156383E+00
+#   A-value:  1.102941E+00
+#   chi-2:  6.356840E+00
+#   p-value:  2.948292E-01
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.025945E+00   9.971470E-01   4.520436E-01
+# jendl5.0      1.226149E+00   1.219960E+00   1.226164E+01

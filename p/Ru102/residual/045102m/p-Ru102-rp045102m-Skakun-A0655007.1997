@@ -1,0 +1,62 @@
+# header:
+#   title: Ru102(p,x)Rh102m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Skakun
+#   year: 1997
+#   subentry: A0655007
+#   X4 reaction: 44-RU-102(P,N)45-RH-102-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/A0655007
+# target:
+#   Z: 44
+#   A: 102
+#   nuclide: Ru102
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+# residual:
+#   Z: 45
+#   A: 102
+#   nuclide: Rh102m
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.450000E+00   0.000000E+00   2.010000E+00   1.507500E-01   1.000000E+00
+   6.050000E+00   0.000000E+00   6.170000E+00   4.627500E-01   1.000000E+00
+   6.520000E+00   0.000000E+00   1.460000E+01   1.095000E+00   1.000000E+00
+   6.960000E+00   0.000000E+00   2.200000E+01   1.650000E+00   1.000000E+00
+   7.500000E+00   0.000000E+00   4.170000E+01   3.127500E+00   1.000000E+00
+   8.030000E+00   0.000000E+00   4.230000E+01   3.172500E+00   1.000000E+00
+   8.530000E+00   0.000000E+00   7.800000E+01   5.850000E+00   1.000000E+00
+   8.990000E+00   0.000000E+00   9.100000E+01   6.825000E+00   1.000000E+00
+# reference:
+#   author: E.A.Skakun,A.I.Stojanov,V.G.Batij
+#   title: Excitation functions of (p,n) reactions on 99-Ru, 100-Ru, 101-Ru and 102-Ru.  101-m-Rh production.
+#   journal: Conf: Conf.on Nucl.Data for Sci.and Techn., Trieste 1997, Vol.2, p.1649
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  5.450000E+00
+#   E-max [MeV]:  8.990000E+00
+#   F-value:  1.364719E+00
+#   A-value:  9.342656E-01
+#   chi-2:  2.220748E+01
+#   p-value:  2.278141E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.431633E+00   9.620288E-01   3.345604E+01
+# jendl5.0      1.289459E+00   9.073036E-01   1.095892E+01

@@ -1,0 +1,53 @@
+# header:
+#   title: Ti50(n,p)Sc50 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Khurana
+#   year: 1959
+#   subentry: 30403006
+#   X4 reaction: 22-TI-50(N,P)21-SC-50,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30403006
+# target:
+#   Z: 22
+#   A: 50
+#   nuclide: Ti50
+# reaction:
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 21
+#   A: 50
+#   nuclide: Sc50
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.400000E+01   0.000000E+00   1.525566E+02   2.324274E+01   1.037800E+00
+# reference:
+#   author: C.S.Khurana, H.S.Hans
+#   title: Measurements of (n,p), (n,a) and (n,2n) total cross  sections at 14 MeV
+#   journal: Jour: Nuclear Physics, Vol.13, p.88 (1959)
+# statistics:
+#   NEA score: R2
+#   IAEA score:  1
+#   E-min [MeV]:  1.400000E+01
+#   E-max [MeV]:  1.400000E+01
+#   F-value:  1.393705E+01
+#   A-value:  7.177791E-02
+#   chi-2:  3.711330E+01
+#   p-value:  1.192093E-07
+#   exp. data sets for p-value:      4
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    1.450250E+01   6.895364E-02   3.734478E+01
+# endfb8.0      1.391245E+01   7.187809E-02   3.711055E+01
+# jeff3.3       1.432887E+01   6.978917E-02   3.727778E+01
+# jendl5.0      1.417604E+01   7.054157E-02   3.721750E+01
+# cendl3.2      1.280658E+01   7.808484E-02   3.661586E+01

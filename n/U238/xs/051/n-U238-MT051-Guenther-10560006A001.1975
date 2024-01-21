@@ -1,0 +1,70 @@
+# header:
+#   title: U238(n,n'_01)U239 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Guenther
+#   year: 1975
+#   subentry: 10560006
+#   X4 reaction: 92-U-238(N,INL)92-U-238,PAR,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/10560006
+#   level energy [MeV]  4.50000E-02
+# target:
+#   Z: 92
+#   A: 238
+#   nuclide: U238
+# reaction:
+#   type: (n,n'_01)
+#   ENDF_MF: 3
+#   ENDF_MT: 51
+#   level: 
+#     number: 1
+#     energy [MeV]:  4.491600E-02
+#     spin:  2.000000E+00
+#     parity: 1
+# residual:
+#   Z: 92
+#   A: 239
+#   nuclide: U239
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 12
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   4.000000E-01   0.000000E+00   1.200000E+03   2.100000E+02   1.000000E+00
+   4.500000E-01   0.000000E+00   1.520000E+03   2.200000E+02   1.000000E+00
+   5.000000E-01   0.000000E+00   1.320000E+03   2.300000E+02   1.000000E+00
+   5.500000E-01   0.000000E+00   1.700000E+03   1.800000E+02   1.000000E+00
+   5.630000E-01   0.000000E+00   1.500000E+03   1.500000E+02   1.000000E+00
+   6.690000E-01   0.000000E+00   1.560000E+03   1.500000E+02   1.000000E+00
+   7.310000E-01   0.000000E+00   1.400000E+03   1.400000E+02   1.000000E+00
+   7.660000E-01   0.000000E+00   1.290000E+03   1.300000E+02   1.000000E+00
+   8.530000E-01   0.000000E+00   1.020000E+03   1.200000E+02   1.000000E+00
+   9.550000E-01   0.000000E+00   1.230000E+03   1.500000E+02   1.000000E+00
+   1.100000E+00   0.000000E+00   9.500000E+02   1.400000E+02   1.000000E+00
+   1.200000E+00   0.000000E+00   6.100000E+02   1.200000E+02   1.000000E+00
+# reference:
+#   author: P.Guenther,D.Havel,A.Smith
+#   title: Fast neutron excitation of the ground-state rotational band of 238U
+#   journal: Rept: Argonne National Laboratory Reports, No.16 (1975)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  4.000000E-01
+#   E-max [MeV]:  1.200000E+00
+#   F-value:  1.194237E+00
+#   A-value:  1.102173E+00
+#   chi-2:  2.335171E+00
+#   p-value:  3.330827E-01
+#   exp. data sets for p-value:      6
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    1.205580E+00   1.137799E+00   2.721457E+00
+# endfb8.0      1.205580E+00   1.137799E+00   2.721457E+00
+# jeff3.3       1.154955E+00   1.029466E+00   1.431252E+00
+# jendl5.0      1.205580E+00   1.137799E+00   2.721457E+00
+# cendl3.2      1.195643E+00   1.072608E+00   2.080232E+00

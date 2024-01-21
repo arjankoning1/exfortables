@@ -1,0 +1,60 @@
+# header:
+#   title: I127(n,2n)I126 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Martin
+#   year: 1953
+#   subentry: 12028002
+#   X4 reaction: 53-I-127(N,2N)53-I-126,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/12028002
+# target:
+#   Z: 53
+#   A: 127
+#   nuclide: I127
+# reaction:
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 53
+#   A: 126
+#   nuclide: I126
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   9.500000E+00   0.000000E+00   0.000000E+00   0.000000E+00   1.000000E+00
+   1.237000E+01   0.000000E+00   8.950000E+02   0.000000E+00   1.000000E+00
+   1.308000E+01   0.000000E+00   1.110000E+03   0.000000E+00   1.000000E+00
+   1.410000E+01   0.000000E+00   1.310000E+03   7.860000E+01   1.000000E+00
+   1.560000E+01   0.000000E+00   1.320000E+03   0.000000E+00   1.000000E+00
+   1.675000E+01   0.000000E+00   1.220000E+03   0.000000E+00   1.000000E+00
+   1.825000E+01   0.000000E+00   9.450000E+02   0.000000E+00   1.000000E+00
+# reference:
+#   author: H.C.Martin,R.F.Taschek
+#   title: The (n,gamma) and (n,2n) reactions in iodine.
+#   journal: Jour: Physical Review, Vol.89, p.1302 (1953)
+# statistics:
+#   NEA score: T2
+#   IAEA score:  0
+#   E-min [MeV]:  9.500000E+00
+#   E-max [MeV]:  1.825000E+01
+#   F-value:  1.392925E+00
+#   A-value:  1.354538E+00
+#   chi-2:  1.804766E+00
+#   p-value:  1.361181E-01
+#   exp. data sets for p-value:      1
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2023    1.316609E+00   1.281403E+00   5.714029E-01
+# endfb8.0      1.309567E+00   1.266906E+00   3.976600E-01
+# jeff3.3       1.474752E+00   1.452664E+00   3.718595E+00
+# jendl5.0      1.432243E+00   1.403740E+00   2.425981E+00
+# cendl3.2      1.480020E+00   1.453216E+00   3.143612E+00
+# irdff2.0      1.319566E+00   1.283908E+00   5.713454E-01

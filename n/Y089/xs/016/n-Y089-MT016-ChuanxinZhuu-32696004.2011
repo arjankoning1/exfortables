@@ -1,0 +1,59 @@
+# header:
+#   title: Y89(n,2n)Y88 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: ChuanxinZhuu
+#   year: 2011
+#   subentry: 32696004
+#   X4 reaction: 39-Y-89(N,2N)39-Y-88,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/32696004
+# target:
+#   Z: 39
+#   A: 89
+#   nuclide: Y89
+# reaction:
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 39
+#   A: 88
+#   nuclide: Y88
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.340000E+01   0.000000E+00   6.279088E+02   2.515121E+01   9.982650E-01
+   1.370000E+01   0.000000E+00   7.640940E+02   3.012400E+01   1.002748E+00
+   1.410000E+01   0.000000E+00   8.588986E+02   3.482727E+01   9.952475E-01
+   1.445000E+01   0.000000E+00   9.302158E+02   3.689203E+01   9.948831E-01
+   1.465000E+01   0.000000E+00   9.515994E+02   3.762066E+01   9.922829E-01
+   1.480000E+01   0.000000E+00   9.749728E+02   3.871658E+01   9.918340E-01
+# reference:
+#   author: Chuanxin Zhu, Yuan Chen, Yunfeng Mou, Pu Zheng,  Tie He, Xinhua Wang, Li An, Haiping Guo
+#   title: Measurements of (n,2n) reaction cross sections  at 14 MeV for several nuclei
+#   journal: Jour: Nuclear Science and Engineering, Vol.169, p.188 (2011)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.340000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.025080E+00
+#   A-value:  1.007322E+00
+#   chi-2:  7.118725E-01
+#   p-value:  3.397992E-01
+#   exp. data sets for p-value:      8
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2023    1.014317E+00   1.001157E+00   3.590775E-01
+# endfb8.0      1.023937E+00   1.006622E+00   6.832233E-01
+# jeff3.3       1.023937E+00   1.006622E+00   6.832233E-01
+# jendl5.0      1.029679E+00   1.004376E+00   9.082296E-01
+# cendl3.2      1.037299E+00   1.021468E+00   1.301098E+00
+# irdff2.0      1.012881E+00   1.003817E+00   3.363837E-01

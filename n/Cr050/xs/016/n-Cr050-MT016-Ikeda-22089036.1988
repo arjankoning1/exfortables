@@ -1,0 +1,59 @@
+# header:
+#   title: Cr50(n,2n)Cr49 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Ikeda
+#   year: 1988
+#   subentry: 22089036
+#   X4 reaction: 24-CR-50(N,2N)24-CR-49,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22089036
+# target:
+#   Z: 24
+#   A: 50
+#   nuclide: Cr50
+# reaction:
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 24
+#   A: 49
+#   nuclide: Cr49
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.368000E+01   0.000000E+00   1.659800E+00   3.070100E-01   9.594059E-01
+   1.378000E+01   0.000000E+00   4.039100E+00   3.453900E-01   9.594059E-01
+   1.400000E+01   0.000000E+00   7.934300E+00   6.907700E-01   9.594059E-01
+   1.425000E+01   0.000000E+00   1.583020E+01   1.247200E+00   9.594059E-01
+   1.447000E+01   0.000000E+00   2.187446E+01   1.822900E+00   9.594059E-01
+   1.472000E+01   0.000000E+00   3.290762E+01   2.686300E+00   9.594059E-01
+   1.501000E+01   0.000000E+00   4.461237E+01   3.549800E+00   9.594059E-01
+# reference:
+#   author: Y.Ikeda,C.Konno,K.Oishi,T.Nakamura,H.Miyade, K.Kawade,  H.Yamamoto, T.Katoh
+#   title: Activation cross section measurements for fusion  reactor structural materials at neutron energy from  13.3 to 15.0 MeV using FNS facility
+#   journal: Rept: JAERI Reports, No.1312 (1988)
+# statistics:
+#   NEA score: R2
+#   IAEA score:  1
+#   E-min [MeV]:  1.368000E+01
+#   E-max [MeV]:  1.501000E+01
+#   F-value:  1.454943E+00
+#   A-value:  1.032476E+00
+#   chi-2:  1.427895E+01
+#   p-value:  2.640784E-01
+#   exp. data sets for p-value:      3
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    1.479578E+00   1.193348E+00   1.545703E+01
+# endfb8.0      1.110108E+00   9.522704E-01   1.538732E+00
+# jeff3.3       1.476614E+00   1.216144E+00   1.530902E+01
+# jendl5.0      1.498094E+00   7.812116E-01   1.461322E+01
+# cendl3.2      1.604134E+00   1.086722E+00   2.447675E+01

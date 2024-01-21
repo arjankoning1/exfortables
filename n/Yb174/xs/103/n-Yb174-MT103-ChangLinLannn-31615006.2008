@@ -1,0 +1,53 @@
+# header:
+#   title: Yb174(n,p)Tm174 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: ChangLinLannn
+#   year: 2008
+#   subentry: 31615006
+#   X4 reaction: 70-YB-174(N,P)69-TM-174,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/31615006
+# target:
+#   Z: 70
+#   A: 174
+#   nuclide: Yb174
+# reaction:
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 69
+#   A: 174
+#   nuclide: Tm174
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.410000E+01   2.000000E-01   1.736100E+00   1.304600E-01   1.003501E+00
+   1.480000E+01   3.000000E-01   3.141000E+00   2.007000E-01   1.003501E+00
+# reference:
+#   author: Chang-Lin Lan, Kai-Hong Fang, Xiao-San Xu, Qi Wang,  Xiang-Zhong Kong, Rong Liu, Li Jiang
+#   title: Activation cross-section measurements for producing  short-lived nuclei with 14 MeV neutrons - Ge, Pd, Yb
+#   journal: Jour: Radiation Physics and Chemistry, Vol.77, p.854 (2008)
+# statistics:
+#   NEA score: T2
+#   IAEA score:  1
+#   E-min [MeV]:  1.410000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.495578E+00
+#   A-value:  1.176168E+00
+#   chi-2:  5.191954E+01
+#   p-value:  3.467337E-01
+#   exp. data sets for p-value:      2
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2023    1.129069E+00   9.263832E-01   3.254120E+00
+# endfb8.0      1.683186E+00   1.655979E+00   9.464141E+01
+# jeff3.3       1.352320E+00   7.533166E-01   1.514120E+01
+# jendl5.0      1.683186E+00   1.655979E+00   9.464141E+01

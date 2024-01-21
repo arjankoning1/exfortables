@@ -1,0 +1,59 @@
+# header:
+#   title: Ca42(n,p)K42 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Ikeda
+#   year: 1988
+#   subentry: 22089016
+#   X4 reaction: 20-CA-42(N,P)19-K-42,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22089016
+# target:
+#   Z: 20
+#   A: 42
+#   nuclide: Ca42
+# reaction:
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 19
+#   A: 42
+#   nuclide: K42
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.332000E+01   0.000000E+00   2.079646E+02   1.247787E+01   1.039823E+00
+   1.356000E+01   0.000000E+00   1.965265E+02   1.143805E+01   1.039823E+00
+   1.374000E+01   0.000000E+00   1.944469E+02   1.143805E+01   1.039823E+00
+   1.398000E+01   0.000000E+00   1.902876E+02   1.039823E+01   1.039823E+00
+   1.421000E+01   0.000000E+00   1.861283E+02   1.039823E+01   1.039823E+00
+   1.442000E+01   0.000000E+00   1.819690E+02   1.039823E+01   1.039823E+00
+   1.465000E+01   0.000000E+00   1.746902E+02   1.019026E+01   1.039823E+00
+   1.491000E+01   0.000000E+00   1.699071E+02   9.774301E+00   1.039823E+00
+# reference:
+#   author: Y.Ikeda,C.Konno,K.Oishi,T.Nakamura,H.Miyade, K.Kawade,  H.Yamamoto, T.Katoh
+#   title: Activation cross section measurements for fusion  reactor structural materials at neutron energy from  13.3 to 15.0 MeV using FNS facility
+#   journal: Rept: JAERI Reports, No.1312 (1988)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.332000E+01
+#   E-max [MeV]:  1.491000E+01
+#   F-value:  1.070568E+00
+#   A-value:  1.027942E+00
+#   chi-2:  1.872823E+00
+#   p-value:  3.867828E-01
+#   exp. data sets for p-value:      1
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2023    1.028499E+00   1.019339E+00   5.400844E-01
+# endfb8.0      1.049227E+00   1.041319E+00   1.173770E+00
+# jeff3.3       1.113671E+00   1.106491E+00   4.284915E+00
+# jendl5.0      1.064520E+00   9.506562E-01   1.492524E+00

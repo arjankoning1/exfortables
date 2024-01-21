@@ -1,0 +1,57 @@
+# header:
+#   title: Ni58(n,x)Co58 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Avrigeanu
+#   year: 1999
+#   subentry: 31584002
+#   X4 reaction: 28-NI-58(N,P)27-CO-58,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/31584002
+# target:
+#   Z: 28
+#   A: 58
+#   nuclide: Ni58
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 27
+#   A: 58
+#   nuclide: Co58
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.356000E+01   0.000000E+00   4.136000E+02   1.320000E+01   1.000000E+00
+   1.374000E+01   0.000000E+00   3.834000E+02   1.610000E+01   1.000000E+00
+   1.396000E+01   0.000000E+00   3.591000E+02   1.720000E+01   1.000000E+00
+   1.419000E+01   0.000000E+00   3.299000E+02   1.280000E+01   1.000000E+00
+   1.442000E+01   0.000000E+00   3.138000E+02   1.080000E+01   1.000000E+00
+   1.461000E+01   0.000000E+00   2.923000E+02   1.400000E+01   1.000000E+00
+   1.478000E+01   0.000000E+00   2.759000E+02   1.180000E+01   1.000000E+00
+# reference:
+#   author: V.Avrigeanu, S.Sudar, Cs.M.Buczko, J.Csikai,  A.A.Filatenkov, S.V.Chuvaev, R.Doczi, V.Semkova,  V A.Zelenetsky
+#   title: Energy dependence of the isomeric cross section ratio  in the 58Ni(n,p)58Com,g reactions
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.60, p.017602 (1999)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.356000E+01
+#   E-max [MeV]:  1.478000E+01
+#   F-value:  1.010450E+00
+#   A-value:  1.003433E+00
+#   chi-2:  2.351623E-01
+#   p-value:  2.858822E-01
+#   exp. data sets for p-value:      8
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.017154E+00   1.012332E+00   4.934323E-01
+# endfb8.0      1.004647E+00   9.972341E-01   1.249643E-01
+# jendl5.0      1.003677E+00   1.000794E+00   8.709008E-02

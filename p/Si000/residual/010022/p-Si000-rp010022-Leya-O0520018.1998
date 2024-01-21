@@ -1,0 +1,61 @@
+# header:
+#   title: Si0(p,x)Ne22 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Leya
+#   year: 1998
+#   subentry: O0520018
+#   X4 reaction: 14-SI-0(P,X)10-NE-22,IND,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O0520018
+# target:
+#   Z: 14
+#   A: 0
+#   nuclide: Si0
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 10
+#   A: 22
+#   nuclide: Ne22
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 11
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.130000E+01   1.100000E+00   7.000000E-02   2.100000E-02   1.000000E+00
+   8.070000E+01   1.600000E+00   4.650000E+00   7.600001E-01   1.000000E+00
+   9.880000E+01   1.400000E+00   5.150000E+00   6.600000E-01   1.000000E+00
+   1.120000E+02   1.000000E+00   4.550000E+00   6.300000E-01   1.000000E+00
+   1.230000E+02   1.000000E+00   4.440000E+00   4.400000E-01   1.000000E+00
+   1.360000E+02   1.000000E+00   7.320000E+00   7.000000E-01   1.000000E+00
+   1.790000E+02   1.000000E+00   7.590000E+00   8.700000E-01   1.000000E+00
+   3.170000E+02   1.000000E+00   6.340000E+00   5.700000E-01   1.000000E+00
+   3.170000E+02   1.000000E+00   7.190000E+00   6.200000E-01   1.000000E+00
+   3.880000E+02   1.000000E+00   7.230000E+00   6.400000E-01   1.000000E+00
+   1.600000E+03   1.000000E+00   9.590000E+00   7.300000E-01   1.000000E+00
+# reference:
+#   author: I.Leya,H.Busemann,H.Baur,R.Wieler,M.Gloris,  S.Neumann,R.Michel,F.Sudbrock,U.Herpers
+#   title: Cross sections for the proton-induced production of He and Ne isotopes from magnesium, aluminum and silicon.
+#   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.145, p.449 (19
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  3.130000E+01
+#   E-max [MeV]:  1.600000E+03
+#   F-value:  4.638117E+00
+#   A-value:  7.282901E-01
+#   chi-2:  2.394165E+01
+#   p-value:  1.417636E-01
+#   exp. data sets for p-value:      2
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    4.383558E+00   8.430980E-01   4.469822E+01
+# endfb8.0      5.532119E+00   5.665821E-01   8.998097E+00
+# jendl5.0      1.545156E+00   1.374570E+00   2.053728E+01

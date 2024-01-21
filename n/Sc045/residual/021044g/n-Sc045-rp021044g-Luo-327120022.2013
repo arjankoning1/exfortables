@@ -1,0 +1,57 @@
+# header:
+#   title: Sc45(n,x)Sc44g cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Luo
+#   year: 2013
+#   subentry: 327120022
+#   X4 reaction: 21-SC-45(N,2N)21-SC-44-G,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/327120022
+# target:
+#   Z: 21
+#   A: 45
+#   nuclide: Sc45
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 21
+#   A: 44
+#   nuclide: Sc44g
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.350000E+01   2.000000E-01   9.679234E+01   9.789001E+00   9.876769E-01
+   1.410000E+01   2.000000E-01   1.449492E+02   1.284224E+01   9.996498E-01
+   1.480000E+01   2.000000E-01   1.862671E+02   1.593193E+01   1.001436E+00
+# reference:
+#   author: J.Luo,R.Liu,L.Jiang,Z.Liu,G.Sun,S.Ge
+#   title: Cross-sections of Sc-45(n,2n)Sc-44m,g reaction from the reaction threshold to 20 MeV
+#   journal: Jour: Radiochimica Acta, Vol.101, p.607 (2013)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.350000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.006485E+00
+#   A-value:  9.973758E-01
+#   chi-2:  6.967074E-02
+#   p-value:  4.593289E-01
+#   exp. data sets for p-value:      5
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.003929E+00   1.001333E+00   4.399346E-02
+# jeff3.3       1.008291E+00   9.934340E-01   9.534802E-02

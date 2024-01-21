@@ -1,0 +1,52 @@
+# header:
+#   title: Cu65(n,x)Cu64 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Gandhi
+#   year: 2022
+#   subentry: 33163004
+#   X4 reaction: 29-CU-65(N,2N)29-CU-64,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/33163004
+# target:
+#   Z: 29
+#   A: 65
+#   nuclide: Cu65
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 29
+#   A: 64
+#   nuclide: Cu64
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.492000E+01   2.000000E-02   1.030807E+03   1.177499E+02   9.999878E-01
+# reference:
+#   author: A.Gandhi, A.Sharma, R.Pachuau, N.Singh, L.S.Danu, S.V.Suryanarayana, B.K.Nayak, A.Kumar
+#   title: Measurement of (n,a) and (n,2n) reaction cross sections at a neutron energy of 14.92 +/- 0.02 MeV for potassium and copper with uncertainty propagation
+#   journal: Jour: Chinese Physics C, Vol.46, p.014002 (2022)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  1.492000E+01
+#   E-max [MeV]:  1.492000E+01
+#   F-value:  1.036153E+00
+#   A-value:  9.689149E-01
+#   chi-2:  3.663104E-01
+#   p-value:  2.191769E-01
+#   exp. data sets for p-value:      8
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2023    1.020440E+00   9.799690E-01   2.281623E-01
+# endfb8.0      1.061414E+00   9.421394E-01   7.107638E-01
+# jeff3.3       1.022187E+00   9.782949E-01   2.480258E-01
+# jendl5.0      1.024837E+00   9.757648E-01   2.782899E-01

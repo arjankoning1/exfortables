@@ -1,0 +1,51 @@
+# header:
+#   title: Zn64(n,x)Zn63 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: ZhouMuyaoo
+#   year: 1987
+#   subentry: 30755008
+#   X4 reaction: 30-ZN-64(N,2N)30-ZN-63,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30755008
+# target:
+#   Z: 30
+#   A: 64
+#   nuclide: Zn64
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 30
+#   A: 63
+#   nuclide: Zn63
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.460000E+01   2.000000E-01   1.530000E+02   6.000000E+00   1.000000E+00
+# reference:
+#   author: Zhou Muyao,Zhang Yongfa,Wang Chuanshan,Zhang Lu, Chen Yitai,Zhou Shuxin,Zhang Shenjin,Xie Kuanzhong, Zhou Shenmuo,Chen Xueshi,Zhang Yiping,Yan Qinguan
+#   title: Shell effect from the cross section of the (n,2n) reaction produced by 14.6 MeV neutrons
+#   journal: Jour: Chinese J.of Nuclear Physics (Beijing)., Vol.9, p.34 (1987)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.460000E+01
+#   E-max [MeV]:  1.460000E+01
+#   F-value:  1.285094E+00
+#   A-value:  8.221881E-01
+#   chi-2:  2.917528E+01
+#   p-value:  4.684624E-01
+#   exp. data sets for p-value:      8
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.481471E+00   6.750048E-01   6.868063E+01
+# jeff3.3       1.203085E+00   8.311964E-01   1.852926E+01
+# jendl5.0      1.009478E+00   9.906107E-01   3.159572E-01

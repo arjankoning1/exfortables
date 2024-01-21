@@ -1,0 +1,58 @@
+# header:
+#   title: Pd110(n,x)Pd109m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: JunhuaLuoo
+#   year: 2018
+#   subentry: 327760031
+#   X4 reaction: 46-PD-110(N,2N)46-PD-109-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/327760031
+# target:
+#   Z: 46
+#   A: 110
+#   nuclide: Pd110
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 46
+#   A: 109
+#   nuclide: Pd109m
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.350000E+01   2.000000E-01   3.798891E+02   2.012047E+01   9.892946E-01
+   1.410000E+01   2.000000E-01   4.148727E+02   2.433256E+01   9.996933E-01
+   1.480000E+01   2.000000E-01   4.334709E+02   1.962471E+01   1.001088E+00
+# reference:
+#   author: Junhua Luo, Li Jiang, Long He
+#   title: Activation cross sections for the 110Pd(n,2n)  reaction and the isomeric cross-sections ratio of  109m,gPd in the neutron energy range of 13-15 MeV
+#   journal: Jour: Journal of Radioanalytical and Nuclear Chemistry, Vol.316, p.733 (
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.350000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.143278E+00
+#   A-value:  1.134227E+00
+#   chi-2:  7.792161E+00
+#   p-value:  1.865532E-01
+#   exp. data sets for p-value:      3
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.115906E+00   1.107960E+00   5.259842E+00
+# jeff3.3       1.166928E+00   1.161116E+00   1.032448E+01
+# jendl5.0      0.000000E+00   0.000000E+00   0.000000E+00

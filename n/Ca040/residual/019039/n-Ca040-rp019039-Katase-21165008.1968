@@ -1,0 +1,52 @@
+# header:
+#   title: Ca40(n,x)K39 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Katase
+#   year: 1968
+#   subentry: 21165008
+#   X4 reaction: 20-CA-40(N,N+P)19-K-39,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21165008
+# target:
+#   Z: 20
+#   A: 40
+#   nuclide: Ca40
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 28
+# residual:
+#   Z: 19
+#   A: 39
+#   nuclide: K39
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.410000E+01   1.000000E-01   1.800000E+02   3.200000E+01   1.000000E+00
+# reference:
+#   author: A.KATASE,T.AKIYOSHI,M.SONODA,M.SEKI
+#   title: -PROTONS FROM CA-40 BOMBARDED WITH 14.1 MEV NEUTRONS-.
+#   journal: Jour: Nuclear Physics, Section A, Vol.111, p.184 (1968)
+# statistics:
+#   NEA score: T3
+#   IAEA score: -1
+#   E-min [MeV]:  1.410000E+01
+#   E-max [MeV]:  1.410000E+01
+#   F-value:  3.068026E+00
+#   A-value:  3.067606E+00
+#   chi-2:  1.354173E+02
+#   p-value:  6.581870E-02
+#   exp. data sets for p-value:      1
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2023    3.141510E+00   3.141510E+00   1.451060E+02
+# endfb8.0      3.013494E+00   3.013494E+00   1.282762E+02
+# jeff3.3       3.049229E+00   3.049229E+00   1.328697E+02
+# jendl5.0      0.000000E+00   0.000000E+00   0.000000E+00

@@ -1,0 +1,54 @@
+# header:
+#   title: Si0(n,x)Na22 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Sisterson
+#   year: 2007
+#   subentry: 14150004
+#   X4 reaction: 14-SI-0(N,X)11-NA-22,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/14150004
+# target:
+#   Z: 14
+#   A: 0
+#   nuclide: Si0
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 11
+#   A: 22
+#   nuclide: Na22
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   7.070000E+01   5.800000E+00   8.799500E+00   1.499910E+00   9.999399E-01
+   1.108000E+02   4.200000E+00   8.899500E+00   1.699900E+00   9.999399E-01
+   1.120000E+02   4.100000E+00   8.899500E+00   1.699900E+00   9.999399E-01
+# reference:
+#   author: J.M.Sisterson
+#   title: Cross section measurements for neutron-induced reactions off C, Al, SiO2, Si and Au producing relatively short-lived radionuclides at neutron energies between 70 and 160 MeV
+#   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.261, p.993 (20
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  7.070000E+01
+#   E-max [MeV]:  1.120000E+02
+#   F-value:  5.355580E+00
+#   A-value:  7.994408E-01
+#   chi-2:  3.754097E+01
+#   p-value:  1.312211E-01
+#   exp. data sets for p-value:      1
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2023    2.244092E+00   2.239931E+00   4.545382E+01
+# endfb8.0      2.202239E+00   2.128386E+00   5.535381E+01
+# jeff3.3       2.218241E+01   4.623200E-02   2.698088E+01
+# jendl5.0      1.855811E+00   1.853179E+00   2.237535E+01

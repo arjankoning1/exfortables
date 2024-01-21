@@ -1,0 +1,53 @@
+# header:
+#   title: Mo92(n,2n)Mo91 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Hasan
+#   year: 1972
+#   subentry: 30041007
+#   X4 reaction: 42-MO-92(N,2N)42-MO-91,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30041007
+# target:
+#   Z: 42
+#   A: 92
+#   nuclide: Mo92
+# reaction:
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 42
+#   A: 91
+#   nuclide: Mo91
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.480000E+01   5.000000E-01   2.320000E+02   1.600000E+01   1.000000E+00
+# reference:
+#   author: S.S.Hasan, R.Prasad, M.L.Seghal
+#   title: The 14.8 MeV neutron cross sections for enriched  isotopes of 82Se, 92Mo, 117Sn, 128Te and 130Te
+#   journal: Jour: Nuclear Physics, Section A, Vol.181, p.101 (1972)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.480000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.203221E+00
+#   A-value:  1.090812E+00
+#   chi-2:  1.088098E+01
+#   p-value:  2.984941E-01
+#   exp. data sets for p-value:      8
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    1.022364E+00   9.781256E-01   4.259208E-01
+# endfb8.0      1.119202E+00   1.119202E+00   3.414510E+00
+# jeff3.3       1.026158E+00   9.745085E-01   5.023249E-01
+# jendl5.0      1.026158E+00   9.745085E-01   5.023249E-01
+# cendl3.2      1.485509E+00   1.485509E+00   4.955984E+01

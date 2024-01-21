@@ -1,0 +1,59 @@
+# header:
+#   title: Fe54(n,p)Mn54 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Shimizu
+#   year: 2004
+#   subentry: 22837006
+#   X4 reaction: 26-FE-54(N,P)25-MN-54,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22837006
+# target:
+#   Z: 26
+#   A: 54
+#   nuclide: Fe54
+# reaction:
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 25
+#   A: 54
+#   nuclide: Mn54
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.090000E+00   5.000000E-02   3.398175E+01   5.804800E+00   9.709072E-01
+   2.270000E+00   5.000000E-02   6.616370E+01   4.770300E+00   9.729956E-01
+   2.460000E+00   5.000000E-02   7.593327E+01   3.777600E+00   9.861461E-01
+   2.690000E+00   5.000000E-02   9.612652E+01   3.721000E+00   1.001318E+00
+   2.900000E+00   5.000000E-02   1.126346E+02   4.641500E+00   1.005666E+00
+   3.090000E+00   5.000000E-02   1.351516E+02   5.469200E+00   1.001123E+00
+# reference:
+#   author: T.Shimizu,H.Sakane,M.Shibata,K.Kawade, T.Nishitani
+#   title: .Measurements of activation cross sections of (n,p)   and (n,alpha) reactions with d-D neutrons in   the energy range 2.1 - 3.1 MeV
+#   journal: Jour: Annals of Nuclear Energy, Vol.31, p.975 (2004)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  2.090000E+00
+#   E-max [MeV]:  3.090000E+00
+#   F-value:  1.357767E+00
+#   A-value:  8.100853E-01
+#   chi-2:  1.231088E+01
+#   p-value:  1.955446E-01
+#   exp. data sets for p-value:      2
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2023    1.325175E+00   8.168166E-01   9.815700E+00
+# endfb8.0      1.342385E+00   8.091519E-01   1.007888E+01
+# jeff3.3       1.458797E+00   7.522154E-01   1.801763E+01
+# jendl5.0      1.403549E+00   7.994294E-01   1.535736E+01
+# cendl3.2      1.253695E+00   8.785751E-01   1.054264E+01
+# irdff2.0      1.342232E+00   8.093359E-01   1.005309E+01

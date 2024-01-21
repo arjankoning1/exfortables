@@ -1,0 +1,54 @@
+# header:
+#   title: Th232(p,x)Pa232 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Kmak
+#   year: 2021
+#   subentry: C2603004
+#   X4 reaction: 90-TH-232(P,N)91-PA-232,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C2603004
+# target:
+#   Z: 90
+#   A: 232
+#   nuclide: Th232
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+# residual:
+#   Z: 91
+#   A: 232
+#   nuclide: Pa232
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.410000E+01   1.000000E-01   1.170000E+01   7.000000E-01   1.000000E+00
+   1.440000E+01   1.000000E-01   1.210000E+01   7.000000E-01   1.000000E+00
+   1.490000E+01   1.000000E-01   1.200000E+01   7.000000E-01   1.000000E+00
+   1.570000E+01   1.400000E-01   1.520000E+01   7.000000E-01   1.000000E+00
+   1.600000E+01   1.000000E-01   1.470000E+01   8.000000E-01   1.000000E+00
+   1.690000E+01   1.000000E-01   1.730000E+01   1.000000E+00   1.000000E+00
+# reference:
+#   author: K.N.Kmak,D.A.Shaughnessy,J.Vujic
+#   title: Measurement of the 230Th(p,2n)229Pa and 230Th(p,3n) 228Pa reaction cross sections from 14.1 to 16.9 MeV
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.103, p.034610 (2021)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  1.410000E+01
+#   E-max [MeV]:  1.690000E+01
+#   F-value:  1.070664E+00
+#   A-value:  9.664730E-01
+#   chi-2:  1.756146E+00
+#   p-value:  3.375327E-01
+#   exp. data sets for p-value:      2
+#   libraries:      1
+##  Library          F              A            chi-2
+# tendl.2023    1.070664E+00   9.664730E-01   1.756146E+00

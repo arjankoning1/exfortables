@@ -1,0 +1,51 @@
+# header:
+#   title: Ni60(n,x)Ni59 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Weselka
+#   year: 1991
+#   subentry: 22561004
+#   X4 reaction: 28-NI-60(N,2N)28-NI-59,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22561004
+# target:
+#   Z: 28
+#   A: 60
+#   nuclide: Ni60
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 28
+#   A: 59
+#   nuclide: Ni59
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.480000E+01   6.000000E-01   4.100000E+02   1.200000E+02   1.000000E+00
+# reference:
+#   author: D.Weselka,B.Schneck,W.Ruehm,L.Zerle,G.Korschinek, E.Nolte,H.Vonach
+#   title: Determination of the half-life of Ni-59 and the  Ni-60(n,2n) cross sections
+#   journal: Conf: Conf.on Nucl.Data for Sci.and Technol.,Juelich 1991, p.559 (1991)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.480000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.026410E+00
+#   A-value:  1.021427E+00
+#   chi-2:  9.493470E-02
+#   p-value:  4.305059E-01
+#   exp. data sets for p-value:      5
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.000168E+00   9.998319E-01   7.198646E-04
+# endfb8.0      1.034077E+00   1.034077E+00   1.495691E-01
+# jendl5.0      1.030723E+00   1.030723E+00   1.345151E-01

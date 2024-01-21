@@ -1,0 +1,65 @@
+# header:
+#   title: Ni64(p,x)Cu65 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Simon
+#   year: 2013
+#   subentry: C2026006
+#   X4 reaction: 28-NI-64(P,G)29-CU-65,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C2026006
+# target:
+#   Z: 28
+#   A: 64
+#   nuclide: Ni64
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+# residual:
+#   Z: 29
+#   A: 65
+#   nuclide: Cu65
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 16
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.990900E+00   0.000000E+00   6.600000E-01   1.100000E-01   1.000000E+00
+   2.194053E+00   0.000000E+00   1.130000E+00   1.800000E-01   1.000000E+00
+   2.387048E+00   0.000000E+00   1.390000E+00   2.200000E-01   1.000000E+00
+   2.590201E+00   0.000000E+00   1.030000E+00   1.600000E-01   1.000000E+00
+   2.793354E+00   0.000000E+00   3.300000E-01   5.000000E-02   1.000000E+00
+   2.986349E+00   0.000000E+00   1.500000E-01   2.000000E-02   1.000000E+00
+   3.189502E+00   0.000000E+00   2.400000E-01   4.000000E-02   1.000000E+00
+   3.392656E+00   0.000000E+00   1.500000E-01   2.000000E-02   1.000000E+00
+   3.595809E+00   0.000000E+00   1.200000E-01   2.000000E-02   1.000000E+00
+   3.788804E+00   0.000000E+00   2.000000E-01   3.000000E-02   1.000000E+00
+   3.991957E+00   0.000000E+00   1.700000E-01   3.000000E-02   1.000000E+00
+   4.205267E+00   0.000000E+00   2.600000E-01   4.000000E-02   1.000000E+00
+   4.398263E+00   0.000000E+00   2.200000E-01   4.000000E-02   1.000000E+00
+   4.591258E+00   0.000000E+00   3.000000E-01   5.000000E-02   1.000000E+00
+   4.794411E+00   0.000000E+00   2.200000E-01   4.000000E-02   1.000000E+00
+   4.997564E+00   0.000000E+00   2.800000E-01   5.000000E-02   1.000000E+00
+# reference:
+#   author: A.Simon,A.Spyrou,T.Rauscher,C.Frohlich,S.J.Quinn, A.Battaglia,A.Best,B.Bucher,M.Couder,P.A.DeYoung, X.Fang,J.Gorres,A.Kontos,Q.Li,L.-Y.Lin,A.Long, S.Lyons,A.Roberts,D.Robertson,K.Smith,M.K.Smith, E.Stech,B.Stefanek,W.P.Tan,X.D.Tang,M.Wiescher
+#   title: Systematic study of (p,gamma) reactions on Ni isotopes
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.87, p.055802 (2013)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  1.990900E+00
+#   E-max [MeV]:  4.997564E+00
+#   F-value:  1.661854E+00
+#   A-value:  1.335554E+00
+#   chi-2:  1.691450E+01
+#   p-value:  2.573152E-01
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.824795E+00   1.259586E+00   2.317373E+01
+# jendl5.0      1.481005E+00   1.416103E+00   1.065527E+01

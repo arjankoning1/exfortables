@@ -1,0 +1,63 @@
+# header:
+#   title: Nb93(p,x)Nb90 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Kim
+#   year: 2018
+#   subentry: D7030004
+#   X4 reaction: 41-NB-93(P,X)41-NB-90,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D7030004
+# target:
+#   Z: 41
+#   A: 93
+#   nuclide: Nb93
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 41
+#   A: 90
+#   nuclide: Nb90
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 13
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.500000E+01   2.700000E-01   2.000000E-02   4.000000E-03   1.000000E+00
+   2.670000E+01   2.600000E-01   6.000000E-02   1.000000E-02   1.000000E+00
+   2.840000E+01   2.500000E-01   3.000000E-01   3.000000E-02   1.000000E+00
+   3.000000E+01   2.400000E-01   7.000000E-01   9.999999E-02   1.000000E+00
+   3.150000E+01   2.200000E-01   1.300000E+00   2.000000E-01   1.000000E+00
+   3.290000E+01   2.200000E-01   1.900000E+00   2.000000E-01   1.000000E+00
+   3.430000E+01   2.200000E-01   4.000000E+00   4.000000E-01   1.000000E+00
+   3.570000E+01   2.000000E-01   1.210000E+01   1.000000E+00   1.000000E+00
+   3.700000E+01   2.000000E-01   3.170000E+01   2.500000E+00   1.000000E+00
+   3.830000E+01   2.000000E-01   6.770000E+01   5.300000E+00   1.000000E+00
+   3.960000E+01   2.000000E-01   1.149000E+02   8.800000E+00   1.000000E+00
+   4.080000E+01   1.800000E-01   1.638000E+02   1.250000E+01   1.000000E+00
+   4.200000E+01   1.800000E-01   2.128000E+02   1.610000E+01   1.000000E+00
+# reference:
+#   author: K.S.Kim, G.N.Kim, M.Shahid, M.Zaman, S.C.Yang,  M.S.Uddin, H.Naik
+#   title: Excitation functions of 93Nb(p,x) reactions from threshold to 42.5 MeV
+#   journal: Jour: Journal of Radioanalytical and Nuclear Chemistry, Vol.317, p.1021
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  2.500000E+01
+#   E-max [MeV]:  4.200000E+01
+#   F-value:  2.190387E+00
+#   A-value:  1.571494E+00
+#   chi-2:  1.712190E+02
+#   p-value:  2.776233E-01
+#   exp. data sets for p-value:      2
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.879323E+00   1.032508E+00   5.977517E+01
+# endfb8.0      1.887465E+00   1.372155E+00   9.027347E+01
+# jendl5.0      2.652838E+00   2.291414E+00   3.358862E+02

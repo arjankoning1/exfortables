@@ -1,0 +1,63 @@
+# header:
+#   title: Cr0(n,n'_01)Cr1 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Almenramstrom
+#   year: 1975
+#   subentry: 20788005
+#   X4 reaction: 24-CR-0(N,INL)24-CR-0,PAR,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20788005
+#   level energy [MeV]  7.83000E-01
+# target:
+#   Z: 24
+#   A: 0
+#   nuclide: Cr0
+# reaction:
+#   type: (n,n'_01)
+#   ENDF_MF: 3
+#   ENDF_MT: 51
+#   level: 
+#     number: 1
+#     energy [MeV]:  8.000000E-01
+#     spin:  5.500000E+00
+#     parity: 1
+# residual:
+#   Z: 24
+#   A: 1
+#   nuclide: Cr1
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.020000E+00   0.000000E+00   6.629533E+01   1.002569E+01   1.004475E+00
+   2.270000E+00   0.000000E+00   7.215151E+01   1.100264E+01   1.002104E+00
+   2.500000E+00   0.000000E+00   6.742641E+01   1.004407E+01   1.006364E+00
+   2.770000E+00   0.000000E+00   6.506512E+01   9.991800E+00   1.001002E+00
+   3.010000E+00   0.000000E+00   6.206352E+01   8.990800E+00   1.001025E+00
+# reference:
+#   author: E.Almen-Ramstrom
+#   title: A systematic study of neutron inelastic scattering  in the energy range 2.0 to 4.5 MeV
+#   journal: Rept: Aktiebolaget Atomenergi,Stockholm/Studsvik Repts, No.503 (1975)
+# statistics:
+#   NEA score: T3
+#   IAEA score: -1
+#   E-min [MeV]:  2.020000E+00
+#   E-max [MeV]:  3.010000E+00
+#   F-value:  1.057979E+01
+#   A-value:  1.055083E+01
+#   chi-2:  4.165101E+03
+#   p-value:  0.000000E+00
+#   exp. data sets for p-value:      1
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    1.072721E+01   1.072249E+01   4.219767E+03
+# endfb8.0      1.055120E+01   1.054629E+01   4.069504E+03
+# jeff3.3       1.060302E+01   1.055165E+01   4.279300E+03
+# jendl5.0      1.147699E+01   1.146918E+01   4.884438E+03
+# cendl3.2      9.590089E+00   9.553967E+00   3.372495E+03

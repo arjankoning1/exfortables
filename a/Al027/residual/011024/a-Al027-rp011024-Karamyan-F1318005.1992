@@ -1,0 +1,53 @@
+# header:
+#   title: Al27(a,x)Na24 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Karamyan
+#   year: 1992
+#   subentry: F1318005
+#   X4 reaction: 13-AL-27(A,X)11-NA-24,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/F1318005
+# target:
+#   Z: 13
+#   A: 27
+#   nuclide: Al27
+# reaction:
+#   type: (a,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 11
+#   A: 24
+#   nuclide: Na24
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.804600E+01   0.000000E+00   2.729100E-02   0.000000E+00   1.000000E+00
+   2.939200E+01   0.000000E+00   2.586400E-02   0.000000E+00   1.000000E+00
+   3.058600E+01   0.000000E+00   2.757100E-02   0.000000E+00   1.000000E+00
+   3.223700E+01   0.000000E+00   2.113900E-02   0.000000E+00   1.000000E+00
+   3.528300E+01   0.000000E+00   3.479800E-02   0.000000E+00   1.000000E+00
+# reference:
+#   author: S.A.Karamyan,Yu.Ts.Oganesyan,A.Tonchev,V.G.Vinogradov
+#   title: Activation of aluminum foils by He-4 ions at 25-45 MeV energy.
+#   journal: Conf: Int.Conf.Nucl.Spectroscopy Nucl.Struct.,Alma-Ata 1992, p.291 (1992
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  2.804600E+01
+#   E-max [MeV]:  3.528300E+01
+#   F-value:  2.231726E+01
+#   A-value:  4.480837E-02
+#   chi-2:  0.000000E+00
+#   p-value:  5.960464E-08
+#   exp. data sets for p-value:      2
+#   libraries:      1
+##  Library          F              A            chi-2
+# tendl.2023    2.231726E+01   4.480837E-02   0.000000E+00

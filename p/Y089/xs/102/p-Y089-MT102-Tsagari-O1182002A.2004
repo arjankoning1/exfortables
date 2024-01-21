@@ -1,0 +1,62 @@
+# header:
+#   title: Y89(p,g)Zr90 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Tsagari
+#   year: 2004
+#   subentry: O1182002A
+#   X4 reaction: 39-Y-89(P,G)40-ZR-90,,SIG,,SFC
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O1182002A
+# target:
+#   Z: 39
+#   A: 89
+#   nuclide: Y89
+# reaction:
+#   type: (p,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+# residual:
+#   Z: 40
+#   A: 90
+#   nuclide: Zr90
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 13
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.776917E+00   0.000000E+00   7.910600E-03   1.977600E-03   1.000000E+00
+   1.983230E+00   0.000000E+00   2.572300E-02   4.947700E-03   1.000000E+00
+   2.184486E+00   0.000000E+00   3.959300E-02   5.935100E-03   1.000000E+00
+   2.385742E+00   0.000000E+00   1.168800E-01   1.584500E-02   1.000000E+00
+   2.686108E+00   0.000000E+00   3.359400E-01   4.166000E-02   1.000000E+00
+   2.986475E+00   0.000000E+00   6.981700E-01   8.524900E-02   1.000000E+00
+   3.286842E+00   0.000000E+00   1.339500E+00   1.484700E-01   1.000000E+00
+   3.487086E+00   0.000000E+00   1.885300E+00   2.069600E-01   1.000000E+00
+   3.886564E+00   0.000000E+00   2.669100E+00   2.965600E-01   1.000000E+00
+   4.186931E+00   0.000000E+00   2.923400E+00   2.894500E-01   1.000000E+00
+   4.487298E+00   0.000000E+00   2.264100E+00   2.315600E-01   1.000000E+00
+   4.687542E+00   0.000000E+00   2.120200E+00   1.827800E-01   1.000000E+00
+   4.886775E+00   0.000000E+00   2.129000E+00   2.027600E-01   1.000000E+00
+# reference:
+#   author: P.Tsagari, M.Kokkoris, E.Skreti, A.G.Karydas, S.Harissopulos, T.Paradellis, P.Demetriou
+#   title: Cross section measurements of the 89-Y(p,gamma)90-Zr reaction at energies relevant to P-process nucleosynthesis
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.70, p.015802 (2004)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  1.776917E+00
+#   E-max [MeV]:  4.886775E+00
+#   F-value:  1.457778E+00
+#   A-value:  1.211272E+00
+#   chi-2:  1.984825E+01
+#   p-value:  3.318567E-01
+#   exp. data sets for p-value:      4
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.336037E+00   9.856032E-01   8.142225E+00
+# jendl5.0      1.564291E+00   1.488611E+00   3.155428E+01

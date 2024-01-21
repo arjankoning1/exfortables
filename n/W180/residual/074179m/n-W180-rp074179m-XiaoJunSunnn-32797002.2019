@@ -1,0 +1,56 @@
+# header:
+#   title: W180(n,x)W179m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: XiaoJunSunnn
+#   year: 2019
+#   subentry: 32797002
+#   X4 reaction: 74-W-180(N,2N)74-W-179-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/32797002
+# target:
+#   Z: 74
+#   A: 180
+#   nuclide: W180
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 74
+#   A: 179
+#   nuclide: W179m
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.350000E+01   2.000000E-01   6.727204E+02   8.557947E+01   9.892946E-01
+   1.440000E+01   2.000000E-01   5.183605E+02   6.566125E+01   1.000696E+00
+# reference:
+#   author: Xiao-Jun Sun,Feng-Qun Zhou,Yue-Li Song,Yong Li, Peng-Fei Ji,Xin-Yi Chang
+#   title: Measurements of the cross-sections of produced short-lived nuclei induced by neutrons around 14 MeV on isotopes of tungsten
+#   journal: Jour: Chinese Physics Letters, Vol.36, p.112501 (2019)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.350000E+01
+#   E-max [MeV]:  1.440000E+01
+#   F-value:  1.568443E+00
+#   A-value:  6.672626E-01
+#   chi-2:  7.658011E+00
+#   p-value:  1.720539E-01
+#   exp. data sets for p-value:      3
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.730723E+00   5.893829E-01   1.066298E+01
+# jeff3.3       1.381108E+00   7.554332E-01   4.653040E+00

@@ -1,0 +1,54 @@
+# header:
+#   title: C13(d,x)C14 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Koudijs
+#   year: 1953
+#   subentry: O2055003
+#   X4 reaction: 6-C-13(D,P)6-C-14,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O2055003
+# target:
+#   Z: 6
+#   A: 13
+#   nuclide: C13
+# reaction:
+#   type: (d,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 6
+#   A: 14
+#   nuclide: C14
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.820000E-01   0.000000E+00   1.500000E-02   2.250000E-03   1.000000E+00
+   3.840000E-01   0.000000E+00   1.100000E-01   1.650000E-02   1.000000E+00
+   4.850000E-01   0.000000E+00   3.000000E-01   4.500000E-02   1.000000E+00
+   5.360000E-01   0.000000E+00   5.400000E-01   8.100000E-02   1.000000E+00
+   5.860000E-01   0.000000E+00   7.300000E-01   1.095000E-01   1.000000E+00
+   6.370000E-01   0.000000E+00   8.400000E-01   1.260000E-01   1.000000E+00
+# reference:
+#   author: B.Koudijs, F.P.G.Valckx, P.M.Endt
+#   title: Angular distributions and yields of the C-13(d,p)C-14 reaction.
+#   journal: Jour: Physica (Utrecht), Vol.19, p.1133 (1953)
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  2.820000E-01
+#   E-max [MeV]:  6.370000E-01
+#   F-value:  9.849798E+00
+#   A-value:  9.556111E+00
+#   chi-2:  4.787159E+03
+#   p-value:  0.000000E+00
+#   exp. data sets for p-value:      1
+#   libraries:      1
+##  Library          F              A            chi-2
+# tendl.2023    9.849798E+00   9.556111E+00   4.787159E+03

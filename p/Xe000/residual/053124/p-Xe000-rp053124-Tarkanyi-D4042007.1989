@@ -1,0 +1,59 @@
+# header:
+#   title: Xe0(p,x)I124 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Tarkanyi
+#   year: 1989
+#   subentry: D4042007
+#   X4 reaction: 54-XE-0(P,X)53-I-124,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D4042007
+# target:
+#   Z: 54
+#   A: 0
+#   nuclide: Xe0
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 53
+#   A: 124
+#   nuclide: I124
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 10
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.140000E+01   0.000000E+00   2.000000E-02   0.000000E+00   1.000000E+00
+   2.420000E+01   0.000000E+00   8.000000E-02   0.000000E+00   1.000000E+00
+   2.510000E+01   0.000000E+00   1.600000E-01   0.000000E+00   1.000000E+00
+   2.720000E+01   0.000000E+00   2.600000E-01   0.000000E+00   1.000000E+00
+   2.950000E+01   0.000000E+00   6.400000E-01   0.000000E+00   1.000000E+00
+   2.951000E+01   0.000000E+00   1.160000E+00   0.000000E+00   1.000000E+00
+   3.170000E+01   0.000000E+00   2.340000E+00   0.000000E+00   1.000000E+00
+   3.400000E+01   0.000000E+00   4.260000E+00   0.000000E+00   1.000000E+00
+   3.460000E+01   0.000000E+00   1.840000E+00   0.000000E+00   1.000000E+00
+   3.950000E+01   0.000000E+00   2.920000E+00   0.000000E+00   1.000000E+00
+# reference:
+#   author: F.Tarkanyi,S.M.Qaim
+#   title: Excitation functions for the formation of some radioisotopes of cesium and iodine in proton and deuteron induced nuclear reactions on natural xenon
+#   journal: Jour: Radiochimica Acta, Vol.47, p.169 (1989)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  2.140000E+01
+#   E-max [MeV]:  3.950000E+01
+#   F-value:  2.248542E+00
+#   A-value:  1.955736E+00
+#   chi-2:  0.000000E+00
+#   p-value:  2.567616E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.790029E+00   1.532259E+00   0.000000E+00
+# jendl5.0      2.683106E+00   2.496250E+00   0.000000E+00

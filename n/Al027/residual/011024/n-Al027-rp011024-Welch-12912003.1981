@@ -1,0 +1,53 @@
+# header:
+#   title: Al27(n,x)Na24 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Welch
+#   year: 1981
+#   subentry: 12912003
+#   X4 reaction: 13-AL-27(N,A)11-NA-24,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/12912003
+# target:
+#   Z: 13
+#   A: 27
+#   nuclide: Al27
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+# residual:
+#   Z: 11
+#   A: 24
+#   nuclide: Na24
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.000000E+01   1.000000E-01   1.645000E+02   2.200000E+01   1.000000E+00
+   2.300000E+01   1.000000E-01   9.000000E+01   1.200000E+01   1.000000E+00
+# reference:
+#   author: P.Welch,J.Johnson,G.Randers-Pehrson,J.Rapaport
+#   title: Neutron Activation Cross Section on 12C and Pb with  20-26 MeV Monoenergetic Neutrons
+#   journal: Jour: Bulletin of the American Physical Society Ser.II, Vol.26, p.708(G3
+# statistics:
+#   NEA score: R2
+#   IAEA score:  0
+#   E-min [MeV]:  2.000000E+01
+#   E-max [MeV]:  2.300000E+01
+#   F-value:  5.066818E+00
+#   A-value:  2.073005E-01
+#   chi-2:  3.424196E+01
+#   p-value:  4.494381E-02
+#   exp. data sets for p-value:      7
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2023    3.551945E+00   2.817852E-01   2.890907E+01
+# endfb8.0      9.271002E+00   1.078632E-01   4.476983E+01
+# jeff3.3       9.271002E+00   1.078632E-01   4.476983E+01
+# jendl5.0      5.258115E+00   1.901822E-01   3.688902E+01

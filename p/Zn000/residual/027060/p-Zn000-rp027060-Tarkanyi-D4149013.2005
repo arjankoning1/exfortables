@@ -1,0 +1,54 @@
+# header:
+#   title: Zn0(p,x) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Tarkanyi
+#   year: 2005
+#   subentry: D4149013
+#   X4 reaction: 30-ZN-0(P,X)27-CO-60,,SIG,,,EXP
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D4149013
+# target:
+#   Z: 30
+#   A: 0
+#   nuclide: Zn0
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 9000
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 9
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.560000E+01   2.000000E+00   3.200000E-02   1.000000E-02   1.000000E+00
+   3.310000E+01   1.700000E+00   8.500000E-02   1.800000E-02   1.000000E+00
+   3.950000E+01   1.400000E+00   2.800000E-01   5.000000E-02   1.000000E+00
+   4.510000E+01   1.200000E+00   4.800000E-01   8.000000E-02   1.000000E+00
+   5.020000E+01   1.000000E+00   7.900000E-01   1.300000E-01   1.000000E+00
+   5.490000E+01   8.000000E-01   1.360000E+00   2.100000E-01   1.000000E+00
+   5.930000E+01   6.000000E-01   1.910000E+00   2.900000E-01   1.000000E+00
+   6.340000E+01   5.000000E-01   2.360000E+00   3.700000E-01   1.000000E+00
+   6.740000E+01   3.000000E-01   2.760000E+00   4.200000E-01   1.000000E+00
+# reference:
+#   author: F.Tarkanyi,F.Ditroi,J.Csikai,S.Takacs,M.S.Uddin,  M.Hagiwara,M.Baba,Yu.N.Shubin,A.I.Dityuk
+#   title: Activation cross-sections of long-lived products of proton-induced nuclear reactions on zinc
+#   journal: Jour: Applied Radiation and Isotopes, Vol.62, p.73 (2005)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  2.560000E+01
+#   E-max [MeV]:  6.740000E+01
+#   F-value:  2.079750E+00
+#   A-value:  8.826541E-01
+#   chi-2:  1.652708E+01
+#   p-value:  4.752073E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    2.378960E+00   4.510470E-01   9.133757E+00
+# jendl5.0      1.762625E+00   1.727266E+00   2.392039E+01

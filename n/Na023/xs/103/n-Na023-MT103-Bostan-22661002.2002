@@ -1,0 +1,58 @@
+# header:
+#   title: Na23(n,p)Ne23 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Bostan
+#   year: 2002
+#   subentry: 22661002
+#   X4 reaction: 11-NA-23(N,P)10-NE-23,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22661002
+# target:
+#   Z: 11
+#   A: 23
+#   nuclide: Na23
+# reaction:
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 10
+#   A: 23
+#   nuclide: Ne23
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.360000E+01   8.000000E-01   3.360000E+01   3.000000E+00   1.000000E+00
+   1.368000E+01   8.100000E-01   3.530000E+01   3.000000E+00   1.000000E+00
+   1.410000E+01   1.000000E-01   4.280000E+01   4.000000E+00   1.000000E+00
+   1.446000E+01   1.100000E-01   3.890000E+01   4.000000E+00   1.000000E+00
+   1.472000E+01   1.100000E-01   3.910000E+01   4.000000E+00   1.000000E+00
+   1.486000E+01   1.200000E-01   3.980000E+01   4.000000E+00   1.000000E+00
+# reference:
+#   author: M.Bostan,E.Gueltekin
+#   title: Cross-section measurements for production of short- lived isotopes of 23Na and 26Mg around 14 MeV
+#   journal: Jour: Annals of Nuclear Energy, Vol.29, Issue.10, p.2019 (2002)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.360000E+01
+#   E-max [MeV]:  1.486000E+01
+#   F-value:  1.352953E+00
+#   A-value:  1.100417E+00
+#   chi-2:  1.526687E+01
+#   p-value:  3.210311E-01
+#   exp. data sets for p-value:      2
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    1.315306E+00   8.072370E-01   5.590303E+00
+# endfb8.0      1.586535E+00   1.573170E+00   4.160854E+01
+# jeff3.3       1.271118E+00   1.140051E+00   1.164242E+01
+# jendl5.0      1.258399E+00   9.366562E-01   5.837256E+00
+# cendl3.2      1.273293E+00   1.189885E+00   1.165582E+01

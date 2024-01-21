@@ -1,0 +1,61 @@
+# header:
+#   title: Ni58(n,2n)Ni57 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Iwasaki
+#   year: 1994
+#   subentry: 22752003
+#   X4 reaction: 28-NI-58(N,2N)28-NI-57,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22752003
+# target:
+#   Z: 28
+#   A: 58
+#   nuclide: Ni58
+# reaction:
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 28
+#   A: 57
+#   nuclide: Ni57
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.268700E+01   0.000000E+00   1.791000E+00   0.000000E+00   1.000000E+00
+   1.345800E+01   0.000000E+00   1.398000E+01   0.000000E+00   1.000000E+00
+   1.454900E+01   0.000000E+00   3.599500E+01   0.000000E+00   1.000000E+00
+   1.580700E+01   0.000000E+00   5.280500E+01   0.000000E+00   1.000000E+00
+   1.686000E+01   0.000000E+00   5.963100E+01   0.000000E+00   1.000000E+00
+   1.819000E+01   0.000000E+00   6.915001E+01   0.000000E+00   1.000000E+00
+   1.913200E+01   0.000000E+00   7.051300E+01   0.000000E+00   1.000000E+00
+   1.941800E+01   0.000000E+00   7.358401E+01   0.000000E+00   1.000000E+00
+# reference:
+#   author: S.Iwasaki, S.Matsuyama, T.Ohkubo, H.Fukuda, M.Sakuma, M.Kitamura
+#   title: Measurement of activation cross-sections for several  elements between 12 and 20 MeV.
+#   journal: Conf: Conf.on Nucl.Data for Sci.and Techn.,Gatlinburg 1994, Vol.1, p.305
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.268700E+01
+#   E-max [MeV]:  1.941800E+01
+#   F-value:  1.111677E+00
+#   A-value:  9.676222E-01
+#   chi-2:  0.000000E+00
+#   p-value:  3.048283E-01
+#   exp. data sets for p-value:      4
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2023    1.097275E+00   9.514264E-01   0.000000E+00
+# endfb8.0      1.122652E+00   9.568257E-01   0.000000E+00
+# jeff3.3       1.113881E+00   1.052744E+00   0.000000E+00
+# jendl5.0      1.093935E+00   9.413539E-01   0.000000E+00
+# cendl3.2      1.080668E+00   9.921297E-01   0.000000E+00
+# irdff2.0      1.150015E+00   9.170285E-01   0.000000E+00

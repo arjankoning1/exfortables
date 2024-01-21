@@ -1,0 +1,55 @@
+# header:
+#   title: Be9(n,t)Li7 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Woelfle
+#   year: 1990
+#   subentry: 22183002
+#   X4 reaction: 4-BE-9(N,T)3-LI-7,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22183002
+# target:
+#   Z: 4
+#   A: 9
+#   nuclide: Be9
+# reaction:
+#   type: (n,t)
+#   ENDF_MF: 3
+#   ENDF_MT: 105
+# residual:
+#   Z: 3
+#   A: 7
+#   nuclide: Li7
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.632000E+01   5.800000E-01   3.010542E+01   3.100000E+00   1.000180E+00
+   1.768000E+01   7.700000E-01   3.076470E+01   2.400000E+00   1.011997E+00
+   1.902000E+01   5.600000E-01   3.025221E+01   2.700000E+00   1.001729E+00
+# reference:
+#   author: R.Woelfle,S.M.Qaim,H.Liskien,R.Widera
+#   title: Systematic studies of excitation functions of (n,t)  reactions on medium and heavy mass nuclei
+#   journal: Jour: Radiochimica Acta, Vol.50, p.5 (1990)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.632000E+01
+#   E-max [MeV]:  1.902000E+01
+#   F-value:  1.047097E+00
+#   A-value:  9.684470E-01
+#   chi-2:  5.624101E-01
+#   p-value:  3.534424E-01
+#   exp. data sets for p-value:      2
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    1.060432E+00   9.533713E-01   8.514698E-01
+# endfb8.0      1.060432E+00   9.533713E-01   8.514698E-01
+# jeff3.3       1.014986E+00   9.884319E-01   1.798320E-01
+# jendl5.0      1.006219E+00   9.946080E-01   7.756124E-02
+# cendl3.2      1.060448E+00   9.533587E-01   8.517178E-01

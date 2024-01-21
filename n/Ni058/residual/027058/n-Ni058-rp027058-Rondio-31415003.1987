@@ -1,0 +1,51 @@
+# header:
+#   title: Ni58(n,x)Co58 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Rondio
+#   year: 1987
+#   subentry: 31415003
+#   X4 reaction: 28-NI-58(N,P)27-CO-58,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/31415003
+# target:
+#   Z: 28
+#   A: 58
+#   nuclide: Ni58
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 27
+#   A: 58
+#   nuclide: Co58
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.730000E+01   0.000000E+00   7.240000E+02   1.086000E+02   1.000000E+00
+# reference:
+#   author: J.Rondio,B.Marianski,A.Korman,K.Czerski
+#   title: An interpretation of proton spectra from the 58Ni(n,p)58Co reaction at neutron energy close to 20 MeV
+#   journal: Jour: Acta Physica Polonica, Part B, Vol.18, p.1065 (1987)
+# statistics:
+#   NEA score: R2
+#   IAEA score:  1
+#   E-min [MeV]:  1.730000E+01
+#   E-max [MeV]:  1.730000E+01
+#   F-value:  5.403190E+00
+#   A-value:  1.851716E-01
+#   chi-2:  2.949967E+01
+#   p-value:  2.624011E-02
+#   exp. data sets for p-value:      8
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    5.171046E+00   1.933845E-01   2.891683E+01
+# endfb8.0      5.713777E+00   1.750156E-01   3.024886E+01
+# jendl5.0      5.330588E+00   1.875966E-01   2.933331E+01

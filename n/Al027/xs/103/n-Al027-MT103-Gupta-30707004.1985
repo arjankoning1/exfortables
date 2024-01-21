@@ -1,0 +1,54 @@
+# header:
+#   title: Al27(n,p)Mg27 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Gupta
+#   year: 1985
+#   subentry: 30707004
+#   X4 reaction: 13-AL-27(N,P)12-MG-27,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30707004
+# target:
+#   Z: 13
+#   A: 27
+#   nuclide: Al27
+# reaction:
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 12
+#   A: 27
+#   nuclide: Mg27
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.480000E+01   5.000000E-01   7.883883E+01   1.200000E+01   1.037353E+00
+# reference:
+#   author: J.P.Gupta, H.D.Bhardwaj, R.Prasad
+#   title: Pre-equilibrium emission effect in (n,p) reaction  cross section at 14.8 MeV
+#   journal: Jour: Pramana, Vol.24, p.637 (1985)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.480000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.119591E+00
+#   A-value:  8.954676E-01
+#   chi-2:  1.012463E+00
+#   p-value:  1.249535E-01
+#   exp. data sets for p-value:      8
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2023    1.132416E+00   8.830675E-01   1.149869E+00
+# endfb8.0      1.117603E+00   8.947720E-01   1.014858E+00
+# jeff3.3       1.117603E+00   8.947720E-01   1.014858E+00
+# jendl5.0      1.061447E+00   9.421103E-01   5.181445E-01
+# cendl3.2      1.140814E+00   8.765669E-01   1.227178E+00
+# irdff2.0      1.132416E+00   8.830676E-01   1.149868E+00

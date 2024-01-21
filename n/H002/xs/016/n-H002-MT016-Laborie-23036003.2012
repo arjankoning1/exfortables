@@ -1,0 +1,62 @@
+# header:
+#   title: H2(n,2n)H1 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Laborie
+#   year: 2012
+#   subentry: 23036003
+#   X4 reaction: 1-H-2(N,2N)1-H-1,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/23036003
+# target:
+#   Z: 1
+#   A: 2
+#   nuclide: H2
+# reaction:
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 1
+#   A: 1
+#   nuclide: H1
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 11
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.020000E+01   4.000000E-01   1.724000E+02   1.410000E+01   1.000000E+00
+   2.120000E+01   4.000000E-01   1.537000E+02   1.180000E+01   1.000000E+00
+   2.160000E+01   4.000000E-01   1.289000E+02   1.090000E+01   1.000000E+00
+   2.180000E+01   3.000000E-01   1.426000E+02   1.100000E+01   1.000000E+00
+   2.180000E+01   3.000000E-01   1.363000E+02   1.010000E+01   1.000000E+00
+   2.180000E+01   4.000000E-01   1.318000E+02   1.210000E+01   1.000000E+00
+   2.240000E+01   3.000000E-01   1.341000E+02   1.090000E+01   1.000000E+00
+   2.300000E+01   3.000000E-01   1.321000E+02   1.150000E+01   1.000000E+00
+   2.350000E+01   3.000000E-01   1.544000E+02   1.220000E+01   1.000000E+00
+   2.410000E+01   3.000000E-01   1.416000E+02   1.380000E+01   1.000000E+00
+   2.470000E+01   3.000000E-01   1.418000E+02   1.100000E+01   1.000000E+00
+# reference:
+#   author: J.-M.Laborie, X.Ledoux, C.Varignon, R.Lazauskas, B.Morillon, G.Belier, D.Dore, N.Arnal
+#   title: .Measurement of the D(n,2n)p reaction cross section  up to 30 MeV
+#   journal: Jour: European Physical Journal A: Hadrons and Nuclei, Vol.48, p.87 (201
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.020000E+01
+#   E-max [MeV]:  2.470000E+01
+#   F-value:  1.157544E+00
+#   A-value:  1.128782E+00
+#   chi-2:  4.006063E+00
+#   p-value:  2.770343E-01
+#   exp. data sets for p-value:      2
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2023    1.149216E+00   1.119997E+00   3.627080E+00
+# endfb8.0      1.173235E+00   1.146561E+00   4.764030E+00
+# jeff3.3       1.149216E+00   1.119997E+00   3.627080E+00
+# cendl3.2      0.000000E+00   0.000000E+00   0.000000E+00

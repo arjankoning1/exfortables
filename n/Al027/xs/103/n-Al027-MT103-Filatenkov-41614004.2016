@@ -1,0 +1,61 @@
+# header:
+#   title: Al27(n,p)Mg27 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Filatenkov
+#   year: 2016
+#   subentry: 41614004
+#   X4 reaction: 13-AL-27(N,P)12-MG-27,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/41614004
+# target:
+#   Z: 13
+#   A: 27
+#   nuclide: Al27
+# reaction:
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 12
+#   A: 27
+#   nuclide: Mg27
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.347000E+01   0.000000E+00   7.970000E+01   1.618000E+00   9.999999E-01
+   1.366000E+01   0.000000E+00   7.457135E+01   1.502510E+00   9.996158E-01
+   1.388000E+01   0.000000E+00   7.658448E+01   1.509400E+00   9.997974E-01
+   1.404000E+01   0.000000E+00   7.177937E+01   1.501700E+00   9.997123E-01
+   1.426000E+01   0.000000E+00   7.094744E+01   1.379200E+00   9.992597E-01
+   1.444000E+01   0.000000E+00   7.197400E+01   1.369500E+00   9.996390E-01
+   1.463000E+01   0.000000E+00   6.706797E+01   1.389870E+00   9.995226E-01
+   1.481000E+01   0.000000E+00   6.394449E+01   1.239500E+00   9.991326E-01
+# reference:
+#   author: A.A.Filatenkov
+#   title: Neutron activation cross sections measured at KRI in neutron energy region 13.4 - 14.9 MeV
+#   journal: Rept: USSR report to the I.N.D.C., No.0460 (2016)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.347000E+01
+#   E-max [MeV]:  1.481000E+01
+#   F-value:  1.039720E+00
+#   A-value:  1.020925E+00
+#   chi-2:  4.331738E+00
+#   p-value:  2.536532E-01
+#   exp. data sets for p-value:      8
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2023    1.040623E+00   1.028405E+00   4.474560E+00
+# endfb8.0      1.023738E+00   9.972645E-01   1.810117E+00
+# jeff3.3       1.023738E+00   9.972645E-01   1.810117E+00
+# jendl5.0      1.062866E+00   1.055884E+00   1.021189E+01
+# cendl3.2      1.033937E+00   1.019524E+00   3.209085E+00
+# irdff2.0      1.040624E+00   1.028408E+00   4.474656E+00

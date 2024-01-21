@@ -1,0 +1,51 @@
+# header:
+#   title: Ni58(n,x)Co58 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Fink
+#   year: 1970
+#   subentry: 10484004
+#   X4 reaction: 28-NI-58(N,P)27-CO-58,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/10484004
+# target:
+#   Z: 28
+#   A: 58
+#   nuclide: Ni58
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 27
+#   A: 58
+#   nuclide: Co58
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.440000E+01   4.000000E-01   3.310000E+02   3.000000E+01   1.000000E+00
+# reference:
+#   author: R.W.Fink,W.-D.Lu
+#   title: Some (n,2n), (n,p), and ((n,np)+(n,pn)+(nd))  Activation Cross Sections of Ni58, Cd106, and Sn112  at  14.4 MeV.
+#   journal: Jour: Bulletin of the American Physical Society Ser.II, Vol.15, p.1372(E
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.440000E+01
+#   E-max [MeV]:  1.440000E+01
+#   F-value:  1.023720E+00
+#   A-value:  9.798927E-01
+#   chi-2:  2.955010E-01
+#   p-value:  4.506559E-01
+#   exp. data sets for p-value:      8
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.005912E+00   9.941224E-01   8.239383E-02
+# endfb8.0      1.035165E+00   9.660296E-01   5.099710E-01
+# jendl5.0      1.020692E+00   9.797274E-01   2.941383E-01

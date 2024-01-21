@@ -1,0 +1,65 @@
+# header:
+#   title: V51(p,x)Cr51 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Wing
+#   year: 1962
+#   subentry: T0124002
+#   X4 reaction: 23-V-51(P,N)24-CR-51,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/T0124002
+# target:
+#   Z: 23
+#   A: 51
+#   nuclide: V51
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+# residual:
+#   Z: 24
+#   A: 51
+#   nuclide: Cr51
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 16
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.100000E+00   0.000000E+00   3.400000E+01   0.000000E+00   1.000000E+00
+   3.700000E+00   0.000000E+00   1.450000E+02   0.000000E+00   1.000000E+00
+   4.700000E+00   0.000000E+00   2.860000E+02   0.000000E+00   1.000000E+00
+   5.000000E+00   0.000000E+00   3.510000E+02   0.000000E+00   1.000000E+00
+   5.650000E+00   3.000000E-01   4.300000E+02   4.200000E+01   1.000000E+00
+   6.650000E+00   2.000000E-01   5.150000E+02   4.200000E+01   1.000000E+00
+   7.000000E+00   0.000000E+00   5.440000E+02   0.000000E+00   1.000000E+00
+   7.700000E+00   0.000000E+00   5.590000E+02   0.000000E+00   1.000000E+00
+   8.000000E+00   0.000000E+00   5.780000E+02   0.000000E+00   1.000000E+00
+   8.650000E+00   1.500000E-01   5.960000E+02   5.100000E+01   1.000000E+00
+   9.500000E+00   0.000000E+00   6.310000E+02   0.000000E+00   1.000000E+00
+   9.600000E+00   0.000000E+00   6.320000E+02   0.000000E+00   1.000000E+00
+   9.930000E+00   0.000000E+00   6.320000E+02   0.000000E+00   1.000000E+00
+   1.010000E+01   0.000000E+00   6.500000E+02   0.000000E+00   1.000000E+00
+   1.010000E+01   0.000000E+00   6.230000E+02   0.000000E+00   1.000000E+00
+   1.040000E+01   1.000000E-01   6.450000E+02   4.900000E+01   1.000000E+00
+# reference:
+#   author: J.WING,J.R.HUIZENGA
+#   title: (p,n) Cross Sections of V51, Cr52, Cu63, Cu65, Ag107,   Ag109, Cd111, Cd114, and La139 from 5 to 10.5 MeV
+#   journal: Jour: Physical Review, Vol.128, p.280 (1962)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  3.100000E+00
+#   E-max [MeV]:  1.040000E+01
+#   F-value:  1.167892E+00
+#   A-value:  1.039214E+00
+#   chi-2:  3.651175E-02
+#   p-value:  3.550476E-01
+#   exp. data sets for p-value:      4
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.169080E+00   1.052883E+00   5.832957E-02
+# jendl5.0      1.166699E+00   1.025723E+00   1.469392E-02

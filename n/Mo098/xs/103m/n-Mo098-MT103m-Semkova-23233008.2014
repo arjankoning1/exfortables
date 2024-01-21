@@ -1,0 +1,58 @@
+# header:
+#   title: Mo98(n,p)Nb98m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Semkova
+#   year: 2014
+#   subentry: 23233008
+#   X4 reaction: 42-MO-98(N,P)41-NB-98-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/23233008
+# target:
+#   Z: 42
+#   A: 98
+#   nuclide: Mo98
+# reaction:
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 41
+#   A: 98
+#   nuclide: Nb98m
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.096000E+01   1.100000E-01   3.211300E-01   8.028400E-02   1.003546E+00
+   1.177000E+01   1.100000E-01   9.232600E-01   9.031900E-02   1.003546E+00
+   1.308000E+01   1.100000E-01   2.709600E+00   2.007100E-01   1.003546E+00
+   1.448000E+01   1.100000E-01   4.967600E+00   2.007100E-01   1.003546E+00
+# reference:
+#   author: V.Semkova, R.Nolte
+#   title: Measurement of neutron activation cross sections on Mo isotopes in the energy range from 7 MeV to 15 MeV.
+#   journal: Jour: EPJ Web of Conferences, Vol.66, p.03077 (2014)
+# statistics:
+#   NEA score: R2
+#   IAEA score:  1
+#   E-min [MeV]:  1.096000E+01
+#   E-max [MeV]:  1.448000E+01
+#   F-value:  1.856923E+00
+#   A-value:  1.649675E+00
+#   chi-2:  6.723169E+01
+#   p-value:  2.924625E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    2.136054E+00   2.035550E+00   1.235153E+02
+# jendl5.0      1.546525E+00   1.336950E+00   1.094808E+01

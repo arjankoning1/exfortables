@@ -1,0 +1,64 @@
+# header:
+#   title: Fe56(n,n'_01)Fe57 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Salama
+#   year: 1981
+#   subentry: 30589002
+#   X4 reaction: 26-FE-56(N,INL)26-FE-56,PAR,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30589002
+#   level energy [MeV]  8.45000E-01
+# target:
+#   Z: 26
+#   A: 56
+#   nuclide: Fe56
+# reaction:
+#   type: (n,n'_01)
+#   ENDF_MF: 3
+#   ENDF_MT: 51
+#   level: 
+#     number: 1
+#     energy [MeV]:  8.467780E-01
+#     spin:  2.000000E+00
+#     parity: 1
+# residual:
+#   Z: 26
+#   A: 57
+#   nuclide: Fe57
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.020000E+00   5.000000E-02   7.500000E+02   1.125000E+02   1.000000E+00
+   2.270000E+00   5.000000E-02   7.200000E+02   1.080000E+02   1.000000E+00
+   2.520000E+00   5.000000E-02   7.960000E+02   1.194000E+02   1.000000E+00
+   2.760000E+00   5.000000E-02   6.570000E+02   9.855000E+01   1.000000E+00
+   2.960000E+00   5.000000E-02   6.870000E+02   1.030500E+02   1.000000E+00
+   3.960000E+00   5.000000E-02   3.900000E+02   5.850000E+01   1.000000E+00
+# reference:
+#   author: M.SALAMA
+#   title: Inelastic scattering of fast neutrons from iron
+#   journal: Jour: Atomkernenergie, Vol.37, p.221 (1981)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.020000E+00
+#   E-max [MeV]:  3.960000E+00
+#   F-value:  1.305803E+00
+#   A-value:  1.061841E+00
+#   chi-2:  4.286769E+00
+#   p-value:  2.173451E-01
+#   exp. data sets for p-value:      8
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    1.209763E+00   9.827543E-01   1.912775E+00
+# endfb8.0      1.321365E+00   1.146510E+00   5.580940E+00
+# jeff3.3       1.332666E+00   1.110602E+00   4.837709E+00
+# jendl5.0      1.396305E+00   1.133492E+00   6.540049E+00
+# cendl3.2      1.245309E+00   9.516957E-01   2.562377E+00

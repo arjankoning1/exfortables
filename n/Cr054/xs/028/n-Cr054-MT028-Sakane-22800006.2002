@@ -1,0 +1,56 @@
+# header:
+#   title: Cr54(n,np)V53 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Sakane
+#   year: 2002
+#   subentry: 22800006
+#   X4 reaction: 24-CR-54(N,X)23-V-53,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22800006
+# target:
+#   Z: 24
+#   A: 54
+#   nuclide: Cr54
+# reaction:
+#   type: (n,np)
+#   ENDF_MF: 3
+#   ENDF_MT: 28
+# residual:
+#   Z: 23
+#   A: 53
+#   nuclide: V53
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.340000E+01   0.000000E+00   5.022300E-01   2.159600E-01   1.004464E+00
+   1.365000E+01   0.000000E+00   7.031299E-01   2.531300E-01   1.004464E+00
+   1.388000E+01   0.000000E+00   1.406250E+00   3.375000E-01   1.004464E+00
+   1.428000E+01   0.000000E+00   1.506700E+00   4.068100E-01   1.004464E+00
+   1.458000E+01   0.000000E+00   3.214300E+00   4.821400E-01   1.004464E+00
+   1.487000E+01   0.000000E+00   3.314700E+00   4.640600E-01   1.004464E+00
+# reference:
+#   author: H.Sakane,Y.Kasugai,M.Shibata,T.Iida,A.Takahashi, T.Fukahori,K.Kawade
+#   title: Measurement of activation cross section of (n,np+d)  reactions producing short-lived nuclei in the energy  range between 13.4 and 14.9 MeV using an intense  neutron source OKTAVIAN
+#   journal: Jour: Annals of Nuclear Energy, Vol.29, p.53 (2002)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  1.340000E+01
+#   E-max [MeV]:  1.487000E+01
+#   F-value:  7.184299E+01
+#   A-value:  1.747645E-02
+#   chi-2:  2.105101E+01
+#   p-value:  2.086163E-07
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    7.620389E+01   1.630766E-02   2.422983E+01
+# jendl5.0      7.087255E+01   1.692404E-02   2.118724E+01
+# cendl3.2      7.411961E+01   2.122043E-02   2.805293E+01

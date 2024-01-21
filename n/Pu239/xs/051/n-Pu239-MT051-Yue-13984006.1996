@@ -1,0 +1,60 @@
+# header:
+#   title: Pu239(n,n'_01)Pu240 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Yue
+#   year: 1996
+#   subentry: 13984006
+#   X4 reaction: 94-PU-239(N,INL)94-PU-239,PAR,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/13984006
+#   level energy [MeV]  5.70000E-02
+# target:
+#   Z: 94
+#   A: 239
+#   nuclide: Pu239
+# reaction:
+#   type: (n,n'_01)
+#   ENDF_MF: 3
+#   ENDF_MT: 51
+#   level: 
+#     number: 1
+#     energy [MeV]:  7.861000E-03
+#     spin:  1.500000E+00
+#     parity: 1
+# residual:
+#   Z: 94
+#   A: 240
+#   nuclide: Pu240
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.700000E-01   0.000000E+00   5.700001E+02   4.200000E+01   1.000000E+00
+   7.000000E-01   0.000000E+00   5.180000E+02   6.200000E+01   1.000000E+00
+# reference:
+#   author: G.Yue,M.O'Connor,J.J.Egan,G.H.R.Kegel
+#   title: Neutron Scattering Angular Distributions in 239Pu at  570 and 700 keV
+#   journal: Jour: Nuclear Science and Engineering, Vol.122, p.366 (1996)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  5.700000E-01
+#   E-max [MeV]:  7.000000E-01
+#   F-value:  1.362295E+00
+#   A-value:  7.548366E-01
+#   chi-2:  8.409669E+00
+#   p-value:  1.778060E-01
+#   exp. data sets for p-value:      1
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    1.344962E+00   7.444240E-01   7.861906E+00
+# endfb8.0      1.344962E+00   7.444240E-01   7.861906E+00
+# jeff3.3       1.585082E+00   6.309178E-01   1.712592E+01
+# jendl5.0      1.337669E+00   7.478140E-01   7.921675E+00
+# cendl3.2      1.076567E+00   9.372551E-01   1.276936E+00

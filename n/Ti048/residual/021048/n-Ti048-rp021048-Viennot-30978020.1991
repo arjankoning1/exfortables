@@ -1,0 +1,57 @@
+# header:
+#   title: Ti48(n,x)Sc48 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Viennot
+#   year: 1991
+#   subentry: 30978020
+#   X4 reaction: 22-TI-48(N,P)21-SC-48,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30978020
+# target:
+#   Z: 22
+#   A: 48
+#   nuclide: Ti48
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 21
+#   A: 48
+#   nuclide: Sc48
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.377000E+01   2.600000E-01   5.118846E+01   3.004400E+00   1.003695E+00
+   1.393000E+01   2.400000E-01   5.304855E+01   3.002700E+00   1.000916E+00
+   1.411000E+01   2.600000E-01   5.453166E+01   2.972900E+00   9.914848E-01
+   1.430000E+01   2.800000E-01   5.419333E+01   2.952300E+00   9.853333E-01
+   1.447000E+01   3.400000E-01   5.466697E+01   2.975860E+00   9.939450E-01
+   1.473000E+01   4.600000E-01   5.959586E+01   2.978400E+00   9.932643E-01
+   1.483000E+01   5.000000E-01   5.740009E+01   2.957600E+00   9.896567E-01
+# reference:
+#   author: M.Viennot, M.Berrada, G.Paic, S.Joly
+#   title: Cross section measurements of (n,p) and (n,np+pn+d)  reactions for some titanium, chromium, iron, cobalt,  nickel, and zinc isotopes around 14 MeV
+#   journal: Jour: Nuclear Science and Engineering, Vol.108, p.289 (1991)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.377000E+01
+#   E-max [MeV]:  1.483000E+01
+#   F-value:  1.157544E+00
+#   A-value:  1.143449E+00
+#   chi-2:  8.345061E+00
+#   p-value:  1.657327E-01
+#   exp. data sets for p-value:      8
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.137650E+00   1.122028E+00   6.355875E+00
+# jeff3.3       1.138035E+00   1.122454E+00   6.390896E+00
+# jendl5.0      1.192047E+00   1.187075E+00   1.228841E+01

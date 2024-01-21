@@ -1,0 +1,51 @@
+# header:
+#   title: Mg25(n,x)Ne22 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Lavielle
+#   year: 1990
+#   subentry: 22178007
+#   X4 reaction: 12-MG-25(N,A)10-NE-22,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22178007
+# target:
+#   Z: 12
+#   A: 25
+#   nuclide: Mg25
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+# residual:
+#   Z: 10
+#   A: 22
+#   nuclide: Ne22
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.200000E+00   9.000000E-01   5.400001E+01   1.000000E+01   1.000000E+00
+   7.000000E+00   6.000000E-01   9.480001E+01   9.100000E+00   1.000000E+00
+# reference:
+#   author: B.LAVIELLE,H.SAUVAGEON,P.BERTIN,G.HAOUAT
+#   title: -CROSS SECTIONS OF NEON ISOTOPES INDUCED BY 5, 7, 16,  AND 19 MEV NEUTRONS.
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.42, p.305 (1990)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  5.200000E+00
+#   E-max [MeV]:  7.000000E+00
+#   F-value:  1.306454E+00
+#   A-value:  9.183119E-01
+#   chi-2:  5.285027E+00
+#   p-value:  2.535928E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.306454E+00   9.183119E-01   5.285027E+00
+# jendl5.0      0.000000E+00   0.000000E+00   0.000000E+00

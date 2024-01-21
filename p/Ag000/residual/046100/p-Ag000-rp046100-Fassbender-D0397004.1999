@@ -1,0 +1,64 @@
+# header:
+#   title: Ag0(p,x)Pd100 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Fassbender
+#   year: 1999
+#   subentry: D0397004
+#   X4 reaction: 47-AG-0(P,X)46-PD-100,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D0397004
+# target:
+#   Z: 47
+#   A: 0
+#   nuclide: Ag0
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 46
+#   A: 100
+#   nuclide: Pd100
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 15
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   4.570000E+01   0.000000E+00   1.800000E+00   4.000000E-01   1.000000E+00
+   5.040000E+01   0.000000E+00   2.900000E+00   6.000000E-01   1.000000E+00
+   5.570000E+01   0.000000E+00   9.200000E+00   9.000000E-01   1.000000E+00
+   5.920000E+01   0.000000E+00   1.080000E+01   1.000000E+00   1.000000E+00
+   6.070000E+01   0.000000E+00   1.520000E+01   1.500000E+00   1.000000E+00
+   6.230000E+01   0.000000E+00   1.340000E+01   1.200000E+00   1.000000E+00
+   6.530000E+01   0.000000E+00   1.390000E+01   1.300000E+00   1.000000E+00
+   6.610000E+01   0.000000E+00   1.460000E+01   1.500000E+00   1.000000E+00
+   6.970000E+01   0.000000E+00   1.150000E+01   1.100000E+00   1.000000E+00
+   7.470000E+01   0.000000E+00   9.800000E+00   9.000000E-01   1.000000E+00
+   8.010000E+01   0.000000E+00   9.300000E+00   9.000000E-01   1.000000E+00
+   8.520000E+01   0.000000E+00   1.080000E+01   1.000000E+00   1.000000E+00
+   9.010000E+01   0.000000E+00   1.210000E+01   1.100000E+00   1.000000E+00
+   9.490000E+01   0.000000E+00   1.520000E+01   1.400000E+00   1.000000E+00
+   9.950000E+01   0.000000E+00   1.750000E+01   1.500000E+00   1.000000E+00
+# reference:
+#   author: M.Fassbender,F.M.Nortier,I.W.Schroeder, T.N.van der Walt
+#   title: The production of 103Pd via the natAg(p,x)103Pd nuclear process
+#   journal: Jour: Radiochimica Acta, Vol.87, p.87 (1999)
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  4.570000E+01
+#   E-max [MeV]:  9.950000E+01
+#   F-value:  2.848324E+00
+#   A-value:  7.816129E-01
+#   chi-2:  8.129527E+01
+#   p-value:  3.693596E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    3.568851E+00   3.465575E-01   3.591815E+01
+# jendl5.0      2.131360E+00   1.762821E+00   1.266724E+02

@@ -1,0 +1,50 @@
+# header:
+#   title: Mg24(n,x)Na24 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Thiep
+#   year: 2003
+#   subentry: 31543018
+#   X4 reaction: 12-MG-24(N,P)11-NA-24,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/31543018
+# target:
+#   Z: 12
+#   A: 24
+#   nuclide: Mg24
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 11
+#   A: 24
+#   nuclide: Na24
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.480000E+01   0.000000E+00   1.735000E+02   8.400000E+00   1.000000E+00
+# reference:
+#   author: T.D.Thiep, N.V.Do, T.T.An, N.N.Son
+#   title: Nuclear reactions with 14 MeV neutrons and bremsstrahlungs in giant dipole resonance (GDR) region using small accelerators
+#   journal: Jour: Nuclear Physics, Section A, Vol.722, p.568 (2003)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.480000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.001760E+00
+#   A-value:  9.982519E-01
+#   chi-2:  4.560134E-02
+#   p-value:  3.005818E-01
+#   exp. data sets for p-value:      8
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.001929E+00   9.980752E-01   5.024477E-02
+# jendl5.0      1.001574E+00   9.984285E-01   4.095791E-02

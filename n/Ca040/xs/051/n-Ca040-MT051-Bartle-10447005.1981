@@ -1,0 +1,62 @@
+# header:
+#   title: Ca40(n,n'_01)Ca41 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Bartle
+#   year: 1981
+#   subentry: 10447005
+#   X4 reaction: 20-CA-40(N,INL)20-CA-40,PAR,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/10447005
+#   level energy [MeV]  3.35000E+00
+# target:
+#   Z: 20
+#   A: 40
+#   nuclide: Ca40
+# reaction:
+#   type: (n,n'_01)
+#   ENDF_MF: 3
+#   ENDF_MT: 51
+#   level: 
+#     number: 1
+#     energy [MeV]:  3.352620E+00
+#     spin:  0.000000E+00
+#     parity: 1
+# residual:
+#   Z: 20
+#   A: 41
+#   nuclide: Ca41
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.510000E+00   1.600000E-01   2.200000E+01   1.000000E+00   1.000000E+00
+   3.750000E+00   2.000000E-01   3.400000E+01   2.000000E+00   1.000000E+00
+   4.060000E+00   1.800000E-01   3.700000E+01   3.000000E+00   1.000000E+00
+   4.380000E+00   1.800000E-01   4.600000E+01   3.000000E+00   1.000000E+00
+# reference:
+#   author: C.M.Bartle,P.A.Quin
+#   title: Total cross sections for the 40Ca(n,p) and (n,alpha)  reactions between 2.7 and 5.5 MeV
+#   journal: Jour: Annals of Nuclear Energy, Vol.8, p.43 (1981)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  3.510000E+00
+#   E-max [MeV]:  4.380000E+00
+#   F-value:  1.567888E+00
+#   A-value:  1.470791E+00
+#   chi-2:  8.082362E+01
+#   p-value:  2.197933E-01
+#   exp. data sets for p-value:      2
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    1.654766E+00   1.541095E+00   1.007710E+02
+# endfb8.0      1.745778E+00   1.628317E+00   1.322972E+02
+# jeff3.3       1.717556E+00   1.621683E+00   1.231181E+02
+# jendl5.0      1.352670E+00   1.334623E+00   2.983428E+01
+# cendl3.2      1.286099E+00   1.267247E+00   1.809756E+01

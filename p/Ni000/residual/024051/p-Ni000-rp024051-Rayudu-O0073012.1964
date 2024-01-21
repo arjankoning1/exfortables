@@ -1,0 +1,54 @@
+# header:
+#   title: Ni0(p,x)Cr51 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Rayudu
+#   year: 1964
+#   subentry: O0073012
+#   X4 reaction: 28-NI-0(P,X)24-CR-51,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O0073012
+# target:
+#   Z: 28
+#   A: 0
+#   nuclide: Ni0
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 24
+#   A: 51
+#   nuclide: Cr51
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.300000E+02   1.300000E+01   2.018163E+01   4.036300E+00   1.009082E+00
+   2.080000E+02   2.080000E+01   1.917255E+01   2.825400E+00   1.009082E+00
+   2.970000E+02   1.485000E+01   1.937437E+01   2.825400E+00   1.009082E+00
+   3.960000E+02   1.980000E+01   1.816347E+01   2.724500E+00   1.009082E+00
+# reference:
+#   author: G.V.S.Rayudu
+#   title: Formation cross sections of various radionuclides from Ni,Fe,Si,Mg,O and C for protons of energies between  130 and 400 MeV.
+#   journal: Jour: Canadian Journal of Chemistry, Vol.42, p.1149 (1964)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  1.300000E+02
+#   E-max [MeV]:  3.960000E+02
+#   F-value:  1.546165E+00
+#   A-value:  7.874387E-01
+#   chi-2:  5.377525E+00
+#   p-value:  2.065568E-01
+#   exp. data sets for p-value:      2
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.411849E+00   1.411849E+00   4.536586E+00
+# endfb8.0      1.513319E+00   7.206436E-01   4.739213E+00
+# jendl5.0      1.039719E+00   1.039719E+00   2.597229E-01

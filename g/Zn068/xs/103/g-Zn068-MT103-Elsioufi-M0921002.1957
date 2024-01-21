@@ -1,0 +1,55 @@
+# header:
+#   title: Zn68(g,p)Cu67 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Elsioufi
+#   year: 1957
+#   subentry: M0921002
+#   X4 reaction: 30-ZN-68(G,P)29-CU-67,,SIG,,BRS
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/M0921002
+# target:
+#   Z: 30
+#   A: 68
+#   nuclide: Zn68
+# reaction:
+#   type: (g,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 29
+#   A: 67
+#   nuclide: Cu67
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.500000E+01   0.000000E+00   1.060000E+00   4.200000E-01   1.000000E+00
+   1.835000E+01   0.000000E+00   5.340000E+00   9.300000E-01   1.000000E+00
+   2.196000E+01   0.000000E+00   1.176000E+01   5.900000E-01   1.000000E+00
+   2.431000E+01   0.000000E+00   7.930000E+00   7.900000E-01   1.000000E+00
+   2.705000E+01   0.000000E+00   2.110000E+00   2.100000E+00   1.000000E+00
+# reference:
+#   author: A.El Sioufi,P.Erdos,P.Stoll
+#   title: (gamma,np)- Process in Mo-92 and Zn-66.
+#   journal: Jour: Helvetica Physica Acta, Vol.30, p.264 (1957)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  1.500000E+01
+#   E-max [MeV]:  2.705000E+01
+#   F-value:  3.116957E+00
+#   A-value:  4.603194E-01
+#   chi-2:  5.166154E+01
+#   p-value:  2.136712E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    3.559049E+00   3.454403E-01   7.297556E+01
+# endfb8.0      1.391919E+00   9.548779E-01   2.307850E+00
+# jendl5.0      4.342535E+00   2.957040E-01   7.970119E+01

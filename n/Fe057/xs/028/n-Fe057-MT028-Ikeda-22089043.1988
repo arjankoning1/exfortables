@@ -1,0 +1,58 @@
+# header:
+#   title: Fe57(n,np)Mn56 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Ikeda
+#   year: 1988
+#   subentry: 22089043
+#   X4 reaction: 26-FE-57(N,X)25-MN-56,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22089043
+# target:
+#   Z: 26
+#   A: 57
+#   nuclide: Fe57
+# reaction:
+#   type: (n,np)
+#   ENDF_MF: 3
+#   ENDF_MT: 28
+# residual:
+#   Z: 25
+#   A: 56
+#   nuclide: Mn56
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.335000E+01   0.000000E+00   4.891000E+00   6.501300E-01   1.000202E+00
+   1.359000E+01   0.000000E+00   4.711000E+00   5.601100E-01   1.000202E+00
+   1.376000E+01   0.000000E+00   4.981000E+00   5.501100E-01   1.000202E+00
+   1.424000E+01   0.000000E+00   1.092221E+01   8.101600E-01   1.000202E+00
+   1.446000E+01   0.000000E+00   1.500303E+01   1.000200E+00   1.000202E+00
+   1.471000E+01   0.000000E+00   1.930390E+01   1.200200E+00   1.000202E+00
+   1.500000E+01   0.000000E+00   2.480502E+01   1.500300E+00   1.000202E+00
+# reference:
+#   author: Y.Ikeda,C.Konno,K.Oishi,T.Nakamura,H.Miyade, K.Kawade,  H.Yamamoto, T.Katoh
+#   title: Activation cross section measurements for fusion  reactor structural materials at neutron energy from  13.3 to 15.0 MeV using FNS facility
+#   journal: Rept: JAERI Reports, No.1312 (1988)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  1.335000E+01
+#   E-max [MeV]:  1.500000E+01
+#   F-value:  2.378590E+00
+#   A-value:  4.909672E-01
+#   chi-2:  3.750009E+01
+#   p-value:  1.280735E-01
+#   exp. data sets for p-value:      1
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2023    2.105219E+00   4.885498E-01   4.334327E+01
+# jeff3.3       1.936591E+00   5.846190E-01   1.750932E+01
+# jendl5.0      1.544642E+00   7.711098E-01   5.683038E+00
+# cendl3.2      3.858585E+00   2.638226E-01   8.346473E+01

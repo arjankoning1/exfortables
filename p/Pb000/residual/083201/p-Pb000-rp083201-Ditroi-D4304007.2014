@@ -1,0 +1,52 @@
+# header:
+#   title: Pb0(p,x)Bi201 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Ditroi
+#   year: 2014
+#   subentry: D4304007
+#   X4 reaction: 82-PB-0(P,X)83-BI-201,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D4304007
+# target:
+#   Z: 82
+#   A: 0
+#   nuclide: Pb0
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 83
+#   A: 201
+#   nuclide: Bi201
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.480000E+01   3.000000E-01   1.500000E+00   5.000000E-01   1.000000E+00
+   3.630000E+01   3.000000E-01   3.900000E+00   6.000000E-01   1.000000E+00
+# reference:
+#   author: F.Ditroi,F.Tarkanyi,S.Takacs,A.Hermanne
+#   title: Proton-induced cross-sections of nuclear reactions on lead up to 37 MeV
+#   journal: Jour: Applied Radiation and Isotopes, Vol.90, p.208 (2014)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  3.480000E+01
+#   E-max [MeV]:  3.630000E+01
+#   F-value:  2.473511E+00
+#   A-value:  2.357907E+00
+#   chi-2:  3.318692E+01
+#   p-value:  1.720651E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    2.452443E+00   2.344787E+00   3.248683E+01
+# endfb8.0      0.000000E+00   0.000000E+00   0.000000E+00
+# jendl5.0      2.494560E+00   2.371100E+00   3.388701E+01

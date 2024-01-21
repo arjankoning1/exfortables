@@ -1,0 +1,62 @@
+# header:
+#   title: Fe54(n,n'_01)Fe55 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Elkadi
+#   year: 1982
+#   subentry: 10958011
+#   X4 reaction: 26-FE-54(N,INL)26-FE-54,PAR,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/10958011
+#   level energy [MeV]  1.40800E+00
+# target:
+#   Z: 26
+#   A: 54
+#   nuclide: Fe54
+# reaction:
+#   type: (n,n'_01)
+#   ENDF_MF: 3
+#   ENDF_MT: 51
+#   level: 
+#     number: 1
+#     energy [MeV]:  1.408190E+00
+#     spin:  2.000000E+00
+#     parity: 1
+# residual:
+#   Z: 26
+#   A: 55
+#   nuclide: Fe55
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   7.960000E+00   1.000000E-01   8.000000E+01   4.664800E+00   1.000000E+00
+   9.940000E+00   1.000000E-01   5.700000E+01   3.453100E+00   1.000000E+00
+   1.193000E+01   1.000000E-01   6.100000E+01   3.514100E+00   1.000000E+00
+   1.392000E+01   1.000000E-01   4.600000E+01   2.429900E+00   1.000000E+00
+# reference:
+#   author: S.M.El-Kadi,C.E.Nelson,F.O.Purser,R.L.Walter, A.Beyerle,C.R.Gould,L.W.Seagondollar
+#   title: Elastic and inelastic scattering of neutrons from  54-,56-Fe and 63-,65-Cu  (part I)
+#   journal: Jour: Nuclear Physics, Section A, Vol.390, p.509 (1982)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  7.960000E+00
+#   E-max [MeV]:  1.392000E+01
+#   F-value:  1.502566E+00
+#   A-value:  6.742527E-01
+#   chi-2:  3.315334E+01
+#   p-value:  2.471451E-01
+#   exp. data sets for p-value:      8
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    1.534452E+00   6.565978E-01   3.630836E+01
+# endfb8.0      1.362526E+00   7.430955E-01   2.089710E+01
+# jeff3.3       1.502248E+00   6.725631E-01   3.346745E+01
+# jendl5.0      1.587625E+00   6.362363E-01   4.120637E+01
+# cendl3.2      1.511488E+00   6.674486E-01   3.388742E+01

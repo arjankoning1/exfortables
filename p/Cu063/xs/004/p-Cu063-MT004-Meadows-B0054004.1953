@@ -1,0 +1,66 @@
+# header:
+#   title: Cu63(p,n')Zn63 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Meadows
+#   year: 1953
+#   subentry: B0054004
+#   X4 reaction: 29-CU-63(P,N)30-ZN-63,,SIG,,,EXP
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/B0054004
+# target:
+#   Z: 29
+#   A: 63
+#   nuclide: Cu63
+# reaction:
+#   type: (p,n')
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+# residual:
+#   Z: 30
+#   A: 63
+#   nuclide: Zn63
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 16
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.000000E+00   0.000000E+00   2.200000E+02   0.000000E+00   1.000000E+00
+   8.000000E+00   0.000000E+00   3.250000E+02   0.000000E+00   1.000000E+00
+   1.080000E+01   0.000000E+00   4.000000E+02   0.000000E+00   1.000000E+00
+   1.280000E+01   0.000000E+00   4.090000E+02   0.000000E+00   1.000000E+00
+   1.720000E+01   0.000000E+00   3.640000E+02   0.000000E+00   1.000000E+00
+   1.900000E+01   0.000000E+00   2.180000E+02   0.000000E+00   1.000000E+00
+   2.100000E+01   0.000000E+00   1.500000E+02   0.000000E+00   1.000000E+00
+   2.500000E+01   0.000000E+00   4.000000E+01   0.000000E+00   1.000000E+00
+   3.120000E+01   0.000000E+00   2.200000E+01   0.000000E+00   1.000000E+00
+   3.950000E+01   0.000000E+00   1.400000E+01   0.000000E+00   1.000000E+00
+   5.050000E+01   0.000000E+00   1.600000E+01   0.000000E+00   1.000000E+00
+   6.000000E+01   0.000000E+00   1.400000E+01   0.000000E+00   1.000000E+00
+   7.000000E+01   0.000000E+00   8.000000E+00   0.000000E+00   1.000000E+00
+   7.950000E+01   0.000000E+00   8.000000E+00   0.000000E+00   1.000000E+00
+   9.000000E+01   0.000000E+00   7.000000E+00   0.000000E+00   1.000000E+00
+   9.920000E+01   0.000000E+00   7.000000E+00   0.000000E+00   1.000000E+00
+# reference:
+#   author: J.W.MEADOWS
+#   title: Excitation Functions For Proton-Induced Reactions With Copper
+#   journal: Jour: Physical Review, Vol.91, p.885 (1953)
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  5.000000E+00
+#   E-max [MeV]:  9.920000E+01
+#   F-value:  1.818736E+00
+#   A-value:  6.961756E-01
+#   chi-2:  0.000000E+00
+#   p-value:  2.342928E-01
+#   exp. data sets for p-value:      6
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.863476E+00   6.550074E-01   0.000000E+00
+# endfb8.0      1.731157E+00   8.256864E-01   0.000000E+00
+# jendl5.0      1.845253E+00   6.427078E-01   0.000000E+00

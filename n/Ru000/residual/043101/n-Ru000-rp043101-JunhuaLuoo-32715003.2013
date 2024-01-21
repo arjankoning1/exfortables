@@ -1,0 +1,53 @@
+# header:
+#   title: Ru0(n,x)Tc101 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: JunhuaLuoo
+#   year: 2013
+#   subentry: 32715003
+#   X4 reaction: 44-RU-0(N,X)43-TC-101,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/32715003
+# target:
+#   Z: 44
+#   A: 0
+#   nuclide: Ru0
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 43
+#   A: 101
+#   nuclide: Tc101
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.350000E+01   2.000000E-01   2.837800E+00   3.065200E-01   9.887640E-01
+   1.410000E+01   2.000000E-01   3.480450E+00   4.152800E-01   9.887640E-01
+   1.480000E+01   2.000000E-01   4.568090E+00   3.361800E-01   9.887640E-01
+# reference:
+#   author: Junhua Luo,Jiuning Han,Rong Liu,Li Jiang,Suhong Ge, Zhenlai Liu,Guihua Sun
+#   title: Measurements of activation cross-sections for the 101Ru(n,p)101Tc reaction for neutrons with energies between 13 and 15 MeV
+#   journal: Jour: Journal of Radioanalytical and Nuclear Chemistry, Vol.296, p.1225
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  1.350000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.516158E+00
+#   A-value:  1.473418E+00
+#   chi-2:  2.796902E+01
+#   p-value:  1.247612E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.707097E+00   1.694804E+00   4.979041E+01
+# jeff3.3       1.531314E+00   1.502455E+00   2.645028E+01
+# jendl5.0      1.256207E+00   1.256195E+00   7.666391E+00

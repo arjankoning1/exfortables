@@ -1,0 +1,47 @@
+# header:
+#   title: U238(g,f) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Tavares
+#   year: 1991
+#   subentry: M0387008
+#   X4 reaction: 92-U-238(G,F),,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/M0387008
+# target:
+#   Z: 92
+#   A: 238
+#   nuclide: U238
+# reaction:
+#   type: (g,f)
+#   ENDF_MF: 3
+#   ENDF_MT: 18
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.200000E+01   5.200000E+00   1.000000E+01   1.000000E+00   1.000000E+00
+# reference:
+#   author: O.A.P.Tavares,M.L.Terranova,L.Casano,A.D'angelo,  D.Moricciani,C.Schaerf,D.Babusci,B.Girolami,  J.B.Martins,E.L.Moreira,J.L.Vieira
+#   title: Fission of   complex   nuclei   induced   by   52-MeV  monochromatic and polarized photons.
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.44, p.1683 (1991)
+# statistics:
+#   NEA score: T3
+#   IAEA score: -1
+#   E-min [MeV]:  5.200000E+01
+#   E-max [MeV]:  5.200000E+01
+#   F-value:  1.686161E+00
+#   A-value:  1.686161E+00
+#   chi-2:  4.708176E+01
+#   p-value:  3.042747E-01
+#   exp. data sets for p-value:      3
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.686597E+00   1.686597E+00   4.714150E+01
+# endfb8.0      0.000000E+00   0.000000E+00   0.000000E+00
+# jendl5.0      1.685726E+00   1.685726E+00   4.702201E+01

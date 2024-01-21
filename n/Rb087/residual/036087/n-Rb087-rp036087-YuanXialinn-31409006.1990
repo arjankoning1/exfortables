@@ -1,0 +1,55 @@
+# header:
+#   title: Rb87(n,x)Kr87 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: YuanXialinn
+#   year: 1990
+#   subentry: 31409006
+#   X4 reaction: 37-RB-87(N,P)36-KR-87,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/31409006
+# target:
+#   Z: 37
+#   A: 87
+#   nuclide: Rb87
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 36
+#   A: 87
+#   nuclide: Kr87
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.347000E+01   1.000000E-01   6.720000E+00   2.700000E-01   1.000000E+00
+   1.383000E+01   7.000000E-02   8.190001E+00   3.300000E-01   1.000000E+00
+   1.443000E+01   1.000000E-01   9.470000E+00   3.900000E-01   1.000000E+00
+   1.470000E+01   1.400000E-01   1.100000E+01   5.000000E-01   1.000000E+00
+   1.480000E+01   1.500000E-01   1.040000E+01   4.000000E-01   1.000000E+00
+# reference:
+#   author: Yuan Xialin,Zhao Wenrong,Yu Weixiang,Lu Hanlin
+#   title: Cross sections of Rb-85 and Rb-87 for fast neutrons.
+#   journal: Jour: Chinese J.of Nuclear Physics (Beijing)., Vol.12, Issue.4, p.289 (1
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.347000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.278121E+00
+#   A-value:  1.231148E+00
+#   chi-2:  5.054925E+01
+#   p-value:  3.472440E-01
+#   exp. data sets for p-value:      2
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.338333E+00   1.333363E+00   7.077474E+01
+# jeff3.3       1.357094E+00   1.351982E+00   7.882295E+01
+# jendl5.0      1.051115E+00   1.035169E+00   2.050043E+00

@@ -1,0 +1,56 @@
+# header:
+#   title: Te128(n,x)Te128 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Burmistrov
+#   year: 1987
+#   subentry: 41007051
+#   X4 reaction: 52-TE-128(N,INL)52-TE-128,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/41007051
+# target:
+#   Z: 52
+#   A: 128
+#   nuclide: Te128
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+# residual:
+#   Z: 52
+#   A: 128
+#   nuclide: Te128
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   8.500000E-01   0.000000E+00   3.900000E+02   4.000000E+02   1.000000E+00
+   9.000000E-01   0.000000E+00   5.400000E+02   5.000000E+02   1.000000E+00
+   9.400000E-01   0.000000E+00   5.800000E+02   6.000000E+02   1.000000E+00
+   9.900000E-01   0.000000E+00   6.400000E+02   6.000000E+02   1.000000E+00
+   1.040000E+00   0.000000E+00   6.800000E+02   7.000000E+02   1.000000E+00
+   1.090000E+00   0.000000E+00   7.400000E+02   7.000000E+02   1.000000E+00
+# reference:
+#   author: Yu.M.Burmistrov,T.E.Grigor'ev,E.D.Molodtsov, R.M.Musaelyan,V.I.Popov,S.I.Potashev,V.M.Skorkin
+#   title: 1.2-2.0 MeV energy neutron scattering on the even tellurium isotopes
+#   journal: Conf: 1.Int.Conf.on Neutron Physics, Kiev,14-18 Sep 1987, Vol.3, p.217 (
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  8.500000E-01
+#   E-max [MeV]:  1.090000E+00
+#   F-value:  1.039734E+00
+#   A-value:  9.645543E-01
+#   chi-2:  4.592242E-02
+#   p-value:  1.438852E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.048293E+00   9.546968E-01   5.883696E-02
+# jeff3.3       1.045002E+00   9.577277E-01   5.488111E-02
+# jendl5.0      1.020017E+00   9.814598E-01   2.404922E-02

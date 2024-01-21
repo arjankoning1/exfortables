@@ -1,0 +1,50 @@
+# header:
+#   title: Mg0(p,x)Mg22 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Wilson
+#   year: 1976
+#   subentry: D4104003
+#   X4 reaction: 12-MG-0(P,X)12-MG-22,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D4104003
+# target:
+#   Z: 12
+#   A: 0
+#   nuclide: Mg0
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 12
+#   A: 22
+#   nuclide: Mg22
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.650000E+01   2.000000E-01   2.100000E-01   1.100000E-01   1.000000E+00
+# reference:
+#   author: R.L.Wilson,D.J.Frantsvog,A.R.Kunselman,C.Detraz, C.S.Zasdins
+#   title: Excitation functions of reactions induced by 1H and 2H ions on natural Mg, Al and Si
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.13, p.976 (1976)
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  2.650000E+01
+#   E-max [MeV]:  2.650000E+01
+#   F-value:  4.995489E+00
+#   A-value:  2.001806E-01
+#   chi-2:  2.830839E+00
+#   p-value:  5.960464E-07
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    0.000000E+00   0.000000E+00   0.000000E+00
+# jendl5.0      4.995489E+00   2.001806E-01   2.830839E+00

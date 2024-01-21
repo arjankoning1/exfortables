@@ -1,0 +1,54 @@
+# header:
+#   title: U238(n,2n)U237 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Mulik
+#   year: 2014
+#   subentry: 33056003
+#   X4 reaction: 92-U-238(N,2N)92-U-237,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/33056003
+# target:
+#   Z: 92
+#   A: 238
+#   nuclide: U238
+# reaction:
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 92
+#   A: 237
+#   nuclide: U237
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.550000E+01   7.000000E-01   5.340000E+02   7.600002E+01   1.000000E+00
+# reference:
+#   author: V.K.Mulik, S.V.Surayanarayana, H.Naik,Sadhana Mukerji, B.S.Shivashankar, P.M.Prajapati, S.D.Dhole, V.N.Bhoraskar, S.Ganesan, A.Goswami
+#   title: Measurement of the neutron capture cross-section of 238U at neutron energies of 5.9 +- 0.5 and 15.5 +- 0.7 MeV by using the neutron activation technique
+#   journal: Jour: Annals of Nuclear Energy, Vol.63, p.233 (2014)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.550000E+01
+#   E-max [MeV]:  1.550000E+01
+#   F-value:  1.020797E+00
+#   A-value:  9.956725E-01
+#   chi-2:  1.223871E-01
+#   p-value:  1.313492E-01
+#   exp. data sets for p-value:      2
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2023    1.003295E+00   9.967158E-01   2.906123E-02
+# endfb8.0      1.003295E+00   9.967158E-01   2.906123E-02
+# jeff3.3       1.044152E+00   9.577149E-01   3.971650E-01
+# jendl5.0      1.025618E+00   1.025618E+00   2.344471E-01
+# cendl3.2      1.001759E+00   1.001759E+00   1.552657E-02
+# irdff2.0      1.003295E+00   9.967158E-01   2.906123E-02

@@ -1,0 +1,52 @@
+# header:
+#   title: Hg204(n,2n)Hg203 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Peto
+#   year: 1968
+#   subentry: 30069008
+#   X4 reaction: 80-HG-204(N,2N)80-HG-203,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30069008
+# target:
+#   Z: 80
+#   A: 204
+#   nuclide: Hg204
+# reaction:
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 80
+#   A: 203
+#   nuclide: Hg203
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.500000E+01   6.000000E-01   2.230000E+03   3.000000E+02   1.000000E+00
+# reference:
+#   author: G.Peto,P.Bornemisza-Pauspertl,J.Karolyi
+#   title: Applicability of the statistical model for explaining  the ratio of the (n,n')/(n,2n) cross-sections
+#   journal: Jour: Acta Physica Hungarica, Vol.25, p.91 (1968)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.500000E+01
+#   E-max [MeV]:  1.500000E+01
+#   F-value:  1.010666E+00
+#   A-value:  9.908460E-01
+#   chi-2:  8.679500E-02
+#   p-value:  3.873862E-01
+#   exp. data sets for p-value:      2
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2023    1.010492E+00   9.896173E-01   9.831552E-02
+# endfb8.0      1.013148E+00   9.870231E-01   1.233880E-01
+# jeff3.3       1.013148E+00   9.870231E-01   1.233880E-01
+# jendl5.0      1.000224E+00   9.997759E-01   2.088478E-03

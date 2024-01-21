@@ -1,0 +1,51 @@
+# header:
+#   title: Cu65(p,x)Zn65 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Jones
+#   year: 1961
+#   subentry: B0063003
+#   X4 reaction: 29-CU-65(P,N)30-ZN-65,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/B0063003
+# target:
+#   Z: 29
+#   A: 65
+#   nuclide: Cu65
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+# residual:
+#   Z: 30
+#   A: 65
+#   nuclide: Zn65
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   9.850000E+00   0.000000E+00   5.550000E+02   6.600001E+01   1.000000E+00
+# reference:
+#   author: G.A.Jones, J.P.Schiffer, J.R.Huizenga, J.W.Wing
+#   title: Measurements of (p,n) cross sections on Cu at 9.85 MeV
+#   journal: Rept: Div. of Tech. Info. U.S. AEC Reports, No.12696 (1961)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  9.850000E+00
+#   E-max [MeV]:  9.850000E+00
+#   F-value:  1.219281E+00
+#   A-value:  1.206833E+00
+#   chi-2:  3.926083E+00
+#   p-value:  7.280496E-02
+#   exp. data sets for p-value:      7
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.170016E+00   1.170016E+00   2.572953E+00
+# endfb8.0      1.317559E+00   1.317559E+00   7.234071E+00
+# jendl5.0      1.140196E+00   1.140196E+00   1.971226E+00

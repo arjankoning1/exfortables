@@ -1,0 +1,58 @@
+# header:
+#   title: Zn67(n,x)Cu67 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Kielan
+#   year: 1995
+#   subentry: 31460004
+#   X4 reaction: 30-ZN-67(N,P)29-CU-67,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/31460004
+# target:
+#   Z: 30
+#   A: 67
+#   nuclide: Zn67
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 29
+#   A: 67
+#   nuclide: Cu67
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.304000E+01   4.000000E-01   3.468246E+01   2.498700E+00   9.994944E-01
+   1.340000E+01   2.000000E-01   4.217866E+01   1.799090E+00   9.994944E-01
+   1.390000E+01   3.000000E-01   4.317816E+01   1.899000E+00   9.994944E-01
+   1.450000E+01   3.000000E-01   4.487730E+01   2.098900E+00   9.994944E-01
+   1.500000E+01   3.000000E-01   4.727609E+01   2.298800E+00   9.994944E-01
+   1.540000E+01   2.000000E-01   4.777583E+01   2.498700E+00   9.994944E-01
+   1.590000E+01   5.000000E-01   5.657139E+01   7.296310E+00   9.994944E-01
+   1.660000E+01   1.000000E-01   6.246841E+01   9.395200E+00   9.994944E-01
+# reference:
+#   author: D.Kielan,A.Marcinkowski
+#   title: Cross sections for the (n,p) reaction on zinc isotopes in terms of the novel multistep compound reaction model
+#   journal: Jour: Zeitschrift fuer Physik A, Hadrons and Nuclei, Vol.352, p.137 (199
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.304000E+01
+#   E-max [MeV]:  1.660000E+01
+#   F-value:  1.378234E+00
+#   A-value:  7.434837E-01
+#   chi-2:  1.821591E+01
+#   p-value:  2.439553E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.345506E+00   7.533401E-01   1.738809E+01
+# jeff3.3       1.344402E+00   7.539492E-01   1.728898E+01
+# jendl5.0      1.440237E+00   7.235709E-01   1.997065E+01

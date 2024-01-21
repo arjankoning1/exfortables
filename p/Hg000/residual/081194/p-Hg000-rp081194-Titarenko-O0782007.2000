@@ -1,0 +1,53 @@
+# header:
+#   title: Hg0(p,x)Tl194 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Titarenko
+#   year: 2000
+#   subentry: O0782007
+#   X4 reaction: 80-HG-0(P,X)81-TL-194,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O0782007
+# target:
+#   Z: 80
+#   A: 0
+#   nuclide: Hg0
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 81
+#   A: 194
+#   nuclide: Tl194
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.000000E+02   0.000000E+00   7.264398E+01   8.219800E+00   5.811518E-01
+   2.000000E+02   0.000000E+00   2.290000E+01   2.300000E+00   1.000000E+00
+   8.000000E+02   0.000000E+00   6.300000E+00   7.400000E-01   1.000000E+00
+# reference:
+#   author: Yu.E.Titarenko, O.V.Shvedov, V.F.Batyaev, V.M.Zhivun, E.I.Karpikhin, A.B.Koldobsky, R.D.Mulambetov, D.V.Fischenko, S.V.Kvasova, S.G.Mashnik, R.E.Prael, A.J.Sierk
+#   title: Study of residual nuclide yields from 0.1, 0.2, 0.6, and 2.6 GeV proton-irradiated thin nat-Hg targets
+#   journal: Rept: Los Alamos Scientific Lab. Reports, No.00-3600 (2000)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  1.000000E+02
+#   E-max [MeV]:  8.000000E+02
+#   F-value:  1.892423E+00
+#   A-value:  7.066855E-01
+#   chi-2:  1.643022E+01
+#   p-value:  1.785929E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    2.304481E+00   5.331190E-01   2.423936E+01
+# endfb8.0      1.228952E+00   1.228952E+00   4.404268E+00
+# jendl5.0      1.393488E+00   8.917271E-01   7.993120E+00

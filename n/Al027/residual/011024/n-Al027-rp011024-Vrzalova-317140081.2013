@@ -1,0 +1,53 @@
+# header:
+#   title: Al27(n,x)Na24 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Vrzalova
+#   year: 2013
+#   subentry: 317140081
+#   X4 reaction: 13-AL-27(N,X)11-NA-24,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/317140081
+# target:
+#   Z: 13
+#   A: 27
+#   nuclide: Al27
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 11
+#   A: 24
+#   nuclide: Na24
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.040000E+01   8.000000E-01   9.900599E+00   1.400100E+00   1.000064E+00
+   3.590000E+01   8.000000E-01   7.400500E+00   1.000100E+00   1.000064E+00
+# reference:
+#   author: J.Vrzalova, O.Svoboda, A.Krasa, A.Kugler, M.Majerle,  M.Suchopar, V.Wagner
+#   title: Studies of (n,xn) cross-sections in Al, Au, Bi, Cu,  Fe, I, In, Mg, Ni, Ta, Y, and Zn by the activation  method
+#   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.A, Vol.726, p.84 (201
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  3.040000E+01
+#   E-max [MeV]:  3.590000E+01
+#   F-value:  2.096848E+00
+#   A-value:  7.221637E-01
+#   chi-2:  1.902336E+01
+#   p-value:  2.809479E-01
+#   exp. data sets for p-value:      3
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2023    1.578254E+00   1.409452E+00   2.257725E+01
+# endfb8.0      2.598849E+00   3.928477E-01   1.892082E+01
+# jeff3.3       2.598849E+00   3.928477E-01   1.892082E+01
+# jendl5.0      1.492643E+00   1.250386E+00   1.567455E+01

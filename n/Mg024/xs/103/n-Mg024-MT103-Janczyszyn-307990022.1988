@@ -1,0 +1,66 @@
+# header:
+#   title: Mg24(n,p)Na24 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Janczyszyn
+#   year: 1988
+#   subentry: 307990022
+#   X4 reaction: 12-MG-24(N,P)11-NA-24,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/307990022
+# target:
+#   Z: 12
+#   A: 24
+#   nuclide: Mg24
+# reaction:
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 11
+#   A: 24
+#   nuclide: Na24
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 13
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.359000E+01   2.700000E-01   1.996410E+02   2.211900E+00   9.997045E-01
+   1.417000E+01   3.300000E-01   1.929900E+02   1.946000E+00   9.953067E-01
+   1.478000E+01   2.800000E-01   1.711887E+02   1.817300E+00   9.883875E-01
+   1.523000E+01   2.000000E-01   1.599418E+02   2.042620E+00   9.681707E-01
+   1.540000E+01   2.400000E-01   1.584833E+02   2.059200E+00   9.651845E-01
+   1.554000E+01   2.200000E-01   1.553190E+02   2.014800E+00   9.641154E-01
+   1.593000E+01   2.500000E-01   1.407344E+02   1.909500E+00   9.766442E-01
+   1.623000E+01   1.800000E-01   1.384724E+02   1.832500E+00   9.940585E-01
+   1.629000E+01   2.800000E-01   1.374309E+02   1.882000E+00   9.965982E-01
+   1.659000E+01   1.500000E-01   1.301110E+02   1.889400E+00   1.014115E+00
+   1.677000E+01   3.400000E-01   1.246870E+02   2.020200E+00   1.014540E+00
+   1.709000E+01   1.200000E-01   1.140473E+02   2.045400E+00   1.017371E+00
+   1.786000E+01   8.000000E-02   1.133768E+02   1.704100E+00   1.006006E+00
+# reference:
+#   author: J.JANCZYSZYN,G.DOMANSKA,W.POHORECKI,L.LOSKA,F.PACH
+#   title: Precise measurement of the integral cross section for the reaction Mg-24(n,p)Na-24 between 13.5 and 18.0 MeV
+#   journal: Jour: Annals of Nuclear Energy, Vol.15, Issue.3, p.155 (1988)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.359000E+01
+#   E-max [MeV]:  1.786000E+01
+#   F-value:  1.027491E+00
+#   A-value:  1.007402E+00
+#   chi-2:  3.996429E+00
+#   p-value:  3.448371E-01
+#   exp. data sets for p-value:      8
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2023    1.027947E+00   1.001863E+00   4.064788E+00
+# endfb8.0      1.024991E+00   1.011222E+00   3.372716E+00
+# jeff3.3       1.024991E+00   1.011222E+00   3.372716E+00
+# jendl5.0      1.024991E+00   1.011222E+00   3.372716E+00
+# cendl3.2      1.035382E+00   1.008158E+00   7.022225E+00
+# irdff2.0      1.025135E+00   1.000786E+00   2.773416E+00

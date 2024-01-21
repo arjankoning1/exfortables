@@ -1,0 +1,51 @@
+# header:
+#   title: Zn64(n,x)Cu64 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Barrall
+#   year: 1969
+#   subentry: 10022017
+#   X4 reaction: 30-ZN-64(N,P)29-CU-64,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/10022017
+# target:
+#   Z: 30
+#   A: 64
+#   nuclide: Zn64
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 29
+#   A: 64
+#   nuclide: Cu64
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.460000E+01   2.000000E-01   1.498542E+02   1.019416E+01   1.019416E+00
+# reference:
+#   author: R.C.Barrall,J.A.Holmes,M.Silbergeld
+#   title: High energy neutron cross section validation and  neutron flux spectrum using the HENRE source.
+#   journal: Rept: Air Force Spec.Weap.Center Kirtland A.F.B.Repts., No.68-134 (1969)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.460000E+01
+#   E-max [MeV]:  1.460000E+01
+#   F-value:  1.012200E+00
+#   A-value:  1.010143E+00
+#   chi-2:  1.961887E-01
+#   p-value:  3.266875E-01
+#   exp. data sets for p-value:      8
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.014952E+00   1.014952E+00   2.887881E-01
+# jeff3.3       1.014961E+00   1.014961E+00   2.889748E-01
+# jendl5.0      1.000585E+00   1.000585E+00   1.080330E-02

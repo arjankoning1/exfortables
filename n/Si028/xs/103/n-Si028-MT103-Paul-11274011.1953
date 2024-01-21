@@ -1,0 +1,54 @@
+# header:
+#   title: Si28(n,p)Al28 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Paul
+#   year: 1953
+#   subentry: 11274011
+#   X4 reaction: 14-SI-28(N,P)13-AL-28,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11274011
+# target:
+#   Z: 14
+#   A: 28
+#   nuclide: Si28
+# reaction:
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 13
+#   A: 28
+#   nuclide: Al28
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.450000E+01   0.000000E+00   2.200000E+02   5.060000E+01   1.000000E+00
+# reference:
+#   author: E.B.Paul,R.L.Clarke
+#   title: CROSS SECTION MEASUREMENTS OF REACTIONS INDUCED BY NEUTRONS OF THE 14.5 MEV ENERGY.
+#   journal: Jour: Canadian Journal of Physics, Vol.31, p.267 (1953)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.450000E+01
+#   E-max [MeV]:  1.450000E+01
+#   F-value:  1.104742E+00
+#   A-value:  1.094623E+00
+#   chi-2:  5.845594E-01
+#   p-value:  1.945409E-01
+#   exp. data sets for p-value:      8
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2023    1.099941E+00   1.099941E+00   5.994710E-01
+# endfb8.0      1.149005E+00   1.149005E+00   9.407855E-01
+# jeff3.3       1.041725E+00   1.041725E+00   2.363575E-01
+# jendl5.0      1.033628E+00   1.033628E+00   1.890359E-01
+# cendl3.2      1.149005E+00   1.149005E+00   9.407855E-01
+# irdff2.0      1.100161E+00   1.100161E+00   6.009213E-01

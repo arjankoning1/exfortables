@@ -1,0 +1,56 @@
+# header:
+#   title: Os184(n,x)Os183m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: LiangyongZhaoo
+#   year: 2008
+#   subentry: 31618006
+#   X4 reaction: 76-OS-184(N,2N)76-OS-183-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/31618006
+# target:
+#   Z: 76
+#   A: 184
+#   nuclide: Os184
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 76
+#   A: 183
+#   nuclide: Os183m
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.350000E+01   2.000000E-01   4.457030E+02   6.083409E+01   9.860687E-01
+   1.470000E+01   2.000000E-01   4.330271E+02   5.773191E+01   9.977582E-01
+# reference:
+#   author: Liangyong Zhao,Jilong Yuan,Fei Tuo,Yanbin Zhang, Xiangzhong Kong,Rong Liu,Li Jiang
+#   title: Cross sections for (n,2n), (n,p) and (n,alpha) reactions on osmium isotopes in the neutron energy range of 13.5 - 14.8 MeV
+#   journal: Jour: Applied Radiation and Isotopes, Vol.66, p.1488 (2008)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.350000E+01
+#   E-max [MeV]:  1.470000E+01
+#   F-value:  1.055057E+00
+#   A-value:  9.656514E-01
+#   chi-2:  3.973841E-01
+#   p-value:  3.826675E-01
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.078569E+00   9.282129E-01   7.514640E-01
+# jeff3.3       1.004924E+00   1.004600E+00   4.330420E-02

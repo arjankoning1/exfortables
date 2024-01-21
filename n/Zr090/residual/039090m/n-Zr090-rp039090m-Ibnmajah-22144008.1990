@@ -1,0 +1,60 @@
+# header:
+#   title: Zr90(n,x)Y90m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Ibnmajah
+#   year: 1990
+#   subentry: 22144008
+#   X4 reaction: 40-ZR-90(N,P)39-Y-90-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22144008
+# target:
+#   Z: 40
+#   A: 90
+#   nuclide: Zr90
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 39
+#   A: 90
+#   nuclide: Y90m
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   8.215000E+00   2.560000E-01   1.858000E+00   1.925600E-01   1.004343E+00
+   8.716000E+00   2.800000E-01   2.994700E+00   2.024700E-01   1.011732E+00
+   9.187000E+00   3.760000E-01   3.508900E+00   2.095800E-01   1.041213E+00
+   9.643000E+00   4.280000E-01   3.512800E+00   1.939000E-01   1.018205E+00
+   1.012700E+01   4.520000E-01   4.495600E+00   4.081000E-01   1.007972E+00
+   1.061400E+01   4.420000E-01   5.548500E+00   5.017400E-01   1.014346E+00
+# reference:
+#   author: M.IBN MAJAH,S.M.QAIM
+#   title: -ACTIVATION CROSS SECTIONS OF NEUTRON THRESHOLD  REACTIONS ON SOME ZIRCONIUM ISOTOPES IN THE 5.4- TO  10.6-MEV ENERGY RANGE.
+#   journal: Jour: Nuclear Science and Engineering, Vol.104, p.271 (1990)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  8.215000E+00
+#   E-max [MeV]:  1.061400E+01
+#   F-value:  1.098103E+00
+#   A-value:  9.762214E-01
+#   chi-2:  2.296393E+00
+#   p-value:  3.511881E-01
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.101021E+00   9.428738E-01   2.114738E+00
+# jendl5.0      1.095108E+00   1.010749E+00   2.478048E+00

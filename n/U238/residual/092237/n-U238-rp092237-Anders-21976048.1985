@@ -1,0 +1,49 @@
+# header:
+#   title: U238(n,x)U237 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Anders
+#   year: 1985
+#   subentry: 21976048
+#   X4 reaction: 92-U-238(N,2N)92-U-237,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21976048
+# target:
+#   Z: 92
+#   A: 238
+#   nuclide: U238
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 92
+#   A: 237
+#   nuclide: U237
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.470000E+01   3.000000E-01   6.867453E+02   4.773585E+01   1.084906E+00
+# reference:
+#   author: B.Anders,B.M.Bahal,R.Pepelnik
+#   title: Measurements of 14 MeV neutron activation  cross section at KORONA
+#   journal: Rept: Ges.Kernen.-Verwertung, Schiffbau and Schiffahrt, No.85-E-24 (1985
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.470000E+01
+#   E-max [MeV]:  1.470000E+01
+#   F-value:  1.099335E+00
+#   A-value:  1.099335E+00
+#   chi-2:  2.571397E+00
+#   p-value:  4.928492E-01
+#   exp. data sets for p-value:      8
+#   libraries:      1
+##  Library          F              A            chi-2
+# jendl5.0      1.099335E+00   1.099335E+00   2.571397E+00

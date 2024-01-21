@@ -1,0 +1,62 @@
+# header:
+#   title: Ni0(p,x)Ni57 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Alharbi
+#   year: 2011
+#   subentry: D0673003
+#   X4 reaction: 28-NI-0(P,X)28-NI-57,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D0673003
+# target:
+#   Z: 28
+#   A: 0
+#   nuclide: Ni0
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 28
+#   A: 57
+#   nuclide: Ni57
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 12
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.330000E+01   8.000000E-01   3.500000E+00   4.000000E-01   1.000000E+00
+   1.470000E+01   8.000000E-01   9.000000E+00   1.000000E+00   1.000000E+00
+   1.610000E+01   7.000000E-01   3.500000E+01   4.000000E+00   1.000000E+00
+   1.740000E+01   7.000000E-01   6.700000E+01   8.000000E+00   1.000000E+00
+   1.860000E+01   7.000000E-01   1.000000E+02   1.200000E+01   1.000000E+00
+   1.980000E+01   6.000000E-01   1.120000E+02   1.400000E+01   1.000000E+00
+   2.090000E+01   6.000000E-01   1.240000E+02   1.500000E+01   1.000000E+00
+   2.190000E+01   6.000000E-01   1.270000E+02   1.500000E+01   1.000000E+00
+   2.300000E+01   6.000000E-01   1.370000E+02   1.600000E+01   1.000000E+00
+   2.400000E+01   6.000000E-01   1.560000E+02   1.900000E+01   1.000000E+00
+   2.490000E+01   5.000000E-01   1.530000E+02   1.800000E+01   1.000000E+00
+   2.590000E+01   5.000000E-01   1.720000E+02   2.100000E+01   1.000000E+00
+# reference:
+#   author: A.A.Alharbi, J.Alzahrani, A.Azzam
+#   title: Activation cross-section measurements of some proton  induced reactions on Ni, Co and Mo for proton  analysis (PAA) purposes
+#   journal: Jour: Radiochimica Acta, Vol.99, p.763 (2011)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  1.330000E+01
+#   E-max [MeV]:  2.590000E+01
+#   F-value:  2.243637E+00
+#   A-value:  7.847641E-01
+#   chi-2:  8.872530E+00
+#   p-value:  2.258623E-01
+#   exp. data sets for p-value:      3
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.934420E+00   8.972504E-01   8.176305E+00
+# endfb8.0      2.210679E+00   7.606820E-01   9.507756E+00
+# jendl5.0      2.574683E+00   7.081099E-01   8.933527E+00

@@ -1,0 +1,51 @@
+# header:
+#   title: Lu175(n,x)Yb175 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Sato
+#   year: 1975
+#   subentry: 20595007
+#   X4 reaction: 71-LU-175(N,P)70-YB-175,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20595007
+# target:
+#   Z: 71
+#   A: 175
+#   nuclide: Lu175
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 70
+#   A: 175
+#   nuclide: Yb175
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.460000E+01   0.000000E+00   1.850000E+01   2.200000E+00   1.000000E+00
+# reference:
+#   author: T.SATO,Y.KANDA,I.KUMABE
+#   title: -ACTIVATION CROSS SECTIONS FOR (N,P) AND (N,ALPHA)  REACTIONS ON ND,SM,YB AND LU AT 14.6 MEV-
+#   journal: Jour: Jour. of Nuclear Science and Technology, Vol.12, Issue.11, p.681 (
+# statistics:
+#   NEA score: T1
+#   IAEA score:  0
+#   E-min [MeV]:  1.460000E+01
+#   E-max [MeV]:  1.460000E+01
+#   F-value:  1.910164E+00
+#   A-value:  5.269477E-01
+#   chi-2:  1.583942E+01
+#   p-value:  5.158174E-02
+#   exp. data sets for p-value:      6
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.751962E+00   5.707886E-01   1.303485E+01
+# jeff3.3       1.807781E+00   5.531645E-01   1.412350E+01
+# jendl5.0      2.157880E+00   4.634179E-01   2.035992E+01

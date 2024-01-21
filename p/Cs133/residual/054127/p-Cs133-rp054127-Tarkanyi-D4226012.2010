@@ -1,0 +1,59 @@
+# header:
+#   title: Cs133(p,x)Xe127 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Tarkanyi
+#   year: 2010
+#   subentry: D4226012
+#   X4 reaction: 55-CS-133(P,X)54-XE-127,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D4226012
+# target:
+#   Z: 55
+#   A: 133
+#   nuclide: Cs133
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 54
+#   A: 127
+#   nuclide: Xe127
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 10
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.920000E+01   2.100000E+00   2.535200E+00   2.982500E-01   9.941776E-01
+   4.290000E+01   1.800000E+00   8.649300E+00   9.941800E-01   9.941776E-01
+   4.660000E+01   1.600000E+00   1.312314E+01   1.391800E+00   9.941776E-01
+   5.010000E+01   1.400000E+00   1.690102E+01   1.789520E+00   9.941776E-01
+   5.350000E+01   1.200000E+00   1.600626E+01   1.690100E+00   9.941776E-01
+   5.660000E+01   1.000000E+00   1.282489E+01   1.391800E+00   9.941776E-01
+   5.980000E+01   8.000000E-01   1.411732E+01   1.491300E+00   9.941776E-01
+   6.260000E+01   6.000000E-01   1.302373E+01   1.391800E+00   9.941776E-01
+   6.530000E+01   5.000000E-01   1.411732E+01   1.590700E+00   9.941776E-01
+   6.800000E+01   3.000000E-01   2.197133E+01   2.386000E+00   9.941776E-01
+# reference:
+#   author: F.Tarkanyi,A.Hermanne,S.Takacs,F.Ditroi,B.Kiraly, H.Yamazaki,M.Baba,A.Mohammadi,A.V.Ignatyuk
+#   title: New measurements and evaluation of excitation functions for (p,xn), (p,pxn) and (p,2pxn) reactions on 133Cs up to 70 MeV proton energy
+#   journal: Jour: Applied Radiation and Isotopes, Vol.68, p.47 (2010)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  3.920000E+01
+#   E-max [MeV]:  6.800000E+01
+#   F-value:  1.760149E+00
+#   A-value:  1.031230E+00
+#   chi-2:  3.918708E+01
+#   p-value:  3.552387E-01
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.649138E+00   6.884170E-01   1.151078E+01
+# jendl5.0      1.865964E+00   1.544753E+00   6.686340E+01

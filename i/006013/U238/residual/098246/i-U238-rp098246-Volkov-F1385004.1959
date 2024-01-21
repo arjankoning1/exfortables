@@ -1,0 +1,43 @@
+# header:
+#   title: U238(i,x)Cf246 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Volkov
+#   year: 1959
+#   subentry: F1385004
+#   X4 reaction: 92-U-238(6-C-13,X)98-CF-246,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/F1385004
+# target:
+#   Z: 92
+#   A: 238
+#   nuclide: U238
+# reaction:
+#   type: (i,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 98
+#   A: 246
+#   nuclide: Cf246
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   6.527200E+01   0.000000E+00   1.206300E-03   0.000000E+00   1.000000E+00
+   6.799400E+01   0.000000E+00   2.496300E-03   0.000000E+00   1.000000E+00
+   7.045600E+01   0.000000E+00   2.275600E-02   4.590900E-03   1.000000E+00
+   7.314200E+01   0.000000E+00   6.261000E-02   9.487900E-03   1.000000E+00
+   7.599900E+01   0.000000E+00   1.134900E-01   1.346800E-02   1.000000E+00
+   7.877100E+01   0.000000E+00   1.264100E-01   1.652900E-02   1.000000E+00
+   8.140600E+01   0.000000E+00   9.127400E-02   1.071200E-02   1.000000E+00
+   8.391400E+01   0.000000E+00   6.287000E-02   7.956100E-03   1.000000E+00
+# reference:
+#   author: V.V.Volkov,L.I.Guseva,A.S.Pasyuk,N.I.Tarantin, K.V.Filippova
+#   title: Ratio of isomeric and ground state yields of Zn produced in various nuclear reactions.
+#   journal: Jour: Zhurnal Eksperimental'noi i Teoret. Fiziki, Vol.36, p.762 (1959)

@@ -1,0 +1,56 @@
+# header:
+#   title: Ni64(a,3n)Zn65 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Tanaka
+#   year: 1960
+#   subentry: P0037006
+#   X4 reaction: 28-NI-64(A,3N)30-ZN-65,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/P0037006
+# target:
+#   Z: 28
+#   A: 64
+#   nuclide: Ni64
+# reaction:
+#   type: (a,3n)
+#   ENDF_MF: 3
+#   ENDF_MT: 17
+# residual:
+#   Z: 30
+#   A: 65
+#   nuclide: Zn65
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.110000E+01   0.000000E+00   1.490000E+02   0.000000E+00   1.000000E+00
+   3.120000E+01   0.000000E+00   1.430000E+02   0.000000E+00   1.000000E+00
+   3.160000E+01   0.000000E+00   1.450000E+02   0.000000E+00   1.000000E+00
+   3.330000E+01   0.000000E+00   1.690000E+02   0.000000E+00   1.000000E+00
+   3.360000E+01   0.000000E+00   1.910000E+02   0.000000E+00   1.000000E+00
+   3.530000E+01   0.000000E+00   1.930000E+02   0.000000E+00   1.000000E+00
+   3.540000E+01   0.000000E+00   2.150000E+02   0.000000E+00   1.000000E+00
+   3.790000E+01   0.000000E+00   2.160000E+02   0.000000E+00   1.000000E+00
+# reference:
+#   author: S.TANAKA
+#   title: Reactions of Nickel with Alpha-Particles
+#   journal: Jour: Journal of the Physical Society of Japan, Vol.15, p.2159 (1960)
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  3.110000E+01
+#   E-max [MeV]:  3.790000E+01
+#   F-value:  2.881248E+00
+#   A-value:  2.874090E+00
+#   chi-2:  0.000000E+00
+#   p-value:  2.271241E-01
+#   exp. data sets for p-value:      2
+#   libraries:      1
+##  Library          F              A            chi-2
+# tendl.2023    2.881248E+00   2.874090E+00   0.000000E+00

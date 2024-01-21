@@ -1,0 +1,58 @@
+# header:
+#   title: Nb93(p,x)Zr87 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Steyn
+#   year: 2011
+#   subentry: D0629004
+#   X4 reaction: 41-NB-93(P,X)40-ZR-87,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D0629004
+# target:
+#   Z: 41
+#   A: 93
+#   nuclide: Nb93
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 40
+#   A: 87
+#   nuclide: Zr87
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   4.485000E+01   6.300000E-01   1.009200E+01   4.392000E+00   1.200000E+00
+   4.777000E+01   5.900000E-01   1.548000E+01   4.692000E+00   1.200000E+00
+   5.056000E+01   5.500000E-01   4.524000E+01   6.276000E+00   1.200000E+00
+   5.346000E+01   5.100000E-01   5.639999E+01   9.060000E+00   1.200000E+00
+   5.626000E+01   4.700000E-01   4.764000E+01   1.098000E+01   1.200000E+00
+   5.961000E+01   4.100000E-01   6.863999E+01   1.047600E+01   1.200000E+00
+   6.283000E+01   3.600000E-01   5.244000E+01   9.851999E+00   1.200000E+00
+   6.593000E+01   3.000000E-01   4.176000E+01   8.496000E+00   1.200000E+00
+# reference:
+#   author: G.F.Steyn, C.Vermeulen, F.Szelecsenyi, Z.Kovacs,  K.Suzuki, T.Fukumura, K.Nagatsu
+#   title: Excitation functions of proton induced reactions on 89Y and 93Nb with emphasis on the production of selected radio-zirconiums
+#   journal: Jour: Journal of the Korean Physical Society, Vol.59, p.1991 (2011)
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  4.485000E+01
+#   E-max [MeV]:  6.593000E+01
+#   F-value:  3.393194E+00
+#   A-value:  3.436362E-01
+#   chi-2:  1.310416E+01
+#   p-value:  1.488588E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    4.968194E+00   2.137084E-01   1.861741E+01
+# endfb8.0      3.614194E+00   2.866754E-01   1.549312E+01
+# jendl5.0      1.661045E+00   6.623459E-01   5.201960E+00

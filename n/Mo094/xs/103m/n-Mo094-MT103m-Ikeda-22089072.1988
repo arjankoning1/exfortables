@@ -1,0 +1,60 @@
+# header:
+#   title: Mo94(n,p)Nb94m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Ikeda
+#   year: 1988
+#   subentry: 22089072
+#   X4 reaction: 42-MO-94(N,P)41-NB-94-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22089072
+# target:
+#   Z: 42
+#   A: 94
+#   nuclide: Mo94
+# reaction:
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 41
+#   A: 94
+#   nuclide: Nb94m
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.333000E+01   0.000000E+00   2.632000E+01   1.128000E+01   9.400000E-01
+   1.352000E+01   0.000000E+00   2.820000E+01   1.034000E+01   9.400000E-01
+   1.404000E+01   0.000000E+00   2.867000E+01   7.332000E+00   9.400000E-01
+   1.443000E+01   0.000000E+00   3.102000E+01   1.034000E+01   9.400000E-01
+   1.467000E+01   0.000000E+00   3.327600E+01   8.084000E+00   9.400000E-01
+   1.493000E+01   0.000000E+00   3.449800E+01   8.271999E+00   9.400000E-01
+# reference:
+#   author: Y.Ikeda,C.Konno,K.Oishi,T.Nakamura,H.Miyade, K.Kawade,  H.Yamamoto, T.Katoh
+#   title: Activation cross section measurements for fusion  reactor structural materials at neutron energy from  13.3 to 15.0 MeV using FNS facility
+#   journal: Rept: JAERI Reports, No.1312 (1988)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.333000E+01
+#   E-max [MeV]:  1.493000E+01
+#   F-value:  1.254805E+00
+#   A-value:  1.177859E+00
+#   chi-2:  1.036623E+00
+#   p-value:  3.324432E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.062283E+00   1.051009E+00   2.165975E-01
+# jendl5.0      1.370617E+00   1.320019E+00   1.856648E+00

@@ -1,0 +1,58 @@
+# header:
+#   title: Cu0(p,x)V48 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Greenwood
+#   year: 1984
+#   subentry: C0537014
+#   X4 reaction: 29-CU-0(P,X)23-V-48,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C0537014
+# target:
+#   Z: 29
+#   A: 0
+#   nuclide: Cu0
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 23
+#   A: 48
+#   nuclide: V48
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.000000E+02   0.000000E+00   1.290000E-01   6.450000E-03   1.000000E+00
+   1.500000E+02   0.000000E+00   9.760000E-01   4.880000E-02   1.000000E+00
+   2.000000E+02   0.000000E+00   2.260000E+00   1.130000E-01   1.000000E+00
+   2.500000E+02   0.000000E+00   3.800000E+00   1.900000E-01   1.000000E+00
+   3.000000E+02   0.000000E+00   5.160000E+00   2.580000E-01   1.000000E+00
+   3.500000E+02   0.000000E+00   6.270000E+00   3.135000E-01   1.000000E+00
+   4.000000E+02   0.000000E+00   7.430000E+00   3.715000E-01   1.000000E+00
+   4.500000E+02   0.000000E+00   7.870000E+00   3.935000E-01   1.000000E+00
+# reference:
+#   author: L.R.Greenwood,R.K.Smither
+#   title: Measurement of Cu spallation cross sections at IPNS
+#   journal: Prog: U.S. Dept.of Energy, Fusion Energy Series, No.0046-18, p.11 (1984)
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  1.000000E+02
+#   E-max [MeV]:  4.500000E+02
+#   F-value:  3.800251E+00
+#   A-value:  1.580134E+00
+#   chi-2:  4.433754E+03
+#   p-value:  7.408931E-02
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    3.350489E+00   1.102916E+00   1.310969E+03
+# endfb8.0      3.948141E+00   2.530966E+00   5.384207E+03
+# jendl5.0      2.287417E+00   4.543324E-01   1.177808E+02

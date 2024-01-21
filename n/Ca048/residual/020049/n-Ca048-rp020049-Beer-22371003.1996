@@ -1,0 +1,54 @@
+# header:
+#   title: Ca48(n,x)Ca49 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Beer
+#   year: 1996
+#   subentry: 22371003
+#   X4 reaction: 20-CA-48(N,G)20-CA-49,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22371003
+# target:
+#   Z: 20
+#   A: 48
+#   nuclide: Ca48
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+# residual:
+#   Z: 20
+#   A: 49
+#   nuclide: Ca49
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.510000E-01   1.500000E-02   3.364600E-01   4.065900E-02   1.016487E+00
+   1.760000E-01   2.000000E-02   3.110500E-01   3.151100E-02   1.016487E+00
+   2.180000E-01   2.300000E-02   3.090100E-01   3.151100E-02   1.016487E+00
+# reference:
+#   author: H.Beer,C.Coceva,P.V.Sedyshev,Yu.P.Popov,H.Herndl, R.Hofinger,P.Mohr,H.Oberhummer
+#   title: Measurement of neutron capture on Ca-48 at thermal  and thermonuclear energies
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.54, Issue.4, p.2014
+# statistics:
+#   NEA score: T2
+#   IAEA score:  1
+#   E-min [MeV]:  1.510000E-01
+#   E-max [MeV]:  2.180000E-01
+#   F-value:  4.608425E+01
+#   A-value:  4.645843E-02
+#   chi-2:  6.403175E+01
+#   p-value:  1.639100E-01
+#   exp. data sets for p-value:      1
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2023    1.606214E+00   1.102290E+00   2.087506E+01
+# endfb8.0      1.077020E+02   9.537819E-03   8.561008E+01
+# jeff3.3       0.000000E+00   0.000000E+00   0.000000E+00
+# jendl5.0      1.077020E+02   9.537819E-03   8.561008E+01

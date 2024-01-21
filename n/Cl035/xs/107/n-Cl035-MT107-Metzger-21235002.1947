@@ -1,0 +1,52 @@
+# header:
+#   title: Cl35(n,a)P32 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Metzger
+#   year: 1947
+#   subentry: 21235002
+#   X4 reaction: 17-CL-35(N,A)15-P-32,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21235002
+# target:
+#   Z: 17
+#   A: 35
+#   nuclide: Cl35
+# reaction:
+#   type: (n,a)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+# residual:
+#   Z: 15
+#   A: 32
+#   nuclide: P32
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.980000E+00   0.000000E+00   1.700000E+01   1.700000E+01   1.000000E+00
+# reference:
+#   author: F.METZGER,P.HUBER,F.ALDER
+#   title: -INVESTIGATION OF THE (N,ALPHA)-REACTION ON CHLORINE  BY MEANS OF AN IONIZATION CHAMBER WITH HEATING  FACILITIES.- (IN GERMAN).
+#   journal: Jour: Helvetica Physica Acta, Vol.20, p.236 (1947)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  2.980000E+00
+#   E-max [MeV]:  2.980000E+00
+#   F-value:  1.063704E+00
+#   A-value:  9.411578E-01
+#   chi-2:  7.461715E-02
+#   p-value:  8.527100E-02
+#   exp. data sets for p-value:      2
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2023    1.045561E+00   9.564241E-01   5.511642E-02
+# endfb8.0      1.062091E+00   9.415390E-01   7.417690E-02
+# jeff3.3       1.062091E+00   9.415390E-01   7.417690E-02
+# jendl5.0      1.080631E+00   9.253855E-01   9.499837E-02

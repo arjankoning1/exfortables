@@ -1,0 +1,63 @@
+# header:
+#   title: Sn122(p,x)Sb122m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Batij
+#   year: 1991
+#   subentry: A0280005
+#   X4 reaction: 50-SN-122(P,N)51-SB-122-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/A0280005
+# target:
+#   Z: 50
+#   A: 122
+#   nuclide: Sn122
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+# residual:
+#   Z: 51
+#   A: 122
+#   nuclide: Sb122m
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 9
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.000000E+00   0.000000E+00   1.320000E-01   1.700000E-02   1.000000E+00
+   5.500000E+00   0.000000E+00   2.160000E-01   2.800000E-02   1.000000E+00
+   6.000000E+00   0.000000E+00   7.000000E-01   9.000000E-02   1.000000E+00
+   6.500000E+00   0.000000E+00   1.280000E+00   1.700000E-01   1.000000E+00
+   7.000000E+00   0.000000E+00   4.300000E+00   6.000000E-01   1.000000E+00
+   7.500000E+00   0.000000E+00   6.600000E+00   6.000000E-01   1.000000E+00
+   8.000000E+00   0.000000E+00   1.100000E+01   1.200000E+00   1.000000E+00
+   8.500000E+00   0.000000E+00   1.570000E+01   1.600000E+00   1.000000E+00
+   9.000000E+00   0.000000E+00   2.160000E+01   1.700000E+00   1.000000E+00
+# reference:
+#   author: V.G.Batij, E.A.Skakun
+#   title: Cross Sections of (p,n) reaction on 117-, 118-, 122-, 124-Sn.
+#   journal: Conf: 41.Conf.Nucl.Spectroscopy Nucl.Struct.,Minsk 1991, p.248 (1991)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  5.000000E+00
+#   E-max [MeV]:  9.000000E+00
+#   F-value:  1.634477E+00
+#   A-value:  6.813286E-01
+#   chi-2:  1.186085E+01
+#   p-value:  2.176939E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.805294E+00   6.058015E-01   1.541506E+01
+# jendl5.0      1.441731E+00   7.662718E-01   8.306638E+00

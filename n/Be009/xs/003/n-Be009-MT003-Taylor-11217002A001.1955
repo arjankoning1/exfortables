@@ -1,0 +1,49 @@
+# header:
+#   title: Be9(n,non) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Taylor
+#   year: 1955
+#   subentry: 11217002
+#   X4 reaction: 4-BE-9(N,NON),,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11217002
+# target:
+#   Z: 4
+#   A: 9
+#   nuclide: Be9
+# reaction:
+#   type: (n,non)
+#   ENDF_MF: 3
+#   ENDF_MT: 3
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.270000E+01   0.000000E+00   4.900000E+02   8.000000E+01   1.000000E+00
+   1.410000E+01   0.000000E+00   3.700000E+02   8.000000E+01   1.000000E+00
+# reference:
+#   author: H.L.Taylor,O.Lonsjo,T.W.Bonner
+#   title: Nonelastic Scattering Cross Sections for Fast Neutrons
+#   journal: Jour: Physical Review, Vol.100, p.174 (1955)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.270000E+01
+#   E-max [MeV]:  1.410000E+01
+#   F-value:  1.245317E+00
+#   A-value:  1.182305E+00
+#   chi-2:  1.731611E+00
+#   p-value:  2.143679E-01
+#   exp. data sets for p-value:      2
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2023    1.248478E+00   1.185608E+00   1.772590E+00
+# endfb8.0      1.248478E+00   1.185608E+00   1.772590E+00
+# jendl5.0      1.235429E+00   1.172231E+00   1.605843E+00
+# cendl3.2      1.248696E+00   1.185829E+00   1.775423E+00

@@ -1,0 +1,56 @@
+# header:
+#   title: Mn55(n,2n)Mn54 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Sakuma
+#   year: 1992
+#   subentry: 22754007
+#   X4 reaction: 25-MN-55(N,2N)25-MN-54,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22754007
+# target:
+#   Z: 25
+#   A: 55
+#   nuclide: Mn55
+# reaction:
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 25
+#   A: 54
+#   nuclide: Mn54
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.722600E+01   0.000000E+00   8.354800E+02   1.627900E+01   1.000000E+00
+   1.837200E+01   0.000000E+00   7.913100E+02   2.555800E+01   1.000000E+00
+   1.914700E+01   0.000000E+00   8.292900E+02   2.790600E+01   1.000000E+00
+# reference:
+#   author: M.Sakuma, S.Iwasaki, H.Shimada, N.Odano, K.Suda, J.R.Dumais, K.Sugiyama
+#   title: Measurement of (n,2n) cross-sections for several dosimetry reactions between 12 and 20 MeV.
+#   journal: Rept: JAERI-M Reports, No.92-027, p.278 (1992)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.722600E+01
+#   E-max [MeV]:  1.914700E+01
+#   F-value:  1.072447E+00
+#   A-value:  1.048851E+00
+#   chi-2:  6.364657E+00
+#   p-value:  3.472263E-01
+#   exp. data sets for p-value:      8
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2023    1.077623E+00   1.070867E+00   6.893121E+00
+# endfb8.0      1.071037E+00   1.063527E+00   5.821186E+00
+# jeff3.3       1.111262E+00   1.107953E+00   1.562611E+01
+# jendl5.0      1.034841E+00   9.768709E-01   1.444325E+00
+# cendl3.2      1.017839E+00   1.002973E+00   6.430331E-01
+# irdff2.0      1.083546E+00   1.076842E+00   7.760169E+00

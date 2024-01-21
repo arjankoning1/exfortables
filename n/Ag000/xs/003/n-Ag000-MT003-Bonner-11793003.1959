@@ -1,0 +1,53 @@
+# header:
+#   title: Ag0(n,non) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Bonner
+#   year: 1959
+#   subentry: 11793003
+#   X4 reaction: 47-AG-0(N,NON),,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11793003
+# target:
+#   Z: 47
+#   A: 0
+#   nuclide: Ag0
+# reaction:
+#   type: (n,non)
+#   ENDF_MF: 3
+#   ENDF_MT: 3
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   8.200000E+00   0.000000E+00   1.940000E+03   7.000000E+01   1.000000E+00
+   9.800000E+00   0.000000E+00   1.990000E+03   7.000000E+01   1.000000E+00
+   1.550000E+01   0.000000E+00   1.700000E+03   7.000000E+01   1.000000E+00
+   1.700000E+01   0.000000E+00   1.810000E+03   7.000000E+01   1.000000E+00
+   1.850000E+01   0.000000E+00   1.680000E+03   7.000000E+01   1.000000E+00
+   2.000000E+01   0.000000E+00   1.650000E+03   7.000000E+01   1.000000E+00
+# reference:
+#   author: T.W.Bonner,J.C.Slattery
+#   title: Nonelastic scattering cross sections for 8-20 MeV  neutrons.
+#   journal: Jour: Physical Review, Vol.113, p.1088 (1959)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  8.200000E+00
+#   E-max [MeV]:  2.000000E+01
+#   F-value:  1.551781E+00
+#   A-value:  7.462716E-01
+#   chi-2:  7.148476E+01
+#   p-value:  3.232727E-01
+#   exp. data sets for p-value:      1
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2023    1.078257E+00   1.064930E+00   3.946994E+00
+# endfb8.0      1.941436E+00   5.154656E-01   1.551738E+02
+# jeff3.3       1.769798E+00   5.656726E-01   1.261228E+02
+# cendl3.2      1.024808E+00   9.988533E-01   6.954379E-01

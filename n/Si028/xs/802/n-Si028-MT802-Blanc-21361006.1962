@@ -1,0 +1,56 @@
+# header:
+#   title: Si28(n,p_02) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Blanc
+#   year: 1962
+#   subentry: 21361006
+#   X4 reaction: 14-SI-28(N,A)12-MG-25,PAR,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21361006
+#   level energy [MeV]  9.80000E-01
+# target:
+#   Z: 14
+#   A: 28
+#   nuclide: Si28
+# reaction:
+#   type: (n,p_02)
+#   ENDF_MF: 3
+#   ENDF_MT: 802
+#   level: 
+#     number: 2
+#     energy [MeV]:  0.000000E+00
+#     spin:  2.000000E+00
+#     parity: 1
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.359000E+01   0.000000E+00   2.200000E+00   4.400000E-01   1.000000E+00
+   1.455000E+01   0.000000E+00   1.090000E+00   2.180000E-01   1.000000E+00
+   1.475000E+01   0.000000E+00   9.899999E-01   1.980000E-01   1.000000E+00
+# reference:
+#   author: D.Blanc,F.Cambou,D.Devillers,H.Reme,G.Vedrenne, G.Ambrosino
+#   title: Reaction Si-28(n,alpha)Mg-25 for 14.6 MeV neutrons
+#   journal: Jour: Nuovo Cimento, Vol.23, Issue.6, p.1140 (1962)
+# statistics:
+#   NEA score: E2
+#   IAEA score: -1
+#   E-min [MeV]:  1.359000E+01
+#   E-max [MeV]:  1.475000E+01
+#   F-value:  4.078939E+00
+#   A-value:  4.065180E+00
+#   chi-2:  2.415237E+02
+#   p-value:  7.368570E-02
+#   exp. data sets for p-value:      4
+#   libraries:      4
+##  Library          F              A            chi-2
+# endfb8.0      3.959697E+00   3.946977E+00   2.228833E+02
+# jeff3.3       4.348415E+00   4.338623E+00   2.839705E+02
+# jendl5.0      4.051567E+00   4.040526E+00   2.363578E+02
+# cendl3.2      3.959697E+00   3.946977E+00   2.228833E+02

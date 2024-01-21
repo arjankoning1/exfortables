@@ -1,0 +1,51 @@
+# header:
+#   title: Ti50(n,x)Sc50 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: HoangDacLuccc
+#   year: 1986
+#   subentry: 30810011
+#   X4 reaction: 22-TI-50(N,P)21-SC-50,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30810011
+# target:
+#   Z: 22
+#   A: 50
+#   nuclide: Ti50
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 21
+#   A: 50
+#   nuclide: Sc50
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.480000E+01   4.000000E-01   1.700000E+01   4.000000E+00   1.000000E+00
+# reference:
+#   author: Hoang Dac Luc, Phan Nhu Ngoc, Nguyen Van Do,  Ly Ba Bach
+#   title: Determination of some (n,p),(n,np) and (n,alpha)  reaction cross sections induced by 14.8 MeV  neutrons on Cr and Ti isotopes.
+#   journal: Prog: Vietnam report to the I.N.D.C., No.5 (1986)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.480000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.063371E+00
+#   A-value:  9.405337E-01
+#   chi-2:  3.345383E-01
+#   p-value:  2.362055E-01
+#   exp. data sets for p-value:      8
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.067404E+00   9.368525E-01   3.564513E-01
+# jeff3.3       1.057242E+00   9.458575E-01   3.030278E-01
+# jendl5.0      1.065059E+00   9.389147E-01   3.441357E-01

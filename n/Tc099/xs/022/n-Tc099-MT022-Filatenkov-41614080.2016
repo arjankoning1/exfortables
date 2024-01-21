@@ -1,0 +1,56 @@
+# header:
+#   title: Tc99(n,na)Nb95 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Filatenkov
+#   year: 2016
+#   subentry: 41614080
+#   X4 reaction: 43-TC-99(N,N+A)41-NB-95,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/41614080
+# target:
+#   Z: 43
+#   A: 99
+#   nuclide: Tc99
+# reaction:
+#   type: (n,na)
+#   ENDF_MF: 3
+#   ENDF_MT: 22
+# residual:
+#   Z: 41
+#   A: 95
+#   nuclide: Nb95
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.388000E+01   0.000000E+00   4.300000E-01   1.199700E-01   1.000010E+00
+   1.447000E+01   0.000000E+00   6.400000E-01   1.395200E-01   9.999934E-01
+   1.468000E+01   0.000000E+00   9.799900E-01   1.195600E-01   9.999912E-01
+   1.480000E+01   0.000000E+00   1.220000E+00   1.201900E-01   9.999999E-01
+# reference:
+#   author: A.A.Filatenkov
+#   title: Neutron activation cross sections measured at KRI in neutron energy region 13.4 - 14.9 MeV
+#   journal: Rept: USSR report to the I.N.D.C., No.0460 (2016)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.388000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  2.443508E+00
+#   A-value:  9.064561E-01
+#   chi-2:  1.874810E+01
+#   p-value:  3.375272E-01
+#   exp. data sets for p-value:      1
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    1.284724E+00   1.235500E+00   3.125804E+00
+# endfb8.0      2.102456E+00   2.074199E+00   5.060266E+01
+# jeff3.3       5.989544E+00   1.787993E-01   2.938545E+01
+# jendl5.0      1.150225E+00   9.232674E-01   1.742145E+00
+# cendl3.2      1.477560E+00   1.446597E+00   8.884434E+00

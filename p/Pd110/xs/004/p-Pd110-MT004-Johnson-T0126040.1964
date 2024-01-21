@@ -1,0 +1,68 @@
+# header:
+#   title: Pd110(p,n')Ag110 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Johnson
+#   year: 1964
+#   subentry: T0126040
+#   X4 reaction: 46-PD-110(P,N)47-AG-110,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/T0126040
+# target:
+#   Z: 46
+#   A: 110
+#   nuclide: Pd110
+# reaction:
+#   type: (p,n')
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+# residual:
+#   Z: 47
+#   A: 110
+#   nuclide: Ag110
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 19
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.919000E+00   0.000000E+00   7.604000E-03   1.941000E-05   1.000000E+00
+   2.128000E+00   0.000000E+00   1.005000E-02   2.565300E-05   1.000000E+00
+   2.325000E+00   0.000000E+00   2.520000E-02   6.432500E-05   1.000000E+00
+   2.516000E+00   0.000000E+00   4.738000E-02   1.209400E-04   1.000000E+00
+   2.721000E+00   0.000000E+00   1.084000E-01   2.767000E-04   1.000000E+00
+   2.963000E+00   0.000000E+00   2.583000E-01   6.593300E-04   1.000000E+00
+   3.184000E+00   0.000000E+00   5.396000E-01   1.377400E-03   1.000000E+00
+   3.420000E+00   0.000000E+00   1.113000E+00   2.841000E-03   1.000000E+00
+   3.678000E+00   0.000000E+00   2.296000E+00   5.860700E-03   1.000000E+00
+   3.944000E+00   0.000000E+00   4.323000E+00   1.103500E-02   1.000000E+00
+   4.196000E+00   0.000000E+00   7.234000E+00   1.846500E-02   1.000000E+00
+   4.478000E+00   0.000000E+00   1.293000E+01   3.300500E-02   1.000000E+00
+   4.767000E+00   0.000000E+00   2.082000E+01   5.314500E-02   1.000000E+00
+   4.879000E+00   0.000000E+00   2.505000E+01   6.394200E-02   1.000000E+00
+   5.035000E+00   0.000000E+00   3.264000E+01   8.331600E-02   1.000000E+00
+   5.191000E+00   0.000000E+00   4.035000E+01   1.030000E-01   1.000000E+00
+   5.347000E+00   0.000000E+00   5.054000E+01   1.290100E-01   1.000000E+00
+   5.503000E+00   0.000000E+00   5.930000E+01   1.513700E-01   1.000000E+00
+   5.660000E+00   0.000000E+00   7.525001E+01   1.920800E-01   1.000000E+00
+# reference:
+#   author: C.H.Johnson,C.C.Trail,A.Galonsky
+#   title: Thresholds for (p,n) reactions on 26 intermediate- weight nuclei
+#   journal: Jour: Physical Review, Vol.136, p.B1719 (1964)
+# statistics:
+#   NEA score: R3
+#   IAEA score:  0
+#   E-min [MeV]:  1.919000E+00
+#   E-max [MeV]:  5.660000E+00
+#   F-value:  1.588975E+00
+#   A-value:  1.302533E+00
+#   chi-2:  8.672028E+04
+#   p-value:  2.992645E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.875080E+00   1.702347E+00   1.692158E+05
+# jendl5.0      1.201509E+00   9.966195E-01   4.224820E+03

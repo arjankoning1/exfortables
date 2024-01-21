@@ -1,0 +1,58 @@
+# header:
+#   title: Ni64(n,a)Fe61 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Kasugai
+#   year: 1998
+#   subentry: 22434007
+#   X4 reaction: 28-NI-64(N,A)26-FE-61,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22434007
+# target:
+#   Z: 28
+#   A: 64
+#   nuclide: Ni64
+# reaction:
+#   type: (n,a)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+# residual:
+#   Z: 26
+#   A: 61
+#   nuclide: Fe61
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.340000E+01   5.000000E-02   3.112150E+00   1.556075E+01   1.037383E+00
+   1.365000E+01   5.000000E-02   3.838300E+00   1.556075E+01   1.037383E+00
+   1.388000E+01   5.000000E-02   4.668200E+00   1.452337E+01   1.037383E+00
+   1.428000E+01   5.000000E-02   5.290700E+00   1.659813E+01   1.037383E+00
+   1.458000E+01   5.000000E-02   5.705600E+00   1.452337E+01   1.037383E+00
+   1.487000E+01   5.000000E-02   6.224300E+00   1.452337E+01   1.037383E+00
+# reference:
+#   author: Y.Kasugai,H.Yamamoto,K.Kawade,T.Iida
+#   title: Measurement of (n,alpha) cross-sections for  short-lived products by 13.4 - 14.9 MeV neutrons
+#   journal: Jour: Annals of Nuclear Energy, Vol.25, Issue.18, p.1485 (1998)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.340000E+01
+#   E-max [MeV]:  1.487000E+01
+#   F-value:  1.023840E+00
+#   A-value:  1.006820E+00
+#   chi-2:  5.579602E-03
+#   p-value:  3.708944E-01
+#   exp. data sets for p-value:      2
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    1.003588E+00   9.975616E-01   9.545310E-04
+# endfb8.0      1.008133E+00   9.929974E-01   3.007616E-03
+# jeff3.3       1.052923E+00   1.046786E+00   2.084976E-02
+# jendl5.0      1.004571E+00   9.967932E-01   1.771155E-03
+# cendl3.2      1.004102E+00   1.000942E+00   1.314955E-03

@@ -1,0 +1,55 @@
+# header:
+#   title: Te125(n,x)Te126 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Macklin
+#   year: 1967
+#   subentry: 11679014
+#   X4 reaction: 52-TE-125(N,G)52-TE-126,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11679014
+# target:
+#   Z: 52
+#   A: 125
+#   nuclide: Te125
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+# residual:
+#   Z: 52
+#   A: 126
+#   nuclide: Te126
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.000000E-02   1.000000E-02   5.150000E+02   3.130000E+01   1.000000E+00
+   3.000000E-02   1.000000E-02   4.595000E+02   3.020000E+01   1.000000E+00
+   5.000000E-02   1.000000E-02   3.640000E+02   2.450000E+01   1.000000E+00
+   7.000000E-02   1.900000E-02   2.229000E+02   1.160000E+01   1.000000E+00
+   8.500000E-02   1.700000E-02   1.983000E+02   2.420000E+01   1.000000E+00
+   1.250000E-01   2.300000E-02   1.261000E+02   8.900000E+00   1.000000E+00
+# reference:
+#   author: R.L.MACKLIN,J.H.GIBBONS
+#   title: CAPTURE-CROSS-SECTION STUDIES FOR 30-220-KEV NEUTRONS USING A NEW TECHNIQUE.
+#   journal: Jour: Physical Review, Vol.159, p.1007 (1967)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  3.000000E-02
+#   E-max [MeV]:  1.250000E-01
+#   F-value:  1.180312E+00
+#   A-value:  1.072714E+00
+#   chi-2:  8.065461E+00
+#   p-value:  2.836461E-01
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.234912E+00   1.187317E+00   1.368211E+01
+# jeff3.3       1.107602E+00   9.691725E-01   2.448814E+00

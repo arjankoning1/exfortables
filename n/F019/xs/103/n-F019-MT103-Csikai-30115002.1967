@@ -1,0 +1,53 @@
+# header:
+#   title: F19(n,p)O19 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Csikai
+#   year: 1967
+#   subentry: 30115002
+#   X4 reaction: 9-F-19(N,P)8-O-19,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30115002
+# target:
+#   Z: 9
+#   A: 19
+#   nuclide: F19
+# reaction:
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 8
+#   A: 19
+#   nuclide: O19
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.470000E+01   0.000000E+00   2.100000E+01   3.000000E+00   1.000000E+00
+# reference:
+#   author: J.Csikai,S.Nagy
+#   title: Some (n,p) reaction cross-sections for 14.7MeV neutrons
+#   journal: Jour: Nuclear Physics, Section A, Vol.91, p.222 (1967)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.470000E+01
+#   E-max [MeV]:  1.470000E+01
+#   F-value:  1.247348E+00
+#   A-value:  8.232630E-01
+#   chi-2:  2.280227E+00
+#   p-value:  1.525345E-01
+#   exp. data sets for p-value:      8
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    1.147190E+00   8.716953E-01   1.390433E+00
+# endfb8.0      1.147190E+00   8.716953E-01   1.390433E+00
+# jeff3.3       1.147190E+00   8.716953E-01   1.390433E+00
+# jendl5.0      1.497769E+00   6.676599E-01   5.610582E+00
+# cendl3.2      1.169382E+00   8.551524E-01   1.619255E+00

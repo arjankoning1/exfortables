@@ -1,0 +1,50 @@
+# header:
+#   title: Co59(n,x)Fe59 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Kral
+#   year: 2020
+#   subentry: 31834007
+#   X4 reaction: 27-CO-59(N,P)26-FE-59,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/31834007
+# target:
+#   Z: 27
+#   A: 59
+#   nuclide: Co59
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 26
+#   A: 59
+#   nuclide: Fe59
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.910000E+01   0.000000E+00   1.720000E+01   2.500000E+00   1.000000E+00
+# reference:
+#   author: D.Kral, M.Zeman, K.Katovsky, E.Melyan, R.Holomb
+#   title: Cross section determination for TAD materials in quasi  mono-energetic neutron spectrum from p(Li) reaction
+#   journal: Jour: EPJ Web of Conferences, Vol.239, p.20004 (2020)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.910000E+01
+#   E-max [MeV]:  2.910000E+01
+#   F-value:  1.211473E+00
+#   A-value:  1.211453E+00
+#   chi-2:  2.638565E+00
+#   p-value:  1.876928E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.214499E+00   1.214499E+00   2.693316E+00
+# jendl5.0      1.208414E+00   1.208414E+00   2.583815E+00

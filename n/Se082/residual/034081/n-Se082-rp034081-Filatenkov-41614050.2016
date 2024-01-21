@@ -1,0 +1,58 @@
+# header:
+#   title: Se82(n,x)Se81 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Filatenkov
+#   year: 2016
+#   subentry: 41614050
+#   X4 reaction: 34-SE-82(N,2N)34-SE-81,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/41614050
+# target:
+#   Z: 34
+#   A: 82
+#   nuclide: Se82
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 34
+#   A: 81
+#   nuclide: Se81
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.349000E+01   0.000000E+00   1.361000E+03   1.633203E+02   9.999999E-01
+   1.389000E+01   0.000000E+00   1.483850E+03   1.780632E+02   9.998986E-01
+   1.405000E+01   0.000000E+00   1.255716E+03   1.720364E+02   9.997737E-01
+   1.426000E+01   0.000000E+00   1.552850E+03   1.801408E+02   9.992597E-01
+   1.444000E+01   0.000000E+00   1.362508E+03   1.962060E+02   9.996390E-01
+   1.464000E+01   0.000000E+00   1.505286E+03   1.881674E+02   9.995258E-01
+   1.481000E+01   0.000000E+00   1.732496E+03   2.321504E+02   9.991326E-01
+   1.484000E+01   0.000000E+00   1.489719E+03   2.785770E+02   9.991412E-01
+# reference:
+#   author: A.A.Filatenkov
+#   title: Neutron activation cross sections measured at KRI in neutron energy region 13.4 - 14.9 MeV
+#   journal: Rept: USSR report to the I.N.D.C., No.0460 (2016)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.349000E+01
+#   E-max [MeV]:  1.484000E+01
+#   F-value:  1.188879E+00
+#   A-value:  8.683739E-01
+#   chi-2:  1.847879E+00
+#   p-value:  2.216196E-01
+#   exp. data sets for p-value:      3
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.251152E+00   8.173027E-01   2.780848E+00
+# jeff3.3       1.174307E+00   8.756071E-01   1.687583E+00
+# jendl5.0      1.124537E+00   9.150146E-01   1.075206E+00

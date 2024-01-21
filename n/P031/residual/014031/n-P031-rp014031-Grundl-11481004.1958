@@ -1,0 +1,59 @@
+# header:
+#   title: P31(n,x)Si31 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Grundl
+#   year: 1958
+#   subentry: 11481004
+#   X4 reaction: 15-P-31(N,P)14-SI-31,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11481004
+# target:
+#   Z: 15
+#   A: 31
+#   nuclide: P31
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 14
+#   A: 31
+#   nuclide: Si31
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   6.110000E+00   1.200000E-01   1.426705E+02   1.637834E+01   9.778653E-01
+   6.610000E+00   1.100000E-01   1.447710E+02   1.664332E+01   9.775221E-01
+   7.110000E+00   1.100000E-01   1.335701E+02   1.526434E+01   9.792533E-01
+   7.610000E+00   1.000000E-01   1.346156E+02   1.526434E+01   9.847521E-01
+   8.090000E+00   9.000000E-02   1.436710E+02   1.664332E+01   9.963314E-01
+   8.580000E+00   9.000000E-02   1.382218E+02   1.553223E+01   9.951177E-01
+   9.070000E+00   9.000000E-02   1.442877E+02   1.402890E+01   1.006190E+00
+   9.570000E+00   1.000000E-01   1.425294E+02   1.843909E+01   1.003022E+00
+# reference:
+#   author: J.A.Grundl,R.L.Henkel,B.L.Perkins
+#   title: P-31(n,p)Si-31 and Al-27(n,alpha)Na-24 cross sections.
+#   journal: Jour: Physical Review, Vol.109, p.425 (1958)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  6.110000E+00
+#   E-max [MeV]:  9.570000E+00
+#   F-value:  1.019434E+00
+#   A-value:  9.901615E-01
+#   chi-2:  1.232163E-01
+#   p-value:  4.134514E-01
+#   exp. data sets for p-value:      1
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2023    1.003502E+00   9.998293E-01   2.820288E-02
+# endfb8.0      1.024229E+00   9.840591E-01   1.873485E-01
+# jeff3.3       1.010307E+00   9.937462E-01   7.723853E-02
+# jendl5.0      1.028532E+00   9.831088E-01   2.000753E-01

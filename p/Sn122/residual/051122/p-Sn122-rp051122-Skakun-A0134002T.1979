@@ -1,0 +1,52 @@
+# header:
+#   title: Sn122(p,x)Sb122 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Skakun
+#   year: 1979
+#   subentry: A0134002T
+#   X4 reaction: 50-SN-122(P,N)51-SB-122,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/A0134002T
+# target:
+#   Z: 50
+#   A: 122
+#   nuclide: Sn122
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+# residual:
+#   Z: 51
+#   A: 122
+#   nuclide: Sb122
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   6.900000E+00   0.000000E+00   2.270000E+02   3.000000E+01   1.000000E+00
+   7.800000E+00   0.000000E+00   3.800000E+02   5.000000E+01   1.000000E+00
+   9.100000E+00   0.000000E+00   6.580001E+02   8.600000E+01   1.000000E+00
+# reference:
+#   author: E.A.Skakun,A.Iordakesku,V.A.Lutsik,Ju.N.Rakivnenko, I.A.Romanij
+#   title: Excitation functions and isomeric ratios for 122-Sn(p,n)122m,g-Sb and 124-Sn(p,n)124m2,m1-Sb reactions.
+#   journal: Conf: 29.Conf.on Nucl.Spectr.and Nucl.Struct.,Riga 1979, p.291 (1979)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  6.900000E+00
+#   E-max [MeV]:  9.100000E+00
+#   F-value:  1.239988E+00
+#   A-value:  8.119395E-01
+#   chi-2:  2.641402E+00
+#   p-value:  1.404539E-01
+#   exp. data sets for p-value:      3
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.250679E+00   8.023936E-01   2.805042E+00
+# jendl5.0      1.228950E+00   8.215989E-01   2.477762E+00

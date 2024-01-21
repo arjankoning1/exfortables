@@ -1,0 +1,64 @@
+# header:
+#   title: Cd110(n,x)Cd111 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Musgrove
+#   year: 1978
+#   subentry: 30453013
+#   X4 reaction: 48-CD-110(N,G)48-CD-111,,SIG,,AV
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30453013
+# target:
+#   Z: 48
+#   A: 110
+#   nuclide: Cd110
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+# residual:
+#   Z: 48
+#   A: 111
+#   nuclide: Cd111
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 15
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.500000E-03   5.000000E-04   8.160000E+02   4.900000E+01   1.000000E+00
+   4.500000E-03   5.000000E-04   6.640000E+02   3.400000E+01   1.000000E+00
+   5.500000E-03   5.000000E-04   4.420000E+02   2.500000E+01   1.000000E+00
+   7.000000E-03   1.000000E-03   4.820000E+02   3.400000E+01   1.000000E+00
+   9.000000E-03   1.000000E-03   5.650001E+02   3.400000E+01   1.000000E+00
+   1.250000E-02   2.500000E-03   4.180000E+02   2.000000E+01   1.000000E+00
+   1.750000E-02   2.500000E-03   3.830000E+02   2.900000E+01   1.000000E+00
+   2.500000E-02   5.000000E-03   2.700000E+02   2.900000E+01   1.000000E+00
+   3.500000E-02   5.000000E-03   2.110000E+02   2.500000E+01   1.000000E+00
+   4.500000E-02   5.000000E-03   1.820000E+02   2.500000E+01   1.000000E+00
+   5.500000E-02   5.000000E-03   1.670000E+02   2.000000E+01   1.000000E+00
+   7.000000E-02   1.000000E-02   1.430000E+02   1.700000E+01   1.000000E+00
+   9.000000E-02   1.000000E-02   1.250000E+02   1.500000E+01   1.000000E+00
+   1.250000E-01   2.500000E-02   1.080000E+02   1.300000E+01   1.000000E+00
+   1.750000E-01   2.500000E-02   9.800000E+01   1.200000E+01   1.000000E+00
+# reference:
+#   author: A.R.de L.Musgrove, B.J.Allen, R.L.Macklin
+#   title: Neutron-capture resonance parameters and cross sections for the even-A isotopes of cadmium.
+#   journal: Jour: Jour. of Physics, Part G (Nucl.and Part.Phys.), Vol.4, p.771 (1978
+# statistics:
+#   NEA score: T3
+#   IAEA score: -1
+#   E-min [MeV]:  3.500000E-03
+#   E-max [MeV]:  1.750000E-01
+#   F-value:  6.966599E+00
+#   A-value:  5.127344E-01
+#   chi-2:  5.665990E+01
+#   p-value:  2.967458E-01
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    8.655492E+00   4.828140E-01   6.996130E+01
+# jendl5.0      5.454878E+00   5.445087E-01   4.335848E+01

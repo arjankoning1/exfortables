@@ -1,0 +1,52 @@
+# header:
+#   title: Zn67(n,x)Cu67 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Bhike
+#   year: 2009
+#   subentry: 142510021
+#   X4 reaction: 30-ZN-67(N,P)29-CU-67,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/142510021
+# target:
+#   Z: 30
+#   A: 67
+#   nuclide: Zn67
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 29
+#   A: 67
+#   nuclide: Cu67
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.600000E+00   3.000000E-02   1.299900E-01   1.983400E-02   9.999266E-01
+   3.700000E+00   3.000000E-02   2.650490E+00   2.238000E-01   1.015514E+00
+# reference:
+#   author: M.Bhike,A.Saxena,B.J.Roy,R.K.Choudhury,S.Kailas, S.Ganesan
+#   title: Measurement of 67Zn(n,p)67Cu, 92Mo(n,p)92mNb,and 98Mo(n,g)99Mo Reaction Cross Sections at Incident Neutron Energies of En = 1.6 and 3.7 MeV
+#   journal: Jour: Nuclear Science and Engineering, Vol.163, p.175 (2009)
+# statistics:
+#   NEA score: R2
+#   IAEA score:  1
+#   E-min [MeV]:  1.600000E+00
+#   E-max [MeV]:  3.700000E+00
+#   F-value:  3.002009E+00
+#   A-value:  4.763517E-01
+#   chi-2:  1.235956E+01
+#   p-value:  2.221915E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    3.769623E+00   3.647183E-01   1.690683E+01
+# jeff3.3       3.769623E+00   3.647179E-01   1.690686E+01
+# jendl5.0      1.379564E+00   8.125849E-01   3.264986E+00

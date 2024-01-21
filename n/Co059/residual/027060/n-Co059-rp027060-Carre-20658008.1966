@@ -1,0 +1,50 @@
+# header:
+#   title: Co59(n,x)Co60 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Carre
+#   year: 1966
+#   subentry: 20658008
+#   X4 reaction: 27-CO-59(N,G)27-CO-60,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20658008
+# target:
+#   Z: 27
+#   A: 59
+#   nuclide: Co59
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+# residual:
+#   Z: 27
+#   A: 60
+#   nuclide: Co60
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.530000E-08   0.000000E+00   3.800000E+04   3.000000E+02   1.000000E+00
+# reference:
+#   author: J.C.Carre,R.Vidal
+#   title: Measurement of cross sections and resonance  integrals by the oscillation method
+#   journal: Conf: Nuclear Data For Reactors Conf., Paris 1966, Vol.1, p.479 (1966)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.530000E-08
+#   E-max [MeV]:  2.530000E-08
+#   F-value:  1.020137E+00
+#   A-value:  9.803206E-01
+#   chi-2:  6.403993E+00
+#   p-value:  2.258881E-01
+#   exp. data sets for p-value:      8
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.021664E+00   9.787955E-01   7.313785E+00
+# jendl5.0      1.018488E+00   9.818481E-01   5.494201E+00

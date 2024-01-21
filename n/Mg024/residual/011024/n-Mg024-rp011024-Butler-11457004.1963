@@ -1,0 +1,62 @@
+# header:
+#   title: Mg24(n,x)Na24 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Butler
+#   year: 1963
+#   subentry: 11457004
+#   X4 reaction: 12-MG-24(N,P)11-NA-24,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11457004
+# target:
+#   Z: 12
+#   A: 24
+#   nuclide: Mg24
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 11
+#   A: 24
+#   nuclide: Na24
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 13
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.253000E+01   2.600000E-01   2.017851E+02   1.090730E+01   1.090730E+00
+   1.358000E+01   6.000000E-02   2.235997E+02   9.816570E+00   1.090730E+00
+   1.389000E+01   8.000000E-02   2.105109E+02   8.725800E+00   1.090730E+00
+   1.424000E+01   8.000000E-02   2.017851E+02   8.725800E+00   1.090730E+00
+   1.450000E+01   6.000000E-02   1.985129E+02   6.544380E+00   1.090730E+00
+   1.468000E+01   6.000000E-02   1.897870E+02   7.635100E+00   1.090730E+00
+   1.476000E+01   6.000000E-02   1.865148E+02   7.635100E+00   1.090730E+00
+   1.660000E+01   6.000000E-01   1.374320E+02   7.635100E+00   1.090730E+00
+   1.730000E+01   1.000000E+00   1.319783E+02   6.544380E+00   1.090730E+00
+   1.850000E+01   5.000000E-01   1.123452E+02   5.453650E+00   1.090730E+00
+   1.920000E+01   8.000000E-01   1.035103E+02   5.453650E+00   1.090730E+00
+   1.980000E+01   3.000000E-01   9.554795E+01   5.017400E+00   1.090730E+00
+   2.030000E+01   3.000000E-01   8.551324E+01   4.581100E+00   1.090730E+00
+# reference:
+#   author: J.P.Butler,D.C.Santry
+#   title: Excitation curves for the reactions Al27(n,a)Na24 and Mg24(n,p)Na24.
+#   journal: Jour: Canadian Journal of Physics, Vol.41, p.372 (1963)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.253000E+01
+#   E-max [MeV]:  2.030000E+01
+#   F-value:  1.119218E+00
+#   A-value:  9.124981E-01
+#   chi-2:  4.771290E+00
+#   p-value:  3.257889E-01
+#   exp. data sets for p-value:      8
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.133798E+00   9.007242E-01   5.756956E+00
+# jendl5.0      1.102954E+00   9.244259E-01   3.785624E+00

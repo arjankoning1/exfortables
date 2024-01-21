@@ -1,0 +1,64 @@
+# header:
+#   title: Br81(n,2n)Br80m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Bormann
+#   year: 1962
+#   subentry: 21339009
+#   X4 reaction: 35-BR-81(N,2N)35-BR-80-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21339009
+# target:
+#   Z: 35
+#   A: 81
+#   nuclide: Br81
+# reaction:
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 35
+#   A: 80
+#   nuclide: Br80m
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 10
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.320000E+01   3.000000E-01   6.221389E+02   1.310827E+01   1.008329E+00
+   1.410000E+01   4.000000E-01   7.249884E+02   1.209995E+01   1.008329E+00
+   1.460000E+01   4.000000E-01   7.612883E+02   1.209994E+01   1.008329E+00
+   1.540000E+01   4.000000E-01   8.086797E+02   1.109162E+01   1.008329E+00
+   1.590000E+01   4.000000E-01   8.127131E+02   1.008329E+01   1.008329E+00
+   1.650000E+01   4.000000E-01   8.197713E+02   1.109162E+01   1.008329E+00
+   1.700000E+01   4.000000E-01   8.480046E+02   1.008329E+01   1.008329E+00
+   1.750000E+01   4.000000E-01   8.338879E+02   1.008329E+01   1.008329E+00
+   1.800000E+01   4.000000E-01   7.572549E+02   9.075000E+00   1.008329E+00
+   1.940000E+01   3.000000E-01   6.544054E+02   9.075000E+00   1.008329E+00
+# reference:
+#   author: M.Bormann,S.Cierjacks,R.Langkau,H.Neuert
+#   title: Some cross sections of (n,Na)-reactions in the energy  range 12-19 MeV
+#   journal: Jour: Zeitschrift fuer Physik, Vol.166, p.477 (1962)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.320000E+01
+#   E-max [MeV]:  1.940000E+01
+#   F-value:  1.111767E+00
+#   A-value:  9.584935E-01
+#   chi-2:  5.287797E+01
+#   p-value:  3.598876E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.081642E+00   9.966052E-01   3.754342E+01
+# jeff3.3       1.136143E+00   9.218392E-01   6.821252E+01

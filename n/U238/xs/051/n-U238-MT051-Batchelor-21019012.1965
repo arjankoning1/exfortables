@@ -1,0 +1,59 @@
+# header:
+#   title: U238(n,n'_01)U239 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Batchelor
+#   year: 1965
+#   subentry: 21019012
+#   X4 reaction: 92-U-238(N,INL)92-U-238,PAR,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21019012
+#   level energy [MeV]  5.70000E-01
+# target:
+#   Z: 92
+#   A: 238
+#   nuclide: U238
+# reaction:
+#   type: (n,n'_01)
+#   ENDF_MF: 3
+#   ENDF_MT: 51
+#   level: 
+#     number: 1
+#     energy [MeV]:  5.392830E-01
+#     spin:  2.500000E+00
+#     parity: -1
+# residual:
+#   Z: 92
+#   A: 239
+#   nuclide: U239
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.000000E+00   8.000000E-02   2.850000E+02   3.000000E+01   1.000000E+00
+# reference:
+#   author: R.Batchelor,W.B.Gilboy,J.H.Towle
+#   title: Neutron interactions with U-238 and Th-232 in the  energy region 1.6 MeV to 7 MeV
+#   journal: Jour: Nuclear Physics, Vol.65, p.236 (1965)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.000000E+00
+#   E-max [MeV]:  2.000000E+00
+#   F-value:  1.814666E+00
+#   A-value:  1.811724E+00
+#   chi-2:  6.030690E+01
+#   p-value:  2.013744E-01
+#   exp. data sets for p-value:      4
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    1.748015E+00   1.748015E+00   5.049727E+01
+# endfb8.0      1.748015E+00   1.748015E+00   5.049727E+01
+# jeff3.3       1.920853E+00   1.920853E+00   7.652924E+01
+# jendl5.0      1.748015E+00   1.748015E+00   5.049727E+01
+# cendl3.2      1.902526E+00   1.902526E+00   7.351347E+01

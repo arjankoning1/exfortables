@@ -1,0 +1,54 @@
+# header:
+#   title: Fe56(n,p)Mn56 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Kern
+#   year: 1959
+#   subentry: 11464006
+#   X4 reaction: 26-FE-56(N,P)25-MN-56,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11464006
+# target:
+#   Z: 26
+#   A: 56
+#   nuclide: Fe56
+# reaction:
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 25
+#   A: 56
+#   nuclide: Mn56
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.527000E+01   3.300000E-01   1.310000E+02   1.500000E+01   1.000000E+00
+# reference:
+#   author: B.D.Kern,W.E.Thompson,J.M.Ferguson
+#   title: Cross sections for some (n,p) and (n,alpha) reactions.
+#   journal: Jour: Nuclear Physics, Vol.10, p.226 (1959)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.527000E+01
+#   E-max [MeV]:  1.527000E+01
+#   F-value:  1.311274E+00
+#   A-value:  7.626454E-01
+#   chi-2:  4.588322E+00
+#   p-value:  1.021662E-01
+#   exp. data sets for p-value:      8
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2023    1.314753E+00   7.605990E-01   4.655110E+00
+# endfb8.0      1.312393E+00   7.619669E-01   4.609918E+00
+# jeff3.3       1.320026E+00   7.575611E-01   4.756565E+00
+# jendl5.0      1.300667E+00   7.688363E-01   4.387596E+00
+# cendl3.2      1.309796E+00   7.634776E-01   4.560369E+00
+# irdff2.0      1.309796E+00   7.634776E-01   4.560371E+00

@@ -1,0 +1,63 @@
+# header:
+#   title: Mo94(p,g)Tc95 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Sauter
+#   year: 1997
+#   subentry: A0653005
+#   X4 reaction: 42-MO-94(P,G)43-TC-95,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/A0653005
+# target:
+#   Z: 42
+#   A: 94
+#   nuclide: Mo94
+# reaction:
+#   type: (p,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+# residual:
+#   Z: 43
+#   A: 95
+#   nuclide: Tc95
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 14
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.784000E+00   3.400000E-02   1.900000E-03   6.000000E-04   1.000000E+00
+   1.888000E+00   2.800000E-02   3.550000E-03   5.800000E-04   1.000000E+00
+   1.988000E+00   2.600000E-02   7.330000E-03   8.700000E-04   1.000000E+00
+   2.038000E+00   2.400000E-02   1.150000E-02   1.500000E-03   1.000000E+00
+   2.088000E+00   2.400000E-02   8.140001E-03   1.250000E-03   1.000000E+00
+   2.141000E+00   2.000000E-02   1.180000E-02   1.400000E-03   1.000000E+00
+   2.179000E+00   2.000000E-02   2.120000E-02   1.500000E-03   1.000000E+00
+   2.241000E+00   2.000000E-02   2.670000E-02   1.900000E-03   1.000000E+00
+   2.290000E+00   2.000000E-02   3.370000E-02   1.700000E-03   1.000000E+00
+   2.343000E+00   1.600000E-02   3.900000E-02   2.000000E-03   1.000000E+00
+   2.392000E+00   1.600000E-02   4.750000E-02   3.300000E-03   1.000000E+00
+   2.440000E+00   1.600000E-02   6.030000E-02   3.800000E-03   1.000000E+00
+   2.467000E+00   1.800000E-02   8.090000E-02   5.800000E-03   1.000000E+00
+   2.494000E+00   1.400000E-02   1.040000E-01   5.000000E-03   1.000000E+00
+# reference:
+#   author: T.Sauter,F.Kappeler
+#   title: (p,gamma) rates of 92-Mo, 94-Mo, 95-Mo, 98-Mo:  Towards an experimentally founded database for  p-process studies
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.55, p.3127 (1997)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  1.784000E+00
+#   E-max [MeV]:  2.494000E+00
+#   F-value:  1.465657E+00
+#   A-value:  8.345684E-01
+#   chi-2:  2.021646E+01
+#   p-value:  2.896194E-01
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.692472E+00   6.227111E-01   3.835941E+01
+# jendl5.0      1.206381E+00   1.082206E+00   4.810113E+00

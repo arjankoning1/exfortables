@@ -1,0 +1,48 @@
+# header:
+#   title: Bi209(p,xn) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Zhuravlev
+#   year: 2010
+#   subentry: A0869015
+#   X4 reaction: 83-BI-209(P,X)0-NN-1,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/A0869015
+# target:
+#   Z: 83
+#   A: 209
+#   nuclide: Bi209
+# reaction:
+#   type: (p,xn)
+#   ENDF_MF: 3
+#   ENDF_MT: 201
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.017000E+01   0.000000E+00   1.380000E+02   1.380000E+01   1.000000E+00
+   1.113000E+01   0.000000E+00   2.570000E+02   2.570000E+01   1.000000E+00
+# reference:
+#   author: B.V.Zhuravlev, A.A.Lychagin, N.N.Titarenko, V.G.Demenkov, V.I.Trykova
+#   title: Nuclear level densities in Bi-208 and Po-209 from the neutron spectra in the (p,n) reactions on Pb-208 and Bi-209 nuclei.
+#   journal: Jour: Yadernaya Fizika, Vol.73, p.1150 (2010)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  1.017000E+01
+#   E-max [MeV]:  1.113000E+01
+#   F-value:  1.300962E+00
+#   A-value:  1.203005E+00
+#   chi-2:  1.097140E+01
+#   p-value:  2.913700E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.007120E+00   9.951414E-01   6.568217E-02
+# endfb8.0      1.549627E+00   1.545520E+00   3.050908E+01
+# jendl5.0      1.133780E+00   1.131990E+00   2.339443E+00

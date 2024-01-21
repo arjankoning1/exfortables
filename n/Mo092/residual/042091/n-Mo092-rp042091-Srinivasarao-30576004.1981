@@ -1,0 +1,50 @@
+# header:
+#   title: Mo92(n,x)Mo91 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Srinivasarao
+#   year: 1981
+#   subentry: 30576004
+#   X4 reaction: 42-MO-92(N,2N)42-MO-91,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30576004
+# target:
+#   Z: 42
+#   A: 92
+#   nuclide: Mo92
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 42
+#   A: 91
+#   nuclide: Mo91
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.420000E+01   2.000000E-01   2.266268E+02   1.103051E+01   1.002774E+00
+# reference:
+#   author: C.V.Srinivasa Rao, N.Lakshmana Das, B.V.Thirumala Rao,  J.Rama Rao
+#   title: Activation cross-sections for 14.2 MeV neutrons on  molybdenum
+#   journal: Jour: Physica Scripta, Vol.24, p.935 (1981)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.420000E+01
+#   E-max [MeV]:  1.420000E+01
+#   F-value:  1.486604E+00
+#   A-value:  6.731232E-01
+#   chi-2:  4.515445E+01
+#   p-value:  5.819249E-02
+#   exp. data sets for p-value:      6
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.451841E+00   6.887808E-01   4.088501E+01
+# jendl5.0      1.520169E+00   6.578215E-01   4.942389E+01

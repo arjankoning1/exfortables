@@ -1,0 +1,59 @@
+# header:
+#   title: Rb87(n,x)Rb86 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Prestwood
+#   year: 1961
+#   subentry: 11645011
+#   X4 reaction: 37-RB-87(N,2N)37-RB-86,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11645011
+# target:
+#   Z: 37
+#   A: 87
+#   nuclide: Rb87
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 37
+#   A: 86
+#   nuclide: Rb86
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 9
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.220000E+01   1.800000E-01   7.000000E+02   7.000000E+01   1.000000E+00
+   1.340000E+01   2.000000E-01   1.056000E+03   5.300000E+01   1.000000E+00
+   1.369000E+01   1.000000E-01   1.107000E+03   5.500000E+01   1.000000E+00
+   1.409000E+01   1.000000E-01   1.170000E+03   5.900000E+01   1.000000E+00
+   1.450000E+01   2.000000E-01   1.211000E+03   6.100000E+01   1.000000E+00
+   1.468000E+01   2.600000E-01   1.194000E+03   6.000000E+01   1.000000E+00
+   1.481000E+01   3.100000E-01   1.191000E+03   6.000000E+01   1.000000E+00
+   1.795000E+01   3.200000E-01   1.141000E+03   1.140000E+02   1.000000E+00
+   1.976000E+01   4.300000E-01   1.131000E+03   1.130000E+02   1.000000E+00
+# reference:
+#   author: R.J.PRESTWOOD,B.P.BAYHURST
+#   title: (N,2N) EXCITATION FUNCTIONS OF SEVERAL NUCLEI FROM 12.0 TO 19.8 MEV.
+#   journal: Jour: Physical Review, Vol.121, p.1438 (1961)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.220000E+01
+#   E-max [MeV]:  1.976000E+01
+#   F-value:  1.056229E+00
+#   A-value:  9.946642E-01
+#   chi-2:  1.051834E+00
+#   p-value:  3.654747E-01
+#   exp. data sets for p-value:      2
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.043947E+00   9.972950E-01   7.914762E-01
+# jeff3.3       1.047556E+00   1.015027E+00   5.348785E-01
+# jendl5.0      1.073041E+00   9.721389E-01   1.829146E+00

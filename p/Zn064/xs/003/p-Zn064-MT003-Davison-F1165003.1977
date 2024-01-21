@@ -1,0 +1,49 @@
+# header:
+#   title: Zn64(p,non) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Davison
+#   year: 1977
+#   subentry: F1165003
+#   X4 reaction: 30-ZN-64(P,NON),,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/F1165003
+# target:
+#   Z: 30
+#   A: 64
+#   nuclide: Zn64
+# reaction:
+#   type: (p,non)
+#   ENDF_MF: 3
+#   ENDF_MT: 3
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.220000E+01   0.000000E+00   1.149000E+03   2.900000E+01   1.000000E+00
+   3.050000E+01   0.000000E+00   1.172000E+03   2.800000E+01   1.000000E+00
+   3.960000E+01   0.000000E+00   1.092000E+03   2.300000E+01   1.000000E+00
+   4.805000E+01   0.000000E+00   1.040000E+03   2.000000E+01   1.000000E+00
+# reference:
+#   author: N.E.Davison,D.K.Hasell,A.M.Sourkes,W.T.H.Van Oers, R.F.Carlson,A.J.Cox,D.J.Margaziotis
+#   title: Measurements of the proton total reaction cross section for Mg-24, Zn-64,66,68 and Ce-140 between 17.5 and 48 MeV.
+#   journal: Jour: Nuclear Physics, Section A, Vol.290, p.45 (1977)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  2.220000E+01
+#   E-max [MeV]:  4.805000E+01
+#   F-value:  1.021853E+00
+#   A-value:  9.938349E-01
+#   chi-2:  1.243775E+00
+#   p-value:  4.100856E-01
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.012089E+00   1.002890E+00   7.614626E-01
+# jendl5.0      1.028510E+00   9.848619E-01   1.726088E+00

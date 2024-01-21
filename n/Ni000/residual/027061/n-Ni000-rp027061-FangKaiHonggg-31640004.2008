@@ -1,0 +1,53 @@
+# header:
+#   title: Ni0(n,x)Co61 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: FangKaiHonggg
+#   year: 2008
+#   subentry: 31640004
+#   X4 reaction: 28-NI-0(N,X)27-CO-61,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/31640004
+# target:
+#   Z: 28
+#   A: 0
+#   nuclide: Ni0
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 27
+#   A: 61
+#   nuclide: Co61
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.350000E+01   3.000000E-01   1.292000E+00   9.035100E-02   1.001562E+00
+   1.460000E+01   3.000000E-01   1.082700E+00   8.010700E-02   1.002461E+00
+# reference:
+#   author: Fang Kai-Hong, Xu Xiao-San, Lan Chang-Lin, Yuan Ji-Long, Kong Xiang-Zhong
+#   title: Cross-section measurement for Ni(n,x)Co-58-m+g, Ni(n,x)Co-60-m, Ni(n,x)Co-61 and Ni(n,x)Co-62-m around 14 MeV
+#   journal: Jour: Chinese Physics C, Vol.32, p.251 (2008)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.350000E+01
+#   E-max [MeV]:  1.460000E+01
+#   F-value:  1.140861E+00
+#   A-value:  9.582602E-01
+#   chi-2:  3.501801E+00
+#   p-value:  2.604166E-01
+#   exp. data sets for p-value:      1
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2023    1.129331E+00   9.581289E-01   3.085471E+00
+# endfb8.0      1.175285E+00   8.690925E-01   4.628938E+00
+# jeff3.3       1.167408E+00   9.910645E-01   4.834243E+00
+# jendl5.0      1.070410E+00   1.021744E+00   1.458551E+00

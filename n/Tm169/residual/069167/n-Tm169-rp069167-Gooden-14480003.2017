@@ -1,0 +1,57 @@
+# header:
+#   title: Tm169(n,x)Tm167 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Gooden
+#   year: 2017
+#   subentry: 14480003
+#   X4 reaction: 69-TM-169(N,3N)69-TM-167,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/14480003
+# target:
+#   Z: 69
+#   A: 169
+#   nuclide: Tm169
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 17
+# residual:
+#   Z: 69
+#   A: 167
+#   nuclide: Tm167
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.390000E+01   1.050000E-01   1.780000E+03   1.200000E+02   1.000000E+00
+   2.490000E+01   1.300000E-01   1.650000E+03   7.000000E+01   1.000000E+00
+   2.550000E+01   1.330000E-01   1.730000E+03   8.000000E+01   1.000000E+00
+   2.650000E+01   1.380000E-01   1.780000E+03   8.000000E+01   1.000000E+00
+   2.750000E+01   1.420000E-01   1.860000E+03   9.000000E+01   1.000000E+00
+   2.850000E+01   1.470000E-01   1.740000E+03   9.000000E+01   1.000000E+00
+   2.950000E+01   1.560000E-01   1.210000E+03   8.000000E+01   1.000000E+00
+   3.050000E+01   1.650000E-01   1.240000E+03   2.100000E+02   1.000000E+00
+# reference:
+#   author: M.E.Gooden,T.A.Bredeweg,B.Champine,D.C.Combs,S.Finch, A.Hayes-Sterbenz,E.Henry,Krishichayan,R.Rundberg, W.Tornow,J.Wilhelmy,C.Yeamans
+#   title: Measurement of the 209Bi(n,4n)206Bi and 169Tm(n,3n)167Tm cross sections between 23.5 and 30.5 MeV relevant to reaction-in-flight neutron studies at the National Ignition Facility
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.96, p.024622 (2017)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.390000E+01
+#   E-max [MeV]:  3.050000E+01
+#   F-value:  1.362146E+00
+#   A-value:  7.558018E-01
+#   chi-2:  2.002944E+01
+#   p-value:  1.405695E-01
+#   exp. data sets for p-value:      3
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.338043E+00   7.726646E-01   1.733249E+01
+# jeff3.3       1.385331E+00   7.393070E-01   2.272639E+01

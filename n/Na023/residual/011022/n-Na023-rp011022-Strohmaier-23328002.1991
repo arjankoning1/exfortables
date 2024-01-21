@@ -1,0 +1,50 @@
+# header:
+#   title: Na23(n,x)Na22 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Strohmaier
+#   year: 1991
+#   subentry: 23328002
+#   X4 reaction: 11-NA-23(N,2N)11-NA-22,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/23328002
+# target:
+#   Z: 11
+#   A: 23
+#   nuclide: Na23
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 11
+#   A: 22
+#   nuclide: Na22
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.944900E+01   2.500000E-02   1.145000E+02   6.600000E+00   1.000000E+00
+# reference:
+#   author: B.Strohmaier, M.Wagner, H.Vonach
+#   title: Measurement of the 23Na(n,2n)22Na cross section at  En=19.45 MeV and model calculations of cross sections  for neutron induced reactions on 23Na
+#   journal: Conf: Conf.on Nucl.Data for Sci.and Technol.,Juelich 1991, p.663 (1991)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.944900E+01
+#   E-max [MeV]:  1.944900E+01
+#   F-value:  1.070040E+00
+#   A-value:  1.048952E+00
+#   chi-2:  1.731395E+00
+#   p-value:  3.602027E-01
+#   exp. data sets for p-value:      6
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.100469E+00   1.100469E+00   3.459463E+00
+# jendl5.0      1.000153E+00   9.998471E-01   3.326644E-03

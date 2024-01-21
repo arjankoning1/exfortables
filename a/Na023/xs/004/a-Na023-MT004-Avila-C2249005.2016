@@ -1,0 +1,58 @@
+# header:
+#   title: Na23(a,n')Al26 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Avila
+#   year: 2016
+#   subentry: C2249005
+#   X4 reaction: 11-NA-23(A,N)13-AL-26,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C2249005
+# target:
+#   Z: 11
+#   A: 23
+#   nuclide: Na23
+# reaction:
+#   type: (a,n')
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+# residual:
+#   Z: 13
+#   A: 26
+#   nuclide: Al26
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 9
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.552837E+00   6.000000E-02   4.200000E+00   2.100000E+00   1.000000E+00
+   3.887457E+00   2.250000E-01   7.720000E+00   1.650000E+00   1.000000E+00
+   4.331268E+00   2.140000E-01   2.008000E+01   2.530000E+00   1.000000E+00
+   4.765686E+00   2.050000E-01   4.336000E+01   3.720000E+00   1.000000E+00
+   5.190712E+00   1.970000E-01   5.260000E+01   4.100000E+00   1.000000E+00
+   5.606345E+00   1.900000E-01   8.193000E+01   5.110000E+00   1.000000E+00
+   6.011410E+00   1.840000E-01   1.090300E+02   5.900000E+00   1.000000E+00
+   6.407083E+00   1.780000E-01   1.625900E+02   7.200000E+00   1.000000E+00
+   6.793363E+00   1.730000E-01   1.880900E+02   7.740000E+00   1.000000E+00
+# reference:
+#   author: M.L.Avila,K.E.Rehm,S.Almaraz-Calderon,A.D.Ayangeakaa, C.Dickerson,C.R.Hoffman,C.L.Jiang,B.P.Kay,J.Lai, O.Nusair,R.C.Pardo,D.Santiago-Gonzalez,R.Talwar, C.Ugalde
+#   title: Experimental study of the astrophysically important 23Na(alpha,p)26Mg and 23Na(alpha,n)26Al reactions
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.94, p.065804 (2016)
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  3.552837E+00
+#   E-max [MeV]:  6.793363E+00
+#   F-value:  1.626477E+00
+#   A-value:  8.185648E-01
+#   chi-2:  2.746574E+00
+#   p-value:  2.473493E-01
+#   exp. data sets for p-value:      4
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.536994E+00   8.288232E-01   2.621808E+00
+# jendl5.0      1.710995E+00   8.084334E-01   2.871340E+00

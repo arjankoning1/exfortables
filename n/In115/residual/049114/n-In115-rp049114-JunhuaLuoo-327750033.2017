@@ -1,0 +1,52 @@
+# header:
+#   title: In115(n,x)In114 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: JunhuaLuoo
+#   year: 2017
+#   subentry: 327750033
+#   X4 reaction: 49-IN-115(N,2N)49-IN-114,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/327750033
+# target:
+#   Z: 49
+#   A: 115
+#   nuclide: In115
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 49
+#   A: 114
+#   nuclide: In114
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.350000E+01   2.000000E-01   1.296965E+03   7.511558E+01   9.892946E-01
+   1.410000E+01   2.000000E-01   1.415566E+03   7.963042E+01   9.996933E-01
+   1.480000E+01   2.000000E-01   1.469597E+03   8.706274E+01   1.001088E+00
+# reference:
+#   author: Junhua Luo, Li Jiang, Suyuan Li
+#   title: Activation cross section and isomeric cross-section ratio for the (n,2n) reaction on 113,115In
+#   journal: Jour: Nuclear Science and Engineering, Vol.188, p.198 (2017)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.350000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.167631E+00
+#   A-value:  1.157654E+00
+#   chi-2:  8.846133E+00
+#   p-value:  1.741239E-01
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.214750E+00   1.213252E+00   1.389935E+01
+# jendl5.0      1.106219E+00   1.104603E+00   3.792920E+00

@@ -1,0 +1,57 @@
+# header:
+#   title: Mo96(n,x)Nb96 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Rahman
+#   year: 1985
+#   subentry: 21990004
+#   X4 reaction: 42-MO-96(N,P)41-NB-96,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21990004
+# target:
+#   Z: 42
+#   A: 96
+#   nuclide: Mo96
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 41
+#   A: 96
+#   nuclide: Nb96
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.911000E+00   1.780000E-01   4.798300E-02   8.636900E-03   9.596552E-01
+   6.474000E+00   1.810000E-01   8.636900E-02   1.919300E-02   9.596552E-01
+   7.032000E+00   1.630000E-01   2.015300E-01   2.399100E-02   9.596552E-01
+   7.549000E+00   1.850000E-01   3.742700E-01   4.798300E-02   9.596552E-01
+   8.132000E+00   1.090000E-01   9.500600E-01   1.727400E-01   9.596552E-01
+   8.632000E+00   1.230000E-01   1.631400E+00   3.166900E-01   9.596552E-01
+   9.153000E+00   1.230000E-01   2.466300E+00   3.838600E-01   9.596552E-01
+   9.577000E+00   2.150000E-01   3.186100E+00   4.414400E-01   9.596552E-01
+# reference:
+#   author: M.M.Rahman, S.M.Qaim
+#   title: Excitation functions of some neutron threshold  reactions on isotopes of molybdenum
+#   journal: Jour: Nuclear Physics, Section A, Vol.435, p.43 (1985)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  5.911000E+00
+#   E-max [MeV]:  9.577000E+00
+#   F-value:  1.372271E+00
+#   A-value:  7.969543E-01
+#   chi-2:  2.601175E+00
+#   p-value:  2.398212E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.215710E+00   8.674322E-01   1.292268E+00
+# jendl5.0      1.495826E+00   7.322027E-01   3.910082E+00

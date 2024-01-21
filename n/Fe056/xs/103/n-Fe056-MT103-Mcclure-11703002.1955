@@ -1,0 +1,54 @@
+# header:
+#   title: Fe56(n,p)Mn56 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Mcclure
+#   year: 1955
+#   subentry: 11703002
+#   X4 reaction: 26-FE-56(N,P)25-MN-56,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11703002
+# target:
+#   Z: 26
+#   A: 56
+#   nuclide: Fe56
+# reaction:
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 25
+#   A: 56
+#   nuclide: Mn56
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.400000E+01   0.000000E+00   7.200000E+01   7.200000E+00   1.000000E+00
+# reference:
+#   author: G.W.McClure,D.W.Kent
+#   title: Inelastic scattering of 14 MeV neutrons.
+#   journal: Jour: Journal of the Franklin Institute, Vol.260, p.238(2) (1955)
+# statistics:
+#   NEA score: T2
+#   IAEA score:  1
+#   E-min [MeV]:  1.400000E+01
+#   E-max [MeV]:  1.400000E+01
+#   F-value:  1.590414E+00
+#   A-value:  1.590326E+00
+#   chi-2:  3.486650E+01
+#   p-value:  8.552205E-04
+#   exp. data sets for p-value:      8
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2023    1.583871E+00   1.583871E+00   3.409051E+01
+# endfb8.0      1.584087E+00   1.584087E+00   3.411582E+01
+# jeff3.3       1.590833E+00   1.590833E+00   3.490841E+01
+# jendl5.0      1.615403E+00   1.615403E+00   3.787206E+01
+# cendl3.2      1.584004E+00   1.584004E+00   3.410609E+01
+# irdff2.0      1.584005E+00   1.584005E+00   3.410614E+01

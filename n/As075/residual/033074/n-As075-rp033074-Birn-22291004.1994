@@ -1,0 +1,53 @@
+# header:
+#   title: As75(n,x)As74 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Birn
+#   year: 1994
+#   subentry: 22291004
+#   X4 reaction: 33-AS-75(N,2N)33-AS-74,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22291004
+# target:
+#   Z: 33
+#   A: 75
+#   nuclide: As75
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 33
+#   A: 74
+#   nuclide: As74
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.098000E+01   2.400000E-01   1.958925E+02   3.500645E+01   1.020274E+00
+   1.187000E+01   2.550000E-01   6.213467E+02   9.605013E+01   1.020274E+00
+   1.468000E+01   1.000000E-01   1.156990E+03   7.378287E+01   1.020274E+00
+# reference:
+#   author: I.Birn,S.M.Qaim,B.Strohmaier,H.Freiesleben
+#   title: Excitation functions of neutron threshold reactions  on some isotopes of germanium, arsenic and selenium  in the 6.3- to 14.7-MeV energy range.
+#   journal: Jour: Nuclear Science and Engineering, Vol.116, p.125 (1994)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.098000E+01
+#   E-max [MeV]:  1.468000E+01
+#   F-value:  1.922765E+00
+#   A-value:  5.877846E-01
+#   chi-2:  7.322274E+00
+#   p-value:  1.270773E-01
+#   exp. data sets for p-value:      2
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    2.172668E+00   5.338789E-01   8.748757E+00
+# jeff3.3       1.798605E+00   6.125969E-01   6.650748E+00
+# jendl5.0      1.784703E+00   6.209223E-01   6.567316E+00

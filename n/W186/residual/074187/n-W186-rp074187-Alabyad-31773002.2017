@@ -1,0 +1,51 @@
+# header:
+#   title: W186(n,x)W187 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Alabyad
+#   year: 2017
+#   subentry: 31773002
+#   X4 reaction: 74-W-186(N,G)74-W-187,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/31773002
+# target:
+#   Z: 74
+#   A: 186
+#   nuclide: W186
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+# residual:
+#   Z: 74
+#   A: 187
+#   nuclide: W187
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.530000E-08   0.000000E+00   3.876622E+04   1.000419E+03   1.000419E+00
+   2.530000E-08   0.000000E+00   3.911636E+04   2.601088E+03   1.000419E+00
+# reference:
+#   author: M.Al-Abyad,G.Y.Mohamed
+#   title: Neutron capture cross section measurements and theoretical calculation for the 186W(n,gamma)187W reaction
+#   journal: Jour: Radiochimica Acta, Vol.105, p.347 (2017)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.530000E-08
+#   E-max [MeV]:  2.530000E-08
+#   F-value:  1.009891E+00
+#   A-value:  9.903184E-01
+#   chi-2:  3.618976E-01
+#   p-value:  2.212067E-01
+#   exp. data sets for p-value:      8
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.011143E+00   9.890185E-01   4.181210E-01
+# jendl5.0      1.008458E+00   9.916201E-01   3.056743E-01

@@ -1,0 +1,62 @@
+# header:
+#   title: Te123(n,x)Te124 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Wisshak
+#   year: 1992
+#   subentry: 22372008
+#   X4 reaction: 52-TE-123(N,G)52-TE-124,,SIG,,AV
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22372008
+# target:
+#   Z: 52
+#   A: 123
+#   nuclide: Te123
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+# residual:
+#   Z: 52
+#   A: 124
+#   nuclide: Te124
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 12
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.750000E-02   2.500000E-03   1.157774E+03   1.900620E+01   1.096481E+00
+   2.250000E-02   2.500000E-03   1.046781E+03   1.324540E+01   1.106417E+00
+   2.750000E-02   2.500000E-03   9.493917E+02   1.155180E+01   1.068413E+00
+   3.500000E-02   5.000000E-03   8.518315E+02   8.573400E+00   1.092932E+00
+   4.500000E-02   5.000000E-03   7.490954E+02   7.761600E+00   1.061643E+00
+   5.500000E-02   5.000000E-03   6.882384E+02   6.948700E+00   1.089502E+00
+   7.000000E-02   1.000000E-02   5.986262E+02   6.048900E+00   1.088609E+00
+   9.000000E-02   1.000000E-02   5.103962E+02   5.121600E+00   1.096212E+00
+   1.100000E-01   1.000000E-02   4.507523E+02   5.968200E+00   1.057359E+00
+   1.350000E-01   1.500000E-02   4.209549E+02   5.241600E+00   1.044035E+00
+   1.625000E-01   1.250000E-02   3.817299E+02   5.180000E+00   1.031703E+00
+   1.875000E-01   1.250000E-02   3.290196E+02   4.776000E+00   1.033353E+00
+# reference:
+#   author: K.Wisshak,F.Voss,F.Kaeppeler,G.Reffo
+#   title: Neutron capture in 122,123,124,125,126-Te:  Critical test for s process studies
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.45, Issue.5, p.2470
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.750000E-02
+#   E-max [MeV]:  1.875000E-01
+#   F-value:  1.253075E+00
+#   A-value:  1.124756E+00
+#   chi-2:  5.412476E+02
+#   p-value:  4.041034E-01
+#   exp. data sets for p-value:      6
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.060990E+00   1.031460E+00   2.437387E+01
+# jeff3.3       1.464386E+00   1.449044E+00   1.573585E+03
+# jendl5.0      1.062620E+00   9.520082E-01   2.578363E+01

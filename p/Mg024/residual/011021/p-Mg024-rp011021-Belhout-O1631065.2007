@@ -1,0 +1,51 @@
+# header:
+#   title: Mg24(p,x)Na21 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Belhout
+#   year: 2007
+#   subentry: O1631065
+#   X4 reaction: 12-MG-24(P,X)11-NA-21,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O1631065
+# target:
+#   Z: 12
+#   A: 24
+#   nuclide: Mg24
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 11
+#   A: 21
+#   nuclide: Na21
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.498000E+01   2.000000E-02   8.000002E+01   7.735600E+00   1.000000E+00
+   1.998000E+01   2.000000E-02   5.300000E+01   9.563701E+00   1.000000E+00
+# reference:
+#   author: A.Belhout, J.Kiener, A.Coc, J.Duprat, C.Engrand, C.Fitoussi, M.Gounelle, A.Lefebvre-Schuhl, N.de Sereville, V.Tatischeff, J.-P.Thibaud, M.Chabot, F.Hammache, H.Benhabiles-Mezhoud
+#   title: Gamma-ray production by proton and alpha-particle induced reactions on C-12, O-16, Mg-24 and Fe.
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.76, p.034607 (2007)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  1.498000E+01
+#   E-max [MeV]:  1.998000E+01
+#   F-value:  1.801411E+00
+#   A-value:  5.878751E-01
+#   chi-2:  7.781272E+00
+#   p-value:  2.453477E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    0.000000E+00   0.000000E+00   0.000000E+00
+# jendl5.0      1.801411E+00   5.878751E-01   7.781272E+00

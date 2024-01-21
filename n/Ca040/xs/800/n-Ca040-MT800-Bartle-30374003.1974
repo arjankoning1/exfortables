@@ -1,0 +1,57 @@
+# header:
+#   title: Ca40(n,p_00) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Bartle
+#   year: 1974
+#   subentry: 30374003
+#   X4 reaction: 20-CA-40(N,A)18-AR-37,PAR,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30374003
+#   level energy [MeV]  0.00000E+00
+# target:
+#   Z: 20
+#   A: 40
+#   nuclide: Ca40
+# reaction:
+#   type: (n,p_00)
+#   ENDF_MF: 3
+#   ENDF_MT: 800
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  3.000000E+00
+#     parity: -1
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.405000E+00   3.400000E-02   1.900000E+01   2.000000E+00   1.000000E+00
+   2.405000E+00   3.400000E-02   2.000000E+01   2.000000E+00   1.000000E+00
+   2.483000E+00   7.800000E-02   2.200000E+01   2.000000E+00   1.000000E+00
+   2.642000E+00   1.280000E-01   2.800000E+01   2.000000E+00   1.000000E+00
+   2.736000E+00   1.100000E-01   4.100000E+01   4.000000E+00   1.000000E+00
+   2.858000E+00   1.340000E-01   6.600001E+01   5.000000E+00   1.000000E+00
+# reference:
+#   author: C.M.Bartle,P.B.Johnson,N.C.Chapman
+#   title: Absolute (n,p) and (n,alpha) cross sections for K-39 and Ca-40 between 2.4 and 2.9 MeV.
+#   journal: Jour: Nuclear Physics, Section A, Vol.220, p.395 (1974)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  2.405000E+00
+#   E-max [MeV]:  2.858000E+00
+#   F-value:  1.156534E+00
+#   A-value:  9.788364E-01
+#   chi-2:  3.589352E+00
+#   p-value:  3.147216E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# endfb8.0      1.162547E+00   9.357620E-01   3.273368E+00
+# jendl5.0      1.150331E+00   1.023894E+00   3.905336E+00

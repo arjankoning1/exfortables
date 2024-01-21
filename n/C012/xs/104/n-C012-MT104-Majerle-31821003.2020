@@ -1,0 +1,61 @@
+# header:
+#   title: C12(n,d)B11 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Majerle
+#   year: 2020
+#   subentry: 31821003
+#   X4 reaction: 6-C-12(N,D)5-B-11,PAR,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/31821003
+# target:
+#   Z: 6
+#   A: 12
+#   nuclide: C12
+# reaction:
+#   type: (n,d)
+#   ENDF_MF: 3
+#   ENDF_MT: 104
+# residual:
+#   Z: 5
+#   A: 11
+#   nuclide: B11
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 10
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.730000E+01   0.000000E+00   5.110000E+01   1.686300E+01   1.000000E+00
+   2.040000E+01   0.000000E+00   5.400001E+01   8.639999E+00   1.000000E+00
+   2.050000E+01   0.000000E+00   3.620000E+01   7.240000E+00   1.000000E+00
+   2.450000E+01   0.000000E+00   3.920000E+01   7.448000E+00   1.000000E+00
+   2.450000E+01   0.000000E+00   3.960000E+01   7.524000E+00   1.000000E+00
+   2.610000E+01   0.000000E+00   3.200000E+01   7.040000E+00   1.000000E+00
+   2.610000E+01   0.000000E+00   3.060000E+01   5.814000E+00   1.000000E+00
+   2.880000E+01   0.000000E+00   2.140000E+01   4.280000E+00   1.000000E+00
+   3.070000E+01   0.000000E+00   1.920000E+01   3.264000E+00   1.000000E+00
+   3.420000E+01   0.000000E+00   1.340000E+01   2.680000E+00   1.000000E+00
+# reference:
+#   author: M.Majerle, M.Angelone, A.Krasa, J.Novak, M.Pillon,  R.Pilotti, A.Plompen, E.Simeckova, M.Stefanik
+#   title: The response of single crystal diamond detectors to  17-34 MeV neutrons
+#   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.A, Vol.951, p.163014
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.730000E+01
+#   E-max [MeV]:  3.420000E+01
+#   F-value:  1.605745E+00
+#   A-value:  7.102172E-01
+#   chi-2:  1.379074E+00
+#   p-value:  1.067524E-02
+#   exp. data sets for p-value:      2
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2023    1.015068E+00   9.851555E-01   5.691349E-02
+# endfb8.0      1.015068E+00   9.851555E-01   5.691349E-02
+# jendl5.0      1.923505E+00   5.198843E-01   2.638427E+00
+# cendl3.2      1.983132E+00   5.042527E-01   2.764041E+00

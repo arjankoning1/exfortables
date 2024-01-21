@@ -1,0 +1,51 @@
+# header:
+#   title: W0(p,x)Lu171 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Titarenko
+#   year: 2011
+#   subentry: A0904027
+#   X4 reaction: 74-W-0(P,X)71-LU-171,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/A0904027
+# target:
+#   Z: 74
+#   A: 0
+#   nuclide: W0
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 71
+#   A: 171
+#   nuclide: Lu171
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   9.900000E+01   1.000000E+00   5.310000E+00   4.500000E-01   1.000000E+00
+# reference:
+#   author: Yu.E.Titarenko, V.F.Batyaev, A.Yu.Titarenko, M.A.Butko, K.V.Pavlov, S.N.Florya, R.S.Tikhonov, V.M.Zhivun, A.V.Ignatyuk, S.G.Mashnik, S.Leray, A.Boudard, J.Cugnon, D.Mancusi, Y.Yariv, K.Nishihara, N.Matsuda, H.Kumawat, G.Mank, W.Gudowski
+#   title: Measurement and simulation of the cross sections for nuclide production in W-nat and Ta-181 targets irradiated with 0.04- to 2.6-GeV protons
+#   journal: Jour: Physics of Atomic Nuclei, Vol.74, p.551 (2011)
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  9.900000E+01
+#   E-max [MeV]:  9.900000E+01
+#   F-value:  8.861456E+01
+#   A-value:  1.393030E-02
+#   chi-2:  1.313252E+02
+#   p-value:  1.192093E-07
+#   exp. data sets for p-value:      2
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    6.538301E+01   1.529449E-02   1.350134E+02
+# endfb8.0      3.961467E+02   2.524317E-03   1.385379E+02
+# jendl5.0      1.428230E+01   7.001675E-02   1.204243E+02

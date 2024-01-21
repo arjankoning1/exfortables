@@ -1,0 +1,57 @@
+# header:
+#   title: Zn64(a,x)Ge66 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Porile
+#   year: 1959
+#   subentry: C0704005
+#   X4 reaction: 30-ZN-64(A,2N)32-GE-66,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C0704005
+# target:
+#   Z: 30
+#   A: 64
+#   nuclide: Zn64
+# reaction:
+#   type: (a,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 32
+#   A: 66
+#   nuclide: Ge66
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 9
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.180000E+01   0.000000E+00   2.000000E-02   2.000000E-03   1.000000E+00
+   2.330000E+01   0.000000E+00   1.700000E-01   1.700000E-02   1.000000E+00
+   2.830000E+01   0.000000E+00   2.740000E+01   2.740000E+00   1.000000E+00
+   3.020000E+01   0.000000E+00   6.050000E+01   6.050000E+00   1.000000E+00
+   3.140000E+01   0.000000E+00   7.930001E+01   7.930000E+00   1.000000E+00
+   3.240000E+01   0.000000E+00   8.520000E+01   8.520000E+00   1.000000E+00
+   3.470000E+01   0.000000E+00   8.220001E+01   8.220000E+00   1.000000E+00
+   3.750000E+01   0.000000E+00   7.330000E+01   7.330000E+00   1.000000E+00
+   3.960000E+01   0.000000E+00   6.040001E+01   6.040000E+00   1.000000E+00
+# reference:
+#   author: N.T.Porile
+#   title: Excitation Functions for Alpha-Induced Reactions on  Zinc-64
+#   journal: Jour: Physical Review, Vol.115, p.939 (1959)
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  2.180000E+01
+#   E-max [MeV]:  3.960000E+01
+#   F-value:  1.085484E+01
+#   A-value:  1.366542E+00
+#   chi-2:  5.284118E+05
+#   p-value:  2.762188E-01
+#   exp. data sets for p-value:      3
+#   libraries:      1
+##  Library          F              A            chi-2
+# tendl.2023    1.085484E+01   1.366542E+00   5.284118E+05

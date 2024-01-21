@@ -1,0 +1,57 @@
+# header:
+#   title: Nb93(n,2n)Nb92m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Lu
+#   year: 1970
+#   subentry: 10497005
+#   X4 reaction: 41-NB-93(N,2N)41-NB-92-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/10497005
+# target:
+#   Z: 41
+#   A: 93
+#   nuclide: Nb93
+# reaction:
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 41
+#   A: 92
+#   nuclide: Nb92m
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.440000E+01   3.000000E-01   6.398526E+02   3.321034E+01   1.107011E+00
+# reference:
+#   author: W.D.Lu,N.Ranakumar,R.W.Fink
+#   title: Activation Cross Sections for (n,2n) Reactions at 14.4  MeV in the Region Z=40-60. Precision Measurements and  Systematics.
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.1, p.350 (1970)
+# statistics:
+#   NEA score: T3
+#   IAEA score:  1
+#   E-min [MeV]:  1.440000E+01
+#   E-max [MeV]:  1.440000E+01
+#   F-value:  1.397768E+00
+#   A-value:  7.154989E-01
+#   chi-2:  3.005328E+01
+#   p-value:  1.209319E-03
+#   exp. data sets for p-value:      8
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2023    1.391197E+00   7.188056E-01   2.935127E+01
+# jeff3.3       1.391197E+00   7.188056E-01   2.935126E+01
+# jendl5.0      1.417680E+00   7.053778E-01   3.222139E+01
+# irdff2.0      1.390621E+00   7.191031E-01   2.928917E+01

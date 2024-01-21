@@ -1,0 +1,55 @@
+# header:
+#   title: Mo100(n,a)Zr97 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Filatenkov
+#   year: 2016
+#   subentry: 41614078
+#   X4 reaction: 42-MO-100(N,A)40-ZR-97,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/41614078
+# target:
+#   Z: 42
+#   A: 100
+#   nuclide: Mo100
+# reaction:
+#   type: (n,a)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+# residual:
+#   Z: 40
+#   A: 97
+#   nuclide: Zr97
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.364000E+01   0.000000E+00   2.210000E+00   1.122300E-01   1.000002E+00
+   1.428000E+01   0.000000E+00   2.509980E+00   1.405600E-01   9.999922E-01
+   1.444000E+01   0.000000E+00   2.740000E+00   1.501600E-01   1.000009E+00
+# reference:
+#   author: A.A.Filatenkov
+#   title: Neutron activation cross sections measured at KRI in neutron energy region 13.4 - 14.9 MeV
+#   journal: Rept: USSR report to the I.N.D.C., No.0460 (2016)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.364000E+01
+#   E-max [MeV]:  1.444000E+01
+#   F-value:  1.126120E+00
+#   A-value:  9.285440E-01
+#   chi-2:  4.881280E+00
+#   p-value:  4.151476E-01
+#   exp. data sets for p-value:      5
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    1.143650E+00   8.821651E-01   5.951061E+00
+# endfb8.0      1.124769E+00   8.917368E-01   4.581709E+00
+# jeff3.3       1.131910E+00   8.979260E-01   5.247347E+00
+# jendl5.0      1.131910E+00   8.979260E-01   5.247347E+00
+# cendl3.2      1.093532E+00   1.088290E+00   3.378941E+00

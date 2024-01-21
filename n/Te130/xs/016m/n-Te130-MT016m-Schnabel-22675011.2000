@@ -1,0 +1,56 @@
+# header:
+#   title: Te130(n,2n)Te129m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Schnabel
+#   year: 2000
+#   subentry: 22675011
+#   X4 reaction: 52-TE-130(N,2N)52-TE-129-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22675011
+# target:
+#   Z: 52
+#   A: 130
+#   nuclide: Te130
+# reaction:
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 52
+#   A: 129
+#   nuclide: Te129m
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.470000E+01   0.000000E+00   1.123583E+03   1.040921E+02   1.020511E+00
+# reference:
+#   author: C.Schnabel,I.Leya,R.Michel,J.Csikai,Z.Dezso, J.M.Lopez-Gutierrez,H.-A.Synal
+#   title: Non-destructive and radiochemical determination of the neutron-induced production cross-section of I-129 from Te and other neutron-induced cross-sections on Te at 14.7 MeV
+#   journal: Jour: Radiochimica Acta, Vol.88, p.439 (2000)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.470000E+01
+#   E-max [MeV]:  1.470000E+01
+#   F-value:  1.050123E+00
+#   A-value:  9.880439E-01
+#   chi-2:  5.945399E-01
+#   p-value:  1.956706E-01
+#   exp. data sets for p-value:      6
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.038384E+00   1.038384E+00   5.689126E-01
+# jeff3.3       1.002098E+00   1.002098E+00   2.852015E-02
+# jendl5.0      1.078797E+00   9.269588E-01   1.186187E+00

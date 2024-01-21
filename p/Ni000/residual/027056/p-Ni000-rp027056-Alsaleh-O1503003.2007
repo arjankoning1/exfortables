@@ -1,0 +1,62 @@
+# header:
+#   title: Ni0(p,x)Co56 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Alsaleh
+#   year: 2007
+#   subentry: O1503003
+#   X4 reaction: 28-NI-0(P,X)27-CO-56,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O1503003
+# target:
+#   Z: 28
+#   A: 0
+#   nuclide: Ni0
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 27
+#   A: 56
+#   nuclide: Co56
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 12
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.140000E+01   4.500000E-01   5.002500E-02   1.000500E-02   1.000501E+00
+   2.230000E+01   4.500000E-01   1.400700E-01   8.004000E-02   1.000501E+00
+   2.300000E+01   4.500000E-01   1.000500E+00   5.002500E-01   1.000501E+00
+   2.310000E+01   4.500000E-01   2.801400E+00   1.700900E+00   1.000501E+00
+   2.384000E+01   4.500000E-01   7.903960E+00   1.800900E+00   1.000501E+00
+   2.410000E+01   4.500000E-01   7.403700E+00   1.700900E+00   1.000501E+00
+   2.479000E+01   4.500000E-01   9.104600E+00   2.101100E+00   1.000501E+00
+   2.540000E+01   5.000000E-01   2.131068E+01   3.301700E+00   1.000501E+00
+   2.600000E+01   5.000000E-01   1.300652E+01   2.001000E+00   1.000501E+00
+   2.700000E+01   5.000000E-01   2.331168E+01   3.101600E+00   1.000501E+00
+   2.720000E+01   5.000000E-01   2.301153E+01   3.001500E+00   1.000501E+00
+   2.740000E+01   5.000000E-01   2.101053E+01   3.001500E+00   1.000501E+00
+# reference:
+#   author: F.S.Al-Saleh, K.S.Al Mugren, A.Azzam
+#   title: Excitation functions of (p,x) reactions on natural nickel between proton energies of 2.7 and 27.5-MeV.
+#   journal: Jour: Applied Radiation and Isotopes, Vol.65, p.104 (2007)
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  2.140000E+01
+#   E-max [MeV]:  2.740000E+01
+#   F-value:  5.337843E+00
+#   A-value:  2.171130E+00
+#   chi-2:  9.758317E+03
+#   p-value:  1.978152E-01
+#   exp. data sets for p-value:      4
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    5.936854E+00   2.587495E+00   1.299450E+04
+# endfb8.0      4.006051E+00   1.351251E+00   1.800819E+03
+# jendl5.0      6.178770E+00   2.927130E+00   1.447964E+04

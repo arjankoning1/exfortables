@@ -1,0 +1,51 @@
+# header:
+#   title: Ni59(n,x)Ni60 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Harvey
+#   year: 1976
+#   subentry: 10680006
+#   X4 reaction: 28-NI-59(N,G)28-NI-60,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/10680006
+# target:
+#   Z: 28
+#   A: 59
+#   nuclide: Ni59
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+# residual:
+#   Z: 28
+#   A: 60
+#   nuclide: Ni60
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.530000E-08   0.000000E+00   7.800000E+04   8.000000E+03   1.000000E+00
+# reference:
+#   author: J.A.Harvey,J.Halperin,N.W.Hill,S.Raman,R.L.Macklin
+#   title: (n,alpha),(n,p),(n,gamma), and total neutron-cross- section measurements on 59Ni
+#   journal: Prog: Oak Ridge National Lab. Reports, No.5137, p.2 (1976)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.530000E-08
+#   E-max [MeV]:  2.530000E-08
+#   F-value:  1.020375E+00
+#   A-value:  9.816242E-01
+#   chi-2:  2.346012E-01
+#   p-value:  3.820397E-01
+#   exp. data sets for p-value:      3
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.023199E+00   9.773273E-01   2.905315E-01
+# jeff3.3       1.025610E+00   9.750292E-01   3.215732E-01
+# jendl5.0      1.007446E+00   9.926090E-01   9.169896E-02

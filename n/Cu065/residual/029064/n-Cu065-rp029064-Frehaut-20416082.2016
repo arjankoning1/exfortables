@@ -1,0 +1,60 @@
+# header:
+#   title: Cu65(n,x)Cu64 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Frehaut
+#   year: 2016
+#   subentry: 20416082
+#   X4 reaction: 29-CU-65(N,2N)29-CU-64,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20416082
+# target:
+#   Z: 29
+#   A: 65
+#   nuclide: Cu65
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 29
+#   A: 64
+#   nuclide: Cu64
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 9
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.091000E+01   1.900000E-01   9.600001E+01   1.200000E+01   1.000000E+00
+   1.140000E+01   1.800000E-01   2.480000E+02   2.100000E+01   1.000000E+00
+   1.188000E+01   1.700000E-01   3.610000E+02   3.000000E+01   1.000000E+00
+   1.236000E+01   1.700000E-01   4.860000E+02   3.500000E+01   1.000000E+00
+   1.285000E+01   1.600000E-01   6.470000E+02   4.800000E+01   1.000000E+00
+   1.333000E+01   1.500000E-01   7.440000E+02   5.300000E+01   1.000000E+00
+   1.380000E+01   1.500000E-01   8.110000E+02   5.200000E+01   1.000000E+00
+   1.428000E+01   1.400000E-01   8.370001E+02   5.700000E+01   1.000000E+00
+   1.476000E+01   1.300000E-01   8.710001E+02   5.200000E+01   1.000000E+00
+# reference:
+#   author: J.Frehaut,A.Bertin,R.Bois,J.Jary,G.Mosinski
+#   title: Status of (n,xn) cross section measurements  at Bruyeres-le-Chatel
+#   journal: Rept: Centre d'Etudes Nucleaires, Saclay Reports, No.6447 (2016)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.091000E+01
+#   E-max [MeV]:  1.476000E+01
+#   F-value:  1.097687E+00
+#   A-value:  1.063950E+00
+#   chi-2:  1.524924E+00
+#   p-value:  2.852791E-01
+#   exp. data sets for p-value:      3
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2023    1.089710E+00   1.066198E+00   1.457394E+00
+# endfb8.0      1.023672E+00   1.011644E+00   3.244930E-01
+# jeff3.3       1.131460E+00   1.097429E+00   2.421478E+00
+# jendl5.0      1.113542E+00   1.082538E+00   1.896333E+00

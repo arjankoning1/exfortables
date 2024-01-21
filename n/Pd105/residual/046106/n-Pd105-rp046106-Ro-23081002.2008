@@ -1,0 +1,55 @@
+# header:
+#   title: Pd105(n,x)Pd106 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Ro
+#   year: 2008
+#   subentry: 23081002
+#   X4 reaction: 46-PD-105(N,G)46-PD-106,,SIG,,AV
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/23081002
+# target:
+#   Z: 46
+#   A: 105
+#   nuclide: Pd105
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+# residual:
+#   Z: 46
+#   A: 106
+#   nuclide: Pd106
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.000000E-02   5.000000E-03   1.539204E+03   4.956155E+01   9.879358E-01
+   3.000000E-02   5.000000E-03   1.367072E+03   4.395245E+01   1.041182E+00
+   4.000000E-02   5.000000E-03   1.189340E+03   3.824266E+01   1.019143E+00
+   5.000000E-02   5.000000E-03   1.032565E+03   3.332792E+01   1.007380E+00
+   6.000000E-02   5.000000E-03   9.266973E+02   3.001207E+01   1.022845E+00
+   7.750000E-02   1.250000E-02   8.276964E+02   2.689901E+01   1.011854E+00
+# reference:
+#   author: T.-I.Ro, B.R.Park, Y.-R.Rank, H.Kim, W.-C.Chung, K.Kim, G.Kim, Y.Oh, S.Lee, M.Igashira, T.Ohsaki
+#   title: .Measurement of Neutron Capture Cross-Sections of  105Pd with keV-Neutrons Produced by Using a Pulsed  Proton Beam
+#   journal: Jour: Jour. of Nuclear Science and Technology Suppl., Vol.5, p.443 (2008
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.000000E-02
+#   E-max [MeV]:  7.750000E-02
+#   F-value:  1.133917E+00
+#   A-value:  9.038846E-01
+#   chi-2:  1.289505E+01
+#   p-value:  1.909161E-01
+#   exp. data sets for p-value:      5
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.188630E+00   8.461950E-01   2.382014E+01
+# jendl5.0      1.042467E+00   9.655073E-01   1.969950E+00

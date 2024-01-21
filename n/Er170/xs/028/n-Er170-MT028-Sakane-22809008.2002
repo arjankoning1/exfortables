@@ -1,0 +1,54 @@
+# header:
+#   title: Er170(n,np)Ho169 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Sakane
+#   year: 2002
+#   subentry: 22809008
+#   X4 reaction: 68-ER-170(N,X)67-HO-169,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22809008
+# target:
+#   Z: 68
+#   A: 170
+#   nuclide: Er170
+# reaction:
+#   type: (n,np)
+#   ENDF_MF: 3
+#   ENDF_MT: 28
+# residual:
+#   Z: 67
+#   A: 169
+#   nuclide: Ho169
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.435000E+01   5.000000E-02   1.866100E-01   7.277700E-02   9.821428E-01
+   1.464000E+01   5.000000E-02   2.455400E-01   7.857100E-02   9.821428E-01
+   1.487000E+01   5.000000E-02   4.223200E-01   9.713399E-02   9.821428E-01
+# reference:
+#   author: H.SAKANE, Y.KASUGAI, M.SHIBATA, Y.IKEDA, K.KAWADE
+#   title: - Measurement of the activation cross section of   (N,Np+d) reactions for lantanide isotopes in the   enegry range between 13.4 and 14.9 MeV
+#   journal: Jour: Annals of Nuclear Energy, Vol.29, Issue.10, p.1209 (2002)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  1.435000E+01
+#   E-max [MeV]:  1.487000E+01
+#   F-value:  1.468003E+01
+#   A-value:  6.836040E-02
+#   chi-2:  1.027071E+01
+#   p-value:  1.788139E-07
+#   exp. data sets for p-value:      1
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2023    1.541645E+01   6.492678E-02   1.036645E+01
+# endfb8.0      1.651804E+01   6.056108E-02   1.043219E+01
+# jeff3.3       1.502032E+01   6.663754E-02   1.032415E+01
+# jendl5.0      1.201372E+01   8.334542E-02   9.960040E+00

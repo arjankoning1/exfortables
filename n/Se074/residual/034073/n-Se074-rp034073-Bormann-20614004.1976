@@ -1,0 +1,60 @@
+# header:
+#   title: Se74(n,x)Se73 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Bormann
+#   year: 1976
+#   subentry: 20614004
+#   X4 reaction: 34-SE-74(N,2N)34-SE-73,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20614004
+# target:
+#   Z: 34
+#   A: 74
+#   nuclide: Se74
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 34
+#   A: 73
+#   nuclide: Se73
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 10
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.296000E+01   6.000000E-02   7.400000E+01   1.200000E+01   1.000000E+00
+   1.356000E+01   7.000000E-02   1.550000E+02   2.300000E+01   1.000000E+00
+   1.431000E+01   9.000000E-02   2.810000E+02   3.600000E+01   1.000000E+00
+   1.482000E+01   1.000000E-01   3.680000E+02   5.000000E+01   1.000000E+00
+   1.535000E+01   1.000000E-01   4.230000E+02   3.000000E+01   1.000000E+00
+   1.593000E+01   1.100000E-01   5.010000E+02   6.100000E+01   1.000000E+00
+   1.641000E+01   1.100000E-01   5.750000E+02   7.700001E+01   1.000000E+00
+   1.692000E+01   1.100000E-01   6.030000E+02   4.200000E+01   1.000000E+00
+   1.755000E+01   1.100000E-01   6.550000E+02   7.400000E+01   1.000000E+00
+   1.822000E+01   1.200000E-01   6.790000E+02   6.400000E+01   1.000000E+00
+# reference:
+#   author: M.BORMANN, H-K.FEDDERSEN, H.-H.HOLSCHER, W.SCOBEL,  H.WAGNER
+#   title: -(N,2N) EXCITATION FUNCTIONS FOR FE-54, GE-70, SE-74,  RB-85, SR-86,88, Y-89, MO-92, AND HG-204 IN THE  NEUTRON ENERGY REGION 13-18 MEV-. (GERMAN)
+#   journal: Jour: Zeitschrift fuer Physik A, Hadrons and Nuclei, Vol.277, p.203 (197
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.296000E+01
+#   E-max [MeV]:  1.822000E+01
+#   F-value:  1.266609E+00
+#   A-value:  9.626398E-01
+#   chi-2:  4.151080E+00
+#   p-value:  3.100702E-01
+#   exp. data sets for p-value:      2
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.368144E+00   7.425076E-01   6.491390E+00
+# jeff3.3       1.242194E+00   1.101664E+00   3.782623E+00
+# jendl5.0      1.160998E+00   1.090540E+00   2.179227E+00

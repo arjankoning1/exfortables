@@ -1,0 +1,58 @@
+# header:
+#   title: Sr86(n,2n)Sr85 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Bormann
+#   year: 1976
+#   subentry: 20614008
+#   X4 reaction: 38-SR-86(N,2N)38-SR-85,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20614008
+# target:
+#   Z: 38
+#   A: 86
+#   nuclide: Sr86
+# reaction:
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 38
+#   A: 85
+#   nuclide: Sr85
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.268000E+01   1.000000E-01   4.020000E+02   2.800000E+01   1.000000E+00
+   1.338000E+01   1.200000E-01   5.990000E+02   4.000000E+01   1.000000E+00
+   1.406000E+01   1.300000E-01   7.670000E+02   5.200000E+01   1.000000E+00
+   1.562000E+01   1.600000E-01   9.330000E+02   5.900000E+01   1.000000E+00
+   1.641000E+01   1.600000E-01   1.049000E+03   7.000001E+01   1.000000E+00
+   1.711000E+01   1.500000E-01   1.089000E+03   7.300001E+01   1.000000E+00
+   1.812000E+01   1.300000E-01   1.117000E+03   7.000001E+01   1.000000E+00
+# reference:
+#   author: M.BORMANN, H-K.FEDDERSEN, H.-H.HOLSCHER, W.SCOBEL,  H.WAGNER
+#   title: -(N,2N) EXCITATION FUNCTIONS FOR FE-54, GE-70, SE-74,  RB-85, SR-86,88, Y-89, MO-92, AND HG-204 IN THE  NEUTRON ENERGY REGION 13-18 MEV-. (GERMAN)
+#   journal: Jour: Zeitschrift fuer Physik A, Hadrons and Nuclei, Vol.277, p.203 (197
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.268000E+01
+#   E-max [MeV]:  1.812000E+01
+#   F-value:  1.109035E+00
+#   A-value:  1.002828E+00
+#   chi-2:  2.376168E+00
+#   p-value:  3.279820E-01
+#   exp. data sets for p-value:      1
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2023    1.128058E+00   9.676018E-01   2.681273E+00
+# endfb8.0      1.080061E+00   1.046473E+00   1.900729E+00
+# jeff3.3       1.106084E+00   1.007894E+00   2.416703E+00
+# jendl5.0      1.116904E+00   9.909841E-01   2.505966E+00

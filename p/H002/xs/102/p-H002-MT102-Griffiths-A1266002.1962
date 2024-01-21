@@ -1,0 +1,54 @@
+# header:
+#   title: H2(p,g)He3 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Griffiths
+#   year: 1962
+#   subentry: A1266002
+#   X4 reaction: 1-H-2(P,G)2-HE-3,,SIG,,,EXP
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/A1266002
+# target:
+#   Z: 1
+#   A: 2
+#   nuclide: H2
+# reaction:
+#   type: (p,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+# residual:
+#   Z: 2
+#   A: 3
+#   nuclide: He3
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.750000E-01   0.000000E+00   1.000000E-03   1.000000E-04   1.000000E+00
+   5.800000E-01   0.000000E+00   2.200000E-03   3.000000E-04   1.000000E+00
+   7.550000E-01   0.000000E+00   2.700000E-03   1.000000E-04   1.000000E+00
+   9.850000E-01   0.000000E+00   3.500000E-03   4.000000E-04   1.000000E+00
+   1.750000E+00   0.000000E+00   4.900000E-03   5.000000E-04   1.000000E+00
+# reference:
+#   author: G.M.GRIFFITHS,E.A.LARSON,L.P.ROBERTSON
+#   title: The capture of protons by deuterons
+#   journal: Jour: Canadian Journal of Physics, Vol.40, Issue.4, p.402 (1962)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  2.750000E-01
+#   E-max [MeV]:  1.750000E+00
+#   F-value:  1.218484E+00
+#   A-value:  1.213677E+00
+#   chi-2:  1.504019E+01
+#   p-value:  2.300327E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.218484E+00   1.213677E+00   1.504019E+01
+# endfb8.0      1.218484E+00   1.213677E+00   1.504019E+01

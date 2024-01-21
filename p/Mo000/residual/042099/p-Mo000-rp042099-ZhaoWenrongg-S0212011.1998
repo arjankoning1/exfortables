@@ -1,0 +1,58 @@
+# header:
+#   title: Mo0(p,x)Mo99 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: ZhaoWenrongg
+#   year: 1998
+#   subentry: S0212011
+#   X4 reaction: 42-MO-0(P,X)42-MO-99,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/S0212011
+# target:
+#   Z: 42
+#   A: 0
+#   nuclide: Mo0
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 42
+#   A: 99
+#   nuclide: Mo99
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 9
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.499000E+01   9.000000E-02   3.781300E+00   2.985200E-01   9.950820E-01
+   1.590000E+01   1.300000E-01   5.373400E+00   2.985200E-01   9.950820E-01
+   1.678000E+01   1.000000E-01   6.766600E+00   3.980300E-01   9.950820E-01
+   1.816000E+01   9.000000E-02   1.074689E+01   5.970500E-01   9.950820E-01
+   1.893000E+01   9.000000E-02   9.652300E+00   4.975400E-01   9.950820E-01
+   1.969000E+01   8.000000E-02   1.263754E+01   6.965600E-01   9.950820E-01
+   2.042000E+01   9.000000E-02   1.403066E+01   6.965600E-01   9.950820E-01
+   2.116000E+01   1.000000E-01   1.562279E+01   6.965600E-01   9.950820E-01
+   2.185000E+01   7.000000E-02   1.283656E+01   5.970500E-01   9.950820E-01
+# reference:
+#   author: Zhao Wenrong,Yu Weixiang,Han Xiaogang,Lu Hanlin
+#   title: Excitation Functions of Reactions from d+Ti, d+Mo, p+Ti and p+Mo
+#   journal: Rept: Chinese report to the I.N.D.C., No.44, p.17 (1998)
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  1.499000E+01
+#   E-max [MeV]:  2.185000E+01
+#   F-value:  2.846381E+00
+#   A-value:  3.800901E-01
+#   chi-2:  1.168951E+02
+#   p-value:  2.157048E-01
+#   exp. data sets for p-value:      3
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    2.761865E+00   3.971380E-01   1.083271E+02
+# jendl5.0      2.931006E+00   3.637742E-01   1.254632E+02

@@ -1,0 +1,58 @@
+# header:
+#   title: Cu63(n,2n)Cu62 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Fowler
+#   year: 1950
+#   subentry: 11797002
+#   X4 reaction: 29-CU-63(N,2N)29-CU-62,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11797002
+# target:
+#   Z: 29
+#   A: 63
+#   nuclide: Cu63
+# reaction:
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 29
+#   A: 62
+#   nuclide: Cu62
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.144000E+01   0.000000E+00   1.000000E+01   2.000000E+00   1.000000E+00
+   1.205000E+01   0.000000E+00   5.000000E+01   1.000000E+01   1.000000E+00
+   1.228000E+01   0.000000E+00   9.000000E+01   1.800000E+01   1.000000E+00
+   1.240000E+01   0.000000E+00   1.350000E+02   2.700000E+01   1.000000E+00
+   1.270000E+01   0.000000E+00   1.600000E+02   3.200000E+01   1.000000E+00
+# reference:
+#   author: J.L.Fowler,J.M.Slye Jr
+#   title: The Cu-63(n,2n)Cu-62 cross section as a function of  neutron energy near the threshold.
+#   journal: Jour: Physical Review, Vol.77, p.787 (1950)
+# statistics:
+#   NEA score: R2
+#   IAEA score:  1
+#   E-min [MeV]:  1.144000E+01
+#   E-max [MeV]:  1.270000E+01
+#   F-value:  1.276495E+00
+#   A-value:  1.196696E+00
+#   chi-2:  2.511326E+00
+#   p-value:  2.354912E-01
+#   exp. data sets for p-value:      3
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2023    1.243872E+00   1.178440E+00   2.021015E+00
+# endfb8.0      1.259224E+00   1.177212E+00   2.205478E+00
+# jeff3.3       1.339632E+00   1.285669E+00   3.540338E+00
+# jendl5.0      1.372652E+00   1.285647E+00   4.216688E+00
+# cendl3.2      1.185522E+00   1.111222E+00   1.315380E+00
+# irdff2.0      1.227524E+00   1.152627E+00   1.769055E+00

@@ -1,0 +1,40 @@
+# header:
+#   title: H1(i,a)He3 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Blackmon
+#   year: 2001
+#   subentry: C1636002
+#   X4 reaction: 1-H-1(9-F-17,A)8-O-14,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C1636002
+# target:
+#   Z: 1
+#   A: 1
+#   nuclide: H1
+# reaction:
+#   type: (i,a)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+# residual:
+#   Z: 2
+#   A: 3
+#   nuclide: He3
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   4.013600E+01   0.000000E+00   1.191000E-02   3.325000E-03   1.000000E+00
+   4.270900E+01   0.000000E+00   9.941000E-03   5.388000E-03   1.000000E+00
+   4.676600E+01   0.000000E+00   3.023000E-03   1.803000E-03   1.000000E+00
+   4.976800E+01   0.000000E+00   3.465000E-02   6.321000E-03   1.000000E+00
+   5.178700E+01   0.000000E+00   6.323000E-02   1.022000E-02   1.000000E+00
+# reference:
+#   author: C.J.Blackmon,D.W.Bardayan,W.Bradfield-Smith, A.E.Champagne,A.A.Chen,T.Davinson,K.I.Hahn, R.L.Kozub,Z.Ma,P.D.Parker,G.Rajbaidya,R.C.Runkle, C.M.Rowland,A.C.Shotter,M.S.Smith,K.B.Swartz, D.W.Visser,P.J.Woods
+#   title: Determination of the 14O(a,p)17F g.s. reaction rate by measurement of the 1H(17F,a)14O cross section
+#   journal: Jour: Nuclear Physics, Section A, Vol.688, p.142 (2001)

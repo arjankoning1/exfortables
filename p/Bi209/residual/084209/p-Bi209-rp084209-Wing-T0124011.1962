@@ -1,0 +1,52 @@
+# header:
+#   title: Bi209(p,x)Po209 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Wing
+#   year: 1962
+#   subentry: T0124011
+#   X4 reaction: 83-BI-209(P,N)84-PO-209,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/T0124011
+# target:
+#   Z: 83
+#   A: 209
+#   nuclide: Bi209
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+# residual:
+#   Z: 84
+#   A: 209
+#   nuclide: Po209
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   9.780000E+00   0.000000E+00   9.000000E+01   0.000000E+00   1.000000E+00
+   1.030000E+01   0.000000E+00   1.140000E+02   0.000000E+00   1.000000E+00
+# reference:
+#   author: J.WING,J.R.HUIZENGA
+#   title: (p,n) Cross Sections of V51, Cr52, Cu63, Cu65, Ag107,   Ag109, Cd111, Cd114, and La139 from 5 to 10.5 MeV
+#   journal: Jour: Physical Review, Vol.128, p.280 (1962)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  9.780000E+00
+#   E-max [MeV]:  1.030000E+01
+#   F-value:  1.391509E+00
+#   A-value:  1.344035E+00
+#   chi-2:  0.000000E+00
+#   p-value:  2.517465E-01
+#   exp. data sets for p-value:      2
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.136328E+00   1.134361E+00   0.000000E+00
+# endfb8.0      1.617883E+00   1.617053E+00   0.000000E+00
+# jendl5.0      1.326102E+00   1.323598E+00   0.000000E+00

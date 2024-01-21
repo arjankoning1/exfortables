@@ -1,0 +1,51 @@
+# header:
+#   title: Fe56(n,xa) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Saraf
+#   year: 1991
+#   subentry: 12812013
+#   X4 reaction: 26-FE-56(N,X)2-HE-4,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/12812013
+# target:
+#   Z: 26
+#   A: 56
+#   nuclide: Fe56
+# reaction:
+#   type: (n,xa)
+#   ENDF_MF: 3
+#   ENDF_MT: 207
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   9.500000E+00   2.500000E-01   1.380000E+01   2.400000E+00   1.000000E+00
+   1.100000E+01   2.000000E-01   3.370000E+01   5.200000E+00   1.000000E+00
+# reference:
+#   author: S.K.SARAF,C.E.BRENT,P.M.EGUN,S.M.GRIMES,V.MISHRA, R.S.PEDRONI
+#   title: CROSS SECTIONS AND SPECTRA FOR THE 54FE AND 56FE  (N,XP) AND (N,X ALPHA) REACTIONS BETWEEN 8 AND 15 MEV
+#   journal: Jour: Nuclear Science and Engineering, Vol.107, p.365 (1991)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  9.500000E+00
+#   E-max [MeV]:  1.100000E+01
+#   F-value:  1.789290E+00
+#   A-value:  8.010055E-01
+#   chi-2:  7.298725E+00
+#   p-value:  2.342773E-01
+#   exp. data sets for p-value:      2
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2023    1.732550E+00   6.002009E-01   6.885502E+00
+# endfb8.0      2.875628E+00   3.544937E-01   1.508187E+01
+# jeff3.3       1.322857E+00   1.102506E+00   3.953524E+00
+# jendl5.0      1.352126E+00   1.155262E+00   4.803621E+00
+# cendl3.2      1.383782E+00   1.216776E+00   5.769103E+00
+# irdff2.0      0.000000E+00   0.000000E+00   0.000000E+00

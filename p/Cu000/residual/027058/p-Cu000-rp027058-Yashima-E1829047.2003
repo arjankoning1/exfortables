@@ -1,0 +1,59 @@
+# header:
+#   title: Cu0(p,x)Co58 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Yashima
+#   year: 2003
+#   subentry: E1829047
+#   X4 reaction: 29-CU-0(P,X)27-CO-58,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/E1829047
+# target:
+#   Z: 29
+#   A: 0
+#   nuclide: Cu0
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 27
+#   A: 58
+#   nuclide: Co58
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 9
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.700000E+01   0.000000E+00   2.360313E+01   5.707100E-01   9.994973E-01
+   4.800000E+01   0.000000E+00   3.148616E+01   7.616200E-01   9.994973E-01
+   6.300000E+01   0.000000E+00   3.235073E+01   7.826100E-01   9.994973E-01
+   7.600000E+01   0.000000E+00   4.658257E+01   1.127400E+00   9.994973E-01
+   8.800000E+01   0.000000E+00   4.432471E+01   1.072500E+00   9.994973E-01
+   1.000000E+02   0.000000E+00   5.051259E+01   1.475300E+00   9.994973E-01
+   1.390000E+02   0.000000E+00   4.824375E+01   1.408300E+00   9.994973E-01
+   1.730000E+02   0.000000E+00   4.403385E+01   1.285400E+00   9.994973E-01
+   2.020000E+02   0.000000E+00   4.273351E+01   1.247400E+00   9.994973E-01
+# reference:
+#   author: H.Yashima, Y.Uwamino, H.Iwase, H.Sugita, T.Nakamura,  S.Ito, A.Fukumura
+#   title: Measurement and calculation of radioactivities of spallation products by high-energy heavy ions
+#   journal: Jour: Radiochimica Acta, Vol.91, p.689 (2003)
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  2.700000E+01
+#   E-max [MeV]:  2.020000E+02
+#   F-value:  3.029374E+00
+#   A-value:  6.403602E-01
+#   chi-2:  2.916663E+02
+#   p-value:  2.437508E-01
+#   exp. data sets for p-value:      4
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    3.706510E+00   5.935144E-01   2.396178E+02
+# endfb8.0      2.496232E+00   6.870099E-01   3.882976E+02
+# jendl5.0      3.147208E+00   7.033727E-01   2.140733E+02

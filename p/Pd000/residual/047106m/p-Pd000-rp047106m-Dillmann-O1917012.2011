@@ -1,0 +1,65 @@
+# header:
+#   title: Pd0(p,x)Ag106m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Dillmann
+#   year: 2011
+#   subentry: O1917012
+#   X4 reaction: 46-PD-0(P,X)47-AG-106-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O1917012
+# target:
+#   Z: 46
+#   A: 0
+#   nuclide: Pd0
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 47
+#   A: 106
+#   nuclide: Ag106m
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 11
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.208097E+00   1.500000E-02   3.600000E-03   4.000000E-04   1.000000E+00
+   3.456426E+00   1.600000E-02   5.000000E-03   6.000000E-04   1.000000E+00
+   3.476616E+00   2.900000E-02   6.100000E-03   6.000000E-04   1.000000E+00
+   3.713841E+00   2.900000E-02   9.600000E-03   1.600000E-03   1.000000E+00
+   3.930877E+00   2.800000E-02   1.500000E-02   1.800000E-03   1.000000E+00
+   3.974285E+00   3.000000E-02   1.510000E-02   2.100000E-03   1.000000E+00
+   4.209491E+00   2.900000E-02   4.460000E-02   4.900000E-03   1.000000E+00
+   4.411385E+00   2.900000E-02   6.360000E-02   8.800000E-03   1.000000E+00
+   4.480029E+00   3.100000E-02   7.780001E-02   5.200000E-03   1.000000E+00
+   4.936310E+00   3.100000E-02   2.990000E-01   2.200000E-02   1.000000E+00
+   4.959528E+00   3.100000E-02   3.070000E-01   2.500000E-02   1.000000E+00
+# reference:
+#   author: I.Dillmann, L.Coquard, C.Domingo-Pardo, F.Kaeppeler, J.Marganiec, E.Uberseder, U.Giesen, A.Heiske, G.Feinberg, D.Hentschel, S.Hilpp, H.Leiste, T.Rauscher, F.-K.Thielemann
+#   title: Cross section for proton-induced reactions on Pd isotopes at energies relevant for the gamma process.
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.84, p.015802 (2011)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  3.208097E+00
+#   E-max [MeV]:  4.959528E+00
+#   F-value:  2.343832E+00
+#   A-value:  5.346859E-01
+#   chi-2:  3.565899E+01
+#   p-value:  2.369587E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    2.019935E+00   7.422570E-01   3.597412E+01
+# jendl5.0      2.659537E+00   3.851616E-01   3.534386E+01

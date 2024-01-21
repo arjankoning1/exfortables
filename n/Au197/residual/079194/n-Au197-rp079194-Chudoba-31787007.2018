@@ -1,0 +1,52 @@
+# header:
+#   title: Au197(n,x)Au194 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Chudoba
+#   year: 2018
+#   subentry: 31787007
+#   X4 reaction: 79-AU-197(N,4N)79-AU-194,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/31787007
+# target:
+#   Z: 79
+#   A: 197
+#   nuclide: Au197
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 37
+# residual:
+#   Z: 79
+#   A: 194
+#   nuclide: Au194
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.000000E+01   1.600000E+00   7.021019E+02   7.694267E+01   9.617833E-01
+   3.250000E+01   1.600000E+00   1.000255E+03   1.057962E+02   9.617833E-01
+   3.350000E+01   1.600000E+00   1.125286E+03   1.250318E+02   9.617833E-01
+# reference:
+#   author: P.Chudoba, A.Krasa, J.Vrzalova, O.Svoboda, S.Kilim,  V.Wagner, M.Majerle, M.Stefanik, M.Suchopar, A.Kugler,  M.Bielewicz, E.Strugalska-Gola, M.Szuta
+#   title: Activation Measurements of Cross Sections for Ground  and Isomeric States Production in Neutron Threshold  Reactions on Y and Au
+#   journal: Jour: Nuclear Science and Engineering, Vol.191, p.150 (2018)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  3.000000E+01
+#   E-max [MeV]:  3.350000E+01
+#   F-value:  1.149065E+00
+#   A-value:  9.243679E-01
+#   chi-2:  1.795485E+00
+#   p-value:  3.898190E-01
+#   exp. data sets for p-value:      6
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.050378E+00   1.032313E+00   6.025572E-01
+# jendl5.0      1.209561E+00   8.277099E-01   2.988412E+00

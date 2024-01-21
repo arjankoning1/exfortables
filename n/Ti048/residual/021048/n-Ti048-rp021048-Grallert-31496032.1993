@@ -1,0 +1,51 @@
+# header:
+#   title: Ti48(n,x)Sc48 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Grallert
+#   year: 1993
+#   subentry: 31496032
+#   X4 reaction: 22-TI-48(N,P)21-SC-48,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/31496032
+# target:
+#   Z: 22
+#   A: 48
+#   nuclide: Ti48
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 21
+#   A: 48
+#   nuclide: Sc48
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.460000E+01   1.200000E-01   6.700000E+01   4.000000E+00   1.000000E+00
+# reference:
+#   author: A.Grallert, J.Csikai, Cs.M.Buczko, I.Shaddad
+#   title: Investigations on the systematics in (n,a) cross  sections at 14.6 MeV
+#   journal: Rept: IAEA Nucl.Data Section report to the I.N.D.C., No.286, p.131 (1993
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.460000E+01
+#   E-max [MeV]:  1.460000E+01
+#   F-value:  1.055464E+00
+#   A-value:  9.560520E-01
+#   chi-2:  1.177227E+00
+#   p-value:  2.564972E-01
+#   exp. data sets for p-value:      8
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.068722E+00   9.356974E-01   1.750178E+00
+# jeff3.3       1.067913E+00   9.364060E-01   1.725218E+00
+# jendl5.0      1.002663E+00   9.973438E-01   5.628546E-02

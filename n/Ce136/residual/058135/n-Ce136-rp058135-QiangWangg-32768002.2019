@@ -1,0 +1,51 @@
+# header:
+#   title: Ce136(n,x)Ce135 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: QiangWangg
+#   year: 2019
+#   subentry: 32768002
+#   X4 reaction: 58-CE-136(N,2N)58-CE-135,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/32768002
+# target:
+#   Z: 58
+#   A: 136
+#   nuclide: Ce136
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 58
+#   A: 135
+#   nuclide: Ce135
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.420000E+01   2.000000E-01   1.420862E+03   7.808574E+01   9.984974E-01
+   1.490000E+01   2.000000E-01   1.504123E+03   7.404113E+01   9.811628E-01
+# reference:
+#   author: Qiang Wang,Yafei Han,Bingjun Chen,Zhenglin Huang, S.Tamaki,I.Murata,Tieshan Wang,Kaihong Fang
+#   title: Cross sections of (n,x) reactions on cerium isotopes induced by D-T neutrons
+#   journal: Jour: Applied Radiation and Isotopes, Vol.147, p.144 (2019)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  1.420000E+01
+#   E-max [MeV]:  1.490000E+01
+#   F-value:  1.090425E+00
+#   A-value:  9.545722E-01
+#   chi-2:  2.794121E+00
+#   p-value:  4.497600E-01
+#   exp. data sets for p-value:      7
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.126822E+00   8.878433E-01   4.883643E+00
+# jeff3.3       1.027412E+00   1.026316E+00   7.045999E-01

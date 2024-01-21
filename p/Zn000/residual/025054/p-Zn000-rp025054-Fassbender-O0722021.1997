@@ -1,0 +1,53 @@
+# header:
+#   title: Zn0(p,x)Mn54 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Fassbender
+#   year: 1997
+#   subentry: O0722021
+#   X4 reaction: 30-ZN-0(P,X)25-MN-54,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O0722021
+# target:
+#   Z: 30
+#   A: 0
+#   nuclide: Zn0
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 25
+#   A: 54
+#   nuclide: Mn54
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.340000E+02   6.774216E-01   5.296000E+00   8.993200E-01   9.992399E-01
+   1.570000E+02   7.913438E-01   7.894000E+00   1.299000E+00   9.992399E-01
+   2.147000E+02   1.078148E+00   1.149126E+01   2.797900E+00   9.992399E-01
+   2.543000E+02   1.275426E+00   1.179103E+01   2.797900E+00   9.992399E-01
+# reference:
+#   author: M.Fassbender, Yu.N.Shubin, V.P.Lunev, S.M.Qaim
+#   title: Experimental studies and nuclear model calculations on the formation of radioactive products in interactions of medium energy protons with copper, zinc and brass:  estimation of collimator activation in proton therapy facilities.
+#   journal: Jour: Applied Radiation and Isotopes, Vol.48, p.1221 (1997)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  1.340000E+02
+#   E-max [MeV]:  2.543000E+02
+#   F-value:  1.304970E+00
+#   A-value:  1.175805E+00
+#   chi-2:  4.239709E+00
+#   p-value:  1.886103E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.020196E+00   9.869958E-01   1.172924E-01
+# jendl5.0      1.456307E+00   1.400732E+00   8.362125E+00

@@ -1,0 +1,51 @@
+# header:
+#   title: O16(p,x)C10 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Valentin
+#   year: 1963
+#   subentry: C0061020
+#   X4 reaction: 8-O-16(P,X)6-C-10,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C0061020
+# target:
+#   Z: 8
+#   A: 16
+#   nuclide: O16
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 6
+#   A: 10
+#   nuclide: C10
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.550000E+02   0.000000E+00   1.000000E+00   2.000000E-01   1.000000E+00
+# reference:
+#   author: L.Valentin,G.Albouy,J.P.Cohen,M.Gusakow
+#   title: Reactions induites par des protons de 155 MeV sur des  noyaux legers. (Reactions induced by 155 MeV protons  on light nuclei)
+#   journal: Jour: Physics Letters, Vol.7, p.163 (1963)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  1.550000E+02
+#   E-max [MeV]:  1.550000E+02
+#   F-value:  1.680052E+00
+#   A-value:  1.680052E+00
+#   chi-2:  1.157721E+01
+#   p-value:  2.616438E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    0.000000E+00   0.000000E+00   0.000000E+00
+# endfb8.0      0.000000E+00   0.000000E+00   0.000000E+00
+# jendl5.0      1.680052E+00   1.680052E+00   1.157721E+01

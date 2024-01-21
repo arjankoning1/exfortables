@@ -1,0 +1,53 @@
+# header:
+#   title: Ga69(n,x)Ga68 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Luo
+#   year: 2012
+#   subentry: 327040021
+#   X4 reaction: 31-GA-69(N,2N)31-GA-68,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/327040021
+# target:
+#   Z: 31
+#   A: 69
+#   nuclide: Ga69
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 31
+#   A: 68
+#   nuclide: Ga68
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.350000E+01   2.000000E-01   7.792047E+02   8.655482E+01   9.298385E-01
+   1.410000E+01   2.000000E-01   8.222672E+02   8.898270E+01   9.270204E-01
+   1.480000E+01   2.000000E-01   8.621562E+02   8.315883E+01   9.240689E-01
+# reference:
+#   author: J.Luo,R.Liu,L.Jiang
+#   title: Cross section measurements for gallium in the neutron energy range of 13.5 to 14.8 MeV
+#   journal: Jour: Radiochimica Acta, Vol.100, Issue.4, p.231 (2012)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.350000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.081129E+00
+#   A-value:  9.492072E-01
+#   chi-2:  7.365574E-01
+#   p-value:  3.309096E-01
+#   exp. data sets for p-value:      3
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.061134E+00   9.664686E-01   5.269046E-01
+# jeff3.3       1.085533E+00   9.452135E-01   7.722548E-01
+# jendl5.0      1.093552E+00   9.361932E-01   9.105127E-01

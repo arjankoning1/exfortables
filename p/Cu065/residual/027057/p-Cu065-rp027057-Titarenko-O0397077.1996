@@ -1,0 +1,52 @@
+# header:
+#   title: Cu65(p,x)Co57 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Titarenko
+#   year: 1996
+#   subentry: O0397077
+#   X4 reaction: 29-CU-65(P,X)27-CO-57,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O0397077
+# target:
+#   Z: 29
+#   A: 65
+#   nuclide: Cu65
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 27
+#   A: 57
+#   nuclide: Co57
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.300000E+02   0.000000E+00   3.400000E+01   4.000000E+00   1.000000E+00
+   1.500000E+03   0.000000E+00   2.120000E+01   2.500000E+00   1.000000E+00
+# reference:
+#   author: Yu.E.Titarenko,E.I.Karpikhin,A.F.Smolyakov, M.M.Igumnov,O.V.Shvedov,N.V.Stepanov,V.D.Kazarizki, V.F.Batyaev,S.G.Mashnik,T.A.Gabriehl
+#   title: Experimental and calculative research of radioactive nuclei formation-products of target and constructional materials of electronuclear facilities irradiated by protons with energies 1.5 GeV and 130 MeV.
+#   journal: Conf: Worksh.Exact Meas.in Nucl.Spect., Sarov, Russia 1996, p.184 (1996)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  1.300000E+02
+#   E-max [MeV]:  1.500000E+03
+#   F-value:  1.532646E+00
+#   A-value:  9.000385E-01
+#   chi-2:  9.833358E+00
+#   p-value:  2.201840E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.016427E+00   9.838385E-01   1.772727E-01
+# endfb8.0      1.420594E+00   1.420594E+00   1.278992E+01
+# jendl5.0      1.916949E+00   5.216622E-01   1.653288E+01

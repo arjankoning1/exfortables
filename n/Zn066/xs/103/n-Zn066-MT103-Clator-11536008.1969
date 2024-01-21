@@ -1,0 +1,55 @@
+# header:
+#   title: Zn66(n,p)Cu66 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Clator
+#   year: 1969
+#   subentry: 11536008
+#   X4 reaction: 30-ZN-66(N,P)29-CU-66,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11536008
+# target:
+#   Z: 30
+#   A: 66
+#   nuclide: Zn66
+# reaction:
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 29
+#   A: 66
+#   nuclide: Cu66
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.440000E+01   0.000000E+00   6.883597E+01   1.301553E+01   9.560553E-01
+   1.570000E+01   0.000000E+00   5.535509E+01   9.862801E+00   9.225849E-01
+   1.670000E+01   0.000000E+00   4.964815E+01   9.232400E+00   9.194101E-01
+# reference:
+#   author: I.G.CLATOR
+#   title: NEUTRON INDUCED REACTIONS BETWEEN 14.4 AND 16.7 MEV.
+#   journal: Thesis: Clator (1969)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.440000E+01
+#   E-max [MeV]:  1.670000E+01
+#   F-value:  1.124165E+00
+#   A-value:  1.046126E+00
+#   chi-2:  7.731543E-01
+#   p-value:  3.564669E-01
+#   exp. data sets for p-value:      8
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    1.169711E+00   1.144301E+00   1.330801E+00
+# endfb8.0      1.075085E+00   9.491401E-01   3.727200E-01
+# jeff3.3       1.025984E+00   1.013209E+00   1.665362E-01
+# jendl5.0      1.062085E+00   9.681509E-01   2.665538E-01
+# cendl3.2      1.203761E+00   1.175998E+00   1.729161E+00

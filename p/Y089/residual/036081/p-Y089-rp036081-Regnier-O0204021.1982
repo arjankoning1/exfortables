@@ -1,0 +1,58 @@
+# header:
+#   title: Y89(p,x)Kr81 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Regnier
+#   year: 1982
+#   subentry: O0204021
+#   X4 reaction: 39-Y-89(P,X)36-KR-81,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O0204021
+# target:
+#   Z: 39
+#   A: 89
+#   nuclide: Y89
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 36
+#   A: 81
+#   nuclide: Kr81
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 9
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.900000E+01   0.000000E+00   3.675000E-01   2.607100E-02   3.675000E-01
+   7.500000E+01   0.000000E+00   6.086500E+00   1.151800E-01   4.869198E-01
+   8.000000E+01   0.000000E+00   6.433800E+00   1.967800E+00   5.026432E-01
+   1.500000E+02   0.000000E+00   4.470000E+01   4.600000E+00   1.000000E+00
+   1.680000E+02   0.000000E+00   5.580000E+01   5.600000E+00   1.000000E+00
+   2.000000E+02   0.000000E+00   7.400000E+01   7.500000E+00   1.000000E+00
+   1.005000E+03   0.000000E+00   5.300000E+01   5.300000E+00   1.000000E+00
+   2.500000E+03   0.000000E+00   2.730000E+01   2.700000E+00   1.000000E+00
+   2.400000E+04   0.000000E+00   2.400000E+01   5.800000E+00   1.000000E+00
+# reference:
+#   author: S.Regnier, B.Lavielle, M.Simonoff, G.N.Simonoff
+#   title: Nuclear reactions in Rb,Sr,Y and Zr targets
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.26, p.931 (1982)
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  5.900000E+01
+#   E-max [MeV]:  2.400000E+04
+#   F-value:  5.327541E+00
+#   A-value:  2.371933E-01
+#   chi-2:  3.244325E+02
+#   p-value:  9.814503E-02
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    6.776712E+00   1.772784E-01   3.756993E+02
+# jendl5.0      4.020004E+00   3.173576E-01   2.731656E+02

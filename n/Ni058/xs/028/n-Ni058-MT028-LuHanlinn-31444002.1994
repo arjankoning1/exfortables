@@ -1,0 +1,56 @@
+# header:
+#   title: Ni58(n,np)Co57 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: LuHanlinn
+#   year: 1994
+#   subentry: 31444002
+#   X4 reaction: 28-NI-58(N,X)27-CO-57,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/31444002
+# target:
+#   Z: 28
+#   A: 58
+#   nuclide: Ni58
+# reaction:
+#   type: (n,np)
+#   ENDF_MF: 3
+#   ENDF_MT: 28
+# residual:
+#   Z: 27
+#   A: 57
+#   nuclide: Co57
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.355000E+01   1.200000E-01   5.201666E+02   1.400586E+01   1.008075E+00
+   1.400000E+01   1.000000E-01   5.885829E+02   1.509275E+01   1.006125E+00
+   1.462000E+01   2.400000E-01   6.739038E+02   1.802238E+01   1.001343E+00
+   1.485000E+01   3.200000E-01   6.902483E+02   1.867210E+01   1.003268E+00
+# reference:
+#   author: Lu Hanlin,Zhao Wenrong,Yu Weixiang
+#   title: Cross-section measurement for Ni-58(n,np+pn+d)Co-57, Ni-60(n,p)Co-60 and Ni-62(n,alpha)Fe=59 reactions.
+#   journal: Jour: Chinese J.of Nuclear Physics (Beijing)., Vol.16, p.263 (1994)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.355000E+01
+#   E-max [MeV]:  1.485000E+01
+#   F-value:  1.053893E+00
+#   A-value:  9.649954E-01
+#   chi-2:  4.063200E+00
+#   p-value:  1.857885E-01
+#   exp. data sets for p-value:      8
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    1.047399E+00   1.030023E+00   3.428798E+00
+# endfb8.0      1.057655E+00   9.460946E-01   4.506169E+00
+# jeff3.3       1.050283E+00   9.555221E-01   3.574121E+00
+# jendl5.0      1.045079E+00   9.578826E-01   3.081109E+00
+# cendl3.2      1.066448E+00   9.381926E-01   5.725802E+00

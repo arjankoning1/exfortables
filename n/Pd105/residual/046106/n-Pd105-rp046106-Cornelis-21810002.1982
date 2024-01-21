@@ -1,0 +1,65 @@
+# header:
+#   title: Pd105(n,x)Pd106 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Cornelis
+#   year: 1982
+#   subentry: 21810002
+#   X4 reaction: 46-PD-105(N,G)46-PD-106,,SIG,,AV
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21810002
+# target:
+#   Z: 46
+#   A: 105
+#   nuclide: Pd105
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+# residual:
+#   Z: 46
+#   A: 106
+#   nuclide: Pd106
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 16
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.500000E-03   5.000000E-04   2.340000E+03   1.170000E+02   1.000000E+00
+   4.500000E-03   5.000000E-04   2.170000E+03   1.085000E+02   1.000000E+00
+   5.500000E-03   5.000000E-04   2.330000E+03   1.165000E+02   1.000000E+00
+   7.000000E-03   1.000000E-03   1.920000E+03   9.599999E+01   1.000000E+00
+   9.000000E-03   1.000000E-03   1.760000E+03   8.800000E+01   1.000000E+00
+   1.250000E-02   2.500000E-03   1.720000E+03   8.600000E+01   1.000000E+00
+   1.750000E-02   2.500000E-03   1.560000E+03   7.799998E+01   1.000000E+00
+   2.500000E-02   5.000000E-03   1.370000E+03   6.850000E+01   1.000000E+00
+   3.500000E-02   5.000000E-03   1.180000E+03   5.900000E+01   1.000000E+00
+   4.500000E-02   5.000000E-03   1.080000E+03   5.400000E+01   1.000000E+00
+   5.500000E-02   5.000000E-03   9.780000E+02   4.890000E+01   1.000000E+00
+   7.000000E-02   1.000000E-02   8.520000E+02   4.260000E+01   1.000000E+00
+   9.000000E-02   1.000000E-02   7.140000E+02   3.570000E+01   1.000000E+00
+   1.250000E-01   2.500000E-02   6.030000E+02   3.015000E+01   1.000000E+00
+   1.750000E-01   2.500000E-02   4.930000E+02   2.465000E+01   1.000000E+00
+   2.500000E-01   5.000000E-02   4.160000E+02   2.080000E+01   1.000000E+00
+# reference:
+#   author: E.CORNELIS,G.J.VANPRAET,C.BASTIAN,G.ROHR,  R.SHELLEY,T.VAN DER VEEN
+#   title: -AVERAGE CAPTURE CROSS SECTION OF THE FISSION  PRODUCT NUCLEI PD-104 PD-105 PD-106 PD-108  PD-110.
+#   journal: Conf: Conf.on Nucl.Data for Sci.and Technol.,Antwerp 1982, p.222 (1982)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  3.500000E-03
+#   E-max [MeV]:  2.500000E-01
+#   F-value:  1.132523E+00
+#   A-value:  1.002367E+00
+#   chi-2:  6.508657E+00
+#   p-value:  3.190050E-01
+#   exp. data sets for p-value:      3
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.157679E+00   9.520763E-01   8.110953E+00
+# jendl5.0      1.102583E+00   1.055314E+00   4.906359E+00

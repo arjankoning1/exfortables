@@ -1,0 +1,63 @@
+# header:
+#   title: Mo100(p,2n)Tc99g cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Gagnon
+#   year: 2011
+#   subentry: C2156008
+#   X4 reaction: 42-MO-100(P,2N)43-TC-99-G,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C2156008
+# target:
+#   Z: 42
+#   A: 100
+#   nuclide: Mo100
+# reaction:
+#   type: (p,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 43
+#   A: 99
+#   nuclide: Tc99g
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 9
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   8.500000E+00   1.000000E-01   9.200001E+01   1.400000E+01   1.000000E+00
+   1.000000E+01   1.000000E-01   3.170000E+02   4.600000E+01   1.000000E+00
+   1.130000E+01   1.000000E-01   5.360000E+02   7.900000E+01   1.000000E+00
+   1.250000E+01   1.000000E-01   6.810001E+02   9.200001E+01   1.000000E+00
+   1.350000E+01   2.000000E-01   6.300001E+02   9.000000E+01   1.000000E+00
+   1.460000E+01   2.000000E-01   6.890001E+02   9.700000E+01   1.000000E+00
+   1.560000E+01   2.000000E-01   7.490001E+02   1.070000E+02   1.000000E+00
+   1.660000E+01   2.000000E-01   8.070000E+02   1.120000E+02   1.000000E+00
+   1.750000E+01   2.000000E-01   8.120000E+02   1.120000E+02   1.000000E+00
+# reference:
+#   author: K.Gagnon,F.Benard,M.Kovacs,T.J.Ruth,P.Schaffer, J.S.Wilson,S.A.Mcquarrie
+#   title: Cyclotron production of 99mTc: Experimental measurement of the 100Mo(p,x)99Mo, 99mTc and 99gTc excitation functions from 8 to 18 MeV
+#   journal: Jour: Int. Journal of Nuclear Medicine and Biology, Vol.38, p.907 (2011)
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  8.500000E+00
+#   E-max [MeV]:  1.750000E+01
+#   F-value:  2.046830E+00
+#   A-value:  6.104762E-01
+#   chi-2:  9.593171E+00
+#   p-value:  2.250301E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.087478E+00   9.402143E-01   6.258948E-01
+# jendl5.0      2.917282E+00   3.548974E-01   2.083667E+01

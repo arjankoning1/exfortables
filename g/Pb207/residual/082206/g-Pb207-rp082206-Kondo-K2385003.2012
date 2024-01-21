@@ -1,0 +1,64 @@
+# header:
+#   title: Pb207(g,x)Pb206 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Kondo
+#   year: 2012
+#   subentry: K2385003
+#   X4 reaction: 82-PB-207(G,N)82-PB-206,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/K2385003
+# target:
+#   Z: 82
+#   A: 207
+#   nuclide: Pb207
+# reaction:
+#   type: (g,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+# residual:
+#   Z: 82
+#   A: 206
+#   nuclide: Pb206
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 14
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   6.840000E+00   0.000000E+00   1.238000E+01   1.182100E+00   1.000000E+00
+   6.990000E+00   0.000000E+00   1.782000E+01   1.398800E+00   1.000000E+00
+   7.260000E+00   0.000000E+00   2.356000E+01   1.190000E+00   1.000000E+00
+   7.640000E+00   0.000000E+00   2.578000E+01   1.257460E+00   1.000000E+00
+   8.400000E+00   0.000000E+00   2.471000E+01   1.181400E+00   1.000000E+00
+   8.690000E+00   0.000000E+00   3.479000E+01   1.709300E+00   1.000000E+00
+   8.820000E+00   0.000000E+00   3.120000E+01   1.643500E+00   1.000000E+00
+   9.230000E+00   0.000000E+00   6.162000E+01   2.973700E+00   1.000000E+00
+   9.770000E+00   0.000000E+00   7.462001E+01   4.762800E+00   1.000000E+00
+   9.890000E+00   0.000000E+00   9.624001E+01   6.004400E+00   1.000000E+00
+   1.050000E+01   0.000000E+00   1.473400E+02   8.764400E+00   1.000000E+00
+   1.107000E+01   0.000000E+00   2.103500E+02   1.227768E+01   1.000000E+00
+   1.153000E+01   0.000000E+00   2.830400E+02   1.632467E+01   1.000000E+00
+   1.222000E+01   0.000000E+00   4.017300E+02   2.305056E+01   1.000000E+00
+# reference:
+#   author: T.Kondo, H.Utsunomiya, S.Goriely, I.Daoutidis,  C.Iwamoto, H.Akimune, A.Okamoto, T.Yamagata, M.Kamata,  O.Itoh, H.Toyokawa, Y.-W.Lui, H.Harada, F.Kitatani,  S.Hilaire, A.J.Koning
+#   title: Total and partial photoneutron cross sections for Pb isotopes
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.86, p.014316 (2012)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  6.840000E+00
+#   E-max [MeV]:  1.222000E+01
+#   F-value:  1.548128E+00
+#   A-value:  8.637715E-01
+#   chi-2:  3.929191E+01
+#   p-value:  3.154884E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.622743E+00   6.680378E-01   3.266308E+01
+# endfb8.0      1.358993E+00   1.203109E+00   6.713132E+01
+# jendl5.0      1.213531E+00   1.057207E+00   1.880027E+01

@@ -1,0 +1,55 @@
+# header:
+#   title: Cu0(p,x)Sc47 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Michel
+#   year: 1997
+#   subentry: O0276123
+#   X4 reaction: 29-CU-0(P,X)21-SC-47,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O0276123
+# target:
+#   Z: 29
+#   A: 0
+#   nuclide: Cu0
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 21
+#   A: 47
+#   nuclide: Sc47
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.110000E+02   1.400000E+00   9.060000E-02   6.969300E-03   9.956076E-01
+   1.210000E+02   1.500000E+00   1.443600E-01   1.095200E-02   9.956076E-01
+   1.310000E+02   1.300000E+00   1.732400E-01   1.294300E-02   9.956076E-01
+   1.400000E+02   1.200000E+00   1.971300E-01   1.493400E-02   9.956076E-01
+   1.480000E+02   1.100000E+00   2.150500E-01   1.593000E-02   9.956076E-01
+   1.580000E+02   1.100000E+00   2.369500E-01   1.692500E-02   9.956076E-01
+# reference:
+#   author: R.Michel, R.Bodemann, H.Busemann, R.Daunke, M.Gloris, H.-J.Lange, B.Klug, A.Krins, I.Leya, M.Luepke, S.Neumann, H.Reinhardt, M.Schnatz-Buettgen, U.Herpers, Th.Schiekel, F.Sudbrock, B.Holmqvist, H.Conde, P.Malmborg, M.Suter, B.Dittrich-Hannen, P.-W.Kubik, H.-A.Synal, D.Filges
+#   title: Cross sections for the production of residual nuclides by low- and medium-energy protons from the target elements C, N, O, Mg, Al, Si, Ca, Ti, V, Mn, Fe, Co, Ni, Cu, Sr, Y, Zr, Nb, Ba and Au.
+#   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.129, p.153 (19
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  1.110000E+02
+#   E-max [MeV]:  1.580000E+02
+#   F-value:  1.365714E+01
+#   A-value:  8.151738E-02
+#   chi-2:  1.444730E+02
+#   p-value:  1.390775E-07
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    2.915284E+01   3.548717E-02   1.685643E+02
+# jendl5.0      7.472356E+00   1.393943E-01   1.293225E+02

@@ -1,0 +1,61 @@
+# header:
+#   title: Mo92(n,x)Mo91m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Marcinkowski
+#   year: 1986
+#   subentry: 30809012
+#   X4 reaction: 42-MO-92(N,2N)42-MO-91-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30809012
+# target:
+#   Z: 42
+#   A: 92
+#   nuclide: Mo92
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 42
+#   A: 91
+#   nuclide: Mo91m
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.340000E+01   0.000000E+00   1.264000E+00   3.160100E-01   1.053360E+00
+   1.390000E+01   0.000000E+00   7.638100E+00   1.060800E+00   1.060846E+00
+   1.450000E+01   0.000000E+00   1.971726E+01   1.696100E+00   1.060068E+00
+   1.500000E+01   0.000000E+00   3.859625E+01   2.042700E+00   1.075105E+00
+   1.540000E+01   0.000000E+00   4.645824E+01   1.845300E+00   1.085473E+00
+   1.590000E+01   0.000000E+00   7.231757E+01   7.253100E+00   1.066630E+00
+   1.660000E+01   0.000000E+00   7.285371E+01   7.645800E+00   1.092260E+00
+# reference:
+#   author: A.Marcinkowski,K.Stankiewicz,U.Garuska,M.Herman
+#   title: Cross section of fast neutron induced reactions on molybdenum isotopes
+#   journal: Jour: Zeitschrift fuer Physik A, Hadrons and Nuclei, Vol.323, p.91 (1986
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.340000E+01
+#   E-max [MeV]:  1.660000E+01
+#   F-value:  1.535339E+00
+#   A-value:  6.833447E-01
+#   chi-2:  1.533556E+01
+#   p-value:  1.080733E-01
+#   exp. data sets for p-value:      4
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.515684E+00   6.883833E-01   1.563298E+01
+# jendl5.0      1.554664E+00   6.783431E-01   1.503814E+01

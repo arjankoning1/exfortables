@@ -1,0 +1,55 @@
+# header:
+#   title: Te0(p,x)I125 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Ahmed
+#   year: 2011
+#   subentry: D0647006
+#   X4 reaction: 52-TE-0(P,X)53-I-125,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D0647006
+# target:
+#   Z: 52
+#   A: 0
+#   nuclide: Te0
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 53
+#   A: 125
+#   nuclide: I125
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.030000E+01   5.000000E-01   3.784042E+01   5.568900E+00   9.281437E-01
+   1.080000E+01   5.000000E-01   4.436527E+01   6.497000E+00   9.281437E-01
+   1.120000E+01   5.000000E-01   5.127994E+01   7.425150E+00   9.281437E-01
+   1.370000E+01   4.000000E-01   1.266081E+02   1.856288E+01   9.281437E-01
+   1.410000E+01   4.000000E-01   1.308868E+02   1.949102E+01   9.281437E-01
+   1.440000E+01   4.000000E-01   1.476862E+02   2.134731E+01   9.281437E-01
+# reference:
+#   author: A.M.Ahmed, H.E.Hassan, K.F.Hassan, A.M.Khalaf,  Z.A.Saleh
+#   title: Cross sections for the formation of radioiodines in  proton bombardment of natural tellerium with  particular reference to the validation of data for  the production of 123I
+#   journal: Jour: Radiochimica Acta, Vol.99, p.317 (2011)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  1.030000E+01
+#   E-max [MeV]:  1.440000E+01
+#   F-value:  1.850214E+00
+#   A-value:  8.717851E-01
+#   chi-2:  7.467461E+00
+#   p-value:  3.883848E-01
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.311797E+00   1.248413E+00   5.489578E+00
+# jendl5.0      2.285904E+00   6.087804E-01   9.445344E+00

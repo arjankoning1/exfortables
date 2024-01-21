@@ -1,0 +1,55 @@
+# header:
+#   title: Pb0(n,non) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Allen
+#   year: 1955
+#   subentry: 11693003
+#   X4 reaction: 82-PB-0(N,NON),,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11693003
+# target:
+#   Z: 82
+#   A: 0
+#   nuclide: Pb0
+# reaction:
+#   type: (n,non)
+#   ENDF_MF: 3
+#   ENDF_MT: 3
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   8.000000E-01   5.000000E-02   2.600000E+02   2.000000E+02   1.000000E+00
+   9.000000E-01   5.000000E-02   1.500000E+02   0.000000E+00   1.000000E+00
+   1.000000E+00   5.000000E-02   3.000000E+02   0.000000E+00   1.000000E+00
+   1.100000E+00   5.000000E-02   4.300000E+02   0.000000E+00   1.000000E+00
+   1.200000E+00   5.000000E-02   4.600000E+02   0.000000E+00   1.000000E+00
+   1.300000E+00   5.000000E-02   3.400000E+02   0.000000E+00   1.000000E+00
+   1.400000E+00   5.000000E-02   4.600000E+02   0.000000E+00   1.000000E+00
+   1.600000E+00   5.000000E-02   4.800000E+02   0.000000E+00   1.000000E+00
+# reference:
+#   author: R.C.ALLEN
+#   title:
+#   journal: Priv.Comm: Allen (1955)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  8.000000E-01
+#   E-max [MeV]:  1.600000E+00
+#   F-value:  8.146225E+00
+#   A-value:  3.085749E-01
+#   chi-2:  1.320846E-01
+#   p-value:  2.410593E-01
+#   exp. data sets for p-value:      1
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2023    1.422341E+00   7.677286E-01   1.108105E-01
+# endfb8.0      1.423438E+00   7.664025E-01   1.108122E-01
+# jeff3.3       6.377733E+01   1.838852E-02   2.107000E-01
+# cendl3.2      1.333495E+00   8.379741E-01   9.601566E-02

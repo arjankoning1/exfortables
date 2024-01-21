@@ -1,0 +1,54 @@
+# header:
+#   title: Zn68(p,x)Cu67 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Morrison
+#   year: 1962
+#   subentry: C0697011
+#   X4 reaction: 30-ZN-68(P,2P)29-CU-67,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C0697011
+# target:
+#   Z: 30
+#   A: 68
+#   nuclide: Zn68
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 111
+# residual:
+#   Z: 29
+#   A: 67
+#   nuclide: Cu67
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.300000E+02   0.000000E+00   1.810000E+01   8.000000E-01   1.000000E+00
+   2.100000E+02   0.000000E+00   1.460000E+01   3.300000E+00   1.000000E+00
+   3.000000E+02   0.000000E+00   2.130000E+01   3.300000E+00   1.000000E+00
+   4.000000E+02   0.000000E+00   2.080000E+01   5.800000E+00   1.000000E+00
+   4.250000E+02   0.000000E+00   2.480000E+01   2.600000E+00   1.000000E+00
+# reference:
+#   author: D.L.MORRISON,A.A.CARETTO
+#   title: Excitation Functions of (p,xp) Reactions
+#   journal: Jour: Physical Review, Vol.127, p.1731 (1962)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  1.300000E+02
+#   E-max [MeV]:  4.250000E+02
+#   F-value:  1.886580E+00
+#   A-value:  5.300760E-01
+#   chi-2:  1.130407E+02
+#   p-value:  5.309558E-02
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.898384E+00   5.267638E-01   1.146392E+02
+# jendl5.0      1.874734E+00   5.334090E-01   1.114423E+02

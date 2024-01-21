@@ -1,0 +1,56 @@
+# header:
+#   title: Fe0(p,x)Sc46 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Sisterson
+#   year: 2006
+#   subentry: C1447002
+#   X4 reaction: 26-FE-0(P,X)21-SC-46,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C1447002
+# target:
+#   Z: 26
+#   A: 0
+#   nuclide: Fe0
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 21
+#   A: 46
+#   nuclide: Sc46
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.400000E+02   1.000000E+00   3.500560E+00   3.000500E-01   1.000160E+00
+   1.600000E+02   1.000000E+00   3.900600E+00   3.000500E-01   1.000160E+00
+   2.000000E+02   1.000000E+00   5.000800E+00   4.000600E-01   1.000160E+00
+   3.000000E+02   1.000000E+00   6.901100E+00   5.000800E-01   1.000160E+00
+   4.000000E+02   1.000000E+00   8.301300E+00   6.001000E-01   1.000160E+00
+   5.000000E+02   1.000000E+00   9.001400E+00   7.001100E-01   1.000160E+00
+# reference:
+#   author: J.M.Sisterson,J.Vincent
+#   title: Cross section measurements for proton-induced reactions  in Fe and Ni producing relatively short-lived  radionuclides at Ep = 140-500 MeV
+#   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.251, p.1 (2006
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  1.400000E+02
+#   E-max [MeV]:  5.000000E+02
+#   F-value:  2.066771E+00
+#   A-value:  5.298491E-01
+#   chi-2:  4.015240E+01
+#   p-value:  1.110594E-01
+#   exp. data sets for p-value:      2
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    2.091588E+00   4.849586E-01   3.976919E+01
+# endfb8.0      1.338804E+00   1.338804E+00   1.562617E+01
+# jendl5.0      2.209079E+00   4.568514E-01   4.581926E+01

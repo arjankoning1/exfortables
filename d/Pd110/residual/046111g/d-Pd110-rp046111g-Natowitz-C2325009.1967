@@ -1,0 +1,60 @@
+# header:
+#   title: Pd110(d,x)Pd111g cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Natowitz
+#   year: 1967
+#   subentry: C2325009
+#   X4 reaction: 46-PD-110(D,P)46-PD-111-G,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C2325009
+# target:
+#   Z: 46
+#   A: 110
+#   nuclide: Pd110
+# reaction:
+#   type: (d,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 46
+#   A: 111
+#   nuclide: Pd111g
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   4.774000E+00   0.000000E+00   2.119000E+01   2.638000E+00   1.000000E+00
+   6.855000E+00   0.000000E+00   1.651000E+02   1.566000E+01   1.000000E+00
+   7.597000E+00   0.000000E+00   2.247000E+02   2.578000E+01   1.000000E+00
+   9.880000E+00   0.000000E+00   2.522000E+02   2.891000E+01   1.000000E+00
+   1.122100E+01   0.000000E+00   1.926000E+02   1.829000E+01   1.000000E+00
+   1.295900E+01   0.000000E+00   1.735000E+02   1.814000E+01   1.000000E+00
+   1.426000E+01   0.000000E+00   1.514000E+02   1.586000E+01   1.000000E+00
+# reference:
+#   author: J.B.Natowitz,R.L.Wolke
+#   title: Isomeric Cross Sections and Yield Ratios of (d,p) Reactions below 15 MeV
+#   journal: Jour: Physical Review, Vol.155, p.1352 (1967)
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  4.774000E+00
+#   E-max [MeV]:  1.426000E+01
+#   F-value:  3.808010E+00
+#   A-value:  2.664341E-01
+#   chi-2:  4.735960E+01
+#   p-value:  2.383678E-01
+#   exp. data sets for p-value:      1
+#   libraries:      1
+##  Library          F              A            chi-2
+# tendl.2023    3.808010E+00   2.664341E-01   4.735960E+01

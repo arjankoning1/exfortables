@@ -1,0 +1,55 @@
+# header:
+#   title: Pd108(n,x)Pd107m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Goncalves
+#   year: 1987
+#   subentry: 30740010
+#   X4 reaction: 46-PD-108(N,2N)46-PD-107-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30740010
+# target:
+#   Z: 46
+#   A: 108
+#   nuclide: Pd108
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 46
+#   A: 107
+#   nuclide: Pd107m
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.480000E+01   1.700000E-01   5.270000E+02   1.000000E+02   1.000000E+00
+# reference:
+#   author: I.F.Goncalves,Zs.Schram,Z.Papp,S.Daroczy
+#   title: (n,p),(n,a) and (n,2n) reaction cross-sections for  some isotopes of Zr,Pd and Cd at 14.8 MeV
+#   journal: Jour: Applied Radiation and Isotopes, Vol.38, Issue.11, p.989 (1987)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.480000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.092992E+00
+#   A-value:  9.240533E-01
+#   chi-2:  5.554820E-01
+#   p-value:  2.985854E-01
+#   exp. data sets for p-value:      8
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.127299E+00   8.870757E-01   8.530869E-01
+# jendl5.0      1.038883E+00   9.625722E-01   2.578772E-01

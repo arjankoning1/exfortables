@@ -1,0 +1,52 @@
+# header:
+#   title: Mn55(p,x)Fe55 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Alabyad
+#   year: 2010
+#   subentry: D06320022
+#   X4 reaction: 25-MN-55(P,N)26-FE-55,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D06320022
+# target:
+#   Z: 25
+#   A: 55
+#   nuclide: Mn55
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+# residual:
+#   Z: 26
+#   A: 55
+#   nuclide: Fe55
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   8.000000E+00   1.000000E+00   4.800000E+02   1.000000E+02   1.000000E+00
+   1.050000E+01   8.000000E-01   6.260000E+02   1.250000E+02   1.000000E+00
+   1.560000E+01   8.000000E-01   1.520000E+02   3.000000E+01   1.000000E+00
+# reference:
+#   author: M.Al-Abyad, I.Spahn, S.M.Qaim
+#   title: Experimental studies and nuclear model calculations on proton induced reactions on manganese up to 45 MeV with reference to production of 55Fe, 54Mn and 51Cr
+#   journal: Jour: Applied Radiation and Isotopes, Vol.68, p.2393 (2010)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  8.000000E+00
+#   E-max [MeV]:  1.560000E+01
+#   F-value:  1.087600E+00
+#   A-value:  1.036060E+00
+#   chi-2:  4.975916E-01
+#   p-value:  2.733122E-01
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.109274E+00   1.068044E+00   6.442732E-01
+# jendl5.0      1.059572E+00   1.005034E+00   3.509101E-01

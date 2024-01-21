@@ -1,0 +1,57 @@
+# header:
+#   title: Mo97(n,x)Nb97 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Marcinkowski
+#   year: 1986
+#   subentry: 30809006
+#   X4 reaction: 42-MO-97(N,P)41-NB-97,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30809006
+# target:
+#   Z: 42
+#   A: 97
+#   nuclide: Mo97
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 41
+#   A: 97
+#   nuclide: Nb97
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.300000E+01   0.000000E+00   7.101800E+00   3.348000E+00   1.014540E+00
+   1.340000E+01   0.000000E+00   1.281625E+01   1.118900E+00   1.017163E+00
+   1.390000E+01   0.000000E+00   1.464881E+01   1.229300E+00   1.024392E+00
+   1.450000E+01   0.000000E+00   1.709480E+01   1.433100E+00   1.023641E+00
+   1.500000E+01   0.000000E+00   2.232045E+01   1.764900E+00   1.038161E+00
+   1.540000E+01   0.000000E+00   2.022973E+01   1.781900E+00   1.048173E+00
+   1.590000E+01   0.000000E+00   2.595544E+01   8.239800E+00   1.029978E+00
+   1.660000E+01   0.000000E+00   2.710646E+01   9.809000E+00   1.054726E+00
+# reference:
+#   author: A.Marcinkowski,K.Stankiewicz,U.Garuska,M.Herman
+#   title: Cross section of fast neutron induced reactions on molybdenum isotopes
+#   journal: Jour: Zeitschrift fuer Physik A, Hadrons and Nuclei, Vol.323, p.91 (1986
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.300000E+01
+#   E-max [MeV]:  1.660000E+01
+#   F-value:  1.391336E+00
+#   A-value:  1.228021E+00
+#   chi-2:  1.065899E+01
+#   p-value:  3.142680E-01
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.559989E+00   1.459511E+00   2.074100E+01
+# jendl5.0      1.153573E+00   1.033247E+00   5.769882E-01

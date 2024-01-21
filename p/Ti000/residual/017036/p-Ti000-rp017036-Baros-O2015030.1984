@@ -1,0 +1,51 @@
+# header:
+#   title: Ti0(p,x)Cl36 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Baros
+#   year: 1984
+#   subentry: O2015030
+#   X4 reaction: 22-TI-0(P,X)17-CL-36,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O2015030
+# target:
+#   Z: 22
+#   A: 0
+#   nuclide: Ti0
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 17
+#   A: 36
+#   nuclide: Cl36
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.500000E+02   0.000000E+00   3.099690E+00   5.999400E-01   9.999000E-01
+   2.400000E+04   0.000000E+00   1.749825E+01   1.799820E+00   9.999000E-01
+# reference:
+#   author: F.Baros, S.Regnier
+#   title: Measurement of cross sections for 22Na, 20-22Ne and 36-42Ar in the spallation of Mg, Al, Si, Ca and Fe. Production ratios of some cosmogenic nuclides in meteorites
+#   journal: Jour: Journal de Physique, Vol.45, p.855 (1984)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  1.500000E+02
+#   E-max [MeV]:  2.400000E+04
+#   F-value:  1.551287E+00
+#   A-value:  1.517192E+00
+#   chi-2:  8.949286E+00
+#   p-value:  4.454704E-02
+#   exp. data sets for p-value:      5
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.741563E+00   1.741563E+00   1.468343E+01
+# jendl5.0      1.321727E+00   1.321727E+00   3.215138E+00

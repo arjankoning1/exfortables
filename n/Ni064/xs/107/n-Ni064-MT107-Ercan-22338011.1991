@@ -1,0 +1,53 @@
+# header:
+#   title: Ni64(n,a)Fe61 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Ercan
+#   year: 1991
+#   subentry: 22338011
+#   X4 reaction: 28-NI-64(N,A)26-FE-61,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22338011
+# target:
+#   Z: 28
+#   A: 64
+#   nuclide: Ni64
+# reaction:
+#   type: (n,a)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+# residual:
+#   Z: 26
+#   A: 61
+#   nuclide: Fe61
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.460000E+01   1.000000E-01   5.999200E+00   1.000000E+00   9.998634E-01
+# reference:
+#   author: A.Ercan,M.N.Erduran,M.Subasi,E.Gueltekin,G.Tarcan, A.Baykal,M.Bostan
+#   title: 14.6 MeV neutron induced reaction cross section  measurements
+#   journal: Conf: Conf.on Nucl.Data for Sci.and Technol.,Juelich 1991, p.376 (1991)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.460000E+01
+#   E-max [MeV]:  1.460000E+01
+#   F-value:  1.191129E+00
+#   A-value:  1.003505E+00
+#   chi-2:  1.709566E+00
+#   p-value:  3.469093E-01
+#   exp. data sets for p-value:      7
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    1.040989E+00   9.606252E-01   3.114977E-01
+# endfb8.0      1.172871E+00   8.526085E-01   1.363899E+00
+# jeff3.3       1.394658E+00   1.394658E+00   5.790769E+00
+# jendl5.0      1.131203E+00   8.840147E-01   1.022582E+00
+# cendl3.2      1.007781E+00   1.007781E+00   5.908309E-02

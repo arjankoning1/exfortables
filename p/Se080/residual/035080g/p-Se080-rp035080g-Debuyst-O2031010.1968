@@ -1,0 +1,59 @@
+# header:
+#   title: Se80(p,x)Br80g cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Debuyst
+#   year: 1968
+#   subentry: O2031010
+#   X4 reaction: 34-SE-80(P,N)35-BR-80-G,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O2031010
+# target:
+#   Z: 34
+#   A: 80
+#   nuclide: Se80
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+# residual:
+#   Z: 35
+#   A: 80
+#   nuclide: Br80g
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.420000E+00   0.000000E+00   3.139000E+00   0.000000E+00   1.000000E+00
+   4.200000E+00   0.000000E+00   2.823300E+01   0.000000E+00   1.000000E+00
+   4.880000E+00   0.000000E+00   6.996801E+01   0.000000E+00   1.000000E+00
+   5.500000E+00   0.000000E+00   1.394770E+02   0.000000E+00   1.000000E+00
+   5.990000E+00   0.000000E+00   1.994600E+02   0.000000E+00   1.000000E+00
+# reference:
+#   author: R.Debuyst, A.Vander Stricht
+#   title: Excitation functions and yield ratios for the isomeric pair Br-80 Br-80-m formed in (d,2n), (a,np), (a,p) and  (p,n) reactions on selenium.
+#   journal: Jour: Journal of Inorganic and Nuclear Chemistry, Vol.30, p.691 (1968)
+# statistics:
+#   NEA score: R2
+#   IAEA score:  1
+#   E-min [MeV]:  3.420000E+00
+#   E-max [MeV]:  5.990000E+00
+#   F-value:  3.305714E+00
+#   A-value:  8.452325E-01
+#   chi-2:  0.000000E+00
+#   p-value:  3.321489E-01
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    3.075029E+00   2.513866E+00   0.000000E+00
+# jendl5.0      3.539046E+00   2.841910E-01   0.000000E+00

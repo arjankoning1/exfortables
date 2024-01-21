@@ -1,0 +1,60 @@
+# header:
+#   title: Mo95(p,x)Tc94m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Lamere
+#   year: 2019
+#   subentry: C2413017
+#   X4 reaction: 42-MO-95(P,2N)43-TC-94-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C2413017
+# target:
+#   Z: 42
+#   A: 95
+#   nuclide: Mo95
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 43
+#   A: 94
+#   nuclide: Tc94m
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.302000E+01   7.000000E-02   2.100000E+01   5.000000E+00   1.000000E+00
+   1.403000E+01   6.000000E-02   1.500000E+02   2.100000E+01   1.000000E+00
+   1.507000E+01   2.000000E-02   2.360000E+02   5.000000E+01   1.000000E+00
+   1.603000E+01   6.000000E-02   3.260000E+02   6.600001E+01   1.000000E+00
+   1.799000E+01   6.000000E-02   3.850000E+02   7.600002E+01   1.000000E+00
+   1.903000E+01   6.000000E-02   4.200000E+02   9.300000E+01   1.000000E+00
+# reference:
+#   author: E.Lamere,M.Couder,M.Beard,A.Simon,A.Simonetti, M.Skulski,G.Seymour,P.Huestis,K.Manukyan,Z.Meisel, L.Morales,M.Moran,S.Moylan,C.Seymour,E.Stech
+#   title: Proton-induced reactions on molybdenum
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.100, p.034614 (2019)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  1.302000E+01
+#   E-max [MeV]:  1.903000E+01
+#   F-value:  1.363507E+00
+#   A-value:  1.271913E+00
+#   chi-2:  4.167433E+00
+#   p-value:  3.561331E-01
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.248362E+00   1.163903E+00   1.890804E+00
+# jendl5.0      1.459712E+00   1.389946E+00   6.444061E+00

@@ -1,0 +1,60 @@
+# header:
+#   title: Pb0(p,x)Pb202m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Ditroi
+#   year: 2014
+#   subentry: D4304009
+#   X4 reaction: 82-PB-0(P,X)82-PB-202-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D4304009
+# target:
+#   Z: 82
+#   A: 0
+#   nuclide: Pb0
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 82
+#   A: 202
+#   nuclide: Pb202m
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.620000E+01   5.000000E-01   4.900000E+00   6.000000E-01   1.000000E+00
+   2.810000E+01   5.000000E-01   1.280000E+01   1.500000E+00   1.000000E+00
+   2.990000E+01   4.000000E-01   1.260000E+01   1.400000E+00   1.000000E+00
+   3.160000E+01   4.000000E-01   2.140000E+01   2.400000E+00   1.000000E+00
+   3.320000E+01   4.000000E-01   1.790000E+01   2.000000E+00   1.000000E+00
+   3.480000E+01   3.000000E-01   1.570000E+01   1.800000E+00   1.000000E+00
+   3.630000E+01   3.000000E-01   1.540000E+01   1.700000E+00   1.000000E+00
+# reference:
+#   author: F.Ditroi,F.Tarkanyi,S.Takacs,A.Hermanne
+#   title: Proton-induced cross-sections of nuclear reactions on lead up to 37 MeV
+#   journal: Jour: Applied Radiation and Isotopes, Vol.90, p.208 (2014)
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  2.620000E+01
+#   E-max [MeV]:  3.630000E+01
+#   F-value:  1.472684E+02
+#   A-value:  8.038427E-03
+#   chi-2:  7.461229E+01
+#   p-value:  5.108970E-08
+#   exp. data sets for p-value:      1
+#   libraries:      1
+##  Library          F              A            chi-2
+# tendl.2023    1.472684E+02   8.038427E-03   7.461229E+01

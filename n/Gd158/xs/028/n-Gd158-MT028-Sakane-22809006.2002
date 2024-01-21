@@ -1,0 +1,55 @@
+# header:
+#   title: Gd158(n,np)Eu157 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Sakane
+#   year: 2002
+#   subentry: 22809006
+#   X4 reaction: 64-GD-158(N,X)63-EU-157,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22809006
+# target:
+#   Z: 64
+#   A: 158
+#   nuclide: Gd158
+# reaction:
+#   type: (n,np)
+#   ENDF_MF: 3
+#   ENDF_MT: 28
+# residual:
+#   Z: 63
+#   A: 157
+#   nuclide: Eu157
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.402000E+01   5.000000E-02   1.178600E-01   2.475000E-02   9.821428E-01
+   1.435000E+01   5.000000E-02   2.062500E-01   4.125000E-02   9.821428E-01
+   1.464000E+01   5.000000E-02   2.750000E-01   4.950000E-02   9.821428E-01
+   1.487000E+01   5.000000E-02   3.732100E-01   6.717899E-02   9.821428E-01
+# reference:
+#   author: H.SAKANE, Y.KASUGAI, M.SHIBATA, Y.IKEDA, K.KAWADE
+#   title: - Measurement of the activation cross section of   (N,Np+d) reactions for lantanide isotopes in the   enegry range between 13.4 and 14.9 MeV
+#   journal: Jour: Annals of Nuclear Energy, Vol.29, Issue.10, p.1209 (2002)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  1.402000E+01
+#   E-max [MeV]:  1.487000E+01
+#   F-value:  8.061618E+00
+#   A-value:  2.146867E-01
+#   chi-2:  2.322703E+01
+#   p-value:  1.850401E-01
+#   exp. data sets for p-value:      1
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2023    4.080969E+00   2.459925E-01   1.537693E+01
+# endfb8.0      1.974556E+00   1.925314E+00   3.069397E+01
+# jendl5.0      1.044912E+01   9.659874E-02   2.210151E+01
+# cendl3.2      2.172660E+01   4.643293E-02   2.473571E+01

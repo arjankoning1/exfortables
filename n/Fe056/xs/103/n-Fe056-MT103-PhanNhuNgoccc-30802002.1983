@@ -1,0 +1,54 @@
+# header:
+#   title: Fe56(n,p)Mn56 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: PhanNhuNgoccc
+#   year: 1983
+#   subentry: 30802002
+#   X4 reaction: 26-FE-56(N,P)25-MN-56,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30802002
+# target:
+#   Z: 26
+#   A: 56
+#   nuclide: Fe56
+# reaction:
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 25
+#   A: 56
+#   nuclide: Mn56
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.480000E+01   2.000000E-01   1.140685E+02   1.148560E+01   9.609811E-01
+# reference:
+#   author: Phan Nhu Ngoc, Ly Lea Bach, Nguyen Van Do,  Trang Trong Vinh, I.Ribansky
+#   title: Neutron activation cross section for 56Fe(n,p) and  87Rb(n,2n) reactions
+#   journal: Rept: Vietnam report to the I.N.D.C., No.2 (1983)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.480000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.037977E+00
+#   A-value:  9.636673E-01
+#   chi-2:  4.898585E-01
+#   p-value:  2.205416E-01
+#   exp. data sets for p-value:      8
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2023    1.042163E+00   9.595427E-01   5.501146E-01
+# endfb8.0      1.041859E+00   9.598227E-01   5.459565E-01
+# jeff3.3       1.032260E+00   9.687481E-01   4.161465E-01
+# jendl5.0      1.030520E+00   9.703838E-01   3.929231E-01
+# cendl3.2      1.039737E+00   9.617819E-01   5.170051E-01
+# irdff2.0      1.039737E+00   9.617819E-01   5.170051E-01

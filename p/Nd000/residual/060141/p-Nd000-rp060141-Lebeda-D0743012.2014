@@ -1,0 +1,52 @@
+# header:
+#   title: Nd0(p,x)Nd141 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Lebeda
+#   year: 2014
+#   subentry: D0743012
+#   X4 reaction: 60-ND-0(P,X)60-ND-141,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D0743012
+# target:
+#   Z: 60
+#   A: 0
+#   nuclide: Nd0
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 60
+#   A: 141
+#   nuclide: Nd141
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.055000E+01   2.200000E-01   1.350000E+02   2.200000E+01   1.000000E+00
+   3.186000E+01   2.100000E-01   1.390000E+02   2.200000E+01   1.000000E+00
+   3.367000E+01   2.100000E-01   1.400000E+02   2.200000E+01   1.000000E+00
+   3.541000E+01   2.000000E-01   1.600000E+02   2.500000E+01   1.000000E+00
+# reference:
+#   author: O.Lebeda, V.Lozza, J.Petzoldt, J.Stursa, V.Zdychova,  K.Zuber
+#   title: Excitation functions of proton-induced reactions on  natural Nd and production of radionuclides relevant  for double beta decay: Completing measurement in  5-35 MeV energy range
+#   journal: Jour: Nuclear Physics, Section A, Vol.929, p.129 (2014)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  3.055000E+01
+#   E-max [MeV]:  3.541000E+01
+#   F-value:  1.939046E+00
+#   A-value:  5.181642E-01
+#   chi-2:  9.238954E+00
+#   p-value:  4.889149E-01
+#   exp. data sets for p-value:      2
+#   libraries:      1
+##  Library          F              A            chi-2
+# tendl.2023    1.939046E+00   5.181642E-01   9.238954E+00

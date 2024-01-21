@@ -1,0 +1,51 @@
+# header:
+#   title: Be9(d,x)Be10 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Smither
+#   year: 1957
+#   subentry: F0234002
+#   X4 reaction: 4-BE-9(D,P)4-BE-10,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/F0234002
+# target:
+#   Z: 4
+#   A: 9
+#   nuclide: Be9
+# reaction:
+#   type: (d,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 4
+#   A: 10
+#   nuclide: Be10
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.000000E-01   0.000000E+00   4.900000E-03   2.000000E-03   1.000000E+00
+   1.700000E-01   0.000000E+00   1.600000E-02   4.000000E-03   1.000000E+00
+   2.000000E-01   0.000000E+00   3.700000E-02   1.000000E-02   1.000000E+00
+# reference:
+#   author: R.K.Smither
+#   title: Angular distribution of protons and tritons from the reactions 9Be(d,p)10Be and 9Be(d,t)8Be at low bombarding energies
+#   journal: Jour: Physical Review, Vol.107, p.196 (1957)
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  1.000000E-01
+#   E-max [MeV]:  2.000000E-01
+#   F-value:  2.090553E+01
+#   A-value:  2.081347E+01
+#   chi-2:  6.326336E+03
+#   p-value:  0.000000E+00
+#   exp. data sets for p-value:      1
+#   libraries:      1
+##  Library          F              A            chi-2
+# tendl.2023    2.090553E+01   2.081347E+01   6.326336E+03

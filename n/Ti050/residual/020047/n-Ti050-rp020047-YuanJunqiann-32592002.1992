@@ -1,0 +1,56 @@
+# header:
+#   title: Ti50(n,x)Ca47 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: YuanJunqiann
+#   year: 1992
+#   subentry: 32592002
+#   X4 reaction: 22-TI-50(N,A)20-CA-47,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/32592002
+# target:
+#   Z: 22
+#   A: 50
+#   nuclide: Ti50
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+# residual:
+#   Z: 20
+#   A: 47
+#   nuclide: Ca47
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.350000E+01   0.000000E+00   7.377700E+00   5.589200E-01   1.117839E+00
+   1.384000E+01   0.000000E+00   8.271999E+00   5.589200E-01   1.117839E+00
+   1.418000E+01   0.000000E+00   8.942700E+00   5.589200E-01   1.117839E+00
+   1.438000E+01   0.000000E+00   9.948800E+00   5.589200E-01   1.117839E+00
+   1.467000E+01   0.000000E+00   1.073125E+01   5.589200E-01   1.117839E+00
+   1.481000E+01   0.000000E+00   1.061947E+01   6.707000E-01   1.117839E+00
+# reference:
+#   author: Yuan Junqian, Wang Yongchang, Kong Xiangzhong, Yang Jingkang
+#   title: The cross section measurement for the reaction of Ti-48(n,p)Sc-48, Ti-46(n,p)Sc-46, Ti-50(n,a)Ca-47, Ni-58(n,2n)Ni-57 and Ni-58(n,p)Co-58m+g
+#   journal: Jour: High Energy Physics and Nucl.Physics,Chinese ed., Vol.16, Issue.1,
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.350000E+01
+#   E-max [MeV]:  1.481000E+01
+#   F-value:  1.039082E+00
+#   A-value:  9.721404E-01
+#   chi-2:  6.965286E-01
+#   p-value:  3.183824E-01
+#   exp. data sets for p-value:      4
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.014587E+00   9.894183E-01   2.624719E-01
+# jeff3.3       1.053637E+00   9.551642E-01   1.130585E+00
+# jendl5.0      0.000000E+00   0.000000E+00   0.000000E+00

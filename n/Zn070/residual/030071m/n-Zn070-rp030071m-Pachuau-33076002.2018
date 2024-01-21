@@ -1,0 +1,59 @@
+# header:
+#   title: Zn70(n,x)Zn71m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Pachuau
+#   year: 2018
+#   subentry: 33076002
+#   X4 reaction: 30-ZN-70(N,G)30-ZN-71-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/33076002
+# target:
+#   Z: 30
+#   A: 70
+#   nuclide: Zn70
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+# residual:
+#   Z: 30
+#   A: 71
+#   nuclide: Zn71m
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   4.000000E-01   3.000000E-01   1.820000E+00   1.139700E-01   1.000000E+00
+   7.000000E-01   2.000000E-01   1.990000E+00   6.374000E-02   1.000000E+00
+   9.600000E-01   3.000000E-01   1.830000E+00   1.636000E-01   1.000000E+00
+   1.690000E+00   3.000000E-01   1.330000E+00   9.532100E-02   1.000000E+00
+# reference:
+#   author: R.Pachuau, B.Lalremruata, N.Otuka, S.V.Suryanarayana,  L.R.M.Punte, L.R.Hlondo, V.V.Desai, B.Satheesh,  S.Kailas, S.Ganesan, B.K.Nayak, A.Saxena
+#   title: Energy dependence of the neutron capture cross section  on 70Zn near the inelastic scattering threshold
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.97, p.064617 (2018)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  4.000000E-01
+#   E-max [MeV]:  1.690000E+00
+#   F-value:  1.483391E+00
+#   A-value:  1.180029E+00
+#   chi-2:  1.441685E+02
+#   p-value:  3.424290E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.287347E+00   8.854356E-01   9.691721E+00
+# jeff3.3       1.868788E+00   1.841935E+00   4.131107E+02
+# jendl5.0      1.114250E+00   1.007505E+00   9.703190E+00

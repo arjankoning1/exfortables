@@ -1,0 +1,53 @@
+# header:
+#   title: Rb85(n,x)Rb84 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: JunhuaLuoo
+#   year: 2018
+#   subentry: 327820023
+#   X4 reaction: 37-RB-85(N,2N)37-RB-84,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/327820023
+# target:
+#   Z: 37
+#   A: 85
+#   nuclide: Rb85
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 37
+#   A: 84
+#   nuclide: Rb84
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.350000E+01   2.000000E-01   9.813802E+02   6.794823E+01   9.892946E-01
+   1.410000E+01   2.000000E-01   1.075670E+03   7.656042E+01   9.996933E-01
+   1.480000E+01   2.000000E-01   1.176278E+03   8.238979E+01   1.001088E+00
+# reference:
+#   author: Junhua Luo, Li Jiang, Long He
+#   title: Measurement of cross sections and isomeric cross- section ratios for the (n,2n) reactions on 85,87Rb in energies between 13 and 15 MeV
+#   journal: Jour: Radiochimica Acta, Vol.106, p.709 (2018)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.350000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.086425E+00
+#   A-value:  9.260039E-01
+#   chi-2:  1.798743E+00
+#   p-value:  2.928396E-01
+#   exp. data sets for p-value:      8
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.113400E+00   9.002513E-01   2.622177E+00
+# jeff3.3       1.074322E+00   9.323242E-01   1.546176E+00
+# jendl5.0      1.064743E+00   9.460360E-01   1.227877E+00

@@ -1,0 +1,51 @@
+# header:
+#   title: Pb206(n,x)Pb207 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Schillebeeckx
+#   year: 2013
+#   subentry: 31732004
+#   X4 reaction: 82-PB-206(N,G)82-PB-207,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/31732004
+# target:
+#   Z: 82
+#   A: 206
+#   nuclide: Pb206
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+# residual:
+#   Z: 82
+#   A: 207
+#   nuclide: Pb207
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.530000E-08   0.000000E+00   2.900000E+01   2.000000E+00   1.000000E+00
+# reference:
+#   author: P.Schillebeeckx, T.Belgya, A.Borella, S.Kopecky,  A.Mengoni, C.R.Quetel, L.Szentmiklosi, I.Tresl,  R.Wynants
+#   title: Neutron capture studies of 206Pb at a cold neutron beam
+#   journal: Jour: European Physical Journal A: Hadrons and Nuclei, Vol.49, p.143 (20
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.530000E-08
+#   E-max [MeV]:  2.530000E-08
+#   F-value:  1.004792E+00
+#   A-value:  1.002750E+00
+#   chi-2:  5.192986E-02
+#   p-value:  3.187325E-01
+#   exp. data sets for p-value:      3
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.000021E+00   9.999788E-01   3.849421E-04
+# endfb8.0      1.008315E+00   1.008315E+00   1.550197E-01
+# jendl5.0      1.000021E+00   9.999788E-01   3.849421E-04

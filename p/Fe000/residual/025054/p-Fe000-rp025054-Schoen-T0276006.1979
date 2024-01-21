@@ -1,0 +1,54 @@
+# header:
+#   title: Fe0(p,x)Mn54 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Schoen
+#   year: 1979
+#   subentry: T0276006
+#   X4 reaction: 26-FE-0(P,X)25-MN-54,IND,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/T0276006
+# target:
+#   Z: 26
+#   A: 0
+#   nuclide: Fe0
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 25
+#   A: 54
+#   nuclide: Mn54
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.660000E+01   1.200000E+00   3.500840E+00   3.000700E-01   1.000240E+00
+   3.000000E+01   1.100000E+00   2.070497E+01   1.200300E+00   1.000240E+00
+   5.810000E+01   6.000000E-01   8.732097E+01   5.101200E+00   1.000240E+00
+   6.300000E+01   6.000000E-01   7.791871E+01   4.601100E+00   1.000240E+00
+# reference:
+#   author: N.C.Schoen, G.Orlov, R.J.McDonald
+#   title: Excitation functions for radioactive isotopes produced  by proton bombardment of Fe, Co, and W in the energy  range from 10 to 60 MeV
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.20, p.88 (1979)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  2.660000E+01
+#   E-max [MeV]:  6.300000E+01
+#   F-value:  1.602938E+00
+#   A-value:  1.469482E+00
+#   chi-2:  9.822134E+01
+#   p-value:  1.775573E-01
+#   exp. data sets for p-value:      4
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.549095E+00   1.544512E+00   7.364037E+01
+# endfb8.0      1.727055E+00   1.521272E+00   1.428674E+02
+# jendl5.0      1.524433E+00   1.350500E+00   7.815627E+01

@@ -1,0 +1,61 @@
+# header:
+#   title: Nb93(n,2n)Nb92m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Nethaway
+#   year: 1978
+#   subentry: 10709004
+#   X4 reaction: 41-NB-93(N,2N)41-NB-92-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/10709004
+# target:
+#   Z: 41
+#   A: 93
+#   nuclide: Nb93
+# reaction:
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 41
+#   A: 92
+#   nuclide: Nb92m
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.545000E+01   0.000000E+00   4.120853E+02   4.120852E+01   1.002640E+00
+   1.621000E+01   0.000000E+00   4.223627E+02   4.223627E+01   1.012860E+00
+   1.697000E+01   0.000000E+00   4.371502E+02   4.371502E+01   9.980597E-01
+   1.843000E+01   0.000000E+00   3.924216E+02   3.924216E+01   9.909637E-01
+   1.906000E+01   0.000000E+00   3.612387E+02   3.612387E+01   9.763207E-01
+# reference:
+#   author: D.R.Nethaway
+#   title: The 93Nb(n,2n)92(m)Nb cross section
+#   journal: Jour: Journal of Inorganic and Nuclear Chemistry, Vol.40, p.1285 (1978)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.545000E+01
+#   E-max [MeV]:  1.906000E+01
+#   F-value:  1.039053E+00
+#   A-value:  1.028363E+00
+#   chi-2:  4.083487E-01
+#   p-value:  2.781044E-01
+#   exp. data sets for p-value:      7
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2023    1.041514E+00   1.033690E+00   4.798066E-01
+# jeff3.3       1.037269E+00   1.023641E+00   3.461831E-01
+# jendl5.0      1.038261E+00   1.031806E+00   4.463751E-01
+# irdff2.0      1.039047E+00   1.024352E+00   3.610302E-01

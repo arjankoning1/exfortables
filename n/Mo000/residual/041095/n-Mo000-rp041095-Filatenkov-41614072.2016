@@ -1,0 +1,57 @@
+# header:
+#   title: Mo0(n,x)Nb95 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Filatenkov
+#   year: 2016
+#   subentry: 41614072
+#   X4 reaction: 42-MO-0(N,X)41-NB-95,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/41614072
+# target:
+#   Z: 42
+#   A: 0
+#   nuclide: Mo0
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 41
+#   A: 95
+#   nuclide: Nb95
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.348000E+01   0.000000E+00   5.480000E+00   2.128400E-01   9.999947E-01
+   1.364000E+01   0.000000E+00   5.710000E+00   1.791100E-01   1.000002E+00
+   1.387000E+01   0.000000E+00   5.910000E+00   2.168300E-01   9.999938E-01
+   1.405000E+01   0.000000E+00   6.190000E+00   2.030200E-01   1.000008E+00
+   1.428000E+01   0.000000E+00   6.270000E+00   2.037900E-01   9.999922E-01
+   1.445000E+01   0.000000E+00   6.559900E+00   2.217700E-01   9.999890E-01
+   1.464000E+01   0.000000E+00   6.560000E+00   2.217700E-01   9.999956E-01
+   1.482000E+01   0.000000E+00   6.810100E+00   2.588300E-01   1.000009E+00
+# reference:
+#   author: A.A.Filatenkov
+#   title: Neutron activation cross sections measured at KRI in neutron energy region 13.4 - 14.9 MeV
+#   journal: Rept: USSR report to the I.N.D.C., No.0460 (2016)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.348000E+01
+#   E-max [MeV]:  1.482000E+01
+#   F-value:  1.494594E+00
+#   A-value:  1.434569E+00
+#   chi-2:  2.299391E+02
+#   p-value:  2.896627E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.707838E+00   1.706478E+00   4.223755E+02
+# jendl5.0      1.210536E+00   1.205986E+00   3.750272E+01

@@ -1,0 +1,50 @@
+# header:
+#   title: Na23(p,x)Li9 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Dostrovsky
+#   year: 1968
+#   subentry: C02370101
+#   X4 reaction: 11-NA-23(P,X)3-LI-9,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C02370101
+# target:
+#   Z: 11
+#   A: 23
+#   nuclide: Na23
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 3
+#   A: 9
+#   nuclide: Li9
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.560000E+02   0.000000E+00   1.100000E-02   2.500000E-03   1.000000E+00
+# reference:
+#   author: I.Dostrovsky,H.Gauvin,M.Lefort
+#   title: (p,xp) and (p,xpya) Reactions of 156-MeV Protons  with Light Targets (A=11 to A=27)
+#   journal: Jour: Physical Review, Vol.169, p.836 (1968)
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  1.560000E+02
+#   E-max [MeV]:  1.560000E+02
+#   F-value:  4.304356E+00
+#   A-value:  2.785886E-01
+#   chi-2:  9.217832E+00
+#   p-value:  1.548814E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    7.265440E+00   1.376379E-01   1.440167E+01
+# jendl5.0      1.773419E+00   5.638825E-01   4.033990E+00

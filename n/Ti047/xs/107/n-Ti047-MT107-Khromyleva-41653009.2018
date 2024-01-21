@@ -1,0 +1,55 @@
+# header:
+#   title: Ti47(n,a)Ca44 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Khromyleva
+#   year: 2018
+#   subentry: 41653009
+#   X4 reaction: 22-TI-47(N,A)20-CA-44,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/41653009
+# target:
+#   Z: 22
+#   A: 47
+#   nuclide: Ti47
+# reaction:
+#   type: (n,a)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+# residual:
+#   Z: 20
+#   A: 44
+#   nuclide: Ca44
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   4.000000E+00   1.500000E-01   8.200000E+00   7.000000E-01   1.000000E+00
+   5.000000E+00   9.000000E-02   1.930000E+01   2.300000E+00   1.000000E+00
+   6.000000E+00   7.000000E-02   3.300000E+01   2.500000E+00   1.000000E+00
+# reference:
+#   author: T.Khromyleva, I.P.Bondarenko, A.Gurbich, V.Ketlerov, V.A.Khryachkov, P.Prusachenko
+#   title: Investigation of (n,alpha) reaction cross section for a number of structural material isotopes
+#   journal: Jour: Nuclear Science and Engineering, Vol.191, p.282 (2018)
+# statistics:
+#   NEA score: R2
+#   IAEA score:  1
+#   E-min [MeV]:  4.000000E+00
+#   E-max [MeV]:  6.000000E+00
+#   F-value:  5.470279E+00
+#   A-value:  2.861321E-01
+#   chi-2:  1.341540E+02
+#   p-value:  2.616856E-01
+#   exp. data sets for p-value:      1
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    4.565186E+00   2.201182E-01   7.737888E+01
+# endfb8.0      2.437075E+00   2.290132E+00   3.342725E+02
+# jeff3.3       4.378908E+00   2.288471E-01   7.545876E+01
+# jendl5.0      4.236429E+00   2.371661E-01   7.389220E+01
+# cendl3.2      1.429226E+01   7.010011E-02   1.097676E+02

@@ -1,0 +1,54 @@
+# header:
+#   title: Fe54(n,p)Mn54 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Meadows
+#   year: 1996
+#   subentry: 13586003
+#   X4 reaction: 26-FE-54(N,P)25-MN-54,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/13586003
+# target:
+#   Z: 26
+#   A: 54
+#   nuclide: Fe54
+# reaction:
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 25
+#   A: 54
+#   nuclide: Mn54
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.000000E+01   2.000000E-01   5.142630E+02   2.494171E+01   1.030587E+00
+# reference:
+#   author: J.W.Meadows,D.L.Smith,L.R.Greenwood,R.C.Haight, Y.Ikeda,C.Konno
+#   title: Measurement of fast-neutron activation cross sections  for copper, europium, hafnium, iron, nickel, silver,  terbium and titanium at 10.0 and 14.7 MeV and for the  Be(d,n) thick-target spectrum.
+#   journal: Jour: Annals of Nuclear Energy, Vol.23, p.877 (1996)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.000000E+01
+#   E-max [MeV]:  1.000000E+01
+#   F-value:  1.012431E+00
+#   A-value:  9.985111E-01
+#   chi-2:  2.073448E-01
+#   p-value:  2.243110E-01
+#   exp. data sets for p-value:      6
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2023    1.000105E+00   9.998948E-01   2.719920E-03
+# endfb8.0      1.000073E+00   9.999268E-01   1.892451E-03
+# jeff3.3       1.002614E+00   1.002614E+00   6.830976E-02
+# jendl5.0      1.026539E+00   9.741467E-01   7.527558E-01
+# cendl3.2      1.015038E+00   1.015038E+00   4.156936E-01
+# irdff2.0      1.000104E+00   9.998956E-01   2.697505E-03

@@ -1,0 +1,60 @@
+# header:
+#   title: Ni58(n,p)Co58 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: XiaolongHuangg
+#   year: 1999
+#   subentry: 31500003
+#   X4 reaction: 28-NI-58(N,P)27-CO-58,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/31500003
+# target:
+#   Z: 28
+#   A: 58
+#   nuclide: Ni58
+# reaction:
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 27
+#   A: 58
+#   nuclide: Co58
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   4.000000E+00   1.600000E-01   3.524000E+02   5.600000E+00   1.000000E+00
+   4.900000E+00   1.000000E-01   4.811000E+02   7.500000E+00   1.000000E+00
+   6.000000E+00   1.300000E-01   5.811000E+02   1.400000E+01   1.000000E+00
+   7.000000E+00   1.500000E-01   6.286000E+02   1.590000E+01   1.000000E+00
+   1.400000E+01   5.000000E-02   3.290000E+02   9.000000E+00   1.000000E+00
+   1.799000E+01   1.500000E-01   1.010000E+02   1.100000E+01   1.000000E+00
+   1.902000E+01   2.200000E-01   8.980001E+01   5.400000E+00   1.000000E+00
+# reference:
+#   author: Xiaolong Huang,Weixiang Yu,Xiaogang Han, Wenrong Zhao,Hanlin Lu,Jinxiang Chen,Zhaomin Shi, Gouyou Tang,Guohui Zhang
+#   title: The Effect of Low-Energy Neutrons on Activation Cross Sections Measurement
+#   journal: Jour: Nuclear Science and Engineering, Vol.131, p.267 (1999)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  4.000000E+00
+#   E-max [MeV]:  1.902000E+01
+#   F-value:  1.147149E+00
+#   A-value:  1.065253E+00
+#   chi-2:  9.161908E+00
+#   p-value:  2.604834E-01
+#   exp. data sets for p-value:      8
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2023    1.070917E+00   1.046289E+00   2.823717E+00
+# endfb8.0      1.040326E+00   1.032988E+00   2.674156E+00
+# jeff3.3       1.353061E+00   1.190711E+00   3.788897E+01
+# jendl5.0      1.067966E+00   1.043196E+00   2.330761E+00
+# cendl3.2      1.082142E+00   1.039256E+00   6.193303E+00
+# irdff2.0      1.072001E+00   1.047308E+00   3.060538E+00

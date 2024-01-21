@@ -1,0 +1,61 @@
+# header:
+#   title: Zn0(n,n'_01)Zn1 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Smith
+#   year: 1964
+#   subentry: 11749010
+#   X4 reaction: 30-ZN-0(N,INL)30-ZN-0,PAR,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11749010
+#   level energy [MeV]  9.90000E-01
+# target:
+#   Z: 30
+#   A: 0
+#   nuclide: Zn0
+# reaction:
+#   type: (n,n'_01)
+#   ENDF_MF: 3
+#   ENDF_MT: 51
+#   level: 
+#     number: 1
+#     energy [MeV]:  9.915400E-01
+#     spin:  2.000000E+00
+#     parity: 1
+# residual:
+#   Z: 30
+#   A: 1
+#   nuclide: Zn1
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.400000E+00   0.000000E+00   7.600000E+02   1.500000E+02   1.000000E+00
+   1.450000E+00   0.000000E+00   6.900000E+02   1.000000E+02   1.000000E+00
+   1.500000E+00   0.000000E+00   7.600000E+02   1.000000E+02   1.000000E+00
+# reference:
+#   author: A.B.Smith,C.A.Engelbrecht,D.Reitmann
+#   title: Elastic and Inelastic Scattering of Fast Neutrons from  Co, Cu, Zn.
+#   journal: Jour: Physical Review, Vol.135, p.B76 (1964)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.400000E+00
+#   E-max [MeV]:  1.500000E+00
+#   F-value:  1.205490E+00
+#   A-value:  8.536706E-01
+#   chi-2:  1.455477E+00
+#   p-value:  1.740312E-01
+#   exp. data sets for p-value:      1
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    1.218405E+00   8.275153E-01   1.785159E+00
+# endfb8.0      1.077723E+00   9.418476E-01   4.672980E-01
+# jeff3.3       1.122926E+00   9.007490E-01   8.884398E-01
+# jendl5.0      1.338838E+00   7.631610E-01   2.618242E+00
+# cendl3.2      1.193928E+00   8.462040E-01   1.518247E+00

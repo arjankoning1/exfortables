@@ -1,0 +1,59 @@
+# header:
+#   title: Al27(p,x)Na22 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Uddin
+#   year: 2004
+#   subentry: E1894003
+#   X4 reaction: 13-AL-27(P,X)11-NA-22,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/E1894003
+# target:
+#   Z: 13
+#   A: 27
+#   nuclide: Al27
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 11
+#   A: 22
+#   nuclide: Na22
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 9
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.072600E+01   0.000000E+00   8.100000E-01   7.000000E-02   1.000000E+00
+   3.671800E+01   0.000000E+00   1.630000E+01   1.800000E+00   1.000000E+00
+   4.205600E+01   0.000000E+00   3.450000E+01   3.500000E+00   1.000000E+00
+   4.694300E+01   0.000000E+00   3.710000E+01   3.800000E+00   1.000000E+00
+   5.147600E+01   0.000000E+00   3.590000E+01   3.700000E+00   1.000000E+00
+   5.570500E+01   0.000000E+00   2.970000E+01   2.900000E+00   1.000000E+00
+   5.973200E+01   0.000000E+00   2.670000E+01   2.800000E+00   1.000000E+00
+   6.351100E+01   0.000000E+00   2.260000E+01   2.500000E+00   1.000000E+00
+   6.715400E+01   0.000000E+00   2.000000E+01   2.500000E+00   1.000000E+00
+# reference:
+#   author: M.S.Uddin, M.Hagiwara, F.Tarkanyi, F.Ditroi, M.Baba
+#   title: Experimental studies on the proton-induced activation reactions of molybdenum in the energy range 22-67 MeV
+#   journal: Jour: Applied Radiation and Isotopes, Vol.60, Issue.6, p.911 (2004)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  3.072600E+01
+#   E-max [MeV]:  6.715400E+01
+#   F-value:  1.734282E+00
+#   A-value:  9.478524E-01
+#   chi-2:  8.156979E+01
+#   p-value:  3.496051E-01
+#   exp. data sets for p-value:      7
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.913191E+00   5.625331E-01   1.956114E+01
+# endfb8.0      1.506696E+00   1.020957E+00   6.119151E+01
+# jendl5.0      1.761462E+00   1.482745E+00   1.639568E+02

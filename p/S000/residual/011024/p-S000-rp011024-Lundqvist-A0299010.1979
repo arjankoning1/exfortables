@@ -1,0 +1,54 @@
+# header:
+#   title: S0(p,x)Na24 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Lundqvist
+#   year: 1979
+#   subentry: A0299010
+#   X4 reaction: 16-S-0(P,X)11-NA-24,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/A0299010
+# target:
+#   Z: 16
+#   A: 0
+#   nuclide: S0
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 11
+#   A: 24
+#   nuclide: Na24
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.007000E+01   0.000000E+00   6.500000E-02   0.000000E+00   1.000000E+00
+   7.536000E+01   0.000000E+00   3.510000E-01   0.000000E+00   1.000000E+00
+   1.000000E+02   0.000000E+00   9.800000E-01   1.500000E-01   1.000000E+00
+   1.009400E+02   0.000000E+00   9.537000E-01   0.000000E+00   1.000000E+00
+   1.297900E+02   0.000000E+00   1.695400E+00   0.000000E+00   1.000000E+00
+   1.510400E+02   0.000000E+00   1.516700E+00   0.000000E+00   1.000000E+00
+# reference:
+#   author: H.Lundqvist,P.Malmborg
+#   title: Production of carrier-free Mg-28 and Na-24 by 50-180 MeV protons on Si,P,Cl,S,Ar and K: Excitation functions and chemical separation.
+#   journal: Jour: Applied Radiation and Isotopes, Vol.30, p.33 (1979)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  5.007000E+01
+#   E-max [MeV]:  1.510400E+02
+#   F-value:  2.298352E+00
+#   A-value:  2.191077E+00
+#   chi-2:  7.995088E+00
+#   p-value:  2.322900E-01
+#   exp. data sets for p-value:      1
+#   libraries:      1
+##  Library          F              A            chi-2
+# tendl.2023    2.298352E+00   2.191077E+00   7.995088E+00

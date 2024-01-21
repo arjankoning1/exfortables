@@ -1,0 +1,60 @@
+# header:
+#   title: Ba0(p,x)Cs136 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Tarkanyi
+#   year: 2010
+#   subentry: D4240008
+#   X4 reaction: 56-BA-0(P,X)55-CS-136,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D4240008
+# target:
+#   Z: 56
+#   A: 0
+#   nuclide: Ba0
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 55
+#   A: 136
+#   nuclide: Cs136
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 11
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.330000E+01   2.600000E+00   2.600100E-01   5.000200E-02   1.000040E+00
+   4.170000E+01   2.100000E+00   7.200300E-01   2.600100E-01   1.000040E+00
+   4.530000E+01   1.800000E+00   1.180000E+00   2.900100E-01   1.000040E+00
+   4.890000E+01   1.600000E+00   1.590100E+00   2.600100E-01   1.000040E+00
+   5.230000E+01   1.400000E+00   2.380100E+00   4.700200E-01   1.000040E+00
+   5.550000E+01   1.200000E+00   3.280100E+00   7.200300E-01   1.000040E+00
+   5.870000E+01   1.000000E+00   4.280200E+00   6.800300E-01   1.000040E+00
+   6.170000E+01   8.000000E-01   3.950200E+00   7.100300E-01   1.000040E+00
+   6.440000E+01   6.000000E-01   4.410200E+00   9.400400E-01   1.000040E+00
+   6.710000E+01   5.000000E-01   3.950200E+00   6.800300E-01   1.000040E+00
+   6.980000E+01   3.000000E-01   4.340200E+00   7.400301E-01   1.000040E+00
+# reference:
+#   author: F.Tarkanyi, F.Ditroi, B.Kiraly, S.Takacs, A.Hermanne,   H.Yamazaki, M.Baba, A.Mohammadi, A.V.Ignatyuk
+#   title: Study of activation cross sections of proton induced reactions on barium: Production of 131Ba->131Cs
+#   journal: Jour: Applied Radiation and Isotopes, Vol.68, p.1869 (2010)
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  3.330000E+01
+#   E-max [MeV]:  6.980000E+01
+#   F-value:  4.794252E+00
+#   A-value:  9.499669E-01
+#   chi-2:  1.711605E+02
+#   p-value:  2.758307E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    4.506596E+00   4.461221E+00   3.248220E+02
+# jendl5.0      5.088290E+00   2.022848E-01   1.749895E+01

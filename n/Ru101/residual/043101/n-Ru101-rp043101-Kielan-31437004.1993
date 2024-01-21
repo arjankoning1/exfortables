@@ -1,0 +1,58 @@
+# header:
+#   title: Ru101(n,x)Tc101 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Kielan
+#   year: 1993
+#   subentry: 31437004
+#   X4 reaction: 44-RU-101(N,P)43-TC-101,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/31437004
+# target:
+#   Z: 44
+#   A: 101
+#   nuclide: Ru101
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 43
+#   A: 101
+#   nuclide: Tc101
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.300000E+01   4.000000E-01   1.423100E+01   2.273000E+00   9.882641E-01
+   1.340000E+01   2.000000E-01   1.442866E+01   1.976500E+00   9.882641E-01
+   1.390000E+01   3.000000E-01   1.680049E+01   2.273000E+00   9.882641E-01
+   1.450000E+01   3.000000E-01   1.867819E+01   2.569500E+00   9.882641E-01
+   1.500000E+01   3.000000E-01   1.887584E+01   2.668300E+00   9.882641E-01
+   1.540000E+01   2.000000E-01   2.114885E+01   2.964800E+00   9.882641E-01
+   1.590000E+01   5.000000E-01   2.549721E+01   4.546000E+00   9.882641E-01
+   1.660000E+01   1.000000E-01   2.826435E+01   5.237800E+00   9.882641E-01
+# reference:
+#   author: D.Kielan,A.Marcinkowski,U.Garuska
+#   title: Isotopic effect in (n,p) reaction on ruthenium
+#   journal: Jour: Nuclear Physics, Section A, Vol.559, Issue.3, p.333 (1993)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.300000E+01
+#   E-max [MeV]:  1.660000E+01
+#   F-value:  1.617576E+00
+#   A-value:  1.539940E+00
+#   chi-2:  2.162836E+01
+#   p-value:  1.312415E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.831940E+00   1.800986E+00   3.573661E+01
+# jeff3.3       1.693647E+00   1.650394E+00   2.549519E+01
+# jendl5.0      1.249993E+00   1.228609E+00   3.653283E+00

@@ -1,0 +1,60 @@
+# header:
+#   title: Te128(p,n')I128 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Vasidov
+#   year: 1981
+#   subentry: D0726003
+#   X4 reaction: 52-TE-128(P,N)53-I-128,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D0726003
+# target:
+#   Z: 52
+#   A: 128
+#   nuclide: Te128
+# reaction:
+#   type: (p,n')
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+# residual:
+#   Z: 53
+#   A: 128
+#   nuclide: I128
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 11
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   4.430000E+00   0.000000E+00   1.141316E+01   1.369580E+00   1.110230E+00
+   6.400000E+00   0.000000E+00   1.699762E+01   2.039700E+00   1.110230E+00
+   7.350000E+00   0.000000E+00   3.399524E+01   4.079400E+00   1.110230E+00
+   8.740000E+00   0.000000E+00   5.585567E+01   6.702680E+00   1.110230E+00
+   9.530000E+00   0.000000E+00   7.826012E+01   9.391200E+00   1.110230E+00
+   1.031000E+01   0.000000E+00   1.318398E+02   1.582078E+01   1.110230E+00
+   1.210000E+01   0.000000E+00   1.362807E+02   1.635369E+01   1.110230E+00
+   1.345000E+01   0.000000E+00   1.061602E+02   1.273922E+01   1.110230E+00
+   1.455000E+01   0.000000E+00   8.398890E+01   1.007867E+01   1.110230E+00
+   1.556000E+01   0.000000E+00   5.853132E+01   7.023800E+00   1.110230E+00
+   1.642000E+01   0.000000E+00   4.222205E+01   5.066600E+00   1.110230E+00
+# reference:
+#   author: A.Vasidov, G.Vakilova, S.Muhammedov
+#   title: The excitation functions of nuclear reactions (p,n)  on the isotopes Te, Cs, Ba
+#   journal: Jour: Izvestiya Akademii Nauk UzSSSR,Ser.Fiz.-Mat., Issue.3, p.93 (1981)
+# statistics:
+#   NEA score: R3
+#   IAEA score:  0
+#   E-min [MeV]:  4.430000E+00
+#   E-max [MeV]:  1.642000E+01
+#   F-value:  3.298991E+00
+#   A-value:  2.338246E+00
+#   chi-2:  7.544457E+02
+#   p-value:  1.875664E-01
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    3.224302E+00   2.261384E+00   7.660107E+02
+# jendl5.0      3.373955E+00   2.417721E+00   7.428804E+02

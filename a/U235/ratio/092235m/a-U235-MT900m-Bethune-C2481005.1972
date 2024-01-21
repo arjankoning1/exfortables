@@ -1,0 +1,43 @@
+# header:
+#   title: U235(a,ratio) ratio
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Bethune
+#   year: 1972
+#   subentry: C2481005
+#   X4 reaction: (92-U-235(A,X)93-NP-236-M,,SIG)/(92-U-235(A,F),,SIG)
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C2481005
+# target:
+#   Z: 92
+#   A: 235
+#   nuclide: U235
+# reaction:
+#   type: (a,ratio)
+#   ENDF_MF: 203
+#   ENDF_MT: 9000
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: ratio
+#   columns: 5
+#   entries: 7
+##       E             dE            ratio         dratio      Normalization
+##     [MeV]          [MeV]           []             []             []
+   2.595000E+01   2.000000E-01   4.400000E-04   6.300000E-05   1.000000E+00
+   2.617000E+01   2.000000E-01   4.090000E-04   4.800000E-05   1.000000E+00
+   2.651000E+01   2.000000E-01   6.290000E-04   1.740000E-04   1.000000E+00
+   2.676000E+01   2.000000E-01   7.980000E-04   2.000000E-04   1.000000E+00
+   2.710000E+01   2.000000E-01   9.190000E-04   8.000000E-05   1.000000E+00
+   2.736000E+01   2.000000E-01   9.360000E-04   3.380000E-04   1.000000E+00
+   2.794000E+01   2.000000E-01   1.060000E-03   3.400000E-04   1.000000E+00
+# reference:
+#   author: G.R.Bethune,H.C.Britt,B.H.Erkkila
+#   title: Excitation Function for the 235U(alpha,3n) 236Pu Reaction
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.6, p.1087 (1972)

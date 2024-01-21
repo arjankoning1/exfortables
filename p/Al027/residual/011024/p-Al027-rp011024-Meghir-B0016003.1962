@@ -1,0 +1,65 @@
+# header:
+#   title: Al27(p,x)Na24 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Meghir
+#   year: 1962
+#   subentry: B0016003
+#   X4 reaction: 13-AL-27(P,X)11-NA-24,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/B0016003
+# target:
+#   Z: 13
+#   A: 27
+#   nuclide: Al27
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 11
+#   A: 24
+#   nuclide: Na24
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 15
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.700000E+01   4.000000E+00   7.000000E-03   1.000000E-03   1.000000E+00
+   3.300000E+01   4.000000E+00   1.840000E-01   2.600000E-02   1.000000E+00
+   3.300000E+01   4.000000E+00   2.240000E-01   3.100000E-02   1.000000E+00
+   3.800000E+01   4.000000E+00   7.440000E-01   1.040000E-01   1.000000E+00
+   4.300000E+01   4.000000E+00   3.230000E+00   4.500000E-01   1.000000E+00
+   4.550000E+01   4.000000E+00   2.730000E+00   3.800000E-01   1.000000E+00
+   5.000000E+01   4.000000E+00   3.750000E+00   5.200000E-01   1.000000E+00
+   5.700000E+01   4.000000E+00   1.240000E+01   1.730000E+00   1.000000E+00
+   6.200000E+01   4.000000E+00   1.130000E+01   1.600000E+00   1.000000E+00
+   6.700000E+01   4.000000E+00   1.420000E+01   2.000000E+00   1.000000E+00
+   7.200000E+01   4.000000E+00   1.440000E+01   2.000000E+00   1.000000E+00
+   7.500000E+01   4.000000E+00   1.280000E+01   1.800000E+00   1.000000E+00
+   8.200000E+01   4.000000E+00   1.280000E+01   1.800000E+00   1.000000E+00
+   8.200000E+01   4.000000E+00   1.560000E+01   2.200000E+00   1.000000E+00
+   8.650000E+01   4.000000E+00   1.260000E+01   1.700000E+00   1.000000E+00
+# reference:
+#   author: S.Meghir
+#   title: Excitation functions of some monitor reactions
+#   journal: Thesis: Meghir (1962)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  2.700000E+01
+#   E-max [MeV]:  8.650000E+01
+#   F-value:  2.197086E+00
+#   A-value:  8.029054E-01
+#   chi-2:  1.450996E+01
+#   p-value:  2.880948E-01
+#   exp. data sets for p-value:      2
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.253971E+00   1.123524E+00   4.706024E+00
+# endfb8.0      3.909665E+00   3.497246E-01   1.801808E+01
+# jendl5.0      1.582726E+00   1.117878E+00   2.312001E+01

@@ -1,0 +1,56 @@
+# header:
+#   title: Cu65(n,x)Cu64 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Hafiz
+#   year: 2007
+#   subentry: 31598003
+#   X4 reaction: 29-CU-65(N,2N)29-CU-64,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/31598003
+# target:
+#   Z: 29
+#   A: 65
+#   nuclide: Cu65
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 29
+#   A: 64
+#   nuclide: Cu64
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.400000E+01   0.000000E+00   7.977899E+02   6.026888E+01   9.658473E-01
+   1.431000E+01   0.000000E+00   8.823016E+02   6.258691E+01   9.658473E-01
+   1.457000E+01   0.000000E+00   8.835571E+02   6.075180E+01   9.658473E-01
+   1.469000E+01   0.000000E+00   9.458543E+02   6.558103E+01   9.658473E-01
+   1.471000E+01   0.000000E+00   9.278896E+02   6.104155E+01   9.658473E-01
+# reference:
+#   author: M.A.Hafiz
+#   title: Measurement of excitation functions of the reactions 58Ni(n,2n) 57Ni and 65Cu(n,2n)64Cu in the neutron energy range 13.90-14.71 MeV
+#   journal: Jour: Indian Journal of Pure and Applied Physics, Vol.45, p.425 (2007)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.400000E+01
+#   E-max [MeV]:  1.471000E+01
+#   F-value:  1.035506E+00
+#   A-value:  1.021388E+00
+#   chi-2:  4.891036E-01
+#   p-value:  3.170924E-01
+#   exp. data sets for p-value:      8
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2023    1.040472E+00   1.029009E+00   6.128615E-01
+# endfb8.0      1.012580E+00   1.001675E+00   1.709702E-01
+# jeff3.3       1.039894E+00   1.028206E+00   5.950336E-01
+# jendl5.0      1.040923E+00   1.026921E+00   5.775490E-01

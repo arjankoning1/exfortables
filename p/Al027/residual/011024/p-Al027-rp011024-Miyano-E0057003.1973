@@ -1,0 +1,56 @@
+# header:
+#   title: Al27(p,x)Na24 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Miyano
+#   year: 1973
+#   subentry: E0057003
+#   X4 reaction: 13-AL-27(P,X)11-NA-24,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/E0057003
+# target:
+#   Z: 13
+#   A: 27
+#   nuclide: Al27
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 11
+#   A: 24
+#   nuclide: Na24
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.404000E+01   3.000000E-01   5.037000E-01   3.890000E-01   1.000000E+00
+   3.741000E+01   3.000000E-01   8.449000E-01   4.671000E-01   1.000000E+00
+   4.041000E+01   3.000000E-01   1.417000E+00   5.611000E-01   1.000000E+00
+   4.667000E+01   3.000000E-01   3.513000E+00   6.471000E-01   1.000000E+00
+   5.123000E+01   3.000000E-01   5.251000E+00   6.219000E-01   1.000000E+00
+   5.180000E+01   3.000000E-01   5.306000E+00   5.969000E-01   1.000000E+00
+# reference:
+#   author: K.Miyano
+#   title: The 7Be, 22Na and 24Na Production Cross Sections with 22- to 52-MeV Proton on 27Al
+#   journal: Jour: Journal of the Physical Society of Japan, Vol.34, Issue.4, p.853 (
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  3.404000E+01
+#   E-max [MeV]:  5.180000E+01
+#   F-value:  2.658744E+00
+#   A-value:  8.119027E-01
+#   chi-2:  1.471445E+01
+#   p-value:  3.865567E-01
+#   exp. data sets for p-value:      7
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.331451E+00   1.184618E+00   7.831559E+00
+# endfb8.0      5.558589E+00   2.201831E-01   1.226062E+01
+# jendl5.0      1.775466E+00   1.640105E+00   2.605072E+01

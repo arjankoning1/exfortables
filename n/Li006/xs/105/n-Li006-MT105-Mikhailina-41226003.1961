@@ -1,0 +1,53 @@
+# header:
+#   title: Li6(n,t)He4 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Mikhailina
+#   year: 1961
+#   subentry: 41226003
+#   X4 reaction: 3-LI-6(N,T)2-HE-4,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/41226003
+# target:
+#   Z: 3
+#   A: 6
+#   nuclide: Li6
+# reaction:
+#   type: (n,t)
+#   ENDF_MF: 3
+#   ENDF_MT: 105
+# residual:
+#   Z: 2
+#   A: 4
+#   nuclide: He4
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.410000E+01   0.000000E+00   2.700000E+01   6.000000E+00   1.000000E+00
+# reference:
+#   author: K.M.Mikhailina,A.A.Nomofilov,T.A.Romanova, V.A.Sviridov,F.A.Tikhomirov,K.D.Tolstov
+#   title: The interaction of 14.1 MeV neutrons with lithium6 and lithium7
+#   journal: Book: Neitronnaya Fizika, Moskva 1961, p.249 (1961)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.410000E+01
+#   E-max [MeV]:  1.410000E+01
+#   F-value:  1.006505E+00
+#   A-value:  9.949987E-01
+#   chi-2:  3.563607E-02
+#   p-value:  3.802907E-01
+#   exp. data sets for p-value:      8
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    1.007095E+00   9.929546E-01   4.000043E-02
+# endfb8.0      1.007095E+00   9.929546E-01   4.000043E-02
+# jeff3.3       1.007095E+00   9.929546E-01   4.000043E-02
+# jendl5.0      1.003215E+00   1.003215E+00   1.818903E-02
+# irdff2.0      1.007094E+00   9.929565E-01   3.999001E-02

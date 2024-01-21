@@ -1,0 +1,51 @@
+# header:
+#   title: Si28(n,x)Al28 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Crumpton
+#   year: 1969
+#   subentry: 20931003
+#   X4 reaction: 14-SI-28(N,P)13-AL-28,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20931003
+# target:
+#   Z: 14
+#   A: 28
+#   nuclide: Si28
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 13
+#   A: 28
+#   nuclide: Al28
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.470000E+01   2.000000E-01   2.970000E+02   1.400000E+01   1.000000E+00
+# reference:
+#   author: D.Crumpton
+#   title: -14 MeV neutron cross-section measurements on V,Ti,Si  and F-
+#   journal: Jour: Journal of Inorganic and Nuclear Chemistry, Vol.31, p.3727 (1969)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.470000E+01
+#   E-max [MeV]:  1.470000E+01
+#   F-value:  1.207021E+00
+#   A-value:  8.335373E-01
+#   chi-2:  1.305785E+01
+#   p-value:  9.491634E-02
+#   exp. data sets for p-value:      8
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.174227E+00   8.516237E-01   9.940117E+00
+# endfb8.0      1.147704E+00   8.713045E-01   7.544456E+00
+# jendl5.0      1.281276E+00   7.804721E-01   2.168898E+01

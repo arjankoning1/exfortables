@@ -1,0 +1,63 @@
+# header:
+#   title: Na23(n,p)Ne23 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Bartle
+#   year: 1975
+#   subentry: 10494004
+#   X4 reaction: 11-NA-23(N,P)10-NE-23,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/10494004
+# target:
+#   Z: 11
+#   A: 23
+#   nuclide: Na23
+# reaction:
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 10
+#   A: 23
+#   nuclide: Ne23
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 11
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.510000E+00   1.600000E-01   1.460000E+01   2.200000E+00   1.000000E+00
+   5.950000E+00   1.600000E-01   2.760000E+01   2.800000E+00   1.000000E+00
+   6.180000E+00   1.600000E-01   3.040000E+01   3.000000E+00   1.000000E+00
+   6.530000E+00   1.600000E-01   2.960000E+01   3.300000E+00   1.000000E+00
+   6.770000E+00   1.600000E-01   2.740000E+01   1.400000E+00   1.000000E+00
+   7.010000E+00   1.600000E-01   3.520000E+01   1.300000E+00   1.000000E+00
+   7.010000E+00   1.600000E-01   3.650000E+01   1.300000E+00   1.000000E+00
+   7.260000E+00   1.600000E-01   3.980000E+01   1.400000E+00   1.000000E+00
+   7.510000E+00   1.600000E-01   4.610000E+01   1.700000E+00   1.000000E+00
+   8.020001E+00   1.600000E-01   4.940001E+01   1.600000E+00   1.000000E+00
+   8.560000E+00   1.600000E-01   5.570000E+01   2.100000E+00   1.000000E+00
+# reference:
+#   author: C.M.Bartle
+#   title: A study of (n,p) and (n,a) reactions in NaI(Tl) using a  pulse-shape-discrimination method
+#   journal: Jour: Nuclear Instrum.and Methods in Physics Res., Vol.124, p.547 (1975)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  5.510000E+00
+#   E-max [MeV]:  8.560000E+00
+#   F-value:  1.377183E+00
+#   A-value:  1.036989E+00
+#   chi-2:  3.213375E+01
+#   p-value:  3.760940E-01
+#   exp. data sets for p-value:      4
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    1.491514E+00   1.465751E+00   1.137592E+02
+# endfb8.0      1.290879E+00   9.934857E-01   1.430845E+01
+# jeff3.3       1.154555E+00   1.021982E+00   7.446119E+00
+# jendl5.0      1.607676E+00   9.161122E-01   1.468992E+01
+# cendl3.2      1.224522E+00   8.795431E-01   1.046503E+01

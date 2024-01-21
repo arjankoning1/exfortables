@@ -1,0 +1,53 @@
+# header:
+#   title: U235(n,x)U234 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Mather
+#   year: 1972
+#   subentry: 20795010
+#   X4 reaction: 92-U-235(N,2N)92-U-234,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20795010
+# target:
+#   Z: 92
+#   A: 235
+#   nuclide: U235
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 92
+#   A: 234
+#   nuclide: U234
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   7.100000E+00   0.000000E+00   5.172132E+02   3.158028E+01   1.075287E+00
+   8.000000E+00   0.000000E+00   5.827372E+02   4.691521E+01   1.063389E+00
+   1.240000E+01   0.000000E+00   7.054083E+02   6.094074E+01   1.025303E+00
+   1.410000E+01   0.000000E+00   1.673898E+02   3.745010E+01   1.014483E+00
+# reference:
+#   author: D.S.MATHER,P.F.BAMPTON,R.E.COLES,G.JAMES,P.J.NIND
+#   title: -MEASUREMENT OF (N,2N) CROSS SECTIONS FOR INCIDENT  ENERGIES BETWEEN 6 AND 14 MEV-.
+#   journal: Rept: A.W.R.E. Aldermaston Reports, No.72/72 (1972)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  7.100000E+00
+#   E-max [MeV]:  1.410000E+01
+#   F-value:  1.702859E+00
+#   A-value:  1.253155E+00
+#   chi-2:  1.972562E+01
+#   p-value:  3.000316E-01
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# jeff3.3       1.588256E+00   1.227343E+00   1.194193E+01
+# jendl5.0      1.810970E+00   1.279509E+00   2.750932E+01

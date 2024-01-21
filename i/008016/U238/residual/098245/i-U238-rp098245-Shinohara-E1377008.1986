@@ -1,0 +1,38 @@
+# header:
+#   title: U238(i,x)Cf245 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Shinohara
+#   year: 1986
+#   subentry: E1377008
+#   X4 reaction: 92-U-238(8-O-16,X)98-CF-245,IND,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/E1377008
+# target:
+#   Z: 92
+#   A: 238
+#   nuclide: U238
+# reaction:
+#   type: (i,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 98
+#   A: 245
+#   nuclide: Cf245
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   9.476000E+01   0.000000E+00   5.676000E-04   3.253000E-04   1.000000E+00
+   1.007000E+02   0.000000E+00   6.263000E-04   9.973000E-05   1.000000E+00
+   1.149000E+02   0.000000E+00   6.310000E-05   4.375000E-05   1.000000E+00
+# reference:
+#   author: N.Shinohara, S.Usuda, S.Ichikawa, T.Suzuki, M.Magara, H.Okashita, H.Yoshikawa, T.Horiguchi, Y.Iwata, S.Shibata, I.Fujiwara
+#   title: Actinides produced by 12C+242Pu and 16O+238U reactions
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.34, Issue.3, p.909 (

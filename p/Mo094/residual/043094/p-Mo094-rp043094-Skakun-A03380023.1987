@@ -1,0 +1,57 @@
+# header:
+#   title: Mo94(p,x)Tc94 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Skakun
+#   year: 1987
+#   subentry: A03380023
+#   X4 reaction: 42-MO-94(P,N)43-TC-94,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/A03380023
+# target:
+#   Z: 42
+#   A: 94
+#   nuclide: Mo94
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+# residual:
+#   Z: 43
+#   A: 94
+#   nuclide: Tc94
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.500000E+00   0.000000E+00   1.000000E+00   9.999999E-02   1.000000E+00
+   6.000000E+00   0.000000E+00   5.300000E+01   7.000000E+00   1.000000E+00
+   6.500000E+00   0.000000E+00   1.040000E+02   1.100000E+01   1.000000E+00
+   7.000000E+00   0.000000E+00   2.460000E+02   1.600000E+01   1.000000E+00
+   7.500000E+00   0.000000E+00   2.920000E+02   1.900000E+01   1.000000E+00
+   8.000000E+00   0.000000E+00   3.350000E+02   2.100000E+01   1.000000E+00
+   8.500000E+00   0.000000E+00   3.570000E+02   2.200000E+01   1.000000E+00
+   9.000000E+00   0.000000E+00   3.960000E+02   2.400000E+01   1.000000E+00
+# reference:
+#   author: E.A.Skakun, V.G.Batij, Yu.N.Rakivnenko, O.A.Rastrepin
+#   title: Excitation functions and isomer ratios for up-to-9 MeV proton interactions with Zr and Mo isotope nuclei.
+#   journal: Jour: Yadernaya Fizika, Vol.46, p.28 (1987)
+# statistics:
+#   NEA score: R3
+#   IAEA score:  1
+#   E-min [MeV]:  5.500000E+00
+#   E-max [MeV]:  9.000000E+00
+#   F-value:  3.767354E+00
+#   A-value:  1.956961E+00
+#   chi-2:  1.731038E+04
+#   p-value:  2.412815E-01
+#   exp. data sets for p-value:      3
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    3.706409E+00   1.840513E+00   1.730176E+04
+# jendl5.0      1.499488E+00   1.373049E+00   2.961670E+01

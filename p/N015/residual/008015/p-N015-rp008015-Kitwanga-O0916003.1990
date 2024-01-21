@@ -1,0 +1,55 @@
+# header:
+#   title: N15(p,x)O15 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Kitwanga
+#   year: 1990
+#   subentry: O0916003
+#   X4 reaction: 7-N-15(P,N)8-O-15,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O0916003
+# target:
+#   Z: 7
+#   A: 15
+#   nuclide: N15
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+# residual:
+#   Z: 8
+#   A: 15
+#   nuclide: O15
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.589000E+01   1.000000E-01   5.900000E+01   5.000000E+00   1.000000E+00
+   1.855000E+01   1.000000E-01   3.600000E+01   3.000000E+00   1.000000E+00
+   2.103000E+01   1.000000E-01   2.100000E+01   1.600000E+00   1.000000E+00
+   2.349000E+01   1.000000E-01   1.550000E+01   1.400000E+00   1.000000E+00
+   2.603000E+01   1.000000E-01   1.420000E+01   1.420000E-01   1.000000E+00
+   2.808000E+01   1.000000E-01   1.510000E+01   1.510000E-01   1.000000E+00
+# reference:
+#   author: S.W.Kitwanga, P.Leleux, P.Lipnik, J.Vanhorenbeeck
+#   title: Production of O-14,15, F-18 and Ne-19 radioactive nuclei from (P,N) reactions up to 30-MeV.
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.42, p.748 (1990)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.589000E+01
+#   E-max [MeV]:  2.808000E+01
+#   F-value:  1.591297E+00
+#   A-value:  8.486171E-01
+#   chi-2:  5.813735E+02
+#   p-value:  3.568679E-01
+#   exp. data sets for p-value:      3
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.513157E+00   1.172395E+00   3.587672E+02
+# jendl5.0      1.665214E+00   6.142565E-01   8.039798E+02

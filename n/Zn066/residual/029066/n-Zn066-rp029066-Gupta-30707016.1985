@@ -1,0 +1,51 @@
+# header:
+#   title: Zn66(n,x)Cu66 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Gupta
+#   year: 1985
+#   subentry: 30707016
+#   X4 reaction: 30-ZN-66(N,P)29-CU-66,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30707016
+# target:
+#   Z: 30
+#   A: 66
+#   nuclide: Zn66
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 29
+#   A: 66
+#   nuclide: Cu66
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.480000E+01   5.000000E-01   7.676411E+01   6.000000E+00   1.037353E+00
+# reference:
+#   author: J.P.Gupta, H.D.Bhardwaj, R.Prasad
+#   title: Pre-equilibrium emission effect in (n,p) reaction  cross section at 14.8 MeV
+#   journal: Jour: Pramana, Vol.24, p.637 (1985)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.480000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.231415E+00
+#   A-value:  8.391661E-01
+#   chi-2:  5.662582E+00
+#   p-value:  2.100601E-01
+#   exp. data sets for p-value:      8
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.029443E+00   9.713991E-01   4.968662E-01
+# jeff3.3       1.215809E+00   8.224977E-01   5.374672E+00
+# jendl5.0      1.352037E+00   7.396247E-01   1.111621E+01

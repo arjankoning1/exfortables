@@ -1,0 +1,69 @@
+# header:
+#   title: U238(n,2n)U237 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Krishichayan
+#   year: 2017
+#   subentry: 14482002
+#   X4 reaction: 92-U-238(N,2N)92-U-237,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/14482002
+# target:
+#   Z: 92
+#   A: 238
+#   nuclide: U238
+# reaction:
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 92
+#   A: 237
+#   nuclide: U237
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 16
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   6.340000E+00   2.100000E-01   6.933961E+01   9.905660E+00   9.905660E-01
+   6.890000E+00   2.000000E-01   3.863207E+02   9.905700E+00   9.905660E-01
+   7.400000E+00   1.900000E-01   8.122641E+02   9.905660E+00   9.905660E-01
+   7.870000E+00   2.500000E-01   1.129245E+03   2.971698E+01   9.905660E-01
+   8.380000E+00   2.400000E-01   1.258019E+03   2.971698E+01   9.905660E-01
+   8.890000E+00   2.300000E-01   1.347170E+03   3.962264E+01   9.905660E-01
+   9.400000E+00   2.300000E-01   1.357075E+03   2.971698E+01   9.905660E-01
+   9.910000E+00   2.100000E-01   1.436321E+03   3.962264E+01   9.905660E-01
+   1.041000E+01   2.100000E-01   1.406604E+03   2.971698E+01   9.905660E-01
+   1.092000E+01   1.700000E-01   1.426415E+03   2.971698E+01   9.905660E-01
+   1.142000E+01   1.800000E-01   1.426415E+03   3.962264E+01   9.905660E-01
+   1.193000E+01   1.800000E-01   1.416509E+03   3.962264E+01   9.905660E-01
+   1.243000E+01   1.800000E-01   1.386792E+03   3.962264E+01   9.905660E-01
+   1.360000E+01   6.000000E-02   1.099528E+03   2.971698E+01   9.905660E-01
+   1.410000E+01   6.000000E-02   8.816037E+02   1.981132E+01   9.905660E-01
+   1.480000E+01   6.000000E-02   6.537736E+02   1.981132E+01   9.905660E-01
+# reference:
+#   author: Krishichayan,M.Bhike,W.Tornow,A.P.Tonchev,T.Kawano
+#   title: Accurate 238U(n,2n)237U reaction cross-section measurements from 6.5 to 14.8 MeV
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.96, p.044623 (2017)
+# statistics:
+#   NEA score: T2
+#   IAEA score:  1
+#   E-min [MeV]:  6.340000E+00
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.383542E+00
+#   A-value:  9.205670E-01
+#   chi-2:  8.997634E+00
+#   p-value:  2.905440E-01
+#   exp. data sets for p-value:      2
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2023    1.451737E+00   9.128007E-01   3.288161E+00
+# endfb8.0      1.451737E+00   9.128007E-01   3.288161E+00
+# jeff3.3       1.470549E+00   9.123021E-01   9.347753E+00
+# jendl5.0      1.273565E+00   9.238387E-01   1.339459E+01
+# cendl3.2      1.095560E+00   9.494447E-01   2.137898E+01
+# irdff2.0      1.451737E+00   9.128007E-01   3.288161E+00

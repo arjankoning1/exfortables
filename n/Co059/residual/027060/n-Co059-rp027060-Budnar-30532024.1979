@@ -1,0 +1,50 @@
+# header:
+#   title: Co59(n,x)Co60 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Budnar
+#   year: 1979
+#   subentry: 30532024
+#   X4 reaction: 27-CO-59(N,G)27-CO-60,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30532024
+# target:
+#   Z: 27
+#   A: 59
+#   nuclide: Co59
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+# residual:
+#   Z: 27
+#   A: 60
+#   nuclide: Co60
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.410000E+01   6.750000E-01   1.005000E+00   1.550000E-01   1.000000E+00
+# reference:
+#   author: M.Budnar,F.Cvelbar,E.Hodgson,A.Hudoklin,V.Ivkovic, A.Likar,M.V.Mihailovic,R.Martincic,M.Najzer,A.Perdan, M.Potokar,V.Ramsak
+#   title: Prompt gamma-ray spectra and integrated cross sections for the radiative capture of 14 MeV neutrons for 28 natural targets in the mass region from 12 to 208
+#   journal: Rept: Yugoslavian report to the I.N.D.C., No.6 (1979)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.410000E+01
+#   E-max [MeV]:  1.410000E+01
+#   F-value:  1.038447E+00
+#   A-value:  9.738565E-01
+#   chi-2:  2.286885E-01
+#   p-value:  4.730765E-01
+#   exp. data sets for p-value:      3
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.054801E+00   9.480466E-01   4.543767E-01
+# jendl5.0      1.000369E+00   1.000369E+00   3.000357E-03

@@ -1,0 +1,61 @@
+# header:
+#   title: U238(d,x)Np236m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Wing
+#   year: 1959
+#   subentry: C0709008
+#   X4 reaction: 92-U-238(D,4N)93-NP-236-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C0709008
+# target:
+#   Z: 92
+#   A: 238
+#   nuclide: U238
+# reaction:
+#   type: (d,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 37
+# residual:
+#   Z: 93
+#   A: 236
+#   nuclide: Np236m
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.570000E+01   0.000000E+00   1.400000E-02   0.000000E+00   1.000000E+00
+   1.670000E+01   0.000000E+00   2.000000E-01   0.000000E+00   1.000000E+00
+   1.760000E+01   0.000000E+00   9.400000E-01   0.000000E+00   1.000000E+00
+   1.840000E+01   0.000000E+00   4.100000E+00   0.000000E+00   1.000000E+00
+   1.920000E+01   0.000000E+00   1.030000E+01   0.000000E+00   1.000000E+00
+   2.000000E+01   0.000000E+00   1.620000E+01   0.000000E+00   1.000000E+00
+   2.070000E+01   0.000000E+00   2.620000E+01   0.000000E+00   1.000000E+00
+   2.150000E+01   0.000000E+00   3.150000E+01   0.000000E+00   1.000000E+00
+# reference:
+#   author: J.WING,W.J.RAMLER,A.L.HARKNESS,J.R.HUIZENGA
+#   title: Excitation Functions of U235 and U238 Bombarded with  Helium and Deuterium Ions
+#   journal: Jour: Physical Review, Vol.114, p.163 (1959)
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  1.570000E+01
+#   E-max [MeV]:  2.150000E+01
+#   F-value:  2.026319E+02
+#   A-value:  4.955090E-03
+#   chi-2:  0.000000E+00
+#   p-value:  5.215406E-08
+#   exp. data sets for p-value:      1
+#   libraries:      1
+##  Library          F              A            chi-2
+# tendl.2023    2.026319E+02   4.955090E-03   0.000000E+00

@@ -1,0 +1,61 @@
+# header:
+#   title: Ga69(p,x)Ge69 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Porile
+#   year: 1963
+#   subentry: P0014002
+#   X4 reaction: 31-GA-69(P,N)32-GE-69,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/P0014002
+# target:
+#   Z: 31
+#   A: 69
+#   nuclide: Ga69
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+# residual:
+#   Z: 32
+#   A: 69
+#   nuclide: Ge69
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 12
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.300000E+01   0.000000E+00   8.980001E+02   1.347000E+02   1.000000E+00
+   1.400000E+01   0.000000E+00   7.640001E+02   1.146000E+02   1.000000E+00
+   1.490000E+01   0.000000E+00   3.370000E+02   5.055000E+01   1.000000E+00
+   1.820000E+01   0.000000E+00   1.080000E+02   1.620000E+01   1.000000E+00
+   1.930000E+01   0.000000E+00   9.760001E+01   1.464000E+01   1.000000E+00
+   2.600000E+01   0.000000E+00   4.520001E+01   6.780000E+00   1.000000E+00
+   3.310000E+01   0.000000E+00   4.630000E+01   6.945000E+00   1.000000E+00
+   3.620000E+01   0.000000E+00   3.490000E+01   5.235000E+00   1.000000E+00
+   4.040000E+01   0.000000E+00   3.490000E+01   5.235000E+00   1.000000E+00
+   4.580000E+01   0.000000E+00   2.500000E+01   3.750000E+00   1.000000E+00
+   5.030000E+01   0.000000E+00   2.690000E+01   4.035000E+00   1.000000E+00
+   5.490000E+01   0.000000E+00   2.080000E+01   3.120000E+00   1.000000E+00
+# reference:
+#   author: N.T.Porile,S.Tanaka,H.Amano,M.Furukawa,S.Iwata,M.Yagi
+#   title: Nuclear reactions of Ga69 and Ga71 with 13-56 MeV  protons
+#   journal: Jour: Nuclear Physics, Vol.43, p.500 (1963)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.300000E+01
+#   E-max [MeV]:  5.490000E+01
+#   F-value:  1.537160E+00
+#   A-value:  7.036252E-01
+#   chi-2:  4.983606E+00
+#   p-value:  1.873128E-01
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.340651E+00   8.002601E-01   2.821716E+00
+# jendl5.0      1.703496E+00   6.186594E-01   7.145494E+00

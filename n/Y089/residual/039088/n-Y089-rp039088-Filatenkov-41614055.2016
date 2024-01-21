@@ -1,0 +1,57 @@
+# header:
+#   title: Y89(n,x)Y88 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Filatenkov
+#   year: 2016
+#   subentry: 41614055
+#   X4 reaction: 39-Y-89(N,2N)39-Y-88,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/41614055
+# target:
+#   Z: 39
+#   A: 89
+#   nuclide: Y89
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 39
+#   A: 88
+#   nuclide: Y88
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.347000E+01   0.000000E+00   6.809962E+02   1.928648E+01   9.999942E-01
+   1.364000E+01   0.000000E+00   7.290015E+02   2.126173E+01   1.000002E+00
+   1.388000E+01   0.000000E+00   7.970085E+02   2.421666E+01   1.000010E+00
+   1.405000E+01   0.000000E+00   8.910066E+02   2.663995E+01   1.000008E+00
+   1.428000E+01   0.000000E+00   9.039930E+02   2.522543E+01   9.999922E-01
+   1.447000E+01   0.000000E+00   9.599936E+02   2.497107E+01   9.999934E-01
+   1.468000E+01   0.000000E+00   9.799915E+02   2.706546E+01   9.999912E-01
+   1.486000E+01   0.000000E+00   1.042005E+03   2.754509E+01   1.000004E+00
+# reference:
+#   author: A.A.Filatenkov
+#   title: Neutron activation cross sections measured at KRI in neutron energy region 13.4 - 14.9 MeV
+#   journal: Rept: USSR report to the I.N.D.C., No.0460 (2016)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.347000E+01
+#   E-max [MeV]:  1.486000E+01
+#   F-value:  1.026398E+00
+#   A-value:  9.847121E-01
+#   chi-2:  1.037109E+00
+#   p-value:  3.708264E-01
+#   exp. data sets for p-value:      8
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.022128E+00   9.859477E-01   8.205278E-01
+# jendl5.0      1.030088E+00   9.834781E-01   1.253691E+00

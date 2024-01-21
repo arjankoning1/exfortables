@@ -1,0 +1,54 @@
+# header:
+#   title: Ti0(p,x)V48 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Michel
+#   year: 1980
+#   subentry: A0145005V
+#   X4 reaction: 22-TI-0(P,X)23-V-48,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/A0145005V
+# target:
+#   Z: 22
+#   A: 0
+#   nuclide: Ti0
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 23
+#   A: 48
+#   nuclide: V48
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   8.020001E+00   4.800000E-01   2.580000E+02   3.100000E+01   1.000000E+00
+   1.093000E+01   3.800000E-01   3.790000E+02   4.500000E+01   1.000000E+00
+   1.297000E+01   3.500000E-01   3.950000E+02   4.700000E+01   1.000000E+00
+   1.477000E+01   2.600000E-01   3.240000E+02   3.900000E+01   1.000000E+00
+   1.642000E+01   1.900000E-01   2.130000E+02   2.600000E+01   1.000000E+00
+# reference:
+#   author: R.Michel,G.Brinkmann
+#   title: On the depth-dependent production of radionuclides  (44 < 'A' < 59) by solar protons in extraterrestrial matter.
+#   journal: Jour: Journal of Radioanalytical Chemistry, Vol.59, p.467 (1980)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  8.020001E+00
+#   E-max [MeV]:  1.642000E+01
+#   F-value:  1.149816E+00
+#   A-value:  1.011115E+00
+#   chi-2:  1.794156E+00
+#   p-value:  3.469678E-01
+#   exp. data sets for p-value:      4
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.134160E+00   1.023681E+00   1.571067E+00
+# jendl5.0      1.164255E+00   9.987034E-01   2.017245E+00

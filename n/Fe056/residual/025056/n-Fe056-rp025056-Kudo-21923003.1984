@@ -1,0 +1,58 @@
+# header:
+#   title: Fe56(n,x)Mn56 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Kudo
+#   year: 1984
+#   subentry: 21923003
+#   X4 reaction: 26-FE-56(N,P)25-MN-56,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21923003
+# target:
+#   Z: 26
+#   A: 56
+#   nuclide: Fe56
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 25
+#   A: 56
+#   nuclide: Mn56
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.400000E+01   5.000000E-02   1.164000E+02   2.000000E+00   1.000000E+00
+   1.460000E+01   1.000000E-01   1.100000E+02   1.500000E+00   1.000000E+00
+   1.480000E+01   1.000000E-01   1.062000E+02   1.600000E+00   1.000000E+00
+   1.521000E+01   2.800000E-01   1.000000E+02   2.200000E+00   1.000000E+00
+   1.588000E+01   1.400000E-01   9.139999E+01   2.200000E+00   1.000000E+00
+   1.698000E+01   1.000000E-01   7.560001E+01   1.900000E+00   1.000000E+00
+   1.804000E+01   1.100000E-01   6.440000E+01   1.700000E+00   1.000000E+00
+   1.987000E+01   1.500000E-01   4.790001E+01   2.700000E+00   1.000000E+00
+# reference:
+#   author: K.KUDO
+#   title: -CROSS SECTION MEASUREMENTS OF 56-FE(N,P)56-MN AND  27-AL(N,A)24-NA BETWEEN 14.0 AND 19.9 MEV
+#   journal: Priv.Comm: Kudo (1984)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.400000E+01
+#   E-max [MeV]:  1.987000E+01
+#   F-value:  1.030392E+00
+#   A-value:  9.809782E-01
+#   chi-2:  1.383120E+00
+#   p-value:  4.071601E-01
+#   exp. data sets for p-value:      8
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.023968E+00   9.831587E-01   1.289644E+00
+# jeff3.3       1.040549E+00   9.719747E-01   1.898022E+00
+# jendl5.0      1.023688E+00   9.878693E-01   9.616935E-01

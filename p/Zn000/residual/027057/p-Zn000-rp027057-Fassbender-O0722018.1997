@@ -1,0 +1,54 @@
+# header:
+#   title: Zn0(p,x)Co57 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Fassbender
+#   year: 1997
+#   subentry: O0722018
+#   X4 reaction: 30-ZN-0(P,X)27-CO-57,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O0722018
+# target:
+#   Z: 30
+#   A: 0
+#   nuclide: Zn0
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 27
+#   A: 57
+#   nuclide: Co57
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.340000E+02   6.774216E-01   2.257360E+01   3.396000E+00   9.988318E-01
+   1.570000E+02   7.913438E-01   2.736799E+01   4.095210E+00   9.988318E-01
+   1.720000E+02   8.657944E-01   3.765596E+01   5.693300E+00   9.988318E-01
+   2.147000E+02   1.078148E+00   4.474766E+01   7.391400E+00   9.988318E-01
+   2.543000E+02   1.275426E+00   3.635749E+01   7.790900E+00   9.988318E-01
+# reference:
+#   author: M.Fassbender, Yu.N.Shubin, V.P.Lunev, S.M.Qaim
+#   title: Experimental studies and nuclear model calculations on the formation of radioactive products in interactions of medium energy protons with copper, zinc and brass:  estimation of collimator activation in proton therapy facilities.
+#   journal: Jour: Applied Radiation and Isotopes, Vol.48, p.1221 (1997)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  1.340000E+02
+#   E-max [MeV]:  2.543000E+02
+#   F-value:  1.350166E+00
+#   A-value:  1.235023E+00
+#   chi-2:  6.308460E+00
+#   p-value:  1.376636E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.380529E+00   1.293545E+00   7.182030E+00
+# jendl5.0      1.318117E+00   1.179149E+00   5.434891E+00

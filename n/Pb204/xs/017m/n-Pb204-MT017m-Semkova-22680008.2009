@@ -1,0 +1,60 @@
+# header:
+#   title: Pb204(n,3n)Pb202m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Semkova
+#   year: 2009
+#   subentry: 22680008
+#   X4 reaction: 82-PB-204(N,3N)82-PB-202-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22680008
+# target:
+#   Z: 82
+#   A: 204
+#   nuclide: Pb204
+# reaction:
+#   type: (n,3n)
+#   ENDF_MF: 3
+#   ENDF_MT: 17
+# residual:
+#   Z: 82
+#   A: 202
+#   nuclide: Pb202m
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.800000E+01   1.000000E-01   1.739700E-01   7.163500E-02   1.023359E+00
+   1.870000E+01   2.000000E-01   3.888800E+00   5.116799E-01   1.023359E+00
+   1.920000E+01   2.000000E-01   1.371301E+01   2.251390E+00   1.023359E+00
+   1.940000E+01   1.000000E-01   1.872748E+01   2.251390E+00   1.023359E+00
+   2.050000E+01   1.000000E-01   8.391546E+01   1.432703E+01   1.023359E+00
+# reference:
+#   author: V.Semkova, P.Reimer, T.Altzitzoglou, A.J.M.Plompen, C.Quetel, S.Sudar, J.Vogl, A.J.Koning, S.M.Qaim, D.L.Smith, F.Cserpak, V.Avrigeanu
+#   title: Neutron activation cross sections on lead isotopes
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.80, p.024610 (2009)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  1.800000E+01
+#   E-max [MeV]:  2.050000E+01
+#   F-value:  3.040898E+00
+#   A-value:  2.944849E+00
+#   chi-2:  2.349300E+02
+#   p-value:  1.695542E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    3.119519E+00   3.026715E+00   2.711215E+02
+# endfb8.0      3.001667E+00   2.904750E+00   2.168343E+02
+# jeff3.3       3.001667E+00   2.904750E+00   2.168343E+02

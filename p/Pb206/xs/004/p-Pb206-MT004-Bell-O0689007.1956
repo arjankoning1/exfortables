@@ -1,0 +1,52 @@
+# header:
+#   title: Pb206(p,n')Bi206 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Bell
+#   year: 1956
+#   subentry: O0689007
+#   X4 reaction: 82-PB-206(P,N)83-BI-206,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O0689007
+# target:
+#   Z: 82
+#   A: 206
+#   nuclide: Pb206
+# reaction:
+#   type: (p,n')
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+# residual:
+#   Z: 83
+#   A: 206
+#   nuclide: Bi206
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.270000E+01   0.000000E+00   2.300000E+02   3.450000E+01   1.000000E+00
+   1.630000E+01   0.000000E+00   6.000000E+01   9.000000E+00   1.000000E+00
+# reference:
+#   author: R.E.Bell, H.M.Skarsgard
+#   title: Cross sections of (p,xn) reactions in the isotopes of lead and bismuth
+#   journal: Jour: Canadian Journal of Physics, Vol.34, p.745 (1956)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.270000E+01
+#   E-max [MeV]:  1.630000E+01
+#   F-value:  1.439832E+00
+#   A-value:  1.388601E+00
+#   chi-2:  1.014758E+01
+#   p-value:  1.378307E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.419793E+00   1.418899E+00   7.934471E+00
+# endfb8.0      1.590919E+00   1.488472E+00   1.860140E+01
+# jendl5.0      1.278063E+00   1.267769E+00   3.906856E+00

@@ -1,0 +1,57 @@
+# header:
+#   title: S32(n,2n)S31 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Arnold
+#   year: 1965
+#   subentry: 11520005
+#   X4 reaction: 16-S-32(N,2N)16-S-31,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11520005
+# target:
+#   Z: 16
+#   A: 32
+#   nuclide: S32
+# reaction:
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 16
+#   A: 31
+#   nuclide: S31
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.598000E+01   4.200000E-01   3.000000E-01   9.999999E-02   1.000000E+00
+   1.635000E+01   5.100000E-01   3.000000E-01   9.999999E-02   1.000000E+00
+   1.655000E+01   3.800000E-01   5.000000E-01   9.999999E-02   1.000000E+00
+   1.691000E+01   7.200000E-01   6.000000E-01   2.000000E-01   1.000000E+00
+   1.769000E+01   3.000000E-01   1.000000E+00   5.000000E-01   1.000000E+00
+# reference:
+#   author: D.M.ARNOLD,L.A.RAYBURN
+#   title:
+#   journal: Priv.Comm: Arnold (1965)
+# statistics:
+#   NEA score: R2
+#   IAEA score:  1
+#   E-min [MeV]:  1.598000E+01
+#   E-max [MeV]:  1.769000E+01
+#   F-value:  1.706045E+00
+#   A-value:  8.695107E-01
+#   chi-2:  2.341758E+00
+#   p-value:  3.022881E-01
+#   exp. data sets for p-value:      2
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    1.710391E+00   1.150850E+00   2.628175E+00
+# endfb8.0      1.622088E+00   6.803912E-01   2.058408E+00
+# jeff3.3       1.848417E+00   1.216288E+00   3.647557E+00
+# jendl5.0      1.622088E+00   6.803912E-01   2.058408E+00
+# cendl3.2      1.718706E+00   7.670115E-01   1.316243E+00

@@ -1,0 +1,57 @@
+# header:
+#   title: Te122(n,2n)Te121m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Zhou
+#   year: 2007
+#   subentry: 32669004
+#   X4 reaction: 52-TE-122(N,2N)52-TE-121-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/32669004
+# target:
+#   Z: 52
+#   A: 122
+#   nuclide: Te122
+# reaction:
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 52
+#   A: 121
+#   nuclide: Te121m
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.350000E+01   3.000000E-01   6.009668E+02   2.118296E+01   9.916941E-01
+   1.460000E+01   3.000000E-01   6.403571E+02   2.708784E+01   1.000558E+00
+# reference:
+#   author: F.Zhou, F.Tuo, Y.Yi, X.Kong
+#   title: Cross-section measurements for (n,2n) and (n,p) reactions on tellurium isotopes in the neutron energy range of 13.5-14.6 MeV
+#   journal: Jour: Radiochimica Acta, Vol.95, p.553 (2007)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.350000E+01
+#   E-max [MeV]:  1.460000E+01
+#   F-value:  1.079318E+00
+#   A-value:  1.045439E+00
+#   chi-2:  4.242804E+00
+#   p-value:  4.080567E-01
+#   exp. data sets for p-value:      3
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.035083E+00   9.725021E-01   1.283260E+00
+# jeff3.3       1.090325E+00   1.089702E+00   5.539258E+00
+# jendl5.0      1.098415E+00   1.078195E+00   5.905893E+00

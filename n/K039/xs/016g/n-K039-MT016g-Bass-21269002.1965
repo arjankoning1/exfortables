@@ -1,0 +1,60 @@
+# header:
+#   title: K39(n,2n)K38g cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Bass
+#   year: 1965
+#   subentry: 21269002
+#   X4 reaction: 19-K-39(N,2N)19-K-38-G,,SIG,,AV
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21269002
+# target:
+#   Z: 19
+#   A: 39
+#   nuclide: K39
+# reaction:
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 19
+#   A: 38
+#   nuclide: K38g
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.425000E+01   3.000000E-02   1.800000E+00   9.000000E-01   1.000000E+00
+   2.015000E+01   3.000000E-02   2.430000E+01   2.400000E+00   1.000000E+00
+   2.120000E+01   3.000000E-02   2.470000E+01   2.500000E+00   1.000000E+00
+   2.220000E+01   3.000000E-02   2.480000E+01   2.500000E+00   1.000000E+00
+   2.320000E+01   3.000000E-02   2.650000E+01   2.700000E+00   1.000000E+00
+# reference:
+#   author: R.Bass,G.Presser
+#   title: Fast neutron cross section measurements by activation techniques
+#   journal: Prog: Report from Euratom-countries + Euratom to EANDC, No.57, p.1 (1965
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.425000E+01
+#   E-max [MeV]:  2.320000E+01
+#   F-value:  1.203028E+00
+#   A-value:  1.079667E+00
+#   chi-2:  2.347346E+00
+#   p-value:  3.598751E-01
+#   exp. data sets for p-value:      8
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.187482E+00   1.161947E+00   2.193533E+00
+# jeff3.3       1.187482E+00   1.163639E+00   2.266289E+00
+# jendl5.0      1.231749E+00   9.308188E-01   2.582215E+00

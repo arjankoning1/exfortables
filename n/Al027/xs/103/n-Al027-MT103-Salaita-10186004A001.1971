@@ -1,0 +1,54 @@
+# header:
+#   title: Al27(n,p)Mg27 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Salaita
+#   year: 1971
+#   subentry: 10186004
+#   X4 reaction: 13-AL-27(N,P)12-MG-27,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/10186004
+# target:
+#   Z: 13
+#   A: 27
+#   nuclide: Al27
+# reaction:
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 12
+#   A: 27
+#   nuclide: Mg27
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.480000E+01   0.000000E+00   7.500000E+01   6.000000E+00   1.000000E+00
+# reference:
+#   author: G.N.Salaita
+#   title: Absolute neutron cross sections for the production of  the Na-24 isomer from magnesium and aluminum.
+#   journal: Jour: Nuclear Physics, Section A, Vol.170, p.193 (1971)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.480000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.103422E+00
+#   A-value:  9.096496E-01
+#   chi-2:  1.905507E+00
+#   p-value:  2.779911E-01
+#   exp. data sets for p-value:      8
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2023    1.116634E+00   8.955484E-01   2.264527E+00
+# endfb8.0      1.100589E+00   9.086046E-01   1.890621E+00
+# jeff3.3       1.100589E+00   9.086046E-01   1.890621E+00
+# jendl5.0      1.038281E+00   9.631308E-01   6.397445E-01
+# cendl3.2      1.125560E+00   8.884468E-01   2.483007E+00
+# irdff2.0      1.116634E+00   8.955486E-01   2.264523E+00

@@ -1,0 +1,52 @@
+# header:
+#   title: Mg24(n,x)Na24 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Clator
+#   year: 1969
+#   subentry: 11536002
+#   X4 reaction: 12-MG-24(N,P)11-NA-24,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11536002
+# target:
+#   Z: 12
+#   A: 24
+#   nuclide: Mg24
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 11
+#   A: 24
+#   nuclide: Na24
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.440000E+01   0.000000E+00   2.199077E+02   3.289412E+01   1.105064E+00
+   1.570000E+01   0.000000E+00   1.885631E+02   2.805046E+01   1.071381E+00
+   1.670000E+01   0.000000E+00   1.648985E+02   2.479450E+01   1.099324E+00
+# reference:
+#   author: I.G.CLATOR
+#   title: NEUTRON INDUCED REACTIONS BETWEEN 14.4 AND 16.7 MEV.
+#   journal: Thesis: Clator (1969)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.440000E+01
+#   E-max [MeV]:  1.670000E+01
+#   F-value:  1.193836E+00
+#   A-value:  8.431479E-01
+#   chi-2:  1.716992E+00
+#   p-value:  7.268969E-02
+#   exp. data sets for p-value:      8
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.198226E+00   8.375970E-01   1.783960E+00
+# jendl5.0      1.189370E+00   8.487356E-01   1.650025E+00

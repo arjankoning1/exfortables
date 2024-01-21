@@ -1,0 +1,53 @@
+# header:
+#   title: Ca40(p,x)Si28 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Artun
+#   year: 1975
+#   subentry: O0807010
+#   X4 reaction: 20-CA-40(P,X)14-SI-28,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O0807010
+# target:
+#   Z: 20
+#   A: 40
+#   nuclide: Ca40
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 14
+#   A: 28
+#   nuclide: Si28
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.100000E+02   0.000000E+00   1.950000E+01   3.900000E+00   1.000000E+00
+   2.100000E+02   0.000000E+00   1.670000E+01   3.340000E+00   1.000000E+00
+   6.000000E+02   0.000000E+00   6.900000E+00   1.380000E+00   1.000000E+00
+# reference:
+#   author: O.Artun,Y.Cassagnou,R.Legrain,N.Lisbona,L.Roussel, J.P.Alard,A.Baldit,J.P.Costilhes,J.Fargeix,G.Roche, J.C.Tamain
+#   title: Multinucleon removal induced by high-energy protons
+#   journal: Jour: Physical Review Letters, Vol.35, p.773 (1975)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  1.100000E+02
+#   E-max [MeV]:  6.000000E+02
+#   F-value:  2.190005E+00
+#   A-value:  8.856372E-01
+#   chi-2:  1.500862E+01
+#   p-value:  1.263238E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    2.477336E+00   4.036595E-01   8.940356E+00
+# endfb8.0      2.204495E+00   8.804878E-01   1.507755E+01
+# jendl5.0      2.393497E+00   4.177987E-01   8.533365E+00

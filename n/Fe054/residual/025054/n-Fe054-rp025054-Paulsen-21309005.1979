@@ -1,0 +1,58 @@
+# header:
+#   title: Fe54(n,x)Mn54 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Paulsen
+#   year: 1979
+#   subentry: 21309005
+#   X4 reaction: 26-FE-54(N,P)25-MN-54,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21309005
+# target:
+#   Z: 26
+#   A: 54
+#   nuclide: Fe54
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 25
+#   A: 54
+#   nuclide: Mn54
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   6.410000E+00   0.000000E+00   5.112009E+02   2.482407E+01   1.067225E+00
+   6.900000E+00   0.000000E+00   5.050406E+02   2.494930E+01   1.052168E+00
+   7.410000E+00   0.000000E+00   5.047438E+02   2.306528E+01   1.023821E+00
+   7.910000E+00   0.000000E+00   5.234843E+02   2.128322E+01   1.030481E+00
+   8.400000E+00   0.000000E+00   5.238904E+02   1.953426E+01   1.025226E+00
+   8.900000E+00   0.000000E+00   5.181643E+02   1.895128E+01   1.024040E+00
+   9.390000E+00   0.000000E+00   5.121996E+02   1.717425E+01   9.812253E-01
+   9.900000E+00   0.000000E+00   5.078673E+02   1.750935E+01   9.673663E-01
+# reference:
+#   author: A.PAULSEN,R.WIDERA,F.ARNOTTE,H.LISKIEN
+#   title: -CROSS SECTION FOR THE REACTIONS FE-54(N,A)CR-51,  FE-54(N,P)MN-54 AND FE-56(N,P)MN-56.-
+#   journal: Jour: Nuclear Science and Engineering, Vol.72, Issue.1, p.113 (1979)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  6.410000E+00
+#   E-max [MeV]:  9.900000E+00
+#   F-value:  1.031212E+00
+#   A-value:  9.812484E-01
+#   chi-2:  8.080199E-01
+#   p-value:  3.404951E-01
+#   exp. data sets for p-value:      4
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.009521E+00   9.940333E-01   2.184273E-01
+# jeff3.3       1.037595E+00   9.799161E-01   8.781627E-01
+# jendl5.0      1.037877E+00   9.699450E-01   1.327470E+00

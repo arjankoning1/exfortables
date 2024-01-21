@@ -1,0 +1,52 @@
+# header:
+#   title: Y89(n,x)Sr89 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: LuoJunhuaa
+#   year: 2016
+#   subentry: 32729004
+#   X4 reaction: 39-Y-89(N,P)38-SR-89,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/32729004
+# target:
+#   Z: 39
+#   A: 89
+#   nuclide: Y89
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 38
+#   A: 89
+#   nuclide: Sr89
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.350000E+01   2.000000E-01   1.777406E+01   1.104600E+00   1.004184E+00
+   1.410000E+01   2.000000E-01   1.857741E+01   7.029300E-01   1.004184E+00
+   1.480000E+01   2.000000E-01   1.998326E+01   6.025100E-01   1.004184E+00
+# reference:
+#   author: Luo Junhua,Jiang Li
+#   title: Activation cross section for reactions induced by d-T neutrons on natural yttrium
+#   journal: Jour: Nuclear Science and Engineering, Vol.184, p.254 (2016)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.350000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.158782E+00
+#   A-value:  1.157748E+00
+#   chi-2:  1.865439E+01
+#   p-value:  2.646097E-01
+#   exp. data sets for p-value:      3
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.150257E+00   1.149614E+00   1.653633E+01
+# jendl5.0      1.166959E+00   1.165939E+00   2.077246E+01

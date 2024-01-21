@@ -1,0 +1,57 @@
+# header:
+#   title: Mn55(n,p)Cr55 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Bostan
+#   year: 1994
+#   subentry: 22292008
+#   X4 reaction: 25-MN-55(N,P)24-CR-55,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22292008
+# target:
+#   Z: 25
+#   A: 55
+#   nuclide: Mn55
+# reaction:
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 24
+#   A: 55
+#   nuclide: Cr55
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   6.330000E+00   1.300000E-01   5.650000E+00   1.200000E+00   1.000000E+00
+   7.180000E+00   1.300000E-01   9.560000E+00   1.900000E+00   1.000000E+00
+   8.000000E+00   1.300000E-01   1.016000E+01   2.000000E+00   1.000000E+00
+   9.050000E+00   1.400000E-01   1.355000E+01   2.800000E+00   1.000000E+00
+   1.010000E+01   1.500000E-01   2.030000E+01   4.100000E+00   1.000000E+00
+   1.114000E+01   1.600000E-01   2.930000E+01   6.200000E+00   1.000000E+00
+   1.197000E+01   1.800000E-01   3.250000E+01   7.200000E+00   1.000000E+00
+# reference:
+#   author: M.Bostan,S.M.Qaim
+#   title: -Excitation functions of threshold reactions  on Sc-45 and Mn-55 induced by 6 to 13 MeV neutrons.
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.49, p.266 (1994)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  6.330000E+00
+#   E-max [MeV]:  1.197000E+01
+#   F-value:  1.235273E+00
+#   A-value:  1.137012E+00
+#   chi-2:  1.817405E+00
+#   p-value:  3.357198E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.261575E+00   1.184564E+00   2.142551E+00
+# jendl5.0      1.033061E+00   9.864762E-01   1.230524E-01
+# cendl3.2      1.324270E+00   1.257910E+00   3.186610E+00

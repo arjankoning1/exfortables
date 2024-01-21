@@ -1,0 +1,57 @@
+# header:
+#   title: Os188(n,x)Re188 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Konno
+#   year: 1993
+#   subentry: 22637084
+#   X4 reaction: 76-OS-188(N,P)75-RE-188,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22637084
+# target:
+#   Z: 76
+#   A: 188
+#   nuclide: Os188
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 75
+#   A: 188
+#   nuclide: Re188
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.336000E+01   0.000000E+00   2.297200E+00   4.175200E-01   9.733899E-01
+   1.358000E+01   0.000000E+00   2.336100E+00   7.530100E-01   9.733899E-01
+   1.376000E+01   0.000000E+00   2.667100E+00   7.412700E-01   9.733899E-01
+   1.399000E+01   0.000000E+00   3.942200E+00   8.804100E-01   9.733899E-01
+   1.423000E+01   0.000000E+00   3.513900E+00   8.045100E-01   9.733899E-01
+   1.445000E+01   0.000000E+00   3.903300E+00   7.516800E-01   9.733899E-01
+   1.469000E+01   0.000000E+00   4.536000E+00   8.655000E-01   9.733899E-01
+   1.496000E+01   0.000000E+00   5.256300E+00   1.345100E+00   9.733899E-01
+# reference:
+#   author: C.Konno, Y.Ikeda, K.Oishi, K.Kawade, H.Yamamoto, H.Maekawa
+#   title: Activation Cross section measurements at neutron  energy from 13.3 to 14.9 MeV
+#   journal: Rept: JAERI Reports, No.1329 (1993)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.336000E+01
+#   E-max [MeV]:  1.496000E+01
+#   F-value:  1.084852E+00
+#   A-value:  9.894140E-01
+#   chi-2:  3.471563E-01
+#   p-value:  3.438199E-01
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.061956E+00   1.043109E+00   2.974426E-01
+# jeff3.3       1.103236E+00   9.384828E-01   3.968699E-01

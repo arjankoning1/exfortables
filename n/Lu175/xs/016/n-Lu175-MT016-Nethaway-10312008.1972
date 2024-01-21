@@ -1,0 +1,59 @@
+# header:
+#   title: Lu175(n,2n)Lu174 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Nethaway
+#   year: 1972
+#   subentry: 10312008
+#   X4 reaction: 71-LU-175(N,2N)71-LU-174,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/10312008
+# target:
+#   Z: 71
+#   A: 175
+#   nuclide: Lu175
+# reaction:
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 71
+#   A: 174
+#   nuclide: Lu174
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.380000E+01   0.000000E+00   1.649154E+03   6.335000E+00   9.952649E-01
+   1.384000E+01   0.000000E+00   1.818349E+03   6.985000E+00   9.952649E-01
+   1.401000E+01   0.000000E+00   1.785505E+03   6.858800E+00   9.952649E-01
+   1.404000E+01   0.000000E+00   1.739723E+03   6.682900E+00   9.952649E-01
+   1.410000E+01   0.000000E+00   1.668064E+03   1.689360E+02   9.952649E-01
+   1.421000E+01   0.000000E+00   1.803420E+03   6.927600E+00   9.952649E-01
+   1.439000E+01   0.000000E+00   1.669059E+03   6.411500E+00   9.952649E-01
+   1.442000E+01   0.000000E+00   1.784510E+03   6.855000E+00   9.952649E-01
+# reference:
+#   author: D.R.Nethaway
+#   title: Cross Sections for Several (n,2n) Reactions at 14 MeV
+#   journal: Jour: Nuclear Physics, Section A, Vol.190, p.635 (1972)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  0
+#   E-min [MeV]:  1.380000E+01
+#   E-max [MeV]:  1.442000E+01
+#   F-value:  1.170305E+00
+#   A-value:  1.162621E+00
+#   chi-2:  1.639662E+03
+#   p-value:  3.097296E-01
+#   exp. data sets for p-value:      4
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2023    1.152415E+00   1.147143E+00   1.302101E+03
+# endfb8.0      1.222638E+00   1.218558E+00   2.779306E+03
+# jeff3.3       1.148395E+00   1.143026E+00   1.234894E+03
+# jendl5.0      1.148847E+00   1.143492E+00   1.242347E+03

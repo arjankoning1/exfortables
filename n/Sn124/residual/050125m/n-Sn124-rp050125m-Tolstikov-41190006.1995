@@ -1,0 +1,62 @@
+# header:
+#   title: Sn124(n,x)Sn125m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Tolstikov
+#   year: 1995
+#   subentry: 41190006
+#   X4 reaction: 50-SN-124(N,G)50-SN-125-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/41190006
+# target:
+#   Z: 50
+#   A: 124
+#   nuclide: Sn124
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+# residual:
+#   Z: 50
+#   A: 125
+#   nuclide: Sn125m
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.020000E-01   3.300000E-02   4.001000E+00   1.413600E-01   9.594779E-01
+   4.210000E-01   4.600000E-02   3.566000E+00   1.211200E-01   1.001695E+00
+   4.870000E-01   4.100000E-02   3.681500E+00   1.250100E-01   1.022647E+00
+   5.400000E-01   4.100000E-02   3.536500E+00   1.219300E-01   1.010428E+00
+   5.940000E-01   4.000000E-02   3.735700E+00   1.321600E-01   1.012376E+00
+   6.470000E-01   4.000000E-02   3.596600E+00   1.660500E-01   9.990475E-01
+   6.930000E-01   4.400000E-02   3.941500E+00   1.328300E-01   9.978480E-01
+# reference:
+#   author: V.A.Tolstikov,A.N.Davletshin,E.V.Teplov,O.A.Tipunkov, O.T.Grudzevich
+#   title: Isomer production cross-sections for tin isotopes  for neutrons in the energy range 0.3 - 0.7 MEV
+#   journal: Jour: Vop.At.Nauki i Tekhn.,Ser.Yaderno-Reak.Konstanty, Issue.3-4, p.46
+# statistics:
+#   NEA score: T3
+#   IAEA score: -1
+#   E-min [MeV]:  3.020000E-01
+#   E-max [MeV]:  6.930000E-01
+#   F-value:  3.224556E+00
+#   A-value:  1.057612E+00
+#   chi-2:  2.570038E+02
+#   p-value:  2.485911E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.891424E+00   1.889869E+00   6.250528E+02
+# jeff3.3       6.822493E+00   5.482624E-01   1.289563E+02
+# jendl5.0      1.147091E+00   1.141717E+00   1.700239E+01

@@ -1,0 +1,59 @@
+# header:
+#   title: F19(p,x)Ne19 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Kitwanga
+#   year: 1990
+#   subentry: O0916005
+#   X4 reaction: 9-F-19(P,N)10-NE-19,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O0916005
+# target:
+#   Z: 9
+#   A: 19
+#   nuclide: F19
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+# residual:
+#   Z: 10
+#   A: 19
+#   nuclide: Ne19
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 10
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.840000E+00   1.000000E-01   6.910000E+01   2.900000E+00   1.000000E+00
+   9.380000E+00   1.000000E-01   6.700000E+01   3.000000E+00   1.000000E+00
+   1.101000E+01   1.000000E-01   4.730000E+01   2.000000E+00   1.000000E+00
+   1.413000E+01   1.000000E-01   4.400000E+01   1.900000E+00   1.000000E+00
+   1.789000E+01   1.000000E-01   2.620000E+01   1.300000E+00   1.000000E+00
+   2.057000E+01   1.000000E-01   2.950000E+01   1.900000E+00   1.000000E+00
+   2.199000E+01   1.000000E-01   2.220000E+01   1.300000E+00   1.000000E+00
+   2.546000E+01   1.000000E-01   2.030000E+01   1.400000E+00   1.000000E+00
+   2.765000E+01   1.000000E-01   1.570000E+01   1.200000E+00   1.000000E+00
+   2.900000E+01   1.000000E-01   1.270000E+01   9.000000E-01   1.000000E+00
+# reference:
+#   author: S.W.Kitwanga, P.Leleux, P.Lipnik, J.Vanhorenbeeck
+#   title: Production of O-14,15, F-18 and Ne-19 radioactive nuclei from (P,N) reactions up to 30-MeV.
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.42, p.748 (1990)
+# statistics:
+#   NEA score: R2
+#   IAEA score:  1
+#   E-min [MeV]:  5.840000E+00
+#   E-max [MeV]:  2.900000E+01
+#   F-value:  1.579445E+01
+#   A-value:  3.618537E-01
+#   chi-2:  5.188939E+02
+#   p-value:  2.597042E-01
+#   exp. data sets for p-value:      4
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    4.465372E+01   6.529816E-02   1.550427E+02
+# jendl5.0      2.563283E+00   2.201441E+00   9.796843E+02

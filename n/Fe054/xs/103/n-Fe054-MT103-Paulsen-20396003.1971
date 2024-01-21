@@ -1,0 +1,62 @@
+# header:
+#   title: Fe54(n,p)Mn54 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Paulsen
+#   year: 1971
+#   subentry: 20396003
+#   X4 reaction: 26-FE-54(N,P)25-MN-54,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20396003
+# target:
+#   Z: 26
+#   A: 54
+#   nuclide: Fe54
+# reaction:
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 25
+#   A: 54
+#   nuclide: Mn54
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 9
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.280000E+01   2.000000E-01   4.520000E+02   2.300000E+01   1.000000E+00
+   1.320000E+01   2.100000E-01   4.170000E+02   2.100000E+01   1.000000E+00
+   1.360000E+01   2.300000E-01   3.750000E+02   1.900000E+01   1.000000E+00
+   1.400000E+01   2.600000E-01   3.260000E+02   1.600000E+01   1.000000E+00
+   1.480000E+01   3.400000E-01   2.490000E+02   1.300000E+01   1.000000E+00
+   1.520000E+01   3.900000E-01   2.300000E+02   1.200000E+01   1.000000E+00
+   1.560000E+01   4.400000E-01   2.180000E+02   1.100000E+01   1.000000E+00
+   1.600000E+01   5.000000E-01   1.860000E+02   9.300000E+00   1.000000E+00
+   1.640000E+01   5.500000E-01   1.700000E+02   8.500000E+00   1.000000E+00
+# reference:
+#   author: A.PAULSEN, R.WIDERA
+#   title: -NI-58(N,P)CO-58 AND FE-54(N,P)MN-54 CROSS-SECTION  MEASUREMENTS FOR USE AS THRESHOLD DETECTORS.-
+#   journal: Conf: Chemical Nucl. Data Conf.,Canterbury 1971, p.129 (1971)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.280000E+01
+#   E-max [MeV]:  1.640000E+01
+#   F-value:  1.088093E+00
+#   A-value:  1.051800E+00
+#   chi-2:  3.352127E+00
+#   p-value:  2.947005E-01
+#   exp. data sets for p-value:      3
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2023    1.087653E+00   1.062133E+00   3.305943E+00
+# endfb8.0      1.084779E+00   1.060727E+00   3.121899E+00
+# jeff3.3       1.068205E+00   1.045041E+00   2.199846E+00
+# jendl5.0      1.061124E+00   9.779106E-01   1.555031E+00
+# cendl3.2      1.127954E+00   1.108323E+00   6.766780E+00
+# irdff2.0      1.085391E+00   1.061006E+00   3.163263E+00

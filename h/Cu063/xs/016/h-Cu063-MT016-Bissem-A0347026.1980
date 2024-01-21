@@ -1,0 +1,53 @@
+# header:
+#   title: Cu63(h,2n)Ga64 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Bissem
+#   year: 1980
+#   subentry: A0347026
+#   X4 reaction: 29-CU-63(HE3,2N)31-GA-64,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/A0347026
+# target:
+#   Z: 29
+#   A: 63
+#   nuclide: Cu63
+# reaction:
+#   type: (h,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 31
+#   A: 64
+#   nuclide: Ga64
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.370000E+01   0.000000E+00   2.380000E+01   1.904000E+00   1.000000E+00
+   1.770000E+01   0.000000E+00   6.980000E+01   5.584000E+00   1.000000E+00
+   2.000000E+01   0.000000E+00   4.870000E+01   3.896000E+00   1.000000E+00
+   2.220000E+01   0.000000E+00   4.540000E+01   3.632000E+00   1.000000E+00
+   2.430000E+01   0.000000E+00   2.040000E+01   1.632000E+00   1.000000E+00
+# reference:
+#   author: H.H.Bissem,R.Georgi,W.Scobel,J.Ernst,M.Kaba, J.Rama Rao,H.Strohe
+#   title: Entrance and exit channel phenomena in d- and He3- induced preequilibrium decay
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.22, p.1468 (1980)
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  1.370000E+01
+#   E-max [MeV]:  2.430000E+01
+#   F-value:  2.979830E+00
+#   A-value:  3.523070E-01
+#   chi-2:  6.425548E+01
+#   p-value:  2.940152E-01
+#   exp. data sets for p-value:      1
+#   libraries:      1
+##  Library          F              A            chi-2
+# tendl.2023    2.979830E+00   3.523070E-01   6.425548E+01

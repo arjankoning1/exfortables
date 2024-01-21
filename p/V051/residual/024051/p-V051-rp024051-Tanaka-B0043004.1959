@@ -1,0 +1,57 @@
+# header:
+#   title: V51(p,x)Cr51 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Tanaka
+#   year: 1959
+#   subentry: B0043004
+#   X4 reaction: 23-V-51(P,N)24-CR-51,,SIG,,,EXP
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/B0043004
+# target:
+#   Z: 23
+#   A: 51
+#   nuclide: V51
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+# residual:
+#   Z: 24
+#   A: 51
+#   nuclide: Cr51
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   6.700000E+00   0.000000E+00   5.004038E+02   0.000000E+00   9.081736E-01
+   7.800000E+00   0.000000E+00   4.631686E+02   0.000000E+00   9.081736E-01
+   8.800000E+00   0.000000E+00   4.459132E+02   0.000000E+00   9.081736E-01
+   9.900000E+00   0.000000E+00   5.103935E+02   1.425833E+02   9.081736E-01
+   1.080000E+01   0.000000E+00   4.822402E+02   0.000000E+00   9.081736E-01
+   1.150000E+01   0.000000E+00   5.085773E+02   0.000000E+00   9.081736E-01
+   1.240000E+01   0.000000E+00   4.649849E+02   0.000000E+00   9.081736E-01
+   1.330000E+01   0.000000E+00   4.377396E+02   0.000000E+00   9.081736E-01
+# reference:
+#   author: S.TANAKA, M.FURUKAWA
+#   title: Excitation Functions For (P,N) Reactions with Titanium, Vanadium, Chromium, Iron and Nickel Up to 14 MeV
+#   journal: Jour: Journal of the Physical Society of Japan, Vol.14, p.1269 (1959)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  6.700000E+00
+#   E-max [MeV]:  1.330000E+01
+#   F-value:  1.261659E+00
+#   A-value:  1.240897E+00
+#   chi-2:  9.973805E-02
+#   p-value:  2.087415E-01
+#   exp. data sets for p-value:      6
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.284124E+00   1.266547E+00   1.131874E-01
+# jendl5.0      1.237784E+00   1.215766E+00   8.628869E-02

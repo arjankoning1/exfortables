@@ -1,0 +1,56 @@
+# header:
+#   title: Zn64(n,x)Zn65 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: ChenJinxiangg
+#   year: 1995
+#   subentry: 31456002
+#   X4 reaction: 30-ZN-64(N,G)30-ZN-65,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/31456002
+# target:
+#   Z: 30
+#   A: 64
+#   nuclide: Zn64
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+# residual:
+#   Z: 30
+#   A: 65
+#   nuclide: Zn65
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.560000E-01   1.000000E-02   2.509066E+01   1.315200E+00   1.011720E+00
+   3.300000E-01   2.000000E-02   2.134729E+01   1.719900E+00   1.011720E+00
+   5.400000E-01   4.000000E-02   2.053792E+01   9.105500E-01   1.011720E+00
+   7.350000E-01   5.400000E-02   1.972854E+01   8.093801E-01   1.011720E+00
+   9.300000E-01   6.200000E-02   1.962737E+01   8.093801E-01   1.011720E+00
+   1.150000E+00   7.000000E-02   1.861565E+01   9.105500E-01   1.011720E+00
+# reference:
+#   author: Chen Jinxiang, Shi Zhaomin, Tang Guoyou,  Zhang Guohui, Lu Hanlin, Zhao Wenrong, Yu Weixian
+#   title: Measurement of 64Zn(n,g)65Zn cross section
+#   journal: Jour: Chinese J.of Nuclear Physics (Beijing)., Vol.17, p.342 (1995)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.560000E-01
+#   E-max [MeV]:  1.150000E+00
+#   F-value:  2.345175E+00
+#   A-value:  8.101676E-01
+#   chi-2:  1.964479E+01
+#   p-value:  2.722099E-01
+#   exp. data sets for p-value:      3
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.155138E+00   1.055675E+00   9.678882E+00
+# jeff3.3       4.342269E+00   5.061686E-01   4.753164E+01
+# jendl5.0      1.051950E+00   9.951741E-01   1.723845E+00

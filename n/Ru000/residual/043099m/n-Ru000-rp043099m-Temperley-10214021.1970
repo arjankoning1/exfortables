@@ -1,0 +1,56 @@
+# header:
+#   title: Ru0(n,x)Tc99m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Temperley
+#   year: 1970
+#   subentry: 10214021
+#   X4 reaction: 44-RU-0(N,X)43-TC-99-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/10214021
+# target:
+#   Z: 44
+#   A: 0
+#   nuclide: Ru0
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 43
+#   A: 99
+#   nuclide: Tc99m
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.410000E+01   1.000000E+00   1.094209E+01   2.069000E+00   1.094209E+00
+# reference:
+#   author: J.K.Temperley,D.E.Barnes
+#   title: Neutron Activation Cross Sections for Some Isotopes of  Ruthenium, Palladium, Indium, Tin, and Iridium
+#   journal: Rept: Ballistic Research Labs Reports, No.1491 (1970)
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  1.410000E+01
+#   E-max [MeV]:  1.410000E+01
+#   F-value:  5.392995E+00
+#   A-value:  1.907877E-01
+#   chi-2:  1.799820E+01
+#   p-value:  1.604891E-01
+#   exp. data sets for p-value:      2
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    3.390684E+00   2.949257E-01   1.390964E+01
+# jeff3.3       6.358077E+00   1.572803E-01   1.986338E+01
+# jendl5.0      6.679370E+00   1.497147E-01   2.022157E+01

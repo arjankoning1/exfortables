@@ -1,0 +1,47 @@
+# header:
+#   title: U238(n,tot) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Fluharty
+#   year: 1956
+#   subentry: 119460134
+#   X4 reaction: 92-U-238(N,TOT),,SIG,,RES
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/119460134
+# target:
+#   Z: 92
+#   A: 238
+#   nuclide: U238
+# reaction:
+#   type: (n,tot)
+#   ENDF_MF: 3
+#   ENDF_MT: 1
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.120000E-05   3.000000E-07   3.500000E+07   1.300000E+07   1.000000E+00
+   3.700000E-05   6.000000E-07   3.840000E+07   1.800000E+07   1.000000E+00
+   6.600000E-05   2.500000E-06   1.560000E+07   7.000000E+06   1.000000E+00
+   1.010000E-04   3.000000E-06   1.920000E+07   1.100000E+07   1.000000E+00
+# reference:
+#   author: R.G.FLUHARTY,F.B.SIMPSON,O.D.SIMPSON
+#   title: NEUTRON RESONANCE MEASUREMENTS OF AG,TA,AND U238.
+#   journal: Jour: Physical Review, Vol.103, p.1778 (1956)
+# statistics:
+#   NEA score:   
+#   IAEA score: -1
+#   E-min [MeV]:  2.120000E-05
+#   E-max [MeV]:  1.010000E-04
+#   F-value:  0.000000E+00
+#   A-value:  0.000000E+00
+#   chi-2:  0.000000E+00
+#   p-value:  0.000000E+00
+#   exp. data sets for p-value:      8
+#   libraries:      0
+##  Library          F              A            chi-2

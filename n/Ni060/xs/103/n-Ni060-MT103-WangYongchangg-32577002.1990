@@ -1,0 +1,59 @@
+# header:
+#   title: Ni60(n,p)Co60 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: WangYongchangg
+#   year: 1990
+#   subentry: 32577002
+#   X4 reaction: 28-NI-60(N,P)27-CO-60,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/32577002
+# target:
+#   Z: 28
+#   A: 60
+#   nuclide: Ni60
+# reaction:
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 27
+#   A: 60
+#   nuclide: Co60
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.364000E+01   5.000000E-02   1.835162E+02   1.070030E+01   9.952069E-01
+   1.379000E+01   6.000000E-02   1.808437E+02   1.036131E+01   1.011430E+00
+   1.403000E+01   7.000000E-02   1.708214E+02   1.001895E+01   9.966243E-01
+   1.433000E+01   9.000000E-02   1.601682E+02   9.241700E+00   9.893031E-01
+   1.460000E+01   1.100000E-01   1.561567E+02   9.010300E+00   9.946286E-01
+   1.480000E+01   1.100000E-01   1.457837E+02   8.655601E+00   9.883644E-01
+# reference:
+#   author: Wang Yongchang,Ren Zhongliang,Yuan Junqian, Yang  Jingkang,Xiang Sicang
+#   title: The cross section measurement for the Ni-60(n,p)Co-60 reaction
+#   journal: Jour: High Energy Physics and Nucl.Physics,Chinese ed., Vol.14, p.923 (1
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.364000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.138857E+00
+#   A-value:  8.862132E-01
+#   chi-2:  4.645368E+00
+#   p-value:  8.368370E-02
+#   exp. data sets for p-value:      5
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2023    1.147075E+00   8.745978E-01   5.117424E+00
+# endfb8.0      1.069423E+00   9.370375E-01   1.804739E+00
+# jeff3.3       1.140866E+00   8.793749E-01   4.791422E+00
+# jendl5.0      1.092264E+00   9.203145E-01   2.579325E+00
+# cendl3.2      1.204927E+00   8.331787E-01   8.602998E+00
+# irdff2.0      1.144420E+00   8.766285E-01   4.976299E+00

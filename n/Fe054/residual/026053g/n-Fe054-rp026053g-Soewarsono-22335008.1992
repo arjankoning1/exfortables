@@ -1,0 +1,59 @@
+# header:
+#   title: Fe54(n,x)Fe53g cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Soewarsono
+#   year: 1992
+#   subentry: 22335008
+#   X4 reaction: 26-FE-54(N,2N)26-FE-53-G,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22335008
+# target:
+#   Z: 26
+#   A: 54
+#   nuclide: Fe54
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 26
+#   A: 53
+#   nuclide: Fe53g
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.755000E+01   2.240000E+00   8.070000E+01   8.300000E+00   1.000000E+00
+   2.180000E+01   1.910000E+00   1.430000E+02   1.600000E+01   1.000000E+00
+   2.758000E+01   1.640000E+00   1.380000E+02   3.100000E+01   1.000000E+00
+   3.280000E+01   1.440000E+00   1.200000E+02   2.700000E+01   1.000000E+00
+   3.826000E+01   1.220000E+00   7.970000E+01   1.780000E+01   1.000000E+00
+# reference:
+#   author: T.S.Soewarsono, Y.Uwamino, T.Nakamura
+#   title: Neutron activation cross section measurement from  Li-7(p,n) in the proton energy region of 20 MeV to  40 MeV
+#   journal: Conf: JAERI-M Reports, No.92-027, p.354 (1992)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.755000E+01
+#   E-max [MeV]:  3.826000E+01
+#   F-value:  1.821468E+00
+#   A-value:  5.816347E-01
+#   chi-2:  5.776916E+00
+#   p-value:  1.669976E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.650873E+00   6.302747E-01   5.091404E+00
+# jendl5.0      1.981761E+00   5.367483E-01   6.462428E+00

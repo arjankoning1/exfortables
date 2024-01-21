@@ -1,0 +1,51 @@
+# header:
+#   title: Zn66(n,x)Cu66 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Valkonen
+#   year: 1976
+#   subentry: 20673011
+#   X4 reaction: 30-ZN-66(N,P)29-CU-66,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20673011
+# target:
+#   Z: 30
+#   A: 66
+#   nuclide: Zn66
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 29
+#   A: 66
+#   nuclide: Cu66
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.470000E+01   3.000000E-01   7.600002E+01   7.000000E+00   1.000000E+00
+# reference:
+#   author: M.Valkonen,P.Homberg,R.Rieppo,J.K.Keinaenen,J.Kantele
+#   title: Studies of 14 MeV neutron activation cross sections  with special reference to the capture reaction
+#   journal: Rept: Univ. of Jyvaeskylae, Dept.of Physics Reports, No.1/1976 (1976)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.470000E+01
+#   E-max [MeV]:  1.470000E+01
+#   F-value:  1.210903E+00
+#   A-value:  8.558558E-01
+#   chi-2:  3.606232E+00
+#   p-value:  3.129387E-01
+#   exp. data sets for p-value:      8
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.013686E+00   9.864985E-01   1.895416E-01
+# jeff3.3       1.182834E+00   8.454273E-01   3.262521E+00
+# jendl5.0      1.330365E+00   7.516732E-01   7.366634E+00

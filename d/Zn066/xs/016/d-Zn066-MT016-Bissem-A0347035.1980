@@ -1,0 +1,53 @@
+# header:
+#   title: Zn66(d,2n)Ga66 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Bissem
+#   year: 1980
+#   subentry: A0347035
+#   X4 reaction: 30-ZN-66(D,2N)31-GA-66,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/A0347035
+# target:
+#   Z: 30
+#   A: 66
+#   nuclide: Zn66
+# reaction:
+#   type: (d,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 31
+#   A: 66
+#   nuclide: Ga66
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.000000E+01   0.000000E+00   3.910000E+02   3.128000E+01   1.000000E+00
+   2.210000E+01   0.000000E+00   3.320000E+02   2.656000E+01   1.000000E+00
+   2.380000E+01   0.000000E+00   2.630000E+02   2.104000E+01   1.000000E+00
+   2.410000E+01   0.000000E+00   2.370000E+02   1.896000E+01   1.000000E+00
+   2.580000E+01   0.000000E+00   2.030000E+02   1.624000E+01   1.000000E+00
+# reference:
+#   author: H.H.Bissem,R.Georgi,W.Scobel,J.Ernst,M.Kaba, J.Rama Rao,H.Strohe
+#   title: Entrance and exit channel phenomena in d- and He3- induced preequilibrium decay
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.22, p.1468 (1980)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  2.000000E+01
+#   E-max [MeV]:  2.580000E+01
+#   F-value:  1.249991E+00
+#   A-value:  1.218115E+00
+#   chi-2:  1.060401E+01
+#   p-value:  1.793975E-01
+#   exp. data sets for p-value:      1
+#   libraries:      1
+##  Library          F              A            chi-2
+# tendl.2023    1.249991E+00   1.218115E+00   1.060401E+01

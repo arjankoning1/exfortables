@@ -1,0 +1,55 @@
+# header:
+#   title: Ti47(n,x)Sc47 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Armitage
+#   year: 1967
+#   subentry: 30045002
+#   X4 reaction: 22-TI-47(N,P)21-SC-47,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30045002
+# target:
+#   Z: 22
+#   A: 47
+#   nuclide: Ti47
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 21
+#   A: 47
+#   nuclide: Sc47
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.190000E+00   0.000000E+00   1.994892E+01   4.975000E+00   9.067689E-01
+   2.600000E+00   0.000000E+00   2.148107E+01   4.852800E+00   7.671809E-01
+   3.080000E+00   0.000000E+00   3.799131E+01   9.335100E+00   9.266173E-01
+   3.480000E+00   0.000000E+00   5.136116E+01   9.714100E+00   9.338393E-01
+   3.640000E+00   0.000000E+00   4.972882E+01   9.417000E+00   9.041604E-01
+# reference:
+#   author: F.G.Armitage
+#   title: 47Ti(n,p) Cross-section from 2.19 To 3.64 MeV
+#   journal: Priv.Comm: Symonds (1967)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  2.190000E+00
+#   E-max [MeV]:  3.640000E+00
+#   F-value:  1.110341E+00
+#   A-value:  9.975030E-01
+#   chi-2:  5.638544E-01
+#   p-value:  3.674687E-01
+#   exp. data sets for p-value:      8
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.120905E+00   1.001479E+00   6.261026E-01
+# jeff3.3       1.119904E+00   1.006006E+00   6.030678E-01
+# jendl5.0      1.087359E+00   9.851453E-01   4.623929E-01

@@ -1,0 +1,59 @@
+# header:
+#   title: Pb204(n,x)Pb203 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Ikeda
+#   year: 1988
+#   subentry: 22089111
+#   X4 reaction: 82-PB-204(N,2N)82-PB-203,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22089111
+# target:
+#   Z: 82
+#   A: 204
+#   nuclide: Pb204
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 82
+#   A: 203
+#   nuclide: Pb203
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.333000E+01   0.000000E+00   2.071535E+03   1.100815E+02   1.000741E+00
+   1.357000E+01   0.000000E+00   2.151594E+03   1.200889E+02   1.000741E+00
+   1.375000E+01   0.000000E+00   2.121572E+03   1.200889E+02   1.000741E+00
+   1.398000E+01   0.000000E+00   2.121572E+03   1.200889E+02   1.000741E+00
+   1.422000E+01   0.000000E+00   2.191624E+03   1.300964E+02   1.000741E+00
+   1.443000E+01   0.000000E+00   2.211638E+03   1.300964E+02   1.000741E+00
+   1.467000E+01   0.000000E+00   2.311712E+03   1.300964E+02   1.000741E+00
+   1.493000E+01   0.000000E+00   2.121572E+03   1.200889E+02   1.000741E+00
+# reference:
+#   author: Y.Ikeda,C.Konno,K.Oishi,T.Nakamura,H.Miyade, K.Kawade,  H.Yamamoto, T.Katoh
+#   title: Activation cross section measurements for fusion  reactor structural materials at neutron energy from  13.3 to 15.0 MeV using FNS facility
+#   journal: Rept: JAERI Reports, No.1312 (1988)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.333000E+01
+#   E-max [MeV]:  1.493000E+01
+#   F-value:  1.025927E+00
+#   A-value:  9.942880E-01
+#   chi-2:  4.345850E-01
+#   p-value:  2.891478E-01
+#   exp. data sets for p-value:      6
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2023    1.045098E+00   9.629672E-01   1.021393E+00
+# endfb8.0      1.015170E+00   1.005362E+00   2.458311E-01
+# jeff3.3       1.015170E+00   1.005362E+00   2.458311E-01
+# jendl5.0      1.014995E+00   1.004135E+00   2.252854E-01

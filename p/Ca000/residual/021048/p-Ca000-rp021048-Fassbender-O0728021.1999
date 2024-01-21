@@ -1,0 +1,56 @@
+# header:
+#   title: Ca0(p,x)Sc48 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Fassbender
+#   year: 1999
+#   subentry: O0728021
+#   X4 reaction: 20-CA-0(P,X)21-SC-48,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O0728021
+# target:
+#   Z: 20
+#   A: 0
+#   nuclide: Ca0
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 21
+#   A: 48
+#   nuclide: Sc48
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.082000E+02   9.000000E-01   2.200000E-02   2.100000E-03   1.000000E+00
+   1.120000E+02   9.000000E-01   2.020000E-02   1.900000E-03   1.000000E+00
+   1.210000E+02   9.000000E-01   1.970000E-02   1.900000E-03   1.000000E+00
+   1.246000E+02   8.000000E-01   1.900000E-02   1.800000E-03   1.000000E+00
+   1.293000E+02   8.000000E-01   1.960000E-02   1.900000E-03   1.000000E+00
+   1.504000E+02   7.000000E-01   1.600000E-02   2.100000E-03   1.000000E+00
+   1.703000E+02   7.000000E-01   1.450000E-02   1.900000E-03   1.000000E+00
+# reference:
+#   author: M.FASSBENDER, YU.N.SHUBIN, S.M.QAIM
+#   title: Formation of Activation Products in Interactions of Medium Energy Protons with Na, Si, P, Cl, Ca and Fe.
+#   journal: Jour: Radiochimica Acta, Vol.84, p.59 (1999)
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  1.082000E+02
+#   E-max [MeV]:  1.703000E+02
+#   F-value:  3.806567E+00
+#   A-value:  2.667226E-01
+#   chi-2:  4.917985E+01
+#   p-value:  1.539918E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    4.130542E+00   2.457268E-01   5.199203E+01
+# jendl5.0      3.489366E+00   2.895125E-01   4.636768E+01

@@ -1,0 +1,57 @@
+# header:
+#   title: Fe0(p,x)Mg28 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Gloris
+#   year: 1998
+#   subentry: O1881005
+#   X4 reaction: 26-FE-0(P,X)12-MG-28,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O1881005
+# target:
+#   Z: 26
+#   A: 0
+#   nuclide: Fe0
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 12
+#   A: 28
+#   nuclide: Mg28
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 9
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.920000E+02   1.000000E+00   7.260000E-02   1.890000E-02   1.000000E+00
+   5.960000E+02   1.000000E+00   7.170000E-02   1.600000E-02   1.000000E+00
+   5.990000E+02   1.000000E+00   7.220000E-02   1.350000E-02   1.000000E+00
+   7.920000E+02   1.000000E+00   1.440000E-01   2.600000E-02   1.000000E+00
+   7.960000E+02   1.000000E+00   1.290000E-01   2.500000E-02   1.000000E+00
+   7.990000E+02   1.000000E+00   1.560000E-01   2.700000E-02   1.000000E+00
+   1.190000E+03   1.000000E+00   3.040000E-01   5.300000E-02   1.000000E+00
+   1.600000E+03   2.000000E+00   4.070000E-01   6.800000E-02   1.000000E+00
+   2.530000E+03   2.000000E+00   3.280000E-01   4.500000E-02   1.000000E+00
+# reference:
+#   author: M.Gloris
+#   title: Proton-induced production of residual nuclei in heavy elements at medium energies.
+#   journal: Thesis: Gloris (1998)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  5.920000E+02
+#   E-max [MeV]:  2.530000E+03
+#   F-value:  0.000000E+00
+#   A-value:  0.000000E+00
+#   chi-2:  0.000000E+00
+#   p-value:  0.000000E+00
+#   exp. data sets for p-value:      2
+#   libraries:      1
+##  Library          F              A            chi-2
+# jendl5.0      0.000000E+00   0.000000E+00   0.000000E+00

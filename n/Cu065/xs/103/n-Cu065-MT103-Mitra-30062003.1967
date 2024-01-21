@@ -1,0 +1,54 @@
+# header:
+#   title: Cu65(n,p)Ni65 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Mitra
+#   year: 1967
+#   subentry: 30062003
+#   X4 reaction: 29-CU-65(N,P)28-NI-65,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30062003
+# target:
+#   Z: 29
+#   A: 65
+#   nuclide: Cu65
+# reaction:
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 28
+#   A: 65
+#   nuclide: Ni65
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.410000E+01   1.800000E-01   1.971970E+01   1.870100E+00   1.037879E+00
+   1.480000E+01   2.000000E-02   2.698486E+01   2.859300E+00   1.037879E+00
+# reference:
+#   author: B.Mitra
+#   title: A survey of results of (n,p) cross sections of 14-MeV neutrons in low-z nuclei
+#   journal: Conf: Nucl. and Solid State Physics Symp., Kanpur 1967, p.367 (1967)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.410000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.248888E+00
+#   A-value:  8.741460E-01
+#   chi-2:  3.441825E+00
+#   p-value:  2.084774E-01
+#   exp. data sets for p-value:      8
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    1.314634E+00   8.263926E-01   4.641711E+00
+# endfb8.0      1.298008E+00   8.315809E-01   4.267759E+00
+# jeff3.3       1.145388E+00   9.553331E-01   2.082957E+00
+# jendl5.0      1.166373E+00   9.271368E-01   2.254431E+00
+# cendl3.2      1.282752E+00   8.385529E-01   3.962269E+00

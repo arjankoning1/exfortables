@@ -1,0 +1,56 @@
+# header:
+#   title: Ir193(n,x)Ir192+ cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Bayhurst
+#   year: 1975
+#   subentry: 10536053
+#   X4 reaction: 77-IR-193(N,2N)77-IR-192-G+M1,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/10536053
+# target:
+#   Z: 77
+#   A: 193
+#   nuclide: Ir193
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 77
+#   A: 192
+#   nuclide: Ir192+
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.620000E+01   1.200000E-01   1.780000E+03   8.800001E+01   1.000000E+00
+   1.621000E+01   1.200000E-01   1.843000E+03   9.300000E+01   1.000000E+00
+# reference:
+#   author: B.P.Bayhurst,J.S.Gilmore,R.J.Prestwood,J.B.Wilhelmy, N.Jarmie,B.H.Erkkila,R.A.Hardekopf
+#   title: Cross sections for (n,xn) reactions between 7.5 and  28 MeV
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.12, p.451 (1975)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.620000E+01
+#   E-max [MeV]:  1.621000E+01
+#   F-value:  1.025337E+00
+#   A-value:  1.011854E+00
+#   chi-2:  5.360206E-01
+#   p-value:  4.058148E-01
+#   exp. data sets for p-value:      3
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.035043E+00   1.028916E+00   9.055692E-01
+# jendl5.0      1.008144E+00   9.950748E-01   1.664721E-01

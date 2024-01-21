@@ -1,0 +1,59 @@
+# header:
+#   title: Fe54(n,x)Fe53 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Wallner
+#   year: 2011
+#   subentry: 23171004
+#   X4 reaction: 26-FE-54(N,2N)26-FE-53,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/23171004
+# target:
+#   Z: 26
+#   A: 54
+#   nuclide: Fe54
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 26
+#   A: 53
+#   nuclide: Fe53
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 9
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.351000E+01   4.000000E-02   6.000000E-02   1.000000E-02   1.000000E+00
+   1.368000E+01   4.000000E-02   1.300000E-01   3.000000E-02   1.000000E+00
+   1.384000E+01   5.000000E-02   4.700000E-01   3.000000E-02   1.000000E+00
+   1.411000E+01   5.000000E-02   1.620000E+00   7.000000E-02   1.000000E+00
+   1.432000E+01   5.000000E-02   3.720000E+00   1.300000E-01   1.000000E+00
+   1.458000E+01   5.000000E-02   6.640000E+00   3.500000E-01   1.000000E+00
+   1.460000E+01   5.000000E-02   7.250000E+00   6.000000E-01   1.000000E+00
+   1.461000E+01   6.000000E-02   6.570000E+00   2.000000E-01   1.000000E+00
+   1.480000E+01   5.000000E-02   1.022000E+01   3.000000E-01   1.000000E+00
+# reference:
+#   author: A.Wallner, K.Buczak,C.Lederer,H.Vonach, T.Faestermann, G.Korschinek,M.Poutivtsev, G.Rugel, A.Klix, K.Seidel, A.Plompen, V.Semkova
+#   title: Production of long-lived radionuclides 10Be, 14C, 53Mn, 55Fe, 59Ni and 202gPb in a Fusion Environment.
+#   journal: Jour: Journal of the Korean Physical Society, Vol.59, Issue.2, p.1378 (2
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.351000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.668265E+00
+#   A-value:  1.478788E+00
+#   chi-2:  2.512745E+02
+#   p-value:  2.636181E-01
+#   exp. data sets for p-value:      2
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.138184E+00   1.042185E+00   7.407384E+00
+# jeff3.3       2.177987E+00   2.135765E+00   6.406453E+02
+# jendl5.0      1.497603E+00   1.452846E+00   1.057709E+02

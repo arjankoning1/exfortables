@@ -1,0 +1,53 @@
+# header:
+#   title: Cl35(n,x)P32 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Batchelder
+#   year: 2019
+#   subentry: 145560051
+#   X4 reaction: 17-CL-35(N,A)15-P-32,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/145560051
+# target:
+#   Z: 17
+#   A: 35
+#   nuclide: Cl35
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+# residual:
+#   Z: 15
+#   A: 32
+#   nuclide: P32
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.420000E+00   4.000000E-02   1.200000E+00   5.000000E-01   1.000000E+00
+   2.520000E+00   6.000000E-02   4.700000E+00   7.000000E-01   1.000000E+00
+   2.580000E+00   6.000000E-02   5.000000E+00   7.000000E-01   1.000000E+00
+   2.640000E+00   7.000000E-02   5.200000E+00   5.000000E-01   1.000000E+00
+# reference:
+#   author: J.C.Batchelder,S.-A.Chong,J.Morrell,M.Ayllon Unzueta, P.Adams,J.D.Bauer,T.Bailey,T.A.Becker,L.A.Bernstein, M.Fratoni,A.M.Hurst,J.James,A.M.Lewis,E.F.Matthews, M.Negus,D.Rutte,K.Song,K.Van Bibber,M.Wallace, C.S.Waltz
+#   title: Possible evidence of nonstatistical properties in the 35Cl(n,p)35S cross section
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.99, p.044612 (2019)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  2.420000E+00
+#   E-max [MeV]:  2.640000E+00
+#   F-value:  1.550755E+00
+#   A-value:  1.243602E+00
+#   chi-2:  3.337542E+00
+#   p-value:  3.696260E-01
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.550755E+00   1.243602E+00   3.337542E+00
+# jendl5.0      0.000000E+00   0.000000E+00   0.000000E+00

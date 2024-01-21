@@ -1,0 +1,52 @@
+# header:
+#   title: Sr86(n,p)Rb86 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Levkovskii
+#   year: 1969
+#   subentry: 402230181
+#   X4 reaction: 38-SR-86(N,P)37-RB-86,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/402230181
+# target:
+#   Z: 38
+#   A: 86
+#   nuclide: Sr86
+# reaction:
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 37
+#   A: 86
+#   nuclide: Rb86
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.480000E+01   0.000000E+00   4.800000E+01   1.000000E+01   1.000000E+00
+# reference:
+#   author: V.N.Levkovskii,G.E.Kovel'skaya,G.P.Vinitskaya, V.M.Stepanov,V.V.Sokol'skii
+#   title: Cross sections of the (n,p) and (n,alpha) reactions  at 14.8 MeV .
+#   journal: Jour: Soviet Journal of Nuclear Physics, Vol.8, p.4 (1969)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.480000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.041218E+00
+#   A-value:  9.702299E-01
+#   chi-2:  1.869280E-01
+#   p-value:  2.904412E-01
+#   exp. data sets for p-value:      5
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2023    1.006335E+00   9.937053E-01   3.810899E-02
+# endfb8.0      1.026583E+00   9.741057E-01   1.599408E-01
+# jeff3.3       1.077837E+00   9.277844E-01   4.686057E-01
+# jendl5.0      1.013473E+00   9.867061E-01   8.105648E-02

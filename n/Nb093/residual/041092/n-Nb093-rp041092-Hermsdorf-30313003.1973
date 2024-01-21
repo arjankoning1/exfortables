@@ -1,0 +1,52 @@
+# header:
+#   title: Nb93(n,x)Nb92 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Hermsdorf
+#   year: 1973
+#   subentry: 30313003
+#   X4 reaction: 41-NB-93(N,2N)41-NB-92,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30313003
+# target:
+#   Z: 41
+#   A: 93
+#   nuclide: Nb93
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 41
+#   A: 92
+#   nuclide: Nb92
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.460000E+01   0.000000E+00   1.150000E+03   3.000000E+02   1.000000E+00
+# reference:
+#   author: D.Hermsdorf,S.Sassonoff,D.Seeliger,K.Seidel
+#   title: The Nb-93(n,2n)Nb-92 cross-section at 14 MeV extracted from experimental neutron emission spectrum.
+#   journal: Jour: Journal of Nuclear Energy, Vol.27, p.747 (1973)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.460000E+01
+#   E-max [MeV]:  1.460000E+01
+#   F-value:  1.070565E+00
+#   A-value:  1.050828E+00
+#   chi-2:  2.713547E-01
+#   p-value:  2.099682E-01
+#   exp. data sets for p-value:      5
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2023    1.000009E+00   1.000009E+00   4.162077E-05
+# endfb8.0      1.103863E+00   1.103863E+00   5.446441E-01
+# jeff3.3       1.005695E+00   1.005695E+00   2.748531E-02
+# jendl5.0      1.098354E+00   1.098354E+00   5.132478E-01

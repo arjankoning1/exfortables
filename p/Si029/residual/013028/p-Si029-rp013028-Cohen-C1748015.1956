@@ -1,0 +1,51 @@
+# header:
+#   title: Si29(p,x)Al28 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Cohen
+#   year: 1956
+#   subentry: C1748015
+#   X4 reaction: 14-SI-29(P,2P)13-AL-28,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C1748015
+# target:
+#   Z: 14
+#   A: 29
+#   nuclide: Si29
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 111
+# residual:
+#   Z: 13
+#   A: 28
+#   nuclide: Al28
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.100000E+01   0.000000E+00   1.087000E+02   0.000000E+00   1.000000E+00
+# reference:
+#   author: B.L.Cohen
+#   title: Proton-Induced Reactions in Na23, Al27, and Si29
+#   journal: Jour: Physical Review, Vol.102, p.453 (1956)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  2.100000E+01
+#   E-max [MeV]:  2.100000E+01
+#   F-value:  2.110132E+00
+#   A-value:  5.643585E-01
+#   chi-2:  0.000000E+00
+#   p-value:  1.278087E-01
+#   exp. data sets for p-value:      2
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.119611E+00   8.931673E-01   0.000000E+00
+# endfb8.0      3.437065E+00   2.909459E-01   0.000000E+00
+# jendl5.0      1.445706E+00   6.917038E-01   0.000000E+00

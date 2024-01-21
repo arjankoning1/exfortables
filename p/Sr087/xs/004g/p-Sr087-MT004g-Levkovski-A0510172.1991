@@ -1,0 +1,67 @@
+# header:
+#   title: Sr87(p,n')Y87g cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Levkovski*0.82
+#   year: 1991
+#   subentry: A0510172
+#   X4 reaction: 38-SR-87(P,N)39-Y-87-G,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/A0510172
+# target:
+#   Z: 38
+#   A: 87
+#   nuclide: Sr87
+# reaction:
+#   type: (p,n')
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+# residual:
+#   Z: 39
+#   A: 87
+#   nuclide: Y87g
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 13
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   7.700000E+00   0.000000E+00   7.509887E+01   9.158400E+00   7.631999E-01
+   8.600000E+00   0.000000E+00   1.376813E+02   1.679040E+01   7.631999E-01
+   9.500000E+00   0.000000E+00   1.501978E+02   1.831680E+01   7.631999E-01
+   1.040000E+01   0.000000E+00   1.501978E+02   1.831680E+01   7.631999E-01
+   1.130000E+01   0.000000E+00   1.564560E+02   1.908000E+01   7.631999E-01
+   1.210000E+01   0.000000E+00   1.689725E+02   2.060640E+01   7.631999E-01
+   1.280000E+01   0.000000E+00   1.564560E+02   1.908000E+01   7.631999E-01
+   1.380000E+01   0.000000E+00   1.376813E+02   1.679040E+01   7.631999E-01
+   1.480000E+01   0.000000E+00   1.189066E+02   1.450080E+01   7.631999E-01
+   1.580000E+01   0.000000E+00   9.074448E+01   1.106640E+01   7.631999E-01
+   1.670000E+01   0.000000E+00   6.133073E+01   7.479400E+00   7.631999E-01
+   1.750000E+01   0.000000E+00   5.256921E+01   6.410900E+00   7.631999E-01
+   1.830000E+01   0.000000E+00   4.193020E+01   5.113400E+00   7.631999E-01
+# reference:
+#   author: V.N.Levkovski
+#   title: Cross sections of medium mass nuclide activation  (A=40-100) by medium energy protons and alpha-particles (E=10-50 MeV)
+#   journal: Book: Levkovskij,Act.Cs.By Protons and Alphas,Moscow 1991,  (1991)
+# statistics:
+#   NEA score: R3
+#   IAEA score:  1
+#   E-min [MeV]:  7.700000E+00
+#   E-max [MeV]:  1.830000E+01
+#   F-value:  2.763663E+00
+#   A-value:  2.040447E+00
+#   chi-2:  3.729852E+02
+#   p-value:  2.424263E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.069870E+00   1.003897E+00   5.578861E-01
+# jendl5.0      4.204020E+00   4.147261E+00   7.454127E+02

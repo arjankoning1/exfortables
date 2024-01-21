@@ -1,0 +1,53 @@
+# header:
+#   title: Pb208(n,p)Tl208 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Lakshmanadas
+#   year: 1981
+#   subentry: 30605006
+#   X4 reaction: 82-PB-208(N,P)81-TL-208,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30605006
+# target:
+#   Z: 82
+#   A: 208
+#   nuclide: Pb208
+# reaction:
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 81
+#   A: 208
+#   nuclide: Tl208
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.420000E+01   2.000000E-01   5.166000E-01   6.325800E-02   1.033207E+00
+# reference:
+#   author: N.Lakshmana Das, C.V.Srinivasa Rao, J.Rama Rao
+#   title: Some neutron activation cross-sections in the heavy mass region at 14 MeV
+#   journal: Jour: Annals of Nuclear Energy, Vol.8, p.283 (1981)
+# statistics:
+#   NEA score: T2
+#   IAEA score:  1
+#   E-min [MeV]:  1.420000E+01
+#   E-max [MeV]:  1.420000E+01
+#   F-value:  1.764856E+00
+#   A-value:  6.912501E-01
+#   chi-2:  1.162770E+01
+#   p-value:  4.196893E-01
+#   exp. data sets for p-value:      5
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    1.001624E+00   1.001624E+00   1.666950E-02
+# endfb8.0      1.722138E+00   5.806737E-01   1.174122E+01
+# jeff3.3       2.200212E+00   4.545016E-01   1.984596E+01
+# jendl5.0      2.200212E+00   4.545016E-01   1.984596E+01
+# cendl3.2      1.313616E+00   1.313616E+00   6.688702E+00

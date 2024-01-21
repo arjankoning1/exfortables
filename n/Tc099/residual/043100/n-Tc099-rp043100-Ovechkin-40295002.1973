@@ -1,0 +1,51 @@
+# header:
+#   title: Tc99(n,x)Tc100 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Ovechkin
+#   year: 1973
+#   subentry: 40295002
+#   X4 reaction: 43-TC-99(N,G)43-TC-100,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/40295002
+# target:
+#   Z: 43
+#   A: 99
+#   nuclide: Tc99
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+# residual:
+#   Z: 43
+#   A: 100
+#   nuclide: Tc100
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.530000E-08   0.000000E+00   2.400000E+04   4.000000E+03   1.000000E+00
+# reference:
+#   author: V.V.Ovechkin,D.F.Rau,V.S.Rudenko
+#   title: Measurement of the activation cross section of Tc-99 by the thermal neutrons
+#   journal: Conf: 2.Conf.on Neutron Physics, Kiev 1973, Vol.2, p.131 (1973)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.530000E-08
+#   E-max [MeV]:  2.530000E-08
+#   F-value:  1.059500E+00
+#   A-value:  9.537695E-01
+#   chi-2:  3.760457E-01
+#   p-value:  2.698866E-01
+#   exp. data sets for p-value:      8
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.073351E+00   9.316614E-01   5.624590E-01
+# jeff3.3       1.073351E+00   9.316614E-01   5.624590E-01
+# jendl5.0      1.000428E+00   9.995722E-01   3.219122E-03

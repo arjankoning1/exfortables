@@ -1,0 +1,51 @@
+# header:
+#   title: Fe0(n,non) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Degtjarev
+#   year: 1961
+#   subentry: 40645006
+#   X4 reaction: 26-FE-0(N,NON),,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/40645006
+# target:
+#   Z: 26
+#   A: 0
+#   nuclide: Fe0
+# reaction:
+#   type: (n,non)
+#   ENDF_MF: 3
+#   ENDF_MT: 3
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.430000E+01   0.000000E+00   1.330000E+03   4.000000E+01   1.000000E+00
+   1.540000E+01   0.000000E+00   1.320000E+03   0.000000E+00   1.000000E+00
+   1.610000E+01   0.000000E+00   1.280000E+03   4.000000E+01   1.000000E+00
+   1.970000E+01   0.000000E+00   1.200000E+03   2.000000E+01   1.000000E+00
+# reference:
+#   author: JU.G.DEGTJAREV,V.G.NADTOCHIJ
+#   title: MEASUREMENT OF THE CROSS SECTION FOR INELASTIC INTERACTION OF NEUTRONS WITH AN ENERGY OF 13-20 MEV USING CERTAIN ISOTOPES.
+#   journal: Jour: Atomnaya Energiya, Vol.11, Issue.4, p.397 (1961)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  1.430000E+01
+#   E-max [MeV]:  1.970000E+01
+#   F-value:  1.808964E+01
+#   A-value:  2.465670E-01
+#   chi-2:  3.668163E+02
+#   p-value:  3.674723E-01
+#   exp. data sets for p-value:      8
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2023    1.079683E+00   1.070054E+00   1.510759E+01
+# endfb8.0      3.267980E+02   3.060101E-03   1.423480E+03
+# jeff3.3       1.061482E+00   1.060824E+00   6.766940E+00
+# cendl3.2      1.080828E+00   1.064033E+00   2.191048E+01

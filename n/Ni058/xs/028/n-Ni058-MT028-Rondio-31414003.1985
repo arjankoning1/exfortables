@@ -1,0 +1,53 @@
+# header:
+#   title: Ni58(n,np)Co57 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Rondio
+#   year: 1985
+#   subentry: 31414003
+#   X4 reaction: 28-NI-58(N,N+P)27-CO-57,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/31414003
+# target:
+#   Z: 28
+#   A: 58
+#   nuclide: Ni58
+# reaction:
+#   type: (n,np)
+#   ENDF_MF: 3
+#   ENDF_MT: 28
+# residual:
+#   Z: 27
+#   A: 57
+#   nuclide: Co57
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.850000E+01   0.000000E+00   3.690000E+02   1.107000E+02   1.000000E+00
+# reference:
+#   author: J.Rondio,B.Marianski,A.Korman
+#   title: Investigation of the Ni-58(n,p) reaction mechanism at 18.5 MeV.
+#   journal: Jour: Jour. of Physics, Part G (Nucl.and Part.Phys.), Vol.11, p.549 (198
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  1.850000E+01
+#   E-max [MeV]:  1.850000E+01
+#   F-value:  2.180151E+00
+#   A-value:  2.179580E+00
+#   chi-2:  1.549646E+01
+#   p-value:  6.859812E-02
+#   exp. data sets for p-value:      7
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    2.182037E+00   2.182037E+00   1.552709E+01
+# endfb8.0      2.148089E+00   2.148089E+00   1.464945E+01
+# jeff3.3       2.123918E+00   2.123918E+00   1.404049E+01
+# jendl5.0      2.192147E+00   2.192147E+00   1.579352E+01
+# cendl3.2      2.253941E+00   2.253941E+00   1.747177E+01

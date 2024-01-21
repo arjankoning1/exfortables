@@ -1,0 +1,52 @@
+# header:
+#   title: W186(n,p)Ta186 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: XiaoJunSunnn
+#   year: 2019
+#   subentry: 327970032
+#   X4 reaction: 74-W-186(N,P)73-TA-186,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/327970032
+# target:
+#   Z: 74
+#   A: 186
+#   nuclide: W186
+# reaction:
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 73
+#   A: 186
+#   nuclide: Ta186
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.350000E+01   2.000000E-01   8.112200E-01   3.799800E-02   9.892946E-01
+   1.440000E+01   2.000000E-01   1.401000E+00   6.735500E-02   1.000696E+00
+# reference:
+#   author: Xiao-Jun Sun,Feng-Qun Zhou,Yue-Li Song,Yong Li, Peng-Fei Ji,Xin-Yi Chang
+#   title: Measurements of the cross-sections of produced short-lived nuclei induced by neutrons around 14 MeV on isotopes of tungsten
+#   journal: Jour: Chinese Physics Letters, Vol.36, p.112501 (2019)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.350000E+01
+#   E-max [MeV]:  1.440000E+01
+#   F-value:  1.156238E+00
+#   A-value:  1.116181E+00
+#   chi-2:  1.193853E+01
+#   p-value:  2.910632E-01
+#   exp. data sets for p-value:      3
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.248541E+00   1.221464E+00   2.854503E+01
+# jeff3.3       1.085849E+00   1.075958E+00   3.636777E+00
+# jendl5.0      1.088349E+00   1.058103E+00   3.633788E+00

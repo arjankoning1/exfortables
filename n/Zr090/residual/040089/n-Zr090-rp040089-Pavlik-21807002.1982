@@ -1,0 +1,63 @@
+# header:
+#   title: Zr90(n,x)Zr89 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Pavlik
+#   year: 1982
+#   subentry: 21807002
+#   X4 reaction: 40-ZR-90(N,2N)40-ZR-89,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21807002
+# target:
+#   Z: 40
+#   A: 90
+#   nuclide: Zr90
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 40
+#   A: 89
+#   nuclide: Zr89
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 13
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.233500E+01   1.500000E-02   2.630000E+01   5.500000E+00   1.000000E+00
+   1.253000E+01   2.000000E-02   7.500000E+01   7.700000E+00   1.000000E+00
+   1.301500E+01   2.500000E-02   2.531000E+02   1.250000E+01   1.000000E+00
+   1.361500E+01   3.000000E-02   4.720000E+02   1.900000E+01   1.000000E+00
+   1.431000E+01   3.000000E-02   6.930000E+02   2.500000E+01   1.000000E+00
+   1.508000E+01   3.500000E-02   8.740001E+02   3.100000E+01   1.000000E+00
+   1.589500E+01   4.000000E-02   9.930001E+02   3.500000E+01   1.000000E+00
+   1.672000E+01   4.000000E-02   1.086000E+03   3.600000E+01   1.000000E+00
+   1.751000E+01   3.500000E-02   1.137000E+03   3.800000E+01   1.000000E+00
+   1.823000E+01   2.500000E-02   1.166000E+03   3.900000E+01   1.000000E+00
+   1.882500E+01   3.000000E-02   1.197000E+03   4.000000E+01   1.000000E+00
+   1.926500E+01   2.500000E-02   1.207000E+03   4.000000E+01   1.000000E+00
+   1.952500E+01   2.000000E-02   1.219000E+03   4.100000E+01   1.000000E+00
+# reference:
+#   author: A.Pavlik, G.Winkler, H.Vonach, A.Paulsen, H.Liskien
+#   title: -Precise measurement of cross sections for the  Zr-90(N,2N)Zr-89 reaction from threshold to 20 MeV.
+#   journal: Jour: Jour. of Physics, Part G (Nucl.and Part.Phys.), Vol.8, p.1283 (198
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.233500E+01
+#   E-max [MeV]:  1.952500E+01
+#   F-value:  1.089687E+00
+#   A-value:  1.011992E+00
+#   chi-2:  5.406848E-01
+#   p-value:  3.765712E-01
+#   exp. data sets for p-value:      4
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.105295E+00   1.020623E+00   5.932419E-01
+# jeff3.3       1.102816E+00   1.020716E+00   5.497811E-01
+# jendl5.0      1.051595E+00   9.948564E-01   4.790316E-01

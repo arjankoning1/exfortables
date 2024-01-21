@@ -1,0 +1,53 @@
+# header:
+#   title: Zn68(n,a)Ni65 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Valkonen
+#   year: 1976
+#   subentry: 20673014
+#   X4 reaction: 30-ZN-68(N,A)28-NI-65,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20673014
+# target:
+#   Z: 30
+#   A: 68
+#   nuclide: Zn68
+# reaction:
+#   type: (n,a)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+# residual:
+#   Z: 28
+#   A: 65
+#   nuclide: Ni65
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.470000E+01   3.000000E-01   1.100000E+01   2.000000E+00   1.000000E+00
+# reference:
+#   author: M.Valkonen,P.Homberg,R.Rieppo,J.K.Keinaenen,J.Kantele
+#   title: Studies of 14 MeV neutron activation cross sections  with special reference to the capture reaction
+#   journal: Rept: Univ. of Jyvaeskylae, Dept.of Physics Reports, No.1/1976 (1976)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.470000E+01
+#   E-max [MeV]:  1.470000E+01
+#   F-value:  1.238668E+00
+#   A-value:  1.024679E+00
+#   chi-2:  2.340697E+00
+#   p-value:  4.347156E-01
+#   exp. data sets for p-value:      8
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    1.549072E+00   1.549072E+00   9.164920E+00
+# endfb8.0      1.141797E+00   8.758121E-01   1.000589E+00
+# jeff3.3       1.013012E+00   1.013012E+00   9.105951E-02
+# jendl5.0      1.085014E+00   9.216471E-01   5.940255E-01
+# cendl3.2      1.121303E+00   8.918199E-01   8.528894E-01

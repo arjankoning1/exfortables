@@ -1,0 +1,52 @@
+# header:
+#   title: Cd110(p,x)In109 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Otozai
+#   year: 1966
+#   subentry: P0019004
+#   X4 reaction: 48-CD-110(P,2N)49-IN-109,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/P0019004
+# target:
+#   Z: 48
+#   A: 110
+#   nuclide: Cd110
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 49
+#   A: 109
+#   nuclide: In109
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.260000E+01   0.000000E+00   6.000000E+00   1.000000E+00   1.000000E+00
+   1.350000E+01   0.000000E+00   7.700001E+01   6.000000E+00   1.000000E+00
+   1.470000E+01   0.000000E+00   3.200000E+02   3.000000E+01   1.000000E+00
+# reference:
+#   author: K.Otozai,S.Kume,A.Mito,H.Okamura,R.Tsujino,Y.Kanchiku, T.Katoh,H.Gotoh
+#   title: Excitation functions for the reactions induced by  protons on Cd up to 37 MeV
+#   journal: Jour: Nuclear Physics, Vol.80, p.335 (1966)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.260000E+01
+#   E-max [MeV]:  1.470000E+01
+#   F-value:  1.133702E+00
+#   A-value:  1.107033E+00
+#   chi-2:  3.255107E+00
+#   p-value:  1.959218E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.109483E+00   1.076553E+00   2.220291E+00
+# jendl5.0      1.154743E+00   1.138377E+00   4.289923E+00

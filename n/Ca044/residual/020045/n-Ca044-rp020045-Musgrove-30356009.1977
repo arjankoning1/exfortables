@@ -1,0 +1,59 @@
+# header:
+#   title: Ca44(n,x)Ca45 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Musgrove
+#   year: 1977
+#   subentry: 30356009
+#   X4 reaction: 20-CA-44(N,G)20-CA-45,,SIG,,AV
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30356009
+# target:
+#   Z: 20
+#   A: 44
+#   nuclide: Ca44
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+# residual:
+#   Z: 20
+#   A: 45
+#   nuclide: Ca45
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   6.250000E-03   3.750000E-03   0.000000E+00   0.000000E+00   1.000000E+00
+   1.500000E-02   5.000000E-03   1.900000E+01   3.000000E+00   1.000000E+00
+   2.500000E-02   5.000000E-03   1.530000E+01   3.000000E+00   1.000000E+00
+   3.500000E-02   5.000000E-03   0.000000E+00   0.000000E+00   1.000000E+00
+   4.500000E-02   5.000000E-03   7.100000E+00   1.000000E+00   1.000000E+00
+   5.500000E-02   5.000000E-03   1.660000E+01   3.000000E+00   1.000000E+00
+   7.000000E-02   1.000000E-02   4.400000E+00   1.000000E+00   1.000000E+00
+   9.000000E-02   1.000000E-02   2.200000E+00   5.000000E-01   1.000000E+00
+# reference:
+#   author: A.R.de L.Musgrove,E.J.Allen,J.W.Boldeman,D.M.H.Chan, R.L.Macklin
+#   title: Odd-even effects in radiative neutron capture by Ca-42, Ca-43 and Ca-44.
+#   journal: Jour: Nuclear Physics, Section A, Vol.279, p.317 (1977)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  6.250000E-03
+#   E-max [MeV]:  9.000000E-02
+#   F-value:  1.107618E+01
+#   A-value:  1.210390E-01
+#   chi-2:  1.944643E+01
+#   p-value:  3.702065E-02
+#   exp. data sets for p-value:      1
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2023    1.178063E+01   1.173157E-01   1.954605E+01
+# endfb8.0      1.094743E+01   1.208856E-01   1.942882E+01
+# jeff3.3       1.064777E+01   1.251975E-01   1.938203E+01
+# jendl5.0      1.094743E+01   1.208856E-01   1.942882E+01

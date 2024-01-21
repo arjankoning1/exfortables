@@ -1,0 +1,41 @@
+# header:
+#   title: Bi209(i,x)Rn211 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Gardes
+#   year: 1978
+#   subentry: B01130322
+#   X4 reaction: 83-BI-209(26-FE-56,X)86-RN-211,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/B01130322
+# target:
+#   Z: 83
+#   A: 209
+#   nuclide: Bi209
+# reaction:
+#   type: (i,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 86
+#   A: 211
+#   nuclide: Rn211
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.910000E+02   7.000000E+00   1.500000E+00   2.000000E-01   1.000000E+00
+   3.040000E+02   6.000000E+00   4.400000E+00   6.000000E-01   1.000000E+00
+   3.080000E+02   1.000000E+01   4.900000E+00   6.000000E-01   1.000000E+00
+   3.170000E+02   9.000000E+00   4.900000E+00   6.000000E-01   1.000000E+00
+   3.280000E+02   7.000000E+00   5.700000E+00   7.000000E-01   1.000000E+00
+   3.710000E+02   1.200000E+01   7.900000E+00   1.500000E+00   1.000000E+00
+# reference:
+#   author: D.Gardes, R.Bimbot, J.Maison, L.De Relihac,  M.F.Rivet, A.Fleury, F.Hubert, Y.Llabador
+#   title: Excitation functions for quasielastic transfer  reactions induced with heavy ions in bismuth
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.18, p.1298 (1978)

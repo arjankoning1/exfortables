@@ -1,0 +1,53 @@
+# header:
+#   title: Os192(n,x)Os193 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Herman
+#   year: 1981
+#   subentry: 30567010
+#   X4 reaction: 76-OS-192(N,G)76-OS-193,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30567010
+# target:
+#   Z: 76
+#   A: 192
+#   nuclide: Os192
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+# residual:
+#   Z: 76
+#   A: 193
+#   nuclide: Os193
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.300000E-01   1.400000E-01   5.140001E+01   5.600000E+00   1.000000E+00
+   8.600000E-01   2.100000E-01   5.330000E+01   5.800000E+00   1.000000E+00
+   1.200000E+00   1.500000E-01   4.730000E+01   4.800000E+00   1.000000E+00
+   1.310000E+00   7.000000E-02   4.180000E+01   4.000000E+00   1.000000E+00
+# reference:
+#   author: M.Herman,A.Marcinkowski
+#   title: Cross sections for fast neutron capture on the Se, Pd, Cd, Os and Pt isotopes. (New exp.)
+#   journal: Jour: Nuclear Physics, Section A, Vol.357, p.1 (1981)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  5.300000E-01
+#   E-max [MeV]:  1.310000E+00
+#   F-value:  1.739365E+00
+#   A-value:  6.257710E-01
+#   chi-2:  1.471650E+01
+#   p-value:  2.050931E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.296416E+00   8.088575E-01   4.589460E+00
+# jeff3.3       2.092783E+00   4.841266E-01   2.484353E+01

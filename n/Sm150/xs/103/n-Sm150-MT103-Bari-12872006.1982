@@ -1,0 +1,53 @@
+# header:
+#   title: Sm150(n,p)Pm150 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Bari
+#   year: 1982
+#   subentry: 12872006
+#   X4 reaction: 62-SM-150(N,P)61-PM-150,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/12872006
+# target:
+#   Z: 62
+#   A: 150
+#   nuclide: Sm150
+# reaction:
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 61
+#   A: 150
+#   nuclide: Pm150
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.480000E+01   2.000000E-01   7.116100E+00   4.823800E-01   1.016580E+00
+# reference:
+#   author: A.BARI
+#   title: 14.8 MEV NEUTRON ACTIVATION CROSS SECTIONS FOR (N,P)  AND (N,ALPHA) REACTIONS FOR SOME RARE-EARTH NUCLIDES.
+#   journal: Jour: Journal of Radioanalytical Chemistry, Vol.75, p.189 (1982)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.480000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.059554E+00
+#   A-value:  1.007603E+00
+#   chi-2:  1.092730E+00
+#   p-value:  4.227032E-01
+#   exp. data sets for p-value:      5
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    1.024971E+00   1.024971E+00   5.004819E-01
+# endfb8.0      1.021483E+00   1.021483E+00   4.255463E-01
+# jeff3.3       1.096147E+00   9.122860E-01   2.236594E+00
+# jendl5.0      1.001352E+00   9.986502E-01   2.506073E-02
+# cendl3.2      1.088829E+00   1.088829E+00   2.275969E+00

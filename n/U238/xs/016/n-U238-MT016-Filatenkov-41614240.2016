@@ -1,0 +1,61 @@
+# header:
+#   title: U238(n,2n)U237 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Filatenkov
+#   year: 2016
+#   subentry: 41614240
+#   X4 reaction: 92-U-238(N,2N)92-U-237,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/41614240
+# target:
+#   Z: 92
+#   A: 238
+#   nuclide: U238
+# reaction:
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 92
+#   A: 237
+#   nuclide: U237
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.347000E+01   0.000000E+00   1.144993E+03   9.500356E+01   9.999942E-01
+   1.364000E+01   0.000000E+00   1.056002E+03   7.728487E+01   1.000002E+00
+   1.388000E+01   0.000000E+00   1.002011E+03   7.354113E+01   1.000010E+00
+   1.405000E+01   0.000000E+00   9.150069E+02   7.155309E+01   1.000008E+00
+   1.428000E+01   0.000000E+00   8.159936E+02   5.891614E+01   9.999922E-01
+   1.447000E+01   0.000000E+00   7.459952E+02   5.513212E+01   9.999934E-01
+   1.468000E+01   0.000000E+00   7.159938E+02   6.021932E+01   9.999912E-01
+   1.486000E+01   0.000000E+00   6.640027E+02   4.927722E+01   1.000004E+00
+# reference:
+#   author: A.A.Filatenkov
+#   title: Neutron activation cross sections measured at KRI in neutron energy region 13.4 - 14.9 MeV
+#   journal: Rept: USSR report to the I.N.D.C., No.0460 (2016)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.347000E+01
+#   E-max [MeV]:  1.486000E+01
+#   F-value:  1.039773E+00
+#   A-value:  9.900300E-01
+#   chi-2:  4.755017E-01
+#   p-value:  3.862227E-01
+#   exp. data sets for p-value:      8
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2023    1.005909E+00   9.980361E-01   7.346673E-02
+# endfb8.0      1.005909E+00   9.980361E-01   7.346673E-02
+# jeff3.3       1.078104E+00   9.301349E-01   1.447265E+00
+# jendl5.0      1.049086E+00   1.037592E+00   7.850876E-01
+# cendl3.2      1.033267E+00   9.814737E-01   4.002576E-01
+# irdff2.0      1.005909E+00   9.980361E-01   7.346673E-02

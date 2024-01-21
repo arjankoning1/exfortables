@@ -1,0 +1,63 @@
+# header:
+#   title: Y89(p,x)Y86g cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Uddin
+#   year: 2005
+#   subentry: E1934008
+#   X4 reaction: 39-Y-89(P,X)39-Y-86-G,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/E1934008
+# target:
+#   Z: 39
+#   A: 89
+#   nuclide: Y89
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 39
+#   A: 86
+#   nuclide: Y86g
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 9
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.840000E+01   0.000000E+00   2.200000E+00   9.999999E-02   1.000000E+00
+   4.430000E+01   0.000000E+00   9.880001E+01   6.600000E+00   1.000000E+00
+   4.930000E+01   0.000000E+00   2.120000E+02   1.420000E+01   1.000000E+00
+   5.420000E+01   0.000000E+00   2.905000E+02   1.940000E+01   1.000000E+00
+   5.880000E+01   0.000000E+00   2.678000E+02   1.790000E+01   1.000000E+00
+   6.430000E+01   0.000000E+00   2.170000E+02   1.450000E+01   1.000000E+00
+   6.940000E+01   0.000000E+00   1.984000E+02   1.330000E+01   1.000000E+00
+   7.430000E+01   0.000000E+00   1.586000E+02   1.060000E+01   1.000000E+00
+   7.910000E+01   0.000000E+00   1.388000E+02   9.300000E+00   1.000000E+00
+# reference:
+#   author: M.S.Uddin, M.Hagiwara, M.Baba, F.Tarkanyi, F.Ditroi
+#   title: Experimental studies on excitation functions of the proton-induced activation reactions on yttrium
+#   journal: Jour: Applied Radiation and Isotopes, Vol.63, Issue.3, p.367 (2005)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  3.840000E+01
+#   E-max [MeV]:  7.910000E+01
+#   F-value:  1.904536E+00
+#   A-value:  7.355145E-01
+#   chi-2:  3.329174E+02
+#   p-value:  1.351205E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.916817E+00   7.235742E-01   3.108149E+02
+# jendl5.0      1.892210E+00   7.476519E-01   3.550201E+02

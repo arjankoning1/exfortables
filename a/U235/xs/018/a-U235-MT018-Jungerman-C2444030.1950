@@ -1,0 +1,55 @@
+# header:
+#   title: U235(a,f) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Jungerman
+#   year: 1950
+#   subentry: C2444030
+#   X4 reaction: 92-U-235(A,F),,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C2444030
+# target:
+#   Z: 92
+#   A: 235
+#   nuclide: U235
+# reaction:
+#   type: (a,f)
+#   ENDF_MF: 3
+#   ENDF_MT: 18
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 11
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.056800E+01   0.000000E+00   1.500000E+01   0.000000E+00   1.000000E+00
+   2.211900E+01   0.000000E+00   7.600000E+01   0.000000E+00   1.000000E+00
+   2.419800E+01   0.000000E+00   2.500000E+02   0.000000E+00   1.000000E+00
+   2.575300E+01   0.000000E+00   3.530000E+02   0.000000E+00   1.000000E+00
+   2.834400E+01   0.000000E+00   5.110000E+02   0.000000E+00   1.000000E+00
+   3.041200E+01   0.000000E+00   5.980000E+02   0.000000E+00   1.000000E+00
+   3.197400E+01   0.000000E+00   7.520000E+02   0.000000E+00   1.000000E+00
+   1.076360E+02   0.000000E+00   1.395000E+03   0.000000E+00   1.000000E+00
+   2.032680E+02   0.000000E+00   1.409000E+03   0.000000E+00   1.000000E+00
+   3.035200E+02   0.000000E+00   1.377000E+03   0.000000E+00   1.000000E+00
+   3.893900E+02   0.000000E+00   1.443000E+03   0.000000E+00   1.000000E+00
+# reference:
+#   author: J.Jungerman
+#   title: Fission Excitation Functions for Charged Particles
+#   journal: Jour: Physical Review, Vol.79, p.632 (1950)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  2.056800E+01
+#   E-max [MeV]:  3.893900E+02
+#   F-value:  1.287797E+00
+#   A-value:  1.179102E+00
+#   chi-2:  0.000000E+00
+#   p-value:  1.708655E-01
+#   exp. data sets for p-value:      5
+#   libraries:      1
+##  Library          F              A            chi-2
+# tendl.2023    1.287797E+00   1.179102E+00   0.000000E+00

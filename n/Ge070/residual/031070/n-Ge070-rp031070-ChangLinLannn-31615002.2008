@@ -1,0 +1,52 @@
+# header:
+#   title: Ge70(n,x)Ga70 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: ChangLinLannn
+#   year: 2008
+#   subentry: 31615002
+#   X4 reaction: 32-GE-70(N,P)31-GA-70,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/31615002
+# target:
+#   Z: 32
+#   A: 70
+#   nuclide: Ge70
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 31
+#   A: 70
+#   nuclide: Ga70
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.350000E+01   3.000000E-01   1.501000E+02   1.380000E+01   1.000000E+00
+   1.480000E+01   3.000000E-01   6.010000E+01   6.310000E+00   1.000000E+00
+# reference:
+#   author: Chang-Lin Lan, Kai-Hong Fang, Xiao-San Xu, Qi Wang,  Xiang-Zhong Kong, Rong Liu, Li Jiang
+#   title: Activation cross-section measurements for producing  short-lived nuclei with 14 MeV neutrons - Ge, Pd, Yb
+#   journal: Jour: Radiation Physics and Chemistry, Vol.77, p.854 (2008)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.350000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.659348E+00
+#   A-value:  7.280849E-01
+#   chi-2:  1.552907E+01
+#   p-value:  3.035313E-01
+#   exp. data sets for p-value:      3
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.656675E+00   7.382479E-01   1.599088E+01
+# jeff3.3       1.826182E+00   6.527132E-01   1.945123E+01
+# jendl5.0      1.476571E+00   8.009796E-01   1.114508E+01

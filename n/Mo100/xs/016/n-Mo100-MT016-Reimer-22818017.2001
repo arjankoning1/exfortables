@@ -1,0 +1,56 @@
+# header:
+#   title: Mo100(n,2n)Mo99 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Reimer
+#   year: 2001
+#   subentry: 22818017
+#   X4 reaction: 42-MO-100(N,2N)42-MO-99,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22818017
+# target:
+#   Z: 42
+#   A: 100
+#   nuclide: Mo100
+# reaction:
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 42
+#   A: 99
+#   nuclide: Mo99
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.623000E+01   5.000000E-03   1.272000E+03   1.270000E+02   1.000000E+00
+   1.800000E+01   5.000000E-03   9.800001E+02   7.800000E+01   1.000000E+00
+   1.927000E+01   5.000000E-03   1.018000E+03   1.900000E+02   1.000000E+00
+   2.051000E+01   5.000000E-03   8.136000E+02   1.050000E+02   1.000000E+00
+# reference:
+#   author: P.Reimer, M.Hult, A.J.M.Plompen, P.N.Johnston, V.Avrigeanu, S.M.Qaim
+#   title: Fast neutron induced reactions leading to activation  products: selected cases relevant to development of  low activation materials, transmutation and hazard  assessment of nuclear wastes
+#   journal: Thesis: Reimer (2001)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.623000E+01
+#   E-max [MeV]:  2.051000E+01
+#   F-value:  1.156579E+00
+#   A-value:  1.019537E+00
+#   chi-2:  2.705516E+00
+#   p-value:  2.421136E-01
+#   exp. data sets for p-value:      2
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    1.112720E+00   1.054712E+00   2.165889E+00
+# endfb8.0      1.177131E+00   1.053095E+00   3.437803E+00
+# jeff3.3       1.124875E+00   1.087198E+00   2.774351E+00
+# jendl5.0      1.166098E+00   1.005211E+00   2.833853E+00
+# cendl3.2      1.177131E+00   1.053095E+00   3.437803E+00

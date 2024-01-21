@@ -1,0 +1,53 @@
+# header:
+#   title: Fe54(p,g)Co55 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Skakun
+#   year: 1987
+#   subentry: A0668002
+#   X4 reaction: 26-FE-54(P,G)27-CO-55,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/A0668002
+# target:
+#   Z: 26
+#   A: 54
+#   nuclide: Fe54
+# reaction:
+#   type: (p,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+# residual:
+#   Z: 27
+#   A: 55
+#   nuclide: Co55
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   4.000000E+00   0.000000E+00   4.900000E-02   1.000000E-02   1.000000E+00
+   6.000000E+00   0.000000E+00   1.300000E-01   2.000000E-02   1.000000E+00
+   8.000000E+00   0.000000E+00   1.500000E-01   2.000000E-02   1.000000E+00
+   9.000000E+00   0.000000E+00   9.999999E-02   2.000000E-02   1.000000E+00
+# reference:
+#   author: E.A.Skakun, V.G.Batiy, Yu.N.Raklvnenko, O.A.Rastrepin
+#   title: Cross sections of (p,gamma) reactions on isotopes 54-Fe, 112-Sn and 114-Cd at proton energies up to 9 MeV
+#   journal: Jour: Yadernaya Fizika, Vol.45, p.614 (1987)
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  4.000000E+00
+#   E-max [MeV]:  9.000000E+00
+#   F-value:  2.144342E+00
+#   A-value:  1.525959E+00
+#   chi-2:  5.743477E+01
+#   p-value:  3.412809E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    2.818041E+00   2.712579E+00   1.116441E+02
+# jendl5.0      1.350860E+00   8.584270E-01   3.225438E+00

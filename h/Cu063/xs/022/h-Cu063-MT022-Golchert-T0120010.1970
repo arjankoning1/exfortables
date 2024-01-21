@@ -1,0 +1,52 @@
+# header:
+#   title: Cu63(h,na)Cu61 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Golchert
+#   year: 1970
+#   subentry: T0120010
+#   X4 reaction: 29-CU-63(HE3,N+A)29-CU-61,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/T0120010
+# target:
+#   Z: 29
+#   A: 63
+#   nuclide: Cu63
+# reaction:
+#   type: (h,na)
+#   ENDF_MF: 3
+#   ENDF_MT: 22
+# residual:
+#   Z: 29
+#   A: 61
+#   nuclide: Cu61
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.640000E+01   0.000000E+00   4.260000E+01   8.520000E+00   1.000000E+00
+   2.865000E+01   0.000000E+00   3.400000E+01   6.800000E+00   1.000000E+00
+   3.120000E+01   0.000000E+00   2.820000E+01   5.640000E+00   1.000000E+00
+   3.385000E+01   0.000000E+00   2.340000E+01   4.680000E+00   1.000000E+00
+# reference:
+#   author: N.W.GOLCHERT,J.SEDLET,D.G.GARDNER
+#   title: Excitation Functions For 3He Induced Nuclear Reactions  in Cu
+#   journal: Jour: Nuclear Physics, Section A, Vol.152, p.419 (1970)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  2.640000E+01
+#   E-max [MeV]:  3.385000E+01
+#   F-value:  3.789443E+00
+#   A-value:  2.640415E-01
+#   chi-2:  1.354255E+01
+#   p-value:  2.117280E-01
+#   exp. data sets for p-value:      2
+#   libraries:      1
+##  Library          F              A            chi-2
+# tendl.2023    3.789443E+00   2.640415E-01   1.354255E+01

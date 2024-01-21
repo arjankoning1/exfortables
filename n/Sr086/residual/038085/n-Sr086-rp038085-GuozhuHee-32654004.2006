@@ -1,0 +1,52 @@
+# header:
+#   title: Sr86(n,x)Sr85 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: GuozhuHee
+#   year: 2006
+#   subentry: 32654004
+#   X4 reaction: 38-SR-86(N,2N)38-SR-85,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/32654004
+# target:
+#   Z: 38
+#   A: 86
+#   nuclide: Sr86
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 38
+#   A: 85
+#   nuclide: Sr85
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.410000E+01   2.000000E-01   8.920001E+02   5.300000E+01   1.000000E+00
+   1.460000E+01   3.000000E-01   9.550000E+02   5.700000E+01   1.000000E+00
+# reference:
+#   author: Guozhu He, Junhua Luo, Zhongjie Liu, Xiangzhong Kong
+#   title: Cross-section measurements for (n,2n),(n,p) and (n,a) reactions on strontium at the neutron energy about 14MeV
+#   journal: Jour: Annals of Nuclear Energy, Vol.33, p.37 (2006)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.410000E+01
+#   E-max [MeV]:  1.460000E+01
+#   F-value:  1.098030E+00
+#   A-value:  9.210393E-01
+#   chi-2:  2.616354E+00
+#   p-value:  2.333660E-01
+#   exp. data sets for p-value:      4
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.125498E+00   8.949869E-01   3.837531E+00
+# jeff3.3       1.077487E+00   9.384395E-01   1.854967E+00
+# jendl5.0      1.085226E+00   9.302754E-01   2.156562E+00

@@ -1,0 +1,70 @@
+# header:
+#   title: Pb208(p,x)Bi206 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Deptula
+#   year: 1990
+#   subentry: O0306010
+#   X4 reaction: 82-PB-208(P,3N)83-BI-206,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O0306010
+# target:
+#   Z: 82
+#   A: 208
+#   nuclide: Pb208
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 17
+# residual:
+#   Z: 83
+#   A: 206
+#   nuclide: Bi206
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 20
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.110000E+01   0.000000E+00   6.900002E+01   8.970000E+00   1.000000E+00
+   5.420000E+01   0.000000E+00   6.500002E+01   8.450000E+00   1.000000E+00
+   5.720000E+01   0.000000E+00   6.100000E+01   7.930000E+00   1.000000E+00
+   6.010000E+01   0.000000E+00   5.900000E+01   7.670000E+00   1.000000E+00
+   6.300000E+01   0.000000E+00   5.600000E+01   7.280000E+00   1.000000E+00
+   6.580000E+01   0.000000E+00   5.600000E+01   7.280000E+00   1.000000E+00
+   6.840000E+01   0.000000E+00   5.200000E+01   6.760000E+00   1.000000E+00
+   7.100000E+01   0.000000E+00   5.100000E+01   6.630000E+00   1.000000E+00
+   7.350000E+01   0.000000E+00   4.900000E+01   6.370000E+00   1.000000E+00
+   7.590000E+01   0.000000E+00   4.800000E+01   6.240000E+00   1.000000E+00
+   7.840000E+01   0.000000E+00   4.500000E+01   5.850000E+00   1.000000E+00
+   8.070000E+01   0.000000E+00   4.500000E+01   5.850000E+00   1.000000E+00
+   8.300000E+01   0.000000E+00   4.300000E+01   5.590000E+00   1.000000E+00
+   8.520000E+01   0.000000E+00   4.300000E+01   5.590000E+00   1.000000E+00
+   8.750000E+01   0.000000E+00   4.000000E+01   5.200000E+00   1.000000E+00
+   8.960000E+01   0.000000E+00   4.000000E+01   5.200000E+00   1.000000E+00
+   9.170000E+01   0.000000E+00   3.900000E+01   5.070000E+00   1.000000E+00
+   9.380000E+01   0.000000E+00   3.800000E+01   4.940000E+00   1.000000E+00
+   9.590000E+01   0.000000E+00   3.700000E+01   4.810000E+00   1.000000E+00
+   9.800000E+01   0.000000E+00   3.600000E+01   4.680000E+00   1.000000E+00
+# reference:
+#   author: C.Deptula,V.A.Khalkin,Kim Sen Han,O.Knotek,V.A.Konov, P.Mikecz,L.M.Popinenkova,E.Rurarz,N.G.Zaitseva
+#   title: Excitation functions and yield for medically important generators 82Sr -> 82Rb, 123Xe -> 123I and 201Bi -> 201Pb -> Tl-201 obtained with 100 MeV protons obtained with 100 MeV protons.
+#   journal: Jour: Nukleonika, Vol.35, p.3 (1990)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  5.110000E+01
+#   E-max [MeV]:  9.800000E+01
+#   F-value:  1.399517E+00
+#   A-value:  1.352501E+00
+#   chi-2:  1.039478E+01
+#   p-value:  1.658347E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.270712E+00   1.199746E+00   5.210790E+00
+# endfb8.0      1.409270E+00   1.389624E+00   1.060823E+01
+# jendl5.0      1.498976E+00   1.483974E+00   1.536533E+01

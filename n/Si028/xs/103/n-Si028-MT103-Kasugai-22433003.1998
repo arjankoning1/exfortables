@@ -1,0 +1,59 @@
+# header:
+#   title: Si28(n,p)Al28 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Kasugai
+#   year: 1998
+#   subentry: 22433003
+#   X4 reaction: 14-SI-28(N,P)13-AL-28,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22433003
+# target:
+#   Z: 14
+#   A: 28
+#   nuclide: Si28
+# reaction:
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 13
+#   A: 28
+#   nuclide: Al28
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.340000E+01   5.000000E-02   2.540000E+02   1.244600E+01   1.000000E+00
+   1.370000E+01   5.000000E-02   2.650000E+02   1.404500E+01   1.000000E+00
+   1.401000E+01   5.000000E-02   2.540000E+02   1.320800E+01   1.000000E+00
+   1.435000E+01   5.000000E-02   2.290000E+02   1.190800E+01   1.000000E+00
+   1.464000E+01   5.000000E-02   2.290000E+02   1.190800E+01   1.000000E+00
+   1.487000E+01   5.000000E-02   2.190000E+02   1.182600E+01   1.000000E+00
+# reference:
+#   author: Y.Kasugai, H.Yamamoto, K.Kawade, T.Iida
+#   title: Measurement of (n,p) cross-sections for short-lived  products by 13.4-14.9 MeV neutrons
+#   journal: Jour: Annals of Nuclear Energy, Vol.25, Issue.1-3, p.23 (1998)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.340000E+01
+#   E-max [MeV]:  1.487000E+01
+#   F-value:  1.101055E+00
+#   A-value:  1.085953E+00
+#   chi-2:  4.229272E+00
+#   p-value:  2.263661E-01
+#   exp. data sets for p-value:      8
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2023    1.096831E+00   1.085407E+00   3.830143E+00
+# endfb8.0      1.134539E+00   1.128930E+00   7.068902E+00
+# jeff3.3       1.069499E+00   1.059207E+00   2.395858E+00
+# jendl5.0      1.042261E+00   1.028756E+00   9.977576E-01
+# cendl3.2      1.134539E+00   1.128930E+00   7.068902E+00
+# irdff2.0      1.099336E+00   1.088042E+00   4.014067E+00

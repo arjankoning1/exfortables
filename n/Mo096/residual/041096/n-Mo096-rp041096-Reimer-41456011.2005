@@ -1,0 +1,57 @@
+# header:
+#   title: Mo96(n,x)Nb96 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Reimer
+#   year: 2005
+#   subentry: 41456011
+#   X4 reaction: 42-MO-96(N,P)41-NB-96,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/41456011
+# target:
+#   Z: 42
+#   A: 96
+#   nuclide: Mo96
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 41
+#   A: 96
+#   nuclide: Nb96
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.348000E+01   1.000000E-02   1.850000E+01   8.000000E-01   1.000000E+00
+   1.364000E+01   1.000000E-02   1.790000E+01   8.000000E-01   1.000000E+00
+   1.387000E+01   1.000000E-02   1.910000E+01   8.000000E-01   1.000000E+00
+   1.405000E+01   1.000000E-02   2.060000E+01   9.000000E-01   1.000000E+00
+   1.428000E+01   1.000000E-02   2.140000E+01   9.000000E-01   1.000000E+00
+   1.445000E+01   1.000000E-02   2.230000E+01   9.000000E-01   1.000000E+00
+   1.464000E+01   1.000000E-02   2.450000E+01   9.000000E-01   1.000000E+00
+   1.482000E+01   1.000000E-02   2.300000E+01   9.000000E-01   1.000000E+00
+# reference:
+#   author: P.Reimer, V.Avrigeanu, S.V.Chuvaev, A.A.Filatenkov,  T.Glodariu, A.Koning,A.J.M.Plompen,S.M.Qaim,D.L.Smith,  H.Weigmann
+#   title: Reaction mechanisms of fast neutrons on stable Mo  isotopes below  21 MeV.
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.71, p.044617 (2005)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.348000E+01
+#   E-max [MeV]:  1.482000E+01
+#   F-value:  1.083537E+00
+#   A-value:  1.018378E+00
+#   chi-2:  4.263578E+00
+#   p-value:  4.142667E-01
+#   exp. data sets for p-value:      8
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.099027E+00   1.090355E+00   5.989547E+00
+# jendl5.0      1.064932E+00   9.511536E-01   2.537610E+00

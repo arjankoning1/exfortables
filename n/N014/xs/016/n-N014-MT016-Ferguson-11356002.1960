@@ -1,0 +1,58 @@
+# header:
+#   title: N14(n,2n)N13 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Ferguson
+#   year: 1960
+#   subentry: 11356002
+#   X4 reaction: 7-N-14(N,2N)7-N-13,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11356002
+# target:
+#   Z: 7
+#   A: 14
+#   nuclide: N14
+# reaction:
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 7
+#   A: 13
+#   nuclide: N13
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.241000E+01   1.200000E-01   3.030000E+00   7.500000E-01   1.000000E+00
+   1.377000E+01   2.000000E-01   5.180000E+00   6.000000E-01   1.000000E+00
+   1.474000E+01   2.700000E-01   8.690000E+00   9.000000E-01   1.000000E+00
+   1.578000E+01   3.200000E-01   9.250000E+00   1.000000E+00   1.000000E+00
+   1.696000E+01   3.400000E-01   1.049000E+01   1.000000E+00   1.000000E+00
+   1.798000E+01   2.400000E-01   1.157000E+01   1.200000E+00   1.000000E+00
+# reference:
+#   author: J.M.Ferguson,W.E.Thompson
+#   title: Cross-sections for the (n,2n) reaction in N14,P31,Cu63,  and Pr141.
+#   journal: Jour: Physical Review, Vol.118, p.228 (1960)
+# statistics:
+#   NEA score: T2
+#   IAEA score:  1
+#   E-min [MeV]:  1.241000E+01
+#   E-max [MeV]:  1.798000E+01
+#   F-value:  1.331182E+00
+#   A-value:  8.662731E-01
+#   chi-2:  1.275238E+00
+#   p-value:  2.880203E-01
+#   exp. data sets for p-value:      1
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    1.287147E+00   8.704863E-01   1.343454E+00
+# endfb8.0      1.287147E+00   8.704863E-01   1.343454E+00
+# jeff3.3       1.287147E+00   8.704863E-01   1.343454E+00
+# jendl5.0      1.260821E+00   8.947722E-01   8.631179E-01
+# cendl3.2      1.499807E+00   8.265630E-01   1.482707E+00

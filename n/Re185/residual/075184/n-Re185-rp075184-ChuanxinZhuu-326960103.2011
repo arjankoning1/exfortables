@@ -1,0 +1,56 @@
+# header:
+#   title: Re185(n,x)Re184 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: ChuanxinZhuu
+#   year: 2011
+#   subentry: 326960103
+#   X4 reaction: 75-RE-185(N,2N)75-RE-184,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/326960103
+# target:
+#   Z: 75
+#   A: 185
+#   nuclide: Re185
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 75
+#   A: 184
+#   nuclide: Re184
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.340000E+01   0.000000E+00   2.249091E+03   9.053736E+01   9.982650E-01
+   1.370000E+01   0.000000E+00   2.250167E+03   9.036746E+01   1.002748E+00
+   1.410000E+01   0.000000E+00   2.222388E+03   8.557389E+01   9.952475E-01
+   1.445000E+01   0.000000E+00   2.209635E+03   8.873544E+01   9.948831E-01
+   1.465000E+01   0.000000E+00   2.153254E+03   8.613608E+01   9.922829E-01
+   1.480000E+01   0.000000E+00   2.156247E+03   8.636642E+01   9.918340E-01
+# reference:
+#   author: Chuanxin Zhu, Yuan Chen, Yunfeng Mou, Pu Zheng,  Tie He, Xinhua Wang, Li An, Haiping Guo
+#   title: Measurements of (n,2n) reaction cross sections  at 14 MeV for several nuclei
+#   journal: Jour: Nuclear Science and Engineering, Vol.169, p.188 (2011)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.340000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.012021E+00
+#   A-value:  9.983535E-01
+#   chi-2:  2.926300E-01
+#   p-value:  3.437091E-01
+#   exp. data sets for p-value:      3
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.012328E+00   9.944308E-01   3.189386E-01
+# jeff3.3       1.011186E+00   9.937438E-01   2.686695E-01
+# jendl5.0      1.012506E+00   1.006941E+00   2.902820E-01

@@ -1,0 +1,69 @@
+# header:
+#   title: Pb207(n,2n)Pb206 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Frehaut
+#   year: 2016
+#   subentry: 20416114
+#   X4 reaction: 82-PB-207(N,2N)82-PB-206,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20416114
+# target:
+#   Z: 82
+#   A: 207
+#   nuclide: Pb207
+# reaction:
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 82
+#   A: 206
+#   nuclide: Pb206
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 17
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   7.410000E+00   3.300000E-01   2.200000E+01   1.900000E+01   1.000000E+00
+   7.930000E+00   3.000000E-01   2.070000E+02   1.900000E+01   1.000000E+00
+   8.180001E+00   2.900000E-01   3.180000E+02   2.500000E+01   1.000000E+00
+   8.440000E+00   2.700000E-01   4.140000E+02   2.900000E+01   1.000000E+00
+   8.940000E+00   2.500000E-01   7.010000E+02   4.700000E+01   1.000000E+00
+   9.440000E+00   2.300000E-01   1.024000E+03   6.500002E+01   1.000000E+00
+   9.930000E+00   2.200000E-01   1.224000E+03   7.700001E+01   1.000000E+00
+   1.042000E+01   2.000000E-01   1.452000E+03   8.300000E+01   1.000000E+00
+   1.091000E+01   1.900000E-01   1.614000E+03   9.800000E+01   1.000000E+00
+   1.140000E+01   1.800000E-01   1.691000E+03   9.600001E+01   1.000000E+00
+   1.188000E+01   1.700000E-01   1.780000E+03   1.020000E+02   1.000000E+00
+   1.236000E+01   1.700000E-01   1.858000E+03   1.390000E+02   1.000000E+00
+   1.285000E+01   1.600000E-01   1.911000E+03   1.410000E+02   1.000000E+00
+   1.333000E+01   1.500000E-01   1.938000E+03   1.490000E+02   1.000000E+00
+   1.380000E+01   1.500000E-01   2.051000E+03   1.620000E+02   1.000000E+00
+   1.428000E+01   1.400000E-01   1.945000E+03   1.560000E+02   1.000000E+00
+   1.476000E+01   1.300000E-01   1.976000E+03   1.610000E+02   1.000000E+00
+# reference:
+#   author: J.Frehaut,A.Bertin,R.Bois,J.Jary,G.Mosinski
+#   title: Status of (n,xn) cross section measurements  at Bruyeres-le-Chatel
+#   journal: Rept: Centre d'Etudes Nucleaires, Saclay Reports, No.6447 (2016)
+# statistics:
+#   NEA score: T2
+#   IAEA score:  1
+#   E-min [MeV]:  7.410000E+00
+#   E-max [MeV]:  1.476000E+01
+#   F-value:  1.556067E+00
+#   A-value:  1.291282E+00
+#   chi-2:  1.369632E+01
+#   p-value:  4.081936E-01
+#   exp. data sets for p-value:      1
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    1.595739E+00   1.362778E+00   1.755858E+01
+# endfb8.0      1.606347E+00   1.340422E+00   1.693970E+01
+# jeff3.3       1.632499E+00   1.361939E+00   1.676313E+01
+# jendl5.0      1.632499E+00   1.361939E+00   1.676313E+01
+# cendl3.2      1.261788E+00   1.059556E+00   4.570517E-01

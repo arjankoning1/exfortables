@@ -1,0 +1,54 @@
+# header:
+#   title: Al27(n,p)Mg27 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Hassler
+#   year: 1962
+#   subentry: 11492004
+#   X4 reaction: 13-AL-27(N,P)12-MG-27,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11492004
+# target:
+#   Z: 13
+#   A: 27
+#   nuclide: Al27
+# reaction:
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 12
+#   A: 27
+#   nuclide: Mg27
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.440000E+01   2.000000E-01   9.300000E+01   1.000000E+01   1.000000E+00
+# reference:
+#   author: F.L.HASSLER,R.A.PECK JR
+#   title: NEUTRON-INDUCED REACTIONS IN THIRD AND FOURTH SHELL NUCLEI.
+#   journal: Jour: Physical Review, Vol.125, p.1011 (1962)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.440000E+01
+#   E-max [MeV]:  1.440000E+01
+#   F-value:  1.299129E+00
+#   A-value:  7.704919E-01
+#   chi-2:  4.844167E+00
+#   p-value:  2.251625E-03
+#   exp. data sets for p-value:      8
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2023    1.300125E+00   7.691570E-01   4.871327E+00
+# endfb8.0      1.321088E+00   7.569517E-01   5.330264E+00
+# jeff3.3       1.321088E+00   7.569517E-01   5.330264E+00
+# jendl5.0      1.236908E+00   8.084674E-01   3.579404E+00
+# cendl3.2      1.309846E+00   7.634483E-01   5.082408E+00
+# irdff2.0      1.300125E+00   7.691568E-01   4.871334E+00

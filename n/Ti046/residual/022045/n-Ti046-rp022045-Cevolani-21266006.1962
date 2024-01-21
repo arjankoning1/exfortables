@@ -1,0 +1,51 @@
+# header:
+#   title: Ti46(n,x)Ti45 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Cevolani
+#   year: 1962
+#   subentry: 21266006
+#   X4 reaction: 22-TI-46(N,2N)22-TI-45,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21266006
+# target:
+#   Z: 22
+#   A: 46
+#   nuclide: Ti46
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 22
+#   A: 45
+#   nuclide: Ti45
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.413000E+01   1.000000E-01   1.330000E+01   1.100000E+00   1.000000E+00
+# reference:
+#   author: M.CEVOLANI,S.PETRALIA
+#   title: -CROSS SECTION MEASUREMENT OF (N,2N)-REACTIONS ON  14.1 MEV NEUTRONS.-
+#   journal: Jour: Nuovo Cimento, Vol.26, p.1328 (1962)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.413000E+01
+#   E-max [MeV]:  1.413000E+01
+#   F-value:  1.355236E+00
+#   A-value:  1.307446E+00
+#   chi-2:  2.098395E+01
+#   p-value:  3.679701E-01
+#   exp. data sets for p-value:      8
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.181451E+00   1.181451E+00   5.058129E+00
+# jeff3.3       1.181450E+00   1.181450E+00   5.058121E+00
+# jendl5.0      1.601180E+00   1.601180E+00   5.283559E+01

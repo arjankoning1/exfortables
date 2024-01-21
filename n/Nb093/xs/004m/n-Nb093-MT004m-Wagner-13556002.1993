@@ -1,0 +1,61 @@
+# header:
+#   title: Nb93(n,n')Nb93m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Wagner
+#   year: 1993
+#   subentry: 13556002
+#   X4 reaction: 41-NB-93(N,INL)41-NB-93-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/13556002
+# target:
+#   Z: 41
+#   A: 93
+#   nuclide: Nb93
+# reaction:
+#   type: (n,n')
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+# residual:
+#   Z: 41
+#   A: 93
+#   nuclide: Nb93m
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.931000E+00   2.500000E-02   2.651000E+02   1.000000E+01   1.000000E+00
+   6.970000E+00   2.900000E-02   2.674000E+02   1.230000E+01   1.000000E+00
+   7.944000E+00   3.300000E-02   2.410000E+02   1.720000E+01   1.000000E+00
+   8.900000E+00   3.600000E-02   2.395000E+02   1.950000E+01   1.000000E+00
+# reference:
+#   author: M.WAGNER,H.VONACH,R.C.HAIGHT
+#   title: MEASUREMENT OF THE ACTIVATION CROSS SECTION FOR THE  REACTION 93NB(N,N')93MNB IN THE NEUTRON ENERGY RANGE  6-9 MEV.
+#   journal: Jour: Annals of Nuclear Energy, Vol.20, p.1 (1993)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  5.931000E+00
+#   E-max [MeV]:  8.900000E+00
+#   F-value:  1.049388E+00
+#   A-value:  9.650893E-01
+#   chi-2:  1.499764E+00
+#   p-value:  1.957077E-01
+#   exp. data sets for p-value:      1
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    1.043757E+00   9.679586E-01   1.252819E+00
+# endfb8.0      1.054290E+00   9.583040E-01   1.691910E+00
+# jeff3.3       1.043757E+00   9.679582E-01   1.252838E+00
+# jendl5.0      1.059535E+00   9.626343E-01   2.058356E+00
+# irdff2.0      1.043487E+00   9.686337E-01   1.242899E+00

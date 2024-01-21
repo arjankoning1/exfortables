@@ -1,0 +1,51 @@
+# header:
+#   title: Ni58(n,x)Co57 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Molla
+#   year: 1986
+#   subentry: 30825010
+#   X4 reaction: 28-NI-58(N,X)27-CO-57,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30825010
+# target:
+#   Z: 28
+#   A: 58
+#   nuclide: Ni58
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 28
+# residual:
+#   Z: 27
+#   A: 57
+#   nuclide: Co57
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.460000E+01   3.000000E-01   6.017026E+02   2.230207E+01   1.055618E+00
+# reference:
+#   author: N.I.Molla,M.M.Rahman,S.Khatun,A.K.M.Fazlul Hoque, Rahezuddin Miah,Ayesha Akhter Khan
+#   title: Activation cross sections for some isotopes of Mg, Ti, V, Ni, Zr and Mo at 14 MeV neutrons
+#   journal: Rept: Bangladesh report to the I.N.D.C., No.003 (1986)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.460000E+01
+#   E-max [MeV]:  1.460000E+01
+#   F-value:  1.091060E+00
+#   A-value:  1.085057E+00
+#   chi-2:  6.446606E+00
+#   p-value:  4.256973E-01
+#   exp. data sets for p-value:      8
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.132823E+00   1.132823E+00   1.285033E+01
+# endfb8.0      1.059589E+00   1.059589E+00   3.056497E+00
+# jendl5.0      1.064286E+00   1.064286E+00   3.432992E+00

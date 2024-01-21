@@ -1,0 +1,55 @@
+# header:
+#   title: Ba132(n,2n)Ba131 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: JunhuaLuoo
+#   year: 2017
+#   subentry: 327690023
+#   X4 reaction: 56-BA-132(N,2N)56-BA-131,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/327690023
+# target:
+#   Z: 56
+#   A: 132
+#   nuclide: Ba132
+# reaction:
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 56
+#   A: 131
+#   nuclide: Ba131
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.350000E+01   2.000000E-01   1.144614E+03   1.047001E+02   9.892946E-01
+   1.410000E+01   2.000000E-01   1.293603E+03   1.044639E+02   9.996933E-01
+   1.480000E+01   2.000000E-01   1.376495E+03   1.013307E+02   1.001088E+00
+# reference:
+#   author: Junhua Luo,Chunlei Wu,Li Jiang,Suyuan Li
+#   title: Activation cross section and isomeric cross section ratio for the (n,2n) reaction on 132,134Ba
+#   journal: Jour: Radiochimica Acta, Vol.105, p.779 (2017)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.350000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.201643E+00
+#   A-value:  1.185895E+00
+#   chi-2:  6.204437E+00
+#   p-value:  1.060642E-01
+#   exp. data sets for p-value:      2
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    1.052519E+00   1.049090E+00   8.552654E-01
+# endfb8.0      1.210248E+00   1.208316E+00   6.583716E+00
+# jeff3.3       1.210248E+00   1.208316E+00   6.583716E+00
+# jendl5.0      1.242144E+00   1.236179E+00   8.454439E+00
+# cendl3.2      1.239912E+00   1.238728E+00   8.545048E+00

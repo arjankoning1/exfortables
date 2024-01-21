@@ -1,0 +1,56 @@
+# header:
+#   title: Sc45(n,x)Sc44 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Hudson
+#   year: 1978
+#   subentry: 108360022
+#   X4 reaction: 21-SC-45(N,2N)21-SC-44,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/108360022
+# target:
+#   Z: 21
+#   A: 45
+#   nuclide: Sc45
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 21
+#   A: 44
+#   nuclide: Sc44
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.330000E+01   1.400000E-01   1.721722E+02   1.401401E+01   1.001001E+00
+   1.410000E+01   2.200000E-01   2.352352E+02   1.901902E+01   1.001001E+00
+   1.520000E+01   2.400000E-01   3.253253E+02   2.602603E+01   1.001001E+00
+   1.600000E+01   1.500000E-01   3.553554E+02   2.802803E+01   1.001001E+00
+   1.710000E+01   1.000000E-01   4.344344E+02   3.503504E+01   1.001001E+00
+   1.840000E+01   2.400000E-01   4.914915E+02   4.904905E+01   1.001001E+00
+   1.900000E+01   1.300000E-01   5.325325E+02   5.305305E+01   1.001001E+00
+# reference:
+#   author: C.G.HUDSON,W.L.ALFORD,S.K.GHORAI
+#   title: NEUTRON EXCITATION FUNCTIONS FOR SC-45, NB-93, AND  NI-58 IN THE ENERGY RANGE 13-19 MEV
+#   journal: Jour: Annals of Nuclear Energy, Vol.5, p.589 (1978)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.330000E+01
+#   E-max [MeV]:  1.900000E+01
+#   F-value:  1.122759E+00
+#   A-value:  9.306259E-01
+#   chi-2:  1.647155E+00
+#   p-value:  3.250301E-01
+#   exp. data sets for p-value:      5
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.135959E+00   9.192842E-01   1.892624E+00
+# jeff3.3       1.108247E+00   9.421074E-01   1.401686E+00

@@ -1,0 +1,66 @@
+# header:
+#   title: Te0(p,x)I128 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Scholten
+#   year: 1989
+#   subentry: A0473009
+#   X4 reaction: 52-TE-0(P,X)53-I-128,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/A0473009
+# target:
+#   Z: 52
+#   A: 0
+#   nuclide: Te0
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 53
+#   A: 128
+#   nuclide: I128
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 17
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   8.010000E+00   0.000000E+00   1.034100E+01   2.918300E-01   1.268834E+00
+   9.130000E+00   0.000000E+00   3.743061E+01   1.015100E+00   1.268834E+00
+   9.660000E+00   0.000000E+00   6.610626E+01   1.903300E+00   1.268834E+00
+   1.011000E+01   0.000000E+00   9.376686E+01   2.664600E+00   1.268834E+00
+   1.070000E+01   0.000000E+00   1.136875E+02   3.299000E+00   1.268834E+00
+   1.160000E+01   0.000000E+00   9.389374E+01   2.664600E+00   1.268834E+00
+   1.213000E+01   0.000000E+00   6.407613E+01   1.776400E+00   1.268834E+00
+   1.250000E+01   0.000000E+00   5.595559E+01   1.649500E+00   1.268834E+00
+   1.298000E+01   0.000000E+00   4.745440E+01   1.395700E+00   1.268834E+00
+   1.344000E+01   0.000000E+00   3.869944E+01   1.142000E+00   1.268834E+00
+   1.524000E+01   0.000000E+00   2.740682E+01   7.613000E-01   1.268834E+00
+   1.651000E+01   0.000000E+00   1.979381E+01   5.075300E-01   1.268834E+00
+   1.659000E+01   0.000000E+00   1.471848E+01   3.806500E-01   1.268834E+00
+   1.684000E+01   0.000000E+00   2.068200E+01   6.344200E-01   1.268834E+00
+   1.722000E+01   0.000000E+00   1.535289E+01   3.806500E-01   1.268834E+00
+   1.863000E+01   0.000000E+00   1.586043E+01   5.075300E-01   1.268834E+00
+   1.896000E+01   0.000000E+00   1.180016E+01   3.806500E-01   1.268834E+00
+# reference:
+#   author: B.Scholten, S.M.Qaim, G.Stocklin
+#   title: Excitation functions of proton induced nuclear reactions on natural tellurium and enriched Te-123- production of I-123 via the Te-123(p,n)I-123-process at a low-energy cyclotron.
+#   journal: Jour: Applied Radiation and Isotopes, Vol.40, p.127 (1989)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  8.010000E+00
+#   E-max [MeV]:  1.896000E+01
+#   F-value:  2.232950E+00
+#   A-value:  1.511661E+00
+#   chi-2:  7.118339E+03
+#   p-value:  2.495772E-01
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    2.490779E+00   1.549989E+00   8.787871E+03
+# jendl5.0      1.967236E+00   1.474282E+00   5.448805E+03

@@ -1,0 +1,55 @@
+# header:
+#   title: U238(p,x)Np238 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Guzhovskii
+#   year: 1994
+#   subentry: O0177002
+#   X4 reaction: 92-U-238(P,N)93-NP-238,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O0177002
+# target:
+#   Z: 92
+#   A: 238
+#   nuclide: U238
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+# residual:
+#   Z: 93
+#   A: 238
+#   nuclide: Np238
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   9.970000E+00   0.000000E+00   3.000000E+00   2.400000E-01   1.000000E+00
+   1.099000E+01   0.000000E+00   4.700000E+00   3.760000E-01   1.000000E+00
+   1.140000E+01   0.000000E+00   5.100000E+00   4.080000E-01   1.000000E+00
+   1.194000E+01   0.000000E+00   5.800000E+00   4.640000E-01   1.000000E+00
+   1.298000E+01   0.000000E+00   7.500000E+00   6.000000E-01   1.000000E+00
+   1.390000E+01   0.000000E+00   8.800000E+00   7.040000E-01   1.000000E+00
+# reference:
+#   author: B.Ya.Guzhovskii,S.N.Abramovich,A.G.Zvenigorodskii, V.S.Rudnev,S.V.Trusillo
+#   title: Cross-section activation measurement for U-238 through protons and deuterons in energy interval  10-14 MeV.
+#   journal: Conf: Conf.on Nucl.Data for Sci.and Techn.,Gatlinburg 1994, Vol.1, p.390
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  9.970000E+00
+#   E-max [MeV]:  1.390000E+01
+#   F-value:  1.425451E+00
+#   A-value:  8.024619E-01
+#   chi-2:  1.068627E+01
+#   p-value:  3.190093E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.650900E+00   6.444200E-01   2.136093E+01
+# jendl5.0      1.001403E+00   9.992629E-01   1.161804E-02

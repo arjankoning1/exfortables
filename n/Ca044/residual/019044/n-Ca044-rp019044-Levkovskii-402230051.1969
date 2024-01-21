@@ -1,0 +1,52 @@
+# header:
+#   title: Ca44(n,x)K44 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Levkovskii
+#   year: 1969
+#   subentry: 402230051
+#   X4 reaction: 20-CA-44(N,P)19-K-44,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/402230051
+# target:
+#   Z: 20
+#   A: 44
+#   nuclide: Ca44
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 19
+#   A: 44
+#   nuclide: K44
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.480000E+01   0.000000E+00   3.800000E+01   4.000000E+00   1.000000E+00
+# reference:
+#   author: V.N.Levkovskii,G.E.Kovel'skaya,G.P.Vinitskaya, V.M.Stepanov,V.V.Sokol'skii
+#   title: Cross sections of the (n,p) and (n,alpha) reactions  at 14.8 MeV .
+#   journal: Jour: Soviet Journal of Nuclear Physics, Vol.8, p.4 (1969)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.480000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.084681E+00
+#   A-value:  1.037593E+00
+#   chi-2:  9.030241E-01
+#   p-value:  4.769473E-01
+#   exp. data sets for p-value:      8
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2023    1.000401E+00   9.995989E-01   4.780004E-03
+# endfb8.0      1.174181E+00   1.174181E+00   3.192904E+00
+# jeff3.3       1.023394E+00   9.771403E-01   2.851717E-01
+# jendl5.0      1.010625E+00   1.010625E+00   1.292402E-01

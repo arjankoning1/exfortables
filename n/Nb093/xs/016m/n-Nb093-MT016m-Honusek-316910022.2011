@@ -1,0 +1,63 @@
+# header:
+#   title: Nb93(n,2n)Nb92m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Honusek
+#   year: 2011
+#   subentry: 316910022
+#   X4 reaction: 41-NB-93(N,2N)41-NB-92-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/316910022
+# target:
+#   Z: 41
+#   A: 93
+#   nuclide: Nb93
+# reaction:
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 41
+#   A: 92
+#   nuclide: Nb92m
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.800000E+01   2.125000E+00   3.846700E+02   1.840000E+01   1.000000E+00
+   2.162500E+01   1.500000E+00   1.721700E+02   1.250000E+01   1.000000E+00
+   2.475000E+01   1.625000E+00   1.054000E+02   1.240000E+01   1.000000E+00
+   2.762500E+01   1.250000E+00   1.225400E+02   1.350000E+01   1.000000E+00
+   3.025000E+01   1.375000E+00   1.464300E+02   1.850000E+01   1.000000E+00
+   3.287500E+01   1.250000E+00   1.898000E+02   1.750000E+01   1.000000E+00
+   3.562500E+01   1.500000E+00   1.154000E+02   2.410000E+01   1.000000E+00
+# reference:
+#   author: M.Honusek, P.Bem, V.Burjan, M.Goetz, V.Kroha, J.Novak,  E.Simeckova, U.Fischer, S.P.Simakov
+#   title: Neutron activation experiments on niobium in NPI p-7Li  quasi-monoenergetic neutron field
+#   journal: Jour: Journal of the Korean Physical Society, Vol.59, p.1374 (2011)
+# statistics:
+#   NEA score: T2
+#   IAEA score:  1
+#   E-min [MeV]:  1.800000E+01
+#   E-max [MeV]:  3.562500E+01
+#   F-value:  1.572896E+00
+#   A-value:  9.697467E-01
+#   chi-2:  1.775237E+01
+#   p-value:  2.410842E-01
+#   exp. data sets for p-value:      8
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2023    1.375933E+00   1.117620E+00   1.634131E+01
+# jeff3.3       1.361073E+00   1.079215E+00   1.339206E+01
+# jendl5.0      1.412107E+00   1.166059E+00   2.389377E+01
+# irdff2.0      2.034680E+00   6.287975E-01   1.738235E+01

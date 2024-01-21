@@ -1,0 +1,64 @@
+# header:
+#   title: Ir193(n,2n)Ir192+ cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Kalamara
+#   year: 2019
+#   subentry: 23537003
+#   X4 reaction: 77-IR-193(N,2N)77-IR-192-G+M1,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/23537003
+# target:
+#   Z: 77
+#   A: 193
+#   nuclide: Ir193
+# reaction:
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 77
+#   A: 192
+#   nuclide: Ir192+
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.000000E+01   1.000000E-01   1.290000E+03   8.300000E+01   1.000000E+00
+   1.050000E+01   1.000000E-01   1.590000E+03   1.000000E+02   1.000000E+00
+   1.100000E+01   1.000000E-01   1.931000E+03   1.190000E+02   1.000000E+00
+   1.130000E+01   1.000000E-01   1.953000E+03   1.200000E+02   1.000000E+00
+   1.530000E+01   5.000000E-01   1.830000E+03   7.600002E+01   1.000000E+00
+   1.710000E+01   3.000000E-01   1.390000E+03   6.800000E+01   1.000000E+00
+   1.890000E+01   3.000000E-01   7.690001E+02   8.200000E+01   1.000000E+00
+   2.090000E+01   2.000000E-01   2.700000E+02   5.300000E+01   1.000000E+00
+# reference:
+#   author: A.Kalamara,N.Patronis,R.Vlastou,M.Kokkoris, S.Chasapoglou, A.Stamatopoulos,M.Serris,V.Paneta, M.Axiotis,A.Lagoyannis, S.Harissopulos, I.E.Stamatelatos
+#   title: Determination of the 193Ir(n,2n) reaction cross section and correction methodology for the 191Ir(n,gamma) contamination
+#   journal: Jour: European Physical Journal A: Hadrons and Nuclei, Vol.55, p.187 (20
+# statistics:
+#   NEA score: T2
+#   IAEA score:  0
+#   E-min [MeV]:  1.000000E+01
+#   E-max [MeV]:  2.090000E+01
+#   F-value:  1.378867E+00
+#   A-value:  1.236842E+00
+#   chi-2:  1.363983E+01
+#   p-value:  3.487779E-01
+#   exp. data sets for p-value:      2
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2023    1.421168E+00   1.229333E+00   1.334080E+01
+# endfb8.0      1.218652E+00   1.162368E+00   1.103505E+01
+# jeff3.3       1.218652E+00   1.162368E+00   1.103505E+01
+# jendl5.0      1.322435E+00   1.213857E+00   1.331361E+01

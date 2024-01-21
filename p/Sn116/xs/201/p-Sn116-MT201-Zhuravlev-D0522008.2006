@@ -1,0 +1,48 @@
+# header:
+#   title: Sn116(p,xn) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Zhuravlev
+#   year: 2006
+#   subentry: D0522008
+#   X4 reaction: 50-SN-116(P,X)0-NN-1,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D0522008
+# target:
+#   Z: 50
+#   A: 116
+#   nuclide: Sn116
+# reaction:
+#   type: (p,xn)
+#   ENDF_MF: 3
+#   ENDF_MT: 201
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.019000E+01   0.000000E+00   5.760000E+02   2.300000E+01   1.000000E+00
+   1.073000E+01   0.000000E+00   6.260000E+02   2.630000E+01   1.000000E+00
+   1.115000E+01   0.000000E+00   7.150000E+02   2.790000E+01   1.000000E+00
+# reference:
+#   author: B.V.Zhuravlev, A.A.Lychagin, N.N.Titarenko
+#   title: Nuclear-level densities around Z=50 from neutron  evaporation spectra in (p,n) reactions
+#   journal: Jour: Physics of Atomic Nuclei, Vol.69, p.363 (2006)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  1.019000E+01
+#   E-max [MeV]:  1.115000E+01
+#   F-value:  1.024691E+00
+#   A-value:  9.993626E-01
+#   chi-2:  7.206748E-01
+#   p-value:  4.523329E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.025456E+00   9.835010E-01   6.708414E-01
+# jendl5.0      1.023902E+00   1.015480E+00   7.705081E-01

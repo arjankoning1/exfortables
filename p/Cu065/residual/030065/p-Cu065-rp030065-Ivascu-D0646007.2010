@@ -1,0 +1,52 @@
+# header:
+#   title: Cu65(p,x)Zn65 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Ivascu
+#   year: 2010
+#   subentry: D0646007
+#   X4 reaction: 29-CU-65(P,N)30-ZN-65,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D0646007
+# target:
+#   Z: 29
+#   A: 65
+#   nuclide: Cu65
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+# residual:
+#   Z: 30
+#   A: 65
+#   nuclide: Zn65
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.140000E+00   1.100000E-01   2.148600E+02   1.473700E+01   1.000000E+00
+   5.230000E+00   1.000000E-01   2.577600E+02   1.766700E+01   1.000000E+00
+# reference:
+#   author: M.Ivascu, I.Cata-Danil, D.Filipescu, L.Stroe,  T.Glodariu, D.Bucurescu, G.Cata-Danil, D.Deleanu,  D.G.Ghita, N.Marginean, R.Marginean, C.Mihai,  S.Pascu, T.Sava, G.Suliman, N.V.Zamfir
+#   title: Astrophysical S factor for proton capture on 147Sm and  149Sm
+#   journal: Jour: Romanian Journal of Physics, Vol.55, p.1006 (2010)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  5.140000E+00
+#   E-max [MeV]:  5.230000E+00
+#   F-value:  1.297245E+00
+#   A-value:  1.283557E+00
+#   chi-2:  1.945957E+01
+#   p-value:  2.609535E-01
+#   exp. data sets for p-value:      8
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.289330E+00   1.276141E+00   1.841960E+01
+# endfb8.0      1.330804E+00   1.319402E+00   2.393369E+01
+# jendl5.0      1.269466E+00   1.255943E+00   1.602541E+01

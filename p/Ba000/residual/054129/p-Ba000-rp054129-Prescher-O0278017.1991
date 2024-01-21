@@ -1,0 +1,63 @@
+# header:
+#   title: Ba0(p,x)Xe129 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Prescher
+#   year: 1991
+#   subentry: O0278017
+#   X4 reaction: 56-BA-0(P,X)54-XE-129,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O0278017
+# target:
+#   Z: 56
+#   A: 0
+#   nuclide: Ba0
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 54
+#   A: 129
+#   nuclide: Xe129
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 14
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.190000E+01   8.000000E-01   5.150000E-04   7.700000E-05   1.000000E+00
+   1.820000E+01   6.000000E-01   7.400000E-01   1.700000E-01   1.000000E+00
+   2.010000E+01   5.000000E-01   8.200000E-01   1.200000E-01   1.000000E+00
+   2.200000E+01   5.000000E-01   1.330000E+00   2.700000E-01   1.000000E+00
+   2.640000E+01   9.000000E-01   1.040000E+00   1.600000E-01   1.000000E+00
+   2.770000E+01   7.000000E-01   1.460000E+00   2.900000E-01   1.000000E+00
+   3.180000E+01   6.000000E-01   8.800000E-01   1.800000E-01   1.000000E+00
+   3.220000E+01   7.000000E-01   8.000000E-01   1.200000E-01   1.000000E+00
+   3.400000E+01   5.000000E-01   9.060000E-01   1.810000E-01   1.000000E+00
+   3.640000E+01   6.400000E-01   6.200000E-01   9.350000E-02   1.000000E+00
+   3.770000E+01   6.400000E-01   1.060000E+00   2.120000E-01   1.000000E+00
+   4.000000E+01   5.800000E-01   1.760000E+00   3.510000E-01   1.000000E+00
+   4.060000E+01   5.500000E-01   1.410000E+00   2.120000E-01   1.000000E+00
+   4.420000E+01   4.500000E-01   2.810000E+00   5.640000E-01   1.000000E+00
+# reference:
+#   author: K.Prescher,F.Peiffer,R.Stuek,R.Michel,R.Bodemann, M.N.Rao,K.J.Mathew
+#   title: Thin-target cross-sections of proton-induced reactions on  barium  and  solar  cosmic  ray production rates of xenon-isotopes in lunar surface materials.
+#   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.53, p.105 (199
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  1.190000E+01
+#   E-max [MeV]:  4.420000E+01
+#   F-value:  2.243311E+02
+#   A-value:  4.843771E-03
+#   chi-2:  3.089469E+01
+#   p-value:  1.915864E-07
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    5.351641E+02   1.903328E-03   2.967086E+01
+# jendl5.0      1.149716E+02   9.142135E-03   3.066376E+01

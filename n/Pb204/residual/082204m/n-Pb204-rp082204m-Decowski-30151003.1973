@@ -1,0 +1,63 @@
+# header:
+#   title: Pb204(n,x)Pb204m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Decowski
+#   year: 1973
+#   subentry: 30151003
+#   X4 reaction: 82-PB-204(N,INL)82-PB-204-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30151003
+# target:
+#   Z: 82
+#   A: 204
+#   nuclide: Pb204
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+# residual:
+#   Z: 82
+#   A: 204
+#   nuclide: Pb204m
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 9
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.285000E+01   1.700000E-01   8.090002E+01   7.500000E+00   1.000000E+00
+   1.298000E+01   1.500000E-01   7.180001E+01   6.600000E+00   1.000000E+00
+   1.356000E+01   1.300000E-01   8.010000E+01   7.400000E+00   1.000000E+00
+   1.418000E+01   1.500000E-01   6.330001E+01   5.700000E+00   1.000000E+00
+   1.505000E+01   2.600000E-01   5.680000E+01   5.100000E+00   1.000000E+00
+   1.541000E+01   2.700000E-01   4.880000E+01   4.400000E+00   1.000000E+00
+   1.548000E+01   1.900000E-01   4.010000E+01   3.600000E+00   1.000000E+00
+   1.659000E+01   9.000000E-02   4.190001E+01   3.800000E+00   1.000000E+00
+   1.783000E+01   1.300000E-01   3.320000E+01   3.000000E+00   1.000000E+00
+# reference:
+#   author: P.Decowski,W.Grochulski,A.Marcinkowski,J.Karolyi, J.Piotrowski,E.Saad,K.Siwek-Wilczynska,I.M.Turkiewicz, Z.Wilhelmi
+#   title: Cross sections for the In-113(n,n')In-113-m, Pb-204(n,n')Pb-204-m,Pb-204(n,2n)Pb-203 reactions in the neutron energy range 13-18 MeV
+#   journal: Jour: Nuclear Physics, Section A, Vol.204, p.121 (1973)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.285000E+01
+#   E-max [MeV]:  1.783000E+01
+#   F-value:  1.380724E+00
+#   A-value:  1.319655E+00
+#   chi-2:  2.013600E+01
+#   p-value:  1.740119E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# endfb8.0      1.380724E+00   1.319655E+00   2.013600E+01
+# jeff3.3       1.380724E+00   1.319655E+00   2.013600E+01

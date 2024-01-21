@@ -1,0 +1,54 @@
+# header:
+#   title: Ti48(n,x)Sc48 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Swinhoe
+#   year: 1979
+#   subentry: 20986005
+#   X4 reaction: 22-TI-48(N,P)21-SC-48,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20986005
+# target:
+#   Z: 22
+#   A: 48
+#   nuclide: Ti48
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 21
+#   A: 48
+#   nuclide: Sc48
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.800000E+00   0.000000E+00   7.100000E-01   1.400000E-01   1.000000E+00
+   7.500000E+00   0.000000E+00   1.090000E+01   5.000000E-01   1.000000E+00
+   9.800000E+00   0.000000E+00   3.320000E+01   1.000000E+00   1.000000E+00
+   1.180000E+01   0.000000E+00   5.370000E+01   2.200000E+00   1.000000E+00
+# reference:
+#   author: M.T.Swinhoe,C.A.Uttley
+#   title: -Measurements of MeV neutron cross-sections by  activation-.
+#   journal: Prog: A.E.R.E. Harwell Reports, No.26, p.39 (1979)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  5.800000E+00
+#   E-max [MeV]:  1.180000E+01
+#   F-value:  1.293510E+00
+#   A-value:  1.074950E+00
+#   chi-2:  7.434006E+00
+#   p-value:  2.295287E-01
+#   exp. data sets for p-value:      3
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.251257E+00   1.055106E+00   7.691505E+00
+# jeff3.3       1.251293E+00   1.057274E+00   7.711336E+00
+# jendl5.0      1.368034E+00   1.113475E+00   6.899177E+00

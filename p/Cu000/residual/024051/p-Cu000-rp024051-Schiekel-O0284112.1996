@@ -1,0 +1,54 @@
+# header:
+#   title: Cu0(p,x)Cr51 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Schiekel
+#   year: 1996
+#   subentry: O0284112
+#   X4 reaction: 29-CU-0(P,X)24-CR-51,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O0284112
+# target:
+#   Z: 29
+#   A: 0
+#   nuclide: Cu0
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 24
+#   A: 51
+#   nuclide: Cr51
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.260000E+02   1.800000E+00   1.329183E+01   1.051400E+00   9.919274E-01
+   2.710000E+02   1.280000E+00   1.716034E+01   1.349000E+00   9.919274E-01
+   3.380000E+02   1.740000E+00   2.063209E+01   1.606900E+00   9.919274E-01
+   3.750000E+02   1.260000E+00   2.261594E+01   1.726000E+00   9.919274E-01
+# reference:
+#   author: Th.Schiekel, F.Sudbrock, U.Herpers, M.Gloris, H.-J.Lange, I.Leya, R.Michel, B.Dittrich-Hannen, H.-A.Synal, M.Suter, P.W.Kubik, M.Blann, D.Filges
+#   title: Nuclide production by proton-induced reactions on elements (6<=Z<=296) in the energy range from 200 MeV to 400 MeV.
+#   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.114, p.91 (199
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  2.260000E+02
+#   E-max [MeV]:  3.750000E+02
+#   F-value:  2.318804E+00
+#   A-value:  2.318804E+00
+#   chi-2:  2.779677E+02
+#   p-value:  7.336960E-02
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    0.000000E+00   0.000000E+00   0.000000E+00
+# endfb8.0      2.318804E+00   2.318804E+00   2.779677E+02
+# jendl5.0      0.000000E+00   0.000000E+00   0.000000E+00

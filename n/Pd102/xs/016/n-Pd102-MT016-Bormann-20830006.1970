@@ -1,0 +1,60 @@
+# header:
+#   title: Pd102(n,2n)Pd101 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Bormann
+#   year: 1970
+#   subentry: 20830006
+#   X4 reaction: 46-PD-102(N,2N)46-PD-101,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20830006
+# target:
+#   Z: 46
+#   A: 102
+#   nuclide: Pd102
+# reaction:
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 46
+#   A: 101
+#   nuclide: Pd101
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 9
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.262000E+01   6.000000E-02   5.759375E+02   6.732103E+01   9.912866E-01
+   1.332000E+01   7.000000E-02   7.345435E+02   8.513945E+01   9.912866E-01
+   1.381000E+01   8.000000E-02   9.337920E+02   1.079085E+02   9.912866E-01
+   1.482000E+01   9.000000E-02   1.021025E+03   1.039091E+02   9.912866E-01
+   1.542000E+01   1.000000E-01   1.184588E+03   1.137816E+02   9.912866E-01
+   1.612000E+01   1.000000E-01   1.070590E+03   9.395831E+01   9.912866E-01
+   1.679000E+01   1.000000E-01   1.032921E+03   9.297967E+01   9.912866E-01
+   1.748000E+01   1.100000E-01   1.137997E+03   9.691172E+01   9.912866E-01
+   1.817000E+01   1.100000E-01   1.030938E+03   7.807298E+01   9.912866E-01
+# reference:
+#   author: M.Bormann,H.H.Bissem,E.Magiera,R.Warnemunde
+#   title: Total cross sections and isomeric cross section  ratios for (n,2n) reactions in the energy region  12 - 18 MeV
+#   journal: Jour: Nuclear Physics, Section A, Vol.157, p.481 (1970)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.262000E+01
+#   E-max [MeV]:  1.817000E+01
+#   F-value:  1.086981E+00
+#   A-value:  9.796902E-01
+#   chi-2:  1.002964E+00
+#   p-value:  3.417869E-01
+#   exp. data sets for p-value:      1
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2023    1.066442E+00   9.861403E-01   6.931939E-01
+# endfb8.0      1.118304E+00   9.231822E-01   1.715811E+00
+# jeff3.3       1.047155E+00   9.936787E-01   4.444906E-01
+# jendl5.0      1.099870E+00   1.018317E+00   1.158360E+00

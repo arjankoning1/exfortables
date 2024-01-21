@@ -1,0 +1,62 @@
+# header:
+#   title: Ti47(n,x)Sc47 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Gonzalez
+#   year: 1962
+#   subentry: 31165002
+#   X4 reaction: 22-TI-47(N,P)21-SC-47,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/31165002
+# target:
+#   Z: 22
+#   A: 47
+#   nuclide: Ti47
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 21
+#   A: 47
+#   nuclide: Sc47
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 12
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.990000E+00   5.000000E-02   4.010000E+01   5.500000E+00   1.000000E+00
+   2.050000E+00   5.000000E-02   4.520000E+01   5.700000E+00   1.000000E+00
+   2.210000E+00   7.000000E-02   5.680000E+01   7.800000E+00   1.000000E+00
+   2.240000E+00   7.000000E-02   6.210000E+01   8.200000E+00   1.000000E+00
+   2.530000E+00   5.000000E-02   6.210000E+01   8.500000E+00   1.000000E+00
+   2.580000E+00   1.000000E-01   5.460000E+01   7.800000E+00   1.000000E+00
+   2.880000E+00   1.000000E-01   6.700000E+01   8.500000E+00   1.000000E+00
+   3.040000E+00   1.100000E-01   6.330000E+01   8.400000E+00   1.000000E+00
+   3.150000E+00   1.100000E-01   6.539999E+01   8.300000E+00   1.000000E+00
+   3.270000E+00   1.100000E-01   5.870000E+01   7.500000E+00   1.000000E+00
+   3.400000E+00   1.000000E-01   6.990000E+01   8.900000E+00   1.000000E+00
+   3.550000E+00   1.000000E-01   6.270000E+01   7.700000E+00   1.000000E+00
+# reference:
+#   author: L.Gonzalez,A.Trier,J.J.van Loef
+#   title: Excitation function of the reaction 47Ti(n,p)47Sc at neutron energies between 2.0 and 3.6MeV.
+#   journal: Jour: Physical Review, Vol.126, p.271 (1962)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.990000E+00
+#   E-max [MeV]:  3.550000E+00
+#   F-value:  2.308233E+00
+#   A-value:  4.563150E-01
+#   chi-2:  1.675419E+01
+#   p-value:  1.105193E-01
+#   exp. data sets for p-value:      6
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    2.236006E+00   4.677146E-01   1.615180E+01
+# jeff3.3       2.297110E+00   4.575657E-01   1.666774E+01
+# jendl5.0      2.391073E+00   4.439766E-01   1.744304E+01

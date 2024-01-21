@@ -1,0 +1,61 @@
+# header:
+#   title: Lu175(n,x)Lu174m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: ChuanxinZhuu
+#   year: 2011
+#   subentry: 326960082
+#   X4 reaction: 71-LU-175(N,2N)71-LU-174-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/326960082
+# target:
+#   Z: 71
+#   A: 175
+#   nuclide: Lu175
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 71
+#   A: 174
+#   nuclide: Lu174m
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.340000E+01   0.000000E+00   5.640199E+02   2.313078E+01   9.982650E-01
+   1.370000E+01   0.000000E+00   5.565251E+02   2.209052E+01   1.002748E+00
+   1.410000E+01   0.000000E+00   5.563434E+02   2.189118E+01   9.952475E-01
+   1.445000E+01   0.000000E+00   5.521601E+02   2.193564E+01   9.948831E-01
+   1.465000E+01   0.000000E+00   5.328560E+02   2.078909E+01   9.922829E-01
+   1.480000E+01   0.000000E+00   5.385658E+02   2.183931E+01   9.918340E-01
+# reference:
+#   author: Chuanxin Zhu, Yuan Chen, Yunfeng Mou, Pu Zheng,  Tie He, Xinhua Wang, Li An, Haiping Guo
+#   title: Measurements of (n,2n) reaction cross sections  at 14 MeV for several nuclei
+#   journal: Jour: Nuclear Science and Engineering, Vol.169, p.188 (2011)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.340000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.405753E+00
+#   A-value:  1.088826E+00
+#   chi-2:  1.100662E+02
+#   p-value:  3.448711E-01
+#   exp. data sets for p-value:      3
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.323714E+00   7.565272E-01   3.738379E+01
+# jeff3.3       1.678594E+00   1.676447E+00   2.918177E+02
+# jendl5.0      1.032845E+00   1.017797E+00   9.971430E-01

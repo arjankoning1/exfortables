@@ -1,0 +1,55 @@
+# header:
+#   title: Cr50(h,x)Fe51 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Hornshoj
+#   year: 1977
+#   subentry: B0138003
+#   X4 reaction: 24-CR-50(HE3,2N)26-FE-51,,SIG,,,EXP
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/B0138003
+# target:
+#   Z: 24
+#   A: 50
+#   nuclide: Cr50
+# reaction:
+#   type: (h,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 26
+#   A: 51
+#   nuclide: Fe51
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.170000E+01   0.000000E+00   3.100000E-02   1.100000E-02   1.000000E+00
+   1.210000E+01   0.000000E+00   5.400000E-02   1.300000E-02   1.000000E+00
+   1.260000E+01   0.000000E+00   9.999999E-02   1.300000E-02   1.000000E+00
+   1.290000E+01   0.000000E+00   1.300000E-01   2.000000E-02   1.000000E+00
+   1.340000E+01   0.000000E+00   3.400000E-01   1.800000E-02   1.000000E+00
+   1.390000E+01   0.000000E+00   5.600000E-01   3.400000E-02   1.000000E+00
+   1.440000E+01   0.000000E+00   1.130000E+00   1.400000E-02   1.000000E+00
+# reference:
+#   author: P.HORNSHOJ, L.HOJSHOLT-POULSEN, N.RUD
+#   title: The Gt Matrix Elements in the Decay of the Mirror Nuclei Cr-47, Fe-51 and Ni-55.
+#   journal: Jour: Nuclear Physics, Section A, Vol.288, p.429 (1977)
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  1.170000E+01
+#   E-max [MeV]:  1.440000E+01
+#   F-value:  3.503155E+00
+#   A-value:  3.098494E-01
+#   chi-2:  5.633711E+02
+#   p-value:  1.731694E-01
+#   exp. data sets for p-value:      1
+#   libraries:      1
+##  Library          F              A            chi-2
+# tendl.2023    3.503155E+00   3.098494E-01   5.633711E+02

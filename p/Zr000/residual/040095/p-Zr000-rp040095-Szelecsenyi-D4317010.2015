@@ -1,0 +1,69 @@
+# header:
+#   title: Zr0(p,x)Zr95 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Szelecsenyi
+#   year: 2015
+#   subentry: D4317010
+#   X4 reaction: 40-ZR-0(P,X)40-ZR-95,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D4317010
+# target:
+#   Z: 40
+#   A: 0
+#   nuclide: Zr0
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 40
+#   A: 95
+#   nuclide: Zr95
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 20
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.430000E+01   4.000000E-01   1.100000E+00   2.000000E-01   1.000000E+00
+   1.560000E+01   4.000000E-01   1.600000E+00   2.000000E-01   1.000000E+00
+   1.670000E+01   3.000000E-01   2.100000E+00   3.000000E-01   1.000000E+00
+   1.790000E+01   3.000000E-01   2.600000E+00   3.000000E-01   1.000000E+00
+   2.000000E+01   1.700000E+00   3.200000E+00   4.000000E-01   1.000000E+00
+   2.420000E+01   1.600000E+00   4.500000E+00   5.000000E-01   1.000000E+00
+   2.730000E+01   1.600000E+00   4.800000E+00   5.000000E-01   1.000000E+00
+   3.010000E+01   1.500000E+00   4.800000E+00   5.000000E-01   1.000000E+00
+   3.280000E+01   1.500000E+00   4.700000E+00   5.000000E-01   1.000000E+00
+   3.530000E+01   1.400000E+00   5.000000E+00   6.000000E-01   1.000000E+00
+   3.880000E+01   1.300000E+00   4.700000E+00   5.000000E-01   1.000000E+00
+   4.220000E+01   1.200000E+00   4.900000E+00   6.000000E-01   1.000000E+00
+   4.530000E+01   1.200000E+00   4.500000E+00   5.000000E-01   1.000000E+00
+   4.830000E+01   1.100000E+00   4.600000E+00   5.000000E-01   1.000000E+00
+   5.120000E+01   1.000000E+00   4.400000E+00   5.000000E-01   1.000000E+00
+   5.390000E+01   1.000000E+00   4.500000E+00   5.000000E-01   1.000000E+00
+   5.660000E+01   9.000000E-01   4.400000E+00   5.000000E-01   1.000000E+00
+   5.980000E+01   9.000000E-01   4.300000E+00   5.000000E-01   1.000000E+00
+   6.300000E+01   8.000000E-01   4.400000E+00   5.000000E-01   1.000000E+00
+   6.590000E+01   7.000000E-01   4.200000E+00   5.000000E-01   1.000000E+00
+# reference:
+#   author: F.Szelecsenyi, G.F.Steyn, Z.Kovacs, C.Vermeulen,  K.Nagatsu, M.-R.Zhang, K.Suzuki
+#   title: Excitation functions of natZr+p nuclear processes up  to 70 MeV: New measurements and compilation
+#   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.343, p.173 (20
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  1.430000E+01
+#   E-max [MeV]:  6.590000E+01
+#   F-value:  2.259481E+00
+#   A-value:  5.070809E-01
+#   chi-2:  1.636035E+01
+#   p-value:  2.281502E-01
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    2.668435E+00   3.988302E-01   2.440431E+01
+# jendl5.0      1.830554E+00   6.447131E-01   8.316390E+00

@@ -1,0 +1,53 @@
+# header:
+#   title: Fe0(p,x)Cr51 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Michel
+#   year: 1980
+#   subentry: A01450071
+#   X4 reaction: 26-FE-0(P,X)24-CR-51,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/A01450071
+# target:
+#   Z: 26
+#   A: 0
+#   nuclide: Fe0
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 24
+#   A: 51
+#   nuclide: Cr51
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.255000E+01   3.900000E-01   8.504500E-01   1.483400E-01   9.889001E-01
+   1.438000E+01   3.000000E-01   1.404200E+00   1.681100E-01   9.889001E-01
+   1.606000E+01   2.500000E-01   2.106400E+00   2.571100E-01   9.889001E-01
+# reference:
+#   author: R.Michel,G.Brinkmann
+#   title: On the depth-dependent production of radionuclides  (44 < 'A' < 59) by solar protons in extraterrestrial matter.
+#   journal: Jour: Journal of Radioanalytical Chemistry, Vol.59, p.467 (1980)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  1.255000E+01
+#   E-max [MeV]:  1.606000E+01
+#   F-value:  0.000000E+00
+#   A-value:  0.000000E+00
+#   chi-2:  0.000000E+00
+#   p-value:  0.000000E+00
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    0.000000E+00   0.000000E+00   0.000000E+00
+# endfb8.0      0.000000E+00   0.000000E+00   0.000000E+00
+# jendl5.0      0.000000E+00   0.000000E+00   0.000000E+00

@@ -1,0 +1,62 @@
+# header:
+#   title: Ca48(p,x)Sc48 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Carzaniga
+#   year: 2019
+#   subentry: O2422004
+#   X4 reaction: 20-CA-48(P,N)21-SC-48,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O2422004
+# target:
+#   Z: 20
+#   A: 48
+#   nuclide: Ca48
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+# residual:
+#   Z: 21
+#   A: 48
+#   nuclide: Sc48
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 13
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.000000E+00   1.200000E+00   1.220000E+02   1.000000E+01   1.000000E+00
+   3.400000E+00   1.100000E+00   2.450000E+02   1.400000E+01   1.000000E+00
+   4.400000E+00   1.000000E+00   4.480000E+02   3.000000E+01   1.000000E+00
+   5.300000E+00   9.000000E-01   5.700001E+02   3.900000E+01   1.000000E+00
+   6.700000E+00   8.000000E-01   8.220000E+02   4.900000E+01   1.000000E+00
+   8.900000E+00   7.000000E-01   9.540001E+02   4.900000E+01   1.000000E+00
+   9.900000E+00   6.000000E-01   8.900000E+02   5.100000E+01   1.000000E+00
+   1.160000E+01   6.000000E-01   7.110000E+02   4.400000E+01   1.000000E+00
+   1.320000E+01   6.000000E-01   4.250000E+02   4.100000E+01   1.000000E+00
+   1.460000E+01   5.000000E-01   3.210000E+02   3.200000E+01   1.000000E+00
+   1.600000E+01   5.000000E-01   2.430000E+02   3.300000E+01   1.000000E+00
+   1.720000E+01   5.000000E-01   2.200000E+02   1.900000E+01   1.000000E+00
+   1.840000E+01   5.000000E-01   1.990000E+02   2.800000E+01   1.000000E+00
+# reference:
+#   author: T.S.Carzaniga,S.Braccini
+#   title: Cross-section measurement of 44mSc,47Sc, 48Sc and 47Ca for an optimized 47Sc production with an 18 MeV medical PET cyclotron
+#   journal: Jour: Applied Radiation and Isotopes, Vol.143, p.18 (2019)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  3.000000E+00
+#   E-max [MeV]:  1.840000E+01
+#   F-value:  1.450019E+00
+#   A-value:  7.729150E-01
+#   chi-2:  1.054380E+01
+#   p-value:  2.388157E-01
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.411811E+00   7.877986E-01   9.702259E+00
+# jendl5.0      1.486592E+00   7.583125E-01   1.138534E+01

@@ -1,0 +1,58 @@
+# header:
+#   title: Cu63(d,p)Cu64 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Weissman
+#   year: 2015
+#   subentry: D0753002
+#   X4 reaction: 29-CU-63(D,P)29-CU-64,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D0753002
+# target:
+#   Z: 29
+#   A: 63
+#   nuclide: Cu63
+# reaction:
+#   type: (d,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 29
+#   A: 64
+#   nuclide: Cu64
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 10
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.770000E+00   5.000000E-02   6.431600E+00   1.978900E-01   9.894737E-01
+   3.030000E+00   5.000000E-02   1.781053E+01   4.947400E-01   9.894737E-01
+   3.330000E+00   5.000000E-02   2.275790E+01   9.894701E-01   9.894737E-01
+   3.560000E+00   5.000000E-02   5.145263E+01   1.484200E+00   9.894737E-01
+   3.830000E+00   5.000000E-02   7.618948E+01   1.978900E+00   9.894737E-01
+   4.180000E+00   5.000000E-02   1.128000E+02   4.452600E+00   9.894737E-01
+   4.490000E+00   5.000000E-02   1.593053E+02   4.947400E+00   9.894737E-01
+   4.750000E+00   5.000000E-02   1.880000E+02   1.088421E+01   9.894737E-01
+   5.080000E+00   5.000000E-02   2.513263E+02   1.286316E+01   9.894737E-01
+   5.620000E+00   5.000000E-02   2.839789E+02   1.880000E+01   9.894737E-01
+# reference:
+#   author: L.Weissman, A.Kreisel, T.Hirsh, O.Aviv, D.Berkovits, O.Girshevitz, Y.Eisen
+#   title: Accurate measurements of the 63Cu(d,p)64Cu and natCu(d,x)65Zn cross- sections in the 2.77-5.62 MeV energy range
+#   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.342, p.7 (2015
+# statistics:
+#   NEA score: R3
+#   IAEA score: -1
+#   E-min [MeV]:  2.770000E+00
+#   E-max [MeV]:  5.620000E+00
+#   F-value:  1.846071E+00
+#   A-value:  5.653210E-01
+#   chi-2:  1.582557E+02
+#   p-value:  2.724235E-01
+#   exp. data sets for p-value:      1
+#   libraries:      1
+##  Library          F              A            chi-2
+# tendl.2023    1.846071E+00   5.653210E-01   1.582557E+02

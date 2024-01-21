@@ -1,0 +1,56 @@
+# header:
+#   title: Ni62(n,p)Co62m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Levkovskii
+#   year: 1970
+#   subentry: 40226015
+#   X4 reaction: 28-NI-62(N,P)27-CO-62-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/40226015
+# target:
+#   Z: 28
+#   A: 62
+#   nuclide: Ni62
+# reaction:
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 27
+#   A: 62
+#   nuclide: Co62m
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.480000E+01   0.000000E+00   2.100000E+01   3.000000E+00   1.000000E+00
+# reference:
+#   author: V.N.Levkovskii,G.P.Vinitskaya,G.E.Kovel'skaya, V.M.Stepanov
+#   title: Cross sections for (n,p) and (n,alpha) reactions  with 14.8-MeV neutrons
+#   journal: Jour: Soviet Journal of Nuclear Physics, Vol.10, p.25 (1970)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.480000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.210761E+00
+#   A-value:  8.667010E-01
+#   chi-2:  1.682966E+00
+#   p-value:  2.427509E-01
+#   exp. data sets for p-value:      8
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.374978E+00   7.272844E-01   4.000031E+00
+# jeff3.3       1.022501E+00   9.779937E-01   1.995049E-01
+# jendl5.0      1.092528E+00   9.153086E-01   8.493612E-01

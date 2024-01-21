@@ -1,0 +1,60 @@
+# header:
+#   title: Zr90(n,p)Y90m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Ikeda
+#   year: 1988
+#   subentry: 22089054
+#   X4 reaction: 40-ZR-90(N,P)39-Y-90-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22089054
+# target:
+#   Z: 40
+#   A: 90
+#   nuclide: Zr90
+# reaction:
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 39
+#   A: 90
+#   nuclide: Y90m
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.333000E+01   0.000000E+00   1.114122E+01   7.943600E-01   1.005525E+00
+   1.357000E+01   0.000000E+00   1.145293E+01   8.144800E-01   1.005525E+00
+   1.398000E+01   0.000000E+00   1.165403E+01   8.245300E-01   1.005525E+00
+   1.443000E+01   0.000000E+00   1.240818E+01   8.949201E-01   1.005525E+00
+   1.467000E+01   0.000000E+00   1.244840E+01   8.949201E-01   1.005525E+00
+   1.493000E+01   0.000000E+00   1.234785E+01   8.748100E-01   1.005525E+00
+# reference:
+#   author: Y.Ikeda,C.Konno,K.Oishi,T.Nakamura,H.Miyade, K.Kawade,  H.Yamamoto, T.Katoh
+#   title: Activation cross section measurements for fusion  reactor structural materials at neutron energy from  13.3 to 15.0 MeV using FNS facility
+#   journal: Rept: JAERI Reports, No.1312 (1988)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.333000E+01
+#   E-max [MeV]:  1.493000E+01
+#   F-value:  1.068746E+00
+#   A-value:  1.045301E+00
+#   chi-2:  1.311347E+00
+#   p-value:  4.364842E-01
+#   exp. data sets for p-value:      4
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.016210E+00   9.972564E-01   2.188201E-01
+# jendl5.0      1.097067E+00   1.095660E+00   2.403874E+00

@@ -1,0 +1,49 @@
+# header:
+#   title: Fe0(n,non) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Pasechnik
+#   year: 1955
+#   subentry: 40381006
+#   X4 reaction: 26-FE-0(N,NON),,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/40381006
+# target:
+#   Z: 26
+#   A: 0
+#   nuclide: Fe0
+# reaction:
+#   type: (n,non)
+#   ENDF_MF: 3
+#   ENDF_MT: 3
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.300000E+00   0.000000E+00   1.510000E+03   2.100000E+02   1.000000E+00
+   4.100000E+00   0.000000E+00   1.580000E+03   3.000000E+02   1.000000E+00
+# reference:
+#   author: M.V.Pasechnik
+#   title: Inelastic scattering of fast neutrons by atomic nuclei
+#   journal: Conf: 1st UN Conf.Peaceful Uses Atomic Energy, Geneva 1955, Vol.2, p.3 (
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  3.300000E+00
+#   E-max [MeV]:  4.100000E+00
+#   F-value:  1.962145E+01
+#   A-value:  1.900160E-01
+#   chi-2:  1.236416E+01
+#   p-value:  1.913663E-01
+#   exp. data sets for p-value:      3
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2023    1.129441E+00   8.974457E-01   1.064711E+00
+# endfb8.0      3.758799E+02   2.660513E-03   3.951053E+01
+# jeff3.3       1.458639E+00   7.582612E-01   4.511212E+00
+# cendl3.2      1.429300E+00   7.200595E-01   4.370193E+00

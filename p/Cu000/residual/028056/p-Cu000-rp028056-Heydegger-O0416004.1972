@@ -1,0 +1,53 @@
+# header:
+#   title: Cu0(p,x)Ni56 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Heydegger
+#   year: 1972
+#   subentry: O0416004
+#   X4 reaction: 29-CU-0(P,X)28-NI-56,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O0416004
+# target:
+#   Z: 29
+#   A: 0
+#   nuclide: Cu0
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 28
+#   A: 56
+#   nuclide: Ni56
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   8.200000E+01   8.000000E+00   8.435600E-02   1.687100E-02   1.205092E+00
+   1.110000E+02   1.000000E+01   6.428600E-02   1.285700E-02   1.071429E+00
+   1.870000E+02   1.300000E+01   8.571400E-02   1.714300E-02   1.071429E+00
+# reference:
+#   author: H.R.Heydegger,C.K.Garrett,A.Van Ginneken
+#   title: Thin-target cross sections for some Cr,Mn,Co,Ni and Zn nuclides produced in copper by 82 to 416 MeV protons
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.6, p.1235 (1972)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  8.200000E+01
+#   E-max [MeV]:  1.870000E+02
+#   F-value:  2.150237E+00
+#   A-value:  1.426803E+00
+#   chi-2:  3.912456E+01
+#   p-value:  3.391491E-01
+#   exp. data sets for p-value:      2
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    2.705467E+00   2.596982E+00   8.341203E+01
+# endfb8.0      1.920383E+00   1.669542E+00   2.950122E+01
+# jendl5.0      1.794600E+00   6.699246E-01   4.460432E+00

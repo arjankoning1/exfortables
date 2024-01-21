@@ -1,0 +1,52 @@
+# header:
+#   title: Cl35(n,p)S35 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Nagel
+#   year: 1966
+#   subentry: 20198007
+#   X4 reaction: 17-CL-35(N,P)16-S-35,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20198007
+# target:
+#   Z: 17
+#   A: 35
+#   nuclide: Cl35
+# reaction:
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 16
+#   A: 35
+#   nuclide: S35
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.460000E+01   2.000000E-01   1.378425E+02   2.040986E+01   1.052233E+00
+# reference:
+#   author: W.Nagel
+#   title: - Some nuclear reactions induced by d+t neutrons -
+#   journal: Thesis: Nagel (1966)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.460000E+01
+#   E-max [MeV]:  1.460000E+01
+#   F-value:  1.363728E+00
+#   A-value:  8.157026E-01
+#   chi-2:  2.846505E+00
+#   p-value:  1.613035E-01
+#   exp. data sets for p-value:      3
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2023    1.838483E+00   5.439267E-01   9.526136E+00
+# endfb8.0      1.069438E+00   9.350703E-01   6.055391E-01
+# jeff3.3       1.069438E+00   9.350703E-01   6.055391E-01
+# jendl5.0      1.074240E+00   9.308904E-01   6.488059E-01

@@ -1,0 +1,55 @@
+# header:
+#   title: Mo100(n,x)Mo99 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: KongXiangzhongg
+#   year: 1991
+#   subentry: 32579002
+#   X4 reaction: 42-MO-100(N,2N)42-MO-99,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/32579002
+# target:
+#   Z: 42
+#   A: 100
+#   nuclide: Mo100
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 42
+#   A: 99
+#   nuclide: Mo99
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.340000E+01   5.000000E-02   1.503349E+03   4.013707E+01   9.870967E-01
+   1.361000E+01   5.000000E-02   1.535372E+03   4.195900E+01   9.944116E-01
+   1.406000E+01   7.000000E-02   1.502249E+03   4.009787E+01   9.922385E-01
+   1.427000E+01   7.000000E-02   1.494052E+03   3.965326E+01   9.887833E-01
+   1.465000E+01   1.100000E-01   1.497163E+03   4.014656E+01   9.994409E-01
+   1.479000E+01   1.100000E-01   1.495054E+03   4.138368E+01   9.861836E-01
+# reference:
+#   author: Kong Xiangzhong,Wang Yongchang,Yuan Junqian, Wang Xuezhi,Yang Jingkang,Wang Jing
+#   title: The cross section measurements for the Mo-100(n,2n)Mo-99, Mo-96(n,p)Nb-96 and    Mo-92(n,a)Zr-89m+g reaction
+#   journal: Jour: High Energy Physics and Nucl.Physics,Chinese ed., Vol.15, p.549 (1
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.340000E+01
+#   E-max [MeV]:  1.479000E+01
+#   F-value:  1.067685E+00
+#   A-value:  9.517054E-01
+#   chi-2:  5.516860E+00
+#   p-value:  3.839815E-01
+#   exp. data sets for p-value:      6
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.019548E+00   9.886177E-01   7.074773E-01
+# jendl5.0      1.094803E+00   9.161714E-01   1.032624E+01

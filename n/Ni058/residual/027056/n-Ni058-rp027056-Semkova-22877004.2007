@@ -1,0 +1,59 @@
+# header:
+#   title: Ni58(n,x)Co56 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Semkova
+#   year: 2007
+#   subentry: 22877004
+#   X4 reaction: 28-NI-58(N,X)27-CO-56,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22877004
+# target:
+#   Z: 28
+#   A: 58
+#   nuclide: Ni58
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 27
+#   A: 56
+#   nuclide: Co56
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 9
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.520000E+01   6.000000E-01   3.799800E-02   3.999800E-03   9.999510E-01
+   1.550000E+01   6.000000E-01   7.399600E-02   6.999700E-03   9.999510E-01
+   1.620000E+01   6.000000E-01   1.099900E-01   9.999501E-03   9.999510E-01
+   1.680000E+01   4.000000E-01   2.059900E-01   1.499900E-02   9.999510E-01
+   1.780000E+01   4.000000E-01   3.499800E-01   4.999800E-02   9.999510E-01
+   1.830000E+01   4.000000E-01   4.399800E-01   2.999900E-02   9.999510E-01
+   1.930000E+01   4.000000E-01   6.199700E-01   6.999700E-02   9.999510E-01
+   1.990000E+01   4.000000E-01   7.699600E-01   4.999800E-02   9.999510E-01
+   2.060000E+01   2.000000E-01   9.999500E-01   9.999500E-02   9.999510E-01
+# reference:
+#   author: V.Semkova, R.Capote, R.J.Tornin, A.J.Koning,  A.Moens, A.J.M.Plompen
+#   title: New cross section measurements for neutron-induced   reactions on Cr, Ni, Cu, Ta and W isotopes obtained   with the activation technique
+#   journal: Conf: Conf.on Nucl.Data for Sci. and Technology, Nice 2007, Vol.1, p.559
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.520000E+01
+#   E-max [MeV]:  2.060000E+01
+#   F-value:  1.824493E+00
+#   A-value:  1.250101E+00
+#   chi-2:  7.851426E+01
+#   p-value:  1.867152E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.788994E+00   1.184334E+00   7.469566E+01
+# endfb8.0      1.269159E+00   1.269159E+00   7.343179E+00
+# jendl5.0      1.679097E+00   1.679097E+00   4.611727E+01

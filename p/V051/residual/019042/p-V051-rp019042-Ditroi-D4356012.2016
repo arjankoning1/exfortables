@@ -1,0 +1,56 @@
+# header:
+#   title: V51(p,x)K42 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Ditroi
+#   year: 2016
+#   subentry: D4356012
+#   X4 reaction: 23-V-51(P,X)19-K-42,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D4356012
+# target:
+#   Z: 23
+#   A: 51
+#   nuclide: V51
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 19
+#   A: 42
+#   nuclide: K42
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.629000E+01   5.600000E-01   4.300000E-01   1.300000E-01   1.000000E+00
+   5.768000E+01   5.100000E-01   1.050000E+00   2.000000E-01   1.000000E+00
+   5.905000E+01   4.700000E-01   9.700000E-01   1.700000E-01   1.000000E+00
+   6.039000E+01   4.200000E-01   1.290000E+00   2.300000E-01   1.000000E+00
+   6.171000E+01   3.800000E-01   1.110000E+00   2.100000E-01   1.000000E+00
+   6.301000E+01   3.400000E-01   1.960000E+00   3.000000E-01   1.000000E+00
+   6.428000E+01   3.000000E-01   1.370000E+00   2.500000E-01   1.000000E+00
+# reference:
+#   author: F.Ditroi,F.Tarkanyi,S.Takacs,A.Hermanne
+#   title: Activation cross-sections of proton induced reactions on vanadium in the 37-65 MeV energy range
+#   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.381, p.16 (201
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  5.629000E+01
+#   E-max [MeV]:  6.428000E+01
+#   F-value:  6.105786E+00
+#   A-value:  2.611327E-01
+#   chi-2:  1.311619E+01
+#   p-value:  2.007956E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.276538E+01   7.939196E-02   2.453405E+01
+# jendl5.0      1.279654E+00   8.589068E-01   1.698330E+00

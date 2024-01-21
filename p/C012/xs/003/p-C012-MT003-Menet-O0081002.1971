@@ -1,0 +1,48 @@
+# header:
+#   title: C12(p,non) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Menet
+#   year: 1971
+#   subentry: O0081002
+#   X4 reaction: 6-C-12(P,NON),,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O0081002
+# target:
+#   Z: 6
+#   A: 12
+#   nuclide: C12
+# reaction:
+#   type: (p,non)
+#   ENDF_MF: 3
+#   ENDF_MT: 3
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.000000E+01   0.000000E+00   4.470000E+02   2.000000E+01   1.000000E+00
+   4.000000E+01   0.000000E+00   3.710000E+02   1.100000E+01   1.000000E+00
+   4.950000E+01   0.000000E+00   3.450000E+02   1.300000E+01   1.000000E+00
+   6.080000E+01   0.000000E+00   3.100000E+02   1.300000E+01   1.000000E+00
+# reference:
+#   author: J.J.H.Menet,E.E.Gross,J.J.Malanify,A.Zucker
+#   title: Total-reaction-cross section measurements for 30-60-MeV protons and the imaginary optical potential.
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.4, p.1114 (1971)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  3.000000E+01
+#   E-max [MeV]:  6.080000E+01
+#   F-value:  1.109234E+00
+#   A-value:  9.025296E-01
+#   chi-2:  6.684776E+00
+#   p-value:  2.464907E-01
+#   exp. data sets for p-value:      2
+#   libraries:      1
+##  Library          F              A            chi-2
+# jendl5.0      1.109234E+00   9.025296E-01   6.684776E+00

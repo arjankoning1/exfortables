@@ -1,0 +1,56 @@
+# header:
+#   title: Zn64(n,x)Cu64 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Nakai
+#   year: 1962
+#   subentry: 20291003
+#   X4 reaction: 30-ZN-64(N,P)29-CU-64,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20291003
+# target:
+#   Z: 30
+#   A: 64
+#   nuclide: Zn64
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 29
+#   A: 64
+#   nuclide: Cu64
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.520000E+00   2.300000E-01   2.500000E+01   5.000000E+00   1.000000E+00
+   3.210000E+00   3.000000E-01   6.400000E+01   1.300000E+01   1.000000E+00
+   3.610000E+00   2.700000E-01   8.500001E+01   1.800000E+01   1.000000E+00
+   3.980000E+00   2.200000E-01   9.100002E+01   1.900000E+01   1.000000E+00
+   4.330000E+00   1.500000E-01   1.140000E+02   2.300000E+01   1.000000E+00
+   4.630000E+00   6.000000E-02   1.340000E+02   2.700000E+01   1.000000E+00
+# reference:
+#   author: K.Nakai, H.Gotoh, H.Amano
+#   title: Excitation functions of Ni-58(n,p)Co-58 and  Zn-64(n,p)Cu-64 reactions in the energy region from  1.8 to 4.8 MeV
+#   journal: Jour: Journal of the Physical Society of Japan, Vol.17, p.1215 (1962)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  2.520000E+00
+#   E-max [MeV]:  4.630000E+00
+#   F-value:  1.404258E+00
+#   A-value:  1.370503E+00
+#   chi-2:  4.433877E+00
+#   p-value:  1.177404E-01
+#   exp. data sets for p-value:      8
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.439287E+00   1.414050E+00   5.066977E+00
+# jeff3.3       1.439391E+00   1.414194E+00   5.068783E+00
+# jendl5.0      1.328160E+00   1.287259E+00   3.165871E+00

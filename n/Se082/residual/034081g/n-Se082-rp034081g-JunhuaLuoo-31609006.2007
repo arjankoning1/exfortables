@@ -1,0 +1,58 @@
+# header:
+#   title: Se82(n,x)Se81g cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: JunhuaLuoo
+#   year: 2007
+#   subentry: 31609006
+#   X4 reaction: 34-SE-82(N,2N)34-SE-81-G,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/31609006
+# target:
+#   Z: 34
+#   A: 82
+#   nuclide: Se82
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 34
+#   A: 81
+#   nuclide: Se81g
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.350000E+01   4.000000E-01   4.038708E+02   2.375981E+01   9.755332E-01
+   1.410000E+01   4.000000E-01   4.347323E+02   2.492363E+01   9.857874E-01
+   1.460000E+01   4.000000E-01   4.254207E+02   2.435736E+01   9.870549E-01
+# reference:
+#   author: Junhua Luo, Xiaosan Xu, Xuexiang Cao, Xiangzhong Kong
+#   title: Activation cross sections and isomeric cross section  ratios for the (n,2n) reactions on 175Lu, 198Pt and  82Se from 13.5 to 14.6 MeV
+#   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.265, p.453 (20
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.350000E+01
+#   E-max [MeV]:  1.460000E+01
+#   F-value:  1.352640E+00
+#   A-value:  7.404966E-01
+#   chi-2:  2.031195E+01
+#   p-value:  1.430554E-01
+#   exp. data sets for p-value:      2
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.322234E+00   7.566416E-01   1.777586E+01
+# jeff3.3       1.381540E+00   7.246962E-01   2.284804E+01
+# jendl5.0      0.000000E+00   0.000000E+00   0.000000E+00

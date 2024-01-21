@@ -1,0 +1,53 @@
+# header:
+#   title: Ni61(p,x)Cu61 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Antropov
+#   year: 1992
+#   subentry: A0543002
+#   X4 reaction: 28-NI-61(P,N)29-CU-61,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/A0543002
+# target:
+#   Z: 28
+#   A: 61
+#   nuclide: Ni61
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+# residual:
+#   Z: 29
+#   A: 61
+#   nuclide: Cu61
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.720000E+00   0.000000E+00   2.500000E+02   3.500000E+01   1.000000E+00
+   5.900000E+00   0.000000E+00   2.850000E+02   4.000000E+01   1.000000E+00
+   6.020000E+00   0.000000E+00   2.650000E+02   4.000000E+01   1.000000E+00
+# reference:
+#   author: A.E.Antropov, V.P.Gusev, Yu.Yu.Zhuravlev, P.P.Zarubin, A.A.Kolozhvary, A.V.Smirnov
+#   title: Total cross sections of (p,n) reaction on the nuclei of isotopes nickel and zinc at E(p)=5.-6. MeV.
+#   journal: Jour: Izv. Rossiiskoi Akademii Nauk, Ser.Fiz., Vol.56, Issue.11, p.198 (
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  5.720000E+00
+#   E-max [MeV]:  6.020000E+00
+#   F-value:  1.099596E+00
+#   A-value:  9.399811E-01
+#   chi-2:  6.983811E-01
+#   p-value:  1.783820E-01
+#   exp. data sets for p-value:      3
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.063218E+00   9.522627E-01   4.734963E-01
+# endfb8.0      1.163503E+00   8.680264E-01   1.491937E+00
+# jendl5.0      1.018933E+00   1.004772E+00   1.297101E-01

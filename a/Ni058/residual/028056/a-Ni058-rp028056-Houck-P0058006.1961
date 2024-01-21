@@ -1,0 +1,53 @@
+# header:
+#   title: Ni58(a,x)Ni56 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Houck
+#   year: 1961
+#   subentry: P0058006
+#   X4 reaction: 28-NI-58(A,2N+A)28-NI-56,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/P0058006
+# target:
+#   Z: 28
+#   A: 58
+#   nuclide: Ni58
+# reaction:
+#   type: (a,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 24
+# residual:
+#   Z: 28
+#   A: 56
+#   nuclide: Ni56
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.110000E+01   0.000000E+00   1.900000E-02   5.000000E-03   1.000000E+00
+   3.340000E+01   0.000000E+00   7.799999E-02   5.000000E-03   1.000000E+00
+   3.560000E+01   0.000000E+00   2.220000E-01   0.000000E+00   1.000000E+00
+   3.770000E+01   0.000000E+00   4.350000E-01   0.000000E+00   1.000000E+00
+   3.970000E+01   0.000000E+00   6.810000E-01   0.000000E+00   1.000000E+00
+# reference:
+#   author: F.S.HOUCK,J.M.MILLER
+#   title: Reactions of Alpha Particles with Iron-54 and Nickel-58
+#   journal: Jour: Physical Review, Vol.123, p.231 (1961)
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  3.110000E+01
+#   E-max [MeV]:  3.970000E+01
+#   F-value:  3.136856E+00
+#   A-value:  2.883412E+00
+#   chi-2:  5.037878E+02
+#   p-value:  3.226377E-01
+#   exp. data sets for p-value:      1
+#   libraries:      1
+##  Library          F              A            chi-2
+# tendl.2023    3.136856E+00   2.883412E+00   5.037878E+02

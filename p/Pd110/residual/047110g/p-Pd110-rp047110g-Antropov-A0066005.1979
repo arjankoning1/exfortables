@@ -1,0 +1,55 @@
+# header:
+#   title: Pd110(p,x)Ag110g cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Antropov
+#   year: 1979
+#   subentry: A0066005
+#   X4 reaction: 46-PD-110(P,N)47-AG-110-G,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/A0066005
+# target:
+#   Z: 46
+#   A: 110
+#   nuclide: Pd110
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+# residual:
+#   Z: 47
+#   A: 110
+#   nuclide: Ag110g
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   6.020000E+00   6.000000E-02   7.039999E+01   1.368889E+01   9.777777E-01
+# reference:
+#   author: A.E.Antropov,T.Bayumi,V.P.Gusev,P.P.Zarubin, P.D.Ioannu,B.N.Orlov
+#   title: Study of proton interaction with nuclei 102,104,106, 108,110 Pd at E(p)=6 MeV.
+#   journal: Jour: Yadernaya Fizika, Vol.29, Issue.6, p.1432 (1979)
+# statistics:
+#   NEA score: R2
+#   IAEA score:  1
+#   E-min [MeV]:  6.020000E+00
+#   E-max [MeV]:  6.020000E+00
+#   F-value:  5.070552E+00
+#   A-value:  4.434397E-01
+#   chi-2:  1.912580E+01
+#   p-value:  1.642982E-01
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.807431E+00   1.807431E+00   1.724439E+01
+# jendl5.0      9.191628E+00   1.087947E-01   2.100720E+01

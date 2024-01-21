@@ -1,0 +1,51 @@
+# header:
+#   title: Fe56(p,n')Co56 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Zherebchevsky
+#   year: 2016
+#   subentry: F1298003
+#   X4 reaction: 26-FE-56(P,N)27-CO-56,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/F1298003
+# target:
+#   Z: 26
+#   A: 56
+#   nuclide: Fe56
+# reaction:
+#   type: (p,n')
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+# residual:
+#   Z: 27
+#   A: 56
+#   nuclide: Co56
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.300000E+01   0.000000E+00   3.660000E+02   4.200000E+01   1.000000E+00
+# reference:
+#   author: V.I.Zherebchevsky,I.E.Alekseev,K.A.Gridnev, E.B.Krymov,T.V.Lazareva,N.A.Maltsev,R.B.Panin, N.A.Prokofyev,S.Yu.Torilov,A.I.Shtamburg
+#   title: The study of the nuclear reactions for the production of antimony isotopes.
+#   journal: Jour: Izv. Rossiiskoi Akademii Nauk, Ser.Fiz., Vol.80, p.975 (2016)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.300000E+01
+#   E-max [MeV]:  1.300000E+01
+#   F-value:  1.077546E+00
+#   A-value:  9.526812E-01
+#   chi-2:  7.226153E-01
+#   p-value:  4.755385E-01
+#   exp. data sets for p-value:      5
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.035247E+00   9.659533E-01   3.965730E-01
+# endfb8.0      1.131948E+00   8.834326E-01   1.623065E+00
+# jendl5.0      1.013242E+00   1.013242E+00   1.482085E-01

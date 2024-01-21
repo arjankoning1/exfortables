@@ -1,0 +1,52 @@
+# header:
+#   title: Br79(n,x)Br80 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Leipunskiy
+#   year: 1958
+#   subentry: 40244095
+#   X4 reaction: 35-BR-79(N,G)35-BR-80,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/40244095
+# target:
+#   Z: 35
+#   A: 79
+#   nuclide: Br79
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+# residual:
+#   Z: 35
+#   A: 80
+#   nuclide: Br80
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.700000E+00   0.000000E+00   2.640000E+01   5.000000E-01   1.000000E+00
+   4.000000E+00   0.000000E+00   1.170000E+01   3.000000E-01   1.000000E+00
+# reference:
+#   author: A.I.Leipunskiy, O.D.Kazachkovskiy, G.Ja.Artyukhov, A.I.Baryshnikov, T.S.Belanova, V.I.Galkov, Yu.Ja.Stavisskiy, E.A.Stumbur, L.E.Sherman
+#   title: Radiative capture cross-section measurements  for fast neutrons.
+#   journal: Conf: Second Internat. At.En. Conf., Geneva 1958, Vol.15, p.50 (1958)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  2.700000E+00
+#   E-max [MeV]:  4.000000E+00
+#   F-value:  1.878404E+00
+#   A-value:  6.729003E-01
+#   chi-2:  3.575367E+02
+#   p-value:  3.045557E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.141785E+00   1.025658E+00   3.532428E+01
+# jeff3.3       2.865410E+00   3.490598E-01   9.068840E+02
+# jendl5.0      1.294217E+00   8.510401E-01   1.304019E+02

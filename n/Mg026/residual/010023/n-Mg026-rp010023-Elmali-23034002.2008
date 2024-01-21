@@ -1,0 +1,55 @@
+# header:
+#   title: Mg26(n,x)Ne23 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Elmali
+#   year: 2008
+#   subentry: 23034002
+#   X4 reaction: 12-MG-26(N,A)10-NE-23,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/23034002
+# target:
+#   Z: 12
+#   A: 26
+#   nuclide: Mg26
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+# residual:
+#   Z: 10
+#   A: 23
+#   nuclide: Ne23
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.360000E+01   8.000000E-02   7.226746E+01   3.937100E+00   1.055153E+00
+   1.368000E+01   8.000000E-02   7.049330E+01   3.832800E+00   1.072957E+00
+   1.410000E+01   1.000000E-01   5.831591E+01   3.155000E+00   1.041728E+00
+   1.446000E+01   1.100000E-01   6.402404E+01   3.453300E+00   1.016093E+00
+   1.472000E+01   1.100000E-01   5.419972E+01   2.927290E+00   1.018983E+00
+   1.486000E+01   1.200000E-01   5.094779E+01   2.763300E+00   1.036789E+00
+# reference:
+#   author: A.Elmali, I.A.Reyhancan
+#   title: .Measurements and statistical model calculations of  activation cross-sections for 26Mg(n,a)23Ne reaction  between 13.6 and 14.9 MeV neutron energies
+#   journal: Jour: Annals of Nuclear Energy, Vol.35, p.1068 (2008)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.360000E+01
+#   E-max [MeV]:  1.486000E+01
+#   F-value:  1.403784E+00
+#   A-value:  7.347257E-01
+#   chi-2:  2.630251E+01
+#   p-value:  2.796968E-01
+#   exp. data sets for p-value:      4
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.403784E+00   7.347257E-01   2.630251E+01
+# jendl5.0      0.000000E+00   0.000000E+00   0.000000E+00

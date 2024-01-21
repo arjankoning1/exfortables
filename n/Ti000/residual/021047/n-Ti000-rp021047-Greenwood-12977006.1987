@@ -1,0 +1,55 @@
+# header:
+#   title: Ti0(n,x)Sc47 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Greenwood
+#   year: 1987
+#   subentry: 12977006
+#   X4 reaction: 22-TI-0(N,X)21-SC-47,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/12977006
+# target:
+#   Z: 22
+#   A: 0
+#   nuclide: Ti0
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 21
+#   A: 47
+#   nuclide: Sc47
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.450000E+01   4.000000E-01   1.919506E+01   1.068800E-01   9.894360E-01
+   1.465000E+01   4.000000E-01   2.097604E+01   1.168000E-01   9.894360E-01
+   1.480000E+01   4.000000E-01   2.206442E+01   1.228600E-01   9.894360E-01
+   1.485000E+01   4.000000E-01   2.325175E+01   1.294700E-01   9.894360E-01
+   1.490000E+01   4.000000E-01   2.325175E+01   1.294700E-01   9.894360E-01
+# reference:
+#   author: L.R.Greenwood
+#   title: Recent research in neutron dosimetry and damage  analysis for materials irradiations.
+#   journal: Conf: American Soc. of Testing and Materials Reports, No.956, p.743 (198
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.450000E+01
+#   E-max [MeV]:  1.490000E+01
+#   F-value:  1.208405E+00
+#   A-value:  8.393709E-01
+#   chi-2:  9.347223E+02
+#   p-value:  5.981473E-02
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.265829E+00   7.901887E-01   1.421496E+03
+# jeff3.3       1.233785E+00   8.107303E-01   1.157224E+03
+# jendl5.0      1.092340E+00   9.231122E-01   2.254462E+02

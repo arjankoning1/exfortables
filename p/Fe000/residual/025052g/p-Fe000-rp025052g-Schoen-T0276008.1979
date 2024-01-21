@@ -1,0 +1,63 @@
+# header:
+#   title: Fe0(p,x)Mn52g cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Schoen
+#   year: 1979
+#   subentry: T0276008
+#   X4 reaction: 26-FE-0(P,X)25-MN-52-G,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/T0276008
+# target:
+#   Z: 26
+#   A: 0
+#   nuclide: Fe0
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 25
+#   A: 52
+#   nuclide: Mn52g
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 10
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.290000E+01   1.400000E+00   2.700000E+00   2.000000E-01   1.000000E+00
+   2.660000E+01   1.200000E+00   1.570000E+01   9.000000E-01   1.000000E+00
+   3.000000E+01   1.100000E+00   2.400000E+01   1.300000E+00   1.000000E+00
+   3.310000E+01   1.000000E+00   2.860000E+01   1.600000E+00   1.000000E+00
+   3.820000E+01   9.000000E-01   2.350000E+01   1.300000E+00   1.000000E+00
+   4.280000E+01   8.000000E-01   1.550000E+01   9.000000E-01   1.000000E+00
+   4.900000E+01   7.000000E-01   1.190000E+01   7.000000E-01   1.000000E+00
+   5.290000E+01   7.000000E-01   1.100000E+01   6.000000E-01   1.000000E+00
+   5.810000E+01   6.000000E-01   9.900000E+00   6.000000E-01   1.000000E+00
+   6.300000E+01   6.000000E-01   2.150000E+01   1.200000E+00   1.000000E+00
+# reference:
+#   author: N.C.Schoen, G.Orlov, R.J.McDonald
+#   title: Excitation functions for radioactive isotopes produced  by proton bombardment of Fe, Co, and W in the energy  range from 10 to 60 MeV
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.20, p.88 (1979)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  2.290000E+01
+#   E-max [MeV]:  6.300000E+01
+#   F-value:  1.471253E+00
+#   A-value:  9.815466E-01
+#   chi-2:  5.380462E+01
+#   p-value:  2.942737E-01
+#   exp. data sets for p-value:      3
+#   libraries:      1
+##  Library          F              A            chi-2
+# tendl.2023    1.471253E+00   9.815466E-01   5.380462E+01

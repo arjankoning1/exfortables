@@ -1,0 +1,50 @@
+# header:
+#   title: Na23(n,x)Ne22 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Kozy
+#   year: 1978
+#   subentry: 405960121
+#   X4 reaction: 11-NA-23(N,N+P)10-NE-22,SEQ,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/405960121
+# target:
+#   Z: 11
+#   A: 23
+#   nuclide: Na23
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 28
+# residual:
+#   Z: 10
+#   A: 22
+#   nuclide: Ne22
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.460000E+01   0.000000E+00   2.700000E+02   3.000000E+01   1.000000E+00
+# reference:
+#   author: Yu.E.Kozy, G.A.Prokopets
+#   title: The reactions (n,n'gamma), (n,np), and (n,pn) in 23Na,  27Al, and 32S at a neutron energy 14.6 MeV
+#   journal: Jour: Yadernaya Fizika, Vol.28, p.16 (1978)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  1.460000E+01
+#   E-max [MeV]:  1.460000E+01
+#   F-value:  1.273155E+00
+#   A-value:  1.208263E+00
+#   chi-2:  6.855251E+00
+#   p-value:  4.779359E-01
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.403946E+00   1.403946E+00   1.322425E+01
+# jendl5.0      1.039855E+00   1.039855E+00   4.862517E-01

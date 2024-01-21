@@ -1,0 +1,62 @@
+# header:
+#   title: Ba137(n,x)Ba138 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Koehler
+#   year: 1998
+#   subentry: 13695005
+#   X4 reaction: 56-BA-137(N,G)56-BA-138,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/13695005
+# target:
+#   Z: 56
+#   A: 137
+#   nuclide: Ba137
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+# residual:
+#   Z: 56
+#   A: 138
+#   nuclide: Ba138
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 13
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   4.132000E-03   0.000000E+00   2.012000E+02   3.959000E+00   1.000000E+00
+   6.297000E-03   0.000000E+00   1.760000E+02   3.712000E+00   1.000000E+00
+   8.768000E-03   0.000000E+00   1.398000E+02   3.714000E+00   1.000000E+00
+   1.127000E-02   0.000000E+00   1.608000E+02   3.465000E+00   1.000000E+00
+   1.374000E-02   0.000000E+00   1.351000E+02   3.218000E+00   1.000000E+00
+   1.746000E-02   0.000000E+00   1.026000E+02   2.476000E+00   1.000000E+00
+   2.251000E-02   0.000000E+00   9.296001E+01   2.475000E+00   1.000000E+00
+   2.748000E-02   0.000000E+00   7.561000E+01   2.476000E+00   1.000000E+00
+   3.494000E-02   0.000000E+00   7.012001E+01   1.734000E+00   1.000000E+00
+   4.496000E-02   0.000000E+00   5.918000E+01   1.981000E+00   1.000000E+00
+   5.499000E-02   0.000000E+00   5.542000E+01   2.476000E+00   1.000000E+00
+   7.002000E-02   0.000000E+00   4.619000E+01   4.455000E+00   1.000000E+00
+   9.000000E-02   0.000000E+00   3.965000E+01   3.465000E+00   1.000000E+00
+# reference:
+#   author: P.E.Koehler,R.R.Spencer,K.H.Guber,R.R.Winters,S.Raman, J.A.Harvey,N.W.Hill,J.C.Blackmon,D.W.Bardayan, D.C.Larson,T.A.Lewis,D.E.Pierce,M.S.Smith
+#   title: High resolution neutron capture and transmission measurements on 137Ba and their impact on the interpretation of meteoric barium anomalies
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.57, Issue.4, p.1558
+# statistics:
+#   NEA score: T3
+#   IAEA score:  1
+#   E-min [MeV]:  4.132000E-03
+#   E-max [MeV]:  9.000000E-02
+#   F-value:  1.794236E+01
+#   A-value:  2.470349E-01
+#   chi-2:  9.675748E+02
+#   p-value:  2.418398E-01
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    2.694851E+01   2.085562E-01   1.373076E+03
+# jendl5.0      1.116488E+01   2.926131E-01   5.620730E+02

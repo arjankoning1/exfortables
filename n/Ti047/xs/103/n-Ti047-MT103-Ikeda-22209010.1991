@@ -1,0 +1,55 @@
+# header:
+#   title: Ti47(n,p)Sc47 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Ikeda
+#   year: 1991
+#   subentry: 22209010
+#   X4 reaction: 22-TI-47(N,P)21-SC-47,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22209010
+# target:
+#   Z: 22
+#   A: 47
+#   nuclide: Ti47
+# reaction:
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 21
+#   A: 47
+#   nuclide: Sc47
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.100000E+01   5.000000E-01   1.316419E+02   1.854100E+00   9.270558E-01
+   1.200000E+01   5.000000E-01   1.453397E+02   1.338700E+00   9.561822E-01
+# reference:
+#   author: Y.Ikeda, C.Konno, M.Mizumoto, K.Hasegawa, S.Chiba, Y.Yamanouchi, M.Sugimoto
+#   title: Activation cross section measurement at neutron  energies of 9.5, 11.0, 12.0 and 13.2 MeV using  H-1(B-11,n)C-12  neutron source at JAERI.
+#   journal: Conf: Conf.on Nucl.Data for Sci.and Technol.,Juelich 1991, p.294 (1991)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.100000E+01
+#   E-max [MeV]:  1.200000E+01
+#   F-value:  1.059515E+00
+#   A-value:  1.044565E+00
+#   chi-2:  2.062851E+01
+#   p-value:  3.962655E-01
+#   exp. data sets for p-value:      2
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2023    1.036244E+00   1.023231E+00   6.994346E+00
+# endfb8.0      1.075797E+00   1.062806E+00   3.127800E+01
+# jeff3.3       1.036674E+00   1.023533E+00   7.155526E+00
+# jendl5.0      1.067034E+00   1.065695E+00   3.194263E+01
+# cendl3.2      1.085126E+00   1.070245E+00   3.941349E+01
+# irdff2.0      1.036224E+00   1.023218E+00   6.987070E+00

@@ -1,0 +1,67 @@
+# header:
+#   title: Fe56(p,n')Co56 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Tanaka
+#   year: 1959
+#   subentry: B0043006
+#   X4 reaction: 26-FE-56(P,N)27-CO-56,,SIG,,,EXP
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/B0043006
+# target:
+#   Z: 26
+#   A: 56
+#   nuclide: Fe56
+# reaction:
+#   type: (p,n')
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+# residual:
+#   Z: 27
+#   A: 56
+#   nuclide: Co56
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 17
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   6.000000E+00   0.000000E+00   6.200000E+01   0.000000E+00   1.000000E+00
+   7.000000E+00   0.000000E+00   1.750000E+02   4.800000E+01   1.000000E+00
+   8.000000E+00   0.000000E+00   2.540000E+02   0.000000E+00   1.000000E+00
+   8.500000E+00   0.000000E+00   3.290000E+02   0.000000E+00   1.000000E+00
+   8.600000E+00   0.000000E+00   3.360000E+02   0.000000E+00   1.000000E+00
+   9.400000E+00   0.000000E+00   3.490000E+02   0.000000E+00   1.000000E+00
+   1.010000E+01   0.000000E+00   4.100000E+02   0.000000E+00   1.000000E+00
+   1.050000E+01   0.000000E+00   4.330000E+02   0.000000E+00   1.000000E+00
+   1.080000E+01   0.000000E+00   4.090000E+02   0.000000E+00   1.000000E+00
+   1.150000E+01   0.000000E+00   4.620000E+02   0.000000E+00   1.000000E+00
+   1.160000E+01   0.000000E+00   4.180000E+02   0.000000E+00   1.000000E+00
+   1.210000E+01   0.000000E+00   4.830000E+02   0.000000E+00   1.000000E+00
+   1.220000E+01   0.000000E+00   4.180000E+02   0.000000E+00   1.000000E+00
+   1.280000E+01   0.000000E+00   4.800000E+02   0.000000E+00   1.000000E+00
+   1.300000E+01   0.000000E+00   4.120000E+02   0.000000E+00   1.000000E+00
+   1.350000E+01   0.000000E+00   4.480000E+02   0.000000E+00   1.000000E+00
+   1.370000E+01   0.000000E+00   4.050000E+02   0.000000E+00   1.000000E+00
+# reference:
+#   author: S.TANAKA, M.FURUKAWA
+#   title: Excitation Functions For (P,N) Reactions with Titanium, Vanadium, Chromium, Iron and Nickel Up to 14 MeV
+#   journal: Jour: Journal of the Physical Society of Japan, Vol.14, p.1269 (1959)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  6.000000E+00
+#   E-max [MeV]:  1.370000E+01
+#   F-value:  1.313936E+00
+#   A-value:  8.257968E-01
+#   chi-2:  3.004639E-02
+#   p-value:  1.700621E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.270234E+00   8.120922E-01   2.102244E-04
+# endfb8.0      1.437463E+00   7.069558E-01   6.753582E-03
+# jendl5.0      1.210252E+00   9.476578E-01   8.357262E-02

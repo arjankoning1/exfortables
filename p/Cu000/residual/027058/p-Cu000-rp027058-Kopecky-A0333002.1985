@@ -1,0 +1,58 @@
+# header:
+#   title: Cu0(p,x)Co58 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Kopecky
+#   year: 1985
+#   subentry: A0333002
+#   X4 reaction: 29-CU-0(P,X)27-CO-58,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/A0333002
+# target:
+#   Z: 29
+#   A: 0
+#   nuclide: Cu0
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 27
+#   A: 58
+#   nuclide: Co58
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.785000E+01   4.500000E-01   1.699900E+00   1.299900E-01   9.999497E-01
+   2.852000E+01   4.500000E-01   3.299800E+00   2.599900E-01   9.999497E-01
+   2.920000E+01   4.500000E-01   5.579700E+00   4.199800E-01   9.999497E-01
+   2.986000E+01   4.500000E-01   8.389600E+00   5.599700E-01   9.999497E-01
+   3.051000E+01   4.500000E-01   1.239938E+01   6.999600E-01   9.999497E-01
+   3.115000E+01   4.500000E-01   1.649917E+01   8.999500E-01   9.999497E-01
+   3.178000E+01   4.500000E-01   2.069896E+01   1.099900E+00   9.999497E-01
+   3.240000E+01   4.500000E-01   2.379880E+01   1.299900E+00   9.999497E-01
+# reference:
+#   author: P.Kopecky
+#   title: Proton beam monitoring via the Cu(p,x)Co-58, Cu-63(p,2n)Zn-62, Cu-65(p,n)Zn-65 reactions in copper.
+#   journal: Jour: Applied Radiation and Isotopes, Vol.36, Issue.8, p.657 (1985)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  2.785000E+01
+#   E-max [MeV]:  3.240000E+01
+#   F-value:  1.542267E+00
+#   A-value:  1.002631E+00
+#   chi-2:  6.182409E+01
+#   p-value:  4.305130E-01
+#   exp. data sets for p-value:      2
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.550816E+00   6.459717E-01   3.263393E+01
+# endfb8.0      1.808215E+00   1.757252E+00   1.474631E+02
+# jendl5.0      1.150802E+00   8.879241E-01   5.375237E+00

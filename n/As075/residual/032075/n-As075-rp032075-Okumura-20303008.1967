@@ -1,0 +1,60 @@
+# header:
+#   title: As75(n,x)Ge75 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Okumura
+#   year: 1967
+#   subentry: 20303008
+#   X4 reaction: 33-AS-75(N,P)32-GE-75,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20303008
+# target:
+#   Z: 33
+#   A: 75
+#   nuclide: As75
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 32
+#   A: 75
+#   nuclide: Ge75
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 10
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.339000E+01   6.000000E-02   2.160000E+01   1.100000E+00   1.000000E+00
+   1.351000E+01   7.000000E-02   2.300000E+01   1.100000E+00   1.000000E+00
+   1.364000E+01   8.000000E-02   2.380000E+01   1.200000E+00   1.000000E+00
+   1.378000E+01   8.000000E-02   2.310000E+01   1.100000E+00   1.000000E+00
+   1.394000E+01   8.000000E-02   2.330000E+01   1.200000E+00   1.000000E+00
+   1.427000E+01   8.000000E-02   2.300000E+01   1.200000E+00   1.000000E+00
+   1.444000E+01   8.000000E-02   2.460000E+01   1.200000E+00   1.000000E+00
+   1.459000E+01   8.000000E-02   2.440000E+01   1.300000E+00   1.000000E+00
+   1.486000E+01   9.000000E-02   2.690000E+01   1.300000E+00   1.000000E+00
+   1.496000E+01   1.000000E-01   2.720000E+01   1.400000E+00   1.000000E+00
+# reference:
+#   author: S.Okumura
+#   title: Isomer pair cross sections by 13.4 - 15.0 MeV  neutrons
+#   journal: Jour: Nuclear Physics, Section A, Vol.93, p.74 (1967)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.339000E+01
+#   E-max [MeV]:  1.496000E+01
+#   F-value:  1.222580E+00
+#   A-value:  8.541662E-01
+#   chi-2:  1.240680E+01
+#   p-value:  2.471045E-01
+#   exp. data sets for p-value:      7
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.140783E+00   9.184816E-01   5.806314E+00
+# jeff3.3       1.160625E+00   8.962684E-01   7.269582E+00
+# jendl5.0      1.330686E+00   7.570395E-01   2.414451E+01

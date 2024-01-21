@@ -1,0 +1,58 @@
+# header:
+#   title: Ir191(n,2n)Ir190 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Konno
+#   year: 1993
+#   subentry: 22637087
+#   X4 reaction: 77-IR-191(N,2N)77-IR-190,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22637087
+# target:
+#   Z: 77
+#   A: 191
+#   nuclide: Ir191
+# reaction:
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 77
+#   A: 190
+#   nuclide: Ir190
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.333000E+01   0.000000E+00   1.866035E+03   1.935439E+02   1.042478E+00
+   1.356000E+01   0.000000E+00   1.834761E+03   1.940594E+02   1.042478E+00
+   1.398000E+01   0.000000E+00   1.866035E+03   1.935439E+02   1.042478E+00
+   1.422000E+01   0.000000E+00   1.824336E+03   1.942289E+02   1.042478E+00
+   1.443000E+01   0.000000E+00   1.803486E+03   1.833496E+02   1.042478E+00
+   1.466000E+01   0.000000E+00   1.834761E+03   1.940594E+02   1.042478E+00
+   1.493000E+01   0.000000E+00   1.886885E+03   1.931946E+02   1.042478E+00
+# reference:
+#   author: C.Konno, Y.Ikeda, K.Oishi, K.Kawade, H.Yamamoto, H.Maekawa
+#   title: Activation Cross section measurements at neutron  energy from 13.3 to 14.9 MeV
+#   journal: Rept: JAERI Reports, No.1329 (1993)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.333000E+01
+#   E-max [MeV]:  1.493000E+01
+#   F-value:  1.148683E+00
+#   A-value:  1.143229E+00
+#   chi-2:  2.562492E+00
+#   p-value:  3.274486E-01
+#   exp. data sets for p-value:      2
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2023    1.093133E+00   1.090183E+00   1.360629E+00
+# endfb8.0      1.169130E+00   1.166877E+00   3.115090E+00
+# jeff3.3       1.169130E+00   1.166877E+00   3.115090E+00
+# jendl5.0      1.152291E+00   1.150757E+00   2.659156E+00

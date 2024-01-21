@@ -1,0 +1,52 @@
+# header:
+#   title: Co59(p,x)Ar38 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Regnier
+#   year: 1979
+#   subentry: O0095033
+#   X4 reaction: 27-CO-59(P,X)18-AR-38,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O0095033
+# target:
+#   Z: 27
+#   A: 59
+#   nuclide: Co59
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 18
+#   A: 38
+#   nuclide: Ar38
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.500000E+02   0.000000E+00   5.800000E-02   9.000001E-03   1.000000E+00
+   1.050000E+03   0.000000E+00   1.690000E+01   2.500000E+00   1.000000E+00
+   2.400000E+04   0.000000E+00   1.170000E+01   1.300000E+00   1.000000E+00
+# reference:
+#   author: S.Regnier
+#   title: Production of argon isotopes by spallation of Sc,Ti, Fe,Co,Ni and Cu
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.20, p.1517 (1979)
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  1.500000E+02
+#   E-max [MeV]:  2.400000E+04
+#   F-value:  1.343045E+01
+#   A-value:  1.249712E-01
+#   chi-2:  2.318961E+01
+#   p-value:  8.547481E-02
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    3.793904E+01   2.635807E-02   3.937036E+01
+# jendl5.0      1.687694E+00   5.925245E-01   7.008862E+00

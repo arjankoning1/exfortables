@@ -1,0 +1,48 @@
+# header:
+#   title: U238(p,f) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Bychenkov
+#   year: 1973
+#   subentry: O0709002
+#   X4 reaction: 92-U-238(P,F),,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O0709002
+# target:
+#   Z: 92
+#   A: 238
+#   nuclide: U238
+# reaction:
+#   type: (p,f)
+#   ENDF_MF: 3
+#   ENDF_MT: 18
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.001000E+02   0.000000E+00   1.630000E+03   8.311403E+01   1.000000E+00
+   1.551000E+02   0.000000E+00   1.680000E+03   8.566353E+01   1.000000E+00
+   2.009000E+02   0.000000E+00   1.570000E+03   8.005461E+01   1.000000E+00
+# reference:
+#   author: V.S.Bychenkov,M.F.Lomanov,A.I.Obukhov,N.A.Perfilov,  O.E.Shigaev,G.G.Shimchuk,R.M.Yakovlev
+#   title: Cross section and angular anisotropy of fission of U-238,Bi-209,Pb-208-206 and Au-197 by 70-200 MeV protons.
+#   journal: Jour: Yadernaya Fizika, Vol.17, p.947 (1973)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  1.001000E+02
+#   E-max [MeV]:  2.009000E+02
+#   F-value:  1.105016E+00
+#   A-value:  9.544699E-01
+#   chi-2:  3.276410E+00
+#   p-value:  2.702329E-01
+#   exp. data sets for p-value:      3
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.151050E+00   9.046806E-01   6.280901E+00
+# jendl5.0      1.012512E+00   1.006999E+00   2.719197E-01

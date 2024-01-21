@@ -1,0 +1,51 @@
+# header:
+#   title: B11(p,n')C11 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Valentin
+#   year: 1965
+#   subentry: C0062004
+#   X4 reaction: 5-B-11(P,N)6-C-11,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C0062004
+# target:
+#   Z: 5
+#   A: 11
+#   nuclide: B11
+# reaction:
+#   type: (p,n')
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+# residual:
+#   Z: 6
+#   A: 11
+#   nuclide: C11
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   4.000000E+01   1.000000E+00   3.100000E+01   2.000000E+00   1.000000E+00
+   9.000000E+01   1.000000E+00   7.900000E+00   2.000000E-01   1.000000E+00
+   1.550000E+02   1.000000E+00   3.500000E+00   2.000000E-01   1.000000E+00
+# reference:
+#   author: L.Valentin
+#   title: (p,n) and (p,pn) reactions of light nuclei at  intermediate energies
+#   journal: Jour: Nuclear Physics, Vol.62, p.81 (1965)
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  4.000000E+01
+#   E-max [MeV]:  1.550000E+02
+#   F-value:  9.177049E+02
+#   A-value:  1.902460E-03
+#   chi-2:  8.933425E+02
+#   p-value:  3.774961E-07
+#   exp. data sets for p-value:      1
+#   libraries:      1
+##  Library          F              A            chi-2
+# tendl.2023    9.177049E+02   1.902460E-03   8.933425E+02

@@ -1,0 +1,51 @@
+# header:
+#   title: Mg0(a,x)Na22 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Lindsay
+#   year: 1960
+#   subentry: P0123003
+#   X4 reaction: 12-MG-0(A,X)11-NA-22,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/P0123003
+# target:
+#   Z: 12
+#   A: 0
+#   nuclide: Mg0
+# reaction:
+#   type: (a,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 11
+#   A: 22
+#   nuclide: Na22
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.080000E+01   0.000000E+00   6.500000E-02   0.000000E+00   1.000000E+00
+   3.330000E+01   0.000000E+00   1.600000E-01   0.000000E+00   1.000000E+00
+   3.580000E+01   0.000000E+00   8.300000E-01   0.000000E+00   1.000000E+00
+# reference:
+#   author: R.H.Lindsay,R.J.Carr
+#   title: He-Ion Induced Reactions of Aluminum and Magnesium
+#   journal: Jour: Physical Review, Vol.118, p.1293 (1960)
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  3.080000E+01
+#   E-max [MeV]:  3.580000E+01
+#   F-value:  3.815185E+00
+#   A-value:  3.730766E+00
+#   chi-2:  0.000000E+00
+#   p-value:  1.683992E-01
+#   exp. data sets for p-value:      1
+#   libraries:      1
+##  Library          F              A            chi-2
+# tendl.2023    3.815185E+00   3.730766E+00   0.000000E+00

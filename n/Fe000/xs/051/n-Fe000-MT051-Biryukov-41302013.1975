@@ -1,0 +1,59 @@
+# header:
+#   title: Fe0(n,n'_01)Fe1 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Biryukov
+#   year: 1975
+#   subentry: 41302013
+#   X4 reaction: 26-FE-0(N,INL)26-FE-0,PAR,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/41302013
+#   level energy [MeV]  1.75000E+00
+# target:
+#   Z: 26
+#   A: 0
+#   nuclide: Fe0
+# reaction:
+#   type: (n,n'_01)
+#   ENDF_MF: 3
+#   ENDF_MT: 51
+#   level: 
+#     number: 1
+#     energy [MeV]:  1.725380E+00
+#     spin:  1.500000E+00
+#     parity: -1
+# residual:
+#   Z: 26
+#   A: 1
+#   nuclide: Fe1
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   9.100000E+00   1.000000E-01   9.600000E+02   3.000000E+01   1.000000E+00
+# reference:
+#   author: N.S.Biryukov, B.V.Zhuravlev, N.V.Kornilov, V.I.Plyaskin, A.P.Rudenko, O.A.Sal'nikov, V.I.Trykova
+#   title: Angle and energy distributions of inelastically  scattered neutrons with initial energy of 9.1 MeV.
+#   journal: Conf: 3.All Union Conf.on Neutron Phys.,Kiev,9-13 Jun 1975, Vol.4, p.118
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  9.100000E+00
+#   E-max [MeV]:  9.100000E+00
+#   F-value:  1.085523E+01
+#   A-value:  9.234741E-02
+#   chi-2:  8.427097E+02
+#   p-value:  1.192093E-07
+#   exp. data sets for p-value:      1
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    9.472750E+00   1.055660E-01   8.192125E+02
+# endfb8.0      1.217441E+01   8.213951E-02   8.626870E+02
+# jeff3.3       1.002305E+01   9.977008E-02   8.298638E+02
+# jendl5.0      1.036790E+01   9.645152E-02   8.359933E+02
+# cendl3.2      1.242401E+01   8.048934E-02   8.657919E+02

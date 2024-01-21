@@ -1,0 +1,56 @@
+# header:
+#   title: Pb208(h,4n)Po207 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Scott
+#   year: 1968
+#   subentry: R0053028
+#   X4 reaction: 82-PB-208(HE3,4N)84-PO-207,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/R0053028
+# target:
+#   Z: 82
+#   A: 208
+#   nuclide: Pb208
+# reaction:
+#   type: (h,4n)
+#   ENDF_MF: 3
+#   ENDF_MT: 37
+# residual:
+#   Z: 84
+#   A: 207
+#   nuclide: Po207
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.260000E+01   0.000000E+00   1.520270E+00   0.000000E+00   1.013514E+00
+   2.380000E+01   0.000000E+00   1.601351E+01   0.000000E+00   1.013514E+00
+   2.610000E+01   0.000000E+00   3.597973E+01   0.000000E+00   1.013514E+00
+   2.720000E+01   0.000000E+00   9.810812E+01   0.000000E+00   1.013514E+00
+   2.830000E+01   0.000000E+00   1.333784E+02   0.000000E+00   1.013514E+00
+   2.930000E+01   0.000000E+00   2.413176E+02   0.000000E+00   1.013514E+00
+   3.040000E+01   0.000000E+00   3.489527E+02   0.000000E+00   1.013514E+00
+   3.140000E+01   0.000000E+00   4.860811E+02   0.000000E+00   1.013514E+00
+# reference:
+#   author: N.E.Scott, J.W.Cobble, P.J.Daly
+#   title: A comparison of reactions induced by medium-energy 3He and 4He ions in heavy target nuclei
+#   journal: Jour: Nuclear Physics, Section A, Vol.119, Issue.1, p.131 (1968)
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  2.260000E+01
+#   E-max [MeV]:  3.140000E+01
+#   F-value:  1.412544E+02
+#   A-value:  8.722293E-03
+#   chi-2:  0.000000E+00
+#   p-value:  7.450581E-08
+#   exp. data sets for p-value:      1
+#   libraries:      1
+##  Library          F              A            chi-2
+# tendl.2023    1.412544E+02   8.722293E-03   0.000000E+00

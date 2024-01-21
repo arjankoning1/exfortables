@@ -1,0 +1,65 @@
+# header:
+#   title: Te128(p,n')I128 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Azzam
+#   year: 2020
+#   subentry: D0978012
+#   X4 reaction: 52-TE-128(P,N)53-I-128,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D0978012
+# target:
+#   Z: 52
+#   A: 128
+#   nuclide: Te128
+# reaction:
+#   type: (p,n')
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+# residual:
+#   Z: 53
+#   A: 128
+#   nuclide: I128
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 16
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   6.100000E+00   0.000000E+00   7.766615E+01   1.164790E+01   1.348136E+00
+   6.550000E+00   0.000000E+00   8.332832E+01   1.249722E+01   1.348136E+00
+   6.870000E+00   0.000000E+00   1.467312E+02   2.201507E+01   1.348136E+00
+   7.190000E+00   0.000000E+00   1.880920E+02   2.821649E+01   1.348136E+00
+   7.550000E+00   0.000000E+00   2.531800E+02   3.797701E+01   1.348136E+00
+   8.190000E+00   0.000000E+00   3.426019E+02   5.139096E+01   1.348136E+00
+   9.810000E+00   0.000000E+00   4.629905E+02   6.944251E+01   1.348136E+00
+   1.030000E+01   0.000000E+00   4.718477E+02   7.077716E+01   1.348136E+00
+   1.076000E+01   0.000000E+00   4.672641E+02   7.008963E+01   1.348136E+00
+   1.081000E+01   0.000000E+00   4.044409E+02   6.066614E+01   1.348136E+00
+   1.122000E+01   0.000000E+00   3.493156E+02   5.240206E+01   1.348136E+00
+   1.176000E+01   0.000000E+00   2.292776E+02   3.439096E+01   1.348136E+00
+   1.222000E+01   0.000000E+00   1.865551E+02   2.798731E+01   1.348136E+00
+   1.320000E+01   0.000000E+00   1.612236E+02   2.418557E+01   1.348136E+00
+   1.358000E+01   0.000000E+00   1.179350E+02   1.768755E+01   1.348136E+00
+   1.420000E+01   0.000000E+00   1.058557E+02   1.588105E+01   1.348136E+00
+# reference:
+#   author: A.Azzam, M.S.Hamada, S.A.Said, G.Y.Mohamed,  M.Al-Abyad
+#   title: Excitation functions for proton-induced reactions on  Te and natTi targets: Measurements and model  calculations special relevant to the 128Te(p,n)128I  reaction
+#   journal: Jour: Nuclear Physics, Section A, Vol.999, p.121790 (2020)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  6.100000E+00
+#   E-max [MeV]:  1.420000E+01
+#   F-value:  1.198979E+00
+#   A-value:  9.540927E-01
+#   chi-2:  1.662688E+00
+#   p-value:  2.883773E-01
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.245846E+00   8.905600E-01   2.107586E+00
+# jendl5.0      1.141626E+00   1.022158E+00   1.217788E+00

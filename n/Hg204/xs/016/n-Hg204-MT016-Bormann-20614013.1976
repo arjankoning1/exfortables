@@ -1,0 +1,60 @@
+# header:
+#   title: Hg204(n,2n)Hg203 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Bormann
+#   year: 1976
+#   subentry: 20614013
+#   X4 reaction: 80-HG-204(N,2N)80-HG-203,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20614013
+# target:
+#   Z: 80
+#   A: 204
+#   nuclide: Hg204
+# reaction:
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 80
+#   A: 203
+#   nuclide: Hg203
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 9
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.268000E+01   1.000000E-01   1.880000E+03   1.620000E+02   1.000000E+00
+   1.318000E+01   1.100000E-01   2.176000E+03   1.980000E+02   1.000000E+00
+   1.360000E+01   1.200000E-01   2.118000E+03   1.960000E+02   1.000000E+00
+   1.456000E+01   1.400000E-01   1.942000E+03   1.740000E+02   1.000000E+00
+   1.535000E+01   1.500000E-01   1.946000E+03   1.740000E+02   1.000000E+00
+   1.615000E+01   1.500000E-01   1.739000E+03   1.600000E+02   1.000000E+00
+   1.689000E+01   1.500000E-01   1.513000E+03   1.340000E+02   1.000000E+00
+   1.751000E+01   1.400000E-01   1.229000E+03   1.100000E+02   1.000000E+00
+   1.812000E+01   1.300000E-01   1.049000E+03   9.400000E+01   1.000000E+00
+# reference:
+#   author: M.BORMANN, H-K.FEDDERSEN, H.-H.HOLSCHER, W.SCOBEL,  H.WAGNER
+#   title: -(N,2N) EXCITATION FUNCTIONS FOR FE-54, GE-70, SE-74,  RB-85, SR-86,88, Y-89, MO-92, AND HG-204 IN THE  NEUTRON ENERGY REGION 13-18 MEV-. (GERMAN)
+#   journal: Jour: Zeitschrift fuer Physik A, Hadrons and Nuclei, Vol.277, p.203 (197
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.268000E+01
+#   E-max [MeV]:  1.812000E+01
+#   F-value:  1.190311E+00
+#   A-value:  1.136245E+00
+#   chi-2:  5.304809E+00
+#   p-value:  2.495458E-01
+#   exp. data sets for p-value:      2
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2023    1.143289E+00   1.104994E+00   3.079123E+00
+# endfb8.0      1.205775E+00   1.140723E+00   6.213430E+00
+# jeff3.3       1.205775E+00   1.140723E+00   6.213430E+00
+# jendl5.0      1.200660E+00   1.159224E+00   5.713253E+00

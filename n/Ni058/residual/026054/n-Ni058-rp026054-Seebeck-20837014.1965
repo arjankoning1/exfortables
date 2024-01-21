@@ -1,0 +1,51 @@
+# header:
+#   title: Ni58(n,x)Fe54 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Seebeck
+#   year: 1965
+#   subentry: 20837014
+#   X4 reaction: 28-NI-58(N,N+A)26-FE-54,SEQ,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20837014
+# target:
+#   Z: 28
+#   A: 58
+#   nuclide: Ni58
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 22
+# residual:
+#   Z: 26
+#   A: 54
+#   nuclide: Fe54
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.410000E+01   1.000000E-01   3.000000E+01   6.000000E+00   1.000000E+00
+# reference:
+#   author: U.SEEBECK,M.BORMANN
+#   title: -ENERGY AND ANGULAR DISTRIBUTIONS OF THE ALPHA  PARTICLES FROM 14.1 MEV NEUTRON REACTIONS IN  AL-27 AND NI-58-.
+#   journal: Jour: Nuclear Physics, Vol.68, p.387 (1965)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  1.410000E+01
+#   E-max [MeV]:  1.410000E+01
+#   F-value:  7.866076E+00
+#   A-value:  1.286952E-01
+#   chi-2:  1.886132E+01
+#   p-value:  0.000000E+00
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.043717E+01   9.581138E-02   2.043918E+01
+# endfb8.0      7.419916E+00   1.347724E-01   1.871604E+01
+# jendl5.0      6.058029E+00   1.650702E-01   1.742874E+01

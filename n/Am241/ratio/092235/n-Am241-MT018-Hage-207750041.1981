@@ -1,0 +1,36 @@
+# header:
+#   title: Am241(n,ratio) ratio
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Hage
+#   year: 1981
+#   subentry: 207750041
+#   X4 reaction: (95-AM-241(N,F),,SIG)/(92-U-235(N,F),,SIG)
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/207750041
+# target:
+#   Z: 95
+#   A: 241
+#   nuclide: Am241
+# reaction:
+#   type: (n,ratio)
+#   ENDF_MF: 203
+#   ENDF_MT: 18
+# datablock:
+#   quantity: ratio
+#   columns: 5
+#   entries: 5
+##       E             dE            ratio         dratio      Normalization
+##     [MeV]          [MeV]           []             []             []
+   2.220000E-02   5.900000E-03   8.360000E-03   7.942000E-04   1.000000E+00
+   3.230000E-02   5.800000E-03   9.910000E-03   8.225300E-04   1.000000E+00
+   4.470000E-02   1.020000E-02   1.030000E-02   8.240000E-04   1.000000E+00
+   6.670000E-02   1.660000E-02   9.430000E-03   7.732600E-04   1.000000E+00
+   1.102000E-01   1.490000E-02   1.150000E-02   9.315000E-04   1.000000E+00
+# reference:
+#   author: W.HAGE, K.WISSHAK, F.KAEPPELER
+#   title: "Neutron fission cross-section measurement of  americium-241 in the energy range from 10 to 1030 KeV"
+#   journal: Jour: Nuclear Science and Engineering, Vol.78, Issue.3, p.248 (1981)

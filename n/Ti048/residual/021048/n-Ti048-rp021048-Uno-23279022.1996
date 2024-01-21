@@ -1,0 +1,56 @@
+# header:
+#   title: Ti48(n,x)Sc48 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Uno
+#   year: 1996
+#   subentry: 23279022
+#   X4 reaction: 22-TI-48(N,P)21-SC-48,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/23279022
+# target:
+#   Z: 22
+#   A: 48
+#   nuclide: Ti48
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 21
+#   A: 48
+#   nuclide: Sc48
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.755000E+01   0.000000E+00   4.790210E+01   1.968000E+00   9.990010E-01
+   1.984000E+01   0.000000E+00   3.586413E+01   1.438600E+00   9.990010E-01
+   2.266000E+01   0.000000E+00   2.932068E+01   1.418600E+00   9.990010E-01
+   2.499000E+01   0.000000E+00   3.063936E+01   1.248800E+00   9.990010E-01
+   2.779000E+01   0.000000E+00   2.676324E+01   1.068900E+00   9.990010E-01
+   3.009000E+01   0.000000E+00   2.184815E+01   8.891100E-01   9.990010E-01
+# reference:
+#   author: Y.Uno, S.Meigo, S.Chiba, T.Fukahori, Y.Kasugai,  O.Iwamoto, P.Siegler, Y.Ikeda
+#   title: Measurements of activation cross sections for the  neutron dosimetry at an energy range from 17.5 to  30 MeV by using the 7Li(p,n) quasi-mono-energetic  neutron source
+#   journal: Conf: 9.Internat.Symposium on Reactor Dosimetry,Prague,1996, p.465 (1996
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.755000E+01
+#   E-max [MeV]:  3.009000E+01
+#   F-value:  1.074836E+00
+#   A-value:  1.003285E+00
+#   chi-2:  3.240397E+00
+#   p-value:  3.562844E-01
+#   exp. data sets for p-value:      2
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.096109E+00   1.064383E+00   5.181074E+00
+# jeff3.3       1.064529E+00   9.756160E-01   2.535023E+00
+# jendl5.0      1.059064E+00   9.725135E-01   2.005094E+00

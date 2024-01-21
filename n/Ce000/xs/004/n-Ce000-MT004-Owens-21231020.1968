@@ -1,0 +1,51 @@
+# header:
+#   title: Ce0(n,n') cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Owens
+#   year: 1968
+#   subentry: 21231020
+#   X4 reaction: 58-CE-0(N,INL)58-CE-0,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21231020
+# target:
+#   Z: 58
+#   A: 0
+#   nuclide: Ce0
+# reaction:
+#   type: (n,n')
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   4.997000E+00   2.500000E-01   2.640000E+03   1.100000E+02   1.000000E+00
+   5.981000E+00   2.000000E-01   2.400000E+03   9.000000E+01   1.000000E+00
+   6.970000E+00   1.500000E-01   2.300000E+03   1.300000E+02   1.000000E+00
+# reference:
+#   author: R.O.Owens,J.H.Towle
+#   title: -The level density of the deformed rare-earth nuclei-
+#   journal: Jour: Nuclear Physics, Section A, Vol.112, p.337 (1968)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  4.997000E+00
+#   E-max [MeV]:  6.970000E+00
+#   F-value:  1.125322E+00
+#   A-value:  9.102399E-01
+#   chi-2:  7.168074E+00
+#   p-value:  2.562937E-01
+#   exp. data sets for p-value:      2
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    1.185660E+00   8.553040E-01   1.431499E+01
+# endfb8.0      1.078710E+00   9.510416E-01   3.148764E+00
+# jeff3.3       1.160257E+00   8.671679E-01   1.108836E+01
+# jendl5.0      1.048971E+00   9.700865E-01   1.447718E+00
+# cendl3.2      1.108328E+00   9.131575E-01   5.840542E+00

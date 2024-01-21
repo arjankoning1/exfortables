@@ -1,0 +1,50 @@
+# header:
+#   title: Fe58(p,x)Co58 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Antropov
+#   year: 1985
+#   subentry: O0076003
+#   X4 reaction: 26-FE-58(P,N)27-CO-58,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O0076003
+# target:
+#   Z: 26
+#   A: 58
+#   nuclide: Fe58
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+# residual:
+#   Z: 27
+#   A: 58
+#   nuclide: Co58
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   6.240000E+00   0.000000E+00   6.900001E+02   1.000000E+01   1.000000E+00
+# reference:
+#   author: A.E.Antropov,P.P.Zarubin,Yu.A.Aleksandrov, I.Yu.Gorshkov
+#   title: Cross sections measurements of (p,n),(alpha,pn),  (alpha,xn) reactions on nuclei of middle atomic weight
+#   journal: Conf: 35.Conf.Nucl.Spectr.and Nucl.Struct.,Leningrad 1985, p.369 (1985)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  0
+#   E-min [MeV]:  6.240000E+00
+#   E-max [MeV]:  6.240000E+00
+#   F-value:  1.406692E+00
+#   A-value:  7.110958E-01
+#   chi-2:  3.976653E+02
+#   p-value:  1.342046E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.426289E+00   7.011203E-01   4.252958E+02
+# jendl5.0      1.386552E+00   7.212133E-01   3.700347E+02

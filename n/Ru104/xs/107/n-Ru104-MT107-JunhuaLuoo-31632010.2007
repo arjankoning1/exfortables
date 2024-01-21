@@ -1,0 +1,54 @@
+# header:
+#   title: Ru104(n,a)Mo101 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: JunhuaLuoo
+#   year: 2007
+#   subentry: 31632010
+#   X4 reaction: 44-RU-104(N,A)42-MO-101,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/31632010
+# target:
+#   Z: 44
+#   A: 104
+#   nuclide: Ru104
+# reaction:
+#   type: (n,a)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+# residual:
+#   Z: 42
+#   A: 101
+#   nuclide: Mo101
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.350000E+01   2.000000E-01   1.565100E+00   2.086800E-01   1.043383E+00
+   1.480000E+01   2.000000E-01   2.191100E+00   3.130100E-01   1.043383E+00
+# reference:
+#   author: Junhua Luo,Gang Liu,Fei Tuo,Xiangzhong Kong, Rong Liu,Lijiang,Benchao Lou
+#   title: Activation cross sections for reactions induced by 14 MeV neutronson natural ruthenium
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.76, p.057601 (2007)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.350000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.230097E+00
+#   A-value:  9.427435E-01
+#   chi-2:  1.855693E+00
+#   p-value:  3.134645E-01
+#   exp. data sets for p-value:      2
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    1.350260E+00   7.993635E-01   3.526809E+00
+# endfb8.0      1.070877E+00   1.048800E+00   5.323005E-01
+# jeff3.3       1.070877E+00   1.048800E+00   5.323005E-01
+# jendl5.0      1.393686E+00   8.075051E-01   4.154756E+00
+# cendl3.2      1.070877E+00   1.048800E+00   5.323005E-01

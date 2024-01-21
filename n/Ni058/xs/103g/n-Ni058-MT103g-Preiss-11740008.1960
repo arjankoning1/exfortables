@@ -1,0 +1,56 @@
+# header:
+#   title: Ni58(n,p)Co58g cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Preiss
+#   year: 1960
+#   subentry: 11740008
+#   X4 reaction: 28-NI-58(N,P)27-CO-58-G,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11740008
+# target:
+#   Z: 28
+#   A: 58
+#   nuclide: Ni58
+# reaction:
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 27
+#   A: 58
+#   nuclide: Co58g
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.480000E+01   9.000000E-01   2.370000E+02   2.000000E+01   1.000000E+00
+# reference:
+#   author: I.L.Preiss,R.W.Fink
+#   title: New isotopes of cobalt; activation cross-sections of nickel, cobalt, and zinc for 14.8 MeV neutrons
+#   journal: Jour: Nuclear Physics, Vol.15, p.326 (1960)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.480000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.794598E+00
+#   A-value:  5.592444E-01
+#   chi-2:  2.731280E+01
+#   p-value:  2.133221E-01
+#   exp. data sets for p-value:      5
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.709174E+00   5.850779E-01   2.417522E+01
+# jeff3.3       1.706686E+00   5.859309E-01   2.407593E+01
+# jendl5.0      1.959997E+00   5.102050E-01   3.368724E+01

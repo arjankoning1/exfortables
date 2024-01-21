@@ -1,0 +1,57 @@
+# header:
+#   title: Ag109(n,p)Pd109m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: JunhuaLuoo
+#   year: 2009
+#   subentry: 31672004
+#   X4 reaction: 47-AG-109(N,P)46-PD-109-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/31672004
+# target:
+#   Z: 47
+#   A: 109
+#   nuclide: Ag109
+# reaction:
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 46
+#   A: 109
+#   nuclide: Pd109m
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.350000E+01   2.000000E-01   9.481299E+00   1.398000E+00   9.980267E-01
+   1.410000E+01   2.000000E-01   1.134302E+01   1.193800E+00   9.950020E-01
+   1.480000E+01   2.000000E-01   1.180283E+01   1.090900E+00   9.918340E-01
+# reference:
+#   author: Junhua Luo, Fei Tuo, Xiangzhong Kong, Rong Liu,  Li Jiang
+#   title: Activation cross-section for reactions induced by  14 MeV neutrons on natural silver
+#   journal: Jour: Annals of Nuclear Energy, Vol.36, p.718 (2009)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  1.350000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.372678E+00
+#   A-value:  7.467973E-01
+#   chi-2:  6.676306E+00
+#   p-value:  1.204155E-01
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.498974E+00   6.725897E-01   1.031089E+01
+# jendl5.0      1.211566E+00   8.291923E-01   3.041718E+00

@@ -1,0 +1,51 @@
+# header:
+#   title: Ar40(p,x)Cl36 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Parrat
+#   year: 1996
+#   subentry: O0871004
+#   X4 reaction: 18-AR-40(P,X)17-CL-36,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O0871004
+# target:
+#   Z: 18
+#   A: 40
+#   nuclide: Ar40
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 17
+#   A: 36
+#   nuclide: Cl36
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   4.040000E+01   5.000000E-01   1.870000E+01   1.400000E+00   1.000000E+00
+   5.960000E+01   4.000000E-01   4.080000E+01   2.700000E+00   1.000000E+00
+# reference:
+#   author: Y.Parrat, W.Hajdas, U.Baltensperger, H.-A.Synal, P.W.Kubik, M.Suter, H.W.Gaggeler
+#   title: Cross section measurements of proton induced reactions using a gas target
+#   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.113, p.470 (19
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  4.040000E+01
+#   E-max [MeV]:  5.960000E+01
+#   F-value:  1.548602E+00
+#   A-value:  8.716128E-01
+#   chi-2:  2.243801E+01
+#   p-value:  3.864798E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.024419E+00   1.012267E+00   4.295428E-01
+# jendl5.0      1.855287E+00   7.505029E-01   4.444648E+01

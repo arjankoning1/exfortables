@@ -1,0 +1,56 @@
+# header:
+#   title: Mo92(n,na)Zr88 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Katoh
+#   year: 1989
+#   subentry: 22156018
+#   X4 reaction: 42-MO-92(N,N+A)40-ZR-88,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22156018
+# target:
+#   Z: 42
+#   A: 92
+#   nuclide: Mo92
+# reaction:
+#   type: (n,na)
+#   ENDF_MF: 3
+#   ENDF_MT: 22
+# residual:
+#   Z: 40
+#   A: 88
+#   nuclide: Zr88
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.408000E+01   5.000000E-02   5.600800E-02   1.400200E-02   1.000147E+00
+   1.438000E+01   5.000000E-02   9.401400E-02   1.598200E-02   1.000147E+00
+   1.464000E+01   5.000000E-02   1.110200E-01   2.220300E-02   1.000147E+00
+   1.487000E+01   5.000000E-02   1.510200E-01   2.114300E-02   1.000147E+00
+# reference:
+#   author: T.Katoh,K.Kawade,H.Yamamoto
+#   title: Measurement of activation cross sections.
+#   journal: Rept: JAERI-M Reports, No.89-083 (1989)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.408000E+01
+#   E-max [MeV]:  1.487000E+01
+#   F-value:  1.891814E+00
+#   A-value:  1.297818E+00
+#   chi-2:  3.268885E+01
+#   p-value:  4.197136E-01
+#   exp. data sets for p-value:      2
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    1.899247E+00   5.416858E-01   6.246526E+00
+# endfb8.0      3.019173E+00   3.015871E+00   1.273064E+02
+# jeff3.3       1.308480E+00   1.216136E+00   4.486833E+00
+# jendl5.0      1.308480E+00   1.216136E+00   4.486833E+00
+# cendl3.2      1.657318E+00   1.523859E+00   2.091764E+01

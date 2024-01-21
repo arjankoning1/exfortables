@@ -1,0 +1,35 @@
+# header:
+#   title: U238(n,sacs) spectrum averaged cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Vertebnyy
+#   year: 1987
+#   subentry: 40991005
+#   X4 reaction: 92-U-238(N,TOT),,SIG,,SPA
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/40991005
+# target:
+#   Z: 92
+#   A: 238
+#   nuclide: U238
+# reaction:
+#   type: (n,sacs)
+#   ENDF_MF: 3
+#   ENDF_MT: 1
+# datablock:
+#   quantity: spectrum averaged cross section
+#   columns: 5
+#   entries: 4
+##     Elow           Ehigh         Average       dAverage     Normalization
+##     [eV]           [eV]            []             []             []
+   2.050000E-03   0.000000E+00   2.420000E+04   3.000000E+02   1.000000E+00
+   2.400000E-02   0.000000E+00   1.420000E+04   4.000000E+02   1.000000E+00
+   5.800000E-02   0.000000E+00   1.350000E+04   2.000000E+02   1.000000E+00
+   1.440000E-01   0.000000E+00   1.150000E+04   2.000000E+02   1.000000E+00
+# reference:
+#   author: V.P.VERTEBNYY,V.A.LIBMAN,L.L.LITVINSKIY, V.A.MURAVITSKIY,A.V.MURZIN,G.M.NOVOSELOV,V.F.RAZBUDEY, S.V.SIDOROV,N.A.TROFIMOVA
+#   title: Total Cross-Section and Average Resonance Parameters  For U-238
+#   journal: Conf: 1.Int.Conf.on Neutron Physics, Kiev,14-18 Sep 1987, Vol.2, p.175 (

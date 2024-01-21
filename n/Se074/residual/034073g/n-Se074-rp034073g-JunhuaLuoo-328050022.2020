@@ -1,0 +1,58 @@
+# header:
+#   title: Se74(n,x)Se73g cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: JunhuaLuoo
+#   year: 2020
+#   subentry: 328050022
+#   X4 reaction: 34-SE-74(N,2N)34-SE-73-G,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/328050022
+# target:
+#   Z: 34
+#   A: 74
+#   nuclide: Se74
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 34
+#   A: 73
+#   nuclide: Se73g
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.350000E+01   2.000000E-01   1.510000E+02   1.100000E+01   1.000000E+00
+   1.410000E+01   2.000000E-01   2.190000E+02   1.900000E+01   1.000000E+00
+   1.480000E+01   2.000000E-01   2.890000E+02   2.400000E+01   1.000000E+00
+# reference:
+#   author: Junhua Luo,Li Jiang
+#   title: Ground-state and isomeric-state cross-sections for 74Se(n,2n)73Se reaction in the 13-15 MeV energy region
+#   journal: Jour: European Physical Journal A: Hadrons and Nuclei, Vol.56, p.125 (20
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.350000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.634977E+00
+#   A-value:  6.911570E-01
+#   chi-2:  1.906893E+01
+#   p-value:  2.287467E-01
+#   exp. data sets for p-value:      4
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    2.246126E+00   4.456583E-01   4.820684E+01
+# jeff3.3       1.293980E+00   7.738478E-01   8.058133E+00
+# jendl5.0      1.064101E+00   9.573541E-01   9.418195E-01

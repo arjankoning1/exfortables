@@ -1,0 +1,51 @@
+# header:
+#   title: C12(h,n')O14 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Osgood
+#   year: 1964
+#   subentry: P0100003
+#   X4 reaction: 6-C-12(HE3,N)8-O-14,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/P0100003
+# target:
+#   Z: 6
+#   A: 12
+#   nuclide: C12
+# reaction:
+#   type: (h,n')
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+# residual:
+#   Z: 8
+#   A: 14
+#   nuclide: O14
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.000000E+00   0.000000E+00   1.520184E+01   2.000200E+00   1.000121E+00
+   3.300000E+00   0.000000E+00   5.600700E+00   7.000800E-01   1.000121E+00
+   6.600000E+00   0.000000E+00   2.620316E+01   3.400400E+00   1.000121E+00
+# reference:
+#   author: D.R.Osgood,J.R.Patterson,E.W.Titterton
+#   title: The excitation function for the reaction 12C(3He,n0)14O  between threshold and 11.45 MeV
+#   journal: Jour: Nuclear Physics, Vol.60, p.503 (1964)
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  3.000000E+00
+#   E-max [MeV]:  6.600000E+00
+#   F-value:  1.839220E+00
+#   A-value:  1.107700E+00
+#   chi-2:  5.488144E+01
+#   p-value:  4.209585E-01
+#   exp. data sets for p-value:      5
+#   libraries:      1
+##  Library          F              A            chi-2
+# tendl.2023    1.839220E+00   1.107700E+00   5.488144E+01

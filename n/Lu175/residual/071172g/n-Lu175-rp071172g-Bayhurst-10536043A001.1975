@@ -1,0 +1,56 @@
+# header:
+#   title: Lu175(n,x)Lu172g cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Bayhurst
+#   year: 1975
+#   subentry: 10536043
+#   X4 reaction: 71-LU-175(N,4N)71-LU-172-G,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/10536043
+# target:
+#   Z: 71
+#   A: 175
+#   nuclide: Lu175
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 37
+# residual:
+#   Z: 71
+#   A: 172
+#   nuclide: Lu172g
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.801000E+01   1.700000E-01   4.900000E+02   2.100000E+01   1.000000E+00
+# reference:
+#   author: B.P.Bayhurst,J.S.Gilmore,R.J.Prestwood,J.B.Wilhelmy, N.Jarmie,B.H.Erkkila,R.A.Hardekopf
+#   title: Cross sections for (n,xn) reactions between 7.5 and  28 MeV
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.12, p.451 (1975)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.801000E+01
+#   E-max [MeV]:  2.801000E+01
+#   F-value:  1.204671E+00
+#   A-value:  8.400276E-01
+#   chi-2:  1.525307E+01
+#   p-value:  2.474329E-01
+#   exp. data sets for p-value:      2
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.141860E+00   8.757638E-01   8.464493E+00
+# jeff3.3       1.131512E+00   8.837736E-01   7.448938E+00
+# jendl5.0      1.305712E+00   7.658659E-01   2.984579E+01

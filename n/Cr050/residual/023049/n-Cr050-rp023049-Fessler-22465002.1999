@@ -1,0 +1,55 @@
+# header:
+#   title: Cr50(n,x)V49 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Fessler
+#   year: 1999
+#   subentry: 22465002
+#   X4 reaction: 24-CR-50(N,X)23-V-49,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22465002
+# target:
+#   Z: 24
+#   A: 50
+#   nuclide: Cr50
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 28
+# residual:
+#   Z: 23
+#   A: 49
+#   nuclide: V49
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.425000E+01   2.000000E-01   3.505000E+02   6.210000E+01   1.000000E+00
+   1.720000E+01   2.500000E-01   6.261000E+02   7.890001E+01   1.000000E+00
+   1.880000E+01   3.000000E-01   6.992000E+02   7.700001E+01   1.000000E+00
+   1.940000E+01   3.200000E-01   6.800001E+02   9.210000E+01   1.000000E+00
+# reference:
+#   author: A.Fessler,S.M.Qaim
+#   title: Excitation Functions of 50Cr(n,np+pn+d),58Ni(n,alpha),  58Ni(n,(alpha-p)+(p-alpha)), and 62Ni(n,alpha)59Fe  reactions
+#   journal: Jour: Radiochimica Acta, Vol.84, p.1 (1999)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.425000E+01
+#   E-max [MeV]:  1.940000E+01
+#   F-value:  1.109637E+00
+#   A-value:  1.050575E+00
+#   chi-2:  7.851484E-01
+#   p-value:  3.896875E-01
+#   exp. data sets for p-value:      1
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2023    1.152460E+00   1.076971E+00   1.006773E+00
+# endfb8.0      1.123478E+00   1.028170E+00   9.360422E-01
+# jeff3.3       1.004663E+00   1.003215E+00   2.929768E-02
+# jendl5.0      1.102820E+00   1.096593E+00   1.168481E+00

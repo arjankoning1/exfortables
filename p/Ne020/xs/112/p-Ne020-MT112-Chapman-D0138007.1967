@@ -1,0 +1,50 @@
+# header:
+#   title: Ne20(p,pa)O16 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Chapman
+#   year: 1967
+#   subentry: D0138007
+#   X4 reaction: 10-NE-20(P,P+A)8-O-16,PAR,SIG,,A
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D0138007
+# target:
+#   Z: 10
+#   A: 20
+#   nuclide: Ne20
+# reaction:
+#   type: (p,pa)
+#   ENDF_MF: 3
+#   ENDF_MT: 112
+# residual:
+#   Z: 8
+#   A: 16
+#   nuclide: O16
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.310000E+01   7.000000E-01   2.751989E+02   1.768347E+01   1.000000E+00
+   1.310000E+01   7.000000E-01   1.105200E+00   1.105200E+00   1.000000E+00
+# reference:
+#   author: R.Chapman,A.M.MacLeod
+#   title: Proton nuclear reaction cross sections in oxygen and neon at 13 MeV
+#   journal: Jour: Nuclear Physics, Section A, Vol.94, p.313 (1967)
+# statistics:
+#   NEA score: R3
+#   IAEA score: -1
+#   E-min [MeV]:  1.310000E+01
+#   E-max [MeV]:  1.310000E+01
+#   F-value:  2.033202E+01
+#   A-value:  3.351572E+00
+#   chi-2:  1.421265E+03
+#   p-value:  1.610749E-01
+#   exp. data sets for p-value:      1
+#   libraries:      1
+##  Library          F              A            chi-2
+# tendl.2023    2.033202E+01   3.351572E+00   1.421265E+03

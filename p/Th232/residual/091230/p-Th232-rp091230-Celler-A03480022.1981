@@ -1,0 +1,52 @@
+# header:
+#   title: Th232(p,x)Pa230 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Celler
+#   year: 1981
+#   subentry: A03480022
+#   X4 reaction: 90-TH-232(P,3N)91-PA-230,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/A03480022
+# target:
+#   Z: 90
+#   A: 232
+#   nuclide: Th232
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 17
+# residual:
+#   Z: 91
+#   A: 230
+#   nuclide: Pa230
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.480000E+01   1.000000E-01   3.700000E+00   5.000000E-01   1.000000E+00
+   1.726000E+01   1.000000E-01   1.620000E+02   1.300000E+01   1.000000E+00
+   1.875000E+01   1.000000E-01   2.420000E+02   1.500000E+01   1.000000E+00
+   2.023000E+01   1.000000E-01   4.200000E+02   4.200000E+01   1.000000E+00
+# reference:
+#   author: A.Celler,M.Luontama,J.Kantele,J.Zylicz
+#   title: Cross section of Th-232(p,xn+gamma+p) reactions at E p= 6.8 to 20.2 MeV
+#   journal: Jour: Physica Scripta, Vol.24, p.930 (1981)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  1.480000E+01
+#   E-max [MeV]:  2.023000E+01
+#   F-value:  1.388667E+00
+#   A-value:  7.432955E-01
+#   chi-2:  1.022003E+01
+#   p-value:  3.561011E-01
+#   exp. data sets for p-value:      3
+#   libraries:      1
+##  Library          F              A            chi-2
+# tendl.2023    1.388667E+00   7.432955E-01   1.022003E+01

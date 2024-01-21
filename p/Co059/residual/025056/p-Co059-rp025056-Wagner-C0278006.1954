@@ -1,0 +1,59 @@
+# header:
+#   title: Co59(p,x)Mn56 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Wagner
+#   year: 1954
+#   subentry: C0278006
+#   X4 reaction: 27-CO-59(P,X)25-MN-56,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C0278006
+# target:
+#   Z: 27
+#   A: 59
+#   nuclide: Co59
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 25
+#   A: 56
+#   nuclide: Mn56
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 10
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   6.000000E+01   0.000000E+00   1.500000E+01   3.800000E+00   1.000000E+00
+   6.000000E+01   0.000000E+00   8.600000E+00   2.300000E+00   1.000000E+00
+   1.000000E+02   0.000000E+00   1.400000E+01   3.000000E+00   1.000000E+00
+   1.000000E+02   0.000000E+00   1.400000E+01   3.000000E+00   1.000000E+00
+   1.000000E+02   0.000000E+00   1.400000E+01   3.000000E+00   1.000000E+00
+   1.700000E+02   0.000000E+00   1.100000E+01   3.000000E+00   1.000000E+00
+   1.700000E+02   0.000000E+00   1.200000E+01   3.000000E+00   1.000000E+00
+   2.400000E+02   0.000000E+00   1.600000E+01   4.000000E+00   1.000000E+00
+   2.400000E+02   0.000000E+00   1.600000E+01   4.000000E+00   1.000000E+00
+   2.400000E+02   0.000000E+00   9.000000E+00   2.300000E+00   1.000000E+00
+# reference:
+#   author: G.D.WAGNER,E.O.WIIG
+#   title: REACTIONS OF COBALT WITH PROTONS AT 60, 100, 170, AND 240 MEV
+#   journal: Jour: Physical Review, Vol.96, p.1100 (1954)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  6.000000E+01
+#   E-max [MeV]:  2.400000E+02
+#   F-value:  2.582672E+00
+#   A-value:  4.032883E-01
+#   chi-2:  6.663777E+00
+#   p-value:  1.268059E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    2.826772E+00   3.673280E-01   7.272560E+00
+# jendl5.0      2.337216E+00   4.427691E-01   6.054996E+00

@@ -1,0 +1,63 @@
+# header:
+#   title: Sc45(n,2n)Sc44m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Bayhurst
+#   year: 1975
+#   subentry: 10536002
+#   X4 reaction: 21-SC-45(N,2N)21-SC-44-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/10536002
+# target:
+#   Z: 21
+#   A: 45
+#   nuclide: Sc45
+# reaction:
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 21
+#   A: 44
+#   nuclide: Sc44m
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.410000E+01   5.000000E-02   1.041393E+02   4.982340E+00   9.918032E-01
+   1.725000E+01   1.600000E-01   1.669556E+02   7.058400E+00   9.879031E-01
+   1.825000E+01   8.000000E-02   1.566562E+02   8.120300E+00   9.978103E-01
+   2.001000E+01   9.000000E-02   1.706664E+02   9.110701E+00   9.808415E-01
+   2.128000E+01   1.600000E-01   1.529345E+02   6.775600E+00   9.679398E-01
+   2.204000E+01   1.100000E-01   1.369888E+02   2.616600E+00   9.318964E-01
+   2.336000E+01   1.100000E-01   1.294448E+02   2.689600E+00   1.003448E+00
+   2.450000E+01   1.100000E-01   1.194523E+02   1.803600E+00   9.188636E-01
+# reference:
+#   author: B.P.Bayhurst,J.S.Gilmore,R.J.Prestwood,J.B.Wilhelmy, N.Jarmie,B.H.Erkkila,R.A.Hardekopf
+#   title: Cross sections for (n,xn) reactions between 7.5 and  28 MeV
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.12, p.451 (1975)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.410000E+01
+#   E-max [MeV]:  2.450000E+01
+#   F-value:  1.200425E+00
+#   A-value:  8.720562E-01
+#   chi-2:  3.258113E+01
+#   p-value:  3.581219E-01
+#   exp. data sets for p-value:      8
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.298094E+00   7.750560E-01   6.472198E+01
+# jeff3.3       1.057037E+00   9.750668E-01   1.842181E+00
+# jendl5.0      1.118938E+00   8.979350E-01   5.847937E+00

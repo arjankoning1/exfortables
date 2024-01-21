@@ -1,0 +1,51 @@
+# header:
+#   title: Sr86(n,x)Sr85 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Holub
+#   year: 1976
+#   subentry: 30348005
+#   X4 reaction: 38-SR-86(N,2N)38-SR-85,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30348005
+# target:
+#   Z: 38
+#   A: 86
+#   nuclide: Sr86
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 38
+#   A: 85
+#   nuclide: Sr85
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.460000E+01   3.000000E-01   9.460000E+02   9.000000E+01   1.000000E+00
+# reference:
+#   author: E.Holub, N.Cindro
+#   title: Study of some systematic trends and non-equilibrium  effects in (n,2n) reactions for nuclei far from the  symmetry line
+#   journal: Jour: Jour. of Physics, Part G (Nucl.and Part.Phys.), Vol.2, Issue.6, p.
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.460000E+01
+#   E-max [MeV]:  1.460000E+01
+#   F-value:  1.026675E+00
+#   A-value:  9.776905E-01
+#   chi-2:  3.138812E-01
+#   p-value:  3.468156E-01
+#   exp. data sets for p-value:      8
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.042331E+00   9.593881E-01   5.878641E-01
+# jeff3.3       1.010313E+00   9.897923E-01   1.375636E-01
+# jendl5.0      1.016095E+00   9.841601E-01   2.162159E-01

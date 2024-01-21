@@ -1,0 +1,55 @@
+# header:
+#   title: U235(d,2n)Np235 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Lessler
+#   year: 1966
+#   subentry: C0719009
+#   X4 reaction: 92-U-235(D,2N)93-NP-235,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C0719009
+# target:
+#   Z: 92
+#   A: 235
+#   nuclide: U235
+# reaction:
+#   type: (d,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 93
+#   A: 235
+#   nuclide: Np235
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   9.700000E+00   5.000000E-01   5.000000E+00   1.000000E+00   1.000000E+00
+   1.090000E+01   5.000000E-01   1.300000E+01   2.600000E+00   1.000000E+00
+   1.210000E+01   5.000000E-01   1.850000E+01   3.700000E+00   1.000000E+00
+   1.420000E+01   5.000000E-01   1.380000E+01   2.760000E+00   1.000000E+00
+   1.520000E+01   5.000000E-01   1.300000E+01   2.600000E+00   1.000000E+00
+   1.730000E+01   5.000000E-01   1.020000E+01   2.040000E+00   1.000000E+00
+   1.960000E+01   5.000000E-01   8.720000E+00   1.744000E+00   1.000000E+00
+# reference:
+#   author: R.M.Lessler,W.M.Gibson,R.A.Glass
+#   title: Radiative capture, particle emission and fission in heavy nuclei
+#   journal: Jour: Nuclear Physics, Vol.81, p.401 (1966)
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  9.700000E+00
+#   E-max [MeV]:  1.960000E+01
+#   F-value:  1.587779E+00
+#   A-value:  6.472218E-01
+#   chi-2:  3.626005E+00
+#   p-value:  3.216560E-01
+#   exp. data sets for p-value:      1
+#   libraries:      1
+##  Library          F              A            chi-2
+# tendl.2023    1.587779E+00   6.472218E-01   3.626005E+00

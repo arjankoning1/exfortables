@@ -1,0 +1,55 @@
+# header:
+#   title: Cu65(n,x)Cu64 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Molla
+#   year: 1994
+#   subentry: 31449009
+#   X4 reaction: 29-CU-65(N,2N)29-CU-64,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/31449009
+# target:
+#   Z: 29
+#   A: 65
+#   nuclide: Cu65
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 29
+#   A: 64
+#   nuclide: Cu64
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.390000E+01   0.000000E+00   9.367849E+02   5.282667E+01   1.016036E+00
+   1.410000E+01   0.000000E+00   9.351261E+02   5.226876E+01   1.006594E+00
+   1.451000E+01   0.000000E+00   1.010214E+03   4.727103E+01   1.009205E+00
+   1.471000E+01   0.000000E+00   1.014074E+03   6.341544E+01   1.008026E+00
+# reference:
+#   author: N.I.Molla,R.U.Miah,S.Basunia,S.M.Hossain,M.Rahman
+#   title: Cross sections of (n,p), (n,a) and (n,2n) processes on scandium, vanadium, cobalt, copper and zinc isotope in the energy range 13.57 - 14.71 MeV.
+#   journal: Conf: Conf.on Nucl.Data for Sci.and Techn.,Gatlinburg 1994, Vol.2, p.938
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.390000E+01
+#   E-max [MeV]:  1.471000E+01
+#   F-value:  1.075156E+00
+#   A-value:  9.355988E-01
+#   chi-2:  2.188548E+00
+#   p-value:  3.428797E-01
+#   exp. data sets for p-value:      8
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2023    1.056307E+00   9.492212E-01   1.540892E+00
+# endfb8.0      1.113830E+00   8.989754E-01   3.984419E+00
+# jeff3.3       1.057131E+00   9.483554E-01   1.572329E+00
+# jendl5.0      1.059091E+00   9.468305E-01   1.656554E+00

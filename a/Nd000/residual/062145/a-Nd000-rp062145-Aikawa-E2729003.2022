@@ -1,0 +1,56 @@
+# header:
+#   title: Nd0(a,x)Sm145 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Aikawa
+#   year: 2022
+#   subentry: E2729003
+#   X4 reaction: 60-ND-0(A,X)62-SM-145,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/E2729003
+# target:
+#   Z: 60
+#   A: 0
+#   nuclide: Nd0
+# reaction:
+#   type: (a,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 62
+#   A: 145
+#   nuclide: Sm145
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.590000E+01   4.000000E-01   1.900000E+01   2.000000E+00   1.000000E+00
+   1.640000E+01   4.000000E-01   2.200000E+01   2.000000E+00   1.000000E+00
+   1.830000E+01   3.000000E-01   9.400000E+01   7.000000E+00   1.000000E+00
+   1.880000E+01   3.000000E-01   1.020000E+02   8.000000E+00   1.000000E+00
+   2.060000E+01   3.000000E-01   1.680000E+02   1.300000E+01   1.000000E+00
+   2.100000E+01   3.000000E-01   1.710000E+02   1.300000E+01   1.000000E+00
+   2.260000E+01   3.000000E-01   1.690000E+02   1.300000E+01   1.000000E+00
+   2.300000E+01   3.000000E-01   1.680000E+02   1.300000E+01   1.000000E+00
+# reference:
+#   author: M.Aikawa, M.Sakaguchi, N.Ukon, Y.Komori, H.Haba,  N.Otuka, S.Takacs
+#   title: Production cross sections of samarium-153 and -145 via alpha-particle-induced reactions on natural neodymium
+#   journal: Jour: Applied Radiation and Isotopes, Vol.187, p.110345 (2022)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  1.590000E+01
+#   E-max [MeV]:  2.300000E+01
+#   F-value:  1.115134E+00
+#   A-value:  9.421444E-01
+#   chi-2:  1.710450E+00
+#   p-value:  3.547714E-01
+#   exp. data sets for p-value:      1
+#   libraries:      1
+##  Library          F              A            chi-2
+# tendl.2023    1.115134E+00   9.421444E-01   1.710450E+00

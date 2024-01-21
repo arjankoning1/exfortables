@@ -1,0 +1,63 @@
+# header:
+#   title: Mo97(g,n')Mo96 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Utsunomiya
+#   year: 2013
+#   subentry: K2433005
+#   X4 reaction: 42-MO-97(G,N)42-MO-96,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/K2433005
+# target:
+#   Z: 42
+#   A: 97
+#   nuclide: Mo97
+# reaction:
+#   type: (g,n')
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+# residual:
+#   Z: 42
+#   A: 96
+#   nuclide: Mo96
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 13
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   7.170000E+00   0.000000E+00   1.940000E+00   1.639700E-01   1.000000E+00
+   7.510000E+00   0.000000E+00   3.720000E+00   2.220200E-01   1.000000E+00
+   7.880000E+00   0.000000E+00   6.000000E+00   3.140000E-01   1.000000E+00
+   8.310001E+00   0.000000E+00   7.310000E+00   4.073700E-01   1.000000E+00
+   8.460000E+00   0.000000E+00   8.710000E+00   4.322900E-01   1.000000E+00
+   8.770000E+00   0.000000E+00   9.669999E+00   4.836700E-01   1.000000E+00
+   9.110000E+00   0.000000E+00   1.267000E+01   6.238500E-01   1.000000E+00
+   9.510000E+00   0.000000E+00   1.479000E+01   7.251800E-01   1.000000E+00
+   9.890000E+00   0.000000E+00   1.727000E+01   9.744300E-01   1.000000E+00
+   1.059000E+01   0.000000E+00   2.187000E+01   1.184100E+00   1.000000E+00
+   1.070000E+01   0.000000E+00   2.220000E+01   1.225500E+00   1.000000E+00
+   1.134000E+01   0.000000E+00   2.960000E+01   1.571800E+00   1.000000E+00
+   1.191000E+01   0.000000E+00   4.182000E+01   2.143800E+00   1.000000E+00
+# reference:
+#   author: H.Utsunomiya, S.Goriely, T.Kondo, C.Iwamoto,  H.Akimune, T.Yamagata, H.Toyokawa, H.Harada,  F.Kitatani, Y.W.Lui, A.C.Larsen, M.Guttormsen,  P.E.Koehler, S.Hilaire, S.Peru, M.Martini,  A.J.Koning
+#   title: Photoneutron cross sections for Mo isotopes: A step towards a unified understanding of (gamma,n) and  (n,gamma) reactions
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.88, p.015805 (2013)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  7.170000E+00
+#   E-max [MeV]:  1.191000E+01
+#   F-value:  1.149338E+00
+#   A-value:  1.024027E+00
+#   chi-2:  7.110749E+00
+#   p-value:  3.752060E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.118826E+00   1.092569E+00   5.019432E+00
+# endfb8.0      1.234406E+00   9.757603E-01   1.563528E+01
+# jendl5.0      1.034701E+00   1.007261E+00   6.775337E-01

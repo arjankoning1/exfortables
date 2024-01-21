@@ -1,0 +1,54 @@
+# header:
+#   title: Sn116(p,g)Sb117 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Famiano
+#   year: 2008
+#   subentry: C1601002
+#   X4 reaction: 50-SN-116(P,G)51-SB-117,,SIG,,SFC
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C1601002
+# target:
+#   Z: 50
+#   A: 116
+#   nuclide: Sn116
+# reaction:
+#   type: (p,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+# residual:
+#   Z: 51
+#   A: 117
+#   nuclide: Sb117
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.233252E+00   0.000000E+00   3.074500E-03   4.803900E-04   1.000000E+00
+   2.622609E+00   0.000000E+00   2.556200E-02   3.678600E-03   1.000000E+00
+   2.922191E+00   0.000000E+00   7.422700E-02   1.135600E-02   1.000000E+00
+   3.224800E+00   0.000000E+00   3.437800E-01   5.276900E-02   1.000000E+00
+   3.624243E+00   0.000000E+00   6.488301E-01   1.161200E-01   1.000000E+00
+# reference:
+#   author: M.A.Famiano,R.S.Kodikara,B.M.Giacherio, V.G.Subramanian,A.Kayani
+#   title: Measurement of the (p,alpha) cross sections of 46Ti, 64Zn, 114Sn, and 116Sn at astrophysically relevant energies
+#   journal: Jour: Nuclear Physics, Section A, Vol.802, p.26 (2008)
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  2.233252E+00
+#   E-max [MeV]:  3.624243E+00
+#   F-value:  2.143921E+00
+#   A-value:  4.984596E-01
+#   chi-2:  1.149196E+01
+#   p-value:  3.411461E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    2.148090E+00   4.944493E-01   1.151131E+01
+# jendl5.0      2.139749E+00   5.025025E-01   1.147261E+01

@@ -1,0 +1,60 @@
+# header:
+#   title: Ce140(n,x)Ba137m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Murahira
+#   year: 1996
+#   subentry: 22311007
+#   X4 reaction: 58-CE-140(N,A)56-BA-137-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22311007
+# target:
+#   Z: 58
+#   A: 140
+#   nuclide: Ce140
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+# residual:
+#   Z: 56
+#   A: 137
+#   nuclide: Ba137m
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.340000E+01   9.000000E-02   1.994400E+00   5.943400E-01   1.002225E+00
+   1.365000E+01   9.000000E-02   2.515600E+00   8.024700E-01   1.002225E+00
+   1.388000E+01   9.000000E-02   2.836300E+00   7.572900E-01   1.002225E+00
+   1.428000E+01   9.000000E-02   2.645900E+00   9.948499E-01   1.002225E+00
+   1.458000E+01   9.000000E-02   3.016700E+00   8.899300E-01   1.002225E+00
+   1.487000E+01   9.000000E-02   3.026700E+00   7.869500E-01   1.002225E+00
+# reference:
+#   author: S.Murahira,Y.Satoh,N.Honda,A.Takahashi,T.Iida, M.Shibata,H.Yamamoto,K.Kawade
+#   title: Measurement of formation cross sections producing  short-lived nuclei by 14 MeV neutrons - Pr, Ba, Ce,  Sm, W, Sn, Hf
+#   journal: Conf: Japanese report to the I.N.D.C., No.175, p.171 (1996)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.340000E+01
+#   E-max [MeV]:  1.487000E+01
+#   F-value:  1.194349E+00
+#   A-value:  8.858768E-01
+#   chi-2:  5.703568E-01
+#   p-value:  2.665067E-01
+#   exp. data sets for p-value:      5
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.269373E+00   8.215025E-01   8.899283E-01
+# jeff3.3       1.081860E+00   9.552956E-01   2.507851E-01

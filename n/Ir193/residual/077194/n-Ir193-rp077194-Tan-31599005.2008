@@ -1,0 +1,51 @@
+# header:
+#   title: Ir193(n,x)Ir194 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Tan
+#   year: 2008
+#   subentry: 31599005
+#   X4 reaction: 77-IR-193(N,G)77-IR-194,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/31599005
+# target:
+#   Z: 77
+#   A: 193
+#   nuclide: Ir193
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+# residual:
+#   Z: 77
+#   A: 194
+#   nuclide: Ir194
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.500000E-02   8.000000E-03   5.802983E+02   3.338226E+01   1.023996E+00
+   1.440000E-01   2.200000E-02   4.095089E+02   2.308233E+01   1.012383E+00
+# reference:
+#   author: V.H.Tan,T.T.Anh,N.C.Hai,P.N.Son,T.Fukahori
+#   title: Measurement of neutron capture cross sections of 139La, 152Sm and 191,193Ir at 55 and 144 keV
+#   journal: Conf: JAEA Conference proceedings, No.2008-006, p.40 (2008)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  5.500000E-02
+#   E-max [MeV]:  1.440000E-01
+#   F-value:  1.055562E+00
+#   A-value:  9.824187E-01
+#   chi-2:  1.345994E+00
+#   p-value:  3.946420E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.055882E+00   9.593634E-01   1.206517E+00
+# jendl5.0      1.055241E+00   1.006028E+00   1.485470E+00

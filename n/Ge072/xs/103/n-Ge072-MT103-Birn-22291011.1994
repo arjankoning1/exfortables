@@ -1,0 +1,57 @@
+# header:
+#   title: Ge72(n,p)Ga72 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Birn
+#   year: 1994
+#   subentry: 22291011
+#   X4 reaction: 32-GE-72(N,P)31-GA-72,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22291011
+# target:
+#   Z: 32
+#   A: 72
+#   nuclide: Ge72
+# reaction:
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 31
+#   A: 72
+#   nuclide: Ga72
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   8.640000E+00   1.800000E-01   1.182150E+01   1.001900E+00   1.001822E+00
+   9.980000E+00   2.000000E-01   1.743170E+01   1.502800E+00   1.001822E+00
+   1.085000E+01   2.200000E-01   2.334244E+01   2.705000E+00   1.001822E+00
+   1.172000E+01   2.400000E-01   3.826958E+01   6.211400E+00   1.001822E+00
+   1.468000E+01   1.000000E-01   3.336066E+01   2.104100E+00   1.001822E+00
+# reference:
+#   author: I.Birn,S.M.Qaim,B.Strohmaier,H.Freiesleben
+#   title: Excitation functions of neutron threshold reactions  on some isotopes of germanium, arsenic and selenium  in the 6.3- to 14.7-MeV energy range.
+#   journal: Jour: Nuclear Science and Engineering, Vol.116, p.125 (1994)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  8.640000E+00
+#   E-max [MeV]:  1.468000E+01
+#   F-value:  1.313909E+00
+#   A-value:  8.728525E-01
+#   chi-2:  6.405716E+00
+#   p-value:  3.130720E-01
+#   exp. data sets for p-value:      2
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    1.222915E+00   1.002059E+00   1.119051E+01
+# endfb8.0      1.147333E+00   9.597165E-01   9.516881E-01
+# jeff3.3       1.568821E+00   6.884382E-01   1.238529E+01
+# jendl5.0      1.147333E+00   9.597173E-01   9.517001E-01
+# cendl3.2      1.353437E+00   7.973697E-01   6.549382E+00

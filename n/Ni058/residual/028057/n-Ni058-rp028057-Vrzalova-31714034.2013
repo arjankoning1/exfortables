@@ -1,0 +1,53 @@
+# header:
+#   title: Ni58(n,x)Ni57 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Vrzalova
+#   year: 2013
+#   subentry: 31714034
+#   X4 reaction: 28-NI-58(N,2N)28-NI-57,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/31714034
+# target:
+#   Z: 28
+#   A: 58
+#   nuclide: Ni58
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 28
+#   A: 57
+#   nuclide: Ni57
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.750000E+01   8.000000E-01   4.600000E+01   7.000000E+00   1.000000E+00
+   3.040000E+01   8.000000E-01   5.700000E+01   8.000000E+00   1.000000E+00
+   3.590000E+01   8.000000E-01   4.500000E+01   6.000000E+00   1.000000E+00
+# reference:
+#   author: J.Vrzalova, O.Svoboda, A.Krasa, A.Kugler, M.Majerle,  M.Suchopar, V.Wagner
+#   title: Studies of (n,xn) cross-sections in Al, Au, Bi, Cu,  Fe, I, In, Mg, Ni, Ta, Y, and Zn by the activation  method
+#   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.A, Vol.726, p.84 (201
+# statistics:
+#   NEA score: R1
+#   IAEA score:  0
+#   E-min [MeV]:  1.750000E+01
+#   E-max [MeV]:  3.590000E+01
+#   F-value:  1.196206E+00
+#   A-value:  1.136976E+00
+#   chi-2:  2.204781E+00
+#   p-value:  2.092553E-01
+#   exp. data sets for p-value:      8
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.191171E+00   1.125243E+00   2.006180E+00
+# endfb8.0      1.232701E+00   1.165935E+00   2.947375E+00
+# jendl5.0      1.159571E+00   1.120297E+00   1.660788E+00

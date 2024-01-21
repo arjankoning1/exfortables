@@ -1,0 +1,52 @@
+# header:
+#   title: U238(g,f) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Manfredini
+#   year: 1965
+#   subentry: M0535002
+#   X4 reaction: 92-U-238(G,F),,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/M0535002
+# target:
+#   Z: 92
+#   A: 238
+#   nuclide: U238
+# reaction:
+#   type: (g,f)
+#   ENDF_MF: 3
+#   ENDF_MT: 18
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.430000E+00   0.000000E+00   7.000000E-01   1.100000E-01   1.000000E+00
+   6.070000E+00   0.000000E+00   6.380000E+00   6.900000E-01   1.000000E+00
+   6.440000E+00   0.000000E+00   1.390000E+01   2.600000E+00   1.000000E+00
+   6.800000E+00   0.000000E+00   3.810000E+00   4.600000E-01   1.000000E+00
+   7.380000E+00   0.000000E+00   1.280000E+01   1.500000E+00   1.000000E+00
+   7.720000E+00   0.000000E+00   5.250000E+00   6.100000E-01   1.000000E+00
+# reference:
+#   author: A.Manfredini,M.Muchnik,L.Fiore,C.Ramorino,  H.G.De Carvalho,J.Lang,R.Muller
+#   title: 238U fission induced by low-energy monochromatic  gamma-rays: cross sections between 5 and 8 MeV.
+#   journal: Jour: Nuclear Physics, Vol.74, p.377 (1965)
+# statistics:
+#   NEA score: T3
+#   IAEA score: -1
+#   E-min [MeV]:  5.430000E+00
+#   E-max [MeV]:  7.720000E+00
+#   F-value:  2.003381E+00
+#   A-value:  1.119744E+00
+#   chi-2:  7.179423E+01
+#   p-value:  1.924074E-01
+#   exp. data sets for p-value:      8
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    2.238283E+00   1.251538E+00   1.182721E+02
+# endfb8.0      1.848155E+00   9.968348E-01   4.027577E+01
+# jendl5.0      1.914801E+00   1.125353E+00   5.683482E+01

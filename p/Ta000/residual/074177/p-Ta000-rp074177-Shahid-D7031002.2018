@@ -1,0 +1,57 @@
+# header:
+#   title: Ta0(p,x)W177 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Shahid
+#   year: 2018
+#   subentry: D7031002
+#   X4 reaction: 73-TA-0(P,X)74-W-177,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D7031002
+# target:
+#   Z: 73
+#   A: 0
+#   nuclide: Ta0
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 74
+#   A: 177
+#   nuclide: W177
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.330000E+01   3.300000E-01   2.300000E+00   2.000000E-01   1.000000E+00
+   3.500000E+01   3.300000E-01   8.800000E+00   6.000000E-01   1.000000E+00
+   3.660000E+01   3.300000E-01   4.620000E+01   3.000000E+00   1.000000E+00
+   3.810000E+01   3.000000E-01   1.210000E+02   7.800000E+00   1.000000E+00
+   3.960000E+01   3.000000E-01   2.660000E+02   1.700000E+01   1.000000E+00
+   4.110000E+01   2.900000E-01   4.280000E+02   2.720000E+01   1.000000E+00
+   4.250000E+01   2.900000E-01   5.380000E+02   3.410000E+01   1.000000E+00
+   4.390000E+01   2.900000E-01   6.720001E+02   4.260000E+01   1.000000E+00
+# reference:
+#   author: M.Shahid, K.Kim, G.N.Kim, M.Zaman, M.Tatari,  S.C.Yang, H.Naik
+#   title: Measurement of excitation functions of natTa(p,x) reactions up to 44.2 MeV
+#   journal: Jour: Journal of Radioanalytical and Nuclear Chemistry, Vol.318, p.1863
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  3.330000E+01
+#   E-max [MeV]:  4.390000E+01
+#   F-value:  1.509724E+00
+#   A-value:  9.614700E-01
+#   chi-2:  4.288109E+01
+#   p-value:  2.536249E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.559390E+00   8.364199E-01   2.953455E+01
+# jendl5.0      1.494561E+00   1.133038E+00   6.408243E+01

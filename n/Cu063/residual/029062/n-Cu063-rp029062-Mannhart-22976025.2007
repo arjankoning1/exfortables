@@ -1,0 +1,64 @@
+# header:
+#   title: Cu63(n,x)Cu62 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Mannhart
+#   year: 2007
+#   subentry: 22976025
+#   X4 reaction: 29-CU-63(N,2N)29-CU-62,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22976025
+# target:
+#   Z: 29
+#   A: 63
+#   nuclide: Cu63
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 29
+#   A: 62
+#   nuclide: Cu62
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 13
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.119000E+01   2.000000E-02   1.780000E+00   9.220400E-02   1.000000E+00
+   1.149500E+01   2.000000E-02   1.246000E+01   4.423300E-01   1.000000E+00
+   1.168600E+01   2.000000E-02   3.031000E+01   9.183900E-01   1.000000E+00
+   1.190900E+01   2.000000E-02   5.450000E+01   1.684050E+00   1.000000E+00
+   1.220700E+01   2.000000E-02   1.070000E+02   3.894800E+00   1.000000E+00
+   1.249600E+01   2.000000E-02   1.622000E+02   5.336380E+00   1.000000E+00
+   1.269000E+01   2.000000E-02   2.017000E+02   6.575420E+00   1.000000E+00
+   1.296700E+01   2.000000E-02   2.552000E+02   9.085119E+00   1.000000E+00
+   1.317700E+01   2.000000E-02   3.013000E+02   1.114810E+01   1.000000E+00
+   1.353100E+01   2.000000E-02   3.837000E+02   1.423527E+01   1.000000E+00
+   1.369900E+01   2.000000E-02   4.115000E+02   1.571930E+01   1.000000E+00
+   1.398400E+01   2.000000E-02   4.333000E+02   1.741866E+01   1.000000E+00
+   1.432700E+01   2.000000E-02   5.125000E+02   2.178125E+01   1.000000E+00
+# reference:
+#   author: W.Mannhart, D.Schmidt
+#   title: .Measurement of Neutron Activation Cross Sections in  the Energy Range from 8 MeV to 15 MeV
+#   journal: Rept: Phys.Techn.Bundesanst., Neutronenphysik Reports, No.53 (2007)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.119000E+01
+#   E-max [MeV]:  1.432700E+01
+#   F-value:  1.279562E+00
+#   A-value:  1.069303E+00
+#   chi-2:  6.024086E+01
+#   p-value:  3.790348E-01
+#   exp. data sets for p-value:      1
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2023    1.276352E+00   1.053373E+00   5.643424E+01
+# endfb8.0      1.225591E+00   1.012758E+00   3.166867E+01
+# jeff3.3       1.362160E+00   1.115017E+00   1.137426E+02
+# jendl5.0      1.241053E+00   1.099093E+00   3.911789E+01

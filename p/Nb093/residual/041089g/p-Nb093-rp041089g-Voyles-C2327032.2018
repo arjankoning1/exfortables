@@ -1,0 +1,56 @@
+# header:
+#   title: Nb93(p,x)Nb89g cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Voyles
+#   year: 2018
+#   subentry: C2327032
+#   X4 reaction: 41-NB-93(P,X)41-NB-89-G,IND,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C2327032
+# target:
+#   Z: 41
+#   A: 93
+#   nuclide: Nb93
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 41
+#   A: 89
+#   nuclide: Nb89g
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   6.107000E+01   1.050000E+00   1.864000E+02   9.600000E+00   1.000000E+00
+   6.970000E+01   9.000000E-01   1.450000E+02   1.400000E+01   1.000000E+00
+# reference:
+#   author: A.S.Voyles,L.A.Bernstein,E.R.Birnbaum,J.W.Engle,  S.A.Graves,T.Kawano,A.M.Lewis,F.M.Nortier
+#   title: Excitation functions for (p,x) reactions of niobium in the energy range of Ep=40-90 MeV
+#   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.429, p.53 (201
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  6.107000E+01
+#   E-max [MeV]:  6.970000E+01
+#   F-value:  2.516543E+00
+#   A-value:  4.635089E-01
+#   chi-2:  7.883012E+01
+#   p-value:  1.649105E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    3.542239E+00   2.936569E-01   1.354564E+02
+# jendl5.0      1.380180E+00   7.316039E-01   2.220386E+01

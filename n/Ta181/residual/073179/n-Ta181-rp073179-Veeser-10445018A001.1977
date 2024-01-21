@@ -1,0 +1,59 @@
+# header:
+#   title: Ta181(n,x)Ta179 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Veeser
+#   year: 1977
+#   subentry: 10445018
+#   X4 reaction: 73-TA-181(N,3N)73-TA-179,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/10445018
+# target:
+#   Z: 73
+#   A: 181
+#   nuclide: Ta181
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 17
+# residual:
+#   Z: 73
+#   A: 179
+#   nuclide: Ta179
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 9
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.600000E+01   2.000000E-01   2.610000E+02   2.300000E+01   1.000000E+00
+   1.700000E+01   2.000000E-01   6.200000E+02   3.900000E+01   1.000000E+00
+   1.800000E+01   1.500000E-01   8.360000E+02   5.800000E+01   1.000000E+00
+   1.900000E+01   1.500000E-01   1.188000E+03   7.100000E+01   1.000000E+00
+   2.000000E+01   1.100000E-01   1.352000E+03   8.600000E+01   1.000000E+00
+   2.100000E+01   1.200000E-01   1.408000E+03   8.500000E+01   1.000000E+00
+   2.200000E+01   1.000000E-01   1.551000E+03   9.500000E+01   1.000000E+00
+   2.300000E+01   7.000000E-02   1.520000E+03   9.400000E+01   1.000000E+00
+   2.400000E+01   6.000000E-02   1.604000E+03   1.000000E+02   1.000000E+00
+# reference:
+#   author: L.R.Veeser,E.D.Arthur,P.G.Young
+#   title: Cross sections for (n,2n) and (n,3n) reaction above  14 MeV
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.16, p.1792 (1977)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.600000E+01
+#   E-max [MeV]:  2.400000E+01
+#   F-value:  1.128045E+00
+#   A-value:  1.068699E+00
+#   chi-2:  3.864773E+00
+#   p-value:  3.583959E-01
+#   exp. data sets for p-value:      2
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.171912E+00   1.155795E+00   7.654364E+00
+# jeff3.3       1.055665E+00   1.028410E+00   9.106002E-01
+# jendl5.0      1.132357E+00   1.026879E+00   3.029353E+00

@@ -1,0 +1,51 @@
+# header:
+#   title: C12(n,x)C11 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Ashby
+#   year: 1958
+#   subentry: 11097006
+#   X4 reaction: 6-C-12(N,2N)6-C-11,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11097006
+# target:
+#   Z: 6
+#   A: 12
+#   nuclide: C12
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 6
+#   A: 11
+#   nuclide: C11
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.410000E+01   0.000000E+00   6.000000E+00   6.000000E+00   1.000000E+00
+# reference:
+#   author: V.J.Ashby,H.C.Catron,L.L.Newkirk,C.J.Taylor
+#   title: Absolute measurement of (n,2n) cross sections at 14.1  MeV.
+#   journal: Jour: Physical Review, Vol.111, p.616 (1958)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.410000E+01
+#   E-max [MeV]:  1.410000E+01
+#   F-value:  2.317338E+00
+#   A-value:  4.315297E-01
+#   chi-2:  8.096411E-01
+#   p-value:  0.000000E+00
+#   exp. data sets for p-value:      2
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    2.317338E+00   4.315297E-01   8.096411E-01
+# endfb8.0      2.317338E+00   4.315297E-01   8.096411E-01
+# jendl5.0      0.000000E+00   0.000000E+00   0.000000E+00

@@ -1,0 +1,59 @@
+# header:
+#   title: Ni0(p,x)Co56 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Garrido
+#   year: 2016
+#   subentry: O2315011
+#   X4 reaction: 28-NI-0(P,X)27-CO-56,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O2315011
+# target:
+#   Z: 28
+#   A: 0
+#   nuclide: Ni0
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 27
+#   A: 56
+#   nuclide: Co56
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 9
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.762000E+01   1.170000E+00   4.300000E-01   9.999999E-02   1.000000E+00
+   1.963000E+01   1.080000E+00   9.600000E-01   1.700000E-01   1.000000E+00
+   2.513000E+01   8.500000E-01   1.536000E+01   1.490000E+00   1.000000E+00
+   2.985000E+01   5.800000E-01   8.322001E+01   7.360000E+00   1.000000E+00
+   3.663000E+01   9.200000E-01   2.081100E+02   1.874000E+01   1.000000E+00
+   4.078000E+01   8.000000E-01   2.226500E+02   1.993000E+01   1.000000E+00
+   4.566000E+01   5.800000E-01   1.789900E+02   1.614000E+01   1.000000E+00
+   5.734000E+01   1.070000E+00   1.190300E+02   1.132000E+01   1.000000E+00
+   6.981000E+01   5.700000E-01   1.026300E+02   7.560000E+00   1.000000E+00
+# reference:
+#   author: E.Garrido,C.Duchemin,A.Guertin,F.Haddad,N.Michel, V.Metivier
+#   title: New excitation functions for proton induced reactions on natural titanium, nickel and copper up to 70 MeV.
+#   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.383, p.191 (20
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  1.762000E+01
+#   E-max [MeV]:  6.981000E+01
+#   F-value:  3.622578E+00
+#   A-value:  5.571809E-01
+#   chi-2:  6.744680E+00
+#   p-value:  2.586920E-01
+#   exp. data sets for p-value:      4
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    3.286769E+00   6.588282E-01   4.283472E+00
+# endfb8.0      4.090284E+00   4.358398E-01   1.262826E+01
+# jendl5.0      3.501480E+00   6.024066E-01   3.322304E+00

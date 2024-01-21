@@ -1,0 +1,53 @@
+# header:
+#   title: Bi209(n,x)Bi207 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Majerle
+#   year: 2016
+#   subentry: 31767006
+#   X4 reaction: 83-BI-209(N,3N)83-BI-207,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/31767006
+# target:
+#   Z: 83
+#   A: 209
+#   nuclide: Bi209
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 17
+# residual:
+#   Z: 83
+#   A: 207
+#   nuclide: Bi207
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.950000E+01   1.100000E+00   9.500000E+02   5.000000E+01   1.000000E+00
+   2.450000E+01   1.100000E+00   1.800000E+03   1.000000E+02   1.000000E+00
+   2.975000E+01   1.000000E+00   1.250000E+03   1.500000E+02   1.000000E+00
+   3.425000E+01   1.000000E+00   5.000000E+02   1.000000E+02   1.000000E+00
+# reference:
+#   author: M.Majerle, P.Bem, J.Novak, E.Simeckova, M.Stefanik
+#   title: Au, Bi, Co and Nb cross-section measured by  quasimonoenergetic neutrons from p+7Li reaction in  the energy range of 18-36 MeV
+#   journal: Jour: Nuclear Physics, Section A, Vol.953, p.139 (2016)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  1.950000E+01
+#   E-max [MeV]:  3.425000E+01
+#   F-value:  1.184833E+00
+#   A-value:  9.750272E-01
+#   chi-2:  4.023088E+00
+#   p-value:  2.660055E-01
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# endfb8.0      1.152953E+00   1.011798E+00   2.128184E+00
+# jendl5.0      1.212957E+00   9.395931E-01   5.917992E+00

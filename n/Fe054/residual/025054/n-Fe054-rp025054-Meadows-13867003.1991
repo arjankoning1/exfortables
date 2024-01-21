@@ -1,0 +1,60 @@
+# header:
+#   title: Fe54(n,x)Mn54 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Meadows
+#   year: 1991
+#   subentry: 13867003
+#   X4 reaction: 26-FE-54(N,P)25-MN-54,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/13867003
+# target:
+#   Z: 26
+#   A: 54
+#   nuclide: Fe54
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 25
+#   A: 54
+#   nuclide: Mn54
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 10
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.290000E+00   5.400000E-01   4.658754E+02   1.546707E+01   9.999900E-01
+   5.840000E+00   5.000000E-01   5.024951E+02   1.592909E+01   9.999900E-01
+   6.370000E+00   4.800000E-01   5.208048E+02   1.671783E+01   9.999900E-01
+   6.880000E+00   4.400000E-01   5.085950E+02   1.790254E+01   9.999900E-01
+   7.390000E+00   4.200000E-01   4.974051E+02   1.586722E+01   9.999900E-01
+   7.880000E+00   4.000000E-01   4.974051E+02   1.596670E+01   9.999900E-01
+   8.370000E+00   3.600000E-01   4.902851E+02   1.652261E+01   9.999900E-01
+   8.860000E+00   3.200000E-01   5.279248E+02   2.460130E+01   9.999900E-01
+   9.340000E+00   3.400000E-01   4.953751E+02   1.605015E+01   9.999900E-01
+   9.820000E+00   4.000000E-01   4.882551E+02   1.601477E+01   9.999900E-01
+# reference:
+#   author: J.W.Meadows,D.L.Smith,L.R.Greenwood,L.P.Geraldo, W.Mannhart,G.Boerker,G.Mueller
+#   title: Measurements of the neutron cross section for  Fe-54(n,alpha)Cr-51 between 5.3 and 14.6 MeV
+#   journal: Conf: Conf.on Nucl.Data for Sci.and Technol.,Juelich 1991, p.288 (1991)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  5.290000E+00
+#   E-max [MeV]:  9.820000E+00
+#   F-value:  1.058287E+00
+#   A-value:  9.801407E-01
+#   chi-2:  2.941736E+00
+#   p-value:  3.664525E-01
+#   exp. data sets for p-value:      6
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.027940E+00   9.977536E-01   1.140115E+00
+# jeff3.3       1.094115E+00   9.605588E-01   6.876759E+00
+# jendl5.0      1.028298E+00   9.824671E-01   8.083342E-01

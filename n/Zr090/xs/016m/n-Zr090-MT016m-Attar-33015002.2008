@@ -1,0 +1,60 @@
+# header:
+#   title: Zr90(n,2n)Zr89m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Attar
+#   year: 2008
+#   subentry: 33015002
+#   X4 reaction: 40-ZR-90(N,2N)40-ZR-89-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/33015002
+# target:
+#   Z: 40
+#   A: 90
+#   nuclide: Zr90
+# reaction:
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 40
+#   A: 89
+#   nuclide: Zr89m
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.373000E+01   0.000000E+00   3.974108E+01   2.907900E+00   9.692946E-01
+   1.407000E+01   0.000000E+00   8.626723E+01   4.846500E+00   9.692946E-01
+   1.442000E+01   0.000000E+00   1.444249E+02   8.723701E+00   9.692946E-01
+   1.468000E+01   0.000000E+00   1.861046E+02   1.163154E+01   9.692946E-01
+   1.477000E+01   0.000000E+00   2.142141E+02   1.453942E+01   9.692946E-01
+# reference:
+#   author: F.M.D.Attar,R.Mandal,S.D.Dhole,A.Saxena, Ashokkumar,S.Ganesan,S.Kailas,V.N.Bhoraskar
+#   title: Cross-sections for formation of 89Zr-m through 90Zr(n,2n)89Zr-m reaction over neutron energy range 13.73 MeV to 14.77 MeV
+#   journal: Jour: Nuclear Physics, Section A, Vol.802, p.1 (2008)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.373000E+01
+#   E-max [MeV]:  1.477000E+01
+#   F-value:  1.349449E+00
+#   A-value:  8.297357E-01
+#   chi-2:  1.591210E+01
+#   p-value:  2.013132E-01
+#   exp. data sets for p-value:      6
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.350730E+00   8.401970E-01   1.625569E+01
+# endfb8.0      1.355626E+00   8.050575E-01   1.585275E+01
+# jendl5.0      1.341908E+00   8.445227E-01   1.562786E+01

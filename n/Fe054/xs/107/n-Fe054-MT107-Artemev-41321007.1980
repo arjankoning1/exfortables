@@ -1,0 +1,53 @@
+# header:
+#   title: Fe54(n,a)Cr51 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Artemev
+#   year: 1980
+#   subentry: 41321007
+#   X4 reaction: 26-FE-54(N,A)24-CR-51,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/41321007
+# target:
+#   Z: 26
+#   A: 54
+#   nuclide: Fe54
+# reaction:
+#   type: (n,a)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+# residual:
+#   Z: 24
+#   A: 51
+#   nuclide: Cr51
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.480000E+01   0.000000E+00   9.000000E+01   1.500000E+01   1.000000E+00
+# reference:
+#   author: O.I.Artem'ev,I.V.Kazachevskii,V.N.Levkovskii, V.L.Poznyak,V.F.Reutov
+#   title: Cross sections for (n,p) and (n,alpha) reactions on  chromium, iron, copper, and molybdenum nuclei at a  neutron energy of 14.8 MeV
+#   journal: Jour: Soviet Atomic Energy, Vol.49, p.655 (1980)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.480000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.005896E+00
+#   A-value:  9.965813E-01
+#   chi-2:  2.907205E-02
+#   p-value:  4.143013E-01
+#   exp. data sets for p-value:      8
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    1.000444E+00   1.000444E+00   3.343873E-03
+# jeff3.3       1.005604E+00   9.944276E-01   4.219859E-02
+# jendl5.0      1.000720E+00   9.992804E-01   5.416400E-03
+# cendl3.2      1.011923E+00   9.882172E-01   8.993500E-02
+# irdff2.0      1.000594E+00   1.000594E+00   4.466377E-03

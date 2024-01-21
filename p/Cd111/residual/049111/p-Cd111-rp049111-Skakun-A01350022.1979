@@ -1,0 +1,52 @@
+# header:
+#   title: Cd111(p,x)In111 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Skakun
+#   year: 1979
+#   subentry: A01350022
+#   X4 reaction: 48-CD-111(P,N)49-IN-111,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/A01350022
+# target:
+#   Z: 48
+#   A: 111
+#   nuclide: Cd111
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+# residual:
+#   Z: 49
+#   A: 111
+#   nuclide: In111
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   6.100000E+00   0.000000E+00   7.900000E+01   1.000000E+01   1.000000E+00
+   7.700000E+00   0.000000E+00   2.640000E+02   3.200000E+01   1.000000E+00
+   9.100000E+00   0.000000E+00   4.500000E+02   5.400001E+01   1.000000E+00
+# reference:
+#   author: E.A.Skakun, A.Iordakesku, V.A.Lucik, Ju.N.Rakivnenko, I.A.Romanij
+#   title: Excitation functions and isomeric ratios for 111-Cd(p,n)113-m,g and 113-Cd(p,n)113-m in reactions.
+#   journal: Conf: 29.Conf.on Nucl.Spectr.and Nucl.Struct.,Riga 1979, p.290 (1979)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  0
+#   E-min [MeV]:  6.100000E+00
+#   E-max [MeV]:  9.100000E+00
+#   F-value:  1.203854E+00
+#   A-value:  1.181145E+00
+#   chi-2:  3.227914E+00
+#   p-value:  2.330277E-01
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.211618E+00   1.170623E+00   3.433705E+00
+# jendl5.0      1.195863E+00   1.191762E+00   3.022123E+00

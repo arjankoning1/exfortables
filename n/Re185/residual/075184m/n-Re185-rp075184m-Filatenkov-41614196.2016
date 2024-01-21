@@ -1,0 +1,56 @@
+# header:
+#   title: Re185(n,x)Re184m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Filatenkov
+#   year: 2016
+#   subentry: 41614196
+#   X4 reaction: 75-RE-185(N,2N)75-RE-184-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/41614196
+# target:
+#   Z: 75
+#   A: 185
+#   nuclide: Re185
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 75
+#   A: 184
+#   nuclide: Re184m
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.474000E+01   0.000000E+00   3.570015E+02   3.281192E+01   1.000004E+00
+# reference:
+#   author: A.A.Filatenkov
+#   title: Neutron activation cross sections measured at KRI in neutron energy region 13.4 - 14.9 MeV
+#   journal: Rept: USSR report to the I.N.D.C., No.0460 (2016)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.474000E+01
+#   E-max [MeV]:  1.474000E+01
+#   F-value:  1.150898E+00
+#   A-value:  1.111924E+00
+#   chi-2:  3.119675E+00
+#   p-value:  2.199386E-01
+#   exp. data sets for p-value:      8
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.252994E+00   1.252994E+00   7.663112E+00
+# jeff3.3       1.095917E+00   1.095917E+00   1.680208E+00
+# jendl5.0      1.001149E+00   1.001149E+00   1.570494E-02

@@ -1,0 +1,56 @@
+# header:
+#   title: S32(n,p)P32 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Santry
+#   year: 1963
+#   subentry: 11543003
+#   X4 reaction: 16-S-32(N,P)15-P-32,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11543003
+# target:
+#   Z: 16
+#   A: 32
+#   nuclide: S32
+# reaction:
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 15
+#   A: 32
+#   nuclide: P32
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.040000E+01   5.000000E-02   4.220000E+02   2.500000E+01   1.000000E+00
+   1.100000E+01   4.000000E-02   3.710000E+02   2.200000E+01   1.000000E+00
+   1.160000E+01   4.000000E-02   4.220000E+02   2.400000E+01   1.000000E+00
+# reference:
+#   author: D.C.Santry,J.P.Butler
+#   title: The S32(n,p)P32 reaction as a fast-neutron flux monitor.
+#   journal: Jour: Canadian Journal of Chemistry, Vol.41, p.123 (1963)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.040000E+01
+#   E-max [MeV]:  1.160000E+01
+#   F-value:  1.103671E+00
+#   A-value:  9.434560E-01
+#   chi-2:  2.980805E+00
+#   p-value:  2.552680E-01
+#   exp. data sets for p-value:      1
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2023    1.069847E+00   9.674813E-01   1.851153E+00
+# endfb8.0      1.154685E+00   8.854160E-01   5.385086E+00
+# jeff3.3       1.070098E+00   9.677266E-01   1.861486E+00
+# jendl5.0      1.154685E+00   8.854160E-01   5.385086E+00
+# cendl3.2      1.060492E+00   9.921449E-01   1.587665E+00
+# irdff2.0      1.068671E+00   9.684222E-01   1.814355E+00

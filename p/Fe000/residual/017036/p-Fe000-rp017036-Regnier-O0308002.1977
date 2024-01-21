@@ -1,0 +1,53 @@
+# header:
+#   title: Fe0(p,x)Cl36 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Regnier
+#   year: 1977
+#   subentry: O0308002
+#   X4 reaction: 26-FE-0(P,X)17-CL-36,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O0308002
+# target:
+#   Z: 26
+#   A: 0
+#   nuclide: Fe0
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 17
+#   A: 36
+#   nuclide: Cl36
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.500000E+02   0.000000E+00   1.500000E-01   5.000000E-02   1.000000E+00
+   1.050000E+03   0.000000E+00   1.010000E+01   1.800000E+00   1.000000E+00
+   2.400000E+04   0.000000E+00   1.200000E+01   2.000000E+00   1.000000E+00
+# reference:
+#   author: S.Regnier,M.Baklouti,M.Simonoff-Lagarde,G.N.Simonoff
+#   title: Production of Cl-36 by high energy spallation
+#   journal: Jour: Physics Letters,Section B, Vol.68, p.202 (1977)
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  1.500000E+02
+#   E-max [MeV]:  2.400000E+04
+#   F-value:  8.746778E+00
+#   A-value:  1.721100E-01
+#   chi-2:  5.172747E+00
+#   p-value:  9.258046E-02
+#   exp. data sets for p-value:      2
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    2.892738E+01   3.456933E-02   8.450086E+00
+# endfb8.0      5.198615E+00   1.923589E-01   6.038424E+00
+# jendl5.0      1.304323E+00   7.666813E-01   1.029730E+00

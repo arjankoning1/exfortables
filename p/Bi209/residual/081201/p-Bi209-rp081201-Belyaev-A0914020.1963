@@ -1,0 +1,51 @@
+# header:
+#   title: Bi209(p,x)Tl201 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Belyaev
+#   year: 1963
+#   subentry: A0914020
+#   X4 reaction: 83-BI-209(P,X)81-TL-201,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/A0914020
+# target:
+#   Z: 83
+#   A: 209
+#   nuclide: Bi209
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 81
+#   A: 201
+#   nuclide: Tl201
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.350000E+02   0.000000E+00   5.800000E+00   1.100000E+00   1.000000E+00
+# reference:
+#   author: B.I.Belyaev, A.V.Kalyamin, A.N.Murin
+#   title: Excitation functions of nuclear reactions occurring incident to fast proton bombardment of Bi-209
+#   journal: Jour: Izv. Rossiiskoi Akademii Nauk, Ser.Fiz., Vol.27, p.923 (1963)
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  1.350000E+02
+#   E-max [MeV]:  1.350000E+02
+#   F-value:  7.265885E+00
+#   A-value:  1.993076E-01
+#   chi-2:  1.425174E+01
+#   p-value:  1.658196E-01
+#   exp. data sets for p-value:      2
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    2.752480E+00   3.633087E-01   1.128772E+01
+# endfb8.0      2.521055E+01   3.966594E-02   2.563986E+01
+# jendl5.0      1.820214E+00   5.493860E-01   5.827633E+00

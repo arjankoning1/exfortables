@@ -1,0 +1,64 @@
+# header:
+#   title: Ba138(g,n')Ba137 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Utsunomiya
+#   year: 2019
+#   subentry: K2640003
+#   X4 reaction: 56-BA-138(G,N)56-BA-137,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/K2640003
+# target:
+#   Z: 56
+#   A: 138
+#   nuclide: Ba138
+# reaction:
+#   type: (g,n')
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+# residual:
+#   Z: 56
+#   A: 137
+#   nuclide: Ba137
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 15
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   8.750000E+00   0.000000E+00   1.193000E+01   2.700000E-01   1.000000E+00
+   9.000000E+00   0.000000E+00   1.862000E+01   6.200000E-01   1.000000E+00
+   9.250000E+00   0.000000E+00   2.597000E+01   1.000000E+00   1.000000E+00
+   9.510000E+00   0.000000E+00   2.972000E+01   1.210000E+00   1.000000E+00
+   9.740000E+00   0.000000E+00   3.128000E+01   1.390000E+00   1.000000E+00
+   1.001000E+01   0.000000E+00   3.516000E+01   1.630000E+00   1.000000E+00
+   1.025000E+01   0.000000E+00   3.908001E+01   1.820000E+00   1.000000E+00
+   1.049000E+01   0.000000E+00   4.057000E+01   1.900000E+00   1.000000E+00
+   1.076000E+01   0.000000E+00   4.516000E+01   2.150000E+00   1.000000E+00
+   1.101000E+01   0.000000E+00   5.148000E+01   2.470000E+00   1.000000E+00
+   1.126000E+01   0.000000E+00   6.169000E+01   2.930000E+00   1.000000E+00
+   1.151000E+01   0.000000E+00   6.646001E+01   3.200000E+00   1.000000E+00
+   1.200000E+01   0.000000E+00   9.004002E+01   4.350000E+00   1.000000E+00
+   1.249000E+01   0.000000E+00   1.141800E+02   5.520000E+00   1.000000E+00
+   1.300000E+01   0.000000E+00   1.519500E+02   7.360000E+00   1.000000E+00
+# reference:
+#   author: H.Utsunomiya, T.Renstrom, G.M.Tveten, S.Goriely,  T.Ari-izumi, V.W.Ingeberg, B.V.Kheswa, Y.-W.Lui,  S.Miyamoto, S.Hilaire, S.Peru, A.J.Koning
+#   title: gamma-ray strength function for barium isotopes
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.100, p.034605 (2019)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  8.750000E+00
+#   E-max [MeV]:  1.300000E+01
+#   F-value:  1.192080E+00
+#   A-value:  9.599733E-01
+#   chi-2:  2.642113E+01
+#   p-value:  3.198013E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.172633E+00   1.036606E+00   2.430047E+01
+# jendl5.0      1.167336E+00   8.970382E-01   1.075197E+01

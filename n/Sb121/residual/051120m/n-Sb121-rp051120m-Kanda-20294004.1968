@@ -1,0 +1,60 @@
+# header:
+#   title: Sb121(n,x)Sb120m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Kanda
+#   year: 1968
+#   subentry: 20294004
+#   X4 reaction: 51-SB-121(N,2N)51-SB-120-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20294004
+# target:
+#   Z: 51
+#   A: 121
+#   nuclide: Sb121
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 51
+#   A: 120
+#   nuclide: Sb120m
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.320000E+01   1.000000E-01   3.780000E+02   9.800000E+01   1.000000E+00
+   1.360000E+01   1.600000E-01   3.970000E+02   1.030000E+02   1.000000E+00
+   1.370000E+01   3.000000E-01   4.100000E+02   1.000000E+02   1.000000E+00
+   1.405000E+01   3.100000E-01   4.320000E+02   1.050000E+02   1.000000E+00
+   1.472000E+01   3.600000E-01   5.640000E+02   1.320000E+02   1.000000E+00
+   1.516000E+01   2.400000E-01   7.040000E+02   2.140000E+02   1.000000E+00
+# reference:
+#   author: Y.KANDA
+#   title: -ISOMER RATIOS AND CROSS-SECTIONS FOR THE ISOMERIC PAIR  SB-120(GROUND) AND SB-120(METASTABLE) IN THE  SB-121(N,2N) REACTION-
+#   journal: Jour: Journal of the Physical Society of Japan, Vol.24, p.17 (1968)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.320000E+01
+#   E-max [MeV]:  1.516000E+01
+#   F-value:  1.117717E+00
+#   A-value:  9.524098E-01
+#   chi-2:  2.890411E-01
+#   p-value:  2.807833E-01
+#   exp. data sets for p-value:      4
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.154486E+00   9.233973E-01   3.832023E-01
+# jendl5.0      1.066403E+00   9.823338E-01   1.948799E-01

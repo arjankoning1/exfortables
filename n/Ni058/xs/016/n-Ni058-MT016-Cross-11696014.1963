@@ -1,0 +1,54 @@
+# header:
+#   title: Ni58(n,2n)Ni57 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Cross
+#   year: 1963
+#   subentry: 11696014
+#   X4 reaction: 28-NI-58(N,2N)28-NI-57,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11696014
+# target:
+#   Z: 28
+#   A: 58
+#   nuclide: Ni58
+# reaction:
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 28
+#   A: 57
+#   nuclide: Ni57
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.450000E+01   0.000000E+00   3.514608E+01   4.000000E+00   1.004174E+00
+# reference:
+#   author: W.G.Cross, R.L.Clarke, K.Morin, G.Slinn, N.M.Ahmed,  K.Beg
+#   title: Activation cross sections of Fe and Ni isotopes for  14.5 MeV neutrons
+#   journal: Prog: Canadian report to EANDC, No.16, p.1 (1963)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.450000E+01
+#   E-max [MeV]:  1.450000E+01
+#   F-value:  1.034624E+00
+#   A-value:  9.735507E-01
+#   chi-2:  3.136159E-01
+#   p-value:  1.254386E-01
+#   exp. data sets for p-value:      8
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2023    1.057205E+00   9.458905E-01   6.622376E-01
+# endfb8.0      1.013100E+00   9.870696E-01   1.458628E-01
+# jeff3.3       1.012395E+00   9.877566E-01   1.379343E-01
+# jendl5.0      1.000787E+00   9.992134E-01   8.674994E-03
+# cendl3.2      1.025576E+00   9.750623E-01   2.878537E-01
+# irdff2.0      1.055304E+00   9.475939E-01   6.391324E-01

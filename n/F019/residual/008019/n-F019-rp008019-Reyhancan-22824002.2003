@@ -1,0 +1,54 @@
+# header:
+#   title: F19(n,x)O19 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Reyhancan
+#   year: 2003
+#   subentry: 22824002
+#   X4 reaction: 9-F-19(N,P)8-O-19,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22824002
+# target:
+#   Z: 9
+#   A: 19
+#   nuclide: F19
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 8
+#   A: 19
+#   nuclide: O19
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.360000E+01   0.000000E+00   2.278826E+01   1.046500E+00   1.296999E+00
+   1.368000E+01   0.000000E+00   2.530611E+01   1.173080E+00   1.226071E+00
+   1.410000E+01   0.000000E+00   2.029072E+01   9.220700E-01   1.083906E+00
+   1.446000E+01   0.000000E+00   1.875960E+01   8.544800E-01   9.765537E-01
+   1.472000E+01   0.000000E+00   1.643460E+01   7.513800E-01   8.917310E-01
+   1.486000E+01   0.000000E+00   1.511487E+01   6.909100E-01   8.434635E-01
+# reference:
+#   author: I.A.Reyhancan
+#   title: .Measurements and statistical model calculations of  activation cross sections for 19-F(n,p)19-O reaction  between 13.6 and 14.9 MeV neutron energies
+#   journal: Jour: Annals of Nuclear Energy, Vol.30, p.1001 (2003)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.360000E+01
+#   E-max [MeV]:  1.486000E+01
+#   F-value:  1.389373E+00
+#   A-value:  7.425374E-01
+#   chi-2:  3.494927E+01
+#   p-value:  2.763644E-01
+#   exp. data sets for p-value:      2
+#   libraries:      1
+##  Library          F              A            chi-2
+# jendl5.0      1.389373E+00   7.425374E-01   3.494927E+01

@@ -1,0 +1,57 @@
+# header:
+#   title: Sc45(n,a)K42 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Subasi
+#   year: 1998
+#   subentry: 22478003
+#   X4 reaction: 21-SC-45(N,A)19-K-42,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22478003
+# target:
+#   Z: 21
+#   A: 45
+#   nuclide: Sc45
+# reaction:
+#   type: (n,a)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+# residual:
+#   Z: 19
+#   A: 42
+#   nuclide: K42
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.360000E+01   1.000000E-01   5.539646E+01   4.299700E+00   9.999360E-01
+   1.370000E+01   1.000000E-01   5.639639E+01   4.299700E+00   9.999360E-01
+   1.410000E+01   1.000000E-01   6.179604E+01   4.799700E+00   9.999360E-01
+   1.450000E+01   1.000000E-01   5.819628E+01   4.499700E+00   9.999360E-01
+   1.470000E+01   1.000000E-01   5.969618E+01   4.599700E+00   9.999360E-01
+   1.490000E+01   1.000000E-01   5.619641E+01   4.299700E+00   9.999360E-01
+# reference:
+#   author: M.Subasi,M.N.Erduran,M.Bostan,I.A.Reyhancan,  E.Gueltekin,G.Tarcan,Y.Ozbir,A.Durusoy
+#   title: .(n,alpha) reaction cross sections of 44Ca, 45Sc,  and 51V nuclei from 13.6 to 14.9 MeV
+#   journal: Jour: Nuclear Science and Engineering, Vol.130, p.254 (1998)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.360000E+01
+#   E-max [MeV]:  1.490000E+01
+#   F-value:  1.177629E+00
+#   A-value:  8.812767E-01
+#   chi-2:  3.846719E+00
+#   p-value:  2.771807E-01
+#   exp. data sets for p-value:      3
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2023    1.065863E+00   9.483519E-01   1.048703E+00
+# endfb8.0      1.345233E+00   7.444636E-01   1.106146E+01
+# jeff3.3       1.088528E+00   9.268287E-01   1.583277E+00
+# jendl5.0      1.091822E+00   9.218002E-01   1.693438E+00

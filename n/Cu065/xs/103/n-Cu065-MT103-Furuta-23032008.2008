@@ -1,0 +1,54 @@
+# header:
+#   title: Cu65(n,p)Ni65 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Furuta
+#   year: 2008
+#   subentry: 23032008
+#   X4 reaction: 29-CU-65(N,P)28-NI-65,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/23032008
+# target:
+#   Z: 29
+#   A: 65
+#   nuclide: Cu65
+# reaction:
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 28
+#   A: 65
+#   nuclide: Ni65
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.170000E+00   1.000000E-01   5.002120E+00   1.550700E+00   1.000424E+00
+   5.930000E+00   1.000000E-01   5.102200E+00   9.183900E-01   1.000424E+00
+# reference:
+#   author: M.Furuta, T.Shimizu, H.Hayashi, I.Miyazaki, H.Yamamoto, M.Shibata, K.Kawade
+#   title: Measurements of activation cross sections of (n,p)  and (n,alpha) reactions in the energy range of  3.5-5.9 MeV using a deuterium gas target
+#   journal: Jour: Annals of Nuclear Energy, Vol.35, p.1652 (2008)
+# statistics:
+#   NEA score: R2
+#   IAEA score:  0
+#   E-min [MeV]:  5.170000E+00
+#   E-max [MeV]:  5.930000E+00
+#   F-value:  1.552806E+00
+#   A-value:  1.224996E+00
+#   chi-2:  1.498026E+01
+#   p-value:  2.110277E-01
+#   exp. data sets for p-value:      1
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    2.620585E+00   2.581300E+00   7.267149E+01
+# endfb8.0      1.131522E+00   9.581563E-01   6.196195E-01
+# jeff3.3       1.038790E+00   9.972358E-01   2.130136E-01
+# jendl5.0      1.157179E+00   1.102777E+00   1.113758E+00
+# cendl3.2      1.047094E+00   1.014174E+00   2.834302E-01

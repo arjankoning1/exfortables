@@ -1,0 +1,53 @@
+# header:
+#   title: Pu239(p,x)Ba139 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Ohtsuki
+#   year: 1991
+#   subentry: E1411176
+#   X4 reaction: 94-PU-239(P,F)56-BA-139,(CUM),SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/E1411176
+# target:
+#   Z: 94
+#   A: 239
+#   nuclide: Pu239
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+# residual:
+#   Z: 56
+#   A: 139
+#   nuclide: Ba139
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.120000E+01   0.000000E+00   1.308900E+00   4.759500E-01   7.932489E-01
+   1.220000E+01   0.000000E+00   4.259700E+00   1.039200E+00   7.932489E-01
+   1.300000E+01   0.000000E+00   5.925600E+00   2.221100E-01   7.932489E-01
+   1.390000E+01   0.000000E+00   7.797600E+00   6.742600E-01   7.932489E-01
+   1.460000E+01   0.000000E+00   1.009013E+01   2.935000E-01   7.932489E-01
+   1.550000E+01   0.000000E+00   1.135932E+01   7.853200E-01   7.932489E-01
+# reference:
+#   author: T.Ohtsuki, Y.Nagame, K.Tsukada, N.Shinohara, S.Baba,  K.Hashimoto, I.Nishinaka, K.Sueki, Y.Hatsukawa,  K.Hata, T.Sekine, I.Kanno, H.Ikezoe, H.Nakahara
+#   title: Mass yield curves in low-energy proton-induced fission of 233U, 235U, 236U, 237Np, 239Pu, 242Pu, 244Pu, 241Am, and 243Am
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.44, p.1405 (1991)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  1.120000E+01
+#   E-max [MeV]:  1.550000E+01
+#   F-value:  0.000000E+00
+#   A-value:  0.000000E+00
+#   chi-2:  0.000000E+00
+#   p-value:  0.000000E+00
+#   exp. data sets for p-value:      1
+#   libraries:      0
+##  Library          F              A            chi-2

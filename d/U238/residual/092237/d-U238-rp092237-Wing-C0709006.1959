@@ -1,0 +1,62 @@
+# header:
+#   title: U238(d,x)U237 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Wing
+#   year: 1959
+#   subentry: C0709006
+#   X4 reaction: 92-U-238(D,X)92-U-237,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C0709006
+# target:
+#   Z: 92
+#   A: 238
+#   nuclide: U238
+# reaction:
+#   type: (d,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 92
+#   A: 237
+#   nuclide: U237
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 14
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   9.100000E+00   0.000000E+00   4.500000E+00   0.000000E+00   1.000000E+00
+   1.050000E+01   0.000000E+00   1.090000E+01   0.000000E+00   1.000000E+00
+   1.160000E+01   0.000000E+00   2.810000E+01   0.000000E+00   1.000000E+00
+   1.280000E+01   0.000000E+00   4.270000E+01   0.000000E+00   1.000000E+00
+   1.390000E+01   0.000000E+00   4.970000E+01   0.000000E+00   1.000000E+00
+   1.490000E+01   0.000000E+00   6.500002E+01   0.000000E+00   1.000000E+00
+   1.570000E+01   0.000000E+00   6.400000E+01   0.000000E+00   1.000000E+00
+   1.670000E+01   0.000000E+00   6.670000E+01   0.000000E+00   1.000000E+00
+   1.760000E+01   0.000000E+00   6.780001E+01   0.000000E+00   1.000000E+00
+   1.840000E+01   0.000000E+00   6.660001E+01   0.000000E+00   1.000000E+00
+   1.920000E+01   0.000000E+00   7.200000E+01   0.000000E+00   1.000000E+00
+   2.000000E+01   0.000000E+00   9.200001E+01   0.000000E+00   1.000000E+00
+   2.070000E+01   0.000000E+00   1.000000E+02   0.000000E+00   1.000000E+00
+   2.150000E+01   0.000000E+00   9.700000E+01   0.000000E+00   1.000000E+00
+# reference:
+#   author: J.WING,W.J.RAMLER,A.L.HARKNESS,J.R.HUIZENGA
+#   title: Excitation Functions of U235 and U238 Bombarded with  Helium and Deuterium Ions
+#   journal: Jour: Physical Review, Vol.114, p.163 (1959)
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  9.100000E+00
+#   E-max [MeV]:  2.150000E+01
+#   F-value:  1.581828E+01
+#   A-value:  1.077207E-01
+#   chi-2:  0.000000E+00
+#   p-value:  1.286461E-01
+#   exp. data sets for p-value:      1
+#   libraries:      1
+##  Library          F              A            chi-2
+# tendl.2023    1.581828E+01   1.077207E-01   0.000000E+00

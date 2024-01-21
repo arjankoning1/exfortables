@@ -1,0 +1,54 @@
+# header:
+#   title: Br79(n,a)As76 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Sato
+#   year: 1971
+#   subentry: 20322003
+#   X4 reaction: 35-BR-79(N,A)33-AS-76,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20322003
+# target:
+#   Z: 35
+#   A: 79
+#   nuclide: Br79
+# reaction:
+#   type: (n,a)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+# residual:
+#   Z: 33
+#   A: 76
+#   nuclide: As76
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.360000E+01   2.000000E-01   1.001040E+01   6.966800E-01   1.001040E+00
+   1.410000E+01   5.000000E-01   9.175799E+00   3.313800E-01   1.008333E+00
+   1.480000E+01   2.000000E-01   1.070293E+01   5.050000E-01   9.910119E-01
+# reference:
+#   author: J.SATO, N.SAITO, Y.YOKOYAMA
+#   title: -CROSS SECTIONS OF BR-79(N,A)AS-76, BR-81(N,A)AS-78 AND  ZN-68(N,A)NI-65 REACTION INDUCED BY 13.6 TO 14.8 MEV  NEUTRONS.-
+#   journal: Jour: Radiochimica Acta, Vol.16, p.71 (1971)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  0
+#   E-min [MeV]:  1.360000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.446755E+00
+#   A-value:  1.350871E+00
+#   chi-2:  1.396184E+02
+#   p-value:  1.463690E-01
+#   exp. data sets for p-value:      1
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2023    1.921447E+00   1.915321E+00   4.611902E+02
+# endfb8.0      1.211226E+00   1.195142E+00   3.015964E+01
+# jeff3.3       1.232074E+00   1.210976E+00   3.547390E+01
+# jendl5.0      1.217742E+00   1.201321E+00   3.164972E+01

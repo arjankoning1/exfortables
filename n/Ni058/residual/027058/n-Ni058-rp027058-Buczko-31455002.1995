@@ -1,0 +1,66 @@
+# header:
+#   title: Ni58(n,x)Co58 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Buczko
+#   year: 1995
+#   subentry: 31455002
+#   X4 reaction: 28-NI-58(N,P)27-CO-58,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/31455002
+# target:
+#   Z: 28
+#   A: 58
+#   nuclide: Ni58
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 27
+#   A: 58
+#   nuclide: Co58
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 16
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.150000E+00   3.400000E-02   7.399257E+01   2.199800E+00   9.998995E-01
+   2.210000E+00   3.200000E-02   7.699227E+01   2.299800E+00   9.998995E-01
+   2.280000E+00   3.000000E-02   8.499147E+01   2.499700E+00   9.998995E-01
+   2.380000E+00   2.800000E-02   1.009899E+02   2.999700E+00   9.998995E-01
+   2.480000E+00   2.700000E-02   1.069892E+02   3.199700E+00   9.998995E-01
+   2.580000E+00   3.000000E-02   1.039895E+02   3.099700E+00   9.998995E-01
+   2.690000E+00   3.100000E-02   1.329866E+02   3.999600E+00   9.998995E-01
+   2.800000E+00   4.500000E-02   1.509848E+02   4.499500E+00   9.998995E-01
+   2.860000E+00   5.000000E-02   1.799819E+02   5.399500E+00   9.998995E-01
+   2.920000E+00   5.500000E-02   1.939805E+02   5.799400E+00   9.998995E-01
+   2.940000E+00   7.000000E-02   2.029796E+02   6.099400E+00   9.998995E-01
+   1.352000E+01   7.000000E-02   4.009597E+02   1.199879E+01   9.998995E-01
+   1.410000E+01   7.000000E-02   3.399659E+02   9.999000E+00   9.998995E-01
+   1.446000E+01   8.400000E-02   3.189679E+02   1.599839E+01   9.998995E-01
+   1.474000E+01   1.350000E-01   2.879710E+02   1.399859E+01   9.998995E-01
+   1.484000E+01   1.700000E-01   2.809717E+02   1.399859E+01   9.998995E-01
+# reference:
+#   author: Cs.M.Buczko, J.Csikai, S.Sudar, A.Grallert, S.A.Jonah,  B.W.Jimba, T.Chimoye, M.Wagner
+#   title: Excitation functions and isomeric cross section  ratio of the 58Ni(n,p)58Com,g reactions from 2 to  15 MeV
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.52, p.1940 (1995)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  2.150000E+00
+#   E-max [MeV]:  1.484000E+01
+#   F-value:  1.149071E+00
+#   A-value:  9.380776E-01
+#   chi-2:  1.766090E+01
+#   p-value:  2.638181E-01
+#   exp. data sets for p-value:      4
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.107635E+00   9.532527E-01   1.060093E+01
+# endfb8.0      1.170534E+00   9.062453E-01   2.157956E+01
+# jendl5.0      1.162533E+00   9.555701E-01   2.080221E+01

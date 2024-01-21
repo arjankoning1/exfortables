@@ -1,0 +1,55 @@
+# header:
+#   title: Ce136(n,2n)Ce135 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: JunhuaLuoo
+#   year: 2015
+#   subentry: 32752002
+#   X4 reaction: 58-CE-136(N,2N)58-CE-135,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/32752002
+# target:
+#   Z: 58
+#   A: 136
+#   nuclide: Ce136
+# reaction:
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 58
+#   A: 135
+#   nuclide: Ce135
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.350000E+01   2.000000E-01   1.253000E+03   7.600002E+01   1.000000E+00
+   1.410000E+01   2.000000E-01   1.358000E+03   8.100001E+01   1.000000E+00
+   1.480000E+01   2.000000E-01   1.456000E+03   7.300001E+01   1.000000E+00
+# reference:
+#   author: Junhua Luo, Li An, Li Jiang
+#   title: Neutron-induced activation cross-sections on natural cerium up to 20 MeV
+#   journal: Jour: Journal of Radioanalytical and Nuclear Chemistry, Vol.305, p.691 (
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.350000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.060266E+00
+#   A-value:  1.002602E+00
+#   chi-2:  1.413796E+00
+#   p-value:  3.927387E-01
+#   exp. data sets for p-value:      3
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    1.100168E+00   9.098415E-01   3.001740E+00
+# endfb8.0      1.024662E+00   1.008289E+00   5.669776E-01
+# jeff3.3       1.084231E+00   1.080865E+00   2.587108E+00
+# jendl5.0      1.016953E+00   1.013292E+00   3.461778E-01
+# cendl3.2      1.024662E+00   1.008289E+00   5.669776E-01

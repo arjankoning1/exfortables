@@ -1,0 +1,56 @@
+# header:
+#   title: Cd0(h,x)Sn111 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Szelecsenyi
+#   year: 1991
+#   subentry: D4010003
+#   X4 reaction: 48-CD-0(HE3,X)50-SN-111,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D4010003
+# target:
+#   Z: 48
+#   A: 0
+#   nuclide: Cd0
+# reaction:
+#   type: (h,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 50
+#   A: 111
+#   nuclide: Sn111
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.670000E+01   0.000000E+00   2.050000E+01   3.000000E+00   1.000000E+00
+   1.780000E+01   0.000000E+00   3.300000E+01   7.000000E+00   1.000000E+00
+   1.980000E+01   0.000000E+00   4.250000E+01   9.500000E+00   1.000000E+00
+   2.030000E+01   0.000000E+00   4.500000E+01   9.500000E+00   1.000000E+00
+   2.210000E+01   0.000000E+00   6.200000E+01   1.100000E+01   1.000000E+00
+   2.320000E+01   0.000000E+00   6.300000E+01   1.200000E+01   1.000000E+00
+   2.410000E+01   0.000000E+00   7.200000E+01   1.300000E+01   1.000000E+00
+   2.610000E+01   0.000000E+00   7.600002E+01   1.400000E+01   1.000000E+00
+# reference:
+#   author: F.Szelecsenyi, Z.Kovacs, F.Tarkanyi, Gy.Toth
+#   title: Production of 110In for pet investigation via Cd(3He,xn)110Sn,110In reaction with low energy cyclotron
+#   journal: Jour: J.of Labelled Compounds and Radiopharmaceut., Vol.30, p.98 (1991)
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  1.670000E+01
+#   E-max [MeV]:  2.610000E+01
+#   F-value:  5.140199E+00
+#   A-value:  2.249968E-01
+#   chi-2:  1.558594E+01
+#   p-value:  1.699425E-01
+#   exp. data sets for p-value:      1
+#   libraries:      1
+##  Library          F              A            chi-2
+# tendl.2023    5.140199E+00   2.249968E-01   1.558594E+01

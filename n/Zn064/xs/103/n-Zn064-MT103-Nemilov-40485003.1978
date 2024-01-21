@@ -1,0 +1,57 @@
+# header:
+#   title: Zn64(n,p)Cu64 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Nemilov
+#   year: 1978
+#   subentry: 40485003
+#   X4 reaction: 30-ZN-64(N,P)29-CU-64,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/40485003
+# target:
+#   Z: 30
+#   A: 64
+#   nuclide: Zn64
+# reaction:
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 29
+#   A: 64
+#   nuclide: Cu64
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   7.600000E+00   3.000000E-01   2.490000E+02   3.000000E+01   1.000000E+00
+   8.300000E+00   3.000000E-01   2.500000E+02   3.000000E+01   1.000000E+00
+   8.800000E+00   3.000000E-01   2.520000E+02   3.000000E+01   1.000000E+00
+   9.300000E+00   3.000000E-01   2.600000E+02   3.000000E+01   1.000000E+00
+# reference:
+#   author: Yu.A.Nemilov,Yu.N.Trofimov
+#   title: Cross-sections of (n,p) reactions in the isotopes 58Ni, 56Fe and 64Zn for neutron energies of 7.6 - 9.3 MeV
+#   journal: Prog: Yaderno-Fizicheskie Issledovaniya v SSSR, No.26, p.25 (1978)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  7.600000E+00
+#   E-max [MeV]:  9.300000E+00
+#   F-value:  1.028730E+00
+#   A-value:  9.754057E-01
+#   chi-2:  2.731784E-01
+#   p-value:  2.708398E-01
+#   exp. data sets for p-value:      5
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2023    1.022840E+00   9.805092E-01   2.140150E-01
+# endfb8.0      1.030299E+00   9.757727E-01   2.692047E-01
+# jeff3.3       1.022699E+00   9.806385E-01   2.125728E-01
+# jendl5.0      1.032324E+00   9.698087E-01   3.375548E-01
+# cendl3.2      1.038132E+00   9.650488E-01   3.946386E-01
+# irdff2.0      1.022533E+00   9.807699E-01   2.110845E-01

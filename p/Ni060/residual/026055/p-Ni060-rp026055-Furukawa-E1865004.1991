@@ -1,0 +1,52 @@
+# header:
+#   title: Ni60(p,x)Fe55 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Furukawa
+#   year: 1991
+#   subentry: E1865004
+#   X4 reaction: 28-NI-60(P,X)26-FE-55,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/E1865004
+# target:
+#   Z: 28
+#   A: 60
+#   nuclide: Ni60
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 26
+#   A: 55
+#   nuclide: Fe55
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.366000E+01   0.000000E+00   7.098000E+00   0.000000E+00   1.000000E+00
+   4.007000E+01   0.000000E+00   2.651000E+01   0.000000E+00   1.000000E+00
+# reference:
+#   author: M.Furukawa, A.Shinohara, M.Narita, S.Kojima
+#   title: Production of 59,63Ni from natural Ni irradiated with protons up to Ep=40 MeV and decay of 56Ni
+#   journal: Prog: Univ.Tokyo,Inst.f.Nucl.Study, Annual Report, No.1990, p.35 (1991)
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  3.366000E+01
+#   E-max [MeV]:  4.007000E+01
+#   F-value:  2.707105E+00
+#   A-value:  2.315837E+00
+#   chi-2:  0.000000E+00
+#   p-value:  1.127637E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.718699E+00   1.522202E+00   0.000000E+00
+# endfb8.0      1.828303E+00   1.821148E+00   0.000000E+00
+# jendl5.0      4.583596E+00   4.480292E+00   0.000000E+00

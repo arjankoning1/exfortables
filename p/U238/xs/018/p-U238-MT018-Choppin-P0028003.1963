@@ -1,0 +1,60 @@
+# header:
+#   title: U238(p,f) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Choppin
+#   year: 1963
+#   subentry: P0028003
+#   X4 reaction: 92-U-238(P,F),,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/P0028003
+# target:
+#   Z: 92
+#   A: 238
+#   nuclide: U238
+# reaction:
+#   type: (p,f)
+#   ENDF_MF: 3
+#   ENDF_MT: 18
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 15
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   6.021000E+00   3.000000E-03   4.463000E-02   0.000000E+00   1.000000E+00
+   6.532000E+00   3.000000E-03   1.484000E-01   0.000000E+00   1.000000E+00
+   7.137000E+00   3.000000E-03   4.413000E-01   0.000000E+00   1.000000E+00
+   7.648000E+00   3.000000E-03   1.414000E+00   0.000000E+00   1.000000E+00
+   7.872000E+00   3.000000E-03   2.507000E+00   0.000000E+00   1.000000E+00
+   8.188000E+00   3.000000E-03   3.495000E+00   0.000000E+00   1.000000E+00
+   8.442000E+00   3.000000E-03   4.784000E+00   0.000000E+00   1.000000E+00
+   8.696000E+00   3.000000E-03   7.592000E+00   0.000000E+00   1.000000E+00
+   8.888000E+00   3.000000E-03   1.274000E+01   0.000000E+00   1.000000E+00
+   9.172000E+00   3.000000E-03   1.449000E+01   0.000000E+00   1.000000E+00
+   9.394000E+00   3.000000E-03   1.911000E+01   0.000000E+00   1.000000E+00
+   9.552000E+00   3.000000E-03   2.135000E+01   0.000000E+00   1.000000E+00
+   1.018600E+01   3.000000E-03   4.468000E+01   0.000000E+00   1.000000E+00
+   1.069100E+01   3.000000E-03   6.581001E+01   0.000000E+00   1.000000E+00
+   1.214300E+01   3.000000E-03   1.594000E+02   0.000000E+00   1.000000E+00
+# reference:
+#   author: G.R.Choppin,J.R.Meriwether,J.D.Fox
+#   title: Low-Energy Charged-Particle-Induced Fission
+#   journal: Jour: Physical Review, Vol.131, p.2149 (1963)
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  6.021000E+00
+#   E-max [MeV]:  1.214300E+01
+#   F-value:  1.893217E+00
+#   A-value:  1.585037E+00
+#   chi-2:  0.000000E+00
+#   p-value:  2.356213E-01
+#   exp. data sets for p-value:      5
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    2.394547E+00   2.281387E+00   0.000000E+00
+# jendl5.0      1.257035E+00   1.101234E+00   0.000000E+00

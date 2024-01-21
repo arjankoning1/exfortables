@@ -1,0 +1,51 @@
+# header:
+#   title: Ti50(n,x)Ti51 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Farinaarbocco
+#   year: 2013
+#   subentry: 23266024
+#   X4 reaction: 22-TI-50(N,G)22-TI-51,,SIG,,AV
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/23266024
+# target:
+#   Z: 22
+#   A: 50
+#   nuclide: Ti50
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+# residual:
+#   Z: 22
+#   A: 51
+#   nuclide: Ti51
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.530000E-08   0.000000E+00   1.725000E+02   4.600000E+00   1.000000E+00
+# reference:
+#   author: F.Farina Arbocco,P.Vermaercke,K.Smits,L.Sneyers, K.Strijckmans
+#   title: Experimental determination of k0, Q0, <Er> factors and neutron cross-sections for 41 isotopes of interest in Neutron Activation Analysis.
+#   journal: Jour: Journal of Radioanalytical and Nuclear Chemistry, Vol.296, p.931 (
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.530000E-08
+#   E-max [MeV]:  2.530000E-08
+#   F-value:  1.041751E+00
+#   A-value:  1.041533E+00
+#   chi-2:  2.936594E+00
+#   p-value:  4.214558E-01
+#   exp. data sets for p-value:      6
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.044579E+00   1.044579E+00   3.243129E+00
+# jeff3.3       1.044580E+00   1.044580E+00   3.243212E+00
+# jendl5.0      1.035468E+00   1.035468E+00   2.323440E+00

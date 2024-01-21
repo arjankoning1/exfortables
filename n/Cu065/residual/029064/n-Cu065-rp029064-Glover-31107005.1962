@@ -1,0 +1,52 @@
+# header:
+#   title: Cu65(n,x)Cu64 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Glover
+#   year: 1962
+#   subentry: 31107005
+#   X4 reaction: 29-CU-65(N,2N)29-CU-64,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/31107005
+# target:
+#   Z: 29
+#   A: 65
+#   nuclide: Cu65
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 29
+#   A: 64
+#   nuclide: Cu64
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.477000E+01   2.500000E-01   9.950000E+02   7.000000E+01   1.000000E+00
+# reference:
+#   author: R.N.GLOVER,E.WEIGOLD
+#   title: Some reaction cross sections for Copper and Nickel from 13.9 to 14.9 MeV neutron energy.
+#   journal: Jour: Nuclear Physics, Vol.29, p.309 (1962)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.477000E+01
+#   E-max [MeV]:  1.477000E+01
+#   F-value:  1.032202E+00
+#   A-value:  9.745518E-01
+#   chi-2:  5.105391E-01
+#   p-value:  3.032477E-01
+#   exp. data sets for p-value:      8
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2023    1.013064E+00   9.871041E-01   2.389229E-01
+# endfb8.0      1.059236E+00   9.440763E-01   1.197964E+00
+# jeff3.3       1.014512E+00   9.856952E-01   2.661929E-01
+# jendl5.0      1.018340E+00   9.819899E-01   3.390761E-01

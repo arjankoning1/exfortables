@@ -1,0 +1,64 @@
+# header:
+#   title: Co59(n,n'_01)Co60 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Almenramstrom
+#   year: 1975
+#   subentry: 20788032
+#   X4 reaction: 27-CO-59(N,INL)27-CO-59,PAR,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20788032
+#   level energy [MeV]  1.43400E+00
+# target:
+#   Z: 27
+#   A: 59
+#   nuclide: Co59
+# reaction:
+#   type: (n,n'_01)
+#   ENDF_MF: 3
+#   ENDF_MT: 51
+#   level: 
+#     number: 1
+#     energy [MeV]:  1.434256E+00
+#     spin:  5.000000E-01
+#     parity: -1
+# residual:
+#   Z: 27
+#   A: 60
+#   nuclide: Co60
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.270000E+00   0.000000E+00   4.619701E+02   1.382234E+02   1.002104E+00
+   2.500000E+00   0.000000E+00   3.451829E+02   5.122402E+01   1.006364E+00
+   2.770000E+00   0.000000E+00   2.742744E+02   4.096194E+01   1.001002E+00
+   3.010000E+00   0.000000E+00   2.512572E+02   3.796750E+01   1.001025E+00
+   3.290000E+00   0.000000E+00   2.179095E+02   3.307688E+01   1.004192E+00
+   3.520000E+00   0.000000E+00   2.047314E+02   3.105357E+01   1.003585E+00
+# reference:
+#   author: E.Almen-Ramstrom
+#   title: A systematic study of neutron inelastic scattering  in the energy range 2.0 to 4.5 MeV
+#   journal: Rept: Aktiebolaget Atomenergi,Stockholm/Studsvik Repts, No.503 (1975)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  2.270000E+00
+#   E-max [MeV]:  3.520000E+00
+#   F-value:  4.309162E+00
+#   A-value:  2.341027E-01
+#   chi-2:  2.247203E+01
+#   p-value:  1.755412E-01
+#   exp. data sets for p-value:      8
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    4.503064E+00   2.225852E-01   2.325029E+01
+# endfb8.0      4.883205E+00   2.072862E-01   2.421189E+01
+# jeff3.3       3.656604E+00   2.744910E-01   2.010065E+01
+# jendl5.0      4.220407E+00   2.387721E-01   2.226613E+01
+# cendl3.2      4.311546E+00   2.325165E-01   2.253118E+01

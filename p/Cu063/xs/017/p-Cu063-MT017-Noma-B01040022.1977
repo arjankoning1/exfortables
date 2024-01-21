@@ -1,0 +1,57 @@
+# header:
+#   title: Cu63(p,3n)Zn61 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Noma
+#   year: 1977
+#   subentry: B01040022
+#   X4 reaction: 29-CU-63(P,3N)30-ZN-61,,SIG,,,EXP
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/B01040022
+# target:
+#   Z: 29
+#   A: 63
+#   nuclide: Cu63
+# reaction:
+#   type: (p,3n)
+#   ENDF_MF: 3
+#   ENDF_MT: 17
+# residual:
+#   Z: 30
+#   A: 61
+#   nuclide: Zn61
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.020000E+01   0.000000E+00   1.200000E+00   2.500000E-01   1.000000E+00
+   3.180000E+01   0.000000E+00   1.600000E+00   2.500000E-01   1.000000E+00
+   3.550000E+01   0.000000E+00   4.800000E+00   7.200000E-01   1.000000E+00
+   3.880000E+01   0.000000E+00   5.800000E+00   7.400000E-01   1.000000E+00
+   4.180000E+01   0.000000E+00   4.100000E+00   8.300000E-01   1.000000E+00
+   4.440000E+01   0.000000E+00   5.000000E+00   9.000000E-01   1.000000E+00
+   4.720000E+01   0.000000E+00   3.600000E+00   5.800000E-01   1.000000E+00
+# reference:
+#   author: H.NOMA, T.HORIGUCHI, Y.YOSHIZAWA, I.FUJIWARA, S.KUME, K.CHIDA, T.MATSUI, S.AMEMIYA, T.KATOH
+#   title: Cross Sections of the Cu-63(P,3N)Zn-61 and the Cu-63(P,P3N)Cu-60 Reactions
+#   journal: Jour: Journal of Inorganic and Nuclear Chemistry, Vol.39, p.1923 (1977)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  3.020000E+01
+#   E-max [MeV]:  4.720000E+01
+#   F-value:  1.474777E+00
+#   A-value:  7.416402E-01
+#   chi-2:  3.190910E+00
+#   p-value:  2.899247E-01
+#   exp. data sets for p-value:      2
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.365371E+00   7.987811E-01   2.294894E+00
+# endfb8.0      1.417803E+00   7.728520E-01   2.508137E+00
+# jendl5.0      1.622038E+00   6.607781E-01   4.769700E+00

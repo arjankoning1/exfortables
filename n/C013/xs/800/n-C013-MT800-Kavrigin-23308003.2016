@@ -1,0 +1,54 @@
+# header:
+#   title: C13(n,p_00) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Kavrigin
+#   year: 2016
+#   subentry: 23308003
+#   X4 reaction: 6-C-13(N,A)4-BE-10,PAR,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/23308003
+#   level energy [MeV]  0.00000E+00
+# target:
+#   Z: 6
+#   A: 13
+#   nuclide: C13
+# reaction:
+#   type: (n,p_00)
+#   ENDF_MF: 3
+#   ENDF_MT: 800
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  5.000000E-01
+#     parity: 1
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.430000E+01   1.000000E-01   1.040000E+01   1.100000E+00   1.000000E+00
+   1.700000E+01   2.000000E-01   7.100000E+00   7.000000E-01   1.000000E+00
+# reference:
+#   author: P.Kavrigin, E.Griesmayer, F.Belloni, A.J.M.Plompen, P.Schillebeeckx, C.Weiss
+#   title: 13C(n,alpha0)10Be cross section measurement with sCVD diamond detector.
+#   journal: Jour: European Physical Journal A: Hadrons and Nuclei, Vol.52, p.179 (20
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  1.430000E+01
+#   E-max [MeV]:  1.700000E+01
+#   F-value:  4.257432E+00
+#   A-value:  1.313908E+00
+#   chi-2:  4.768666E+02
+#   p-value:  2.574507E-01
+#   exp. data sets for p-value:      2
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    3.590921E+00   3.569240E+00   6.828771E+02
+# endfb8.0      3.590921E+00   3.569240E+00   6.828771E+02
+# jendl5.0      5.696763E+00   1.780507E-01   6.484556E+01

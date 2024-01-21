@@ -1,0 +1,58 @@
+# header:
+#   title: Fe54(n,p)Mn54 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Paulsen
+#   year: 1971
+#   subentry: 20396002
+#   X4 reaction: 26-FE-54(N,P)25-MN-54,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20396002
+# target:
+#   Z: 26
+#   A: 54
+#   nuclide: Fe54
+# reaction:
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 25
+#   A: 54
+#   nuclide: Mn54
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.710000E+00   1.200000E-01   6.457900E+00   6.000000E-01   1.094557E+00
+   2.210000E+00   1.100000E-01   3.246504E+01   2.800000E+00   8.727161E-01
+   4.140000E+00   1.700000E-01   2.955352E+02   1.700000E+01   1.127997E+00
+   5.240000E+00   2.300000E-01   4.141507E+02   2.500000E+01   1.059209E+00
+   6.270000E+00   1.700000E-01   4.650064E+02   2.900000E+01   1.054436E+00
+# reference:
+#   author: A.PAULSEN, R.WIDERA
+#   title: -NI-58(N,P)CO-58 AND FE-54(N,P)MN-54 CROSS-SECTION  MEASUREMENTS FOR USE AS THRESHOLD DETECTORS.-
+#   journal: Conf: Chemical Nucl. Data Conf.,Canterbury 1971, p.129 (1971)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.710000E+00
+#   E-max [MeV]:  6.270000E+00
+#   F-value:  1.066817E+00
+#   A-value:  9.927805E-01
+#   chi-2:  1.116935E+00
+#   p-value:  3.292101E-01
+#   exp. data sets for p-value:      1
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2023    1.044469E+00   1.004710E+00   6.995276E-01
+# endfb8.0      1.072337E+00   9.915730E-01   1.002473E+00
+# jeff3.3       1.085416E+00   9.332629E-01   1.854576E+00
+# jendl5.0      1.043126E+00   1.003483E+00   7.787763E-01
+# cendl3.2      1.073014E+00   1.035135E+00   1.369349E+00
+# irdff2.0      1.072223E+00   9.913865E-01   9.969077E-01

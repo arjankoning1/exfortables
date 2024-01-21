@@ -1,0 +1,66 @@
+# header:
+#   title: Ni60(p,n')Cu60 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Uddin
+#   year: 2016
+#   subentry: D08080041
+#   X4 reaction: 28-NI-60(P,N)29-CU-60,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D08080041
+# target:
+#   Z: 28
+#   A: 60
+#   nuclide: Ni60
+# reaction:
+#   type: (p,n')
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+# residual:
+#   Z: 29
+#   A: 60
+#   nuclide: Cu60
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 16
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   7.100000E+00   4.000000E-01   2.400000E+01   1.600000E+00   1.000000E+00
+   7.400000E+00   4.000000E-01   6.600001E+01   5.000000E+00   1.000000E+00
+   8.000000E+00   4.000000E-01   1.490000E+02   1.200000E+01   1.000000E+00
+   8.800000E+00   4.000000E-01   2.230000E+02   1.500000E+01   1.000000E+00
+   9.400000E+00   4.000000E-01   2.620000E+02   1.800000E+01   1.000000E+00
+   1.000000E+01   3.000000E-01   2.610000E+02   1.800000E+01   1.000000E+00
+   1.110000E+01   3.000000E-01   2.880000E+02   2.000000E+01   1.000000E+00
+   1.170000E+01   3.000000E-01   2.870000E+02   2.000000E+01   1.000000E+00
+   1.220000E+01   3.000000E-01   2.920000E+02   2.000000E+01   1.000000E+00
+   1.310000E+01   3.000000E-01   3.010000E+02   2.000000E+01   1.000000E+00
+   1.370000E+01   3.000000E-01   2.710000E+02   1.900000E+01   1.000000E+00
+   1.420000E+01   2.000000E-01   2.610000E+02   1.800000E+01   1.000000E+00
+   1.490000E+01   2.000000E-01   2.250000E+02   1.600000E+01   1.000000E+00
+   1.550000E+01   2.000000E-01   1.840000E+02   3.100000E+01   1.000000E+00
+   1.570000E+01   2.000000E-01   1.810000E+02   3.000000E+01   1.000000E+00
+   1.590000E+01   2.000000E-01   1.640000E+02   2.700000E+01   1.000000E+00
+# reference:
+#   author: M.S.Uddin, S.Sudar, I.Spahn, M.A.Shariff, S.M.Qaim
+#   title: Excitation function of the 60Ni(p,g)61Cu reaction from  threshold to 16 MeV
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.93, p.044606 (2016)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  7.100000E+00
+#   E-max [MeV]:  1.590000E+01
+#   F-value:  1.357696E+00
+#   A-value:  8.899949E-01
+#   chi-2:  1.163731E+01
+#   p-value:  3.771698E-01
+#   exp. data sets for p-value:      2
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.220850E+00   1.020543E+00   5.541801E+00
+# endfb8.0      1.576391E+00   6.373404E-01   2.460974E+01
+# jendl5.0      1.101817E+00   1.091669E+00   2.083779E+00

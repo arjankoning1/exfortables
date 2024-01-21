@@ -1,0 +1,52 @@
+# header:
+#   title: Cr54(p,n')Mn54 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Gusev
+#   year: 1990
+#   subentry: A0616002
+#   X4 reaction: 24-CR-54(P,N)25-MN-54,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/A0616002
+# target:
+#   Z: 24
+#   A: 54
+#   nuclide: Cr54
+# reaction:
+#   type: (p,n')
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+# residual:
+#   Z: 25
+#   A: 54
+#   nuclide: Mn54
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.940000E+00   0.000000E+00   4.901176E+02   3.000720E+01   1.000240E+00
+   5.700000E+00   0.000000E+00   3.350804E+02   3.500840E+01   1.000240E+00
+# reference:
+#   author: V.P.GUSEV, A.A.KOLOZHVARY,A.V.SMIRNOV, A.E.ANTROPOV,  P.P.ZARUBIN
+#   title: Total Cross Sections of 54-Cr(P,N) Reactions at Proton Energy 5.70 and 5.94 MeV.
+#   journal: Conf: 40.Conf.Nucl.Spectroscopy Nucl.Struct.,Leningrad 1990, p.262 (1990
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  5.700000E+00
+#   E-max [MeV]:  5.940000E+00
+#   F-value:  1.351435E+00
+#   A-value:  1.286396E+00
+#   chi-2:  1.370959E+01
+#   p-value:  2.327542E-01
+#   exp. data sets for p-value:      2
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.308650E+00   1.236967E+00   1.023376E+01
+# endfb8.0      1.376891E+00   1.318409E+00   1.594261E+01
+# jendl5.0      1.366399E+00   1.305317E+00   1.495242E+01

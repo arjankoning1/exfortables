@@ -1,0 +1,55 @@
+# header:
+#   title: Cd113(n,np)Ag112 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Sakane
+#   year: 2000
+#   subentry: 22468002
+#   X4 reaction: 48-CD-113(N,X)47-AG-112,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22468002
+# target:
+#   Z: 48
+#   A: 113
+#   nuclide: Cd113
+# reaction:
+#   type: (n,np)
+#   ENDF_MF: 3
+#   ENDF_MT: 28
+# residual:
+#   Z: 47
+#   A: 112
+#   nuclide: Ag112
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.435000E+01   0.000000E+00   2.000000E-01   1.020000E-01   1.000000E+00
+   1.464000E+01   0.000000E+00   5.000000E-01   1.250000E-01   1.000000E+00
+   1.487000E+01   0.000000E+00   1.000000E+00   1.600000E-01   1.000000E+00
+# reference:
+#   author: H.Sakane, M.Shibata, K.Kawade, Y.Kasugai, Y.Ikeda
+#   title: Systematics of (n,n'p) reaction cross sections  by 14 MeV neutrons
+#   journal: Conf: Japanese report to the I.N.D.C., No.185, p.202 (2000)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.435000E+01
+#   E-max [MeV]:  1.487000E+01
+#   F-value:  3.990570E+00
+#   A-value:  3.467847E-01
+#   chi-2:  9.478478E+00
+#   p-value:  1.852903E-01
+#   exp. data sets for p-value:      2
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    2.045307E+00   5.351035E-01   6.872046E+00
+# endfb8.0      0.000000E+00   0.000000E+00   0.000000E+00
+# jeff3.3       9.258433E+00   1.158869E-01   1.663577E+01
+# jendl5.0      1.698782E+00   6.725235E-01   4.927616E+00
+# cendl3.2      0.000000E+00   0.000000E+00   0.000000E+00

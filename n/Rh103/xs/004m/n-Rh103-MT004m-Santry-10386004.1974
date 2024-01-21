@@ -1,0 +1,63 @@
+# header:
+#   title: Rh103(n,n')Rh103m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Santry
+#   year: 1974
+#   subentry: 10386004
+#   X4 reaction: 45-RH-103(N,INL)45-RH-103-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/10386004
+# target:
+#   Z: 45
+#   A: 103
+#   nuclide: Rh103
+# reaction:
+#   type: (n,n')
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+# residual:
+#   Z: 45
+#   A: 103
+#   nuclide: Rh103m
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   4.800000E+00   1.100000E-01   1.112085E+03   4.500000E+01   1.033536E+00
+   4.860000E+00   2.000000E-02   1.189327E+03   5.400001E+01   9.969212E-01
+   5.130000E+00   1.000000E-01   1.165403E+03   6.000000E+01   1.001206E+00
+   5.330000E+00   1.000000E-01   1.193878E+03   4.700000E+01   1.021282E+00
+   5.610000E+00   2.000000E-02   1.253828E+03   4.800000E+01   1.044857E+00
+   6.000000E+00   9.000000E-02   1.212567E+03   1.300000E+02   1.010472E+00
+   6.500000E+00   2.000000E-02   1.103868E+03   4.600000E+01   9.891286E-01
+# reference:
+#   author: D.C.Santry,J.P.Butler
+#   title: Cross Section Measurements for the 103Rh(n,n')103Rh(m)  Reaction from 0.122 to 14.74 MeV
+#   journal: Jour: Canadian Journal of Physics, Vol.52, p.1421 (1974)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  4.800000E+00
+#   E-max [MeV]:  6.500000E+00
+#   F-value:  1.052835E+00
+#   A-value:  1.013850E+00
+#   chi-2:  1.962298E+00
+#   p-value:  3.679192E-01
+#   exp. data sets for p-value:      7
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2023    1.045622E+00   1.002406E+00   1.508961E+00
+# jeff3.3       1.073325E+00   1.046011E+00   3.562348E+00
+# jendl5.0      1.041516E+00   1.005940E+00   1.293446E+00
+# irdff2.0      1.045167E+00   1.001713E+00   1.484435E+00

@@ -1,0 +1,56 @@
+# header:
+#   title: S34(p,x)Cl34m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Umbarger
+#   year: 1970
+#   subentry: C1961005
+#   X4 reaction: 16-S-34(P,N)17-CL-34-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C1961005
+# target:
+#   Z: 16
+#   A: 34
+#   nuclide: S34
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+# residual:
+#   Z: 17
+#   A: 34
+#   nuclide: Cl34m
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   6.753000E+00   0.000000E+00   6.349000E+00   4.252000E-01   1.000000E+00
+   6.844000E+00   0.000000E+00   1.282000E+01   5.824000E-01   1.000000E+00
+   6.930000E+00   0.000000E+00   1.451000E+01   6.232000E-01   1.000000E+00
+# reference:
+#   author: C.J.Umbarger,K.W.Kemper,J.W.Nelson,H.S.Plendl
+#   title: Excitation Functions for the Reactions 34S(p,n)34Cl and 31P(alpha,n)34Cl
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.2, Issue.4, p.1378 (
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  6.753000E+00
+#   E-max [MeV]:  6.930000E+00
+#   F-value:  2.070288E+00
+#   A-value:  2.057657E+00
+#   chi-2:  4.654072E+02
+#   p-value:  3.613617E-01
+#   exp. data sets for p-value:      1
+#   libraries:      1
+##  Library          F              A            chi-2
+# tendl.2023    2.070288E+00   2.057657E+00   4.654072E+02

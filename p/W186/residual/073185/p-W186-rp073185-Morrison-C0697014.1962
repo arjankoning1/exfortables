@@ -1,0 +1,55 @@
+# header:
+#   title: W186(p,x)Ta185 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Morrison
+#   year: 1962
+#   subentry: C0697014
+#   X4 reaction: 74-W-186(P,2P)73-TA-185,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C0697014
+# target:
+#   Z: 74
+#   A: 186
+#   nuclide: W186
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 111
+# residual:
+#   Z: 73
+#   A: 185
+#   nuclide: Ta185
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.300000E+02   0.000000E+00   2.980000E+00   4.800000E-01   1.000000E+00
+   2.100000E+02   0.000000E+00   5.550000E+00   0.000000E+00   1.000000E+00
+   3.000000E+02   0.000000E+00   5.480000E+00   0.000000E+00   1.000000E+00
+   4.000000E+02   0.000000E+00   6.930000E+00   1.740000E+00   1.000000E+00
+   4.250000E+02   0.000000E+00   7.440000E+00   1.210000E+00   1.000000E+00
+# reference:
+#   author: D.L.MORRISON,A.A.CARETTO
+#   title: Excitation Functions of (p,xp) Reactions
+#   journal: Jour: Physical Review, Vol.127, p.1731 (1962)
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  1.300000E+02
+#   E-max [MeV]:  4.250000E+02
+#   F-value:  5.330470E+00
+#   A-value:  5.186594E+00
+#   chi-2:  8.357351E+02
+#   p-value:  7.464629E-02
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    7.022711E+00   7.022711E+00   1.398087E+03
+# endfb8.0      5.778066E+00   5.778066E+00   8.799431E+02
+# jendl5.0      3.438423E+00   3.438423E+00   2.291755E+02

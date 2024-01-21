@@ -1,0 +1,53 @@
+# header:
+#   title: Xe131(n,p)I131 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Kondaiah
+#   year: 1968
+#   subentry: 11884017
+#   X4 reaction: 54-XE-131(N,P)53-I-131,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11884017
+# target:
+#   Z: 54
+#   A: 131
+#   nuclide: Xe131
+# reaction:
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 53
+#   A: 131
+#   nuclide: I131
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.440000E+01   3.000000E-01   5.688900E+00   5.706500E-01   1.073386E+00
+# reference:
+#   author: E.KONDAIAH,N.RANAKUMAR,R.W.FINK
+#   title: NEUTRON ACTIVATION CROSS SECTIONS AT 14.4 MEV FOR KR AND XE ISOTOPES.
+#   journal: Jour: Nuclear Physics, Section A, Vol.120, p.337 (1968)
+# statistics:
+#   NEA score: R2
+#   IAEA score:  1
+#   E-min [MeV]:  1.440000E+01
+#   E-max [MeV]:  1.440000E+01
+#   F-value:  1.952673E+00
+#   A-value:  1.602670E+00
+#   chi-2:  1.889548E+02
+#   p-value:  1.273105E-01
+#   exp. data sets for p-value:      3
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    1.567643E+00   1.567643E+00   3.202343E+01
+# endfb8.0      1.073403E+00   1.073403E+00   1.085181E+00
+# jeff3.3       1.317362E+00   1.317362E+00   1.004059E+01
+# jendl5.0      4.005343E+00   4.005343E+00   8.976461E+02
+# cendl3.2      1.190872E+00   1.190872E+00   3.978959E+00

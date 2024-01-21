@@ -1,0 +1,51 @@
+# header:
+#   title: Mo100(n,x)Mo99 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Ram
+#   year: 2020
+#   subentry: 33147003
+#   X4 reaction: 42-MO-100(N,2N)42-MO-99,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/33147003
+# target:
+#   Z: 42
+#   A: 100
+#   nuclide: Mo100
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 42
+#   A: 99
+#   nuclide: Mo99
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.454000E+01   4.000000E-03   1.523757E+03   1.501347E+02   1.004918E+00
+   1.454000E+01   4.000000E-03   1.547373E+03   1.033056E+02   1.004918E+00
+# reference:
+#   author: S.P.Ram, J.Nair, S.V.Suryanarayana, L.S.Danu, S.Bishnoi, H.Naik, S.Ganesan
+#   title: Measurement and covariance analysis of 100Mo(n,2n)99Mo and 96Mo(n,p)96Nb reaction cross sections at the incident neutron energy of 14.54 MeV
+#   journal: Jour: Journal of Radioanalytical and Nuclear Chemistry, Vol.325, p.831 (
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.454000E+01
+#   E-max [MeV]:  1.454000E+01
+#   F-value:  1.052872E+00
+#   A-value:  9.618953E-01
+#   chi-2:  7.904767E-01
+#   p-value:  3.258506E-01
+#   exp. data sets for p-value:      8
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.009160E+00   9.924009E-01   1.393908E-01
+# jendl5.0      1.074967E+00   9.323275E-01   1.441563E+00

@@ -1,0 +1,56 @@
+# header:
+#   title: Au197(p,x)Au191 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Ditroi
+#   year: 2016
+#   subentry: D4351013
+#   X4 reaction: 79-AU-197(P,X)79-AU-191,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D4351013
+# target:
+#   Z: 79
+#   A: 197
+#   nuclide: Au197
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 79
+#   A: 191
+#   nuclide: Au191
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.810000E+01   5.000000E-01   1.340000E+01   1.800000E+00   1.000000E+00
+   5.900000E+01   4.000000E-01   2.650000E+01   3.300000E+00   1.000000E+00
+   5.990000E+01   4.000000E-01   5.110000E+01   6.000000E+00   1.000000E+00
+   6.080000E+01   4.000000E-01   7.770000E+01   8.800000E+00   1.000000E+00
+   6.170000E+01   4.000000E-01   9.900001E+01   1.100000E+01   1.000000E+00
+   6.260000E+01   3.000000E-01   1.497000E+02   1.650000E+01   1.000000E+00
+   6.350000E+01   3.000000E-01   1.865000E+02   2.050000E+01   1.000000E+00
+# reference:
+#   author: F.Ditroi,F.Tarkanyi,S.Takacs,A.Hermanne
+#   title: Activation cross sections of proton induced nuclear reactions on gold up to 65 MeV
+#   journal: Jour: Applied Radiation and Isotopes, Vol.113, p.96 (2016)
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  5.810000E+01
+#   E-max [MeV]:  6.350000E+01
+#   F-value:  1.118052E+01
+#   A-value:  1.175236E-01
+#   chi-2:  4.991414E+01
+#   p-value:  2.379558E-02
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    2.535204E+01   4.017719E-02   6.789880E+01
+# jendl5.0      2.997451E+00   3.437720E-01   3.192949E+01

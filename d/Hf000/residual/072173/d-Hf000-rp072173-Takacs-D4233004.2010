@@ -1,0 +1,56 @@
+# header:
+#   title: Hf0(d,x)Hf173 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Takacs
+#   year: 2010
+#   subentry: D4233004
+#   X4 reaction: 72-HF-0(D,X)72-HF-173,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D4233004
+# target:
+#   Z: 72
+#   A: 0
+#   nuclide: Hf0
+# reaction:
+#   type: (d,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 72
+#   A: 173
+#   nuclide: Hf173
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.390000E+01   5.000000E-01   8.000000E-03   1.000000E-03   1.000000E+00
+   1.500000E+01   5.000000E-01   4.300000E-02   3.700000E-02   1.000000E+00
+   1.600000E+01   5.000000E-01   6.400000E-02   4.200000E-02   1.000000E+00
+   1.700000E+01   4.000000E-01   1.700000E-01   5.000000E-02   1.000000E+00
+   1.790000E+01   4.000000E-01   4.900000E-01   8.000000E-02   1.000000E+00
+   1.880000E+01   4.000000E-01   7.200000E-01   9.999999E-02   1.000000E+00
+   1.970000E+01   3.000000E-01   1.040000E+00   1.300000E-01   1.000000E+00
+   2.060000E+01   3.000000E-01   1.300000E+00   1.600000E-01   1.000000E+00
+# reference:
+#   author: S.Takacs, F.Tarkanyi, A.Hermanne, R.Adam Rebeles
+#   title: Activation cross sections of deuteron-induced nuclear reactions on hafnium
+#   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.268, p.3443 (2
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  1.390000E+01
+#   E-max [MeV]:  2.060000E+01
+#   F-value:  1.968351E+01
+#   A-value:  6.263713E-02
+#   chi-2:  3.305093E+01
+#   p-value:  3.029080E-02
+#   exp. data sets for p-value:      1
+#   libraries:      1
+##  Library          F              A            chi-2
+# tendl.2023    1.968351E+01   6.263713E-02   3.305093E+01

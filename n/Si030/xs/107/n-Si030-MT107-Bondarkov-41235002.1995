@@ -1,0 +1,53 @@
+# header:
+#   title: Si30(n,a)Mg27 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Bondarkov
+#   year: 1995
+#   subentry: 41235002
+#   X4 reaction: 14-SI-30(N,A)12-MG-27,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/41235002
+# target:
+#   Z: 14
+#   A: 30
+#   nuclide: Si30
+# reaction:
+#   type: (n,a)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+# residual:
+#   Z: 12
+#   A: 27
+#   nuclide: Mg27
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.400000E+01   0.000000E+00   5.600000E+01   5.000000E+00   1.000000E+00
+# reference:
+#   author: M.D.BONDAR'KOV,I.N.VISHNEVSKIY,L.P.KOTSUBO,T.N.LASHKO, YU.I.TOTSKIY,M.A.UKHIN
+#   title: MEASUREMENT OF (N,GAMMA) AND (N,ALPHA) CROSS SECTION  ON SI-30
+#   journal: Conf: Conf.Nucl.Spectrosc.Nucl.Struct.,St.Petersburg 1995, p.240 (1995)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.400000E+01
+#   E-max [MeV]:  1.400000E+01
+#   F-value:  1.300569E+00
+#   A-value:  1.207578E+00
+#   chi-2:  1.208728E+01
+#   p-value:  1.814157E-01
+#   exp. data sets for p-value:      5
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    1.141062E+00   8.763763E-01   2.458261E+00
+# endfb8.0      1.417307E+00   1.417307E+00   2.184491E+01
+# jeff3.3       1.417307E+00   1.417307E+00   2.184491E+01
+# jendl5.0      1.112894E+00   1.112894E+00   2.166784E+00
+# cendl3.2      1.310702E+00   1.310702E+00   1.212153E+01

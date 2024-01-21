@@ -1,0 +1,63 @@
+# header:
+#   title: Ti48(n,x)Ti49 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Allen
+#   year: 1977
+#   subentry: 30359015
+#   X4 reaction: 22-TI-48(N,G)22-TI-49,,SIG,,AV
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30359015
+# target:
+#   Z: 22
+#   A: 48
+#   nuclide: Ti48
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+# residual:
+#   Z: 22
+#   A: 49
+#   nuclide: Ti49
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 13
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   6.500000E-03   3.500000E-03   1.940000E+00   9.000000E-02   1.000000E+00
+   1.500000E-02   5.000000E-03   8.180000E+01   3.770000E+01   1.000000E+00
+   2.500000E-02   5.000000E-03   2.940000E+01   6.200000E+00   1.000000E+00
+   3.500000E-02   5.000000E-03   3.430000E+01   9.700001E+00   1.000000E+00
+   4.500000E-02   5.000000E-03   4.950000E+00   2.900000E-01   1.000000E+00
+   5.500000E-02   5.000000E-03   1.410000E+01   7.700000E+00   1.000000E+00
+   7.500000E-02   5.000000E-03   1.330000E+01   6.000000E-01   1.000000E+00
+   8.500000E-02   5.000000E-03   1.220000E+01   6.000000E-01   1.000000E+00
+   9.500000E-02   5.000000E-03   6.120000E+00   3.100000E-01   1.000000E+00
+   1.250000E-01   2.500000E-02   5.080000E+00   2.600000E-01   1.000000E+00
+   1.750000E-01   2.500000E-02   4.530000E+00   2.400000E-01   1.000000E+00
+   2.250000E-01   2.500000E-02   4.380000E+00   2.400000E-01   1.000000E+00
+   2.750000E-01   2.500000E-02   6.020000E+00   3.100000E-01   1.000000E+00
+# reference:
+#   author: B.J.Allen, J.W.Boldeman, A.R.de L.Musgrove,  R.L.Macklin
+#   title: Resonance neutron capture in the isotopes of titanium
+#   journal: Rept: Australian AEC Reports, No.402 (1977)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  6.500000E-03
+#   E-max [MeV]:  2.750000E-01
+#   F-value:  8.063227E+00
+#   A-value:  3.183198E-01
+#   chi-2:  2.158917E+03
+#   p-value:  1.722446E-01
+#   exp. data sets for p-value:      2
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    8.063227E+00   3.183198E-01   2.158918E+03
+# jeff3.3       8.063227E+00   3.183198E-01   2.158917E+03
+# jendl5.0      8.063227E+00   3.183198E-01   2.158915E+03

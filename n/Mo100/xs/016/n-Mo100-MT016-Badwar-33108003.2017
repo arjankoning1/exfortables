@@ -1,0 +1,54 @@
+# header:
+#   title: Mo100(n,2n)Mo99 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Badwar
+#   year: 2017
+#   subentry: 33108003
+#   X4 reaction: 42-MO-100(N,2N)42-MO-99,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/33108003
+# target:
+#   Z: 42
+#   A: 100
+#   nuclide: Mo100
+# reaction:
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 42
+#   A: 99
+#   nuclide: Mo99
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.190000E+01   3.500000E-01   1.311720E+03   1.339800E+02   1.000000E+00
+   1.575000E+01   7.000000E-01   1.484980E+03   1.826300E+02   1.000000E+00
+# reference:
+#   author: S.Badwar, R.Ghosh, B.M.Lawriniang, V.Vansola,  Y.S.Sheela, H.Naik, Y.Naik, S.V.Suryanarayana,  B.Jyrwa, S.Ganesan
+#   title: Measurement of formation cross-section of 99Mo from the 98Mo(n,gamma) and 100Mo(n,2n) reactions
+#   journal: Jour: Applied Radiation and Isotopes, Vol.129, p.117 (2017)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.190000E+01
+#   E-max [MeV]:  1.575000E+01
+#   F-value:  1.015407E+00
+#   A-value:  9.913768E-01
+#   chi-2:  1.208129E-01
+#   p-value:  3.751664E-01
+#   exp. data sets for p-value:      2
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    1.002618E+00   1.001759E+00   2.378099E-02
+# endfb8.0      1.001425E+00   1.001003E+00   1.035454E-02
+# jeff3.3       1.024354E+00   9.767418E-01   2.797868E-01
+# jendl5.0      1.024354E+00   9.767418E-01   2.797868E-01
+# cendl3.2      1.001425E+00   1.001003E+00   1.035548E-02

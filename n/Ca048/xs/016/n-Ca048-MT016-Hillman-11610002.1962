@@ -1,0 +1,52 @@
+# header:
+#   title: Ca48(n,2n)Ca47 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Hillman
+#   year: 1962
+#   subentry: 11610002
+#   X4 reaction: 20-CA-48(N,2N)20-CA-47,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11610002
+# target:
+#   Z: 20
+#   A: 48
+#   nuclide: Ca48
+# reaction:
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 20
+#   A: 47
+#   nuclide: Ca47
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.450000E+01   5.000000E-01   9.789944E+02   1.957989E+02   1.064124E+00
+# reference:
+#   author: M.Hillman
+#   title: Formation cross sections for CA47 using 14.5MEV neutrons.
+#   journal: Jour: Nuclear Physics, Vol.37, p.78 (1962)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.450000E+01
+#   E-max [MeV]:  1.450000E+01
+#   F-value:  1.079383E+00
+#   A-value:  9.596438E-01
+#   chi-2:  2.824205E-01
+#   p-value:  1.877271E-01
+#   exp. data sets for p-value:      6
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2023    1.012233E+00   9.879148E-01   7.670215E-02
+# endfb8.0      1.000816E+00   1.000816E+00   5.116628E-03
+# jeff3.3       1.001142E+00   9.988594E-01   7.156042E-03
+# jendl5.0      1.164495E+00   8.587412E-01   1.040707E+00

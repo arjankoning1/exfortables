@@ -1,0 +1,66 @@
+# header:
+#   title: Ba134(n,x)Ba135 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Voss
+#   year: 1994
+#   subentry: 22307016
+#   X4 reaction: 56-BA-134(N,G)56-BA-135,,SIG,,AV
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22307016
+# target:
+#   Z: 56
+#   A: 134
+#   nuclide: Ba134
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+# residual:
+#   Z: 56
+#   A: 135
+#   nuclide: Ba135
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 17
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   6.250000E-03   1.250000E-03   3.553067E+02   1.156356E+01   1.031968E+00
+   8.750000E-03   1.250000E-03   4.180203E+02   1.326636E+01   1.058279E+00
+   1.125000E-02   1.250000E-03   3.051953E+02   1.006228E+01   1.018676E+00
+   1.375000E-02   1.250000E-03   2.146772E+02   6.525700E+00   1.104875E+00
+   1.750000E-02   2.500000E-03   2.736816E+02   8.383000E+00   1.096481E+00
+   2.250000E-02   2.500000E-03   2.291389E+02   6.955600E+00   1.106417E+00
+   2.750000E-02   2.500000E-03   1.691297E+02   5.316600E+00   1.068413E+00
+   3.500000E-02   5.000000E-03   1.815360E+02   5.578600E+00   1.092932E+00
+   4.500000E-02   5.000000E-03   1.426848E+02   4.513900E+00   1.061643E+00
+   5.500000E-02   5.000000E-03   1.430516E+02   4.409800E+00   1.089502E+00
+   7.000000E-02   1.000000E-02   1.243192E+02   3.835500E+00   1.088609E+00
+   9.000000E-02   1.000000E-02   1.147734E+02   3.516400E+00   1.096212E+00
+   1.100000E-01   1.000000E-02   1.042556E+02   3.311600E+00   1.057359E+00
+   1.350000E-01   1.500000E-02   9.302352E+01   2.992500E+00   1.044035E+00
+   1.625000E-01   1.250000E-02   9.048032E+01   2.945500E+00   1.031703E+00
+   1.875000E-01   1.250000E-02   8.597498E+01   2.794300E+00   1.033353E+00
+   2.125000E-01   1.250000E-02   7.922478E+01   2.629800E+00   1.011811E+00
+# reference:
+#   author: F.Voss,K.Wisshak,K.Guber,F.Kaeppeler,G.Reffo
+#   title: Stellar neutron capture cross section of Ba isotopes
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.50, Issue.5, p.2582
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  6.250000E-03
+#   E-max [MeV]:  2.125000E-01
+#   F-value:  1.923297E+00
+#   A-value:  8.700316E-01
+#   chi-2:  1.919466E+02
+#   p-value:  3.421792E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.908652E+00   8.410814E-01   1.401849E+02
+# jendl5.0      1.937883E+00   8.999782E-01   2.437082E+02

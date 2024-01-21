@@ -1,0 +1,59 @@
+# header:
+#   title: Zr0(p,x)Y88 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Uddin
+#   year: 2008
+#   subentry: D0455011
+#   X4 reaction: 40-ZR-0(P,X)39-Y-88,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D0455011
+# target:
+#   Z: 40
+#   A: 0
+#   nuclide: Zr0
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 39
+#   A: 88
+#   nuclide: Y88
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 10
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.150000E+01   9.000000E-01   8.000000E-01   9.999999E-02   1.000000E+00
+   2.458000E+01   8.000000E-01   2.700000E+00   3.000000E-01   1.000000E+00
+   2.671000E+01   7.000000E-01   2.800000E+00   3.000000E-01   1.000000E+00
+   2.879000E+01   7.000000E-01   2.200000E+00   3.000000E-01   1.000000E+00
+   3.070000E+01   6.000000E-01   4.200000E+00   5.000000E-01   1.000000E+00
+   3.310000E+01   5.000000E-01   6.000000E+00   7.000000E-01   1.000000E+00
+   3.480000E+01   5.000000E-01   8.000000E+00   8.000000E-01   1.000000E+00
+   3.654000E+01   4.000000E-01   1.040000E+01   1.100000E+00   1.000000E+00
+   3.813000E+01   4.000000E-01   1.180000E+01   1.000000E+00   1.000000E+00
+   3.973000E+01   4.000000E-01   1.310000E+01   1.600000E+00   1.000000E+00
+# reference:
+#   author: M.S.Uddin,M.U.Khandaker,K.S.Kim,Y.S.Lee,M.W.Lee, G.N.Kim
+#   title: Excitation functions of the proton induced nuclear reactions on natural zirconium
+#   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.266, p.13 (200
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  2.150000E+01
+#   E-max [MeV]:  3.973000E+01
+#   F-value:  3.155952E+00
+#   A-value:  3.051440E+00
+#   chi-2:  4.105599E+02
+#   p-value:  1.437271E-01
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    2.776655E+00   2.685439E+00   2.788703E+02
+# jendl5.0      3.541084E+00   3.467325E+00   5.422496E+02

@@ -1,0 +1,62 @@
+# header:
+#   title: Co59(n,2n)Co58 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: LiTingyann
+#   year: 1990
+#   subentry: 32591004
+#   X4 reaction: 27-CO-59(N,2N)27-CO-58,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/32591004
+# target:
+#   Z: 27
+#   A: 59
+#   nuclide: Co59
+# reaction:
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 27
+#   A: 58
+#   nuclide: Co58
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 9
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.284000E+01   3.400000E-01   4.899980E+02   4.699981E+01   9.999960E-01
+   1.360000E+01   3.000000E-01   6.399974E+02   2.699989E+01   9.999960E-01
+   1.374000E+01   1.100000E-01   6.489974E+02   2.699989E+01   9.999960E-01
+   1.460000E+01   2.200000E-01   7.609969E+02   3.699985E+01   9.999960E-01
+   1.472000E+01   2.600000E-01   7.639971E+02   4.299983E+01   9.999960E-01
+   1.481000E+01   3.000000E-01   8.159967E+02   5.199979E+01   9.999960E-01
+   1.537000E+01   4.400000E-01   8.039968E+02   5.299979E+01   9.999960E-01
+   1.704000E+01   1.700000E-01   9.129964E+02   4.999980E+01   9.999960E-01
+   1.777000E+01   1.800000E-01   9.179963E+02   6.299975E+01   9.999960E-01
+# reference:
+#   author: Li Tingyan,Shi Zhaomin,Lu Hanlin,Zhao Wenrong, Yu Weixiang,Yuan Xialin
+#   title: The cross section measurements for Co-59(n,p)Fe-59, Co-59(n,alpha)Mn-56 and Co-59(n,2n)Co-58 reaction
+#   journal: Jour: High Energy Physics and Nucl.Physics,Chinese ed., Vol.14, Issue.6,
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.284000E+01
+#   E-max [MeV]:  1.777000E+01
+#   F-value:  1.044277E+00
+#   A-value:  9.821842E-01
+#   chi-2:  7.701423E-01
+#   p-value:  2.409898E-01
+#   exp. data sets for p-value:      7
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2023    1.037740E+00   9.765377E-01   6.084569E-01
+# endfb8.0      1.045647E+00   9.716904E-01   7.717069E-01
+# jeff3.3       1.060718E+00   9.659656E-01   1.056264E+00
+# jendl5.0      1.032997E+00   9.841666E-01   4.639352E-01
+# cendl3.2      1.046025E+00   1.018039E+00   1.136715E+00
+# irdff2.0      1.037344E+00   9.775661E-01   5.837750E-01

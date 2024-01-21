@@ -1,0 +1,62 @@
+# header:
+#   title: Pb0(p,x)Bi206 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Ditroi
+#   year: 2014
+#   subentry: D4304002
+#   X4 reaction: 82-PB-0(P,X)83-BI-206,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D4304002
+# target:
+#   Z: 82
+#   A: 0
+#   nuclide: Pb0
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 83
+#   A: 206
+#   nuclide: Bi206
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 12
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.440000E+01   8.000000E-01   1.666000E+02   1.870000E+01   1.000000E+00
+   1.720000E+01   7.000000E-01   2.151000E+02   2.420000E+01   1.000000E+00
+   1.970000E+01   7.000000E-01   2.523000E+02   2.830000E+01   1.000000E+00
+   2.200000E+01   6.000000E-01   3.945000E+02   4.430000E+01   1.000000E+00
+   2.420000E+01   6.000000E-01   5.408000E+02   6.070000E+01   1.000000E+00
+   2.620000E+01   5.000000E-01   6.115000E+02   6.870000E+01   1.000000E+00
+   2.810000E+01   5.000000E-01   6.356000E+02   7.140001E+01   1.000000E+00
+   2.990000E+01   4.000000E-01   6.005000E+02   6.740001E+01   1.000000E+00
+   3.160000E+01   4.000000E-01   5.085000E+02   5.710000E+01   1.000000E+00
+   3.320000E+01   4.000000E-01   4.044000E+02   4.540000E+01   1.000000E+00
+   3.480000E+01   3.000000E-01   2.969000E+02   3.330000E+01   1.000000E+00
+   3.630000E+01   3.000000E-01   2.092000E+02   2.350000E+01   1.000000E+00
+# reference:
+#   author: F.Ditroi,F.Tarkanyi,S.Takacs,A.Hermanne
+#   title: Proton-induced cross-sections of nuclear reactions on lead up to 37 MeV
+#   journal: Jour: Applied Radiation and Isotopes, Vol.90, p.208 (2014)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  1.440000E+01
+#   E-max [MeV]:  3.630000E+01
+#   F-value:  1.128212E+00
+#   A-value:  1.041004E+00
+#   chi-2:  1.583735E+00
+#   p-value:  3.641909E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.112988E+00   9.737998E-01   1.102342E+00
+# endfb8.0      1.175302E+00   1.153572E+00   2.854982E+00
+# jendl5.0      1.081290E+00   1.004254E+00   7.938808E-01

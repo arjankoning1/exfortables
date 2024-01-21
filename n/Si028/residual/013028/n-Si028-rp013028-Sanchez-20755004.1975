@@ -1,0 +1,51 @@
+# header:
+#   title: Si28(n,x)Al28 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Sanchez
+#   year: 1975
+#   subentry: 20755004
+#   X4 reaction: 14-SI-28(N,P)13-AL-28,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20755004
+# target:
+#   Z: 14
+#   A: 28
+#   nuclide: Si28
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 13
+#   A: 28
+#   nuclide: Al28
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.410000E+01   6.000000E-01   3.614619E+01   1.142332E+01   9.512154E-01
+# reference:
+#   author: M.L.Sanchez,J.L.Casanova,J.Casanova
+#   title: Activation cross section of O-16, Si-28, Na-23, for  14.1+-0.3 MeV neutrons
+#   journal: Jour: Anales de Fisica, Vol.71, p.119 (1975)
+# statistics:
+#   NEA score: T3
+#   IAEA score:  1
+#   E-min [MeV]:  1.410000E+01
+#   E-max [MeV]:  1.410000E+01
+#   F-value:  7.406821E+00
+#   A-value:  7.405149E+00
+#   chi-2:  4.116946E+02
+#   p-value:  0.000000E+00
+#   exp. data sets for p-value:      8
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    7.423724E+00   7.423724E+00   4.131562E+02
+# endfb8.0      7.672931E+00   7.672931E+00   4.458346E+02
+# jendl5.0      7.128829E+00   7.128829E+00   3.760930E+02

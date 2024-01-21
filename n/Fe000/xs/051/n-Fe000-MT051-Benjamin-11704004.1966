@@ -1,0 +1,62 @@
+# header:
+#   title: Fe0(n,n'_01)Fe1 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Benjamin
+#   year: 1966
+#   subentry: 11704004
+#   X4 reaction: 26-FE-0(N,INL)26-FE-0,PAR,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11704004
+#   level energy [MeV]  8.45000E-01
+# target:
+#   Z: 26
+#   A: 0
+#   nuclide: Fe0
+# reaction:
+#   type: (n,n'_01)
+#   ENDF_MF: 3
+#   ENDF_MT: 51
+#   level: 
+#     number: 1
+#     energy [MeV]:  8.467780E-01
+#     spin:  2.000000E+00
+#     parity: 1
+# residual:
+#   Z: 26
+#   A: 1
+#   nuclide: Fe1
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.500000E+00   0.000000E+00   1.039000E+03   2.260000E+02   1.000000E+00
+   3.100000E+00   0.000000E+00   7.770000E+02   2.450000E+02   1.000000E+00
+   3.500000E+00   0.000000E+00   6.140000E+02   2.340000E+02   1.000000E+00
+   4.000000E+00   0.000000E+00   5.600000E+02   2.830000E+02   1.000000E+00
+# reference:
+#   author: R.W.Benjamin,P.S.Buchanan,I.L.Morgan
+#   title: Gamma rays produced in the Fe-56(n,n'gamma)Fe-56 reaction.
+#   journal: Jour: Nuclear Physics, Vol.79, p.241 (1966)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.500000E+00
+#   E-max [MeV]:  4.000000E+00
+#   F-value:  1.261514E+00
+#   A-value:  8.397961E-01
+#   chi-2:  7.647153E-01
+#   p-value:  2.242805E-01
+#   exp. data sets for p-value:      7
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    1.295165E+00   8.337749E-01   1.024527E+00
+# endfb8.0      1.135671E+00   9.264598E-01   2.357807E-01
+# jeff3.3       1.156908E+00   8.827167E-01   5.773742E-01
+# jendl5.0      1.185895E+00   8.774511E-01   6.085817E-01
+# cendl3.2      1.446859E+00   6.981511E-01   1.377313E+00

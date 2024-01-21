@@ -1,0 +1,55 @@
+# header:
+#   title: H2(p,g)He3 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Bystritsky
+#   year: 2014
+#   subentry: F1230002
+#   X4 reaction: 1-H-2(P,G)2-HE-3,,SIG,,SFC
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/F1230002
+# target:
+#   Z: 1
+#   A: 2
+#   nuclide: H2
+# reaction:
+#   type: (p,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+# residual:
+#   Z: 2
+#   A: 3
+#   nuclide: He3
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   9.000000E-03   1.440000E-03   1.418000E-06   1.890700E-07   1.000000E+00
+   1.100000E-02   1.760000E-03   3.047400E-06   3.152500E-07   1.000000E+00
+   1.300000E-02   2.080000E-03   5.507900E-06   5.697800E-07   1.000000E+00
+   1.500000E-02   2.400000E-03   8.711700E-06   6.008100E-07   1.000000E+00
+   1.700000E-02   2.720000E-03   1.257300E-05   8.670800E-07   1.000000E+00
+   1.900000E-02   3.040000E-03   1.757200E-05   1.171500E-06   1.000000E+00
+# reference:
+#   author: V.M.Bystritsky,Vit.M.Bystritskii,G.N.Dudkin, M.Filipowicz,S.Gazi,J.Huran,B.A.Nechaev,V.N.Padalko, S.S.Parzhitskii,F.M.Pen'kov,A.V.Philippov, Yu.Zh.Tuleushev
+#   title: First experimental evidence of D(p,gamma)He-3 reaction in deuteride titanium in ultralow collision energy region.
+#   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.A, Vol.753, p.91 (201
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  9.000000E-03
+#   E-max [MeV]:  1.900000E-02
+#   F-value:  0.000000E+00
+#   A-value:  0.000000E+00
+#   chi-2:  0.000000E+00
+#   p-value:  0.000000E+00
+#   exp. data sets for p-value:      5
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    0.000000E+00   0.000000E+00   0.000000E+00
+# endfb8.0      0.000000E+00   0.000000E+00   0.000000E+00

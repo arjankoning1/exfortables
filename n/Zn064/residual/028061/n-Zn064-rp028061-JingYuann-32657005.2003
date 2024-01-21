@@ -1,0 +1,53 @@
+# header:
+#   title: Zn64(n,x)Ni61 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: JingYuann
+#   year: 2003
+#   subentry: 32657005
+#   X4 reaction: 30-ZN-64(N,A)28-NI-61,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/32657005
+# target:
+#   Z: 30
+#   A: 64
+#   nuclide: Zn64
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+# residual:
+#   Z: 28
+#   A: 61
+#   nuclide: Ni61
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.030000E+00   2.600000E-01   7.250002E+01   7.000000E+00   1.000000E+00
+   5.750000E+00   1.500000E-01   7.200000E+01   7.000000E+00   1.000000E+00
+   6.500000E+00   2.000000E-01   7.080000E+01   7.000000E+00   1.000000E+00
+# reference:
+#   author: Jing Yuan,Zemin Chen,Guoyou Tang,Guohui Zhang, Jinxiang Chen,Zhaomin Shi,Yu.M.Gledenov,M.Sedysheva, G.Khuukhenkhuu
+#   title: Angular distribution and cross-section measurements for Zn-64(n,alpha)Ni-61 reaction at 5.0, 5.7 and 6.5 MeV
+#   journal: Jour: Nuclear Science and Engineering, Vol.144, p.108 (2003)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  5.030000E+00
+#   E-max [MeV]:  6.500000E+00
+#   F-value:  1.020892E+00
+#   A-value:  9.861680E-01
+#   chi-2:  1.903690E-01
+#   p-value:  4.728771E-01
+#   exp. data sets for p-value:      2
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.016572E+00   9.899889E-01   1.366796E-01
+# jeff3.3       1.024480E+00   9.823619E-01   2.440584E-01
+# jendl5.0      0.000000E+00   0.000000E+00   0.000000E+00

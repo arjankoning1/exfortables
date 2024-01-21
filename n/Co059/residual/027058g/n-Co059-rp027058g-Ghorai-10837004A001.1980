@@ -1,0 +1,60 @@
+# header:
+#   title: Co59(n,x)Co58g cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Ghorai
+#   year: 1980
+#   subentry: 10837004
+#   X4 reaction: 27-CO-59(N,2N)27-CO-58-G,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/10837004
+# target:
+#   Z: 27
+#   A: 59
+#   nuclide: Co59
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 27
+#   A: 58
+#   nuclide: Co58g
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.340000E+01   1.000000E-01   2.142118E+02   1.929836E+01   9.649181E-01
+   1.400000E+01   2.000000E-01   2.538244E+02   2.307494E+01   9.614559E-01
+   1.530000E+01   1.000000E-01   2.660053E+02   2.435260E+01   9.366382E-01
+   1.610000E+01   1.000000E-01   2.516173E+02   2.234439E+01   9.714953E-01
+   1.710000E+01   1.000000E-01   2.445746E+02   2.188800E+01   9.516523E-01
+   1.810000E+01   2.000000E-01   2.777709E+02   2.478254E+01   1.032606E+00
+# reference:
+#   author: S.K.GHORAI,J.E.GAISER,W.L.ALFORD
+#   title: THE (N,2N) ISOMERIC CROSS SECTION RATIOS AND THE  (N,2N) AND (N,ALPHA) EXCITATION FUNCTIONS FOR CO-59
+#   journal: Jour: Annals of Nuclear Energy, Vol.7, p.41 (1980)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.340000E+01
+#   E-max [MeV]:  1.810000E+01
+#   F-value:  1.227514E+00
+#   A-value:  1.181086E+00
+#   chi-2:  7.077868E+00
+#   p-value:  3.601247E-01
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.228084E+00   1.185015E+00   7.131369E+00
+# jendl5.0      1.226942E+00   1.177171E+00   7.024366E+00

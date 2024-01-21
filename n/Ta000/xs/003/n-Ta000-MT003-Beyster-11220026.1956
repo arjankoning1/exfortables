@@ -1,0 +1,49 @@
+# header:
+#   title: Ta0(n,non) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Beyster
+#   year: 1956
+#   subentry: 11220026
+#   X4 reaction: 73-TA-0(N,NON),,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11220026
+# target:
+#   Z: 73
+#   A: 0
+#   nuclide: Ta0
+# reaction:
+#   type: (n,non)
+#   ENDF_MF: 3
+#   ENDF_MT: 3
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.500000E+00   0.000000E+00   2.900000E+03   3.500000E+02   1.000000E+00
+   7.000000E+00   0.000000E+00   2.500000E+03   2.000000E+02   1.000000E+00
+# reference:
+#   author: J.R.Beyster,M.Walt,E.W.Salmi
+#   title: Interaction of 1.0-, 1.77-, 2.5-, 3.25-, and 7.0-Mev Neutrons with Nuclei
+#   journal: Jour: Physical Review, Vol.104, p.1319 (1956)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.500000E+00
+#   E-max [MeV]:  7.000000E+00
+#   F-value:  1.060991E+00
+#   A-value:  1.049630E+00
+#   chi-2:  9.190745E-01
+#   p-value:  3.768341E-01
+#   exp. data sets for p-value:      2
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2023    1.064964E+00   1.044397E+00   9.792628E-01
+# endfb8.0      1.059907E+00   1.056960E+00   9.579042E-01
+# jendl5.0      1.073952E+00   1.073946E+00   1.166621E+00
+# cendl3.2      1.040594E+00   1.023854E+00   5.725099E-01

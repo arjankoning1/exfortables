@@ -1,0 +1,52 @@
+# header:
+#   title: Zn64(n,x)Cu64 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Ikeda
+#   year: 1991
+#   subentry: 22209012
+#   X4 reaction: 30-ZN-64(N,P)29-CU-64,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22209012
+# target:
+#   Z: 30
+#   A: 64
+#   nuclide: Zn64
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 29
+#   A: 64
+#   nuclide: Cu64
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   9.500000E+00   5.000000E-01   2.598481E+02   3.712116E+01   9.768726E-01
+   1.100000E+01   5.000000E-01   2.604299E+02   1.609930E+01   9.470178E-01
+# reference:
+#   author: Y.Ikeda, C.Konno, M.Mizumoto, K.Hasegawa, S.Chiba, Y.Yamanouchi, M.Sugimoto
+#   title: Activation cross section measurement at neutron  energies of 9.5, 11.0, 12.0 and 13.2 MeV using  H-1(B-11,n)C-12  neutron source at JAERI.
+#   journal: Conf: Conf.on Nucl.Data for Sci.and Technol.,Juelich 1991, p.294 (1991)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  9.500000E+00
+#   E-max [MeV]:  1.100000E+01
+#   F-value:  1.012529E+00
+#   A-value:  9.904108E-01
+#   chi-2:  1.201994E-01
+#   p-value:  4.049316E-01
+#   exp. data sets for p-value:      7
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.006839E+00   9.951109E-01   4.434365E-02
+# jeff3.3       1.006900E+00   9.950877E-01   4.432389E-02
+# jendl5.0      1.019458E+00   9.811000E-01   2.719308E-01

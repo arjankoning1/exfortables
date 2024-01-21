@@ -1,0 +1,56 @@
+# header:
+#   title: Al27(p,x)Be7 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Fassbender
+#   year: 1998
+#   subentry: O0729007
+#   X4 reaction: 13-AL-27(P,X)4-BE-7,IND,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O0729007
+# target:
+#   Z: 13
+#   A: 27
+#   nuclide: Al27
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 4
+#   A: 7
+#   nuclide: Be7
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.409000E+02   2.000000E-01   9.961700E-01   9.961700E-02   9.961686E-01
+   1.486000E+02   2.000000E-01   1.095800E+00   9.961700E-02   9.961686E-01
+   1.570000E+02   1.000000E-01   8.965500E-01   9.961700E-02   9.961686E-01
+   1.652000E+02   1.000000E-01   8.965500E-01   9.961700E-02   9.961686E-01
+   1.750000E+02   1.000000E-01   1.195400E+00   1.992300E-01   9.961686E-01
+   2.172000E+02   1.000000E-01   1.593870E+00   1.992300E-01   9.961686E-01
+   2.566000E+02   1.000000E-01   1.593870E+00   1.992300E-01   9.961686E-01
+# reference:
+#   author: M.FASSBENDER, B.SCHOLTEN, S.M.QAIM
+#   title: Radiochemical Studies of (P,BE-7) Reactions on Biologically Relevant Elements in the Proton Energy Range of 50 to 350 MeV.
+#   journal: Jour: Radiochimica Acta, Vol.81, p.1 (1998)
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  1.409000E+02
+#   E-max [MeV]:  2.566000E+02
+#   F-value:  2.125462E+01
+#   A-value:  1.316591E-01
+#   chi-2:  4.418984E+01
+#   p-value:  1.184239E-01
+#   exp. data sets for p-value:      3
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    7.488461E+01   1.415867E-02   8.137591E+01
+# jendl5.0      1.271999E+00   1.224277E+00   7.003766E+00

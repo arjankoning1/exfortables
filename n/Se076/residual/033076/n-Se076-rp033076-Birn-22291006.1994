@@ -1,0 +1,58 @@
+# header:
+#   title: Se76(n,x)As76 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Birn
+#   year: 1994
+#   subentry: 22291006
+#   X4 reaction: 34-SE-76(N,P)33-AS-76,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22291006
+# target:
+#   Z: 34
+#   A: 76
+#   nuclide: Se76
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 33
+#   A: 76
+#   nuclide: As76
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   6.250000E+00   1.100000E-01   4.320000E+00   5.255800E-01   1.000000E+00
+   7.210000E+00   1.300000E-01   9.290000E+00   9.975900E-01   1.000000E+00
+   8.120000E+00   1.450000E-01   1.300000E+01   1.512300E+00   1.000000E+00
+   9.030000E+00   1.600000E-01   1.820000E+01   2.341200E+00   1.000000E+00
+   9.910000E+00   1.800000E-01   2.400000E+01   3.560200E+00   1.000000E+00
+   1.079000E+01   1.900000E-01   3.020000E+01   5.464000E+00   1.000000E+00
+   1.165000E+01   1.900000E-01   3.780000E+01   5.364300E+00   1.000000E+00
+   1.468000E+01   1.000000E-01   5.460000E+01   4.328000E+00   1.000000E+00
+# reference:
+#   author: I.Birn,S.M.Qaim,B.Strohmaier,H.Freiesleben
+#   title: Excitation functions of neutron threshold reactions  on some isotopes of germanium, arsenic and selenium  in the 6.3- to 14.7-MeV energy range.
+#   journal: Jour: Nuclear Science and Engineering, Vol.116, p.125 (1994)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  6.250000E+00
+#   E-max [MeV]:  1.468000E+01
+#   F-value:  1.433717E+00
+#   A-value:  1.359345E+00
+#   chi-2:  1.533085E+01
+#   p-value:  1.990755E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.490428E+00   1.468740E+00   1.635306E+01
+# jeff3.3       1.299129E+00   1.263769E+00   6.427737E+00
+# jendl5.0      1.494895E+00   1.353247E+00   2.321176E+01

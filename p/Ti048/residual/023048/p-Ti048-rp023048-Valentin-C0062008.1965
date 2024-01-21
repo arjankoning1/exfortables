@@ -1,0 +1,50 @@
+# header:
+#   title: Ti48(p,x)V48 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Valentin
+#   year: 1965
+#   subentry: C0062008
+#   X4 reaction: 22-TI-48(P,N)23-V-48,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C0062008
+# target:
+#   Z: 22
+#   A: 48
+#   nuclide: Ti48
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+# residual:
+#   Z: 23
+#   A: 48
+#   nuclide: V48
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.550000E+02   1.000000E+00   3.200000E+00   5.000000E-01   1.000000E+00
+# reference:
+#   author: L.Valentin
+#   title: (p,n) and (p,pn) reactions of light nuclei at  intermediate energies
+#   journal: Jour: Nuclear Physics, Vol.62, p.81 (1965)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  1.550000E+02
+#   E-max [MeV]:  1.550000E+02
+#   F-value:  2.354349E+00
+#   A-value:  4.271212E-01
+#   chi-2:  1.342813E+01
+#   p-value:  1.643110E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    2.581197E+00   3.874172E-01   1.537327E+01
+# jendl5.0      2.123619E+00   4.708942E-01   1.148300E+01

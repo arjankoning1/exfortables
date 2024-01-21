@@ -1,0 +1,64 @@
+# header:
+#   title: Mo0(p,x)Tc95m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Elbinawi
+#   year: 2020
+#   subentry: D4407004
+#   X4 reaction: 42-MO-0(P,X)43-TC-95-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D4407004
+# target:
+#   Z: 42
+#   A: 0
+#   nuclide: Mo0
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 43
+#   A: 95
+#   nuclide: Tc95m
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 10
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   4.000000E+00   7.000000E-01   1.100000E+00   2.000000E-01   1.000000E+00
+   6.600000E+00   6.000000E-01   9.500000E+00   1.300000E+00   1.000000E+00
+   8.000000E+00   6.000000E-01   2.440000E+01   3.400000E+00   1.000000E+00
+   1.000000E+01   6.000000E-01   3.270000E+01   4.400000E+00   1.000000E+00
+   1.100000E+01   6.000000E-01   4.300000E+01   5.600000E+00   1.000000E+00
+   1.250000E+01   5.000000E-01   5.150000E+01   6.500000E+00   1.000000E+00
+   1.340000E+01   5.000000E-01   5.410000E+01   6.600000E+00   1.000000E+00
+   1.480000E+01   5.000000E-01   5.770000E+01   6.800000E+00   1.000000E+00
+   1.560000E+01   4.000000E-01   5.800000E+01   6.600000E+00   1.000000E+00
+   1.710000E+01   4.000000E-01   5.950001E+01   6.500000E+00   1.000000E+00
+# reference:
+#   author: A.Elbinawi,M.Al-abyad,I.Bashter,U.Seddik,F.Ditroi
+#   title: Study of proton induced nuclear reactions on molybdenum: cross section measurements and theoretical calculations
+#   journal: Jour: Radiochimica Acta, Vol.108, p.1 (2020)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  4.000000E+00
+#   E-max [MeV]:  1.710000E+01
+#   F-value:  1.291879E+00
+#   A-value:  8.707488E-01
+#   chi-2:  3.480695E+00
+#   p-value:  1.813754E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.360639E+00   8.272319E-01   4.541688E+00
+# jendl5.0      1.210001E+00   9.165547E-01   2.419702E+00

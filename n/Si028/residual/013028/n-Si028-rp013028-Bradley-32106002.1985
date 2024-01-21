@@ -1,0 +1,51 @@
+# header:
+#   title: Si28(n,x)Al28 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Bradley
+#   year: 1985
+#   subentry: 32106002
+#   X4 reaction: 14-SI-28(N,P)13-AL-28,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/32106002
+# target:
+#   Z: 14
+#   A: 28
+#   nuclide: Si28
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 13
+#   A: 28
+#   nuclide: Al28
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   8.600000E+00   3.000000E-01   2.080000E+02   3.500000E+01   1.000000E+00
+# reference:
+#   author: D.A.Bradley,C.S.Chong,A.M.Ghose
+#   title: Production of monoenergetic neutrons by controlled moderation of T-D neutrons
+#   journal: Conf: Fast Neutrons in Sci.and Techn.Symp.,Chiang Mai 1985, p.19 (1985)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  8.600000E+00
+#   E-max [MeV]:  8.600000E+00
+#   F-value:  1.168437E+00
+#   A-value:  1.149811E+00
+#   chi-2:  1.520517E+00
+#   p-value:  1.292186E-01
+#   exp. data sets for p-value:      3
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.054983E+00   1.054983E+00   4.397385E-01
+# endfb8.0      1.248744E+00   1.248744E+00   2.699919E+00
+# jendl5.0      1.153880E+00   1.153880E+00   1.421893E+00

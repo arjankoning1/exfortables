@@ -1,0 +1,67 @@
+# header:
+#   title: Mo95(p,n')Tc95g cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Levkovski*0.82
+#   year: 1991
+#   subentry: A0510225
+#   X4 reaction: 42-MO-95(P,N)43-TC-95-G,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/A0510225
+# target:
+#   Z: 42
+#   A: 95
+#   nuclide: Mo95
+# reaction:
+#   type: (p,n')
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+# residual:
+#   Z: 43
+#   A: 95
+#   nuclide: Tc95g
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 13
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   7.700000E+00   0.000000E+00   2.315548E+02   2.823840E+01   7.631999E-01
+   8.600000E+00   0.000000E+00   2.872531E+02   3.503088E+01   7.631999E-01
+   9.500000E+00   0.000000E+00   3.241767E+02   3.953375E+01   7.631999E-01
+   1.040000E+01   0.000000E+00   3.786234E+02   4.617359E+01   7.631999E-01
+   1.130000E+01   0.000000E+00   4.318185E+02   5.266080E+01   7.631999E-01
+   1.210000E+01   0.000000E+00   4.180503E+02   5.098176E+01   7.631999E-01
+   1.280000E+01   0.000000E+00   4.067855E+02   4.960800E+01   7.631999E-01
+   1.380000E+01   0.000000E+00   2.559619E+02   3.121487E+01   7.631999E-01
+   1.480000E+01   0.000000E+00   1.783598E+02   2.175120E+01   7.631999E-01
+   1.580000E+01   0.000000E+00   1.157774E+02   1.411920E+01   7.631999E-01
+   1.670000E+01   0.000000E+00   7.009228E+01   8.547800E+00   7.631999E-01
+   1.750000E+01   0.000000E+00   5.194338E+01   6.334600E+00   7.631999E-01
+   1.830000E+01   0.000000E+00   4.693679E+01   5.724000E+00   7.631999E-01
+# reference:
+#   author: V.N.Levkovski
+#   title: Cross sections of medium mass nuclide activation  (A=40-100) by medium energy protons and alpha-particles (E=10-50 MeV)
+#   journal: Book: Levkovskij,Act.Cs.By Protons and Alphas,Moscow 1991,  (1991)
+# statistics:
+#   NEA score: R2
+#   IAEA score:  1
+#   E-min [MeV]:  7.700000E+00
+#   E-max [MeV]:  1.830000E+01
+#   F-value:  1.852332E+00
+#   A-value:  7.219344E-01
+#   chi-2:  1.202455E+01
+#   p-value:  3.564826E-01
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.200186E+00   1.177976E+00   3.270120E+00
+# jendl5.0      2.345442E+00   4.424449E-01   2.077898E+01

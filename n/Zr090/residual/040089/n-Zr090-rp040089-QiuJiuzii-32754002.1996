@@ -1,0 +1,56 @@
+# header:
+#   title: Zr90(n,x)Zr89 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: QiuJiuzii
+#   year: 1996
+#   subentry: 32754002
+#   X4 reaction: 40-ZR-90(N,2N)40-ZR-89,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/32754002
+# target:
+#   Z: 40
+#   A: 90
+#   nuclide: Zr90
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 40
+#   A: 89
+#   nuclide: Zr89
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.364000E+01   2.000000E-02   4.921597E+02   7.718050E+00   1.018964E+00
+   1.380000E+01   2.000000E-02   5.499046E+02   1.017418E+01   1.018908E+00
+   1.401000E+01   2.000000E-02   6.168994E+02   1.219418E+01   1.017482E+00
+   1.435000E+01   2.000000E-02   7.205436E+02   1.468842E+01   1.013993E+00
+   1.462000E+01   2.000000E-02   7.856297E+02   1.570681E+01   1.013193E+00
+   1.480000E+01   2.000000E-02   8.368391E+02   1.612943E+01   1.013736E+00
+# reference:
+#   author: Qiu Jiuzi, Yuan Junqian, Yang Jingkang
+#   title: The measurement of cross sections for 90Zr(n,2n)89Zr reaction
+#   journal: Jour: Journal of Lanzhou Univ., Natural Science Ed., Vol.32, p.57 (1996)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.364000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.039476E+00
+#   A-value:  9.625906E-01
+#   chi-2:  4.475616E+00
+#   p-value:  2.146552E-01
+#   exp. data sets for p-value:      8
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.041738E+00   9.604231E-01   4.894009E+00
+# jeff3.3       1.041499E+00   9.606297E-01   4.852215E+00
+# jendl5.0      1.034820E+00   9.667325E-01   3.680623E+00

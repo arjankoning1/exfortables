@@ -1,0 +1,51 @@
+# header:
+#   title: W186(n,x)Ta186 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Coleman
+#   year: 1959
+#   subentry: 21440025
+#   X4 reaction: 74-W-186(N,P)73-TA-186,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21440025
+# target:
+#   Z: 74
+#   A: 186
+#   nuclide: W186
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 73
+#   A: 186
+#   nuclide: Ta186
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.450000E+01   0.000000E+00   2.900000E+00   5.800000E-01   1.000000E+00
+# reference:
+#   author: R.F.Coleman,B.E.Hawker,L.P.O'Connor,J.L.Perkin
+#   title: Cross sections for (n,p) and (n,alpha) reactions with  14.5 MeV neutrons
+#   journal: Jour: Proceedings of the Physical Society (London),, Vol.73, p.215 (1959
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.450000E+01
+#   E-max [MeV]:  1.450000E+01
+#   F-value:  1.593237E+00
+#   A-value:  6.346124E-01
+#   chi-2:  3.772823E+00
+#   p-value:  7.094473E-02
+#   exp. data sets for p-value:      6
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.366690E+00   7.316946E-01   2.351497E+00
+# jeff3.3       1.701087E+00   5.878593E-01   4.541970E+00
+# jendl5.0      1.682974E+00   5.941862E-01   4.425004E+00

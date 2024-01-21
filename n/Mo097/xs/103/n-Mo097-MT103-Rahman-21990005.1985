@@ -1,0 +1,60 @@
+# header:
+#   title: Mo97(n,p)Nb97 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Rahman
+#   year: 1985
+#   subentry: 21990005
+#   X4 reaction: 42-MO-97(N,P)41-NB-97,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21990005
+# target:
+#   Z: 42
+#   A: 97
+#   nuclide: Mo97
+# reaction:
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 41
+#   A: 97
+#   nuclide: Nb97
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.911000E+00   1.780000E-01   4.998500E-02   8.997300E-03   9.996946E-01
+   6.474000E+00   1.810000E-01   1.299600E-01   4.998500E-02   9.996946E-01
+   7.032000E+00   1.630000E-01   2.499200E-01   3.998800E-02   9.996946E-01
+   7.549000E+00   1.850000E-01   4.798500E-01   5.998200E-02   9.996946E-01
+   8.132000E+00   1.090000E-01   6.797900E-01   7.997600E-02   9.996946E-01
+   8.632000E+00   1.230000E-01   1.719500E+00   1.499500E-01   9.996946E-01
+   9.153000E+00   1.230000E-01   2.049400E+00   2.799100E-01   9.996946E-01
+   9.577000E+00   2.150000E-01   2.789100E+00   4.198700E-01   9.996946E-01
+# reference:
+#   author: M.M.Rahman, S.M.Qaim
+#   title: Excitation functions of some neutron threshold  reactions on isotopes of molybdenum
+#   journal: Jour: Nuclear Physics, Section A, Vol.435, p.43 (1985)
+# statistics:
+#   NEA score: T2
+#   IAEA score:  1
+#   E-min [MeV]:  5.911000E+00
+#   E-max [MeV]:  9.577000E+00
+#   F-value:  1.457255E+00
+#   A-value:  8.666904E-01
+#   chi-2:  7.043060E+00
+#   p-value:  2.807879E-01
+#   exp. data sets for p-value:      1
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    1.262955E+00   1.127841E+00   5.249555E+00
+# endfb8.0      1.819258E+00   6.553566E-01   1.424285E+01
+# jeff3.3       1.442593E+00   7.979978E-01   6.856829E+00
+# jendl5.0      1.442593E+00   7.979978E-01   6.856829E+00
+# cendl3.2      1.181400E+00   1.038941E+00   2.009237E+00

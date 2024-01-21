@@ -1,0 +1,59 @@
+# header:
+#   title: Sn0(n,n'_01)Sn1 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Wilenzick
+#   year: 1965
+#   subentry: 11287038
+#   X4 reaction: 50-SN-0(N,INL)50-SN-0,PAR,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11287038
+#   level energy [MeV]  2.25000E+00
+# target:
+#   Z: 50
+#   A: 0
+#   nuclide: Sn0
+# reaction:
+#   type: (n,n'_01)
+#   ENDF_MF: 3
+#   ENDF_MT: 51
+#   level: 
+#     number: 1
+#     energy [MeV]:  2.284270E+00
+#     spin:  5.000000E+00
+#     parity: -1
+# residual:
+#   Z: 50
+#   A: 1
+#   nuclide: Sn1
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   6.040000E+00   2.300000E-01   2.800000E+03   6.000000E+02   1.000000E+00
+# reference:
+#   author: R.M.Wilenzick,K.K.Seth,P.R.Bevington,H.W.Lewis
+#   title: Elastic and inelastic scattering of 6 MeV neutrons.
+#   journal: Jour: Nuclear Physics, Vol.62, p.511 (1965)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  6.040000E+00
+#   E-max [MeV]:  6.040000E+00
+#   F-value:  8.307493E+01
+#   A-value:  1.348507E-02
+#   chi-2:  2.095680E+01
+#   p-value:  4.172325E-07
+#   exp. data sets for p-value:      1
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    4.736985E+01   2.111048E-02   2.086821E+01
+# endfb8.0      1.029883E+02   9.709837E-03   2.135708E+01
+# jeff3.3       3.293007E+01   3.036738E-02   2.047544E+01
+# jendl5.0      3.115557E+01   3.209699E-02   2.040247E+01
+# cendl3.2      4.480374E+02   2.231956E-03   2.168081E+01

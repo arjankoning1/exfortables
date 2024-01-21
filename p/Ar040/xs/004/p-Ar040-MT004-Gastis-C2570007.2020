@@ -1,0 +1,55 @@
+# header:
+#   title: Ar40(p,n')K40 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Gastis
+#   year: 2020
+#   subentry: C2570007
+#   X4 reaction: 18-AR-40(P,N)19-K-40,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C2570007
+# target:
+#   Z: 18
+#   A: 40
+#   nuclide: Ar40
+# reaction:
+#   type: (p,n')
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+# residual:
+#   Z: 19
+#   A: 40
+#   nuclide: K40
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.449864E+00   5.100000E-02   6.860000E+01   7.700000E+00   1.000000E+00
+   3.550335E+00   5.100000E-02   1.233000E+02   1.270000E+01   1.000000E+00
+   3.660034E+00   5.000000E-02   1.332000E+02   1.280000E+01   1.000000E+00
+   3.779984E+00   4.900000E-02   6.570000E+01   7.000000E+00   1.000000E+00
+   3.870204E+00   4.900000E-02   8.950000E+01   9.400000E+00   1.000000E+00
+   3.979902E+00   4.800000E-02   1.005000E+02   1.050000E+01   1.000000E+00
+# reference:
+#   author: P.Gastis,G.Perdikakis,J.Dissanayake,P.Tsintari, I.Sultana,C.R.Brune,T.N.Massey,Z.Meisel,A.V.Voinov, K.Brandenburg,T.Danley,R.Giri,Y.Jones-Alberty,S.Paneru, D.Soltesz,S.Subedi
+#   title: Constraining the destruction rate of 40K in stellar nucleosynthesis through the study of the 40Ar(p,n)40K reaction
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.101, p.055805 (2020)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  3.449864E+00
+#   E-max [MeV]:  3.979902E+00
+#   F-value:  1.430463E+00
+#   A-value:  1.185741E+00
+#   chi-2:  1.789442E+01
+#   p-value:  2.654399E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.430463E+00   1.185741E+00   1.789442E+01
+# jendl5.0      0.000000E+00   0.000000E+00   0.000000E+00

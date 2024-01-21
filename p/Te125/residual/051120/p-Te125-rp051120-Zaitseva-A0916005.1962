@@ -1,0 +1,52 @@
+# header:
+#   title: Te125(p,x)Sb120 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Zaitseva
+#   year: 1962
+#   subentry: A0916005
+#   X4 reaction: 52-TE-125(P,X)51-SB-120,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/A0916005
+# target:
+#   Z: 52
+#   A: 125
+#   nuclide: Te125
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 51
+#   A: 120
+#   nuclide: Sb120
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.200000E+02   0.000000E+00   1.060000E+01   3.710000E+00   1.000000E+00
+   3.000000E+02   0.000000E+00   7.600000E+00   2.660000E+00   1.000000E+00
+   4.800000E+02   0.000000E+00   6.800000E+00   2.380000E+00   1.000000E+00
+   6.600000E+02   0.000000E+00   1.020000E+01   3.570000E+00   1.000000E+00
+# reference:
+#   author: N.G.Zaitseva, M.Ya.Kuznetsova, Min Namg Buk, V.A.Khalkin
+#   title: Investigation of nuclear reactions of the (p,xn) and  (p,2pxn) type on separated tellurium isotopes.
+#   journal: Jour: Zhurnal Eksperimental'noi i Teoret. Fiziki, Vol.43, p.1672 (1962)
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  1.200000E+02
+#   E-max [MeV]:  6.600000E+02
+#   F-value:  3.193311E+00
+#   A-value:  3.193311E+00
+#   chi-2:  3.927031E+01
+#   p-value:  5.888022E-02
+#   exp. data sets for p-value:      1
+#   libraries:      1
+##  Library          F              A            chi-2
+# tendl.2023    3.193311E+00   3.193311E+00   3.927031E+01

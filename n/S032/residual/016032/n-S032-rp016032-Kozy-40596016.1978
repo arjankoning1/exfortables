@@ -1,0 +1,50 @@
+# header:
+#   title: S32(n,x)S32 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Kozy
+#   year: 1978
+#   subentry: 40596016
+#   X4 reaction: 16-S-32(N,INL)16-S-32,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/40596016
+# target:
+#   Z: 16
+#   A: 32
+#   nuclide: S32
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+# residual:
+#   Z: 16
+#   A: 32
+#   nuclide: S32
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.460000E+01   0.000000E+00   2.700000E+02   3.000000E+01   1.000000E+00
+# reference:
+#   author: Yu.E.Kozy, G.A.Prokopets
+#   title: The reactions (n,n'gamma), (n,np), and (n,pn) in 23Na,  27Al, and 32S at a neutron energy 14.6 MeV
+#   journal: Jour: Yadernaya Fizika, Vol.28, p.16 (1978)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.460000E+01
+#   E-max [MeV]:  1.460000E+01
+#   F-value:  1.269421E+00
+#   A-value:  7.997304E-01
+#   chi-2:  3.902360E+00
+#   p-value:  1.828738E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.150284E+00   8.693508E-01   1.964369E+00
+# jeff3.3       1.359277E+00   7.356855E-01   5.840352E+00

@@ -1,0 +1,55 @@
+# header:
+#   title: Mo97(n,p)Nb97 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: JunhuaLuoo
+#   year: 2020
+#   subentry: 32812008
+#   X4 reaction: 42-MO-97(N,P)41-NB-97,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/32812008
+# target:
+#   Z: 42
+#   A: 97
+#   nuclide: Mo97
+# reaction:
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 41
+#   A: 97
+#   nuclide: Nb97
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.350000E+01   2.000000E-01   1.570000E+01   1.100000E+00   1.000000E+00
+   1.410000E+01   2.000000E-01   1.860000E+01   1.200000E+00   1.000000E+00
+   1.480000E+01   2.000000E-01   1.950000E+01   1.200000E+00   1.000000E+00
+# reference:
+#   author: Junhua Luo,Li Jiang
+#   title: Cross-sections for (n,2n),(n,a),(n,p),(n,d),and (n,t) reactions on molybdenum isotopes in the neutron energy range of 13 to 15 MeV
+#   journal: Jour: Chinese Physics C, Vol.44, p.114002 (2020)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  1.350000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.182888E+00
+#   A-value:  9.867511E-01
+#   chi-2:  7.622906E+00
+#   p-value:  3.142442E-01
+#   exp. data sets for p-value:      7
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    1.321547E+00   1.317523E+00   2.530930E+01
+# endfb8.0      1.201435E+00   8.488795E-01   6.200720E+00
+# jeff3.3       1.126144E+00   9.043359E-01   2.990022E+00
+# jendl5.0      1.126144E+00   9.043359E-01   2.990022E+00
+# cendl3.2      1.038336E+00   1.022761E+00   6.244686E-01

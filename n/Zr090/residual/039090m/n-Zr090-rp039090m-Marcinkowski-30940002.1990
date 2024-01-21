@@ -1,0 +1,62 @@
+# header:
+#   title: Zr90(n,x)Y90m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Marcinkowski
+#   year: 1990
+#   subentry: 30940002
+#   X4 reaction: 40-ZR-90(N,P)39-Y-90-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30940002
+# target:
+#   Z: 40
+#   A: 90
+#   nuclide: Zr90
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 39
+#   A: 90
+#   nuclide: Y90m
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.340000E+01   4.000000E-01   9.854099E+00   1.206630E+00   1.005525E+00
+   1.360000E+01   3.000000E-01   1.166409E+01   1.307200E+00   1.005525E+00
+   1.420000E+01   3.000000E-01   1.176464E+01   1.407700E+00   1.005525E+00
+   1.480000E+01   3.000000E-01   1.176464E+01   1.407700E+00   1.005525E+00
+   1.520000E+01   2.000000E-01   1.196575E+01   1.508300E+00   1.005525E+00
+   1.540000E+01   2.000000E-01   1.186519E+01   1.407700E+00   1.005525E+00
+   1.590000E+01   5.000000E-01   1.206630E+01   1.709400E+00   1.005525E+00
+   1.660000E+01   1.000000E-01   1.216685E+01   2.011050E+00   1.005525E+00
+# reference:
+#   author: A.Marcinkowski,U.Garuska,H.M.Hoang,D.Kielan, B.Zwieglinski
+#   title: Cross sections of the (n,p) reaction on zirconium isotopes
+#   journal: Jour: Nuclear Physics, Section A, Vol.510, p.93 (1990)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.340000E+01
+#   E-max [MeV]:  1.660000E+01
+#   F-value:  1.096890E+00
+#   A-value:  1.077475E+00
+#   chi-2:  1.056232E+00
+#   p-value:  3.197613E-01
+#   exp. data sets for p-value:      4
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.060327E+00   1.048176E+00   5.674692E-01
+# jendl5.0      1.124045E+00   1.107593E+00   1.544995E+00

@@ -1,0 +1,64 @@
+# header:
+#   title: Fe56(p,g)Co57 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Drake
+#   year: 1973
+#   subentry: O0092002
+#   X4 reaction: 26-FE-56(P,G)27-CO-57,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O0092002
+# target:
+#   Z: 26
+#   A: 56
+#   nuclide: Fe56
+# reaction:
+#   type: (p,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+# residual:
+#   Z: 27
+#   A: 57
+#   nuclide: Co57
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 15
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   7.410000E+00   0.000000E+00   5.060000E-01   0.000000E+00   1.000000E+00
+   8.000000E+00   0.000000E+00   4.220000E-01   0.000000E+00   1.000000E+00
+   8.500000E+00   0.000000E+00   4.550000E-01   0.000000E+00   1.000000E+00
+   9.120000E+00   0.000000E+00   4.050000E-01   0.000000E+00   1.000000E+00
+   9.140000E+00   0.000000E+00   3.290000E-01   0.000000E+00   1.000000E+00
+   1.026000E+01   0.000000E+00   3.640000E-01   0.000000E+00   1.000000E+00
+   1.096000E+01   0.000000E+00   3.800000E-01   0.000000E+00   1.000000E+00
+   1.099000E+01   0.000000E+00   4.560000E-01   0.000000E+00   1.000000E+00
+   1.210000E+01   0.000000E+00   5.250000E-01   0.000000E+00   1.000000E+00
+   1.303000E+01   0.000000E+00   5.549999E-01   0.000000E+00   1.000000E+00
+   1.393000E+01   0.000000E+00   7.000000E-01   0.000000E+00   1.000000E+00
+   1.487000E+01   0.000000E+00   7.020000E-01   0.000000E+00   1.000000E+00
+   1.488000E+01   0.000000E+00   6.590000E-01   0.000000E+00   1.000000E+00
+   1.608000E+01   0.000000E+00   5.330000E-01   0.000000E+00   1.000000E+00
+   2.093000E+01   0.000000E+00   2.410000E-01   0.000000E+00   1.000000E+00
+# reference:
+#   author: D.M.Drake,S.L.Whetstone,I.Halpern
+#   title: The Radiative Capture of Fast Protons by Medium-Mass Nuclei.
+#   journal: Jour: Nuclear Physics, Section A, Vol.203, p.257 (1973)
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  7.410000E+00
+#   E-max [MeV]:  2.093000E+01
+#   F-value:  2.226815E+00
+#   A-value:  8.998532E-01
+#   chi-2:  0.000000E+00
+#   p-value:  3.670247E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.851926E+00   1.775548E+00   0.000000E+00
+# jendl5.0      2.585162E+00   4.560484E-01   0.000000E+00

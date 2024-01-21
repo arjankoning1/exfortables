@@ -1,0 +1,50 @@
+# header:
+#   title: I129(n,x)I128 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Kuhry
+#   year: 1973
+#   subentry: 20365002
+#   X4 reaction: 53-I-129(N,2N)53-I-128,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20365002
+# target:
+#   Z: 53
+#   A: 129
+#   nuclide: I129
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 53
+#   A: 128
+#   nuclide: I128
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.450000E+01   0.000000E+00   1.490000E+03   1.900000E+02   1.000000E+00
+# reference:
+#   author: J.G.KUHRY, G.BONTEMS
+#   title: -HALF-LIFE OF I-129 AND CROSS SECTION OF THE  I-129(N,2N)I-128 REACTION FOR 14.5 MEV NEUTRONS.-  (IN FRENCH).
+#   journal: Jour: Radiochemical and Radioanalytical Letters, Vol.15, p.29 (1973)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.450000E+01
+#   E-max [MeV]:  1.450000E+01
+#   F-value:  1.018087E+00
+#   A-value:  1.017946E+00
+#   chi-2:  1.818561E-01
+#   p-value:  3.619855E-01
+#   exp. data sets for p-value:      3
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.020211E+00   1.020211E+00   2.054760E-01
+# jendl5.0      1.015685E+00   1.015685E+00   1.582363E-01

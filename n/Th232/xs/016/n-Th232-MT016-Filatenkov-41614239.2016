@@ -1,0 +1,60 @@
+# header:
+#   title: Th232(n,2n)Th231 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Filatenkov
+#   year: 2016
+#   subentry: 41614239
+#   X4 reaction: 90-TH-232(N,2N)90-TH-231,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/41614239
+# target:
+#   Z: 90
+#   A: 232
+#   nuclide: Th232
+# reaction:
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 90
+#   A: 231
+#   nuclide: Th231
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.348000E+01   0.000000E+00   1.920990E+03   1.386332E+02   9.999947E-01
+   1.367000E+01   0.000000E+00   1.799002E+03   1.242795E+02   1.000001E+00
+   1.388000E+01   0.000000E+00   1.727018E+03   1.298609E+02   1.000010E+00
+   1.406000E+01   0.000000E+00   1.520989E+03   1.081413E+02   9.999925E-01
+   1.428000E+01   0.000000E+00   1.443989E+03   9.963783E+01   9.999922E-01
+   1.446000E+01   0.000000E+00   1.307989E+03   9.169489E+01   9.999912E-01
+   1.467000E+01   0.000000E+00   1.281011E+03   8.750118E+01   1.000009E+00
+   1.483000E+01   0.000000E+00   1.150002E+03   8.303724E+01   1.000002E+00
+# reference:
+#   author: A.A.Filatenkov
+#   title: Neutron activation cross sections measured at KRI in neutron energy region 13.4 - 14.9 MeV
+#   journal: Rept: USSR report to the I.N.D.C., No.0460 (2016)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.348000E+01
+#   E-max [MeV]:  1.483000E+01
+#   F-value:  1.063560E+00
+#   A-value:  9.943431E-01
+#   chi-2:  1.154651E+00
+#   p-value:  3.333361E-01
+#   exp. data sets for p-value:      5
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    1.037095E+00   9.722580E-01   5.683525E-01
+# endfb8.0      1.037095E+00   9.722580E-01   5.683525E-01
+# jeff3.3       1.037095E+00   9.722580E-01   5.683525E-01
+# jendl5.0      1.117615E+00   1.101830E+00   3.211620E+00
+# cendl3.2      1.052736E+00   9.598915E-01   8.565797E-01

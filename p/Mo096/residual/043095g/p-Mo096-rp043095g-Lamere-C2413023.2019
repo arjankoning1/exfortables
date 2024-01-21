@@ -1,0 +1,63 @@
+# header:
+#   title: Mo96(p,x)Tc95g cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Lamere
+#   year: 2019
+#   subentry: C2413023
+#   X4 reaction: 42-MO-96(P,2N)43-TC-95-G,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C2413023
+# target:
+#   Z: 42
+#   A: 96
+#   nuclide: Mo96
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 43
+#   A: 95
+#   nuclide: Tc95g
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 9
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.207000E+01   3.000000E-02   6.100000E+01   1.700000E+01   1.000000E+00
+   1.255000E+01   4.000000E-02   9.400000E+01   1.300000E+01   1.000000E+00
+   1.306000E+01   3.000000E-02   1.760000E+02   2.500000E+01   1.000000E+00
+   1.405000E+01   4.000000E-02   3.790000E+02   7.200000E+01   1.000000E+00
+   1.505000E+01   3.000000E-02   5.060000E+02   1.190000E+02   1.000000E+00
+   1.605000E+01   4.000000E-02   5.800000E+02   9.700000E+01   1.000000E+00
+   1.705000E+01   4.000000E-02   6.050000E+02   9.100002E+01   1.000000E+00
+   1.805000E+01   4.000000E-02   6.830000E+02   9.400000E+01   1.000000E+00
+   1.906000E+01   3.000000E-02   7.210000E+02   1.160000E+02   1.000000E+00
+# reference:
+#   author: E.Lamere,M.Couder,M.Beard,A.Simon,A.Simonetti, M.Skulski,G.Seymour,P.Huestis,K.Manukyan,Z.Meisel, L.Morales,M.Moran,S.Moylan,C.Seymour,E.Stech
+#   title: Proton-induced reactions on molybdenum
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.100, p.034614 (2019)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  1.207000E+01
+#   E-max [MeV]:  1.906000E+01
+#   F-value:  1.785465E+00
+#   A-value:  6.801241E-01
+#   chi-2:  5.247050E+00
+#   p-value:  2.389696E-01
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.293852E+00   9.474934E-01   1.298362E+00
+# jendl5.0      2.177675E+00   4.882026E-01   9.195738E+00

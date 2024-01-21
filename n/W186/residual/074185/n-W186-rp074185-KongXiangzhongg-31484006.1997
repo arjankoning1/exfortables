@@ -1,0 +1,55 @@
+# header:
+#   title: W186(n,x)W185 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: KongXiangzhongg
+#   year: 1997
+#   subentry: 31484006
+#   X4 reaction: 74-W-186(N,2N)74-W-185,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/31484006
+# target:
+#   Z: 74
+#   A: 186
+#   nuclide: W186
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 74
+#   A: 185
+#   nuclide: W185
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.350000E+01   2.000000E-01   1.934635E+03   8.807294E+01   9.895833E-01
+   1.370000E+01   2.000000E-01   1.939583E+03   8.807292E+01   9.895833E-01
+   1.420000E+01   2.000000E-01   1.974219E+03   8.906250E+01   9.895833E-01
+   1.450000E+01   2.000000E-01   1.964323E+03   8.906250E+01   9.895833E-01
+   1.470000E+01   2.000000E-01   1.954427E+03   8.906250E+01   9.895833E-01
+# reference:
+#   author: Kong Xiangzhong, Hu Shangbin, Yang Jingkang
+#   title: Cross sections of 14 MeV neutron induced reactions on  wolfram isotopes
+#   journal: Rept: Chinese report to the I.N.D.C., No.042, p.9 (1997)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.350000E+01
+#   E-max [MeV]:  1.470000E+01
+#   F-value:  1.029395E+00
+#   A-value:  9.946142E-01
+#   chi-2:  7.474432E-01
+#   p-value:  4.279247E-01
+#   exp. data sets for p-value:      3
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.024905E+00   1.005038E+00   6.527149E-01
+# jeff3.3       1.029418E+00   9.828826E-01   6.773571E-01
+# jendl5.0      1.033288E+00   9.960471E-01   9.122576E-01

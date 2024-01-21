@@ -1,0 +1,55 @@
+# header:
+#   title: La139(n,x)Ba139 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Kasugai
+#   year: 1997
+#   subentry: 22393002
+#   X4 reaction: 57-LA-139(N,P)56-BA-139,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22393002
+# target:
+#   Z: 57
+#   A: 139
+#   nuclide: La139
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 56
+#   A: 139
+#   nuclide: Ba139
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.338000E+01   0.000000E+00   3.038000E+00   3.038000E-01   1.012658E+00
+   1.370000E+01   0.000000E+00   3.544300E+00   3.038000E-01   1.012658E+00
+   1.403000E+01   0.000000E+00   3.848100E+00   3.038000E-01   1.012658E+00
+   1.436000E+01   0.000000E+00   4.151900E+00   3.038000E-01   1.012658E+00
+   1.466000E+01   0.000000E+00   4.253200E+00   3.038000E-01   1.012658E+00
+   1.495000E+01   0.000000E+00   4.557000E+00   4.050600E-01   1.012658E+00
+# reference:
+#   author: Y.Kasugai,Y.Ikeda,Y.Uno
+#   title: Activation cross section measurements for La, Ce, Pr,  Nd, Gd, Dy AND Er isotopes by 14 MeV neutrons
+#   journal: Conf: Conf.on Nucl.Data for Sci.and Techn., Trieste 1997, Vol.1, p.635 (
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.338000E+01
+#   E-max [MeV]:  1.495000E+01
+#   F-value:  1.120892E+00
+#   A-value:  9.342397E-01
+#   chi-2:  1.789922E+00
+#   p-value:  3.416482E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.080644E+00   9.445468E-01   1.108825E+00
+# jendl5.0      1.152047E+00   9.240451E-01   2.471019E+00

@@ -1,0 +1,63 @@
+# header:
+#   title: Fe56(n,n'_01)Fe57 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Kinney
+#   year: 1968
+#   subentry: 11708002
+#   X4 reaction: 26-FE-56(N,INL)26-FE-56,PAR,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11708002
+#   level energy [MeV]  2.93900E+00
+# target:
+#   Z: 26
+#   A: 56
+#   nuclide: Fe56
+# reaction:
+#   type: (n,n'_01)
+#   ENDF_MF: 3
+#   ENDF_MT: 51
+#   level: 
+#     number: 1
+#     energy [MeV]:  2.941500E+00
+#     spin:  0.000000E+00
+#     parity: 1
+# residual:
+#   Z: 26
+#   A: 57
+#   nuclide: Fe57
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   4.600000E+00   5.000000E-02   1.080000E+02   1.200000E+01   1.000000E+00
+   5.560000E+00   4.000000E-02   8.700000E+01   1.000000E+01   1.000000E+00
+   6.120000E+00   4.000000E-02   5.300000E+01   6.000000E+00   1.000000E+00
+   6.530000E+00   3.000000E-02   5.300000E+01   8.000000E+00   1.000000E+00
+   7.550000E+00   4.000000E-02   1.300000E+01   2.000000E+00   1.000000E+00
+# reference:
+#   author: W.E.Kinney
+#   title: Neutron elastic and inelastic scattering from Fe56 from 4.60 to 7.55 MeV.
+#   journal: Rept: Oak Ridge National Lab. technical memo, No.2052 (1968)
+# statistics:
+#   NEA score: T3
+#   IAEA score: -1
+#   E-min [MeV]:  4.600000E+00
+#   E-max [MeV]:  7.550000E+00
+#   F-value:  3.495330E+00
+#   A-value:  3.103247E+00
+#   chi-2:  6.244601E+02
+#   p-value:  7.134362E-02
+#   exp. data sets for p-value:      3
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    3.697564E+00   3.215790E+00   8.134957E+02
+# endfb8.0      3.180665E+00   2.828434E+00   4.581646E+02
+# jeff3.3       3.814838E+00   3.479898E+00   7.110880E+02
+# jendl5.0      3.540357E+00   3.143905E+00   6.522783E+02
+# cendl3.2      3.251851E+00   2.892091E+00   4.872739E+02

@@ -1,0 +1,59 @@
+# header:
+#   title: Pr141(g,x)Pr140 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Utsunomiya
+#   year: 2006
+#   subentry: M0696003
+#   X4 reaction: 59-PR-141(G,N)59-PR-140,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/M0696003
+# target:
+#   Z: 59
+#   A: 141
+#   nuclide: Pr141
+# reaction:
+#   type: (g,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+# residual:
+#   Z: 59
+#   A: 140
+#   nuclide: Pr140
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 9
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   9.500000E+00   0.000000E+00   2.700000E+01   2.828400E+00   1.000000E+00
+   9.700000E+00   0.000000E+00   3.000000E+01   2.247200E+00   1.000000E+00
+   9.800000E+00   0.000000E+00   3.600000E+01   2.377000E+00   1.000000E+00
+   1.000000E+01   0.000000E+00   3.200000E+01   2.483900E+00   1.000000E+00
+   1.030000E+01   0.000000E+00   4.700000E+01   3.008300E+00   1.000000E+00
+   1.060000E+01   0.000000E+00   4.900000E+01   3.067600E+00   1.000000E+00
+   1.100000E+01   0.000000E+00   5.400001E+01   3.454000E+00   1.000000E+00
+   1.160000E+01   0.000000E+00   8.300000E+01   5.124500E+00   1.000000E+00
+   1.240000E+01   0.000000E+00   1.280000E+02   7.648500E+00   1.000000E+00
+# reference:
+#   author: H.UTSUNOMIYA,A.MAKINAGA,S.GOKO,T.KAIHORI,H.AKIMUNE, T.YAMAGATA,M.OHTA,H.TOYOKAWA,S.MULLER,Y.-W.LUI, S.GORIELY
+#   title: Photoneutron cross section measurements on the N = 82  nuclei  139La and 141Pr:  Implications for p-process  nucleosynthesis.
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.74, p.025806 (2006)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  9.500000E+00
+#   E-max [MeV]:  1.240000E+01
+#   F-value:  2.051936E+00
+#   A-value:  6.744280E-01
+#   chi-2:  2.126004E+01
+#   p-value:  1.967819E-01
+#   exp. data sets for p-value:      2
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    2.186651E+00   5.654847E-01   3.058298E+01
+# endfb8.0      1.245070E+00   8.422816E-01   8.884271E+00
+# jendl5.0      1.153049E+00   9.986043E-01   4.783930E+00

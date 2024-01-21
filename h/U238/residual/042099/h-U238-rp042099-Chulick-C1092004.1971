@@ -1,0 +1,51 @@
+# header:
+#   title: U238(h,x)Mo99 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Chulick
+#   year: 1971
+#   subentry: C1092004
+#   X4 reaction: 92-U-238(HE3,F)42-MO-99,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C1092004
+# target:
+#   Z: 92
+#   A: 238
+#   nuclide: U238
+# reaction:
+#   type: (h,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+# residual:
+#   Z: 42
+#   A: 99
+#   nuclide: Mo99
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.160000E+01   0.000000E+00   2.000000E+00   6.000000E-01   1.000000E+00
+   2.360000E+01   0.000000E+00   5.300000E+00   1.600000E+00   1.000000E+00
+   2.880000E+01   0.000000E+00   2.500000E+01   8.000000E+00   1.000000E+00
+   3.410000E+01   0.000000E+00   3.700000E+01   1.100000E+01   1.000000E+00
+# reference:
+#   author: E.T.Chulick,P.L.Reeder
+#   title: Delayed neutrons from the t- and alpha-induced fission of 238U, 232Th and 209Bi
+#   journal: Jour: Nuclear Physics, Section A, Vol.173, p.497 (1971)
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  2.160000E+01
+#   E-max [MeV]:  3.410000E+01
+#   F-value:  0.000000E+00
+#   A-value:  0.000000E+00
+#   chi-2:  0.000000E+00
+#   p-value:  0.000000E+00
+#   exp. data sets for p-value:      1
+#   libraries:      0
+##  Library          F              A            chi-2

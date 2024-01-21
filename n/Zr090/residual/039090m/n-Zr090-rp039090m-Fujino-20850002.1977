@@ -1,0 +1,55 @@
+# header:
+#   title: Zr90(n,x)Y90m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Fujino
+#   year: 1977
+#   subentry: 20850002
+#   X4 reaction: 40-ZR-90(N,P)39-Y-90-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20850002
+# target:
+#   Z: 40
+#   A: 90
+#   nuclide: Zr90
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 39
+#   A: 90
+#   nuclide: Y90m
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.460000E+01   0.000000E+00   9.049700E+00   8.044200E-01   1.005525E+00
+# reference:
+#   author: Y.FUJINO,M.HYAKUTAKE,I.KUMABE
+#   title: -ACTIVATION CROSS SECTIONS ON ZIRCONIUM AND  MOLYBDENUM ISOTOPES INDUCED BY 14.6 MEV NEUTRONS-.
+#   journal: Prog: Japanese report to NEANDC, No.51, p.60 (1977)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.460000E+01
+#   E-max [MeV]:  1.460000E+01
+#   F-value:  1.451442E+00
+#   A-value:  1.447979E+00
+#   chi-2:  2.601628E+01
+#   p-value:  1.297881E-01
+#   exp. data sets for p-value:      8
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.388254E+00   1.388254E+00   1.907855E+01
+# jendl5.0      1.510273E+00   1.510273E+00   3.295401E+01

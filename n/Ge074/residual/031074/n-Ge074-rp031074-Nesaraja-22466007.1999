@@ -1,0 +1,54 @@
+# header:
+#   title: Ge74(n,x)Ga74 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Nesaraja
+#   year: 1999
+#   subentry: 22466007
+#   X4 reaction: 32-GE-74(N,P)31-GA-74,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22466007
+# target:
+#   Z: 32
+#   A: 74
+#   nuclide: Ge74
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 31
+#   A: 74
+#   nuclide: Ga74
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   9.440000E+00   4.900000E-01   1.500000E+00   3.200000E-01   1.000000E+00
+   1.045000E+01   5.500000E-01   3.120000E+00   6.300000E-01   1.000000E+00
+   1.148000E+01   6.400000E-01   4.010000E+00   1.080000E+00   1.000000E+00
+   1.244000E+01   6.800000E-01   6.030000E+00   1.610000E+00   1.000000E+00
+# reference:
+#   author: C.Nesaraja, K.-H.Linse, S.Spellerberg, S.Sudar,  A.Suhaimi, J.Csikai, A.Fessler, S.M.Qaim
+#   title: Excitation functions of neutron induced reactions  on some isotopes of zinc, gallium and germanium  in the energy range of 6.2 to 12.4 MeV
+#   journal: Jour: Radiochimica Acta, Vol.86, Issue.1, p.1 (1999)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  9.440000E+00
+#   E-max [MeV]:  1.244000E+01
+#   F-value:  1.928821E+00
+#   A-value:  1.349949E+00
+#   chi-2:  2.395328E+01
+#   p-value:  3.313488E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    2.988303E+00   2.945777E+00   6.951915E+01
+# jeff3.3       1.313529E+00   9.269303E-01   1.632170E+00
+# jendl5.0      1.159234E+00   9.009584E-01   7.085090E-01

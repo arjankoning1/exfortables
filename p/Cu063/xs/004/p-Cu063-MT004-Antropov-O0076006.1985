@@ -1,0 +1,51 @@
+# header:
+#   title: Cu63(p,n')Zn63 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Antropov
+#   year: 1985
+#   subentry: O0076006
+#   X4 reaction: 29-CU-63(P,N)30-ZN-63,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O0076006
+# target:
+#   Z: 29
+#   A: 63
+#   nuclide: Cu63
+# reaction:
+#   type: (p,n')
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+# residual:
+#   Z: 30
+#   A: 63
+#   nuclide: Zn63
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   6.240000E+00   0.000000E+00   1.200000E+02   1.000000E+01   1.000000E+00
+# reference:
+#   author: A.E.Antropov,P.P.Zarubin,Yu.A.Aleksandrov, I.Yu.Gorshkov
+#   title: Cross sections measurements of (p,n),(alpha,pn),  (alpha,xn) reactions on nuclei of middle atomic weight
+#   journal: Conf: 35.Conf.Nucl.Spectr.and Nucl.Struct.,Leningrad 1985, p.369 (1985)
+# statistics:
+#   NEA score: R3
+#   IAEA score:  0
+#   E-min [MeV]:  6.240000E+00
+#   E-max [MeV]:  6.240000E+00
+#   F-value:  1.930676E+00
+#   A-value:  1.929104E+00
+#   chi-2:  1.251712E+02
+#   p-value:  6.810590E-02
+#   exp. data sets for p-value:      6
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.877049E+00   1.877049E+00   1.107670E+02
+# endfb8.0      2.019919E+00   2.019919E+00   1.497937E+02
+# jendl5.0      1.893467E+00   1.893467E+00   1.149529E+02

@@ -1,0 +1,59 @@
+# header:
+#   title: Ba138(n,x)Ba137m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Fessler
+#   year: 2000
+#   subentry: 22414023
+#   X4 reaction: 56-BA-138(N,2N)56-BA-137-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22414023
+# target:
+#   Z: 56
+#   A: 138
+#   nuclide: Ba138
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 56
+#   A: 137
+#   nuclide: Ba137m
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.607500E+01   6.200000E-02   9.932701E+02   5.381000E+01   1.000000E+00
+   1.703600E+01   4.000000E-02   1.060480E+03   5.613000E+01   1.000000E+00
+   1.779100E+01   3.200000E-02   1.110410E+03   6.330001E+01   1.000000E+00
+   1.911500E+01   1.100000E-02   9.412301E+02   6.001000E+01   1.000000E+00
+   2.032500E+01   1.000000E-02   6.714100E+02   5.068000E+01   1.000000E+00
+# reference:
+#   author: A.Fessler,A.J.M.Plompen,D.L.Smith,J.W.Meadows, Y.Ikeda
+#   title: Neutron activation cross-section measurements  from 16 to 20 MeV for isotopes of F, Na, Mg, Al, Si,  P, Cl, Ti, V, Mn, Fe, Nb, Sn, and Ba
+#   journal: Jour: Nuclear Science and Engineering, Vol.134, Issue.2, p.171 (2000)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.607500E+01
+#   E-max [MeV]:  2.032500E+01
+#   F-value:  1.175625E+00
+#   A-value:  9.489622E-01
+#   chi-2:  6.880971E+00
+#   p-value:  2.606391E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.197286E+00   8.954044E-01   8.572367E+00
+# jendl5.0      1.151656E+00   1.005723E+00   5.189573E+00

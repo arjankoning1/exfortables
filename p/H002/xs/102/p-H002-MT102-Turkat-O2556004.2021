@@ -1,0 +1,63 @@
+# header:
+#   title: H2(p,g)He3 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Turkat
+#   year: 2021
+#   subentry: O2556004
+#   X4 reaction: 1-H-2(P,G)2-HE-3,,SIG,,SFC/AV
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O2556004
+# target:
+#   Z: 1
+#   A: 2
+#   nuclide: H2
+# reaction:
+#   type: (p,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+# residual:
+#   Z: 2
+#   A: 3
+#   nuclide: He3
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 14
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.976026E-01   0.000000E+00   2.264600E-03   3.154200E-04   1.000000E+00
+   4.186081E-01   0.000000E+00   2.393200E-03   5.378100E-04   1.000000E+00
+   4.996290E-01   0.000000E+00   3.388400E-03   2.710700E-04   1.000000E+00
+   6.001549E-01   0.000000E+00   2.774200E-03   4.438600E-04   1.000000E+00
+   6.001549E-01   0.000000E+00   3.398300E-03   2.718700E-04   1.000000E+00
+   6.916786E-01   0.000000E+00   3.547900E-03   2.838300E-04   1.000000E+00
+   7.021813E-01   0.000000E+00   3.722200E-03   2.977800E-04   1.000000E+00
+   8.027072E-01   0.000000E+00   4.564200E-03   2.738500E-04   1.000000E+00
+   8.027072E-01   0.000000E+00   3.207300E-03   2.565800E-04   1.000000E+00
+   1.005260E+00   0.000000E+00   6.262200E-03   1.565600E-03   1.000000E+00
+   1.041269E+00   0.000000E+00   4.790200E-03   1.005900E-03   1.000000E+00
+   1.290333E+00   0.000000E+00   6.256200E-03   1.814300E-03   1.000000E+00
+   1.549900E+00   0.000000E+00   6.233200E-03   1.122000E-03   1.000000E+00
+   1.641424E+00   0.000000E+00   6.651400E-03   1.396800E-03   1.000000E+00
+# reference:
+#   author: S.Turkat, S.Hammer, E.Masha, S.Akhmadaliev,  D.Bemmerer, M.Grieger, T.Hensel, J.Julin, M.Koppitz,  F.Ludwig, C.Moeckel, S.Reinicke, R.Schwengner,  K.Stoeckel, T.Szuecs, L.Wagner, K.Zuber
+#   title: Measurement of the 2H(p,gamma)3He S factor at  265-1094 keV
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.103, p.045805 (2021)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  3.976026E-01
+#   E-max [MeV]:  1.641424E+00
+#   F-value:  1.170392E+00
+#   A-value:  8.954025E-01
+#   chi-2:  2.740978E+00
+#   p-value:  2.873918E-01
+#   exp. data sets for p-value:      3
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.170392E+00   8.954025E-01   2.740978E+00
+# endfb8.0      1.170392E+00   8.954025E-01   2.740978E+00

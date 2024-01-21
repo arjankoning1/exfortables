@@ -1,0 +1,50 @@
+# header:
+#   title: Ba138(n,x)Cs138 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Ramarao
+#   year: 1986
+#   subentry: 30938004
+#   X4 reaction: 56-BA-138(N,P)55-CS-138,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30938004
+# target:
+#   Z: 56
+#   A: 138
+#   nuclide: Ba138
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 55
+#   A: 138
+#   nuclide: Cs138
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.400000E+01   0.000000E+00   3.200000E+00   2.000000E-01   1.000000E+00
+# reference:
+#   author: J.Rama Rao,N.L.Singh,S.Singhal,A.V.Mohan Rao, S.Mukherjee,L.Chaturvedi
+#   title: Simulation technique for the measurement of fast neutron reaction cross section
+#   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.17, p.368 (198
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.400000E+01
+#   E-max [MeV]:  1.400000E+01
+#   F-value:  1.618265E+00
+#   A-value:  6.179640E-01
+#   chi-2:  3.736465E+01
+#   p-value:  1.231219E-01
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.609596E+00   6.212738E-01   3.671900E+01
+# jendl5.0      1.626884E+00   6.146719E-01   3.801030E+01

@@ -1,0 +1,60 @@
+# header:
+#   title: Mo97(n,p)Nb97 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Ikeda
+#   year: 1988
+#   subentry: 22089079
+#   X4 reaction: 42-MO-97(N,P)41-NB-97,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22089079
+# target:
+#   Z: 42
+#   A: 97
+#   nuclide: Mo97
+# reaction:
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 41
+#   A: 97
+#   nuclide: Nb97
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.335000E+01   0.000000E+00   1.185638E+01   6.698000E-01   9.996946E-01
+   1.358000E+01   0.000000E+00   1.305601E+01   7.297800E-01   9.996946E-01
+   1.376000E+01   0.000000E+00   1.351587E+01   7.497700E-01   9.996946E-01
+   1.399000E+01   0.000000E+00   1.455555E+01   8.197500E-01   9.996946E-01
+   1.423000E+01   0.000000E+00   1.603510E+01   8.997300E-01   9.996946E-01
+   1.444000E+01   0.000000E+00   1.665491E+01   9.397100E-01   9.996946E-01
+   1.468000E+01   0.000000E+00   1.748466E+01   9.897000E-01   9.996946E-01
+   1.494000E+01   0.000000E+00   1.782455E+01   9.697000E-01   9.996946E-01
+# reference:
+#   author: Y.Ikeda,C.Konno,K.Oishi,T.Nakamura,H.Miyade, K.Kawade,  H.Yamamoto, T.Katoh
+#   title: Activation cross section measurements for fusion  reactor structural materials at neutron energy from  13.3 to 15.0 MeV using FNS facility
+#   journal: Rept: JAERI Reports, No.1312 (1988)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.335000E+01
+#   E-max [MeV]:  1.494000E+01
+#   F-value:  1.250760E+00
+#   A-value:  1.161957E+00
+#   chi-2:  2.468293E+01
+#   p-value:  2.972405E-01
+#   exp. data sets for p-value:      7
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    1.568612E+00   1.567326E+00   1.036444E+02
+# endfb8.0      1.013517E+00   1.002730E+00   1.901880E-01
+# jeff3.3       1.053649E+00   1.049180E+00   1.448419E+00
+# jendl5.0      1.053649E+00   1.049180E+00   1.448419E+00
+# cendl3.2      1.227478E+00   1.224356E+00   1.668328E+01

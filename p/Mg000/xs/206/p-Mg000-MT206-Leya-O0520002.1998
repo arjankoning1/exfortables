@@ -1,0 +1,60 @@
+# header:
+#   title: Mg0(p,xh) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Leya
+#   year: 1998
+#   subentry: O0520002
+#   X4 reaction: 12-MG-0(P,X)2-HE-3,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O0520002
+# target:
+#   Z: 12
+#   A: 0
+#   nuclide: Mg0
+# reaction:
+#   type: (p,xh)
+#   ENDF_MF: 3
+#   ENDF_MT: 206
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 15
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.470000E+01   8.000000E-01   6.000000E-02   1.000000E-02   1.000000E+00
+   1.980000E+01   8.000000E-01   3.600000E-01   3.000000E-02   1.000000E+00
+   2.470000E+01   7.000000E-01   2.450000E+00   1.400000E-01   1.000000E+00
+   3.170000E+01   7.000000E-01   6.410000E+00   3.700000E-01   1.000000E+00
+   3.380000E+01   6.000000E-01   7.130000E+00   6.800000E-01   1.000000E+00
+   3.450000E+01   7.000000E-01   7.170000E+00   4.000000E-01   1.000000E+00
+   4.120000E+01   6.000000E-01   7.730000E+00   4.500000E-01   1.000000E+00
+   5.000000E+01   8.000000E-01   1.040000E+01   6.000000E-01   1.000000E+00
+   7.030000E+01   5.000000E-01   1.200000E+01   6.000000E-01   1.000000E+00
+   1.160000E+02   1.000000E+00   1.540000E+01   9.000000E-01   1.000000E+00
+   1.370000E+02   1.000000E+00   1.460000E+01   8.000000E-01   1.000000E+00
+   1.800000E+02   1.000000E+00   1.170000E+01   6.000000E-01   1.000000E+00
+   3.070000E+02   1.000000E+00   1.960000E+01   1.100000E+00   1.000000E+00
+   3.800000E+02   1.000000E+00   2.200000E+01   1.800000E+00   1.000000E+00
+   1.600000E+03   1.000000E+00   4.790001E+01   3.900000E+00   1.000000E+00
+# reference:
+#   author: I.Leya,H.Busemann,H.Baur,R.Wieler,M.Gloris,  S.Neumann,R.Michel,F.Sudbrock,U.Herpers
+#   title: Cross sections for the proton-induced production of He and Ne isotopes from magnesium, aluminum and silicon.
+#   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.145, p.449 (19
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  1.470000E+01
+#   E-max [MeV]:  1.600000E+03
+#   F-value:  2.413074E+00
+#   A-value:  1.045098E+00
+#   chi-2:  3.276278E+02
+#   p-value:  2.119624E-01
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    2.878186E+00   1.391344E+00   5.391636E+02
+# jendl5.0      1.933015E+00   7.850174E-01   1.160921E+02

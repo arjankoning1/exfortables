@@ -1,0 +1,48 @@
+# header:
+#   title: Pu239(n,non) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Degtjarev
+#   year: 1965
+#   subentry: 406940021
+#   X4 reaction: 94-PU-239(N,NON),,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/406940021
+# target:
+#   Z: 94
+#   A: 239
+#   nuclide: Pu239
+# reaction:
+#   type: (n,non)
+#   ENDF_MF: 3
+#   ENDF_MT: 3
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.340000E+01   0.000000E+00   2.720000E+03   2.000000E+02   1.000000E+00
+   1.540000E+01   0.000000E+00   2.700000E+03   2.000000E+02   1.000000E+00
+   1.840000E+01   0.000000E+00   2.570000E+03   7.000000E+01   1.000000E+00
+# reference:
+#   author: JU.G.DEGTJAREV
+#   title: NONELASTIC CROSS SECTION FOR NEUTRONS WITH NUCLEI BY LI7, C12, N14, AL27, FE26, CU, PB, U235, U238 AND PU239.
+#   journal: Jour: Atomnaya Energiya, Vol.19, p.456 (1965)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.340000E+01
+#   E-max [MeV]:  1.840000E+01
+#   F-value:  1.189896E+00
+#   A-value:  1.185790E+00
+#   chi-2:  2.994218E+01
+#   p-value:  2.203102E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.189896E+00   1.185790E+00   2.994218E+01
+# endfb8.0      1.189896E+00   1.185790E+00   2.994218E+01

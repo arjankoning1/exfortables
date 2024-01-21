@@ -1,0 +1,57 @@
+# header:
+#   title: Cr54(n,x)Ti51 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Kasugai
+#   year: 1998
+#   subentry: 22434005
+#   X4 reaction: 24-CR-54(N,A)22-TI-51,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22434005
+# target:
+#   Z: 24
+#   A: 54
+#   nuclide: Cr54
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+# residual:
+#   Z: 22
+#   A: 51
+#   nuclide: Ti51
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.340000E+01   5.000000E-02   1.028894E+01   4.321400E-01   9.989259E-01
+   1.365000E+01   5.000000E-02   1.098819E+01   4.724900E-01   9.989259E-01
+   1.388000E+01   5.000000E-02   1.168743E+01   4.908700E-01   9.989259E-01
+   1.428000E+01   5.000000E-02   1.208700E+01   5.680900E-01   9.989259E-01
+   1.458000E+01   5.000000E-02   1.278625E+01   5.370200E-01   9.989259E-01
+   1.487000E+01   5.000000E-02   1.318582E+01   5.406200E-01   9.989259E-01
+# reference:
+#   author: Y.Kasugai,H.Yamamoto,K.Kawade,T.Iida
+#   title: Measurement of (n,alpha) cross-sections for  short-lived products by 13.4 - 14.9 MeV neutrons
+#   journal: Jour: Annals of Nuclear Energy, Vol.25, Issue.18, p.1485 (1998)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.340000E+01
+#   E-max [MeV]:  1.487000E+01
+#   F-value:  1.056288E+00
+#   A-value:  9.603916E-01
+#   chi-2:  1.856256E+00
+#   p-value:  3.794041E-01
+#   exp. data sets for p-value:      1
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2023    1.079135E+00   9.287097E-01   3.391441E+00
+# endfb8.0      0.000000E+00   0.000000E+00   0.000000E+00
+# jeff3.3       1.014142E+00   9.931544E-01   3.210708E-01
+# jendl5.0      0.000000E+00   0.000000E+00   0.000000E+00

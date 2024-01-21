@@ -1,0 +1,57 @@
+# header:
+#   title: B10(n,p_00) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Olson
+#   year: 1984
+#   subentry: 129130023
+#   X4 reaction: 5-B-10(N,A)3-LI-7,PAR,SIG,,RES
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/129130023
+#   level energy [MeV]  0.00000E+00
+# target:
+#   Z: 5
+#   A: 10
+#   nuclide: B10
+# reaction:
+#   type: (n,p_00)
+#   ENDF_MF: 3
+#   ENDF_MT: 800
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  1.000000E+00
+#     parity: 1
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.410000E-01   1.800000E-02   1.700000E+01   3.000000E+00   1.000000E+00
+   4.930000E-01   4.000000E-03   1.120000E+02   3.000000E+00   1.000000E+00
+# reference:
+#   author: M.D.Olson,R.W.Kavanagh
+#   title: Li-7(a,n) cross section from threshold to 5.67 MeV.
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.30, p.1375 (1984)
+# statistics:
+#   NEA score: T3
+#   IAEA score: -1
+#   E-min [MeV]:  2.410000E-01
+#   E-max [MeV]:  4.930000E-01
+#   F-value:  4.795751E+00
+#   A-value:  3.933574E+00
+#   chi-2:  1.377071E+03
+#   p-value:  7.037139E-02
+#   exp. data sets for p-value:      1
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2023    4.769759E+00   3.885438E+00   1.322152E+03
+# endfb8.0      4.769759E+00   3.885438E+00   1.322152E+03
+# jeff3.3       4.781239E+00   3.922572E+00   1.361263E+03
+# jendl5.0      4.903278E+00   4.104513E+00   1.573443E+03
+# cendl3.2      4.781239E+00   3.922572E+00   1.361263E+03
+# irdff2.0      4.769759E+00   3.885438E+00   1.322152E+03

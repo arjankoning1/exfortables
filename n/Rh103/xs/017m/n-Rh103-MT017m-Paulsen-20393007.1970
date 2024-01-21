@@ -1,0 +1,61 @@
+# header:
+#   title: Rh103(n,3n)Rh101m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Paulsen
+#   year: 1970
+#   subentry: 20393007
+#   X4 reaction: 45-RH-103(N,3N)45-RH-101-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20393007
+# target:
+#   Z: 45
+#   A: 103
+#   nuclide: Rh103
+# reaction:
+#   type: (n,3n)
+#   ENDF_MF: 3
+#   ENDF_MT: 17
+# residual:
+#   Z: 45
+#   A: 101
+#   nuclide: Rh101m
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.805000E+01   4.000000E-01   1.370000E+01   9.590001E-01   1.000000E+00
+   1.847000E+01   3.600000E-01   3.000000E+01   1.800000E+00   1.000000E+00
+   1.883000E+01   3.100000E-01   5.100000E+01   2.550000E+00   1.000000E+00
+   1.913000E+01   2.200000E-01   7.740000E+01   3.870000E+00   1.000000E+00
+   1.936000E+01   2.000000E-01   9.560000E+01   4.780000E+00   1.000000E+00
+   1.959000E+01   1.900000E-01   1.180000E+02   5.900000E+00   1.000000E+00
+# reference:
+#   author: A.PAULSEN, R.WIDERA
+#   title: -THE (N,2N) EXCITATION FUNCTIONS FOR 41-NB-93 AND  45-RH-103 WITH SPECIAL RESPECT TO THE ISOMERIC STATES  IN 41-NB-92 AND 45-RH-102.-
+#   journal: Jour: Zeitschrift fuer Physik, Vol.238, p.23 (1970)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.805000E+01
+#   E-max [MeV]:  1.959000E+01
+#   F-value:  1.345173E+00
+#   A-value:  1.279203E+00
+#   chi-2:  4.394625E+01
+#   p-value:  3.106584E-01
+#   exp. data sets for p-value:      2
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.301598E+00   1.284035E+00   3.226567E+01
+# jeff3.3       1.538998E+00   1.522349E+00   9.606893E+01
+# jendl5.0      1.096111E+00   1.070847E+00   3.504145E+00

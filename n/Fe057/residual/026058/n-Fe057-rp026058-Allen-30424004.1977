@@ -1,0 +1,67 @@
+# header:
+#   title: Fe57(n,x)Fe58 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Allen
+#   year: 1977
+#   subentry: 30424004
+#   X4 reaction: 26-FE-57(N,G)26-FE-58,,SIG,,AV
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30424004
+# target:
+#   Z: 26
+#   A: 57
+#   nuclide: Fe57
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+# residual:
+#   Z: 26
+#   A: 58
+#   nuclide: Fe58
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 17
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.500000E-03   5.000000E-04   1.850000E+02   2.000000E+01   1.000000E+00
+   4.500000E-03   5.000000E-04   3.260000E+01   1.600000E+00   1.000000E+00
+   6.500000E-03   5.000000E-04   4.820000E+01   1.470000E+01   1.000000E+00
+   7.500000E-03   5.000000E-04   2.470000E+02   1.200000E+01   1.000000E+00
+   8.500000E-03   5.000000E-04   3.100000E+00   2.000000E-01   1.000000E+00
+   9.500000E-03   5.000000E-04   1.080000E+01   5.000000E-01   1.000000E+00
+   1.500000E-02   5.000000E-03   4.790001E+01   2.300000E+00   1.000000E+00
+   2.500000E-02   5.000000E-03   7.620000E+01   1.070000E+01   1.000000E+00
+   3.500000E-02   5.000000E-03   2.040000E+01   1.000000E+00   1.000000E+00
+   4.500000E-02   5.000000E-03   1.640000E+01   2.000000E+00   1.000000E+00
+   5.500000E-02   5.000000E-03   1.790000E+01   2.500000E+00   1.000000E+00
+   6.500000E-02   5.000000E-03   1.910000E+01   2.300000E+00   1.000000E+00
+   7.500000E-02   5.000000E-03   8.800000E+00   1.200000E+00   1.000000E+00
+   8.500000E-02   5.000000E-03   4.400000E+00   3.000000E-01   1.000000E+00
+   9.500000E-02   5.000000E-03   1.290000E+01   1.200000E+00   1.000000E+00
+   1.250000E-01   2.500000E-02   9.600000E+00   6.000000E-01   1.000000E+00
+   1.750000E-01   2.500000E-02   3.500000E+00   3.000000E-01   1.000000E+00
+# reference:
+#   author: B.J.Allen, A.R.de L.Musgrove, R.Taylor, R.L.Macklin
+#   title: Neutron capture cross section of 57Fe
+#   journal: Conf: Meet.on Neutr.Data of Struct.Mat.,Geel 1977, p.476 (1977)
+# statistics:
+#   NEA score: T3
+#   IAEA score: -1
+#   E-min [MeV]:  3.500000E-03
+#   E-max [MeV]:  1.750000E-01
+#   F-value:  4.549820E+00
+#   A-value:  4.084032E-01
+#   chi-2:  1.763657E+02
+#   p-value:  1.300475E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    4.940604E+00   3.939649E-01   1.946289E+02
+# jeff3.3       3.741570E+00   4.699991E-01   1.727749E+02
+# jendl5.0      5.004850E+00   3.678859E-01   1.616933E+02

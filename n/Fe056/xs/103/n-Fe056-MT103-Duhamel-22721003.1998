@@ -1,0 +1,54 @@
+# header:
+#   title: Fe56(n,p)Mn56 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Duhamel
+#   year: 1998
+#   subentry: 22721003
+#   X4 reaction: 26-FE-56(N,P)25-MN-56,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22721003
+# target:
+#   Z: 26
+#   A: 56
+#   nuclide: Fe56
+# reaction:
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 25
+#   A: 56
+#   nuclide: Mn56
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.850000E+01   1.400000E+00   1.270000E+01   0.000000E+00   1.000000E+00
+# reference:
+#   author: P.DUHAMEL, W.GALSTER, J.S.GRAULICH, P.JEAN, P.LELEUX, J.P.MEULDERS, J.VANHORENBEECK, G.VEDRENNE, P.VON BALLMOOS
+#   title: Measurement of cross-sections for the Be-9(N,3N)Be-7 and Fe-56(N,P)Mn-56 reactions producing background lines in gamma-ray astrophysics.
+#   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.A, Vol.404, p.143 (19
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  2.850000E+01
+#   E-max [MeV]:  2.850000E+01
+#   F-value:  2.228588E+00
+#   A-value:  2.222462E+00
+#   chi-2:  0.000000E+00
+#   p-value:  5.914928E-02
+#   exp. data sets for p-value:      1
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2023    2.392891E+00   2.392891E+00   0.000000E+00
+# endfb8.0      2.024700E+00   2.024700E+00   0.000000E+00
+# jeff3.3       2.121643E+00   2.121643E+00   0.000000E+00
+# jendl5.0      2.201794E+00   2.201794E+00   0.000000E+00
+# cendl3.2      0.000000E+00   0.000000E+00   0.000000E+00
+# irdff2.0      2.395735E+00   2.395735E+00   0.000000E+00

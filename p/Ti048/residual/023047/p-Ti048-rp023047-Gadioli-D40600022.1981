@@ -1,0 +1,59 @@
+# header:
+#   title: Ti48(p,x)V47 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Gadioli
+#   year: 1981
+#   subentry: D40600022
+#   X4 reaction: 22-TI-48(P,2N)23-V-47,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D40600022
+# target:
+#   Z: 22
+#   A: 48
+#   nuclide: Ti48
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 23
+#   A: 47
+#   nuclide: V47
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 10
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.000000E+01   0.000000E+00   1.180796E+02   6.214700E+00   1.035786E+00
+   2.500000E+01   0.000000E+00   1.356880E+02   1.450101E+01   1.035786E+00
+   3.000000E+01   0.000000E+00   1.222228E+02   1.450101E+01   1.035786E+00
+   3.500000E+01   0.000000E+00   5.810761E+01   7.250500E+00   1.035786E+00
+   4.000000E+01   0.000000E+00   4.174219E+01   5.178900E+00   1.035786E+00
+   4.500000E+01   0.000000E+00   3.935988E+01   4.971800E+00   1.035786E+00
+   5.000000E+01   0.000000E+00   3.262727E+01   4.453900E+00   1.035786E+00
+   5.500000E+01   0.000000E+00   2.071573E+01   2.589500E+00   1.035786E+00
+   6.000000E+01   0.000000E+00   2.113004E+01   2.693000E+00   1.035786E+00
+   8.500000E+01   0.000000E+00   9.529201E+00   1.242900E+00   1.035786E+00
+# reference:
+#   author: E.Gadioli, E.Gadioli-Erba, J.J.Hogan, K.I.Burns
+#   title: Emission of alpha particles in the interaction of 10-85 MeV protons with Ti-48,50
+#   journal: Jour: Zeitschrift fuer Physik A, Hadrons and Nuclei, Vol.301, p.289 (198
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  2.000000E+01
+#   E-max [MeV]:  8.500000E+01
+#   F-value:  1.588762E+00
+#   A-value:  6.953229E-01
+#   chi-2:  1.254149E+01
+#   p-value:  2.042451E-01
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.621154E+00   6.677415E-01   1.003562E+01
+# jendl5.0      1.555585E+00   7.240435E-01   1.504736E+01

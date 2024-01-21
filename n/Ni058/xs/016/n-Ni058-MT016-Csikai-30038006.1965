@@ -1,0 +1,54 @@
+# header:
+#   title: Ni58(n,2n)Ni57 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Csikai
+#   year: 1965
+#   subentry: 30038006
+#   X4 reaction: 28-NI-58(N,2N)28-NI-57,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30038006
+# target:
+#   Z: 28
+#   A: 58
+#   nuclide: Ni58
+# reaction:
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 28
+#   A: 57
+#   nuclide: Ni57
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.460000E+01   1.000000E-01   3.593008E+01   3.000000E+00   9.710832E-01
+# reference:
+#   author: J.Csikai
+#   title: Fluctuations in the total cross-section of (n,2n) reactions
+#   journal: Conf: Nuclear Structure Study with Neutrons, Antwerp 1965, p.537 (1965)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.460000E+01
+#   E-max [MeV]:  1.460000E+01
+#   F-value:  1.017995E+00
+#   A-value:  9.883187E-01
+#   chi-2:  1.961341E-01
+#   p-value:  1.297062E-01
+#   exp. data sets for p-value:      8
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2023    1.033636E+00   9.674582E-01   5.321236E-01
+# endfb8.0      1.002105E+00   9.978996E-01   3.169492E-02
+# jeff3.3       1.001130E+00   9.988711E-01   1.699364E-02
+# jendl5.0      1.001903E+00   1.001903E+00   2.869654E-02
+# cendl3.2      1.009320E+00   9.907658E-01   1.418962E-01
+# irdff2.0      1.027171E+00   9.735473E-01   4.253997E-01

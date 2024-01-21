@@ -1,0 +1,60 @@
+# header:
+#   title: Ni60(n,n'_01)Ni61 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Kinney
+#   year: 1974
+#   subentry: 10113013
+#   X4 reaction: 28-NI-60(N,INL)28-NI-60,PAR,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/10113013
+#   level energy [MeV]  1.33300E+00
+# target:
+#   Z: 28
+#   A: 60
+#   nuclide: Ni60
+# reaction:
+#   type: (n,n'_01)
+#   ENDF_MF: 3
+#   ENDF_MT: 51
+#   level: 
+#     number: 1
+#     energy [MeV]:  1.332514E+00
+#     spin:  2.000000E+00
+#     parity: 1
+# residual:
+#   Z: 28
+#   A: 61
+#   nuclide: Ni61
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   4.340000E+00   7.000000E-02   2.957200E+02   2.247472E+01   1.000000E+00
+   4.920000E+00   6.000000E-02   2.341000E+02   1.849390E+01   1.000000E+00
+# reference:
+#   author: W.E.KINNEY,F.G.PEREY
+#   title: Ni neutron elastic- and inelastic-scattering cross  sections from 4.07 to 8.56 MeV
+#   journal: Rept: Oak Ridge National Lab. Reports, No.4807 (1974)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  4.340000E+00
+#   E-max [MeV]:  4.920000E+00
+#   F-value:  1.305757E+00
+#   A-value:  8.210054E-01
+#   chi-2:  8.768999E+00
+#   p-value:  1.352144E-01
+#   exp. data sets for p-value:      6
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    1.460742E+00   6.852390E-01   1.647157E+01
+# endfb8.0      1.448131E+00   6.915373E-01   1.581979E+01
+# jeff3.3       1.158275E+00   1.012522E+00   4.088717E+00
+# jendl5.0      1.257293E+00   7.970689E-01   7.005807E+00
+# cendl3.2      1.034537E+00   9.753765E-01   4.591184E-01

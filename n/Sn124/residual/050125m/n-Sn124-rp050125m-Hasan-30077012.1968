@@ -1,0 +1,56 @@
+# header:
+#   title: Sn124(n,x)Sn125m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Hasan
+#   year: 1968
+#   subentry: 30077012
+#   X4 reaction: 50-SN-124(N,G)50-SN-125-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30077012
+# target:
+#   Z: 50
+#   A: 124
+#   nuclide: Sn124
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+# residual:
+#   Z: 50
+#   A: 125
+#   nuclide: Sn125m
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.400000E-02   0.000000E+00   2.200000E+02   5.500000E+01   1.000000E+00
+# reference:
+#   author: S.S.Hasan,A.K.Chaubey, M.L.Sehgal
+#   title: Study of the Average Level Spacing from Neutron-Capture Cross-Section
+#   journal: Jour: Nuovo Cimento B, Vol.58, p.402 (1968)
+# statistics:
+#   NEA score: T2
+#   IAEA score:  1
+#   E-min [MeV]:  2.400000E-02
+#   E-max [MeV]:  2.400000E-02
+#   F-value:  9.024968E+02
+#   A-value:  1.114696E-03
+#   chi-2:  1.596488E+01
+#   p-value:  5.960464E-07
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    6.086418E+02   1.643002E-03   1.594954E+01
+# jeff3.3       1.200001E+03   8.333327E-04   1.597540E+01
+# jendl5.0      9.885230E+02   1.011610E-03   1.596970E+01

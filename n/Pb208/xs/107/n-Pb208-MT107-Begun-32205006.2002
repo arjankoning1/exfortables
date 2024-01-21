@@ -1,0 +1,53 @@
+# header:
+#   title: Pb208(n,a)Hg205 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Begun
+#   year: 2002
+#   subentry: 32205006
+#   X4 reaction: 82-PB-208(N,A)80-HG-205,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/32205006
+# target:
+#   Z: 82
+#   A: 208
+#   nuclide: Pb208
+# reaction:
+#   type: (n,a)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+# residual:
+#   Z: 80
+#   A: 205
+#   nuclide: Hg205
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.450000E+01   4.000000E-02   5.400000E-01   4.000000E-02   1.000000E+00
+# reference:
+#   author: S.V.Begun, I.M.Kadenko, V.K.Maidanyuk, V.M.Neplyuev,  V.A.Plujko, G.I.Primenko, V.K.Tarakanov
+#   title: Determination of the cross sections of (n,x) nuclear  reactions on Y, La, Ta, Pb and Bi at the energy of  neutrons about 14 MeV
+#   journal: Jour: Jour. of Nuclear Science and Technology Suppl., Vol.2, p.425 (2002
+# statistics:
+#   NEA score: T2
+#   IAEA score:  1
+#   E-min [MeV]:  1.450000E+01
+#   E-max [MeV]:  1.450000E+01
+#   F-value:  2.636151E+00
+#   A-value:  7.669381E-01
+#   chi-2:  1.762479E+02
+#   p-value:  3.937114E-01
+#   exp. data sets for p-value:      2
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    5.829405E+00   1.715441E-01   1.250853E+02
+# endfb8.0      1.230226E+00   1.230226E+00   9.695744E+00
+# jeff3.3       1.535092E+00   6.514268E-01   2.214409E+01
+# jendl5.0      1.535092E+00   6.514268E-01   2.214409E+01
+# cendl3.2      2.962851E+00   2.962851E+00   7.021700E+02

@@ -1,0 +1,52 @@
+# header:
+#   title: Y89(p,3n)Zr87 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Caretto
+#   year: 1959
+#   subentry: C1299004
+#   X4 reaction: 39-Y-89(P,3N)40-ZR-87,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C1299004
+# target:
+#   Z: 39
+#   A: 89
+#   nuclide: Y89
+# reaction:
+#   type: (p,3n)
+#   ENDF_MF: 3
+#   ENDF_MT: 17
+# residual:
+#   Z: 40
+#   A: 87
+#   nuclide: Zr87
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.000000E+02   0.000000E+00   4.400000E+01   5.000000E+00   1.000000E+00
+   1.500000E+02   0.000000E+00   1.500000E+01   3.000000E+00   1.000000E+00
+   2.400000E+02   0.000000E+00   9.200000E+00   2.000000E-01   1.000000E+00
+# reference:
+#   author: A.A.Caretto,E.O.Wiig
+#   title: Interaction of Yttrium with Protons of Energy between  60 and 240 Mev
+#   journal: Jour: Physical Review, Vol.115, p.1238 (1959)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  1.000000E+02
+#   E-max [MeV]:  2.400000E+02
+#   F-value:  1.864996E+00
+#   A-value:  5.713195E-01
+#   chi-2:  1.342623E+01
+#   p-value:  1.123792E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.901607E+00   5.562908E-01   1.390871E+01
+# jendl5.0      1.827945E+00   5.867541E-01   1.294375E+01

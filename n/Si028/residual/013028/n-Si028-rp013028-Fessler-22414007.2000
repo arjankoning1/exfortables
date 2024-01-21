@@ -1,0 +1,54 @@
+# header:
+#   title: Si28(n,x)Al28 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Fessler
+#   year: 2000
+#   subentry: 22414007
+#   X4 reaction: 14-SI-28(N,P)13-AL-28,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22414007
+# target:
+#   Z: 14
+#   A: 28
+#   nuclide: Si28
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 13
+#   A: 28
+#   nuclide: Al28
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.702500E+01   4.000000E-02   1.767100E+02   9.410001E+00   1.000000E+00
+   1.777600E+01   3.200000E-02   1.499700E+02   8.759999E+00   1.000000E+00
+   1.909700E+01   1.100000E-02   1.053200E+02   6.870000E+00   1.000000E+00
+   2.030300E+01   1.000000E-02   9.392001E+01   9.680000E+00   1.000000E+00
+# reference:
+#   author: A.Fessler,A.J.M.Plompen,D.L.Smith,J.W.Meadows, Y.Ikeda
+#   title: Neutron activation cross-section measurements  from 16 to 20 MeV for isotopes of F, Na, Mg, Al, Si,  P, Cl, Ti, V, Mn, Fe, Nb, Sn, and Ba
+#   journal: Jour: Nuclear Science and Engineering, Vol.134, Issue.2, p.171 (2000)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.702500E+01
+#   E-max [MeV]:  2.030300E+01
+#   F-value:  1.323111E+00
+#   A-value:  7.999714E-01
+#   chi-2:  1.035928E+01
+#   p-value:  3.037058E-01
+#   exp. data sets for p-value:      3
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.049770E+00   9.661543E-01   6.179456E-01
+# endfb8.0      1.344167E+00   7.575017E-01   1.185103E+01
+# jendl5.0      1.464081E+00   6.995089E-01   1.860887E+01

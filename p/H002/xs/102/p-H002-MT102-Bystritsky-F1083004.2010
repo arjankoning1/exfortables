@@ -1,0 +1,52 @@
+# header:
+#   title: H2(p,g)He3 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Bystritsky
+#   year: 2010
+#   subentry: F1083004
+#   X4 reaction: 1-H-2(P,G)2-HE-3,,SIG,,SFC
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/F1083004
+# target:
+#   Z: 1
+#   A: 2
+#   nuclide: H2
+# reaction:
+#   type: (p,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+# residual:
+#   Z: 2
+#   A: 3
+#   nuclide: He3
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.270700E-03   0.000000E+00   3.225200E-09   9.219600E-10   1.000000E+00
+   4.503700E-03   0.000000E+00   3.409500E-08   7.730501E-09   1.000000E+00
+   4.884300E-03   0.000000E+00   6.104300E-08   1.339000E-08   1.000000E+00
+# reference:
+#   author: V.M.Bystritsky,V.V.Gerasimov,A.R.Krylov, S.S.Parizhitskii,D.A.Ilguzin,P.S.Ananin,G.N.Dudkin, V.L.Kaminskii,B.A.Nechaev,V.N.Padalko,A.V.Petrov, G.A.Mesyats,M.Filipowicz,Ya.Wozniak,Vit.M.Bystritsky
+#   title: Using a Hall accelerator to investigate d(d,n)He-3 and d(p,g)He-3 reactions in the astrophysical energy region.
+#   journal: Jour: Izv. Rossiiskoi Akademii Nauk, Ser.Fiz., Vol.74, p.563 (2010)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  3.270700E-03
+#   E-max [MeV]:  4.884300E-03
+#   F-value:  0.000000E+00
+#   A-value:  0.000000E+00
+#   chi-2:  0.000000E+00
+#   p-value:  0.000000E+00
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    0.000000E+00   0.000000E+00   0.000000E+00
+# endfb8.0      0.000000E+00   0.000000E+00   0.000000E+00

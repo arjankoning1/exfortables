@@ -1,0 +1,53 @@
+# header:
+#   title: Ni58(a,x)Ni56 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Levkovski*0.82
+#   year: 1991
+#   subentry: A0510356
+#   X4 reaction: 28-NI-58(A,2N+A)28-NI-56,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/A0510356
+# target:
+#   Z: 28
+#   A: 58
+#   nuclide: Ni58
+# reaction:
+#   type: (a,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 24
+# residual:
+#   Z: 28
+#   A: 56
+#   nuclide: Ni56
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   4.240000E+01   0.000000E+00   5.658000E-01   6.900000E-02   1.000000E+00
+   4.330000E+01   0.000000E+00   6.232001E-01   7.600000E-02   1.000000E+00
+   4.420000E+01   0.000000E+00   7.544000E-01   9.200000E-02   1.000000E+00
+   4.510000E+01   0.000000E+00   7.872000E-01   9.600000E-02   1.000000E+00
+   4.590000E+01   0.000000E+00   1.025000E+00   1.250000E-01   1.000000E+00
+# reference:
+#   author: V.N.Levkovski
+#   title: Cross sections of medium mass nuclide activation  (A=40-100) by medium energy protons and alpha-particles (E=10-50 MeV)
+#   journal: Book: Levkovskij,Act.Cs.By Protons and Alphas,Moscow 1991,  (1991)
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  4.240000E+01
+#   E-max [MeV]:  4.590000E+01
+#   F-value:  3.021873E+00
+#   A-value:  3.008289E+00
+#   chi-2:  2.805215E+02
+#   p-value:  1.809143E-01
+#   exp. data sets for p-value:      2
+#   libraries:      1
+##  Library          F              A            chi-2
+# tendl.2023    3.021873E+00   3.008289E+00   2.805215E+02

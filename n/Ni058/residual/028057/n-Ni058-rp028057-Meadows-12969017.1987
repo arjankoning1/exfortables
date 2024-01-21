@@ -1,0 +1,51 @@
+# header:
+#   title: Ni58(n,x)Ni57 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Meadows
+#   year: 1987
+#   subentry: 12969017
+#   X4 reaction: 28-NI-58(N,2N)28-NI-57,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/12969017
+# target:
+#   Z: 28
+#   A: 58
+#   nuclide: Ni58
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 28
+#   A: 57
+#   nuclide: Ni57
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.474000E+01   2.000000E-02   3.835000E+01   2.185950E+00   1.000000E+00
+# reference:
+#   author: J.W.Meadows,D.L.Smith,M.M.Bretscher,S.A.Cox
+#   title: Measurement of 14.7-MeV neutron-activation  cross sections for fusion
+#   journal: Jour: Annals of Nuclear Energy, Vol.14, p.489 (1987)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.474000E+01
+#   E-max [MeV]:  1.474000E+01
+#   F-value:  1.020154E+00
+#   A-value:  9.884509E-01
+#   chi-2:  3.112475E-01
+#   p-value:  2.131328E-01
+#   exp. data sets for p-value:      8
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.035060E+00   9.661274E-01   8.516839E-01
+# endfb8.0      1.002050E+00   9.979539E-01   4.533022E-02
+# jendl5.0      1.001660E+00   1.001660E+00   3.672845E-02

@@ -1,0 +1,53 @@
+# header:
+#   title: Cu65(n,x)Ni65 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Maslov
+#   year: 1974
+#   subentry: 40136014
+#   X4 reaction: 29-CU-65(N,P)28-NI-65,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/40136014
+# target:
+#   Z: 29
+#   A: 65
+#   nuclide: Cu65
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 28
+#   A: 65
+#   nuclide: Ni65
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.420000E+01   2.000000E-01   2.652665E+01   2.753700E+00   9.084468E-01
+   1.460000E+01   2.000000E-01   2.849219E+01   2.953500E+00   9.132113E-01
+# reference:
+#   author: G.N.Maslov,F.Nasyrov,N.F.Pashkin
+#   title: Experimental cross-sections for nuclear reactions involving neutrons with energies of about 14 MeV
+#   journal: Rept: USSR report to the I.N.D.C., No.42, p.10 (1974)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  0
+#   E-min [MeV]:  1.420000E+01
+#   E-max [MeV]:  1.460000E+01
+#   F-value:  1.344906E+00
+#   A-value:  7.525783E-01
+#   chi-2:  6.162668E+00
+#   p-value:  1.530197E-01
+#   exp. data sets for p-value:      8
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2023    1.422261E+00   7.075821E-01   8.178829E+00
+# endfb8.0      1.430546E+00   7.019448E-01   8.423111E+00
+# jeff3.3       1.230250E+00   8.155190E-01   3.632651E+00
+# jendl5.0      1.267017E+00   7.919410E-01   4.416082E+00

@@ -1,0 +1,60 @@
+# header:
+#   title: Mo0(p,x)Mo99 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Chodash
+#   year: 2011
+#   subentry: C1871003
+#   X4 reaction: 42-MO-0(P,X)42-MO-99,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C1871003
+# target:
+#   Z: 42
+#   A: 0
+#   nuclide: Mo0
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 42
+#   A: 99
+#   nuclide: Mo99
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 11
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.130000E+01   1.700000E+00   2.000000E-01   2.000000E-01   1.000000E+00
+   1.580000E+01   1.100000E+00   4.200000E+00   4.000000E-01   1.000000E+00
+   2.110000E+01   7.000000E-01   1.170000E+01   1.000000E+00   1.000000E+00
+   2.550000E+01   5.000000E-01   1.540000E+01   1.400000E+00   1.000000E+00
+   2.920000E+01   1.800000E+00   1.560000E+01   1.400000E+00   1.000000E+00
+   2.940000E+01   4.000000E-01   1.560000E+01   1.400000E+00   1.000000E+00
+   3.400000E+01   1.400000E+00   1.590000E+01   1.400000E+00   1.000000E+00
+   3.840000E+01   1.100000E+00   1.560000E+01   1.400000E+00   1.000000E+00
+   4.240000E+01   8.000000E-01   1.590000E+01   1.400000E+00   1.000000E+00
+   4.610000E+01   6.000000E-01   1.620000E+01   1.400000E+00   1.000000E+00
+   4.960000E+01   5.000000E-01   1.640000E+01   1.500000E+00   1.000000E+00
+# reference:
+#   author: P.Chodash,C.T.Angell,J.Benitez,E.B.Norman, M.Pedretti,H.Shugart,E.Swanberg,R.Yee
+#   title: Measurement of excitation functions for the natMo(d,x)99Mo and natMo(p,x) 99Mo reactions
+#   journal: Jour: Applied Radiation and Isotopes, Vol.69, p.1447 (2011)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  1.130000E+01
+#   E-max [MeV]:  4.960000E+01
+#   F-value:  1.692710E+00
+#   A-value:  7.156066E-01
+#   chi-2:  9.538603E+00
+#   p-value:  4.100083E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.651463E+00   7.993568E-01   6.568741E+00
+# jendl5.0      1.733070E+00   6.406310E-01   1.250846E+01

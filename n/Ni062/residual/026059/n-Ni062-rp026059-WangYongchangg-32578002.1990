@@ -1,0 +1,58 @@
+# header:
+#   title: Ni62(n,x)Fe59 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: WangYongchangg
+#   year: 1990
+#   subentry: 32578002
+#   X4 reaction: 28-NI-62(N,A)26-FE-59,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/32578002
+# target:
+#   Z: 28
+#   A: 62
+#   nuclide: Ni62
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+# residual:
+#   Z: 26
+#   A: 59
+#   nuclide: Fe59
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.364000E+01   5.000000E-02   1.731660E+01   9.514800E-01   9.952069E-01
+   1.379000E+01   6.000000E-02   1.972289E+01   1.495700E+00   1.011430E+00
+   1.400000E+01   7.000000E-02   2.188656E+01   1.877200E+00   9.993862E-01
+   1.405000E+01   7.000000E-02   2.230139E+01   1.565900E+00   9.955978E-01
+   1.433000E+01   9.000000E-02   2.512830E+01   1.341800E+00   9.893031E-01
+   1.460000E+01   1.100000E-01   2.605074E+01   1.040500E+00   9.981124E-01
+   1.480000E+01   1.100000E-01   2.569748E+01   1.051500E+00   9.883644E-01
+# reference:
+#   author: Wang Yongchang,Yuan Junqian,Ren Zhongliang, Yang Jingkang,Xiang Sicang
+#   title: The cross section measurement for the                     Ni-62(n,alpha)Fe-59 reaction
+#   journal: Jour: High Energy Physics and Nucl.Physics,Chinese ed., Vol.14, p.1117 (
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.364000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.332780E+00
+#   A-value:  9.979489E-01
+#   chi-2:  2.887337E+01
+#   p-value:  2.924402E-01
+#   exp. data sets for p-value:      1
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2023    1.334779E+00   7.608731E-01   2.433490E+01
+# endfb8.0      0.000000E+00   0.000000E+00   0.000000E+00
+# jeff3.3       1.330774E+00   1.308894E+00   3.341184E+01
+# jendl5.0      0.000000E+00   0.000000E+00   0.000000E+00

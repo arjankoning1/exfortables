@@ -1,0 +1,59 @@
+# header:
+#   title: Mg0(n,n'_01)Mg1 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Takahashi
+#   year: 1987
+#   subentry: 220752011
+#   X4 reaction: 12-MG-0(N,INL)12-MG-0,PAR,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/220752011
+#   level energy [MeV]  1.59000E+00
+# target:
+#   Z: 12
+#   A: 0
+#   nuclide: Mg0
+# reaction:
+#   type: (n,n'_01)
+#   ENDF_MF: 3
+#   ENDF_MT: 51
+#   level: 
+#     number: 1
+#     energy [MeV]:  1.611768E+00
+#     spin:  3.500000E+00
+#     parity: 1
+# residual:
+#   Z: 12
+#   A: 1
+#   nuclide: Mg1
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.410000E+01   2.000000E-01   1.660000E+02   5.000000E+00   1.000000E+00
+# reference:
+#   author: A.Takahashi, E.Ichimura, Y.Sasaki, H.Sugimoto
+#   title: Measurement of double differential neutron emission  cross sections for incident neutrons of 14 MeV
+#   journal: Rept: Osaka Univ., OKTAVIAN Reports, No.87-03 (1987)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.410000E+01
+#   E-max [MeV]:  1.410000E+01
+#   F-value:  1.721326E+00
+#   A-value:  5.826474E-01
+#   chi-2:  1.923740E+02
+#   p-value:  2.030382E-01
+#   exp. data sets for p-value:      4
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    1.667326E+00   5.997629E-01   1.765676E+02
+# endfb8.0      1.790519E+00   5.584972E-01   2.148538E+02
+# jeff3.3       1.790519E+00   5.584972E-01   2.148538E+02
+# jendl5.0      1.790519E+00   5.584972E-01   2.148538E+02
+# cendl3.2      1.556013E+00   6.426681E-01   1.407408E+02

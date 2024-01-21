@@ -1,0 +1,57 @@
+# header:
+#   title: Te128(n,2n)Te127m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: FenqunZhouu
+#   year: 2006
+#   subentry: 32652002
+#   X4 reaction: 52-TE-128(N,2N)52-TE-127-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/32652002
+# target:
+#   Z: 52
+#   A: 128
+#   nuclide: Te128
+# reaction:
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 52
+#   A: 127
+#   nuclide: Te127m
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.410000E+01   2.000000E-01   7.381716E+02   6.762898E+01   1.001590E+00
+   1.460000E+01   3.000000E-01   8.545244E+02   7.818746E+01   1.001787E+00
+# reference:
+#   author: Fenqun Zhou, Yimin Zhang, Fei Tuo, Yanling Yi, Xiangzhong Kong
+#   title: Cross-section measurements for the Te-128(n,2n)Te-127m reactions induced by neutrons  around 14MeV
+#   journal: Jour: Applied Radiation and Isotopes, Vol.64, p.815 (2006)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.410000E+01
+#   E-max [MeV]:  1.460000E+01
+#   F-value:  1.226383E+00
+#   A-value:  1.190589E+00
+#   chi-2:  6.786851E+00
+#   p-value:  3.733888E-01
+#   exp. data sets for p-value:      3
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.191353E+00   1.171080E+00   4.888177E+00
+# jeff3.3       1.330539E+00   1.320519E+00   1.341117E+01
+# jendl5.0      1.119381E+00   1.091326E+00   2.061205E+00

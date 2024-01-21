@@ -1,0 +1,55 @@
+# header:
+#   title: U235(n,n')U235 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Drake
+#   year: 1969
+#   subentry: 10016006
+#   X4 reaction: 92-U-235(N,INL)92-U-235,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/10016006
+# target:
+#   Z: 92
+#   A: 235
+#   nuclide: U235
+# reaction:
+#   type: (n,n')
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+# residual:
+#   Z: 92
+#   A: 235
+#   nuclide: U235
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   4.000000E+00   0.000000E+00   2.130000E+03   5.000000E+02   1.000000E+00
+   6.000000E+00   0.000000E+00   2.020000E+03   3.600000E+02   1.000000E+00
+   7.500000E+00   0.000000E+00   7.700000E+02   3.200000E+02   1.000000E+00
+# reference:
+#   author: D.M.DRAKE
+#   title: Inelastic neutron scattering and gamma production from fast-neutron bombardment of 235U.
+#   journal: Jour: Nuclear Physics, Section A, Vol.133, p.108 (1969)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  4.000000E+00
+#   E-max [MeV]:  7.500000E+00
+#   F-value:  1.080400E+00
+#   A-value:  1.020422E+00
+#   chi-2:  2.282160E-01
+#   p-value:  3.209417E-01
+#   exp. data sets for p-value:      3
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    1.036539E+00   1.019883E+00   1.196833E-01
+# endfb8.0      1.036539E+00   1.019883E+00   1.196833E-01
+# jeff3.3       1.085839E+00   9.530281E-01   3.954045E-01
+# jendl5.0      1.082569E+00   1.042134E+00   2.007684E-01
+# cendl3.2      1.126782E+00   1.070949E+00   3.055405E-01

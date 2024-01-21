@@ -1,0 +1,50 @@
+# header:
+#   title: Pb207(p,xa) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Milazzocolli
+#   year: 1975
+#   subentry: D0452029
+#   X4 reaction: 82-PB-207(P,X)2-HE-4,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D0452029
+# target:
+#   Z: 82
+#   A: 207
+#   nuclide: Pb207
+# reaction:
+#   type: (p,xa)
+#   ENDF_MF: 3
+#   ENDF_MT: 207
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.000000E+01   1.500000E-01   2.800000E+00   5.600000E-01   1.000000E+00
+   2.280000E+01   1.500000E-01   4.000000E+00   8.000000E-01   1.000000E+00
+   2.530000E+01   1.500000E-01   6.600000E+00   1.320000E+00   1.000000E+00
+   3.000000E+01   1.500000E-01   9.900000E+00   1.980000E+00   1.000000E+00
+# reference:
+#   author: L.Milazzo-Colli, G.M.Braga-Marcazzan, M.Milazzo
+#   title: Further measurements of the probability of alpha cluster pre-formation by means of (p,alpha) reactions in heavy elements
+#   journal: Jour: Nuovo Cimento A, Vol.30, p.632 (1975)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  2.000000E+01
+#   E-max [MeV]:  3.000000E+01
+#   F-value:  1.440012E+00
+#   A-value:  1.221227E+00
+#   chi-2:  5.704330E+00
+#   p-value:  3.335578E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.546834E+00   1.179913E+00   8.049877E+00
+# endfb8.0      1.042167E+00   9.945827E-01   2.292784E-01
+# jendl5.0      1.576002E+00   1.552022E+00   8.833838E+00

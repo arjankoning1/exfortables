@@ -1,0 +1,58 @@
+# header:
+#   title: Be9(n,t)Li7 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Suhaimi
+#   year: 1988
+#   subentry: 22102005
+#   X4 reaction: 4-BE-9(N,T)3-LI-7,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22102005
+# target:
+#   Z: 4
+#   A: 9
+#   nuclide: Be9
+# reaction:
+#   type: (n,t)
+#   ENDF_MF: 3
+#   ENDF_MT: 105
+# residual:
+#   Z: 3
+#   A: 7
+#   nuclide: Li7
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.750000E+01   0.000000E+00   3.200000E+00   4.000000E-01   1.000000E+00
+   2.000000E+01   0.000000E+00   4.600000E+00   7.000000E-01   1.000000E+00
+   2.250000E+01   0.000000E+00   6.300000E+00   1.100000E+00   1.000000E+00
+   2.500000E+01   0.000000E+00   8.600000E+00   1.500000E+00   1.000000E+00
+   2.750000E+01   0.000000E+00   1.100000E+01   2.000000E+00   1.000000E+00
+   3.000000E+01   0.000000E+00   1.350000E+01   2.600000E+00   1.000000E+00
+# reference:
+#   author: A.Suhaimi,R.Woelfle,S.M.Qaim,P.Warwick,d G.Stoecklin
+#   title: Measurement of 14N(n,t)12C reaction cross section in the energy range of 5.0 to 10.6 MeV
+#   journal: Jour: Radiochimica Acta, Vol.43, p.133 (1988)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  1.750000E+01
+#   E-max [MeV]:  3.000000E+01
+#   F-value:  7.444873E+00
+#   A-value:  7.354851E+00
+#   chi-2:  2.640237E+03
+#   p-value:  6.130557E-02
+#   exp. data sets for p-value:      3
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    7.219310E+00   7.113184E+00   2.531246E+03
+# endfb8.0      7.219310E+00   7.113184E+00   2.531246E+03
+# jeff3.3       7.720523E+00   7.669493E+00   2.723613E+03
+# jendl5.0      7.859322E+00   7.796693E+00   2.883841E+03
+# cendl3.2      7.219306E+00   7.113181E+00   2.531241E+03

@@ -1,0 +1,43 @@
+# header:
+#   title: U238(n,ratio) ratio
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Raics
+#   year: 1980
+#   subentry: 30590002
+#   X4 reaction: (92-U-238(N,2N)92-U-237,,SIG)/(92-U-238(N,F),,SIG)
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30590002
+# target:
+#   Z: 92
+#   A: 238
+#   nuclide: U238
+# reaction:
+#   type: (n,ratio)
+#   ENDF_MF: 203
+#   ENDF_MT: 16
+# datablock:
+#   quantity: ratio
+#   columns: 5
+#   entries: 12
+##       E             dE            ratio         dratio      Normalization
+##     [MeV]          [MeV]           []             []             []
+   6.540000E+00   9.000000E-02   9.052000E-02   0.000000E+00   1.000000E+00
+   6.780000E+00   8.000000E-02   2.836000E-01   0.000000E+00   1.000000E+00
+   7.000000E+00   1.000000E-01   4.488000E-01   0.000000E+00   1.000000E+00
+   7.500000E+00   1.000000E-01   8.504000E-01   0.000000E+00   1.000000E+00
+   7.500000E+00   1.000000E-01   8.609000E-01   0.000000E+00   1.000000E+00
+   7.990000E+00   1.000000E-01   1.108000E+00   0.000000E+00   1.000000E+00
+   8.500000E+00   1.000000E-01   1.248000E+00   0.000000E+00   1.000000E+00
+   8.990000E+00   1.000000E-01   1.390000E+00   0.000000E+00   1.000000E+00
+   8.990000E+00   1.000000E-01   1.369000E+00   0.000000E+00   1.000000E+00
+   9.490000E+00   8.000000E-02   1.442000E+00   0.000000E+00   1.000000E+00
+   1.000000E+01   8.000000E-02   1.446000E+00   0.000000E+00   1.000000E+00
+   1.050000E+01   8.000000E-02   1.418000E+00   0.000000E+00   1.000000E+00
+# reference:
+#   author: P.Raics, S.Daroczy, S.Nagy, N.V.Kornilov, B.V.Zhuravlev, O.A.Salnikov
+#   title: Experimental comparison of cross sections of the Al-27(n,a), Fe-56(n,p), U-238(n,2n) and U-238(n,f) reactions for neutrons of 6.5-10.5 MeV
+#   journal: Conf: 5.All Union Conf.on Neutron Phys.,Kiev,15-19 Sep 1980, Vol.1, p.23

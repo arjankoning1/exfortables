@@ -1,0 +1,60 @@
+# header:
+#   title: Bi209(p,g)Po210 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Daly
+#   year: 1964
+#   subentry: P0010005
+#   X4 reaction: 83-BI-209(P,G)84-PO-210,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/P0010005
+# target:
+#   Z: 83
+#   A: 209
+#   nuclide: Bi209
+# reaction:
+#   type: (p,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+# residual:
+#   Z: 84
+#   A: 210
+#   nuclide: Po210
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 11
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   8.320000E+00   0.000000E+00   9.200000E-02   0.000000E+00   1.000000E+00
+   9.760000E+00   0.000000E+00   5.240000E-01   0.000000E+00   1.000000E+00
+   1.090000E+01   0.000000E+00   7.840000E-01   0.000000E+00   1.000000E+00
+   1.230000E+01   0.000000E+00   8.380000E-01   0.000000E+00   1.000000E+00
+   1.380000E+01   0.000000E+00   1.100000E+00   0.000000E+00   1.000000E+00
+   1.460000E+01   0.000000E+00   9.260000E-01   0.000000E+00   1.000000E+00
+   1.650000E+01   0.000000E+00   9.060000E-01   0.000000E+00   1.000000E+00
+   1.870000E+01   0.000000E+00   6.140000E-01   0.000000E+00   1.000000E+00
+   2.180000E+01   0.000000E+00   3.280000E-01   0.000000E+00   1.000000E+00
+   2.740000E+01   0.000000E+00   1.400000E-01   0.000000E+00   1.000000E+00
+   2.900000E+01   0.000000E+00   3.400000E-02   0.000000E+00   1.000000E+00
+# reference:
+#   author: P.J.DALY,P.F.D.SHAW
+#   title: Radiative proton capture cross-sections in heavy nuclei
+#   journal: Jour: Nuclear Physics, Vol.56, p.322 (1964)
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  8.320000E+00
+#   E-max [MeV]:  2.900000E+01
+#   F-value:  3.287428E+00
+#   A-value:  5.645928E-01
+#   chi-2:  0.000000E+00
+#   p-value:  2.484178E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    2.465314E+00   1.033151E+00   0.000000E+00
+# jendl5.0      4.140213E+00   3.085369E-01   0.000000E+00

@@ -1,0 +1,58 @@
+# header:
+#   title: S34(n,p)P34 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Kasugai
+#   year: 2001
+#   subentry: 22640006
+#   X4 reaction: 16-S-34(N,P)15-P-34,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22640006
+# target:
+#   Z: 16
+#   A: 34
+#   nuclide: S34
+# reaction:
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 15
+#   A: 34
+#   nuclide: P34
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.336000E+01   0.000000E+00   8.800001E+01   2.200000E+01   1.000000E+00
+   1.368000E+01   0.000000E+00   8.200000E+01   2.000000E+01   1.000000E+00
+   1.402000E+01   0.000000E+00   9.000000E+01   2.000000E+01   1.000000E+00
+   1.437000E+01   0.000000E+00   8.800001E+01   2.000000E+01   1.000000E+00
+   1.468000E+01   0.000000E+00   8.800001E+01   1.000000E+01   1.000000E+00
+   1.494000E+01   0.000000E+00   1.000000E+02   2.200000E+01   1.000000E+00
+# reference:
+#   author: Y.Kasugai,Y.Ikeda,H.Takeuchi
+#   title: Measurement of (n,p) reaction cross sections for short-lived products (T1/2=0.6 - 13.8 sec) by 14 MeV neutrons
+#   journal: Conf: JAERI Conference proceedings, No.2001-006, p.190 (2001)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.336000E+01
+#   E-max [MeV]:  1.494000E+01
+#   F-value:  1.115622E+00
+#   A-value:  1.056390E+00
+#   chi-2:  8.203050E-01
+#   p-value:  2.623773E-01
+#   exp. data sets for p-value:      1
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    1.045481E+00   1.007878E+00   1.812301E-01
+# endfb8.0      1.136898E+00   1.119114E+00   1.298940E+00
+# jeff3.3       1.129726E+00   1.108662E+00   8.219910E-01
+# jendl5.0      1.136898E+00   1.119114E+00   1.298940E+00
+# cendl3.2      1.105588E+00   9.400837E-01   5.004234E-01

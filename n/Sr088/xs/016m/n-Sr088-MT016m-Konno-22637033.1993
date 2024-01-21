@@ -1,0 +1,63 @@
+# header:
+#   title: Sr88(n,2n)Sr87m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Konno
+#   year: 1993
+#   subentry: 22637033
+#   X4 reaction: 38-SR-88(N,2N)38-SR-87-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22637033
+# target:
+#   Z: 38
+#   A: 88
+#   nuclide: Sr88
+# reaction:
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 38
+#   A: 87
+#   nuclide: Sr87m
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.336000E+01   0.000000E+00   1.606231E+02   5.748300E+00   9.896680E-01
+   1.358000E+01   0.000000E+00   1.860576E+02   6.179300E+00   9.896680E-01
+   1.376000E+01   0.000000E+00   1.999129E+02   7.037100E+00   9.896680E-01
+   1.399000E+01   0.000000E+00   2.187166E+02   7.645800E+00   9.896680E-01
+   1.423000E+01   0.000000E+00   2.325720E+02   8.494130E+00   9.896680E-01
+   1.444000E+01   0.000000E+00   2.464273E+02   9.334800E+00   9.896680E-01
+   1.468000E+01   0.000000E+00   2.602827E+02   8.661300E+00   9.896680E-01
+   1.494000E+01   0.000000E+00   2.612723E+02   8.609700E+00   9.896680E-01
+# reference:
+#   author: C.Konno, Y.Ikeda, K.Oishi, K.Kawade, H.Yamamoto, H.Maekawa
+#   title: Activation Cross section measurements at neutron  energy from 13.3 to 14.9 MeV
+#   journal: Rept: JAERI Reports, No.1329 (1993)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.336000E+01
+#   E-max [MeV]:  1.494000E+01
+#   F-value:  1.087386E+00
+#   A-value:  9.434555E-01
+#   chi-2:  5.358135E+00
+#   p-value:  3.477963E-01
+#   exp. data sets for p-value:      5
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.114007E+00   9.107472E-01   8.579134E+00
+# jeff3.3       1.100106E+00   9.109415E-01   6.959287E+00
+# jendl5.0      1.017390E+00   1.012222E+00   5.359829E-01

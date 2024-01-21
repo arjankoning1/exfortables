@@ -1,0 +1,55 @@
+# header:
+#   title: Al27(n,a)Na24 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Hemingway
+#   year: 1966
+#   subentry: 21372002
+#   X4 reaction: 13-AL-27(N,A)11-NA-24,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21372002
+# target:
+#   Z: 13
+#   A: 27
+#   nuclide: Al27
+# reaction:
+#   type: (n,a)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+# residual:
+#   Z: 11
+#   A: 24
+#   nuclide: Na24
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.350000E+01   1.000000E-01   1.181000E+02   6.000000E+00   1.000000E+00
+   1.480000E+01   1.000000E-01   1.036000E+02   5.500000E+00   1.000000E+00
+# reference:
+#   author: J.D.HEMINGWAY,R.H.JAMES,E.B.M.MARTIN,G.R.MARTIN
+#   title: -THE DETERMINATION OF THE CROSS SECTIONS FOR THE  REACTIONS AL-27(N,A) AND FE-56(N,P) FOR 14 MEV  NEUTRONS BY AN ABSOLUTE METHOD -.
+#   journal: Jour: Proc. Royal Society (London), Series A, Vol.292, p.180 (1966)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.350000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.058130E+00
+#   A-value:  1.054561E+00
+#   chi-2:  1.767816E+00
+#   p-value:  1.177962E-01
+#   exp. data sets for p-value:      8
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2023    1.054442E+00   1.054165E+00   1.679116E+00
+# endfb8.0      1.055035E+00   1.051266E+00   1.629420E+00
+# jeff3.3       1.055035E+00   1.051266E+00   1.629420E+00
+# jendl5.0      1.061780E+00   1.060158E+00   1.955201E+00
+# cendl3.2      1.066964E+00   1.056372E+00   2.034649E+00
+# irdff2.0      1.054441E+00   1.054165E+00   1.679092E+00

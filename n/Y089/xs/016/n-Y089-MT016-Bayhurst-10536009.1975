@@ -1,0 +1,56 @@
+# header:
+#   title: Y89(n,2n)Y88 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Bayhurst
+#   year: 1975
+#   subentry: 10536009
+#   X4 reaction: 39-Y-89(N,2N)39-Y-88,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/10536009
+# target:
+#   Z: 39
+#   A: 89
+#   nuclide: Y89
+# reaction:
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 39
+#   A: 88
+#   nuclide: Y88
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.622000E+01   1.000000E-01   1.104000E+03   4.800000E+01   1.000000E+00
+   1.622000E+01   1.000000E-01   1.113000E+03   4.800000E+01   1.000000E+00
+   2.806000E+01   1.300000E-01   5.710000E+02   3.900000E+01   1.000000E+00
+# reference:
+#   author: B.P.Bayhurst,J.S.Gilmore,R.J.Prestwood,J.B.Wilhelmy, N.Jarmie,B.H.Erkkila,R.A.Hardekopf
+#   title: Cross sections for (n,xn) reactions between 7.5 and  28 MeV
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.12, p.451 (1975)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.622000E+01
+#   E-max [MeV]:  2.806000E+01
+#   F-value:  1.072200E+00
+#   A-value:  1.031780E+00
+#   chi-2:  2.782136E+00
+#   p-value:  4.718204E-01
+#   exp. data sets for p-value:      8
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2023    1.057010E+00   1.003915E+00   1.643716E+00
+# endfb8.0      1.070638E+00   1.070451E+00   3.122540E+00
+# jeff3.3       1.070638E+00   1.070451E+00   3.122540E+00
+# jendl5.0      1.081151E+00   1.066098E+00   3.716517E+00
+# cendl3.2      1.108919E+00   1.108819E+00   6.468006E+00
+# irdff2.0      1.057913E+00   1.008049E+00   1.760265E+00

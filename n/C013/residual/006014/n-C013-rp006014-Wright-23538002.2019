@@ -1,0 +1,50 @@
+# header:
+#   title: C13(n,x)C14 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Wright
+#   year: 2019
+#   subentry: 23538002
+#   X4 reaction: 6-C-13(N,G)6-C-14,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/23538002
+# target:
+#   Z: 6
+#   A: 13
+#   nuclide: C13
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+# residual:
+#   Z: 6
+#   A: 14
+#   nuclide: C14
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.530000E-08   0.000000E+00   1.520000E+00   7.000000E-02   1.000000E+00
+# reference:
+#   author: T.Wright, S.Bennett, S.Heinitz, U.Koster, R.Mills, T.Soldner, P.Steier, A.Wallner, T.Wieninger
+#   title: Measurement of the 13C(n,gamma) thermal cross section via neutron irradiation and AMS
+#   journal: Jour: European Physical Journal A: Hadrons and Nuclei, Vol.55, p.200 (20
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  2.530000E-08
+#   E-max [MeV]:  2.530000E-08
+#   F-value:  1.075518E+00
+#   A-value:  9.463761E-01
+#   chi-2:  2.487523E+00
+#   p-value:  1.939976E-01
+#   exp. data sets for p-value:      3
+#   libraries:      2
+##  Library          F              A            chi-2
+# jeff3.3       1.108138E+00   9.024145E-01   4.763116E+00
+# jendl5.0      1.007578E+00   9.924793E-01   2.119289E-01

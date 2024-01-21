@@ -1,0 +1,53 @@
+# header:
+#   title: Yb176(n,x)Tm175 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Sakane
+#   year: 2002
+#   subentry: 22809010
+#   X4 reaction: 70-YB-176(N,X)69-TM-175,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22809010
+# target:
+#   Z: 70
+#   A: 176
+#   nuclide: Yb176
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 28
+# residual:
+#   Z: 69
+#   A: 175
+#   nuclide: Tm175
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.402000E+01   5.000000E-02   3.000000E-01   6.000000E-02   1.000000E+00
+   1.435000E+01   5.000000E-02   5.500000E-01   8.250000E-02   1.000000E+00
+   1.464000E+01   5.000000E-02   7.300000E-01   1.022000E-01   1.000000E+00
+   1.487000E+01   5.000000E-02   8.700000E-01   1.218000E-01   1.000000E+00
+# reference:
+#   author: H.SAKANE, Y.KASUGAI, M.SHIBATA, Y.IKEDA, K.KAWADE
+#   title: - Measurement of the activation cross section of   (N,Np+d) reactions for lantanide isotopes in the   enegry range between 13.4 and 14.9 MeV
+#   journal: Jour: Annals of Nuclear Energy, Vol.29, Issue.10, p.1209 (2002)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  1.402000E+01
+#   E-max [MeV]:  1.487000E+01
+#   F-value:  8.886601E+00
+#   A-value:  1.134063E-01
+#   chi-2:  3.325577E+01
+#   p-value:  1.639128E-07
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    8.855036E+00   1.138210E-01   3.322047E+01
+# jeff3.3       8.918231E+00   1.129930E-01   3.329107E+01

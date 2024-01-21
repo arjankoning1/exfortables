@@ -1,0 +1,62 @@
+# header:
+#   title: C12(p,x)Be7 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Lefort
+#   year: 1961
+#   subentry: O0044002
+#   X4 reaction: 6-C-12(P,X)4-BE-7,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O0044002
+# target:
+#   Z: 6
+#   A: 12
+#   nuclide: C12
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 4
+#   A: 7
+#   nuclide: Be7
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 12
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.350000E+01   0.000000E+00   1.264400E+00   6.896600E-01   1.149425E+00
+   3.450000E+01   0.000000E+00   7.126400E+00   1.264400E+00   1.149425E+00
+   3.940000E+01   0.000000E+00   1.758621E+01   1.264400E+00   1.149425E+00
+   4.380000E+01   0.000000E+00   1.988506E+01   1.609200E+00   1.149425E+00
+   4.930000E+01   0.000000E+00   2.505747E+01   1.839080E+00   1.149425E+00
+   6.130000E+01   0.000000E+00   2.310345E+01   1.609200E+00   1.149425E+00
+   6.930000E+01   0.000000E+00   2.022989E+01   1.609200E+00   1.149425E+00
+   7.730000E+01   0.000000E+00   1.793103E+01   1.379310E+00   1.149425E+00
+   8.530000E+01   0.000000E+00   1.758621E+01   1.264400E+00   1.149425E+00
+   1.013000E+02   0.000000E+00   1.563218E+01   1.034500E+00   1.149425E+00
+   1.212000E+02   0.000000E+00   1.390805E+01   1.494300E+00   1.149425E+00
+   1.492000E+02   0.000000E+00   1.126437E+01   1.264400E+00   1.149425E+00
+# reference:
+#   author: M.Lefort,G.N.Simonoff,X.Tarrago
+#   title: A spallation nuclear reaction on thorium at 150 and 82 MeV proton energies.
+#   journal: Jour: Nuclear Physics, Vol.25, p.216 (1961)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  3.350000E+01
+#   E-max [MeV]:  1.492000E+02
+#   F-value:  2.363414E+00
+#   A-value:  1.888862E+00
+#   chi-2:  1.070715E+02
+#   p-value:  3.503458E-01
+#   exp. data sets for p-value:      3
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    2.401873E+00   2.122186E+00   1.301285E+02
+# endfb8.0      2.401873E+00   2.122186E+00   1.301285E+02
+# jendl5.0      2.286172E+00   1.496350E+00   6.095744E+01

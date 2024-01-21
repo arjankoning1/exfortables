@@ -1,0 +1,61 @@
+# header:
+#   title: Fe56(p,x)Ti44 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Titarenko
+#   year: 2016
+#   subentry: F1287003
+#   X4 reaction: 26-FE-56(P,X)22-TI-44,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/F1287003
+# target:
+#   Z: 26
+#   A: 56
+#   nuclide: Fe56
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 22
+#   A: 44
+#   nuclide: Ti44
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 11
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.000000E+02   0.000000E+00   7.300001E-02   3.100000E-02   1.000000E+00
+   1.500000E+02   0.000000E+00   2.840000E-01   4.700000E-02   1.000000E+00
+   2.500000E+02   0.000000E+00   6.410000E-01   6.400000E-02   1.000000E+00
+   3.000000E+02   0.000000E+00   9.940000E-01   7.900000E-02   1.000000E+00
+   4.000000E+02   0.000000E+00   1.120000E+00   1.100000E-01   1.000000E+00
+   6.000000E+02   0.000000E+00   1.380000E+00   1.300000E-01   1.000000E+00
+   7.500000E+02   0.000000E+00   1.590000E+00   1.400000E-01   1.000000E+00
+   8.000000E+02   0.000000E+00   1.320000E+00   1.200000E-01   1.000000E+00
+   1.200000E+03   0.000000E+00   1.360000E+00   1.300000E-01   1.000000E+00
+   1.600000E+03   0.000000E+00   1.400000E+00   1.300000E-01   1.000000E+00
+   2.600000E+03   0.000000E+00   9.500000E-01   9.999999E-02   1.000000E+00
+# reference:
+#   author: Yu.E.Titarenko,V.F.Batyaev,K.V.Pavlov,A.Yu.Titarenko, V.M.Zhivun,M.V.Chauzova,S.A.Balyuk,P.V.Bebenin, A.V.Ignatyuk,S.G.Mashnik,S.Leray,A.Boudard,J.C.David, D.Mancusi,J.Cugnon,Y.Yariv,K.Nishihara,N.Matsuda, H.Kumawat,A.Yu.Stankovskiy
+#   title: Excitation function of the Cr(nat)(P,X)Ti-44, Ni(nat)(P,X)Ti-44 and Nb-93(P,X)Ti-44 reactions at energies up to 2.6 GeV.
+#   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.A, Vol.821, p.136 (20
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  1.000000E+02
+#   E-max [MeV]:  2.600000E+03
+#   F-value:  2.380082E+00
+#   A-value:  1.518712E+00
+#   chi-2:  9.738990E+01
+#   p-value:  4.988792E-02
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    3.332173E+00   1.484409E+00   2.412511E+02
+# endfb8.0      1.918926E+00   1.273792E+00   3.297102E+01
+# jendl5.0      1.855715E+00   1.852570E+00   1.794764E+01

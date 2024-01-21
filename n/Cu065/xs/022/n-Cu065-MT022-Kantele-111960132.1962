@@ -1,0 +1,53 @@
+# header:
+#   title: Cu65(n,na)Co61 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Kantele
+#   year: 1962
+#   subentry: 111960132
+#   X4 reaction: 29-CU-65(N,N+A)27-CO-61,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/111960132
+# target:
+#   Z: 29
+#   A: 65
+#   nuclide: Cu65
+# reaction:
+#   type: (n,na)
+#   ENDF_MF: 3
+#   ENDF_MT: 22
+# residual:
+#   Z: 27
+#   A: 61
+#   nuclide: Co61
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.470000E+01   1.500000E-01   2.970960E+00   1.816200E-01   1.061057E+00
+# reference:
+#   author: J.KANTELE,D.G.GARDNER
+#   title: SOME ACTIVATION CROSS SECTIONS FOR 14.7MEV NEUTRONS.
+#   journal: Jour: Nuclear Physics, Vol.35, p.353 (1962)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  1.470000E+01
+#   E-max [MeV]:  1.470000E+01
+#   F-value:  4.389485E+00
+#   A-value:  3.378281E-01
+#   chi-2:  9.506268E+01
+#   p-value:  2.457148E-01
+#   exp. data sets for p-value:      8
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    1.105439E+00   9.046183E-01   2.922678E+00
+# endfb8.0      2.302191E+00   4.343688E-01   8.561169E+01
+# jeff3.3       1.950750E+00   5.126234E-01   6.356171E+01
+# jendl5.0      2.222917E+00   4.498593E-01   8.098673E+01
+# cendl3.2      2.059304E+01   4.856009E-02   2.422306E+02

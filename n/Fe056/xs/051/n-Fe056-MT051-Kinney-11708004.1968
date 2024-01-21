@@ -1,0 +1,65 @@
+# header:
+#   title: Fe56(n,n'_01)Fe57 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Kinney
+#   year: 1968
+#   subentry: 11708004
+#   X4 reaction: 26-FE-56(N,INL)26-FE-56,PAR,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11708004
+#   level energy [MeV]  8.46000E-01
+# target:
+#   Z: 26
+#   A: 56
+#   nuclide: Fe56
+# reaction:
+#   type: (n,n'_01)
+#   ENDF_MF: 3
+#   ENDF_MT: 51
+#   level: 
+#     number: 1
+#     energy [MeV]:  8.467780E-01
+#     spin:  2.000000E+00
+#     parity: 1
+# residual:
+#   Z: 26
+#   A: 57
+#   nuclide: Fe57
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   4.600000E+00   5.000000E-02   2.680000E+02   2.300000E+01   1.000000E+00
+   5.000000E+00   4.000000E-02   1.950000E+02   1.100000E+01   1.000000E+00
+   5.040000E+00   4.000000E-02   2.300000E+02   1.400000E+01   1.000000E+00
+   5.560000E+00   4.000000E-02   2.140000E+02   1.800000E+01   1.000000E+00
+   6.120000E+00   4.000000E-02   1.630000E+02   1.400000E+01   1.000000E+00
+   6.530000E+00   3.000000E-02   1.580000E+02   1.300000E+01   1.000000E+00
+   7.550000E+00   4.000000E-02   1.210000E+02   7.000000E+00   1.000000E+00
+# reference:
+#   author: W.E.Kinney
+#   title: Neutron elastic and inelastic scattering from Fe56 from 4.60 to 7.55 MeV.
+#   journal: Rept: Oak Ridge National Lab. technical memo, No.2052 (1968)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  4.600000E+00
+#   E-max [MeV]:  7.550000E+00
+#   F-value:  1.150235E+00
+#   A-value:  9.133114E-01
+#   chi-2:  3.229274E+00
+#   p-value:  2.614154E-01
+#   exp. data sets for p-value:      3
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    1.124428E+00   9.336985E-01   2.449853E+00
+# endfb8.0      1.219764E+00   8.442179E-01   5.724188E+00
+# jeff3.3       1.046877E+00   1.010311E+00   8.697465E-01
+# jendl5.0      1.112816E+00   9.362652E-01   2.058862E+00
+# cendl3.2      1.193229E+00   8.522739E-01   5.043720E+00

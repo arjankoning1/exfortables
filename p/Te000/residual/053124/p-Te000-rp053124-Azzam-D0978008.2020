@@ -1,0 +1,60 @@
+# header:
+#   title: Te0(p,x)I124 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Azzam
+#   year: 2020
+#   subentry: D0978008
+#   X4 reaction: 52-TE-0(P,X)53-I-124,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D0978008
+# target:
+#   Z: 52
+#   A: 0
+#   nuclide: Te0
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 53
+#   A: 124
+#   nuclide: I124
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 11
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.800000E+00   0.000000E+00   3.600000E-01   9.999999E-02   1.000000E+00
+   7.100000E+00   0.000000E+00   3.100000E+00   4.600000E-01   1.000000E+00
+   8.000000E+00   0.000000E+00   9.710000E+00   1.460000E+00   1.000000E+00
+   8.700000E+00   0.000000E+00   1.030000E+01   1.550000E+00   1.000000E+00
+   9.400000E+00   0.000000E+00   2.016000E+01   3.000000E+00   1.000000E+00
+   1.010000E+01   0.000000E+00   2.810000E+01   4.210000E+00   1.000000E+00
+   1.110000E+01   0.000000E+00   3.694000E+01   5.540000E+00   1.000000E+00
+   1.180000E+01   0.000000E+00   4.832000E+01   7.250000E+00   1.000000E+00
+   1.230000E+01   0.000000E+00   5.077000E+01   7.620000E+00   1.000000E+00
+   1.280000E+01   0.000000E+00   6.516000E+01   9.770000E+00   1.000000E+00
+   1.330000E+01   0.000000E+00   8.314001E+01   1.247000E+01   1.000000E+00
+# reference:
+#   author: A.Azzam, M.S.Hamada, S.A.Said, G.Y.Mohamed,  M.Al-Abyad
+#   title: Excitation functions for proton-induced reactions on  Te and natTi targets: Measurements and model  calculations special relevant to the 128Te(p,n)128I  reaction
+#   journal: Jour: Nuclear Physics, Section A, Vol.999, p.121790 (2020)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  5.800000E+00
+#   E-max [MeV]:  1.330000E+01
+#   F-value:  2.050415E+00
+#   A-value:  1.196818E+00
+#   chi-2:  4.845874E+01
+#   p-value:  2.022650E-01
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.879536E+00   1.285816E+00   4.287394E+01
+# jendl5.0      2.215766E+00   1.113980E+00   5.404354E+01

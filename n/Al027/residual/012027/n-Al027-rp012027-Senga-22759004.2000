@@ -1,0 +1,56 @@
+# header:
+#   title: Al27(n,x)Mg27 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Senga
+#   year: 2000
+#   subentry: 22759004
+#   X4 reaction: 13-AL-27(N,P)12-MG-27,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22759004
+# target:
+#   Z: 13
+#   A: 27
+#   nuclide: Al27
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 12
+#   A: 27
+#   nuclide: Mg27
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   4.090300E+00   0.000000E+00   7.817900E+00   0.000000E+00   1.000000E+00
+   4.779000E+00   0.000000E+00   1.931300E+01   0.000000E+00   1.000000E+00
+   5.349100E+00   0.000000E+00   2.809200E+01   0.000000E+00   1.000000E+00
+   5.893800E+00   0.000000E+00   3.632400E+01   0.000000E+00   1.000000E+00
+   6.412200E+00   0.000000E+00   4.978900E+01   0.000000E+00   1.000000E+00
+# reference:
+#   author: T.Senga, H.Sakane, M.Shibata, H.Yamamoto, K.Kawade,  Y.Kasugai, Y.Ikeda, H.Takeuchi, T.Furuta
+#   title: Measurement of neutron activation cross sections  in the energy range between 2. and 7. MeV by using  a Ti-deuteron Target and a deuteron gas target.
+#   journal: Conf: JAERI Conference proceedings, No.2000-005, p.208 (2000)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  0
+#   E-min [MeV]:  4.090300E+00
+#   E-max [MeV]:  6.412200E+00
+#   F-value:  1.172930E+00
+#   A-value:  1.051660E+00
+#   chi-2:  0.000000E+00
+#   p-value:  2.780669E-01
+#   exp. data sets for p-value:      8
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2023    1.197307E+00   9.447256E-01   0.000000E+00
+# endfb8.0      1.159935E+00   1.054880E+00   0.000000E+00
+# jeff3.3       1.159935E+00   1.054880E+00   0.000000E+00
+# jendl5.0      1.172469E+00   1.163560E+00   0.000000E+00

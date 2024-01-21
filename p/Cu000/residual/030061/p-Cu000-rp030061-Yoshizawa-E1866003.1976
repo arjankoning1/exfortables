@@ -1,0 +1,57 @@
+# header:
+#   title: Cu0(p,x)Zn61 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Yoshizawa
+#   year: 1976
+#   subentry: E1866003
+#   X4 reaction: 29-CU-0(P,X)30-ZN-61,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/E1866003
+# target:
+#   Z: 29
+#   A: 0
+#   nuclide: Cu0
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 30
+#   A: 61
+#   nuclide: Zn61
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.022000E+01   0.000000E+00   7.670000E-01   1.594000E-01   1.000000E+00
+   3.216000E+01   0.000000E+00   1.118000E+00   1.938000E-01   1.000000E+00
+   3.570000E+01   0.000000E+00   3.468000E+00   9.076000E-01   1.000000E+00
+   3.910000E+01   0.000000E+00   4.124000E+00   5.760000E-01   1.000000E+00
+   4.212000E+01   0.000000E+00   2.992000E+00   1.009000E+00   1.000000E+00
+   4.479000E+01   0.000000E+00   3.507000E+00   7.291000E-01   1.000000E+00
+   4.744000E+01   0.000000E+00   2.472000E+00   6.926000E-01   1.000000E+00
+# reference:
+#   author: Y.Yoshizawa, H.Noma, T.Horiguchi, T.Katoh, S.Amemiya, M.Itoh, K.Hisatake, M.Sekikawa, K.Chida
+#   title: Isotope separator on-line at INS FM cyclotron
+#   journal: Jour: Nuclear Instrum.and Methods in Physics Res., Vol.134, Issue.1, p.9
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  3.022000E+01
+#   E-max [MeV]:  4.744000E+01
+#   F-value:  1.434203E+00
+#   A-value:  7.672714E-01
+#   chi-2:  2.365981E+00
+#   p-value:  1.722690E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.338877E+00   8.298927E-01   1.966306E+00
+# endfb8.0      1.370561E+00   7.983611E-01   1.922577E+00
+# jendl5.0      1.573681E+00   6.817510E-01   3.209059E+00

@@ -1,0 +1,51 @@
+# header:
+#   title: C0(p,x)C11 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Baecker
+#   year: 2021
+#   subentry: O2552002
+#   X4 reaction: 6-C-0(P,X)6-C-11,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O2552002
+# target:
+#   Z: 6
+#   A: 0
+#   nuclide: C0
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 6
+#   A: 11
+#   nuclide: C11
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   9.700000E+01   3.000000E+00   6.800000E+01   3.000000E+00   1.000000E+00
+# reference:
+#   author: C.M.Baecker, F.Horst, W.Adi, C.Baeumer, M.Gerhardt,  W.Jentzen, S.L.Kazek, K.Kroeninger, C.Schuy,  N.Verbeek, J.Weingarten, J.Wulff, B.Timmermann
+#   title: Experimental consolidation and absolute measurement of the natC(p,x)11C nuclear activation cross section at 100 MeV for particle therapy physics
+#   journal: Jour: European Physical Journal A: Hadrons and Nuclei, Vol.57, p.248 (20
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  9.700000E+01
+#   E-max [MeV]:  9.700000E+01
+#   F-value:  1.482959E+00
+#   A-value:  7.061126E-01
+#   chi-2:  5.086679E+01
+#   p-value:  1.346321E-01
+#   exp. data sets for p-value:      2
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.613979E+00   6.195868E-01   7.435095E+01
+# endfb8.0      1.613979E+00   6.195868E-01   7.435095E+01
+# jendl5.0      1.090392E+00   9.171017E-01   3.898464E+00

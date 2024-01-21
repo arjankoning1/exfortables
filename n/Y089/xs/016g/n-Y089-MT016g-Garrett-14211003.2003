@@ -1,0 +1,61 @@
+# header:
+#   title: Y89(n,2n)Y88g cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Garrett
+#   year: 2003
+#   subentry: 14211003
+#   X4 reaction: 39-Y-89(N,2N)39-Y-88-G,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/14211003
+# target:
+#   Z: 39
+#   A: 89
+#   nuclide: Y89
+# reaction:
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 39
+#   A: 88
+#   nuclide: Y88g
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.188200E+01   4.640000E-01   6.570000E+01   4.300000E+00   1.000000E+00
+   1.277600E+01   5.190000E-01   3.498000E+02   2.240000E+01   1.000000E+00
+   1.377400E+01   5.800000E-01   5.909000E+02   3.270000E+01   1.000000E+00
+   1.491500E+01   6.630000E-01   7.877000E+02   4.000000E+01   1.000000E+00
+   1.620500E+01   7.430000E-01   8.808000E+02   4.550000E+01   1.000000E+00
+   1.763700E+01   8.520000E-01   9.124000E+02   5.080000E+01   1.000000E+00
+   1.928000E+01   9.200000E-01   9.205000E+02   5.450000E+01   1.000000E+00
+# reference:
+#   author: P.E.Garrett,W.E.Ormand,W.Younes,J.A.Becker, L.A.Bernstein,R.O.Nelson,M.Devlin,N.Fotiades
+#   title: Cross Sections for n+89Y for En < 20MeV
+#   journal: Rept: U.C., Lawrence Rad.Lab. (Berkeley and Livermore), No.153190 (2003)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  1.188200E+01
+#   E-max [MeV]:  1.928000E+01
+#   F-value:  1.183945E+00
+#   A-value:  8.548607E-01
+#   chi-2:  7.244194E+00
+#   p-value:  2.511050E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# endfb8.0      1.183945E+00   8.548607E-01   7.244194E+00
+# jeff3.3       1.183945E+00   8.548607E-01   7.244194E+00

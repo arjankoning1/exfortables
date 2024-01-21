@@ -1,0 +1,41 @@
+# header:
+#   title: U235(i,x)Ru105 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Shinohara
+#   year: 1995
+#   subentry: E2034007
+#   X4 reaction: 92-U-235(9-F-19,F)ELEM/MASS,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/E2034007
+# target:
+#   Z: 92
+#   A: 235
+#   nuclide: U235
+# reaction:
+#   type: (i,x)
+#   ENDF_MF: 6
+#   ENDF_MT: 5
+# residual:
+#   Z: 44
+#   A: 105
+#   nuclide: Ru105
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.090000E+02   0.000000E+00   5.600000E+00   1.000000E+00   1.000000E+00
+   1.090000E+02   0.000000E+00   2.610000E+00   5.000000E-01   1.000000E+00
+   1.090000E+02   0.000000E+00   3.200000E-01   6.000000E-02   1.000000E+00
+   1.090000E+02   0.000000E+00   1.500000E-01   5.000000E-02   1.000000E+00
+   1.090000E+02   0.000000E+00   2.000000E-02   8.000000E-03   1.000000E+00
+   1.090000E+02   0.000000E+00   5.000000E-03   2.000000E-03   1.000000E+00
+# reference:
+#   author: N.Shinohara, K.Tsukada, S.Ichikawa, M.Magara, T.Ohtsuki
+#   title: Cumulative yields of short-lived Ru isotopes in the 12C- and 19F-induced fission of 233U, 235U, 238U and 237Np
+#   journal: Jour: Radiochimica Acta, Vol.68, p.21 (1995)

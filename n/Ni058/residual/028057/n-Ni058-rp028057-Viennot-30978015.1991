@@ -1,0 +1,56 @@
+# header:
+#   title: Ni58(n,x)Ni57 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Viennot
+#   year: 1991
+#   subentry: 30978015
+#   X4 reaction: 28-NI-58(N,2N)28-NI-57,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30978015
+# target:
+#   Z: 28
+#   A: 58
+#   nuclide: Ni58
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 28
+#   A: 57
+#   nuclide: Ni57
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.377000E+01   2.600000E-01   1.358423E+01   3.756400E-01   9.988407E-01
+   1.393000E+01   2.400000E-01   1.720563E+01   2.407700E-01   9.775926E-01
+   1.411000E+01   2.600000E-01   1.962656E+01   2.853800E-01   9.716119E-01
+   1.430000E+01   2.800000E-01   2.324386E+01   2.490200E-01   9.565377E-01
+   1.447000E+01   3.400000E-01   2.586361E+01   6.607500E-01   9.439272E-01
+   1.483000E+01   5.000000E-01   2.817345E+01   7.341600E-01   9.177018E-01
+# reference:
+#   author: M.Viennot, M.Berrada, G.Paic, S.Joly
+#   title: Cross section measurements of (n,p) and (n,np+pn+d)  reactions for some titanium, chromium, iron, cobalt,  nickel, and zinc isotopes around 14 MeV
+#   journal: Jour: Nuclear Science and Engineering, Vol.108, p.289 (1991)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.377000E+01
+#   E-max [MeV]:  1.483000E+01
+#   F-value:  1.294803E+00
+#   A-value:  1.286764E+00
+#   chi-2:  2.861173E+02
+#   p-value:  1.104705E-01
+#   exp. data sets for p-value:      8
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.232105E+00   1.225424E+00   1.628697E+02
+# endfb8.0      1.294707E+00   1.290530E+00   2.832668E+02
+# jendl5.0      1.349793E+00   1.347233E+00   4.122156E+02

@@ -1,0 +1,51 @@
+# header:
+#   title: Se82(n,x)Se81 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Minetti
+#   year: 1967
+#   subentry: 21107012
+#   X4 reaction: 34-SE-82(N,2N)34-SE-81,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21107012
+# target:
+#   Z: 34
+#   A: 82
+#   nuclide: Se82
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 34
+#   A: 81
+#   nuclide: Se81
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.470000E+01   1.000000E-01   1.462000E+03   5.000000E+01   1.000000E+00
+# reference:
+#   author: B.Minetti,A.Pasquarelli
+#   title: -Measurements of neutron cross sections and isomeric  cross section ratios in Se isotopes-.
+#   journal: Jour: Nuclear Physics, Section A, Vol.100, p.186 (1967)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.470000E+01
+#   E-max [MeV]:  1.470000E+01
+#   F-value:  1.176371E+00
+#   A-value:  8.553337E-01
+#   chi-2:  1.893357E+01
+#   p-value:  2.446004E-01
+#   exp. data sets for p-value:      5
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.236309E+00   8.088593E-01   3.123642E+01
+# jeff3.3       1.165341E+00   8.581183E-01   1.721221E+01
+# jendl5.0      1.109209E+00   9.015436E-01   8.352100E+00

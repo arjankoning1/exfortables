@@ -1,0 +1,67 @@
+# header:
+#   title: Fe54(n,x)Fe53 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Fessler
+#   year: 1998
+#   subentry: 22440002
+#   X4 reaction: 26-FE-54(N,2N)26-FE-53,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22440002
+# target:
+#   Z: 26
+#   A: 54
+#   nuclide: Fe54
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 26
+#   A: 53
+#   nuclide: Fe53
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 17
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.522000E+01   2.200000E-01   2.260000E+01   2.000000E+00   1.000000E+00
+   1.564000E+01   2.700000E-01   2.660000E+01   2.000000E+00   1.000000E+00
+   1.607000E+01   2.000000E-01   3.910000E+01   3.000000E+00   1.000000E+00
+   1.651000E+01   3.000000E-01   4.820000E+01   3.700000E+00   1.000000E+00
+   1.706000E+01   2.200000E-01   6.110000E+01   4.600000E+00   1.000000E+00
+   1.754000E+01   2.900000E-01   6.310000E+01   5.200000E+00   1.000000E+00
+   1.782000E+01   2.500000E-01   7.140001E+01   6.200000E+00   1.000000E+00
+   1.791000E+01   3.000000E-01   6.940001E+01   6.900000E+00   1.000000E+00
+   1.821000E+01   4.000000E-01   7.260000E+01   4.800000E+00   1.000000E+00
+   1.830000E+01   3.200000E-01   7.560001E+01   4.900000E+00   1.000000E+00
+   1.873000E+01   3.500000E-01   7.628999E+01   4.530000E+00   1.000000E+00
+   1.915000E+01   3.000000E-01   8.140001E+01   7.700000E+00   1.000000E+00
+   1.929000E+01   4.000000E-01   8.000002E+01   5.260000E+00   1.000000E+00
+   1.951000E+01   4.100000E-01   8.872001E+01   7.740000E+00   1.000000E+00
+   2.012000E+01   4.200000E-01   8.775000E+01   6.500000E+00   1.000000E+00
+   2.036000E+01   3.500000E-01   8.820000E+01   7.200000E+00   1.000000E+00
+   2.051000E+01   4.200000E-01   8.872001E+01   7.140000E+00   1.000000E+00
+# reference:
+#   author: A.Fessler
+#   title: Activation cross sections and isomeric cross section  ratios in neutron induced reactions on Cr-, Fe-, and  Ni-isotopes in the energy range 9 to 21 MeV.
+#   journal: Rept: Kernforschungsanlage, Juelich, report series, No.3502 (1998)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.522000E+01
+#   E-max [MeV]:  2.051000E+01
+#   F-value:  1.236988E+00
+#   A-value:  1.127490E+00
+#   chi-2:  1.143091E+01
+#   p-value:  3.382958E-01
+#   exp. data sets for p-value:      5
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.076042E+00   9.958013E-01   8.982143E-01
+# jeff3.3       1.432766E+00   1.429024E+00   3.302222E+01
+# jendl5.0      1.032275E+00   1.007224E+00   3.722937E-01

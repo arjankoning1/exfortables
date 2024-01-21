@@ -1,0 +1,55 @@
+# header:
+#   title: Yb174(n,x)Tm173 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Sakane
+#   year: 2000
+#   subentry: 22468007
+#   X4 reaction: 70-YB-174(N,X)69-TM-173,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22468007
+# target:
+#   Z: 70
+#   A: 174
+#   nuclide: Yb174
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 28
+# residual:
+#   Z: 69
+#   A: 173
+#   nuclide: Tm173
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.340000E+01   0.000000E+00   1.200000E-01   4.560000E-02   1.000000E+00
+   1.370000E+01   0.000000E+00   3.000000E-01   6.900000E-02   1.000000E+00
+   1.402000E+01   0.000000E+00   2.800000E-01   5.600000E-02   1.000000E+00
+   1.435000E+01   0.000000E+00   4.100000E-01   8.200000E-02   1.000000E+00
+   1.464000E+01   0.000000E+00   8.200000E-01   1.558000E-01   1.000000E+00
+   1.487000E+01   0.000000E+00   8.200000E-01   1.476000E-01   1.000000E+00
+# reference:
+#   author: H.Sakane, M.Shibata, K.Kawade, Y.Kasugai, Y.Ikeda
+#   title: Systematics of (n,n'p) reaction cross sections  by 14 MeV neutrons
+#   journal: Conf: Japanese report to the I.N.D.C., No.185, p.202 (2000)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  1.340000E+01
+#   E-max [MeV]:  1.487000E+01
+#   F-value:  6.082070E+00
+#   A-value:  1.678761E-01
+#   chi-2:  1.505834E+01
+#   p-value:  9.896456E-02
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    6.089882E+00   1.677285E-01   1.504835E+01
+# jeff3.3       6.074263E+00   1.680238E-01   1.506832E+01

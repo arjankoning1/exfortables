@@ -1,0 +1,56 @@
+# header:
+#   title: W186(n,np)Ta185 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Barry
+#   year: 1959
+#   subentry: 21441007
+#   X4 reaction: 74-W-186(N,X)73-TA-185,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21441007
+# target:
+#   Z: 74
+#   A: 186
+#   nuclide: W186
+# reaction:
+#   type: (n,np)
+#   ENDF_MF: 3
+#   ENDF_MT: 28
+# residual:
+#   Z: 73
+#   A: 185
+#   nuclide: Ta185
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.450000E+01   8.000000E-01   1.100000E-01   5.000000E-02   1.000000E+00
+   1.485000E+01   3.000000E-01   3.000000E-01   1.500000E-01   1.000000E+00
+   1.800000E+01   2.000000E+00   4.700000E+00   1.500000E+00   1.000000E+00
+   1.970000E+01   2.600000E+00   1.460000E+01   3.000000E+00   1.000000E+00
+   2.120000E+01   2.000000E+00   1.710000E+01   3.000000E+00   1.000000E+00
+# reference:
+#   author: J.F.Barry,R.F.Coleman,B.E.Hawker,J.L.Perkin
+#   title: Cross sections for some (n,pn) reactions with heavy  nuclides
+#   journal: Jour: Proceedings of the Physical Society (London),, Vol.74, p.632 (1959
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.450000E+01
+#   E-max [MeV]:  2.120000E+01
+#   F-value:  5.110588E+00
+#   A-value:  2.267915E-01
+#   chi-2:  7.003677E+00
+#   p-value:  6.541315E-02
+#   exp. data sets for p-value:      6
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2023    3.690030E+00   3.047755E-01   4.783305E+00
+# endfb8.0      8.656550E+00   1.225821E-01   9.957550E+00
+# jeff3.3       2.780084E+00   3.646972E-01   4.944695E+00
+# jendl5.0      7.191023E+00   1.492451E-01   6.711089E+00

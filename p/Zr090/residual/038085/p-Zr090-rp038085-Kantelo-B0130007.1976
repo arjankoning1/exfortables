@@ -1,0 +1,58 @@
+# header:
+#   title: Zr90(p,x)Sr85 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Kantelo
+#   year: 1976
+#   subentry: B0130007
+#   X4 reaction: 40-ZR-90(P,X)38-SR-85,IND,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/B0130007
+# target:
+#   Z: 40
+#   A: 90
+#   nuclide: Zr90
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 38
+#   A: 85
+#   nuclide: Sr85
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 9
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.800000E+01   2.000000E+00   7.646700E+00   4.133300E-01   1.033333E+00
+   4.400000E+01   2.000000E+00   1.953000E+01   9.300000E-01   1.033333E+00
+   5.000000E+01   2.000000E+00   2.790000E+01   2.066700E+00   1.033333E+00
+   5.600000E+01   2.000000E+00   2.583333E+01   2.066700E+00   1.033333E+00
+   6.200000E+01   2.000000E+00   1.705000E+01   8.266700E-01   1.033333E+00
+   6.800000E+01   2.000000E+00   1.281333E+01   7.233300E-01   1.033333E+00
+   7.400000E+01   2.000000E+00   1.622333E+01   1.136700E+00   1.033333E+00
+   8.000000E+01   2.000000E+00   1.860000E+01   1.033300E+00   1.033333E+00
+   8.600000E+01   2.000000E+00   3.513334E+01   2.066700E+00   1.033333E+00
+# reference:
+#   author: M.V.Kantelo, J.J.Hogan
+#   title: Charged-particle emission in reactions of 90Zr with  10-86-MeV protons
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.14, p.64 (1976)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  3.800000E+01
+#   E-max [MeV]:  8.600000E+01
+#   F-value:  1.808006E+00
+#   A-value:  7.427849E-01
+#   chi-2:  6.312033E+01
+#   p-value:  3.544552E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    2.098664E+00   5.226861E-01   6.593951E+01
+# jendl5.0      1.476664E+00   1.055566E+00   6.030113E+01

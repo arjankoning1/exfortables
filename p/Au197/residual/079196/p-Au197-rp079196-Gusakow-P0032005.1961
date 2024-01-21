@@ -1,0 +1,57 @@
+# header:
+#   title: Au197(p,x)Au196 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Gusakow
+#   year: 1961
+#   subentry: P0032005
+#   X4 reaction: 79-AU-197(P,N+P)79-AU-196,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/P0032005
+# target:
+#   Z: 79
+#   A: 197
+#   nuclide: Au197
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 28
+# residual:
+#   Z: 79
+#   A: 196
+#   nuclide: Au196
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   4.020000E+01   2.020000E+00   6.060000E+01   1.130000E+01   1.000000E+00
+   6.010000E+01   2.020000E+00   1.150000E+02   1.390000E+01   1.000000E+00
+   7.030000E+01   2.470000E+00   1.600000E+02   1.800000E+01   1.000000E+00
+   8.530000E+01   1.880000E+00   1.900000E+02   2.290000E+01   1.000000E+00
+   9.730000E+01   2.170000E+00   1.280000E+02   1.630000E+01   1.000000E+00
+   1.240000E+02   2.630000E+00   8.010000E+01   1.060000E+01   1.000000E+00
+   1.360000E+02   2.250000E+00   6.840000E+01   1.020000E+01   1.000000E+00
+   1.550000E+02   1.800000E+00   7.710000E+01   1.050000E+01   1.000000E+00
+# reference:
+#   author: M.GUSAKOW,G.ALBOUY,N.POFFE,C.RIEHL
+#   title: Reactions (p,pn) a moyenne energie
+#   journal: Jour: Journal de Physique, Vol.22, p.636 (1961)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  4.020000E+01
+#   E-max [MeV]:  1.550000E+02
+#   F-value:  1.554238E+00
+#   A-value:  1.272435E+00
+#   chi-2:  1.578717E+01
+#   p-value:  2.280914E-01
+#   exp. data sets for p-value:      3
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.459560E+00   1.160239E+00   1.001758E+01
+# jendl5.0      1.642030E+00   1.395481E+00   2.155676E+01

@@ -1,0 +1,64 @@
+# header:
+#   title: Sr86(p,x)Y86 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Shuzauddin
+#   year: 2020
+#   subentry: O2534002
+#   X4 reaction: 38-SR-86(P,N)39-Y-86,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O2534002
+# target:
+#   Z: 38
+#   A: 86
+#   nuclide: Sr86
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+# residual:
+#   Z: 39
+#   A: 86
+#   nuclide: Y86
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 15
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   6.500000E+00   4.000000E-01   1.000000E+02   9.000000E+00   1.000000E+00
+   6.900000E+00   4.000000E-01   1.430000E+02   1.200000E+01   1.000000E+00
+   7.900000E+00   4.000000E-01   2.900000E+02   2.400000E+01   1.000000E+00
+   8.300000E+00   4.000000E-01   3.230000E+02   2.700000E+01   1.000000E+00
+   8.800000E+00   4.000000E-01   3.620000E+02   3.000000E+01   1.000000E+00
+   9.600000E+00   4.000000E-01   4.150000E+02   3.500000E+01   1.000000E+00
+   1.050000E+01   3.000000E-01   4.720000E+02   4.000000E+01   1.000000E+00
+   1.100000E+01   3.000000E-01   5.270000E+02   4.400000E+01   1.000000E+00
+   1.200000E+01   3.000000E-01   5.700001E+02   4.800000E+01   1.000000E+00
+   1.300000E+01   3.000000E-01   6.010000E+02   5.000000E+01   1.000000E+00
+   1.340000E+01   3.000000E-01   5.710000E+02   4.900000E+01   1.000000E+00
+   1.430000E+01   2.000000E-01   5.740001E+02   4.800000E+01   1.000000E+00
+   1.470000E+01   2.000000E-01   5.940000E+02   5.100000E+01   1.000000E+00
+   1.600000E+01   2.000000E-01   5.060000E+02   5.100000E+01   1.000000E+00
+   1.620000E+01   2.000000E-01   5.440000E+02   5.400001E+01   1.000000E+00
+# reference:
+#   author: M.Shuza Uddin, B.Scholten, M.Shamsuzzhoha Basunia, S.Sudar, S.Spellerberg, A.S.Voyles, J.T.Morrell, H.Zaneb, J.A.Rios, I.Spahn, L.A.Bernstein, B.Neumaier, S.M.Qaim
+#   title: Accurate determination of production data of the non-standard positron emitter 86Y via the 86Sr(p,n)-reaction
+#   journal: Jour: Radiochimica Acta, Vol.108, p.747 (2020)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  6.500000E+00
+#   E-max [MeV]:  1.620000E+01
+#   F-value:  1.345213E+00
+#   A-value:  1.308183E+00
+#   chi-2:  1.722794E+01
+#   p-value:  2.116063E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.370298E+00   1.345795E+00   1.951289E+01
+# jendl5.0      1.331648E+00   1.296805E+00   1.597400E+01

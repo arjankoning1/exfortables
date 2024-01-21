@@ -1,0 +1,57 @@
+# header:
+#   title: Y89(n,2n)Y88 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Chudoba
+#   year: 2018
+#   subentry: 31787002
+#   X4 reaction: 39-Y-89(N,2N)39-Y-88,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/31787002
+# target:
+#   Z: 39
+#   A: 89
+#   nuclide: Y89
+# reaction:
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 39
+#   A: 88
+#   nuclide: Y88
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.740000E+01   1.800000E+00   1.270000E+03   1.400000E+02   1.000000E+00
+   2.450000E+01   1.600000E+00   9.500000E+02   1.000000E+02   1.000000E+00
+   2.870000E+01   1.600000E+00   4.800000E+02   5.000000E+01   1.000000E+00
+   3.350000E+01   1.600000E+00   3.300000E+02   4.000000E+01   1.000000E+00
+# reference:
+#   author: P.Chudoba, A.Krasa, J.Vrzalova, O.Svoboda, S.Kilim,  V.Wagner, M.Majerle, M.Stefanik, M.Suchopar, A.Kugler,  M.Bielewicz, E.Strugalska-Gola, M.Szuta
+#   title: Activation Measurements of Cross Sections for Ground  and Isomeric States Production in Neutron Threshold  Reactions on Y and Au
+#   journal: Jour: Nuclear Science and Engineering, Vol.191, p.150 (2018)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.740000E+01
+#   E-max [MeV]:  3.350000E+01
+#   F-value:  1.095605E+00
+#   A-value:  9.650027E-01
+#   chi-2:  6.443400E-01
+#   p-value:  3.724441E-01
+#   exp. data sets for p-value:      8
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2023    1.079205E+00   9.549820E-01   6.407187E-01
+# endfb8.0      1.005786E+00   9.942476E-01   6.612246E-02
+# jeff3.3       1.005786E+00   9.942476E-01   6.612246E-02
+# jendl5.0      1.016464E+00   1.007840E+00   1.496058E-01
+# cendl3.2      1.000682E+00   9.993185E-01   7.758518E-03
+# irdff2.0      1.147564E+00   9.331073E-01   1.151469E+00

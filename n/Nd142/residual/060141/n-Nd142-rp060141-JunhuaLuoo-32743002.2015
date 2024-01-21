@@ -1,0 +1,52 @@
+# header:
+#   title: Nd142(n,x)Nd141 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: JunhuaLuoo
+#   year: 2015
+#   subentry: 32743002
+#   X4 reaction: 60-ND-142(N,2N)60-ND-141,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/32743002
+# target:
+#   Z: 60
+#   A: 142
+#   nuclide: Nd142
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 60
+#   A: 141
+#   nuclide: Nd141
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.350000E+01   2.000000E-01   1.352000E+03   6.800000E+01   1.000000E+00
+   1.410000E+01   2.000000E-01   1.395000E+03   6.900002E+01   1.000000E+00
+   1.480000E+01   2.000000E-01   1.517000E+03   7.800000E+01   1.000000E+00
+# reference:
+#   author: Junhua Luo, Li An, Li Jiang, Long He
+#   title: Cross sections for D-T neutron interaction with  neodymium isotopes
+#   journal: Jour: Radiation Physics and Chemistry, Vol.109, p.63 (2015)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.350000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.055506E+00
+#   A-value:  9.675770E-01
+#   chi-2:  1.244839E+00
+#   p-value:  2.851999E-01
+#   exp. data sets for p-value:      4
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.043017E+00   9.761056E-01   8.345602E-01
+# jeff3.3       1.065812E+00   9.591230E-01   1.655118E+00

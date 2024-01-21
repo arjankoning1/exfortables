@@ -1,0 +1,58 @@
+# header:
+#   title: Co59(n,p)Fe59 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Molla
+#   year: 1994
+#   subentry: 31449005
+#   X4 reaction: 27-CO-59(N,P)26-FE-59,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/31449005
+# target:
+#   Z: 27
+#   A: 59
+#   nuclide: Co59
+# reaction:
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 26
+#   A: 59
+#   nuclide: Fe59
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.357000E+01   0.000000E+00   5.642705E+01   8.078400E+00   9.969443E-01
+   1.390000E+01   0.000000E+00   5.529966E+01   8.014300E+00   1.001805E+00
+   1.410000E+01   0.000000E+00   5.319780E+01   5.952870E+00   9.924963E-01
+   1.451000E+01   0.000000E+00   5.253970E+01   7.460300E+00   9.950702E-01
+   1.471000E+01   0.000000E+00   5.128564E+01   7.352900E+00   9.939076E-01
+# reference:
+#   author: N.I.Molla,R.U.Miah,S.Basunia,S.M.Hossain,M.Rahman
+#   title: Cross sections of (n,p), (n,a) and (n,2n) processes on scandium, vanadium, cobalt, copper and zinc isotope in the energy range 13.57 - 14.71 MeV.
+#   journal: Conf: Conf.on Nucl.Data for Sci.and Techn.,Gatlinburg 1994, Vol.2, p.938
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.357000E+01
+#   E-max [MeV]:  1.471000E+01
+#   F-value:  1.031851E+00
+#   A-value:  9.722692E-01
+#   chi-2:  2.650991E-01
+#   p-value:  1.962959E-01
+#   exp. data sets for p-value:      8
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2023    1.039560E+00   9.638321E-01   3.501393E-01
+# endfb8.0      1.030659E+00   9.709286E-01   2.771514E-01
+# jeff3.3       1.033772E+00   9.675798E-01   3.112354E-01
+# jendl5.0      1.024939E+00   9.765671E-01   2.209353E-01
+# cendl3.2      1.016355E+00   9.910963E-01   8.147787E-02
+# irdff2.0      1.039598E+00   9.638859E-01   3.496553E-01

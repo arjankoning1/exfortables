@@ -1,0 +1,54 @@
+# header:
+#   title: V51(n,t)Ti49 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Woelfle
+#   year: 1990
+#   subentry: 22183003
+#   X4 reaction: 23-V-51(N,T)22-TI-49,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22183003
+# target:
+#   Z: 23
+#   A: 51
+#   nuclide: V51
+# reaction:
+#   type: (n,t)
+#   ENDF_MF: 3
+#   ENDF_MT: 105
+# residual:
+#   Z: 22
+#   A: 49
+#   nuclide: Ti49
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.632000E+01   5.800000E-01   5.500000E-01   4.000000E-02   1.000000E+00
+   1.768000E+01   7.700000E-01   8.500000E-01   7.000000E-02   1.000000E+00
+   1.902000E+01   5.600000E-01   1.120000E+00   9.000000E-02   1.000000E+00
+# reference:
+#   author: R.Woelfle,S.M.Qaim,H.Liskien,R.Widera
+#   title: Systematic studies of excitation functions of (n,t)  reactions on medium and heavy mass nuclei
+#   journal: Jour: Radiochimica Acta, Vol.50, p.5 (1990)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.632000E+01
+#   E-max [MeV]:  1.902000E+01
+#   F-value:  1.317404E+00
+#   A-value:  9.378448E-01
+#   chi-2:  1.118178E+01
+#   p-value:  2.103267E-01
+#   exp. data sets for p-value:      1
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2023    1.392147E+00   9.341503E-01   1.565779E+01
+# endfb8.0      1.260836E+00   8.938192E-01   7.827855E+00
+# jeff3.3       1.393033E+00   9.326866E-01   1.566112E+01
+# jendl5.0      1.192181E+00   9.933942E-01   5.580354E+00

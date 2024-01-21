@@ -1,0 +1,54 @@
+# header:
+#   title: Y89(n,2n)Y88 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Csikai
+#   year: 1967
+#   subentry: 30033005
+#   X4 reaction: 39-Y-89(N,2N)39-Y-88,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30033005
+# target:
+#   Z: 39
+#   A: 89
+#   nuclide: Y89
+# reaction:
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 39
+#   A: 88
+#   nuclide: Y88
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.499000E+01   0.000000E+00   1.044530E+03   1.515000E+02   1.034188E+00
+# reference:
+#   author: J.Csikai,G.Peto
+#   title: Influence of direct inelastic scattering on (n,2n) cross-sections
+#   journal: Jour: Acta Physica Hungarica, Vol.23, p.87 (1967)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.499000E+01
+#   E-max [MeV]:  1.499000E+01
+#   F-value:  1.003256E+00
+#   A-value:  1.002516E+00
+#   chi-2:  2.245772E-02
+#   p-value:  2.412964E-01
+#   exp. data sets for p-value:      8
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2023    1.000100E+00   9.998997E-01   8.670158E-04
+# endfb8.0      1.002702E+00   1.002702E+00   2.343577E-02
+# jeff3.3       1.002702E+00   1.002702E+00   2.343577E-02
+# jendl5.0      1.004823E+00   1.004823E+00   4.196390E-02
+# cendl3.2      1.005080E+00   1.005080E+00   4.421632E-02
+# irdff2.0      1.000096E+00   9.999042E-01   8.275690E-04

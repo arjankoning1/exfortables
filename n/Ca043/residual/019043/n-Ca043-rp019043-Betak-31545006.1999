@@ -1,0 +1,52 @@
+# header:
+#   title: Ca43(n,x)K43 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Betak
+#   year: 1999
+#   subentry: 31545006
+#   X4 reaction: 20-CA-43(N,P)19-K-43,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/31545006
+# target:
+#   Z: 20
+#   A: 43
+#   nuclide: Ca43
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 19
+#   A: 43
+#   nuclide: K43
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.470000E+01   2.000000E-01   9.021342E+01   9.056200E+00   1.002371E+00
+# reference:
+#   author: E.Betak,E.Droste,S.Mikolajewski,W.Ratynski,E.Rurarz, T.Kempisty,S.Raman
+#   title: Activation Cross Sections for Reactions Induced by  14.7-MeV Neutrons on Natural Calcium and Enriched  44Ca Targets
+#   journal: Jour: Nuclear Science and Engineering, Vol.132, p.295 (1999)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.470000E+01
+#   E-max [MeV]:  1.470000E+01
+#   F-value:  1.029399E+00
+#   A-value:  1.012968E+00
+#   chi-2:  3.274333E-01
+#   p-value:  3.678824E-01
+#   exp. data sets for p-value:      6
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2023    1.003666E+00   9.963478E-01   4.594610E-02
+# endfb8.0      1.050364E+00   1.050364E+00   7.031946E-01
+# jeff3.3       1.018493E+00   9.818431E-01   2.356224E-01
+# jendl5.0      1.024685E+00   1.024685E+00   3.249700E-01

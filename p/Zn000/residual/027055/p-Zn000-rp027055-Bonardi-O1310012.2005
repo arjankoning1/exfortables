@@ -1,0 +1,60 @@
+# header:
+#   title: Zn0(p,x)Co55 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Bonardi
+#   year: 2005
+#   subentry: O1310012
+#   X4 reaction: 30-ZN-0(P,X)27-CO-55,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O1310012
+# target:
+#   Z: 30
+#   A: 0
+#   nuclide: Zn0
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 27
+#   A: 55
+#   nuclide: Co55
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 11
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.580000E+01   8.000000E-01   2.000000E-02   1.000000E-02   1.000000E+00
+   4.430000E+01   7.000000E-01   6.000000E-02   2.000000E-02   1.000000E+00
+   4.760000E+01   6.000000E-01   1.100000E-01   3.000000E-02   1.000000E+00
+   6.210000E+01   5.000000E-01   4.600000E-01   6.000000E-02   1.000000E+00
+   7.435000E+01   4.500000E-01   4.900000E-01   6.000000E-02   1.000000E+00
+   8.665000E+01   4.500000E-01   4.400000E-01   8.000000E-02   1.000000E+00
+   9.780000E+01   4.000000E-01   6.800000E-01   8.000000E-02   1.000000E+00
+   1.084500E+02   3.500000E-01   1.100000E+00   9.999999E-02   1.000000E+00
+   1.197500E+02   3.500000E-01   1.300000E+00   2.000000E-01   1.000000E+00
+   1.304500E+02   3.500000E-01   1.500000E+00   2.000000E-01   1.000000E+00
+   1.408000E+02   3.000000E-01   1.600000E+00   2.000000E-01   1.000000E+00
+# reference:
+#   author: M.L.Bonardi, F.Groppi, H.S.Mainardi, V.M.Kokhanyuk, E.V.Lapshina, M.V.Mebel, B.L.Zhuikov
+#   title: Cross section studies on Cu-64 with zinc target in the proton energy range from 141 down to 31-MeV.
+#   journal: Jour: Journal of Radioanalytical and Nuclear Chemistry, Vol.264, p.101 (
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  3.580000E+01
+#   E-max [MeV]:  1.408000E+02
+#   F-value:  3.039946E+00
+#   A-value:  8.770462E-01
+#   chi-2:  4.581412E+01
+#   p-value:  1.791839E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    4.097956E+00   6.362554E-01   4.922440E+01
+# jendl5.0      2.003527E+00   1.208964E+00   4.240383E+01

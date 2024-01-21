@@ -1,0 +1,52 @@
+# header:
+#   title: Au197(n,x)Au198 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Rovira
+#   year: 2021
+#   subentry: 23746002
+#   X4 reaction: 79-AU-197(N,G)79-AU-198,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/23746002
+# target:
+#   Z: 79
+#   A: 197
+#   nuclide: Au197
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+# residual:
+#   Z: 79
+#   A: 198
+#   nuclide: Au198
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.150000E-02   3.500000E-03   6.130000E+02   2.500000E+01   1.000000E+00
+   5.300000E-02   1.100000E-02   4.030000E+02   1.600000E+01   1.000000E+00
+   1.280000E-01   3.200000E-02   2.990000E+02   1.100000E+01   1.000000E+00
+# reference:
+#   author: G.Rovira,A.Kimura,S.Nakamura,S.Endo,O.Iwamoto, N.Iwamoto,T.Katabuchi,K.Terada,Y.Kodama,H.Nakano, J.Hori,Y.Shibahara
+#   title: Neutron beam filter system for fast neutron cross-section measurement at the ANNRI beamline of MLF/J-PARC
+#   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.A, Vol.1003, p.165318
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.150000E-02
+#   E-max [MeV]:  1.280000E-01
+#   F-value:  1.064642E+00
+#   A-value:  1.039674E+00
+#   chi-2:  3.003716E+00
+#   p-value:  3.296424E-01
+#   exp. data sets for p-value:      8
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.072812E+00   1.051060E+00   3.639786E+00
+# jendl5.0      1.055402E+00   1.028411E+00   2.367646E+00

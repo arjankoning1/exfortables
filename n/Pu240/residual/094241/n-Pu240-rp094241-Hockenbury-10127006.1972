@@ -1,0 +1,60 @@
+# header:
+#   title: Pu240(n,x)Pu241 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Hockenbury
+#   year: 1972
+#   subentry: 10127006
+#   X4 reaction: 94-PU-240(N,G)94-PU-241,,SIG,,AV
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/10127006
+# target:
+#   Z: 94
+#   A: 240
+#   nuclide: Pu240
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+# residual:
+#   Z: 94
+#   A: 241
+#   nuclide: Pu241
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 11
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   7.000000E-03   1.000000E-03   1.380000E+03   1.104000E+02   1.000000E+00
+   9.000000E-03   1.000000E-03   1.360000E+03   1.088000E+02   1.000000E+00
+   1.100000E-02   1.000000E-03   1.240000E+03   9.920000E+01   1.000000E+00
+   1.300000E-02   1.000000E-03   1.160000E+03   9.280000E+01   1.000000E+00
+   1.500000E-02   1.000000E-03   1.110000E+03   8.880000E+01   1.000000E+00
+   1.700000E-02   1.000000E-03   1.070000E+03   8.560001E+01   1.000000E+00
+   1.900000E-02   1.000000E-03   1.020000E+03   8.160001E+01   1.000000E+00
+   2.100000E-02   1.000000E-03   9.100000E+02   7.280000E+01   1.000000E+00
+   2.300000E-02   1.000000E-03   9.300000E+02   7.440000E+01   1.000000E+00
+   2.500000E-02   1.000000E-03   9.400000E+02   7.520000E+01   1.000000E+00
+   2.700000E-02   1.000000E-03   8.500000E+02   6.800000E+01   1.000000E+00
+# reference:
+#   author: R.W.Hockenbury,W.R.Moyer,R.C.Block
+#   title: Neutron Capture, Fission, and Total Cross Sections of Plutonium-240 from 20 eV to 30 keV
+#   journal: Jour: Nuclear Science and Engineering, Vol.49, p.153 (1972)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  7.000000E-03
+#   E-max [MeV]:  2.700000E-02
+#   F-value:  1.083738E+00
+#   A-value:  9.321280E-01
+#   chi-2:  1.381966E+00
+#   p-value:  3.635556E-01
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.099432E+00   9.179872E-01   1.743101E+00
+# jendl5.0      1.064846E+00   9.464867E-01   1.020830E+00

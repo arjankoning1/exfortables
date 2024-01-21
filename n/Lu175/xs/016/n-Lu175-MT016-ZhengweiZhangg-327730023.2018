@@ -1,0 +1,54 @@
+# header:
+#   title: Lu175(n,2n)Lu174 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: ZhengweiZhangg
+#   year: 2018
+#   subentry: 327730023
+#   X4 reaction: 71-LU-175(N,2N)71-LU-174,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/327730023
+# target:
+#   Z: 71
+#   A: 175
+#   nuclide: Lu175
+# reaction:
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 71
+#   A: 174
+#   nuclide: Lu174
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.410000E+01   3.000000E-01   2.000693E+03   6.500002E+01   9.983498E-01
+   1.450000E+01   3.000000E-01   2.063707E+03   7.100000E+01   9.955172E-01
+   1.470000E+01   3.000000E-01   1.961116E+03   6.800000E+01   9.919655E-01
+# reference:
+#   author: Zhengwei Zhang, Qian Zhang, Shihong Chen,  Bingjun Chen, Qiang Wang, Caifeng Lai, Kaihong Fang
+#   title: Measurement of cross-sections for 14 MeV neutron  interaction with 175Lu
+#   journal: Jour: Applied Radiation and Isotopes, Vol.132, p.61 (2018)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.410000E+01
+#   E-max [MeV]:  1.470000E+01
+#   F-value:  1.021769E+00
+#   A-value:  1.004381E+00
+#   chi-2:  7.256936E-01
+#   p-value:  2.995329E-01
+#   exp. data sets for p-value:      8
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2023    1.011970E+00   9.969023E-01   3.692491E-01
+# endfb8.0      1.037587E+00   1.032610E+00   1.755824E+00
+# jeff3.3       1.012783E+00   9.943904E-01   3.696806E-01
+# jendl5.0      1.013909E+00   9.941416E-01   4.080203E-01

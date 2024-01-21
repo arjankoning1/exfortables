@@ -1,0 +1,60 @@
+# header:
+#   title: Nb93(n,x)Nb93 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Lashuk
+#   year: 1994
+#   subentry: 41186019
+#   X4 reaction: 41-NB-93(N,INL)41-NB-93,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/41186019
+# target:
+#   Z: 41
+#   A: 93
+#   nuclide: Nb93
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+# residual:
+#   Z: 41
+#   A: 93
+#   nuclide: Nb93
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 9
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.000000E+00   0.000000E+00   3.830000E+02   3.000000E+01   1.000000E+00
+   1.200000E+00   0.000000E+00   1.262000E+03   8.700000E+01   1.000000E+00
+   1.400000E+00   0.000000E+00   1.528000E+03   9.100002E+01   1.000000E+00
+   1.600000E+00   0.000000E+00   1.987000E+03   1.120000E+02   1.000000E+00
+   1.800000E+00   0.000000E+00   2.053000E+03   1.120000E+02   1.000000E+00
+   2.000000E+00   0.000000E+00   2.101000E+03   1.050000E+02   1.000000E+00
+   2.200000E+00   0.000000E+00   2.357000E+03   1.100000E+02   1.000000E+00
+   2.400000E+00   0.000000E+00   2.387000E+03   1.470000E+02   1.000000E+00
+   3.500000E+00   0.000000E+00   2.853000E+03   1.410000E+02   1.000000E+00
+# reference:
+#   author: A.I.Lashuk, I.P.Sadokhin
+#   title: Gamma-quanta production cross-sections at inelastic  scattering of the neutrons on the nuclei of reactor  construction materials.
+#   journal: Jour: Vop.At.Nauki i Tekhn.,Ser.Yaderno-Reak.Konstanty, Issue.1, p.26 (1
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.000000E+00
+#   E-max [MeV]:  3.500000E+00
+#   F-value:  1.244360E+00
+#   A-value:  9.685889E-01
+#   chi-2:  1.444006E+01
+#   p-value:  2.599484E-01
+#   exp. data sets for p-value:      3
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2023    1.116450E+00   9.597580E-01   3.314952E+00
+# endfb8.0      1.266548E+00   9.292608E-01   1.578095E+01
+# jeff3.3       1.291121E+00   9.903258E-01   2.077376E+01
+# jendl5.0      1.272112E+00   9.965074E-01   1.789057E+01

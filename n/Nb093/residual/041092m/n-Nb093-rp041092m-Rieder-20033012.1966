@@ -1,0 +1,57 @@
+# header:
+#   title: Nb93(n,x)Nb92m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Rieder
+#   year: 1966
+#   subentry: 20033012
+#   X4 reaction: 41-NB-93(N,2N)41-NB-92-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20033012
+# target:
+#   Z: 41
+#   A: 93
+#   nuclide: Nb93
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 41
+#   A: 92
+#   nuclide: Nb92m
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.405000E+01   1.000000E-01   4.498769E+02   2.350000E+01   9.571850E-01
+   1.470000E+01   2.000000E-01   4.461097E+02   2.320000E+01   9.614434E-01
+# reference:
+#   author: R.Rieder,H.Muenzer
+#   title: (n,2n)- cross sections of some nuclides with  neutron numbers close to the magic number 50  at neutron energies around 14 MeV
+#   journal: Jour: Acta Physica Austriaca, Vol.23, p.42 (1966)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.405000E+01
+#   E-max [MeV]:  1.470000E+01
+#   F-value:  1.009199E+00
+#   A-value:  1.007480E+00
+#   chi-2:  1.899878E-01
+#   p-value:  3.266901E-01
+#   exp. data sets for p-value:      8
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.011147E+00   1.010412E+00   2.635520E-01
+# jeff3.3       1.011147E+00   1.010412E+00   2.635516E-01
+# jendl5.0      1.002402E+00   1.001641E+00   4.285985E-02

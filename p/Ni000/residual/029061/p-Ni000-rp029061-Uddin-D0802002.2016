@@ -1,0 +1,61 @@
+# header:
+#   title: Ni0(p,x)Cu61 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Uddin
+#   year: 2016
+#   subentry: D0802002
+#   X4 reaction: 28-NI-0(P,X)29-CU-61,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D0802002
+# target:
+#   Z: 28
+#   A: 0
+#   nuclide: Ni0
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 29
+#   A: 61
+#   nuclide: Cu61
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 11
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.490000E+00   5.000000E-01   5.000000E-03   1.000000E-03   1.000000E+00
+   1.660000E+00   5.000000E-01   9.000001E-03   1.000000E-03   1.000000E+00
+   1.850000E+00   5.000000E-01   2.000000E-02   3.000000E-03   1.000000E+00
+   2.140000E+00   3.900000E-01   4.000000E-02   5.000000E-03   1.000000E+00
+   2.370000E+00   3.900000E-01   5.000000E-02   1.000000E-02   1.000000E+00
+   2.560000E+00   3.000000E-01   7.000000E-02   1.000000E-02   1.000000E+00
+   2.820000E+00   3.000000E-01   1.200000E-01   1.000000E-02   1.000000E+00
+   3.030000E+00   3.000000E-01   2.300000E-01   2.000000E-02   1.000000E+00
+   3.420000E+00   2.900000E-01   3.800000E-01   3.000000E-02   1.000000E+00
+   3.630000E+00   2.900000E-01   3.600000E-01   3.000000E-02   1.000000E+00
+   3.960000E+00   2.600000E-01   4.300000E-01   3.000000E-02   1.000000E+00
+# reference:
+#   author: Md.S.Uddin, A.K.Chakraborty, S.Spellerberg,  Md.A.Shariff, S.Das, Md.A.Rashid, I.Spahn, S.M.Qaim
+#   title: Experimental determination of proton induced reaction  cross sections on natNi near threshold energy
+#   journal: Jour: Radiochimica Acta, Vol.104, p.305 (2016)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  1.490000E+00
+#   E-max [MeV]:  3.960000E+00
+#   F-value:  1.782684E+00
+#   A-value:  1.518489E+00
+#   chi-2:  6.373059E+01
+#   p-value:  2.479247E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.567604E+00   1.227852E+00   3.002651E+01
+# endfb8.0      0.000000E+00   0.000000E+00   0.000000E+00
+# jendl5.0      1.979610E+00   1.877921E+00   9.743466E+01

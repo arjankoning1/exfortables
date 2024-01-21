@@ -1,0 +1,63 @@
+# header:
+#   title: Zn0(p,x)Zn69m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Uddin
+#   year: 2007
+#   subentry: O1600007
+#   X4 reaction: 30-ZN-0(P,X)30-ZN-69-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O1600007
+# target:
+#   Z: 30
+#   A: 0
+#   nuclide: Zn0
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 30
+#   A: 69
+#   nuclide: Zn69m
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 9
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.410000E+01   0.000000E+00   5.000000E-02   1.000000E-02   1.000000E+00
+   1.720000E+01   0.000000E+00   2.400000E-01   3.120000E-02   1.000000E+00
+   2.160000E+01   0.000000E+00   4.400000E-01   6.000000E-02   1.000000E+00
+   2.550000E+01   0.000000E+00   6.300000E-01   8.190000E-02   1.000000E+00
+   2.840000E+01   0.000000E+00   5.800000E-01   8.000000E-02   1.000000E+00
+   3.100000E+01   0.000000E+00   4.100000E-01   5.330000E-02   1.000000E+00
+   3.420000E+01   0.000000E+00   4.500000E-01   6.000000E-02   1.000000E+00
+   3.660000E+01   0.000000E+00   4.500000E-01   6.000000E-02   1.000000E+00
+   3.960000E+01   0.000000E+00   4.200000E-01   5.460000E-02   1.000000E+00
+# reference:
+#   author: M.S.Uddin, M.U.Khandaker, K.S.Kim, Y.S.Lee, G.N.Kim
+#   title: Excitation functions of the proton induced nuclear reactions on Zn-nat up to 40-MeV.
+#   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.258, p.313 (20
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  1.410000E+01
+#   E-max [MeV]:  3.960000E+01
+#   F-value:  1.521420E+00
+#   A-value:  1.103764E+00
+#   chi-2:  1.514936E+01
+#   p-value:  3.920645E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.649134E+00   1.506291E+00   2.739352E+01
+# jendl5.0      1.376163E+00   8.088046E-01   2.905187E+00

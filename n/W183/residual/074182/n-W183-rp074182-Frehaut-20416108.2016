@@ -1,0 +1,64 @@
+# header:
+#   title: W183(n,x)W182 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Frehaut
+#   year: 2016
+#   subentry: 20416108
+#   X4 reaction: 74-W-183(N,2N)74-W-182,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20416108
+# target:
+#   Z: 74
+#   A: 183
+#   nuclide: W183
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 74
+#   A: 182
+#   nuclide: W182
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 14
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   7.410000E+00   3.300000E-01   6.330000E+02   3.200000E+01   1.000000E+00
+   7.930000E+00   3.000000E-01   9.850001E+02   4.600000E+01   1.000000E+00
+   8.180001E+00   2.900000E-01   1.145000E+03   5.600000E+01   1.000000E+00
+   8.440000E+00   2.700000E-01   1.300000E+03   5.800000E+01   1.000000E+00
+   8.940000E+00   2.500000E-01   1.499000E+03   6.500002E+01   1.000000E+00
+   9.440000E+00   2.300000E-01   1.610000E+03   7.900000E+01   1.000000E+00
+   9.930000E+00   2.200000E-01   1.762000E+03   8.500001E+01   1.000000E+00
+   1.091000E+01   1.900000E-01   1.882000E+03   8.300000E+01   1.000000E+00
+   1.188000E+01   1.700000E-01   1.897000E+03   1.350000E+02   1.000000E+00
+   1.285000E+01   1.600000E-01   1.921000E+03   1.410000E+02   1.000000E+00
+   1.333000E+01   1.500000E-01   1.934000E+03   1.370000E+02   1.000000E+00
+   1.380000E+01   1.500000E-01   1.946000E+03   1.410000E+02   1.000000E+00
+   1.428000E+01   1.400000E-01   1.910000E+03   1.660000E+02   1.000000E+00
+   1.476000E+01   1.300000E-01   1.909000E+03   1.650000E+02   1.000000E+00
+# reference:
+#   author: J.Frehaut,A.Bertin,R.Bois,J.Jary,G.Mosinski
+#   title: Status of (n,xn) cross section measurements  at Bruyeres-le-Chatel
+#   journal: Rept: Centre d'Etudes Nucleaires, Saclay Reports, No.6447 (2016)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  7.410000E+00
+#   E-max [MeV]:  1.476000E+01
+#   F-value:  1.127020E+00
+#   A-value:  1.076798E+00
+#   chi-2:  8.103713E+00
+#   p-value:  3.395001E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.161803E+00   1.112677E+00   1.287141E+01
+# jeff3.3       1.037965E+00   1.017593E+00   7.651023E-01
+# jendl5.0      1.147856E+00   1.102706E+00   1.067463E+01

@@ -1,0 +1,64 @@
+# header:
+#   title: Xe124(p,x)I120m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Hermanne
+#   year: 2011
+#   subentry: D4238008
+#   X4 reaction: 54-XE-124(P,N+A)53-I-120-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D4238008
+# target:
+#   Z: 54
+#   A: 124
+#   nuclide: Xe124
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 22
+# residual:
+#   Z: 53
+#   A: 120
+#   nuclide: I120m
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 10
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.360000E+01   6.000000E-01   1.200000E+00   9.999999E-02   1.000000E+00
+   2.460000E+01   5.000000E-01   1.900000E+00   2.000000E-01   1.000000E+00
+   2.600000E+01   5.000000E-01   2.800000E+00   3.000000E-01   1.000000E+00
+   2.730000E+01   4.000000E-01   3.900000E+00   5.000000E-01   1.000000E+00
+   2.860000E+01   4.000000E-01   4.400000E+00   5.000000E-01   1.000000E+00
+   2.980000E+01   5.000000E-01   5.900000E+00   7.000000E-01   1.000000E+00
+   3.160000E+01   4.000000E-01   5.800000E+00   7.000000E-01   1.000000E+00
+   3.380000E+01   4.000000E-01   5.300000E+00   6.000000E-01   1.000000E+00
+   3.560000E+01   3.000000E-01   4.100000E+00   5.000000E-01   1.000000E+00
+   3.720000E+01   2.000000E-01   2.600000E+00   3.000000E-01   1.000000E+00
+# reference:
+#   author: A.Hermanne,F.Tarkanyi,S.Takacs,R.Adam Rebeles, A.Ignatyuk,S.Spellerberg,R.Schweikert
+#   title: Limitation of the long-lived 121Te contaminant in production of 123I through the 124Xe(p,x) route
+#   journal: Jour: Applied Radiation and Isotopes, Vol.69, p.358 (2011)
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  2.360000E+01
+#   E-max [MeV]:  3.720000E+01
+#   F-value:  4.106683E+00
+#   A-value:  3.820340E+00
+#   chi-2:  1.089396E+03
+#   p-value:  1.818955E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    2.550764E+00   2.512381E+00   2.332349E+02
+# jendl5.0      5.839768E+00   5.809228E+00   1.945558E+03

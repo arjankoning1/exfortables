@@ -1,0 +1,53 @@
+# header:
+#   title: Zr90(n,p)Y90 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Qaim
+#   year: 1990
+#   subentry: 22180002
+#   X4 reaction: 40-ZR-90(N,P)39-Y-90,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22180002
+# target:
+#   Z: 40
+#   A: 90
+#   nuclide: Zr90
+# reaction:
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 39
+#   A: 90
+#   nuclide: Y90
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   6.480000E+00   3.800000E-01   3.195100E+00   5.012900E-01   1.030668E+00
+   7.700000E+00   2.600000E-01   5.907300E+00   6.073501E-01   1.054871E+00
+# reference:
+#   author: S.M.QAIM,M.IBN MAJAH,R.WOELFLE,B.STROHMAIER
+#   title: -EXCITATION FUNCTIONS AND ISOMERIC CROSS-SECTION  RATIOS FOR THE 90-ZR(N,P)90-Y-M,G AND  91-ZR(N,P)91-Y-M,G PROCESSES.
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.42, p.363 (1990)
+# statistics:
+#   NEA score: T2
+#   IAEA score:  1
+#   E-min [MeV]:  6.480000E+00
+#   E-max [MeV]:  7.700000E+00
+#   F-value:  1.568739E+00
+#   A-value:  1.215033E+00
+#   chi-2:  1.828991E+01
+#   p-value:  2.919267E-01
+#   exp. data sets for p-value:      1
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2023    1.673998E+00   1.673216E+00   3.210659E+01
+# jeff3.3       1.287443E+00   1.280671E+00   6.965329E+00
+# jendl5.0      1.634341E+00   1.633205E+00   2.582060E+01
+# cendl3.2      1.632786E+00   6.227614E-01   8.267105E+00

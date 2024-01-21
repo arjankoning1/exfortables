@@ -1,0 +1,60 @@
+# header:
+#   title: W0(p,x)Re181 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Titarenko
+#   year: 2011
+#   subentry: A0904135
+#   X4 reaction: 74-W-0(P,X)75-RE-181,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/A0904135
+# target:
+#   Z: 74
+#   A: 0
+#   nuclide: W0
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 75
+#   A: 181
+#   nuclide: Re181
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 10
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   4.600000E+01   1.000000E+00   1.720000E+02   2.800000E+01   1.000000E+00
+   6.800000E+01   1.000000E+00   9.600001E+01   1.700000E+01   1.000000E+00
+   9.900000E+01   1.000000E+00   5.120000E+01   7.900000E+00   1.000000E+00
+   1.490000E+02   1.000000E+00   2.810000E+01   4.400000E+00   1.000000E+00
+   2.490000E+02   1.000000E+00   1.990000E+01   3.100000E+00   1.000000E+00
+   4.000000E+02   2.000000E+00   1.080000E+01   1.800000E+00   1.000000E+00
+   6.000000E+02   2.000000E+00   8.400000E+00   1.400000E+00   1.000000E+00
+   7.990000E+02   2.000000E+00   6.200000E+00   1.100000E+00   1.000000E+00
+   1.199000E+03   3.000000E+00   5.800000E+00   7.800000E-01   1.000000E+00
+   2.605000E+03   8.000000E+00   4.940000E+00   8.400000E-01   1.000000E+00
+# reference:
+#   author: Yu.E.Titarenko, V.F.Batyaev, A.Yu.Titarenko, M.A.Butko, K.V.Pavlov, S.N.Florya, R.S.Tikhonov, V.M.Zhivun, A.V.Ignatyuk, S.G.Mashnik, S.Leray, A.Boudard, J.Cugnon, D.Mancusi, Y.Yariv, K.Nishihara, N.Matsuda, H.Kumawat, G.Mank, W.Gudowski
+#   title: Measurement and simulation of the cross sections for nuclide production in W-nat and Ta-181 targets irradiated with 0.04- to 2.6-GeV protons
+#   journal: Jour: Physics of Atomic Nuclei, Vol.74, p.551 (2011)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  4.600000E+01
+#   E-max [MeV]:  2.605000E+03
+#   F-value:  1.355205E+00
+#   A-value:  9.796130E-01
+#   chi-2:  2.772526E+00
+#   p-value:  1.324293E-01
+#   exp. data sets for p-value:      2
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.589952E+00   7.196013E-01   4.833169E+00
+# endfb8.0      1.227534E+00   1.153634E+00   2.148997E+00
+# jendl5.0      1.152367E+00   1.132410E+00   1.335412E+00

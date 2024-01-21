@@ -1,0 +1,59 @@
+# header:
+#   title: Cu63(n,2n)Cu62 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Brolleyjr
+#   year: 1952
+#   subentry: 11303003
+#   X4 reaction: 29-CU-63(N,2N)29-CU-62,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11303003
+# target:
+#   Z: 29
+#   A: 63
+#   nuclide: Cu63
+# reaction:
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 29
+#   A: 62
+#   nuclide: Cu62
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.320000E+01   4.000000E-01   2.800000E+02   4.000000E+01   1.000000E+00
+   1.450000E+01   5.000000E-01   6.500000E+02   8.000000E+01   1.000000E+00
+   1.680000E+01   1.100000E+00   8.100000E+02   8.000000E+01   1.000000E+00
+   1.940000E+01   1.300000E+00   9.500000E+02   1.000000E+02   1.000000E+00
+   2.360000E+01   1.300000E+00   6.600000E+02   1.100000E+02   1.000000E+00
+   2.710000E+01   8.000000E-01   4.900000E+02   7.000000E+01   1.000000E+00
+# reference:
+#   author: J.E.BROLLEY JR,J.L.FOWLER,L.K.SCHLACKS
+#   title: (N,2N) REACTIONS IN C-12, CU-63 AND MO-92.
+#   journal: Jour: Physical Review, Vol.88, p.618 (1952)
+# statistics:
+#   NEA score: R2
+#   IAEA score:  1
+#   E-min [MeV]:  1.320000E+01
+#   E-max [MeV]:  2.710000E+01
+#   F-value:  1.289590E+00
+#   A-value:  8.229399E-01
+#   chi-2:  2.935917E+00
+#   p-value:  1.331400E-01
+#   exp. data sets for p-value:      8
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2023    1.259676E+00   8.324193E-01   2.671104E+00
+# endfb8.0      1.389512E+00   7.563305E-01   4.288967E+00
+# jeff3.3       1.154365E+00   8.939921E-01   1.634978E+00
+# jendl5.0      1.347134E+00   7.976918E-01   3.499737E+00
+# cendl3.2      1.177494E+00   8.917871E-01   2.218904E+00
+# irdff2.0      1.258464E+00   8.332373E-01   2.586719E+00

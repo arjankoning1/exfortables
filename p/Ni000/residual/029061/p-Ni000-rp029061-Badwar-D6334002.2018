@@ -1,0 +1,54 @@
+# header:
+#   title: Ni0(p,x)Cu61 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Badwar
+#   year: 2018
+#   subentry: D6334002
+#   X4 reaction: 28-NI-0(P,X)29-CU-61,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D6334002
+# target:
+#   Z: 28
+#   A: 0
+#   nuclide: Ni0
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 29
+#   A: 61
+#   nuclide: Cu61
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   7.450000E+00   1.390000E+00   3.948200E+00   8.549600E-01   9.606299E-01
+   1.212000E+01   1.030000E+00   1.748300E+00   3.842500E-01   9.606299E-01
+   1.582000E+01   8.600000E-01   5.802200E+00   1.258400E+00   9.606299E-01
+   1.902000E+01   7.600000E-01   1.039402E+01   2.247900E+00   9.606299E-01
+# reference:
+#   author: S.Badwar, R.Ghosh, S.S.Yerraguntla, B.M.jyrwa, B.M.Lawriniang, H.Naik, Y.Naik, S.V.Suryanarayana, S.Ganesan
+#   title: Measurements and uncertainty propagation for the natNi(p,x)61Cu reaction cross section up to the proton energies of 20 MeV
+#   journal: Jour: Nuclear Physics, Section A, Vol.977, p.112 (2018)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  7.450000E+00
+#   E-max [MeV]:  1.902000E+01
+#   F-value:  1.568115E+00
+#   A-value:  1.123898E+00
+#   chi-2:  8.733634E+00
+#   p-value:  2.616754E-01
+#   exp. data sets for p-value:      4
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.478640E+00   1.171038E+00   7.085791E+00
+# endfb8.0      1.646278E+00   9.260212E-01   8.134627E+00
+# jendl5.0      1.573816E+00   1.309148E+00   1.098048E+01

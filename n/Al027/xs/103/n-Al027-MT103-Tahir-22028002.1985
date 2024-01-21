@@ -1,0 +1,62 @@
+# header:
+#   title: Al27(n,p)Mg27 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Tahir
+#   year: 1985
+#   subentry: 22028002
+#   X4 reaction: 13-AL-27(N,P)12-MG-27,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22028002
+# target:
+#   Z: 13
+#   A: 27
+#   nuclide: Al27
+# reaction:
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 12
+#   A: 27
+#   nuclide: Mg27
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 9
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.344000E+01   2.100000E-01   1.070099E+02   2.540000E+00   1.231697E+00
+   1.356000E+01   2.100000E-01   1.152130E+02   1.260000E+00   1.231697E+00
+   1.375000E+01   1.500000E-01   1.036104E+02   2.390000E+00   1.231697E+00
+   1.413000E+01   0.000000E+00   9.189693E+01   5.230000E+00   1.231697E+00
+   1.426000E+01   1.000000E-01   1.029945E+02   1.620000E+00   1.231697E+00
+   1.451000E+01   1.100000E-01   1.032162E+02   1.590000E+00   1.231697E+00
+   1.471000E+01   1.300000E-01   9.460667E+01   1.590000E+00   1.231697E+00
+   1.475000E+01   1.900000E-01   9.469288E+01   1.890000E+00   1.231697E+00
+   1.490000E+01   0.000000E+00   9.123183E+01   1.600000E+00   1.231697E+00
+# reference:
+#   author: C.M.R.Tahir
+#   title: -Study of Al-27(n,p)Mg-27 excitation function by five  different techniques
+#   journal: Jour: Indian Journal of Pure and Applied Physics, Vol.23, p.439 (1985)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.344000E+01
+#   E-max [MeV]:  1.490000E+01
+#   F-value:  1.384498E+00
+#   A-value:  7.257647E-01
+#   chi-2:  2.843687E+02
+#   p-value:  3.120440E-02
+#   exp. data sets for p-value:      8
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2023    1.377666E+00   7.296394E-01   2.748936E+02
+# endfb8.0      1.411814E+00   7.105749E-01   3.149527E+02
+# jeff3.3       1.411814E+00   7.105749E-01   3.149527E+02
+# jendl5.0      1.336649E+00   7.511605E-01   2.404521E+02
+# cendl3.2      1.388409E+00   7.237815E-01   2.860511E+02
+# irdff2.0      1.377676E+00   7.296368E-01   2.749103E+02

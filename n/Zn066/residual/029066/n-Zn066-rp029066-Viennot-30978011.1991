@@ -1,0 +1,54 @@
+# header:
+#   title: Zn66(n,x)Cu66 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Viennot
+#   year: 1991
+#   subentry: 30978011
+#   X4 reaction: 30-ZN-66(N,P)29-CU-66,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30978011
+# target:
+#   Z: 30
+#   A: 66
+#   nuclide: Zn66
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 29
+#   A: 66
+#   nuclide: Cu66
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.377000E+01   2.600000E-01   5.973567E+01   7.656000E+00   8.657342E-01
+   1.411000E+01   2.600000E-01   5.305444E+01   6.595400E+00   8.421339E-01
+   1.447000E+01   3.400000E-01   6.054225E+01   7.152200E+00   8.181385E-01
+   1.473000E+01   4.600000E-01   6.007481E+01   6.960700E+00   8.009975E-01
+# reference:
+#   author: M.Viennot, M.Berrada, G.Paic, S.Joly
+#   title: Cross section measurements of (n,p) and (n,np+pn+d)  reactions for some titanium, chromium, iron, cobalt,  nickel, and zinc isotopes around 14 MeV
+#   journal: Jour: Nuclear Science and Engineering, Vol.108, p.289 (1991)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.377000E+01
+#   E-max [MeV]:  1.473000E+01
+#   F-value:  1.167599E+00
+#   A-value:  1.110960E+00
+#   chi-2:  2.336197E+00
+#   p-value:  2.429933E-01
+#   exp. data sets for p-value:      4
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.278127E+00   1.266433E+00   5.585114E+00
+# jeff3.3       1.110258E+00   1.078206E+00   1.170009E+00
+# jendl5.0      1.029932E+00   1.004181E+00   2.534686E-01

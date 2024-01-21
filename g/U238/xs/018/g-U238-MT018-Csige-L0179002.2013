@@ -1,0 +1,61 @@
+# header:
+#   title: U238(g,f) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Csige
+#   year: 2013
+#   subentry: L0179002
+#   X4 reaction: 92-U-238(G,F),,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/L0179002
+# target:
+#   Z: 92
+#   A: 238
+#   nuclide: U238
+# reaction:
+#   type: (g,f)
+#   ENDF_MF: 3
+#   ENDF_MT: 18
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 15
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   4.796000E+00   1.480000E-01   1.072000E-02   2.768000E-03   1.000000E+00
+   4.895000E+00   1.450000E-01   1.698000E-02   4.384000E-03   1.000000E+00
+   5.000000E+00   1.950000E-01   3.037000E-02   4.717000E-03   1.000000E+00
+   5.062000E+00   1.570000E-01   4.937000E-02   7.596000E-03   1.000000E+00
+   5.149000E+00   1.450000E-01   6.699000E-02   9.931999E-03   1.000000E+00
+   5.291000E+00   1.520000E-01   2.406000E-01   1.853000E-02   1.000000E+00
+   5.441000E+00   1.640000E-01   6.336000E-01   2.726000E-02   1.000000E+00
+   5.612000E+00   1.450000E-01   2.408000E+00   8.058999E-02   1.000000E+00
+   5.743000E+00   1.390000E-01   2.679000E+00   7.609000E-02   1.000000E+00
+   5.806000E+00   1.690000E-01   3.018000E+00   1.073000E-01   1.000000E+00
+   5.857000E+00   1.680000E-01   3.644000E+00   1.243000E-01   1.000000E+00
+   5.900000E+00   1.640000E-01   4.364000E+00   1.393000E-01   1.000000E+00
+   5.988000E+00   1.680000E-01   6.292000E+00   1.872000E-01   1.000000E+00
+   6.097000E+00   1.680000E-01   8.812000E+00   1.829000E-01   1.000000E+00
+   6.111000E+00   1.640000E-01   9.460000E+00   2.047000E-01   1.000000E+00
+# reference:
+#   author: L.Csige,D.M.Filipescu,T.Glodariu,J.Gulyas,M.M.Gunther, D.Habs,H.J.Karwowski,A.Krasznahorkay,G.C.Rich,M.Sin, L.Stroe,O.Tesileanu,P.G.Thirolf
+#   title: Exploring the multihumped fission barrier of 238U via sub-barrier photofission
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.87, p.044321 (2013)
+# statistics:
+#   NEA score: T3
+#   IAEA score: -1
+#   E-min [MeV]:  4.796000E+00
+#   E-max [MeV]:  6.111000E+00
+#   F-value:  2.299601E+00
+#   A-value:  1.077353E+00
+#   chi-2:  1.066948E+03
+#   p-value:  2.020137E-01
+#   exp. data sets for p-value:      8
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    4.170270E+00   2.855178E+00   3.880863E+03
+# endfb8.0      1.527589E+00   7.520249E-01   4.153820E+01
+# jendl5.0      1.508905E+00   8.158780E-01   5.348545E+01

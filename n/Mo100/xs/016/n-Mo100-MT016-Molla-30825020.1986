@@ -1,0 +1,53 @@
+# header:
+#   title: Mo100(n,2n)Mo99 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Molla
+#   year: 1986
+#   subentry: 30825020
+#   X4 reaction: 42-MO-100(N,2N)42-MO-99,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30825020
+# target:
+#   Z: 42
+#   A: 100
+#   nuclide: Mo100
+# reaction:
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 42
+#   A: 99
+#   nuclide: Mo99
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.480000E+01   3.400000E-01   1.346160E+03   1.624822E+02   9.493370E-01
+# reference:
+#   author: N.I.Molla,M.M.Rahman,S.Khatun,A.K.M.Fazlul Hoque, Rahezuddin Miah,Ayesha Akhter Khan
+#   title: Activation cross sections for some isotopes of Mg, Ti, V, Ni, Zr and Mo at 14 MeV neutrons
+#   journal: Rept: Bangladesh report to the I.N.D.C., No.003 (1986)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.480000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.063842E+00
+#   A-value:  1.053633E+00
+#   chi-2:  6.510274E-01
+#   p-value:  1.804467E-01
+#   exp. data sets for p-value:      8
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    1.074937E+00   1.074937E+00   8.956038E-01
+# endfb8.0      1.086561E+00   1.086561E+00   1.059602E+00
+# jeff3.3       1.011951E+00   1.011951E+00   1.267198E-01
+# jendl5.0      1.011951E+00   1.011951E+00   1.267198E-01
+# cendl3.2      1.085652E+00   1.085652E+00   1.046491E+00

@@ -1,0 +1,63 @@
+# header:
+#   title: Mn55(p,x)Mn52g cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Michel
+#   year: 1980
+#   subentry: A0145002S
+#   X4 reaction: 25-MN-55(P,X)25-MN-52-G,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/A0145002S
+# target:
+#   Z: 25
+#   A: 55
+#   nuclide: Mn55
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 25
+#   A: 52
+#   nuclide: Mn52g
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 10
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.673000E+01   4.500000E-01   2.260000E-02   2.400000E-03   1.000000E+00
+   2.717000E+01   2.300000E-01   3.060000E-02   3.000000E-03   1.000000E+00
+   2.966000E+01   4.200000E-01   3.150000E-01   3.000000E-02   1.000000E+00
+   2.966000E+01   1.700000E-01   3.140000E-01   3.000000E-02   1.000000E+00
+   3.236000E+01   4.000000E-01   7.590000E-01   6.000000E-02   1.000000E+00
+   3.491000E+01   3.600000E-01   1.360000E+00   9.999999E-02   1.000000E+00
+   3.732000E+01   3.200000E-01   3.950000E+00   3.000000E-01   1.000000E+00
+   3.986000E+01   2.700000E-01   1.337000E+01   1.000000E+00   1.000000E+00
+   4.230000E+01   2.200000E-01   2.809000E+01   1.960000E+00   1.000000E+00
+   4.463000E+01   1.300000E-01   4.497001E+01   3.140000E+00   1.000000E+00
+# reference:
+#   author: R.Michel,G.Brinkmann
+#   title: On the depth-dependent production of radionuclides  (44 < 'A' < 59) by solar protons in extraterrestrial matter.
+#   journal: Jour: Journal of Radioanalytical Chemistry, Vol.59, p.467 (1980)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  2.673000E+01
+#   E-max [MeV]:  4.463000E+01
+#   F-value:  1.269343E+00
+#   A-value:  9.671731E-01
+#   chi-2:  1.317910E+01
+#   p-value:  1.933492E-01
+#   exp. data sets for p-value:      2
+#   libraries:      1
+##  Library          F              A            chi-2
+# tendl.2023    1.269343E+00   9.671731E-01   1.317910E+01

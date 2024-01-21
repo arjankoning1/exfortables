@@ -1,0 +1,50 @@
+# header:
+#   title: U235(p,3n)Np233 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Chu
+#   year: 1983
+#   subentry: A0230004C
+#   X4 reaction: 92-U-235(P,3N)93-NP-233,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/A0230004C
+# target:
+#   Z: 92
+#   A: 235
+#   nuclide: U235
+# reaction:
+#   type: (p,3n)
+#   ENDF_MF: 3
+#   ENDF_MT: 17
+# residual:
+#   Z: 93
+#   A: 233
+#   nuclide: Np233
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.000000E+02   0.000000E+00   4.700000E-01   5.000000E-02   1.000000E+00
+# reference:
+#   author: Y.Y.Chu,M.L.Zhou
+#   title: Comparison of the (p,xn) cross sections from U-238, U-235 and Th-232 targets irradiated with 200 MeV protons
+#   journal: Jour: IEEE Transactions on Nuclear Science, Vol.30, p.1153 (1983)
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  2.000000E+02
+#   E-max [MeV]:  2.000000E+02
+#   F-value:  2.575946E+00
+#   A-value:  5.121814E-01
+#   chi-2:  2.404087E+01
+#   p-value:  4.839672E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    3.811995E+00   2.623298E-01   4.808174E+01
+# jendl5.0      1.000000E+00   1.000000E+00   0.000000E+00

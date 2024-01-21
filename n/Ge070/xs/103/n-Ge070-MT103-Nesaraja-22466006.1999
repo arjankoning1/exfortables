@@ -1,0 +1,61 @@
+# header:
+#   title: Ge70(n,p)Ga70 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Nesaraja
+#   year: 1999
+#   subentry: 22466006
+#   X4 reaction: 32-GE-70(N,P)31-GA-70,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22466006
+# target:
+#   Z: 32
+#   A: 70
+#   nuclide: Ge70
+# reaction:
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 31
+#   A: 70
+#   nuclide: Ga70
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 9
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   6.350000E+00   2.100000E-01   2.000000E+01   4.700000E+00   1.000000E+00
+   7.380000E+00   2.100000E-01   3.100000E+01   7.800000E+00   1.000000E+00
+   8.380000E+00   2.700000E-01   3.980000E+01   9.200000E+00   1.000000E+00
+   9.340000E+00   2.400000E-01   3.700000E+01   8.600000E+00   1.000000E+00
+   1.005000E+01   6.700000E-01   5.630000E+01   9.900000E+00   1.000000E+00
+   1.029000E+01   2.600000E-01   4.280000E+01   9.900000E+00   1.000000E+00
+   1.096000E+01   7.500000E-01   6.440000E+01   2.290000E+01   1.000000E+00
+   1.124000E+01   2.800000E-01   6.220001E+01   1.970000E+01   1.000000E+00
+   1.187000E+01   8.300000E-01   6.980000E+01   2.370000E+01   1.000000E+00
+# reference:
+#   author: C.Nesaraja, K.-H.Linse, S.Spellerberg, S.Sudar,  A.Suhaimi, J.Csikai, A.Fessler, S.M.Qaim
+#   title: Excitation functions of neutron induced reactions  on some isotopes of zinc, gallium and germanium  in the energy range of 6.2 to 12.4 MeV
+#   journal: Jour: Radiochimica Acta, Vol.86, Issue.1, p.1 (1999)
+# statistics:
+#   NEA score: R2
+#   IAEA score:  1
+#   E-min [MeV]:  6.350000E+00
+#   E-max [MeV]:  1.187000E+01
+#   F-value:  1.549549E+00
+#   A-value:  1.443647E+00
+#   chi-2:  6.754391E+00
+#   p-value:  1.739030E-01
+#   exp. data sets for p-value:      1
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    1.428784E+00   1.326694E+00   4.003317E+00
+# endfb8.0      1.768239E+00   1.720610E+00   1.187480E+01
+# jeff3.3       1.165989E+00   1.105964E+00   8.485581E-01
+# jendl5.0      1.768239E+00   1.720610E+00   1.187480E+01
+# cendl3.2      1.488821E+00   1.443538E+00   5.170470E+00

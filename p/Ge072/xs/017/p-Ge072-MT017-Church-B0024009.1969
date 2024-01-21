@@ -1,0 +1,53 @@
+# header:
+#   title: Ge72(p,3n)As70 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Church
+#   year: 1969
+#   subentry: B0024009
+#   X4 reaction: 32-GE-72(P,3N)33-AS-70,,SIG,,,EXP
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/B0024009
+# target:
+#   Z: 32
+#   A: 72
+#   nuclide: Ge72
+# reaction:
+#   type: (p,3n)
+#   ENDF_MF: 3
+#   ENDF_MT: 17
+# residual:
+#   Z: 33
+#   A: 70
+#   nuclide: As70
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.000000E+02   0.000000E+00   1.023000E+01   1.860000E+00   1.000000E+00
+   2.000000E+02   0.000000E+00   5.010000E+00   9.100000E-01   1.000000E+00
+   3.000000E+02   0.000000E+00   2.820000E+00   5.100000E-01   1.000000E+00
+   4.000000E+02   0.000000E+00   1.960000E+00   3.600000E-01   1.000000E+00
+# reference:
+#   author: L.B.CHURCH, A.A.CARETTO JR
+#   title: Study of (P,XN) Reactions at 400 MeV
+#   journal: Jour: Physical Review, Vol.178, p.1732 (1969)
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  1.000000E+02
+#   E-max [MeV]:  4.000000E+02
+#   F-value:  3.250216E+00
+#   A-value:  3.136683E-01
+#   chi-2:  1.412909E+01
+#   p-value:  8.088174E-02
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    3.677705E+00   2.729121E-01   1.597552E+01
+# jendl5.0      2.830867E+00   3.605111E-01   1.228265E+01

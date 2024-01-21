@@ -1,0 +1,56 @@
+# header:
+#   title: Nb93(p,x)Zr89g cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Rizvi
+#   year: 2012
+#   subentry: D6250004
+#   X4 reaction: 41-NB-93(P,X)40-ZR-89-G,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D6250004
+# target:
+#   Z: 41
+#   A: 93
+#   nuclide: Nb93
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 40
+#   A: 89
+#   nuclide: Zr89g
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.190000E+01   0.000000E+00   3.998800E-01   7.997600E-02   9.996971E-01
+   1.250000E+01   0.000000E+00   1.999400E-01   4.998500E-02   9.996971E-01
+# reference:
+#   author: I.A.Rizvi, K.Kumar, T.Ahmad, A.Agarwal, A.K.Chaubey
+#   title: Energy dependence of pre-equilibrium emission for the  (p,xn) reactions in niobium
+#   journal: Jour: Indian Journal of Physics, Vol.86, p.913 (2012)
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  1.190000E+01
+#   E-max [MeV]:  1.250000E+01
+#   F-value:  1.555415E+02
+#   A-value:  6.970495E-03
+#   chi-2:  2.015553E+01
+#   p-value:  3.278255E-07
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.432012E+02   7.714902E-03   2.010116E+01
+# jendl5.0      7.229875E+01   1.383150E-02   1.556294E+01

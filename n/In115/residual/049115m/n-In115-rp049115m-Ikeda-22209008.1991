@@ -1,0 +1,56 @@
+# header:
+#   title: In115(n,x)In115m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Ikeda
+#   year: 1991
+#   subentry: 22209008
+#   X4 reaction: 49-IN-115(N,INL)49-IN-115-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22209008
+# target:
+#   Z: 49
+#   A: 115
+#   nuclide: In115
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+# residual:
+#   Z: 49
+#   A: 115
+#   nuclide: In115m
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.100000E+01   5.000000E-01   2.123010E+02   1.191865E+01   7.449157E-01
+   1.200000E+01   5.000000E-01   2.081308E+02   1.563424E+01   9.771398E-01
+   1.320000E+01   5.000000E-01   1.452801E+02   7.852980E+00   1.308830E+00
+# reference:
+#   author: Y.Ikeda, C.Konno, M.Mizumoto, K.Hasegawa, S.Chiba, Y.Yamanouchi, M.Sugimoto
+#   title: Activation cross section measurement at neutron  energies of 9.5, 11.0, 12.0 and 13.2 MeV using  H-1(B-11,n)C-12  neutron source at JAERI.
+#   journal: Conf: Conf.on Nucl.Data for Sci.and Technol.,Juelich 1991, p.294 (1991)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.100000E+01
+#   E-max [MeV]:  1.320000E+01
+#   F-value:  1.410687E+00
+#   A-value:  7.605061E-01
+#   chi-2:  2.228947E+01
+#   p-value:  2.058054E-01
+#   exp. data sets for p-value:      5
+#   libraries:      1
+##  Library          F              A            chi-2
+# tendl.2023    1.410687E+00   7.605061E-01   2.228947E+01

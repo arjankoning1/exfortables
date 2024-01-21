@@ -1,0 +1,62 @@
+# header:
+#   title: Fe0(p,x)Mn54 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Graves
+#   year: 2016
+#   subentry: C2243020
+#   X4 reaction: 26-FE-0(P,X)25-MN-54,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C2243020
+# target:
+#   Z: 26
+#   A: 0
+#   nuclide: Fe0
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 25
+#   A: 54
+#   nuclide: Mn54
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 12
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.460000E+01   1.600000E+00   1.360000E+02   9.000000E+00   1.000000E+00
+   3.610000E+01   1.900000E+00   1.470000E+02   9.000000E+00   1.000000E+00
+   4.760000E+01   1.600000E+00   1.520000E+02   1.100000E+01   1.000000E+00
+   4.880000E+01   1.600000E+00   1.480000E+02   1.000000E+01   1.000000E+00
+   5.830000E+01   1.400000E+00   1.130000E+02   1.300000E+01   1.000000E+00
+   5.930000E+01   1.300000E+00   1.100000E+02   1.300000E+01   1.000000E+00
+   6.780000E+01   1.100000E+00   9.430001E+01   1.120000E+01   1.000000E+00
+   6.880000E+01   1.100000E+00   8.800001E+01   1.040000E+01   1.000000E+00
+   7.830000E+01   9.000000E-01   8.290001E+01   7.100000E+00   1.000000E+00
+   7.930000E+01   8.000000E-01   7.830000E+01   6.700000E+00   1.000000E+00
+   8.900000E+01   6.000000E-01   7.510000E+01   5.000000E+00   1.000000E+00
+   9.020000E+01   6.000000E-01   7.370000E+01   4.900000E+00   1.000000E+00
+# reference:
+#   author: S.A.Graves, P.A.Ellison, T.E.Barnhart, H.F.Valdovinos,  E.R.Birnbaum, F.M.Nortier, R.J.Nickles, J.W.Engle
+#   title: Nuclear excitation functions of proton-induced  reactions (Ep=35-90 MeV) from Fe, Cu, and Al
+#   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.386, p.44 (201
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  3.460000E+01
+#   E-max [MeV]:  9.020000E+01
+#   F-value:  1.194142E+00
+#   A-value:  9.014383E-01
+#   chi-2:  4.910207E+00
+#   p-value:  2.833281E-01
+#   exp. data sets for p-value:      5
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.123464E+00   1.033800E+00   2.573299E+00
+# endfb8.0      1.212749E+00   8.404820E-01   6.232233E+00
+# jendl5.0      1.232450E+00   8.430303E-01   5.925093E+00

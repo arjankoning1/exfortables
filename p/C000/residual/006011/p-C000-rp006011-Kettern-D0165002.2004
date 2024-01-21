@@ -1,0 +1,69 @@
+# header:
+#   title: C0(p,x)C11 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Kettern
+#   year: 2004
+#   subentry: D0165002
+#   X4 reaction: 6-C-0(P,X)6-C-11,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D0165002
+# target:
+#   Z: 6
+#   A: 0
+#   nuclide: C0
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 6
+#   A: 11
+#   nuclide: C11
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 19
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.230000E+01   2.000000E+00   3.000000E-01   9.999999E-02   1.000000E+00
+   1.600000E+01   2.000000E+00   1.100000E+00   2.000000E-01   1.000000E+00
+   1.900000E+01   1.000000E+00   8.500000E+00   2.000000E+00   1.000000E+00
+   3.080000E+01   3.000000E+00   9.400000E+01   1.900000E+01   1.000000E+00
+   3.350000E+01   2.500000E+00   1.080000E+02   2.200000E+01   1.000000E+00
+   3.670000E+01   2.500000E+00   1.050000E+02   2.100000E+01   1.000000E+00
+   3.920000E+01   2.000000E+00   1.180000E+02   2.400000E+01   1.000000E+00
+   4.210000E+01   1.500000E+00   9.800000E+01   2.000000E+01   1.000000E+00
+   4.490000E+01   1.000000E+00   1.060000E+02   2.100000E+01   1.000000E+00
+   5.480000E+01   2.500000E+00   1.020000E+02   2.000000E+01   1.000000E+00
+   5.510000E+01   2.500000E+00   7.800000E+01   1.600000E+01   1.000000E+00
+   6.070000E+01   2.000000E+00   1.030000E+02   2.200000E+01   1.000000E+00
+   6.090000E+01   2.000000E+00   8.100001E+01   1.600000E+01   1.000000E+00
+   6.610000E+01   1.500000E+00   1.080000E+02   2.200000E+01   1.000000E+00
+   6.640000E+01   1.500000E+00   7.900000E+01   1.600000E+01   1.000000E+00
+   7.150000E+01   1.000000E+00   8.500001E+01   1.700000E+01   1.000000E+00
+   1.770000E+02   3.000000E+00   4.200000E+01   8.000000E+00   1.000000E+00
+   1.859000E+02   2.000000E+00   4.300000E+01   9.000000E+00   1.000000E+00
+   1.998000E+02   1.000000E+00   4.300000E+01   9.000000E+00   1.000000E+00
+# reference:
+#   author: K.Kettern, Yu.N.Shubin, G.F.Steyn, T.N.van der Walt, H.H.Coenen, S.M.Qaim
+#   title: Formation of short-lived positron emitters in reactions of protons of energies up to 200 MeV with the target elements carbon, nitrogen and oxygen
+#   journal: Jour: Applied Radiation and Isotopes, Vol.60, p.939 (2004)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  1.230000E+01
+#   E-max [MeV]:  1.998000E+02
+#   F-value:  1.868888E+00
+#   A-value:  7.874929E-01
+#   chi-2:  1.692174E+00
+#   p-value:  2.117873E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    2.305670E+00   6.660392E-01   2.561147E+00
+# endfb8.0      2.305670E+00   6.660392E-01   2.561147E+00
+# jendl5.0      1.166657E+00   9.550823E-01   8.488966E-01

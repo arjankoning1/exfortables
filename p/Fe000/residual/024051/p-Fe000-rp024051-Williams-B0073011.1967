@@ -1,0 +1,60 @@
+# header:
+#   title: Fe0(p,x) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Williams
+#   year: 1967
+#   subentry: B0073011
+#   X4 reaction: 26-FE-0(P,X)24-CR-51,CUM,SIG,,,EXP
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/B0073011
+# target:
+#   Z: 26
+#   A: 0
+#   nuclide: Fe0
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 9001
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 14
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.190000E+01   0.000000E+00   2.361300E+00   7.083800E-01   9.081736E-01
+   3.330000E+01   0.000000E+00   3.723500E+00   1.117100E+00   9.081736E-01
+   3.510000E+01   0.000000E+00   6.357200E+00   1.907200E+00   9.081736E-01
+   3.770000E+01   0.000000E+00   1.271443E+01   3.814300E+00   9.081736E-01
+   4.070000E+01   0.000000E+00   2.452069E+01   7.356200E+00   9.081736E-01
+   4.450000E+01   0.000000E+00   4.177598E+01   1.253279E+01   9.081736E-01
+   4.590000E+01   0.000000E+00   4.631685E+01   1.389506E+01   9.081736E-01
+   4.710000E+01   0.000000E+00   4.904138E+01   1.471241E+01   9.081736E-01
+   4.830000E+01   0.000000E+00   5.085772E+01   1.525732E+01   9.081736E-01
+   5.010000E+01   0.000000E+00   4.813320E+01   1.443996E+01   9.081736E-01
+   5.190000E+01   0.000000E+00   4.268416E+01   1.280525E+01   9.081736E-01
+   5.530000E+01   0.000000E+00   3.632694E+01   1.089808E+01   9.081736E-01
+   5.910000E+01   0.000000E+00   2.906156E+01   8.718500E+00   9.081736E-01
+   6.310000E+01   0.000000E+00   2.452069E+01   7.356200E+00   9.081736E-01
+# reference:
+#   author: I.R.Williams, C.B.Fulmer
+#   title: Excitation functions for radioactive isotopes produced by protons below 60 MeV on Al, Fe, and Cu
+#   journal: Jour: Physical Review, Vol.162, p.1055 (1967)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  3.190000E+01
+#   E-max [MeV]:  6.310000E+01
+#   F-value:  1.768950E+00
+#   A-value:  1.246592E+00
+#   chi-2:  1.149828E+01
+#   p-value:  2.763499E-01
+#   exp. data sets for p-value:      3
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.599822E+00   1.024415E+00   5.014652E+00
+# endfb8.0      1.758227E+00   1.232466E+00   1.147329E+01
+# jendl5.0      1.936521E+00   1.534343E+00   1.800691E+01

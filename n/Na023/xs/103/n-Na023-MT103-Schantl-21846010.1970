@@ -1,0 +1,53 @@
+# header:
+#   title: Na23(n,p)Ne23 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Schantl
+#   year: 1970
+#   subentry: 21846010
+#   X4 reaction: 11-NA-23(N,P)10-NE-23,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21846010
+# target:
+#   Z: 11
+#   A: 23
+#   nuclide: Na23
+# reaction:
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 10
+#   A: 23
+#   nuclide: Ne23
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.470000E+01   1.500000E-01   4.300000E+01   2.000000E+00   1.000000E+00
+# reference:
+#   author: W.Schantl
+#   title: Measurement of (n,p) cross section for light nuclei.
+#   journal: Thesis: Schantl (1970)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.470000E+01
+#   E-max [MeV]:  1.470000E+01
+#   F-value:  1.341485E+00
+#   A-value:  8.875492E-01
+#   chi-2:  3.431288E+01
+#   p-value:  3.197280E-01
+#   exp. data sets for p-value:      8
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    1.544971E+00   6.472614E-01   5.751524E+01
+# endfb8.0      1.380465E+00   1.380465E+00   6.691241E+01
+# jeff3.3       1.137270E+00   8.792987E-01   6.855083E+00
+# jendl5.0      1.417554E+00   7.054405E-01   4.010728E+01
+# cendl3.2      1.006328E+00   9.937115E-01   1.743887E-01

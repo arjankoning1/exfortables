@@ -1,0 +1,61 @@
+# header:
+#   title: Se0(n,n'_01)Se1 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Glazkov
+#   year: 1963
+#   subentry: 40680023
+#   X4 reaction: 34-SE-0(N,INL)34-SE-0,PAR,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/40680023
+#   level energy [MeV]  6.00000E-01
+# target:
+#   Z: 34
+#   A: 0
+#   nuclide: Se0
+# reaction:
+#   type: (n,n'_01)
+#   ENDF_MF: 3
+#   ENDF_MT: 51
+#   level: 
+#     number: 1
+#     energy [MeV]:  6.158000E-01
+#     spin:  1.500000E+00
+#     parity: 1
+# residual:
+#   Z: 34
+#   A: 1
+#   nuclide: Se1
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   8.000000E-01   0.000000E+00   6.000000E+02   5.000000E+01   1.000000E+00
+   1.000000E+00   0.000000E+00   9.000000E+02   1.000000E+02   1.000000E+00
+   1.200000E+00   0.000000E+00   1.000000E+03   1.000000E+02   1.000000E+00
+# reference:
+#   author: N.P.Glazkov
+#   title: Cross sections of the inelastic scattering of neutrons with energies of 0.4-1.2 MeV on medium and light nuclei
+#   journal: Jour: Atomnaya Energiya, Vol.15, p.416 (1963)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  8.000000E-01
+#   E-max [MeV]:  1.200000E+00
+#   F-value:  3.558009E+00
+#   A-value:  4.765972E-01
+#   chi-2:  2.421133E+01
+#   p-value:  2.080090E-01
+#   exp. data sets for p-value:      1
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    1.432267E+00   7.042356E-01   1.035727E+01
+# endfb8.0      1.523860E+00   6.564572E-01   1.292935E+01
+# jeff3.3       1.075642E+00   9.310852E-01   1.069471E+00
+# jendl5.0      1.094655E+00   9.209098E-01   1.260157E+00
+# cendl3.2      1.613626E+01   6.203350E-02   9.544041E+01

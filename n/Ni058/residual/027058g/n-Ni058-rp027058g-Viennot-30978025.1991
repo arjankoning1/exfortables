@@ -1,0 +1,61 @@
+# header:
+#   title: Ni58(n,x)Co58g cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Viennot
+#   year: 1991
+#   subentry: 30978025
+#   X4 reaction: 28-NI-58(N,P)27-CO-58-G,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30978025
+# target:
+#   Z: 28
+#   A: 58
+#   nuclide: Ni58
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 27
+#   A: 58
+#   nuclide: Co58g
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.377000E+01   2.600000E-01   1.515428E+02   3.566300E+00   1.003595E+00
+   1.393000E+01   2.400000E-01   1.351101E+02   3.171000E+00   1.000815E+00
+   1.411000E+01   2.600000E-01   1.040954E+02   2.436700E+00   9.913851E-01
+   1.430000E+01   2.800000E-01   7.980398E+01   1.862400E+00   9.852343E-01
+   1.447000E+01   3.400000E-01   8.050146E+01   1.872600E+00   9.938451E-01
+   1.473000E+01   4.600000E-01   5.760354E+01   1.343460E+00   9.931645E-01
+   1.483000E+01   5.000000E-01   9.499751E+01   2.220200E+00   9.895573E-01
+# reference:
+#   author: M.Viennot, M.Berrada, G.Paic, S.Joly
+#   title: Cross section measurements of (n,p) and (n,np+pn+d)  reactions for some titanium, chromium, iron, cobalt,  nickel, and zinc isotopes around 14 MeV
+#   journal: Jour: Nuclear Science and Engineering, Vol.108, p.289 (1991)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.377000E+01
+#   E-max [MeV]:  1.483000E+01
+#   F-value:  1.685222E+00
+#   A-value:  1.600831E+00
+#   chi-2:  1.026965E+03
+#   p-value:  6.661455E-02
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.772845E+00   1.693721E+00   1.291580E+03
+# jendl5.0      1.593167E+00   1.513036E+00   7.623503E+02

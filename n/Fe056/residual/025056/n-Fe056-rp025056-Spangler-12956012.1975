@@ -1,0 +1,51 @@
+# header:
+#   title: Fe56(n,x)Mn56 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Spangler
+#   year: 1975
+#   subentry: 12956012
+#   X4 reaction: 26-FE-56(N,P)25-MN-56,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/12956012
+# target:
+#   Z: 26
+#   A: 56
+#   nuclide: Fe56
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 25
+#   A: 56
+#   nuclide: Mn56
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.410000E+01   0.000000E+00   1.001082E+02   9.483900E+00   1.053770E+00
+# reference:
+#   author: R.Spangler,E.L.Draper Jr,T.A.Parish
+#   title: 14-MeV cross section measurements of threshold  reactions for seven metals.
+#   journal: Jour: Transactions of the American Nuclear Society, Vol.22, p.818 (1975)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.410000E+01
+#   E-max [MeV]:  1.410000E+01
+#   F-value:  1.121799E+00
+#   A-value:  1.121332E+00
+#   chi-2:  2.215578E+00
+#   p-value:  2.003555E-01
+#   exp. data sets for p-value:      8
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.108168E+00   1.108168E+00   1.889173E+00
+# jeff3.3       1.120985E+00   1.120985E+00   2.196531E+00
+# jendl5.0      1.135004E+00   1.135004E+00   2.561030E+00

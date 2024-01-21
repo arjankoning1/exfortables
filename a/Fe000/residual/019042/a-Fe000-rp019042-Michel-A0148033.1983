@@ -1,0 +1,56 @@
+# header:
+#   title: Fe0(a,x)K42 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Michel
+#   year: 1983
+#   subentry: A0148033
+#   X4 reaction: 26-FE-0(A,X)19-K-42,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/A0148033
+# target:
+#   Z: 26
+#   A: 0
+#   nuclide: Fe0
+# reaction:
+#   type: (a,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 19
+#   A: 42
+#   nuclide: K42
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.051700E+02   1.190000E+00   9.390000E-02   3.010000E-02   1.000000E+00
+   1.147400E+02   1.120000E+00   1.690000E-01   2.500000E-02   1.000000E+00
+   1.237500E+02   1.050000E+00   2.610000E-01   3.400000E-02   1.000000E+00
+   1.336300E+02   9.700000E-01   3.230000E-01   4.200000E-02   1.000000E+00
+   1.429200E+02   8.900000E-01   4.880000E-01   5.900000E-02   1.000000E+00
+   1.518700E+02   8.000000E-01   6.610000E-01   6.600000E-02   1.000000E+00
+   1.617000E+02   6.800000E-01   8.560000E-01   1.310000E-01   1.000000E+00
+   1.710300E+02   5.000000E-01   1.060000E+00   1.100000E-01   1.000000E+00
+# reference:
+#   author: R.Michel,G.Brinkmann,R.Stuck
+#   title: Integral excitation functions of alpha-induced reactions on titanium, iron and nickel
+#   journal: Jour: Radiochimica Acta, Vol.32, p.173 (1983)
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  1.051700E+02
+#   E-max [MeV]:  1.710300E+02
+#   F-value:  4.276491E+01
+#   A-value:  2.622160E-02
+#   chi-2:  6.712782E+01
+#   p-value:  2.607703E-07
+#   exp. data sets for p-value:      1
+#   libraries:      1
+##  Library          F              A            chi-2
+# tendl.2023    4.276491E+01   2.622160E-02   6.712782E+01

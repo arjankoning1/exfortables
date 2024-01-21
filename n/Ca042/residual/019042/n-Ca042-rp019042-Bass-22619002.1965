@@ -1,0 +1,56 @@
+# header:
+#   title: Ca42(n,x)K42 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Bass
+#   year: 1965
+#   subentry: 22619002
+#   X4 reaction: 20-CA-42(N,P)19-K-42,,SIG,,AV
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22619002
+# target:
+#   Z: 20
+#   A: 42
+#   nuclide: Ca42
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 19
+#   A: 42
+#   nuclide: K42
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.650000E+00   6.500000E-01   3.800000E+00   1.500000E+00   1.000000E+00
+   4.900000E+00   5.000000E-01   1.330000E+01   2.600000E+00   1.000000E+00
+   6.050000E+00   4.500000E-01   3.300000E+01   3.300000E+00   1.000000E+00
+   7.100000E+00   4.000000E-01   6.000000E+01   6.000000E+00   1.000000E+00
+   8.050000E+00   4.500000E-01   9.100002E+01   9.000000E+00   1.000000E+00
+# reference:
+#   author: R.BASS,C.BINDHARDT,K.KRUEGER
+#   title: Fast Neutron Cross Section Measurements by Activation Techniques
+#   journal: Prog: Report from Euratom-countries + Euratom to EANDC, No.57, p.1 (1965
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  3.650000E+00
+#   E-max [MeV]:  8.050000E+00
+#   F-value:  5.952927E+00
+#   A-value:  5.439624E-01
+#   chi-2:  2.729774E+01
+#   p-value:  8.786650E-02
+#   exp. data sets for p-value:      1
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2023    6.633159E+00   5.239314E-01   3.637840E+01
+# endfb8.0      6.205662E+00   5.264589E-01   1.759358E+01
+# jeff3.3       6.659519E+00   5.116361E-01   3.651505E+01
+# jendl5.0      4.439446E+00   6.204048E-01   1.870395E+01

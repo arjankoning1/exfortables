@@ -1,0 +1,64 @@
+# header:
+#   title: Fe54(n,2n)Fe53 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Bormann
+#   year: 1976
+#   subentry: 20614002
+#   X4 reaction: 26-FE-54(N,2N)26-FE-53,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20614002
+# target:
+#   Z: 26
+#   A: 54
+#   nuclide: Fe54
+# reaction:
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 26
+#   A: 53
+#   nuclide: Fe53
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 11
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.405000E+01   9.000000E-02   1.010000E+01   9.999999E-02   1.000000E+00
+   1.455000E+01   1.000000E-01   1.750000E+01   1.200000E-01   1.000000E+00
+   1.481000E+01   1.000000E-01   2.250000E+01   1.500000E-01   1.000000E+00
+   1.508000E+01   1.000000E-01   2.360000E+01   1.500000E-01   1.000000E+00
+   1.535000E+01   1.000000E-01   2.900000E+01   1.700000E-01   1.000000E+00
+   1.561000E+01   1.100000E-01   2.950000E+01   2.000000E-01   1.000000E+00
+   1.592000E+01   1.100000E-01   3.700000E+01   2.100000E-01   1.000000E+00
+   1.643000E+01   1.100000E-01   4.550000E+01   2.400000E-01   1.000000E+00
+   1.694000E+01   1.100000E-01   5.600000E+01   3.000000E-01   1.000000E+00
+   1.756000E+01   1.100000E-01   5.620001E+01   3.100000E-01   1.000000E+00
+   1.823000E+01   1.200000E-01   5.810000E+01   3.000000E-01   1.000000E+00
+# reference:
+#   author: M.BORMANN, H-K.FEDDERSEN, H.-H.HOLSCHER, W.SCOBEL,  H.WAGNER
+#   title: -(N,2N) EXCITATION FUNCTIONS FOR FE-54, GE-70, SE-74,  RB-85, SR-86,88, Y-89, MO-92, AND HG-204 IN THE  NEUTRON ENERGY REGION 13-18 MEV-. (GERMAN)
+#   journal: Jour: Zeitschrift fuer Physik A, Hadrons and Nuclei, Vol.277, p.203 (197
+# statistics:
+#   NEA score: T2
+#   IAEA score:  1
+#   E-min [MeV]:  1.405000E+01
+#   E-max [MeV]:  1.823000E+01
+#   F-value:  1.951895E+00
+#   A-value:  7.451087E-01
+#   chi-2:  3.472231E+03
+#   p-value:  2.225582E-01
+#   exp. data sets for p-value:      8
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2023    2.116225E+00   6.601072E-01   3.414688E+03
+# endfb8.0      2.185666E+00   6.501470E-01   3.602640E+03
+# jeff3.3       1.642780E+00   1.095879E+00   6.410974E+03
+# jendl5.0      1.770085E+00   7.604998E-01   2.109242E+03
+# cendl3.2      1.770808E+00   7.358992E-01   1.693200E+03
+# irdff2.0      2.185666E+00   6.501470E-01   3.602640E+03

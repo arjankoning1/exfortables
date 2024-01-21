@@ -1,0 +1,60 @@
+# header:
+#   title: Cu63(n,x)Co60 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Plompen
+#   year: 2002
+#   subentry: 22684012
+#   X4 reaction: 29-CU-63(N,A)27-CO-60,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22684012
+# target:
+#   Z: 29
+#   A: 63
+#   nuclide: Cu63
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+# residual:
+#   Z: 27
+#   A: 60
+#   nuclide: Co60
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 9
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.332000E+01   2.500000E-01   4.500000E+01   2.000000E+00   1.000000E+00
+   1.481000E+01   1.700000E-01   4.200000E+01   3.000000E+00   1.000000E+00
+   1.599000E+01   2.000000E-01   3.200000E+01   2.000000E+00   1.000000E+00
+   1.626000E+01   2.000000E-01   3.000000E+01   2.000000E+00   1.000000E+00
+   1.719000E+01   1.800000E-01   2.800000E+01   2.000000E+00   1.000000E+00
+   1.758000E+01   1.700000E-01   2.200000E+01   1.000000E+00   1.000000E+00
+   1.818000E+01   1.000000E-01   1.800000E+01   1.000000E+00   1.000000E+00
+   1.904000E+01   7.000000E-02   1.400000E+01   1.000000E+00   1.000000E+00
+   1.994000E+01   9.000000E-02   1.200000E+01   2.000000E+00   1.000000E+00
+# reference:
+#   author: A.J.M.Plompen,D.Smith,P.Reimer,S.M.Qaim,V.Semkova, F.Cserpak,V.Avrigeanu,S.Sudar,C.Borcea,L.Olah
+#   title: Recent cross section studies with the activation  technique for Ni, Co and Cu.
+#   journal: Jour: Jour. of Nuclear Science and Technology Suppl., Vol.2, Issue.1, p.
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.332000E+01
+#   E-max [MeV]:  1.994000E+01
+#   F-value:  1.046579E+00
+#   A-value:  9.999700E-01
+#   chi-2:  7.108745E-01
+#   p-value:  4.313643E-01
+#   exp. data sets for p-value:      5
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2023    1.046579E+00   9.999700E-01   7.108745E-01
+# endfb8.0      0.000000E+00   0.000000E+00   0.000000E+00
+# jeff3.3       0.000000E+00   0.000000E+00   0.000000E+00
+# jendl5.0      0.000000E+00   0.000000E+00   0.000000E+00

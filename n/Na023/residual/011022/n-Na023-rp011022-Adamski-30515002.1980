@@ -1,0 +1,55 @@
+# header:
+#   title: Na23(n,x)Na22 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Adamski
+#   year: 1980
+#   subentry: 30515002
+#   X4 reaction: 11-NA-23(N,2N)11-NA-22,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30515002
+# target:
+#   Z: 11
+#   A: 23
+#   nuclide: Na23
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 11
+#   A: 22
+#   nuclide: Na22
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.550000E+01   5.000000E-01   4.740102E+01   4.759100E+00   9.518277E-01
+   1.620000E+01   8.000000E-01   6.232908E+01   6.271500E+00   9.648463E-01
+   1.630000E+01   3.000000E-01   5.267515E+01   5.143700E+00   9.525344E-01
+   1.660000E+01   1.000000E-01   6.163624E+01   6.125300E+00   9.570845E-01
+   1.740000E+01   4.000000E-01   7.395704E+01   6.740900E+00   9.629822E-01
+   1.790000E+01   1.000000E-01   8.416360E+01   8.074400E+00   9.499277E-01
+# reference:
+#   author: L.Adamski,M.Herman,A.Marcinkowski
+#   title: -Cross sections for the Na-23(n,2n)Na-22 reaction.-
+#   journal: Jour: Annals of Nuclear Energy, Vol.7, Issue.7, p.397 (1980)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.550000E+01
+#   E-max [MeV]:  1.790000E+01
+#   F-value:  1.299011E+00
+#   A-value:  1.272210E+00
+#   chi-2:  1.035549E+01
+#   p-value:  1.737609E-01
+#   exp. data sets for p-value:      3
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.217201E+00   1.200221E+00   5.566495E+00
+# jendl5.0      1.368112E+00   1.348517E+00   1.514447E+01

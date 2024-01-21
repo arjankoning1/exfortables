@@ -1,0 +1,34 @@
+# header:
+#   title: U238(i,f) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Raabe
+#   year: 2006
+#   subentry: D0425007
+#   X4 reaction: 92-U-238(4-BE-9,F),,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D0425007
+# target:
+#   Z: 92
+#   A: 238
+#   nuclide: U238
+# reaction:
+#   type: (i,f)
+#   ENDF_MF: 3
+#   ENDF_MT: 18
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   4.826000E+01   0.000000E+00   5.665000E+02   1.018670E+02   1.000000E+00
+   5.220400E+01   0.000000E+00   1.037500E+03   1.800516E+02   1.000000E+00
+   5.604400E+01   0.000000E+00   1.186400E+03   2.028735E+02   1.000000E+00
+# reference:
+#   author: R.Raabe,C.Angulo,J.L.Charvet,C.Jouanne,L.Nalpas, P.Figuera,D.Pierroutsakou,M.Romoli,J.L.Sida
+#   title: Fusion and direct reactions around the barrier for the systems 7,9Be,7Li + 238U
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.74, p.044606 (2006)

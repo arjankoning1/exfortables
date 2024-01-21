@@ -1,0 +1,63 @@
+# header:
+#   title: Ni0(p,x)Cu60 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Adel
+#   year: 2020
+#   subentry: D4410002
+#   X4 reaction: 28-NI-0(P,X)29-CU-60,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D4410002
+# target:
+#   Z: 28
+#   A: 0
+#   nuclide: Ni0
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 29
+#   A: 60
+#   nuclide: Cu60
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 13
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   7.530000E+00   6.900000E-01   3.530000E+01   3.800000E+00   1.000000E+00
+   8.990000E+00   6.800000E-01   6.340001E+01   4.720000E+00   1.000000E+00
+   9.490000E+00   6.600000E-01   6.930001E+01   5.340000E+00   1.000000E+00
+   1.056000E+01   6.300000E-01   7.850000E+01   6.560000E+00   1.000000E+00
+   1.062000E+01   6.100000E-01   8.920000E+01   7.700000E+00   1.000000E+00
+   1.221000E+01   5.900000E-01   9.660001E+01   8.600000E+00   1.000000E+00
+   1.250000E+01   5.700000E-01   1.070000E+02   9.500000E+00   1.000000E+00
+   1.316000E+01   5.500000E-01   1.040000E+02   9.100000E+00   1.000000E+00
+   1.378000E+01   5.200000E-01   9.510001E+01   8.430000E+00   1.000000E+00
+   1.454000E+01   5.000000E-01   9.275002E+01   8.100000E+00   1.000000E+00
+   1.538000E+01   4.800000E-01   7.605001E+01   7.650000E+00   1.000000E+00
+   1.579000E+01   4.500000E-01   5.620001E+01   5.700000E+00   1.000000E+00
+   1.662000E+01   4.000000E-01   4.510000E+01   5.430000E+00   1.000000E+00
+# reference:
+#   author: D.Adel,G.Y.Mohamed,Z.Yousef, M.A.El Wahab,F.Ditroi, S.Takacs,M.Al-abyad
+#   title: Experimental investigation and theoretical evaluation of proton induced nuclear reactions on nickel
+#   journal: Jour: Applied Radiation and Isotopes, Vol.159, p.109094 (2020)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  7.530000E+00
+#   E-max [MeV]:  1.662000E+01
+#   F-value:  1.520964E+00
+#   A-value:  7.336865E-01
+#   chi-2:  1.182445E+01
+#   p-value:  2.277540E-01
+#   exp. data sets for p-value:      4
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.213285E+00   8.688687E-01   3.096508E+00
+# endfb8.0      1.993589E+00   5.081193E-01   3.060573E+01
+# jendl5.0      1.203166E+00   8.798640E-01   3.213959E+00

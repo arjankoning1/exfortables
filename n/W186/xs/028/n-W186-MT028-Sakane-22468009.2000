@@ -1,0 +1,55 @@
+# header:
+#   title: W186(n,np)Ta185 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Sakane
+#   year: 2000
+#   subentry: 22468009
+#   X4 reaction: 74-W-186(N,X)73-TA-185,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22468009
+# target:
+#   Z: 74
+#   A: 186
+#   nuclide: W186
+# reaction:
+#   type: (n,np)
+#   ENDF_MF: 3
+#   ENDF_MT: 28
+# residual:
+#   Z: 73
+#   A: 185
+#   nuclide: Ta185
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.402000E+01   0.000000E+00   4.980500E-02   2.490300E-02   9.961090E-01
+   1.435000E+01   0.000000E+00   1.793000E-01   3.586000E-02   9.961090E-01
+   1.464000E+01   0.000000E+00   2.490300E-01   3.984400E-02   9.961090E-01
+   1.487000E+01   0.000000E+00   3.984400E-01   5.976700E-02   9.961090E-01
+# reference:
+#   author: H.Sakane, M.Shibata, K.Kawade, Y.Kasugai, Y.Ikeda
+#   title: Systematics of (n,n'p) reaction cross sections  by 14 MeV neutrons
+#   journal: Conf: Japanese report to the I.N.D.C., No.185, p.202 (2000)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  1.402000E+01
+#   E-max [MeV]:  1.487000E+01
+#   F-value:  1.679318E+01
+#   A-value:  7.046786E-02
+#   chi-2:  2.391729E+01
+#   p-value:  2.682209E-07
+#   exp. data sets for p-value:      3
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2023    1.142037E+01   9.031136E-02   2.404221E+01
+# endfb8.0      3.585814E+01   2.923917E-02   2.692010E+01
+# jeff3.3       4.407933E+00   2.442310E-01   1.828430E+01
+# jendl5.0      2.709857E+01   3.823460E-02   2.642255E+01

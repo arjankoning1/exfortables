@@ -1,0 +1,58 @@
+# header:
+#   title: Au197(p,x)Ir192 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Albouy
+#   year: 1963
+#   subentry: O2010004
+#   X4 reaction: 79-AU-197(P,X)77-IR-192,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O2010004
+# target:
+#   Z: 79
+#   A: 197
+#   nuclide: Au197
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 77
+#   A: 192
+#   nuclide: Ir192
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 9
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   4.153000E+01   4.170000E+00   1.200000E-02   1.600000E-02   1.000000E+00
+   4.958000E+01   4.490000E+00   5.000000E-02   2.800000E-02   1.000000E+00
+   5.953000E+01   3.320000E+00   2.150000E-01   4.300000E-02   1.000000E+00
+   7.002000E+01   2.780000E+00   2.180000E-01   5.300000E-02   1.000000E+00
+   7.963000E+01   2.350000E+00   3.540000E-01   8.300000E-02   1.000000E+00
+   8.975000E+01   2.250000E+00   2.870000E-01   6.100000E-02   1.000000E+00
+   1.102100E+02   2.140000E+00   3.250000E-01   7.100000E-02   1.000000E+00
+   1.263300E+02   2.670000E+00   4.340000E-01   9.000000E-02   1.000000E+00
+   1.496600E+02   2.570000E+00   4.330000E-01   8.900000E-02   1.000000E+00
+# reference:
+#   author: G.Albouy, J.P.Cohen, M.Gusakow, N.Poffe, H.Sergolle, L.Valentin
+#   title: Reaction (p,3n+3p) between 30 and 150 MeV.
+#   journal: Jour: Journal de Physique, Vol.24, p.67 (1963)
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  4.153000E+01
+#   E-max [MeV]:  1.496600E+02
+#   F-value:  4.049338E+00
+#   A-value:  1.125918E+00
+#   chi-2:  5.230617E+01
+#   p-value:  2.534594E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    5.750439E+00   5.301740E-01   5.288484E+01
+# jendl5.0      2.516838E+00   2.391086E+00   5.172750E+01

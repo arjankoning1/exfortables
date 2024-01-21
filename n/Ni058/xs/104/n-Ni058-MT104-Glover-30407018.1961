@@ -1,0 +1,53 @@
+# header:
+#   title: Ni58(n,d)Co57 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Glover
+#   year: 1961
+#   subentry: 30407018
+#   X4 reaction: 28-NI-58(N,D)27-CO-57,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30407018
+# target:
+#   Z: 28
+#   A: 58
+#   nuclide: Ni58
+# reaction:
+#   type: (n,d)
+#   ENDF_MF: 3
+#   ENDF_MT: 104
+# residual:
+#   Z: 27
+#   A: 57
+#   nuclide: Co57
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.480000E+01   3.000000E-01   2.500000E+01   6.000000E+00   1.000000E+00
+# reference:
+#   author: R.N.Glover,K.H.Purser
+#   title: Protons and deuterons from Ni-58 bombarded by 14.8 MeV neutrons.
+#   journal: Jour: Nuclear Physics, Vol.24, p.431 (1961)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.480000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.679731E+00
+#   A-value:  6.277488E-01
+#   chi-2:  2.988513E+00
+#   p-value:  7.104695E-02
+#   exp. data sets for p-value:      5
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    1.392271E+00   7.182509E-01   1.960163E+00
+# endfb8.0      1.563197E+00   6.397146E-01   2.761151E+00
+# jeff3.3       1.156964E+00   8.643309E-01   8.044893E-01
+# jendl5.0      2.272393E+00   4.400647E-01   5.639508E+00
+# cendl3.2      1.792790E+00   5.577899E-01   3.777251E+00

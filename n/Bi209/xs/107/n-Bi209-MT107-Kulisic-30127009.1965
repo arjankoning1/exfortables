@@ -1,0 +1,53 @@
+# header:
+#   title: Bi209(n,a)Tl206 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Kulisic
+#   year: 1965
+#   subentry: 30127009
+#   X4 reaction: 83-BI-209(N,A)81-TL-206,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30127009
+# target:
+#   Z: 83
+#   A: 209
+#   nuclide: Bi209
+# reaction:
+#   type: (n,a)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+# residual:
+#   Z: 81
+#   A: 206
+#   nuclide: Tl206
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.460000E+01   1.000000E-01   1.000000E+00   5.000000E-01   1.000000E+00
+# reference:
+#   author: P.Kulisic, N.Cindro, P.Strohal, B.Lalovic
+#   title: Direct processes in (n,a) reactions
+#   journal: Jour: Nuclear Physics, Vol.73, p.548 (1965)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.460000E+01
+#   E-max [MeV]:  1.460000E+01
+#   F-value:  1.219550E+00
+#   A-value:  8.531879E-01
+#   chi-2:  4.009963E-01
+#   p-value:  2.373060E-01
+#   exp. data sets for p-value:      4
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    1.012648E+00   1.012648E+00   3.187168E-02
+# endfb8.0      1.072835E+00   9.321095E-01   1.751580E-01
+# jeff3.3       1.339139E+00   7.467482E-01   7.107325E-01
+# jendl5.0      1.172228E+00   8.530763E-01   3.925175E-01
+# cendl3.2      1.330038E+00   7.518581E-01   6.947019E-01

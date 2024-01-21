@@ -1,0 +1,70 @@
+# header:
+#   title: U238(n,2n)U237 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Kornilov
+#   year: 1980
+#   subentry: 30561002
+#   X4 reaction: 92-U-238(N,2N)92-U-237,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30561002
+# target:
+#   Z: 92
+#   A: 238
+#   nuclide: U238
+# reaction:
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 92
+#   A: 237
+#   nuclide: U237
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 17
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   6.540000E+00   9.000000E-02   7.403773E+01   5.141500E+00   1.028302E+00
+   6.780000E+00   8.000000E-02   2.581038E+02   1.336792E+01   1.028302E+00
+   7.000000E+00   1.000000E-01   4.133773E+02   1.850943E+01   1.028302E+00
+   7.500000E+00   1.000000E-01   8.534905E+02   3.084905E+01   1.028302E+00
+   7.500000E+00   1.000000E-01   8.555472E+02   3.290566E+01   1.028302E+00
+   7.990000E+00   1.000000E-01   1.107481E+03   3.187736E+01   1.028302E+00
+   8.500000E+00   1.000000E-01   1.279208E+03   4.216038E+01   1.028302E+00
+   8.990000E+00   1.000000E-01   1.383066E+03   3.599056E+01   1.028302E+00
+   8.990000E+00   1.000000E-01   1.381009E+03   4.318868E+01   1.028302E+00
+   9.490000E+00   8.000000E-02   1.409802E+03   3.701887E+01   1.028302E+00
+   1.000000E+01   8.000000E-02   1.452991E+03   3.804717E+01   1.028302E+00
+   1.049000E+01   8.000000E-02   1.507490E+03   6.478300E+01   1.028302E+00
+   1.354000E+01   1.100000E-01   1.096170E+03   4.935849E+01   1.028302E+00
+   1.376000E+01   1.000000E-01   1.025217E+03   4.627359E+01   1.028302E+00
+   1.410000E+01   1.200000E-01   8.977075E+02   4.113207E+01   1.028302E+00
+   1.442000E+01   1.100000E-01   8.020754E+02   3.599056E+01   1.028302E+00
+   1.476000E+01   1.700000E-01   6.971886E+02   3.084905E+01   1.028302E+00
+# reference:
+#   author: N.V.Kornilov, B.V.Zhuravlev, O.A.Sal'nikov, P.Raics,  S.Nagy, S.Daroczy, K.Sailer, J.Csikai
+#   title: Measurement of cross sections for the U-238(n,2n)  reaction from 6.5 to 14.8 MeV
+#   journal: Conf: Zentralinst. f. Kernforschung Rossendorf Reports, No.410, p.68 (19
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  6.540000E+00
+#   E-max [MeV]:  1.476000E+01
+#   F-value:  1.146242E+00
+#   A-value:  1.019830E+00
+#   chi-2:  9.325732E+00
+#   p-value:  3.157398E-01
+#   exp. data sets for p-value:      3
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2023    1.133055E+00   1.045115E+00   6.464844E+00
+# endfb8.0      1.133055E+00   1.045115E+00   6.464844E+00
+# jeff3.3       1.088966E+00   9.931438E-01   3.335464E+00
+# jendl5.0      1.057781E+00   9.867420E-01   2.454892E+00
+# cendl3.2      1.263069E+00   1.005674E+00   3.076951E+01
+# irdff2.0      1.133055E+00   1.045115E+00   6.464844E+00

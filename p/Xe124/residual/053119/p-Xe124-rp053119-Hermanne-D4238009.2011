@@ -1,0 +1,54 @@
+# header:
+#   title: Xe124(p,x)I119 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Hermanne
+#   year: 2011
+#   subentry: D4238009
+#   X4 reaction: 54-XE-124(P,2N+A)53-I-119,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D4238009
+# target:
+#   Z: 54
+#   A: 124
+#   nuclide: Xe124
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 24
+# residual:
+#   Z: 53
+#   A: 119
+#   nuclide: I119
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.980000E+01   5.000000E-01   4.319930E+00   6.027800E-01   1.004635E+00
+   3.160000E+01   4.000000E-01   2.712500E+00   4.018500E-01   1.004635E+00
+   3.380000E+01   4.000000E-01   8.338470E+00   1.205600E+00   1.004635E+00
+   3.560000E+01   3.000000E-01   1.466767E+01   2.210200E+00   1.004635E+00
+   3.720000E+01   2.000000E-01   1.969085E+01   2.913400E+00   1.004635E+00
+# reference:
+#   author: A.Hermanne,F.Tarkanyi,S.Takacs,R.Adam Rebeles, A.Ignatyuk,S.Spellerberg,R.Schweikert
+#   title: Limitation of the long-lived 121Te contaminant in production of 123I through the 124Xe(p,x) route
+#   journal: Jour: Applied Radiation and Isotopes, Vol.69, p.358 (2011)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  2.980000E+01
+#   E-max [MeV]:  3.720000E+01
+#   F-value:  2.220057E+00
+#   A-value:  1.433524E+00
+#   chi-2:  7.074612E+01
+#   p-value:  2.357336E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.749023E+00   1.059526E+00   1.943089E+01
+# jendl5.0      2.663331E+00   1.939536E+00   1.220614E+02

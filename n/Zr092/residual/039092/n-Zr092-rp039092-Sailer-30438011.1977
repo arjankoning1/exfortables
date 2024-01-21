@@ -1,0 +1,51 @@
+# header:
+#   title: Zr92(n,x)Y92 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Sailer
+#   year: 1977
+#   subentry: 30438011
+#   X4 reaction: 40-ZR-92(N,P)39-Y-92,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30438011
+# target:
+#   Z: 40
+#   A: 92
+#   nuclide: Zr92
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 39
+#   A: 92
+#   nuclide: Y92
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.481000E+01   2.500000E-01   2.044209E+01   1.192000E+00   9.923345E-01
+# reference:
+#   author: K.Sailer, S.Daroczy, P.Raics, S.Nagy
+#   title: The cross sections of (n,2n), (n,p), (n,a) reactions for 14.8 MeV neutrons on isotopes of Cr and Zr
+#   journal: Conf: 4.All Union Conf.on Neutron Phys.,Kiev,18-22 Apr 1977, Vol.1, p.24
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.481000E+01
+#   E-max [MeV]:  1.481000E+01
+#   F-value:  1.182678E+00
+#   A-value:  1.129863E+00
+#   chi-2:  1.118592E+01
+#   p-value:  4.311785E-01
+#   exp. data sets for p-value:      8
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.325113E+00   1.325113E+00   3.108609E+01
+# jeff3.3       1.073390E+00   1.073390E+00   2.153166E+00
+# jendl5.0      1.014068E+00   1.014068E+00   3.184995E-01

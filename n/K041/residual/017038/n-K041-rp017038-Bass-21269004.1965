@@ -1,0 +1,54 @@
+# header:
+#   title: K41(n,x)Cl38 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Bass
+#   year: 1965
+#   subentry: 21269004
+#   X4 reaction: 19-K-41(N,A)17-CL-38,,SIG,,AV
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21269004
+# target:
+#   Z: 19
+#   A: 41
+#   nuclide: K41
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+# residual:
+#   Z: 17
+#   A: 38
+#   nuclide: Cl38
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   4.900000E+00   3.000000E-02   3.400000E+00   1.000000E+00   1.000000E+00
+   6.000000E+00   3.000000E-02   7.500000E+00   1.500000E+00   1.000000E+00
+   7.050000E+00   3.000000E-02   1.300000E+01   1.300000E+00   1.000000E+00
+   7.950000E+00   3.000000E-02   1.570000E+01   1.600000E+00   1.000000E+00
+# reference:
+#   author: R.Bass,G.Presser
+#   title: Fast neutron cross section measurements by activation techniques
+#   journal: Prog: Report from Euratom-countries + Euratom to EANDC, No.57, p.1 (1965
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  4.900000E+00
+#   E-max [MeV]:  7.950000E+00
+#   F-value:  1.370868E+00
+#   A-value:  8.565716E-01
+#   chi-2:  2.064598E+00
+#   p-value:  3.178984E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.505870E+00   7.389107E-01   2.207769E+00
+# jeff3.3       1.193956E+00   9.929684E-01   1.921426E+00
+# jendl5.0      0.000000E+00   0.000000E+00   0.000000E+00

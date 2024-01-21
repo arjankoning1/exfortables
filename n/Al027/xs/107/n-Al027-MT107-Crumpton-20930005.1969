@@ -1,0 +1,54 @@
+# header:
+#   title: Al27(n,a)Na24 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Crumpton
+#   year: 1969
+#   subentry: 20930005
+#   X4 reaction: 13-AL-27(N,A)11-NA-24,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20930005
+# target:
+#   Z: 13
+#   A: 27
+#   nuclide: Al27
+# reaction:
+#   type: (n,a)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+# residual:
+#   Z: 11
+#   A: 24
+#   nuclide: Na24
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.470000E+01   2.000000E-01   1.210000E+02   6.000000E+00   1.000000E+00
+# reference:
+#   author: D.Crumpton,A.J.Cox,P.N.Cooper,P.E.Francois,S.E.Hunt
+#   title: Absolute determination of activation cross-sections  for 14.7 and 14.8 MeV neutrons
+#   journal: Jour: Journal of Inorganic and Nuclear Chemistry, Vol.31, p.1 (1969)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.470000E+01
+#   E-max [MeV]:  1.470000E+01
+#   F-value:  1.054077E+00
+#   A-value:  9.494784E-01
+#   chi-2:  1.644433E+00
+#   p-value:  1.577602E-01
+#   exp. data sets for p-value:      8
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2023    1.062324E+00   9.413323E-01   1.980648E+00
+# endfb8.0      1.052789E+00   9.498580E-01   1.613683E+00
+# jeff3.3       1.052789E+00   9.498580E-01   1.613683E+00
+# jendl5.0      1.055986E+00   9.469819E-01   1.733612E+00
+# cendl3.2      1.033378E+00   9.677006E-01   9.467282E-01
+# irdff2.0      1.062264E+00   9.413856E-01   1.978244E+00

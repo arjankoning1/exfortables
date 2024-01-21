@@ -1,0 +1,58 @@
+# header:
+#   title: Ni0(p,x)Ni56 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Garrido
+#   year: 2016
+#   subentry: O2315014
+#   X4 reaction: 28-NI-0(P,X)28-NI-56,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O2315014
+# target:
+#   Z: 28
+#   A: 0
+#   nuclide: Ni0
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 28
+#   A: 56
+#   nuclide: Ni56
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.963000E+01   1.080000E+00   2.600000E-01   7.000000E-02   1.000000E+00
+   2.513000E+01   8.500000E-01   1.100000E+00   1.300000E-01   1.000000E+00
+   2.985000E+01   5.800000E-01   3.800000E+00   3.500000E-01   1.000000E+00
+   3.663000E+01   9.200000E-01   1.001000E+01   8.900000E-01   1.000000E+00
+   4.078000E+01   8.000000E-01   1.275000E+01   1.130000E+00   1.000000E+00
+   4.566000E+01   5.800000E-01   1.185000E+01   1.050000E+00   1.000000E+00
+   5.734000E+01   1.070000E+00   9.290000E+00   8.800000E-01   1.000000E+00
+   6.981000E+01   5.700000E-01   8.180000E+00   5.800000E-01   1.000000E+00
+# reference:
+#   author: E.Garrido,C.Duchemin,A.Guertin,F.Haddad,N.Michel, V.Metivier
+#   title: New excitation functions for proton induced reactions on natural titanium, nickel and copper up to 70 MeV.
+#   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.383, p.191 (20
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  1.963000E+01
+#   E-max [MeV]:  6.981000E+01
+#   F-value:  2.792422E+00
+#   A-value:  6.079357E-01
+#   chi-2:  6.248044E+00
+#   p-value:  2.374968E-01
+#   exp. data sets for p-value:      5
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    2.797476E+00   6.914008E-01   2.184814E+00
+# endfb8.0      2.279697E+00   5.688409E-01   1.017901E+01
+# jendl5.0      3.416585E+00   5.885451E-01   4.786162E+00

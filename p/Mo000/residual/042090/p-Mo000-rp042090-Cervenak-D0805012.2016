@@ -1,0 +1,59 @@
+# header:
+#   title: Mo0(p,x)Mo90 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Cervenak
+#   year: 2016
+#   subentry: D0805012
+#   X4 reaction: 42-MO-0(P,X)42-MO-90,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D0805012
+# target:
+#   Z: 42
+#   A: 0
+#   nuclide: Mo0
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 42
+#   A: 90
+#   nuclide: Mo90
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 10
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.227000E+01   6.200000E-01   1.023100E-01   3.241600E-02   1.012987E+00
+   2.350000E+01   5.800000E-01   8.306500E-02   3.140300E-02   1.012987E+00
+   2.466000E+01   5.500000E-01   1.144700E-01   3.342900E-02   1.012987E+00
+   2.645000E+01   5.000000E-01   2.876900E-01   4.153200E-02   1.012987E+00
+   2.817000E+01   4.600000E-01   1.327000E+00   1.215600E-01   1.012987E+00
+   2.980000E+01   4.200000E-01   4.649610E+00   4.051900E-01   1.012987E+00
+   3.137000E+01   3.900000E-01   1.145688E+01   9.927300E-01   1.012987E+00
+   3.287000E+01   3.600000E-01   2.036104E+01   1.722100E+00   1.012987E+00
+   3.434000E+01   3.300000E-01   2.978182E+01   2.532500E+00   1.012987E+00
+   3.575000E+01   3.100000E-01   3.818961E+01   3.241600E+00   1.012987E+00
+# reference:
+#   author: J.Cervenak, O.Lebeda
+#   title: Experimental cross-sections for proton-induced nuclear  reactions on natMo
+#   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.380, p.32 (201
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  2.227000E+01
+#   E-max [MeV]:  3.575000E+01
+#   F-value:  4.182207E+00
+#   A-value:  5.482823E-01
+#   chi-2:  5.363425E+00
+#   p-value:  3.199727E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.208897E+00   1.165075E+00   6.202391E+00
+# jendl5.0      4.175042E+00   5.417522E-01   4.367078E+00

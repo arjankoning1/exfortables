@@ -1,0 +1,49 @@
+# header:
+#   title: Pb207(n,xa) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Kneff
+#   year: 1985
+#   subentry: 13498011
+#   X4 reaction: 82-PB-207(N,X)2-HE-4,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/13498011
+# target:
+#   Z: 82
+#   A: 207
+#   nuclide: Pb207
+# reaction:
+#   type: (n,xa)
+#   ENDF_MF: 3
+#   ENDF_MT: 207
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.480000E+01   0.000000E+00   5.200000E-01   4.000000E-02   1.000000E+00
+# reference:
+#   author: D.W.Kneff,B.M.Oliver,R.P.Skowronski,H.Farrar IV
+#   title: Helium generation cross sections for 14.8-MeV neutrons
+#   journal: Prog: U.S. D.O.E. Nuclear Data Committee Reports, No.36, p.158 (1985)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  1.480000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  2.268114E+00
+#   A-value:  1.538075E+00
+#   chi-2:  5.805673E+02
+#   p-value:  2.546597E-01
+#   exp. data sets for p-value:      1
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    1.758103E+00   5.687950E-01   3.142349E+01
+# endfb8.0      1.584463E+00   1.584463E+00   5.772987E+01
+# jeff3.3       1.371051E+00   1.371051E+00   2.326775E+01
+# jendl5.0      1.380667E+00   1.380667E+00   2.448936E+01
+# cendl3.2      5.045544E+00   5.045544E+00   2.765926E+03

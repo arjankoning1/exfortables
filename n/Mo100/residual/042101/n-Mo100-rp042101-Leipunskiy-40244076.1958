@@ -1,0 +1,50 @@
+# header:
+#   title: Mo100(n,x)Mo101 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Leipunskiy
+#   year: 1958
+#   subentry: 40244076
+#   X4 reaction: 42-MO-100(N,G)42-MO-101,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/40244076
+# target:
+#   Z: 42
+#   A: 100
+#   nuclide: Mo100
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+# residual:
+#   Z: 42
+#   A: 101
+#   nuclide: Mo101
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.000000E-01   3.000000E-02   5.160000E+01   2.100000E+00   1.000000E+00
+# reference:
+#   author: A.I.Leipunskiy, O.D.Kazachkovskiy, G.Ja.Artyukhov, A.I.Baryshnikov, T.S.Belanova, V.I.Galkov, Yu.Ja.Stavisskiy, E.A.Stumbur, L.E.Sherman
+#   title: Radiative capture cross-section measurements  for fast neutrons.
+#   journal: Conf: Second Internat. At.En. Conf., Geneva 1958, Vol.15, p.50 (1958)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  0
+#   E-min [MeV]:  2.000000E-01
+#   E-max [MeV]:  2.000000E-01
+#   F-value:  1.281283E+00
+#   A-value:  7.830426E-01
+#   chi-2:  2.885384E+01
+#   p-value:  1.161397E-01
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.226657E+00   8.152238E-01   2.061380E+01
+# jendl5.0      1.329554E+00   7.521318E-01   3.709389E+01

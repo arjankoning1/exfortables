@@ -1,0 +1,65 @@
+# header:
+#   title: Ga71(n,p)Zn71m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Grochulski
+#   year: 1975
+#   subentry: 30287002
+#   X4 reaction: 31-GA-71(N,P)30-ZN-71-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30287002
+# target:
+#   Z: 31
+#   A: 71
+#   nuclide: Ga71
+# reaction:
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 30
+#   A: 71
+#   nuclide: Zn71m
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 10
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.300000E+01   1.000000E-01   1.320000E+01   2.100000E+00   1.000000E+00
+   1.340000E+01   1.000000E-01   1.000000E+01   1.600000E+00   1.000000E+00
+   1.390000E+01   1.000000E-01   9.100000E+00   1.400000E+00   1.000000E+00
+   1.450000E+01   1.000000E-01   1.000000E+01   1.600000E+00   1.000000E+00
+   1.510000E+01   2.000000E-01   1.100000E+01   1.700000E+00   1.000000E+00
+   1.540000E+01   2.000000E-01   9.200000E+00   1.400000E+00   1.000000E+00
+   1.590000E+01   2.000000E-01   6.800000E+00   2.200000E+00   1.000000E+00
+   1.650000E+01   1.000000E-01   9.100000E+00   2.400000E+00   1.000000E+00
+   1.730000E+01   2.000000E-01   1.210000E+01   1.900000E+00   1.000000E+00
+   1.780000E+01   2.000000E-01   1.210000E+01   2.000000E+00   1.000000E+00
+# reference:
+#   author: W.Grochulski, S.El-Konsol, A.Marcinkowski
+#   title: Excitation curves for fast neutron induced reactions on Ga-71, As-75, Se-80, Se-82, Sn-117 and Sn-118
+#   journal: Jour: Acta Physica Polonica, Part B, Vol.6, p.139 (1975)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.300000E+01
+#   E-max [MeV]:  1.780000E+01
+#   F-value:  1.566414E+00
+#   A-value:  1.410742E+00
+#   chi-2:  1.047746E+01
+#   p-value:  1.966868E-01
+#   exp. data sets for p-value:      2
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.856845E+00   1.798230E+00   2.326694E+01
+# jeff3.3       1.423784E+00   1.334342E+00   5.156583E+00
+# jendl5.0      1.364062E+00   1.170120E+00   3.008870E+00

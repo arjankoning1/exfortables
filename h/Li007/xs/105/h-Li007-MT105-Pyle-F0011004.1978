@@ -1,0 +1,56 @@
+# header:
+#   title: Li7(h,t)Be7 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Pyle
+#   year: 1978
+#   subentry: F0011004
+#   X4 reaction: 3-LI-7(HE3,T)4-BE-7,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/F0011004
+# target:
+#   Z: 3
+#   A: 7
+#   nuclide: Li7
+# reaction:
+#   type: (h,t)
+#   ENDF_MF: 3
+#   ENDF_MT: 105
+# residual:
+#   Z: 4
+#   A: 7
+#   nuclide: Be7
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.700000E+00   0.000000E+00   6.500000E+00   7.000000E-01   1.000000E+00
+   1.700000E+00   0.000000E+00   7.200000E+00   7.000000E-01   1.000000E+00
+   2.800000E+00   0.000000E+00   9.800000E+01   6.000000E+00   1.000000E+00
+   2.800000E+00   0.000000E+00   9.200001E+01   5.000000E+00   1.000000E+00
+   5.900000E+00   0.000000E+00   2.080000E+02   1.200000E+01   1.000000E+00
+   5.900000E+00   0.000000E+00   1.990000E+02   1.100000E+01   1.000000E+00
+   5.900000E+00   0.000000E+00   2.080000E+02   1.200000E+01   1.000000E+00
+   5.900000E+00   0.000000E+00   2.030000E+02   1.100000E+01   1.000000E+00
+# reference:
+#   author: R.V.Pyle,L.Ruby,J.W.Sterbentz
+#   title: Measurement of the 6Li(3He,d)7Be and 7Li(3He,t)7Be cross sections
+#   journal: Jour: Transactions of the American Nuclear Society, Vol.30, p.623 (1978)
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  1.700000E+00
+#   E-max [MeV]:  5.900000E+00
+#   F-value:  8.307030E+00
+#   A-value:  1.230861E-01
+#   chi-2:  1.921861E+02
+#   p-value:  9.060715E-02
+#   exp. data sets for p-value:      1
+#   libraries:      1
+##  Library          F              A            chi-2
+# tendl.2023    8.307030E+00   1.230861E-01   1.921861E+02

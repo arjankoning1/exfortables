@@ -1,0 +1,53 @@
+# header:
+#   title: Pb206(n,p)Tl206 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Belovitskii
+#   year: 1975
+#   subentry: 40347002
+#   X4 reaction: 82-PB-206(N,P)81-TL-206,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/40347002
+# target:
+#   Z: 82
+#   A: 206
+#   nuclide: Pb206
+# reaction:
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 81
+#   A: 206
+#   nuclide: Tl206
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.450000E+01   0.000000E+00   2.000000E+00   4.000000E-01   1.000000E+00
+# reference:
+#   author: G.E.Belovitskii,O.S.Presnyak,L.V.Sukhov
+#   title: The measurement of excitation functions of (n,p) reactions for Pb and Bi isotopes at 13.4-14.8 MeV neutron energy
+#   journal: Conf: 3.All Union Conf.on Neutron Phys.,Kiev,9-13 Jun 1975, Vol.4, p.209
+# statistics:
+#   NEA score: T2
+#   IAEA score:  1
+#   E-min [MeV]:  1.450000E+01
+#   E-max [MeV]:  1.450000E+01
+#   F-value:  1.861759E+00
+#   A-value:  1.728283E+00
+#   chi-2:  2.187230E+01
+#   p-value:  1.249389E-01
+#   exp. data sets for p-value:      1
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    1.672266E+00   1.672266E+00   1.131592E+01
+# endfb8.0      2.452329E+00   2.452329E+00   5.273151E+01
+# jeff3.3       2.155875E+00   2.155875E+00   3.340117E+01
+# jendl5.0      1.682982E+00   1.682982E+00   1.167638E+01
+# cendl3.2      1.036303E+00   1.036303E+00   2.364935E-01

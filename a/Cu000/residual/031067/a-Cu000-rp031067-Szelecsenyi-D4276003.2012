@@ -1,0 +1,59 @@
+# header:
+#   title: Cu0(a,x)Ga67 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Szelecsenyi
+#   year: 2012
+#   subentry: D4276003
+#   X4 reaction: 29-CU-0(A,X)31-GA-67,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D4276003
+# target:
+#   Z: 29
+#   A: 0
+#   nuclide: Cu0
+# reaction:
+#   type: (a,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 31
+#   A: 67
+#   nuclide: Ga67
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 11
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.550000E+01   1.300000E+00   5.600000E+00   7.000000E-01   1.000000E+00
+   1.720000E+01   1.200000E+00   3.160000E+01   3.500000E+00   1.000000E+00
+   1.950000E+01   1.100000E+00   1.137000E+02   1.240000E+01   1.000000E+00
+   2.190000E+01   1.000000E+00   2.068000E+02   2.250000E+01   1.000000E+00
+   2.340000E+01   1.000000E+00   2.588000E+02   2.820000E+01   1.000000E+00
+   2.480000E+01   9.000000E-01   2.763000E+02   3.010000E+01   1.000000E+00
+   2.700000E+01   8.000000E-01   2.844000E+02   3.100000E+01   1.000000E+00
+   2.830000E+01   8.000000E-01   3.025000E+02   3.300000E+01   1.000000E+00
+   3.030000E+01   7.000000E-01   2.665000E+02   2.910000E+01   1.000000E+00
+   3.350000E+01   6.000000E-01   2.163000E+02   2.360000E+01   1.000000E+00
+   3.630000E+01   5.000000E-01   1.421000E+02   1.560000E+01   1.000000E+00
+# reference:
+#   author: F.Szelecsenyi,Z.Kovacs,K.Nagatsu,K.Fukumura,K.Suzuki, K.Mukai
+#   title: Investigation of direct production of 68Ga with low energy multiparticle accelerator
+#   journal: Jour: Radiochimica Acta, Vol.100, p.5 (2012)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  1.550000E+01
+#   E-max [MeV]:  3.630000E+01
+#   F-value:  1.289359E+00
+#   A-value:  1.027326E+00
+#   chi-2:  7.863811E+00
+#   p-value:  3.477617E-01
+#   exp. data sets for p-value:      4
+#   libraries:      1
+##  Library          F              A            chi-2
+# tendl.2023    1.289359E+00   1.027326E+00   7.863811E+00

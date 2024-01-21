@@ -1,0 +1,57 @@
+# header:
+#   title: Zn0(p,x)Cu60 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Szelecsenyi
+#   year: 2005
+#   subentry: E1975005
+#   X4 reaction: 30-ZN-0(P,X)29-CU-60,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/E1975005
+# target:
+#   Z: 30
+#   A: 0
+#   nuclide: Zn0
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 29
+#   A: 60
+#   nuclide: Cu60
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.026000E+01   1.970000E+00   2.489000E+01   2.760000E+00   1.000000E+00
+   3.724000E+01   1.700000E+00   1.111000E+01   1.240000E+00   1.000000E+00
+   4.332000E+01   1.450000E+00   4.780000E+00   5.400000E-01   1.000000E+00
+   4.880000E+01   1.230000E+00   4.580000E+00   5.100000E-01   1.000000E+00
+   5.349000E+01   1.050000E+00   5.700000E+00   6.300000E-01   1.000000E+00
+   5.823000E+01   8.600000E-01   9.139999E+00   1.010000E+00   1.000000E+00
+   6.270000E+01   6.800000E-01   1.300000E+01   1.450000E+00   1.000000E+00
+   6.693000E+01   5.100000E-01   1.836000E+01   2.050000E+00   1.000000E+00
+# reference:
+#   author: F.Szelecsenyi, Z.Kovacs, K.Suzuki, K.Okada,  T.N.van der Walt, G.F.Steyn, S.Mukherjee
+#   title: Production possibility of 61Cu using proton induced nuclear reactions on zinc for PET studies
+#   journal: Jour: Journal of Radioanalytical and Nuclear Chemistry, Vol.263, Issue.2
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  3.026000E+01
+#   E-max [MeV]:  6.693000E+01
+#   F-value:  1.337426E+00
+#   A-value:  9.564397E-01
+#   chi-2:  7.373900E+00
+#   p-value:  3.804883E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.349094E+00   7.758252E-01   5.208242E+00
+# jendl5.0      1.325505E+00   1.179102E+00   9.539558E+00

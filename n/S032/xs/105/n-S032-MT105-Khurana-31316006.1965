@@ -1,0 +1,51 @@
+# header:
+#   title: S32(n,t)P30 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Khurana
+#   year: 1965
+#   subentry: 31316006
+#   X4 reaction: 16-S-32(N,T)15-P-30,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/31316006
+# target:
+#   Z: 16
+#   A: 32
+#   nuclide: S32
+# reaction:
+#   type: (n,t)
+#   ENDF_MF: 3
+#   ENDF_MT: 105
+# residual:
+#   Z: 15
+#   A: 30
+#   nuclide: P30
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.480000E+01   0.000000E+00   2.200000E+00   2.000000E-01   1.000000E+00
+# reference:
+#   author: C.S.Khurana, I.M.Govil
+#   title: The (n,a),(n,p) and (n,t) cross-sections at 14.8 MeV
+#   journal: Jour: Nuclear Physics, Vol.69, p.153 (1965)
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  1.480000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  4.861156E+02
+#   A-value:  2.068052E-03
+#   chi-2:  1.204845E+02
+#   p-value:  5.364418E-07
+#   exp. data sets for p-value:      8
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    3.912140E+02   2.556146E-03   1.203822E+02
+# jeff3.3       4.169184E+02   2.398551E-03   1.204203E+02
+# cendl3.2      6.931872E+02   1.442612E-03   1.206512E+02

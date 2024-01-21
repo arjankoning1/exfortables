@@ -1,0 +1,61 @@
+# header:
+#   title: Mn55(n,x)V52 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Bormann
+#   year: 1965
+#   subentry: 20887007
+#   X4 reaction: 25-MN-55(N,A)23-V-52,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20887007
+# target:
+#   Z: 25
+#   A: 55
+#   nuclide: Mn55
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+# residual:
+#   Z: 23
+#   A: 52
+#   nuclide: V52
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 10
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.260000E+01   2.000000E-01   2.920000E+01   2.100000E+00   1.000000E+00
+   1.320000E+01   2.000000E-01   3.340000E+01   2.400000E+00   1.000000E+00
+   1.400000E+01   3.000000E-01   3.260000E+01   1.700000E+00   1.000000E+00
+   1.500000E+01   3.000000E-01   3.540000E+01   2.600000E+00   1.000000E+00
+   1.580000E+01   3.000000E-01   3.440000E+01   2.500000E+00   1.000000E+00
+   1.670000E+01   3.000000E-01   3.370000E+01   2.400000E+00   1.000000E+00
+   1.750000E+01   3.000000E-01   2.910000E+01   2.100000E+00   1.000000E+00
+   1.810000E+01   3.000000E-01   2.780000E+01   2.000000E+00   1.000000E+00
+   1.880000E+01   2.000000E-01   2.470000E+01   1.800000E+00   1.000000E+00
+   1.880000E+01   1.000000E-01   2.270000E+01   1.600000E+00   1.000000E+00
+# reference:
+#   author: M.Bormann,E.Fretwurst,P.Schehka,G.Wrege,  H.Buettner,A.Lindner,H.Meldner
+#   title: Some excitation functions of neutron induced reactions  in the energy range 12.6-19.6 MeV
+#   journal: Jour: Nuclear Physics, Vol.63, p.438 (1965)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  0
+#   E-min [MeV]:  1.260000E+01
+#   E-max [MeV]:  1.880000E+01
+#   F-value:  1.686900E+00
+#   A-value:  5.991415E-01
+#   chi-2:  3.301602E+01
+#   p-value:  1.494525E-01
+#   exp. data sets for p-value:      2
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2023    1.735651E+00   5.782291E-01   3.668792E+01
+# endfb8.0      1.699209E+00   5.928546E-01   3.398622E+01
+# jeff3.3       1.624058E+00   6.273936E-01   2.837393E+01
+# jendl5.0      0.000000E+00   0.000000E+00   0.000000E+00

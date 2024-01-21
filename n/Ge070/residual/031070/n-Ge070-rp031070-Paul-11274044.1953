@@ -1,0 +1,51 @@
+# header:
+#   title: Ge70(n,x)Ga70 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Paul
+#   year: 1953
+#   subentry: 11274044
+#   X4 reaction: 32-GE-70(N,P)31-GA-70,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11274044
+# target:
+#   Z: 32
+#   A: 70
+#   nuclide: Ge70
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 31
+#   A: 70
+#   nuclide: Ga70
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.450000E+01   0.000000E+00   1.290000E+02   6.450000E+01   1.000000E+00
+# reference:
+#   author: E.B.Paul,R.L.Clarke
+#   title: CROSS SECTION MEASUREMENTS OF REACTIONS INDUCED BY NEUTRONS OF THE 14.5 MEV ENERGY.
+#   journal: Jour: Canadian Journal of Physics, Vol.31, p.267 (1953)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.450000E+01
+#   E-max [MeV]:  1.450000E+01
+#   F-value:  1.473133E+00
+#   A-value:  6.831937E-01
+#   chi-2:  9.150457E-01
+#   p-value:  2.080542E-01
+#   exp. data sets for p-value:      3
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.423428E+00   7.025292E-01   8.528092E-01
+# jeff3.3       1.611954E+00   6.203651E-01   1.133855E+00
+# jendl5.0      1.366722E+00   7.316778E-01   7.584726E-01

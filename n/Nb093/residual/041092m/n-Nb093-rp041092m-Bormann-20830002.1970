@@ -1,0 +1,61 @@
+# header:
+#   title: Nb93(n,x)Nb92m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Bormann
+#   year: 1970
+#   subentry: 20830002
+#   X4 reaction: 41-NB-93(N,2N)41-NB-92-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20830002
+# target:
+#   Z: 41
+#   A: 93
+#   nuclide: Nb93
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 41
+#   A: 92
+#   nuclide: Nb92m
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.266000E+01   1.000000E-01   5.511555E+02   3.394348E+01   9.912866E-01
+   1.339000E+01   1.300000E-01   5.194342E+02   3.097382E+01   9.912866E-01
+   1.482000E+01   1.500000E-01   4.867217E+02   2.910036E+01   9.912866E-01
+   1.564000E+01   1.500000E-01   4.639221E+02   2.771915E+01   9.912866E-01
+   1.695000E+01   1.400000E-01   4.242707E+02   2.535169E+01   9.912866E-01
+   1.796000E+01   1.300000E-01   3.984972E+02   2.377300E+01   9.912866E-01
+# reference:
+#   author: M.Bormann,H.H.Bissem,E.Magiera,R.Warnemunde
+#   title: Total cross sections and isomeric cross section  ratios for (n,2n) reactions in the energy region  12 - 18 MeV
+#   journal: Jour: Nuclear Physics, Section A, Vol.157, p.481 (1970)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  0
+#   E-min [MeV]:  1.266000E+01
+#   E-max [MeV]:  1.796000E+01
+#   F-value:  1.135433E+00
+#   A-value:  9.413989E-01
+#   chi-2:  3.843678E+00
+#   p-value:  2.552983E-01
+#   exp. data sets for p-value:      7
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.130195E+00   9.459078E-01   3.623794E+00
+# jeff3.3       1.127848E+00   9.411428E-01   3.455625E+00
+# jendl5.0      1.147556E+00   9.371666E-01   4.451616E+00

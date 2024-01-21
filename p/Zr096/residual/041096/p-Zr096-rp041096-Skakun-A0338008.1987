@@ -1,0 +1,60 @@
+# header:
+#   title: Zr96(p,x)Nb96 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Skakun
+#   year: 1987
+#   subentry: A0338008
+#   X4 reaction: 40-ZR-96(P,N)41-NB-96,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/A0338008
+# target:
+#   Z: 40
+#   A: 96
+#   nuclide: Zr96
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+# residual:
+#   Z: 41
+#   A: 96
+#   nuclide: Nb96
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 11
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   4.000000E+00   0.000000E+00   1.600000E+00   3.000000E-01   1.000000E+00
+   4.500000E+00   0.000000E+00   1.360000E+01   1.300000E+00   1.000000E+00
+   5.000000E+00   0.000000E+00   4.000000E+01   3.000000E+00   1.000000E+00
+   5.500000E+00   0.000000E+00   8.600000E+01   7.000000E+00   1.000000E+00
+   6.000000E+00   0.000000E+00   1.790000E+02   1.500000E+01   1.000000E+00
+   6.500000E+00   0.000000E+00   3.000000E+02   3.000000E+01   1.000000E+00
+   7.000000E+00   0.000000E+00   4.300000E+02   4.000000E+01   1.000000E+00
+   7.500000E+00   0.000000E+00   5.800000E+02   5.000000E+01   1.000000E+00
+   8.000000E+00   0.000000E+00   6.300001E+02   6.000000E+01   1.000000E+00
+   8.500000E+00   0.000000E+00   6.200001E+02   6.000000E+01   1.000000E+00
+   9.000000E+00   0.000000E+00   5.500000E+02   5.000000E+01   1.000000E+00
+# reference:
+#   author: E.A.Skakun, V.G.Batij, Yu.N.Rakivnenko, O.A.Rastrepin
+#   title: Excitation functions and isomer ratios for up-to-9 MeV proton interactions with Zr and Mo isotope nuclei.
+#   journal: Jour: Yadernaya Fizika, Vol.46, p.28 (1987)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  4.000000E+00
+#   E-max [MeV]:  9.000000E+00
+#   F-value:  2.168038E+00
+#   A-value:  1.354693E+00
+#   chi-2:  2.052106E+02
+#   p-value:  1.989349E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    2.076171E+00   1.362536E+00   1.504424E+02
+# jendl5.0      2.258774E+00   1.346895E+00   2.599788E+02

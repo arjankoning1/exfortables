@@ -1,0 +1,56 @@
+# header:
+#   title: Ni62(n,x)Co62m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Molla
+#   year: 1977
+#   subentry: 20721054
+#   X4 reaction: 28-NI-62(N,P)27-CO-62-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20721054
+# target:
+#   Z: 28
+#   A: 62
+#   nuclide: Ni62
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 27
+#   A: 62
+#   nuclide: Co62m
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.470000E+01   3.000000E-01   2.100000E+01   2.500000E+00   1.000000E+00
+# reference:
+#   author: N.I.Molla,S.M.Qaim
+#   title: A systematic study of (n,p) reactions at 14.7 MeV
+#   journal: Jour: Nuclear Physics, Section A, Vol.283, p.269 (1977)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.470000E+01
+#   E-max [MeV]:  1.470000E+01
+#   F-value:  1.241805E+00
+#   A-value:  8.424809E-01
+#   chi-2:  2.778948E+00
+#   p-value:  2.001624E-01
+#   exp. data sets for p-value:      8
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.423522E+00   7.024828E-01   6.391465E+00
+# jeff3.3       1.042526E+00   9.592088E-01   4.627917E-01
+# jendl5.0      1.126857E+00   8.874243E-01   1.482586E+00

@@ -1,0 +1,59 @@
+# header:
+#   title: Zn64(n,x)Zn63 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Bormann
+#   year: 1969
+#   subentry: 20835007
+#   X4 reaction: 30-ZN-64(N,2N)30-ZN-63,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20835007
+# target:
+#   Z: 30
+#   A: 64
+#   nuclide: Zn64
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 30
+#   A: 63
+#   nuclide: Zn63
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 9
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.410000E+01   1.400000E-01   1.299577E+02   8.147400E+00   9.912866E-01
+   1.482000E+01   1.400000E-01   2.062868E+02   1.074195E+01   9.912866E-01
+   1.546000E+01   1.500000E-01   2.714143E+02   1.728715E+01   9.912866E-01
+   1.605000E+01   1.500000E-01   3.167161E+02   1.997055E+01   9.912866E-01
+   1.651000E+01   1.500000E-01   3.688577E+02   2.324934E+01   9.912866E-01
+   1.708000E+01   1.400000E-01   3.985963E+02   2.523595E+01   9.912866E-01
+   1.748000E+01   1.400000E-01   4.048415E+02   2.563335E+01   9.912866E-01
+   1.784000E+01   1.300000E-01   4.344809E+02   2.742212E+01   9.912866E-01
+   1.813000E+01   1.100000E-01   4.437991E+02   3.999362E+01   9.912866E-01
+# reference:
+#   author: M.BORMANN,B.LAMMERS
+#   title: -EXCITATION FUNCTIONS OF (N,P) AND (N,2N) REACTIONS  FOR SOME ISOTOPES OF K,MN,ZN AND CU-.
+#   journal: Jour: Nuclear Physics, Section A, Vol.130, p.195 (1969)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.410000E+01
+#   E-max [MeV]:  1.813000E+01
+#   F-value:  1.658282E+00
+#   A-value:  6.145375E-01
+#   chi-2:  3.679857E+01
+#   p-value:  1.271041E-01
+#   exp. data sets for p-value:      8
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.887886E+00   5.304503E-01   5.436843E+01
+# jeff3.3       1.581577E+00   6.350716E-01   3.246709E+01
+# jendl5.0      1.479607E+00   6.889343E-01   2.356021E+01

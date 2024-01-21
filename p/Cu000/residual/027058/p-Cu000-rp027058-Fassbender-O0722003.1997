@@ -1,0 +1,52 @@
+# header:
+#   title: Cu0(p,x)Co58 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Fassbender
+#   year: 1997
+#   subentry: O0722003
+#   X4 reaction: 29-CU-0(P,X)27-CO-58,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O0722003
+# target:
+#   Z: 29
+#   A: 0
+#   nuclide: Cu0
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 27
+#   A: 58
+#   nuclide: Co58
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.144000E+02   1.076654E+00   3.401710E+01   3.902000E+00   1.000503E+00
+   2.541000E+02   1.274429E+00   3.341679E+01   3.801900E+00   1.000503E+00
+# reference:
+#   author: M.Fassbender, Yu.N.Shubin, V.P.Lunev, S.M.Qaim
+#   title: Experimental studies and nuclear model calculations on the formation of radioactive products in interactions of medium energy protons with copper, zinc and brass:  estimation of collimator activation in proton therapy facilities.
+#   journal: Jour: Applied Radiation and Isotopes, Vol.48, p.1221 (1997)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  2.144000E+02
+#   E-max [MeV]:  2.541000E+02
+#   F-value:  1.779243E+00
+#   A-value:  5.620368E-01
+#   chi-2:  1.458183E+01
+#   p-value:  1.232021E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    0.000000E+00   0.000000E+00   0.000000E+00
+# endfb8.0      1.779243E+00   5.620368E-01   1.458183E+01
+# jendl5.0      0.000000E+00   0.000000E+00   0.000000E+00

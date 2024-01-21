@@ -1,0 +1,51 @@
+# header:
+#   title: Ni61(a,p)Cu64 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Tanaka
+#   year: 1960
+#   subentry: P0037017
+#   X4 reaction: 28-NI-61(A,P)29-CU-64,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/P0037017
+# target:
+#   Z: 28
+#   A: 61
+#   nuclide: Ni61
+# reaction:
+#   type: (a,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 29
+#   A: 64
+#   nuclide: Cu64
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   8.460000E+00   0.000000E+00   2.040000E+01   6.120000E+00   1.000000E+00
+   1.240000E+01   0.000000E+00   8.320000E+01   0.000000E+00   1.000000E+00
+   1.560000E+01   0.000000E+00   1.480000E+02   2.880000E+01   1.000000E+00
+# reference:
+#   author: S.TANAKA
+#   title: Reactions of Nickel with Alpha-Particles
+#   journal: Jour: Journal of the Physical Society of Japan, Vol.15, p.2159 (1960)
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  8.460000E+00
+#   E-max [MeV]:  1.560000E+01
+#   F-value:  2.049804E+00
+#   A-value:  7.119063E-01
+#   chi-2:  2.465550E+00
+#   p-value:  3.190061E-01
+#   exp. data sets for p-value:      1
+#   libraries:      1
+##  Library          F              A            chi-2
+# tendl.2023    2.049804E+00   7.119063E-01   2.465550E+00

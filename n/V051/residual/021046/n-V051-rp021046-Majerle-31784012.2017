@@ -1,0 +1,56 @@
+# header:
+#   title: V51(n,x)Sc46 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Majerle
+#   year: 2017
+#   subentry: 31784012
+#   X4 reaction: 23-V-51(N,X)21-SC-46,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/31784012
+# target:
+#   Z: 23
+#   A: 51
+#   nuclide: V51
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 21
+#   A: 46
+#   nuclide: Sc46
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.970000E+01   4.400000E+00   3.000000E-01   2.000000E-01   1.000000E+00
+   2.260000E+01   4.000000E+00   2.000000E-01   9.999999E-02   1.000000E+00
+   2.740000E+01   3.400000E+00   9.000000E-01   3.000000E-01   1.000000E+00
+   3.000000E+01   3.200000E+00   7.000000E-01   2.000000E-01   1.000000E+00
+   3.260000E+01   3.000000E+00   1.500000E+01   2.000000E+00   1.000000E+00
+   3.420000E+01   2.800000E+00   2.200000E+01   2.000000E+00   1.000000E+00
+# reference:
+#   author: M.Majerle, E.Simeckova, P.Bem, J.Novak, M.Stefanik
+#   title: natCu and natV cross-sections measured by quasi-monoenergetic neutrons from p+7Li reaction in the energy range of 18-34 MeV
+#   journal: Jour: EPJ Web of Conferences, Vol.146, p.09019 (2017)
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  1.970000E+01
+#   E-max [MeV]:  3.420000E+01
+#   F-value:  3.836160E+00
+#   A-value:  1.475705E+00
+#   chi-2:  2.491978E+02
+#   p-value:  1.477410E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    3.968153E+00   1.790441E+00   2.706303E+02
+# jeff3.3       4.177291E+00   2.270310E+00   4.501614E+02
+# jendl5.0      3.374371E+00   7.905940E-01   2.680165E+01

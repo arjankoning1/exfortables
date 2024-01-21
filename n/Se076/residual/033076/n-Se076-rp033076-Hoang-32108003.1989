@@ -1,0 +1,58 @@
+# header:
+#   title: Se76(n,x)As76 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Hoang
+#   year: 1989
+#   subentry: 32108003
+#   X4 reaction: 34-SE-76(N,P)33-AS-76,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/32108003
+# target:
+#   Z: 34
+#   A: 76
+#   nuclide: Se76
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 33
+#   A: 76
+#   nuclide: As76
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.300000E+01   4.000000E-01   5.997767E+01   6.069400E+00   1.016571E+00
+   1.340000E+01   4.000000E-01   5.758023E+01   6.020700E+00   1.010180E+00
+   1.390000E+01   2.000000E-01   5.493741E+01   5.027500E+00   1.017359E+00
+   1.450000E+01   3.000000E-01   4.981401E+01   5.026100E+00   1.016613E+00
+   1.500000E+01   3.000000E-01   4.630314E+01   5.090900E+00   1.028959E+00
+   1.540000E+01   2.000000E-01   4.476199E+01   6.199200E+00   1.040976E+00
+   1.590000E+01   5.000000E-01   4.193917E+01   5.994020E+00   1.022906E+00
+   1.660000E+01   1.000000E-01   3.770944E+01   5.174900E+00   1.047485E+00
+# reference:
+#   author: H.M.Hoang,U.Garuska,A.Marcinkowski,B.Zwieglinski
+#   title: Cross sections of fast neutron induced reaction on selenium isotopes
+#   journal: Jour: Zeitschrift fuer Physik A, Hadrons and Nuclei, Vol.334, Issue.3, p
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.300000E+01
+#   E-max [MeV]:  1.660000E+01
+#   F-value:  1.275010E+00
+#   A-value:  1.184146E+00
+#   chi-2:  5.452766E+00
+#   p-value:  2.422015E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.313544E+00   1.270286E+00   6.965387E+00
+# jeff3.3       1.128256E+00   1.078443E+00   1.442425E+00
+# jendl5.0      1.345653E+00   1.212039E+00   7.950487E+00

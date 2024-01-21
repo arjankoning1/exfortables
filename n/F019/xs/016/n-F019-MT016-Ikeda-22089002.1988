@@ -1,0 +1,61 @@
+# header:
+#   title: F19(n,2n)F18 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Ikeda
+#   year: 1988
+#   subentry: 22089002
+#   X4 reaction: 9-F-19(N,2N)9-F-18,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22089002
+# target:
+#   Z: 9
+#   A: 19
+#   nuclide: F19
+# reaction:
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 9
+#   A: 18
+#   nuclide: F18
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.336000E+01   0.000000E+00   2.554481E+01   1.402460E+00   1.001757E+00
+   1.358000E+01   0.000000E+00   2.704745E+01   1.402460E+00   1.001757E+00
+   1.376000E+01   0.000000E+00   3.335852E+01   1.803200E+00   1.001757E+00
+   1.399000E+01   0.000000E+00   3.586291E+01   1.903300E+00   1.001757E+00
+   1.423000E+01   0.000000E+00   4.027065E+01   2.203900E+00   1.001757E+00
+   1.445000E+01   0.000000E+00   4.537961E+01   2.404200E+00   1.001757E+00
+   1.469000E+01   0.000000E+00   5.048857E+01   2.704700E+00   1.001757E+00
+   1.496000E+01   0.000000E+00   5.189103E+01   2.804900E+00   1.001757E+00
+# reference:
+#   author: Y.Ikeda,C.Konno,K.Oishi,T.Nakamura,H.Miyade, K.Kawade,  H.Yamamoto, T.Katoh
+#   title: Activation cross section measurements for fusion  reactor structural materials at neutron energy from  13.3 to 15.0 MeV using FNS facility
+#   journal: Rept: JAERI Reports, No.1312 (1988)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.336000E+01
+#   E-max [MeV]:  1.496000E+01
+#   F-value:  1.150470E+00
+#   A-value:  1.101416E+00
+#   chi-2:  8.975800E+00
+#   p-value:  2.543766E-01
+#   exp. data sets for p-value:      6
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2023    1.158114E+00   1.125819E+00   9.869738E+00
+# endfb8.0      1.158114E+00   1.125819E+00   9.869738E+00
+# jeff3.3       1.158114E+00   1.125819E+00   9.869738E+00
+# jendl5.0      1.185011E+00   1.159791E+00   1.299447E+01
+# cendl3.2      1.158114E+00   1.125819E+00   9.869738E+00
+# irdff2.0      1.055115E+00   9.581932E-01   1.381375E+00

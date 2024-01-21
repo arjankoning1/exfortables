@@ -1,0 +1,63 @@
+# header:
+#   title: Fe0(p,x)Cl36 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Michel
+#   year: 1997
+#   subentry: O0276061
+#   X4 reaction: 26-FE-0(P,X)17-CL-36,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O0276061
+# target:
+#   Z: 26
+#   A: 0
+#   nuclide: Fe0
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 17
+#   A: 36
+#   nuclide: Cl36
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 13
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.140000E+02   1.500000E+00   4.100000E-02   4.000000E-03   1.000000E+00
+   1.370000E+02   1.400000E+00   9.999999E-02   8.000000E-03   1.000000E+00
+   1.600000E+02   1.000000E+00   2.250000E-01   1.000000E-02   1.000000E+00
+   2.360000E+02   1.500000E+00   7.330000E-01   6.700000E-02   1.000000E+00
+   2.360000E+02   1.530000E+00   8.740000E-01   8.020000E-02   1.000000E+00
+   2.370000E+02   1.600000E+00   8.740000E-01   8.000000E-02   1.000000E+00
+   2.370000E+02   1.550000E+00   7.330000E-01   6.720001E-02   1.000000E+00
+   2.800000E+02   1.020000E+00   1.200000E+00   1.100000E-01   1.000000E+00
+   3.450000E+02   1.200000E+00   2.320000E+00   1.800000E-01   1.000000E+00
+   3.460000E+02   1.510000E+00   2.280000E+00   2.090000E-01   1.000000E+00
+   3.820000E+02   1.000000E+00   2.920000E+00   2.000000E-01   1.000000E+00
+   1.600000E+03   1.000000E+00   1.030000E+01   6.100000E-01   1.000000E+00
+   2.600000E+03   1.000000E+00   8.540000E+00   1.280000E+00   1.000000E+00
+# reference:
+#   author: R.Michel, R.Bodemann, H.Busemann, R.Daunke, M.Gloris, H.-J.Lange, B.Klug, A.Krins, I.Leya, M.Luepke, S.Neumann, H.Reinhardt, M.Schnatz-Buettgen, U.Herpers, Th.Schiekel, F.Sudbrock, B.Holmqvist, H.Conde, P.Malmborg, M.Suter, B.Dittrich-Hannen, P.-W.Kubik, H.-A.Synal, D.Filges
+#   title: Cross sections for the production of residual nuclides by low- and medium-energy protons from the target elements C, N, O, Mg, Al, Si, Ca, Ti, V, Mn, Fe, Co, Ni, Cu, Sr, Y, Zr, Nb, Ba and Au.
+#   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.129, p.153 (19
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  1.140000E+02
+#   E-max [MeV]:  2.600000E+03
+#   F-value:  1.105171E+01
+#   A-value:  1.259344E-01
+#   chi-2:  1.457527E+02
+#   p-value:  4.145354E-02
+#   exp. data sets for p-value:      2
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    4.242297E+01   2.478399E-02   3.065762E+02
+# endfb8.0      1.478610E+01   6.763107E-02   1.358300E+02
+# jendl5.0      3.346938E+00   3.674803E-01   5.314421E+01

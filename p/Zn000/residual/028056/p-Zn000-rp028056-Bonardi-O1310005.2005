@@ -1,0 +1,56 @@
+# header:
+#   title: Zn0(p,x)Ni56 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Bonardi
+#   year: 2005
+#   subentry: O1310005
+#   X4 reaction: 30-ZN-0(P,X)28-NI-56,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O1310005
+# target:
+#   Z: 30
+#   A: 0
+#   nuclide: Zn0
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 28
+#   A: 56
+#   nuclide: Ni56
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   7.435000E+01   4.500000E-01   3.000000E-02   1.000000E-02   1.000000E+00
+   8.665000E+01   4.500000E-01   8.000000E-02   2.000000E-02   1.000000E+00
+   9.780000E+01   4.000000E-01   9.000000E-02   3.000000E-02   1.000000E+00
+   1.084500E+02   3.500000E-01   9.999999E-02   3.000000E-02   1.000000E+00
+   1.197500E+02   3.500000E-01   1.100000E-01   3.000000E-02   1.000000E+00
+   1.304500E+02   3.500000E-01   1.400000E-01   3.000000E-02   1.000000E+00
+   1.408000E+02   3.000000E-01   1.400000E-01   3.000000E-02   1.000000E+00
+# reference:
+#   author: M.L.Bonardi, F.Groppi, H.S.Mainardi, V.M.Kokhanyuk, E.V.Lapshina, M.V.Mebel, B.L.Zhuikov
+#   title: Cross section studies on Cu-64 with zinc target in the proton energy range from 141 down to 31-MeV.
+#   journal: Jour: Journal of Radioanalytical and Nuclear Chemistry, Vol.264, p.101 (
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  7.435000E+01
+#   E-max [MeV]:  1.408000E+02
+#   F-value:  1.593052E+00
+#   A-value:  1.472600E+00
+#   chi-2:  5.927598E+00
+#   p-value:  2.435445E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.403892E+00   1.278672E+00   3.695957E+00
+# jendl5.0      1.758433E+00   1.695939E+00   8.159238E+00

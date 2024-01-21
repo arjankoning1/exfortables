@@ -1,0 +1,59 @@
+# header:
+#   title: Cr0(p,x)V48 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Klein
+#   year: 2000
+#   subentry: O0771017
+#   X4 reaction: 24-CR-0(P,X)23-V-48,IND,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O0771017
+# target:
+#   Z: 24
+#   A: 0
+#   nuclide: Cr0
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 23
+#   A: 48
+#   nuclide: V48
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 9
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.006000E+01   3.800000E-01   1.400100E-01   1.400100E-01   1.000100E+00
+   2.272000E+01   3.400000E-01   4.830500E+00   7.900800E-01   1.000100E+00
+   2.515000E+01   3.200000E-01   2.240224E+01   3.300330E+00   1.000100E+00
+   2.742000E+01   3.000000E-01   3.960396E+01   6.000600E+00   1.000100E+00
+   2.955000E+01   2.800000E-01   5.070508E+01   7.600760E+00   1.000100E+00
+   3.157000E+01   2.700000E-01   5.350535E+01   8.000800E+00   1.000100E+00
+   3.349000E+01   2.500000E-01   5.510551E+01   8.200800E+00   1.000100E+00
+   3.567000E+01   2.400000E-01   4.790480E+01   7.200720E+00   1.000100E+00
+   3.808000E+01   2.300000E-01   4.190420E+01   6.200620E+00   1.000100E+00
+# reference:
+#   author: A.T.J.Klein,F.Roesch,S.M.Qaim
+#   title: Investigation of Cr-50(d,n)Mn-51 and Nat-Cr(p,x)Mn-51 processes with respect to the production of the positron emitter Mn-51.
+#   journal: Jour: Radiochimica Acta, Vol.88, p.253 (2000)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  2.006000E+01
+#   E-max [MeV]:  3.808000E+01
+#   F-value:  1.424928E+00
+#   A-value:  9.435079E-01
+#   chi-2:  5.595093E+00
+#   p-value:  3.281915E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.345761E+00   1.052371E+00   5.651529E+00
+# endfb8.0      1.596394E+00   6.859055E-01   5.962319E+00
+# jendl5.0      1.300984E+00   1.163599E+00   5.171433E+00

@@ -1,0 +1,65 @@
+# header:
+#   title: Ni58(n,x)Co57 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Filatenkov
+#   year: 2016
+#   subentry: 41614025
+#   X4 reaction: 28-NI-58(N,X)27-CO-57,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/41614025
+# target:
+#   Z: 28
+#   A: 58
+#   nuclide: Ni58
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 28
+# residual:
+#   Z: 27
+#   A: 57
+#   nuclide: Co57
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 15
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.347000E+01   0.000000E+00   5.119970E+02   2.834392E+01   9.999942E-01
+   1.356000E+01   0.000000E+00   5.400050E+02   2.640131E+01   1.000009E+00
+   1.364000E+01   0.000000E+00   5.510013E+02   2.103374E+01   1.000002E+00
+   1.374000E+01   0.000000E+00   5.739945E+02   1.483043E+01   9.999903E-01
+   1.388000E+01   0.000000E+00   5.650060E+02   3.146603E+01   1.000010E+00
+   1.396000E+01   0.000000E+00   5.929985E+02   1.688497E+01   9.999973E-01
+   1.405000E+01   0.000000E+00   6.000046E+02   2.489963E+01   1.000008E+00
+   1.419000E+01   0.000000E+00   6.380020E+02   1.773258E+01   1.000003E+00
+   1.428000E+01   0.000000E+00   6.379950E+02   2.564937E+01   9.999922E-01
+   1.442000E+01   0.000000E+00   6.560028E+02   3.221096E+01   1.000004E+00
+   1.447000E+01   0.000000E+00   6.489957E+02   3.076657E+01   9.999934E-01
+   1.461000E+01   0.000000E+00   6.760030E+02   1.967259E+01   1.000004E+00
+   1.468000E+01   0.000000E+00   6.599942E+02   3.294030E+01   9.999912E-01
+   1.478000E+01   0.000000E+00   6.830060E+02   2.720365E+01   1.000009E+00
+   1.486000E+01   0.000000E+00   6.890031E+02   2.702503E+01   1.000004E+00
+# reference:
+#   author: A.A.Filatenkov
+#   title: Neutron activation cross sections measured at KRI in neutron energy region 13.4 - 14.9 MeV
+#   journal: Rept: USSR report to the I.N.D.C., No.0460 (2016)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.347000E+01
+#   E-max [MeV]:  1.486000E+01
+#   F-value:  1.042175E+00
+#   A-value:  9.877043E-01
+#   chi-2:  1.763131E+00
+#   p-value:  2.896749E-01
+#   exp. data sets for p-value:      8
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.043567E+00   1.032707E+00   1.377578E+00
+# endfb8.0      1.044024E+00   9.634594E-01   2.130673E+00
+# jendl5.0      1.038741E+00   9.684349E-01   1.781142E+00

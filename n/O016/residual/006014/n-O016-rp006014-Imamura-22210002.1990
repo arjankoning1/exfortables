@@ -1,0 +1,56 @@
+# header:
+#   title: O16(n,x)C14 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Imamura
+#   year: 1990
+#   subentry: 22210002
+#   X4 reaction: 8-O-16(N,X)6-C-14,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22210002
+# target:
+#   Z: 8
+#   A: 16
+#   nuclide: O16
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 6
+#   A: 14
+#   nuclide: C14
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.390000E+01   1.900000E+00   1.240000E+00   2.000000E-01   1.000000E+00
+   2.655000E+01   1.550000E+00   4.290000E+00   3.500000E-01   1.000000E+00
+   2.725000E+01   8.500000E-01   4.140000E+00   2.300000E-01   1.000000E+00
+   3.235000E+01   7.499980E-01   2.160000E+00   3.000000E-01   1.000000E+00
+   3.440000E+01   1.400000E+00   1.460000E+00   5.100000E-01   1.000000E+00
+# reference:
+#   author: M.IMAMURA,H.NAGAI,M.TAKABATAKE,S.SHIBATA,K.KOBAYASHI,  K.YOSHIDA,H.OHASHI,Y.UWAMINO,T.NAKAMURA
+#   title: -MEASUREMENTS OF PRODUCTION CROSS SECTIONS OF 14-C AND  26-AL WITH HIGH-ENERGY NEUTRONS UP TO EN=38 MEV BY  ACCELERATOR MASS SPECTROMETRY.
+#   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.52, p.595 (199
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.390000E+01
+#   E-max [MeV]:  3.440000E+01
+#   F-value:  1.557252E+00
+#   A-value:  1.412048E+00
+#   chi-2:  9.633115E+00
+#   p-value:  2.278641E-01
+#   exp. data sets for p-value:      1
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2023    2.163882E+00   2.063361E+00   2.048837E+01
+# endfb8.0      0.000000E+00   0.000000E+00   0.000000E+00
+# jeff3.3       2.163882E+00   2.063361E+00   2.048837E+01
+# jendl5.0      1.257335E+00   1.240311E+00   4.910115E+00

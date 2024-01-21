@@ -1,0 +1,50 @@
+# header:
+#   title: Mo98(n,x)Mo99 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Booth
+#   year: 1958
+#   subentry: 11429014
+#   X4 reaction: 42-MO-98(N,G)42-MO-99,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11429014
+# target:
+#   Z: 42
+#   A: 98
+#   nuclide: Mo98
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+# residual:
+#   Z: 42
+#   A: 99
+#   nuclide: Mo99
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.400000E-02   5.000000E-03   3.900000E+02   1.200000E+02   1.000000E+00
+# reference:
+#   author: R.Booth,W.P.Ball,M.H.Mac GRegor
+#   title: Neutron activation cross sections at 25keV.
+#   journal: Jour: Physical Review, Vol.112, p.226 (1958)
+# statistics:
+#   NEA score: T2
+#   IAEA score:  1
+#   E-min [MeV]:  2.400000E-02
+#   E-max [MeV]:  2.400000E-02
+#   F-value:  3.397656E+02
+#   A-value:  2.954422E-03
+#   chi-2:  1.052359E+01
+#   p-value:  2.563000E-06
+#   exp. data sets for p-value:      8
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    4.177905E+02   2.393544E-03   1.053664E+01
+# jendl5.0      2.742181E+02   3.646732E-03   1.051054E+01

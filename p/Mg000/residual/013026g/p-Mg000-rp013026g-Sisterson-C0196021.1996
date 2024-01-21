@@ -1,0 +1,57 @@
+# header:
+#   title: Mg0(p,x)Al26g cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Sisterson
+#   year: 1996
+#   subentry: C0196021
+#   X4 reaction: 12-MG-0(P,X)13-AL-26-G,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C0196021
+# target:
+#   Z: 12
+#   A: 0
+#   nuclide: Mg0
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 13
+#   A: 26
+#   nuclide: Al26g
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.000000E+02   1.000000E+00   1.600000E-01   1.000000E-02   1.000000E+00
+   3.000000E+02   1.000000E+00   1.300000E-01   1.000000E-02   1.000000E+00
+   4.000000E+02   1.000000E+00   9.600000E-02   8.000000E-03   1.000000E+00
+   5.000000E+02   1.000000E+00   9.200000E-02   7.000000E-03   1.000000E+00
+# reference:
+#   author: J.M.Sisterson,K.Kim,A.Beverding,P.A.J.Englert, M.W.Caffee,J.Vincent,C.Castaneda,R.C.Reedy
+#   title: Measuring excitation functions needed to interpret  cosmogenic nuclide production in lunar rocks.
+#   journal: Conf: Conf.on Appl.of Accel.in Res.and Ind.,Denton,USA,1996, p.811 (1996
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  2.000000E+02
+#   E-max [MeV]:  5.000000E+02
+#   F-value:  1.537490E+01
+#   A-value:  6.504107E-02
+#   chi-2:  2.237819E+02
+#   p-value:  2.980232E-08
+#   exp. data sets for p-value:      1
+#   libraries:      1
+##  Library          F              A            chi-2
+# tendl.2023    1.537490E+01   6.504107E-02   2.237819E+02

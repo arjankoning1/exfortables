@@ -1,0 +1,50 @@
+# header:
+#   title: U235(n,xg) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Nefedov
+#   year: 2000
+#   subentry: 41379032
+#   X4 reaction: 92-U-235(N,X)0-G-0,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/41379032
+# target:
+#   Z: 92
+#   A: 235
+#   nuclide: U235
+# reaction:
+#   type: (n,xg)
+#   ENDF_MF: 3
+#   ENDF_MT: 202
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.430000E+01   0.000000E+00   1.292800E+04   1.164000E+03   1.000000E+00
+# reference:
+#   author: Yu.Ya.Nefedov, V.I.Nagornyj, V.I.Semenov, A.K.Zhitnik,  R.A.Orlov, A.E.Shmarov
+#   title: Gamma-ray production cross-section and spectrum measurement results for inelastic interaction of 14 MeV neutrons with nuclei of Na, S, Cl, Ti, V, Cr, Ni, Zn, Ge, Nb, Cd, In, Sn, Bi, 235U and 238U
+#   journal: Jour: Vop.At.Nauki i Tekhn.,Ser.Yaderno-Reak.Konstanty, Issue.1, p.7 (20
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  1.430000E+01
+#   E-max [MeV]:  1.430000E+01
+#   F-value:  1.039224E+03
+#   A-value:  1.314656E-03
+#   chi-2:  1.224247E+02
+#   p-value:  1.192093E-07
+#   exp. data sets for p-value:      1
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2023    1.774240E+02   5.636216E-03   1.219684E+02
+# endfb8.0      1.774240E+02   5.636216E-03   1.219684E+02
+# jeff3.3       1.398102E+04   7.152557E-05   1.233373E+02
+# jendl5.0      0.000000E+00   0.000000E+00   0.000000E+00
+# cendl3.2      0.000000E+00   0.000000E+00   0.000000E+00
+# irdff2.0      0.000000E+00   0.000000E+00   0.000000E+00

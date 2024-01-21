@@ -1,0 +1,50 @@
+# header:
+#   title: Mo92(n,x)Nb91 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Colli
+#   year: 1959
+#   subentry: 21264010
+#   X4 reaction: 42-MO-92(N,N+P)41-NB-91,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21264010
+# target:
+#   Z: 42
+#   A: 92
+#   nuclide: Mo92
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 28
+# residual:
+#   Z: 41
+#   A: 91
+#   nuclide: Nb91
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.410000E+01   1.000000E-01   7.375174E+02   7.440000E+01   9.912868E-01
+# reference:
+#   author: L.Colli,U.Facchini,I.Iori,M.G.Marcazzan,A.M.Sona
+#   title: (n,p) and (n,np) reactions with 14 MeV neutrons
+#   journal: Jour: Nuovo Cimento, Vol.13, p.730 (1959)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.410000E+01
+#   E-max [MeV]:  1.410000E+01
+#   F-value:  1.008924E+00
+#   A-value:  1.003178E+00
+#   chi-2:  1.055357E-01
+#   p-value:  3.842261E-01
+#   exp. data sets for p-value:      4
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.011538E+00   1.011538E+00   1.468598E-01
+# jendl5.0      1.005140E+00   9.948864E-01   6.421161E-02

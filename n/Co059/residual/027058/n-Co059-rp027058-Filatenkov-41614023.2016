@@ -1,0 +1,56 @@
+# header:
+#   title: Co59(n,x)Co58 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Filatenkov
+#   year: 2016
+#   subentry: 41614023
+#   X4 reaction: 27-CO-59(N,2N)27-CO-58,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/41614023
+# target:
+#   Z: 27
+#   A: 59
+#   nuclide: Co59
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 27
+#   A: 58
+#   nuclide: Co58
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.356000E+01   0.000000E+00   5.930055E+02   2.015439E+01   1.000009E+00
+   1.374000E+01   0.000000E+00   6.349939E+02   2.009675E+01   9.999903E-01
+   1.396000E+01   0.000000E+00   6.659983E+02   2.422872E+01   9.999973E-01
+   1.419000E+01   0.000000E+00   6.730021E+02   2.409030E+01   1.000003E+00
+   1.442000E+01   0.000000E+00   7.320033E+02   2.386536E+01   1.000004E+00
+   1.461000E+01   0.000000E+00   7.350032E+02   2.594642E+01   1.000004E+00
+   1.478000E+01   0.000000E+00   7.400067E+02   2.518559E+01   1.000009E+00
+# reference:
+#   author: A.A.Filatenkov
+#   title: Neutron activation cross sections measured at KRI in neutron energy region 13.4 - 14.9 MeV
+#   journal: Rept: USSR report to the I.N.D.C., No.0460 (2016)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.356000E+01
+#   E-max [MeV]:  1.478000E+01
+#   F-value:  1.035742E+00
+#   A-value:  1.028975E+00
+#   chi-2:  1.488531E+00
+#   p-value:  3.903618E-01
+#   exp. data sets for p-value:      8
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.022318E+00   1.016870E+00   7.550267E-01
+# jendl5.0      1.045495E+00   1.041224E+00   2.222036E+00

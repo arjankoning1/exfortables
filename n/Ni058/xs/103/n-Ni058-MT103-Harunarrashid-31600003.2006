@@ -1,0 +1,54 @@
+# header:
+#   title: Ni58(n,p)Co58 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Harunarrashid
+#   year: 2006
+#   subentry: 31600003
+#   X4 reaction: 28-NI-58(N,P)27-CO-58,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/31600003
+# target:
+#   Z: 28
+#   A: 58
+#   nuclide: Ni58
+# reaction:
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 27
+#   A: 58
+#   nuclide: Co58
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.480000E+01   0.000000E+00   3.840522E+02   3.310123E+01   9.994333E-01
+# reference:
+#   author: A.K.M.Harun-Ar-Rashid,M.U.Khandaker,M.N.Islam, A.K.M.M.H.Meaze,Sk.A.Latif,M.A.Halim,K.Naher, M.N.Chowdhury,M.S.Uddin,M.A.Hafiz,M.M.Rahman
+#   title: Measurement of cross sections for the reactions 665Cu(n,alpha)62gCo, 65Cu(n,p)65Ni, 65Cu(n,2n)64Cu, 58Ni(n,2n)57Ni and 58N(n,p)58m+gCo at 14.8 MeV neutron energy
+#   journal: Jour: Indian Journal of Physics, Vol.80, p.737 (2006)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  0
+#   E-min [MeV]:  1.480000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.366538E+00
+#   A-value:  7.323699E-01
+#   chi-2:  9.704123E+00
+#   p-value:  2.547240E-02
+#   exp. data sets for p-value:      8
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2023    1.344807E+00   7.436012E-01   8.900290E+00
+# endfb8.0      1.425747E+00   7.013867E-01   1.201625E+01
+# jeff3.3       1.348047E+00   7.418140E-01   9.021490E+00
+# jendl5.0      1.387856E+00   7.205359E-01   1.053806E+01
+# cendl3.2      1.341099E+00   7.456570E-01   8.762086E+00
+# irdff2.0      1.347114E+00   7.423276E-01   8.986567E+00

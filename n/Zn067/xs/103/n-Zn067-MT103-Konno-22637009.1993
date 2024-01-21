@@ -1,0 +1,59 @@
+# header:
+#   title: Zn67(n,p)Cu67 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Konno
+#   year: 1993
+#   subentry: 22637009
+#   X4 reaction: 30-ZN-67(N,P)29-CU-67,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22637009
+# target:
+#   Z: 30
+#   A: 67
+#   nuclide: Zn67
+# reaction:
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 29
+#   A: 67
+#   nuclide: Cu67
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.333000E+01   0.000000E+00   3.274083E+01   2.529400E+00   9.573342E-01
+   1.357000E+01   0.000000E+00   3.637870E+01   2.774200E+00   9.573342E-01
+   1.398000E+01   0.000000E+00   3.283656E+01   2.527300E+00   9.573342E-01
+   1.422000E+01   0.000000E+00   3.494270E+01   2.697600E+00   9.573342E-01
+   1.466000E+01   0.000000E+00   3.628296E+01   2.776300E+00   9.573342E-01
+   1.493000E+01   0.000000E+00   3.379390E+01   2.614600E+00   9.573342E-01
+# reference:
+#   author: C.Konno, Y.Ikeda, K.Oishi, K.Kawade, H.Yamamoto, H.Maekawa
+#   title: Activation Cross section measurements at neutron  energy from 13.3 to 14.9 MeV
+#   journal: Rept: JAERI Reports, No.1329 (1993)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.333000E+01
+#   E-max [MeV]:  1.493000E+01
+#   F-value:  1.114196E+00
+#   A-value:  1.036120E+00
+#   chi-2:  2.694627E+00
+#   p-value:  3.182844E-01
+#   exp. data sets for p-value:      3
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2023    1.054251E+00   9.852353E-01   7.042238E-01
+# endfb8.0      1.274361E+00   1.266395E+00   1.298164E+01
+# jeff3.3       1.053861E+00   9.859143E-01   6.990679E-01
+# jendl5.0      1.028194E+00   9.852398E-01   3.484061E-01
+# cendl3.2      1.049098E+00   1.035699E+00   7.347127E-01
+# irdff2.0      1.053976E+00   9.856818E-01   6.997120E-01

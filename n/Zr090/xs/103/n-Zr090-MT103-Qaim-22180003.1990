@@ -1,0 +1,57 @@
+# header:
+#   title: Zr90(n,p)Y90 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Qaim
+#   year: 1990
+#   subentry: 22180003
+#   X4 reaction: 40-ZR-90(N,P)39-Y-90,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22180003
+# target:
+#   Z: 40
+#   A: 90
+#   nuclide: Zr90
+# reaction:
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 39
+#   A: 90
+#   nuclide: Y90
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   8.210000E+00   2.600000E-01   1.115213E+01   1.144530E+00   9.957259E-01
+   8.720000E+00   2.800000E-01   9.777600E+00   9.581900E-01   1.008003E+00
+   9.190000E+00   3.800000E-01   1.627444E+01   1.767220E+00   1.036589E+00
+   9.640000E+00   4.400000E-01   1.538047E+01   1.760900E+00   1.011873E+00
+   1.013000E+01   4.600000E-01   2.056176E+01   2.121800E+00   1.003013E+00
+   1.061000E+01   4.400000E-01   2.187815E+01   2.220300E+00   1.008210E+00
+# reference:
+#   author: S.M.QAIM,M.IBN MAJAH,R.WOELFLE,B.STROHMAIER
+#   title: -EXCITATION FUNCTIONS AND ISOMERIC CROSS-SECTION  RATIOS FOR THE 90-ZR(N,P)90-Y-M,G AND  91-ZR(N,P)91-Y-M,G PROCESSES.
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.42, p.363 (1990)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  8.210000E+00
+#   E-max [MeV]:  1.061000E+01
+#   F-value:  1.264338E+00
+#   A-value:  9.555737E-01
+#   chi-2:  4.495231E+00
+#   p-value:  3.308485E-01
+#   exp. data sets for p-value:      2
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2023    1.191422E+00   1.111818E+00   4.635844E+00
+# jeff3.3       1.108851E+00   1.006365E+00   1.585664E+00
+# jendl5.0      1.139709E+00   1.068390E+00   2.489933E+00
+# cendl3.2      1.494801E+00   6.974894E-01   9.269481E+00

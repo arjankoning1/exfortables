@@ -1,0 +1,65 @@
+# header:
+#   title: Mg0(p,x)Ne20 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Leya
+#   year: 1998
+#   subentry: O0520004
+#   X4 reaction: 12-MG-0(P,X)10-NE-20,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O0520004
+# target:
+#   Z: 12
+#   A: 0
+#   nuclide: Mg0
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 10
+#   A: 20
+#   nuclide: Ne20
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 16
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.370000E+01   8.000000E-01   3.570000E+01   3.800000E+00   1.000000E+00
+   1.470000E+01   8.000000E-01   6.730000E+01   3.800000E+00   1.000000E+00
+   1.980000E+01   8.000000E-01   1.760000E+02   1.400000E+01   1.000000E+00
+   2.470000E+01   7.000000E-01   1.190000E+02   7.000000E+00   1.000000E+00
+   3.170000E+01   7.000000E-01   8.640001E+01   9.300000E+00   1.000000E+00
+   3.380000E+01   6.000000E-01   7.520000E+01   1.220000E+01   1.000000E+00
+   3.450000E+01   7.000000E-01   7.400000E+01   4.200000E+00   1.000000E+00
+   4.120000E+01   6.000000E-01   4.670000E+01   5.000000E+00   1.000000E+00
+   5.000000E+01   8.000000E-01   4.810000E+01   2.600000E+00   1.000000E+00
+   7.030000E+01   5.000000E-01   3.710000E+01   4.000000E+00   1.000000E+00
+   1.160000E+02   1.000000E+00   3.040000E+01   3.300000E+00   1.000000E+00
+   1.370000E+02   1.000000E+00   3.110000E+01   2.500000E+00   1.000000E+00
+   1.800000E+02   1.000000E+00   2.730000E+01   2.200000E+00   1.000000E+00
+   3.070000E+02   1.000000E+00   2.520000E+01   2.800000E+00   1.000000E+00
+   3.800000E+02   1.000000E+00   2.850000E+01   2.700000E+00   1.000000E+00
+   1.600000E+03   1.000000E+00   2.720000E+01   2.600000E+00   1.000000E+00
+# reference:
+#   author: I.Leya,H.Busemann,H.Baur,R.Wieler,M.Gloris,  S.Neumann,R.Michel,F.Sudbrock,U.Herpers
+#   title: Cross sections for the proton-induced production of He and Ne isotopes from magnesium, aluminum and silicon.
+#   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.145, p.449 (19
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  1.370000E+01
+#   E-max [MeV]:  1.600000E+03
+#   F-value:  1.584010E+00
+#   A-value:  1.121654E+00
+#   chi-2:  2.953072E+01
+#   p-value:  1.671824E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.617543E+00   1.096470E+00   2.459171E+01
+# jendl5.0      1.549621E+00   1.147417E+00   3.446974E+01

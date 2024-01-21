@@ -1,0 +1,55 @@
+# header:
+#   title: Na23(n,p)Ne23 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Satoh
+#   year: 1995
+#   subentry: 22365002
+#   X4 reaction: 11-NA-23(N,P)10-NE-23,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22365002
+# target:
+#   Z: 11
+#   A: 23
+#   nuclide: Na23
+# reaction:
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 10
+#   A: 23
+#   nuclide: Ne23
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.365000E+01   9.000000E-02   4.340000E+01   5.945800E+00   1.000000E+00
+   1.428000E+01   9.000000E-02   4.210000E+01   5.430900E+00   1.000000E+00
+   1.487000E+01   9.000000E-02   4.050000E+01   5.548500E+00   1.000000E+00
+# reference:
+#   author: Y.Satoh,T.Matsumoto,Y.Kasugai,H.Yamamoto,T.Iida, A.Takahashi,K.Kawade
+#   title: Measurement of formation cross section producing  short-lived nuclei by 14 MeV neutrons - Na, Si, Te,  Ba, Ce, Sm, W, Os
+#   journal: Conf: JAERI Conference proceedings, No.95-008, p.189 (1995)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.365000E+01
+#   E-max [MeV]:  1.487000E+01
+#   F-value:  1.270641E+00
+#   A-value:  9.982643E-01
+#   chi-2:  3.643848E+00
+#   p-value:  3.993564E-01
+#   exp. data sets for p-value:      2
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    1.364960E+00   7.454001E-01   4.186116E+00
+# endfb8.0      1.427736E+00   1.427131E+00   1.019929E+01
+# jeff3.3       1.103146E+00   1.024779E+00   9.423304E-01
+# jendl5.0      1.239002E+00   8.536904E-01   2.103674E+00
+# cendl3.2      1.091658E+00   1.065231E+00   7.878379E-01

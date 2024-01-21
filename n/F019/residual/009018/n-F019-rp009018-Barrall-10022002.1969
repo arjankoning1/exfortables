@@ -1,0 +1,49 @@
+# header:
+#   title: F19(n,x)F18 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Barrall
+#   year: 1969
+#   subentry: 10022002
+#   X4 reaction: 9-F-19(N,2N)9-F-18,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/10022002
+# target:
+#   Z: 9
+#   A: 19
+#   nuclide: F19
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 9
+#   A: 18
+#   nuclide: F18
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.460000E+01   2.000000E-01   4.450603E+01   3.787747E+01   9.469369E-01
+# reference:
+#   author: R.C.Barrall,J.A.Holmes,M.Silbergeld
+#   title: High energy neutron cross section validation and  neutron flux spectrum using the HENRE source.
+#   journal: Rept: Air Force Spec.Weap.Center Kirtland A.F.B.Repts., No.68-134 (1969)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.460000E+01
+#   E-max [MeV]:  1.460000E+01
+#   F-value:  1.023587E+00
+#   A-value:  1.023587E+00
+#   chi-2:  3.493825E-02
+#   p-value:  1.534966E-01
+#   exp. data sets for p-value:      8
+#   libraries:      1
+##  Library          F              A            chi-2
+# jendl5.0      1.023587E+00   1.023587E+00   3.493825E-02

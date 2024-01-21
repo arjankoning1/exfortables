@@ -1,0 +1,60 @@
+# header:
+#   title: Si0(p,x)Na22 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Furukawa
+#   year: 1971
+#   subentry: O0972006
+#   X4 reaction: 14-SI-0(P,X)11-NA-22,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O0972006
+# target:
+#   Z: 14
+#   A: 0
+#   nuclide: Si0
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 11
+#   A: 22
+#   nuclide: Na22
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 10
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.600000E+01   1.400000E+00   7.799999E-02   9.360000E-03   1.000000E+00
+   2.970000E+01   1.600000E+00   3.320000E-01   2.988000E-02   1.000000E+00
+   3.270000E+01   1.000000E+00   4.700000E-01   4.230000E-02   1.000000E+00
+   3.570000E+01   1.100000E+00   4.800000E-01   3.840000E-02   1.000000E+00
+   3.870000E+01   1.000000E+00   6.800000E-01   6.120000E-02   1.000000E+00
+   4.160000E+01   9.000000E-01   1.170000E+00   1.053000E-01   1.000000E+00
+   4.410000E+01   9.000000E-01   1.980000E+00   1.782000E-01   1.000000E+00
+   4.650000E+01   1.200000E+00   3.310000E+00   2.979000E-01   1.000000E+00
+   4.870000E+01   8.000000E-01   5.700000E+00   5.130000E-01   1.000000E+00
+   5.110000E+01   7.000000E-01   8.900000E+00   7.120000E-01   1.000000E+00
+# reference:
+#   author: M.Furukawa, K.Shizuri, K.Komura, K.Sakamoto, S.Tanaka
+#   title: Production of 26-Al and 22-Na from proton bombardment of Si, Al and Mg
+#   journal: Jour: Nuclear Physics, Section A, Vol.174, p.539 (1971)
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  2.600000E+01
+#   E-max [MeV]:  5.110000E+01
+#   F-value:  6.027271E+00
+#   A-value:  2.365771E-01
+#   chi-2:  6.288057E+01
+#   p-value:  2.810190E-01
+#   exp. data sets for p-value:      3
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    5.344955E+00   2.201726E-01   6.684046E+01
+# endfb8.0      1.082797E+01   1.286812E-01   8.383620E+01
+# jendl5.0      2.985021E+00   4.673474E-01   3.796505E+01

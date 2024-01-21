@@ -1,0 +1,60 @@
+# header:
+#   title: Pd108(n,x)Pd107m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Sakane
+#   year: 2001
+#   subentry: 22662009
+#   X4 reaction: 46-PD-108(N,2N)46-PD-107-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22662009
+# target:
+#   Z: 46
+#   A: 108
+#   nuclide: Pd108
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+# residual:
+#   Z: 46
+#   A: 107
+#   nuclide: Pd107m
+#   level: 
+#     number: 0
+#     energy [MeV]:  0.000000E+00
+#     spin:  0.000000E+00
+#     parity: 0
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.340000E+01   5.000000E-02   4.328821E+02   2.597293E+01   1.004367E+00
+   1.365000E+01   5.000000E-02   4.750655E+02   3.040420E+01   1.004367E+00
+   1.388000E+01   5.000000E-02   4.368996E+02   2.577708E+01   1.004367E+00
+   1.428000E+01   5.000000E-02   4.569869E+02   2.741922E+01   1.004367E+00
+   1.458000E+01   5.000000E-02   4.760699E+02   2.856419E+01   1.004367E+00
+   1.487000E+01   5.000000E-02   4.740612E+02   2.844367E+01   1.004367E+00
+# reference:
+#   author: H.Sakane,Y.Kasugai,M.Shibata,T.Iida,A.Takahashi,  T.Fukahori,K.Kawade
+#   title: Measurement of activation cross-sections for (n,2n)  reactions producing short-lived nuclei in the energy  range between 13.4 and 14.9 MeV
+#   journal: Jour: Annals of Nuclear Energy, Vol.28, p.1175 (2001)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.340000E+01
+#   E-max [MeV]:  1.487000E+01
+#   F-value:  1.063748E+00
+#   A-value:  9.682485E-01
+#   chi-2:  1.282368E+00
+#   p-value:  4.015509E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2023    1.088143E+00   9.264919E-01   2.178829E+00
+# jendl5.0      1.022672E+00   1.011887E+00   3.859075E-01

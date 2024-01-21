@@ -1,0 +1,57 @@
+# header:
+#   title: F19(n,p)O19 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Fessler
+#   year: 2000
+#   subentry: 22414002
+#   X4 reaction: 9-F-19(N,P)8-O-19,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22414002
+# target:
+#   Z: 9
+#   A: 19
+#   nuclide: F19
+# reaction:
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 8
+#   A: 19
+#   nuclide: O19
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.606400E+01   6.200000E-02   1.455000E+01   7.800000E-01   1.000000E+00
+   1.702600E+01   4.000000E-02   1.227000E+01   7.200000E-01   1.000000E+00
+   1.777700E+01   3.200000E-02   9.850000E+00   5.600000E-01   1.000000E+00
+   1.910100E+01   1.200000E-02   8.370000E+00   5.000000E-01   1.000000E+00
+   2.031000E+01   1.000000E-02   7.430000E+00   6.700000E-01   1.000000E+00
+# reference:
+#   author: A.Fessler,A.J.M.Plompen,D.L.Smith,J.W.Meadows, Y.Ikeda
+#   title: Neutron activation cross-section measurements  from 16 to 20 MeV for isotopes of F, Na, Mg, Al, Si,  P, Cl, Ti, V, Mn, Fe, Nb, Sn, and Ba
+#   journal: Jour: Nuclear Science and Engineering, Vol.134, Issue.2, p.171 (2000)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.606400E+01
+#   E-max [MeV]:  2.031000E+01
+#   F-value:  1.234331E+00
+#   A-value:  1.176206E+00
+#   chi-2:  1.573923E+01
+#   p-value:  3.013780E-01
+#   exp. data sets for p-value:      3
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    1.264642E+00   1.223873E+00   2.215905E+01
+# endfb8.0      1.264642E+00   1.223873E+00   2.215905E+01
+# jeff3.3       1.264642E+00   1.223873E+00   2.215905E+01
+# jendl5.0      1.260704E+00   1.163376E+00   1.981841E+01
+# cendl3.2      1.017321E+00   1.008788E+00   2.583560E-01

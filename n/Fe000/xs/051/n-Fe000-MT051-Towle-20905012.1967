@@ -1,0 +1,59 @@
+# header:
+#   title: Fe0(n,n'_01)Fe1 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Towle
+#   year: 1967
+#   subentry: 20905012
+#   X4 reaction: 26-FE-0(N,INL)26-FE-0,PAR,DA,,4PI
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20905012
+#   level energy [MeV]  4.40000E-01
+# target:
+#   Z: 26
+#   A: 0
+#   nuclide: Fe0
+# reaction:
+#   type: (n,n'_01)
+#   ENDF_MF: 3
+#   ENDF_MT: 51
+#   level: 
+#     number: 1
+#     energy [MeV]:  4.728700E-01
+#     spin:  2.500000E+00
+#     parity: -1
+# residual:
+#   Z: 26
+#   A: 1
+#   nuclide: Fe1
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   7.000000E+00   1.500000E-01   1.270000E+03   4.000000E+01   1.000000E+00
+# reference:
+#   author: J.H.Towle,R.O.Owens
+#   title: Absolute level densities from neutron inelastic  scattering
+#   journal: Jour: Nuclear Physics, Section A, Vol.100, p.257 (1967)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  7.000000E+00
+#   E-max [MeV]:  7.000000E+00
+#   F-value:  1.063477E+01
+#   A-value:  9.421267E-02
+#   chi-2:  8.263632E+02
+#   p-value:  1.192093E-07
+#   exp. data sets for p-value:      1
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    9.715125E+00   1.029323E-01   8.112186E+02
+# endfb8.0      1.193160E+01   8.381104E-02   8.461700E+02
+# jeff3.3       9.406652E+00   1.063078E-01   8.051252E+02
+# jendl5.0      1.056335E+01   9.466697E-02   8.262361E+02
+# cendl3.2      1.169687E+01   8.549292E-02   8.430660E+02

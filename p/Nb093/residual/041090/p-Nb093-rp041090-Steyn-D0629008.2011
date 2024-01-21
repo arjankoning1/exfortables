@@ -1,0 +1,66 @@
+# header:
+#   title: Nb93(p,x)Nb90 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Steyn
+#   year: 2011
+#   subentry: D0629008
+#   X4 reaction: 41-NB-93(P,X)41-NB-90,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D0629008
+# target:
+#   Z: 41
+#   A: 93
+#   nuclide: Nb93
+# reaction:
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+# residual:
+#   Z: 41
+#   A: 90
+#   nuclide: Nb90
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 16
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.480000E+01   1.060000E+00   6.290000E-02   1.800000E-02   1.000000E+00
+   2.744000E+01   9.800000E-01   1.980000E-01   2.210000E-02   1.000000E+00
+   2.990000E+01   9.200000E-01   6.980000E-01   5.470000E-02   1.000000E+00
+   3.222000E+01   8.600000E-01   1.500000E+00   1.090000E-01   1.000000E+00
+   3.442000E+01   8.200000E-01   5.380000E+00   3.790000E-01   1.000000E+00
+   3.653000E+01   7.800000E-01   2.950000E+01   2.070000E+00   1.000000E+00
+   3.854000E+01   7.400000E-01   8.880001E+01   6.220000E+00   1.000000E+00
+   4.178000E+01   6.800000E-01   2.370000E+02   1.660000E+01   1.000000E+00
+   4.485000E+01   6.300000E-01   3.590000E+02   2.510000E+01   1.000000E+00
+   4.777000E+01   5.900000E-01   4.180000E+02   2.920000E+01   1.000000E+00
+   5.056000E+01   5.500000E-01   4.240000E+02   2.970000E+01   1.000000E+00
+   5.346000E+01   5.100000E-01   4.000000E+02   2.800000E+01   1.000000E+00
+   5.626000E+01   4.700000E-01   3.490000E+02   2.450000E+01   1.000000E+00
+   5.961000E+01   4.100000E-01   2.930000E+02   2.050000E+01   1.000000E+00
+   6.283000E+01   3.600000E-01   2.480000E+02   1.740000E+01   1.000000E+00
+   6.593000E+01   3.000000E-01   2.220000E+02   1.550000E+01   1.000000E+00
+# reference:
+#   author: G.F.Steyn, C.Vermeulen, F.Szelecsenyi, Z.Kovacs,  K.Suzuki, T.Fukumura, K.Nagatsu
+#   title: Excitation functions of proton induced reactions on 89Y and 93Nb with emphasis on the production of selected radio-zirconiums
+#   journal: Jour: Journal of the Korean Physical Society, Vol.59, p.1991 (2011)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  2.480000E+01
+#   E-max [MeV]:  6.593000E+01
+#   F-value:  2.160213E+00
+#   A-value:  7.750849E-01
+#   chi-2:  1.341879E+02
+#   p-value:  2.398406E-01
+#   exp. data sets for p-value:      2
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    2.102257E+00   6.177148E-01   8.448546E+01
+# endfb8.0      2.332755E+00   6.211911E-01   1.251715E+02
+# jendl5.0      1.977838E+00   1.114066E+00   1.850145E+02

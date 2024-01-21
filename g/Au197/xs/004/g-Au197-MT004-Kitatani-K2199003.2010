@@ -1,0 +1,58 @@
+# header:
+#   title: Au197(g,n')Au196 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Kitatani
+#   year: 2010
+#   subentry: K2199003
+#   X4 reaction: 79-AU-197(G,N)79-AU-196,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/K2199003
+# target:
+#   Z: 79
+#   A: 197
+#   nuclide: Au197
+# reaction:
+#   type: (g,n')
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+# residual:
+#   Z: 79
+#   A: 196
+#   nuclide: Au196
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.000000E+01   5.000000E-02   6.990002E+01   5.102700E+00   1.000000E+00
+   1.130000E+01   3.390000E-02   1.868000E+02   9.526800E+00   1.000000E+00
+   1.170000E+01   3.510001E-02   2.660000E+02   1.303400E+01   1.000000E+00
+   1.210000E+01   3.630000E-02   3.452000E+02   1.726000E+01   1.000000E+00
+   1.270000E+01   5.080000E-02   4.506000E+02   2.207940E+01   1.000000E+00
+   1.290000E+01   5.160000E-02   4.678000E+02   2.339000E+01   1.000000E+00
+   1.350000E+01   5.400000E-02   5.321000E+02   2.713710E+01   1.000000E+00
+   1.460000E+01   7.300000E-02   5.114000E+02   2.557000E+01   1.000000E+00
+# reference:
+#   author: F.Kitatani, H.Harada, S.Goko, H.Utsunomiya, H.Akimune,  T.Kaihori, H.Toyokawa, K.Yamada
+#   title: Measurement of the 80Se(g,n) cross section using laser-Compton scattering gamma-rays
+#   journal: Jour: Jour. of Nuclear Science and Technology, Vol.47, p.367 (2010)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.000000E+01
+#   E-max [MeV]:  1.460000E+01
+#   F-value:  1.093782E+00
+#   A-value:  1.026299E+00
+#   chi-2:  3.020754E+00
+#   p-value:  3.536562E-01
+#   exp. data sets for p-value:      4
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.153409E+00   1.053818E+00   7.097245E+00
+# endfb8.0      1.057901E+00   1.007699E+00   1.486475E+00
+# jendl5.0      1.024143E+00   1.017946E+00   4.785432E-01

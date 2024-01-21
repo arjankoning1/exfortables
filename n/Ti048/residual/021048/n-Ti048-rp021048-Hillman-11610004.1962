@@ -1,0 +1,51 @@
+# header:
+#   title: Ti48(n,x)Sc48 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Hillman
+#   year: 1962
+#   subentry: 11610004
+#   X4 reaction: 22-TI-48(N,P)21-SC-48,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11610004
+# target:
+#   Z: 22
+#   A: 48
+#   nuclide: Ti48
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 21
+#   A: 48
+#   nuclide: Sc48
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.450000E+01   5.000000E-01   5.522956E+01   1.100000E+01   1.004174E+00
+# reference:
+#   author: M.Hillman
+#   title: Formation cross sections for CA47 using 14.5MEV neutrons.
+#   journal: Jour: Nuclear Physics, Vol.37, p.78 (1962)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.450000E+01
+#   E-max [MeV]:  1.450000E+01
+#   F-value:  1.089880E+00
+#   A-value:  1.082452E+00
+#   chi-2:  5.855430E-01
+#   p-value:  2.589764E-01
+#   exp. data sets for p-value:      8
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.056648E+00   1.056648E+00   3.791200E-01
+# jeff3.3       1.057394E+00   1.057394E+00   3.844382E-01
+# jendl5.0      1.135164E+00   1.135164E+00   9.930707E-01

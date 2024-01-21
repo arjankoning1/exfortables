@@ -1,0 +1,49 @@
+# header:
+#   title: U238(n,x)U236 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Mather
+#   year: 1972
+#   subentry: 20795013
+#   X4 reaction: 92-U-238(N,3N)92-U-236,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20795013
+# target:
+#   Z: 92
+#   A: 238
+#   nuclide: U238
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 17
+# residual:
+#   Z: 92
+#   A: 236
+#   nuclide: U236
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.240000E+01   0.000000E+00   9.125195E+01   3.044542E+01   1.025303E+00
+# reference:
+#   author: D.S.MATHER,P.F.BAMPTON,R.E.COLES,G.JAMES,P.J.NIND
+#   title: -MEASUREMENT OF (N,2N) CROSS SECTIONS FOR INCIDENT  ENERGIES BETWEEN 6 AND 14 MEV-.
+#   journal: Rept: A.W.R.E. Aldermaston Reports, No.72/72 (1972)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  1.240000E+01
+#   E-max [MeV]:  1.240000E+01
+#   F-value:  1.535390E+00
+#   A-value:  6.513005E-01
+#   chi-2:  1.683390E+00
+#   p-value:  1.740140E-01
+#   exp. data sets for p-value:      2
+#   libraries:      1
+##  Library          F              A            chi-2
+# jendl5.0      1.535390E+00   6.513005E-01   1.683390E+00

@@ -1,0 +1,52 @@
+# header:
+#   title: Zr90(n,p)Y90 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Levkovskii
+#   year: 1964
+#   subentry: 40016010
+#   X4 reaction: 40-ZR-90(N,P)39-Y-90,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/40016010
+# target:
+#   Z: 40
+#   A: 90
+#   nuclide: Zr90
+# reaction:
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 39
+#   A: 90
+#   nuclide: Y90
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.400000E+01   0.000000E+00   5.400001E+01   1.000000E+01   1.000000E+00
+# reference:
+#   author: V.N.Levkovskii
+#   title: Empirical behavior of the (n,p) reaction cross-  sections for 14 - 15 MeV neutrons
+#   journal: Jour: Journal of Experimental and Theoretical Physics, Vol.18, p.213 (19
+# statistics:
+#   NEA score: R1
+#   IAEA score:  0
+#   E-min [MeV]:  1.400000E+01
+#   E-max [MeV]:  1.400000E+01
+#   F-value:  1.333720E+00
+#   A-value:  7.566707E-01
+#   chi-2:  2.318029E+00
+#   p-value:  7.416594E-02
+#   exp. data sets for p-value:      3
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2023    1.408651E+00   7.098988E-01   2.940190E+00
+# jeff3.3       1.359642E+00   7.354877E-01   2.569581E+00
+# jendl5.0      1.361929E+00   7.342527E-01   2.586787E+00
+# cendl3.2      1.169472E+00   8.550870E-01   1.175557E+00

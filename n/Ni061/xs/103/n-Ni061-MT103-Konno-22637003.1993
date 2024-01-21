@@ -1,0 +1,55 @@
+# header:
+#   title: Ni61(n,p)Co61 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: Konno
+#   year: 1993
+#   subentry: 22637003
+#   X4 reaction: 28-NI-61(N,P)27-CO-61,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22637003
+# target:
+#   Z: 28
+#   A: 61
+#   nuclide: Ni61
+# reaction:
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+# residual:
+#   Z: 27
+#   A: 61
+#   nuclide: Co61
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.356000E+01   0.000000E+00   6.697787E+01   3.050900E+00   1.007186E+00
+   1.422000E+01   0.000000E+00   6.516494E+01   2.983300E+00   1.007186E+00
+   1.492000E+01   0.000000E+00   5.972613E+01   2.643600E+00   1.007186E+00
+# reference:
+#   author: C.Konno, Y.Ikeda, K.Oishi, K.Kawade, H.Yamamoto, H.Maekawa
+#   title: Activation Cross section measurements at neutron  energy from 13.3 to 14.9 MeV
+#   journal: Rept: JAERI Reports, No.1329 (1993)
+# statistics:
+#   NEA score: R2
+#   IAEA score:  0
+#   E-min [MeV]:  1.356000E+01
+#   E-max [MeV]:  1.492000E+01
+#   F-value:  1.392904E+00
+#   A-value:  1.376391E+00
+#   chi-2:  7.845014E+01
+#   p-value:  1.165607E-01
+#   exp. data sets for p-value:      3
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2023    1.428324E+00   1.427988E+00   9.018087E+01
+# endfb8.0      1.289092E+00   1.287072E+00   4.096737E+01
+# jeff3.3       1.454352E+00   1.453167E+00   1.017977E+02
+# jendl5.0      1.529200E+00   1.528733E+00   1.371314E+02
+# cendl3.2      1.211523E+00   1.209858E+00   2.217335E+01

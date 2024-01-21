@@ -1,0 +1,70 @@
+# header:
+#   title: Nb93(n,x)Nb94 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2024-01-18
+#   format: YANDF-0.1
+# exfor:
+#   author: XiaYijunn
+#   year: 1988
+#   subentry: 309980042
+#   X4 reaction: 41-NB-93(N,G)41-NB-94,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/309980042
+# target:
+#   Z: 41
+#   A: 93
+#   nuclide: Nb93
+# reaction:
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+# residual:
+#   Z: 41
+#   A: 94
+#   nuclide: Nb94
+# datablock:
+#   quantity: cross section
+#   columns: 5
+#   entries: 20
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.120000E-02   3.600000E-04   4.960000E+02   4.960000E+01   1.000000E+00
+   1.200000E-02   4.000000E-04   4.640000E+02   4.176000E+01   1.000000E+00
+   1.290000E-02   4.500000E-04   4.920000E+02   4.231201E+01   1.000000E+00
+   1.400000E-02   5.000000E-04   4.700000E+02   3.760000E+01   1.000000E+00
+   1.510000E-02   5.600000E-04   4.540000E+02   3.223400E+01   1.000000E+00
+   1.640000E-02   6.400000E-04   4.390000E+02   2.941300E+01   1.000000E+00
+   1.790000E-02   7.300000E-04   3.680000E+02   2.465600E+01   1.000000E+00
+   1.960000E-02   8.400000E-04   3.540000E+02   2.124000E+01   1.000000E+00
+   2.160000E-02   9.600000E-04   3.560000E+02   1.922400E+01   1.000000E+00
+   2.390000E-02   1.100000E-03   3.330000E+02   1.798200E+01   1.000000E+00
+   2.650000E-02   1.300000E-03   3.060000E+02   1.530000E+01   1.000000E+00
+   2.960000E-02   1.600000E-03   2.820000E+02   1.381800E+01   1.000000E+00
+   3.330000E-02   1.900000E-03   2.790000E+02   1.478700E+01   1.000000E+00
+   3.780000E-02   2.200000E-03   2.560000E+02   1.331200E+01   1.000000E+00
+   4.320000E-02   2.700000E-03   2.160000E+02   1.058400E+01   1.000000E+00
+   4.980000E-02   3.400000E-03   1.930000E+02   9.071000E+00   1.000000E+00
+   5.810000E-02   4.300000E-03   1.810000E+02   8.145000E+00   1.000000E+00
+   6.860000E-02   5.500000E-03   1.550000E+02   6.820000E+00   1.000000E+00
+   8.230000E-02   7.200000E-03   1.320000E+02   7.788000E+00   1.000000E+00
+   1.000000E-01   9.800000E-03   1.090000E+02   1.144500E+01   1.000000E+00
+# reference:
+#   author: Xia Yijun, Wang Chunhao, Yang Jingfu, Yang Zhihua, Luo Xiaobing, Liu Jianfeng
+#   title: Measurements of neutron capture cross sections of wolfram and thulium
+#   journal:
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.120000E-02
+#   E-max [MeV]:  1.000000E-01
+#   F-value:  1.141813E+00
+#   A-value:  1.056956E+00
+#   chi-2:  5.086606E+00
+#   p-value:  3.760098E-01
+#   exp. data sets for p-value:      4
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2023    1.058462E+00   1.034319E+00   1.170349E+00
+# jeff3.3       1.244537E+00   1.132003E+00   1.347889E+01
+# jendl5.0      1.041794E+00   1.008484E+00   6.105753E-01
