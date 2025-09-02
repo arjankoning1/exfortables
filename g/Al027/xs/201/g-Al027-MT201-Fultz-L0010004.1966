@@ -1,28 +1,29 @@
-# header:
+# header: 
 #   title: Al27(g,xn) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Fultz
 #   year: 1966
 #   subentry: L0010004
 #   X4 reaction: 13-AL-27(G,X)0-NN-1,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/L0010004
-# target:
+# target: 
 #   Z: 13
 #   A: 27
 #   nuclide: Al27
-# reaction:
+# reaction: 
 #   type: (g,xn)
 #   ENDF_MF: 3
 #   ENDF_MT: 201
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 160
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 160
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.288800E+01   0.000000E+00   1.300000E-01   5.000000E-02   1.000000E+00
@@ -189,18 +190,3 @@
 #   author: S.C.Fultz,J.T.Caldwell,B.L.Berman,R.L.Bramblett, R.R.Harwey
 #   title: Photoneutron cross sections for C12 and Al27.
 #   journal: Jour: Physical Review, Vol.143, p.790 (1966)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  1.288800E+01
-#   E-max [MeV]:  3.673500E+01
-#   F-value:  1.368733E+00
-#   A-value:  1.150105E+00
-#   chi-2:  6.700700E+01
-#   p-value:  2.558566E-01
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.594861E+00   1.516447E+00   1.811062E+02
-# endfb8.0      1.219216E+00   1.013204E+00   1.058240E+01
-# jendl5.0      1.208215E+00   9.901592E-01   9.444735E+00

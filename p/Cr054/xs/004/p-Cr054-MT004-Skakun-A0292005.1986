@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Cr54(p,n')Mn54 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Skakun
 #   year: 1986
 #   subentry: A0292005
 #   X4 reaction: 24-CR-54(P,N)25-MN-54,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/A0292005
-# target:
+# target: 
 #   Z: 24
 #   A: 54
 #   nuclide: Cr54
-# reaction:
+# reaction: 
 #   type: (p,n')
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 25
-#   A: 54
-#   nuclide: Mn54
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 9
+#   residual: 
+#     Z: 25
+#     A: 54
+#     nuclide: Mn54
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 9
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    5.000000E+00   0.000000E+00   3.200000E+02   1.700000E+01   1.000000E+00
@@ -42,18 +43,3 @@
 #   author: E.A.Skakun, V.G.Batij, Ju.N.Rakivnenko, O.A.Rastrepin
 #   title: Investigation of cross sections of Cr-52(p,n)Mn-52-m,g and Cr-54(p,n)Mn-54 reactions in the energy range from 5 to 9 MeV.
 #   journal: Conf: 36.Conf.Nucl.Spectrosc.and Nucl.Struct.,Kharkov 1986, p.277 (1986)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  5.000000E+00
-#   E-max [MeV]:  9.000000E+00
-#   F-value:  1.115248E+00
-#   A-value:  1.063212E+00
-#   chi-2:  5.056036E+00
-#   p-value:  3.236530E-01
-#   exp. data sets for p-value:      4
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.093734E+00   1.015897E+00   3.235988E+00
-# endfb8.0      1.143786E+00   1.109299E+00   7.867554E+00
-# jendl5.0      1.103038E+00   1.066501E+00   4.064564E+00

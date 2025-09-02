@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ni58(n,t)Co56 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Qaim
 #   year: 1976
 #   subentry: 20669005
 #   X4 reaction: 28-NI-58(N,T)27-CO-56,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20669005
-# target:
+# target: 
 #   Z: 28
 #   A: 58
 #   nuclide: Ni58
-# reaction:
+# reaction: 
 #   type: (n,t)
 #   ENDF_MF: 3
 #   ENDF_MT: 105
-# residual:
-#   Z: 27
-#   A: 56
-#   nuclide: Co56
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 27
+#     A: 56
+#     nuclide: Co56
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.460000E+01   4.000000E-01   9.200000E-02   2.700000E-02   1.000000E+00
@@ -34,20 +35,3 @@
 #   author: S.M.QAIM,G.STOECKLIN
 #   title: -INVESTIGATION OF (N,T) REACTIONS AT 14.6 MEV AND AN  ANALYSIS OF SOME SYSTEMATIC TRENDS IN THE CROSS-  SECTION DATA-
 #   journal: Jour: Nuclear Physics, Section A, Vol.257, Issue.2, p.233 (1976)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  1.460000E+01
-#   E-max [MeV]:  1.460000E+01
-#   F-value:  5.660362E+00
-#   A-value:  2.068252E-01
-#   chi-2:  6.839284E+00
-#   p-value:  2.206084E-01
-#   exp. data sets for p-value:      6
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.996040E+01   5.009920E-02   1.050126E+01
-# endfb8.0      3.586096E+00   2.788548E-01   6.195677E+00
-# jeff3.3       3.806004E+00   2.627428E-01   6.452988E+00
-# jendl5.0      3.724369E+00   2.685019E-01   6.360208E+00
-# cendl3.2      2.604169E+00   3.839996E-01   4.686285E+00

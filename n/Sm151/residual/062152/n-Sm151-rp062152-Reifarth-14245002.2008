@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Sm151(n,x)Sm152 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Reifarth
 #   year: 2008
 #   subentry: 14245002
 #   X4 reaction: 62-SM-151(N,G)62-SM-152,,SIG,,AV
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/14245002
-# target:
+# target: 
 #   Z: 62
 #   A: 151
 #   nuclide: Sm151
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 62
-#   A: 152
-#   nuclide: Sm152
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 14
+#   residual: 
+#     Z: 62
+#     A: 152
+#     nuclide: Sm152
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 14
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.300000E-03   3.000000E-04   2.239000E+04   0.000000E+00   1.000000E+00
@@ -47,17 +48,3 @@
 #   author: R.Reifarth,T.A.Bredeweg,A.Couture,E.-I.Esch,U.Greife, R.C.Haight,A.M.Hatarik,M.Heil,M.Jandel,J.M.O'Donnell, R.Plag,R.S.Rundberg,J.L.Ullmann,D.J.Vieira, J.M.Wouters
 #   title: The s process around 151Sm
 #   journal: Conf: 10th Symp.on Nucl.in the Cosmos, Mackinac Island 2008, p.(084) (20
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  1.300000E-03
-#   E-max [MeV]:  5.220000E-01
-#   F-value:  1.540740E+00
-#   A-value:  8.305285E-01
-#   chi-2:  0.000000E+00
-#   p-value:  2.320217E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.619893E+00   7.222099E-01   0.000000E+00
-# jeff3.3       1.455778E+00   9.550928E-01   0.000000E+00

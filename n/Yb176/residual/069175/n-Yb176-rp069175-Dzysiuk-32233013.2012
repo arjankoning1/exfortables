@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Yb176(n,x)Tm175 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Dzysiuk
 #   year: 2012
 #   subentry: 32233013
 #   X4 reaction: 70-YB-176(N,X)69-TM-175,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/32233013
-# target:
+# target: 
 #   Z: 70
 #   A: 176
 #   nuclide: Yb176
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 28
-# residual:
-#   Z: 69
-#   A: 175
-#   nuclide: Tm175
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 69
+#     A: 175
+#     nuclide: Tm175
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.470000E+01   0.000000E+00   2.199000E-01   2.998600E-02   9.995385E-01
@@ -34,17 +35,3 @@
 #   author: N.Dzysiuk,A.Kadenko,I.Kadenko,G.Primenko
 #   title: Measurement and systematic study of (n, x) cross sections for dysprosium (Dy), erbium (Er), and ytterbium (Yb) isotopes at 14.7 MeV neutron energy
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.86, p.034609 (2012)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  1.470000E+01
-#   E-max [MeV]:  1.470000E+01
-#   F-value:  2.203036E+00
-#   A-value:  4.539244E-01
-#   chi-2:  1.603880E+01
-#   p-value:  1.897399E-01
-#   exp. data sets for p-value:      3
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    2.193537E+00   4.558846E-01   1.592402E+01
-# jeff3.3       2.212524E+00   4.519725E-01   1.615358E+01

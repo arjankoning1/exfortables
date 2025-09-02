@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Bi209(p,x)Po210 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Miyano
 #   year: 1973
 #   subentry: E0055002
 #   X4 reaction: 83-BI-209(P,G)84-PO-210,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/E0055002
-# target:
+# target: 
 #   Z: 83
 #   A: 209
 #   nuclide: Bi209
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 84
-#   A: 210
-#   nuclide: Po210
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 20
+#   residual: 
+#     Z: 84
+#     A: 210
+#     nuclide: Po210
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 20
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.127000E+01   0.000000E+00   2.581000E-01   3.261000E-02   1.000000E+00
@@ -53,17 +54,3 @@
 #   author: K.Miyano, H.Nakahara
 #   title: The radiative proton capture cross sections in 209Bi with Ep from 10 to 50 MeV
 #   journal: Jour: Journal of the Physical Society of Japan, Vol.35, Issue.5, p.1277
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  1.127000E+01
-#   E-max [MeV]:  5.043000E+01
-#   F-value:  2.686885E+00
-#   A-value:  1.911286E+00
-#   chi-2:  2.832994E+02
-#   p-value:  2.581851E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    3.886515E+00   3.625056E+00   5.617275E+02
-# jendl5.0      1.395293E+00   1.007712E+00   4.871334E+00

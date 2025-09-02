@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: He3(g,p)H2 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Gorbunov
 #   year: 1964
 #   subentry: M0479002
 #   X4 reaction: 2-HE-3(G,P)1-H-2,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/M0479002
-# target:
+# target: 
 #   Z: 2
 #   A: 3
 #   nuclide: He3
-# reaction:
+# reaction: 
 #   type: (g,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 1
-#   A: 2
-#   nuclide: H2
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 23
+#   residual: 
+#     Z: 1
+#     A: 2
+#     nuclide: H2
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 23
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    7.000000E+00   0.000000E+00   1.600000E-01   5.091300E-02   1.000000E+00
@@ -56,16 +57,3 @@
 #   author: A.N.Gorbunov,A.T.Varfolomeev
 #   title: Cross sections  of  the  reactions  He-3(g,p)H-2  and  He-3(g,n)2p.
 #   journal: Jour: Physics Letters, Vol.11, p.137 (1964)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  7.000000E+00
-#   E-max [MeV]:  1.170000E+02
-#   F-value:  1.751979E+00
-#   A-value:  1.228272E+00
-#   chi-2:  1.079546E+01
-#   p-value:  2.585973E-01
-#   exp. data sets for p-value:      4
-#   libraries:      1
-##  Library          F              A            chi-2
-# jendl5.0      1.751979E+00   1.228272E+00   1.079546E+01

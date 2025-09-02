@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Fe56(n,x)Fe57 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Ernst
 #   year: 1970
 #   subentry: 20370006
 #   X4 reaction: 26-FE-56(N,G)26-FE-57,,SIG,,TTA
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20370006
-# target:
+# target: 
 #   Z: 26
 #   A: 56
 #   nuclide: Fe56
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 26
-#   A: 57
-#   nuclide: Fe57
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 464
+#   residual: 
+#     Z: 26
+#     A: 57
+#     nuclide: Fe57
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 464
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    5.900000E-03   0.000000E+00   1.625900E+02   4.129786E+01   1.000000E+00
@@ -497,18 +498,3 @@
 #   author: A.Ernst, F.H.Froehner, D.Kompe
 #   title: High resolution measurements of radiative neutron  capture in Ti-47, Fe-56, Ni-58, Ni-60 and Ni-61  between 7 and 200 keV
 #   journal: Conf: Nuclear Data for Reactors Conf., Helsinki 1970, Vol.1, p.633 (1970
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  5.900000E-03
-#   E-max [MeV]:  4.293000E-02
-#   F-value:  3.787781E+00
-#   A-value:  4.119017E-01
-#   chi-2:  8.492100E+00
-#   p-value:  8.432136E-02
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    2.694237E+00   5.609730E-01   7.533320E+00
-# jeff3.3       4.915417E+00   3.160020E-01   9.216345E+00
-# jendl5.0      3.829512E+00   3.942295E-01   8.726635E+00

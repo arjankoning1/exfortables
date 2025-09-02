@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ni0(p,x)Co55 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Anwer
 #   year: 2022
 #   subentry: D1033005
 #   X4 reaction: 28-NI-0(P,X)27-CO-55,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/D1033005
-# target:
+# target: 
 #   Z: 28
 #   A: 0
 #   nuclide: Ni0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 27
-#   A: 55
-#   nuclide: Co55
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 2
+#   residual: 
+#     Z: 27
+#     A: 55
+#     nuclide: Co55
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.790000E+00   4.300000E-01   1.600000E-01   1.000000E-02   1.000000E+00
@@ -35,18 +36,3 @@
 #   author: M.Anwer, A.Naz, I.Ahmad, M.Usman, J.Hussain,  S.Z.Ilyas, M.Shahid
 #   title: Ion beam activation of natCu, natTi, natNi and measurement of product formation cross sections at low energy (<10 MeV)
 #   journal: Jour: Radiochimica Acta, Vol.110, p.799 (2022)
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  4.790000E+00
-#   E-max [MeV]:  5.610000E+00
-#   F-value:  2.544787E+02
-#   A-value:  3.940142E-03
-#   chi-2:  1.550029E+02
-#   p-value:  2.980232E-07
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    2.053037E+02   4.870832E-03   1.547316E+02
-# endfb8.0      2.543351E+02   3.931820E-03   1.550237E+02
-# jendl5.0      3.130836E+02   3.194035E-03   1.552534E+02

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Pb0(p,x)Tl199 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Gloris
 #   year: 2001
 #   subentry: O0500116
 #   X4 reaction: 82-PB-0(P,X)81-TL-199,CUM,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/O0500116
-# target:
+# target: 
 #   Z: 82
 #   A: 0
 #   nuclide: Pb0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 81
-#   A: 199
-#   nuclide: Tl199
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 10
+#   residual: 
+#     Z: 81
+#     A: 199
+#     nuclide: Tl199
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    7.550000E+01   1.400000E+00   4.370000E+01   1.060000E+01   1.000000E+00
@@ -43,18 +44,3 @@
 #   author: M.Gloris, R.Michel, F.Sudbrok, U.Herpers, P.Malmborg, B.Holmqvist
 #   title: Proton-induced production of residual radionuclides in lead at intermediate energies
 #   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.A, Vol.463, p.593 (20
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  7.550000E+01
-#   E-max [MeV]:  2.590000E+03
-#   F-value:  1.732845E+01
-#   A-value:  6.004435E-02
-#   chi-2:  5.573222E+01
-#   p-value:  1.251697E-07
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.629613E+01   6.313150E-02   5.515812E+01
-# endfb8.0      2.116984E+01   4.840931E-02   5.717519E+01
-# jendl5.0      1.490784E+01   7.083392E-02   5.486333E+01

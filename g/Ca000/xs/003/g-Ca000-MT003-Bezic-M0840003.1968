@@ -1,28 +1,29 @@
-# header:
+# header: 
 #   title: Ca0(g,non) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Bezic
 #   year: 1968
 #   subentry: M0840003
 #   X4 reaction: 20-CA-0(G,ABS),,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/M0840003
-# target:
+# target: 
 #   Z: 20
 #   A: 0
 #   nuclide: Ca0
-# reaction:
+# reaction: 
 #   type: (g,non)
 #   ENDF_MF: 3
 #   ENDF_MT: 3
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 121
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 121
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    7.660000E+00   0.000000E+00  -6.195000E+00   1.062000E+01   1.000000E+00
@@ -150,16 +151,3 @@
 #   author: N.Bezic,D.Jamnik,G.Kernel,J.Krajnik,J.Snajder
 #   title: Absorption of gamma rays in silicon and calcium.
 #   journal: Jour: Nuclear Physics, Section A, Vol.117, p.124 (1968)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  7.660000E+00
-#   E-max [MeV]:  3.067000E+01
-#   F-value:  1.789059E+00
-#   A-value:  1.476329E+00
-#   chi-2:  4.580535E+01
-#   p-value:  1.431365E-01
-#   exp. data sets for p-value:      1
-#   libraries:      1
-##  Library          F              A            chi-2
-# tendl.2023    1.789059E+00   1.476329E+00   4.580535E+01

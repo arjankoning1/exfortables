@@ -1,28 +1,29 @@
-# header:
+# header: 
 #   title: U238(n,tot) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Harvey
 #   year: 1988
 #   subentry: 13632016
 #   X4 reaction: 92-U-238(N,TOT),,SIG,,AV
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/13632016
-# target:
+# target: 
 #   Z: 92
 #   A: 238
 #   nuclide: U238
-# reaction:
+# reaction: 
 #   type: (n,tot)
 #   ENDF_MF: 3
 #   ENDF_MT: 1
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 180
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 180
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.026000E-02   5.000000E-04   1.560300E+04   1.990000E+02   1.000000E+00
@@ -209,15 +210,3 @@
 #   author: J.A.Harvey,N.W.Hill,F.G.Perey,G.L.Tweed,L.Leal, H.Derrien
 #   title: High-Resolution Neutron Transmission Measurements on  235U, 239Pu, 238U
 #   journal: Conf: Conf.on Nucl.Data For Sci.and Technol.,Mito 1988, p.115 (1988)
-# statistics:
-#   NEA score:   
-#   IAEA score: -1
-#   E-min [MeV]:  1.026000E-02
-#   E-max [MeV]:  9.976000E-02
-#   F-value:  0.000000E+00
-#   A-value:  0.000000E+00
-#   chi-2:  0.000000E+00
-#   p-value:  0.000000E+00
-#   exp. data sets for p-value:      8
-#   libraries:      0
-##  Library          F              A            chi-2

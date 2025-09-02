@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Au197(n,x)Au198 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: ChenYingg
 #   year: 1981
 #   subentry: 30607002
 #   X4 reaction: 79-AU-197(N,G)79-AU-198,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30607002
-# target:
+# target: 
 #   Z: 79
 #   A: 197
 #   nuclide: Au197
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 79
-#   A: 198
-#   nuclide: Au198
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 4
+#   residual: 
+#     Z: 79
+#     A: 198
+#     nuclide: Au198
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.620000E-01   2.310000E-03   1.494000E+02   5.700000E+00   1.000000E+00
@@ -37,17 +38,3 @@
 #   author: Chen Ying,Zhu Shengyun,Luo Dexing,Jiang Songsheng
 #   title: Measurements of Au-197 neutron radiative capture cross sections between 100 and 1500 keV.
 #   journal: Jour: Chinese J.of Nuclear Physics (Beijing)., Vol.3, Issue.1, p.52 (198
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  4.620000E-01
-#   E-max [MeV]:  1.490000E+00
-#   F-value:  1.021842E+00
-#   A-value:  1.010495E+00
-#   chi-2:  6.785966E-01
-#   p-value:  2.876970E-01
-#   exp. data sets for p-value:      7
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.020622E+00   1.012165E+00   6.252002E-01
-# jendl5.0      1.023000E+00   1.008829E+00   7.319930E-01

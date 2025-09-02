@@ -1,28 +1,29 @@
-# header:
+# header: 
 #   title: Ag0(n,non) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Taylor
 #   year: 1955
 #   subentry: 11217010
 #   X4 reaction: 47-AG-0(N,NON),,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/11217010
-# target:
+# target: 
 #   Z: 47
 #   A: 0
 #   nuclide: Ag0
-# reaction:
+# reaction: 
 #   type: (n,non)
 #   ENDF_MF: 3
 #   ENDF_MT: 3
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 5
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.500000E+00   0.000000E+00   2.030000E+03   7.000000E+01   1.000000E+00
@@ -34,19 +35,3 @@
 #   author: H.L.Taylor,O.Lonsjo,T.W.Bonner
 #   title: Nonelastic Scattering Cross Sections for Fast Neutrons
 #   journal: Jour: Physical Review, Vol.100, p.174 (1955)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  3.500000E+00
-#   E-max [MeV]:  1.410000E+01
-#   F-value:  1.536972E+00
-#   A-value:  7.565321E-01
-#   chi-2:  8.860474E+01
-#   p-value:  3.960458E-01
-#   exp. data sets for p-value:      2
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.095395E+00   1.084696E+00   7.376528E+00
-# endfb8.0      1.916630E+00   5.220148E-01   1.935255E+02
-# jeff3.3       1.740649E+00   5.750213E-01   1.529700E+02
-# cendl3.2      1.014864E+00   1.006085E+00   5.468956E-01

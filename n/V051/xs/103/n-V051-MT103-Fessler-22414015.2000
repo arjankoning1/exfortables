@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: V51(n,p)Ti51 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Fessler
 #   year: 2000
 #   subentry: 22414015
 #   X4 reaction: 23-V-51(N,P)22-TI-51,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22414015
-# target:
+# target: 
 #   Z: 23
 #   A: 51
 #   nuclide: V51
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 22
-#   A: 51
-#   nuclide: Ti51
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 4
+#   residual: 
+#     Z: 22
+#     A: 51
+#     nuclide: Ti51
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.702800E+01   4.000000E-02   2.622000E+01   1.350000E+00   1.000000E+00
@@ -37,19 +38,3 @@
 #   author: A.Fessler,A.J.M.Plompen,D.L.Smith,J.W.Meadows, Y.Ikeda
 #   title: Neutron activation cross-section measurements  from 16 to 20 MeV for isotopes of F, Na, Mg, Al, Si,  P, Cl, Ti, V, Mn, Fe, Nb, Sn, and Ba
 #   journal: Jour: Nuclear Science and Engineering, Vol.134, Issue.2, p.171 (2000)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.702800E+01
-#   E-max [MeV]:  2.031300E+01
-#   F-value:  1.321415E+00
-#   A-value:  1.195784E+00
-#   chi-2:  2.520137E+01
-#   p-value:  2.804386E-01
-#   exp. data sets for p-value:      4
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.340557E+00   1.235884E+00   2.730181E+01
-# endfb8.0      1.224673E+00   1.166149E+00   1.641928E+01
-# jeff3.3       1.380501E+00   1.280599E+00   3.489837E+01
-# jendl5.0      1.204956E+00   1.026539E+00   9.804036E+00

@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: B10(n,n'_02)B11 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Vaucher
 #   year: 1970
 #   subentry: 20515004
 #   X4 reaction: 5-B-10(N,INL)5-B-10,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20515004
-#   level energy [MeV]  1.74000E+00
-# target:
+#   level energy [MeV]:  1.74000E+00
+# target: 
 #   Z: 5
 #   A: 10
 #   nuclide: B10
-# reaction:
+# reaction: 
 #   type: (n,n'_02)
 #   ENDF_MF: 3
 #   ENDF_MT: 52
@@ -25,14 +25,15 @@
 #     energy [MeV]:  1.740050E+00
 #     spin:  0.000000E+00
 #     parity: 1
-# residual:
-#   Z: 5
-#   A: 11
-#   nuclide: B11
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 2
+#   residual: 
+#     Z: 5
+#     A: 11
+#     nuclide: B11
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.415000E+01   1.000000E-01   8.000000E+00   3.000000E+00   1.000000E+00
@@ -41,20 +42,3 @@
 #   author: B.Vaucher,J.C.Alder,C.Joseph
 #   title: Scattering of 14.1 MeV neutrons by B-10
 #   journal: Jour: Helvetica Physica Acta, Vol.43, p.237 (1970)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  1.415000E+01
-#   E-max [MeV]:  1.415000E+01
-#   F-value:  5.952729E+00
-#   A-value:  2.185953E-01
-#   chi-2:  3.136709E+01
-#   p-value:  7.224363E-02
-#   exp. data sets for p-value:      1
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    9.473899E+00   1.086681E-01   4.255534E+01
-# endfb8.0      9.473899E+00   1.086681E-01   4.255534E+01
-# jeff3.3       9.473899E+00   1.086681E-01   4.255534E+01
-# jendl5.0      1.522742E+00   7.427858E-01   9.388889E+00
-# cendl3.2      2.121887E+00   5.236415E-01   1.978056E+01

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Al27(a,x)Mg27 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Probst
 #   year: 1976
 #   subentry: B0174005
 #   X4 reaction: 13-AL-27(A,X)12-MG-27,CUM,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/B0174005
-# target:
+# target: 
 #   Z: 13
 #   A: 27
 #   nuclide: Al27
-# reaction:
+# reaction: 
 #   type: (a,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 12
-#   A: 27
-#   nuclide: Mg27
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 25
+#   residual: 
+#     Z: 12
+#     A: 27
+#     nuclide: Mg27
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 25
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.290000E+01   1.400000E+00   3.980000E-01   3.600000E-02   1.000000E+00
@@ -58,16 +59,3 @@
 #   author: H.J.PRobst, S.M.Qaim, R.Weinreich
 #   title: Excitation functions of high-energy alpha-particle  induced nuclear reactions on aluminium and magnesium:  Production of 28Mg
 #   journal: Jour: Applied Radiation and Isotopes, Vol.27, p.431 (1976)
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  2.290000E+01
-#   E-max [MeV]:  1.600000E+02
-#   F-value:  3.298684E+00
-#   A-value:  7.611591E-01
-#   chi-2:  2.113292E+02
-#   p-value:  2.212847E-01
-#   exp. data sets for p-value:      1
-#   libraries:      1
-##  Library          F              A            chi-2
-# tendl.2023    3.298684E+00   7.611591E-01   2.113292E+02

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Co59(n,x)Co59 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Simakov
 #   year: 1981
 #   subentry: 405300021
 #   X4 reaction: 27-CO-59(N,INL)27-CO-59,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/405300021
-# target:
+# target: 
 #   Z: 27
 #   A: 59
 #   nuclide: Co59
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 27
-#   A: 59
-#   nuclide: Co59
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 4
+#   residual: 
+#     Z: 27
+#     A: 59
+#     nuclide: Co59
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.990000E+00   7.000000E-02   1.510000E+03   1.000000E+02   1.000000E+00
@@ -37,17 +38,3 @@
 #   author: S.P.Simakov,G.N.Lovchikova,O.A.Sal'nikov, G.V.Kotel'nikova,V.A.Vinogradov
 #   title: Elastic and inelastic scattering of the neutrons   with the energies from 5 to 8 MeV on cobalt
 #   journal: Jour: Vop.At.Nauki i Tekhn.,Ser.Yaderno-Reak.Konstanty, Issue.5/44, p.23
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  4.990000E+00
-#   E-max [MeV]:  8.090000E+00
-#   F-value:  1.039509E+00
-#   A-value:  1.022456E+00
-#   chi-2:  5.746923E-01
-#   p-value:  4.367399E-01
-#   exp. data sets for p-value:      2
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.036777E+00   1.018123E+00   4.755425E-01
-# jendl5.0      1.042073E+00   1.026807E+00   6.738421E-01

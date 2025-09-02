@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Nb93(n,x)Nb94 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Grigoriev
 #   year: 2007
 #   subentry: 41505003
 #   X4 reaction: 41-NB-93(N,G)41-NB-94,,SIG,,AV
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/41505003
-# target:
+# target: 
 #   Z: 41
 #   A: 93
 #   nuclide: Nb93
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 41
-#   A: 94
-#   nuclide: Nb94
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 6
+#   residual: 
+#     Z: 41
+#     A: 94
+#     nuclide: Nb94
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    7.325000E-05   2.675000E-05   2.000000E+02   2.000000E+01   1.000000E+00
@@ -39,18 +40,3 @@
 #   author: Yu.V.Grigoriev, B.V.Zhuravlev, O.N.Pavlova,A.I.Berlev, A.M.Perekrestenko, Zh.V.Mezentseva
 #   title: Measurement of Nb, Mo, Ta and W cross-sections on the  IBR-30 and MMF neutron beams.
 #   journal: Conf: Int.Sem.on Interactions of Neutrons with Nuclei, No.14, p.313 (200
-# statistics:
-#   NEA score: T3
-#   IAEA score: -1
-#   E-min [MeV]:  7.325000E-05
-#   E-max [MeV]:  3.400000E-03
-#   F-value:  2.000332E+01
-#   A-value:  1.949680E-01
-#   chi-2:  7.892818E+02
-#   p-value:  3.564347E-02
-#   exp. data sets for p-value:      3
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.941995E+01   2.073363E-01   9.000864E+02
-# jeff3.3       2.003833E+01   2.002855E-01   9.220461E+02
-# jendl5.0      2.056259E+01   1.784700E-01   5.457129E+02

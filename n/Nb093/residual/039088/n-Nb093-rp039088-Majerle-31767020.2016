@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Nb93(n,x)Y88 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Majerle
 #   year: 2016
 #   subentry: 31767020
 #   X4 reaction: 41-NB-93(N,X)39-Y-88,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/31767020
-# target:
+# target: 
 #   Z: 41
 #   A: 93
 #   nuclide: Nb93
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 39
-#   A: 88
-#   nuclide: Y88
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 5
+#   residual: 
+#     Z: 39
+#     A: 88
+#     nuclide: Y88
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.450000E+01   1.100000E+00   2.000000E+00   1.000000E+00   1.000000E+00
@@ -38,19 +39,3 @@
 #   author: M.Majerle, P.Bem, J.Novak, E.Simeckova, M.Stefanik
 #   title: Au, Bi, Co and Nb cross-section measured by  quasimonoenergetic neutrons from p+7Li reaction in  the energy range of 18-36 MeV
 #   journal: Jour: Nuclear Physics, Section A, Vol.953, p.139 (2016)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  2.450000E+01
-#   E-max [MeV]:  3.550000E+01
-#   F-value:  2.289843E+00
-#   A-value:  4.953460E-01
-#   chi-2:  1.819012E+01
-#   p-value:  1.714363E-01
-#   exp. data sets for p-value:      3
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    2.557717E+00   4.033327E-01   2.038597E+01
-# endfb8.0      2.639980E+00   3.804067E-01   2.629820E+01
-# jeff3.3       2.600104E+00   3.875205E-01   2.468554E+01
-# jendl5.0      1.094325E+00   1.012578E+00   1.390785E+00

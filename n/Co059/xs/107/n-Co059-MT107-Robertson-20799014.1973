@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Co59(n,a)Mn56 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Robertson
 #   year: 1973
 #   subentry: 20799014
 #   X4 reaction: 27-CO-59(N,A)25-MN-56,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20799014
-# target:
+# target: 
 #   Z: 27
 #   A: 59
 #   nuclide: Co59
-# reaction:
+# reaction: 
 #   type: (n,a)
 #   ENDF_MF: 3
 #   ENDF_MT: 107
-# residual:
-#   Z: 25
-#   A: 56
-#   nuclide: Mn56
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 25
+#     A: 56
+#     nuclide: Mn56
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.478000E+01   1.000000E-01   3.120374E+01   6.762400E-01   9.660600E-01
@@ -34,21 +35,3 @@
 #   author: J.C.Robertson,B.Audric,P.Kolkowski
 #   title: Some activation cross-sections at 14.78 MeV.
 #   journal: Jour: Journal of Nuclear Energy, Vol.27, p.531 (1973)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.478000E+01
-#   E-max [MeV]:  1.478000E+01
-#   F-value:  1.024733E+00
-#   A-value:  9.819537E-01
-#   chi-2:  1.544519E+00
-#   p-value:  4.178242E-01
-#   exp. data sets for p-value:      8
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.000006E+00   1.000006E+00   3.463243E-04
-# endfb8.0      1.011262E+00   9.888638E-01   7.223185E-01
-# jeff3.3       1.040175E+00   9.613765E-01   3.582416E+00
-# jendl5.0      1.021096E+00   9.793399E-01   1.497710E+00
-# cendl3.2      1.039067E+00   9.624020E-01   3.434403E+00
-# irdff2.0      1.000515E+00   1.000515E+00   2.991904E-02

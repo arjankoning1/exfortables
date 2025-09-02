@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Zr0(p,x)Nb96 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Szelecsenyi
 #   year: 2015
 #   subentry: D4317002
 #   X4 reaction: 40-ZR-0(P,X)41-NB-96,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/D4317002
-# target:
+# target: 
 #   Z: 40
 #   A: 0
 #   nuclide: Zr0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 41
-#   A: 96
-#   nuclide: Nb96
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 31
+#   residual: 
+#     Z: 41
+#     A: 96
+#     nuclide: Nb96
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 31
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.000000E+00   9.000000E-01   5.000000E-02   1.000000E-03   1.000000E+00
@@ -64,17 +65,3 @@
 #   author: F.Szelecsenyi, G.F.Steyn, Z.Kovacs, C.Vermeulen,  K.Nagatsu, M.-R.Zhang, K.Suzuki
 #   title: Excitation functions of natZr+p nuclear processes up  to 70 MeV: New measurements and compilation
 #   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.343, p.173 (20
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  3.000000E+00
-#   E-max [MeV]:  5.390000E+01
-#   F-value:  1.335305E+00
-#   A-value:  8.734924E-01
-#   chi-2:  1.521907E+01
-#   p-value:  3.311556E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.381150E+00   8.159569E-01   2.330499E+01
-# jendl5.0      1.285184E+00   9.350847E-01   7.133165E+00

@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: Te126(n,x)Sb126m cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Gopych
 #   year: 1994
 #   subentry: 41163007
 #   X4 reaction: 52-TE-126(N,P)51-SB-126-M1+M2,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/41163007
-# target:
+# target: 
 #   Z: 52
 #   A: 126
 #   nuclide: Te126
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 51
-#   A: 126
-#   nuclide: Sb126m
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 51
+#     A: 126
+#     nuclide: Sb126m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.460000E+01   2.000000E-01   4.500000E+00   4.000000E-01   1.000000E+00
@@ -39,18 +40,3 @@
 #   author: P.M.Gopych, I.I.Zalyubovskii, P.S.Kizim, V.I.Sorokin, V.V.Sotnikov, A.F.Shchus'
 #   title: Regular spin splitting of (n,p) reactions cross  sections on tellurium isotopes
 #   journal: Jour: Physics of Atomic Nuclei, Vol.57, p.363 (1994)
-# statistics:
-#   NEA score: T2
-#   IAEA score:  1
-#   E-min [MeV]:  1.460000E+01
-#   E-max [MeV]:  1.460000E+01
-#   F-value:  2.863209E+00
-#   A-value:  3.527025E-01
-#   chi-2:  5.275727E+01
-#   p-value:  2.141176E-01
-#   exp. data sets for p-value:      6
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    2.420310E+00   4.131703E-01   4.358422E+01
-# jeff3.3       2.749723E+00   3.636730E-01   5.124669E+01
-# jendl5.0      3.424636E+00   2.920018E-01   6.344090E+01

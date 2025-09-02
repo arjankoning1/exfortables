@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Rb0(p,x)Sr82 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Zaitseva
 #   year: 1991
 #   subentry: A0918012
 #   X4 reaction: 37-RB-0(P,X)38-SR-82,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/A0918012
-# target:
+# target: 
 #   Z: 37
 #   A: 0
 #   nuclide: Rb0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 38
-#   A: 82
-#   nuclide: Sr82
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 29
+#   residual: 
+#     Z: 38
+#     A: 82
+#     nuclide: Sr82
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 29
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.952000E+01   0.000000E+00   2.808000E+01   4.490000E+00   1.000000E+00
@@ -62,17 +63,3 @@
 #   author: N.G.Zaitseva,C.Deptula, O.Knotek, Kim Sen Khan, S.Mikolaewski, P.Mikec, E.Rurarz, V.A.Khalkin, V.A.Konov, L.M.Popinenkova
 #   title: Cross sections for the 100 MeV proton-induced nuclear reactions and yields of some radionuclides used in nuclear medicine
 #   journal: Jour: Radiochimica Acta, Vol.54, p.57 (1991)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  3.952000E+01
-#   E-max [MeV]:  9.797000E+01
-#   F-value:  1.766297E+00
-#   A-value:  7.300234E-01
-#   chi-2:  9.302931E+00
-#   p-value:  2.405284E-01
-#   exp. data sets for p-value:      6
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    2.070079E+00   5.264450E-01   9.962979E+00
-# jendl5.0      1.409641E+00   1.012326E+00   8.642880E+00

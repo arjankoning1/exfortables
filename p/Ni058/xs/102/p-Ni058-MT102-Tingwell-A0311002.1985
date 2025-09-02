@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ni58(p,g)Cu59 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Tingwell
 #   year: 1985
 #   subentry: A0311002
 #   X4 reaction: 28-NI-58(P,G)29-CU-59,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/A0311002
-# target:
+# target: 
 #   Z: 28
 #   A: 58
 #   nuclide: Ni58
-# reaction:
+# reaction: 
 #   type: (p,g)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 29
-#   A: 59
-#   nuclide: Cu59
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 17
+#   residual: 
+#     Z: 29
+#     A: 59
+#     nuclide: Cu59
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 17
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.144000E+00   0.000000E+00   3.500000E-04   7.981199E-05   1.000000E+00
@@ -50,17 +51,3 @@
 #   author: C.I.W.Tingwell,L.W.Mitchell,M.E.Sevior,D.G.Sargood
 #   title: The thermonuclear reaction rate of Ni-58(p,gamma)Cu-59
 #   journal: Jour: Nuclear Physics, Section A, Vol.439, p.371 (1985)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  1.144000E+00
-#   E-max [MeV]:  4.079000E+00
-#   F-value:  1.702136E+00
-#   A-value:  1.205695E+00
-#   chi-2:  4.071095E+01
-#   p-value:  3.361380E-01
-#   exp. data sets for p-value:      3
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.912825E+00   1.471044E+00   6.758054E+01
-# jendl5.0      1.463714E+00   9.882097E-01   1.384137E+01

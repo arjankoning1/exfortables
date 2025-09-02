@@ -1,28 +1,29 @@
-# header:
+# header: 
 #   title: Ni0(n,n') cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Broder
 #   year: 1970
 #   subentry: 40095034
 #   X4 reaction: 28-NI-0(N,INL)28-NI-0,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/40095034
-# target:
+# target: 
 #   Z: 28
 #   A: 0
 #   nuclide: Ni0
-# reaction:
+# reaction: 
 #   type: (n,n')
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 22
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 22
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.360000E+00   0.000000E+00   4.000000E+01   5.000000E+00   1.000000E+00
@@ -51,20 +52,3 @@
 #   author: D.L.Broder, A.F.Gamaliy, A.I.Lashuk, I.P.Sadokhin
 #   title: Inelastic Neutron Scattering-(n,n gamma)-by Fluorine,  Iron, Cobalt, Nickel and Tantalum
 #   journal: Conf: Nuclear Data for Reactors Conf., Helsinki 1970, Vol.2, p.295 (1970
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  1.360000E+00
-#   E-max [MeV]:  6.590000E+00
-#   F-value:  1.288680E+00
-#   A-value:  1.027599E+00
-#   chi-2:  6.235214E+00
-#   p-value:  2.580648E-01
-#   exp. data sets for p-value:      2
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.197402E+00   1.046286E+00   3.816679E+00
-# endfb8.0      1.286828E+00   1.041232E+00   5.826751E+00
-# jeff3.3       1.340066E+00   9.399315E-01   8.550000E+00
-# jendl5.0      1.239412E+00   1.076049E+00   5.227433E+00
-# cendl3.2      1.358364E+00   1.039902E+00   7.755202E+00

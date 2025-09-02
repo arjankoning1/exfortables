@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: V51(n,a)Sc48 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Uwamino
 #   year: 1992
 #   subentry: 22703014
 #   X4 reaction: 23-V-51(N,A)21-SC-48,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22703014
-# target:
+# target: 
 #   Z: 23
 #   A: 51
 #   nuclide: V51
-# reaction:
+# reaction: 
 #   type: (n,a)
 #   ENDF_MF: 3
 #   ENDF_MT: 107
-# residual:
-#   Z: 21
-#   A: 48
-#   nuclide: Sc48
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 36
+#   residual: 
+#     Z: 21
+#     A: 48
+#     nuclide: Sc48
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 36
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.500000E+00   0.000000E+00   2.008000E-05   1.100000E-05   1.000000E+00
@@ -69,20 +70,3 @@
 #   author: Y.UWAMINO,H.SUGITA,Y.KONDO,T.NAKAMURA
 #   title: Measurement of neutron activation cross sections of energy up to 40 MeV using semimonoenergetic p-Be neutrons
 #   journal: Jour: Nuclear Science and Engineering, Vol.111, p.391 (1992)
-# statistics:
-#   NEA score: T2
-#   IAEA score:  1
-#   E-min [MeV]:  3.500000E+00
-#   E-max [MeV]:  3.850000E+01
-#   F-value:  2.892788E+00
-#   A-value:  1.896263E+00
-#   chi-2:  4.727889E+01
-#   p-value:  1.755907E-01
-#   exp. data sets for p-value:      1
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.409892E+00   1.161686E+00   3.096295E+00
-# endfb8.0      1.108113E+00   1.031396E+00   1.693882E-01
-# jeff3.3       1.407312E+00   1.188056E+00   2.964987E+00
-# jendl5.0      1.070867E+00   1.036392E+00   1.055990E-01
-# irdff2.0      2.892315E+00   1.882833E+00   4.728643E+01

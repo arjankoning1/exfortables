@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Te130(d,x)Te131 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Otozai
 #   year: 1968
 #   subentry: P0119010
 #   X4 reaction: 52-TE-130(D,P)52-TE-131,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/P0119010
-# target:
+# target: 
 #   Z: 52
 #   A: 130
 #   nuclide: Te130
-# reaction:
+# reaction: 
 #   type: (d,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 52
-#   A: 131
-#   nuclide: Te131
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 5
+#   residual: 
+#     Z: 52
+#     A: 131
+#     nuclide: Te131
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    6.600778E+00   0.000000E+00   7.000001E+01   0.000000E+00   1.000000E+00
@@ -38,16 +39,3 @@
 #   author: K.Otozai,S.Kuze,H.Okamura,A.Mito,T.Nishi,I.Fujiwara
 #   title: Excitation functions for deuteron-induced reactions
 #   journal: Jour: Nuclear Physics, Section A, Vol.107, p.427 (1968)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  6.600778E+00
-#   E-max [MeV]:  1.431900E+01
-#   F-value:  1.741546E+00
-#   A-value:  6.119035E-01
-#   chi-2:  7.429984E+00
-#   p-value:  2.991644E-01
-#   exp. data sets for p-value:      1
-#   libraries:      1
-##  Library          F              A            chi-2
-# tendl.2023    1.741546E+00   6.119035E-01   7.429984E+00

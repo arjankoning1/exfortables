@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ni58(n,p)Co58 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Smith
 #   year: 1975
 #   subentry: 102380401
 #   X4 reaction: 28-NI-58(N,P)27-CO-58,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/102380401
-# target:
+# target: 
 #   Z: 28
 #   A: 58
 #   nuclide: Ni58
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 27
-#   A: 58
-#   nuclide: Co58
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 45
+#   residual: 
+#     Z: 27
+#     A: 58
+#     nuclide: Co58
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 45
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.854000E+00   4.200000E-02   1.340910E+02   6.486400E+00   9.917974E-01
@@ -78,21 +79,3 @@
 #   author: D.L.Smith,J.W.Meadows
 #   title: Cross-section measurement of (n,p) reactions for 27Al,  46,47,48Ti, 54,56Fe, 58Ni, 59Co, and 64Zn from near  threshold to 10 MeV
 #   journal: Jour: Nuclear Science and Engineering, Vol.58, p.314 (1975)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  2.854000E+00
-#   E-max [MeV]:  3.994000E+00
-#   F-value:  1.088941E+00
-#   A-value:  1.015894E+00
-#   chi-2:  3.625791E+00
-#   p-value:  2.870883E-01
-#   exp. data sets for p-value:      8
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.080054E+00   1.007378E+00   2.812905E+00
-# endfb8.0      1.079158E+00   1.003991E+00   2.717028E+00
-# jeff3.3       1.081645E+00   9.993603E-01   3.000280E+00
-# jendl5.0      1.116451E+00   1.056009E+00   6.461321E+00
-# cendl3.2      1.090176E+00   1.016948E+00   3.778946E+00
-# irdff2.0      1.081080E+00   1.012695E+00   2.984263E+00

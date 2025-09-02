@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ta181(n,x)Ta182 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Miskel
 #   year: 1962
 #   subentry: 12115004
 #   X4 reaction: 73-TA-181(N,G)73-TA-182,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/12115004
-# target:
+# target: 
 #   Z: 73
 #   A: 181
 #   nuclide: Ta181
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 73
-#   A: 182
-#   nuclide: Ta182
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 19
+#   residual: 
+#     Z: 73
+#     A: 182
+#     nuclide: Ta182
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 19
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    6.900000E-02   4.000000E-03   6.540000E+02   3.270000E+01   1.000000E+00
@@ -52,17 +53,3 @@
 #   author: J.A.Miskel,K.V.Marsh,M.Lindner,R.J.Nagle
 #   title: Neutron activation cross sections.
 #   journal: Jour: Physical Review, Vol.128, p.2717 (1962)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  6.900000E-02
-#   E-max [MeV]:  3.970000E+00
-#   F-value:  1.244478E+00
-#   A-value:  9.138802E-01
-#   chi-2:  1.486249E+01
-#   p-value:  2.420878E-01
-#   exp. data sets for p-value:      8
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.273938E+00   8.954757E-01   1.705256E+01
-# jendl5.0      1.212271E+00   9.326630E-01   1.267240E+01

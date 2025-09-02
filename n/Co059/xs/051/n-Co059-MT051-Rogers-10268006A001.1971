@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Co59(n,n'_01)Co60 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Rogers
 #   year: 1971
 #   subentry: 10268006
 #   X4 reaction: 27-CO-59(N,INL)27-CO-59,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/10268006
-#   level energy [MeV]  1.09700E+00
-# target:
+#   level energy [MeV]:  1.09700E+00
+# target: 
 #   Z: 27
 #   A: 59
 #   nuclide: Co59
-# reaction:
+# reaction: 
 #   type: (n,n'_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 51
@@ -25,14 +25,15 @@
 #     energy [MeV]:  1.099256E+00
 #     spin:  1.500000E+00
 #     parity: -1
-# residual:
-#   Z: 27
-#   A: 60
-#   nuclide: Co60
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 27
+#     A: 60
+#     nuclide: Co60
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.760000E+00   0.000000E+00   7.900000E+01   1.185000E+01   1.000000E+00
@@ -40,20 +41,3 @@
 #   author: V.C.ROGERS,L.E.BEGHIAN,F.M.CLIKEMAN
 #   title: Inelastic Scattering Cross Sections of 19F, 58,60,62NI,  and 59Co
 #   journal: Jour: Transactions of the American Nuclear Society, Vol.14, p.806 (1971)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  1.760000E+00
-#   E-max [MeV]:  1.760000E+00
-#   F-value:  1.432553E+00
-#   A-value:  1.428767E+00
-#   chi-2:  8.484248E+00
-#   p-value:  1.662119E-01
-#   exp. data sets for p-value:      4
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.356932E+00   1.356932E+00   5.843528E+00
-# endfb8.0      1.459711E+00   1.459711E+00   9.432789E+00
-# jeff3.3       1.516159E+00   1.516159E+00   1.185451E+01
-# jendl5.0      1.457732E+00   1.457732E+00   9.353524E+00
-# cendl3.2      1.360067E+00   1.360067E+00   5.936891E+00

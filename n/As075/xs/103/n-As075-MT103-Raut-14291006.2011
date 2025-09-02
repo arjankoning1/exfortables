@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: As75(n,p)Ge75 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Raut
 #   year: 2011
 #   subentry: 14291006
 #   X4 reaction: 33-AS-75(N,P)32-GE-75,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/14291006
-# target:
+# target: 
 #   Z: 33
 #   A: 75
 #   nuclide: As75
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 32
-#   A: 75
-#   nuclide: Ge75
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 12
+#   residual: 
+#     Z: 32
+#     A: 75
+#     nuclide: Ge75
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 12
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    7.500000E+00   2.000000E-01   5.600000E+00   2.000000E-01   1.000000E+00
@@ -45,20 +46,3 @@
 #   author: R.Raut,A.S.Crowell,B.Fallin,C.R.Howell,C.Huibregtse, J.H.Kelley,T.Kawano,E.Kwan,G.Rusev,A.P.Tonchev, W.Tornow,D.J.Vieira,J.B.Wilhelmy
 #   title: Cross-section measurements of neutron-induced reactions on GaAs using monoenergetic beams from 7.5 to 15 MeV
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.83, p.044621 (2011)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  7.500000E+00
-#   E-max [MeV]:  1.500000E+01
-#   F-value:  1.232364E+00
-#   A-value:  9.149650E-01
-#   chi-2:  2.216134E+01
-#   p-value:  2.767944E-01
-#   exp. data sets for p-value:      1
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.168344E+00   9.872438E-01   1.215477E+01
-# endfb8.0      1.207338E+00   8.592258E-01   1.693892E+01
-# jeff3.3       1.173737E+00   9.694840E-01   1.176765E+01
-# jendl5.0      1.334854E+00   8.802375E-01   5.140358E+01
-# cendl3.2      1.249121E+00   8.858297E-01   1.854175E+01

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Cd106(n,np)Ag105 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Weigel
 #   year: 1975
 #   subentry: 21609011
 #   X4 reaction: 48-CD-106(N,X)47-AG-105,CUM,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/21609011
-# target:
+# target: 
 #   Z: 48
 #   A: 106
 #   nuclide: Cd106
-# reaction:
+# reaction: 
 #   type: (n,np)
 #   ENDF_MF: 3
 #   ENDF_MT: 28
-# residual:
-#   Z: 47
-#   A: 105
-#   nuclide: Ag105
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 47
+#     A: 105
+#     nuclide: Ag105
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.420000E+01   5.000000E-01   1.117250E+03   1.200000E+02   8.660854E-01
@@ -34,19 +35,3 @@
 #   author: H.Weigel,R.Michel,W.Herr
 #   title: Measurement  of 14MeV cross sections for (n,p),  (n,alpha),(n,2n) and (n,np+pn+d) reactions in the  elements Sc,Ni,Ge,Pd,Cd,Sm,Dy,Gd and Yb by taking into  account the "effective" n-energy spectra. (in German)
 #   journal: Jour: Radiochimica Acta, Vol.22, p.11 (1975)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  1.420000E+01
-#   E-max [MeV]:  1.420000E+01
-#   F-value:  1.461783E+01
-#   A-value:  8.072141E-02
-#   chi-2:  6.892970E+01
-#   p-value:  5.960464E-08
-#   exp. data sets for p-value:      5
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    8.894075E+00   1.124344E-01   6.828717E+01
-# endfb8.0      4.731924E+00   2.113305E-01   5.391732E+01
-# jeff3.3       5.735369E+01   1.743567E-02   8.368743E+01
-# jendl5.0      9.757645E+00   1.024837E-01   6.982691E+01

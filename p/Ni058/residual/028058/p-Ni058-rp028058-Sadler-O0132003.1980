@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ni58(p,x)Ni58 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Sadler
 #   year: 1980
 #   subentry: O0132003
 #   X4 reaction: 28-NI-58(P,INL)28-NI-58,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/O0132003
-# target:
+# target: 
 #   Z: 28
 #   A: 58
 #   nuclide: Ni58
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 28
-#   A: 58
-#   nuclide: Ni58
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 4
+#   residual: 
+#     Z: 28
+#     A: 58
+#     nuclide: Ni58
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    8.000000E+01   0.000000E+00   3.100000E+01   3.000000E+00   1.000000E+00
@@ -37,18 +38,3 @@
 #   author: M.E.Sadler,P.P.Singh,J.Jastrzebski, L.L.Rutledge Jr,R.E.Segel
 #   title: Interaction of 80-164 MeV protons with nickel isotopes
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.21, p.2303 (1980)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  8.000000E+01
-#   E-max [MeV]:  1.640000E+02
-#   F-value:  1.404956E+00
-#   A-value:  1.090207E+00
-#   chi-2:  8.616632E+00
-#   p-value:  3.400567E-01
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.358558E+00   8.449166E-01   5.540110E+00
-# endfb8.0      1.628227E+00   1.523630E+00   1.834861E+01
-# jendl5.0      1.131526E+00   1.006547E+00   1.961177E+00

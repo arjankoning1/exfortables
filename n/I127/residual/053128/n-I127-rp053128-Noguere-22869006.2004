@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: I127(n,x)I128 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Noguere
 #   year: 2004
 #   subentry: 22869006
 #   X4 reaction: 53-I-127(N,G)53-I-128,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22869006
-# target:
+# target: 
 #   Z: 53
 #   A: 127
 #   nuclide: I127
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 53
-#   A: 128
-#   nuclide: I128
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 100
+#   residual: 
+#     Z: 53
+#     A: 128
+#     nuclide: I128
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 100
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.400000E-03   0.000000E+00   1.798000E+03   3.644000E+02   1.000000E+00
@@ -133,17 +134,3 @@
 #   author: G.Noguere, A.Brusegan, A.Lepretre,N.Herault,O.Bouland, G.Rudolf
 #   title: Reich-Moore analysis of the I-127 and I-129 resolved  resonance range
 #   journal: Conf: Conf.on Nucl.Data for Sci.and Techn., Santa Fe 2004, Vol.2, p.1462
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  3.400000E-03
-#   E-max [MeV]:  8.050000E-02
-#   F-value:  1.736691E+00
-#   A-value:  9.702083E-01
-#   chi-2:  6.511854E+00
-#   p-value:  3.322551E-01
-#   exp. data sets for p-value:      6
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.193139E+00   1.055914E+00   2.555734E+00
-# jendl5.0      2.139098E+00   8.914595E-01   1.046797E+01

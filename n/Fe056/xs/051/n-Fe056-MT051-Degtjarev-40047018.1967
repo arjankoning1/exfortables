@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Fe56(n,n'_01)Fe57 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Degtjarev
 #   year: 1967
 #   subentry: 40047018
 #   X4 reaction: 26-FE-56(N,INL)26-FE-56,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/40047018
-#   level energy [MeV]  8.40000E-01
-# target:
+#   level energy [MeV]:  8.40000E-01
+# target: 
 #   Z: 26
 #   A: 56
 #   nuclide: Fe56
-# reaction:
+# reaction: 
 #   type: (n,n'_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 51
@@ -25,14 +25,15 @@
 #     energy [MeV]:  8.467780E-01
 #     spin:  2.000000E+00
 #     parity: 1
-# residual:
-#   Z: 26
-#   A: 57
-#   nuclide: Fe57
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 7
+#   residual: 
+#     Z: 26
+#     A: 57
+#     nuclide: Fe57
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.370000E+00   0.000000E+00   6.500000E+02   7.000001E+01   1.000000E+00
@@ -46,20 +47,3 @@
 #   author: Ju.G.Degtjarev, V.N.Protopopov
 #   title: Excitation of Al-27,Cr-52,Fe-56 and Bi-209 low levels at inelastic scattering of 1-4 MeV neutrons
 #   journal: Jour: Atomnaya Energiya, Vol.23, Issue.6, p.568 (1967)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  1.370000E+00
-#   E-max [MeV]:  3.760000E+00
-#   F-value:  1.364318E+00
-#   A-value:  1.224714E+00
-#   chi-2:  1.647803E+01
-#   p-value:  2.215754E-01
-#   exp. data sets for p-value:      8
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.456068E+00   1.347753E+00   2.695520E+01
-# endfb8.0      1.417233E+00   1.374084E+00   1.945744E+01
-# jeff3.3       1.317338E+00   1.201957E+00   1.372932E+01
-# jendl5.0      1.339572E+00   1.255403E+00   1.354307E+01
-# cendl3.2      1.273162E+00   9.860006E-01   8.705137E+00

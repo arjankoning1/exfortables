@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: U235(n,x)U235 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Batchelor
 #   year: 1969
 #   subentry: 20036005
 #   X4 reaction: 92-U-235(N,INL)92-U-235,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20036005
-# target:
+# target: 
 #   Z: 92
 #   A: 235
 #   nuclide: U235
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 92
-#   A: 235
-#   nuclide: U235
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 3
+#   residual: 
+#     Z: 92
+#     A: 235
+#     nuclide: U235
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.000000E+00   5.000000E-02   2.000000E+03   3.800000E+02   1.000000E+00
@@ -36,17 +37,3 @@
 #   author: R.Batchelor, K.Wyld
 #   title: Neutron scattering by U-235 and Pu-239 for incident  neutrons of 2, 3 and 4 MeV
 #   journal: Rept: A.W.R.E. Aldermaston Reports, No.55/69 (1969)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  2.000000E+00
-#   E-max [MeV]:  4.000000E+00
-#   F-value:  1.041204E+00
-#   A-value:  9.883615E-01
-#   chi-2:  2.392961E-01
-#   p-value:  3.664282E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# jeff3.3       1.052441E+00   9.708030E-01   3.022820E-01
-# jendl5.0      1.025787E+00   1.006238E+00   1.763102E-01

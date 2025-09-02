@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Cu0(p,x)Zn62 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Mills
 #   year: 1992
 #   subentry: A05070021
 #   X4 reaction: 29-CU-0(P,X)30-ZN-62,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/A05070021
-# target:
+# target: 
 #   Z: 29
 #   A: 0
 #   nuclide: Cu0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 30
-#   A: 62
-#   nuclide: Zn62
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 53
+#   residual: 
+#     Z: 30
+#     A: 62
+#     nuclide: Zn62
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 53
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.630000E+01   0.000000E+00   2.639192E+01   2.174600E+00   9.884616E-01
@@ -86,18 +87,3 @@
 #   author: S.J.Mills,G.F.Steyn,F.M.Nortier
 #   title: Experimental and theoretical excitation functions of radionuclides produced in proton bombardment of copper up to 200 MeV.
 #   journal: Jour: Applied Radiation and Isotopes, Vol.43, p.1019 (1992)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  1.630000E+01
-#   E-max [MeV]:  1.966000E+02
-#   F-value:  1.620458E+00
-#   A-value:  6.763224E-01
-#   chi-2:  1.685446E+01
-#   p-value:  2.305047E-01
-#   exp. data sets for p-value:      8
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.753954E+00   6.198806E-01   2.116590E+01
-# endfb8.0      1.560933E+00   6.629522E-01   1.629537E+01
-# jendl5.0      1.537516E+00   7.527850E-01   1.310210E+01

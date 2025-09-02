@@ -1,28 +1,29 @@
-# header:
+# header: 
 #   title: Zr0(n,xp) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Armstrong
 #   year: 1955
 #   subentry: 11898003
 #   X4 reaction: 40-ZR-0(N,X)1-H-1,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/11898003
-# target:
+# target: 
 #   Z: 40
 #   A: 0
 #   nuclide: Zr0
-# reaction:
+# reaction: 
 #   type: (n,xp)
 #   ENDF_MF: 3
 #   ENDF_MT: 203
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.410000E+01   0.000000E+00   1.800000E+02   7.000000E+01   1.000000E+00
@@ -30,21 +31,3 @@
 #   author: A.H.Armstrong,J.E.Brolley Jr
 #   title: 14-MeV (n,alpha) and (n,p) cross sections in zirconium.
 #   journal: Jour: Physical Review, Vol.99, p.330(2) (1955)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  1.410000E+01
-#   E-max [MeV]:  1.410000E+01
-#   F-value:  2.217172E+00
-#   A-value:  4.597469E-01
-#   chi-2:  2.455065E+00
-#   p-value:  6.167489E-02
-#   exp. data sets for p-value:      3
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.791184E+00   5.582900E-01   1.876174E+00
-# endfb8.0      2.954698E+00   3.384441E-01   3.331368E+00
-# jeff3.3       1.897082E+00   5.271254E-01   2.054801E+00
-# jendl5.0      2.218958E+00   4.506620E-01   2.529122E+00
-# cendl3.2      2.185334E+00   4.575959E-01   2.483863E+00
-# irdff2.0      0.000000E+00   0.000000E+00   0.000000E+00

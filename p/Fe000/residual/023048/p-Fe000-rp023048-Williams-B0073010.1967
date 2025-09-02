@@ -1,28 +1,29 @@
-# header:
+# header: 
 #   title: Fe0(p,x) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Williams
 #   year: 1967
 #   subentry: B0073010
 #   X4 reaction: 26-FE-0(P,X)23-V-48,CUM,SIG,,,EXP
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/B0073010
-# target:
+# target: 
 #   Z: 26
 #   A: 0
 #   nuclide: Fe0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 9001
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 25
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 25
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.020000E+01   0.000000E+00   1.900000E-01   5.700000E-02   1.000000E+00
@@ -54,18 +55,3 @@
 #   author: I.R.Williams, C.B.Fulmer
 #   title: Excitation functions for radioactive isotopes produced by protons below 60 MeV on Al, Fe, and Cu
 #   journal: Jour: Physical Review, Vol.162, p.1055 (1967)
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  2.020000E+01
-#   E-max [MeV]:  6.250000E+01
-#   F-value:  1.978895E+01
-#   A-value:  1.052533E-01
-#   chi-2:  6.749183E+00
-#   p-value:  6.647527E-02
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.222255E+01   1.119422E-01   7.694964E+00
-# endfb8.0      1.842563E+01   1.033361E-01   7.112229E+00
-# jendl5.0      6.703881E+00   2.797483E-01   4.431759E+00

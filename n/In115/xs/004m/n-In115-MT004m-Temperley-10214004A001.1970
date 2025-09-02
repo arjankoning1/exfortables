@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: In115(n,n')In115m cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Temperley
 #   year: 1970
 #   subentry: 10214004
 #   X4 reaction: 49-IN-115(N,INL)49-IN-115-M,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/10214004
-# target:
+# target: 
 #   Z: 49
 #   A: 115
 #   nuclide: In115
-# reaction:
+# reaction: 
 #   type: (n,n')
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 49
-#   A: 115
-#   nuclide: In115m
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 49
+#     A: 115
+#     nuclide: In115m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.410000E+01   1.000000E+00   7.812170E+01   6.883300E+00   1.070160E+00
@@ -39,18 +40,3 @@
 #   author: J.K.Temperley,D.E.Barnes
 #   title: Neutron Activation Cross Sections for Some Isotopes of  Ruthenium, Palladium, Indium, Tin, and Iridium
 #   journal: Rept: Ballistic Research Labs Reports, No.1491 (1970)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.410000E+01
-#   E-max [MeV]:  1.410000E+01
-#   F-value:  1.168512E+00
-#   A-value:  8.558484E-01
-#   chi-2:  3.139722E+00
-#   p-value:  1.017646E-01
-#   exp. data sets for p-value:      8
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.168485E+00   8.558089E-01   3.139582E+00
-# jendl5.0      1.161778E+00   8.607496E-01   2.979077E+00
-# irdff2.0      1.175068E+00   8.510143E-01   3.300508E+00

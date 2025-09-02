@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: V51(p,n')Cr51 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Hansen
 #   year: 1962
 #   subentry: B0066002
 #   X4 reaction: 23-V-51(P,N)24-CR-51,,SIG,,,EXP
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/B0066002
-# target:
+# target: 
 #   Z: 23
 #   A: 51
 #   nuclide: V51
-# reaction:
+# reaction: 
 #   type: (p,n')
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 24
-#   A: 51
-#   nuclide: Cr51
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 7
+#   residual: 
+#     Z: 24
+#     A: 51
+#     nuclide: Cr51
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    5.000000E+00   0.000000E+00   2.750000E+02   2.800000E+01   1.000000E+00
@@ -40,17 +41,3 @@
 #   author: L.F.HANSEN, R.D.ALBERT
 #   title: Statistical Theory Predictions For 5 to 11 MeV (P,N) And (P,P') Nuclear Reactions in V-51, Co-59, Cu-63, Cu-65, and Rh-103
 #   journal: Jour: Physical Review, Vol.128, p.291 (1962)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  5.000000E+00
-#   E-max [MeV]:  1.100000E+01
-#   F-value:  1.150384E+00
-#   A-value:  1.132676E+00
-#   chi-2:  2.762934E+00
-#   p-value:  2.900800E-01
-#   exp. data sets for p-value:      7
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.169964E+00   1.155165E+00   3.376129E+00
-# jendl5.0      1.128494E+00   1.110624E+00   2.149740E+00

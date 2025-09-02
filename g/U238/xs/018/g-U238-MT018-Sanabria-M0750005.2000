@@ -1,28 +1,29 @@
-# header:
+# header: 
 #   title: U238(g,f) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Sanabria
 #   year: 2000
 #   subentry: M0750005
 #   X4 reaction: 92-U-238(G,F),,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/M0750005
-# target:
+# target: 
 #   Z: 92
 #   A: 238
 #   nuclide: U238
-# reaction:
+# reaction: 
 #   type: (g,f)
 #   ENDF_MF: 3
 #   ENDF_MT: 18
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 28
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 28
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    6.500000E+01   0.000000E+00   1.545000E+01   7.529200E-01   1.000000E+00
@@ -57,18 +58,3 @@
 #   author: J.C.SANABRIA,B.L.BERMAN,C.CETINA,P.L.COLE,G.FELDMAN, N.R.KOLB,R.E.PYWELL,J.M.VOGT,V.G.NEDOREZOV,A.S.SUDOV, G.YA.KEZERASHVILI
 #   title: Photofission of actinide nuclei in the  quasideuteron  and lower part of DELTA energy region.
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.61, p.034604 (2000)
-# statistics:
-#   NEA score: T3
-#   IAEA score: -1
-#   E-min [MeV]:  6.500000E+01
-#   E-max [MeV]:  2.600000E+02
-#   F-value:  2.816393E+00
-#   A-value:  4.493244E-01
-#   chi-2:  1.607515E+02
-#   p-value:  1.824960E-01
-#   exp. data sets for p-value:      5
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    3.196693E+00   3.834337E-01   1.869515E+02
-# endfb8.0      0.000000E+00   0.000000E+00   0.000000E+00
-# jendl5.0      2.437491E+00   5.265381E-01   1.345514E+02

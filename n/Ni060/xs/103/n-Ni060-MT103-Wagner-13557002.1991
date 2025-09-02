@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ni60(n,p)Co60 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Wagner
 #   year: 1991
 #   subentry: 13557002
 #   X4 reaction: 28-NI-60(N,P)27-CO-60,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/13557002
-# target:
+# target: 
 #   Z: 28
 #   A: 60
 #   nuclide: Ni60
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 27
-#   A: 60
-#   nuclide: Co60
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 8
+#   residual: 
+#     Z: 27
+#     A: 60
+#     nuclide: Co60
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    5.931000E+00   2.500000E-02   2.030000E+01   1.000000E+00   1.000000E+00
@@ -41,21 +42,3 @@
 #   author: M.WAGNER,H.VONACH,R.C.HAIGHT
 #   title: MEASUREMENT OF THE 60NI(N,P)60CO CROSS SECTION IN THE  NEUTRON ENERGY RANGE 6 - 13 MEV.
 #   journal: Conf: Conf.on Nucl.Data for Sci.and Technol.,Juelich 1991, p.358 (1991)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  5.931000E+00
-#   E-max [MeV]:  1.264000E+01
-#   F-value:  1.080626E+00
-#   A-value:  1.010787E+00
-#   chi-2:  3.074979E+00
-#   p-value:  2.681009E-01
-#   exp. data sets for p-value:      3
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.082802E+00   1.028102E+00   3.432209E+00
-# endfb8.0      1.076709E+00   1.050548E+00   2.915508E+00
-# jeff3.3       1.107107E+00   9.981228E-01   4.816967E+00
-# jendl5.0      1.050755E+00   1.002215E+00   1.171143E+00
-# cendl3.2      1.072855E+00   9.560208E-01   2.515458E+00
-# irdff2.0      1.084193E+00   1.032509E+00   3.598592E+00

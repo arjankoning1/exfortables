@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: V51(n,n'_01)V52 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Mittler
 #   year: 1972
 #   subentry: 10480003
 #   X4 reaction: 23-V-51(N,INL)23-V-51,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/10480003
-#   level energy [MeV]  3.21000E-01
-# target:
+#   level energy [MeV]:  3.21000E-01
+# target: 
 #   Z: 23
 #   A: 51
 #   nuclide: V51
-# reaction:
+# reaction: 
 #   type: (n,n'_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 51
@@ -25,14 +25,15 @@
 #     energy [MeV]:  3.200840E-01
 #     spin:  2.500000E+00
 #     parity: -1
-# residual:
-#   Z: 23
-#   A: 52
-#   nuclide: V52
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 15
+#   residual: 
+#     Z: 23
+#     A: 52
+#     nuclide: V52
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 15
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.100000E+00   0.000000E+00   3.090000E+02   2.700000E+01   1.000000E+00
@@ -54,19 +55,3 @@
 #   author: A.Mittler,J.A.Correia,L.E.Beghian,J.J.Egan,G.Kegel, P.Harihar,R.V.Le Claire,W.Schier
 #   title: Neutron Inelastic Scattering Cross Sections for 51V  via (n,n'gamma) Reactions.
 #   journal: Jour: Bulletin of the American Physical Society Ser.II, Vol.17, p.555(HE
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  1.100000E+00
-#   E-max [MeV]:  4.100000E+00
-#   F-value:  1.908952E+00
-#   A-value:  6.457908E-01
-#   chi-2:  1.351335E+01
-#   p-value:  2.389165E-01
-#   exp. data sets for p-value:      3
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    2.146127E+00   5.446532E-01   1.797403E+01
-# endfb8.0      1.515317E+00   8.329433E-01   7.720012E+00
-# jeff3.3       2.140600E+00   5.468630E-01   1.781011E+01
-# jendl5.0      1.786884E+00   7.010568E-01   1.054927E+01

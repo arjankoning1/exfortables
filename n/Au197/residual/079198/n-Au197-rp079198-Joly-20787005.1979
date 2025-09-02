@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Au197(n,x)Au198 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Joly
 #   year: 1979
 #   subentry: 20787005
 #   X4 reaction: 79-AU-197(N,G)79-AU-198,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20787005
-# target:
+# target: 
 #   Z: 79
 #   A: 197
 #   nuclide: Au197
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 79
-#   A: 198
-#   nuclide: Au198
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 5
+#   residual: 
+#     Z: 79
+#     A: 198
+#     nuclide: Au198
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    5.200000E-01   1.600000E-01   1.300000E+02   9.000000E+00   1.000000E+00
@@ -38,17 +39,3 @@
 #   author: S.Joly,J.Voignier,G.Grenier,D.M.Drake,L.Nilsson
 #   title: Neutron capture cross section of rhodium,  thulium, iridium and gold between 0.5 and 3 MeV
 #   journal: Jour: Nuclear Science and Engineering, Vol.70, p.53 (1979)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  5.200000E-01
-#   E-max [MeV]:  3.000000E+00
-#   F-value:  1.066341E+00
-#   A-value:  1.031421E+00
-#   chi-2:  4.672325E-01
-#   p-value:  2.331504E-01
-#   exp. data sets for p-value:      8
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.091722E+00   1.053739E+00   7.019951E-01
-# jendl5.0      1.023741E+00   1.009576E+00   2.324698E-01

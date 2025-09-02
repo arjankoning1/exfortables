@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Be9(g,x)Li8 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Clikeman
 #   year: 1962
 #   subentry: M0612002
 #   X4 reaction: 4-BE-9(G,P)3-LI-8,,SIG,,BRS
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/M0612002
-# target:
+# target: 
 #   Z: 4
 #   A: 9
 #   nuclide: Be9
-# reaction:
+# reaction: 
 #   type: (g,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 3
-#   A: 8
-#   nuclide: Li8
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 98
+#   residual: 
+#     Z: 3
+#     A: 8
+#     nuclide: Li8
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 98
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.690000E+01   0.000000E+00   8.000000E-02   0.000000E+00   1.000000E+00
@@ -131,17 +132,3 @@
 #   author: F.M.Clikeman,A.J.Bureau,M.G.Stewart
 #   title: Photoproton reaction in 9Be.
 #   journal: Jour: Physical Review, Vol.126, p.1822 (1962)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  1.690000E+01
-#   E-max [MeV]:  5.382000E+01
-#   F-value:  6.444956E+00
-#   A-value:  2.853850E-01
-#   chi-2:  4.344174E-01
-#   p-value:  1.351250E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.166507E+01   1.269991E-01   7.293242E-01
-# jendl5.0      2.982153E+00   6.003938E-01   2.100905E-01

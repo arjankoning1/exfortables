@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Al27(p,x)Na24 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Titarenko
 #   year: 2011
 #   subentry: A09020042
 #   X4 reaction: 13-AL-27(P,X)11-NA-24,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/A09020042
-# target:
+# target: 
 #   Z: 13
 #   A: 27
 #   nuclide: Al27
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 11
-#   A: 24
-#   nuclide: Na24
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 66
+#   residual: 
+#     Z: 11
+#     A: 24
+#     nuclide: Na24
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 66
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.080000E+01   8.000000E-01   1.510100E+00   9.000599E-02   1.000064E+00
@@ -99,18 +100,3 @@
 #   author: Yu.E.Titarenko, S.P.Borovlev, M.A.Butko, V.M.Zhivun, K.V.Pavlov, V.I.Rogov, A.Yu.Titarenko, R.S.Tikhonov, S.N.Florya, A.B.Koldobskiy
 #   title: Cross section of Al-27(p,x)Na-24, Al-27(p,x)Na-22, Al-27(p,x)Be-7 monitor reaction at proton energies  0.04-2.6 GeV.
 #   journal: Jour: Yadernaya Fizika, Vol.74, p.531 (2011)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  4.080000E+01
-#   E-max [MeV]:  2.605000E+03
-#   F-value:  2.081089E+00
-#   A-value:  7.811199E-01
-#   chi-2:  8.374055E+01
-#   p-value:  1.037994E-01
-#   exp. data sets for p-value:      8
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.234629E+00   1.128247E+00   1.936073E+01
-# endfb8.0      3.201754E+00   4.019784E-01   9.752233E+01
-# jendl5.0      1.586086E+00   1.050863E+00   1.343386E+02

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Na23(d,x)Na24 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Hirsh
 #   year: 2015
 #   subentry: D0782003
 #   X4 reaction: 11-NA-23(D,P)11-NA-24,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/D0782003
-# target:
+# target: 
 #   Z: 11
 #   A: 23
 #   nuclide: Na23
-# reaction:
+# reaction: 
 #   type: (d,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 11
-#   A: 24
-#   nuclide: Na24
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 16
+#   residual: 
+#     Z: 11
+#     A: 24
+#     nuclide: Na24
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 16
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    5.470000E+00   6.600000E-01   3.673135E+02   1.881120E+01   9.900634E-01
@@ -49,16 +50,3 @@
 #   author: T.Y.Hirsh,A.Kreisel,J.Mrazek,L.Weissman,Y.Eisen, M.Stefanik,E.Simeckova,O.Aviv,S.Moscovici,Z.Yungrais, D.Berkovits
 #   title: Accurate measurement of the 23Na(d,p)24Na cross section in the 1.7-20 MeV energy range
 #   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.362, p.29 (201
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  5.470000E+00
-#   E-max [MeV]:  1.979000E+01
-#   F-value:  3.815635E+00
-#   A-value:  3.013543E-01
-#   chi-2:  1.789564E+02
-#   p-value:  3.198954E-01
-#   exp. data sets for p-value:      2
-#   libraries:      1
-##  Library          F              A            chi-2
-# tendl.2023    3.815635E+00   3.013543E-01   1.789564E+02

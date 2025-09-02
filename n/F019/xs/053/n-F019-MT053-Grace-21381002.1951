@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: F19(n,n'_03)F20 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Grace
 #   year: 1951
 #   subentry: 21381002
 #   X4 reaction: 9-F-19(N,INL)9-F-19,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/21381002
-#   level energy [MeV]  1.30000E+00
-# target:
+#   level energy [MeV]:  1.30000E+00
+# target: 
 #   Z: 9
 #   A: 19
 #   nuclide: F19
-# reaction:
+# reaction: 
 #   type: (n,n'_03)
 #   ENDF_MF: 3
 #   ENDF_MT: 53
@@ -25,14 +25,15 @@
 #     energy [MeV]:  1.345670E+00
 #     spin:  2.500000E+00
 #     parity: -1
-# residual:
-#   Z: 9
-#   A: 20
-#   nuclide: F20
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 9
+#     A: 20
+#     nuclide: F20
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.500000E+00   2.000000E-01   5.200000E+02   1.800000E+02   1.000000E+00
@@ -40,20 +41,3 @@
 #   author: M.A.GRACE,L.E.BEGHIAN,G.PRESTON,H.HALBAN
 #   title: -THE INELASTIC SCATTERING OF FAST NEUTRONS -.
 #   journal: Jour: Physical Review, Vol.82, p.969 (1951)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  2.500000E+00
-#   E-max [MeV]:  2.500000E+00
-#   F-value:  4.636580E+00
-#   A-value:  2.156767E-01
-#   chi-2:  5.353118E+00
-#   p-value:  3.774381E-02
-#   exp. data sets for p-value:      1
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    4.642856E+00   2.153847E-01   5.356654E+00
-# endfb8.0      4.642856E+00   2.153847E-01   5.356654E+00
-# jeff3.3       4.642856E+00   2.153847E-01   5.356654E+00
-# jendl5.0      4.611511E+00   2.168487E-01   5.338975E+00
-# cendl3.2      4.642856E+00   2.153847E-01   5.356654E+00

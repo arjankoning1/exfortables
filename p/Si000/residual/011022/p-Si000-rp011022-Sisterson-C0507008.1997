@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Si0(p,x)Na22 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Sisterson
 #   year: 1997
 #   subentry: C0507008
 #   X4 reaction: 14-SI-0(P,X)11-NA-22,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/C0507008
-# target:
+# target: 
 #   Z: 14
 #   A: 0
 #   nuclide: Si0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 11
-#   A: 22
-#   nuclide: Na22
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 6
+#   residual: 
+#     Z: 11
+#     A: 22
+#     nuclide: Na22
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.100000E+01   0.000000E+00   1.160000E+00   1.200000E-01   1.000000E+00
@@ -39,18 +40,3 @@
 #   author: J.M.SISTERSON,K.KIM,A.BEVERDING,P.A.J.ENGLERT, M.CAFFEE,A.J.T.JULL,D.J.DONOHUE,L.MCHARGUE,C.CASTANEDA, J.VINCENT,R.C.REEDY
 #   title: Measurement of production cross sections of 10Be and  26Al from elements found in lunar rocks.
 #   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.123, p.324 (19
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  4.100000E+01
-#   E-max [MeV]:  6.690000E+01
-#   F-value:  9.131852E+00
-#   A-value:  2.510297E-01
-#   chi-2:  4.455901E+01
-#   p-value:  2.987437E-01
-#   exp. data sets for p-value:      6
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    2.432568E+00   4.351122E-01   3.393883E+01
-# endfb8.0      4.103481E+01   3.545473E-02   9.063667E+01
-# jendl5.0      1.346727E+00   1.025417E+00   9.101542E+00

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Au197(a,x)Tl200 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Szucs
 #   year: 2019
 #   subentry: D4406003
 #   X4 reaction: 79-AU-197(A,N)81-TL-200,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/D4406003
-# target:
+# target: 
 #   Z: 79
 #   A: 197
 #   nuclide: Au197
-# reaction:
+# reaction: 
 #   type: (a,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 81
-#   A: 200
-#   nuclide: Tl200
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 11
+#   residual: 
+#     Z: 81
+#     A: 200
+#     nuclide: Tl200
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 11
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.362000E+01   5.000000E-02   6.700000E-04   7.000000E-05   1.000000E+00
@@ -44,16 +45,3 @@
 #   author: T.Szucs,P.Mohr,Gy.Gyurky,Z.Halasz,R.Huszank,G.G.Kiss, T.N.Szegedi,Zs.Torok,Zs.Fulop
 #   title: Cross section of a-induced reactions on 197Au at sub-Coulomb energies
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.100, p.065803 (2019)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.362000E+01
-#   E-max [MeV]:  1.992000E+01
-#   F-value:  1.398045E+00
-#   A-value:  1.216523E+00
-#   chi-2:  2.769293E+01
-#   p-value:  3.249127E-01
-#   exp. data sets for p-value:      3
-#   libraries:      1
-##  Library          F              A            chi-2
-# tendl.2023    1.398045E+00   1.216523E+00   2.769293E+01

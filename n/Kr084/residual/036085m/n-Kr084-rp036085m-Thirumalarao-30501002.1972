@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: Kr84(n,x)Kr85m cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Thirumalarao
 #   year: 1972
 #   subentry: 30501002
 #   X4 reaction: 36-KR-84(N,G)36-KR-85-M,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30501002
-# target:
+# target: 
 #   Z: 36
 #   A: 84
 #   nuclide: Kr84
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 36
-#   A: 85
-#   nuclide: Kr85m
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 36
+#     A: 85
+#     nuclide: Kr85m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.500000E-02   5.000000E-03   5.700000E+01   1.000000E+01   1.000000E+00
@@ -39,18 +40,3 @@
 #   author: B.V.Thirumala Rao, J.Rama Rao, E.Kondaiah
 #   title: Neutron capture cross sections at 25 keV
 #   journal: Jour: Jour. of Physics, Part A (Mathematical+General), Vol.5, p.468 (197
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  2.500000E-02
-#   E-max [MeV]:  2.500000E-02
-#   F-value:  1.957207E+01
-#   A-value:  7.160747E-02
-#   chi-2:  2.322124E+01
-#   p-value:  4.540807E-02
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    3.856821E+01   2.592809E-02   3.082703E+01
-# jeff3.3       3.538391E+01   2.826143E-02   3.067953E+01
-# jendl5.0      1.995673E+00   5.010840E-01   8.157146E+00

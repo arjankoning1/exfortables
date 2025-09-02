@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Co59(n,a)Mn56 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Bormann
 #   year: 1965
 #   subentry: 20887013
 #   X4 reaction: 27-CO-59(N,A)25-MN-56,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20887013
-# target:
+# target: 
 #   Z: 27
 #   A: 59
 #   nuclide: Co59
-# reaction:
+# reaction: 
 #   type: (n,a)
 #   ENDF_MF: 3
 #   ENDF_MT: 107
-# residual:
-#   Z: 25
-#   A: 56
-#   nuclide: Mn56
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 25
+#     A: 56
+#     nuclide: Mn56
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.410000E+01   0.000000E+00   2.700000E+01   1.500000E+00   1.000000E+00
@@ -34,21 +35,3 @@
 #   author: M.Bormann,E.Fretwurst,P.Schehka,G.Wrege,  H.Buettner,A.Lindner,H.Meldner
 #   title: Some excitation functions of neutron induced reactions  in the energy range 12.6-19.6 MeV
 #   journal: Jour: Nuclear Physics, Vol.63, p.438 (1965)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  0
-#   E-min [MeV]:  1.410000E+01
-#   E-max [MeV]:  1.410000E+01
-#   F-value:  1.140114E+00
-#   A-value:  1.138195E+00
-#   chi-2:  6.568609E+00
-#   p-value:  9.353011E-02
-#   exp. data sets for p-value:      8
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.160110E+00   1.160110E+00   8.369606E+00
-# endfb8.0      1.128894E+00   1.128894E+00   5.583422E+00
-# jeff3.3       1.105318E+00   1.105318E+00   3.954795E+00
-# jendl5.0      1.160108E+00   1.160108E+00   8.369407E+00
-# cendl3.2      1.112932E+00   1.112932E+00   4.438612E+00
-# irdff2.0      1.163303E+00   1.163303E+00   8.695814E+00

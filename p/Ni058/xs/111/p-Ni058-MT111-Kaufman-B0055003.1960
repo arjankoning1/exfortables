@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ni58(p,2p)Co57 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Kaufman
 #   year: 1960
 #   subentry: B0055003
 #   X4 reaction: 28-NI-58(P,2P)27-CO-57,,SIG,,,EXP
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/B0055003
-# target:
+# target: 
 #   Z: 28
 #   A: 58
 #   nuclide: Ni58
-# reaction:
+# reaction: 
 #   type: (p,2p)
 #   ENDF_MF: 3
 #   ENDF_MT: 111
-# residual:
-#   Z: 27
-#   A: 57
-#   nuclide: Co57
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 16
+#   residual: 
+#     Z: 27
+#     A: 57
+#     nuclide: Co57
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 16
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.200000E+01   0.000000E+00   3.000000E+00   1.000000E+00   1.000000E+00
@@ -49,16 +50,3 @@
 #   author: S.KAUFMAN
 #   title: Reactions of Protons with Ni-58 and Ni-60.
 #   journal: Jour: Physical Review, Vol.117, p.1532 (1960)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  1.200000E+01
-#   E-max [MeV]:  1.890000E+01
-#   F-value:  1.702317E+00
-#   A-value:  1.001276E+00
-#   chi-2:  4.308417E-01
-#   p-value:  3.322164E-01
-#   exp. data sets for p-value:      2
-#   libraries:      1
-##  Library          F              A            chi-2
-# tendl.2023    1.702317E+00   1.001276E+00   4.308417E-01

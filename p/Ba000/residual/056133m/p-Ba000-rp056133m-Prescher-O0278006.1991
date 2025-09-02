@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: Ba0(p,x)Ba133m cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Prescher
 #   year: 1991
 #   subentry: O0278006
 #   X4 reaction: 56-BA-0(P,X)56-BA-133-M,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/O0278006
-# target:
+# target: 
 #   Z: 56
 #   A: 0
 #   nuclide: Ba0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 56
-#   A: 133
-#   nuclide: Ba133m
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 35
+#   residual: 
+#     Z: 56
+#     A: 133
+#     nuclide: Ba133m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 35
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.400000E+01   6.900000E-01   2.389800E-01   3.355900E-02   1.016949E+00
@@ -73,17 +74,3 @@
 #   author: K.Prescher,F.Peiffer,R.Stuek,R.Michel,R.Bodemann, M.N.Rao,K.J.Mathew
 #   title: Thin-target cross-sections of proton-induced reactions on  barium  and  solar  cosmic  ray production rates of xenon-isotopes in lunar surface materials.
 #   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.53, p.105 (199
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  1.400000E+01
-#   E-max [MeV]:  1.580000E+03
-#   F-value:  3.069519E+00
-#   A-value:  5.962320E-01
-#   chi-2:  1.985411E+01
-#   p-value:  2.327503E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    2.675139E+00   7.380037E-01   6.899511E+00
-# jendl5.0      2.317234E+00   5.562440E-01   3.226448E+01

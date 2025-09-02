@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Se78(p,x)Br76 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Spahn
 #   year: 2009
 #   subentry: D0568005
 #   X4 reaction: 34-SE-78(P,3N)35-BR-76,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/D0568005
-# target:
+# target: 
 #   Z: 34
 #   A: 78
 #   nuclide: Se78
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 17
-# residual:
-#   Z: 35
-#   A: 76
-#   nuclide: Br76
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 27
+#   residual: 
+#     Z: 35
+#     A: 76
+#     nuclide: Br76
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 27
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.340000E+01   8.000000E-01   1.000000E+00   9.999999E-02   1.000000E+00
@@ -60,17 +61,3 @@
 #   author: I.Spahn,G.F.Steyn,C.Vermeulen,Z.Kovacs,F.Szelecsenyi, H.H.Coenen,S.M.Qaim
 #   title: New cross section measurements for production of the positron emitters 75Br and 76Br via intermediate energy proton induced reactions
 #   journal: Jour: Radiochimica Acta, Vol.97, p.535 (2009)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  2.340000E+01
-#   E-max [MeV]:  6.470000E+01
-#   F-value:  2.003499E+00
-#   A-value:  8.144916E-01
-#   chi-2:  1.819076E+02
-#   p-value:  2.589054E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    2.224383E+00   6.322727E-01   2.131352E+02
-# jendl5.0      1.770887E+00   1.049225E+00   1.506800E+02

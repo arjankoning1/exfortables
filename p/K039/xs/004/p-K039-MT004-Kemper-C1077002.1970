@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: K39(p,n')Ca39 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Kemper
 #   year: 1970
 #   subentry: C1077002
 #   X4 reaction: 19-K-39(P,N)20-CA-39,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/C1077002
-# target:
+# target: 
 #   Z: 19
 #   A: 39
 #   nuclide: K39
-# reaction:
+# reaction: 
 #   type: (p,n')
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 20
-#   A: 39
-#   nuclide: Ca39
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 51
+#   residual: 
+#     Z: 20
+#     A: 39
+#     nuclide: Ca39
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 51
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    7.527000E+00   0.000000E+00   5.670000E-01   4.536000E-02   1.000000E+00
@@ -84,17 +85,3 @@
 #   author: K.W.Kemper,C.M.McKenna,J.W.Nelson
 #   title: Mass of Ca39
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.2, p.213 (1970)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  7.527000E+00
-#   E-max [MeV]:  1.052600E+01
-#   F-value:  1.267965E+00
-#   A-value:  1.135308E+00
-#   chi-2:  1.483587E+01
-#   p-value:  2.476462E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.272258E+00   1.154375E+00   1.515709E+01
-# jendl5.0      1.135698E+00   1.025362E+00   3.483521E+00

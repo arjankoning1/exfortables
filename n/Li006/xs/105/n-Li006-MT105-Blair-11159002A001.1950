@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Li6(n,t)He4 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Blair
 #   year: 1950
 #   subentry: 11159002
 #   X4 reaction: 3-LI-6(N,T)2-HE-4,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/11159002
-# target:
+# target: 
 #   Z: 3
 #   A: 6
 #   nuclide: Li6
-# reaction:
+# reaction: 
 #   type: (n,t)
 #   ENDF_MF: 3
 #   ENDF_MT: 105
-# residual:
-#   Z: 2
-#   A: 4
-#   nuclide: He4
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 13
+#   residual: 
+#     Z: 2
+#     A: 4
+#     nuclide: He4
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 13
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.420000E-01   2.500000E-02   8.800000E+02   1.760000E+01   1.000000E+00
@@ -46,20 +47,3 @@
 #   author: J.M.BLAIR,R.E.HOLLAND
 #   title: LI-6(N,ALPHA)H-3 CROSS SECTION
 #   journal: Prog: Argonne National Laboratory report series, No.4515, p.7 (1950)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  1.420000E-01
-#   E-max [MeV]:  6.240000E-01
-#   F-value:  1.387265E+00
-#   A-value:  8.124267E-01
-#   chi-2:  1.811449E+02
-#   p-value:  2.177930E-01
-#   exp. data sets for p-value:      8
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.387992E+00   8.095388E-01   1.812017E+02
-# endfb8.0      1.387992E+00   8.095388E-01   1.812017E+02
-# jeff3.3       1.393297E+00   8.069533E-01   1.847672E+02
-# jendl5.0      1.378973E+00   8.267222E-01   1.773524E+02
-# irdff2.0      1.387992E+00   8.095388E-01   1.812017E+02

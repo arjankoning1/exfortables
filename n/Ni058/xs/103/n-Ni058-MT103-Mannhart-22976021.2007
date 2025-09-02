@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ni58(n,p)Co58 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Mannhart
 #   year: 2007
 #   subentry: 22976021
 #   X4 reaction: 28-NI-58(N,P)27-CO-58,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22976021
-# target:
+# target: 
 #   Z: 28
 #   A: 58
 #   nuclide: Ni58
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 27
-#   A: 58
-#   nuclide: Co58
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 36
+#   residual: 
+#     Z: 27
+#     A: 58
+#     nuclide: Co58
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 36
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    7.980000E+00   2.000000E-02   6.552001E+02   1.769040E+01   1.000000E+00
@@ -69,21 +70,3 @@
 #   author: W.Mannhart, D.Schmidt
 #   title: .Measurement of Neutron Activation Cross Sections in  the Energy Range from 8 MeV to 15 MeV
 #   journal: Rept: Phys.Techn.Bundesanst., Neutronenphysik Reports, No.53 (2007)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  7.980000E+00
-#   E-max [MeV]:  1.442100E+01
-#   F-value:  1.023693E+00
-#   A-value:  9.902862E-01
-#   chi-2:  6.707639E-01
-#   p-value:  3.302240E-01
-#   exp. data sets for p-value:      8
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.020427E+00   9.880003E-01   5.470283E-01
-# endfb8.0      1.029278E+00   9.834022E-01   7.066953E-01
-# jeff3.3       1.033409E+00   9.936382E-01   1.504976E+00
-# jendl5.0      1.026409E+00   9.859735E-01   6.955019E-01
-# cendl3.2      1.004130E+00   1.000610E+00   1.254292E-01
-# irdff2.0      1.016627E+00   9.901884E-01   4.449524E-01

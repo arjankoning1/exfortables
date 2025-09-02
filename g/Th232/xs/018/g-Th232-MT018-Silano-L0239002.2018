@@ -1,28 +1,29 @@
-# header:
+# header: 
 #   title: Th232(g,f) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Silano
 #   year: 2018
 #   subentry: L0239002
 #   X4 reaction: 90-TH-232(G,F),,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/L0239002
-# target:
+# target: 
 #   Z: 90
 #   A: 232
 #   nuclide: Th232
-# reaction:
+# reaction: 
 #   type: (g,f)
 #   ENDF_MF: 3
 #   ENDF_MT: 18
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 15
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 15
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.700000E+00   7.100000E-02  -4.000000E-04   2.003600E-04   1.000000E+00
@@ -44,18 +45,3 @@
 #   author: J.A.Silano,H.J.Karwowski
 #   title: Near-barrier photofission in 232Th and 238U
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.98, p.054609 (2018)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  4.700000E+00
-#   E-max [MeV]:  5.800000E+00
-#   F-value:  3.535388E+00
-#   A-value:  8.082265E-01
-#   chi-2:  2.248915E+03
-#   p-value:  1.727740E-01
-#   exp. data sets for p-value:      8
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    4.535655E+00   4.169812E-01   1.484573E+03
-# endfb8.0      3.670550E+00   4.528030E-01   3.012750E+02
-# jendl5.0      2.625108E+00   1.968464E+00   4.440907E+03

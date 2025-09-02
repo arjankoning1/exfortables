@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Zn0(p,x)Ga66 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Alsaleh
 #   year: 2007
 #   subentry: O1547003
 #   X4 reaction: 30-ZN-0(P,X)31-GA-66,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/O1547003
-# target:
+# target: 
 #   Z: 30
 #   A: 0
 #   nuclide: Zn0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 31
-#   A: 66
-#   nuclide: Ga66
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 29
+#   residual: 
+#     Z: 31
+#     A: 66
+#     nuclide: Ga66
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 29
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.700000E+00   4.000000E-01   9.000000E-01   9.999999E-02   1.000000E+00
@@ -62,17 +63,3 @@
 #   author: F.S.Al-Saleh, K.S.Al Mugren, A.Azzam
 #   title: Excitation functions measurements and integral yields estimation for Zn-nat(p,x) reactions at low energies.
 #   journal: Jour: Applied Radiation and Isotopes, Vol.65, p.1101 (2007)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  3.700000E+00
-#   E-max [MeV]:  2.720000E+01
-#   F-value:  1.393854E+00
-#   A-value:  9.714015E-01
-#   chi-2:  1.501084E+01
-#   p-value:  2.512400E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.389358E+00   1.067930E+00   1.673139E+01
-# jendl5.0      1.398321E+00   8.835977E-01   1.329029E+01

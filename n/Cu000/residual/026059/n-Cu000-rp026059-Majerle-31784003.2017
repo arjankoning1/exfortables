@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Cu0(n,x)Fe59 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Majerle
 #   year: 2017
 #   subentry: 31784003
 #   X4 reaction: 29-CU-0(N,X)26-FE-59,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/31784003
-# target:
+# target: 
 #   Z: 29
 #   A: 0
 #   nuclide: Cu0
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 26
-#   A: 59
-#   nuclide: Fe59
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 6
+#   residual: 
+#     Z: 26
+#     A: 59
+#     nuclide: Fe59
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.260000E+01   4.000000E+00   7.000000E-01   9.999999E-02   1.000000E+00
@@ -39,19 +40,3 @@
 #   author: M.Majerle, E.Simeckova, P.Bem, J.Novak, M.Stefanik
 #   title: natCu and natV cross-sections measured by quasi-monoenergetic neutrons from p+7Li reaction in the energy range of 18-34 MeV
 #   journal: Jour: EPJ Web of Conferences, Vol.146, p.09019 (2017)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  2.260000E+01
-#   E-max [MeV]:  3.550000E+01
-#   F-value:  2.717885E+00
-#   A-value:  1.321519E+00
-#   chi-2:  3.810214E+02
-#   p-value:  4.619302E-01
-#   exp. data sets for p-value:      1
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    5.064330E+00   4.914626E+00   1.410833E+03
-# endfb8.0      2.312644E+00   4.549844E-01   2.892931E+01
-# jeff3.3       1.993985E+00   1.967827E+00   7.179333E+01
-# jendl5.0      1.542861E+00   6.931375E-01   1.252941E+01

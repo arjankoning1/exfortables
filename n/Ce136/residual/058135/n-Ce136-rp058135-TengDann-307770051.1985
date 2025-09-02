@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ce136(n,x)Ce135 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: TengDann
 #   year: 1985
 #   subentry: 307770051
 #   X4 reaction: 58-CE-136(N,2N)58-CE-135,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/307770051
-# target:
+# target: 
 #   Z: 58
 #   A: 136
 #   nuclide: Ce136
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 58
-#   A: 135
-#   nuclide: Ce135
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 7
+#   residual: 
+#     Z: 58
+#     A: 135
+#     nuclide: Ce135
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.350000E+01   3.800000E-01   1.146167E+03   5.640191E+01   1.007177E+00
@@ -40,17 +41,3 @@
 #   author: Teng Dan, Zhao Wenrong, Fan Peiguo, Lu Hanlin
 #   title: Cerium cross sections between 12 to 18 MeV
 #   journal: Jour: Chinese J.of Nuclear Physics (Beijing)., Vol.7, p.307 (1985)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  1.350000E+01
-#   E-max [MeV]:  1.482000E+01
-#   F-value:  1.120652E+00
-#   A-value:  1.074345E+00
-#   chi-2:  8.664653E+00
-#   p-value:  2.370759E-01
-#   exp. data sets for p-value:      3
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.017725E+00   9.858747E-01   4.779549E-01
-# jeff3.3       1.173667E+00   1.170755E+00   1.685135E+01

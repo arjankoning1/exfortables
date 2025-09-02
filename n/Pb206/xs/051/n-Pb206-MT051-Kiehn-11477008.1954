@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Pb206(n,n'_01)Pb207 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Kiehn
 #   year: 1954
 #   subentry: 11477008
 #   X4 reaction: 82-PB-206(N,INL)82-PB-206,PAR,SIG,,A
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/11477008
-#   level energy [MeV]  8.03000E-01
-# target:
+#   level energy [MeV]:  8.03000E-01
+# target: 
 #   Z: 82
 #   A: 206
 #   nuclide: Pb206
-# reaction:
+# reaction: 
 #   type: (n,n'_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 51
@@ -25,14 +25,15 @@
 #     energy [MeV]:  8.030540E-01
 #     spin:  2.000000E+00
 #     parity: 1
-# residual:
-#   Z: 82
-#   A: 207
-#   nuclide: Pb207
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 27
+#   residual: 
+#     Z: 82
+#     A: 207
+#     nuclide: Pb207
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 27
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.205000E+00   0.000000E+00   3.734440E+02   0.000000E+00   1.000000E+00
@@ -66,20 +67,3 @@
 #   author: R.M.KIEHN,C.GOODMAN
 #   title: NEUTRON INELASTIC SCATTERING
 #   journal: Jour: Physical Review, Vol.95, p.989 (1954)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  1.205000E+00
-#   E-max [MeV]:  2.700000E+00
-#   F-value:  3.806233E+00
-#   A-value:  2.998607E-01
-#   chi-2:  4.348101E-01
-#   p-value:  9.192005E-02
-#   exp. data sets for p-value:      2
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    3.802202E+00   3.011032E-01   4.348726E-01
-# endfb8.0      3.800112E+00   3.013531E-01   4.345316E-01
-# jeff3.3       3.828588E+00   2.902674E-01   4.402964E-01
-# jendl5.0      3.916700E+00   2.851952E-01   4.414322E-01
-# cendl3.2      3.684476E+00   3.227501E-01   4.229175E-01

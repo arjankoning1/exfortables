@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Ag0(n,n'_01)Ag1 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Jasicek
 #   year: 1973
 #   subentry: 20750002
 #   X4 reaction: 47-AG-0(N,INL)47-AG-0,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20750002
-#   level energy [MeV]  7.50000E-02
-# target:
+#   level energy [MeV]:  7.50000E-02
+# target: 
 #   Z: 47
 #   A: 0
 #   nuclide: Ag0
-# reaction:
+# reaction: 
 #   type: (n,n'_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 51
@@ -25,14 +25,15 @@
 #     energy [MeV]:  9.312500E-02
 #     spin:  3.500000E+00
 #     parity: 1
-# residual:
-#   Z: 47
-#   A: 1
-#   nuclide: Ag1
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 47
+#     A: 1
+#     nuclide: Ag1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    9.590000E-01   1.500000E-02   2.900000E+02   1.000000E+02   1.000000E+00
@@ -40,20 +41,3 @@
 #   author: H.A.Jasicek
 #   title: Inelastic scattering cross sections of neutrons of  epithermal energies
 #   journal: Thesis: Jasicek (1973)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  9.590000E-01
-#   E-max [MeV]:  9.590000E-01
-#   F-value:  1.910397E+00
-#   A-value:  5.966544E-01
-#   chi-2:  1.917607E+00
-#   p-value:  8.783340E-02
-#   exp. data sets for p-value:      1
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.545527E+00   6.470286E-01   1.639045E+00
-# endfb8.0      1.440610E+00   6.941502E-01   1.369101E+00
-# jeff3.3       1.060569E+00   9.428902E-01   2.150365E-01
-# jendl5.0      1.622787E+00   6.162238E-01   1.826635E+00
-# cendl3.2      3.451137E+00   2.897596E-01   4.538216E+00

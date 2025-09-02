@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Cr54(n,x)V53 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Ribansky
 #   year: 1985
 #   subentry: 30812007
 #   X4 reaction: 24-CR-54(N,X)23-V-53,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30812007
-# target:
+# target: 
 #   Z: 24
 #   A: 54
 #   nuclide: Cr54
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 28
-# residual:
-#   Z: 23
-#   A: 53
-#   nuclide: V53
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 23
+#     A: 53
+#     nuclide: V53
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.460000E+01   0.000000E+00   1.590704E+01   2.125300E-01   9.941902E-01
@@ -34,19 +35,3 @@
 #   author: I.Ribansky,Ts.Panteleev,L.Stoeva
 #   title: Neutron activation cross-sections for Cr isotopes at 14.6 MeV neutron energy
 #   journal: Jour: Annals of Nuclear Energy, Vol.12, p.577 (1985)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  1.460000E+01
-#   E-max [MeV]:  1.460000E+01
-#   F-value:  1.550398E+01
-#   A-value:  6.833374E-02
-#   chi-2:  4.746455E+03
-#   p-value:  3.576279E-07
-#   exp. data sets for p-value:      4
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    2.372914E+01   4.214228E-02   5.139730E+03
-# endfb8.0      0.000000E+00   0.000000E+00   0.000000E+00
-# jeff3.3       6.678408E+00   1.497363E-01   4.049912E+03
-# jendl5.0      1.977606E+01   5.056620E-02   5.049724E+03

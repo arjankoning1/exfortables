@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Au197(n,n'_01)Au198 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Devilliers
 #   year: 1965
 #   subentry: 12240004
 #   X4 reaction: 79-AU-197(N,INL)79-AU-197,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/12240004
-#   level energy [MeV]  2.67000E-01
-# target:
+#   level energy [MeV]:  2.67000E-01
+# target: 
 #   Z: 79
 #   A: 197
 #   nuclide: Au197
-# reaction:
+# reaction: 
 #   type: (n,n'_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 51
@@ -25,14 +25,15 @@
 #     energy [MeV]:  2.687880E-01
 #     spin:  1.500000E+00
 #     parity: 1
-# residual:
-#   Z: 79
-#   A: 198
-#   nuclide: Au198
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 42
+#   residual: 
+#     Z: 79
+#     A: 198
+#     nuclide: Au198
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 42
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    5.500000E-01   0.000000E+00   5.100000E+02   6.000000E+01   1.000000E+00
@@ -81,20 +82,3 @@
 #   author: J.A.M.DE VILLIERS,C.A.ENGELBRECHT,W.G.VONACH, A.B.SMITH
 #   title: NEUTRON SCATTERING FROM AU, HG AND TL.
 #   journal: Jour: Zeitschrift fuer Physik, Vol.183, p.323 (1965)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  5.500000E-01
-#   E-max [MeV]:  1.600000E+00
-#   F-value:  3.101583E+00
-#   A-value:  3.288372E-01
-#   chi-2:  4.834140E+01
-#   p-value:  1.201843E-01
-#   exp. data sets for p-value:      2
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    2.760863E+00   3.676237E-01   4.315536E+01
-# endfb8.0      3.201360E+00   3.180484E-01   5.001292E+01
-# jeff3.3       3.201360E+00   3.180484E-01   5.001292E+01
-# jendl5.0      2.816441E+00   3.625169E-01   4.398226E+01
-# cendl3.2      3.535465E+00   2.852251E-01   5.454357E+01

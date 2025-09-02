@@ -1,28 +1,29 @@
-# header:
+# header: 
 #   title: B0(n,a) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Alsnielsen
 #   year: 1964
 #   subentry: 20105004
 #   X4 reaction: 5-B-0(N,A),,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20105004
-# target:
+# target: 
 #   Z: 5
 #   A: 0
 #   nuclide: B0
-# reaction:
+# reaction: 
 #   type: (n,a)
 #   ENDF_MF: 3
 #   ENDF_MT: 107
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.530000E-08   0.000000E+00   7.591000E+05   2.000000E+03   1.000000E+00
@@ -30,20 +31,3 @@
 #   author: J.Als-Nielsen, O.Dietrich
 #   title: -Slow neutron cross sections for helium-3, boron  and gold.-
 #   journal: Jour: Physical Review, Vol.133, p.B925 (1964)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  2.530000E-08
-#   E-max [MeV]:  2.530000E-08
-#   F-value:  1.001448E+00
-#   A-value:  1.001315E+00
-#   chi-2:  7.180282E-01
-#   p-value:  4.897114E-01
-#   exp. data sets for p-value:      4
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.001858E+00   1.001858E+00   1.038552E+00
-# endfb8.0      1.001858E+00   1.001858E+00   1.038552E+00
-# jeff3.3       1.001331E+00   1.001331E+00   7.088587E-01
-# jendl5.0      1.000197E+00   1.000197E+00   9.505660E-02
-# cendl3.2      1.001332E+00   1.001332E+00   7.091219E-01

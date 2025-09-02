@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: Nb93(n,x)Nb93m cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Wagner
 #   year: 1988
 #   subentry: 22107002
 #   X4 reaction: 41-NB-93(N,INL)41-NB-93-M,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22107002
-# target:
+# target: 
 #   Z: 41
 #   A: 93
 #   nuclide: Nb93
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 41
-#   A: 93
-#   nuclide: Nb93m
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 41
+#     A: 93
+#     nuclide: Nb93m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    7.910000E+00   2.000000E-02   2.703746E+02   1.018673E+01   1.016828E+00
@@ -39,18 +40,3 @@
 #   author: M.WAGNER,G.WINKLER,H.VONACH,H.LISKIEN
 #   title: -MEASUREMENT OF THE NB-93(N,INL)NB-93-M CROSS SECTION  AT 7.9 MEV.
 #   journal: Conf: Conf.on Nucl.Data For Sci.and Technol.,Mito 1988, p.1049 (1988)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  7.910000E+00
-#   E-max [MeV]:  7.910000E+00
-#   F-value:  1.097609E+00
-#   A-value:  9.110766E-01
-#   chi-2:  5.758687E+00
-#   p-value:  1.883377E-01
-#   exp. data sets for p-value:      2
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.098436E+00   9.103850E-01   5.839106E+00
-# jeff3.3       1.098436E+00   9.103851E-01   5.839077E+00
-# jendl5.0      1.095937E+00   9.124613E-01   5.597879E+00

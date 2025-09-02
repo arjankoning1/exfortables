@@ -1,28 +1,29 @@
-# header:
+# header: 
 #   title: U235(d,f) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Jungerman
 #   year: 1950
 #   subentry: C2444022
 #   X4 reaction: 92-U-235(D,F),,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/C2444022
-# target:
+# target: 
 #   Z: 92
 #   A: 235
 #   nuclide: U235
-# reaction:
+# reaction: 
 #   type: (d,f)
 #   ENDF_MF: 3
 #   ENDF_MT: 18
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 8
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    8.228000E+00   0.000000E+00   3.266000E+00   0.000000E+00   1.000000E+00
@@ -37,16 +38,3 @@
 #   author: J.Jungerman
 #   title: Fission Excitation Functions for Charged Particles
 #   journal: Jour: Physical Review, Vol.79, p.632 (1950)
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  8.228000E+00
-#   E-max [MeV]:  1.003100E+01
-#   F-value:  2.758300E+00
-#   A-value:  2.633768E+00
-#   chi-2:  0.000000E+00
-#   p-value:  3.299528E-01
-#   exp. data sets for p-value:      2
-#   libraries:      1
-##  Library          F              A            chi-2
-# tendl.2023    2.758300E+00   2.633768E+00   0.000000E+00

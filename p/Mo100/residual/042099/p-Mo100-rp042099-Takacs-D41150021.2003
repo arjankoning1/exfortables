@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Mo100(p,x)Mo99 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Takacs
 #   year: 2003
 #   subentry: D41150021
 #   X4 reaction: 42-MO-100(P,X)42-MO-99,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/D41150021
-# target:
+# target: 
 #   Z: 42
 #   A: 100
 #   nuclide: Mo100
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 42
-#   A: 99
-#   nuclide: Mo99
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 21
+#   residual: 
+#     Z: 42
+#     A: 99
+#     nuclide: Mo99
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 21
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.380000E+01   5.800000E-01   1.570000E+01   1.500000E+00   1.000000E+00
@@ -54,17 +55,3 @@
 #   author: S.Takacs,Z.Szucs,F.Tarkanyi,A.Hermanne,M.Sonck
 #   title: Evaluation of proton induced reactions on 100Mo: New cross sections for production of 99mTc and 99Mo
 #   journal: Jour: Journal of Radioanalytical and Nuclear Chemistry, Vol.257, p.195 (
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  1.380000E+01
-#   E-max [MeV]:  3.790000E+01
-#   F-value:  1.953002E+00
-#   A-value:  6.097993E-01
-#   chi-2:  1.278932E+01
-#   p-value:  2.142757E-01
-#   exp. data sets for p-value:      8
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.896586E+00   6.726238E-01   1.087554E+01
-# jendl5.0      2.008622E+00   5.528428E-01   1.470311E+01

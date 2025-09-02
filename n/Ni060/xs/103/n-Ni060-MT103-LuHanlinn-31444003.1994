@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ni60(n,p)Co60 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: LuHanlinn
 #   year: 1994
 #   subentry: 31444003
 #   X4 reaction: 28-NI-60(N,P)27-CO-60,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/31444003
-# target:
+# target: 
 #   Z: 28
 #   A: 60
 #   nuclide: Ni60
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 27
-#   A: 60
-#   nuclide: Co60
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 4
+#   residual: 
+#     Z: 27
+#     A: 60
+#     nuclide: Co60
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.273000E+01   3.400000E-01   1.410424E+02   1.900571E+01   1.000300E+00
@@ -37,21 +38,3 @@
 #   author: Lu Hanlin,Zhao Wenrong,Yu Weixiang
 #   title: Cross-section measurement for Ni-58(n,np+pn+d)Co-57, Ni-60(n,p)Co-60 and Ni-62(n,alpha)Fe=59 reactions.
 #   journal: Jour: Chinese J.of Nuclear Physics (Beijing)., Vol.16, p.263 (1994)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.273000E+01
-#   E-max [MeV]:  1.741000E+01
-#   F-value:  1.097249E+00
-#   A-value:  1.049472E+00
-#   chi-2:  5.501945E+00
-#   p-value:  3.002461E-01
-#   exp. data sets for p-value:      3
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.081905E+00   1.006726E+00   4.191601E+00
-# endfb8.0      1.141455E+00   1.097921E+00   1.015891E+01
-# jeff3.3       1.092629E+00   1.073232E+00   5.548702E+00
-# jendl5.0      1.107399E+00   1.090624E+00   6.501586E+00
-# cendl3.2      1.053127E+00   1.027912E+00   1.988104E+00
-# irdff2.0      1.087543E+00   1.004657E+00   4.622765E+00

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Cs133(p,x)Cs132 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Sakamoto
 #   year: 1985
 #   subentry: E1867022
 #   X4 reaction: 55-CS-133(P,X)55-CS-132,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/E1867022
-# target:
+# target: 
 #   Z: 55
 #   A: 133
 #   nuclide: Cs133
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 55
-#   A: 132
-#   nuclide: Cs132
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 14
+#   residual: 
+#     Z: 55
+#     A: 132
+#     nuclide: Cs132
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 14
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.268000E+01   1.978000E+00   1.480600E+00   2.391800E-01   9.990778E-01
@@ -47,17 +48,3 @@
 #   author: K.Sakamoto, M.Dohniwa, K.Okada
 #   title: Excitation functions for (p,xn) and (p,pxn) reactions on natural 79+81Br, 85+87Rb, 127I and 133Cs upto Ep=52 MeV
 #   journal: Jour: Applied Radiation and Isotopes, Vol.36, Issue.6, p.481 (1985)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  1.268000E+01
-#   E-max [MeV]:  5.049000E+01
-#   F-value:  2.485774E+00
-#   A-value:  7.702586E-01
-#   chi-2:  5.250660E+00
-#   p-value:  3.058946E-01
-#   exp. data sets for p-value:      2
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    2.816847E+00   7.440297E-01   5.814314E+00
-# jendl5.0      2.149832E+00   7.974122E-01   4.687006E+00

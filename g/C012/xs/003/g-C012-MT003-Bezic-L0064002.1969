@@ -1,28 +1,29 @@
-# header:
+# header: 
 #   title: C12(g,non) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Bezic
 #   year: 1969
 #   subentry: L0064002
 #   X4 reaction: 6-C-12(G,ABS),,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/L0064002
-# target:
+# target: 
 #   Z: 6
 #   A: 12
 #   nuclide: C12
-# reaction:
+# reaction: 
 #   type: (g,non)
 #   ENDF_MF: 3
 #   ENDF_MT: 3
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 79
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 79
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.210000E+01   0.000000E+00  -1.660000E+00   1.646200E+00   1.000000E+00
@@ -108,17 +109,3 @@
 #   author: N.Bezic,D.Brajnik,D.Jamnik,G.Kernel
 #   title: Total photonuclear cross sections for 12C, 14N, 16O  and 19F in the region of the giant resonance
 #   journal: Jour: Nuclear Physics, Section A, Vol.128, p.426 (1969)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  1.210000E+01
-#   E-max [MeV]:  3.070000E+01
-#   F-value:  2.071839E+00
-#   A-value:  6.361220E-01
-#   chi-2:  3.834354E+01
-#   p-value:  1.884046E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    2.692212E+00   4.276193E-01   7.453383E+01
-# endfb8.0      1.327881E+00   9.462885E-01   2.153280E+00

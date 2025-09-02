@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Fe57(p,n')Co57 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Johnson
 #   year: 1964
 #   subentry: T0126008
 #   X4 reaction: 26-FE-57(P,N)27-CO-57,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/T0126008
-# target:
+# target: 
 #   Z: 26
 #   A: 57
 #   nuclide: Fe57
-# reaction:
+# reaction: 
 #   type: (p,n')
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 27
-#   A: 57
-#   nuclide: Co57
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 67
+#   residual: 
+#     Z: 27
+#     A: 57
+#     nuclide: Co57
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 67
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.653000E+00   0.000000E+00   1.800000E-02   4.594600E-05   1.000000E+00
@@ -100,18 +101,3 @@
 #   author: C.H.Johnson,C.C.Trail,A.Galonsky
 #   title: Thresholds for (p,n) reactions on 26 intermediate- weight nuclei
 #   journal: Jour: Physical Review, Vol.136, p.B1719 (1964)
-# statistics:
-#   NEA score: R3
-#   IAEA score:  0
-#   E-min [MeV]:  1.653000E+00
-#   E-max [MeV]:  5.507000E+00
-#   F-value:  1.772800E+00
-#   A-value:  1.536664E+00
-#   chi-2:  1.489257E+05
-#   p-value:  1.857127E-01
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.566144E+00   1.455152E+00   5.833703E+04
-# endfb8.0      2.465524E+00   2.335896E+00   4.310387E+05
-# jendl5.0      1.308975E+00   1.187079E+00   1.665947E+04

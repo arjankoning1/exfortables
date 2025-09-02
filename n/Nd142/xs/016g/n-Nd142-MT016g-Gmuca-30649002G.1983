@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: Nd142(n,2n)Nd141g cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Gmuca
 #   year: 1983
 #   subentry: 30649002G
 #   X4 reaction: 60-ND-142(N,2N)60-ND-141-G,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30649002G
-# target:
+# target: 
 #   Z: 60
 #   A: 142
 #   nuclide: Nd142
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 60
-#   A: 141
-#   nuclide: Nd141g
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 60
+#     A: 141
+#     nuclide: Nd141g
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.480000E+01   2.500000E-01   7.780001E+02   7.300001E+01   1.000000E+00
@@ -39,18 +40,3 @@
 #   author: S.Gmuca,I.Ribansky
 #   title: Neutron activation cross sections on Nd isotopes at 14.8 MeV
 #   journal: Jour: Acta Physica Slovaca, Vol.33, p.9 (1983)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.480000E+01
-#   E-max [MeV]:  1.480000E+01
-#   F-value:  1.162970E+00
-#   A-value:  1.156021E+00
-#   chi-2:  3.501249E+00
-#   p-value:  1.156384E-01
-#   exp. data sets for p-value:      4
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.140079E+00   1.140079E+00   2.738933E+00
-# jeff3.3       1.107124E+00   1.107124E+00   1.888949E+00
-# jendl5.0      1.223955E+00   1.223955E+00   5.875865E+00

@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: N14(n,p_03) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Khryachkov
 #   year: 2006
 #   subentry: 41492005
 #   X4 reaction: 7-N-14(N,A)5-B-11,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/41492005
-#   level energy [MeV]  5.18000E+00
-# target:
+#   level energy [MeV]:  5.18000E+00
+# target: 
 #   Z: 7
 #   A: 14
 #   nuclide: N14
-# reaction:
+# reaction: 
 #   type: (n,p_03)
 #   ENDF_MF: 3
 #   ENDF_MT: 803
@@ -25,10 +25,11 @@
 #     energy [MeV]:  0.000000E+00
 #     spin:  0.000000E+00
 #     parity: 1
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 16
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 16
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    5.577730E+00   0.000000E+00   0.000000E+00   0.000000E+00   1.000000E+00
@@ -51,19 +52,3 @@
 #   author: V.A.Khryachkov,B.D.Kuz'minov,M.V.Dunaev,I.V.Dunaeva, N.N.Semenova, A.I.Sergachev
 #   title: Measurement of the cross sections of the reactions  14N(n,alpha)11B and 14N(n,t)12C at neutron energies  5.45 - 7.2 MeV.
 #   journal: Jour: Atomnaya Energiya, Vol.101, p.307 (2006)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  5.577730E+00
-#   E-max [MeV]:  7.027940E+00
-#   F-value:  7.748100E+00
-#   A-value:  1.430305E-01
-#   chi-2:  2.314693E+01
-#   p-value:  9.782623E-03
-#   exp. data sets for p-value:      1
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    7.748109E+00   1.430304E-01   2.314694E+01
-# endfb8.0      7.748109E+00   1.430304E-01   2.314694E+01
-# jeff3.3       7.748109E+00   1.430304E-01   2.314694E+01
-# cendl3.2      7.748079E+00   1.430310E-01   2.314691E+01

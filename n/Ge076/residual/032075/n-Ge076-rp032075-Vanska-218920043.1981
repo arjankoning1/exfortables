@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ge76(n,x)Ge75 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Vanska
 #   year: 1981
 #   subentry: 218920043
 #   X4 reaction: 32-GE-76(N,2N)32-GE-75,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/218920043
-# target:
+# target: 
 #   Z: 32
 #   A: 76
 #   nuclide: Ge76
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 32
-#   A: 75
-#   nuclide: Ge75
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 2
+#   residual: 
+#     Z: 32
+#     A: 75
+#     nuclide: Ge75
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.470000E+01   6.000000E-01   1.022180E+03   9.288764E+01   8.310406E-01
@@ -35,18 +36,3 @@
 #   author: R.Vanska, R.Rieppo
 #   title: The experimental isomeric cross-section ratio  in the nuclear activation technique
 #   journal: Jour: Nuclear Instrum.and Methods in Physics Res., Vol.179, p.525 (1981)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  1.470000E+01
-#   E-max [MeV]:  1.470000E+01
-#   F-value:  1.178711E+00
-#   A-value:  1.172801E+00
-#   chi-2:  5.186468E+00
-#   p-value:  1.712613E-01
-#   exp. data sets for p-value:      8
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.147800E+00   1.141701E+00   3.782060E+00
-# jeff3.3       1.191406E+00   1.187341E+00   5.820837E+00
-# jendl5.0      1.193970E+00   1.189994E+00   5.956508E+00

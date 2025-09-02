@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Co59(p,x)Mn52 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Ditroi
 #   year: 2011
 #   subentry: D4255008
 #   X4 reaction: 27-CO-59(P,X)25-MN-52,CUM,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/D4255008
-# target:
+# target: 
 #   Z: 27
 #   A: 59
 #   nuclide: Co59
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 25
-#   A: 52
-#   nuclide: Mn52
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 13
+#   residual: 
+#     Z: 25
+#     A: 52
+#     nuclide: Mn52
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 13
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    5.970000E+01   5.000000E-01   2.640000E+01   3.100000E+00   1.000000E+00
@@ -46,17 +47,3 @@
 #   author: F.Ditroi,S.Takacs,F.Tarkanyi,R.W.Smith,M.Baba
 #   title: Investigation of Proton and Deuteron Induced Reactions on Cobalt
 #   journal: Jour: Journal of the Korean Physical Society, Vol.59, p.1697 (2011)
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  5.970000E+01
-#   E-max [MeV]:  6.980000E+01
-#   F-value:  5.022090E+00
-#   A-value:  2.361144E-01
-#   chi-2:  2.896371E+01
-#   p-value:  1.325435E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    8.090072E+00   1.311963E-01   3.985580E+01
-# jendl5.0      2.498151E+00   4.249359E-01   1.807162E+01

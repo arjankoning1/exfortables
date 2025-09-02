@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: S32(n,p)P32 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Allenjr
 #   year: 1957
 #   subentry: 11571004
 #   X4 reaction: 16-S-32(N,P)15-P-32,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/11571004
-# target:
+# target: 
 #   Z: 16
 #   A: 32
 #   nuclide: S32
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 15
-#   A: 32
-#   nuclide: P32
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 12
+#   residual: 
+#     Z: 15
+#     A: 32
+#     nuclide: P32
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 12
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.338000E+01   5.600000E-01   2.765903E+02   1.033765E+01   9.704921E-01
@@ -45,21 +46,3 @@
 #   author: L.Allen Jr,W.A.Biggers,R.J.Prestwood,R.K.Smith
 #   title: Cross sections for the S32(n,p)P32 and the S34(n,alpha) Si31 reactions.
 #   journal: Jour: Physical Review, Vol.107, p.1363 (1957)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.338000E+01
-#   E-max [MeV]:  1.495000E+01
-#   F-value:  1.022396E+00
-#   A-value:  1.016421E+00
-#   chi-2:  7.365837E-01
-#   p-value:  3.413889E-01
-#   exp. data sets for p-value:      2
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.019693E+00   1.013755E+00   6.287261E-01
-# endfb8.0      1.025922E+00   1.020617E+00   8.969888E-01
-# jeff3.3       1.020518E+00   1.014464E+00   6.613020E-01
-# jendl5.0      1.025922E+00   1.020617E+00   8.969888E-01
-# cendl3.2      1.021000E+00   1.014786E+00   6.781969E-01
-# irdff2.0      1.020425E+00   1.014311E+00   6.572999E-01

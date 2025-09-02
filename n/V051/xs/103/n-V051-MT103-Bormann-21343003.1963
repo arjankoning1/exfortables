@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: V51(n,p)Ti51 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Bormann
 #   year: 1963
 #   subentry: 21343003
 #   X4 reaction: 23-V-51(N,P)22-TI-51,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/21343003
-# target:
+# target: 
 #   Z: 23
 #   A: 51
 #   nuclide: V51
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 22
-#   A: 51
-#   nuclide: Ti51
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 7
+#   residual: 
+#     Z: 22
+#     A: 51
+#     nuclide: Ti51
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.320000E+01   4.000000E-01   3.376815E+01   2.712480E+00   9.512154E-01
@@ -40,19 +41,3 @@
 #   author: M.Bormann, S.Cierjacks, E.Fretwurst, K.-J.Giesicke,  H.Neuert, H.Pollehn
 #   title: -Investigations of the energy dependence of neutron  induced reactions in the energy range of 12-19 MeV.-  (In German).
 #   journal: Jour: Zeitschrift fuer Physik, Vol.174, p.1 (1963)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.320000E+01
-#   E-max [MeV]:  1.860000E+01
-#   F-value:  1.178235E+00
-#   A-value:  8.713716E-01
-#   chi-2:  1.445698E+01
-#   p-value:  1.365836E-01
-#   exp. data sets for p-value:      5
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.147635E+00   8.818655E-01   1.358169E+01
-# endfb8.0      1.112001E+00   9.166135E-01   8.779785E+00
-# jeff3.3       1.112378E+00   9.139099E-01   8.959856E+00
-# jendl5.0      1.293005E+00   7.804081E-01   2.650660E+01

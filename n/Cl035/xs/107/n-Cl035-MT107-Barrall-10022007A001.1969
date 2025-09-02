@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Cl35(n,a)P32 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Barrall
 #   year: 1969
 #   subentry: 10022007
 #   X4 reaction: 17-CL-35(N,A)15-P-32,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/10022007
-# target:
+# target: 
 #   Z: 17
 #   A: 35
 #   nuclide: Cl35
-# reaction:
+# reaction: 
 #   type: (n,a)
 #   ENDF_MF: 3
 #   ENDF_MT: 107
-# residual:
-#   Z: 15
-#   A: 32
-#   nuclide: P32
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 15
+#     A: 32
+#     nuclide: P32
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.460000E+01   2.000000E-01   1.019845E+02   8.498710E+01   9.443011E-01
@@ -34,19 +35,3 @@
 #   author: R.C.Barrall,J.A.Holmes,M.Silbergeld
 #   title: High energy neutron cross section validation and  neutron flux spectrum using the HENRE source.
 #   journal: Rept: Air Force Spec.Weap.Center Kirtland A.F.B.Repts., No.68-134 (1969)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.460000E+01
-#   E-max [MeV]:  1.460000E+01
-#   F-value:  1.022748E+00
-#   A-value:  1.020036E+00
-#   chi-2:  3.041911E-02
-#   p-value:  2.078111E-01
-#   exp. data sets for p-value:      6
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.038259E+00   1.038259E+00   5.809773E-02
-# endfb8.0      1.016357E+00   1.016357E+00   2.470216E-02
-# jeff3.3       1.016357E+00   1.016357E+00   2.470216E-02
-# jendl5.0      1.009402E+00   1.009402E+00   1.417442E-02

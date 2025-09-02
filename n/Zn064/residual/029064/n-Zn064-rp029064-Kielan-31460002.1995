@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Zn64(n,x)Cu64 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Kielan
 #   year: 1995
 #   subentry: 31460002
 #   X4 reaction: 30-ZN-64(N,P)29-CU-64,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/31460002
-# target:
+# target: 
 #   Z: 30
 #   A: 64
 #   nuclide: Zn64
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 29
-#   A: 64
-#   nuclide: Cu64
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 8
+#   residual: 
+#     Z: 29
+#     A: 64
+#     nuclide: Cu64
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.304000E+01   4.000000E-01   2.178898E+02   2.398787E+01   9.994944E-01
@@ -41,18 +42,3 @@
 #   author: D.Kielan,A.Marcinkowski
 #   title: Cross sections for the (n,p) reaction on zinc isotopes in terms of the novel multistep compound reaction model
 #   journal: Jour: Zeitschrift fuer Physik A, Hadrons and Nuclei, Vol.352, p.137 (199
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.304000E+01
-#   E-max [MeV]:  1.660000E+01
-#   F-value:  1.171812E+00
-#   A-value:  8.964497E-01
-#   chi-2:  2.274676E+00
-#   p-value:  3.664749E-01
-#   exp. data sets for p-value:      6
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.162481E+00   9.042132E-01   2.009031E+00
-# jeff3.3       1.162434E+00   9.043854E-01   2.003666E+00
-# jendl5.0      1.189429E+00   8.809546E-01   2.811330E+00

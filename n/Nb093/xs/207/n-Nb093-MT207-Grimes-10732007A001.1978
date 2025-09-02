@@ -1,28 +1,29 @@
-# header:
+# header: 
 #   title: Nb93(n,xa) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Grimes
 #   year: 1978
 #   subentry: 10732007
 #   X4 reaction: 41-NB-93(N,X)2-HE-4,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/10732007
-# target:
+# target: 
 #   Z: 41
 #   A: 93
 #   nuclide: Nb93
-# reaction:
+# reaction: 
 #   type: (n,xa)
 #   ENDF_MF: 3
 #   ENDF_MT: 207
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.500000E+01   0.000000E+00   1.400000E+01   3.000000E+00   1.000000E+00
@@ -30,21 +31,3 @@
 #   author: S.M.Grimes,R.C.Haight,J.D.Anderson
 #   title: Charged particle-producing reactions of 15-MeV neutrons  on 51V and 93Nb
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.17, p.508 (1978)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  1.500000E+01
-#   E-max [MeV]:  1.500000E+01
-#   F-value:  1.072313E+00
-#   A-value:  1.002458E+00
-#   chi-2:  3.306847E-01
-#   p-value:  4.774221E-01
-#   exp. data sets for p-value:      4
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.090813E+00   1.090813E+00   5.832025E-01
-# endfb8.0      1.000190E+00   9.998100E-01   1.111120E-03
-# jeff3.3       1.038316E+00   1.038316E+00   2.328321E-01
-# jendl5.0      1.011579E+00   1.011579E+00   6.849903E-02
-# cendl3.2      1.131533E+00   8.837565E-01   7.677789E-01
-# irdff2.0      0.000000E+00   0.000000E+00   0.000000E+00

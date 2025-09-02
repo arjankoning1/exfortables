@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Te124(n,p)Sb124 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Levkovskii
 #   year: 1971
 #   subentry: 400290093
 #   X4 reaction: 52-TE-124(N,P)51-SB-124,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/400290093
-# target:
+# target: 
 #   Z: 52
 #   A: 124
 #   nuclide: Te124
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 51
-#   A: 124
-#   nuclide: Sb124
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 51
+#     A: 124
+#     nuclide: Sb124
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.480000E+01   0.000000E+00   9.000000E+00   2.000000E+00   1.000000E+00
@@ -34,19 +35,3 @@
 #   author: V.N.Levkovskii,O.I.Artem'ev
 #   title: Cross sections of the reactions (n,p) and (n,alpha)  at a neutron energy 14.8 MeV
 #   journal: Jour: Soviet Journal of Nuclear Physics, Vol.13, p.529 (1971)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.480000E+01
-#   E-max [MeV]:  1.480000E+01
-#   F-value:  1.269366E+00
-#   A-value:  1.216617E+00
-#   chi-2:  2.039817E+00
-#   p-value:  1.331841E-01
-#   exp. data sets for p-value:      2
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.506014E+00   1.506014E+00   5.400280E+00
-# endfb8.0      1.033151E+00   1.033151E+00   1.930005E-01
-# jeff3.3       1.172678E+00   1.172678E+00   1.165687E+00
-# jendl5.0      1.200728E+00   1.200728E+00   1.400302E+00

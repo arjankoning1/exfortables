@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: K41(n,p)Ar41 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Schantl
 #   year: 1970
 #   subentry: 21846053
 #   X4 reaction: 19-K-41(N,P)18-AR-41,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/21846053
-# target:
+# target: 
 #   Z: 19
 #   A: 41
 #   nuclide: K41
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 18
-#   A: 41
-#   nuclide: Ar41
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 18
+#     A: 41
+#     nuclide: Ar41
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.470000E+01   1.500000E-01   4.100000E+01   4.000000E+00   1.000000E+00
@@ -34,19 +35,3 @@
 #   author: W.Schantl
 #   title: Measurement of (n,p) cross section for light nuclei.
 #   journal: Thesis: Schantl (1970)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.470000E+01
-#   E-max [MeV]:  1.470000E+01
-#   F-value:  1.159580E+00
-#   A-value:  1.136381E+00
-#   chi-2:  3.192202E+00
-#   p-value:  3.814914E-02
-#   exp. data sets for p-value:      8
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.069849E+00   1.069849E+00   1.057502E+00
-# endfb8.0      1.261558E+00   1.261558E+00   7.288397E+00
-# jeff3.3       1.048741E+00   1.048741E+00   6.998905E-01
-# jendl5.0      1.178143E+00   1.178143E+00   3.723020E+00

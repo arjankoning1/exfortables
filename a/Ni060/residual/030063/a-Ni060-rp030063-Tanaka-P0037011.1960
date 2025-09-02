@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ni60(a,x)Zn63 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Tanaka
 #   year: 1960
 #   subentry: P0037011
 #   X4 reaction: 28-NI-60(A,N)30-ZN-63,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/P0037011
-# target:
+# target: 
 #   Z: 28
 #   A: 60
 #   nuclide: Ni60
-# reaction:
+# reaction: 
 #   type: (a,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 30
-#   A: 63
-#   nuclide: Zn63
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 16
+#   residual: 
+#     Z: 30
+#     A: 63
+#     nuclide: Zn63
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 16
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    7.660000E+00   0.000000E+00   1.990000E+00   2.410000E+00   1.000000E+00
@@ -49,16 +50,3 @@
 #   author: S.TANAKA
 #   title: Reactions of Nickel with Alpha-Particles
 #   journal: Jour: Journal of the Physical Society of Japan, Vol.15, p.2159 (1960)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  7.660000E+00
-#   E-max [MeV]:  3.120000E+01
-#   F-value:  2.105585E+00
-#   A-value:  6.268010E-01
-#   chi-2:  6.355645E-02
-#   p-value:  3.312714E-01
-#   exp. data sets for p-value:      1
-#   libraries:      1
-##  Library          F              A            chi-2
-# tendl.2023    2.105585E+00   6.268010E-01   6.355645E-02

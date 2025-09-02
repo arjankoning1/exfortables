@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: C12(a,n')O15 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Black
 #   year: 1968
 #   subentry: P0133002
 #   X4 reaction: 6-C-12(A,N)8-O-15,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/P0133002
-# target:
+# target: 
 #   Z: 6
 #   A: 12
 #   nuclide: C12
-# reaction:
+# reaction: 
 #   type: (a,n')
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 8
-#   A: 15
-#   nuclide: O15
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 243
+#   residual: 
+#     Z: 8
+#     A: 15
+#     nuclide: O15
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 243
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.140000E+01   0.000000E+00   5.500000E-01   1.650000E-01   1.000000E+00
@@ -276,17 +277,3 @@
 #   author: J.L.BLACK,H.M.KUAN,W.GRUHLE,M.SUFFERT,G.L.LATSHAW
 #   title: Reactions 12(alpha,n)15O and 12C(alpha,p)15N
 #   journal: Jour: Nuclear Physics, Section A, Vol.115, p.683 (1968)
-# statistics:
-#   NEA score: R2
-#   IAEA score:  1
-#   E-min [MeV]:  1.140000E+01
-#   E-max [MeV]:  2.270000E+01
-#   F-value:  3.105073E+00
-#   A-value:  2.680430E+00
-#   chi-2:  7.112327E+01
-#   p-value:  3.344662E-01
-#   exp. data sets for p-value:      2
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    3.462568E+00   3.303122E+00   8.384702E+01
-# jendl5.0      1.164430E+00   1.013161E+00   5.253740E-01

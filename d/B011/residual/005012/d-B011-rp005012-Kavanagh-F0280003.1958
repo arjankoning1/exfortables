@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: B11(d,x)B12 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Kavanagh
 #   year: 1958
 #   subentry: F0280003
 #   X4 reaction: 5-B-11(D,P)5-B-12,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/F0280003
-# target:
+# target: 
 #   Z: 5
 #   A: 11
 #   nuclide: B11
-# reaction:
+# reaction: 
 #   type: (d,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 5
-#   A: 12
-#   nuclide: B12
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 122
+#   residual: 
+#     Z: 5
+#     A: 12
+#     nuclide: B12
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 122
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    5.040000E-01   0.000000E+00   9.500000E+00   4.750000E+00   1.000000E+00
@@ -155,16 +156,3 @@
 #   author: R.W.Kavanagh,C.A.Barnes
 #   title: Boron plus deuteron reactions
 #   journal: Jour: Physical Review, Vol.112, p.503 (1958)
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  5.040000E-01
-#   E-max [MeV]:  3.140000E+00
-#   F-value:  7.581960E+00
-#   A-value:  1.323351E-01
-#   chi-2:  3.431001E+00
-#   p-value:  2.799464E-07
-#   exp. data sets for p-value:      1
-#   libraries:      1
-##  Library          F              A            chi-2
-# tendl.2023    7.581960E+00   1.323351E-01   3.431001E+00

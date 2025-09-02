@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Rh103(p,n')Pd103 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Harper
 #   year: 1961
 #   subentry: C1596002
 #   X4 reaction: 45-RH-103(P,N)46-PD-103,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/C1596002
-# target:
+# target: 
 #   Z: 45
 #   A: 103
 #   nuclide: Rh103
-# reaction:
+# reaction: 
 #   type: (p,n')
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 46
-#   A: 103
-#   nuclide: Pd103
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 10
+#   residual: 
+#     Z: 46
+#     A: 103
+#     nuclide: Pd103
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    5.250000E+00   0.000000E+00   3.999500E+01   9.250000E-01   1.000000E+00
@@ -43,17 +44,3 @@
 #   author: P.V.Harper,K.Lathrop,J.L.Need
 #   title: Thick target yield and excitation function for the reaction 103Rh(p,n)103Pd
 #   journal: Rept: Oak Ridge National Lab. Reports, No.61-5-67 (1961)
-# statistics:
-#   NEA score: R3
-#   IAEA score:  0
-#   E-min [MeV]:  5.250000E+00
-#   E-max [MeV]:  2.211000E+01
-#   F-value:  1.864781E+00
-#   A-value:  1.652019E+00
-#   chi-2:  2.441518E+03
-#   p-value:  1.424905E-01
-#   exp. data sets for p-value:      6
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.818115E+00   1.562378E+00   2.087938E+03
-# jendl5.0      1.910750E+00   1.746803E+00   2.795099E+03

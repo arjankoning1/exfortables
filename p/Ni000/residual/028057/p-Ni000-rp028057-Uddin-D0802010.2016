@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ni0(p,x)Ni57 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Uddin
 #   year: 2016
 #   subentry: D0802010
 #   X4 reaction: 28-NI-0(P,X)28-NI-57,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/D0802010
-# target:
+# target: 
 #   Z: 28
 #   A: 0
 #   nuclide: Ni0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 28
-#   A: 57
-#   nuclide: Ni57
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 6
+#   residual: 
+#     Z: 28
+#     A: 57
+#     nuclide: Ni57
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.370000E+01   3.000000E-01   2.400000E+00   3.000000E-01   1.000000E+00
@@ -39,18 +40,3 @@
 #   author: Md.S.Uddin, A.K.Chakraborty, S.Spellerberg,  Md.A.Shariff, S.Das, Md.A.Rashid, I.Spahn, S.M.Qaim
 #   title: Experimental determination of proton induced reaction  cross sections on natNi near threshold energy
 #   journal: Jour: Radiochimica Acta, Vol.104, p.305 (2016)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  1.370000E+01
-#   E-max [MeV]:  1.590000E+01
-#   F-value:  1.946944E+00
-#   A-value:  6.037281E-01
-#   chi-2:  1.893307E+01
-#   p-value:  1.334433E-01
-#   exp. data sets for p-value:      6
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.571249E+00   7.617216E-01   7.603388E+00
-# endfb8.0      2.100254E+00   5.364806E-01   2.515958E+01
-# jendl5.0      2.137255E+00   5.384852E-01   2.403625E+01

@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Fe56(n,n'_01)Fe57 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Elbakr
 #   year: 1973
 #   subentry: 10362002
 #   X4 reaction: 26-FE-56(N,INL)26-FE-56,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/10362002
-#   level energy [MeV]  8.47000E-01
-# target:
+#   level energy [MeV]:  8.47000E-01
+# target: 
 #   Z: 26
 #   A: 56
 #   nuclide: Fe56
-# reaction:
+# reaction: 
 #   type: (n,n'_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 51
@@ -25,14 +25,15 @@
 #     energy [MeV]:  8.467780E-01
 #     spin:  2.000000E+00
 #     parity: 1
-# residual:
-#   Z: 26
-#   A: 57
-#   nuclide: Fe57
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 8
+#   residual: 
+#     Z: 26
+#     A: 57
+#     nuclide: Fe57
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    8.910000E-01   0.000000E+00   3.149170E+02   7.458600E+01   1.000000E+00
@@ -47,20 +48,3 @@
 #   author: S.A.Elbakr,I.J.Van Heerden,B.C.Robertson, W.J.McDonald,G.C.Neilson,W.K.Dawson
 #   title: The energy level structure of 154Sm from the  (n,n'gamma) reaction
 #   journal: Jour: Nuclear Physics, Section A, Vol.211, p.493 (1973)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  8.910000E-01
-#   E-max [MeV]:  1.743000E+00
-#   F-value:  2.961125E+00
-#   A-value:  5.236253E-01
-#   chi-2:  5.429236E+00
-#   p-value:  2.534139E-01
-#   exp. data sets for p-value:      8
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    3.222097E+00   5.184733E-01   4.066607E+00
-# endfb8.0      2.799504E+00   6.086149E-01   9.500137E+00
-# jeff3.3       3.250569E+00   4.653699E-01   4.839410E+00
-# jendl5.0      3.274361E+00   4.727462E-01   4.735603E+00
-# cendl3.2      2.263086E+00   5.670322E-01   4.004426E+00

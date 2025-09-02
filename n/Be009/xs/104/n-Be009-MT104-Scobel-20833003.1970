@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Be9(n,d)Li8 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Scobel
 #   year: 1970
 #   subentry: 20833003
 #   X4 reaction: 4-BE-9(N,D)3-LI-8,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20833003
-# target:
+# target: 
 #   Z: 4
 #   A: 9
 #   nuclide: Be9
-# reaction:
+# reaction: 
 #   type: (n,d)
 #   ENDF_MF: 3
 #   ENDF_MT: 104
-# residual:
-#   Z: 3
-#   A: 8
-#   nuclide: Li8
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 17
+#   residual: 
+#     Z: 3
+#     A: 8
+#     nuclide: Li8
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 17
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.656000E+01   1.600000E-01   9.999999E-02   4.000000E-02   1.000000E+00
@@ -50,20 +51,3 @@
 #   author: W.SCOBEL,M.BORMANN
 #   title: -B-11(N,A)LI-8(B-)BE-8*(2A) AND BE-9(N,D)LI-8(B-)  BE-8*(2A) CROSS SECTIONS-.
 #   journal: Jour: Zeitschrift fuer Naturforschung, Section A, Vol.25, p.1406 (1970)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  1.656000E+01
-#   E-max [MeV]:  1.880000E+01
-#   F-value:  1.047195E+00
-#   A-value:  9.960834E-01
-#   chi-2:  2.281978E-01
-#   p-value:  2.994209E-01
-#   exp. data sets for p-value:      1
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.048342E+00   9.901012E-01   3.080909E-01
-# endfb8.0      1.048342E+00   9.901012E-01   3.080909E-01
-# jeff3.3       1.000000E+00   9.999998E-01   3.054553E-06
-# jendl5.0      1.064838E+00   1.010276E+00   2.167132E-01
-# cendl3.2      1.048342E+00   9.901012E-01   3.080909E-01

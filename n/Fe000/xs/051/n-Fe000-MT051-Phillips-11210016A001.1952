@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Fe0(n,n'_01)Fe1 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Phillips
 #   year: 1952
 #   subentry: 11210016
 #   X4 reaction: 26-FE-0(N,INL)26-FE-0,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/11210016
-#   level energy [MeV]  2.60000E+00
-# target:
+#   level energy [MeV]:  2.60000E+00
+# target: 
 #   Z: 26
 #   A: 0
 #   nuclide: Fe0
-# reaction:
+# reaction: 
 #   type: (n,n'_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 51
@@ -25,14 +25,15 @@
 #     energy [MeV]:  2.564220E+00
 #     spin:  1.500000E+00
 #     parity: -1
-# residual:
-#   Z: 26
-#   A: 1
-#   nuclide: Fe1
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 26
+#     A: 1
+#     nuclide: Fe1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.415000E+01   5.000000E-02   1.210000E+03   3.000000E+01   1.000000E+00
@@ -40,20 +41,3 @@
 #   author: D.D.Phillips,R.W.Davis,E.R.Graves
 #   title: Inelastic Collision Cross Sections for 14-Mev Neutrons
 #   journal: Jour: Physical Review, Vol.88, p.600 (1952)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  1.415000E+01
-#   E-max [MeV]:  1.415000E+01
-#   F-value:  1.949338E+01
-#   A-value:  5.136000E-02
-#   chi-2:  1.463439E+03
-#   p-value:  3.576279E-07
-#   exp. data sets for p-value:      8
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    2.008502E+01   4.978836E-02   1.468821E+03
-# endfb8.0      2.057382E+01   4.860545E-02   1.472481E+03
-# jeff3.3       1.756294E+01   5.693806E-02   1.446801E+03
-# jendl5.0      1.775654E+01   5.631727E-02   1.448706E+03
-# cendl3.2      2.171361E+01   4.605407E-02   1.480389E+03

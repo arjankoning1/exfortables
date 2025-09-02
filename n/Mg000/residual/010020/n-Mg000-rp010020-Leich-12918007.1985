@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Mg0(n,x)Ne20 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Leich
 #   year: 1985
 #   subentry: 12918007
 #   X4 reaction: 12-MG-0(N,X)10-NE-20,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/12918007
-# target:
+# target: 
 #   Z: 12
 #   A: 0
 #   nuclide: Mg0
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 10
-#   A: 20
-#   nuclide: Ne20
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 10
+#     A: 20
+#     nuclide: Ne20
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.450000E+01   5.000000E-01   9.100002E+01   5.000000E+00   1.000000E+00
@@ -34,17 +35,3 @@
 #   author: D.A.LEICH,R.J.BORG,V.B.LANIER
 #   title: PRODUCTION RATES OF NEON AND XENON ISOTOPES BY  ENERGETIC NEUTRONS.
 #   journal: Priv.Comm: Leich (1985)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  1.450000E+01
-#   E-max [MeV]:  1.450000E+01
-#   F-value:  1.437143E+00
-#   A-value:  1.415534E+00
-#   chi-2:  6.647887E+01
-#   p-value:  2.520465E-01
-#   exp. data sets for p-value:      2
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.276065E+00   1.276065E+00   2.524455E+01
-# jendl5.0      1.570247E+00   1.570247E+00   1.077132E+02

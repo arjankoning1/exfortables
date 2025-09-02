@@ -1,28 +1,29 @@
-# header:
+# header: 
 #   title: Cu63(p,x) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Meadows
 #   year: 1953
 #   subentry: B0054002
 #   X4 reaction: 29-CU-63(P,X)29-CU-62,IND,SIG,,,EXP
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/B0054002
-# target:
+# target: 
 #   Z: 29
 #   A: 63
 #   nuclide: Cu63
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 9000
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 20
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 20
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.400000E+01   0.000000E+00   2.800000E+01   0.000000E+00   1.000000E+00
@@ -49,18 +50,3 @@
 #   author: J.W.MEADOWS
 #   title: Excitation Functions For Proton-Induced Reactions With Copper
 #   journal: Jour: Physical Review, Vol.91, p.885 (1953)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  1.400000E+01
-#   E-max [MeV]:  9.920000E+01
-#   F-value:  1.549307E+00
-#   A-value:  9.897611E-01
-#   chi-2:  0.000000E+00
-#   p-value:  1.856925E-01
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.616064E+00   9.515602E-01   0.000000E+00
-# endfb8.0      1.602820E+00   1.007601E+00   0.000000E+00
-# jendl5.0      1.418198E+00   1.011268E+00   0.000000E+00

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: O17(a,n')Ne20 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Hansen
 #   year: 1967
 #   subentry: P0116002
 #   X4 reaction: 8-O-17(A,N)10-NE-20,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/P0116002
-# target:
+# target: 
 #   Z: 8
 #   A: 17
 #   nuclide: O17
-# reaction:
+# reaction: 
 #   type: (a,n')
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 10
-#   A: 20
-#   nuclide: Ne20
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 8
+#   residual: 
+#     Z: 10
+#     A: 20
+#     nuclide: Ne20
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.700000E+00   2.480000E+00   1.660000E+02   1.700000E+01   1.000000E+00
@@ -41,17 +42,3 @@
 #   author: L.F.Hansen,J.D.Anderson,J.W.McClure,B.A.Pohl, M.L.Stelts,J.J.Wesolowski,C.Wong
 #   title: The (alpha,n) cross sections on 17O and 18O between 5 and 12.5 MeV
 #   journal: Jour: Nuclear Physics, Section A, Vol.98, p.25 (1967)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  4.700000E+00
-#   E-max [MeV]:  1.250000E+01
-#   F-value:  1.485071E+00
-#   A-value:  8.526353E-01
-#   chi-2:  9.093942E+00
-#   p-value:  2.966486E-01
-#   exp. data sets for p-value:      2
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.414526E+00   9.550498E-01   7.606295E+00
-# jendl5.0      1.550791E+00   7.612032E-01   1.058159E+01

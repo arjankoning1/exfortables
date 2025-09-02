@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Nd148(n,2n)Nd147 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Kumabe
 #   year: 1977
 #   subentry: 20852003
 #   X4 reaction: 60-ND-148(N,2N)60-ND-147,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20852003
-# target:
+# target: 
 #   Z: 60
 #   A: 148
 #   nuclide: Nd148
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 60
-#   A: 147
-#   nuclide: Nd147
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 60
+#     A: 147
+#     nuclide: Nd147
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.460000E+01   0.000000E+00   1.774607E+03   1.321655E+02   9.919546E-01
@@ -34,20 +35,3 @@
 #   author: I.Kumabe,E.Kotake,F.Nagahama
 #   title: Activation cross sections for (n,2n) reaction on  neodymium, samarium, gadolinium and ytterbium at  14.6 MeV
 #   journal: Jour: Jour. of Nuclear Science and Technology, Vol.14, p.319 (1977)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.460000E+01
-#   E-max [MeV]:  1.460000E+01
-#   F-value:  1.028466E+00
-#   A-value:  9.750695E-01
-#   chi-2:  4.581424E-01
-#   p-value:  3.465616E-01
-#   exp. data sets for p-value:      8
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.036389E+00   9.648890E-01   6.560569E-01
-# endfb8.0      1.030902E+00   9.700240E-01   5.511519E-01
-# jeff3.3       1.029884E+00   9.709831E-01   5.319311E-01
-# jendl5.0      1.029884E+00   9.709831E-01   5.319311E-01
-# cendl3.2      1.001165E+00   9.988367E-01   1.964089E-02

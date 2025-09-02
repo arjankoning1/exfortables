@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: As75(p,x)Se75 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Mushtaq
 #   year: 1988
 #   subentry: A0467002
 #   X4 reaction: 33-AS-75(P,N)34-SE-75,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/A0467002
-# target:
+# target: 
 #   Z: 33
 #   A: 75
 #   nuclide: As75
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 34
-#   A: 75
-#   nuclide: Se75
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 83
+#   residual: 
+#     Z: 34
+#     A: 75
+#     nuclide: Se75
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 83
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.990000E+00   0.000000E+00   2.018700E-01   3.938900E-02   9.847199E-01
@@ -116,17 +117,3 @@
 #   author: A.Mushtaq,S.M.Qaim,G.Stocklin
 #   title: Production of Se-73 via (p,3n) and (d,4n) reactions on arsenic.
 #   journal: Jour: Applied Radiation and Isotopes, Vol.39, p.1085 (1988)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  2.990000E+00
-#   E-max [MeV]:  4.488000E+01
-#   F-value:  2.211635E+00
-#   A-value:  7.665581E-01
-#   chi-2:  1.091310E+03
-#   p-value:  1.551815E-01
-#   exp. data sets for p-value:      2
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    2.210974E+00   7.670943E-01   1.017667E+03
-# jendl5.0      2.212295E+00   7.660221E-01   1.164954E+03

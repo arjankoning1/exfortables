@@ -1,28 +1,29 @@
-# header:
+# header: 
 #   title: U238(g,f) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Frommhold
 #   year: 1992
 #   subentry: M0950002
 #   X4 reaction: 92-U-238(G,F),,SIG,,FCT
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/M0950002
-# target:
+# target: 
 #   Z: 92
 #   A: 238
 #   nuclide: U238
-# reaction:
+# reaction: 
 #   type: (g,f)
 #   ENDF_MF: 3
 #   ENDF_MT: 18
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 44
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 44
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.746000E+01   0.000000E+00   7.105000E-02   0.000000E+00   1.000000E+00
@@ -73,18 +74,3 @@
 #   author: Th.Frommhold,F.Steiper,W.Henkel,U.Kneissl,J.Ahrens,  R.Beck,J.Peise,M.Schmitz
 #   title: Total photofission  cross  section  for  238U  as   a  substitute for the photon absorption  cross  section  in the energy range of the first baryon resonances.
 #   journal: Jour: Physics Letters,Section B, Vol.295, p.28 (1992)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  4.746000E+01
-#   E-max [MeV]:  7.864400E+02
-#   F-value:  1.223681E+02
-#   A-value:  1.155698E+02
-#   chi-2:  0.000000E+00
-#   p-value:  0.000000E+00
-#   exp. data sets for p-value:      4
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.076253E+02   1.010309E+02   0.000000E+00
-# endfb8.0      0.000000E+00   0.000000E+00   0.000000E+00
-# jendl5.0      1.386665E+02   1.322010E+02   0.000000E+00

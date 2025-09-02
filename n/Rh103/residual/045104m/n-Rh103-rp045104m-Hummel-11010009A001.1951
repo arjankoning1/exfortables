@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: Rh103(n,x)Rh104m cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Hummel
 #   year: 1951
 #   subentry: 11010009
 #   X4 reaction: 45-RH-103(N,G)45-RH-104-M,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/11010009
-# target:
+# target: 
 #   Z: 45
 #   A: 103
 #   nuclide: Rh103
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 45
-#   A: 104
-#   nuclide: Rh104m
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 45
+#     A: 104
+#     nuclide: Rh104m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.400000E-02   0.000000E+00   2.000000E+02   3.000000E+01   1.000000E+00
@@ -39,17 +40,3 @@
 #   author: V.Hummel,B.Hamermesh
 #   title: Activation cross sections measured with antimony- beryllium photoneutrons
 #   journal: Jour: Physical Review, Vol.82, p.67 (1951)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  2.400000E-02
-#   E-max [MeV]:  2.400000E-02
-#   F-value:  3.466027E+00
-#   A-value:  3.117663E-01
-#   chi-2:  2.014675E+01
-#   p-value:  1.968940E-01
-#   exp. data sets for p-value:      3
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    4.940979E+00   2.023890E-01   2.827482E+01
-# jendl5.0      2.082229E+00   4.802545E-01   1.201867E+01

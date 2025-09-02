@@ -1,28 +1,29 @@
-# header:
+# header: 
 #   title: U238(g,f) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Minarik
 #   year: 1957
 #   subentry: M1007002
 #   X4 reaction: 92-U-238(G,F),,SIG,,BRS
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/M1007002
-# target:
+# target: 
 #   Z: 92
 #   A: 238
 #   nuclide: U238
-# reaction:
+# reaction: 
 #   type: (g,f)
 #   ENDF_MF: 3
 #   ENDF_MT: 18
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 10
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.045000E+01   0.000000E+00   3.870800E+01   2.228000E+00   1.000000E+00
@@ -39,18 +40,3 @@
 #   author: E.V.Minarik,V.A.Novikov
 #   title: Fission of U, Th, Bi and Tl induced by high energy  g-quanta.
 #   journal: Jour: Zhurnal Eksperimental'noi i Teoret. Fiziki, Vol.32, p.241 (1957)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  2.045000E+01
-#   E-max [MeV]:  2.346800E+02
-#   F-value:  3.146596E+00
-#   A-value:  6.852502E-01
-#   chi-2:  7.427108E+00
-#   p-value:  6.876436E-02
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    3.353502E+00   6.127903E-01   7.766304E+00
-# endfb8.0      0.000000E+00   0.000000E+00   0.000000E+00
-# jendl5.0      2.941397E+00   7.662782E-01   7.087913E+00

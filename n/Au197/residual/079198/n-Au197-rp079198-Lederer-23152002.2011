@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Au197(n,x)Au198 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Lederer
 #   year: 2011
 #   subentry: 23152002
 #   X4 reaction: 79-AU-197(N,G)79-AU-198,,SIG,,AV
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/23152002
-# target:
+# target: 
 #   Z: 79
 #   A: 197
 #   nuclide: Au197
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 79
-#   A: 198
-#   nuclide: Au198
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 38
+#   residual: 
+#     Z: 79
+#     A: 198
+#     nuclide: Au198
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 38
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    5.315500E-03   3.055000E-04   1.817000E+03   7.449701E+01   1.000000E+00
@@ -71,17 +72,3 @@
 #   author: C.Lederer, N.Colonna, C.Domingo-Pardo, F.Gunsing,  F.Kaeppeler, C.Massimi, A.Mengoni, A.Wallner,  U.Abbondanno, G.Aerts, H.Alvarez, F.Alvarez-Velarde,  S.Andriamonje, J.Andrzejewski, P.Assimakopoulos,  L.Audouin, G.Badurek, M.Barbagallo, P.Baumann,  F.Becvar, F.Belloni, E.Berthoumieux, M.Calviani,  F.Calvino, D.Cano-Ott, R.Capote, C.Carrapico,  A.Carrillo de Albornoz, P.Cennini, V.Chepel,  E.Chiaveri, G.Cortes, A.Couture, J.Cox, M.Dahlfors,  S.David, I.Dillmann, R.Dolfini, W.Dridi, I.Duran,  C.Eleftheriadis, M.Embid-Segura, L.Ferrant, A.Ferrari,  R.Ferreira-Marques, L.Fitzpatrick, H.Frais-Koelbl,  K.Fujii, W.Furman, I.Goncalves, E.Gonzalez-Romero,  A.Goverdovski, F.Gramegna, E.Griesmayer, C.Guerrero,  B.Haas, R.Haight, M.Heil, A.Herrera-Martinez,  M.Igashira, S.Isaev, E.Jericha, Y.Kadi, D.Karadimos,  D.Karamanis, M.Kerveno, V.Ketlerov, P.Koehler,  V.Konovalov, E.Kossionides, M.Krticka, C.Lampoudis,  H.Leeb, A.Lindote, I.Lopes, R.Losito, M.Lozano,  S.Lukic, J.Marganiec, L.Ma
 #   title: 197Au(n,gamma) cross section in the unresolved  resonance region
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.83, p.034608 (2011)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  5.315500E-03
-#   E-max [MeV]:  3.762870E-01
-#   F-value:  1.048723E+00
-#   A-value:  1.003621E+00
-#   chi-2:  1.246585E+00
-#   p-value:  3.328043E-01
-#   exp. data sets for p-value:      7
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.049413E+00   1.009089E+00   1.210514E+00
-# jendl5.0      1.048024E+00   9.981823E-01   1.282656E+00

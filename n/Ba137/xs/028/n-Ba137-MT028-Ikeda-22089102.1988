@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ba137(n,np)Cs136 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Ikeda
 #   year: 1988
 #   subentry: 22089102
 #   X4 reaction: 56-BA-137(N,X)55-CS-136,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22089102
-# target:
+# target: 
 #   Z: 56
 #   A: 137
 #   nuclide: Ba137
-# reaction:
+# reaction: 
 #   type: (n,np)
 #   ENDF_MF: 3
 #   ENDF_MT: 28
-# residual:
-#   Z: 55
-#   A: 136
-#   nuclide: Cs136
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 6
+#   residual: 
+#     Z: 55
+#     A: 136
+#     nuclide: Cs136
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.342000E+01   0.000000E+00   3.370000E-01   8.600000E-02   1.000000E+00
@@ -39,20 +40,3 @@
 #   author: Y.Ikeda,C.Konno,K.Oishi,T.Nakamura,H.Miyade, K.Kawade,  H.Yamamoto, T.Katoh
 #   title: Activation cross section measurements for fusion  reactor structural materials at neutron energy from  13.3 to 15.0 MeV using FNS facility
 #   journal: Rept: JAERI Reports, No.1312 (1988)
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  1.342000E+01
-#   E-max [MeV]:  1.500000E+01
-#   F-value:  9.229767E+00
-#   A-value:  1.358324E-01
-#   chi-2:  1.355390E+01
-#   p-value:  2.268679E-02
-#   exp. data sets for p-value:      1
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.063330E+01   1.031698E-01   1.574275E+01
-# endfb8.0      6.846140E+00   1.473495E-01   1.301482E+01
-# jeff3.3       6.846140E+00   1.473495E-01   1.301482E+01
-# jendl5.0      2.193286E+00   5.279575E-01   5.683802E+00
-# cendl3.2      1.679424E+01   6.602911E-02   1.698479E+01

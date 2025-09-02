@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ti50(n,p)Sc50 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Kasugai
 #   year: 1998
 #   subentry: 22433006
 #   X4 reaction: 22-TI-50(N,P)21-SC-50,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22433006
-# target:
+# target: 
 #   Z: 22
 #   A: 50
 #   nuclide: Ti50
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 21
-#   A: 50
-#   nuclide: Sc50
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 6
+#   residual: 
+#     Z: 21
+#     A: 50
+#     nuclide: Sc50
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.340000E+01   5.000000E-02   1.020000E+01   5.916000E-01   1.000000E+00
@@ -39,20 +40,3 @@
 #   author: Y.Kasugai, H.Yamamoto, K.Kawade, T.Iida
 #   title: Measurement of (n,p) cross-sections for short-lived  products by 13.4-14.9 MeV neutrons
 #   journal: Jour: Annals of Nuclear Energy, Vol.25, Issue.1-3, p.23 (1998)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.340000E+01
-#   E-max [MeV]:  1.487000E+01
-#   F-value:  1.128982E+00
-#   A-value:  9.247848E-01
-#   chi-2:  3.989938E+00
-#   p-value:  2.636097E-01
-#   exp. data sets for p-value:      2
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.176231E+00   8.885407E-01   6.727324E+00
-# endfb8.0      1.087771E+00   9.303801E-01   2.404780E+00
-# jeff3.3       1.170718E+00   8.964127E-01   6.407073E+00
-# jendl5.0      1.131353E+00   9.147284E-01   4.249418E+00
-# cendl3.2      1.009545E+00   9.978507E-01   1.610932E-01

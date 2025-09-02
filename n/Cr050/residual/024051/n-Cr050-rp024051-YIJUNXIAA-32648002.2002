@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Cr50(n,x)Cr51 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: YIJUNXIAA
 #   year: 2002
 #   subentry: 32648002
 #   X4 reaction: 24-CR-50(N,G)24-CR-51,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/32648002
-# target:
+# target: 
 #   Z: 24
 #   A: 50
 #   nuclide: Cr50
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 24
-#   A: 51
-#   nuclide: Cr51
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 6
+#   residual: 
+#     Z: 24
+#     A: 51
+#     nuclide: Cr51
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    5.000000E-02   1.300000E-02   1.910000E+01   1.000000E+00   1.000000E+00
@@ -39,17 +40,3 @@
 #   author: YIJUN XIA, ZHIHUA YANG, YIYUN ZHENG
 #   title: Measurement of neutron capture cross section of Cr-50 in the energy range from 50 to 1052 keV
 #   journal: Jour: Communication of Nuclear Data Progress, Vol.28, p.1 (2002)
-# statistics:
-#   NEA score: T3
-#   IAEA score:  1
-#   E-min [MeV]:  5.000000E-02
-#   E-max [MeV]:  1.052000E+00
-#   F-value:  1.138974E+01
-#   A-value:  2.537977E-01
-#   chi-2:  2.595799E+03
-#   p-value:  7.743969E-02
-#   exp. data sets for p-value:      3
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.138843E+01   2.524956E-01   2.595605E+03
-# jendl5.0      1.139105E+01   2.551065E-01   2.595993E+03

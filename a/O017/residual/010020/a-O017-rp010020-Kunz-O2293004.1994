@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: O17(a,x)Ne20 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Kunz
 #   year: 1994
 #   subentry: O2293004
 #   X4 reaction: 8-O-17(A,N)10-NE-20,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/O2293004
-# target:
+# target: 
 #   Z: 8
 #   A: 17
 #   nuclide: O17
-# reaction:
+# reaction: 
 #   type: (a,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 10
-#   A: 20
-#   nuclide: Ne20
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 439
+#   residual: 
+#     Z: 10
+#     A: 20
+#     nuclide: Ne20
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 439
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    6.440000E-01   0.000000E+00   1.080000E-06   0.000000E+00   1.000000E+00
@@ -472,17 +473,3 @@
 #   author: R.Kunz,A.Denker, H.W.Drotleff,M.Grobe,H.Knee, S.Kuechler,R.Seidel,M.Soine,J.W.Hammer
 #   title: Neutron sources in nuclear astrophysics.
 #   journal: Conf: Conf.on Neutrons and Their Appl.,Crete,Greece,1994, p.38 (1994)
-# statistics:
-#   NEA score: R3
-#   IAEA score: -1
-#   E-min [MeV]:  6.440000E-01
-#   E-max [MeV]:  1.983000E+00
-#   F-value:  7.729581E+00
-#   A-value:  3.563862E+00
-#   chi-2:  5.579322E+05
-#   p-value:  1.242650E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.553656E+01   7.326256E+00   1.177782E+06
-# jendl5.0      3.014920E+00   1.912071E+00   2.706699E+03

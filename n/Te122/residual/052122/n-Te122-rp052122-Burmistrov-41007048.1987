@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Te122(n,x)Te122 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Burmistrov
 #   year: 1987
 #   subentry: 41007048
 #   X4 reaction: 52-TE-122(N,INL)52-TE-122,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/41007048
-# target:
+# target: 
 #   Z: 52
 #   A: 122
 #   nuclide: Te122
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 52
-#   A: 122
-#   nuclide: Te122
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 11
+#   residual: 
+#     Z: 52
+#     A: 122
+#     nuclide: Te122
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 11
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    6.000000E-01   0.000000E+00   3.400000E+02   3.000000E+02   1.000000E+00
@@ -44,18 +45,3 @@
 #   author: Yu.M.Burmistrov,T.E.Grigor'ev,E.D.Molodtsov, R.M.Musaelyan,V.I.Popov,S.I.Potashev,V.M.Skorkin
 #   title: 1.2-2.0 MeV energy neutron scattering on the even tellurium isotopes
 #   journal: Conf: 1.Int.Conf.on Neutron Physics, Kiev,14-18 Sep 1987, Vol.3, p.217 (
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  6.000000E-01
-#   E-max [MeV]:  1.090000E+00
-#   F-value:  1.083293E+00
-#   A-value:  9.514801E-01
-#   chi-2:  3.190288E-01
-#   p-value:  2.149344E-01
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.113697E+00   9.229602E-01   5.770469E-01
-# jeff3.3       1.015492E+00   9.908641E-01   3.791477E-02
-# jendl5.0      1.089643E+00   9.418939E-01   3.421249E-01

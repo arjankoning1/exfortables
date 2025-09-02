@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: H2(n,2n)H1 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Graves
 #   year: 1971
 #   subentry: 10970002
 #   X4 reaction: 1-H-2(N,2N)1-H-1,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/10970002
-# target:
+# target: 
 #   Z: 1
 #   A: 2
 #   nuclide: H2
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 1
-#   A: 1
-#   nuclide: H1
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 1
+#     A: 1
+#     nuclide: H1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.446000E+01   0.000000E+00   1.580000E+02   1.600000E+01   1.000000E+00
@@ -34,19 +35,3 @@
 #   author: E.R.GRAVES,J.D.SEAGRAVE
 #   title: BREAKUP PROTONS FROM THE D(N,2N) REACTION
 #   journal: Rept: U.S.AEC Nucl.Cross Sections Advisory Comm. Repts, No.42, p.158 (19
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  1.446000E+01
-#   E-max [MeV]:  1.446000E+01
-#   F-value:  1.032534E+00
-#   A-value:  1.030083E+00
-#   chi-2:  4.032732E-01
-#   p-value:  3.267198E-01
-#   exp. data sets for p-value:      3
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.019687E+00   1.019687E+00   2.540157E-01
-# endfb8.0      1.028709E+00   1.028709E+00   3.778225E-01
-# jeff3.3       1.021181E+00   1.021181E+00   2.741825E-01
-# cendl3.2      1.051056E+00   1.051056E+00   7.070718E-01

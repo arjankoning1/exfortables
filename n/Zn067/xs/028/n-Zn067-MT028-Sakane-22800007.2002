@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Zn67(n,np)Cu66 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Sakane
 #   year: 2002
 #   subentry: 22800007
 #   X4 reaction: 30-ZN-67(N,X)29-CU-66,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22800007
-# target:
+# target: 
 #   Z: 30
 #   A: 67
 #   nuclide: Zn67
-# reaction:
+# reaction: 
 #   type: (n,np)
 #   ENDF_MF: 3
 #   ENDF_MT: 28
-# residual:
-#   Z: 29
-#   A: 66
-#   nuclide: Cu66
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 6
+#   residual: 
+#     Z: 29
+#     A: 66
+#     nuclide: Cu66
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.340000E+01   0.000000E+00   9.219900E+00   2.581600E+00   8.017335E-01
@@ -39,20 +40,3 @@
 #   author: H.Sakane,Y.Kasugai,M.Shibata,T.Iida,A.Takahashi, T.Fukahori,K.Kawade
 #   title: Measurement of activation cross section of (n,np+d)  reactions producing short-lived nuclei in the energy  range between 13.4 and 14.9 MeV using an intense  neutron source OKTAVIAN
 #   journal: Jour: Annals of Nuclear Energy, Vol.29, p.53 (2002)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  1.340000E+01
-#   E-max [MeV]:  1.487000E+01
-#   F-value:  1.503785E+00
-#   A-value:  6.755683E-01
-#   chi-2:  2.018836E+00
-#   p-value:  7.411429E-02
-#   exp. data sets for p-value:      1
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.629916E+00   6.189691E-01   2.493400E+00
-# endfb8.0      1.555149E+00   6.482182E-01   2.244470E+00
-# jeff3.3       1.556423E+00   6.481162E-01   2.238444E+00
-# jendl5.0      1.346946E+00   7.504203E-01   1.450007E+00
-# cendl3.2      1.402041E+00   7.211051E-01   1.667860E+00

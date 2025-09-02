@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Cr50(p,x)Mn51 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Krivonosov
 #   year: 1977
 #   subentry: A0048002
 #   X4 reaction: 24-CR-50(P,G)25-MN-51,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/A0048002
-# target:
+# target: 
 #   Z: 24
 #   A: 50
 #   nuclide: Cr50
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 25
-#   A: 51
-#   nuclide: Mn51
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 45
+#   residual: 
+#     Z: 25
+#     A: 51
+#     nuclide: Mn51
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 45
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    5.400000E-01   2.000000E-03   2.800000E-04   4.200000E-05   1.000000E+00
@@ -78,17 +79,3 @@
 #   author: G.A.Krivonosov,O.I.Ekhichev,B.A.Nemashkalo, V.E.Storizhko,V.K.Chirt
 #   title: Radiative capture cross-section of protons by medium atomic weigh nuclei at low energy.
 #   journal: Jour: Izv. Rossiiskoi Akademii Nauk, Ser.Fiz., Vol.41, Issue.10, p.2196
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  5.400000E-01
-#   E-max [MeV]:  3.000000E+00
-#   F-value:  2.141188E+00
-#   A-value:  7.425309E-01
-#   chi-2:  8.099128E+01
-#   p-value:  2.573153E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    2.396392E+00   5.367145E-01   8.084941E+01
-# jendl5.0      1.881294E+00   1.049855E+00   7.874536E+01

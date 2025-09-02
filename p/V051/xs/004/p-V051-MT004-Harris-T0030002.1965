@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: V51(p,n')Cr51 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Harris
 #   year: 1965
 #   subentry: T0030002
 #   X4 reaction: 23-V-51(P,N)24-CR-51,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/T0030002
-# target:
+# target: 
 #   Z: 23
 #   A: 51
 #   nuclide: V51
-# reaction:
+# reaction: 
 #   type: (p,n')
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 24
-#   A: 51
-#   nuclide: Cr51
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 14
+#   residual: 
+#     Z: 24
+#     A: 51
+#     nuclide: Cr51
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 14
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.580000E+00   0.000000E+00   3.024500E-01   2.349100E-02   9.788093E-01
@@ -47,17 +48,3 @@
 #   author: K.K.HARRIS,H.A.GRENCH,R.G.JOHNSON,F.J.VAUGHN
 #   title: The V51(p,n)Cr51 reaction as a neutron source of  known intensity
 #   journal: Jour: Nuclear Instrum.and Methods in Physics Res., Vol.33, p.257 (1965)
-# statistics:
-#   NEA score: R3
-#   IAEA score:  1
-#   E-min [MeV]:  1.580000E+00
-#   E-max [MeV]:  2.280000E+00
-#   F-value:  1.735625E+00
-#   A-value:  1.507796E+00
-#   chi-2:  3.617014E+01
-#   p-value:  2.880633E-01
-#   exp. data sets for p-value:      4
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.734380E+00   1.506350E+00   3.582953E+01
-# jendl5.0      1.546111E+00   1.507837E+00   1.121982E+02

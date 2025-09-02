@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Te125(n,x)Te126 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Bergman
 #   year: 1975
 #   subentry: 40292005
 #   X4 reaction: 52-TE-125(N,G)52-TE-126,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/40292005
-# target:
+# target: 
 #   Z: 52
 #   A: 125
 #   nuclide: Te125
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 52
-#   A: 126
-#   nuclide: Te126
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 65
+#   residual: 
+#     Z: 52
+#     A: 126
+#     nuclide: Te126
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 65
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.600000E-05   0.000000E+00   2.100000E+02   1.050000E+01   1.000000E+00
@@ -98,17 +99,3 @@
 #   author: A.A.Bergman,S.A.Romanov
 #   title: Study of the cross sections for radiative capture of neutrons by tellurium isotopes and their application to the theory of the origin of the elements
 #   journal: Jour: Soviet Journal of Nuclear Physics, Vol.20, p.133 (1975)
-# statistics:
-#   NEA score: T3
-#   IAEA score:  1
-#   E-min [MeV]:  1.600000E-05
-#   E-max [MeV]:  6.400000E-02
-#   F-value:  2.347919E+01
-#   A-value:  1.000246E-01
-#   chi-2:  3.148750E+04
-#   p-value:  9.940940E-02
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    2.344169E+01   1.038532E-01   3.149033E+04
-# jeff3.3       2.351673E+01   9.633723E-02   3.148465E+04

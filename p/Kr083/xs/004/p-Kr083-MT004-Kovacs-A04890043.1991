@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Kr83(p,n')Rb83 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Kovacs
 #   year: 1991
 #   subentry: A04890043
 #   X4 reaction: 36-KR-83(P,N)37-RB-83,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/A04890043
-# target:
+# target: 
 #   Z: 36
 #   A: 83
 #   nuclide: Kr83
-# reaction:
+# reaction: 
 #   type: (p,n')
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 37
-#   A: 83
-#   nuclide: Rb83
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 25
+#   residual: 
+#     Z: 37
+#     A: 83
+#     nuclide: Rb83
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 25
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    6.000000E+00   0.000000E+00   2.030000E+02   2.934737E+01   1.000000E+00
@@ -58,17 +59,3 @@
 #   author: Z.Kovacs, F.Tarkanyi, S.M.Qaim, G.Stocklin
 #   title: Excitation functions for the formation of some radioisotopes of rubidium in proton induced nuclear reactions on Kr-nat,Kr-82 and Kr-83 with special reference to the production of Rb-81(Kr-81-m) generator radionuclide.
 #   journal: Jour: Applied Radiation and Isotopes, Vol.42, p.329 (1991)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  6.000000E+00
-#   E-max [MeV]:  2.950000E+01
-#   F-value:  1.157790E+00
-#   A-value:  1.100601E+00
-#   chi-2:  1.629395E+00
-#   p-value:  2.875450E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.138040E+00   1.071050E+00   1.311721E+00
-# jendl5.0      1.175743E+00   1.130967E+00   1.947070E+00

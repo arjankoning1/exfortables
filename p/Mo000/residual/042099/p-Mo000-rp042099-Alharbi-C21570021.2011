@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Mo0(p,x)Mo99 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Alharbi
 #   year: 2011
 #   subentry: C21570021
 #   X4 reaction: 42-MO-0(P,X)42-MO-99,CUM,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/C21570021
-# target:
+# target: 
 #   Z: 42
 #   A: 0
 #   nuclide: Mo0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 42
-#   A: 99
-#   nuclide: Mo99
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 8
+#   residual: 
+#     Z: 42
+#     A: 99
+#     nuclide: Mo99
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.800000E+01   5.000000E-01   7.100000E+01   8.000000E+00   1.000000E+00
@@ -41,17 +42,3 @@
 #   author: A.A.Alharbi,A.Azzam,M.Mccleskey,B.Roeder,A.Spiridon, E.Simmons, V.Z.Goldberg,A.Banu,L.Trache,R.E.Tribble
 #   title: Medical Radioisotopes Production: A Comprehensive Cross-Section Study for the Production of Mo and Tc Radioisotopes Via Proton Induced Nuclear Reactions on natMo
 #   journal: Book: Radioisotopes-Applications in Bio-Medical Sci. 2011, p.3 (2011)
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  1.800000E+01
-#   E-max [MeV]:  3.900000E+01
-#   F-value:  1.316831E+01
-#   A-value:  7.679722E-02
-#   chi-2:  1.608845E+02
-#   p-value:  5.960464E-08
-#   exp. data sets for p-value:      6
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.175125E+01   8.615705E-02   1.570479E+02
-# jendl5.0      1.468529E+01   6.845423E-02   1.647211E+02

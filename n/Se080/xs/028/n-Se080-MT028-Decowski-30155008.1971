@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Se80(n,np)As79 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Decowski
 #   year: 1971
 #   subentry: 30155008
 #   X4 reaction: 34-SE-80(N,X)33-AS-79,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30155008
-# target:
+# target: 
 #   Z: 34
 #   A: 80
 #   nuclide: Se80
-# reaction:
+# reaction: 
 #   type: (n,np)
 #   ENDF_MF: 3
 #   ENDF_MT: 28
-# residual:
-#   Z: 33
-#   A: 79
-#   nuclide: As79
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 8
+#   residual: 
+#     Z: 33
+#     A: 79
+#     nuclide: As79
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.336000E+01   1.400000E-01   3.800000E+00   3.000000E+00   1.000000E+00
@@ -41,19 +42,3 @@
 #   author: P.Decowski,S.El-Konsol,W.Grochulski,A.Marcinkowski, J.Piotrowski,I.M.Turkiewicz,Z.Wilhelmi
 #   title: Cross sections for some reactions induced by neutrons in the energy range from 13 to 18 MeV
 #   journal: Prog: Inst.Badan Jadr.(Nucl.Res.),Swierk+Warsaw,Repts, No.1318, p.8 (197
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  1.336000E+01
-#   E-max [MeV]:  1.778000E+01
-#   F-value:  9.458182E+00
-#   A-value:  1.425887E-01
-#   chi-2:  6.894335E+00
-#   p-value:  6.705523E-07
-#   exp. data sets for p-value:      1
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    7.831778E+00   1.669503E-01   7.288762E+00
-# endfb8.0      1.838905E+01   8.012925E-02   8.393527E+00
-# jeff3.3       8.371758E+00   1.567803E-01   7.469200E+00
-# jendl5.0      7.728958E+00   1.648914E-01   6.718798E+00

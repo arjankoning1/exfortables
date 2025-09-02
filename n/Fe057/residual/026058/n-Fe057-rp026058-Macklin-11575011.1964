@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Fe57(n,x)Fe58 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Macklin
 #   year: 1964
 #   subentry: 11575011
 #   X4 reaction: 26-FE-57(N,G)26-FE-58,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/11575011
-# target:
+# target: 
 #   Z: 26
 #   A: 57
 #   nuclide: Fe57
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 26
-#   A: 58
-#   nuclide: Fe58
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 47
+#   residual: 
+#     Z: 26
+#     A: 58
+#     nuclide: Fe58
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 47
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.120000E-02   0.000000E+00   1.120000E+02   1.400000E+01   1.000000E+00
@@ -80,18 +81,3 @@
 #   author: R.L.Macklin,P.J.Pasma,J.H.Gibbons
 #   title: Resonance Neutron Capture and Transmission in Sulfur,  Iron and Lead
 #   journal: Jour: Physical Review, Vol.136, p.B695 (1964)
-# statistics:
-#   NEA score: T3
-#   IAEA score:  1
-#   E-min [MeV]:  1.120000E-02
-#   E-max [MeV]:  5.950000E-02
-#   F-value:  1.007873E+01
-#   A-value:  1.436363E-01
-#   chi-2:  7.517932E+02
-#   p-value:  7.260371E-02
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.055076E+01   1.431059E-01   1.082411E+03
-# jeff3.3       8.787753E+00   1.584790E-01   1.165357E+02
-# jendl5.0      1.097516E+01   1.306663E-01   1.056433E+03

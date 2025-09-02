@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ga69(n,x)Ga70 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Zaikin
 #   year: 1976
 #   subentry: 40255002
 #   X4 reaction: 31-GA-69(N,G)31-GA-70,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/40255002
-# target:
+# target: 
 #   Z: 31
 #   A: 69
 #   nuclide: Ga69
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 31
-#   A: 70
-#   nuclide: Ga70
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 20
+#   residual: 
+#     Z: 31
+#     A: 70
+#     nuclide: Ga70
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 20
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.980000E-01   2.100000E-02   4.590001E+01   2.300000E+00   1.000000E+00
@@ -53,18 +54,3 @@
 #   author: G.G.Zaikin,I.A.Korzh,M.V.Pasechnik,N.T.Sklyar
 #   title: Cross-sections of 69Ga, 71Ga, 139La and 141Pr isotopes for radiative capture of fast neutrons
 #   journal: Jour: Ukrainian Physics Journal, Vol.16, p.1476 (1976)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.980000E-01
-#   E-max [MeV]:  3.080000E+00
-#   F-value:  1.184736E+00
-#   A-value:  9.420288E-01
-#   chi-2:  7.509720E+00
-#   p-value:  3.721516E-01
-#   exp. data sets for p-value:      2
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.215075E+00   8.872044E-01   9.736284E+00
-# jeff3.3       1.189664E+00   9.220142E-01   7.509652E+00
-# jendl5.0      1.144007E+00   1.021954E+00   5.283223E+00

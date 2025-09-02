@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Al27(n,p)Mg27 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Husain
 #   year: 1970
 #   subentry: 10088002
 #   X4 reaction: 13-AL-27(N,P)12-MG-27,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/10088002
-# target:
+# target: 
 #   Z: 13
 #   A: 27
 #   nuclide: Al27
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 12
-#   A: 27
-#   nuclide: Mg27
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 12
+#     A: 27
+#     nuclide: Mg27
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.480000E+01   2.000000E-01   7.300001E+01   5.000000E+00   1.000000E+00
@@ -34,21 +35,3 @@
 #   author: L.Husain,A.Bari,P.K.Kuroda
 #   title: Neutron Activation Cross Sections at 14.8 MeV for Rubidium, Zirconium, and Niobium
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.1, p.1233 (1970)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.480000E+01
-#   E-max [MeV]:  1.480000E+01
-#   F-value:  1.076752E+00
-#   A-value:  9.328091E-01
-#   chi-2:  1.602293E+00
-#   p-value:  3.667974E-01
-#   exp. data sets for p-value:      8
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.088024E+00   9.190973E-01   1.976282E+00
-# endfb8.0      1.072416E+00   9.324743E-01   1.562500E+00
-# jeff3.3       1.072416E+00   9.324743E-01   1.562500E+00
-# jendl5.0      1.016542E+00   9.837275E-01   3.133871E-01
-# cendl3.2      1.096769E+00   9.117694E-01   2.222809E+00
-# irdff2.0      1.088024E+00   9.190974E-01   1.976278E+00

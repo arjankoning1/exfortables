@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Cu63(n,x)Cu62 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Jarjis
 #   year: 1978
 #   subentry: 21673005
 #   X4 reaction: 29-CU-63(N,2N)29-CU-62,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/21673005
-# target:
+# target: 
 #   Z: 29
 #   A: 63
 #   nuclide: Cu63
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 29
-#   A: 62
-#   nuclide: Cu62
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 14
+#   residual: 
+#     Z: 29
+#     A: 62
+#     nuclide: Cu62
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 14
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.292000E+01   1.000000E-01   2.188459E+02   1.220000E+01   9.640788E-01
@@ -47,19 +48,3 @@
 #   author: R.A.Jarjis
 #   title: -Measurements of Cu-63(N,2N)Cu-62 and Al-27(N,P)mg-27  cross sections for 12.9 to 15.9 MeV neutrons -.
 #   journal: Jour: Jour. of Physics, Part G (Nucl.and Part.Phys.), Vol.4, Issue.3, p.
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.292000E+01
-#   E-max [MeV]:  1.491000E+01
-#   F-value:  1.073388E+00
-#   A-value:  1.038946E+00
-#   chi-2:  2.766467E+00
-#   p-value:  3.141455E-01
-#   exp. data sets for p-value:      8
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.055445E+00   1.038240E+00   1.790803E+00
-# endfb8.0      1.054782E+00   9.925797E-01   1.702867E+00
-# jeff3.3       1.062950E+00   1.041598E+00   2.057554E+00
-# jendl5.0      1.108328E+00   1.085446E+00   5.514645E+00

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Na23(p,x)Mg23 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Mann
 #   year: 1976
 #   subentry: T0014002
 #   X4 reaction: 11-NA-23(P,N)12-MG-23,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/T0014002
-# target:
+# target: 
 #   Z: 11
 #   A: 23
 #   nuclide: Na23
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 12
-#   A: 23
-#   nuclide: Mg23
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 61
+#   residual: 
+#     Z: 12
+#     A: 23
+#     nuclide: Mg23
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 61
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    5.052177E+00   0.000000E+00   1.370000E+00   1.230000E-01   1.000000E+00
@@ -94,17 +95,3 @@
 #   author: F.M.MANN,D.W.KNEFF,Z.E.SWITKOWSKI,S.E.WOOSLEY
 #   title: A study of the 23Na+p reactions to determine 23Mg  consumption in stars
 #   journal: Jour: Nuclear Physics, Section A, Vol.256, p.163 (1976)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  5.052177E+00
-#   E-max [MeV]:  1.098100E+01
-#   F-value:  1.617620E+00
-#   A-value:  8.727040E-01
-#   chi-2:  2.528034E+02
-#   p-value:  3.187537E-01
-#   exp. data sets for p-value:      3
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.409210E+00   1.000480E+00   5.976325E+00
-# jendl5.0      1.799196E+00   7.612468E-01   4.996303E+02

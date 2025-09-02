@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Al27(p,x)Na24 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Bodemann
 #   year: 1993
 #   subentry: O0282010
 #   X4 reaction: 13-AL-27(P,X)11-NA-24,CUM,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/O0282010
-# target:
+# target: 
 #   Z: 13
 #   A: 27
 #   nuclide: Al27
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 11
-#   A: 24
-#   nuclide: Na24
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 2
+#   residual: 
+#     Z: 11
+#     A: 24
+#     nuclide: Na24
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    6.300000E+01   8.530000E-01   1.330085E+01   1.380100E+00   1.000064E+00
@@ -35,18 +36,3 @@
 #   author: R.Bodemann, H.-J.Lange, I.Leya, R.Michel, T.Schiekel, R.Rosel, U.Herpers, H.J.Hofmann, B.Dittrich, M.Suter, W.Woelfli, B.Holmqvist, H.Conde, P.Malmborg
 #   title: Production of residual nuclei by proton-induced reactions on C, N, O, Mg, Al and Si.
 #   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.82, p.9 (1993)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  6.300000E+01
-#   E-max [MeV]:  9.400000E+01
-#   F-value:  1.449340E+00
-#   A-value:  7.830045E-01
-#   chi-2:  7.775907E+00
-#   p-value:  3.370479E-01
-#   exp. data sets for p-value:      8
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.080080E+00   1.064112E+00   9.948925E-01
-# endfb8.0      1.824305E+00   5.524119E-01   1.860565E+01
-# jendl5.0      1.238605E+00   8.166624E-01   3.727181E+00

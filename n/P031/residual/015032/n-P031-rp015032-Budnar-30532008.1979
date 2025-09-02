@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: P31(n,x)P32 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Budnar
 #   year: 1979
 #   subentry: 30532008
 #   X4 reaction: 15-P-31(N,G)15-P-32,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30532008
-# target:
+# target: 
 #   Z: 15
 #   A: 31
 #   nuclide: P31
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 15
-#   A: 32
-#   nuclide: P32
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 15
+#     A: 32
+#     nuclide: P32
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.410000E+01   6.750000E-01   4.000000E-01   7.000000E-02   1.000000E+00
@@ -34,18 +35,3 @@
 #   author: M.Budnar,F.Cvelbar,E.Hodgson,A.Hudoklin,V.Ivkovic, A.Likar,M.V.Mihailovic,R.Martincic,M.Najzer,A.Perdan, M.Potokar,V.Ramsak
 #   title: Prompt gamma-ray spectra and integrated cross sections for the radiative capture of 14 MeV neutrons for 28 natural targets in the mass region from 12 to 208
 #   journal: Rept: Yugoslavian report to the I.N.D.C., No.6 (1979)
-# statistics:
-#   NEA score: T2
-#   IAEA score:  1
-#   E-min [MeV]:  1.410000E+01
-#   E-max [MeV]:  1.410000E+01
-#   F-value:  1.075704E+01
-#   A-value:  6.706172E-01
-#   chi-2:  1.534250E+02
-#   p-value:  2.100053E-01
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    3.937964E+00   3.937964E+00   2.818494E+02
-# jeff3.3       3.124314E+00   3.124314E+00   1.473537E+02
-# jendl5.0      4.079457E+01   2.451307E-02   3.107183E+01

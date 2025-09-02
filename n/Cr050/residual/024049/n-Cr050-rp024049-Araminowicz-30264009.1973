@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Cr50(n,x)Cr49 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Araminowicz
 #   year: 1973
 #   subentry: 30264009
 #   X4 reaction: 24-CR-50(N,2N)24-CR-49,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30264009
-# target:
+# target: 
 #   Z: 24
 #   A: 50
 #   nuclide: Cr50
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 24
-#   A: 49
-#   nuclide: Cr49
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 24
+#     A: 49
+#     nuclide: Cr49
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.460000E+01   0.000000E+00   3.066204E+01   2.500000E+00   9.764981E-01
@@ -34,19 +35,3 @@
 #   author: J.Araminowicz, J.Dresler
 #   title: Investigation of the (n,2n) reactions at 14.6 MeV
 #   journal: Prog: Inst.Badan Jadr.(Nucl.Res.),Swierk+Warsaw,Repts, No.1464, p.14 (19
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.460000E+01
-#   E-max [MeV]:  1.460000E+01
-#   F-value:  1.381182E+00
-#   A-value:  7.633520E-01
-#   chi-2:  1.020321E+01
-#   p-value:  2.840561E-02
-#   exp. data sets for p-value:      8
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.197844E+00   8.348331E-01   4.412820E+00
-# endfb8.0      1.207015E+00   8.284901E-01   4.703748E+00
-# jeff3.3       1.146322E+00   8.723550E-01   2.937382E+00
-# jendl5.0      1.776973E+00   5.627548E-01   2.875890E+01

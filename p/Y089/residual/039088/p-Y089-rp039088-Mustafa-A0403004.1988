@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Y89(p,x)Y88 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Mustafa
 #   year: 1988
 #   subentry: A0403004
 #   X4 reaction: 39-Y-89(P,X)39-Y-88,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/A0403004
-# target:
+# target: 
 #   Z: 39
 #   A: 89
 #   nuclide: Y89
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 39
-#   A: 88
-#   nuclide: Y88
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 40
+#   residual: 
+#     Z: 39
+#     A: 88
+#     nuclide: Y88
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 40
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.197000E+01   3.400000E-01   2.500000E-03   2.601000E-03   1.000000E+00
@@ -73,17 +74,3 @@
 #   author: M.G.Mustafa,H.I.West Jr,H.O'BRien,R.G.Lanier, M.Benhamou,T.Tamura
 #   title: Measurements and a direct-reaction-plus-Hauser- Feshbach analysis of 89Y(p,n)89Zr, 89Y(p,2n)88Zr and 89Y(p,n+p)88Y reactions up to 40 MeV.
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.38, p.1624 (1988)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  1.197000E+01
-#   E-max [MeV]:  3.956000E+01
-#   F-value:  1.392642E+00
-#   A-value:  1.246788E+00
-#   chi-2:  8.582807E+01
-#   p-value:  3.154760E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.381089E+00   1.162641E+00   6.776797E+01
-# jendl5.0      1.407020E+00   1.349275E+00   1.055763E+02

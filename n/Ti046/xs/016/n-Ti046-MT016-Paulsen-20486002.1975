@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ti46(n,2n)Ti45 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Paulsen
 #   year: 1975
 #   subentry: 20486002
 #   X4 reaction: 22-TI-46(N,2N)22-TI-45,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20486002
-# target:
+# target: 
 #   Z: 22
 #   A: 46
 #   nuclide: Ti46
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 22
-#   A: 45
-#   nuclide: Ti45
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 18
+#   residual: 
+#     Z: 22
+#     A: 45
+#     nuclide: Ti45
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 18
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.379000E+01   2.400000E-01   1.860000E+01   3.500000E+00   1.000000E+00
@@ -51,21 +52,3 @@
 #   author: A.PAULSEN, H.LISKIEN, R.WIDERA
 #   title: CROSS-SECTIONS OF (N,2N) REACTIONS FOR TI-46,ZN-66,  IN-115 AND AU-197.
 #   journal: Jour: Atomkernenergie, Vol.26, p.34 (1975)
-# statistics:
-#   NEA score: T2
-#   IAEA score:  1
-#   E-min [MeV]:  1.379000E+01
-#   E-max [MeV]:  1.959000E+01
-#   F-value:  1.323060E+00
-#   A-value:  9.069449E-01
-#   chi-2:  2.727246E+00
-#   p-value:  2.051065E-01
-#   exp. data sets for p-value:      5
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.327170E+00   9.008752E-01   1.703014E+00
-# endfb8.0      1.293771E+00   8.927341E-01   3.866538E+00
-# jeff3.3       1.333860E+00   8.790498E-01   2.684076E+00
-# jendl5.0      1.248159E+00   9.570934E-01   4.987963E+00
-# cendl3.2      1.261076E+00   9.306764E-01   1.226507E+00
-# irdff2.0      1.449562E+00   8.837557E-01   1.895378E+00

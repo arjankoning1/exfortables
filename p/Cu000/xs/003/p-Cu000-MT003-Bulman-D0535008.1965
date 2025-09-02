@@ -1,28 +1,29 @@
-# header:
+# header: 
 #   title: Cu0(p,non) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Bulman
 #   year: 1965
 #   subentry: D0535008
 #   X4 reaction: 29-CU-0(P,NON),,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/D0535008
-# target:
+# target: 
 #   Z: 29
 #   A: 0
 #   nuclide: Cu0
-# reaction:
+# reaction: 
 #   type: (p,non)
 #   ENDF_MF: 3
 #   ENDF_MT: 3
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    8.800000E+00   0.000000E+00   7.350001E+02   3.000000E+01   1.000000E+00
@@ -30,16 +31,3 @@
 #   author: P.J.Bulman,G.W.Greenlees,M.J.Sametband
 #   title: Proton reaction cross sections at 8.8 MeV
 #   journal: Jour: Nuclear Physics, Vol.69, p.536 (1965)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  8.800000E+00
-#   E-max [MeV]:  8.800000E+00
-#   F-value:  1.005002E+00
-#   A-value:  9.950225E-01
-#   chi-2:  1.568451E-01
-#   p-value:  9.915537E-02
-#   exp. data sets for p-value:      4
-#   libraries:      1
-##  Library          F              A            chi-2
-# tendl.2023    1.005002E+00   9.950225E-01   1.568451E-01

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Mo92(n,a)Zr89 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Rahman
 #   year: 1985
 #   subentry: 21990008
 #   X4 reaction: 42-MO-92(N,A)40-ZR-89,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/21990008
-# target:
+# target: 
 #   Z: 42
 #   A: 92
 #   nuclide: Mo92
-# reaction:
+# reaction: 
 #   type: (n,a)
 #   ENDF_MF: 3
 #   ENDF_MT: 107
-# residual:
-#   Z: 40
-#   A: 89
-#   nuclide: Zr89
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 8
+#   residual: 
+#     Z: 40
+#     A: 89
+#     nuclide: Zr89
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    5.911000E+00   1.780000E-01   9.397200E-01   1.099700E-01   9.996971E-01
@@ -41,20 +42,3 @@
 #   author: M.M.Rahman, S.M.Qaim
 #   title: Excitation functions of some neutron threshold  reactions on isotopes of molybdenum
 #   journal: Jour: Nuclear Physics, Section A, Vol.435, p.43 (1985)
-# statistics:
-#   NEA score: T2
-#   IAEA score:  1
-#   E-min [MeV]:  5.911000E+00
-#   E-max [MeV]:  9.577000E+00
-#   F-value:  2.176739E+00
-#   A-value:  5.555937E-01
-#   chi-2:  1.348679E+01
-#   p-value:  1.810617E-01
-#   exp. data sets for p-value:      1
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    2.940689E+00   3.408770E-01   2.514632E+01
-# endfb8.0      1.481456E+00   8.816323E-01   7.101230E+00
-# jeff3.3       1.494853E+00   7.332330E-01   5.031061E+00
-# jendl5.0      1.494853E+00   7.332330E-01   5.031061E+00
-# cendl3.2      3.242635E+00   3.276553E-01   2.512427E+01

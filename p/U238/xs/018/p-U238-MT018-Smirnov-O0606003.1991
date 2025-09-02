@@ -1,28 +1,29 @@
-# header:
+# header: 
 #   title: U238(p,f) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Smirnov
 #   year: 1991
 #   subentry: O0606003
 #   X4 reaction: 92-U-238(P,F),,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/O0606003
-# target:
+# target: 
 #   Z: 92
 #   A: 238
 #   nuclide: U238
-# reaction:
+# reaction: 
 #   type: (p,f)
 #   ENDF_MF: 3
 #   ENDF_MT: 18
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 14
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 14
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.100000E+01   1.000000E+00   1.800000E+01   2.000000E+00   1.000000E+00
@@ -43,17 +44,3 @@
 #   author: A.N.Smirnov,I.Yu.Gorshkov,A.V.Prokofiev, V.P.Eismont
 #   title: Total and differential cross sections of 10 to 95 MeV proton-induced fission of actinide nuclei
 #   journal: Conf: 21.Int.Symp.on Nucl.Phys., Gaussig 1991, p.214 (1991)
-# statistics:
-#   NEA score: R3
-#   IAEA score: -1
-#   E-min [MeV]:  1.100000E+01
-#   E-max [MeV]:  9.500000E+01
-#   F-value:  1.651201E+00
-#   A-value:  1.154411E+00
-#   chi-2:  1.791504E+02
-#   p-value:  3.632715E-01
-#   exp. data sets for p-value:      4
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.737189E+00   1.213662E+00   2.592635E+02
-# jendl5.0      1.560465E+00   1.098053E+00   9.903729E+01

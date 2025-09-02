@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Pb0(n,x)Hg203 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: ZhangFengg
 #   year: 2003
 #   subentry: 31626002
 #   X4 reaction: 82-PB-0(N,X)80-HG-203,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/31626002
-# target:
+# target: 
 #   Z: 82
 #   A: 0
 #   nuclide: Pb0
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 80
-#   A: 203
-#   nuclide: Hg203
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 3
+#   residual: 
+#     Z: 80
+#     A: 203
+#     nuclide: Hg203
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.350000E+01   2.000000E-01   2.368500E-01   1.570900E-02   1.007878E+00
@@ -36,19 +37,3 @@
 #   author: Zhang Feng, Kong Xiang-Zhong
 #   title: Measurement of cross sections for Pb(n,x)203Hg,  W(n,x)182Ta and W(n,x)183Ta reactions induced by  14 MeV neutrons
 #   journal: Jour: High Energy Physics and Nucl.Physics,Chinese ed., Vol.27, p.28 (20
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  1.350000E+01
-#   E-max [MeV]:  1.470000E+01
-#   F-value:  7.385508E+01
-#   A-value:  1.375793E-02
-#   chi-2:  2.185631E+02
-#   p-value:  1.192093E-07
-#   exp. data sets for p-value:      1
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    0.000000E+00   0.000000E+00   0.000000E+00
-# endfb8.0      6.977068E+01   1.469214E-02   2.179261E+02
-# jeff3.3       0.000000E+00   0.000000E+00   0.000000E+00
-# jendl5.0      7.812057E+01   1.288313E-02   2.192002E+02

@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Se78(n,n'_01)Se79 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Korzh
 #   year: 1983
 #   subentry: 40859007
 #   X4 reaction: 34-SE-78(N,INL)34-SE-78,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/40859007
-#   level energy [MeV]  6.14000E-01
-# target:
+#   level energy [MeV]:  6.14000E-01
+# target: 
 #   Z: 34
 #   A: 78
 #   nuclide: Se78
-# reaction:
+# reaction: 
 #   type: (n,n'_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 51
@@ -25,14 +25,15 @@
 #     energy [MeV]:  6.137270E-01
 #     spin:  2.000000E+00
 #     parity: 1
-# residual:
-#   Z: 34
-#   A: 79
-#   nuclide: Se79
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 10
+#   residual: 
+#     Z: 34
+#     A: 79
+#     nuclide: Se79
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.100000E+00   0.000000E+00   1.002000E+03   1.200000E+02   1.000000E+00
@@ -49,19 +50,3 @@
 #   author: I.A.KORZH,V.P.LUNEV,V.A.MISHCHENKO,N.M.PRAVDIVYJ
 #   title: ELASTIC AND INELASTIC NEUTRON CROSS-SECTION ANALYSIS  FOR EVEN SELENIUM ISOTOPES IN THE NEUTRON ENERGY  RANGE 0.5 - 8.0 MEV
 #   journal: Conf: 6.All-Union Conf.on Neutron Physics,Kiev,2-6 Oct.1983, Vol.3, p.17
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  1.100000E+00
-#   E-max [MeV]:  5.000000E+00
-#   F-value:  1.648365E+00
-#   A-value:  6.866974E-01
-#   chi-2:  3.129608E+01
-#   p-value:  1.593998E-01
-#   exp. data sets for p-value:      1
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.358447E+00   7.554130E-01   1.860508E+01
-# endfb8.0      2.372676E+00   4.854307E-01   6.999843E+01
-# jeff3.3       1.363809E+00   7.614743E-01   2.027102E+01
-# jendl5.0      1.283994E+00   7.963332E-01   1.630978E+01

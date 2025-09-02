@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Pb206(n,n'_16)Pb207 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Negret
 #   year: 2015
 #   subentry: 23292050
 #   X4 reaction: 82-PB-206(N,INL)82-PB-206,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/23292050
-#   level energy [MeV]  2.42340E+00
-# target:
+#   level energy [MeV]:  2.42340E+00
+# target: 
 #   Z: 82
 #   A: 206
 #   nuclide: Pb206
-# reaction:
+# reaction: 
 #   type: (n,n'_16)
 #   ENDF_MF: 3
 #   ENDF_MT: 66
@@ -25,14 +25,15 @@
 #     energy [MeV]:  2.384150E+00
 #     spin:  6.000000E+00
 #     parity: -1
-# residual:
-#   Z: 82
-#   A: 207
-#   nuclide: Pb207
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 10
+#   residual: 
+#     Z: 82
+#     A: 207
+#     nuclide: Pb207
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.358335E+00   9.846850E-01   0.000000E+00   0.000000E+00   1.000000E+00
@@ -49,19 +50,3 @@
 #   author: A.Negret, L.C.Mihailescu, C.Borcea, Ph.Dessagne, K.H.Guber, M.Kerveno, A.J.Koning, A.Olacel, A.J.M.Plompen, C.Rouki, G.Rudolf, R.Wynants
 #   title: Cross section measurements for neutron inelastic scattering and the (n, 2n gamma) reaction on 206Pb .
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.91, p.064618 (2015)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  1.358335E+00
-#   E-max [MeV]:  3.427655E+00
-#   F-value:  1.365463E+00
-#   A-value:  1.316001E+00
-#   chi-2:  2.369959E+01
-#   p-value:  1.326425E-01
-#   exp. data sets for p-value:      1
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.300126E+00   1.246615E+00   1.446158E+01
-# endfb8.0      1.409786E+00   1.383879E+00   3.458982E+01
-# jeff3.3       1.365845E+00   1.296075E+00   2.199109E+01
-# jendl5.0      1.380722E+00   1.341419E+00   2.375586E+01

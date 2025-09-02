@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: Hg200(n,x)Au200m cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Kasugai
 #   year: 2001
 #   subentry: 23018010
 #   X4 reaction: 80-HG-200(N,P)79-AU-200-M,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/23018010
-# target:
+# target: 
 #   Z: 80
 #   A: 200
 #   nuclide: Hg200
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 79
-#   A: 200
-#   nuclide: Au200m
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 79
+#     A: 200
+#     nuclide: Au200m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.460000E+01   2.000000E-01   1.602400E+00   3.561000E-01   8.902439E-01
@@ -39,17 +40,3 @@
 #   author: Y.Kasugai, F.Maekawa, Y.Ikeda, H.Takeuchi
 #   title: Measurement of activation cross sections for mercury isotopes in the neutron energy range between 13.4 and 14.9 MeV
 #   journal: Jour: Jour. of Nuclear Science and Technology, Vol.38, Issue.12, p.1048
-# statistics:
-#   NEA score: T2
-#   IAEA score:  1
-#   E-min [MeV]:  1.460000E+01
-#   E-max [MeV]:  1.460000E+01
-#   F-value:  5.219170E+00
-#   A-value:  1.916504E-01
-#   chi-2:  1.323638E+01
-#   p-value:  1.148970E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    5.068288E+00   1.973053E-01   1.305454E+01
-# jeff3.3       5.371793E+00   1.861576E-01   1.341822E+01

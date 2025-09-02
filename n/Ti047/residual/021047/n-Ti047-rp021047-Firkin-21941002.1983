@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ti47(n,x)Sc47 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Firkin
 #   year: 1983
 #   subentry: 21941002
 #   X4 reaction: 22-TI-47(N,P)21-SC-47,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/21941002
-# target:
+# target: 
 #   Z: 22
 #   A: 47
 #   nuclide: Ti47
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 21
-#   A: 47
-#   nuclide: Sc47
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 4
+#   residual: 
+#     Z: 21
+#     A: 47
+#     nuclide: Sc47
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    5.470000E+00   0.000000E+00   8.310001E+01   3.900000E+00   1.000000E+00
@@ -37,18 +38,3 @@
 #   author: S.Firkin
 #   title: Differential neutron cross section of  Ti-47,48(n,p)Sc-47,48 and Al-27(n,alpha)Na-24
 #   journal: Rept: A.E.R.E. Harwell Reports, No.3350 (1983)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  5.470000E+00
-#   E-max [MeV]:  1.180000E+01
-#   F-value:  1.185813E+00
-#   A-value:  8.502064E-01
-#   chi-2:  2.101828E+01
-#   p-value:  2.050413E-01
-#   exp. data sets for p-value:      4
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.187820E+00   8.462043E-01   2.087185E+01
-# jeff3.3       1.187831E+00   8.462349E-01   2.089210E+01
-# jendl5.0      1.181738E+00   8.582364E-01   2.129087E+01

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: U235(d,2n)Np235 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Bellido
 #   year: 1993
 #   subentry: O1064002
 #   X4 reaction: 92-U-235(D,2N)93-NP-235,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/O1064002
-# target:
+# target: 
 #   Z: 92
 #   A: 235
 #   nuclide: U235
-# reaction:
+# reaction: 
 #   type: (d,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 93
-#   A: 235
-#   nuclide: Np235
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 9
+#   residual: 
+#     Z: 93
+#     A: 235
+#     nuclide: Np235
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 9
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.540000E+01   7.000000E-01   2.010000E+01   5.000000E-01   1.000000E+00
@@ -42,16 +43,3 @@
 #   author: L.F.Bellido, V.J.Robinson, H.E.Sims
 #   title: Excitation functions for the U-235,238(d,xn)Np-237,240 reactions.
 #   journal: Jour: Radiochimica Acta, Vol.62, p.123 (1993)
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  1.540000E+01
-#   E-max [MeV]:  3.170000E+01
-#   F-value:  4.505824E+00
-#   A-value:  2.268199E-01
-#   chi-2:  7.656363E+02
-#   p-value:  1.935104E-01
-#   exp. data sets for p-value:      2
-#   libraries:      1
-##  Library          F              A            chi-2
-# tendl.2023    4.505824E+00   2.268199E-01   7.656363E+02

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Br79(n,2n)Br78 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Sakane
 #   year: 2001
 #   subentry: 22662006
 #   X4 reaction: 35-BR-79(N,2N)35-BR-78,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22662006
-# target:
+# target: 
 #   Z: 35
 #   A: 79
 #   nuclide: Br79
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 35
-#   A: 78
-#   nuclide: Br78
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 6
+#   residual: 
+#     Z: 35
+#     A: 78
+#     nuclide: Br78
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.340000E+01   5.000000E-02   7.100000E+02   3.692000E+01   1.000000E+00
@@ -39,19 +40,3 @@
 #   author: H.Sakane,Y.Kasugai,M.Shibata,T.Iida,A.Takahashi,  T.Fukahori,K.Kawade
 #   title: Measurement of activation cross-sections for (n,2n)  reactions producing short-lived nuclei in the energy  range between 13.4 and 14.9 MeV
 #   journal: Jour: Annals of Nuclear Energy, Vol.28, p.1175 (2001)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.340000E+01
-#   E-max [MeV]:  1.487000E+01
-#   F-value:  1.036772E+00
-#   A-value:  9.823944E-01
-#   chi-2:  8.029529E-01
-#   p-value:  4.198765E-01
-#   exp. data sets for p-value:      6
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.030866E+00   9.757359E-01   6.784293E-01
-# endfb8.0      1.029681E+00   1.016429E+00   6.321489E-01
-# jeff3.3       1.058310E+00   9.463041E-01   1.675240E+00
-# jendl5.0      1.015109E+00   9.924381E-01   2.259933E-01

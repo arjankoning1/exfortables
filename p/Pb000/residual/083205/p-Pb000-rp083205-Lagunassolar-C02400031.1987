@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Pb0(p,x)Bi205 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Lagunassolar
 #   year: 1987
 #   subentry: C02400031
 #   X4 reaction: 82-PB-0(P,X)83-BI-205,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/C02400031
-# target:
+# target: 
 #   Z: 82
 #   A: 0
 #   nuclide: Pb0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 83
-#   A: 205
-#   nuclide: Bi205
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 59
+#   residual: 
+#     Z: 83
+#     A: 205
+#     nuclide: Bi205
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 59
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    7.700000E+00   0.000000E+00   1.000000E+00   1.350000E-01   1.000000E+00
@@ -92,18 +93,3 @@
 #   author: M.C.LAGUNAS-SOLAR,O.F.CARVACHO,L.NAGAHARA, A.MISHRA,N.J.PARKS
 #   title: Cyclotron Production of No-Carrier-Added 206Bi  (6.24 d) and 205Bi (15.31 d) as Tracers for  Biological Studies and for the Development of Alpha-  Emitting Radiotherapeutic Agents
 #   journal: Jour: Applied Radiation and Isotopes, Vol.38, p.129 (1987)
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  7.700000E+00
-#   E-max [MeV]:  6.710000E+01
-#   F-value:  3.825857E+00
-#   A-value:  7.306587E-01
-#   chi-2:  1.349074E+01
-#   p-value:  1.439572E-01
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    3.678965E+00   6.623682E-01   1.334046E+01
-# endfb8.0      1.688791E+00   1.002920E+00   1.420759E+01
-# jendl5.0      4.017782E+00   7.324546E-01   1.155788E+01

@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: Y89(n,x)Y89m cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Agrawal
 #   year: 2008
 #   subentry: 23031003
 #   X4 reaction: 39-Y-89(N,INL)39-Y-89-M,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/23031003
-# target:
+# target: 
 #   Z: 39
 #   A: 89
 #   nuclide: Y89
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 39
-#   A: 89
-#   nuclide: Y89m
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 39
+#     A: 89
+#     nuclide: Y89m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.460000E+01   3.000000E-01   4.507271E+02   2.198669E+01   9.993950E-01
@@ -39,17 +40,3 @@
 #   author: H.M.Agrawal, Kailash Pandey, K.Surendra Babu, Ashok Kumar, R.Pepelnik
 #   title: Neutron activation cross-sections at (14.6+-0.3) MeV
 #   journal: Jour: Annals of Nuclear Energy, Vol.35, p.1713 (2008)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.460000E+01
-#   E-max [MeV]:  1.460000E+01
-#   F-value:  1.002157E+00
-#   A-value:  9.984804E-01
-#   chi-2:  3.966136E-02
-#   p-value:  4.366977E-01
-#   exp. data sets for p-value:      6
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.000005E+00   1.000005E+00   1.331682E-04
-# jendl5.0      1.003051E+00   9.969581E-01   7.918955E-02

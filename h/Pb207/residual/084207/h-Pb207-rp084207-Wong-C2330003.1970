@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Pb207(h,x)Po207 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Wong
 #   year: 1970
 #   subentry: C2330003
 #   X4 reaction: 82-PB-207(HE3,3N)84-PO-207,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/C2330003
-# target:
+# target: 
 #   Z: 82
 #   A: 207
 #   nuclide: Pb207
-# reaction:
+# reaction: 
 #   type: (h,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 17
-# residual:
-#   Z: 84
-#   A: 207
-#   nuclide: Po207
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 12
+#   residual: 
+#     Z: 84
+#     A: 207
+#     nuclide: Po207
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 12
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.110000E+01   0.000000E+00   3.918919E+01   3.918900E+00   9.797297E-01
@@ -45,16 +46,3 @@
 #   author: P.Wong,P.J.Daly,N.T.Porile
 #   title: Test of the independence hypothesis in the decay of the 210Po compound nucleus
 #   journal: Jour: Nuclear Physics, Section A, Vol.151, p.549 (1970)
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  2.110000E+01
-#   E-max [MeV]:  3.320000E+01
-#   F-value:  1.290508E+01
-#   A-value:  7.983109E-02
-#   chi-2:  8.359331E+01
-#   p-value:  8.940697E-08
-#   exp. data sets for p-value:      2
-#   libraries:      1
-##  Library          F              A            chi-2
-# tendl.2023    1.290508E+01   7.983109E-02   8.359331E+01

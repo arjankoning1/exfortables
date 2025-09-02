@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Cr53(p,x)Mn53 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Johnson
 #   year: 1964
 #   subentry: T0126006
 #   X4 reaction: 24-CR-53(P,N)25-MN-53,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/T0126006
-# target:
+# target: 
 #   Z: 24
 #   A: 53
 #   nuclide: Cr53
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 25
-#   A: 53
-#   nuclide: Mn53
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 22
+#   residual: 
+#     Z: 25
+#     A: 53
+#     nuclide: Mn53
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 22
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.520000E+00   0.000000E+00   2.050000E-01   5.232800E-04   1.000000E+00
@@ -55,18 +56,3 @@
 #   author: C.H.Johnson,C.C.Trail,A.Galonsky
 #   title: Thresholds for (p,n) reactions on 26 intermediate- weight nuclei
 #   journal: Jour: Physical Review, Vol.136, p.B1719 (1964)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.520000E+00
-#   E-max [MeV]:  5.880000E+00
-#   F-value:  1.658251E+00
-#   A-value:  1.516877E+00
-#   chi-2:  1.054737E+05
-#   p-value:  1.448676E-01
-#   exp. data sets for p-value:      3
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.647455E+00   1.550114E+00   1.057141E+05
-# endfb8.0      1.958353E+00   1.856329E+00   1.835542E+05
-# jendl5.0      1.275714E+00   1.222599E+00   1.260983E+04

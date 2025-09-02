@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: V51(n,p)Ti51 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Vaenskae
 #   year: 1980
 #   subentry: 21893002
 #   X4 reaction: 23-V-51(N,P)22-TI-51,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/21893002
-# target:
+# target: 
 #   Z: 23
 #   A: 51
 #   nuclide: V51
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 22
-#   A: 51
-#   nuclide: Ti51
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 2
+#   residual: 
+#     Z: 22
+#     A: 51
+#     nuclide: Ti51
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.470000E+01   3.000000E-01   3.800000E+01   5.000000E+00   1.000000E+00
@@ -35,19 +36,3 @@
 #   author: R.VAENSKAE,R.RIEPPO
 #   title: -ON THE SIMULTANEOUS USE OF A GE(LI) SEMICONDUCTOR  AND A NAI(TL) SCINTILLATION DETECTOR IN NEUTRON  ACTIVATION CROSS SECTION MEASUREMENTS
 #   journal: Jour: Nuclear Instrum.and Methods in Physics Res., Vol.171, p.281 (1980)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.470000E+01
-#   E-max [MeV]:  1.470000E+01
-#   F-value:  1.368867E+00
-#   A-value:  7.388942E-01
-#   chi-2:  5.172582E+00
-#   p-value:  8.843130E-02
-#   exp. data sets for p-value:      8
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.370638E+00   7.357754E-01   5.231667E+00
-# endfb8.0      1.318205E+00   7.665732E-01   4.311297E+00
-# jeff3.3       1.322461E+00   7.639632E-01   4.384861E+00
-# jendl5.0      1.454750E+00   6.917635E-01   6.762500E+00

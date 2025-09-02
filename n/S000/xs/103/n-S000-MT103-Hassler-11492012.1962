@@ -1,28 +1,29 @@
-# header:
+# header: 
 #   title: S0(n,p) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Hassler
 #   year: 1962
 #   subentry: 11492012
 #   X4 reaction: 16-S-0(N,P),,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/11492012
-# target:
+# target: 
 #   Z: 16
 #   A: 0
 #   nuclide: S0
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.440000E+01   2.000000E-01   2.060000E+02   2.100000E+01   1.000000E+00
@@ -30,20 +31,3 @@
 #   author: F.L.HASSLER,R.A.PECK JR
 #   title: NEUTRON-INDUCED REACTIONS IN THIRD AND FOURTH SHELL NUCLEI.
 #   journal: Jour: Physical Review, Vol.125, p.1011 (1962)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  1.440000E+01
-#   E-max [MeV]:  1.440000E+01
-#   F-value:  1.065216E+00
-#   A-value:  1.063815E+00
-#   chi-2:  9.131055E-01
-#   p-value:  1.896007E-01
-#   exp. data sets for p-value:      1
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.053655E+00   1.053655E+00   7.420639E-01
-# endfb8.0      1.080399E+00   1.080399E+00   1.186654E+00
-# jeff3.3       1.056208E+00   1.056208E+00   7.820519E-01
-# jendl5.0      1.080399E+00   1.080399E+00   1.186654E+00
-# cendl3.2      1.048852E+00   1.048852E+00   6.681028E-01

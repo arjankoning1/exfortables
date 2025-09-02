@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Zr94(n,x)Y94 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Tikku
 #   year: 1972
 #   subentry: 30394010
 #   X4 reaction: 40-ZR-94(N,P)39-Y-94,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30394010
-# target:
+# target: 
 #   Z: 40
 #   A: 94
 #   nuclide: Zr94
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 39
-#   A: 94
-#   nuclide: Y94
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 39
+#     A: 94
+#     nuclide: Y94
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.470000E+01   3.000000E-01   8.900000E+00   1.900000E+00   1.000000E+00
@@ -34,18 +35,3 @@
 #   author: V.K.Tikku,H.Singh,B.Sethi
 #   title: -Nuclear activation cross sections of (n,p) reaction at 14.7 MeV.-
 #   journal: Conf: 15.Nucl.and Solid State Physics Symp. Chandigarh 1972, Vol.2, p.11
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.470000E+01
-#   E-max [MeV]:  1.470000E+01
-#   F-value:  1.122670E+00
-#   A-value:  9.662004E-01
-#   chi-2:  7.412402E-01
-#   p-value:  4.223491E-01
-#   exp. data sets for p-value:      8
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.125882E+00   1.125882E+00   8.441445E-01
-# jeff3.3       1.148555E+00   8.706591E-01   8.707778E-01
-# jendl5.0      1.086774E+00   9.201546E-01   5.087982E-01

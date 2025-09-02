@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ni0(p,x)Co57 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Jung
 #   year: 1991
 #   subentry: D40580442
 #   X4 reaction: 28-NI-0(P,X)27-CO-57,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/D40580442
-# target:
+# target: 
 #   Z: 28
 #   A: 0
 #   nuclide: Ni0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 27
-#   A: 57
-#   nuclide: Co57
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 27
+#     A: 57
+#     nuclide: Co57
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.570000E+01   3.000000E-01   1.400000E+02   0.000000E+00   1.000000E+00
@@ -34,18 +35,3 @@
 #   author: P.Jung
 #   title: Cross sections for the production of helium and long- living radioactive isotopes by protons and deuterons
 #   journal: Conf: Conf.on Nucl.Data for Sci.and Technol.,Juelich 1991, p.352 (1991)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  1.570000E+01
-#   E-max [MeV]:  1.570000E+01
-#   F-value:  1.296843E+00
-#   A-value:  1.290413E+00
-#   chi-2:  0.000000E+00
-#   p-value:  1.476221E-01
-#   exp. data sets for p-value:      8
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.368654E+00   1.368654E+00   0.000000E+00
-# endfb8.0      1.209632E+00   1.209632E+00   0.000000E+00
-# jendl5.0      1.297893E+00   1.297893E+00   0.000000E+00

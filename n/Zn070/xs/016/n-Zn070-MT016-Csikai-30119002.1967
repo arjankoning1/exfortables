@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Zn70(n,2n)Zn69 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Csikai
 #   year: 1967
 #   subentry: 30119002
 #   X4 reaction: 30-ZN-70(N,2N)30-ZN-69,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30119002
-# target:
+# target: 
 #   Z: 30
 #   A: 70
 #   nuclide: Zn70
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 30
-#   A: 69
-#   nuclide: Zn69
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 30
+#     A: 69
+#     nuclide: Zn69
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.470000E+01   3.000000E-01   1.256607E+03   1.300000E+02   9.614434E-01
@@ -34,20 +35,3 @@
 #   author: J.Csikai, G.Peto
 #   title: Influence of direct inelastic scattering on (n,2n) cross-sections
 #   journal: Jour: Acta Physica Hungarica, Vol.23, p.87 (1967)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.470000E+01
-#   E-max [MeV]:  1.470000E+01
-#   F-value:  1.107359E+00
-#   A-value:  9.239237E-01
-#   chi-2:  1.217069E+00
-#   p-value:  2.914142E-01
-#   exp. data sets for p-value:      1
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.209277E+00   8.269407E-01   3.246468E+00
-# endfb8.0      1.044813E+00   9.571091E-01   5.693180E-01
-# jeff3.3       1.116964E+00   8.952841E-01   1.615736E+00
-# jendl5.0      1.040940E+00   9.606704E-01   5.179063E-01
-# cendl3.2      1.011092E+00   9.890299E-01   1.359177E-01

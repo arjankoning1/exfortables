@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Al27(p,npa)Na22 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Furukawa
 #   year: 1965
 #   subentry: P0016002
 #   X4 reaction: 13-AL-27(P,N+P+A)11-NA-22,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/P0016002
-# target:
+# target: 
 #   Z: 13
 #   A: 27
 #   nuclide: Al27
-# reaction:
+# reaction: 
 #   type: (p,npa)
 #   ENDF_MF: 3
 #   ENDF_MT: 45
-# residual:
-#   Z: 11
-#   A: 22
-#   nuclide: Na22
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 30
+#   residual: 
+#     Z: 11
+#     A: 22
+#     nuclide: Na22
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 30
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.820000E+01   0.000000E+00   6.000000E-02   0.000000E+00   1.000000E+00
@@ -63,16 +64,3 @@
 #   author: M.FURUKAWA,S.KUME,M.OGAWA
 #   title: Excitation functions for the formation of 7Be and 22Na  in proton induced reactions on 27Al
 #   journal: Jour: Nuclear Physics, Vol.69, p.362 (1965)
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  2.820000E+01
-#   E-max [MeV]:  5.510000E+01
-#   F-value:  4.890929E+00
-#   A-value:  2.046313E-01
-#   chi-2:  0.000000E+00
-#   p-value:  1.593526E-02
-#   exp. data sets for p-value:      1
-#   libraries:      1
-##  Library          F              A            chi-2
-# tendl.2023    4.890929E+00   2.046313E-01   0.000000E+00

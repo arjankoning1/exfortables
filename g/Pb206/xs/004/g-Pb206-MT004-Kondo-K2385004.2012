@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Pb206(g,n')Pb205 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Kondo
 #   year: 2012
 #   subentry: K2385004
 #   X4 reaction: 82-PB-206(G,N)82-PB-205,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/K2385004
-# target:
+# target: 
 #   Z: 82
 #   A: 206
 #   nuclide: Pb206
-# reaction:
+# reaction: 
 #   type: (g,n')
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 82
-#   A: 205
-#   nuclide: Pb205
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 11
+#   residual: 
+#     Z: 82
+#     A: 205
+#     nuclide: Pb205
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 11
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    8.140001E+00   0.000000E+00   2.488000E+01   2.260800E+00   1.000000E+00
@@ -44,18 +45,3 @@
 #   author: T.Kondo, H.Utsunomiya, S.Goriely, I.Daoutidis,  C.Iwamoto, H.Akimune, A.Okamoto, T.Yamagata, M.Kamata,  O.Itoh, H.Toyokawa, Y.-W.Lui, H.Harada, F.Kitatani,  S.Hilaire, A.J.Koning
 #   title: Total and partial photoneutron cross sections for Pb isotopes
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.86, p.014316 (2012)
-# statistics:
-#   NEA score: T2
-#   IAEA score:  1
-#   E-min [MeV]:  8.140001E+00
-#   E-max [MeV]:  1.224000E+01
-#   F-value:  2.237937E+00
-#   A-value:  7.134609E-01
-#   chi-2:  2.758038E+01
-#   p-value:  3.403788E-01
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    2.306071E+00   5.803910E-01   3.528054E+01
-# endfb8.0      1.215068E+00   1.131703E+00   1.816796E+01
-# jendl5.0      1.060189E+00   9.867383E-01   1.123922E+00

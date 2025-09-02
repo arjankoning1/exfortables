@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ce142(n,a)Ba139 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Bari
 #   year: 1982
 #   subentry: 12872012
 #   X4 reaction: 58-CE-142(N,A)56-BA-139,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/12872012
-# target:
+# target: 
 #   Z: 58
 #   A: 142
 #   nuclide: Ce142
-# reaction:
+# reaction: 
 #   type: (n,a)
 #   ENDF_MF: 3
 #   ENDF_MT: 107
-# residual:
-#   Z: 56
-#   A: 139
-#   nuclide: Ba139
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 56
+#     A: 139
+#     nuclide: Ba139
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.480000E+01   2.000000E-01   6.141600E+00   6.838000E-01   9.448687E-01
@@ -34,20 +35,3 @@
 #   author: A.BARI
 #   title: 14.8 MEV NEUTRON ACTIVATION CROSS SECTIONS FOR (N,P)  AND (N,ALPHA) REACTIONS FOR SOME RARE-EARTH NUCLIDES.
 #   journal: Jour: Journal of Radioanalytical Chemistry, Vol.75, p.189 (1982)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.480000E+01
-#   E-max [MeV]:  1.480000E+01
-#   F-value:  1.467758E+00
-#   A-value:  7.492120E-01
-#   chi-2:  7.123004E+00
-#   p-value:  2.606366E-01
-#   exp. data sets for p-value:      5
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.522089E+00   6.569916E-01   9.529551E+00
-# endfb8.0      1.951122E+00   5.125257E-01   1.916986E+01
-# jeff3.3       1.009673E+00   9.904202E-01   1.098147E-01
-# jendl5.0      1.009673E+00   9.904202E-01   1.098147E-01
-# cendl3.2      1.399235E+00   7.146763E-01   6.695986E+00

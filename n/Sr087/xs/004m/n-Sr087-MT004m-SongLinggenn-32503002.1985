@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: Sr87(n,n')Sr87m cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: SongLinggenn
 #   year: 1985
 #   subentry: 32503002
 #   X4 reaction: 38-SR-87(N,INL)38-SR-87-M,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/32503002
-# target:
+# target: 
 #   Z: 38
 #   A: 87
 #   nuclide: Sr87
-# reaction:
+# reaction: 
 #   type: (n,n')
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 38
-#   A: 87
-#   nuclide: Sr87m
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 13
+#   residual: 
+#     Z: 38
+#     A: 87
+#     nuclide: Sr87m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 13
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    9.750000E-01   2.230000E-02   3.249000E+01   3.940000E+00   1.000000E+00
@@ -51,18 +52,3 @@
 #   author: Song Linggen,Wu Songmao,Xu Zhizheng,You Junsheng, Wu Zhihua
 #   title: Measurement of inelastic cross sections for the reaction Sr-87(n,inl)Sr-87m
 #   journal: Jour: Chinese J.of Nuclear Physics (Beijing)., Vol.7, Issue.1, p.58 (198
-# statistics:
-#   NEA score: R3
-#   IAEA score:  1
-#   E-min [MeV]:  9.750000E-01
-#   E-max [MeV]:  5.690000E+00
-#   F-value:  1.696666E+00
-#   A-value:  1.410571E+00
-#   chi-2:  6.378666E+01
-#   p-value:  2.337300E-01
-#   exp. data sets for p-value:      2
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.860802E+00   1.560723E+00   9.537350E+01
-# jeff3.3       1.734624E+00   1.468240E+00   6.935921E+01
-# jendl5.0      1.471929E+00   1.224792E+00   2.662726E+01

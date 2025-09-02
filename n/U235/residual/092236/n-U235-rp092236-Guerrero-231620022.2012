@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: U235(n,x)U236 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Guerrero
 #   year: 2012
 #   subentry: 231620022
 #   X4 reaction: 92-U-235(N,G)92-U-236,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/231620022
-# target:
+# target: 
 #   Z: 92
 #   A: 235
 #   nuclide: U235
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 92
-#   A: 236
-#   nuclide: U236
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 2014
+#   residual: 
+#     Z: 92
+#     A: 236
+#     nuclide: U236
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2014
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.000768E-06   0.000000E+00   2.669885E+04   1.333177E+04   1.004342E+00
@@ -2047,17 +2048,3 @@
 #   author: C.Guerrero, J.Balibrea, E.Berthoumieux, D.Cano-Ott,  E.Mendoza, S.Andriamonje, J.Andrzejewski, L.Audouin,  M.Barbagallo, V.Becares, F.Becvar, F.Belloni,  J.Billowes, M.Brugger, M.Calviani, F.Calvino,  C.Carrapico, F.Cerutti, E.Chiaveri, M.Chin, N.Colonna,  G.Cortes, M.A.Cortes-Giraldo, M.Diakaki, I.Dillmann,  C.Domingo-Pardo, I.Duran, C.Eleftheriadis,  M.Fernandez-Ordonez, A.Ferrari, S.Ganesan, G.Giubrone,  M.B.Gomez-Hornillos, I.F.Goncalves, E.Gonzalez-Romero,  F.Gramegna, E.Griesmayer, F.Gunsing, D.Jenkins,  E.Jericha, Y.Kadi, F.Kaeppeler, D.Karadimos, J.Kroll,  M.Krticka, E.Lebbos, C.Lederer, H.Leeb, R.Losito,  M.Lozano, A.Manousos, J.Marganiec, S.Marrone,  T.Martinez, C.Massimi, P.F.Mastinu, M.Meaze,  A.Mengoni, P.M.Milazzo, C.Paradela, A.Pavlik,  J.Perkowski, R.Plag, J.Praena, J.M.Quesada,  T.Rauscher, R.Reifarth, F.Roman, C.Rubbia,  R.Sarmento, G.Tagliente, J.L.Tain, D.Tarrio,  L.Tassan-Got, A.Tsinganis, G.Vannini, V.Variale,  P.Vaz, A.Ventura, M.Vermeullen, V.Vlachou
 #   title: Simultaneous measurement of neutron-induced capture  and fission reactions at CERN
 #   journal: Jour: European Physical Journal A: Hadrons and Nuclei, Vol.48, p.29 (201
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  1.000768E-06
-#   E-max [MeV]:  2.199548E-05
-#   F-value:  2.497347E+00
-#   A-value:  8.260651E-01
-#   chi-2:  3.911249E+00
-#   p-value:  9.815250E-02
-#   exp. data sets for p-value:      4
-#   libraries:      2
-##  Library          F              A            chi-2
-# jeff3.3       2.541270E+00   8.109474E-01   3.951986E+00
-# jendl5.0      2.453357E+00   8.414642E-01   3.870517E+00

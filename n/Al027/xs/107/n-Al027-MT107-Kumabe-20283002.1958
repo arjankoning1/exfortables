@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Al27(n,a)Na24 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Kumabe
 #   year: 1958
 #   subentry: 20283002
 #   X4 reaction: 13-AL-27(N,A)11-NA-24,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20283002
-# target:
+# target: 
 #   Z: 13
 #   A: 27
 #   nuclide: Al27
-# reaction:
+# reaction: 
 #   type: (n,a)
 #   ENDF_MF: 3
 #   ENDF_MT: 107
-# residual:
-#   Z: 11
-#   A: 24
-#   nuclide: Na24
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 11
+#     A: 24
+#     nuclide: Na24
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.480000E+01   7.000000E-02   8.200000E+01   1.700000E+01   1.000000E+00
@@ -34,21 +35,3 @@
 #   author: I.KUMABE
 #   title: -ALPHA PARTICLES FROM THE INTERACTION OF 14.8 MEV  NEUTRONS WITH MEDIUM WEIGHT NUCLEI-
 #   journal: Jour: Journal of the Physical Society of Japan, Vol.13, p.325 (1958)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.480000E+01
-#   E-max [MeV]:  1.480000E+01
-#   F-value:  1.338918E+00
-#   A-value:  1.338668E+00
-#   chi-2:  3.136099E+00
-#   p-value:  7.979242E-04
-#   exp. data sets for p-value:      8
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.323832E+00   1.323832E+00   2.927541E+00
-# endfb8.0      1.338554E+00   1.338554E+00   3.129507E+00
-# jeff3.3       1.338554E+00   1.338554E+00   3.129507E+00
-# jendl5.0      1.342016E+00   1.342016E+00   3.178250E+00
-# cendl3.2      1.365660E+00   1.365660E+00   3.524267E+00
-# irdff2.0      1.323830E+00   1.323830E+00   2.927521E+00

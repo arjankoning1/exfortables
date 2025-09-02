@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Fe0(n,n'_01)Fe1 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Salnikov
 #   year: 1957
 #   subentry: 40372010
 #   X4 reaction: 26-FE-0(N,INL)26-FE-0,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/40372010
-#   level energy [MeV]  8.50000E-01
-# target:
+#   level energy [MeV]:  8.50000E-01
+# target: 
 #   Z: 26
 #   A: 0
 #   nuclide: Fe0
-# reaction:
+# reaction: 
 #   type: (n,n'_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 51
@@ -25,14 +25,15 @@
 #     energy [MeV]:  8.467780E-01
 #     spin:  2.000000E+00
 #     parity: 1
-# residual:
-#   Z: 26
-#   A: 1
-#   nuclide: Fe1
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 26
+#     A: 1
+#     nuclide: Fe1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.340000E+00   0.000000E+00   9.000000E+02   7.800000E+01   1.000000E+00
@@ -40,20 +41,3 @@
 #   author: O.A.Salnikov
 #   title: Angular distribution of elastic and inelastic  scattering of 2.34-MeV neutrons from chromium, iron  and lead
 #   journal: Jour: Soviet Atomic Energy, Vol.3, p.869 (1957)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  2.340000E+00
-#   E-max [MeV]:  2.340000E+00
-#   F-value:  1.567865E+00
-#   A-value:  6.543435E-01
-#   chi-2:  1.682056E+01
-#   p-value:  4.177261E-01
-#   exp. data sets for p-value:      3
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.476369E+00   6.773374E-01   1.386639E+01
-# endfb8.0      1.667986E+00   5.995255E-01   2.135251E+01
-# jeff3.3       1.721594E+00   5.808569E-01   2.338953E+01
-# jendl5.0      1.699604E+00   5.883723E-01   2.255832E+01
-# cendl3.2      1.156925E+00   8.643605E-01   2.936072E+00

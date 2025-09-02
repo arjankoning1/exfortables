@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: C13(g,x)B12 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Zubanov
 #   year: 1983
 #   subentry: L0133002
 #   X4 reaction: 6-C-13(G,P)5-B-12,,SIG,,BRS
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/L0133002
-# target:
+# target: 
 #   Z: 6
 #   A: 13
 #   nuclide: C13
-# reaction:
+# reaction: 
 #   type: (g,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 5
-#   A: 12
-#   nuclide: B12
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 106
+#   residual: 
+#     Z: 5
+#     A: 12
+#     nuclide: B12
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 106
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.770000E+01   0.000000E+00   1.430000E-01   1.451900E-01   1.000000E+00
@@ -139,18 +140,3 @@
 #   author: D.Zubanov,R.A.Sutton,M.N.Thompson,J.W.Jury
 #   title: 13C(g,p) cross section
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.27, p.1957 (1983)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  1.770000E+01
-#   E-max [MeV]:  2.800000E+01
-#   F-value:  1.432516E+01
-#   A-value:  9.800181E-02
-#   chi-2:  2.296344E+01
-#   p-value:  4.087750E-02
-#   exp. data sets for p-value:      3
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    6.343997E+00   1.787158E-01   2.152809E+01
-# endfb8.0      8.200490E+00   1.475975E-01   2.120736E+01
-# jendl5.0      5.841254E+01   1.856610E-02   3.352747E+01

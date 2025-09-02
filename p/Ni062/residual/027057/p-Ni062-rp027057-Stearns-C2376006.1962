@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ni62(p,x)Co57 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Stearns
 #   year: 1962
 #   subentry: C2376006
 #   X4 reaction: 28-NI-62(P,X)27-CO-57,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/C2376006
-# target:
+# target: 
 #   Z: 28
 #   A: 62
 #   nuclide: Ni62
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 27
-#   A: 57
-#   nuclide: Co57
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 21
+#   residual: 
+#     Z: 27
+#     A: 57
+#     nuclide: Co57
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 21
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.630000E+01   0.000000E+00   2.700000E+00   2.430000E-01   1.000000E+00
@@ -54,18 +55,3 @@
 #   author: C.M.Stearns
 #   title: Comparison of Reactions of Copper-63 Compound Nuclei Performed by Alpha-Particle, Proton, and Carbon-Ion Bombardments
 #   journal: Thesis: Stearns (1962)
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  2.630000E+01
-#   E-max [MeV]:  3.960000E+01
-#   F-value:  2.816825E+00
-#   A-value:  4.576495E-01
-#   chi-2:  3.549506E+01
-#   p-value:  1.894439E-01
-#   exp. data sets for p-value:      2
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    4.562954E+00   2.333930E-01   6.995902E+01
-# endfb8.0      2.020165E+00   6.155158E-01   1.974333E+01
-# jendl5.0      1.910042E+00   6.672243E-01   1.678286E+01

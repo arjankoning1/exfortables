@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: W184(n,x)W185 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Macklin
 #   year: 1983
 #   subentry: 10999008
 #   X4 reaction: 74-W-184(N,G)74-W-185,,SIG,,AV
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/10999008
-# target:
+# target: 
 #   Z: 74
 #   A: 184
 #   nuclide: W184
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 74
-#   A: 185
-#   nuclide: W185
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 34
+#   residual: 
+#     Z: 74
+#     A: 185
+#     nuclide: W185
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 34
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.500000E-03   4.665500E-06   7.239001E+02   1.809750E+01   1.000000E+00
@@ -67,17 +68,3 @@
 #   author: R.L.MACKLIN,D.M.DRAKE,E.D.ARTHUR
 #   title: NEUTRON-CAPTURE CROSS SECTIONS OF 182W, 183W, 184W,  AND 186W FROM 2.6 TO 2000 KEV.
 #   journal: Jour: Nuclear Science and Engineering, Vol.84, p.98 (1983)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  3.500000E-03
-#   E-max [MeV]:  1.950000E+00
-#   F-value:  1.917903E+00
-#   A-value:  8.576910E-01
-#   chi-2:  5.278493E+01
-#   p-value:  3.334440E-01
-#   exp. data sets for p-value:      3
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    2.493326E+00   7.794148E-01   9.910562E+01
-# jendl5.0      1.123260E+00   9.438285E-01   6.464269E+00

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Mn55(p,x)Fe55 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Mitchell
 #   year: 1983
 #   subentry: D0684003
 #   X4 reaction: 25-MN-55(P,N)26-FE-55,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/D0684003
-# target:
+# target: 
 #   Z: 25
 #   A: 55
 #   nuclide: Mn55
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 26
-#   A: 55
-#   nuclide: Fe55
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 25
+#   residual: 
+#     Z: 26
+#     A: 55
+#     nuclide: Fe55
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 25
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.060000E+00   0.000000E+00   2.370000E-03   1.120000E-03   1.000000E+00
@@ -58,17 +59,3 @@
 #   author: L.W.Mitchell, D.G.Sargood
 #   title: The 55Mn(p,g)56Fe and 55Mn(p,n)55Fe cross sections
 #   journal: Jour: Australian Journal of Physics, Vol.36, p.1 (1983)
-# statistics:
-#   NEA score: R3
-#   IAEA score:  0
-#   E-min [MeV]:  1.060000E+00
-#   E-max [MeV]:  2.030000E+00
-#   F-value:  6.148495E+00
-#   A-value:  3.955485E+00
-#   chi-2:  4.716354E+03
-#   p-value:  1.613178E-01
-#   exp. data sets for p-value:      2
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    6.146989E+00   3.969090E+00   4.716354E+03
-# jendl5.0      1.240309E+00   8.062505E-01   0.000000E+00

@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: Br79(n,x)Br80m cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Schuman
 #   year: 1970
 #   subentry: 14080017
 #   X4 reaction: 35-BR-79(N,G)35-BR-80-M,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/14080017
-# target:
+# target: 
 #   Z: 35
 #   A: 79
 #   nuclide: Br79
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 35
-#   A: 80
-#   nuclide: Br80m
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 35
+#     A: 80
+#     nuclide: Br80m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.000000E-03   7.000000E-04   1.008779E+03   0.000000E+00   9.170717E-01
@@ -39,18 +40,3 @@
 #   author: R.P.Schuman,R.L.Tromp
 #   title: Activation cross section measurements using the 2.0 keV  Sc filtered and 25 keV Fe filtered neutron beams
 #   journal: Prog: Idaho Nuclear Corp. Reports, No.1317, p.39 (1970)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  2.000000E-03
-#   E-max [MeV]:  2.000000E-03
-#   F-value:  1.268866E+01
-#   A-value:  7.996320E-02
-#   chi-2:  0.000000E+00
-#   p-value:  1.192093E-07
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.127234E+01   8.871272E-02   0.000000E+00
-# jeff3.3       1.813609E+01   5.513867E-02   0.000000E+00
-# jendl5.0      9.566908E+00   1.045270E-01   0.000000E+00

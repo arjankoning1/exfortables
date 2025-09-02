@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Am241(n,x)Am242 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Hirose
 #   year: 2017
 #   subentry: 23338003
 #   X4 reaction: 95-AM-241(N,G)95-AM-242,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/23338003
-# target:
+# target: 
 #   Z: 95
 #   A: 241
 #   nuclide: Am241
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 95
-#   A: 242
-#   nuclide: Am242
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 909
+#   residual: 
+#     Z: 95
+#     A: 242
+#     nuclide: Am242
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 909
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.001800E-07   0.000000E+00   3.080000E+05   1.620000E+04   1.000000E+00
@@ -942,17 +943,3 @@
 #   author: K.Hirose,K.Nishio,H.Makii,I.Nishinaka,S.Ota, T.Nagayama,N.Tamura,S.Goto,A.N.Andreyev,M.J.Vermeulen, S.Gillespie,C.Barton,A.Kimura,H.Harada,S.Meigo,S.Chiba, T.Ohtsuki
 #   title: Simultaneous measurement of neutron-induced fission and capture cross sections for 241Am at neutron energies below fission threshold.
 #   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.A, Vol.856, p.133 (20
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  1.001800E-07
-#   E-max [MeV]:  2.000900E-05
-#   F-value:  2.312506E+00
-#   A-value:  6.906470E-01
-#   chi-2:  7.184809E+01
-#   p-value:  2.089316E-01
-#   exp. data sets for p-value:      4
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    2.414689E+00   6.549014E-01   4.223683E+01
-# jendl5.0      2.209438E+00   7.283437E-01   1.014592E+02

@@ -1,28 +1,29 @@
-# header:
+# header: 
 #   title: U234(g,xn) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Berman
 #   year: 1986
 #   subentry: L0058007
 #   X4 reaction: 92-U-234(G,X)0-NN-1,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/L0058007
-# target:
+# target: 
 #   Z: 92
 #   A: 234
 #   nuclide: U234
-# reaction:
+# reaction: 
 #   type: (g,xn)
 #   ENDF_MF: 3
 #   ENDF_MT: 201
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 27
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 27
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    6.980000E+00   0.000000E+00   1.210000E+02   7.100000E+01   1.000000E+00
@@ -56,18 +57,3 @@
 #   author: B.L.Berman,J.T.Caldwell,E.J.Dowdy,S.S.Dietrich, P.Meyer,R.A.Alvarez
 #   title: Photofission and photoneutron cross sections and  photofission neutron multiplicities for 233U, 234U,  237Np, and 239Pu.
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.34, p.2201 (1986)
-# statistics:
-#   NEA score: T3
-#   IAEA score: -1
-#   E-min [MeV]:  6.980000E+00
-#   E-max [MeV]:  1.825000E+01
-#   F-value:  3.332341E+01
-#   A-value:  5.065096E-02
-#   chi-2:  8.579448E+02
-#   p-value:  4.505279E-02
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.334012E+01   8.517797E-02   8.433257E+02
-# endfb8.0      7.356041E+02   1.361220E-03   1.529539E+03
-# jendl5.0      8.590141E+00   1.263479E-01   7.993015E+02

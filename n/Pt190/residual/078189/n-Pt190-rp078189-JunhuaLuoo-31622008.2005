@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Pt190(n,x)Pt189 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: JunhuaLuoo
 #   year: 2005
 #   subentry: 31622008
 #   X4 reaction: 78-PT-190(N,2N)78-PT-189,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/31622008
-# target:
+# target: 
 #   Z: 78
 #   A: 190
 #   nuclide: Pt190
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 78
-#   A: 189
-#   nuclide: Pt189
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 2
+#   residual: 
+#     Z: 78
+#     A: 189
+#     nuclide: Pt189
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.410000E+01   1.000000E-01   2.295570E+03   1.659874E+02   1.177215E+00
@@ -35,18 +36,3 @@
 #   author: Junhua Luo, Guozhu He, Zhongjie Liu, Xiangzhong Kong
 #   title: Cross-section measurements for (n,2n) and (n,p) reactions on platinum isotopes in the neutron energy range of 13.5 to 14.6 MeV
 #   journal: Jour: Radiochimica Acta, Vol.93, p.381 (2005)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.410000E+01
-#   E-max [MeV]:  1.440000E+01
-#   F-value:  1.346863E+00
-#   A-value:  7.454447E-01
-#   chi-2:  1.202054E+01
-#   p-value:  1.243878E-01
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.355719E+00   7.405915E-01   1.247333E+01
-# endfb8.0      1.342384E+00   7.478833E-01   1.179415E+01
-# jeff3.3       1.342384E+00   7.478833E-01   1.179415E+01

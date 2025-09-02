@@ -1,28 +1,29 @@
-# header:
+# header: 
 #   title: Fe56(n,xa) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Fischer
 #   year: 1984
 #   subentry: 21920003
 #   X4 reaction: 26-FE-56(N,X)2-HE-4,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/21920003
-# target:
+# target: 
 #   Z: 26
 #   A: 56
 #   nuclide: Fe56
-# reaction:
+# reaction: 
 #   type: (n,xa)
 #   ENDF_MF: 3
 #   ENDF_MT: 207
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.410000E+01   0.000000E+00   4.400000E+01   2.000000E+00   1.000000E+00
@@ -30,21 +31,3 @@
 #   author: R.FISCHER,G.TRAXLER,M.UHL,H.VONACH
 #   title: -INVESTIGATION OF THE FE-56(N,A)CR-53 AND  NI-60(N,A)FE-57 REACTIONS
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.30, Issue.1, p.72 (1
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  1.410000E+01
-#   E-max [MeV]:  1.410000E+01
-#   F-value:  1.170577E+00
-#   A-value:  9.458907E-01
-#   chi-2:  1.016294E+01
-#   p-value:  3.151233E-01
-#   exp. data sets for p-value:      3
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.359432E+00   7.356012E-01   3.383484E+01
-# endfb8.0      1.086905E+00   9.200436E-01   3.509448E+00
-# jeff3.3       1.027282E+00   9.734423E-01   8.353394E-01
-# jendl5.0      1.009136E+00   9.909462E-01   2.605226E-01
-# cendl3.2      1.159828E+00   1.159828E+00   1.237456E+01
-# irdff2.0      0.000000E+00   0.000000E+00   0.000000E+00

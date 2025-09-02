@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ce140(n,x)Ce141 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Macklin
 #   year: 1957
 #   subentry: 11399036
 #   X4 reaction: 58-CE-140(N,G)58-CE-141,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/11399036
-# target:
+# target: 
 #   Z: 58
 #   A: 140
 #   nuclide: Ce140
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 58
-#   A: 141
-#   nuclide: Ce141
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 58
+#     A: 141
+#     nuclide: Ce141
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.400000E-02   0.000000E+00   3.939050E+01   5.082600E+00   1.270661E+00
@@ -34,17 +35,3 @@
 #   author: R.L.MACKLIN,N.H.LAZAR,W.S.LYON
 #   title: NEUTRON ACTIVATION CROSS SECTIONS WITH SB-BE NEUTRONS.
 #   journal: Jour: Physical Review, Vol.107, p.504 (1957)
-# statistics:
-#   NEA score: T3
-#   IAEA score:  1
-#   E-min [MeV]:  2.400000E-02
-#   E-max [MeV]:  2.400000E-02
-#   F-value:  5.432083E+01
-#   A-value:  1.932920E-02
-#   chi-2:  5.731946E+01
-#   p-value:  2.384186E-07
-#   exp. data sets for p-value:      2
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    2.776618E+01   3.601503E-02   5.581509E+01
-# jeff3.3       9.639530E+01   1.037395E-02   5.882383E+01

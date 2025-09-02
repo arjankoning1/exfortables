@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Pb207(n,x)Tl207 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Pillon
 #   year: 2002
 #   subentry: 23127003
 #   X4 reaction: 82-PB-207(N,P)81-TL-207,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/23127003
-# target:
+# target: 
 #   Z: 82
 #   A: 207
 #   nuclide: Pb207
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 81
-#   A: 207
-#   nuclide: Tl207
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 81
+#     A: 207
+#     nuclide: Tl207
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.434000E+01   5.090000E-01   2.876000E+00   2.880000E+00   1.000000E+00
@@ -34,18 +35,3 @@
 #   author: M.Pillon
 #   title: Measurements of activation cross sections  Pb-204(n,n')Pb-204m, Pb-207(n,p)Tl-207,  Pb-208(n,p)Tl-208 at neutron energies 2.9 and 14.5  MeV
 #   journal: Priv.Comm: Pillon (2002)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.434000E+01
-#   E-max [MeV]:  1.434000E+01
-#   F-value:  1.055664E+00
-#   A-value:  1.012151E+00
-#   chi-2:  5.513583E-02
-#   p-value:  4.098001E-01
-#   exp. data sets for p-value:      2
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.046834E+00   9.552618E-01   5.652113E-02
-# endfb8.0      1.085352E+00   1.085352E+00   1.087646E-01
-# jendl5.0      1.000097E+00   1.000097E+00   1.217925E-04

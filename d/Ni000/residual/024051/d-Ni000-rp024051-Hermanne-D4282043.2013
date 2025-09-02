@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ni0(d,x)Cr51 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Hermanne
 #   year: 2013
 #   subentry: D4282043
 #   X4 reaction: 28-NI-0(D,X)24-CR-51,CUM,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/D4282043
-# target:
+# target: 
 #   Z: 28
 #   A: 0
 #   nuclide: Ni0
-# reaction:
+# reaction: 
 #   type: (d,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 24
-#   A: 51
-#   nuclide: Cr51
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 10
+#   residual: 
+#     Z: 24
+#     A: 51
+#     nuclide: Cr51
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.160000E+01   7.000000E-01   1.109990E+00   1.009100E-01   1.009082E+00
@@ -43,16 +44,3 @@
 #   author: A.Hermanne, S.Takacs, R.Adam-Rebeles, F.Tarkanyi,  M.P.Takacs
 #   title: New measurements and evaluation of database for  deuteron induced reaction on Ni up to 50 MeV
 #   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.299, p.8 (2013
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  3.160000E+01
-#   E-max [MeV]:  4.950000E+01
-#   F-value:  1.102425E+02
-#   A-value:  9.209683E-03
-#   chi-2:  8.746281E+01
-#   p-value:  1.549721E-07
-#   exp. data sets for p-value:      2
-#   libraries:      1
-##  Library          F              A            chi-2
-# tendl.2023    1.102425E+02   9.209683E-03   8.746281E+01

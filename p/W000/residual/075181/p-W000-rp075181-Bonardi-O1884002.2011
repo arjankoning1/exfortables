@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: W0(p,x)Re181 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Bonardi
 #   year: 2011
 #   subentry: O1884002
 #   X4 reaction: 74-W-0(P,X)75-RE-181,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/O1884002
-# target:
+# target: 
 #   Z: 74
 #   A: 0
 #   nuclide: W0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 75
-#   A: 181
-#   nuclide: Re181
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 13
+#   residual: 
+#     Z: 75
+#     A: 181
+#     nuclide: Re181
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 13
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.159000E+01   3.100000E-01   2.101600E+01   1.184000E+00   9.866667E-01
@@ -46,18 +47,3 @@
 #   author: M.L.Bonardi, F.Groppi, E.Persico, S.Manenti, K.Abbas,  U.Holzwarth, F.Simonelli, Z.B.Alfassi
 #   title: Excitation functions and yields for cyclotron production of radiorhenium via W-0(p,xn)Re-181-186g nuclear reactions and tests on the production of Re-186g using enriched W-186
 #   journal: Jour: Radiochimica Acta, Vol.99, p.1 (2011)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  1.159000E+01
-#   E-max [MeV]:  2.159000E+01
-#   F-value:  1.328674E+00
-#   A-value:  9.608316E-01
-#   chi-2:  6.165096E+01
-#   p-value:  2.791802E-01
-#   exp. data sets for p-value:      2
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.261789E+00   8.576577E-01   1.904393E+01
-# endfb8.0      1.479696E+00   1.136352E+00   1.531861E+02
-# jendl5.0      1.204664E+00   9.101540E-01   1.272279E+01

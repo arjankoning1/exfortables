@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Zr96(n,2n)Zr95 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Fukuda
 #   year: 1978
 #   subentry: 20841012
 #   X4 reaction: 40-ZR-96(N,2N)40-ZR-95,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20841012
-# target:
+# target: 
 #   Z: 40
 #   A: 96
 #   nuclide: Zr96
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 40
-#   A: 95
-#   nuclide: Zr95
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 40
+#     A: 95
+#     nuclide: Zr95
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.460000E+01   0.000000E+00   1.645631E+03   1.285179E+02   1.004046E+00
@@ -34,20 +35,3 @@
 #   author: K.Fukuda,K.Matsuo,S.Shirahama,I.Kumabe
 #   title: Activation cross sections on Fe,Co,Ni,Zr and Mo  for 14.6 MeV neutrons
 #   journal: Prog: Japanese report to NEANDC, No.56, p.44 (1978)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.460000E+01
-#   E-max [MeV]:  1.460000E+01
-#   F-value:  1.100341E+00
-#   A-value:  9.185631E-01
-#   chi-2:  1.818477E+00
-#   p-value:  2.438499E-01
-#   exp. data sets for p-value:      8
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.045628E+00   9.563633E-01   7.939362E-01
-# endfb8.0      1.178636E+00   8.484384E-01   4.109336E+00
-# jeff3.3       1.102915E+00   9.066885E-01   2.006898E+00
-# jendl5.0      1.070745E+00   9.339290E-01   1.291957E+00
-# cendl3.2      1.050679E+00   9.517654E-01   8.902561E-01

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Zn67(p,x)Ga67 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Szelecsenyi
 #   year: 1994
 #   subentry: D40250031
 #   X4 reaction: 30-ZN-67(P,N)31-GA-67,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/D40250031
-# target:
+# target: 
 #   Z: 30
 #   A: 67
 #   nuclide: Zn67
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 31
-#   A: 67
-#   nuclide: Ga67
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 18
+#   residual: 
+#     Z: 31
+#     A: 67
+#     nuclide: Ga67
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 18
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.473000E+01   0.000000E+00   3.230000E+02   3.700000E+01   1.000000E+00
@@ -51,17 +52,3 @@
 #   author: F.Szelecsenyi,T.E.Boothe,E.Tavano,M.E.Plitnikas, Y.Feijoo,S.Takacs,F.Tarkanyi,Z.Szucs
 #   title: New cross section data for 66-67-68 Zn+p reactions up to 26 MeV
 #   journal: Conf: Conf.on Nucl.Data for Sci.and Techn.,Gatlinburg 1994, p.393 (1994)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.473000E+01
-#   E-max [MeV]:  2.571000E+01
-#   F-value:  1.495421E+00
-#   A-value:  7.437111E-01
-#   chi-2:  3.608299E+00
-#   p-value:  4.511994E-01
-#   exp. data sets for p-value:      7
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.109809E+00   9.591792E-01   8.109128E-01
-# jendl5.0      1.749748E+00   5.766454E-01   6.405685E+00

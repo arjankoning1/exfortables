@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: V51(n,n'_01)V52 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Lebedev
 #   year: 1979
 #   subentry: 40499002
 #   X4 reaction: 23-V-51(N,INL)23-V-51,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/40499002
-#   level energy [MeV]  1.12500E+00
-# target:
+#   level energy [MeV]:  1.12500E+00
+# target: 
 #   Z: 23
 #   A: 51
 #   nuclide: V51
-# reaction:
+# reaction: 
 #   type: (n,n'_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 51
@@ -25,14 +25,15 @@
 #     energy [MeV]:  1.091240E+00
 #     spin:  5.500000E+00
 #     parity: -1
-# residual:
-#   Z: 23
-#   A: 52
-#   nuclide: V52
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 23
+#     A: 52
+#     nuclide: V52
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.700000E+00   0.000000E+00   4.700000E+01   2.350000E+00   1.000000E+00
@@ -40,19 +41,3 @@
 #   author: L.S.Lebedev,Yu.A.Nemilov,L.A.Pobedonostsev
 #   title: Inelastic scattering of 4.7-MeV neutrons by vanadium  and chromium
 #   journal: Rept: USSR report to the I.N.D.C., No.133, p.29 (1979)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  4.700000E+00
-#   E-max [MeV]:  4.700000E+00
-#   F-value:  1.321299E+00
-#   A-value:  1.135336E+00
-#   chi-2:  5.543844E+01
-#   p-value:  4.918025E-01
-#   exp. data sets for p-value:      1
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.002583E+00   9.974235E-01   6.528787E-02
-# endfb8.0      1.741280E+00   1.741280E+00   2.197986E+02
-# jeff3.3       1.054528E+00   9.482911E-01   1.660745E+00
-# jendl5.0      1.008805E+00   1.008805E+00   2.291621E-01

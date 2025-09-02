@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Y89(n,x)Y90 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Gibbons
 #   year: 1961
 #   subentry: 11329020
 #   X4 reaction: 39-Y-89(N,G)39-Y-90,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/11329020
-# target:
+# target: 
 #   Z: 39
 #   A: 89
 #   nuclide: Y89
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 39
-#   A: 90
-#   nuclide: Y90
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 2
+#   residual: 
+#     Z: 39
+#     A: 90
+#     nuclide: Y90
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.000000E-02   7.000000E-03   1.350000E+01   3.000000E+00   1.000000E+00
@@ -35,17 +36,3 @@
 #   author: J.H.Gibbons,R.L.Macklin,P.D.Miller,J.H.Neiler
 #   title: Average radiative capture cross sections for 7- to 170-keV neutrons.
 #   journal: Jour: Physical Review, Vol.122, p.182 (1961)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  3.000000E-02
-#   E-max [MeV]:  6.500000E-02
-#   F-value:  2.093224E+00
-#   A-value:  6.897660E-01
-#   chi-2:  3.748958E+00
-#   p-value:  2.452666E-01
-#   exp. data sets for p-value:      2
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    2.093261E+00   6.897359E-01   3.748702E+00
-# jendl5.0      2.093187E+00   6.897960E-01   3.749214E+00

@@ -1,28 +1,29 @@
-# header:
+# header: 
 #   title: Sr0(n,n') cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Thomson
 #   year: 1963
 #   subentry: 11495022
 #   X4 reaction: 38-SR-0(N,INL)38-SR-0,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/11495022
-# target:
+# target: 
 #   Z: 38
 #   A: 0
 #   nuclide: Sr0
-# reaction:
+# reaction: 
 #   type: (n,n')
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    7.000000E+00   1.000000E-01   1.740000E+03   1.600000E+02   1.000000E+00
@@ -30,20 +31,3 @@
 #   author: D.B.THOMSON
 #   title: NUCLEAR LEVEL DENSITIES AND REACTION MECHANISMS FROM INELASTIC NEUTRON SCATTERING.
 #   journal: Jour: Physical Review, Vol.129, p.1649 (1963)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  7.000000E+00
-#   E-max [MeV]:  7.000000E+00
-#   F-value:  1.075496E+00
-#   A-value:  9.666815E-01
-#   chi-2:  6.442698E-01
-#   p-value:  3.812019E-01
-#   exp. data sets for p-value:      1
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.002122E+00   9.978824E-01   2.900219E-02
-# endfb8.0      1.000002E+00   1.000002E+00   2.327898E-05
-# jeff3.3       1.002142E+00   9.978629E-01   2.927098E-02
-# jendl5.0      1.002478E+00   9.975285E-01   3.387664E-02
-# cendl3.2      1.176682E+00   8.498473E-01   3.129176E+00

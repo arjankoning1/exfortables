@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Al27(n,p)Mg27 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Fessler
 #   year: 2000
 #   subentry: 22414006
 #   X4 reaction: 13-AL-27(N,P)12-MG-27,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22414006
-# target:
+# target: 
 #   Z: 13
 #   A: 27
 #   nuclide: Al27
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 12
-#   A: 27
-#   nuclide: Mg27
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 5
+#   residual: 
+#     Z: 12
+#     A: 27
+#     nuclide: Mg27
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.601000E+01   6.200000E-02   5.627000E+01   1.920000E+00   1.000000E+00
@@ -38,21 +39,3 @@
 #   author: A.Fessler,A.J.M.Plompen,D.L.Smith,J.W.Meadows, Y.Ikeda
 #   title: Neutron activation cross-section measurements  from 16 to 20 MeV for isotopes of F, Na, Mg, Al, Si,  P, Cl, Ti, V, Mn, Fe, Nb, Sn, and Ba
 #   journal: Jour: Nuclear Science and Engineering, Vol.134, Issue.2, p.171 (2000)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.601000E+01
-#   E-max [MeV]:  2.017100E+01
-#   F-value:  1.100977E+00
-#   A-value:  9.909849E-01
-#   chi-2:  6.312565E+00
-#   p-value:  3.486157E-01
-#   exp. data sets for p-value:      6
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.033290E+00   9.760399E-01   1.038080E+00
-# endfb8.0      1.067678E+00   9.637569E-01   1.560395E+00
-# jeff3.3       1.067678E+00   9.637569E-01   1.560395E+00
-# jendl5.0      1.220695E+00   1.131228E+00   3.026803E+01
-# cendl3.2      1.063469E+00   9.487968E-01   2.535102E+00
-# irdff2.0      1.029233E+00   9.792044E-01   9.275019E-01

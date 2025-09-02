@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Fe0(p,x)Fe55 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Neumann
 #   year: 1999
 #   subentry: O1882023
 #   X4 reaction: 26-FE-0(P,X)26-FE-55,CUM,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/O1882023
-# target:
+# target: 
 #   Z: 26
 #   A: 0
 #   nuclide: Fe0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 26
-#   A: 55
-#   nuclide: Fe55
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 18
+#   residual: 
+#     Z: 26
+#     A: 55
+#     nuclide: Fe55
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 18
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.680000E+01   8.000000E-01   3.060000E+02   4.600000E+01   1.000000E+00
@@ -51,18 +52,3 @@
 #   author: S.Neumann
 #   title: Activation experiments with medium-energy neutrons and the production of cosmogenic nuclides in extraterrestrial matter.
 #   journal: Thesis: Neumann (1999)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  1.680000E+01
-#   E-max [MeV]:  1.200000E+03
-#   F-value:  1.911649E+00
-#   A-value:  1.685858E+00
-#   chi-2:  5.378176E+01
-#   p-value:  1.561516E-01
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.832047E+00   1.626317E+00   4.281508E+01
-# endfb8.0      1.942579E+00   1.665664E+00   6.015822E+01
-# jendl5.0      1.958919E+00   1.768767E+00   5.837201E+01

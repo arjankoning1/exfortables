@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Mg25(p,2a)F18 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Cohen
 #   year: 1954
 #   subentry: C1999003
 #   X4 reaction: 12-MG-25(P,2A)9-F-18,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/C1999003
-# target:
+# target: 
 #   Z: 12
 #   A: 25
 #   nuclide: Mg25
-# reaction:
+# reaction: 
 #   type: (p,2a)
 #   ENDF_MF: 3
 #   ENDF_MT: 108
-# residual:
-#   Z: 9
-#   A: 18
-#   nuclide: F18
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 20
+#   residual: 
+#     Z: 9
+#     A: 18
+#     nuclide: F18
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 20
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.776000E+01   0.000000E+00   9.999999E-02   0.000000E+00   1.000000E+00
@@ -53,16 +54,3 @@
 #   author: B.L.Cohen,H.L.Reynolds,A.Zucker
 #   title: Comparison of nitrogen- and proton-induced nuclear reactions
 #   journal: Jour: Physical Review, Vol.96, p.1617 (1954)
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  1.776000E+01
-#   E-max [MeV]:  2.165000E+01
-#   F-value:  1.659203E+01
-#   A-value:  6.572042E-02
-#   chi-2:  1.790940E+00
-#   p-value:  5.662441E-08
-#   exp. data sets for p-value:      1
-#   libraries:      1
-##  Library          F              A            chi-2
-# tendl.2023    1.659203E+01   6.572042E-02   1.790940E+00

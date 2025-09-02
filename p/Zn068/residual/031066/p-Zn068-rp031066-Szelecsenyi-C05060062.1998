@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Zn68(p,x)Ga66 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Szelecsenyi
 #   year: 1998
 #   subentry: C05060062
 #   X4 reaction: 30-ZN-68(P,3N)31-GA-66,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/C05060062
-# target:
+# target: 
 #   Z: 30
 #   A: 68
 #   nuclide: Zn68
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 17
-# residual:
-#   Z: 31
-#   A: 66
-#   nuclide: Ga66
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 7
+#   residual: 
+#     Z: 31
+#     A: 66
+#     nuclide: Ga66
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.439000E+01   3.500000E-01   6.248400E-01   5.019200E-01   1.024324E+00
@@ -40,17 +41,3 @@
 #   author: F.Szelecsenyi,T.E.Boothe,S.Takacs,F.Tarkanyi,E.Tavano
 #   title: Evaluated cross section and thick target yield data  bases of Zn+p processes for practical applications
 #   journal: Jour: Applied Radiation and Isotopes, Vol.49, p.1005 (1998)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  2.439000E+01
-#   E-max [MeV]:  2.584000E+01
-#   F-value:  2.024193E+00
-#   A-value:  1.553595E+00
-#   chi-2:  1.558124E+01
-#   p-value:  3.510556E-01
-#   exp. data sets for p-value:      6
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    2.682868E+00   2.478874E+00   3.075669E+01
-# jendl5.0      1.154290E+00   9.736911E-01   4.057983E-01

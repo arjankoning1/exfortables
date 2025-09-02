@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Sm154(g,n')Sm153 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Filipescu
 #   year: 2014
 #   subentry: K2472008
 #   X4 reaction: 62-SM-154(G,N)62-SM-153,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/K2472008
-# target:
+# target: 
 #   Z: 62
 #   A: 154
 #   nuclide: Sm154
-# reaction:
+# reaction: 
 #   type: (g,n')
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 62
-#   A: 153
-#   nuclide: Sm153
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 12
+#   residual: 
+#     Z: 62
+#     A: 153
+#     nuclide: Sm153
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 12
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    8.150000E+00   0.000000E+00   2.002000E+01   1.375900E+00   1.000000E+00
@@ -45,18 +46,3 @@
 #   author: D.M.Filipescu, I.Gheorghe, H.Utsunomiya, S.Goriely,  T.Renstrom, H.-T.Nyhus, O.Tesileanu, T.Glodariu,  T.Shima, K.Takahisa, S.Miyamoto, Y.-W.Lu, S.Hilaire,  S.Peru, M.Martini, A.J.Koning
 #   title: Photoneutron cross sections for samarium isotopes: Toward a unified understanding of (gamma,n) and  (n,gamma) reactions in the rare earth region
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.90, p.064616 (2014)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  8.150000E+00
-#   E-max [MeV]:  1.265000E+01
-#   F-value:  1.323751E+00
-#   A-value:  1.137933E+00
-#   chi-2:  2.459277E+01
-#   p-value:  1.988550E-01
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.381374E+00   1.120299E+00   3.150145E+01
-# endfb8.0      1.233505E+00   1.215368E+00   1.795029E+01
-# jendl5.0      1.293776E+00   1.190694E+00   2.342262E+01

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ti46(n,x)Ti45 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: ZhouMuyaoo
 #   year: 1987
 #   subentry: 30755004
 #   X4 reaction: 22-TI-46(N,2N)22-TI-45,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30755004
-# target:
+# target: 
 #   Z: 22
 #   A: 46
 #   nuclide: Ti46
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 22
-#   A: 45
-#   nuclide: Ti45
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 22
+#     A: 45
+#     nuclide: Ti45
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.460000E+01   2.000000E-01   5.100000E+01   2.000000E+00   1.000000E+00
@@ -34,18 +35,3 @@
 #   author: Zhou Muyao,Zhang Yongfa,Wang Chuanshan,Zhang Lu, Chen Yitai,Zhou Shuxin,Zhang Shenjin,Xie Kuanzhong, Zhou Shenmuo,Chen Xueshi,Zhang Yiping,Yan Qinguan
 #   title: Shell effect from the cross section of the (n,2n) reaction produced by 14.6 MeV neutrons
 #   journal: Jour: Chinese J.of Nuclear Physics (Beijing)., Vol.9, p.34 (1987)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.460000E+01
-#   E-max [MeV]:  1.460000E+01
-#   F-value:  1.291628E+00
-#   A-value:  7.889912E-01
-#   chi-2:  3.203522E+01
-#   p-value:  1.799381E-02
-#   exp. data sets for p-value:      8
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.356972E+00   7.369350E-01   4.499939E+01
-# jeff3.3       1.356972E+00   7.369350E-01   4.499939E+01
-# jendl5.0      1.105712E+00   9.043949E-01   6.106872E+00

@@ -1,28 +1,29 @@
-# header:
+# header: 
 #   title: Ti0(n,n') cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Lashuk
 #   year: 1972
 #   subentry: 40199005
 #   X4 reaction: 22-TI-0(N,INL)22-TI-0,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/40199005
-# target:
+# target: 
 #   Z: 22
 #   A: 0
 #   nuclide: Ti0
-# reaction:
+# reaction: 
 #   type: (n,n')
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 20
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 20
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    9.300000E-01   0.000000E+00   6.600001E+01   6.000000E+00   1.000000E+00
@@ -49,20 +50,3 @@
 #   author: A.I.Lashuk, I.P.Sadokhin, D.L.Broder, A.F.Gamaliy, A.I.Tikhonov
 #   title: Reaction cross-sections for  Ti(N,N'G) and  excitation of Ni  levels
 #   journal: Rept: Yadernye Konstanty, No.10, p.13 (1972)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  9.300000E-01
-#   E-max [MeV]:  4.500000E+00
-#   F-value:  1.157520E+00
-#   A-value:  9.121094E-01
-#   chi-2:  5.256694E+00
-#   p-value:  2.967671E-01
-#   exp. data sets for p-value:      2
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.144299E+00   9.031445E-01   4.108310E+00
-# endfb8.0      1.159437E+00   8.814362E-01   5.042375E+00
-# jeff3.3       1.138389E+00   9.091606E-01   4.091475E+00
-# jendl5.0      1.136846E+00   1.019306E+00   5.357848E+00
-# cendl3.2      1.195098E+00   8.609067E-01   7.873262E+00

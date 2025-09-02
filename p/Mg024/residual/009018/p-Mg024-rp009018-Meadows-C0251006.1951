@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Mg24(p,x)F18 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Meadows
 #   year: 1951
 #   subentry: C0251006
 #   X4 reaction: 12-MG-24(P,X)9-F-18,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/C0251006
-# target:
+# target: 
 #   Z: 12
 #   A: 24
 #   nuclide: Mg24
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 9
-#   A: 18
-#   nuclide: F18
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 18
+#   residual: 
+#     Z: 9
+#     A: 18
+#     nuclide: F18
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 18
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.600000E+01   0.000000E+00   0.000000E+00   0.000000E+00   1.000000E+00
@@ -51,17 +52,3 @@
 #   author: J.W.MEADOWS,R.B.HOLT
 #   title: EXCITATION FUNCTIONS FOR PROTON REACTIONS WITH SODIUM AND MAGNESIUM
 #   journal: Jour: Physical Review, Vol.83, p.47 (1951)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  3.600000E+01
-#   E-max [MeV]:  1.050000E+02
-#   F-value:  1.677038E+00
-#   A-value:  1.348396E+00
-#   chi-2:  0.000000E+00
-#   p-value:  2.420628E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.472813E+00   1.036331E+00   0.000000E+00
-# jendl5.0      1.859429E+00   1.754431E+00   0.000000E+00

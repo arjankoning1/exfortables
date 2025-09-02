@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Cu65(p,x)Zn65 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Sevior
 #   year: 1983
 #   subentry: A0198003
 #   X4 reaction: 29-CU-65(P,N)30-ZN-65,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/A0198003
-# target:
+# target: 
 #   Z: 29
 #   A: 65
 #   nuclide: Cu65
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 30
-#   A: 65
-#   nuclide: Zn65
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 18
+#   residual: 
+#     Z: 30
+#     A: 65
+#     nuclide: Zn65
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 18
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.180000E+00   0.000000E+00   8.670000E-01   9.537000E-02   1.000000E+00
@@ -51,18 +52,3 @@
 #   author: M.E.Sevior,L.W.Mitchell,M.R.Anderson,C.I.W.Tingwell, D.G.Sargood
 #   title: Absolute cross sections of proton induced reactions on Cu-65,Ni-64,Cu-63
 #   journal: Jour: Australian Journal of Physics, Vol.36, p.463 (1983)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  2.180000E+00
-#   E-max [MeV]:  3.217000E+00
-#   F-value:  1.295361E+00
-#   A-value:  1.103818E+00
-#   chi-2:  6.021872E+00
-#   p-value:  2.782226E-01
-#   exp. data sets for p-value:      6
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.379837E+00   1.251610E+00   1.025463E+01
-# endfb8.0      1.131773E+00   9.467188E-01   1.412163E+00
-# jendl5.0      1.150895E+00   1.080612E+00   2.374894E+00

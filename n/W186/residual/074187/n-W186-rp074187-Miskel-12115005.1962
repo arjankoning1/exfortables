@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: W186(n,x)W187 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Miskel
 #   year: 1962
 #   subentry: 12115005
 #   X4 reaction: 74-W-186(N,G)74-W-187,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/12115005
-# target:
+# target: 
 #   Z: 74
 #   A: 186
 #   nuclide: W186
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 74
-#   A: 187
-#   nuclide: W187
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 7
+#   residual: 
+#     Z: 74
+#     A: 187
+#     nuclide: W187
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.200000E-02   9.000000E-03   2.810000E+02   1.405000E+01   1.000000E+00
@@ -40,17 +41,3 @@
 #   author: J.A.Miskel,K.V.Marsh,M.Lindner,R.J.Nagle
 #   title: Neutron activation cross sections.
 #   journal: Jour: Physical Review, Vol.128, p.2717 (1962)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  3.200000E-02
-#   E-max [MeV]:  2.470000E-01
-#   F-value:  1.549228E+00
-#   A-value:  6.593549E-01
-#   chi-2:  4.827888E+01
-#   p-value:  1.304731E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.518690E+00   6.677557E-01   4.519882E+01
-# jendl5.0      1.579010E+00   6.510597E-01   5.135895E+01

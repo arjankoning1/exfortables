@@ -1,28 +1,29 @@
-# header:
+# header: 
 #   title: U238(g,f) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Khan
 #   year: 1972
 #   subentry: M0504003
 #   X4 reaction: 92-U-238(G,F),,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/M0504003
-# target:
+# target: 
 #   Z: 92
 #   A: 238
 #   nuclide: U238
-# reaction:
+# reaction: 
 #   type: (g,f)
 #   ENDF_MF: 3
 #   ENDF_MT: 18
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 33
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 33
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    5.030000E+00   2.515000E-01   9.999999E-02   2.200000E-02   1.000000E+00
@@ -62,18 +63,3 @@
 #   author: A.M.Khan,J.W.Knowles
 #   title: Photofission of Th-232, U-238 and U-235 near  threshold using a variable energy beam of g-rays.
 #   journal: Jour: Nuclear Physics, Section A, Vol.179, p.333 (1972)
-# statistics:
-#   NEA score: T3
-#   IAEA score: -1
-#   E-min [MeV]:  5.030000E+00
-#   E-max [MeV]:  8.390000E+00
-#   F-value:  2.054975E+00
-#   A-value:  1.170556E+00
-#   chi-2:  1.441700E+02
-#   p-value:  2.957558E-01
-#   exp. data sets for p-value:      8
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    2.728101E+00   1.483467E+00   4.219643E+02
-# endfb8.0      1.601414E+00   1.015376E+00   4.588506E+00
-# jendl5.0      1.772109E+00   1.064808E+00   5.957181E+00

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: N14(n,p)C14 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Barschall
 #   year: 1946
 #   subentry: 14523002
 #   X4 reaction: 7-N-14(N,P)6-C-14,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/14523002
-# target:
+# target: 
 #   Z: 7
 #   A: 14
 #   nuclide: N14
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 6
-#   A: 14
-#   nuclide: C14
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 32
+#   residual: 
+#     Z: 6
+#     A: 14
+#     nuclide: C14
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 32
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.950000E-01   0.000000E+00   3.000000E+00   7.500000E-01   1.000000E+00
@@ -65,20 +66,3 @@
 #   author: H.H.Barschall,M.E.Battat
 #   title: On the Disintegration of Nitrogen by Fast Neutrons
 #   journal: Jour: Physical Review, Vol.70, p.245 (1946)
-# statistics:
-#   NEA score: T2
-#   IAEA score:  1
-#   E-min [MeV]:  1.950000E-01
-#   E-max [MeV]:  1.678000E+00
-#   F-value:  2.656097E+00
-#   A-value:  7.788056E-01
-#   chi-2:  2.053282E+01
-#   p-value:  1.442596E-01
-#   exp. data sets for p-value:      2
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    2.596822E+00   8.274539E-01   2.215600E+01
-# endfb8.0      2.596822E+00   8.274539E-01   2.215600E+01
-# jeff3.3       2.596822E+00   8.274539E-01   2.215600E+01
-# jendl5.0      2.893167E+00   6.111812E-01   1.404003E+01
-# cendl3.2      2.596823E+00   8.274539E-01   2.215605E+01

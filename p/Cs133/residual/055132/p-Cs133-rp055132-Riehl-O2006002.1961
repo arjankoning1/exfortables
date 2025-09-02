@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Cs133(p,x)Cs132 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Riehl
 #   year: 1961
 #   subentry: O2006002
 #   X4 reaction: 55-CS-133(P,X)55-CS-132,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/O2006002
-# target:
+# target: 
 #   Z: 55
 #   A: 133
 #   nuclide: Cs133
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 55
-#   A: 132
-#   nuclide: Cs132
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 12
+#   residual: 
+#     Z: 55
+#     A: 132
+#     nuclide: Cs132
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 12
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.559000E+01   0.000000E+00   1.656710E+02   2.450700E+01   1.000000E+00
@@ -45,17 +46,3 @@
 #   author: C.Riehl
 #   title: Reactions (p,xn) on cesium.
 #   journal: Jour: Journal de Physique, Vol.22, p.770 (1961)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  2.559000E+01
-#   E-max [MeV]:  1.525800E+02
-#   F-value:  1.628606E+00
-#   A-value:  6.366475E-01
-#   chi-2:  6.931942E+00
-#   p-value:  2.026153E-01
-#   exp. data sets for p-value:      3
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.495213E+00   6.906260E-01   5.234229E+00
-# jendl5.0      1.751188E+00   5.868879E-01   8.629655E+00

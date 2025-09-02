@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: As75(n,p)Ge75 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Konno
 #   year: 1993
 #   subentry: 22637020
 #   X4 reaction: 33-AS-75(N,P)32-GE-75,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22637020
-# target:
+# target: 
 #   Z: 33
 #   A: 75
 #   nuclide: As75
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 32
-#   A: 75
-#   nuclide: Ge75
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 8
+#   residual: 
+#     Z: 32
+#     A: 75
+#     nuclide: Ge75
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.333000E+01   0.000000E+00   1.912397E+01   2.074500E+00   9.658569E-01
@@ -41,20 +42,3 @@
 #   author: C.Konno, Y.Ikeda, K.Oishi, K.Kawade, H.Yamamoto, H.Maekawa
 #   title: Activation Cross section measurements at neutron  energy from 13.3 to 14.9 MeV
 #   journal: Rept: JAERI Reports, No.1329 (1993)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.333000E+01
-#   E-max [MeV]:  1.492000E+01
-#   F-value:  1.180631E+00
-#   A-value:  1.134853E+00
-#   chi-2:  3.472357E+00
-#   p-value:  2.407305E-01
-#   exp. data sets for p-value:      7
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.218080E+00   1.216625E+00   4.550572E+00
-# endfb8.0      1.299790E+00   1.269482E+00   8.816689E+00
-# jeff3.3       1.185153E+00   1.183486E+00   3.485086E+00
-# jendl5.0      1.028806E+00   1.009320E+00   2.539006E-01
-# cendl3.2      1.023307E+00   1.020288E+00   2.555398E-01

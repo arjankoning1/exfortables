@@ -1,28 +1,29 @@
-# header:
+# header: 
 #   title: U0(n,non) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Cohen
 #   year: 1961
 #   subentry: 21211004
 #   X4 reaction: 92-U-0(N,NON),,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/21211004
-# target:
+# target: 
 #   Z: 92
 #   A: 0
 #   nuclide: U0
-# reaction:
+# reaction: 
 #   type: (n,non)
 #   ENDF_MF: 3
 #   ENDF_MT: 3
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 7
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.335000E+01   1.400000E-01   3.250000E+03   2.500000E+02   1.000000E+00
@@ -36,19 +37,3 @@
 #   author: A.V.Cohen
 #   title: The non-elastic neutron cross-section for uranium at  13-19 MeV and beryllium at 14 MeV
 #   journal: Jour: J.Nuclear Energy A&B (Reactor Sci. and Technol.), Vol.14, p.180 (1
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  1.335000E+01
-#   E-max [MeV]:  1.854000E+01
-#   F-value:  4.787489E+03
-#   A-value:  6.561705E-04
-#   chi-2:  4.489908E+02
-#   p-value:  3.910643E-01
-#   exp. data sets for p-value:      1
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.760056E+04   5.685085E-05   5.977899E+02
-# endfb8.0      1.783645E+04   5.608043E-05   5.977881E+02
-# jeff3.3       1.783645E+04   5.608043E-05   5.977881E+02
-# cendl3.2      1.077089E+00   1.036830E+00   2.597328E+00

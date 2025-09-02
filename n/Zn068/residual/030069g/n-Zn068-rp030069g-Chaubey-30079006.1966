@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: Zn68(n,x)Zn69g cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Chaubey
 #   year: 1966
 #   subentry: 30079006
 #   X4 reaction: 30-ZN-68(N,G)30-ZN-69-G,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30079006
-# target:
+# target: 
 #   Z: 30
 #   A: 68
 #   nuclide: Zn68
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 30
-#   A: 69
-#   nuclide: Zn69g
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 30
+#     A: 69
+#     nuclide: Zn69g
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.400000E-02   0.000000E+00   2.200000E+01   3.000000E+00   1.000000E+00
@@ -39,18 +40,3 @@
 #   author: A.K.Chaubey, M.L.Sehgal
 #   title: Test of Statistical Theory of Nuclear Reactions at 24 keV.
 #   journal: Jour: Physical Review, Vol.152, p.1055 (1966)
-# statistics:
-#   NEA score: T3
-#   IAEA score: -1
-#   E-min [MeV]:  2.400000E-02
-#   E-max [MeV]:  2.400000E-02
-#   F-value:  1.070072E+02
-#   A-value:  9.346141E-03
-#   chi-2:  5.277676E+01
-#   p-value:  2.384186E-07
-#   exp. data sets for p-value:      4
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.023725E+02   9.768249E-03   5.273228E+01
-# jeff3.3       1.094840E+02   9.133756E-03   5.279987E+01
-# jendl5.0      1.092871E+02   9.150208E-03   5.279813E+01

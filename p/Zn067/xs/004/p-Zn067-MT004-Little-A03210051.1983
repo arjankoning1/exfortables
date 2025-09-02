@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Zn67(p,n')Ga67 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Little
 #   year: 1983
 #   subentry: A03210051
 #   X4 reaction: 30-ZN-67(P,N)31-GA-67,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/A03210051
-# target:
+# target: 
 #   Z: 30
 #   A: 67
 #   nuclide: Zn67
-# reaction:
+# reaction: 
 #   type: (p,n')
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 31
-#   A: 67
-#   nuclide: Ga67
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 31
+#   residual: 
+#     Z: 31
+#     A: 67
+#     nuclide: Ga67
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 31
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    6.000000E+00   0.000000E+00   4.200000E+01   0.000000E+00   1.000000E+00
@@ -64,17 +65,3 @@
 #   author: F.E.Little, M.C.Lagunas-Solar
 #   title: Cyclotron production of Ga-67. Cross sections and  thick-target yields for the Zn-67(p,n) and Zn-68(p,2n) reactions.
 #   journal: Jour: Applied Radiation and Isotopes, Vol.34, p.631 (1983)
-# statistics:
-#   NEA score: R2
-#   IAEA score:  0
-#   E-min [MeV]:  6.000000E+00
-#   E-max [MeV]:  3.550000E+01
-#   F-value:  2.744760E+00
-#   A-value:  5.811367E-01
-#   chi-2:  0.000000E+00
-#   p-value:  1.197506E-01
-#   exp. data sets for p-value:      3
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    2.162390E+00   7.197042E-01   0.000000E+00
-# jendl5.0      3.325915E+00   4.692481E-01   0.000000E+00

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: O18(p,x)F18 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Bair
 #   year: 1973
 #   subentry: C1010004
 #   X4 reaction: 8-O-18(P,N)9-F-18,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/C1010004
-# target:
+# target: 
 #   Z: 8
 #   A: 18
 #   nuclide: O18
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 9
-#   A: 18
-#   nuclide: F18
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 295
+#   residual: 
+#     Z: 9
+#     A: 18
+#     nuclide: F18
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 295
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.518000E+00   0.000000E+00   2.000000E-01   0.000000E+00   1.000000E+00
@@ -328,16 +329,3 @@
 #   author: J.K.Bair
 #   title: Total Neutron Yields from the Proton Bombardment of  17,18O
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.8, p.120 (1973)
-# statistics:
-#   NEA score: R2
-#   IAEA score:  1
-#   E-min [MeV]:  2.518000E+00
-#   E-max [MeV]:  3.869000E+00
-#   F-value:  2.840014E+00
-#   A-value:  1.828166E+00
-#   chi-2:  0.000000E+00
-#   p-value:  1.769856E-01
-#   exp. data sets for p-value:      4
-#   libraries:      1
-##  Library          F              A            chi-2
-# tendl.2023    2.840014E+00   1.828166E+00   0.000000E+00

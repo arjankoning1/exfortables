@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ni58(n,x)Co58 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Ikeda
 #   year: 1988
 #   subentry: 22089048
 #   X4 reaction: 28-NI-58(N,P)27-CO-58,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22089048
-# target:
+# target: 
 #   Z: 28
 #   A: 58
 #   nuclide: Ni58
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 27
-#   A: 58
-#   nuclide: Co58
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 16
+#   residual: 
+#     Z: 27
+#     A: 58
+#     nuclide: Co58
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 16
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.332000E+01   0.000000E+00   4.529545E+02   2.299769E+01   9.998995E-01
@@ -49,18 +50,3 @@
 #   author: Y.Ikeda,C.Konno,K.Oishi,T.Nakamura,H.Miyade, K.Kawade,  H.Yamamoto, T.Katoh
 #   title: Activation cross section measurements for fusion  reactor structural materials at neutron energy from  13.3 to 15.0 MeV using FNS facility
 #   journal: Rept: JAERI Reports, No.1312 (1988)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.332000E+01
-#   E-max [MeV]:  1.488000E+01
-#   F-value:  1.103625E+00
-#   A-value:  1.018627E+00
-#   chi-2:  3.021008E+00
-#   p-value:  3.223779E-01
-#   exp. data sets for p-value:      8
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.110771E+00   1.026089E+00   3.472919E+00
-# endfb8.0      1.096944E+00   1.012130E+00   2.658087E+00
-# jendl5.0      1.102761E+00   1.017710E+00   2.932018E+00

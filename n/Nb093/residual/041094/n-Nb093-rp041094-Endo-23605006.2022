@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Nb93(n,x)Nb94 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Endo
 #   year: 2022
 #   subentry: 23605006
 #   X4 reaction: 41-NB-93(N,G)41-NB-94,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/23605006
-# target:
+# target: 
 #   Z: 41
 #   A: 93
 #   nuclide: Nb93
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 41
-#   A: 94
-#   nuclide: Nb94
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 3493
+#   residual: 
+#     Z: 41
+#     A: 94
+#     nuclide: Nb94
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3493
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.001760E-08   0.000000E+00   1.400800E+03   1.674000E+02   1.000000E+00
@@ -3526,18 +3527,3 @@
 #   author: S.Endo,A.Kimura,S.Nakamura,O.Iwamoto,N.Iwamoto, G.Rovira, K.Terada,S.Meigo,Y.Toh,M.Segawa,M.Maeda
 #   title: Neutron capture and total cross-section measurements and resonance parameter analysis of niobium-93 below 400 eV
 #   journal: Jour: Jour. of Nuclear Science and Technology, Vol.59, p.318 (2022)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  1.001760E-08
-#   E-max [MeV]:  4.492210E-04
-#   F-value:  2.981734E+00
-#   A-value:  6.161595E-01
-#   chi-2:  6.263278E+00
-#   p-value:  5.275040E-02
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    2.967733E+00   6.253356E-01   6.225543E+00
-# jeff3.3       2.952192E+00   6.277506E-01   6.368214E+00
-# jendl5.0      3.025317E+00   5.959084E-01   6.196081E+00

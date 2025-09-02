@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Li6(n,t)He4 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Rochman
 #   year: 2006
 #   subentry: 14108004
 #   X4 reaction: 3-LI-6(N,T)2-HE-4,,SIG,,SDT
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/14108004
-# target:
+# target: 
 #   Z: 3
 #   A: 6
 #   nuclide: Li6
-# reaction:
+# reaction: 
 #   type: (n,t)
 #   ENDF_MF: 3
 #   ENDF_MT: 105
-# residual:
-#   Z: 2
-#   A: 4
-#   nuclide: He4
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 140
+#   residual: 
+#     Z: 2
+#     A: 4
+#     nuclide: He4
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 140
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.120000E-07   0.000000E+00   4.130000E+05   9.240000E+03   1.000000E+00
@@ -173,20 +174,3 @@
 #   author: D.Rochman,R.C.Haight,J.M.O'Donnell,S.A.Wender,  D.J.Vieira,E.M.Bond,T.A.Bredeweg,J.B.Wilhelmy,  T.Granier,T.Ethvignot,M.Petit,Y.Danon,C.Romano
 #   title: Cross-section measurements for 239Pu(n,f) and 6Li(n,a)  with a lead slowing-down spectrometer
 #   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.A, Vol.564, p.400 (20
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  1.120000E-07
-#   E-max [MeV]:  2.100000E-03
-#   F-value:  1.119910E+00
-#   A-value:  1.084314E+00
-#   chi-2:  1.512094E+01
-#   p-value:  3.513619E-01
-#   exp. data sets for p-value:      3
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.119152E+00   1.083437E+00   1.492767E+01
-# endfb8.0      1.119152E+00   1.083437E+00   1.492767E+01
-# jeff3.3       1.119569E+00   1.083921E+00   1.503360E+01
-# jendl5.0      1.122253E+00   1.086955E+00   1.572392E+01
-# irdff2.0      1.119399E+00   1.083823E+00   1.499184E+01

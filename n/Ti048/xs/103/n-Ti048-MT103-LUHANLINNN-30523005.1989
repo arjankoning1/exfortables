@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ti48(n,p)Sc48 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: LUHANLINNN
 #   year: 1989
 #   subentry: 30523005
 #   X4 reaction: 22-TI-48(N,P)21-SC-48,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30523005
-# target:
+# target: 
 #   Z: 22
 #   A: 48
 #   nuclide: Ti48
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 21
-#   A: 48
-#   nuclide: Sc48
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 14
+#   residual: 
+#     Z: 21
+#     A: 48
+#     nuclide: Sc48
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 14
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    5.000000E+00   1.000000E-01   9.859200E-02   3.786700E-04   9.859186E-01
@@ -47,21 +48,3 @@
 #   author: LU HAN-LIN,WANG DA-HAI,XIA YI-JUN,CUI YUN-FENG, CHEN PAO-LIN
 #   title: Excitation curves for some reactions of Al, Ti, V and I
 #   journal: Rept: Chinese report to the I.N.D.C., No.16 (1989)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  5.000000E+00
-#   E-max [MeV]:  1.797000E+01
-#   F-value:  1.106213E+00
-#   A-value:  1.053711E+00
-#   chi-2:  3.189741E+01
-#   p-value:  3.063053E-01
-#   exp. data sets for p-value:      3
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.078425E+00   1.046600E+00   3.491781E+00
-# endfb8.0      1.181943E+00   1.099876E+00   2.167468E+01
-# jeff3.3       1.079214E+00   1.045962E+00   3.559173E+00
-# jendl5.0      1.120554E+00   1.057988E+00   1.350383E+02
-# cendl3.2      1.056903E+00   1.028310E+00   2.407320E+01
-# irdff2.0      1.078163E+00   1.044920E+00   3.547340E+00

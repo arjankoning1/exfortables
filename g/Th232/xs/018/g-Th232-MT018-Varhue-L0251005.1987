@@ -1,28 +1,29 @@
-# header:
+# header: 
 #   title: Th232(g,f) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Varhue
 #   year: 1987
 #   subentry: L0251005
 #   X4 reaction: 90-TH-232(G,F),,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/L0251005
-# target:
+# target: 
 #   Z: 90
 #   A: 232
 #   nuclide: Th232
-# reaction:
+# reaction: 
 #   type: (g,f)
 #   ENDF_MF: 3
 #   ENDF_MT: 18
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 5
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    5.000000E+00   0.000000E+00   1.044200E+00   2.485000E-01   1.000000E+00
@@ -34,18 +35,3 @@
 #   author: W.J.Varhue,T.G.Williamson
 #   title: Photoneutron and photofission cross sections for 238U and 232Th using neutron capture gamma rays
 #   journal: Jour: Applied Radiation and Isotopes, Vol.38, p.561 (1987)
-# statistics:
-#   NEA score: T3
-#   IAEA score: -1
-#   E-min [MeV]:  5.000000E+00
-#   E-max [MeV]:  9.000000E+00
-#   F-value:  3.503925E+00
-#   A-value:  9.019752E-01
-#   chi-2:  6.893994E+01
-#   p-value:  2.911623E-01
-#   exp. data sets for p-value:      8
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    8.030304E+00   4.926592E-01   1.247190E+02
-# endfb8.0      1.748767E+00   1.237116E+00   6.483513E+01
-# jendl5.0      1.289074E+00   1.204000E+00   1.726571E+01

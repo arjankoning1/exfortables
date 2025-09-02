@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Zn0(p,x)Ga67 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Park
 #   year: 2019
 #   subentry: D7034003
 #   X4 reaction: 30-ZN-0(P,X)31-GA-67,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/D7034003
-# target:
+# target: 
 #   Z: 30
 #   A: 0
 #   nuclide: Zn0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 31
-#   A: 67
-#   nuclide: Ga67
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 16
+#   residual: 
+#     Z: 31
+#     A: 67
+#     nuclide: Ga67
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 16
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.750000E+01   5.000000E-01   1.341000E+01   1.390000E+00   1.000000E+00
@@ -49,17 +50,3 @@
 #   author: J.K.Park, M.H.Jung, Y.S.Hwang, C.R.Kim, W.J.Cho,  S.C.Yang
 #   title: Measurement of cross sections for proton-induced reactions on natural Zn
 #   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.449, p.35 (201
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  4.750000E+01
-#   E-max [MeV]:  9.920000E+01
-#   F-value:  1.672211E+00
-#   A-value:  6.612091E-01
-#   chi-2:  2.083264E+01
-#   p-value:  2.010264E-01
-#   exp. data sets for p-value:      4
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.407920E+00   7.945939E-01   1.111064E+01
-# jendl5.0      1.899519E+00   5.502151E-01   3.055464E+01

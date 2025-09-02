@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Li6(n,t)He4 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Friesenhahn
 #   year: 1975
 #   subentry: 10303005
 #   X4 reaction: 3-LI-6(N,T)2-HE-4,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/10303005
-# target:
+# target: 
 #   Z: 3
 #   A: 6
 #   nuclide: Li6
-# reaction:
+# reaction: 
 #   type: (n,t)
 #   ENDF_MF: 3
 #   ENDF_MT: 105
-# residual:
-#   Z: 2
-#   A: 4
-#   nuclide: He4
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 152
+#   residual: 
+#     Z: 2
+#     A: 4
+#     nuclide: He4
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 152
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.391300E-03   4.130005E-05   3.243200E+03   1.661201E+02   1.000000E+00
@@ -185,20 +186,3 @@
 #   author: S.J.Friesenhahn,V.J.Orphan,A.D.Carlson,M.P.Fricke, W.M.Lopez
 #   title: Measurements of the 6Li and 10B Partial Cross Sections  from 1 to 1500 keV.
 #   journal: Conf: Conf.on Nucl.Cross-Sect.and Techn.,Washington 1975, Vol.1, p.232 (
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  2.391300E-03
-#   E-max [MeV]:  1.615350E+00
-#   F-value:  1.117642E+00
-#   A-value:  9.469450E-01
-#   chi-2:  2.802035E+01
-#   p-value:  3.124556E-01
-#   exp. data sets for p-value:      3
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.118605E+00   9.435926E-01   2.849544E+01
-# endfb8.0      1.118605E+00   9.435926E-01   2.849544E+01
-# jeff3.3       1.122205E+00   9.441018E-01   2.953074E+01
-# jendl5.0      1.109876E+00   9.598069E-01   2.508545E+01
-# irdff2.0      1.118616E+00   9.437393E-01   2.849466E+01

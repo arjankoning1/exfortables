@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Fe0(n,n'_01)Fe1 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Wilenzick
 #   year: 1965
 #   subentry: 11287010
 #   X4 reaction: 26-FE-0(N,INL)26-FE-0,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/11287010
-#   level energy [MeV]  2.25000E+00
-# target:
+#   level energy [MeV]:  2.25000E+00
+# target: 
 #   Z: 26
 #   A: 0
 #   nuclide: Fe0
-# reaction:
+# reaction: 
 #   type: (n,n'_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 51
@@ -25,14 +25,15 @@
 #     energy [MeV]:  2.206880E+00
 #     spin:  2.500000E+00
 #     parity: -1
-# residual:
-#   Z: 26
-#   A: 1
-#   nuclide: Fe1
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 26
+#     A: 1
+#     nuclide: Fe1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    6.040000E+00   2.300000E-01   1.600000E+03   2.500000E+02   1.000000E+00
@@ -40,20 +41,3 @@
 #   author: R.M.Wilenzick,K.K.Seth,P.R.Bevington,H.W.Lewis
 #   title: Elastic and inelastic scattering of 6 MeV neutrons.
 #   journal: Jour: Nuclear Physics, Vol.62, p.511 (1965)
-# statistics:
-#   NEA score: T3
-#   IAEA score: -1
-#   E-min [MeV]:  6.040000E+00
-#   E-max [MeV]:  6.040000E+00
-#   F-value:  1.094782E+01
-#   A-value:  9.145857E-02
-#   chi-2:  3.379144E+01
-#   p-value:  5.960464E-08
-#   exp. data sets for p-value:      6
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.082070E+01   9.241545E-02   3.373915E+01
-# endfb8.0      1.205371E+01   8.296198E-02   3.444567E+01
-# jeff3.3       9.522440E+00   1.050151E-01   3.280888E+01
-# jendl5.0      1.105962E+01   9.041906E-02   3.388774E+01
-# cendl3.2      1.137662E+01   8.789957E-02   3.407574E+01

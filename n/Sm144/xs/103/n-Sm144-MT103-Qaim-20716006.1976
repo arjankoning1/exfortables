@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Sm144(n,p)Pm144 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Qaim
 #   year: 1976
 #   subentry: 20716006
 #   X4 reaction: 62-SM-144(N,P)61-PM-144,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20716006
-# target:
+# target: 
 #   Z: 62
 #   A: 144
 #   nuclide: Sm144
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 61
-#   A: 144
-#   nuclide: Pm144
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 61
+#     A: 144
+#     nuclide: Pm144
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.470000E+01   3.000000E-01   1.900000E+01   4.000000E+00   1.000000E+00
@@ -34,20 +35,3 @@
 #   author: S.M.Qaim
 #   title: Measurement of (n,p)reaction cross sections at  14.7 MeV using high-pressure liquid chromatography  in the region of rare earths
 #   journal: Jour: Radiochemical and Radioanalytical Letters, Vol.25, p.335 (1976)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.470000E+01
-#   E-max [MeV]:  1.470000E+01
-#   F-value:  1.049385E+00
-#   A-value:  9.782885E-01
-#   chi-2:  1.379139E-01
-#   p-value:  4.695863E-01
-#   exp. data sets for p-value:      3
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.113800E+00   8.978271E-01   6.775927E-01
-# endfb8.0      1.000307E+00   9.996929E-01   1.829061E-03
-# jeff3.3       1.000307E+00   9.996929E-01   1.829061E-03
-# jendl5.0      1.001380E+00   9.986222E-01   8.213547E-03
-# cendl3.2      1.000018E+00   1.000018E+00   1.050644E-04

@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: Mo92(n,x)Nb92m cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Pasha
 #   year: 2019
 #   subentry: 33129004
 #   X4 reaction: 42-MO-92(N,P)41-NB-92-M,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/33129004
-# target:
+# target: 
 #   Z: 42
 #   A: 92
 #   nuclide: Mo92
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 41
-#   A: 92
-#   nuclide: Nb92m
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 41
+#     A: 92
+#     nuclide: Nb92m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.478000E+01   3.800000E-01   6.271777E+01   9.704700E+00   1.001881E+00
@@ -39,17 +40,3 @@
 #   author: I.Pasha, R.Basavanna, S.S.Yerranguntla, S.V.Suryanarayana, M.Karkera, H.Naik, M.P.Karantha, L.S.Danu, S.Bishnoi, T.Patel, R.Kumar
 #   title: 93Nb(n,2n)92mNb, 93Nb(n,alpha)90mY and 92Mo(n,p)92mNb reactions at 14.78 MeV and covariance analysis
 #   journal: Jour: Journal of Radioanalytical and Nuclear Chemistry, Vol.320, p.561 (
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.478000E+01
-#   E-max [MeV]:  1.478000E+01
-#   F-value:  1.007674E+00
-#   A-value:  9.964262E-01
-#   chi-2:  5.515497E-02
-#   p-value:  4.513682E-01
-#   exp. data sets for p-value:      8
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.010388E+00   9.897187E-01   8.444887E-02
-# jendl5.0      1.003179E+00   1.003179E+00   2.586108E-02

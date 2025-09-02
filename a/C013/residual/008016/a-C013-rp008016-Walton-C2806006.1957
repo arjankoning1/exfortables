@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: C13(a,x)O16 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Walton
 #   year: 1957
 #   subentry: C2806006
 #   X4 reaction: 6-C-13(A,N)8-O-16,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/C2806006
-# target:
+# target: 
 #   Z: 6
 #   A: 13
 #   nuclide: C13
-# reaction:
+# reaction: 
 #   type: (a,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 8
-#   A: 16
-#   nuclide: O16
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 44
+#   residual: 
+#     Z: 8
+#     A: 16
+#     nuclide: O16
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 44
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.057400E+00   0.000000E+00   3.283300E+00   0.000000E+00   1.000000E+00
@@ -77,17 +78,3 @@
 #   author: R.B.Walton, J.D.Clement, F.Boreli
 #   title: Interaction of neutrons with oxygen and a study of the  C13(a,n)O16 reaction
 #   journal: Jour: Physical Review, Vol.107, p.1065 (1957)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  1.057400E+00
-#   E-max [MeV]:  3.419000E+00
-#   F-value:  2.019572E+00
-#   A-value:  1.168572E+00
-#   chi-2:  0.000000E+00
-#   p-value:  2.547528E-01
-#   exp. data sets for p-value:      5
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    2.513764E+00   1.446772E+00   0.000000E+00
-# jendl5.0      1.450696E+00   9.438666E-01   0.000000E+00

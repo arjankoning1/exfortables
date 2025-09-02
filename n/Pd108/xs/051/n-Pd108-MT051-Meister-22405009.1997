@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Pd108(n,n'_01)Pd109 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Meister
 #   year: 1997
 #   subentry: 22405009
 #   X4 reaction: 46-PD-108(N,INL)46-PD-108,PAR,SIG,,AV
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22405009
-#   level energy [MeV]  4.34000E-01
-# target:
+#   level energy [MeV]:  4.34000E-01
+# target: 
 #   Z: 46
 #   A: 108
 #   nuclide: Pd108
-# reaction:
+# reaction: 
 #   type: (n,n'_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 51
@@ -25,14 +25,15 @@
 #     energy [MeV]:  4.339380E-01
 #     spin:  2.000000E+00
 #     parity: 1
-# residual:
-#   Z: 46
-#   A: 109
-#   nuclide: Pd109
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 17
+#   residual: 
+#     Z: 46
+#     A: 109
+#     nuclide: Pd109
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 17
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.250000E-01   2.500000E-02   0.000000E+00            NaN   1.176985E+00
@@ -56,20 +57,3 @@
 #   author: A.Meister,E.Wattecamps,A.J.Koning,A.Hogenbirk, H.Gruppelaar,G.Rollings,W.Schubert
 #   title: Cross sections of inelastic neutron scattering  for palladium isotope nuclei
 #   journal: Conf: Conf.on Nucl.Data for Sci.and Techn., Trieste 1997, Vol.1, p.586 (
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  3.250000E-01
-#   E-max [MeV]:  1.250000E+00
-#   F-value:  1.459511E+00
-#   A-value:  7.330673E-01
-#   chi-2:  3.195347E+01
-#   p-value:  1.978349E-01
-#   exp. data sets for p-value:      1
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.246928E+00   8.761939E-01   1.130005E+01
-# endfb8.0      1.434012E+00   7.348044E-01   2.914137E+01
-# jeff3.3       1.434012E+00   7.348044E-01   2.914137E+01
-# jendl5.0      1.616267E+00   6.508671E-01   5.142764E+01
-# cendl3.2      1.520696E+00   6.875171E-01   3.875694E+01

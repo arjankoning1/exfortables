@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Hg199(n,x)Au199 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Alabyad
 #   year: 2006
 #   subentry: 22935008
 #   X4 reaction: 80-HG-199(N,P)79-AU-199,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22935008
-# target:
+# target: 
 #   Z: 80
 #   A: 199
 #   nuclide: Hg199
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 79
-#   A: 199
-#   nuclide: Au199
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 9
+#   residual: 
+#     Z: 79
+#     A: 199
+#     nuclide: Au199
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 9
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    8.450000E+00   2.500000E-01   1.300000E-01   2.000000E-02   1.000000E+00
@@ -42,19 +43,3 @@
 #   author: M.Al-Abyad, S.Sudar, M.N.H.Comsan, S.M.Qaim
 #   title: Cross sections and isomeric cross-section ratios in the interactions of fast neutrons with isotopes of mercury.
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.73, p.064608 (2006)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  8.450000E+00
-#   E-max [MeV]:  1.253000E+01
-#   F-value:  1.449887E+00
-#   A-value:  8.379794E-01
-#   chi-2:  3.105281E+00
-#   p-value:  2.524320E-01
-#   exp. data sets for p-value:      1
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.255025E+00   1.038942E+00   2.030966E+00
-# endfb8.0      1.260373E+00   8.188684E-01   1.967074E+00
-# jeff3.3       1.287999E+00   9.146712E-01   1.896982E+00
-# jendl5.0      1.856532E+00   6.336696E-01   6.526104E+00

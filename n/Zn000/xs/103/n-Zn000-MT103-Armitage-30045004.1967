@@ -1,28 +1,29 @@
-# header:
+# header: 
 #   title: Zn0(n,p) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Armitage
 #   year: 1967
 #   subentry: 30045004
 #   X4 reaction: 30-ZN-0(N,P),,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30045004
-# target:
+# target: 
 #   Z: 30
 #   A: 0
 #   nuclide: Zn0
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 6
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.190000E+00   0.000000E+00   7.616900E+00   1.606800E+00   9.067689E-01
@@ -35,20 +36,3 @@
 #   author: F.G.Armitage
 #   title: 47Ti(n,p) Cross-section from 2.19 To 3.64 MeV
 #   journal: Priv.Comm: Symonds (1967)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  2.190000E+00
-#   E-max [MeV]:  3.640000E+00
-#   F-value:  1.108170E+00
-#   A-value:  9.649757E-01
-#   chi-2:  4.599085E-01
-#   p-value:  2.678958E-01
-#   exp. data sets for p-value:      1
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.049467E+00   1.009253E+00   2.928165E-01
-# endfb8.0      1.163826E+00   8.982703E-01   9.385202E-01
-# jeff3.3       1.049461E+00   1.009233E+00   2.926578E-01
-# jendl5.0      1.069312E+00   9.697135E-01   2.905497E-01
-# cendl3.2      1.154243E+00   9.430606E-01   4.849982E-01

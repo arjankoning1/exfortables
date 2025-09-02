@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Cu0(n,n'_01)Cu1 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Guenther
 #   year: 1986
 #   subentry: 12869004
 #   X4 reaction: 29-CU-0(N,INL)29-CU-0,PAR,SIG,,AV
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/12869004
-#   level energy [MeV]  7.20000E-01
-# target:
+#   level energy [MeV]:  7.20000E-01
+# target: 
 #   Z: 29
 #   A: 0
 #   nuclide: Cu0
-# reaction:
+# reaction: 
 #   type: (n,n'_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 51
@@ -25,14 +25,15 @@
 #     energy [MeV]:  7.390500E-01
 #     spin:  2.000000E+00
 #     parity: 1
-# residual:
-#   Z: 29
-#   A: 1
-#   nuclide: Cu1
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 21
+#   residual: 
+#     Z: 29
+#     A: 1
+#     nuclide: Cu1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 21
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.900000E+00   2.000000E-01   1.965300E+02   3.931000E+01   1.000000E+00
@@ -60,20 +61,3 @@
 #   author: P.T.Guenther, D.L.Smith, A.B.Smith, J.F.Whalen
 #   title: Total, scattering and gamma production cross sections for few-MeV neutrons on elemental copper
 #   journal: Jour: Nuclear Physics, Section A, Vol.448, p.280 (1986)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  1.900000E+00
-#   E-max [MeV]:  3.900000E+00
-#   F-value:  1.468518E+00
-#   A-value:  7.142757E-01
-#   chi-2:  2.730742E+00
-#   p-value:  1.307827E-01
-#   exp. data sets for p-value:      1
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.442370E+00   7.016132E-01   2.777551E+00
-# endfb8.0      1.515294E+00   7.253828E-01   2.742491E+00
-# jeff3.3       1.382490E+00   7.515510E-01   2.227257E+00
-# jendl5.0      1.280158E+00   8.132365E-01   1.543130E+00
-# cendl3.2      1.674008E+00   5.977077E-01   4.363283E+00

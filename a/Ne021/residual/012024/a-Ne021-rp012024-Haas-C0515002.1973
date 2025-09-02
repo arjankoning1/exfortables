@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ne21(a,x)Mg24 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Haas
 #   year: 1973
 #   subentry: C0515002
 #   X4 reaction: 10-NE-21(A,N)12-MG-24,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/C0515002
-# target:
+# target: 
 #   Z: 10
 #   A: 21
 #   nuclide: Ne21
-# reaction:
+# reaction: 
 #   type: (a,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 12
-#   A: 24
-#   nuclide: Mg24
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1336
+#   residual: 
+#     Z: 12
+#     A: 24
+#     nuclide: Mg24
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1336
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.970000E+00   0.000000E+00   2.990000E-01   3.588000E-02   1.000000E+00
@@ -1369,16 +1370,3 @@
 #   author: F.X.Haas,J.K.Bair
 #   title: Total Neutron Yield from the (alpha,n) Reaction on 21,22Ne
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.7, p.2432 (1973)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.970000E+00
-#   E-max [MeV]:  5.141000E+00
-#   F-value:  1.529953E+00
-#   A-value:  1.223191E+00
-#   chi-2:  2.769890E+01
-#   p-value:  2.220887E-01
-#   exp. data sets for p-value:      3
-#   libraries:      1
-##  Library          F              A            chi-2
-# tendl.2023    1.529953E+00   1.223191E+00   2.769890E+01

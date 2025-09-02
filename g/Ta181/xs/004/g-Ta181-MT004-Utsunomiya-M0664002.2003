@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ta181(g,n')Ta180 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Utsunomiya
 #   year: 2003
 #   subentry: M0664002
 #   X4 reaction: 73-TA-181(G,N)73-TA-180,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/M0664002
-# target:
+# target: 
 #   Z: 73
 #   A: 181
 #   nuclide: Ta181
-# reaction:
+# reaction: 
 #   type: (g,n')
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 73
-#   A: 180
-#   nuclide: Ta180
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 13
+#   residual: 
+#     Z: 73
+#     A: 180
+#     nuclide: Ta180
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 13
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    7.800000E+00   0.000000E+00   1.060000E+01   5.500000E+00   1.000000E+00
@@ -46,18 +47,3 @@
 #   author: H.UTSUNOMIYA,H.AKIMUNE,S.GOKO,M.OHTA,H.UEDA, T.YAMAGATA,K.YAMASAKI,H.OHGAKI,H.TOYOKAWA,Y.-W.LUI, T.HAYAKAWA,T.SHIZUMA,E.KHAN,S.GORIELY
 #   title: Cross section  measurements  of  the  181Ta(g,n)180Ta  reaction near    threshold    and    the   p-process  nucleosynthesis.
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.67, p.015807 (2003)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  7.800000E+00
-#   E-max [MeV]:  1.200000E+01
-#   F-value:  1.219849E+00
-#   A-value:  1.118316E+00
-#   chi-2:  2.115358E+01
-#   p-value:  3.025205E-01
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.313220E+00   1.242412E+00   3.964774E+01
-# endfb8.0      1.178725E+00   1.086735E+00   1.346169E+01
-# jendl5.0      1.155456E+00   1.046186E+00   1.233561E+01

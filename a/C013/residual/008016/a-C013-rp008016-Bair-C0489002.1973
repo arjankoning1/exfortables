@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: C13(a,x)O16 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Bair
 #   year: 1973
 #   subentry: C0489002
 #   X4 reaction: 6-C-13(A,N)8-O-16,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/C0489002
-# target:
+# target: 
 #   Z: 6
 #   A: 13
 #   nuclide: C13
-# reaction:
+# reaction: 
 #   type: (a,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 8
-#   A: 16
-#   nuclide: O16
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 855
+#   residual: 
+#     Z: 8
+#     A: 16
+#     nuclide: O16
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 855
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    9.973000E-01   1.495950E-03   1.630000E-01   3.000000E-02   1.000000E+00
@@ -888,17 +889,3 @@
 #   author: J.K.Bair, F.X.Haas
 #   title: Total neutron yield from the reactions 13C(alpha,n)16O  and 17,18O(a,n)20,21Ne
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.7, p.1356 (1973)
-# statistics:
-#   NEA score: R3
-#   IAEA score:  1
-#   E-min [MeV]:  9.973000E-01
-#   E-max [MeV]:  5.401900E+00
-#   F-value:  2.971062E+00
-#   A-value:  1.365304E+00
-#   chi-2:  2.031512E+04
-#   p-value:  2.107458E-01
-#   exp. data sets for p-value:      4
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    4.401405E+00   2.462846E+00   3.986555E+04
-# jendl5.0      1.520136E+00   7.568703E-01   7.646727E+02

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Mg24(n,p)Na24 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Tewes
 #   year: 1960
 #   subentry: 11504002
 #   X4 reaction: 12-MG-24(N,P)11-NA-24,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/11504002
-# target:
+# target: 
 #   Z: 12
 #   A: 24
 #   nuclide: Mg24
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 11
-#   A: 24
-#   nuclide: Na24
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 5
+#   residual: 
+#     Z: 11
+#     A: 24
+#     nuclide: Na24
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.010000E+01   2.000000E-01   8.800001E+01   3.520000E+01   1.000000E+00
@@ -38,21 +39,3 @@
 #   author: H.A.Tewes,A.A.Caretto,A.E.Miller,D.R.Nethaway
 #   title: Excitation functions of neutron-induced reactions
 #   journal: Rept: U.C., Lawrence Rad.Lab. (Berkeley and Livermore), No.6028-T (1960)
-# statistics:
-#   NEA score: R2
-#   IAEA score:  1
-#   E-min [MeV]:  1.010000E+01
-#   E-max [MeV]:  1.400000E+01
-#   F-value:  1.611329E+00
-#   A-value:  1.596726E+00
-#   chi-2:  2.876216E+00
-#   p-value:  3.128849E-02
-#   exp. data sets for p-value:      3
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.572775E+00   1.559516E+00   2.598067E+00
-# endfb8.0      1.641299E+00   1.625338E+00   3.096048E+00
-# jeff3.3       1.641299E+00   1.625338E+00   3.096048E+00
-# jendl5.0      1.641299E+00   1.625338E+00   3.096048E+00
-# cendl3.2      1.616078E+00   1.607221E+00   2.902661E+00
-# irdff2.0      1.552568E+00   1.539875E+00   2.468425E+00

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ti47(n,p)Sc47 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Smith
 #   year: 1975
 #   subentry: 102380271
 #   X4 reaction: 22-TI-47(N,P)21-SC-47,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/102380271
-# target:
+# target: 
 #   Z: 22
 #   A: 47
 #   nuclide: Ti47
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 21
-#   A: 47
-#   nuclide: Sc47
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 30
+#   residual: 
+#     Z: 21
+#     A: 47
+#     nuclide: Sc47
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 30
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.014000E+00   1.100000E-01   6.305410E+01   5.039700E+00   1.002928E+00
@@ -63,21 +64,3 @@
 #   author: D.L.Smith,J.W.Meadows
 #   title: Cross-section measurement of (n,p) reactions for 27Al,  46,47,48Ti, 54,56Fe, 58Ni, 59Co, and 64Zn from near  threshold to 10 MeV
 #   journal: Jour: Nuclear Science and Engineering, Vol.58, p.314 (1975)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  4.014000E+00
-#   E-max [MeV]:  5.937000E+00
-#   F-value:  1.270968E+00
-#   A-value:  8.042679E-01
-#   chi-2:  6.829996E+00
-#   p-value:  1.914351E-01
-#   exp. data sets for p-value:      7
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.296586E+00   7.760046E-01   7.908687E+00
-# endfb8.0      1.107085E+00   9.513204E-01   1.733156E+00
-# jeff3.3       1.296641E+00   7.760029E-01   7.910713E+00
-# jendl5.0      1.294446E+00   7.773311E-01   7.824258E+00
-# cendl3.2      1.292647E+00   7.827833E-01   7.722587E+00
-# irdff2.0      1.295857E+00   7.764304E-01   7.880572E+00

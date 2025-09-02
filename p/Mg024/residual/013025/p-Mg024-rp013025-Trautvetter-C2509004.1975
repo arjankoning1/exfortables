@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Mg24(p,x)Al25 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Trautvetter
 #   year: 1975
 #   subentry: C2509004
 #   X4 reaction: 12-MG-24(P,G)13-AL-25,,SIG,,SFC
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/C2509004
-# target:
+# target: 
 #   Z: 12
 #   A: 24
 #   nuclide: Mg24
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 13
-#   A: 25
-#   nuclide: Al25
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 12
+#   residual: 
+#     Z: 13
+#     A: 25
+#     nuclide: Al25
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 12
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    6.040000E-01   0.000000E+00   1.168500E-05   3.235200E-06   1.000000E+00
@@ -45,16 +46,3 @@
 #   author: H.P.Trautvetter,C.Rolfs
 #   title: Direct capture in the 24Mg(p,g)25Al reaction
 #   journal: Jour: Nuclear Physics, Section A, Vol.242, p.519 (1975)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  6.040000E-01
-#   E-max [MeV]:  1.550000E+00
-#   F-value:  0.000000E+00
-#   A-value:  0.000000E+00
-#   chi-2:  0.000000E+00
-#   p-value:  8.358288E-02
-#   exp. data sets for p-value:      1
-#   libraries:      1
-##  Library          F              A            chi-2
-# tendl.2023    0.000000E+00   0.000000E+00   0.000000E+00

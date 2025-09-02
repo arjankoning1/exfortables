@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Fe54(n,p)Mn54 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Smith
 #   year: 1975
 #   subentry: 102380311
 #   X4 reaction: 26-FE-54(N,P)25-MN-54,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/102380311
-# target:
+# target: 
 #   Z: 26
 #   A: 54
 #   nuclide: Fe54
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 25
-#   A: 54
-#   nuclide: Mn54
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 13
+#   residual: 
+#     Z: 25
+#     A: 54
+#     nuclide: Mn54
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 13
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.979000E+00   1.600000E-01   1.246964E+01   1.276300E+00   1.012146E+00
@@ -46,21 +47,3 @@
 #   author: D.L.Smith,J.W.Meadows
 #   title: Cross-section measurement of (n,p) reactions for 27Al,  46,47,48Ti, 54,56Fe, 58Ni, 59Co, and 64Zn from near  threshold to 10 MeV
 #   journal: Jour: Nuclear Science and Engineering, Vol.58, p.314 (1975)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.979000E+00
-#   E-max [MeV]:  3.990000E+00
-#   F-value:  1.160477E+00
-#   A-value:  9.677708E-01
-#   chi-2:  5.367864E+00
-#   p-value:  2.856989E-01
-#   exp. data sets for p-value:      2
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.138440E+00   9.696490E-01   4.308070E+00
-# endfb8.0      1.136314E+00   9.689912E-01   4.257432E+00
-# jeff3.3       1.198078E+00   8.986380E-01   8.154865E+00
-# jendl5.0      1.144427E+00   9.665164E-01   4.618530E+00
-# cendl3.2      1.198001E+00   1.038850E+00   6.626188E+00
-# irdff2.0      1.136040E+00   9.690674E-01   4.242099E+00

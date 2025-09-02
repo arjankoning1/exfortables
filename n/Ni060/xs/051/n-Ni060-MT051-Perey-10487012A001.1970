@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Ni60(n,n'_01)Ni61 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Perey
 #   year: 1970
 #   subentry: 10487012
 #   X4 reaction: 28-NI-60(N,INL)28-NI-60,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/10487012
-#   level energy [MeV]  1.33200E+00
-# target:
+#   level energy [MeV]:  1.33200E+00
+# target: 
 #   Z: 28
 #   A: 60
 #   nuclide: Ni60
-# reaction:
+# reaction: 
 #   type: (n,n'_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 51
@@ -25,14 +25,15 @@
 #     energy [MeV]:  1.332514E+00
 #     spin:  2.000000E+00
 #     parity: 1
-# residual:
-#   Z: 28
-#   A: 61
-#   nuclide: Ni61
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 5
+#   residual: 
+#     Z: 28
+#     A: 61
+#     nuclide: Ni61
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    6.440000E+00   7.000000E-02   1.428400E+02   7.200000E+00   1.000000E+00
@@ -44,20 +45,3 @@
 #   author: F.G.Perey,C.O.LeRigoleur,W.E.Kinney
 #   title: Nickel-60 neutron elastic- and inelastic-scattering  cross sections from 6.5 TO 8.5 MeV.
 #   journal: Rept: Oak Ridge National Lab. Reports, No.4523 (1970)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  6.440000E+00
-#   E-max [MeV]:  8.560000E+00
-#   F-value:  1.174478E+00
-#   A-value:  8.825427E-01
-#   chi-2:  6.055185E+00
-#   p-value:  1.932909E-01
-#   exp. data sets for p-value:      2
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.208555E+00   8.486311E-01   8.928605E+00
-# endfb8.0      1.208142E+00   8.488499E-01   8.899260E+00
-# jeff3.3       1.002058E+00   9.999570E-01   2.772788E-02
-# jendl5.0      1.157771E+00   8.873149E-01   5.753762E+00
-# cendl3.2      1.209636E+00   8.376635E-01   6.666572E+00

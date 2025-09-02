@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Si0(p,x)Na22 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Barchuk
 #   year: 1987
 #   subentry: A03390022
 #   X4 reaction: 14-SI-0(P,X)11-NA-22,CUM,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/A03390022
-# target:
+# target: 
 #   Z: 14
 #   A: 0
 #   nuclide: Si0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 11
-#   A: 22
-#   nuclide: Na22
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 58
+#   residual: 
+#     Z: 11
+#     A: 22
+#     nuclide: Na22
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 58
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.600000E+01   0.000000E+00   2.101300E-02   1.377900E-03   1.000600E+00
@@ -91,18 +92,3 @@
 #   author: I.F.Barchuk,V.S.Bulkin,V.A.Kuzmenkova,P.M.Kurilo, Yu.N.Lobach,A.F.Ogorodnik,V.S.Procopenko, V.D.Sklyarenko,V.V.Tokarevsky
 #   title: Excitation functions of the reactions induced by interactions of protons over an energy range up to  67 MeV with silicon and iron nuclei.
 #   journal: Jour: Atomnaya Energiya, Vol.63, p.30 (1987)
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  2.600000E+01
-#   E-max [MeV]:  6.640000E+01
-#   F-value:  1.016025E+01
-#   A-value:  1.994746E-01
-#   chi-2:  1.141503E+02
-#   p-value:  2.467784E-01
-#   exp. data sets for p-value:      3
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    3.928315E+00   2.984608E-01   1.038099E+02
-# endfb8.0      3.995775E+01   3.884420E-02   2.002318E+02
-# jendl5.0      2.245081E+00   6.846206E-01   3.840911E+01

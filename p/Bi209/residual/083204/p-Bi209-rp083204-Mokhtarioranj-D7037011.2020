@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Bi209(p,x)Bi204 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Mokhtarioranj
 #   year: 2020
 #   subentry: D7037011
 #   X4 reaction: 83-BI-209(P,X)83-BI-204,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/D7037011
-# target:
+# target: 
 #   Z: 83
 #   A: 209
 #   nuclide: Bi209
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 83
-#   A: 204
-#   nuclide: Bi204
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 4
+#   residual: 
+#     Z: 83
+#     A: 204
+#     nuclide: Bi204
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    5.080000E+01   1.500000E+00   5.000000E+00   5.000000E-01   1.000000E+00
@@ -37,18 +38,3 @@
 #   author: L.Mokhtari Oranj, M.Bakhtiari, N.S.Jung, A.Lee,  H.S.Lee
 #   title: Extension of excitation functions of proton-induced reactions on bismuth
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.101, p.014602 (2020)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  5.080000E+01
-#   E-max [MeV]:  6.740000E+01
-#   F-value:  1.992128E+00
-#   A-value:  1.575545E+00
-#   chi-2:  1.291014E+02
-#   p-value:  2.374243E-01
-#   exp. data sets for p-value:      4
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.304842E+00   9.674661E-01   5.074435E+00
-# endfb8.0      2.973058E+00   2.803936E+00   3.579026E+02
-# jendl5.0      1.504789E+00   1.441746E+00   2.432706E+01

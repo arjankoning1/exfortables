@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Eu153(n,2n)Eu152 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Filatenkov
 #   year: 2016
 #   subentry: 41614173
 #   X4 reaction: 63-EU-153(N,2N)63-EU-152,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/41614173
-# target:
+# target: 
 #   Z: 63
 #   A: 153
 #   nuclide: Eu153
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 63
-#   A: 152
-#   nuclide: Eu152
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 7
+#   residual: 
+#     Z: 63
+#     A: 152
+#     nuclide: Eu152
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.356000E+01   0.000000E+00   1.759016E+03   7.913826E+01   1.000009E+00
@@ -40,20 +41,3 @@
 #   author: A.A.Filatenkov
 #   title: Neutron activation cross sections measured at KRI in neutron energy region 13.4 - 14.9 MeV
 #   journal: Rept: USSR report to the I.N.D.C., No.0460 (2016)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.356000E+01
-#   E-max [MeV]:  1.478000E+01
-#   F-value:  1.073480E+00
-#   A-value:  1.048318E+00
-#   chi-2:  3.523790E+00
-#   p-value:  2.643939E-01
-#   exp. data sets for p-value:      6
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.050841E+00   1.042901E+00   1.923538E+00
-# endfb8.0      1.146533E+00   1.142494E+00   1.235087E+01
-# jeff3.3       1.049253E+00   1.039936E+00   1.825348E+00
-# jendl5.0      1.009271E+00   1.002231E+00   2.334676E-01
-# cendl3.2      1.040597E+00   1.019513E+00   1.285729E+00

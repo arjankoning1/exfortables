@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: Au197(n,n')Au197m cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Martin
 #   year: 1954
 #   subentry: 11985003
 #   X4 reaction: 79-AU-197(N,INL)79-AU-197-M,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/11985003
-# target:
+# target: 
 #   Z: 79
 #   A: 197
 #   nuclide: Au197
-# reaction:
+# reaction: 
 #   type: (n,n')
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 79
-#   A: 197
-#   nuclide: Au197m
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 46
+#   residual: 
+#     Z: 79
+#     A: 197
+#     nuclide: Au197m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 46
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.250000E-01   1.800000E-01   1.000000E+01   5.000000E-01   1.000000E+00
@@ -84,17 +85,3 @@
 #   author: H.C.Martin,B.C.Diven,R.F.Taschek
 #   title: Cross sections for production of In-115-m and Au-197-m  by inelastic scattering of neutrons.
 #   journal: Jour: Physical Review, Vol.93, p.199 (1954)
-# statistics:
-#   NEA score: R3
-#   IAEA score:  1
-#   E-min [MeV]:  4.250000E-01
-#   E-max [MeV]:  5.260000E+00
-#   F-value:  2.592786E+00
-#   A-value:  4.260139E-01
-#   chi-2:  9.830556E+01
-#   p-value:  2.858091E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    2.089080E+00   5.134484E-01   6.571561E+01
-# jendl5.0      3.089820E+00   3.534686E-01   1.308955E+02

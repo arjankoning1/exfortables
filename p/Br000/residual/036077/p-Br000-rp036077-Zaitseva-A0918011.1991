@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Br0(p,x)Kr77 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Zaitseva
 #   year: 1991
 #   subentry: A0918011
 #   X4 reaction: 35-BR-0(P,X)36-KR-77,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/A0918011
-# target:
+# target: 
 #   Z: 35
 #   A: 0
 #   nuclide: Br0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 36
-#   A: 77
-#   nuclide: Kr77
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 22
+#   residual: 
+#     Z: 36
+#     A: 77
+#     nuclide: Kr77
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 22
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.493000E+01   0.000000E+00   2.526000E+01   4.900000E+00   1.000000E+00
@@ -55,17 +56,3 @@
 #   author: N.G.Zaitseva,C.Deptula, O.Knotek, Kim Sen Khan, S.Mikolaewski, P.Mikec, E.Rurarz, V.A.Khalkin, V.A.Konov, L.M.Popinenkova
 #   title: Cross sections for the 100 MeV proton-induced nuclear reactions and yields of some radionuclides used in nuclear medicine
 #   journal: Jour: Radiochimica Acta, Vol.54, p.57 (1991)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  2.493000E+01
-#   E-max [MeV]:  9.805000E+01
-#   F-value:  1.975638E+00
-#   A-value:  5.941325E-01
-#   chi-2:  6.216083E+00
-#   p-value:  2.530716E-01
-#   exp. data sets for p-value:      5
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    2.067526E+00   5.444278E-01   7.807690E+00
-# jendl5.0      1.881687E+00   6.483751E-01   4.624478E+00

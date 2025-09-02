@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Cu65(p,x)Zn65 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Hershberger
 #   year: 1984
 #   subentry: C0738002
 #   X4 reaction: 29-CU-65(P,N)30-ZN-65,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/C0738002
-# target:
+# target: 
 #   Z: 29
 #   A: 65
 #   nuclide: Cu65
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 30
-#   A: 65
-#   nuclide: Zn65
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 87
+#   residual: 
+#     Z: 30
+#     A: 65
+#     nuclide: Zn65
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 87
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.044000E+00   0.000000E+00   1.000000E-02   8.000000E-04   1.000000E+00
@@ -120,18 +121,3 @@
 #   author: R.L.Hershberger,F.Gabbard
 #   title: Comparison of measured and calculated (p,n) reaction  rates for selected targets with 51<=A<=75
 #   journal: Jour: Bulletin of the American Physical Society Ser.II, Vol.29, p.1056(E
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  2.044000E+00
-#   E-max [MeV]:  4.190000E+00
-#   F-value:  1.396914E+00
-#   A-value:  1.310762E+00
-#   chi-2:  3.867156E+04
-#   p-value:  3.206069E-01
-#   exp. data sets for p-value:      2
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.483902E+00   1.420354E+00   5.885316E+04
-# endfb8.0      1.357079E+00   1.299526E+00   3.082738E+04
-# jendl5.0      1.338519E+00   1.290385E+00   3.554197E+04

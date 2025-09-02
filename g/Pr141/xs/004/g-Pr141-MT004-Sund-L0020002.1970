@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Pr141(g,n')Pr140 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Sund
 #   year: 1970
 #   subentry: L0020002
 #   X4 reaction: 59-PR-141(G,N)59-PR-140,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/L0020002
-# target:
+# target: 
 #   Z: 59
 #   A: 141
 #   nuclide: Pr141
-# reaction:
+# reaction: 
 #   type: (g,n')
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 59
-#   A: 140
-#   nuclide: Pr140
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 100
+#   residual: 
+#     Z: 59
+#     A: 140
+#     nuclide: Pr140
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 100
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    8.890000E+00   0.000000E+00   1.200000E+01   1.700000E+01   1.000000E+00
@@ -133,18 +134,3 @@
 #   author: R.E.SUND,V.V.VERBINSKI,H.WEBER,L.A.KULL
 #   title: 141Pr (gamma,n) cross section from threshold to 24 MeV
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.2, p.1129 (1970)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  8.890000E+00
-#   E-max [MeV]:  2.369000E+01
-#   F-value:  1.349345E+00
-#   A-value:  9.461576E-01
-#   chi-2:  4.031112E+00
-#   p-value:  2.930085E-01
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.281949E+00   9.608795E-01   4.855857E+00
-# endfb8.0      1.372205E+00   9.031615E-01   3.813571E+00
-# jendl5.0      1.341671E+00   9.849602E-01   3.536015E+00

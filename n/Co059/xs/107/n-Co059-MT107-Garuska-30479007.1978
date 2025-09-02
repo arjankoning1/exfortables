@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Co59(n,a)Mn56 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Garuska
 #   year: 1978
 #   subentry: 30479007
 #   X4 reaction: 27-CO-59(N,A)25-MN-56,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30479007
-# target:
+# target: 
 #   Z: 27
 #   A: 59
 #   nuclide: Co59
-# reaction:
+# reaction: 
 #   type: (n,a)
 #   ENDF_MF: 3
 #   ENDF_MT: 107
-# residual:
-#   Z: 25
-#   A: 56
-#   nuclide: Mn56
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 25
+#     A: 56
+#     nuclide: Mn56
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.460000E+01   0.000000E+00   3.612667E+01   2.802800E+00   1.032190E+00
@@ -34,21 +35,3 @@
 #   author: U.Garuska,J.Dresler,H.Malecki
 #   title: Cross-section measurements of the (n,a) reaction at 14.6 MeV neutron-energy.
 #   journal: Prog: Inst.Badan Jadr.(Nucl.Res.),Swierk+Warsaw,Repts, No.1773/I/PL/A, p
-# statistics:
-#   NEA score: T1
-#   IAEA score:  0
-#   E-min [MeV]:  1.460000E+01
-#   E-max [MeV]:  1.460000E+01
-#   F-value:  1.163981E+00
-#   A-value:  8.604326E-01
-#   chi-2:  3.681018E+00
-#   p-value:  1.096548E-01
-#   exp. data sets for p-value:      8
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.133736E+00   8.820392E-01   2.813214E+00
-# endfb8.0      1.163672E+00   8.593485E-01   3.680755E+00
-# jeff3.3       1.194484E+00   8.371815E-01   4.685077E+00
-# jendl5.0      1.161326E+00   8.610848E-01   3.608949E+00
-# cendl3.2      1.191462E+00   8.393047E-01   4.581554E+00
-# irdff2.0      1.130164E+00   8.848277E-01   2.716559E+00

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ge0(p,x)As72 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Basile
 #   year: 1981
 #   subentry: A0190002
 #   X4 reaction: 32-GE-0(P,X)33-AS-72,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/A0190002
-# target:
+# target: 
 #   Z: 32
 #   A: 0
 #   nuclide: Ge0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 33
-#   A: 72
-#   nuclide: As72
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 17
+#   residual: 
+#     Z: 33
+#     A: 72
+#     nuclide: As72
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 17
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    6.520000E+00   1.700000E-01   1.540000E+02   6.000000E+00   1.000000E+00
@@ -50,17 +51,3 @@
 #   author: D.Basile,C.Birattari,M.Bonardi,L.Goetz,E.Sabbioni, A.Salomone
 #   title: Excitation functions and production of arsenic radioisotopes for enviromental toxicology and biomedical purposes.
 #   journal: Jour: Applied Radiation and Isotopes, Vol.32, p.403 (1981)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  6.520000E+00
-#   E-max [MeV]:  4.105000E+01
-#   F-value:  1.682152E+00
-#   A-value:  6.106599E-01
-#   chi-2:  1.288431E+02
-#   p-value:  1.749903E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.707124E+00   6.021028E-01   1.346786E+02
-# jendl5.0      1.656834E+00   6.193386E-01   1.230077E+02

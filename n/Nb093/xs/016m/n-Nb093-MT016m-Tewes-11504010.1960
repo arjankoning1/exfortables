@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: Nb93(n,2n)Nb92m cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Tewes
 #   year: 1960
 #   subentry: 11504010
 #   X4 reaction: 41-NB-93(N,2N)41-NB-92-M,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/11504010
-# target:
+# target: 
 #   Z: 41
 #   A: 93
 #   nuclide: Nb93
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 41
-#   A: 92
-#   nuclide: Nb92m
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 12
+#   residual: 
+#     Z: 41
+#     A: 92
+#     nuclide: Nb92m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 12
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    9.350000E+00   2.000000E-01   8.000000E+00   1.600000E+00   1.000000E+00
@@ -50,19 +51,3 @@
 #   author: H.A.Tewes,A.A.Caretto,A.E.Miller,D.R.Nethaway
 #   title: Excitation functions of neutron-induced reactions
 #   journal: Rept: U.C., Lawrence Rad.Lab. (Berkeley and Livermore), No.6028-T (1960)
-# statistics:
-#   NEA score: R2
-#   IAEA score:  1
-#   E-min [MeV]:  9.350000E+00
-#   E-max [MeV]:  1.510000E+01
-#   F-value:  1.413685E+00
-#   A-value:  1.179920E+00
-#   chi-2:  8.629308E+00
-#   p-value:  2.955427E-01
-#   exp. data sets for p-value:      6
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.400914E+00   1.176985E+00   7.211819E+00
-# jeff3.3       1.401039E+00   1.177022E+00   7.218233E+00
-# jendl5.0      1.555351E+00   1.236261E+00   1.730465E+01
-# irdff2.0      1.269527E+00   1.131733E+00   2.782535E+00

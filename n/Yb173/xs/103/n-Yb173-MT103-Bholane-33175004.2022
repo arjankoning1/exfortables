@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Yb173(n,p)Tm173 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Bholane
 #   year: 2022
 #   subentry: 33175004
 #   X4 reaction: 70-YB-173(N,P)69-TM-173,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/33175004
-# target:
+# target: 
 #   Z: 70
 #   A: 173
 #   nuclide: Yb173
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 69
-#   A: 173
-#   nuclide: Tm173
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 69
+#     A: 173
+#     nuclide: Tm173
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.477000E+01   3.400000E-01   4.500000E+00   6.228001E-01   1.000000E+00
@@ -34,19 +35,3 @@
 #   author: G.T.Bholane, T.S.Ganesapandy, A.B.Phatangare, F.M.D.Attar, S.S.Dahiwale, S.V.Suryanarayana, V.N.Bhoraskar, S.D.Dhole
 #   title: Activation cross section measurements and estimation of photon and neutron induced nuclear reactions for ytterbium isotopes with covariance analysis
 #   journal: Jour: Radiation Physics and Chemistry, Vol.195, p.110066 (2022)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  1.477000E+01
-#   E-max [MeV]:  1.477000E+01
-#   F-value:  2.372887E+00
-#   A-value:  2.211250E+00
-#   chi-2:  1.267235E+02
-#   p-value:  2.852838E-01
-#   exp. data sets for p-value:      5
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    3.388855E+00   3.388855E+00   2.979252E+02
-# endfb8.0      1.580438E+00   1.580438E+00   1.758987E+01
-# jeff3.3       2.824515E+00   2.824515E+00   1.737891E+02
-# jendl5.0      1.580438E+00   1.580438E+00   1.758987E+01

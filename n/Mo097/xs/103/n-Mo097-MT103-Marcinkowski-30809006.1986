@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Mo97(n,p)Nb97 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Marcinkowski
 #   year: 1986
 #   subentry: 30809006
 #   X4 reaction: 42-MO-97(N,P)41-NB-97,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30809006
-# target:
+# target: 
 #   Z: 42
 #   A: 97
 #   nuclide: Mo97
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 41
-#   A: 97
-#   nuclide: Nb97
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 8
+#   residual: 
+#     Z: 41
+#     A: 97
+#     nuclide: Nb97
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.300000E+01   0.000000E+00   7.101800E+00   3.348000E+00   1.014540E+00
@@ -41,20 +42,3 @@
 #   author: A.Marcinkowski,K.Stankiewicz,U.Garuska,M.Herman
 #   title: Cross section of fast neutron induced reactions on molybdenum isotopes
 #   journal: Jour: Zeitschrift fuer Physik A, Hadrons and Nuclei, Vol.323, p.91 (1986
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.300000E+01
-#   E-max [MeV]:  1.660000E+01
-#   F-value:  1.285762E+00
-#   A-value:  1.126839E+00
-#   chi-2:  5.073410E+00
-#   p-value:  2.928666E-01
-#   exp. data sets for p-value:      2
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.559989E+00   1.459511E+00   2.074100E+01
-# endfb8.0      1.113507E+00   9.959973E-01   6.857708E-01
-# jeff3.3       1.153573E+00   1.033247E+00   5.769882E-01
-# jendl5.0      1.153573E+00   1.033247E+00   5.769882E-01
-# cendl3.2      1.292341E+00   1.170673E+00   2.786301E+00

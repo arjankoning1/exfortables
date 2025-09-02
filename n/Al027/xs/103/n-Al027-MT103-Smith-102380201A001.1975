@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Al27(n,p)Mg27 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Smith
 #   year: 1975
 #   subentry: 102380201
 #   X4 reaction: 13-AL-27(N,P)12-MG-27,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/102380201
-# target:
+# target: 
 #   Z: 13
 #   A: 27
 #   nuclide: Al27
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 12
-#   A: 27
-#   nuclide: Mg27
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 24
+#   residual: 
+#     Z: 12
+#     A: 27
+#     nuclide: Mg27
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 24
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.805000E+00   5.818000E-02   3.489600E-01   6.384000E-02   9.922162E-01
@@ -57,21 +58,3 @@
 #   author: D.L.Smith,J.W.Meadows
 #   title: Cross-section measurement of (n,p) reactions for 27Al,  46,47,48Ti, 54,56Fe, 58Ni, 59Co, and 64Zn from near  threshold to 10 MeV
 #   journal: Jour: Nuclear Science and Engineering, Vol.58, p.314 (1975)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  2.805000E+00
-#   E-max [MeV]:  3.962000E+00
-#   F-value:  1.341558E+00
-#   A-value:  9.691955E-01
-#   chi-2:  2.993514E+01
-#   p-value:  3.001682E-01
-#   exp. data sets for p-value:      6
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.046922E+00   9.937471E-01   8.315679E-01
-# endfb8.0      1.325288E+00   1.135254E+00   5.026316E+01
-# jeff3.3       1.325288E+00   1.135254E+00   5.026316E+01
-# jendl5.0      1.351691E+00   9.919553E-01   2.915446E+01
-# cendl3.2      1.673211E+00   6.580444E-01   4.859986E+01
-# irdff2.0      1.039655E+00   9.914237E-01   4.986696E-01

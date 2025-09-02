@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Tl203(n,x)Tl204 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Macklin
 #   year: 1976
 #   subentry: 10602005
 #   X4 reaction: 81-TL-203(N,G)81-TL-204,,SIG,,AV
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/10602005
-# target:
+# target: 
 #   Z: 81
 #   A: 203
 #   nuclide: Tl203
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 81
-#   A: 204
-#   nuclide: Tl204
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 10
+#   residual: 
+#     Z: 81
+#     A: 204
+#     nuclide: Tl204
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.750000E-02   2.500000E-03   4.515800E+02   4.515800E+01   1.000000E+00
@@ -43,17 +44,3 @@
 #   author: R.MACKLIN,R.R.WINTERS
 #   title: Stellar neutron capture in the thallium isotopes
 #   journal: Jour: Astrophysical Journal, Vol.208, p.812 (1976)
-# statistics:
-#   NEA score: T3
-#   IAEA score: -1
-#   E-min [MeV]:  3.750000E-02
-#   E-max [MeV]:  9.500000E-02
-#   F-value:  5.492188E+01
-#   A-value:  3.788321E-02
-#   chi-2:  7.122455E+01
-#   p-value:  2.118394E-01
-#   exp. data sets for p-value:      2
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    3.105061E+00   3.317030E-01   4.391317E+01
-# jeff3.3       2.574320E+02   4.326576E-03   9.853593E+01

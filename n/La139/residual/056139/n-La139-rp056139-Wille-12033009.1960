@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: La139(n,x)Ba139 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Wille
 #   year: 1960
 #   subentry: 12033009
 #   X4 reaction: 57-LA-139(N,P)56-BA-139,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/12033009
-# target:
+# target: 
 #   Z: 57
 #   A: 139
 #   nuclide: La139
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 56
-#   A: 139
-#   nuclide: Ba139
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 56
+#     A: 139
+#     nuclide: Ba139
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.480000E+01   8.000000E-01   5.000000E+00   1.000000E+00   1.000000E+00
@@ -34,17 +35,3 @@
 #   author: R.G.Wille,R.W.Fink
 #   title: Activation Cross Sections for 14.8-MeV Neutrons and Some New Radioactive Nuclides in the Rare Earth Region
 #   journal: Jour: Physical Review, Vol.118, p.242 (1960)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.480000E+01
-#   E-max [MeV]:  1.480000E+01
-#   F-value:  1.020675E+00
-#   A-value:  9.819176E-01
-#   chi-2:  1.158019E-01
-#   p-value:  2.227421E-01
-#   exp. data sets for p-value:      8
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.027892E+00   9.728652E-01   1.750161E-01
-# jendl5.0      1.009026E+00   9.910544E-01   5.658768E-02

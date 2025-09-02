@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Zr0(n,x)Zr95 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Wagner
 #   year: 1989
 #   subentry: 30972003
 #   X4 reaction: 40-ZR-0(N,X)40-ZR-95,CUM,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30972003
-# target:
+# target: 
 #   Z: 40
 #   A: 0
 #   nuclide: Zr0
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 40
-#   A: 95
-#   nuclide: Zr95
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 4
+#   residual: 
+#     Z: 40
+#     A: 95
+#     nuclide: Zr95
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.349500E+01   1.000000E-02   1.436600E+03   3.940000E+01   1.000000E+00
@@ -37,18 +38,3 @@
 #   author: M.Wagner,G.Winkler,H.Vonach,Cs.M.Buczko,J.Csikai
 #   title: Measurement of the cross sections for the reactions Cr-52(n,2n)Cr-51, Zn-66(n,2n)Zn-65, Y-89(n,2n)Y-88 and Zr-96(n,2n)Zr-95 from 13.5 to 14.8 MeV.
 #   journal: Jour: Annals of Nuclear Energy, Vol.16, Issue.12, p.623 (1989)
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  1.349500E+01
-#   E-max [MeV]:  1.477100E+01
-#   F-value:  3.532231E+01
-#   A-value:  2.831329E-02
-#   chi-2:  1.314330E+03
-#   p-value:  2.682209E-07
-#   exp. data sets for p-value:      2
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    3.440187E+01   2.906921E-02   1.312314E+03
-# jeff3.3       3.625213E+01   2.758525E-02   1.316315E+03
-# jendl5.0      3.533035E+01   2.830487E-02   1.314360E+03

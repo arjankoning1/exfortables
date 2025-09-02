@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: Ga71(n,x)Zn71m cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Casanova
 #   year: 1976
 #   subentry: 207480111
 #   X4 reaction: 31-GA-71(N,P)30-ZN-71-M,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/207480111
-# target:
+# target: 
 #   Z: 31
 #   A: 71
 #   nuclide: Ga71
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 30
-#   A: 71
-#   nuclide: Zn71m
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 30
+#     A: 71
+#     nuclide: Zn71m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.410000E+01   0.000000E+00   1.189019E+01   1.150900E+00   9.512154E-01
@@ -39,18 +40,3 @@
 #   author: J.L.Casanova,M.L.Sanchez
 #   title: Measurement of the (n,p),(n,alpha),(n,2n)  cross sections of Zn,Ga,Ge,As,and Se for 14.1 MeV  neutrons, and (n,p) cross section analysis
 #   journal: Jour: Anales de Fisica, Vol.72, Issue.3, p.186 (1976)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.410000E+01
-#   E-max [MeV]:  1.410000E+01
-#   F-value:  1.331525E+00
-#   A-value:  1.207983E+00
-#   chi-2:  1.417567E+01
-#   p-value:  4.901748E-01
-#   exp. data sets for p-value:      5
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.602520E+00   1.602520E+00   3.874765E+01
-# jeff3.3       1.156227E+00   1.156227E+00   3.074598E+00
-# jendl5.0      1.051148E+00   9.513406E-01   7.047732E-01

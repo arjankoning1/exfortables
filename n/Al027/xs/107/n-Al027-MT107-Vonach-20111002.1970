@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Al27(n,a)Na24 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Vonach
 #   year: 1970
 #   subentry: 20111002
 #   X4 reaction: 13-AL-27(N,A)11-NA-24,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20111002
-# target:
+# target: 
 #   Z: 13
 #   A: 27
 #   nuclide: Al27
-# reaction:
+# reaction: 
 #   type: (n,a)
 #   ENDF_MF: 3
 #   ENDF_MT: 107
-# residual:
-#   Z: 11
-#   A: 24
-#   nuclide: Na24
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 11
+#     A: 24
+#     nuclide: Na24
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.443000E+01   1.500000E-02   1.170000E+02   8.000000E-01   1.000000E+00
@@ -34,21 +35,3 @@
 #   author: H.Vonach, M.Hille, G.Stengl, W.Breunlich, E.Werner
 #   title: -Precision measurement of Al-27(n,alpha) cross-section  for 14.43 MeV neutrons.- (in German).
 #   journal: Jour: Zeitschrift fuer Physik, Vol.237, p.155 (1970)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.443000E+01
-#   E-max [MeV]:  1.443000E+01
-#   F-value:  1.003850E+00
-#   A-value:  1.000778E+00
-#   chi-2:  5.237246E-01
-#   p-value:  4.881205E-01
-#   exp. data sets for p-value:      8
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.002092E+00   9.979123E-01   4.088939E-01
-# endfb8.0      1.000085E+00   9.999152E-01   1.557450E-02
-# jeff3.3       1.000085E+00   9.999152E-01   1.557450E-02
-# jendl5.0      1.000072E+00   1.000072E+00   1.316448E-02
-# cendl3.2      1.008976E+00   1.008976E+00   2.281599E+00
-# irdff2.0      1.002085E+00   9.979188E-01   4.075413E-01

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Pb0(p,x)Bi206 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Kuhnhenn
 #   year: 2001
 #   subentry: O0906022
 #   X4 reaction: 82-PB-0(P,X)83-BI-206,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/O0906022
-# target:
+# target: 
 #   Z: 82
 #   A: 0
 #   nuclide: Pb0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 83
-#   A: 206
-#   nuclide: Bi206
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 24
+#   residual: 
+#     Z: 83
+#     A: 206
+#     nuclide: Bi206
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 24
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    9.000000E+00   1.100000E+00   1.140000E+01   7.000000E-01   1.000000E+00
@@ -57,18 +58,3 @@
 #   author: J.Kuhnhenn, U.Herpers, W.Glasser, R.Michel, P.W.Kubik, M.Suter
 #   title: Thin target cross sections for proton-induced production of radionuclides from lead for E(P)<71 MeV.
 #   journal: Jour: Radiochimica Acta, Vol.89, p.697 (2001)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  9.000000E+00
-#   E-max [MeV]:  6.900000E+01
-#   F-value:  1.182041E+00
-#   A-value:  1.125270E+00
-#   chi-2:  1.226188E+01
-#   p-value:  2.938078E-01
-#   exp. data sets for p-value:      2
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.076415E+00   1.043415E+00   2.225121E+00
-# endfb8.0      1.301296E+00   1.262454E+00   3.100706E+01
-# jendl5.0      1.100259E+00   1.081679E+00   3.553466E+00

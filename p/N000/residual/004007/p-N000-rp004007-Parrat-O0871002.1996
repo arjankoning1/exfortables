@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: N0(p,x)Be7 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Parrat
 #   year: 1996
 #   subentry: O0871002
 #   X4 reaction: 7-N-0(P,X)4-BE-7,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/O0871002
-# target:
+# target: 
 #   Z: 7
 #   A: 0
 #   nuclide: N0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 4
-#   A: 7
-#   nuclide: Be7
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 2
+#   residual: 
+#     Z: 4
+#     A: 7
+#     nuclide: Be7
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.040000E+01   5.000000E-01   6.990000E+00   7.300000E-01   1.000000E+00
@@ -35,18 +36,3 @@
 #   author: Y.Parrat, W.Hajdas, U.Baltensperger, H.-A.Synal, P.W.Kubik, M.Suter, H.W.Gaggeler
 #   title: Cross section measurements of proton induced reactions using a gas target
 #   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.113, p.470 (19
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  4.040000E+01
-#   E-max [MeV]:  5.960000E+01
-#   F-value:  1.838591E+00
-#   A-value:  8.119231E-01
-#   chi-2:  1.776041E+01
-#   p-value:  3.022646E-01
-#   exp. data sets for p-value:      2
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    2.037564E+00   6.265550E-01   2.021546E+01
-# endfb8.0      2.039556E+00   6.257487E-01   2.023897E+01
-# jendl5.0      1.367716E+00   1.365166E+00   1.282680E+01

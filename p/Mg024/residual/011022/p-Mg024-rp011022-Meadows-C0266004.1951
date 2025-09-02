@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Mg24(p,x)Na22 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Meadows
 #   year: 1951
 #   subentry: C0266004
 #   X4 reaction: 12-MG-24(P,X)11-NA-22,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/C0266004
-# target:
+# target: 
 #   Z: 12
 #   A: 24
 #   nuclide: Mg24
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 11
-#   A: 22
-#   nuclide: Na22
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 12
+#   residual: 
+#     Z: 11
+#     A: 22
+#     nuclide: Na22
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 12
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.100000E+01   0.000000E+00   1.000000E+01   0.000000E+00   1.000000E+00
@@ -45,17 +46,3 @@
 #   author: J.W.Meadows,R.B.Holt
 #   title: Some excitation functions for protons on magnesium
 #   journal: Jour: Physical Review, Vol.83, p.1257(1) (1951)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  3.100000E+01
-#   E-max [MeV]:  9.500000E+01
-#   F-value:  2.130770E+00
-#   A-value:  2.034099E+00
-#   chi-2:  0.000000E+00
-#   p-value:  1.672885E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    2.414201E+00   2.305967E+00   0.000000E+00
-# jendl5.0      1.833822E+00   1.794283E+00   0.000000E+00

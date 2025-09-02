@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Bi209(p,3n)Po207 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Miyano
 #   year: 1974
 #   subentry: E0056002
 #   X4 reaction: 83-BI-209(P,3N)84-PO-207,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/E0056002
-# target:
+# target: 
 #   Z: 83
 #   A: 209
 #   nuclide: Bi209
-# reaction:
+# reaction: 
 #   type: (p,3n)
 #   ENDF_MF: 3
 #   ENDF_MT: 17
-# residual:
-#   Z: 84
-#   A: 207
-#   nuclide: Po207
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 15
+#   residual: 
+#     Z: 84
+#     A: 207
+#     nuclide: Po207
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 15
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.791000E+01   0.000000E+00   1.971000E+01   0.000000E+00   1.000000E+00
@@ -48,18 +49,3 @@
 #   author: K.Miyano, M.Sekikawa, T.Kaneko, M.Nomoto
 #   title: Reactions on 209Bi induced by intermediate energy protons and the effect of direct reactions
 #   journal: Jour: Nuclear Physics, Section A, Vol.230, Issue.1, p.98 (1974)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  1.791000E+01
-#   E-max [MeV]:  5.197000E+01
-#   F-value:  1.465979E+00
-#   A-value:  1.328686E+00
-#   chi-2:  1.864523E+01
-#   p-value:  1.641346E-01
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.333755E+00   1.237498E+00   9.557933E+00
-# endfb8.0      1.522954E+00   1.482051E+00   2.694222E+01
-# jendl5.0      1.515816E+00   1.361236E+00   2.048216E+01

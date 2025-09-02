@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Bi209(n,n'_01)Bi210 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Smith
 #   year: 1980
 #   subentry: 10846004
 #   X4 reaction: 83-BI-209(N,INL)83-BI-209,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/10846004
-#   level energy [MeV]  8.95000E-01
-# target:
+#   level energy [MeV]:  8.95000E-01
+# target: 
 #   Z: 83
 #   A: 209
 #   nuclide: Bi209
-# reaction:
+# reaction: 
 #   type: (n,n'_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 51
@@ -25,14 +25,15 @@
 #     energy [MeV]:  8.962800E-01
 #     spin:  3.500000E+00
 #     parity: -1
-# residual:
-#   Z: 83
-#   A: 210
-#   nuclide: Bi210
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 29
+#   residual: 
+#     Z: 83
+#     A: 210
+#     nuclide: Bi210
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 29
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.750000E+00   0.000000E+00   3.610000E+02   4.000000E+01   1.000000E+00
@@ -68,20 +69,3 @@
 #   author: A.Smith,P.Guenther,J.Whalen
 #   title: Fast-neutron cross sections of elemental bismuth.
 #   journal: Jour: Nuclear Science and Engineering, Vol.75, p.69 (1980)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  1.750000E+00
-#   E-max [MeV]:  4.000000E+00
-#   F-value:  1.129895E+00
-#   A-value:  1.013559E+00
-#   chi-2:  2.259642E+00
-#   p-value:  3.577355E-01
-#   exp. data sets for p-value:      6
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.084354E+00   1.037060E+00   1.342790E+00
-# endfb8.0      1.067582E+00   9.925151E-01   8.947631E-01
-# jeff3.3       1.138745E+00   1.039397E+00   2.492133E+00
-# jendl5.0      1.152443E+00   1.124328E+00   3.779443E+00
-# cendl3.2      1.177601E+00   8.892618E-01   2.789083E+00

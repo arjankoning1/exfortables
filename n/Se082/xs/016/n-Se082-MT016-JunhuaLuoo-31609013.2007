@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Se82(n,2n)Se81 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: JunhuaLuoo
 #   year: 2007
 #   subentry: 31609013
 #   X4 reaction: 34-SE-82(N,2N)34-SE-81,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/31609013
-# target:
+# target: 
 #   Z: 34
 #   A: 82
 #   nuclide: Se82
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 34
-#   A: 81
-#   nuclide: Se81
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 3
+#   residual: 
+#     Z: 34
+#     A: 81
+#     nuclide: Se81
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.350000E+01   4.000000E-01   1.331676E+03   4.392681E+01   9.900935E-01
@@ -36,20 +37,3 @@
 #   author: Junhua Luo, Xiaosan Xu, Xuexiang Cao, Xiangzhong Kong
 #   title: Activation cross sections and isomeric cross section  ratios for the (n,2n) reactions on 175Lu, 198Pt and  82Se from 13.5 to 14.6 MeV
 #   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.265, p.453 (20
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  1.350000E+01
-#   E-max [MeV]:  1.460000E+01
-#   F-value:  1.250677E+00
-#   A-value:  8.094274E-01
-#   chi-2:  4.029625E+01
-#   p-value:  1.623741E-01
-#   exp. data sets for p-value:      3
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.284966E+00   7.806733E-01   5.026067E+01
-# endfb8.0      1.359782E+00   7.383746E-01   7.135081E+01
-# jeff3.3       1.203562E+00   8.362446E-01   2.932549E+01
-# jendl5.0      1.150225E+00   8.757724E-01   1.765525E+01
-# cendl3.2      1.218150E+00   8.230358E-01   3.288902E+01

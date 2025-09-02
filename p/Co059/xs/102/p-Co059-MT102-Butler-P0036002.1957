@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Co59(p,g)Ni60 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Butler
 #   year: 1957
 #   subentry: P0036002
 #   X4 reaction: 27-CO-59(P,G)28-NI-60,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/P0036002
-# target:
+# target: 
 #   Z: 27
 #   A: 59
 #   nuclide: Co59
-# reaction:
+# reaction: 
 #   type: (p,g)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 28
-#   A: 60
-#   nuclide: Ni60
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 19
+#   residual: 
+#     Z: 28
+#     A: 60
+#     nuclide: Ni60
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 19
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.000000E+00   5.000000E-02   4.000000E-03   0.000000E+00   1.000000E+00
@@ -52,17 +53,3 @@
 #   author: J.W.BUTLER,C.R.GOSSETT
 #   title: Radiative Proton Capture by Ni58, Ni60, and Co59
 #   journal: Jour: Physical Review, Vol.108, p.1473 (1957)
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  1.000000E+00
-#   E-max [MeV]:  1.900000E+00
-#   F-value:  4.732563E+00
-#   A-value:  2.208398E-01
-#   chi-2:  0.000000E+00
-#   p-value:  1.725422E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    4.980587E+00   2.101327E-01   0.000000E+00
-# jendl5.0      4.579941E+00   2.272257E-01   0.000000E+00

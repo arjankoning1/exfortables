@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Sn120(n,a)Cd117 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: YUWENYUUU
 #   year: 1966
 #   subentry: 13030002
 #   X4 reaction: 50-SN-120(N,A)48-CD-117,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/13030002
-# target:
+# target: 
 #   Z: 50
 #   A: 120
 #   nuclide: Sn120
-# reaction:
+# reaction: 
 #   type: (n,a)
 #   ENDF_MF: 3
 #   ENDF_MT: 107
-# residual:
-#   Z: 48
-#   A: 117
-#   nuclide: Cd117
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 48
+#     A: 117
+#     nuclide: Cd117
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.410000E+01   0.000000E+00   4.208700E-01   4.000000E-01   1.052174E+00
@@ -34,20 +35,3 @@
 #   author: YU-WEN YU
 #   title: THE (N,A) REACTION INDUCED BY 14 MEV NEUTRONS
 #   journal: Jour: Dissertation Abstracts B (Sciences), Vol.27, p.4267 (1966)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.410000E+01
-#   E-max [MeV]:  1.410000E+01
-#   F-value:  1.069625E+00
-#   A-value:  9.513713E-01
-#   chi-2:  6.843166E-02
-#   p-value:  3.721058E-01
-#   exp. data sets for p-value:      2
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.070043E+00   9.345421E-01   8.758148E-02
-# endfb8.0      1.103006E+00   9.066137E-01   1.257349E-01
-# jeff3.3       1.004139E+00   1.004139E+00   5.462664E-03
-# jendl5.0      1.004139E+00   1.004139E+00   5.462664E-03
-# cendl3.2      1.096121E+00   9.123083E-01   1.179166E-01

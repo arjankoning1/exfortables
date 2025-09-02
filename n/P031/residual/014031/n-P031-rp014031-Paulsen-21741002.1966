@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: P31(n,x)Si31 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Paulsen
 #   year: 1966
 #   subentry: 21741002
 #   X4 reaction: 15-P-31(N,P)14-SI-31,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/21741002
-# target:
+# target: 
 #   Z: 15
 #   A: 31
 #   nuclide: P31
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 14
-#   A: 31
-#   nuclide: Si31
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 15
+#   residual: 
+#     Z: 14
+#     A: 31
+#     nuclide: Si31
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 15
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.560000E+00   0.000000E+00   8.000000E-01   3.200000E-02   1.000000E+00
@@ -48,19 +49,3 @@
 #   author: A.PAULSEN,H.LISKIEN
 #   title: -CROSS SECTIONS FOR SOME (N,P) REACTIONS NEAR  THRESHOLD -.
 #   journal: Conf: Nuclear Data For Reactors Conf., Paris 1966, p.217 (1966)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.560000E+00
-#   E-max [MeV]:  2.220000E+00
-#   F-value:  1.630451E+00
-#   A-value:  1.405784E+00
-#   chi-2:  3.494828E+02
-#   p-value:  2.963195E-01
-#   exp. data sets for p-value:      2
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.865290E+00   1.794691E+00   5.507360E+02
-# endfb8.0      1.819919E+00   1.636145E+00   6.341932E+02
-# jeff3.3       1.322641E+00   9.948767E-01   6.203576E+01
-# jendl5.0      1.435178E+00   1.336884E+00   1.509665E+02

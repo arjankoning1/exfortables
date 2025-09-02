@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: U238(p,n')Np238 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Zhao
 #   year: 1999
 #   subentry: O0765008
 #   X4 reaction: 92-U-238(P,N)93-NP-238,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/O0765008
-# target:
+# target: 
 #   Z: 92
 #   A: 238
 #   nuclide: U238
-# reaction:
+# reaction: 
 #   type: (p,n')
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 93
-#   A: 238
-#   nuclide: Np238
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 13
+#   residual: 
+#     Z: 93
+#     A: 238
+#     nuclide: Np238
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 13
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.340000E+01   0.000000E+00   1.140000E+01   7.000000E-01   1.000000E+00
@@ -46,17 +47,3 @@
 #   author: Y.L.Zhao, M.Tanikawa, K.Sueki, I.Nishinaka, K.Tsukada, Y.Oura, Y.Nagame, H.Nakahara
 #   title: Angular momentum effects on mass division in actinide fission.
 #   journal: Jour: Radiochimica Acta, Vol.86, p.79 (1999)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  2.340000E+01
-#   E-max [MeV]:  3.990000E+01
-#   F-value:  1.154856E+00
-#   A-value:  1.039064E+00
-#   chi-2:  9.674795E+00
-#   p-value:  3.779353E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.169652E+00   1.125635E+00   1.310840E+01
-# jendl5.0      1.138834E+00   9.591507E-01   6.241189E+00

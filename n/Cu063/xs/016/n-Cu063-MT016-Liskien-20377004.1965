@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Cu63(n,2n)Cu62 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Liskien
 #   year: 1965
 #   subentry: 20377004
 #   X4 reaction: 29-CU-63(N,2N)29-CU-62,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20377004
-# target:
+# target: 
 #   Z: 29
 #   A: 63
 #   nuclide: Cu63
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 29
-#   A: 62
-#   nuclide: Cu62
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 28
+#   residual: 
+#     Z: 29
+#     A: 62
+#     nuclide: Cu62
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 28
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.260000E+01   1.100000E-01   2.290187E+02   1.412450E+01   1.008893E+00
@@ -61,21 +62,3 @@
 #   author: H.Liskien,A.Paulsen
 #   title: -Cross-section measurement for the threshold reactions Fe56(N,P)Mn56,Co59(N,a)Mn56 and Cu63(N,2N)Cu62 between 12.6 and 19.6 MeV neutron energy -.
 #   journal: Jour: J.Nuclear Energy A&B (Reactor Sci. and Technol.), Vol.19, p.73 (19
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.260000E+01
-#   E-max [MeV]:  1.958000E+01
-#   F-value:  1.224322E+00
-#   A-value:  8.202326E-01
-#   chi-2:  8.087701E+00
-#   p-value:  1.033125E-01
-#   exp. data sets for p-value:      7
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.224005E+00   8.193961E-01   8.091020E+00
-# endfb8.0      1.283243E+00   7.799464E-01   1.162111E+01
-# jeff3.3       1.207037E+00   8.299646E-01   7.121647E+00
-# jendl5.0      1.193164E+00   8.407125E-01   6.483593E+00
-# cendl3.2      1.213884E+00   8.286041E-01   7.541551E+00
-# irdff2.0      1.216929E+00   8.241557E-01   7.667282E+00

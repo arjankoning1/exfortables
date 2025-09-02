@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Al27(p,x)Na24 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Hintz
 #   year: 1952
 #   subentry: B0076003
 #   X4 reaction: 13-AL-27(P,X)11-NA-24,CUM,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/B0076003
-# target:
+# target: 
 #   Z: 13
 #   A: 27
 #   nuclide: Al27
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 11
-#   A: 24
-#   nuclide: Na24
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 37
+#   residual: 
+#     Z: 11
+#     A: 24
+#     nuclide: Na24
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 37
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.340000E+01   0.000000E+00   9.999999E-02   1.500000E-02   1.000000E+00
@@ -70,18 +71,3 @@
 #   author: N.M.Hintz, N.F.Ramsey
 #   title: Excitation functions to 100 MeV
 #   journal: Jour: Physical Review, Vol.88, p.19 (1952)
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  1.340000E+01
-#   E-max [MeV]:  1.180000E+02
-#   F-value:  3.753338E+00
-#   A-value:  5.139713E-01
-#   chi-2:  9.130081E+00
-#   p-value:  1.283151E-01
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.250811E+00   8.964168E-01   1.424878E+00
-# endfb8.0      5.392925E+00   2.836773E-01   1.822840E+01
-# jendl5.0      2.627441E+00   6.836112E-01   5.926328E+00

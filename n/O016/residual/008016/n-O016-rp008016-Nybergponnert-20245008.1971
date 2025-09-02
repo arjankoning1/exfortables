@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: O16(n,x)O16 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Nybergponnert
 #   year: 1971
 #   subentry: 20245008
 #   X4 reaction: 8-O-16(N,INL)8-O-16,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20245008
-# target:
+# target: 
 #   Z: 8
 #   A: 16
 #   nuclide: O16
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 8
-#   A: 16
-#   nuclide: O16
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 8
+#     A: 16
+#     nuclide: O16
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.510000E+01   4.000000E-01   3.100000E+02   5.000000E+01   1.000000E+00
@@ -34,18 +35,3 @@
 #   author: K.Nyberg-Ponnert, B.Jonsson, I.Bergqvist
 #   title: Gamma rays produced by the interaction of 15 MeV  neutrons in N, O, Mg and Al
 #   journal: Jour: Physica Scripta, Vol.4, p.165 (1971)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.510000E+01
-#   E-max [MeV]:  1.510000E+01
-#   F-value:  1.024177E+00
-#   A-value:  1.024177E+00
-#   chi-2:  1.939573E-01
-#   p-value:  4.321602E-01
-#   exp. data sets for p-value:      3
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.024177E+00   1.024177E+00   1.939573E-01
-# endfb8.0      1.024177E+00   1.024177E+00   1.939573E-01
-# jeff3.3       1.024177E+00   1.024177E+00   1.939573E-01

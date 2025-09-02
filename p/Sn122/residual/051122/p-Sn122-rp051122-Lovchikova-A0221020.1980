@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Sn122(p,x)Sb122 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Lovchikova
 #   year: 1980
 #   subentry: A0221020
 #   X4 reaction: 50-SN-122(P,N)51-SB-122,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/A0221020
-# target:
+# target: 
 #   Z: 50
 #   A: 122
 #   nuclide: Sn122
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 51
-#   A: 122
-#   nuclide: Sb122
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 4
+#   residual: 
+#     Z: 51
+#     A: 122
+#     nuclide: Sb122
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    6.000000E+00   0.000000E+00   8.000002E+01   6.400000E+00   1.000000E+00
@@ -37,17 +38,3 @@
 #   author: G.N.Lovchikova,O.A.Salnikov,S.P.Simakov,A.M.Trufanov, G.V.Kotelnikova,V.Pilz,T.Streil
 #   title: Study of mechanism of the reactions 94-Zr(p,n)94-Nb, 119-Sn(p,n)119-Sb and 122-Sn(p,n)122-Sb in the proton energy region 6-9 MeV
 #   journal: Jour: Yadernaya Fizika, Vol.31, p.3 (1980)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  6.000000E+00
-#   E-max [MeV]:  9.000000E+00
-#   F-value:  1.018873E+00
-#   A-value:  1.008869E+00
-#   chi-2:  2.128459E-01
-#   p-value:  3.920143E-01
-#   exp. data sets for p-value:      3
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.017988E+00   1.005894E+00   2.035225E-01
-# jendl5.0      1.019720E+00   1.011853E+00   2.221693E-01

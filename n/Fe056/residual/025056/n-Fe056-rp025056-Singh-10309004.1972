@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Fe56(n,x)Mn56 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Singh
 #   year: 1972
 #   subentry: 10309004
 #   X4 reaction: 26-FE-56(N,P)25-MN-56,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/10309004
-# target:
+# target: 
 #   Z: 26
 #   A: 56
 #   nuclide: Fe56
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 25
-#   A: 56
-#   nuclide: Mn56
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 25
+#     A: 56
+#     nuclide: Mn56
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.450000E+01   0.000000E+00   1.499464E+02   6.334700E+00   1.010420E+00
@@ -34,18 +35,3 @@
 #   author: J.J.Singh
 #   title: Fe(n,x) Reaction Cross Sections at 14.5 MeV
 #   journal: Jour: Transactions of the American Nuclear Society, Vol.15, p.147 (1972)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.450000E+01
-#   E-max [MeV]:  1.450000E+01
-#   F-value:  1.357787E+00
-#   A-value:  7.365373E-01
-#   chi-2:  3.889901E+01
-#   p-value:  1.385865E-01
-#   exp. data sets for p-value:      8
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.368586E+00   7.306811E-01   4.063998E+01
-# jeff3.3       1.356061E+00   7.374302E-01   3.862865E+01
-# jendl5.0      1.348542E+00   7.415416E-01   3.742838E+01

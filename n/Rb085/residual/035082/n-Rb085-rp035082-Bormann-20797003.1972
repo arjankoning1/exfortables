@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Rb85(n,x)Br82 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Bormann
 #   year: 1972
 #   subentry: 20797003
 #   X4 reaction: 37-RB-85(N,A)35-BR-82,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20797003
-# target:
+# target: 
 #   Z: 37
 #   A: 85
 #   nuclide: Rb85
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 107
-# residual:
-#   Z: 35
-#   A: 82
-#   nuclide: Br82
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 5
+#   residual: 
+#     Z: 35
+#     A: 82
+#     nuclide: Br82
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.456000E+01   1.500000E-01   8.450000E+00   7.400000E-01   1.000000E+00
@@ -38,18 +39,3 @@
 #   author: M.BORMANN, H.K.FEDDERSEN, H.H.HOLSCHER, H.WAGNER,  W.SCOBEL
 #   title: -EXCITATION FUNCTIONS OF SOME (N,2N) AND (N,ALPHA)  REACTIONS BETWEEN 13 AND 18 MEV NEUTRON ENERGIES.
 #   journal: Prog: Report from Euratom-countries + Euratom to EANDC, No.150, p.30 (19
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.456000E+01
-#   E-max [MeV]:  1.812000E+01
-#   F-value:  1.275172E+00
-#   A-value:  1.152586E+00
-#   chi-2:  1.866083E+01
-#   p-value:  2.726200E-01
-#   exp. data sets for p-value:      7
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.270750E+00   1.134407E+00   1.796918E+01
-# jeff3.3       1.279547E+00   1.171056E+00   1.935249E+01
-# jendl5.0      0.000000E+00   0.000000E+00   0.000000E+00

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Zn68(n,x)Zn69 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Kononov
 #   year: 1958
 #   subentry: 40421008
 #   X4 reaction: 30-ZN-68(N,G)30-ZN-69,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/40421008
-# target:
+# target: 
 #   Z: 30
 #   A: 68
 #   nuclide: Zn68
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 30
-#   A: 69
-#   nuclide: Zn69
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 30
+#     A: 69
+#     nuclide: Zn69
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.400000E-02   0.000000E+00   2.350000E+01   2.800000E+00   1.000000E+00
@@ -34,18 +35,3 @@
 #   author: V.N.Kononov,Iu.Ia.Stavisskii,V.A.Tolstikov
 #   title: Measurement of the radiative capture cross sections of  25 keV neutrons
 #   journal: Jour: Soviet Atomic Energy, Vol.5, p.1483 (1958)
-# statistics:
-#   NEA score: T3
-#   IAEA score:  1
-#   E-min [MeV]:  2.400000E-02
-#   E-max [MeV]:  2.400000E-02
-#   F-value:  1.005959E+02
-#   A-value:  9.941815E-03
-#   chi-2:  6.904574E+01
-#   p-value:  1.788139E-07
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    9.632114E+01   1.038194E-02   6.898504E+01
-# jeff3.3       1.020437E+02   9.799721E-03   6.906624E+01
-# jendl5.0      1.035369E+02   9.658395E-03   6.908594E+01

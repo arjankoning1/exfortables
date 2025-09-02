@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Sr86(n,x)Rb86 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Kayashima
 #   year: 1979
 #   subentry: 21300004
 #   X4 reaction: 38-SR-86(N,P)37-RB-86,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/21300004
-# target:
+# target: 
 #   Z: 38
 #   A: 86
 #   nuclide: Sr86
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 37
-#   A: 86
-#   nuclide: Rb86
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 37
+#     A: 86
+#     nuclide: Rb86
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.460000E+01   0.000000E+00   3.538472E+01   8.516700E+00   1.013889E+00
@@ -34,18 +35,3 @@
 #   author: K.Kayashima,A.Nagao,I.Kumabe
 #   title: Activation cross section on Ti, Mn, Cu, Zn, Sr  Y, Cd, in and Te for 14.6 neutrons
 #   journal: Prog: Japanese report to the I.N.D.C., No.47, p.94 (1979)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.460000E+01
-#   E-max [MeV]:  1.460000E+01
-#   F-value:  1.158800E+00
-#   A-value:  1.147678E+00
-#   chi-2:  9.193039E-01
-#   p-value:  1.034543E-01
-#   exp. data sets for p-value:      5
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.216247E+00   1.216247E+00   1.391042E+00
-# jeff3.3       1.071151E+00   1.071151E+00   3.950380E-01
-# jendl5.0      1.160344E+00   1.160344E+00   9.718318E-01

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: K39(n,x)Ar39 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Foland
 #   year: 1987
 #   subentry: 13109003
 #   X4 reaction: 19-K-39(N,P)18-AR-39,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/13109003
-# target:
+# target: 
 #   Z: 19
 #   A: 39
 #   nuclide: K39
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 18
-#   A: 39
-#   nuclide: Ar39
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 18
+#     A: 39
+#     nuclide: Ar39
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.458000E+01   0.000000E+00   1.250000E+02   4.250000E+00   1.000000E+00
@@ -34,18 +35,3 @@
 #   author: K.A.FOLAND,R.J.BORG,M.G.MUSTAFA
 #   title: THE PRODUCTION OF 38AR AND 39AR BY 14-MEV NEUTRONS ON 39K
 #   journal: Jour: Nuclear Science and Engineering, Vol.95, p.128 (1987)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.458000E+01
-#   E-max [MeV]:  1.458000E+01
-#   F-value:  1.340865E+00
-#   A-value:  7.585639E-01
-#   chi-2:  5.404885E+01
-#   p-value:  3.631874E-01
-#   exp. data sets for p-value:      4
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.406879E+00   7.107930E-01   7.235355E+01
-# jeff3.3       1.419496E+00   7.044754E-01   7.554913E+01
-# jendl5.0      1.147182E+00   8.717011E-01   1.424387E+01

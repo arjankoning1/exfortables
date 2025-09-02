@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: O17(n,a)C14 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Verzilov
 #   year: 1998
 #   subentry: 23001003
 #   X4 reaction: 8-O-17(N,A)6-C-14,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/23001003
-# target:
+# target: 
 #   Z: 8
 #   A: 17
 #   nuclide: O17
-# reaction:
+# reaction: 
 #   type: (n,a)
 #   ENDF_MF: 3
 #   ENDF_MT: 107
-# residual:
-#   Z: 6
-#   A: 14
-#   nuclide: C14
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 6
+#     A: 14
+#     nuclide: C14
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.470000E+01   3.000000E-01   3.541308E+01   6.494200E+00   1.000369E+00
@@ -34,19 +35,3 @@
 #   author: Y.M.Verzilov, Y.Ikeda, F.Maekawa, Y.Oyama, D.L.Smith
 #   title: Measurements of tritium and 14C production cross sections for 14.7-MeV neutrons on 17O and 18O
 #   journal: Jour: Nuclear Science and Engineering, Vol.129, Issue.1, p.81 (1998)
-# statistics:
-#   NEA score: R3
-#   IAEA score:  1
-#   E-min [MeV]:  1.470000E+01
-#   E-max [MeV]:  1.470000E+01
-#   F-value:  4.230196E+00
-#   A-value:  3.289597E+00
-#   chi-2:  5.467713E+02
-#   p-value:  1.262876E-01
-#   exp. data sets for p-value:      1
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    6.982985E+00   6.982985E+00   1.064417E+03
-# endfb8.0      6.982985E+00   6.982985E+00   1.064417E+03
-# jeff3.3       2.399554E+00   2.399554E+00   5.824456E+01
-# jendl5.0      1.000824E+00   1.000824E+00   5.640326E-03

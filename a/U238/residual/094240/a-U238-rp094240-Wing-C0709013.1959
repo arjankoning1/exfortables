@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: U238(a,x)Pu240 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Wing
 #   year: 1959
 #   subentry: C0709013
 #   X4 reaction: 92-U-238(A,X)94-PU-240,CUM,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/C0709013
-# target:
+# target: 
 #   Z: 92
 #   A: 238
 #   nuclide: U238
-# reaction:
+# reaction: 
 #   type: (a,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 94
-#   A: 240
-#   nuclide: Pu240
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 7
+#   residual: 
+#     Z: 94
+#     A: 240
+#     nuclide: Pu240
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.800000E+01   0.000000E+00   8.800000E-01   0.000000E+00   1.000000E+00
@@ -40,16 +41,3 @@
 #   author: J.WING,W.J.RAMLER,A.L.HARKNESS,J.R.HUIZENGA
 #   title: Excitation Functions of U235 and U238 Bombarded with  Helium and Deuterium Ions
 #   journal: Jour: Physical Review, Vol.114, p.163 (1959)
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  1.800000E+01
-#   E-max [MeV]:  4.300000E+01
-#   F-value:  6.226667E+01
-#   A-value:  1.678251E-02
-#   chi-2:  0.000000E+00
-#   p-value:  4.257475E-08
-#   exp. data sets for p-value:      1
-#   libraries:      1
-##  Library          F              A            chi-2
-# tendl.2023    6.226667E+01   1.678251E-02   0.000000E+00

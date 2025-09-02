@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Mg25(n,x)Na24 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Ikeda
 #   year: 1988
 #   subentry: 22089006
 #   X4 reaction: 12-MG-25(N,X)11-NA-24,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22089006
-# target:
+# target: 
 #   Z: 12
 #   A: 25
 #   nuclide: Mg25
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 28
-# residual:
-#   Z: 11
-#   A: 24
-#   nuclide: Na24
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 8
+#   residual: 
+#     Z: 11
+#     A: 24
+#     nuclide: Na24
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.342000E+01   0.000000E+00   7.020400E+00   3.800200E-01   1.000064E+00
@@ -41,17 +42,3 @@
 #   author: Y.Ikeda,C.Konno,K.Oishi,T.Nakamura,H.Miyade, K.Kawade,  H.Yamamoto, T.Katoh
 #   title: Activation cross section measurements for fusion  reactor structural materials at neutron energy from  13.3 to 15.0 MeV using FNS facility
 #   journal: Rept: JAERI Reports, No.1312 (1988)
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  1.342000E+01
-#   E-max [MeV]:  1.497000E+01
-#   F-value:  4.070411E+00
-#   A-value:  2.508770E-01
-#   chi-2:  1.855073E+02
-#   p-value:  1.640224E-01
-#   exp. data sets for p-value:      2
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    4.070411E+00   2.508770E-01   1.855073E+02
-# jendl5.0      0.000000E+00   0.000000E+00   0.000000E+00

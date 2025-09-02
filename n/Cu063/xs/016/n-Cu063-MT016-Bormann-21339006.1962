@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Cu63(n,2n)Cu62 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Bormann
 #   year: 1962
 #   subentry: 21339006
 #   X4 reaction: 29-CU-63(N,2N)29-CU-62,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/21339006
-# target:
+# target: 
 #   Z: 29
 #   A: 63
 #   nuclide: Cu63
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 29
-#   A: 62
-#   nuclide: Cu62
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 8
+#   residual: 
+#     Z: 29
+#     A: 62
+#     nuclide: Cu62
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.320000E+01   3.000000E-01   7.723798E+02   6.739891E+01   1.008329E+00
@@ -41,21 +42,3 @@
 #   author: M.Bormann,S.Cierjacks,R.Langkau,H.Neuert
 #   title: Some cross sections of (n,Na)-reactions in the energy  range 12-19 MeV
 #   journal: Jour: Zeitschrift fuer Physik, Vol.166, p.477 (1962)
-# statistics:
-#   NEA score: T2
-#   IAEA score:  1
-#   E-min [MeV]:  1.320000E+01
-#   E-max [MeV]:  1.960000E+01
-#   F-value:  1.430625E+00
-#   A-value:  8.000920E-01
-#   chi-2:  9.470957E+00
-#   p-value:  1.904907E-01
-#   exp. data sets for p-value:      8
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.438189E+00   8.003681E-01   9.413478E+00
-# endfb8.0      1.474095E+00   7.588480E-01   1.172659E+01
-# jeff3.3       1.421033E+00   8.132373E-01   8.769436E+00
-# jendl5.0      1.406735E+00   8.115459E-01   8.890901E+00
-# cendl3.2      1.409305E+00   8.081623E-01   9.042841E+00
-# irdff2.0      1.432502E+00   8.097779E-01   8.982499E+00

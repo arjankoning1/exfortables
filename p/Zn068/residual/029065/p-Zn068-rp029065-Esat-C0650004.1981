@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Zn68(p,x)Cu65 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Esat
 #   year: 1981
 #   subentry: C0650004
 #   X4 reaction: 30-ZN-68(P,A)29-CU-65,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/C0650004
-# target:
+# target: 
 #   Z: 30
 #   A: 68
 #   nuclide: Zn68
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 107
-# residual:
-#   Z: 29
-#   A: 65
-#   nuclide: Cu65
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 56
+#   residual: 
+#     Z: 29
+#     A: 65
+#     nuclide: Cu65
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 56
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.360000E+00   0.000000E+00   1.580000E-01   3.000000E-02   1.000000E+00
@@ -89,17 +90,3 @@
 #   author: M.T.ESAT,R.H.SPEAR,J.L.ZYSKIND,M.H.SHAPIRO,W.A.FOWLER, J.M.DAVIDSON
 #   title: Test of global Hauser-Feshbach calculations for proton-  induced reactions on 68Zn
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.23, p.1822 (1981)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  3.360000E+00
-#   E-max [MeV]:  5.000000E+00
-#   F-value:  1.505571E+00
-#   A-value:  7.179824E-01
-#   chi-2:  5.049713E+02
-#   p-value:  1.587489E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.506016E+00   7.342058E-01   5.266053E+02
-# jendl5.0      1.505126E+00   7.021172E-01   4.833371E+02

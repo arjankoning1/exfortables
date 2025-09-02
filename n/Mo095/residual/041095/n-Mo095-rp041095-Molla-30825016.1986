@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Mo95(n,x)Nb95 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Molla
 #   year: 1986
 #   subentry: 30825016
 #   X4 reaction: 42-MO-95(N,P)41-NB-95,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30825016
-# target:
+# target: 
 #   Z: 42
 #   A: 95
 #   nuclide: Mo95
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 41
-#   A: 95
-#   nuclide: Nb95
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 41
+#     A: 95
+#     nuclide: Nb95
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.460000E+01   3.000000E-01   3.631036E+01   8.961000E-01   1.055534E+00
@@ -34,17 +35,3 @@
 #   author: N.I.Molla,M.M.Rahman,S.Khatun,A.K.M.Fazlul Hoque, Rahezuddin Miah,Ayesha Akhter Khan
 #   title: Activation cross sections for some isotopes of Mg, Ti, V, Ni, Zr and Mo at 14 MeV neutrons
 #   journal: Rept: Bangladesh report to the I.N.D.C., No.003 (1986)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.460000E+01
-#   E-max [MeV]:  1.460000E+01
-#   F-value:  1.499309E+00
-#   A-value:  1.453502E+00
-#   chi-2:  4.489222E+02
-#   p-value:  3.197012E-01
-#   exp. data sets for p-value:      8
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.697989E+00   1.697989E+00   7.999171E+02
-# jendl5.0      1.244218E+00   1.244218E+00   9.792728E+01

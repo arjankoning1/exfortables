@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ar40(p,x)S38 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Leurs
 #   year: 1975
 #   subentry: A0279002
 #   X4 reaction: 18-AR-40(P,X)16-S-38,CUM,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/A0279002
-# target:
+# target: 
 #   Z: 18
 #   A: 40
 #   nuclide: Ar40
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 16
-#   A: 38
-#   nuclide: S38
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 9
+#   residual: 
+#     Z: 16
+#     A: 38
+#     nuclide: S38
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 9
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.153000E+01   0.000000E+00   3.930600E-04   3.930600E-05   9.826590E-01
@@ -42,17 +43,3 @@
 #   author: C.J.Leurs,L.N.Kremer,J.Boersma,L.Lindner
 #   title: Cyclotron production of 38-S by the reaction 40-Ar(p,3p)38-S.
 #   journal: Jour: Applied Radiation and Isotopes, Vol.26, p.771 (1975)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  3.153000E+01
-#   E-max [MeV]:  4.957000E+01
-#   F-value:  2.635623E+00
-#   A-value:  4.442251E-01
-#   chi-2:  3.125848E+01
-#   p-value:  1.984237E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    3.342916E+00   3.037267E-01   4.804069E+01
-# jendl5.0      1.914677E+00   6.497154E-01   1.447626E+01

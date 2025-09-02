@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Bi209(n,n'_01)Bi210 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Phillips
 #   year: 1952
 #   subentry: 11210021
 #   X4 reaction: 83-BI-209(N,INL)83-BI-209,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/11210021
-#   level energy [MeV]  2.60000E+00
-# target:
+#   level energy [MeV]:  2.60000E+00
+# target: 
 #   Z: 83
 #   A: 209
 #   nuclide: Bi209
-# reaction:
+# reaction: 
 #   type: (n,n'_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 51
@@ -25,14 +25,15 @@
 #     energy [MeV]:  2.564140E+00
 #     spin:  4.500000E+00
 #     parity: 1
-# residual:
-#   Z: 83
-#   A: 210
-#   nuclide: Bi210
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 83
+#     A: 210
+#     nuclide: Bi210
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.415000E+01   5.000000E-02   2.280000E+03   8.000000E+01   1.000000E+00
@@ -40,20 +41,3 @@
 #   author: D.D.Phillips,R.W.Davis,E.R.Graves
 #   title: Inelastic Collision Cross Sections for 14-Mev Neutrons
 #   journal: Jour: Physical Review, Vol.88, p.600 (1952)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  1.415000E+01
-#   E-max [MeV]:  1.415000E+01
-#   F-value:  3.393148E+03
-#   A-value:  3.052221E-04
-#   chi-2:  8.116150E+02
-#   p-value:  0.000000E+00
-#   exp. data sets for p-value:      8
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    0.000000E+00   0.000000E+00   0.000000E+00
-# endfb8.0      2.783675E+03   3.592373E-04   8.116665E+02
-# jeff3.3       0.000000E+00   0.000000E+00   0.000000E+00
-# jendl5.0      1.426997E+03   7.007721E-04   8.111121E+02
-# cendl3.2      8.853409E+03   1.129508E-04   8.120665E+02

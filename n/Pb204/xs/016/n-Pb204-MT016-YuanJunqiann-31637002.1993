@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Pb204(n,2n)Pb203 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: YuanJunqiann
 #   year: 1993
 #   subentry: 31637002
 #   X4 reaction: 82-PB-204(N,2N)82-PB-203,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/31637002
-# target:
+# target: 
 #   Z: 82
 #   A: 204
 #   nuclide: Pb204
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 82
-#   A: 203
-#   nuclide: Pb203
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 6
+#   residual: 
+#     Z: 82
+#     A: 203
+#     nuclide: Pb203
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.350000E+01   0.000000E+00   2.003287E+03   8.727802E+01   1.026800E+00
@@ -39,20 +40,3 @@
 #   author: Yuan Junqian, Wang Yongchang, Yang Jingkang, Qiu Jiuzi
 #   title: Cross section measurement for 204-Pb(n,2n)203-Pb and 206-Pb(n,a)203-Hg reactions
 #   journal: Jour: (Chinese J.of) Nuclear Techniques, Shanghai., Vol.16, Issue.9, p.5
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.350000E+01
-#   E-max [MeV]:  1.481000E+01
-#   F-value:  1.072931E+00
-#   A-value:  1.057885E+00
-#   chi-2:  3.565036E+00
-#   p-value:  4.062415E-01
-#   exp. data sets for p-value:      6
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.039011E+00   1.023399E+00   1.252378E+00
-# endfb8.0      1.090005E+00   1.081768E+00   5.195409E+00
-# jeff3.3       1.090005E+00   1.081768E+00   5.195409E+00
-# jendl5.0      1.087247E+00   1.078076E+00   4.955350E+00
-# cendl3.2      1.038948E+00   1.026195E+00   1.226635E+00

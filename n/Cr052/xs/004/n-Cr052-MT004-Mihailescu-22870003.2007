@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Cr52(n,n')Cr52 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Mihailescu
 #   year: 2007
 #   subentry: 22870003
 #   X4 reaction: 24-CR-52(N,INL)24-CR-52,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22870003
-# target:
+# target: 
 #   Z: 24
 #   A: 52
 #   nuclide: Cr52
-# reaction:
+# reaction: 
 #   type: (n,n')
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 24
-#   A: 52
-#   nuclide: Cr52
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 974
+#   residual: 
+#     Z: 24
+#     A: 52
+#     nuclide: Cr52
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 974
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.460950E+00   1.970000E-03   8.800600E-01   6.957000E-01   1.006929E+00
@@ -1007,20 +1008,3 @@
 #   author: L.C.Mihailescu, C.Borcea, A.J.Koning, A.J.M.Plompen
 #   title: High resolution measurement of neutron inelastic  scattering and (n,2n) cross-sections for 52Cr
 #   journal: Jour: Nuclear Physics, Section A, Vol.786, p.1 (2007)
-# statistics:
-#   NEA score: T3
-#   IAEA score:  1
-#   E-min [MeV]:  1.460950E+00
-#   E-max [MeV]:  1.845930E+01
-#   F-value:  1.524845E+00
-#   A-value:  1.135191E+00
-#   chi-2:  1.434151E+02
-#   p-value:  1.991301E-01
-#   exp. data sets for p-value:      1
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.645936E+00   1.228637E+00   2.445160E+02
-# endfb8.0      1.649302E+00   1.232316E+00   2.480093E+02
-# jeff3.3       1.073693E+00   1.028773E+00   2.193249E+00
-# jendl5.0      1.565307E+00   1.173350E+00   1.440588E+02
-# cendl3.2      1.525857E+00   1.037754E+00   7.888065E+01

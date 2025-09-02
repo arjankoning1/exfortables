@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Th232(n,n'_01)Th233 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Iwasaki
 #   year: 1981
 #   subentry: 21767013
 #   X4 reaction: 90-TH-232(N,INL)90-TH-232,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/21767013
-#   level energy [MeV]  1.25000E+00
-# target:
+#   level energy [MeV]:  1.25000E+00
+# target: 
 #   Z: 90
 #   A: 232
 #   nuclide: Th232
-# reaction:
+# reaction: 
 #   type: (n,n'_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 51
@@ -25,14 +25,15 @@
 #     energy [MeV]:  1.208800E+00
 #     spin:  5.000000E+00
 #     parity: -1
-# residual:
-#   Z: 90
-#   A: 233
-#   nuclide: Th233
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 2
+#   residual: 
+#     Z: 90
+#     A: 233
+#     nuclide: Th233
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.400000E+00   0.000000E+00   3.040000E+03   1.800000E+02   1.000000E+00
@@ -41,20 +42,3 @@
 #   author: T.Iwasaki,M.Baba,K.Hattori,K.Kanda,S.Chiba,K.Kanoda,  N.Hirakawa
 #   title: Neutron scattering from 232Th at 0.55, 2.4 and 5.7MeV
 #   journal: Prog: Japanese report to the I.N.D.C., No.62, p.68 (1981)
-# statistics:
-#   NEA score: T3
-#   IAEA score: -1
-#   E-min [MeV]:  2.400000E+00
-#   E-max [MeV]:  5.700000E+00
-#   F-value:  7.547584E+00
-#   A-value:  1.331163E-01
-#   chi-2:  1.574405E+02
-#   p-value:  5.960464E-08
-#   exp. data sets for p-value:      3
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    7.486506E+00   1.340660E-01   1.573565E+02
-# endfb8.0      7.486506E+00   1.340660E-01   1.573565E+02
-# jeff3.3       7.486506E+00   1.340660E-01   1.573565E+02
-# jendl5.0      7.512497E+00   1.334962E-01   1.578724E+02
-# cendl3.2      7.767933E+00   1.299367E-01   1.572605E+02

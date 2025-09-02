@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Bi209(n,n'_02)Bi210 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Degtjarev
 #   year: 1967
 #   subentry: 40047023
 #   X4 reaction: 83-BI-209(N,INL)83-BI-209,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/40047023
-#   level energy [MeV]  1.62000E+00
-# target:
+#   level energy [MeV]:  1.62000E+00
+# target: 
 #   Z: 83
 #   A: 209
 #   nuclide: Bi209
-# reaction:
+# reaction: 
 #   type: (n,n'_02)
 #   ENDF_MF: 3
 #   ENDF_MT: 52
@@ -25,14 +25,15 @@
 #     energy [MeV]:  1.608570E+00
 #     spin:  6.500000E+00
 #     parity: 1
-# residual:
-#   Z: 83
-#   A: 210
-#   nuclide: Bi210
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 6
+#   residual: 
+#     Z: 83
+#     A: 210
+#     nuclide: Bi210
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.780000E+00   0.000000E+00   5.300000E+02   8.000002E+01   1.000000E+00
@@ -45,20 +46,3 @@
 #   author: Ju.G.Degtjarev, V.N.Protopopov
 #   title: Excitation of Al-27,Cr-52,Fe-56 and Bi-209 low levels at inelastic scattering of 1-4 MeV neutrons
 #   journal: Jour: Atomnaya Energiya, Vol.23, Issue.6, p.568 (1967)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  1.780000E+00
-#   E-max [MeV]:  3.760000E+00
-#   F-value:  2.084165E+00
-#   A-value:  7.900332E-01
-#   chi-2:  6.261068E+00
-#   p-value:  2.006624E-01
-#   exp. data sets for p-value:      1
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    2.137557E+00   6.940054E-01   6.292966E+00
-# endfb8.0      1.957336E+00   8.725054E-01   6.113525E+00
-# jeff3.3       2.480299E+00   7.434977E-01   7.287966E+00
-# jendl5.0      1.957094E+00   8.305913E-01   5.877474E+00
-# cendl3.2      1.870832E+00   8.230552E-01   5.733410E+00

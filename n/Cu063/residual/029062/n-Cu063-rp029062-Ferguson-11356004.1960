@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Cu63(n,x)Cu62 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Ferguson
 #   year: 1960
 #   subentry: 11356004
 #   X4 reaction: 29-CU-63(N,2N)29-CU-62,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/11356004
-# target:
+# target: 
 #   Z: 29
 #   A: 63
 #   nuclide: Cu63
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 29
-#   A: 62
-#   nuclide: Cu62
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 7
+#   residual: 
+#     Z: 29
+#     A: 62
+#     nuclide: Cu62
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.241000E+01   1.200000E-01   1.860000E+02   1.900000E+01   1.000000E+00
@@ -40,19 +41,3 @@
 #   author: J.M.Ferguson,W.E.Thompson
 #   title: Cross-sections for the (n,2n) reaction in N14,P31,Cu63,  and Pr141.
 #   journal: Jour: Physical Review, Vol.118, p.228 (1960)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.241000E+01
-#   E-max [MeV]:  1.798000E+01
-#   F-value:  1.111861E+00
-#   A-value:  9.510943E-01
-#   chi-2:  1.296694E+00
-#   p-value:  3.415987E-01
-#   exp. data sets for p-value:      8
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.124753E+00   9.461450E-01   1.392793E+00
-# endfb8.0      1.132708E+00   9.162876E-01   1.656440E+00
-# jeff3.3       1.100487E+00   9.588602E-01   1.053430E+00
-# jendl5.0      1.083664E+00   9.843498E-01   1.084113E+00

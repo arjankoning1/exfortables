@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Hg198(n,2n)Hg197 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Kasugai
 #   year: 2001
 #   subentry: 23018005
 #   X4 reaction: 80-HG-198(N,2N)80-HG-197,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/23018005
-# target:
+# target: 
 #   Z: 80
 #   A: 198
 #   nuclide: Hg198
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 80
-#   A: 197
-#   nuclide: Hg197
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 6
+#   residual: 
+#     Z: 80
+#     A: 197
+#     nuclide: Hg197
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.336000E+01   0.000000E+00   2.190000E+03   1.200000E+02   1.000000E+00
@@ -39,19 +40,3 @@
 #   author: Y.Kasugai, F.Maekawa, Y.Ikeda, H.Takeuchi
 #   title: Measurement of activation cross sections for mercury isotopes in the neutron energy range between 13.4 and 14.9 MeV
 #   journal: Jour: Jour. of Nuclear Science and Technology, Vol.38, Issue.12, p.1048
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.336000E+01
-#   E-max [MeV]:  1.494000E+01
-#   F-value:  1.057156E+00
-#   A-value:  9.684905E-01
-#   chi-2:  1.107299E+00
-#   p-value:  3.646727E-01
-#   exp. data sets for p-value:      2
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.092668E+00   9.274570E-01   2.586748E+00
-# endfb8.0      1.040963E+00   9.836769E-01   6.209584E-01
-# jeff3.3       1.046223E+00   9.748673E-01   8.048615E-01
-# jendl5.0      1.029587E+00   9.892126E-01   4.166291E-01

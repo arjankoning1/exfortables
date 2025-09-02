@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Fe0(n,n'_01)Fe1 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Lashuk
 #   year: 1994
 #   subentry: 41186041
 #   X4 reaction: 26-FE-0(N,INL)26-FE-0,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/41186041
-#   level energy [MeV]  8.46000E-01
-# target:
+#   level energy [MeV]:  8.46000E-01
+# target: 
 #   Z: 26
 #   A: 0
 #   nuclide: Fe0
-# reaction:
+# reaction: 
 #   type: (n,n'_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 51
@@ -25,14 +25,15 @@
 #     energy [MeV]:  8.467780E-01
 #     spin:  2.000000E+00
 #     parity: 1
-# residual:
-#   Z: 26
-#   A: 1
-#   nuclide: Fe1
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 22
+#   residual: 
+#     Z: 26
+#     A: 1
+#     nuclide: Fe1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 22
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    9.300000E-01   0.000000E+00   2.900000E+02   2.200000E+01   1.000000E+00
@@ -61,20 +62,3 @@
 #   author: A.I.Lashuk, I.P.Sadokhin
 #   title: Gamma-quanta production cross-sections at inelastic  scattering of the neutrons on the nuclei of reactor  construction materials.
 #   journal: Jour: Vop.At.Nauki i Tekhn.,Ser.Yaderno-Reak.Konstanty, Issue.1, p.26 (1
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  9.300000E-01
-#   E-max [MeV]:  7.370000E+00
-#   F-value:  1.679339E+00
-#   A-value:  9.729273E-01
-#   chi-2:  6.816450E+01
-#   p-value:  2.575008E-01
-#   exp. data sets for p-value:      3
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.689950E+00   9.710093E-01   5.683186E+01
-# endfb8.0      1.612550E+00   1.012728E+00   7.865007E+01
-# jeff3.3       1.722514E+00   1.027321E+00   6.187936E+01
-# jendl5.0      1.678420E+00   1.024700E+00   5.695628E+01
-# cendl3.2      1.691387E+00   8.421364E-01   8.650495E+01

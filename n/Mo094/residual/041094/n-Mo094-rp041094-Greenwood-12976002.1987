@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Mo94(n,x)Nb94 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Greenwood
 #   year: 1987
 #   subentry: 12976002
 #   X4 reaction: 42-MO-94(N,P)41-NB-94,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/12976002
-# target:
+# target: 
 #   Z: 42
 #   A: 94
 #   nuclide: Mo94
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 41
-#   A: 94
-#   nuclide: Nb94
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 2
+#   residual: 
+#     Z: 41
+#     A: 94
+#     nuclide: Nb94
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.455000E+01   4.000000E-01   5.720000E+01   5.720000E+00   1.000000E+00
@@ -35,17 +36,3 @@
 #   author: L.R.GREENWOOD,D.G.DORAN,H.L.HEINISCH
 #   title: PRODUCTION OR 91-NB, 94-NB, AND 95-NB FROM MO  BY 14.5-14.8 MEV NEUTRONS
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.35, p.76 (1987)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.455000E+01
-#   E-max [MeV]:  1.478000E+01
-#   F-value:  1.035444E+00
-#   A-value:  1.016244E+00
-#   chi-2:  3.892469E-01
-#   p-value:  3.797990E-01
-#   exp. data sets for p-value:      4
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.017976E+00   9.940726E-01   2.178326E-01
-# jendl5.0      1.046994E+00   1.038910E+00   5.606613E-01

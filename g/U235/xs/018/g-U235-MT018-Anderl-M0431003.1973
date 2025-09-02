@@ -1,28 +1,29 @@
-# header:
+# header: 
 #   title: U235(g,f) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Anderl
 #   year: 1973
 #   subentry: M0431003
 #   X4 reaction: 92-U-235(G,F),,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/M0431003
-# target:
+# target: 
 #   Z: 92
 #   A: 235
 #   nuclide: U235
-# reaction:
+# reaction: 
 #   type: (g,f)
 #   ENDF_MF: 3
 #   ENDF_MT: 18
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 31
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 31
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    5.000000E+00   0.000000E+00  -4.000000E-01   1.900000E+00   1.000000E+00
@@ -60,18 +61,3 @@
 #   author: R.A.Anderl,M.V.Yester,R.C.Morrison
 #   title: Photofission cross sections of U-238 and U-235 from 5.0 to 8.0 MeV.
 #   journal: Jour: Nuclear Physics, Section A, Vol.212, p.221 (1973)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  5.000000E+00
-#   E-max [MeV]:  8.000000E+00
-#   F-value:  2.610540E+00
-#   A-value:  9.888546E-01
-#   chi-2:  2.100408E+01
-#   p-value:  2.274088E-01
-#   exp. data sets for p-value:      6
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    2.040869E+00   1.838117E+00   4.101727E+01
-# endfb8.0      3.469172E+00   5.611261E-01   8.142414E+00
-# jendl5.0      2.316943E+00   9.374840E-01   1.385255E+01

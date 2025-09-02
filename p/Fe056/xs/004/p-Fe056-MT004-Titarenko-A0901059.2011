@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Fe56(p,n')Co56 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Titarenko
 #   year: 2011
 #   subentry: A0901059
 #   X4 reaction: 26-FE-56(P,X)27-CO-56,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/A0901059
-# target:
+# target: 
 #   Z: 26
 #   A: 56
 #   nuclide: Fe56
-# reaction:
+# reaction: 
 #   type: (p,n')
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 27
-#   A: 56
-#   nuclide: Co56
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 11
+#   residual: 
+#     Z: 27
+#     A: 56
+#     nuclide: Co56
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 11
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.600000E+01   1.000000E+00   1.100000E+01   9.000000E-01   1.000000E+00
@@ -44,18 +45,3 @@
 #   author: Yu.E.Titarenko, V.F.Batyaev, A.Yu.Titarenko, M.A.Butko, K.V.Pavlov, S.N.Florya, R.S.Tikhonov, V.M.Zhivun, A.V.Ignatyuk, S.G.Mashnik, S.Leray, A.Boudard, J.Cugnon, D.Mancusi, Y.Yariv, K.Nishihara, N.Matsuda, H.Kumawat, G.Mank, W.Gudowski
 #   title: Measurement and simulation of the cross sections for nuclide production in Fe-56 and Cr-nat targets irradiated with 0.04- to 2.6-GeV protons.
 #   journal: Jour: Yadernaya Fizika, Vol.74, p.548 (2011)
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  4.600000E+01
-#   E-max [MeV]:  2.605000E+03
-#   F-value:  1.532302E+00
-#   A-value:  9.621760E-01
-#   chi-2:  1.985317E+01
-#   p-value:  1.164364E-01
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.740062E+00   6.685306E-01   1.785743E+01
-# endfb8.0      1.470825E+00   1.445181E+00   3.207272E+01
-# jendl5.0      1.351461E+00   9.219770E-01   9.629368E+00

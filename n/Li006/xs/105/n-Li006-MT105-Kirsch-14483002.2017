@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Li6(n,t)He4 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Kirsch
 #   year: 2017
 #   subentry: 14483002
 #   X4 reaction: 3-LI-6(N,T)2-HE-4,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/14483002
-# target:
+# target: 
 #   Z: 3
 #   A: 6
 #   nuclide: Li6
-# reaction:
+# reaction: 
 #   type: (n,t)
 #   ENDF_MF: 3
 #   ENDF_MT: 105
-# residual:
-#   Z: 2
-#   A: 4
-#   nuclide: He4
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 47
+#   residual: 
+#     Z: 2
+#     A: 4
+#     nuclide: He4
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 47
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.400000E-01   4.700000E-03   3.120000E+03   2.300000E+02   1.000000E+00
@@ -80,20 +81,3 @@
 #   author: L.E.Kirsch,M.Devlin,S.M.Mosby,J.A.Gomez
 #   title: A new measurement of the 6Li(n,alpha)t cross section at MeV energies using a 252Cf fission chamber and 6Li scintillators
 #   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.A, Vol.874, p.57 (201
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  2.400000E-01
-#   E-max [MeV]:  9.800000E+00
-#   F-value:  1.267983E+00
-#   A-value:  1.122846E+00
-#   chi-2:  3.459619E+00
-#   p-value:  2.085152E-01
-#   exp. data sets for p-value:      8
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.302390E+00   1.143076E+00   4.769237E+00
-# endfb8.0      1.302390E+00   1.143076E+00   4.769237E+00
-# jeff3.3       1.302221E+00   1.139613E+00   4.754336E+00
-# jendl5.0      1.206068E+00   1.097096E+00   1.615293E+00
-# irdff2.0      1.213405E+00   1.092570E+00   1.389995E+00

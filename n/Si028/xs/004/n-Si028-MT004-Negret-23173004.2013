@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Si28(n,n')Si28 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Negret
 #   year: 2013
 #   subentry: 23173004
 #   X4 reaction: 14-SI-28(N,INL)14-SI-28,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/23173004
-# target:
+# target: 
 #   Z: 14
 #   A: 28
 #   nuclide: Si28
-# reaction:
+# reaction: 
 #   type: (n,n')
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 14
-#   A: 28
-#   nuclide: Si28
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 510
+#   residual: 
+#     Z: 14
+#     A: 28
+#     nuclide: Si28
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 510
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.106865E+00   7.330250E-01   0.000000E+00            NaN   1.002221E+00
@@ -543,20 +544,3 @@
 #   author: A.Negret, C.Borcea, D.Bucurescu,D.Deleanu,Ph.Dessagne, D.Filipescu,D.Ghita, T.Glodariu,M.Kerveno, N.Marginean, R.Marginean, C.Mihai, S.Pascu, A.J.M.Plompen, T.Sava, L.Stroe
 #   title: Cross-Sections for inelastic scattering of neutrons on Si-28 and comparison with the 25Mg(alpha,n)28Si reaction.
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.88, p.034604 (2013)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.106865E+00
-#   E-max [MeV]:  6.275745E+00
-#   F-value:  1.425493E+00
-#   A-value:  9.656921E-01
-#   chi-2:  4.384113E+01
-#   p-value:  1.965987E-01
-#   exp. data sets for p-value:      1
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.310797E+00   9.906581E-01   3.473628E+01
-# endfb8.0      1.284032E+00   9.833896E-01   2.931907E+01
-# jeff3.3       1.294348E+00   9.204615E-01   2.549074E+01
-# jendl5.0      1.826586E+00   9.477329E-01   9.985031E+01
-# cendl3.2      1.285705E+00   9.882175E-01   2.980950E+01

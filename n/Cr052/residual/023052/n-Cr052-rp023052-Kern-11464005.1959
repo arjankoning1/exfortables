@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Cr52(n,x)V52 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Kern
 #   year: 1959
 #   subentry: 11464005
 #   X4 reaction: 24-CR-52(N,P)23-V-52,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/11464005
-# target:
+# target: 
 #   Z: 24
 #   A: 52
 #   nuclide: Cr52
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 23
-#   A: 52
-#   nuclide: V52
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 28
+#   residual: 
+#     Z: 23
+#     A: 52
+#     nuclide: V52
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 28
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.233000E+01   0.000000E+00   1.226000E+02   1.300000E+01   1.000000E+00
@@ -61,19 +62,3 @@
 #   author: B.D.Kern,W.E.Thompson,J.M.Ferguson
 #   title: Cross sections for some (n,p) and (n,alpha) reactions.
 #   journal: Jour: Nuclear Physics, Vol.10, p.226 (1959)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.233000E+01
-#   E-max [MeV]:  1.824000E+01
-#   F-value:  1.429100E+00
-#   A-value:  7.184819E-01
-#   chi-2:  6.861414E+00
-#   p-value:  1.112048E-01
-#   exp. data sets for p-value:      3
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.513840E+00   6.870558E-01   8.250439E+00
-# endfb8.0      1.401672E+00   7.268800E-01   6.476428E+00
-# jeff3.3       1.406721E+00   7.240393E-01   6.639916E+00
-# jendl5.0      1.388035E+00   7.369643E-01   6.078872E+00

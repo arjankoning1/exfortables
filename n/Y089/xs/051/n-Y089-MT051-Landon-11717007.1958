@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Y89(n,n'_01)Y90 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Landon
 #   year: 1958
 #   subentry: 11717007
 #   X4 reaction: 39-Y-89(N,INL)39-Y-89,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/11717007
-#   level energy [MeV]  9.13000E-01
-# target:
+#   level energy [MeV]:  9.13000E-01
+# target: 
 #   Z: 39
 #   A: 89
 #   nuclide: Y89
-# reaction:
+# reaction: 
 #   type: (n,n'_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 51
@@ -25,14 +25,15 @@
 #     energy [MeV]:  9.089700E-01
 #     spin:  4.500000E+00
 #     parity: 1
-# residual:
-#   Z: 39
-#   A: 90
-#   nuclide: Y90
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 39
+#     A: 90
+#     nuclide: Y90
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.200000E+00   0.000000E+00   4.300000E+02   2.820800E+01   1.000000E+00
@@ -40,20 +41,3 @@
 #   author: H.H.LANDON,A.J.ELWYN,G.N.GLASOE,S.OLEKSA
 #   title: NEUTRON SCATTERING AT 2.2 MEV BY TIME OF FLIGHT.
 #   journal: Jour: Physical Review, Vol.112, p.1192 (1958)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  2.200000E+00
-#   E-max [MeV]:  2.200000E+00
-#   F-value:  1.815881E+00
-#   A-value:  5.519980E-01
-#   chi-2:  4.667302E+01
-#   p-value:  5.723900E-02
-#   exp. data sets for p-value:      4
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.820220E+00   5.493840E-01   4.718518E+01
-# endfb8.0      1.716937E+00   5.824326E-01   4.051778E+01
-# jeff3.3       1.716937E+00   5.824326E-01   4.051778E+01
-# jendl5.0      1.834471E+00   5.451162E-01   4.808317E+01
-# cendl3.2      1.982298E+00   5.044651E-01   5.706118E+01

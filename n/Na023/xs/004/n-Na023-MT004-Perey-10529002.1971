@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Na23(n,n')Na23 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Perey
 #   year: 1971
 #   subentry: 10529002
 #   X4 reaction: 11-NA-23(N,INL)11-NA-23,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/10529002
-# target:
+# target: 
 #   Z: 11
 #   A: 23
 #   nuclide: Na23
-# reaction:
+# reaction: 
 #   type: (n,n')
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 11
-#   A: 23
-#   nuclide: Na23
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 977
+#   residual: 
+#     Z: 11
+#     A: 23
+#     nuclide: Na23
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 977
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.470000E-01   0.000000E+00   1.290000E+01   1.400000E+01   1.000000E+00
@@ -1010,20 +1011,3 @@
 #   author: F.G.Perey,W.E.Kinney,R.L.Macklin
 #   title: High resolution inelastic cross section measurements for Na, Si, and Fe.
 #   journal: Conf: 3rd Conf.Neutron Cross-Sections+Tech.,Knoxville 1971, Vol.1, p.191
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  4.470000E-01
-#   E-max [MeV]:  2.168700E+00
-#   F-value:  1.476571E+00
-#   A-value:  9.853200E-01
-#   chi-2:  7.617151E+00
-#   p-value:  1.904238E-01
-#   exp. data sets for p-value:      2
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.925263E+00   1.259997E+00   2.205226E+01
-# endfb8.0      1.263469E+00   9.520558E-01   4.000158E+00
-# jeff3.3       1.375019E+00   8.750032E-01   3.469364E+00
-# jendl5.0      1.360312E+00   8.905134E-01   5.562421E+00
-# cendl3.2      1.325744E+00   9.935836E-01   3.001575E+00

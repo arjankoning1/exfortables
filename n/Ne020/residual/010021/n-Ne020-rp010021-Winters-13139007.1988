@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ne20(n,x)Ne21 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Winters
 #   year: 1988
 #   subentry: 13139007
 #   X4 reaction: 10-NE-20(N,G)10-NE-21,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/13139007
-# target:
+# target: 
 #   Z: 10
 #   A: 20
 #   nuclide: Ne20
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 10
-#   A: 21
-#   nuclide: Ne21
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 199
+#   residual: 
+#     Z: 10
+#     A: 21
+#     nuclide: Ne21
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 199
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.420000E-01   0.000000E+00  -1.380000E+01   4.388000E+01   1.000000E+00
@@ -232,18 +233,3 @@
 #   author: R.R.Winters,R.L.Macklin
 #   title: Resonance neutron capture by 20,22Ne in stellar  environments
 #   journal: Jour: Astrophysical Journal, Vol.329, p.943 (1988)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.420000E-01
-#   E-max [MeV]:  1.520000E-01
-#   F-value:  2.437385E+00
-#   A-value:  6.453878E-01
-#   chi-2:  8.886430E-01
-#   p-value:  5.196203E-02
-#   exp. data sets for p-value:      2
-#   libraries:      3
-##  Library          F              A            chi-2
-# endfb8.0      2.585071E+00   5.812630E-01   1.064507E+00
-# jeff3.3       2.585071E+00   5.812630E-01   1.064507E+00
-# jendl5.0      2.137691E+00   7.956403E-01   5.369146E-01

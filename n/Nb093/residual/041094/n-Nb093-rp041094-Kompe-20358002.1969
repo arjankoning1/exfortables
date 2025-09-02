@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Nb93(n,x)Nb94 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Kompe
 #   year: 1969
 #   subentry: 20358002
 #   X4 reaction: 41-NB-93(N,G)41-NB-94,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20358002
-# target:
+# target: 
 #   Z: 41
 #   A: 93
 #   nuclide: Nb93
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 41
-#   A: 94
-#   nuclide: Nb94
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 71
+#   residual: 
+#     Z: 41
+#     A: 94
+#     nuclide: Nb94
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 71
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.080000E-02   2.173131E-04   5.780000E+02   5.780000E+01   1.000000E+00
@@ -104,18 +105,3 @@
 #   author: D.KOMPE
 #   title: -CAPTURE CROSS SECTION MEASUREMENT OF SOME  MEDIUM- AND HEAVY-WEIGHT NUCLEI IN THE KEV REGION.-
 #   journal: Jour: Nuclear Physics, Section A, Vol.133, p.513 (1969)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.080000E-02
-#   E-max [MeV]:  1.580000E-01
-#   F-value:  1.095279E+00
-#   A-value:  9.944875E-01
-#   chi-2:  1.093384E+00
-#   p-value:  3.260347E-01
-#   exp. data sets for p-value:      4
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.072449E+00   9.915360E-01   7.407991E-01
-# jeff3.3       1.115662E+00   1.023884E+00   1.527627E+00
-# jendl5.0      1.093423E+00   9.688103E-01   1.011726E+00

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ta181(n,x)Hf181 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Begun
 #   year: 2000
 #   subentry: 32204009
 #   X4 reaction: 73-TA-181(N,P)72-HF-181,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/32204009
-# target:
+# target: 
 #   Z: 73
 #   A: 181
 #   nuclide: Ta181
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 72
-#   A: 181
-#   nuclide: Hf181
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 72
+#     A: 181
+#     nuclide: Hf181
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.460000E+01   0.000000E+00   3.280000E+00   9.999999E-02   1.000000E+00
@@ -34,18 +35,3 @@
 #   author: S.V.Begun, I.M.Kadenko, V.K.Maidanyuk, V.M.Neplyuev,  G.I.Primenko, V.K.Tarakanov
 #   title: Cross sections for nuclear (nx) reactions on the 89Y,  139La, and 181Ta nuclei at the neutron energy of  14.6 MeV
 #   journal: Jour: Izv. Rossiiskoi Akademii Nauk, Ser.Fiz., Vol.64, p.1017 (2000)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.460000E+01
-#   E-max [MeV]:  1.460000E+01
-#   F-value:  1.138737E+00
-#   A-value:  1.137202E+00
-#   chi-2:  2.080376E+01
-#   p-value:  1.597373E-01
-#   exp. data sets for p-value:      8
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.124549E+00   1.124549E+00   1.669048E+01
-# jeff3.3       1.120130E+00   1.120130E+00   1.552812E+01
-# jendl5.0      1.167524E+00   1.167524E+00   3.019268E+01

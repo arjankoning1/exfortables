@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Se74(n,x)As74 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Venugopalarao
 #   year: 1967
 #   subentry: 11722007
 #   X4 reaction: 34-SE-74(N,P)33-AS-74,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/11722007
-# target:
+# target: 
 #   Z: 34
 #   A: 74
 #   nuclide: Se74
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 33
-#   A: 74
-#   nuclide: As74
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 33
+#     A: 74
+#     nuclide: As74
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.440000E+01   3.000000E-01   1.109898E+02   1.141017E+01   1.037288E+00
@@ -34,18 +35,3 @@
 #   author: P.Venugopala Rao,R.W.Fink
 #   title: Neutron Reaction Cross Sections of Selenium and Iron at 14.4 MeV
 #   journal: Jour: Physical Review, Vol.154, p.1023 (1967)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.440000E+01
-#   E-max [MeV]:  1.440000E+01
-#   F-value:  1.152256E+00
-#   A-value:  1.053527E+00
-#   chi-2:  2.664771E+00
-#   p-value:  4.621803E-01
-#   exp. data sets for p-value:      5
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.057663E+00   9.454805E-01   7.484066E-01
-# jeff3.3       1.025481E+00   9.751527E-01   3.191110E-01
-# jendl5.0      1.268270E+00   1.268270E+00   6.926796E+00

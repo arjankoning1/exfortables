@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ni58(n,p)Co58 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Debertin
 #   year: 1965
 #   subentry: 20971006
 #   X4 reaction: 28-NI-58(N,P)27-CO-58,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20971006
-# target:
+# target: 
 #   Z: 28
 #   A: 58
 #   nuclide: Ni58
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 27
-#   A: 58
-#   nuclide: Co58
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 27
+#     A: 58
+#     nuclide: Co58
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    8.400000E+00   0.000000E+00   6.300001E+02   5.000000E+01   1.000000E+00
@@ -34,21 +35,3 @@
 #   author: K.Debertin,E.Rossle
 #   title: The reaction Ni-58(n,p)Co-58 at different neutron  energies
 #   journal: Jour: Nuclear Physics, Vol.70, p.89 (1965)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  8.400000E+00
-#   E-max [MeV]:  8.400000E+00
-#   F-value:  1.005689E+00
-#   A-value:  1.004080E+00
-#   chi-2:  7.608541E-02
-#   p-value:  2.991698E-01
-#   exp. data sets for p-value:      8
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.005099E+00   1.005099E+00   8.161861E-02
-# endfb8.0      1.000382E+00   1.000382E+00   6.039218E-03
-# jeff3.3       1.001932E+00   9.980718E-01   3.060449E-02
-# jendl5.0      1.010450E+00   1.010450E+00   1.697024E-01
-# cendl3.2      1.004961E+00   1.004961E+00   7.938883E-02
-# irdff2.0      1.005563E+00   1.005563E+00   8.915896E-02

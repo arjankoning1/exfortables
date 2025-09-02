@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Co59(n,x)Co58 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: HuangJianzhouu
 #   year: 1981
 #   subentry: 30608005
 #   X4 reaction: 27-CO-59(N,2N)27-CO-58,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30608005
-# target:
+# target: 
 #   Z: 27
 #   A: 59
 #   nuclide: Co59
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 27
-#   A: 58
-#   nuclide: Co58
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 19
+#   residual: 
+#     Z: 27
+#     A: 58
+#     nuclide: Co58
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 19
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.249000E+01   1.500000E-01   4.347813E+02   1.998994E+01   9.994973E-01
@@ -52,17 +53,3 @@
 #   author: Huang Jianzhou,Lu Hanlin,Li Jizhou,Fan Peiguo
 #   title: Measurement of cross-sections for Co-59(n,alpha)Mn-56 and Co-59(n,2n)Co-58-m+g reactions.
 #   journal: Jour: Chinese J.of Nuclear Physics (Beijing)., Vol.3, Issue.1, p.59 (198
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.249000E+01
-#   E-max [MeV]:  1.826000E+01
-#   F-value:  1.055107E+00
-#   A-value:  9.616066E-01
-#   chi-2:  1.653732E+00
-#   p-value:  2.502322E-01
-#   exp. data sets for p-value:      8
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.064069E+00   9.517373E-01   2.130791E+00
-# jendl5.0      1.044534E+00   9.715782E-01   1.176673E+00

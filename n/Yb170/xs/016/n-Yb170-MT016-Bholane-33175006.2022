@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Yb170(n,2n)Yb169 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Bholane
 #   year: 2022
 #   subentry: 33175006
 #   X4 reaction: 70-YB-170(N,2N)70-YB-169,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/33175006
-# target:
+# target: 
 #   Z: 70
 #   A: 170
 #   nuclide: Yb170
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 70
-#   A: 169
-#   nuclide: Yb169
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 70
+#     A: 169
+#     nuclide: Yb169
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.477000E+01   3.400000E-01   2.193910E+03   1.888956E+02   1.000000E+00
@@ -34,19 +35,3 @@
 #   author: G.T.Bholane, T.S.Ganesapandy, A.B.Phatangare, F.M.D.Attar, S.S.Dahiwale, S.V.Suryanarayana, V.N.Bhoraskar, S.D.Dhole
 #   title: Activation cross section measurements and estimation of photon and neutron induced nuclear reactions for ytterbium isotopes with covariance analysis
 #   journal: Jour: Radiation Physics and Chemistry, Vol.195, p.110066 (2022)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  1.477000E+01
-#   E-max [MeV]:  1.477000E+01
-#   F-value:  1.065651E+00
-#   A-value:  9.482909E-01
-#   chi-2:  9.114705E-01
-#   p-value:  1.866940E-01
-#   exp. data sets for p-value:      8
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.099963E+00   9.091211E-01   1.704952E+00
-# endfb8.0      1.018695E+00   9.816483E-01   2.796401E-01
-# jeff3.3       1.083346E+00   9.230660E-01   1.381650E+00
-# jendl5.0      1.018695E+00   9.816483E-01   2.796401E-01

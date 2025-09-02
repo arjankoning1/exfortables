@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: U238(n,n'_01)U239 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Glazkov
 #   year: 1963
 #   subentry: 40662004
 #   X4 reaction: 92-U-238(N,INL)92-U-238,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/40662004
-#   level energy [MeV]  4.40000E-02
-# target:
+#   level energy [MeV]:  4.40000E-02
+# target: 
 #   Z: 92
 #   A: 238
 #   nuclide: U238
-# reaction:
+# reaction: 
 #   type: (n,n'_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 51
@@ -25,14 +25,15 @@
 #     energy [MeV]:  4.491600E-02
 #     spin:  2.000000E+00
 #     parity: 1
-# residual:
-#   Z: 92
-#   A: 239
-#   nuclide: U239
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 4
+#   residual: 
+#     Z: 92
+#     A: 239
+#     nuclide: U239
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.000000E-01   0.000000E+00   1.150000E+03   1.000000E+02   1.000000E+00
@@ -43,20 +44,3 @@
 #   author: N.P.Glazkov
 #   title: Spectra and inelastic scattering cross-sections of  neutrons in the 0.2-1.2 MeV energy range scattered by  nuclei of U, Th, Hg, W, Sb, Cd, Mo, Nb, Fe
 #   journal: Jour: Atomnaya Energiya, Vol.14, p.400 (1963)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  4.000000E-01
-#   E-max [MeV]:  1.000000E+00
-#   F-value:  1.306904E+00
-#   A-value:  1.229571E+00
-#   chi-2:  8.006975E+00
-#   p-value:  3.086295E-01
-#   exp. data sets for p-value:      6
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.340772E+00   1.277970E+00   9.727489E+00
-# endfb8.0      1.340772E+00   1.277970E+00   9.727489E+00
-# jeff3.3       1.224134E+00   1.134959E+00   4.287750E+00
-# jendl5.0      1.340772E+00   1.277970E+00   9.727489E+00
-# cendl3.2      1.275820E+00   1.186385E+00   6.564662E+00

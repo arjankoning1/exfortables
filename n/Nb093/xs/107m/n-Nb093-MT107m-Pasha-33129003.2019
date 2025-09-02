@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: Nb93(n,a)Y90m cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Pasha
 #   year: 2019
 #   subentry: 33129003
 #   X4 reaction: 41-NB-93(N,A)39-Y-90-M,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/33129003
-# target:
+# target: 
 #   Z: 41
 #   A: 93
 #   nuclide: Nb93
-# reaction:
+# reaction: 
 #   type: (n,a)
 #   ENDF_MF: 3
 #   ENDF_MT: 107
-# residual:
-#   Z: 39
-#   A: 90
-#   nuclide: Y90m
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 39
+#     A: 90
+#     nuclide: Y90m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.478000E+01   3.800000E-01   5.225900E+00   2.729400E-01   1.004980E+00
@@ -39,18 +40,3 @@
 #   author: I.Pasha, R.Basavanna, S.S.Yerranguntla, S.V.Suryanarayana, M.Karkera, H.Naik, M.P.Karantha, L.S.Danu, S.Bishnoi, T.Patel, R.Kumar
 #   title: 93Nb(n,2n)92mNb, 93Nb(n,alpha)90mY and 92Mo(n,p)92mNb reactions at 14.78 MeV and covariance analysis
 #   journal: Jour: Journal of Radioanalytical and Nuclear Chemistry, Vol.320, p.561 (
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.478000E+01
-#   E-max [MeV]:  1.478000E+01
-#   F-value:  1.061453E+00
-#   A-value:  1.041408E+00
-#   chi-2:  1.828493E+00
-#   p-value:  2.953865E-01
-#   exp. data sets for p-value:      8
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.097264E+00   1.097264E+00   3.842542E+00
-# jeff3.3       1.014260E+00   9.859409E-01   3.575889E-01
-# jendl5.0      1.044001E+00   1.044001E+00   1.285347E+00

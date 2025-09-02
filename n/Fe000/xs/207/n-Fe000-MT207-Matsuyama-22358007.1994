@@ -1,28 +1,29 @@
-# header:
+# header: 
 #   title: Fe0(n,xa) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Matsuyama
 #   year: 1994
 #   subentry: 22358007
 #   X4 reaction: 26-FE-0(N,X)2-HE-4,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22358007
-# target:
+# target: 
 #   Z: 26
 #   A: 0
 #   nuclide: Fe0
-# reaction:
+# reaction: 
 #   type: (n,xa)
 #   ENDF_MF: 3
 #   ENDF_MT: 207
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 10
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    5.500000E+00   0.000000E+00   1.200000E+00   2.000000E-01   1.000000E+00
@@ -39,21 +40,3 @@
 #   author: I.Matsuyama,M.Baba,S.Matsuyama,T.Kiyosumi,T.Sanami, N.Hirakawa,N.Ito,S.Chiba,T.Fukahori,M.Mizumoto, K.Hasegawa,Sh.Meigo
 #   title: Measurements of double-differential alpha-particle  production cross-sections using a gridded ionization  chamber -- application of 14-N(d,n)15-O and             15-N(d,n)16-O neutron sources
 #   journal: Conf: JAERI-M Reports, No.94-019, p.191 (1994)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  5.500000E+00
-#   E-max [MeV]:  1.410000E+01
-#   F-value:  5.663385E+00
-#   A-value:  5.203344E-01
-#   chi-2:  1.434954E+01
-#   p-value:  3.497396E-01
-#   exp. data sets for p-value:      1
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    2.124381E+00   4.936584E-01   1.969229E+01
-# endfb8.0      6.878958E+01   3.564703E-02   5.249335E+01
-# jeff3.3       1.148433E+00   9.418149E-01   1.548240E+00
-# jendl5.0      1.181724E+00   1.025738E+00   2.047110E+00
-# cendl3.2      1.272798E+00   1.157750E+00   4.755624E+00
-# irdff2.0      0.000000E+00   0.000000E+00   0.000000E+00

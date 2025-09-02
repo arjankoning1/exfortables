@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Sm144(n,2n)Sm143 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Ghorai
 #   year: 1974
 #   subentry: 10359005
 #   X4 reaction: 62-SM-144(N,2N)62-SM-143,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/10359005
-# target:
+# target: 
 #   Z: 62
 #   A: 144
 #   nuclide: Sm144
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 62
-#   A: 143
-#   nuclide: Sm143
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 4
+#   residual: 
+#     Z: 62
+#     A: 143
+#     nuclide: Sm143
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.490000E+01   3.000000E-01   1.010800E+03   1.093212E+02   8.409321E-01
@@ -37,20 +38,3 @@
 #   author: S.K.Ghorai,R.Vos,J.R.Cooper,W.L.Alford
 #   title: The (n,2n) cross sections of 85Rb, 87Rb and 144Sm
 #   journal: Jour: Nuclear Physics, Section A, Vol.223, p.118 (1974)
-# statistics:
-#   NEA score: T2
-#   IAEA score:  1
-#   E-min [MeV]:  1.490000E+01
-#   E-max [MeV]:  1.670000E+01
-#   F-value:  1.419349E+00
-#   A-value:  1.405599E+00
-#   chi-2:  1.469407E+01
-#   p-value:  1.491177E-01
-#   exp. data sets for p-value:      8
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.251968E+00   1.249689E+00   5.376834E+00
-# endfb8.0      1.466497E+00   1.460839E+00   1.781965E+01
-# jeff3.3       1.466497E+00   1.460839E+00   1.781965E+01
-# jendl5.0      1.491950E+00   1.489349E+00   1.947416E+01
-# cendl3.2      1.392107E+00   1.381352E+00   1.298005E+01

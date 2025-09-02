@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Rb85(n,a)Br82 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Bormann
 #   year: 1966
 #   subentry: 20898013
 #   X4 reaction: 37-RB-85(N,A)35-BR-82,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20898013
-# target:
+# target: 
 #   Z: 37
 #   A: 85
 #   nuclide: Rb85
-# reaction:
+# reaction: 
 #   type: (n,a)
 #   ENDF_MF: 3
 #   ENDF_MT: 107
-# residual:
-#   Z: 35
-#   A: 82
-#   nuclide: Br82
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 10
+#   residual: 
+#     Z: 35
+#     A: 82
+#     nuclide: Br82
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.294000E+01   3.600000E-01   5.200000E+00   5.000000E-01   1.000000E+00
@@ -43,20 +44,3 @@
 #   author: M.Bormann,F.Dreyer,H.Neuert,I.Riehle,U.Zielinski
 #   title: Measurements of some fast neutron cross sections  with the activation method
 #   journal: Conf: Nuclear Data For Reactors Conf., Paris 1966, Vol.1, p.225 (1966)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.294000E+01
-#   E-max [MeV]:  1.958000E+01
-#   F-value:  1.255283E+00
-#   A-value:  1.000946E+00
-#   chi-2:  8.033485E+00
-#   p-value:  2.554425E-01
-#   exp. data sets for p-value:      2
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.301770E+00   1.138900E+00   1.406866E+01
-# endfb8.0      1.206644E+00   9.825277E-01   4.241107E+00
-# jeff3.3       1.298959E+00   1.182837E+00   1.428820E+01
-# jendl5.0      1.235664E+00   8.570205E-01   4.081020E+00
-# cendl3.2      1.222731E+00   8.857433E-01   3.488449E+00

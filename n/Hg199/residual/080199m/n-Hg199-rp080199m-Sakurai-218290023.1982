@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: Hg199(n,x)Hg199m cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Sakurai
 #   year: 1982
 #   subentry: 218290023
 #   X4 reaction: 80-HG-199(N,INL)80-HG-199-M,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/218290023
-# target:
+# target: 
 #   Z: 80
 #   A: 199
 #   nuclide: Hg199
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 80
-#   A: 199
-#   nuclide: Hg199m
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 5
+#   residual: 
+#     Z: 80
+#     A: 199
+#     nuclide: Hg199m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    7.840000E-01   3.100000E-02   5.256998E+01   3.686000E+00   8.776290E-01
@@ -43,17 +44,3 @@
 #   author: K.Sakurai,H.Gotoh,S.Yamamoto,K.Kobayashi,I.Kimura
 #   title: -Cross section measurement for Hg-199(n,n')Hg-199-m  reaction from 0.78 to 6.3 MeV.
 #   journal: Jour: Jour. of Nuclear Science and Technology, Vol.19, Issue.10, p.775 (
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  7.840000E-01
-#   E-max [MeV]:  4.920000E+00
-#   F-value:  1.637793E+00
-#   A-value:  7.916511E-01
-#   chi-2:  2.463799E+01
-#   p-value:  3.042791E-01
-#   exp. data sets for p-value:      4
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.969982E+00   6.014367E-01   4.096233E+01
-# jeff3.3       1.178841E+00   1.042024E+00   8.313644E+00

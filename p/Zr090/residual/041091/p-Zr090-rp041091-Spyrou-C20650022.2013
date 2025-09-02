@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Zr90(p,x)Nb91 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Spyrou
 #   year: 2013
 #   subentry: C20650022
 #   X4 reaction: 40-ZR-90(P,G)41-NB-91,,SIG,,SFC
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/C20650022
-# target:
+# target: 
 #   Z: 40
 #   A: 90
 #   nuclide: Zr90
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 41
-#   A: 91
-#   nuclide: Nb91
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 12
+#   residual: 
+#     Z: 41
+#     A: 91
+#     nuclide: Nb91
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 12
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.771727E+00   2.800000E-02   1.517600E-04   1.873400E-05   1.000000E+00
@@ -45,17 +46,3 @@
 #   author: A.Spyrou,S.J.Quinn,A.Simon,T.Rauscher,A.Battaglia, A.Best,B.Bucher,M.Couder,P.A.Deyoung,A.C.Dombos,X.Fang, J.Gorres,A.Kontos,Q.Li,L.Y.Lin,A.Long,S.Lyons, B.S.Meyer,A.Roberts,D.Robertson,K.Smith,M.K.Smith, E.Stech,B.Stefanek,W.P.Tan,X.D.Tang,M.Wiescher
 #   title: Measurement of the 90,92Zr(p,gamma)91,93Nb reactions for the nucleosynthesis of elements near A = 90
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.88, p.045802 (2013)
-# statistics:
-#   NEA score: R3
-#   IAEA score: -1
-#   E-min [MeV]:  2.771727E+00
-#   E-max [MeV]:  4.980209E+00
-#   F-value:  1.011989E+03
-#   A-value:  1.011423E+03
-#   chi-2:  5.614342E+07
-#   p-value:  0.000000E+00
-#   exp. data sets for p-value:      2
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    9.641042E+02   9.637457E+02   5.091732E+07
-# jendl5.0      1.061894E+03   1.061459E+03   6.136953E+07

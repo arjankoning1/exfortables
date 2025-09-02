@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: Nb93(n,x)Nb92m cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Honusek
 #   year: 2011
 #   subentry: 316910021
 #   X4 reaction: 41-NB-93(N,2N)41-NB-92-M,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/316910021
-# target:
+# target: 
 #   Z: 41
 #   A: 93
 #   nuclide: Nb93
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 41
-#   A: 92
-#   nuclide: Nb92m
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 7
+#   residual: 
+#     Z: 41
+#     A: 92
+#     nuclide: Nb92m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.800000E+01   2.125000E+00   3.156200E+02   1.670000E+01   1.000000E+00
@@ -45,18 +46,3 @@
 #   author: M.Honusek, P.Bem, V.Burjan, M.Goetz, V.Kroha, J.Novak,  E.Simeckova, U.Fischer, S.P.Simakov
 #   title: Neutron activation experiments on niobium in NPI p-7Li  quasi-monoenergetic neutron field
 #   journal: Jour: Journal of the Korean Physical Society, Vol.59, p.1374 (2011)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.800000E+01
-#   E-max [MeV]:  3.562500E+01
-#   F-value:  1.600599E+00
-#   A-value:  1.262964E+00
-#   chi-2:  3.226455E+01
-#   p-value:  1.566187E-01
-#   exp. data sets for p-value:      8
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.593705E+00   1.256289E+00   3.093911E+01
-# jeff3.3       1.569363E+00   1.207725E+00   2.646161E+01
-# jendl5.0      1.637884E+00   1.327747E+00   3.939295E+01

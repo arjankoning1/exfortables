@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: S32(n,n')S32 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Petitt
 #   year: 1966
 #   subentry: 10235005
 #   X4 reaction: 16-S-32(N,INL)16-S-32,,SIG,,A
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/10235005
-# target:
+# target: 
 #   Z: 16
 #   A: 32
 #   nuclide: S32
-# reaction:
+# reaction: 
 #   type: (n,n')
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 16
-#   A: 32
-#   nuclide: S32
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 3
+#   residual: 
+#     Z: 16
+#     A: 32
+#     nuclide: S32
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.000000E+00   2.750000E-01   4.111755E+02   4.934107E+01   1.000000E+00
@@ -36,20 +37,3 @@
 #   author: G.A.PETITT,S.G.BUCCINO,C.E.HOLLANDSWORTH, P.R.BEVINGTON
 #   title: Elastic and inelastic neutron scattering by silicon  and sulphur
 #   journal: Jour: Nuclear Physics, Vol.79, p.231 (1966)
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  4.000000E+00
-#   E-max [MeV]:  5.800000E+00
-#   F-value:  1.502438E+00
-#   A-value:  1.224517E+00
-#   chi-2:  2.400359E+01
-#   p-value:  2.664194E-01
-#   exp. data sets for p-value:      2
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.547015E+00   1.317104E+00   2.954915E+01
-# endfb8.0      1.380018E+00   1.041651E+00   1.090008E+01
-# jeff3.3       1.723693E+00   1.562054E+00   5.041453E+01
-# jendl5.0      1.380018E+00   1.041651E+00   1.090008E+01
-# cendl3.2      1.442608E+00   1.233287E+00   1.825410E+01

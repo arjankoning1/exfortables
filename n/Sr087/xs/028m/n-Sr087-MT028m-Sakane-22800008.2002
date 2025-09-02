@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: Sr87(n,np)Rb86m cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Sakane
 #   year: 2002
 #   subentry: 22800008
 #   X4 reaction: 38-SR-87(N,X)37-RB-86-M,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22800008
-# target:
+# target: 
 #   Z: 38
 #   A: 87
 #   nuclide: Sr87
-# reaction:
+# reaction: 
 #   type: (n,np)
 #   ENDF_MF: 3
 #   ENDF_MT: 28
-# residual:
-#   Z: 37
-#   A: 86
-#   nuclide: Rb86m
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 6
+#   residual: 
+#     Z: 37
+#     A: 86
+#     nuclide: Rb86m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.340000E+01   0.000000E+00   2.999400E-01   8.998200E-02   9.997963E-01
@@ -44,18 +45,3 @@
 #   author: H.Sakane,Y.Kasugai,M.Shibata,T.Iida,A.Takahashi, T.Fukahori,K.Kawade
 #   title: Measurement of activation cross section of (n,np+d)  reactions producing short-lived nuclei in the energy  range between 13.4 and 14.9 MeV using an intense  neutron source OKTAVIAN
 #   journal: Jour: Annals of Nuclear Energy, Vol.29, p.53 (2002)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  1.340000E+01
-#   E-max [MeV]:  1.487000E+01
-#   F-value:  2.817189E+00
-#   A-value:  4.394241E-01
-#   chi-2:  3.813738E+01
-#   p-value:  1.916721E-01
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    3.895357E+00   2.655828E-01   5.943502E+01
-# jeff3.3       3.127012E+00   3.332737E-01   5.053627E+01
-# jendl5.0      1.301586E+00   9.586290E-01   4.440849E+00

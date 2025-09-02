@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ni58(a,x)Co57 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Blann
 #   year: 1965
 #   subentry: C03840031
 #   X4 reaction: 28-NI-58(A,X)27-CO-57,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/C03840031
-# target:
+# target: 
 #   Z: 28
 #   A: 58
 #   nuclide: Ni58
-# reaction:
+# reaction: 
 #   type: (a,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 27
-#   A: 57
-#   nuclide: Co57
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 20
+#   residual: 
+#     Z: 27
+#     A: 57
+#     nuclide: Co57
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 20
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.610000E+01   0.000000E+00   9.228973E+01   2.307243E+01   1.168224E+00
@@ -53,16 +54,3 @@
 #   author: M.Blann,G.Merkel
 #   title: Angular momentum and nuclear shell effects in reactions of Ni-58 with 46- to 68-MeV He-4 ions
 #   journal: Jour: Physical Review, Vol.137, p.B367 (1965)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  4.610000E+01
-#   E-max [MeV]:  6.780000E+01
-#   F-value:  1.499625E+00
-#   A-value:  1.242083E+00
-#   chi-2:  5.130754E+00
-#   p-value:  3.532698E-01
-#   exp. data sets for p-value:      4
-#   libraries:      1
-##  Library          F              A            chi-2
-# tendl.2023    1.499625E+00   1.242083E+00   5.130754E+00

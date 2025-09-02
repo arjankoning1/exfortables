@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ti50(n,x)Ca47 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Ribansky
 #   year: 1983
 #   subentry: 30660009
 #   X4 reaction: 22-TI-50(N,A)20-CA-47,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30660009
-# target:
+# target: 
 #   Z: 22
 #   A: 50
 #   nuclide: Ti50
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 107
-# residual:
-#   Z: 20
-#   A: 47
-#   nuclide: Ca47
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 20
+#     A: 47
+#     nuclide: Ca47
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.480000E+01   2.500000E-01   1.030988E+01   9.246300E-01   1.145542E+00
@@ -34,18 +35,3 @@
 #   author: I.Ribansky,S.Gmuca
 #   title: Neutron activation cross sections for Ti isotopes at 14.8 MeV
 #   journal: Jour: Jour. of Physics, Part G (Nucl.and Part.Phys.), Vol.9, p.1537 (198
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.480000E+01
-#   E-max [MeV]:  1.480000E+01
-#   F-value:  1.013425E+00
-#   A-value:  1.009900E+00
-#   chi-2:  1.451184E-01
-#   p-value:  4.184366E-01
-#   exp. data sets for p-value:      8
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.019019E+00   1.019019E+00   2.781617E-01
-# jeff3.3       1.000862E+00   1.000862E+00   1.207507E-02
-# jendl5.0      0.000000E+00   0.000000E+00   0.000000E+00

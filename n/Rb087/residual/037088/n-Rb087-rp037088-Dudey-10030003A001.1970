@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Rb87(n,x)Rb88 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Dudey
 #   year: 1970
 #   subentry: 10030003
 #   X4 reaction: 37-RB-87(N,G)37-RB-88,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/10030003
-# target:
+# target: 
 #   Z: 37
 #   A: 87
 #   nuclide: Rb87
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 37
-#   A: 88
-#   nuclide: Rb88
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 24
+#   residual: 
+#     Z: 37
+#     A: 88
+#     nuclide: Rb88
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 24
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.560000E-01   4.950000E-02   8.230000E+00   8.100000E-01   1.000000E+00
@@ -57,18 +58,3 @@
 #   author: N.D.Dudey,R.R.Heinrich,A.A.Madson
 #   title: Reaction cross sections of 85Rb(n,gamma)86Rb(m), 87Rb(n,gamma)88Rb, and 89Y(n,gamma)90Y(m) between 0.16 MeV and 1.5 MeV
 #   journal: Jour: Journal of Nuclear Energy, Vol.24, p.181 (1970)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.560000E-01
-#   E-max [MeV]:  1.561000E+00
-#   F-value:  1.147160E+00
-#   A-value:  1.037845E+00
-#   chi-2:  2.308805E+00
-#   p-value:  3.891508E-01
-#   exp. data sets for p-value:      2
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.141247E+00   1.093931E+00   2.275915E+00
-# jeff3.3       1.142985E+00   9.120110E-01   1.712038E+00
-# jendl5.0      1.156848E+00   1.120488E+00   2.938461E+00

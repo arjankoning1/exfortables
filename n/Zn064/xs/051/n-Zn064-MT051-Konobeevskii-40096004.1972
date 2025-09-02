@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Zn64(n,n'_01)Zn65 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Konobeevskii
 #   year: 1972
 #   subentry: 40096004
 #   X4 reaction: 30-ZN-64(N,INL)30-ZN-64,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/40096004
-#   level energy [MeV]  9.93000E-01
-# target:
+#   level energy [MeV]:  9.93000E-01
+# target: 
 #   Z: 30
 #   A: 64
 #   nuclide: Zn64
-# reaction:
+# reaction: 
 #   type: (n,n'_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 51
@@ -25,14 +25,15 @@
 #     energy [MeV]:  9.915400E-01
 #     spin:  2.000000E+00
 #     parity: 1
-# residual:
-#   Z: 30
-#   A: 65
-#   nuclide: Zn65
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 40
+#   residual: 
+#     Z: 30
+#     A: 65
+#     nuclide: Zn65
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 40
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.015778E+00   5.000000E-03   1.200000E+02   6.000000E+00   1.000000E+00
@@ -79,20 +80,3 @@
 #   author: E.S.Konobeevskii,R.M.Musaelyan, V.I.Popov,I.V.Surkova
 #   title: Cross sections for excitation of the first 2+ levels of Ni and Zn in inelastic scattering of neutrons at near-threshold energies.
 #   journal: Jour: Bull.Russian Academy of Sciences - Physics, Vol.35, p.2127 (1972)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  1.015778E+00
-#   E-max [MeV]:  1.660797E+00
-#   F-value:  1.587067E+00
-#   A-value:  8.574365E-01
-#   chi-2:  3.574971E+01
-#   p-value:  2.718078E-01
-#   exp. data sets for p-value:      1
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.549838E+00   8.200320E-01   2.818468E+01
-# endfb8.0      1.351576E+00   1.115377E+00   3.379704E+01
-# jeff3.3       1.484286E+00   9.147747E-01   2.641641E+01
-# jendl5.0      2.098387E+00   5.821193E-01   7.331553E+01
-# cendl3.2      1.323736E+00   9.515486E-01   1.703493E+01

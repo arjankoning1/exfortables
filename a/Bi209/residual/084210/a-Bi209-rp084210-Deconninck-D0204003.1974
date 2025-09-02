@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Bi209(a,x)Po210 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Deconninck
 #   year: 1974
 #   subentry: D0204003
 #   X4 reaction: 83-BI-209(A,X)84-PO-210,CUM,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/D0204003
-# target:
+# target: 
 #   Z: 83
 #   A: 209
 #   nuclide: Bi209
-# reaction:
+# reaction: 
 #   type: (a,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 84
-#   A: 210
-#   nuclide: Po210
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 10
+#   residual: 
+#     Z: 84
+#     A: 210
+#     nuclide: Po210
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.988400E+01   0.000000E+00   1.148700E+03   2.871750E+02   1.000000E+00
@@ -43,16 +44,3 @@
 #   author: G.Deconninck,M.Longree
 #   title: Excitation functions of alpha induced reactions on 209Bi between 40 and 100 MeV
 #   journal: Jour: Annales de la Societe Scientifique de Bruxelles, Vol.88, p.341 (19
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  3.988400E+01
-#   E-max [MeV]:  9.926400E+01
-#   F-value:  7.037065E+00
-#   A-value:  2.005669E-01
-#   chi-2:  8.782795E+00
-#   p-value:  1.900318E-01
-#   exp. data sets for p-value:      3
-#   libraries:      1
-##  Library          F              A            chi-2
-# tendl.2023    7.037065E+00   2.005669E-01   8.782795E+00

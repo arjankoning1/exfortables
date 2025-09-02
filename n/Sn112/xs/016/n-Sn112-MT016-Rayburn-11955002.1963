@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Sn112(n,2n)Sn111 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Rayburn
 #   year: 1963
 #   subentry: 11955002
 #   X4 reaction: 50-SN-112(N,2N)50-SN-111,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/11955002
-# target:
+# target: 
 #   Z: 50
 #   A: 112
 #   nuclide: Sn112
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 50
-#   A: 111
-#   nuclide: Sn111
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 15
+#   residual: 
+#     Z: 50
+#     A: 111
+#     nuclide: Sn111
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 15
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.230000E+01   1.000000E-01   7.600000E+02   7.600000E+01   1.000000E+00
@@ -48,20 +49,3 @@
 #   author: L.A.RAYBURN
 #   title: (N,2N) REACTIONS IN SN112 AND SM144.
 #   journal: Jour: Bulletin of the American Physical Society Ser.II, Vol.8, p.121(M13
-# statistics:
-#   NEA score: T2
-#   IAEA score:  1
-#   E-min [MeV]:  1.230000E+01
-#   E-max [MeV]:  1.780000E+01
-#   F-value:  1.444998E+00
-#   A-value:  7.064695E-01
-#   chi-2:  9.230631E+00
-#   p-value:  1.081451E-01
-#   exp. data sets for p-value:      1
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.499473E+00   6.724658E-01   1.093272E+01
-# endfb8.0      1.452849E+00   7.110953E-01   9.271695E+00
-# jeff3.3       1.430899E+00   7.056785E-01   8.983974E+00
-# jendl5.0      1.447044E+00   6.987923E-01   9.413664E+00
-# cendl3.2      1.391072E+00   7.463014E-01   7.551093E+00

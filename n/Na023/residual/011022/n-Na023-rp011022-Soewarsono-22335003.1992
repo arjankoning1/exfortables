@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Na23(n,x)Na22 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Soewarsono
 #   year: 1992
 #   subentry: 22335003
 #   X4 reaction: 11-NA-23(N,2N)11-NA-22,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22335003
-# target:
+# target: 
 #   Z: 11
 #   A: 23
 #   nuclide: Na23
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 11
-#   A: 22
-#   nuclide: Na22
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 5
+#   residual: 
+#     Z: 11
+#     A: 22
+#     nuclide: Na22
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.755000E+01   2.240000E+00   9.010001E+01   1.160000E+01   1.000000E+00
@@ -38,17 +39,3 @@
 #   author: T.S.Soewarsono, Y.Uwamino, T.Nakamura
 #   title: Neutron activation cross section measurement from  Li-7(p,n) in the proton energy region of 20 MeV to  40 MeV
 #   journal: Conf: JAERI-M Reports, No.92-027, p.354 (1992)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.755000E+01
-#   E-max [MeV]:  3.826000E+01
-#   F-value:  1.573247E+00
-#   A-value:  1.314704E+00
-#   chi-2:  1.114398E+01
-#   p-value:  2.920036E-01
-#   exp. data sets for p-value:      7
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.635595E+00   1.408951E+00   1.457211E+01
-# jendl5.0      1.507743E+00   1.226762E+00   7.715862E+00

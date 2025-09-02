@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Mg0(p,x)F18 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Bimbot
 #   year: 1971
 #   subentry: O2134019
 #   X4 reaction: 12-MG-0(P,X)9-F-18,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/O2134019
-# target:
+# target: 
 #   Z: 12
 #   A: 0
 #   nuclide: Mg0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 9
-#   A: 18
-#   nuclide: F18
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 2
+#   residual: 
+#     Z: 9
+#     A: 18
+#     nuclide: F18
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    5.000000E+01   5.000000E+00   5.300000E+00   1.000000E+00   1.000000E+00
@@ -35,17 +36,3 @@
 #   author: R.Bimbot, H.Gauvin
 #   title: Spallation reactions of light nuclei induced by protons from 50, 100 to 153 MeV.
 #   journal: Jour: Comptes Rendus, Serie B, Physique, Vol.273, p.1054 (1971)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  5.000000E+01
-#   E-max [MeV]:  1.000000E+02
-#   F-value:  1.642971E+00
-#   A-value:  1.512869E+00
-#   chi-2:  1.278624E+01
-#   p-value:  2.125467E-01
-#   exp. data sets for p-value:      2
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.266438E+00   1.181783E+00   2.129316E+00
-# jendl5.0      1.937199E+00   1.936710E+00   2.344316E+01

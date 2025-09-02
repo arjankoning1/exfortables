@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ca48(p,x)Sc48 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: GulzarSinghh
 #   year: 1982
 #   subentry: D6164002
 #   X4 reaction: 20-CA-48(P,N)21-SC-48,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/D6164002
-# target:
+# target: 
 #   Z: 20
 #   A: 48
 #   nuclide: Ca48
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 21
-#   A: 48
-#   nuclide: Sc48
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 603
+#   residual: 
+#     Z: 21
+#     A: 48
+#     nuclide: Sc48
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 603
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.885000E+00   0.000000E+00   1.801000E+00   0.000000E+00   1.000000E+00
@@ -636,17 +637,3 @@
 #   author: Gulzar Singh, S.Kailas, S.Saini, A.Chatterjee, M.Balakrishnan, M.K.Mehta
 #   title: Reaction 48Ca(p,n)48Sc from Ep = 1.885 to 5.1 MeV
 #   journal: Jour: Pramana, Vol.19, Issue.6, p.565 (1982)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.885000E+00
-#   E-max [MeV]:  4.900000E+00
-#   F-value:  2.015885E+00
-#   A-value:  1.482950E+00
-#   chi-2:  0.000000E+00
-#   p-value:  2.486157E-01
-#   exp. data sets for p-value:      4
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    2.128816E+00   1.552572E+00   0.000000E+00
-# jendl5.0      1.900164E+00   1.416451E+00   0.000000E+00

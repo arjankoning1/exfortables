@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ti50(n,a)Ca47 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Osman
 #   year: 1996
 #   subentry: 31464009
 #   X4 reaction: 22-TI-50(N,A)20-CA-47,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/31464009
-# target:
+# target: 
 #   Z: 22
 #   A: 50
 #   nuclide: Ti50
-# reaction:
+# reaction: 
 #   type: (n,a)
 #   ENDF_MF: 3
 #   ENDF_MT: 107
-# residual:
-#   Z: 20
-#   A: 47
-#   nuclide: Ca47
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 20
+#     A: 47
+#     nuclide: Ca47
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.470000E+01   0.000000E+00   1.250713E+01   2.273400E+00   1.137012E+00
@@ -34,20 +35,3 @@
 #   author: K.T.Osman,F.I.Habbani
 #   title: Measurement and study of (n,p) reaction cross sections for Cr, Ti, Ni, Co, Zr and Mo isotopes using 14.7 MeV neutrons
 #   journal: Rept: Sudanese report to the I.N.D.C., No.001 (1996)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.470000E+01
-#   E-max [MeV]:  1.470000E+01
-#   F-value:  1.264621E+00
-#   A-value:  8.018169E-01
-#   chi-2:  1.819972E+00
-#   p-value:  1.068743E-01
-#   exp. data sets for p-value:      8
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.111738E+00   8.994925E-01   7.845777E-01
-# endfb8.0      1.350318E+00   7.405661E-01   2.566777E+00
-# jeff3.3       1.157287E+00   8.640895E-01   1.113319E+00
-# jendl5.0      1.298069E+00   7.703748E-01   2.164131E+00
-# cendl3.2      1.337969E+00   7.474012E-01   2.471055E+00

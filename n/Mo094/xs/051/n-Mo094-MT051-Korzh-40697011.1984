@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Mo94(n,n'_01)Mo95 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Korzh
 #   year: 1984
 #   subentry: 40697011
 #   X4 reaction: 42-MO-94(N,INL)42-MO-94,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/40697011
-#   level energy [MeV]  8.71000E-01
-# target:
+#   level energy [MeV]:  8.71000E-01
+# target: 
 #   Z: 42
 #   A: 94
 #   nuclide: Mo94
-# reaction:
+# reaction: 
 #   type: (n,n'_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 51
@@ -25,14 +25,15 @@
 #     energy [MeV]:  8.710980E-01
 #     spin:  2.000000E+00
 #     parity: 1
-# residual:
-#   Z: 42
-#   A: 95
-#   nuclide: Mo95
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 7
+#   residual: 
+#     Z: 42
+#     A: 95
+#     nuclide: Mo95
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.500000E+00   0.000000E+00   1.118300E+03   7.140000E+01   1.000000E+00
@@ -46,20 +47,3 @@
 #   author: I.A.Korzh,V.P.Lunev,V.A.Mishchenko,Eh.N.Mozhzhukhin, N.M.Pravdivyj,E.Sh.Sukhovitskij
 #   title: Investigation of the mechanism of fast neutron  scattering by even isotopes of molybdenum
 #   journal: Rept: USSR report to the I.N.D.C., No.229, p.1 (1984)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  1.500000E+00
-#   E-max [MeV]:  7.000000E+00
-#   F-value:  1.216063E+00
-#   A-value:  9.092597E-01
-#   chi-2:  4.964124E+00
-#   p-value:  3.535676E-01
-#   exp. data sets for p-value:      5
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.301670E+00   8.154002E-01   3.722498E+00
-# endfb8.0      1.091107E+00   9.903862E-01   1.570129E+00
-# jeff3.3       1.087517E+00   9.586724E-01   4.777579E-01
-# jendl5.0      1.087517E+00   9.586724E-01   4.777579E-01
-# cendl3.2      1.372254E+00   8.373822E-01   1.857248E+01

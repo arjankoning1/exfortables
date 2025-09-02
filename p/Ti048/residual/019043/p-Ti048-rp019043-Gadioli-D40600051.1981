@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ti48(p,x)K43 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Gadioli
 #   year: 1981
 #   subentry: D40600051
 #   X4 reaction: 22-TI-48(P,X)19-K-43,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/D40600051
-# target:
+# target: 
 #   Z: 22
 #   A: 48
 #   nuclide: Ti48
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 19
-#   A: 43
-#   nuclide: K43
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 10
+#   residual: 
+#     Z: 19
+#     A: 43
+#     nuclide: K43
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.000000E+01   0.000000E+00   1.481100E-01   9.873700E-03   9.873738E-01
@@ -43,17 +44,3 @@
 #   author: E.Gadioli, E.Gadioli-Erba, J.J.Hogan, K.I.Burns
 #   title: Emission of alpha particles in the interaction of 10-85 MeV protons with Ti-48,50
 #   journal: Jour: Zeitschrift fuer Physik A, Hadrons and Nuclei, Vol.301, p.289 (198
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  4.000000E+01
-#   E-max [MeV]:  8.500000E+01
-#   F-value:  1.584612E+00
-#   A-value:  6.632854E-01
-#   chi-2:  5.033472E+01
-#   p-value:  1.995609E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.449520E+00   6.991276E-01   3.762992E+01
-# jendl5.0      1.707107E+00   6.292807E-01   6.303952E+01

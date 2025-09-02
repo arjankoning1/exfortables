@@ -1,28 +1,29 @@
-# header:
+# header: 
 #   title: U235(g,f) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Frommhold
 #   year: 1994
 #   subentry: M0772002
 #   X4 reaction: 92-U-235(G,F),,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/M0772002
-# target:
+# target: 
 #   Z: 92
 #   A: 235
 #   nuclide: U235
-# reaction:
+# reaction: 
 #   type: (g,f)
 #   ENDF_MF: 3
 #   ENDF_MT: 18
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 44
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 44
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    5.000000E+01   0.000000E+00   1.911000E+01   2.127800E+00   1.000000E+00
@@ -73,18 +74,3 @@
 #   author: TH.FROMMHOLD,F.STEIPER,W.HENKEL,U.KNEISSL,  J.AHRENS,R.BECK,J.PEISE,M.SCHMITZ,I.ANTHONY,  J.D.KELLIE,S.J.HALL,G.J.MILLER
 #   title: Photofission of   235U   and   238U  at  intermediate  energies:  absolute cross sections and fragment mass  distributions.
 #   journal: Jour: Zeitschrift fuer Physik A, Hadrons and Nuclei, Vol.350, p.249 (199
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  5.000000E+01
-#   E-max [MeV]:  7.840000E+02
-#   F-value:  1.793708E+00
-#   A-value:  7.042510E-01
-#   chi-2:  7.478658E+00
-#   p-value:  6.303638E-02
-#   exp. data sets for p-value:      2
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    2.260867E+00   5.400864E-01   1.364428E+01
-# endfb8.0      0.000000E+00   0.000000E+00   0.000000E+00
-# jendl5.0      1.140712E+00   9.183148E-01   1.313035E+00

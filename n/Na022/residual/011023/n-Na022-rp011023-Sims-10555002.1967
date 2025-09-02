@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Na22(n,x)Na23 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Sims
 #   year: 1967
 #   subentry: 10555002
 #   X4 reaction: 11-NA-22(N,G)11-NA-23,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/10555002
-# target:
+# target: 
 #   Z: 11
 #   A: 22
 #   nuclide: Na22
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 11
-#   A: 23
-#   nuclide: Na23
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 11
+#     A: 23
+#     nuclide: Na23
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.530000E-08   0.000000E+00   3.590000E+07   1.200000E+06   1.000000E+00
@@ -34,18 +35,3 @@
 #   author: G.H.E.Sims
 #   title: The thermal neutron capture cross-section and  resonance capture integral of 22Na.
 #   journal: Jour: Journal of Inorganic and Nuclear Chemistry, Vol.29, p.593 (1967)
-# statistics:
-#   NEA score: T3
-#   IAEA score: -1
-#   E-min [MeV]:  2.530000E-08
-#   E-max [MeV]:  2.530000E-08
-#   F-value:  2.104010E+03
-#   A-value:  2.316765E-03
-#   chi-2:  5.966289E+02
-#   p-value:  3.785042E-01
-#   exp. data sets for p-value:      2
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    8.876832E+04   1.126528E-05   8.949868E+02
-# jeff3.3       1.040646E+00   9.609417E-01   1.948025E+00
-# jendl5.0      8.705484E+02   1.148701E-03   8.929518E+02

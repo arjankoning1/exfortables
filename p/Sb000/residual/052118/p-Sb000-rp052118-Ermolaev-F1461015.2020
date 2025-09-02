@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Sb0(p,x)Te118 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Ermolaev
 #   year: 2020
 #   subentry: F1461015
 #   X4 reaction: 51-SB-0(P,X)52-TE-118,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/F1461015
-# target:
+# target: 
 #   Z: 51
 #   A: 0
 #   nuclide: Sb0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 52
-#   A: 118
-#   nuclide: Te118
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 25
+#   residual: 
+#     Z: 52
+#     A: 118
+#     nuclide: Te118
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 25
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.090000E+01   3.000000E-01   2.800000E+01   4.900000E+00   1.000000E+00
@@ -58,17 +59,3 @@
 #   author: S.V.Ermolaev,B.L.Zhuikov,V.M.Kokhanyuk,V.L.Matushko, S.C.Srivastava
 #   title: Cross sections and production yields of 117mSn and other radionuclides generated in natural and enriched antimony with protons up to 145 MeV
 #   journal: Jour: Radiochimica Acta, Vol.108, p.327 (2020)
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  3.090000E+01
-#   E-max [MeV]:  1.450000E+02
-#   F-value:  2.777310E+00
-#   A-value:  4.449976E-01
-#   chi-2:  1.170090E+01
-#   p-value:  2.401163E-01
-#   exp. data sets for p-value:      3
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    3.544105E+00   3.498344E-01   1.478885E+01
-# jendl5.0      2.007861E+00   5.660473E-01   8.612957E+00

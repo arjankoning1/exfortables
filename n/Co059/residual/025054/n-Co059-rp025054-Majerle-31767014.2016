@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Co59(n,x)Mn54 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Majerle
 #   year: 2016
 #   subentry: 31767014
 #   X4 reaction: 27-CO-59(N,X)25-MN-54,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/31767014
-# target:
+# target: 
 #   Z: 27
 #   A: 59
 #   nuclide: Co59
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 25
-#   A: 54
-#   nuclide: Mn54
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 4
+#   residual: 
+#     Z: 25
+#     A: 54
+#     nuclide: Mn54
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.760000E+01   1.000000E+00   9.000000E+00   1.000000E+00   1.000000E+00
@@ -37,17 +38,3 @@
 #   author: M.Majerle, P.Bem, J.Novak, E.Simeckova, M.Stefanik
 #   title: Au, Bi, Co and Nb cross-section measured by  quasimonoenergetic neutrons from p+7Li reaction in  the energy range of 18-36 MeV
 #   journal: Jour: Nuclear Physics, Section A, Vol.953, p.139 (2016)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  2.760000E+01
-#   E-max [MeV]:  3.550000E+01
-#   F-value:  1.392714E+00
-#   A-value:  7.284526E-01
-#   chi-2:  1.682788E+01
-#   p-value:  1.683906E-01
-#   exp. data sets for p-value:      4
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.486500E+00   6.747885E-01   2.222961E+01
-# jendl5.0      1.283527E+00   7.863845E-01   1.142616E+01

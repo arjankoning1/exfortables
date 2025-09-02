@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Se74(p,g)Br75 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Gyurky
 #   year: 2003
 #   subentry: O0849002S
 #   X4 reaction: 34-SE-74(P,G)35-BR-75,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/O0849002S
-# target:
+# target: 
 #   Z: 34
 #   A: 74
 #   nuclide: Se74
-# reaction:
+# reaction: 
 #   type: (p,g)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 35
-#   A: 75
-#   nuclide: Br75
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 14
+#   residual: 
+#     Z: 35
+#     A: 75
+#     nuclide: Br75
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 14
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.474837E+00   2.700000E-02   3.600000E-03   7.000000E-04   1.000000E+00
@@ -47,17 +48,3 @@
 #   author: Gy.Gyurky, Zs.Fulop, E.Somorjai, M.Kokkoris, S.Galanopoulos, P.Demetriou, S.Harissopulos, T.Rauscher, S.Goriely
 #   title: Proton induced reaction cross section measurements on Se isotopes for the astrophysical P-process
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.68, p.055803 (2003)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  1.474837E+00
-#   E-max [MeV]:  3.595359E+00
-#   F-value:  1.409457E+00
-#   A-value:  7.858940E-01
-#   chi-2:  3.194582E+00
-#   p-value:  3.556113E-01
-#   exp. data sets for p-value:      2
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.600028E+00   6.490029E-01   5.591937E+00
-# jendl5.0      1.128706E+00   9.516589E-01   7.972265E-01

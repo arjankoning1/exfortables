@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Au197(n,2n)Au196 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Frehaut
 #   year: 2016
 #   subentry: 20416091
 #   X4 reaction: 79-AU-197(N,2N)79-AU-196,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20416091
-# target:
+# target: 
 #   Z: 79
 #   A: 197
 #   nuclide: Au197
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 79
-#   A: 196
-#   nuclide: Au196
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 14
+#   residual: 
+#     Z: 79
+#     A: 196
+#     nuclide: Au196
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 14
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    8.440000E+00   2.700000E-01   4.100000E+01   2.100000E+01   1.000000E+00
@@ -47,21 +48,3 @@
 #   author: J.Frehaut,A.Bertin,R.Bois,J.Jary,G.Mosinski
 #   title: Status of (n,xn) cross section measurements  at Bruyeres-le-Chatel
 #   journal: Rept: Centre d'Etudes Nucleaires, Saclay Reports, No.6447 (2016)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  8.440000E+00
-#   E-max [MeV]:  1.476000E+01
-#   F-value:  1.131747E+00
-#   A-value:  1.049968E+00
-#   chi-2:  2.216142E+00
-#   p-value:  3.457809E-01
-#   exp. data sets for p-value:      2
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.133181E+00   1.042298E+00   5.607917E-01
-# endfb8.0      1.065366E+00   1.009157E+00   6.291686E-01
-# jeff3.3       1.065366E+00   1.009157E+00   6.291686E-01
-# jendl5.0      1.229142E+00   1.181483E+00   1.028040E+01
-# cendl3.2      1.131243E+00   1.032324E+00   6.914999E-01
-# irdff2.0      1.107788E+00   1.034912E+00   5.058277E-01

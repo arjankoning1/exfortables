@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Se82(g,x)Se80 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Carlos
 #   year: 1976
 #   subentry: L0043033
 #   X4 reaction: 34-SE-82(G,2N)34-SE-80,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/L0043033
-# target:
+# target: 
 #   Z: 34
 #   A: 82
 #   nuclide: Se82
-# reaction:
+# reaction: 
 #   type: (g,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 34
-#   A: 80
-#   nuclide: Se80
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 41
+#   residual: 
+#     Z: 34
+#     A: 80
+#     nuclide: Se80
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 41
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.562000E+01   0.000000E+00   7.000000E-01   4.000300E+00   1.000000E+00
@@ -74,17 +75,3 @@
 #   author: P.CARLOS,H.BEIL,R.BERGERE,J.FAGOT,A.LEPRETRE, A.VEYSSIERE,G.V.SOLODUKHOV
 #   title: A study of the photoneutron contribution to the giant  dipole resonance of nuclei in the 64<=A<=86 mass  region.
 #   journal: Jour: Nuclear Physics, Section A, Vol.258, p.365 (1976)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  1.562000E+01
-#   E-max [MeV]:  2.646000E+01
-#   F-value:  1.231989E+00
-#   A-value:  1.178139E+00
-#   chi-2:  2.763464E+00
-#   p-value:  2.255874E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.240799E+00   1.179366E+00   2.492852E+00
-# jendl5.0      1.219798E+00   1.174839E+00   3.144529E+00

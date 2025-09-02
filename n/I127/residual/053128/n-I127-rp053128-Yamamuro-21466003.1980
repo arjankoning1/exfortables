@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: I127(n,x)I128 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Yamamuro
 #   year: 1980
 #   subentry: 21466003
 #   X4 reaction: 53-I-127(N,G)53-I-128,,SIG,,AV
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/21466003
-# target:
+# target: 
 #   Z: 53
 #   A: 127
 #   nuclide: I127
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 53
-#   A: 128
-#   nuclide: I128
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 16
+#   residual: 
+#     Z: 53
+#     A: 128
+#     nuclide: I128
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 16
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.600000E-03   4.000000E-04   1.970000E+03   2.100000E+02   1.000000E+00
@@ -49,17 +50,3 @@
 #   author: N.Yamamuro,K.Saito,T.Emoto,T.Wada,Y.Fujita,  K.Kobayashi
 #   title: Neutron capture cross section measurements of  Nb-93, I-127, Ho-165, Ta-181 and U-238 between  3.2 and 80 keV
 #   journal: Jour: Jour. of Nuclear Science and Technology, Vol.17, Issue.8, p.582 (1
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  3.600000E-03
-#   E-max [MeV]:  7.250000E-02
-#   F-value:  1.433383E+00
-#   A-value:  1.043078E+00
-#   chi-2:  1.746864E+01
-#   p-value:  3.335617E-01
-#   exp. data sets for p-value:      6
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.326278E+00   1.110379E+00   2.342788E+01
-# jendl5.0      1.527594E+00   9.798565E-01   1.150940E+01

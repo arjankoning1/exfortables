@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Nb93(n,x)Nb93 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Biryukov
 #   year: 1974
 #   subentry: 40275007
 #   X4 reaction: 41-NB-93(N,INL)41-NB-93,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/40275007
-# target:
+# target: 
 #   Z: 41
 #   A: 93
 #   nuclide: Nb93
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 41
-#   A: 93
-#   nuclide: Nb93
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 41
+#     A: 93
+#     nuclide: Nb93
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    9.100000E+00   2.000000E-01   1.740000E+03   0.000000E+00   1.000000E+00
@@ -34,19 +35,3 @@
 #   author: N.S.Biryukov,B.V.Zhuravlev,N.V.Kornilov,V.I.Plyaskin, O.A.Sal'nikov,V.I.Trykova
 #   title: Mechanism of inelastic scattering of neutrons with  initial energy 9.1+-0.2 MeV by Nb.
 #   journal: Jour: Soviet Journal of Nuclear Physics, Vol.19, p.613 (1974)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  9.100000E+00
-#   E-max [MeV]:  9.100000E+00
-#   F-value:  1.043713E+00
-#   A-value:  1.002513E+00
-#   chi-2:  0.000000E+00
-#   p-value:  4.942891E-01
-#   exp. data sets for p-value:      1
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.073485E+00   9.315456E-01   0.000000E+00
-# endfb8.0      1.034448E+00   1.034448E+00   0.000000E+00
-# jeff3.3       1.019340E+00   1.019340E+00   0.000000E+00
-# jendl5.0      1.028318E+00   1.028318E+00   0.000000E+00

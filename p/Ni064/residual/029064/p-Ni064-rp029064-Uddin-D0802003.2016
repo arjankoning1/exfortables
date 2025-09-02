@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ni64(p,x)Cu64 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Uddin
 #   year: 2016
 #   subentry: D0802003
 #   X4 reaction: 28-NI-64(P,N)29-CU-64,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/D0802003
-# target:
+# target: 
 #   Z: 28
 #   A: 64
 #   nuclide: Ni64
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 29
-#   A: 64
-#   nuclide: Cu64
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 5
+#   residual: 
+#     Z: 29
+#     A: 64
+#     nuclide: Cu64
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.820000E+00   3.000000E-01   2.614737E+01   3.410500E+00   1.136842E+00
@@ -38,18 +39,3 @@
 #   author: Md.S.Uddin, A.K.Chakraborty, S.Spellerberg,  Md.A.Shariff, S.Das, Md.A.Rashid, I.Spahn, S.M.Qaim
 #   title: Experimental determination of proton induced reaction  cross sections on natNi near threshold energy
 #   journal: Jour: Radiochimica Acta, Vol.104, p.305 (2016)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  2.820000E+00
-#   E-max [MeV]:  3.960000E+00
-#   F-value:  1.261747E+00
-#   A-value:  1.009827E+00
-#   chi-2:  4.327165E+00
-#   p-value:  2.809967E-01
-#   exp. data sets for p-value:      3
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.316633E+00   1.032731E+00   6.108457E+00
-# endfb8.0      1.248746E+00   1.078173E+00   4.452573E+00
-# jendl5.0      1.210387E+00   9.822186E-01   2.724479E+00

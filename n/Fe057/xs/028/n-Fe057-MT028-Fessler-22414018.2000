@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Fe57(n,np)Mn56 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Fessler
 #   year: 2000
 #   subentry: 22414018
 #   X4 reaction: 26-FE-57(N,X)25-MN-56,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22414018
-# target:
+# target: 
 #   Z: 26
 #   A: 57
 #   nuclide: Fe57
-# reaction:
+# reaction: 
 #   type: (n,np)
 #   ENDF_MF: 3
 #   ENDF_MT: 28
-# residual:
-#   Z: 25
-#   A: 56
-#   nuclide: Mn56
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 4
+#   residual: 
+#     Z: 25
+#     A: 56
+#     nuclide: Mn56
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.604400E+01   6.200000E-02   2.909000E+01   2.790000E+00   1.000000E+00
@@ -37,19 +38,3 @@
 #   author: A.Fessler,A.J.M.Plompen,D.L.Smith,J.W.Meadows, Y.Ikeda
 #   title: Neutron activation cross-section measurements  from 16 to 20 MeV for isotopes of F, Na, Mg, Al, Si,  P, Cl, Ti, V, Mn, Fe, Nb, Sn, and Ba
 #   journal: Jour: Nuclear Science and Engineering, Vol.134, Issue.2, p.171 (2000)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  1.604400E+01
-#   E-max [MeV]:  2.026100E+01
-#   F-value:  1.416534E+00
-#   A-value:  9.872344E-01
-#   chi-2:  2.819308E+01
-#   p-value:  4.379725E-01
-#   exp. data sets for p-value:      1
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.163829E+00   8.797123E-01   6.198276E+00
-# jeff3.3       1.316665E+00   1.292043E+00   1.857939E+01
-# jendl5.0      1.601455E+00   1.577695E+00   7.408714E+01
-# cendl3.2      1.754813E+00   5.701323E-01   4.855806E+01

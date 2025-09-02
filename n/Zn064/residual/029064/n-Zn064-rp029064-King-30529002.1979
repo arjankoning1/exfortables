@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Zn64(n,x)Cu64 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: King
 #   year: 1979
 #   subentry: 30529002
 #   X4 reaction: 30-ZN-64(N,P)29-CU-64,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30529002
-# target:
+# target: 
 #   Z: 30
 #   A: 64
 #   nuclide: Zn64
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 29
-#   A: 64
-#   nuclide: Cu64
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 18
+#   residual: 
+#     Z: 29
+#     A: 64
+#     nuclide: Cu64
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 18
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.120000E+00   4.000000E-02   6.200000E+00   3.000000E-01   1.000000E+00
@@ -51,18 +52,3 @@
 #   author: C.H.King,C.F.Ai,J.C.Chou
 #   title: Cross-section measurement for the reaction Zn-64(n,p) Cu-64.
 #   journal: Jour: Nuclear Science, Taiwan, Vol.16, Issue.6, p.71 (1979)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  2.120000E+00
-#   E-max [MeV]:  4.840000E+00
-#   F-value:  1.157907E+00
-#   A-value:  1.076755E+00
-#   chi-2:  1.455026E+01
-#   p-value:  3.509542E-01
-#   exp. data sets for p-value:      6
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.172053E+00   1.100166E+00   1.729304E+01
-# jeff3.3       1.172055E+00   1.100229E+00   1.729339E+01
-# jendl5.0      1.125982E+00   1.031357E+00   9.064364E+00

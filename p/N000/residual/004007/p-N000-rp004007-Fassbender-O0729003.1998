@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: N0(p,x)Be7 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Fassbender
 #   year: 1998
 #   subentry: O0729003
 #   X4 reaction: 7-N-0(P,X)4-BE-7,IND,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/O0729003
-# target:
+# target: 
 #   Z: 7
 #   A: 0
 #   nuclide: N0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 4
-#   A: 7
-#   nuclide: Be7
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 11
+#   residual: 
+#     Z: 4
+#     A: 7
+#     nuclide: Be7
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 11
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.400000E+02   7.000000E-01   8.367800E+00   9.961700E-01   9.961686E-01
@@ -44,18 +45,3 @@
 #   author: M.FASSBENDER, B.SCHOLTEN, S.M.QAIM
 #   title: Radiochemical Studies of (P,BE-7) Reactions on Biologically Relevant Elements in the Proton Energy Range of 50 to 350 MeV.
 #   journal: Jour: Radiochimica Acta, Vol.81, p.1 (1998)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  1.400000E+02
-#   E-max [MeV]:  3.524000E+02
-#   F-value:  1.086816E+00
-#   A-value:  1.047405E+00
-#   chi-2:  8.575721E-01
-#   p-value:  2.495382E-01
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.050336E+00   1.050336E+00   5.817275E-01
-# endfb8.0      1.047570E+00   1.047570E+00   5.468092E-01
-# jendl5.0      1.108725E+00   1.063041E+00   1.180069E+00

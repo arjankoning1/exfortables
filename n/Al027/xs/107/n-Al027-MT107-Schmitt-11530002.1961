@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Al27(n,a)Na24 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Schmitt
 #   year: 1961
 #   subentry: 11530002
 #   X4 reaction: 13-AL-27(N,A)11-NA-24,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/11530002
-# target:
+# target: 
 #   Z: 13
 #   A: 27
 #   nuclide: Al27
-# reaction:
+# reaction: 
 #   type: (n,a)
 #   ENDF_MF: 3
 #   ENDF_MT: 107
-# residual:
-#   Z: 11
-#   A: 24
-#   nuclide: Na24
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 38
+#   residual: 
+#     Z: 11
+#     A: 24
+#     nuclide: Na24
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 38
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    6.120000E+00   0.000000E+00   1.650000E+00   1.155000E-01   1.000000E+00
@@ -71,21 +72,3 @@
 #   author: H.W.SCHMITT,J.HALPERIN
 #   title: AL27(N,A) NA24 CROSS SECTION AS A FUNCTION OF NEUTRON  ENERGY.
 #   journal: Jour: Physical Review, Vol.121, p.827 (1961)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  6.120000E+00
-#   E-max [MeV]:  8.300000E+00
-#   F-value:  1.140311E+00
-#   A-value:  1.048678E+00
-#   chi-2:  4.750406E+00
-#   p-value:  2.602015E-01
-#   exp. data sets for p-value:      4
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.093341E+00   1.028348E+00   1.626630E+00
-# endfb8.0      1.103925E+00   1.049068E+00   1.928253E+00
-# jeff3.3       1.103925E+00   1.049068E+00   1.928254E+00
-# jendl5.0      1.077785E+00   9.996281E-01   1.057087E+00
-# cendl3.2      1.283314E+00   1.141768E+00   2.030927E+01
-# irdff2.0      1.094113E+00   1.029649E+00   1.652945E+00

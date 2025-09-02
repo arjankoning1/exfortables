@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: As75(n,x)As76 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Nyarko
 #   year: 2010
 #   subentry: 31698002
 #   X4 reaction: 33-AS-75(N,G)33-AS-76,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/31698002
-# target:
+# target: 
 #   Z: 33
 #   A: 75
 #   nuclide: As75
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 33
-#   A: 76
-#   nuclide: As76
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 33
+#     A: 76
+#     nuclide: As76
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.530000E-08   0.000000E+00   4.232794E+03   1.879044E+02   9.889705E-01
@@ -34,18 +35,3 @@
 #   author: B.J.B.Nyarko, R.B.M.Sogbadji, E.H.K.Akaho,  S.E.Agbemava
 #   title: Cross section determination of short-to-medium lived  nuclides in a low power research and an Am-Be neutron  source
 #   journal: Rept: IAEA Nucl.Data Section report to the I.N.D.C., No.0574, p.72 (2010
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  2.530000E-08
-#   E-max [MeV]:  2.530000E-08
-#   F-value:  1.014971E+00
-#   A-value:  9.862686E-01
-#   chi-2:  4.188714E-01
-#   p-value:  3.652019E-01
-#   exp. data sets for p-value:      8
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.019584E+00   9.807922E-01   5.966647E-01
-# jeff3.3       1.015770E+00   9.844747E-01   4.731230E-01
-# jendl5.0      1.006459E+00   9.935830E-01   1.868266E-01

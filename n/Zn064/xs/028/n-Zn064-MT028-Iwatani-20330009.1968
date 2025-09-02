@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Zn64(n,np)Cu63 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Iwatani
 #   year: 1968
 #   subentry: 20330009
 #   X4 reaction: 30-ZN-64(N,N+P)29-CU-63,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20330009
-# target:
+# target: 
 #   Z: 30
 #   A: 64
 #   nuclide: Zn64
-# reaction:
+# reaction: 
 #   type: (n,np)
 #   ENDF_MF: 3
 #   ENDF_MT: 28
-# residual:
-#   Z: 29
-#   A: 63
-#   nuclide: Cu63
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 29
+#     A: 63
+#     nuclide: Cu63
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.410000E+01   1.000000E-01   1.690000E+02   2.600000E+01   1.000000E+00
@@ -34,20 +35,3 @@
 #   author: K.IWATANI, I.FUJITA, M.SONODA, A.KATASE, Y.WAKUTA
 #   title: -PROTONS FROM ZN-64 AND ZN-66 BOMBARDED WITH 14.1 MEV  NEUTRONS-
 #   journal: Jour: Journal of the Physical Society of Japan, Vol.25, p.964 (1968)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  1.410000E+01
-#   E-max [MeV]:  1.410000E+01
-#   F-value:  2.866271E+00
-#   A-value:  2.859404E+00
-#   chi-2:  1.489019E+02
-#   p-value:  5.013568E-02
-#   exp. data sets for p-value:      1
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    2.964960E+00   2.964960E+00   1.631302E+02
-# endfb8.0      2.686516E+00   2.686516E+00   1.201732E+02
-# jeff3.3       3.004229E+00   3.004229E+00   1.697154E+02
-# jendl5.0      3.101899E+00   3.101899E+00   1.866597E+02
-# cendl3.2      2.575183E+00   2.575183E+00   1.048308E+02

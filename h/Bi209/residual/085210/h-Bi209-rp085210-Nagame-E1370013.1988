@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Bi209(h,x)At210 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Nagame
 #   year: 1988
 #   subentry: E1370013
 #   X4 reaction: 83-BI-209(HE3,2N)85-AT-210,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/E1370013
-# target:
+# target: 
 #   Z: 83
 #   A: 209
 #   nuclide: Bi209
-# reaction:
+# reaction: 
 #   type: (h,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 85
-#   A: 210
-#   nuclide: At210
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 8
+#   residual: 
+#     Z: 85
+#     A: 210
+#     nuclide: At210
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.131000E+01   0.000000E+00   1.278987E+01   2.865620E+00   1.012658E+00
@@ -41,16 +42,3 @@
 #   author: Y.Nagame, Y.Nakamura, M.Takahashi, K.Sueki, H.Nakahara
 #   title: Pre-equilibrium process in 3He-induced reactions on 59Co, 109Ag, 181Ta and 209Bi
 #   journal: Jour: Nuclear Physics, Section A, Vol.486, Issue.1, p.77 (1988)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  2.131000E+01
-#   E-max [MeV]:  3.460000E+01
-#   F-value:  2.128932E+00
-#   A-value:  5.422397E-01
-#   chi-2:  4.688958E+00
-#   p-value:  4.303703E-01
-#   exp. data sets for p-value:      2
-#   libraries:      1
-##  Library          F              A            chi-2
-# tendl.2023    2.128932E+00   5.422397E-01   4.688958E+00

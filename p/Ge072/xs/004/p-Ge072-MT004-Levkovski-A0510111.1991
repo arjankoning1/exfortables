@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ge72(p,n')As72 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Levkovski*0.82
 #   year: 1991
 #   subentry: A0510111
 #   X4 reaction: 32-GE-72(P,N)33-AS-72,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/A0510111
-# target:
+# target: 
 #   Z: 32
 #   A: 72
 #   nuclide: Ge72
-# reaction:
+# reaction: 
 #   type: (p,n')
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 33
-#   A: 72
-#   nuclide: As72
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 25
+#   residual: 
+#     Z: 33
+#     A: 72
+#     nuclide: As72
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 25
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    7.700000E+00   0.000000E+00   2.997697E+02   3.655728E+01   7.631999E-01
@@ -58,17 +59,3 @@
 #   author: V.N.Levkovski
 #   title: Cross sections of medium mass nuclide activation  (A=40-100) by medium energy protons and alpha-particles (E=10-50 MeV)
 #   journal: Book: Levkovskij,Act.Cs.By Protons and Alphas,Moscow 1991,  (1991)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  7.700000E+00
-#   E-max [MeV]:  2.950000E+01
-#   F-value:  1.206232E+00
-#   A-value:  1.069134E+00
-#   chi-2:  3.036319E+00
-#   p-value:  2.111171E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.206579E+00   1.025177E+00   2.801199E+00
-# jendl5.0      1.205886E+00   1.114977E+00   3.271440E+00

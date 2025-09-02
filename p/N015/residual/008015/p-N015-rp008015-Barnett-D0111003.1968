@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: N15(p,x)O15 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Barnett
 #   year: 1968
 #   subentry: D0111003
 #   X4 reaction: 7-N-15(P,N)8-O-15,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/D0111003
-# target:
+# target: 
 #   Z: 7
 #   A: 15
 #   nuclide: N15
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 8
-#   A: 15
-#   nuclide: O15
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 324
+#   residual: 
+#     Z: 8
+#     A: 15
+#     nuclide: O15
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 324
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.746000E+00   0.000000E+00   3.064000E+00   4.596000E-01   1.000000E+00
@@ -357,17 +358,3 @@
 #   author: A.R.Barnett
 #   title: 16O analogue states in the 15N(p,n)15O reaction
 #   journal: Jour: Nuclear Physics, Section A, Vol.120, p.342 (1968)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  3.746000E+00
-#   E-max [MeV]:  1.194000E+01
-#   F-value:  1.938477E+00
-#   A-value:  5.772525E-01
-#   chi-2:  9.965320E+00
-#   p-value:  9.764409E-02
-#   exp. data sets for p-value:      3
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.856520E+00   6.148487E-01   9.412812E+00
-# jendl5.0      2.014839E+00   5.436292E-01   1.047313E+01

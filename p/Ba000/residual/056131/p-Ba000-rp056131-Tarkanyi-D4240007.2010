@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ba0(p,x)Ba131 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Tarkanyi
 #   year: 2010
 #   subentry: D4240007
 #   X4 reaction: 56-BA-0(P,X)56-BA-131,CUM,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/D4240007
-# target:
+# target: 
 #   Z: 56
 #   A: 0
 #   nuclide: Ba0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 56
-#   A: 131
-#   nuclide: Ba131
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 12
+#   residual: 
+#     Z: 56
+#     A: 131
+#     nuclide: Ba131
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 12
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.330000E+01   2.600000E+00   7.600001E-01   1.100000E-01   1.000000E+00
@@ -45,17 +46,3 @@
 #   author: F.Tarkanyi, F.Ditroi, B.Kiraly, S.Takacs, A.Hermanne,   H.Yamazaki, M.Baba, A.Mohammadi, A.V.Ignatyuk
 #   title: Study of activation cross sections of proton induced reactions on barium: Production of 131Ba->131Cs
 #   journal: Jour: Applied Radiation and Isotopes, Vol.68, p.1869 (2010)
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  3.330000E+01
-#   E-max [MeV]:  6.980000E+01
-#   F-value:  3.856519E+00
-#   A-value:  2.692219E-01
-#   chi-2:  3.292164E+01
-#   p-value:  1.450652E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    4.403996E+00   2.342532E-01   3.631802E+01
-# jendl5.0      3.328263E+00   3.094106E-01   2.952527E+01

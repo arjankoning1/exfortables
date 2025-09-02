@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: Zn68(n,p)Cu68m cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Kielan
 #   year: 1995
 #   subentry: 31460005
 #   X4 reaction: 30-ZN-68(N,P)29-CU-68-M,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/31460005
-# target:
+# target: 
 #   Z: 30
 #   A: 68
 #   nuclide: Zn68
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 29
-#   A: 68
-#   nuclide: Cu68m
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 5
+#   residual: 
+#     Z: 29
+#     A: 68
+#     nuclide: Cu68m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.340000E+01   2.000000E-01   2.026100E+00   3.683900E-01   9.209626E-01
@@ -43,18 +44,3 @@
 #   author: D.Kielan,A.Marcinkowski
 #   title: Cross sections for the (n,p) reaction on zinc isotopes in terms of the novel multistep compound reaction model
 #   journal: Jour: Zeitschrift fuer Physik A, Hadrons and Nuclei, Vol.352, p.137 (199
-# statistics:
-#   NEA score: T1
-#   IAEA score:  0
-#   E-min [MeV]:  1.340000E+01
-#   E-max [MeV]:  1.540000E+01
-#   F-value:  1.585881E+00
-#   A-value:  1.552219E+00
-#   chi-2:  1.013829E+01
-#   p-value:  9.980407E-02
-#   exp. data sets for p-value:      3
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.344929E+00   1.331043E+00   3.764287E+00
-# jeff3.3       1.778961E+00   1.772617E+00   1.679707E+01
-# jendl5.0      1.595600E+00   1.585081E+00   9.853507E+00

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Sn117(p,n')Sb117 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Blaser
 #   year: 1951
 #   subentry: B0048013
 #   X4 reaction: 50-SN-117(P,N)51-SB-117,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/B0048013
-# target:
+# target: 
 #   Z: 50
 #   A: 117
 #   nuclide: Sn117
-# reaction:
+# reaction: 
 #   type: (p,n')
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 51
-#   A: 117
-#   nuclide: Sb117
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 13
+#   residual: 
+#     Z: 51
+#     A: 117
+#     nuclide: Sb117
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 13
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.740000E+00   0.000000E+00   1.000000E+00   0.000000E+00   1.000000E+00
@@ -46,17 +47,3 @@
 #   author: J.-P.Blaser, F.Boehm, P.Marmier, D.C.Peaslee
 #   title: Fonctions d'excitation de la reaction (p,n). I
 #   journal: Jour: Helvetica Physica Acta, Vol.24, p.3 (1951)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  3.740000E+00
-#   E-max [MeV]:  6.390000E+00
-#   F-value:  1.335290E+00
-#   A-value:  1.187108E+00
-#   chi-2:  0.000000E+00
-#   p-value:  2.529328E-01
-#   exp. data sets for p-value:      3
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.368097E+00   1.332437E+00   0.000000E+00
-# jendl5.0      1.300362E+00   1.057630E+00   0.000000E+00

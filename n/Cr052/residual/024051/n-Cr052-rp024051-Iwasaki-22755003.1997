@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Cr52(n,x)Cr51 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Iwasaki
 #   year: 1997
 #   subentry: 22755003
 #   X4 reaction: 24-CR-52(N,2N)24-CR-51,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22755003
-# target:
+# target: 
 #   Z: 24
 #   A: 52
 #   nuclide: Cr52
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 24
-#   A: 51
-#   nuclide: Cr51
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 8
+#   residual: 
+#     Z: 24
+#     A: 51
+#     nuclide: Cr51
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.248800E+01   0.000000E+00   2.260300E+01   0.000000E+00   1.000000E+00
@@ -41,19 +42,3 @@
 #   author: S.Iwasaki, Than Win, S.Matsuyama, N.Odano
 #   title: Measurement of (n,2n) cross-sections for Sc, Mn,Cr and In between 12 and 19 MeV with activation technique
 #   journal: Conf: Japanese report to the I.N.D.C., No.179, p.169 (1997)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.248800E+01
-#   E-max [MeV]:  1.891100E+01
-#   F-value:  1.148124E+00
-#   A-value:  1.012085E+00
-#   chi-2:  2.735895E+00
-#   p-value:  2.855235E-01
-#   exp. data sets for p-value:      3
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.136850E+00   1.019030E+00   3.341304E+00
-# endfb8.0      1.137319E+00   1.019808E+00   3.336904E+00
-# jeff3.3       1.167422E+00   9.860537E-01   2.623999E+00
-# jendl5.0      1.149238E+00   1.023912E+00   1.641373E+00

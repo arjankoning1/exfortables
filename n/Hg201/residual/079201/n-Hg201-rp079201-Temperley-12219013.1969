@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Hg201(n,x)Au201 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Temperley
 #   year: 1969
 #   subentry: 12219013
 #   X4 reaction: 80-HG-201(N,P)79-AU-201,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/12219013
-# target:
+# target: 
 #   Z: 80
 #   A: 201
 #   nuclide: Hg201
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 79
-#   A: 201
-#   nuclide: Au201
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 79
+#     A: 201
+#     nuclide: Au201
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.410000E+01   1.000000E+00   1.605240E+00   7.417700E-01   1.070160E+00
@@ -34,19 +35,3 @@
 #   author: J.K.Temperley
 #   title: Neutron activation cross sections for mercury isotopes at 14.1 MeV.
 #   journal: Jour: Physical Review, Vol.178, p.1904 (1969)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.410000E+01
-#   E-max [MeV]:  1.410000E+01
-#   F-value:  1.854004E+00
-#   A-value:  1.708525E+00
-#   chi-2:  4.096402E+00
-#   p-value:  1.429057E-01
-#   exp. data sets for p-value:      1
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    2.083064E+00   2.083064E+00   5.686292E+00
-# endfb8.0      1.024395E+00   1.024395E+00   6.690445E-02
-# jeff3.3       1.779705E+00   1.779705E+00   3.289783E+00
-# jendl5.0      2.243714E+00   2.243714E+00   7.342628E+00

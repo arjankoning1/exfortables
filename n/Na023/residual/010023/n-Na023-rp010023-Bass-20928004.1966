@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Na23(n,x)Ne23 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Bass
 #   year: 1966
 #   subentry: 20928004
 #   X4 reaction: 11-NA-23(N,P)10-NE-23,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20928004
-# target:
+# target: 
 #   Z: 11
 #   A: 23
 #   nuclide: Na23
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 10
-#   A: 23
-#   nuclide: Ne23
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 128
+#   residual: 
+#     Z: 10
+#     A: 23
+#     nuclide: Ne23
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 128
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    5.800000E+00   2.500000E-02   1.907000E+01   2.860500E+00   1.000000E+00
@@ -161,17 +162,3 @@
 #   author: R.BASS,P.HAUG,K.KRUGER,B.STAGINNUS
 #   title: -FAST NEUTRON EXCITATION FUNCTIONS BY ACTIVATION  TECHNIQUES-
 #   journal: Rept: Report from Euratom-countries + Euratom to EANDC, No.66, p.64 (196
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  5.800000E+00
-#   E-max [MeV]:  8.975000E+00
-#   F-value:  1.339625E+00
-#   A-value:  1.158382E+00
-#   chi-2:  5.869385E+00
-#   p-value:  2.812496E-01
-#   exp. data sets for p-value:      3
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.419106E+00   1.333064E+00   9.550485E+00
-# jendl5.0      1.246259E+00   1.006591E+00   2.188283E+00

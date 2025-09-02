@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: N14(n,p_01) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Khryachkov
 #   year: 2006
 #   subentry: 41492004
 #   X4 reaction: 7-N-14(N,A)5-B-11,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/41492004
-#   level energy [MeV]  2.16767E-06
-# target:
+#   level energy [MeV]:  2.16767E-06
+# target: 
 #   Z: 7
 #   A: 14
 #   nuclide: N14
-# reaction:
+# reaction: 
 #   type: (n,p_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 801
@@ -25,10 +25,11 @@
 #     energy [MeV]:  0.000000E+00
 #     spin:  0.000000E+00
 #     parity: 1
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 16
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 16
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    5.577730E+00   0.000000E+00   0.000000E+00   0.000000E+00   1.000000E+00
@@ -51,20 +52,3 @@
 #   author: V.A.Khryachkov,B.D.Kuz'minov,M.V.Dunaev,I.V.Dunaeva, N.N.Semenova, A.I.Sergachev
 #   title: Measurement of the cross sections of the reactions  14N(n,alpha)11B and 14N(n,t)12C at neutron energies  5.45 - 7.2 MeV.
 #   journal: Jour: Atomnaya Energiya, Vol.101, p.307 (2006)
-# statistics:
-#   NEA score: T3
-#   IAEA score: -1
-#   E-min [MeV]:  5.577730E+00
-#   E-max [MeV]:  7.027940E+00
-#   F-value:  4.402234E+00
-#   A-value:  2.848813E+00
-#   chi-2:  3.863303E+02
-#   p-value:  5.180078E-02
-#   exp. data sets for p-value:      7
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    4.251531E+00   2.647516E+00   3.535067E+02
-# endfb8.0      4.251531E+00   2.647516E+00   3.535067E+02
-# jeff3.3       4.251531E+00   2.647516E+00   3.535067E+02
-# jendl5.0      5.022583E+00   3.819145E+00   5.176273E+02
-# cendl3.2      4.251526E+00   2.647516E+00   3.535047E+02

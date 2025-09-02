@@ -1,28 +1,29 @@
-# header:
+# header: 
 #   title: Cu0(n,2n) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Mather
 #   year: 1969
 #   subentry: 20794010
 #   X4 reaction: 29-CU-0(N,2N),,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20794010
-# target:
+# target: 
 #   Z: 29
 #   A: 0
 #   nuclide: Cu0
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.406000E+01   0.000000E+00   5.625066E+02   1.493214E+01   1.011702E+00
@@ -30,20 +31,3 @@
 #   author: D.S.Mather,L.F.Pain
 #   title: -Measurement of (N,2N) and (N,3N) cross sections  at 14MeV incident energy-.
 #   journal: Rept: A.W.R.E. Aldermaston Reports, No.47/69 (1969)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  1.406000E+01
-#   E-max [MeV]:  1.406000E+01
-#   F-value:  1.035604E+00
-#   A-value:  1.026717E+00
-#   chi-2:  2.264353E+00
-#   p-value:  3.746279E-01
-#   exp. data sets for p-value:      4
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.027789E+00   1.027789E+00   1.686945E+00
-# endfb8.0      1.007048E+00   9.930009E-01   3.498220E-01
-# jeff3.3       1.025629E+00   1.025629E+00   1.521779E+00
-# jendl5.0      1.067242E+00   1.067242E+00   6.552860E+00
-# cendl3.2      1.021283E+00   1.021283E+00   1.210360E+00

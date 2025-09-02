@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: V51(n,d)Ti50 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Grimes
 #   year: 1978
 #   subentry: 10732009
 #   X4 reaction: 23-V-51(N,D)22-TI-50,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/10732009
-# target:
+# target: 
 #   Z: 23
 #   A: 51
 #   nuclide: V51
-# reaction:
+# reaction: 
 #   type: (n,d)
 #   ENDF_MF: 3
 #   ENDF_MT: 104
-# residual:
-#   Z: 22
-#   A: 50
-#   nuclide: Ti50
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 14
+#   residual: 
+#     Z: 22
+#     A: 50
+#     nuclide: Ti50
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 14
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.500000E+01   0.000000E+00   2.000000E-01   9.999999E-02   1.000000E+00
@@ -47,19 +48,3 @@
 #   author: S.M.Grimes,R.C.Haight,J.D.Anderson
 #   title: Charged particle-producing reactions of 15-MeV neutrons  on 51V and 93Nb
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.17, p.508 (1978)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  1.500000E+01
-#   E-max [MeV]:  1.500000E+01
-#   F-value:  1.900524E+01
-#   A-value:  1.788255E+01
-#   chi-2:  2.166353E+03
-#   p-value:  0.000000E+00
-#   exp. data sets for p-value:      4
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    2.023021E+01   1.907345E+01   2.456299E+03
-# endfb8.0      1.766503E+01   1.660773E+01   1.838724E+03
-# jeff3.3       2.024294E+01   1.908571E+01   2.459591E+03
-# jendl5.0      1.798477E+01   1.691494E+01   1.910799E+03

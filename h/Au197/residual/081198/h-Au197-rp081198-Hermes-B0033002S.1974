@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Au197(h,x)Tl198 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Hermes
 #   year: 1974
 #   subentry: B0033002S
 #   X4 reaction: 79-AU-197(HE3,2N)81-TL-198,,SIG,,,EXP
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/B0033002S
-# target:
+# target: 
 #   Z: 79
 #   A: 197
 #   nuclide: Au197
-# reaction:
+# reaction: 
 #   type: (h,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 81
-#   A: 198
-#   nuclide: Tl198
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 13
+#   residual: 
+#     Z: 81
+#     A: 198
+#     nuclide: Tl198
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 13
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.430000E+01   0.000000E+00   6.000000E-01   0.000000E+00   1.000000E+00
@@ -46,16 +47,3 @@
 #   author: F.HERMES, E.W.JASPER, H.E.KURZ, T.MAYER-KUCKUK, P.F.A.GOUDSMIT, H.ARNOLD
 #   title: Analysis For (PARTICLE,XN) Reactions on Tantalum and Gold. Ta-181,Au-197(HE-3,XN) Excitation Functions and Equilibrium Statistical Model Analysis
 #   journal: Jour: Nuclear Physics, Section A, Vol.228, p.175 (1974)
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  1.430000E+01
-#   E-max [MeV]:  4.160000E+01
-#   F-value:  1.322815E+01
-#   A-value:  8.192754E-02
-#   chi-2:  0.000000E+00
-#   p-value:  3.777158E-02
-#   exp. data sets for p-value:      1
-#   libraries:      1
-##  Library          F              A            chi-2
-# tendl.2023    1.322815E+01   8.192754E-02   0.000000E+00

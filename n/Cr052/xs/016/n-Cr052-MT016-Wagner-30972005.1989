@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Cr52(n,2n)Cr51 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Wagner
 #   year: 1989
 #   subentry: 30972005
 #   X4 reaction: 24-CR-52(N,2N)24-CR-51,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30972005
-# target:
+# target: 
 #   Z: 24
 #   A: 52
 #   nuclide: Cr52
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 24
-#   A: 51
-#   nuclide: Cr51
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 4
+#   residual: 
+#     Z: 24
+#     A: 51
+#     nuclide: Cr51
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.352800E+01   1.000000E-02   1.718532E+02   3.578200E+00   9.939455E-01
@@ -37,20 +38,3 @@
 #   author: M.Wagner,G.Winkler,H.Vonach,Cs.M.Buczko,J.Csikai
 #   title: Measurement of the cross sections for the reactions Cr-52(n,2n)Cr-51, Zn-66(n,2n)Zn-65, Y-89(n,2n)Y-88 and Zr-96(n,2n)Zr-95 from 13.5 to 14.8 MeV.
 #   journal: Jour: Annals of Nuclear Energy, Vol.16, Issue.12, p.623 (1989)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.352800E+01
-#   E-max [MeV]:  1.478300E+01
-#   F-value:  1.080095E+00
-#   A-value:  9.774163E-01
-#   chi-2:  1.446268E+01
-#   p-value:  3.366405E-01
-#   exp. data sets for p-value:      7
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.002243E+00   9.978746E-01   1.463706E-01
-# endfb8.0      1.002108E+00   9.980666E-01   1.316397E-01
-# jeff3.3       1.159443E+00   8.676260E-01   5.220784E+01
-# jendl5.0      1.062835E+00   1.061481E+00   1.123684E+01
-# cendl3.2      1.065907E+00   9.725630E-01   8.590689E+00

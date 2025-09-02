@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Fe56(p,x)Mn54 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: ZHAOWENRONGG
 #   year: 1993
 #   subentry: S0041005
 #   X4 reaction: 26-FE-56(P,X)25-MN-54,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/S0041005
-# target:
+# target: 
 #   Z: 26
 #   A: 56
 #   nuclide: Fe56
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 25
-#   A: 54
-#   nuclide: Mn54
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 8
+#   residual: 
+#     Z: 25
+#     A: 54
+#     nuclide: Mn54
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.438100E+01   1.210000E-01   1.100000E+00   7.999900E-02   9.999900E-01
@@ -41,18 +42,3 @@
 #   author: ZHAO WENRONG,LU HANLIN,YU WEIXIANG
 #   title: Measurement of cross sections by bombarding Fe with protons up to 19 MeV
 #   journal: Jour: Chinese J.of Nuclear Physics (Beijing)., Vol.15, Issue.4, p.337 (1
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  1.438100E+01
-#   E-max [MeV]:  1.886400E+01
-#   F-value:  6.621738E+02
-#   A-value:  1.531201E-03
-#   chi-2:  1.989581E+02
-#   p-value:  3.278255E-07
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    5.940308E+02   1.683414E-03   2.143898E+02
-# endfb8.0      0.000000E+00   0.000000E+00   0.000000E+00
-# jendl5.0      5.797781E+02   1.761103E-03   1.988227E+02

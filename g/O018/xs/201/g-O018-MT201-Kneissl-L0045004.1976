@@ -1,28 +1,29 @@
-# header:
+# header: 
 #   title: O18(g,xn) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Kneissl
 #   year: 1976
 #   subentry: L0045004
 #   X4 reaction: 8-O-18(G,X)0-NN-1,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/L0045004
-# target:
+# target: 
 #   Z: 8
 #   A: 18
 #   nuclide: O18
-# reaction:
+# reaction: 
 #   type: (g,xn)
 #   ENDF_MF: 3
 #   ENDF_MT: 201
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 133
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 133
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    8.199001E+00   0.000000E+00   8.500000E-01   4.550100E-01   1.000000E+00
@@ -162,18 +163,3 @@
 #   author: U.KNEISSL,K.H.LEISTER,H.O.NEIDEL,A.WELLER
 #   title: Photoneutron cross sections for 18O.
 #   journal: Jour: Nuclear Physics, Section A, Vol.272, p.125 (1976)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  8.199001E+00
-#   E-max [MeV]:  3.300500E+01
-#   F-value:  1.976740E+00
-#   A-value:  9.035968E-01
-#   chi-2:  1.535573E+01
-#   p-value:  3.232691E-01
-#   exp. data sets for p-value:      2
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    2.841517E+00   6.470543E-01   3.053331E+01
-# endfb8.0      1.412783E+00   1.221165E+00   1.348023E+01
-# jendl5.0      1.363294E+00   9.604135E-01   2.223514E+00

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Mo92(n,2np)Nb90 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Garrett
 #   year: 2000
 #   subentry: 13949006
 #   X4 reaction: 42-MO-92(N,2N+P)41-NB-90,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/13949006
-# target:
+# target: 
 #   Z: 42
 #   A: 92
 #   nuclide: Mo92
-# reaction:
+# reaction: 
 #   type: (n,2np)
 #   ENDF_MF: 3
 #   ENDF_MT: 41
-# residual:
-#   Z: 41
-#   A: 90
-#   nuclide: Nb90
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 61
+#   residual: 
+#     Z: 41
+#     A: 90
+#     nuclide: Nb90
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 61
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.167000E+01   0.000000E+00   8.704000E-01   2.613000E-01   1.000000E+00
@@ -94,16 +95,3 @@
 #   author: P.E.Garrett,L.A.Bernstein,J.A.Becker,K.Hauschild,  C.A.McGrath,D.P.McNabb,W.Younes,M.B.Chadwick,  G.D.Johns,R.O.Nelson,W.S.Wilburn,E.Tavukcu,S.W.Yates
 #   title: 92Mo(n,xnypzalphagamma) reactions for neutron energies  up to 250 MeV
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.62, p.054608 (2000)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  1.704000E+01
-#   E-max [MeV]:  2.230000E+02
-#   F-value:  1.261908E+01
-#   A-value:  7.725694E-01
-#   chi-2:  1.859753E+00
-#   p-value:  2.406958E-02
-#   exp. data sets for p-value:      1
-#   libraries:      1
-##  Library          F              A            chi-2
-# tendl.2023    1.261908E+01   7.725694E-01   1.859753E+00

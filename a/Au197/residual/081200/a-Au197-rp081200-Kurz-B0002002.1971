@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Au197(a,x)Tl200 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Kurz
 #   year: 1971
 #   subentry: B0002002
 #   X4 reaction: 79-AU-197(A,N)81-TL-200,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/B0002002
-# target:
+# target: 
 #   Z: 79
 #   A: 197
 #   nuclide: Au197
-# reaction:
+# reaction: 
 #   type: (a,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 81
-#   A: 200
-#   nuclide: Tl200
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 10
+#   residual: 
+#     Z: 81
+#     A: 200
+#     nuclide: Tl200
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.630000E+01   1.000000E+00   1.350800E+00   6.754000E-02   1.039080E+00
@@ -43,16 +44,3 @@
 #   author: H.E.Kurz, E.W.Jasper, K.Fischer, F.Hermes
 #   title: Measurement and equilibrium statistical-model  calculation of excitation functions of the  197Au(a,xn) reactions in the energy range from 16 to  103 MeV
 #   journal: Jour: Nuclear Physics, Section A, Vol.168, p.129 (1971)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  1.630000E+01
-#   E-max [MeV]:  4.250000E+01
-#   F-value:  1.709748E+00
-#   A-value:  7.458631E-01
-#   chi-2:  8.528963E+01
-#   p-value:  3.081495E-01
-#   exp. data sets for p-value:      2
-#   libraries:      1
-##  Library          F              A            chi-2
-# tendl.2023    1.709748E+00   7.458631E-01   8.528963E+01

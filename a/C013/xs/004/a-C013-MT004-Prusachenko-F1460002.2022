@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: C13(a,n')O16 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Prusachenko
 #   year: 2022
 #   subentry: F1460002
 #   X4 reaction: 6-C-13(A,N)8-O-16,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/F1460002
-# target:
+# target: 
 #   Z: 6
 #   A: 13
 #   nuclide: C13
-# reaction:
+# reaction: 
 #   type: (a,n')
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 8
-#   A: 16
-#   nuclide: O16
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 38
+#   residual: 
+#     Z: 8
+#     A: 16
+#     nuclide: O16
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 38
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.082000E+00   7.000000E-02   6.155000E+01   4.214700E+00   1.000000E+00
@@ -71,17 +72,3 @@
 #   author: P.S.Prusachenko,T.L.Bobrovsky,I.P.Bondarenko, M.V.Bokhovko,A.F.Gurbich,V.V.Ketlerov
 #   title: Measurement of the cross section for the 13C(alpha,n)16O reaction and determination of the cross section for the 16O(n,alpha)13C reaction
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.105, p.024612 (2022)
-# statistics:
-#   NEA score: R3
-#   IAEA score: -1
-#   E-min [MeV]:  2.082000E+00
-#   E-max [MeV]:  6.117000E+00
-#   F-value:  1.865898E+00
-#   A-value:  1.114599E+00
-#   chi-2:  1.848064E+02
-#   p-value:  1.482923E-01
-#   exp. data sets for p-value:      5
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    2.149446E+00   1.211319E+00   2.948615E+02
-# jendl5.0      1.550875E+00   1.025601E+00   7.475140E+01

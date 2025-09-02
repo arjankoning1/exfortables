@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Y89(n,n'_01)Y90 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Perey
 #   year: 1970
 #   subentry: 10130005
 #   X4 reaction: 39-Y-89(N,INL)39-Y-89,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/10130005
-#   level energy [MeV]  9.10000E-01
-# target:
+#   level energy [MeV]:  9.10000E-01
+# target: 
 #   Z: 39
 #   A: 89
 #   nuclide: Y89
-# reaction:
+# reaction: 
 #   type: (n,n'_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 51
@@ -25,14 +25,15 @@
 #     energy [MeV]:  9.089700E-01
 #     spin:  4.500000E+00
 #     parity: 1
-# residual:
-#   Z: 39
-#   A: 90
-#   nuclide: Y90
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 5
+#   residual: 
+#     Z: 39
+#     A: 90
+#     nuclide: Y90
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.190000E+00   8.000000E-02   5.750000E+01   7.705000E+00   1.000000E+00
@@ -44,20 +45,3 @@
 #   author: F.G.Perey,W.E.Kinney
 #   title: Neutron elastic and inelastic scattering cross sections  for yttrium in the energy range 4.19 to 8.56 MeV.
 #   journal: Rept: Oak Ridge National Lab. Reports, No.4552 (1970)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  4.190000E+00
-#   E-max [MeV]:  5.500000E+00
-#   F-value:  2.254260E+00
-#   A-value:  6.800095E-01
-#   chi-2:  1.297632E+01
-#   p-value:  3.459300E-01
-#   exp. data sets for p-value:      4
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.576263E+00   7.184765E-01   6.312168E+00
-# endfb8.0      1.610635E+00   9.906242E-01   1.224462E+01
-# jeff3.3       1.610635E+00   9.906242E-01   1.224462E+01
-# jendl5.0      1.384166E+00   9.762488E-01   6.028068E+00
-# cendl3.2      4.916370E+00   2.112438E-01   2.805210E+01

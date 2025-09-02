@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Cu63(p,3n)Zn61 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Noma
 #   year: 1977
 #   subentry: B01040021
 #   X4 reaction: 29-CU-63(P,3N)30-ZN-61,,SIG,,,EXP
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/B01040021
-# target:
+# target: 
 #   Z: 29
 #   A: 63
 #   nuclide: Cu63
-# reaction:
+# reaction: 
 #   type: (p,3n)
 #   ENDF_MF: 3
 #   ENDF_MT: 17
-# residual:
-#   Z: 30
-#   A: 61
-#   nuclide: Zn61
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 8
+#   residual: 
+#     Z: 30
+#     A: 61
+#     nuclide: Zn61
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.000000E+01   0.000000E+00   1.800000E+00   5.700000E-01   1.000000E+00
@@ -41,18 +42,3 @@
 #   author: H.NOMA, T.HORIGUCHI, Y.YOSHIZAWA, I.FUJIWARA, S.KUME, K.CHIDA, T.MATSUI, S.AMEMIYA, T.KATOH
 #   title: Cross Sections of the Cu-63(P,3N)Zn-61 and the Cu-63(P,P3N)Cu-60 Reactions
 #   journal: Jour: Journal of Inorganic and Nuclear Chemistry, Vol.39, p.1923 (1977)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  3.000000E+01
-#   E-max [MeV]:  5.150000E+01
-#   F-value:  2.113346E+00
-#   A-value:  5.151813E-01
-#   chi-2:  1.339610E+01
-#   p-value:  1.220196E-01
-#   exp. data sets for p-value:      2
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.924234E+00   5.631116E-01   1.045260E+01
-# endfb8.0      2.066174E+00   5.340517E-01   1.187038E+01
-# jendl5.0      2.342659E+00   4.546767E-01   1.786534E+01

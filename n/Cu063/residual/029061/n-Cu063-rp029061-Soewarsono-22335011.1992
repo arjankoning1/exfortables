@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Cu63(n,x)Cu61 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Soewarsono
 #   year: 1992
 #   subentry: 22335011
 #   X4 reaction: 29-CU-63(N,3N)29-CU-61,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22335011
-# target:
+# target: 
 #   Z: 29
 #   A: 63
 #   nuclide: Cu63
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 17
-# residual:
-#   Z: 29
-#   A: 61
-#   nuclide: Cu61
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 3
+#   residual: 
+#     Z: 29
+#     A: 61
+#     nuclide: Cu61
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.758000E+01   1.640000E+00   8.750002E+01   1.990000E+01   1.000000E+00
@@ -36,19 +37,3 @@
 #   author: T.S.Soewarsono, Y.Uwamino, T.Nakamura
 #   title: Neutron activation cross section measurement from  Li-7(p,n) in the proton energy region of 20 MeV to  40 MeV
 #   journal: Conf: JAERI-M Reports, No.92-027, p.354 (1992)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  2.758000E+01
-#   E-max [MeV]:  3.826000E+01
-#   F-value:  1.289933E+00
-#   A-value:  9.140313E-01
-#   chi-2:  3.827088E+00
-#   p-value:  2.469916E-01
-#   exp. data sets for p-value:      3
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.254622E+00   1.141420E+00   1.619455E+00
-# endfb8.0      1.401825E+00   7.457649E-01   6.917355E+00
-# jeff3.3       1.223111E+00   9.400253E-01   3.062284E+00
-# jendl5.0      1.259306E+00   8.722826E-01   3.709261E+00

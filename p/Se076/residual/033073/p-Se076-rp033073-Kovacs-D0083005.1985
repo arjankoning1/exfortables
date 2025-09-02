@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Se76(p,x)As73 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Kovacs
 #   year: 1985
 #   subentry: D0083005
 #   X4 reaction: 34-SE-76(P,A)33-AS-73,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/D0083005
-# target:
+# target: 
 #   Z: 34
 #   A: 76
 #   nuclide: Se76
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 107
-# residual:
-#   Z: 33
-#   A: 73
-#   nuclide: As73
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 25
+#   residual: 
+#     Z: 33
+#     A: 73
+#     nuclide: As73
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 25
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    9.982500E+00   0.000000E+00   4.204600E+00   5.857400E-01   1.000000E+00
@@ -58,17 +59,3 @@
 #   author: Z.Kovacs,G.Blessing,S.M.Qaim,G.Stoecklin
 #   title: Production of 75Br via the 76Se(p,2n)75Br reaction at a compact cyclotron
 #   journal: Jour: Applied Radiation and Isotopes, Vol.36, p.635 (1985)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  9.982500E+00
-#   E-max [MeV]:  3.983900E+01
-#   F-value:  2.453657E+00
-#   A-value:  5.055717E-01
-#   chi-2:  1.247342E+01
-#   p-value:  2.022161E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    2.801237E+00   4.522554E-01   1.393336E+01
-# jendl5.0      2.099719E+00   5.651733E-01   1.101348E+01

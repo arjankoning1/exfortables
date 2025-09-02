@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Zr0(p,x)Nb90 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Lawriniang
 #   year: 2018
 #   subentry: D6328004
 #   X4 reaction: 40-ZR-0(P,X)41-NB-90,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/D6328004
-# target:
+# target: 
 #   Z: 40
 #   A: 0
 #   nuclide: Zr0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 41
-#   A: 90
-#   nuclide: Nb90
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 4
+#   residual: 
+#     Z: 41
+#     A: 90
+#     nuclide: Nb90
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.073000E+01   8.400000E-01   2.894200E+02   3.174883E+01   1.000000E+00
@@ -37,17 +38,3 @@
 #   author: B.Lawriniang, S.Badwar, R.Ghosh, B.Jyrwa, H.Naik, S.V.Suryanarayana, Y.P.Naik
 #   title: Excitation functions of proton-induced reactions on natFe and natZr targets for the production of cobalt and niobium isotopes
 #   journal: Jour: European Physical Journal A: Hadrons and Nuclei, Vol.54, p.141 (20
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  1.073000E+01
-#   E-max [MeV]:  1.915000E+01
-#   F-value:  1.045140E+00
-#   A-value:  1.009012E+00
-#   chi-2:  3.930750E-01
-#   p-value:  3.744638E-01
-#   exp. data sets for p-value:      2
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.041164E+00   9.989268E-01   3.959660E-01
-# jendl5.0      1.048813E+00   1.019199E+00   3.901840E-01

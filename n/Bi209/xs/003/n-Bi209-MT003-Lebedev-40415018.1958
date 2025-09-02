@@ -1,28 +1,29 @@
-# header:
+# header: 
 #   title: Bi209(n,non) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Lebedev
 #   year: 1958
 #   subentry: 40415018
 #   X4 reaction: 83-BI-209(N,NON),,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/40415018
-# target:
+# target: 
 #   Z: 83
 #   A: 209
 #   nuclide: Bi209
-# reaction:
+# reaction: 
 #   type: (n,non)
 #   ENDF_MF: 3
 #   ENDF_MT: 3
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.400000E+01   0.000000E+00   2.580000E+03   1.000000E+02   1.000000E+00
@@ -30,17 +31,3 @@
 #   author: P.P.Lebedev,Iu.A.Zysin,Iu.S.Klintsov,B.D.Stsiborskii
 #   title: Neutron yield in inelastic collisions of 14-MeV  neutrons with nuclei and cross section for the   (n,2n) reaction.
 #   journal: Jour: Soviet Atomic Energy, Vol.5, p.1431 (1958)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  1.400000E+01
-#   E-max [MeV]:  1.400000E+01
-#   F-value:  1.018693E+00
-#   A-value:  9.857618E-01
-#   chi-2:  5.266986E-01
-#   p-value:  4.238058E-01
-#   exp. data sets for p-value:      8
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.026403E+00   9.742764E-01   9.675479E-01
-# jeff3.3       1.002624E+00   9.973826E-01   8.584929E-02

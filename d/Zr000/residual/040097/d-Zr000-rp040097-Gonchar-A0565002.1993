@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Zr0(d,x)Zr97 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Gonchar
 #   year: 1993
 #   subentry: A0565002
 #   X4 reaction: 40-ZR-0(D,X)40-ZR-97,IND,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/A0565002
-# target:
+# target: 
 #   Z: 40
 #   A: 0
 #   nuclide: Zr0
-# reaction:
+# reaction: 
 #   type: (d,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 40
-#   A: 97
-#   nuclide: Zr97
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 3
+#   residual: 
+#     Z: 40
+#     A: 97
+#     nuclide: Zr97
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    8.500000E+00   5.000000E-01   3.289720E+00   1.096600E+00   9.968847E-01
@@ -36,16 +37,3 @@
 #   author: A.V.Gonchar,S.N.Kondratyev,Ju.N.Lobach,S.V.Nevskij, V.D.Skljarenko,V.V.Tokarevskij
 #   title: Long-lived radionuclides production at deutron beam of zirconium.
 #   journal: Jour: Atomnaya Energiya, Vol.75, p.205 (1993)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  8.500000E+00
-#   E-max [MeV]:  1.530000E+01
-#   F-value:  1.434590E+00
-#   A-value:  7.390218E-01
-#   chi-2:  8.829870E-01
-#   p-value:  3.167101E-01
-#   exp. data sets for p-value:      2
-#   libraries:      1
-##  Library          F              A            chi-2
-# tendl.2023    1.434590E+00   7.390218E-01   8.829870E-01

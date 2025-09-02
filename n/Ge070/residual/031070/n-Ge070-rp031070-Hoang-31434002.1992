@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ge70(n,x)Ga70 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Hoang
 #   year: 1992
 #   subentry: 31434002
 #   X4 reaction: 32-GE-70(N,P)31-GA-70,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/31434002
-# target:
+# target: 
 #   Z: 32
 #   A: 70
 #   nuclide: Ge70
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 31
-#   A: 70
-#   nuclide: Ga70
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 5
+#   residual: 
+#     Z: 31
+#     A: 70
+#     nuclide: Ga70
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.340000E+01   2.000000E-01   1.715908E+02   2.108151E+01   1.059202E+00
@@ -38,18 +39,3 @@
 #   author: H.M.Hoang,U.Garuska,D.Kielan,A.Marcinkowski, B.Zwieglinski
 #   title: Energy dependence of the isotopic effect in the (n,p) reaction on the germanium isotopes.
 #   journal: Jour: Zeitschrift fuer Physik A, Hadrons and Nuclei, Vol.342, Issue.3, p
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.340000E+01
-#   E-max [MeV]:  1.540000E+01
-#   F-value:  1.940792E+00
-#   A-value:  5.247303E-01
-#   chi-2:  1.214281E+01
-#   p-value:  1.648827E-01
-#   exp. data sets for p-value:      3
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.878521E+00   5.429861E-01   1.154647E+01
-# jeff3.3       2.162384E+00   4.699422E-01   1.502010E+01
-# jendl5.0      1.771232E+00   5.662071E-01   9.861848E+00

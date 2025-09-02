@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: S0(n,n'_01)S1 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Perey
 #   year: 1970
 #   subentry: 10108074
 #   X4 reaction: 16-S-0(N,INL)16-S-0,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/10108074
-#   level energy [MeV]  4.29000E+00
-# target:
+#   level energy [MeV]:  4.29000E+00
+# target: 
 #   Z: 16
 #   A: 0
 #   nuclide: S0
-# reaction:
+# reaction: 
 #   type: (n,n'_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 51
@@ -25,14 +25,15 @@
 #     energy [MeV]:  4.281800E+00
 #     spin:  2.000000E+00
 #     parity: 1
-# residual:
-#   Z: 16
-#   A: 1
-#   nuclide: S1
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 3
+#   residual: 
+#     Z: 16
+#     A: 1
+#     nuclide: S1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    6.000000E+00   8.000000E-02   9.384000E+01   1.182384E+01   1.000000E+00
@@ -42,20 +43,3 @@
 #   author: F.G.PEREY,W.E.KINNEY
 #   title: Sulfur neutron elastic- and inelastic-scattering cross sections from 4.0 to 8.5 MeV
 #   journal: Rept: Oak Ridge National Lab. Reports, No.4539 (1970)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  6.000000E+00
-#   E-max [MeV]:  8.520000E+00
-#   F-value:  1.799670E+00
-#   A-value:  1.688886E+00
-#   chi-2:  6.035544E+01
-#   p-value:  1.095469E-01
-#   exp. data sets for p-value:      6
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.603510E+00   1.441984E+00   3.225071E+01
-# endfb8.0      1.927987E+00   1.901690E+00   8.170456E+01
-# jeff3.3       1.701019E+00   1.524896E+00   4.478687E+01
-# jendl5.0      1.927987E+00   1.901690E+00   8.170456E+01
-# cendl3.2      1.821049E+00   1.727911E+00   6.133047E+01

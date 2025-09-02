@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Mo92(n,np)Nb91 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Garrett
 #   year: 2000
 #   subentry: 13949005
 #   X4 reaction: 42-MO-92(N,N+P)41-NB-91,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/13949005
-# target:
+# target: 
 #   Z: 42
 #   A: 92
 #   nuclide: Mo92
-# reaction:
+# reaction: 
 #   type: (n,np)
 #   ENDF_MF: 3
 #   ENDF_MT: 28
-# residual:
-#   Z: 41
-#   A: 91
-#   nuclide: Nb91
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 151
+#   residual: 
+#     Z: 41
+#     A: 91
+#     nuclide: Nb91
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 151
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.997000E+00   0.000000E+00   4.759000E+00   7.051000E-01   1.000000E+00
@@ -184,20 +185,3 @@
 #   author: P.E.Garrett,L.A.Bernstein,J.A.Becker,K.Hauschild,  C.A.McGrath,D.P.McNabb,W.Younes,M.B.Chadwick,  G.D.Johns,R.O.Nelson,W.S.Wilburn,E.Tavukcu,S.W.Yates
 #   title: 92Mo(n,xnypzalphagamma) reactions for neutron energies  up to 250 MeV
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.62, p.054608 (2000)
-# statistics:
-#   NEA score: T3
-#   IAEA score: -1
-#   E-min [MeV]:  1.997000E+00
-#   E-max [MeV]:  2.160000E+02
-#   F-value:  3.864423E+01
-#   A-value:  2.092112E+01
-#   chi-2:  2.357801E+04
-#   p-value:  1.880637E-03
-#   exp. data sets for p-value:      1
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    3.776509E+01   2.432125E+01   2.662324E+04
-# endfb8.0      4.765815E+01   2.297774E+01   4.302093E+04
-# jeff3.3       3.189948E+01   2.807904E+01   2.515924E+04
-# jendl5.0      3.189948E+01   2.807904E+01   2.515924E+04
-# cendl3.2      3.270388E+01   2.563280E+01   3.706078E+04

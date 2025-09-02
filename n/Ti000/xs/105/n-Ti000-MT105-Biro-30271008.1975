@@ -1,28 +1,29 @@
-# header:
+# header: 
 #   title: Ti0(n,t) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Biro
 #   year: 1975
 #   subentry: 30271008
 #   X4 reaction: 22-TI-0(N,T),,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30271008
-# target:
+# target: 
 #   Z: 22
 #   A: 0
 #   nuclide: Ti0
-# reaction:
+# reaction: 
 #   type: (n,t)
 #   ENDF_MF: 3
 #   ENDF_MT: 105
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.470000E+01   0.000000E+00   7.190200E-02   1.800000E-02   1.027173E+00
@@ -30,20 +31,3 @@
 #   author: T.Biro,S.Sudar,J.Csikai,Z.Dezso
 #   title: Cross-sections of (n,t) reactions with 14.7 MeV neutrons determined by direct beta-counting of tritium
 #   journal: Jour: Journal of Inorganic and Nuclear Chemistry, Vol.37, p.1583 (1975)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  1.470000E+01
-#   E-max [MeV]:  1.470000E+01
-#   F-value:  1.192063E+01
-#   A-value:  9.106554E-02
-#   chi-2:  1.261707E+01
-#   p-value:  3.576279E-07
-#   exp. data sets for p-value:      1
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.667399E+01   5.997366E-02   1.410481E+01
-# endfb8.0      1.338065E+01   7.473481E-02   1.366656E+01
-# jeff3.3       1.538603E+01   6.499404E-02   1.395495E+01
-# jendl5.0      1.489246E+01   6.714810E-02   1.389091E+01
-# cendl3.2      3.123347E+00   3.201693E-01   7.468107E+00

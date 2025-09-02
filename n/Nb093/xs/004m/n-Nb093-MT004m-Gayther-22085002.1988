@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: Nb93(n,n')Nb93m cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Gayther
 #   year: 1988
 #   subentry: 22085002
 #   X4 reaction: 41-NB-93(N,INL)41-NB-93-M,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22085002
-# target:
+# target: 
 #   Z: 41
 #   A: 93
 #   nuclide: Nb93
-# reaction:
+# reaction: 
 #   type: (n,n')
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 41
-#   A: 93
-#   nuclide: Nb93m
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 10
+#   residual: 
+#     Z: 41
+#     A: 93
+#     nuclide: Nb93m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.090000E+00   1.900000E-01   7.480001E+01   3.366000E+00   1.000000E+00
@@ -48,20 +49,3 @@
 #   author: D.B.GAYTHER,C.A.UTTLEY,M.F.MURPHY,W.H.TAYLOR,K.RANDLE
 #   title: -A MEASUREMENT OF THE NB-93(N,INL)NB-93-M CROSS-SECTION  IN THE ENERGY RANGE 1 TO 6 MEV.
 #   journal: Conf: Conf.on Nucl.Data For Sci.and Technol.,Mito 1988, p.1057 (1988)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.090000E+00
-#   E-max [MeV]:  5.760000E+00
-#   F-value:  1.064666E+00
-#   A-value:  1.005891E+00
-#   chi-2:  2.566722E+00
-#   p-value:  2.122750E-01
-#   exp. data sets for p-value:      1
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.038650E+00   1.003819E+00   1.022766E+00
-# endfb8.0      1.063158E+00   1.028417E+00   2.401550E+00
-# jeff3.3       1.038649E+00   1.003818E+00   1.022733E+00
-# jendl5.0      1.113561E+00   9.898970E-01   7.369599E+00
-# irdff2.0      1.038614E+00   1.003887E+00   1.016964E+00

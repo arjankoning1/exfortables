@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Kr0(p,x)Kr77 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Steyn
 #   year: 1991
 #   subentry: A0499004
 #   X4 reaction: 36-KR-0(P,X)36-KR-77,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/A0499004
-# target:
+# target: 
 #   Z: 36
 #   A: 0
 #   nuclide: Kr0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 36
-#   A: 77
-#   nuclide: Kr77
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 27
+#   residual: 
+#     Z: 36
+#     A: 77
+#     nuclide: Kr77
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 27
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.880000E+01   1.000000E+00   1.060000E+00   3.700000E-01   1.000000E+00
@@ -60,17 +61,3 @@
 #   author: G.F.Steyn,S.J.Mills,F.M.Nortier,F.J.Haasbroek
 #   title: Integral excitation functions for Kr-nat+p up to  116 MeV and optimization of the production of Rb-81  for Kr-81-m generators
 #   journal: Jour: Applied Radiation and Isotopes, Vol.42, p.361 (1991)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  1.880000E+01
-#   E-max [MeV]:  9.780000E+01
-#   F-value:  1.475795E+00
-#   A-value:  1.319237E+00
-#   chi-2:  9.476858E+00
-#   p-value:  2.613089E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.555383E+00   1.457867E+00   1.360969E+01
-# jendl5.0      1.388710E+00   1.193790E+00   5.344026E+00

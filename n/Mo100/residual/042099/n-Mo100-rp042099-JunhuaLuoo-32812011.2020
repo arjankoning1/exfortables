@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Mo100(n,x)Mo99 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: JunhuaLuoo
 #   year: 2020
 #   subentry: 32812011
 #   X4 reaction: 42-MO-100(N,2N)42-MO-99,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/32812011
-# target:
+# target: 
 #   Z: 42
 #   A: 100
 #   nuclide: Mo100
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 42
-#   A: 99
-#   nuclide: Mo99
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 3
+#   residual: 
+#     Z: 42
+#     A: 99
+#     nuclide: Mo99
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.350000E+01   2.000000E-01   1.466000E+03   8.800001E+01   1.000000E+00
@@ -36,17 +37,3 @@
 #   author: Junhua Luo,Li Jiang
 #   title: Cross-sections for (n,2n),(n,a),(n,p),(n,d),and (n,t) reactions on molybdenum isotopes in the neutron energy range of 13 to 15 MeV
 #   journal: Jour: Chinese Physics C, Vol.44, p.114002 (2020)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  1.350000E+01
-#   E-max [MeV]:  1.480000E+01
-#   F-value:  1.032710E+00
-#   A-value:  9.971015E-01
-#   chi-2:  5.058582E-01
-#   p-value:  3.842696E-01
-#   exp. data sets for p-value:      6
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.024530E+00   1.019244E+00   3.835047E-01
-# jendl5.0      1.039283E+00   9.754400E-01   6.282118E-01

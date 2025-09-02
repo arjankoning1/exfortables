@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Cs133(n,x)Cs134 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Brzosko
 #   year: 1971
 #   subentry: 30159011
 #   X4 reaction: 55-CS-133(N,G)55-CS-134,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30159011
-# target:
+# target: 
 #   Z: 55
 #   A: 133
 #   nuclide: Cs133
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 55
-#   A: 134
-#   nuclide: Cs134
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 55
+#     A: 134
+#     nuclide: Cs134
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.000000E-01   0.000000E+00   1.500000E+02   0.000000E+00   1.000000E+00
@@ -34,17 +35,3 @@
 #   author: J.S.Brzosko, E.Gierlik, A.Soltan Jr, Z.Szeflinski,  Z.Wilhelmi
 #   title: Measurement of gamma-ray spectra accompanying  radiative capture of nucleons
 #   journal: Jour: Acta Physica Polonica, Part B, Vol.2, p.489 (1971)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  4.000000E-01
-#   E-max [MeV]:  4.000000E-01
-#   F-value:  1.212568E+00
-#   A-value:  9.193583E-01
-#   chi-2:  0.000000E+00
-#   p-value:  4.342659E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.093469E+00   1.093469E+00   0.000000E+00
-# jendl5.0      1.293710E+00   7.729707E-01   0.000000E+00

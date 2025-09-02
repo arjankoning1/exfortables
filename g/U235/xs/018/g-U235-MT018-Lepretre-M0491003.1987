@@ -1,28 +1,29 @@
-# header:
+# header: 
 #   title: U235(g,f) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Lepretre
 #   year: 1987
 #   subentry: M0491003
 #   X4 reaction: 92-U-235(G,F),,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/M0491003
-# target:
+# target: 
 #   Z: 92
 #   A: 235
 #   nuclide: U235
-# reaction:
+# reaction: 
 #   type: (g,f)
 #   ENDF_MF: 3
 #   ENDF_MT: 18
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 24
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 24
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.900000E+01   1.560000E+00   1.770000E+01   3.807200E+00   1.000000E+00
@@ -53,18 +54,3 @@
 #   author: A.Lepretre,R.Bergere,P.Bourgeois,P.Carlos,J.Fagot, J.L.Fallou,P.Garganne,A.Veyssiere,H.Ries,R.Gobel, U.Kneissl,G.Mank,H.Stroher,W.Wilke,D.Ryckbosch, J.Jury
 #   title: Absolute photofission cross sections for  Th-232  and  U-235,238 measured with monochromatic tagged photons  (20 MeV < EG < 110 MeV).
 #   journal: Jour: Nuclear Physics, Section A, Vol.472, p.533 (1987)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  3.900000E+01
-#   E-max [MeV]:  1.030000E+02
-#   F-value:  1.241533E+00
-#   A-value:  9.506207E-01
-#   chi-2:  1.783647E+00
-#   p-value:  3.384590E-01
-#   exp. data sets for p-value:      2
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.328774E+00   9.474449E-01   2.821406E+00
-# endfb8.0      0.000000E+00   0.000000E+00   0.000000E+00
-# jendl5.0      1.119836E+00   9.538072E-01   7.458865E-01

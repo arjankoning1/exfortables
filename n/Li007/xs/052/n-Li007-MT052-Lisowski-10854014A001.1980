@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Li7(n,n'_02)Li8 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Lisowski
 #   year: 1980
 #   subentry: 10854014
 #   X4 reaction: 3-LI-7(N,INL)3-LI-7,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/10854014
-#   level energy [MeV]  4.63000E+00
-# target:
+#   level energy [MeV]:  4.63000E+00
+# target: 
 #   Z: 3
 #   A: 7
 #   nuclide: Li7
-# reaction:
+# reaction: 
 #   type: (n,n'_02)
 #   ENDF_MF: 3
 #   ENDF_MT: 52
@@ -25,14 +25,15 @@
 #     energy [MeV]:  4.630000E+00
 #     spin:  3.500000E+00
 #     parity: -1
-# residual:
-#   Z: 3
-#   A: 8
-#   nuclide: Li8
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 2
+#   residual: 
+#     Z: 3
+#     A: 8
+#     nuclide: Li8
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    5.960000E+00   0.000000E+00   1.270000E+02   5.000000E+01   1.000000E+00
@@ -41,19 +42,3 @@
 #   author: P.W.LISOWSKI,G.F.AUCHAMPAUGH,D.M.DRAKE,M.DROSG, G.HAOUAT,N.W.HILL,L.NILSSON
 #   title: CROSS SECTIONS FOR NEUTRON INDUCED, NEUTRON PRODUCING  REACTIONS IN LI-6 AND LI-7 AT 5.96 AND 9.83 MEV.
 #   journal: Rept: Los Alamos Scientific Lab. Reports, No.8342 (1980)
-# statistics:
-#   NEA score: T3
-#   IAEA score: -1
-#   E-min [MeV]:  5.960000E+00
-#   E-max [MeV]:  9.830000E+00
-#   F-value:  4.235302E+01
-#   A-value:  3.414320E-02
-#   chi-2:  3.695648E+01
-#   p-value:  5.364418E-07
-#   exp. data sets for p-value:      2
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.716481E+01   6.841341E-02   3.629023E+01
-# endfb8.0      1.716481E+01   6.841341E-02   3.629023E+01
-# jeff3.3       1.716481E+01   6.841341E-02   3.629023E+01
-# jendl5.0      2.833660E+02   4.244180E-03   3.895524E+01

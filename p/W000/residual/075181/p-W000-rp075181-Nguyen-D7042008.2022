@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: W0(p,x)Re181 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Nguyen
 #   year: 2022
 #   subentry: D7042008
 #   X4 reaction: 74-W-0(P,X)75-RE-181,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/D7042008
-# target:
+# target: 
 #   Z: 74
 #   A: 0
 #   nuclide: W0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 75
-#   A: 181
-#   nuclide: Re181
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 9
+#   residual: 
+#     Z: 75
+#     A: 181
+#     nuclide: Re181
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 9
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.250000E+01   7.900000E-01   9.868000E+01   1.085000E+01   1.000000E+00
@@ -42,18 +43,3 @@
 #   author: T.H.Nguyen, V.D.Nguyen, T.T.Kim, G.N.KIM, H.Naik
 #   title: Excitation functions of proton-induced reactions on natW target for rhenium isotope production
 #   journal: Jour: Radiation Physics and Chemistry, Vol.196, p.110145 (2022)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  1.250000E+01
-#   E-max [MeV]:  4.408000E+01
-#   F-value:  1.180012E+00
-#   A-value:  9.289993E-01
-#   chi-2:  2.282065E+00
-#   p-value:  2.386133E-01
-#   exp. data sets for p-value:      4
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.197243E+00   8.896816E-01   2.533355E+00
-# endfb8.0      1.180934E+00   9.675883E-01   2.540101E+00
-# jendl5.0      1.160397E+00   9.313672E-01   1.772740E+00

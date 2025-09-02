@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Tm169(n,x)Tm167 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Finch
 #   year: 2021
 #   subentry: 14708003
 #   X4 reaction: 69-TM-169(N,3N)69-TM-167,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/14708003
-# target:
+# target: 
 #   Z: 69
 #   A: 169
 #   nuclide: Tm169
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 17
-# residual:
-#   Z: 69
-#   A: 167
-#   nuclide: Tm167
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 10
+#   residual: 
+#     Z: 69
+#     A: 167
+#     nuclide: Tm167
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.650000E+01   1.100000E-01   5.307409E+01   3.892700E+00   9.976332E-01
@@ -43,17 +44,3 @@
 #   author: S.W.Finch,M.Bhike,Krishichayan,J.Soter,W.Tornow
 #   title: 169Tm(n,2n) 168Tm and 169Tm(n,3n) 167Tm cross-section measurements from 15 to 21 MeV
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.103, p.044609 (2021)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  1.650000E+01
-#   E-max [MeV]:  2.110000E+01
-#   F-value:  1.389335E+00
-#   A-value:  1.066132E+00
-#   chi-2:  3.899225E+01
-#   p-value:  3.660659E-01
-#   exp. data sets for p-value:      4
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.423622E+00   1.241246E+00   5.655746E+01
-# jeff3.3       1.353221E+00   9.157228E-01   2.142704E+01

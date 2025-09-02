@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: W182(n,n'_01)W183 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Guenther
 #   year: 1982
 #   subentry: 10803014
 #   X4 reaction: 74-W-182(N,INL)74-W-182,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/10803014
-#   level energy [MeV]  1.02000E-01
-# target:
+#   level energy [MeV]:  1.02000E-01
+# target: 
 #   Z: 74
 #   A: 182
 #   nuclide: W182
-# reaction:
+# reaction: 
 #   type: (n,n'_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 51
@@ -25,14 +25,15 @@
 #     energy [MeV]:  1.001060E-01
 #     spin:  2.000000E+00
 #     parity: 1
-# residual:
-#   Z: 74
-#   A: 183
-#   nuclide: W183
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 12
+#   residual: 
+#     Z: 74
+#     A: 183
+#     nuclide: W183
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 12
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.500000E+00   0.000000E+00   1.460000E+03   1.000000E+02   1.000000E+00
@@ -51,19 +52,3 @@
 #   author: P.T.Guenther,A.B.Smith,J.F.Whalen
 #   title: Fast Neutron Total and Scattering Cross Sections of  182W,184W,186W
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.26, p.2433 (1982)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  1.500000E+00
-#   E-max [MeV]:  3.500000E+00
-#   F-value:  1.268761E+00
-#   A-value:  8.306229E-01
-#   chi-2:  5.098772E+00
-#   p-value:  2.642081E-01
-#   exp. data sets for p-value:      2
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.381359E+00   7.298230E-01   8.761385E+00
-# endfb8.0      1.087311E+00   9.536350E-01   1.122860E+00
-# jeff3.3       1.104365E+00   9.387731E-01   1.643746E+00
-# jendl5.0      1.383592E+00   7.285431E-01   8.867097E+00

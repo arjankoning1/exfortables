@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: U238(n,x)U239 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Bergman
 #   year: 1969
 #   subentry: 40059002
 #   X4 reaction: 92-U-238(N,G)92-U-239,,SIG,,SDT
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/40059002
-# target:
+# target: 
 #   Z: 92
 #   A: 238
 #   nuclide: U238
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 92
-#   A: 239
-#   nuclide: U239
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 19
+#   residual: 
+#     Z: 92
+#     A: 239
+#     nuclide: U239
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 19
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.700000E-04   0.000000E+00   2.100000E+03   1.700000E+02   1.000000E+00
@@ -52,16 +53,3 @@
 #   author: A.A.Bergman,A.E.Samsonov,Yu.Ya.Stavisskiy, V.A.Tolstikov,V.B.Chelnokov
 #   title: Neutron radiative capture by 92-U-238 nucleus
 #   journal: Rept: Bull. Centr po Jadernym Dannym, Obninsk, No.6, p.32 (1969)
-# statistics:
-#   NEA score: T3
-#   IAEA score: -1
-#   E-min [MeV]:  4.700000E-04
-#   E-max [MeV]:  3.050000E-02
-#   F-value:  3.913036E+01
-#   A-value:  5.485357E-02
-#   chi-2:  3.493611E+02
-#   p-value:  9.845967E-03
-#   exp. data sets for p-value:      4
-#   libraries:      1
-##  Library          F              A            chi-2
-# jendl5.0      3.913036E+01   5.485357E-02   3.493611E+02

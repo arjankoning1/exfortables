@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Cu65(n,x)Ni65 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Santry
 #   year: 1966
 #   subentry: 11776004
 #   X4 reaction: 29-CU-65(N,P)28-NI-65,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/11776004
-# target:
+# target: 
 #   Z: 29
 #   A: 65
 #   nuclide: Cu65
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 28
-#   A: 65
-#   nuclide: Ni65
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 8
+#   residual: 
+#     Z: 28
+#     A: 65
+#     nuclide: Ni65
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.358000E+01   8.000000E-02   2.154906E+01   1.100000E+00   9.976415E-01
@@ -41,19 +42,3 @@
 #   author: D.C.Santry,J.P.Butler
 #   title: Excitation curves for the (n,2n), (n,p), and  (n,n alpha) reactions of Cu-65.
 #   journal: Jour: Canadian Journal of Physics, Vol.44, p.1183 (1966)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.358000E+01
-#   E-max [MeV]:  2.020000E+01
-#   F-value:  1.218119E+00
-#   A-value:  1.062355E+00
-#   chi-2:  5.812801E+00
-#   p-value:  4.022630E-01
-#   exp. data sets for p-value:      7
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.124157E+00   9.239777E-01   1.229616E+00
-# endfb8.0      1.338213E+00   1.081769E+00   1.439975E+01
-# jeff3.3       1.145357E+00   1.112839E+00   3.061673E+00
-# jendl5.0      1.217496E+00   1.145117E+00   4.560171E+00

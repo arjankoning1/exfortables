@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ni58(n,x)Mn54 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Iwasaki
 #   year: 1994
 #   subentry: 22752005
 #   X4 reaction: 28-NI-58(N,P+A)25-MN-54,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22752005
-# target:
+# target: 
 #   Z: 28
 #   A: 58
 #   nuclide: Ni58
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 112
-# residual:
-#   Z: 25
-#   A: 54
-#   nuclide: Mn54
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 5
+#   residual: 
+#     Z: 25
+#     A: 54
+#     nuclide: Mn54
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.579900E+01   0.000000E+00   4.510300E+00   0.000000E+00   1.000000E+00
@@ -38,18 +39,3 @@
 #   author: S.Iwasaki, S.Matsuyama, T.Ohkubo, H.Fukuda, M.Sakuma, M.Kitamura
 #   title: Measurement of activation cross-sections for several  elements between 12 and 20 MeV.
 #   journal: Conf: Conf.on Nucl.Data for Sci.and Techn.,Gatlinburg 1994, Vol.1, p.305
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  1.579900E+01
-#   E-max [MeV]:  1.939700E+01
-#   F-value:  2.933014E+00
-#   A-value:  3.594238E-01
-#   chi-2:  0.000000E+00
-#   p-value:  7.323954E-02
-#   exp. data sets for p-value:      2
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    3.426924E+00   2.927623E-01   0.000000E+00
-# endfb8.0      3.555489E+00   2.830881E-01   0.000000E+00
-# jendl5.0      1.803006E+00   5.602527E-01   0.000000E+00

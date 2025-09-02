@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: K41(n,a)Cl38 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Gandhi
 #   year: 2022
 #   subentry: 33163003
 #   X4 reaction: 19-K-41(N,A)17-CL-38,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/33163003
-# target:
+# target: 
 #   Z: 19
 #   A: 41
 #   nuclide: K41
-# reaction:
+# reaction: 
 #   type: (n,a)
 #   ENDF_MF: 3
 #   ENDF_MT: 107
-# residual:
-#   Z: 17
-#   A: 38
-#   nuclide: Cl38
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 17
+#     A: 38
+#     nuclide: Cl38
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.492000E+01   2.000000E-02   2.508969E+01   2.602600E+00   9.999878E-01
@@ -34,19 +35,3 @@
 #   author: A.Gandhi, A.Sharma, R.Pachuau, N.Singh, L.S.Danu, S.V.Suryanarayana, B.K.Nayak, A.Kumar
 #   title: Measurement of (n,a) and (n,2n) reaction cross sections at a neutron energy of 14.92 +/- 0.02 MeV for potassium and copper with uncertainty propagation
 #   journal: Jour: Chinese Physics C, Vol.46, p.014002 (2022)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  1.492000E+01
-#   E-max [MeV]:  1.492000E+01
-#   F-value:  1.147496E+00
-#   A-value:  1.135207E+00
-#   chi-2:  2.515833E+00
-#   p-value:  1.001713E-01
-#   exp. data sets for p-value:      8
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.045445E+00   1.045445E+00   6.049005E-01
-# endfb8.0      1.205740E+00   1.205740E+00   4.259786E+00
-# jeff3.3       1.169882E+00   1.169882E+00   3.143116E+00
-# jendl5.0      1.126167E+00   1.126167E+00   2.055530E+00

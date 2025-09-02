@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Nb93(n,2n)Nb92 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Mather
 #   year: 1972
 #   subentry: 20795004
 #   X4 reaction: 41-NB-93(N,2N)41-NB-92,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20795004
-# target:
+# target: 
 #   Z: 41
 #   A: 93
 #   nuclide: Nb93
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 41
-#   A: 92
-#   nuclide: Nb92
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 2
+#   residual: 
+#     Z: 41
+#     A: 92
+#     nuclide: Nb92
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.240000E+01   0.000000E+00   1.001721E+03   6.517244E+01   1.025303E+00
@@ -35,20 +36,3 @@
 #   author: D.S.MATHER,P.F.BAMPTON,R.E.COLES,G.JAMES,P.J.NIND
 #   title: -MEASUREMENT OF (N,2N) CROSS SECTIONS FOR INCIDENT  ENERGIES BETWEEN 6 AND 14 MEV-.
 #   journal: Rept: A.W.R.E. Aldermaston Reports, No.72/72 (1972)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.240000E+01
-#   E-max [MeV]:  1.430000E+01
-#   F-value:  1.126157E+00
-#   A-value:  1.047632E+00
-#   chi-2:  4.163766E+00
-#   p-value:  2.625062E-01
-#   exp. data sets for p-value:      2
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.105552E+00   9.543193E-01   2.746188E+00
-# endfb8.0      1.157945E+00   1.117337E+00   6.405106E+00
-# jeff3.3       1.074135E+00   9.768191E-01   1.773194E+00
-# jendl5.0      1.153137E+00   1.111924E+00   5.991529E+00
-# cendl3.2      1.123639E+00   1.089622E+00   3.902815E+00

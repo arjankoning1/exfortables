@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: F19(p,n')Ne19 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Blaser
 #   year: 1951
 #   subentry: D0095005
 #   X4 reaction: 9-F-19(P,N)10-NE-19,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/D0095005
-# target:
+# target: 
 #   Z: 9
 #   A: 19
 #   nuclide: F19
-# reaction:
+# reaction: 
 #   type: (p,n')
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 10
-#   A: 19
-#   nuclide: Ne19
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 46
+#   residual: 
+#     Z: 10
+#     A: 19
+#     nuclide: Ne19
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 46
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.147300E+00   0.000000E+00   2.235500E-01   0.000000E+00   1.000000E+00
@@ -79,17 +80,3 @@
 #   author: J.P.Blaser, F.Boehm, P.Marmier, P.Scherrer
 #   title: Excitation functions of the (p,n) reaction for light  elements
 #   journal: Jour: Helvetica Physica Acta, Vol.24, p.465 (1951)
-# statistics:
-#   NEA score: R2
-#   IAEA score:  1
-#   E-min [MeV]:  4.147300E+00
-#   E-max [MeV]:  6.611200E+00
-#   F-value:  3.105415E+00
-#   A-value:  8.756666E-01
-#   chi-2:  0.000000E+00
-#   p-value:  3.296420E-01
-#   exp. data sets for p-value:      3
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.443529E+00   1.393596E+00   0.000000E+00
-# jendl5.0      1.665089E+01   6.138698E-02   0.000000E+00

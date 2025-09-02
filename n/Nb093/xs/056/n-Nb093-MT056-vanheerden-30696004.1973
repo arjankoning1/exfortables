@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Nb93(n,n'_06)Nb94 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: vanheerden
 #   year: 1973
 #   subentry: 30696004
 #   X4 reaction: 41-NB-93(N,INL)41-NB-93,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30696004
-#   level energy [MeV]  9.49600E-01
-# target:
+#   level energy [MeV]:  9.49600E-01
+# target: 
 #   Z: 41
 #   A: 93
 #   nuclide: Nb93
-# reaction:
+# reaction: 
 #   type: (n,n'_06)
 #   ENDF_MF: 3
 #   ENDF_MT: 56
@@ -25,14 +25,15 @@
 #     energy [MeV]:  9.498000E-01
 #     spin:  6.500000E+00
 #     parity: 1
-# residual:
-#   Z: 41
-#   A: 94
-#   nuclide: Nb94
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 24
+#   residual: 
+#     Z: 41
+#     A: 94
+#     nuclide: Nb94
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 24
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    9.640000E-01   0.000000E+00   3.000000E+01   1.000000E+00   1.000000E+00
@@ -63,20 +64,3 @@
 #   author: I.J.van Heerden,W.R.Mcmurray,R.Saayman
 #   title: A study of the Nb-93 levels populated via the (n,n'g) reaction
 #   journal: Jour: Zeitschrift fuer Physik, Vol.260, p.9 (1973)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  9.640000E-01
-#   E-max [MeV]:  2.575000E+00
-#   F-value:  1.465703E+00
-#   A-value:  1.143156E+00
-#   chi-2:  6.854928E+01
-#   p-value:  2.501588E-01
-#   exp. data sets for p-value:      1
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.439123E+00   9.717541E-01   3.210123E+01
-# endfb8.0      1.399410E+00   1.189631E+00   5.855382E+01
-# jeff3.3       1.413747E+00   1.026410E+00   5.968399E+01
-# jendl5.0      1.643927E+00   1.447132E+00   1.188416E+02
-# cendl3.2      1.410852E+00   1.136920E+00   7.356571E+01

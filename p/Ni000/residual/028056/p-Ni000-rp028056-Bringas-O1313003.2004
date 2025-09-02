@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ni0(p,x)Ni56 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Bringas
 #   year: 2004
 #   subentry: O1313003
 #   X4 reaction: 28-NI-0(P,X)28-NI-56,CUM,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/O1313003
-# target:
+# target: 
 #   Z: 28
 #   A: 0
 #   nuclide: Ni0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 28
-#   A: 56
-#   nuclide: Ni56
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 3
+#   residual: 
+#     Z: 28
+#     A: 56
+#     nuclide: Ni56
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.840000E+01   9.000000E-01   6.500000E-01   8.000000E-02   1.000000E+00
@@ -36,18 +37,3 @@
 #   author: F.Bringas, M.T.Yamashita, I.D.Goldman, P.R.Pascholati, V.Sciani
 #   title: Measurement of proton-induced reaction cross sections in Ti, Ni and Zr near the threshold
 #   journal: Conf: Conf.on Nucl.Data for Sci.and Techn., Santa Fe 2004, Vol.2, p.1374
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  1.840000E+01
-#   E-max [MeV]:  2.730000E+01
-#   F-value:  2.917615E+01
-#   A-value:  5.958755E-02
-#   chi-2:  4.312460E+01
-#   p-value:  1.063135E-01
-#   exp. data sets for p-value:      3
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    3.076740E+01   5.071334E-02   4.431406E+01
-# endfb8.0      1.885122E+01   8.096679E-02   4.210230E+01
-# jendl5.0      4.091064E+01   5.152732E-02   4.295746E+01

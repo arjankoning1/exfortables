@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: P31(n,a)Al28 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Bormann
 #   year: 1963
 #   subentry: 21343007
 #   X4 reaction: 15-P-31(N,A)13-AL-28,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/21343007
-# target:
+# target: 
 #   Z: 15
 #   A: 31
 #   nuclide: P31
-# reaction:
+# reaction: 
 #   type: (n,a)
 #   ENDF_MF: 3
 #   ENDF_MT: 107
-# residual:
-#   Z: 13
-#   A: 28
-#   nuclide: Al28
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 7
+#   residual: 
+#     Z: 13
+#     A: 28
+#     nuclide: Al28
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.320000E+01   3.000000E-01   1.165239E+02   1.386812E+01   9.512154E-01
@@ -40,20 +41,3 @@
 #   author: M.Bormann, S.Cierjacks, E.Fretwurst, K.-J.Giesicke,  H.Neuert, H.Pollehn
 #   title: -Investigations of the energy dependence of neutron  induced reactions in the energy range of 12-19 MeV.-  (In German).
 #   journal: Jour: Zeitschrift fuer Physik, Vol.174, p.1 (1963)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.320000E+01
-#   E-max [MeV]:  1.970000E+01
-#   F-value:  1.128245E+00
-#   A-value:  1.087683E+00
-#   chi-2:  2.590185E+00
-#   p-value:  1.882064E-01
-#   exp. data sets for p-value:      4
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.152286E+00   1.076869E+00   3.191918E+00
-# endfb8.0      1.056552E+00   1.033826E+00   7.154947E-01
-# jeff3.3       1.176647E+00   1.145136E+00   4.293363E+00
-# jendl5.0      1.086448E+00   1.069323E+00   1.425168E+00
-# cendl3.2      1.136373E+00   1.116700E+00   3.324982E+00

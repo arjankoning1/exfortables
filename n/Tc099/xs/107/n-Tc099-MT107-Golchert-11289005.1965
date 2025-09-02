@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Tc99(n,a)Nb96 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Golchert
 #   year: 1965
 #   subentry: 11289005
 #   X4 reaction: 43-TC-99(N,A)41-NB-96,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/11289005
-# target:
+# target: 
 #   Z: 43
 #   A: 99
 #   nuclide: Tc99
-# reaction:
+# reaction: 
 #   type: (n,a)
 #   ENDF_MF: 3
 #   ENDF_MT: 107
-# residual:
-#   Z: 41
-#   A: 96
-#   nuclide: Nb96
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 41
+#     A: 96
+#     nuclide: Nb96
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.410000E+01   0.000000E+00   2.020000E+00   2.200000E-01   1.000000E+00
@@ -34,20 +35,3 @@
 #   author: N.W.GOLCHERT,D.G.GARDNER,J.SEDLET
 #   title: CROSS SECTION OF SOME REACTIONS OF TC-99 WITH 14.1MEV NEUTRONS.
 #   journal: Jour: Nuclear Physics, Vol.73, p.349 (1965)
-# statistics:
-#   NEA score: T2
-#   IAEA score:  0
-#   E-min [MeV]:  1.410000E+01
-#   E-max [MeV]:  1.410000E+01
-#   F-value:  2.802098E+00
-#   A-value:  2.771525E+00
-#   chi-2:  2.892883E+02
-#   p-value:  7.913992E-02
-#   exp. data sets for p-value:      4
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    3.443693E+00   3.443693E+00   5.034434E+02
-# endfb8.0      2.636634E+00   2.636634E+00   2.258190E+02
-# jeff3.3       2.267326E+00   2.267326E+00   1.354049E+02
-# jendl5.0      2.538300E+00   2.538300E+00   1.994984E+02
-# cendl3.2      3.129412E+00   3.129412E+00   3.822758E+02

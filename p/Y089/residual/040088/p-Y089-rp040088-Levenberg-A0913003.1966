@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Y89(p,x)Zr88 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Levenberg
 #   year: 1966
 #   subentry: A0913003
 #   X4 reaction: 39-Y-89(P,2N)40-ZR-88,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/A0913003
-# target:
+# target: 
 #   Z: 39
 #   A: 89
 #   nuclide: Y89
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 40
-#   A: 88
-#   nuclide: Zr88
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 7
+#   residual: 
+#     Z: 40
+#     A: 88
+#     nuclide: Zr88
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.200000E+02   0.000000E+00   1.541850E+01   1.027900E+00   1.027900E+00
@@ -40,17 +41,3 @@
 #   author: I.Levenberg, V.Pokrovsky, L.Tarasova, Van Cheng-Peng, I.Yutlandov
 #   title: Reactions (p,pn),(p,2n) and (p,n)  on Y-89 induced by  high-energy protons.
 #   journal: Jour: Nuclear Physics, Vol.81, p.81 (1966)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  1.200000E+02
-#   E-max [MeV]:  6.700000E+02
-#   F-value:  1.432127E+00
-#   A-value:  7.789878E-01
-#   chi-2:  2.356730E+02
-#   p-value:  1.088117E-01
-#   exp. data sets for p-value:      2
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.517845E+00   7.440518E-01   3.005330E+02
-# jendl5.0      1.335876E+00   8.155642E-01   1.708131E+02

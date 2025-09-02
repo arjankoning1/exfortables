@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: V51(n,x)V52 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Holub
 #   year: 1972
 #   subentry: 30145007
 #   X4 reaction: 23-V-51(N,G)23-V-52,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30145007
-# target:
+# target: 
 #   Z: 23
 #   A: 51
 #   nuclide: V51
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 23
-#   A: 52
-#   nuclide: V52
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 23
+#     A: 52
+#     nuclide: V52
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.440000E+01   0.000000E+00   1.400000E+00   2.000000E-01   1.000000E+00
@@ -34,18 +35,3 @@
 #   author: E.Holub,R.Caplar,P.Kulisic,N.Cindro,J.Vuletin
 #   title: Activation measurements of fast neutron radiative capture for Na23,Al27,Cl37,K41,Ti50,V51,Mn55,As75,I127, Ba138,La139,Pr141,Er170.
 #   journal: Rept: Inst. Rudjer Boskovic Reports, No.4-72 (1972)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.440000E+01
-#   E-max [MeV]:  1.440000E+01
-#   F-value:  2.196568E+00
-#   A-value:  4.605891E-01
-#   chi-2:  1.425149E+01
-#   p-value:  8.493757E-02
-#   exp. data sets for p-value:      3
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    2.419275E+00   4.133469E-01   1.686528E+01
-# jeff3.3       2.356519E+00   4.243548E-01   1.623882E+01
-# jendl5.0      1.795159E+00   5.570536E-01   9.650379E+00

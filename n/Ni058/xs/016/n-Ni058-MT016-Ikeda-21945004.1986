@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ni58(n,2n)Ni57 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Ikeda
 #   year: 1986
 #   subentry: 21945004
 #   X4 reaction: 28-NI-58(N,2N)28-NI-57,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/21945004
-# target:
+# target: 
 #   Z: 28
 #   A: 58
 #   nuclide: Ni58
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 28
-#   A: 57
-#   nuclide: Ni57
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 11
+#   residual: 
+#     Z: 28
+#     A: 57
+#     nuclide: Ni57
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 11
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.354000E+01   0.000000E+00   1.339914E+01   7.369500E-01   9.999360E-01
@@ -44,21 +45,3 @@
 #   author: Y.Ikeda,H.Maekawa,T.Nakamura,H.Miyade,K.Kawade, H.Yamamoto,T.Katoh,K.Oishi
 #   title: Measurement of high threshold activation cross  sections for 13.5 to 15.0 MeV neutrons
 #   journal: Jour: Radiation Effects, Vol.92, p.175 (1986)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.354000E+01
-#   E-max [MeV]:  1.492000E+01
-#   F-value:  1.058702E+00
-#   A-value:  9.571562E-01
-#   chi-2:  1.434761E+00
-#   p-value:  2.268208E-01
-#   exp. data sets for p-value:      8
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.090471E+00   9.184805E-01   2.855940E+00
-# endfb8.0      1.037814E+00   9.675563E-01   9.032173E-01
-# jeff3.3       1.033314E+00   9.752055E-01   6.935933E-01
-# jendl5.0      1.017957E+00   9.934378E-01   3.319114E-01
-# cendl3.2      1.045058E+00   9.712452E-01   1.021050E+00
-# irdff2.0      1.089273E+00   9.195706E-01   2.802852E+00

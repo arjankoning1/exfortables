@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: Se80(n,x)Se81g cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Diksic
 #   year: 1970
 #   subentry: 30023006
 #   X4 reaction: 34-SE-80(N,G)34-SE-81-G,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30023006
-# target:
+# target: 
 #   Z: 34
 #   A: 80
 #   nuclide: Se80
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 34
-#   A: 81
-#   nuclide: Se81g
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 34
+#     A: 81
+#     nuclide: Se81g
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.000000E+00   2.000000E-01   2.110000E+00   2.000000E-01   1.000000E+00
@@ -39,18 +40,3 @@
 #   author: M.Diksic, P.Strohal, G.Peto, P.Bornemisza-Pauspertl, I.Hunyadi, J.Karolyi
 #   title: Additional measurements of the radiative capture cross sections for 3 MeV neutrons
 #   journal: Jour: Acta Physica Hungarica, Vol.28, p.257 (1970)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  3.000000E+00
-#   E-max [MeV]:  3.000000E+00
-#   F-value:  1.108721E+00
-#   A-value:  1.074632E+00
-#   chi-2:  1.614059E+00
-#   p-value:  3.923116E-01
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.157130E+00   1.157130E+00   3.201771E+00
-# jeff3.3       1.001988E+00   9.980161E-01   2.634783E-02
-# jendl5.0      0.000000E+00   0.000000E+00   0.000000E+00

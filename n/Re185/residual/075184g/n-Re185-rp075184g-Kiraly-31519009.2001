@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: Re185(n,x)Re184g cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Kiraly
 #   year: 2001
 #   subentry: 31519009
 #   X4 reaction: 75-RE-185(N,2N)75-RE-184-G,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/31519009
-# target:
+# target: 
 #   Z: 75
 #   A: 185
 #   nuclide: Re185
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 75
-#   A: 184
-#   nuclide: Re184g
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 3
+#   residual: 
+#     Z: 75
+#     A: 184
+#     nuclide: Re184g
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.120000E+01   2.000000E-01   1.529902E+03   9.999358E+01   9.999360E-01
@@ -41,18 +42,3 @@
 #   author: B.KIRALY,J.CSIKAI,R.DOCZI
 #   title: Validation of neutron data libraries by differential and integral cross sections
 #   journal: Conf: JAERI Conference proceedings, No.2001-006, p.283 (2001)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.120000E+01
-#   E-max [MeV]:  1.470000E+01
-#   F-value:  1.085503E+00
-#   A-value:  1.056710E+00
-#   chi-2:  2.286342E+00
-#   p-value:  3.739904E-01
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.017550E+00   1.009737E+00   3.021714E-01
-# jeff3.3       1.054758E+00   1.044430E+00   1.204584E+00
-# jendl5.0      1.139478E+00   1.118872E+00   5.352272E+00

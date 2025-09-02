@@ -1,28 +1,29 @@
-# header:
+# header: 
 #   title: U234(g,f) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Lindgren
 #   year: 1980
 #   subentry: M0037003
 #   X4 reaction: 92-U-234(G,F),,SIG,,BRS
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/M0037003
-# target:
+# target: 
 #   Z: 92
 #   A: 234
 #   nuclide: U234
-# reaction:
+# reaction: 
 #   type: (g,f)
 #   ENDF_MF: 3
 #   ENDF_MT: 18
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 18
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 18
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.500000E+00   0.000000E+00   3.000000E-04   1.000000E-04   1.000000E+00
@@ -47,18 +48,3 @@
 #   author: L.J.Lindgren,A.S.Soldatov,Yu.M.Tsipenyuk
 #   title: Under-barrier photofission of U-234.
 #   journal: Jour: Yadernaya Fizika, Vol.32, p.335 (1980)
-# statistics:
-#   NEA score: T3
-#   IAEA score: -1
-#   E-min [MeV]:  4.500000E+00
-#   E-max [MeV]:  6.340000E+00
-#   F-value:  2.449264E+00
-#   A-value:  1.203569E+00
-#   chi-2:  5.991429E+02
-#   p-value:  2.914935E-01
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    2.236047E+00   1.099822E+00   1.242170E+02
-# endfb8.0      2.792781E+00   1.641052E+00   1.436087E+03
-# jendl5.0      2.104924E+00   9.988596E-01   3.553575E+02

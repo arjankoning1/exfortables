@@ -1,28 +1,29 @@
-# header:
+# header: 
 #   title: Pd0(g,xn) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Lepretre
 #   year: 1974
 #   subentry: L0035005
 #   X4 reaction: 46-PD-0(G,X)0-NN-1,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/L0035005
-# target:
+# target: 
 #   Z: 46
 #   A: 0
 #   nuclide: Pd0
-# reaction:
+# reaction: 
 #   type: (g,xn)
 #   ENDF_MF: 3
 #   ENDF_MT: 201
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 46
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 46
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    9.140000E+00   0.000000E+00   6.600000E+00   2.800000E+00   1.000000E+00
@@ -75,18 +76,3 @@
 #   author: A.LEPRETRE,H.BEIL,R.BERGERE,P.CARLOS,A.DEMINIAC, A.VEYSSIERE
 #   title: A study of the giant dipole resonance of vibrational  nuclei in the A=103-133 mass region
 #   journal: Jour: Nuclear Physics, Section A, Vol.219, p.39 (1974)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  9.140000E+00
-#   E-max [MeV]:  2.134000E+01
-#   F-value:  1.108867E+00
-#   A-value:  9.752601E-01
-#   chi-2:  4.427461E+00
-#   p-value:  3.461373E-01
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.077650E+00   1.007141E+00   7.011498E+00
-# endfb8.0      1.139056E+00   9.625219E-01   3.633636E+00
-# jendl5.0      1.102334E+00   9.568870E-01   2.637249E+00

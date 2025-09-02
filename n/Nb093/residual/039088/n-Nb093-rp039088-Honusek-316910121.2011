@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Nb93(n,x)Y88 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Honusek
 #   year: 2011
 #   subentry: 316910121
 #   X4 reaction: 41-NB-93(N,2N+A)39-Y-88,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/316910121
-# target:
+# target: 
 #   Z: 41
 #   A: 93
 #   nuclide: Nb93
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 24
-# residual:
-#   Z: 39
-#   A: 88
-#   nuclide: Y88
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 5
+#   residual: 
+#     Z: 39
+#     A: 88
+#     nuclide: Y88
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.475000E+01   1.625000E+00   1.399000E+00   8.400000E-02   1.000000E+00
@@ -38,19 +39,3 @@
 #   author: M.Honusek, P.Bem, V.Burjan, M.Goetz, V.Kroha, J.Novak,  E.Simeckova, U.Fischer, S.P.Simakov
 #   title: Neutron activation experiments on niobium in NPI p-7Li  quasi-monoenergetic neutron field
 #   journal: Jour: Journal of the Korean Physical Society, Vol.59, p.1374 (2011)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  2.475000E+01
-#   E-max [MeV]:  3.562500E+01
-#   F-value:  1.930128E+00
-#   A-value:  6.122567E-01
-#   chi-2:  1.670261E+02
-#   p-value:  4.532527E-01
-#   exp. data sets for p-value:      5
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    2.080910E+00   4.964572E-01   1.782473E+02
-# endfb8.0      2.131225E+00   4.713859E-01   2.186794E+02
-# jeff3.3       2.117661E+00   4.761018E-01   2.104001E+02
-# jendl5.0      1.269970E+00   1.261177E+00   6.077781E+01

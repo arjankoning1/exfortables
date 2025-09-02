@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: C0(n,n'_01)C1 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Hansen
 #   year: 1968
 #   subentry: 11354002
 #   X4 reaction: 6-C-0(N,INL),PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/11354002
-#   level energy [MeV]  4.43000E+00
-# target:
+#   level energy [MeV]:  4.43000E+00
+# target: 
 #   Z: 6
 #   A: 0
 #   nuclide: C0
-# reaction:
+# reaction: 
 #   type: (n,n'_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 51
@@ -25,14 +25,15 @@
 #     energy [MeV]:  4.439820E+00
 #     spin:  2.000000E+00
 #     parity: 1
-# residual:
-#   Z: 6
-#   A: 1
-#   nuclide: C1
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 6
+#     A: 1
+#     nuclide: C1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.530000E+01   0.000000E+00   2.200000E+02   2.000000E+01   1.000000E+00
@@ -40,20 +41,3 @@
 #   author: L.F.Hansen,J.D.Anderson,M.L.Stelts,C.Wong
 #   title: No title
 #   journal: Conf: Nuclear Cross-Sections Techn. Conf., Washington 1968, Vol.1, p.225
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  1.530000E+01
-#   E-max [MeV]:  1.530000E+01
-#   F-value:  1.396982E+00
-#   A-value:  7.190186E-01
-#   chi-2:  9.706406E+00
-#   p-value:  1.225398E-01
-#   exp. data sets for p-value:      1
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.357324E+00   7.367435E-01   8.447429E+00
-# endfb8.0      1.357324E+00   7.367435E-01   8.447429E+00
-# jeff3.3       1.342181E+00   7.450560E-01   7.941128E+00
-# jendl5.0      1.549909E+00   6.451992E-01   1.523481E+01
-# cendl3.2      1.357734E+00   7.365211E-01   8.461236E+00

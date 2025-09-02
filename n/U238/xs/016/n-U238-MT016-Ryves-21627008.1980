@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: U238(n,2n)U237 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Ryves
 #   year: 1980
 #   subentry: 21627008
 #   X4 reaction: 92-U-238(N,2N)92-U-237,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/21627008
-# target:
+# target: 
 #   Z: 92
 #   A: 238
 #   nuclide: U238
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 92
-#   A: 237
-#   nuclide: U237
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 92
+#     A: 237
+#     nuclide: U237
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.468000E+01   3.000000E-02   7.601436E+02   2.336871E+01   9.770482E-01
@@ -34,21 +35,3 @@
 #   author: T.B.Ryves,P.Kolkowski
 #   title: The Ta-181(n,2n)Ta-180-m cross section for 14.68 MeV  neutrons
 #   journal: Jour: Jour. of Physics, Part G (Nucl.and Part.Phys.), Vol.6, p.771 (1980
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.468000E+01
-#   E-max [MeV]:  1.468000E+01
-#   F-value:  1.092876E+00
-#   A-value:  9.286979E-01
-#   chi-2:  7.562903E+00
-#   p-value:  2.434279E-01
-#   exp. data sets for p-value:      8
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.077699E+00   9.279025E-01   5.692338E+00
-# endfb8.0      1.077699E+00   9.279025E-01   5.692338E+00
-# jeff3.3       1.179281E+00   8.479739E-01   2.445448E+01
-# jendl5.0      1.003223E+00   1.003223E+00   1.343492E-01
-# cendl3.2      1.059352E+00   9.439736E-01   3.711576E+00
-# irdff2.0      1.077699E+00   9.279025E-01   5.692338E+00

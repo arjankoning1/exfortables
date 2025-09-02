@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ge74(n,np)Ga73 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Webber
 #   year: 1968
 #   subentry: 11651004
 #   X4 reaction: 32-GE-74(N,X)31-GA-73,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/11651004
-# target:
+# target: 
 #   Z: 32
 #   A: 74
 #   nuclide: Ge74
-# reaction:
+# reaction: 
 #   type: (n,np)
 #   ENDF_MF: 3
 #   ENDF_MT: 28
-# residual:
-#   Z: 31
-#   A: 73
-#   nuclide: Ga73
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 31
+#     A: 73
+#     nuclide: Ga73
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.470000E+01   3.000000E-01   8.312000E-01   8.684200E-02   1.240602E+00
@@ -34,20 +35,3 @@
 #   author: L.D.Webber,J.L.Duggan
 #   title: The (n,np) and (n,He3) reaction cross sections for Cr53 and Ge74 at 14.7 MeV.
 #   journal: Jour: Bulletin of the American Physical Society Ser.II, Vol.13, p.1663(D
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  1.470000E+01
-#   E-max [MeV]:  1.470000E+01
-#   F-value:  1.639141E+00
-#   A-value:  1.046697E+00
-#   chi-2:  4.171279E+01
-#   p-value:  3.895508E-01
-#   exp. data sets for p-value:      2
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    2.429670E+00   2.429670E+00   1.872504E+02
-# endfb8.0      1.000841E+00   9.991600E-01   1.009333E-02
-# jeff3.3       1.000087E+00   1.000087E+00   1.049149E-03
-# jendl5.0      1.000841E+00   9.991600E-01   1.009333E-02
-# cendl3.2      1.930861E+00   5.179037E-01   2.129229E+01

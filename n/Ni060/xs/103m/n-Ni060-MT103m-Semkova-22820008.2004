@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: Ni60(n,p)Co60m cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Semkova
 #   year: 2004
 #   subentry: 22820008
 #   X4 reaction: 28-NI-60(N,P)27-CO-60-M,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22820008
-# target:
+# target: 
 #   Z: 28
 #   A: 60
 #   nuclide: Ni60
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 27
-#   A: 60
-#   nuclide: Co60m
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 4
+#   residual: 
+#     Z: 27
+#     A: 60
+#     nuclide: Co60m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.527000E+01   1.600000E-01   6.294570E+01   6.884700E+00   9.835266E-01
@@ -42,17 +43,3 @@
 #   author: V.Semkova,V.Avrigeanu,T.Glodariu,A.J.Koning,  A.J.M.Plompen,D.L.Smith,S.Sudar,P.Reimer,R.Forrest
 #   title: .A systematic investigation of reaction cross sections  and isomer ratios for neutrons up to 20 MeV on  Ni-isotopes and Co-59 by measurements with activation  technique and new model studies of underlying  reaction mechanisms
 #   journal: Jour: Nuclear Physics, Section A, Vol.730, p.255 (2004)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.527000E+01
-#   E-max [MeV]:  1.929000E+01
-#   F-value:  1.172441E+00
-#   A-value:  1.127603E+00
-#   chi-2:  2.273433E+00
-#   p-value:  3.119523E-01
-#   exp. data sets for p-value:      2
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.111708E+00   1.101473E+00   1.464976E+00
-# jendl5.0      1.219576E+00   1.154353E+00   3.081891E+00

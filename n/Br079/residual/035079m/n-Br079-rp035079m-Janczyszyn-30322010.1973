@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: Br79(n,x)Br79m cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Janczyszyn
 #   year: 1973
 #   subentry: 30322010
 #   X4 reaction: 35-BR-79(N,INL)35-BR-79-M,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30322010
-# target:
+# target: 
 #   Z: 35
 #   A: 79
 #   nuclide: Br79
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 35
-#   A: 79
-#   nuclide: Br79m
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 35
+#     A: 79
+#     nuclide: Br79m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.400000E+01   0.000000E+00   4.500000E+02   8.000002E+01   1.000000E+00
@@ -39,18 +40,3 @@
 #   author: J.Janczyszyn,L.Gorski
 #   title: Cross-sections of 14 MeV neutron reactions producing short-lived nuclides.
 #   journal: Jour: Journal of Radioanalytical Chemistry, Vol.14, p.201 (1973)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.400000E+01
-#   E-max [MeV]:  1.400000E+01
-#   F-value:  1.393938E+00
-#   A-value:  7.431705E-01
-#   chi-2:  2.780854E+00
-#   p-value:  1.002333E-01
-#   exp. data sets for p-value:      3
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.261521E+00   7.926937E-01   1.942709E+00
-# jeff3.3       1.168062E+00   8.561187E-01   1.224231E+00
-# jendl5.0      1.653385E+00   6.048197E-01   5.175622E+00

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: S34(n,x)P34 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Bormann
 #   year: 1966
 #   subentry: 20898004
 #   X4 reaction: 16-S-34(N,P)15-P-34,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20898004
-# target:
+# target: 
 #   Z: 16
 #   A: 34
 #   nuclide: S34
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 15
-#   A: 34
-#   nuclide: P34
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 6
+#   residual: 
+#     Z: 15
+#     A: 34
+#     nuclide: P34
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.400000E+01   2.200000E-01   7.800000E+01   7.500000E+00   1.000000E+00
@@ -39,17 +40,3 @@
 #   author: M.Bormann,F.Dreyer,H.Neuert,I.Riehle,U.Zielinski
 #   title: Measurements of some fast neutron cross sections  with the activation method
 #   journal: Conf: Nuclear Data For Reactors Conf., Paris 1966, Vol.1, p.225 (1966)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.400000E+01
-#   E-max [MeV]:  1.665000E+01
-#   F-value:  1.228362E+00
-#   A-value:  1.217105E+00
-#   chi-2:  6.063216E+00
-#   p-value:  2.165016E-01
-#   exp. data sets for p-value:      2
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.158019E+00   1.155210E+00   3.172783E+00
-# jeff3.3       1.285527E+00   1.282316E+00   8.953649E+00

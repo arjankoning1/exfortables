@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Te0(p,x)I123 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Kandil
 #   year: 2013
 #   subentry: D0707002
 #   X4 reaction: 52-TE-0(P,X)53-I-123,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/D0707002
-# target:
+# target: 
 #   Z: 52
 #   A: 0
 #   nuclide: Te0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 53
-#   A: 123
-#   nuclide: I123
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 20
+#   residual: 
+#     Z: 53
+#     A: 123
+#     nuclide: I123
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 20
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.200000E+00   2.100000E+00   5.956900E-01   9.928200E-02   9.928229E-01
@@ -53,17 +54,3 @@
 #   author: S.A.Kandil, M.Al-Abyad
 #   title: Cross section measurements and theoretical  calculations of proton induced nuclear reactions on  natural tellurium
 #   journal: Jour: Radiochimica Acta, Vol.101, p.67 (2013)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  4.200000E+00
-#   E-max [MeV]:  1.700000E+01
-#   F-value:  1.723183E+00
-#   A-value:  7.629806E-01
-#   chi-2:  4.364097E+00
-#   p-value:  1.960696E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.660033E+00   7.539902E-01   4.365607E+00
-# jendl5.0      1.784443E+00   7.720782E-01   4.362586E+00

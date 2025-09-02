@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Al26(n,a)Na23 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Desmet
 #   year: 2007
 #   subentry: 22890003
 #   X4 reaction: 13-AL-26(N,A)11-NA-23,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22890003
-# target:
+# target: 
 #   Z: 13
 #   A: 26
 #   nuclide: Al26
-# reaction:
+# reaction: 
 #   type: (n,a)
 #   ENDF_MF: 3
 #   ENDF_MT: 107
-# residual:
-#   Z: 11
-#   A: 23
-#   nuclide: Na23
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 801
+#   residual: 
+#     Z: 11
+#     A: 23
+#     nuclide: Na23
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 801
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.226300E-04   0.000000E+00  -3.560000E+00   1.256000E+01   1.000000E+00
@@ -834,18 +835,3 @@
 #   author: L.De Smet, C.Wagemans, J.Wagemans, J.Heyse,  J.Van Gils
 #   title: .Experimental determination of the 26Al(n,alpha)23Na  reaction cross section and calculation of the  Maxwellian averaged cross section at stellar  temperatures
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.76, p.045804 (2007)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  4.226300E-04
-#   E-max [MeV]:  1.204481E-01
-#   F-value:  1.164917E+01
-#   A-value:  3.473270E-01
-#   chi-2:  5.542691E+00
-#   p-value:  9.051706E-02
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.934877E+01   2.273752E-01   6.935188E+00
-# jeff3.3       1.956836E+01   2.575024E-01   8.773583E+00
-# jendl5.0      1.975017E+00   7.156330E-01   9.193074E-01

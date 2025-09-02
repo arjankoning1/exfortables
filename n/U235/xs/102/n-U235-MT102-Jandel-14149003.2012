@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: U235(n,g)U236 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Jandel
 #   year: 2012
 #   subentry: 14149003
 #   X4 reaction: 92-U-235(N,G)92-U-236,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/14149003
-# target:
+# target: 
 #   Z: 92
 #   A: 235
 #   nuclide: U235
-# reaction:
+# reaction: 
 #   type: (n,g)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 92
-#   A: 236
-#   nuclide: U236
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1047
+#   residual: 
+#     Z: 92
+#     A: 236
+#     nuclide: U236
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1047
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.027180E-06   9.270000E-09   4.344040E+03   1.198150E+03   1.000000E+00
@@ -1080,15 +1081,3 @@
 #   author: M.Jandel, T.A.Bredeweg, E.M.Bond, M.B.Chadwick,  A.Couture, J.M.O'Donnell, M.Fowler, R.C.Haight,  T.Kawano, R.Reifarth, R.S.Rundberg, J.L.Ullmann,  D.J.Vieira, J.M.Wouters, J.B.Wilhelmy, C.Y.Wu,  J.A.Becker
 #   title: New precision measurements of the 235U(n,g) cross  section
 #   journal: Jour: Physical Review Letters, Vol.109, p.202506 (2012)
-# statistics:
-#   NEA score:   
-#   IAEA score: -1
-#   E-min [MeV]:  4.027180E-06
-#   E-max [MeV]:  4.977380E-04
-#   F-value:  0.000000E+00
-#   A-value:  0.000000E+00
-#   chi-2:  0.000000E+00
-#   p-value:  0.000000E+00
-#   exp. data sets for p-value:      5
-#   libraries:      0
-##  Library          F              A            chi-2

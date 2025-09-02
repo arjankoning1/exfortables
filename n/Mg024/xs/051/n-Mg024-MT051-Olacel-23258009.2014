@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Mg24(n,n'_01)Mg25 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Olacel
 #   year: 2014
 #   subentry: 23258009
 #   X4 reaction: 12-MG-24(N,INL)12-MG-24,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/23258009
-#   level energy [MeV]  1.36860E+00
-# target:
+#   level energy [MeV]:  1.36860E+00
+# target: 
 #   Z: 12
 #   A: 24
 #   nuclide: Mg24
-# reaction:
+# reaction: 
 #   type: (n,n'_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 51
@@ -25,14 +25,15 @@
 #     energy [MeV]:  1.368672E+00
 #     spin:  2.000000E+00
 #     parity: 1
-# residual:
-#   Z: 12
-#   A: 25
-#   nuclide: Mg25
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 679
+#   residual: 
+#     Z: 12
+#     A: 25
+#     nuclide: Mg25
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 679
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.429190E+00   1.130000E-03   8.328000E-01   3.364370E+00   1.000000E+00
@@ -718,20 +719,3 @@
 #   author: A.Olacel,C.Borcea,P.Dessagne,M.Kerveno,A.Negret, A.J.M.Plompen
 #   title: Neutron inelastic cross-section measurements for 24Mg
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.90, p.034603 (2014)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  1.429190E+00
-#   E-max [MeV]:  6.705210E+00
-#   F-value:  2.286597E+00
-#   A-value:  1.412087E+00
-#   chi-2:  3.646157E+02
-#   p-value:  2.107521E-01
-#   exp. data sets for p-value:      1
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    2.417572E+00   1.548871E+00   4.614112E+02
-# endfb8.0      2.507032E+00   1.638164E+00   4.472418E+02
-# jeff3.3       2.507032E+00   1.638164E+00   4.472418E+02
-# jendl5.0      2.507032E+00   1.638164E+00   4.472418E+02
-# cendl3.2      1.386259E+00   8.245537E-01   1.994443E+01

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Co59(n,2n)Co58 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Plompen
 #   year: 2002
 #   subentry: 22684009
 #   X4 reaction: 27-CO-59(N,2N)27-CO-58,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22684009
-# target:
+# target: 
 #   Z: 27
 #   A: 59
 #   nuclide: Co59
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 27
-#   A: 58
-#   nuclide: Co58
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 14
+#   residual: 
+#     Z: 27
+#     A: 58
+#     nuclide: Co58
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 14
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.332000E+01   2.500000E-01   6.140000E+02   3.600000E+01   1.000000E+00
@@ -47,21 +48,3 @@
 #   author: A.J.M.Plompen,D.Smith,P.Reimer,S.M.Qaim,V.Semkova, F.Cserpak,V.Avrigeanu,S.Sudar,C.Borcea,L.Olah
 #   title: Recent cross section studies with the activation  technique for Ni, Co and Cu.
 #   journal: Jour: Jour. of Nuclear Science and Technology Suppl., Vol.2, Issue.1, p.
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.332000E+01
-#   E-max [MeV]:  2.066500E+01
-#   F-value:  1.054713E+00
-#   A-value:  9.757038E-01
-#   chi-2:  1.322631E+00
-#   p-value:  2.982618E-01
-#   exp. data sets for p-value:      8
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.030983E+00   9.815860E-01   6.616844E-01
-# endfb8.0      1.056862E+00   9.666123E-01   1.381106E+00
-# jeff3.3       1.077834E+00   9.506330E-01   2.310368E+00
-# jendl5.0      1.070414E+00   9.673732E-01   1.827261E+00
-# cendl3.2      1.033263E+00   1.018003E+00   1.037860E+00
-# irdff2.0      1.027343E+00   9.841133E-01   5.846739E-01

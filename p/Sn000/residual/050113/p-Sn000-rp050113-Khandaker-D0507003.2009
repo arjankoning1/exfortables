@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Sn0(p,x)Sn113 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Khandaker
 #   year: 2009
 #   subentry: D0507003
 #   X4 reaction: 50-SN-0(P,X)50-SN-113,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/D0507003
-# target:
+# target: 
 #   Z: 50
 #   A: 0
 #   nuclide: Sn0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 50
-#   A: 113
-#   nuclide: Sn113
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 16
+#   residual: 
+#     Z: 50
+#     A: 113
+#     nuclide: Sn113
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 16
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.017000E+01   1.000000E+00   1.390000E+00   6.500000E-01   1.000000E+00
@@ -49,17 +50,3 @@
 #   author: M.U.Khandaker,K.Kim,K.-S.Kim,M.Lee,Y.S.Lee,G.Kim, Y.-S.Cho,Y.-O.Lee
 #   title: Excitation functions of the proton induced nuclear reactions on natSn up to 40 MeV
 #   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.267, p.23 (200
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  1.017000E+01
-#   E-max [MeV]:  3.918000E+01
-#   F-value:  1.772661E+00
-#   A-value:  7.051651E-01
-#   chi-2:  1.522063E+00
-#   p-value:  2.237211E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.584979E+00   7.791767E-01   1.365436E+00
-# jendl5.0      1.946128E+00   6.381837E-01   1.678689E+00

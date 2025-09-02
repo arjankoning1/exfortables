@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: C12(n,d)B11 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Pillon
 #   year: 2011
 #   subentry: 23142004
 #   X4 reaction: 6-C-12(N,D)5-B-11,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/23142004
-# target:
+# target: 
 #   Z: 6
 #   A: 12
 #   nuclide: C12
-# reaction:
+# reaction: 
 #   type: (n,d)
 #   ENDF_MF: 3
 #   ENDF_MT: 104
-# residual:
-#   Z: 5
-#   A: 11
-#   nuclide: B11
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 7
+#   residual: 
+#     Z: 5
+#     A: 11
+#     nuclide: B11
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.634000E+01   1.000000E-02   4.620000E+01   2.220000E+00   1.000000E+00
@@ -40,19 +41,3 @@
 #   author: M.Pillon, M.Angelone, A.Krasa, A.J.M.Plompen, P.Schillebeeckx, M.L.Sergi
 #   title: Measurement of Neutron Reaction Cross Sections in Carbon using a Single Crystal Diamond Detector.
 #   journal: Conf: Conf.proceedings by Am.Inst.of Phys., No.1412, p.121 (2011)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  1.634000E+01
-#   E-max [MeV]:  2.049000E+01
-#   F-value:  1.811260E+00
-#   A-value:  7.283573E-01
-#   chi-2:  7.161191E+01
-#   p-value:  3.046601E-01
-#   exp. data sets for p-value:      1
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.412998E+00   1.047428E+00   4.717240E+01
-# endfb8.0      1.412998E+00   1.047428E+00   4.717240E+01
-# jendl5.0      2.108522E+00   5.279066E-01   9.050864E+01
-# cendl3.2      2.191980E+00   4.859281E-01   1.015942E+02

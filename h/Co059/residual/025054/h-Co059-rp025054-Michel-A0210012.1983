@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Co59(h,x)Mn54 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Michel
 #   year: 1983
 #   subentry: A0210012
 #   X4 reaction: 27-CO-59(HE3,X)25-MN-54,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/A0210012
-# target:
+# target: 
 #   Z: 27
 #   A: 59
 #   nuclide: Co59
-# reaction:
+# reaction: 
 #   type: (h,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 25
-#   A: 54
-#   nuclide: Mn54
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 20
+#   residual: 
+#     Z: 25
+#     A: 54
+#     nuclide: Mn54
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 20
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.470000E+01   4.800000E+00   1.110000E+00   9.999999E-02   1.000040E+00
@@ -53,16 +54,3 @@
 #   author: R.Michel,M.Galas
 #   title: He3-induced reactions on cobalt
 #   journal: Jour: Nuclear Physics, Section A, Vol.404, p.77 (1983)
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  1.470000E+01
-#   E-max [MeV]:  1.281000E+02
-#   F-value:  2.777335E+00
-#   A-value:  5.266659E-01
-#   chi-2:  6.067844E+01
-#   p-value:  2.836196E-01
-#   exp. data sets for p-value:      1
-#   libraries:      1
-##  Library          F              A            chi-2
-# tendl.2023    2.777335E+00   5.266659E-01   6.067844E+01

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Se76(n,x)Se75 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Hille
 #   year: 1966
 #   subentry: 20034004
 #   X4 reaction: 34-SE-76(N,2N)34-SE-75,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20034004
-# target:
+# target: 
 #   Z: 34
 #   A: 76
 #   nuclide: Se76
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 34
-#   A: 75
-#   nuclide: Se75
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 2
+#   residual: 
+#     Z: 34
+#     A: 75
+#     nuclide: Se75
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.405000E+01   1.000000E-01   8.450000E+02   5.915000E+01   1.000000E+00
@@ -35,18 +36,3 @@
 #   author: P.Hille,H.Muenzer
 #   title: Cross-section measurements of the reactions  Se-76(n,2n)Se-75, Se-74(n,p)Se-74 and As-75(n,2n)As-74  with neutron energies of about 14 MeV
 #   journal: Jour: Acta Physica Austriaca, Vol.23, p.44 (1966)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.405000E+01
-#   E-max [MeV]:  1.475000E+01
-#   F-value:  1.180089E+00
-#   A-value:  8.772327E-01
-#   chi-2:  4.653107E+00
-#   p-value:  3.063438E-01
-#   exp. data sets for p-value:      6
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.285520E+00   7.791039E-01   1.006876E+01
-# jeff3.3       1.148384E+00   8.715908E-01   3.783294E+00
-# jendl5.0      1.005921E+00   9.941145E-01   1.072651E-01

@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Ta0(n,n'_01)Ta1 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Smith
 #   year: 1968
 #   subentry: 10631008
 #   X4 reaction: 73-TA-0(N,INL)73-TA-0,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/10631008
-#   level energy [MeV]  1.44000E-01
-# target:
+#   level energy [MeV]:  1.44000E-01
+# target: 
 #   Z: 73
 #   A: 0
 #   nuclide: Ta0
-# reaction:
+# reaction: 
 #   type: (n,n'_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 51
@@ -25,14 +25,15 @@
 #     energy [MeV]:  1.362620E-01
 #     spin:  4.500000E+00
 #     parity: 1
-# residual:
-#   Z: 73
-#   A: 1
-#   nuclide: Ta1
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 43
+#   residual: 
+#     Z: 73
+#     A: 1
+#     nuclide: Ta1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 43
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.500000E-01   2.000000E-02   9.800000E+02   2.300000E+02   1.000000E+00
@@ -82,20 +83,3 @@
 #   author: A.B.Smith,P.T.Guenther,J.F.Whalen
 #   title: Fast-Neutron Scattering from Ta, Re, and Pt
 #   journal: Jour: Physical Review, Vol.168, p.1344 (1968)
-# statistics:
-#   NEA score: T3
-#   IAEA score: -1
-#   E-min [MeV]:  4.500000E-01
-#   E-max [MeV]:  1.550000E+00
-#   F-value:  2.650735E+00
-#   A-value:  4.144216E-01
-#   chi-2:  3.089721E+01
-#   p-value:  1.488825E-01
-#   exp. data sets for p-value:      2
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    2.261691E+00   4.530407E-01   2.749543E+01
-# endfb8.0      1.526504E+00   6.701937E-01   1.105861E+01
-# jeff3.3       2.796939E+00   3.600925E-01   3.820826E+01
-# jendl5.0      2.093879E+00   5.080960E-01   2.134174E+01
-# cendl3.2      4.560453E+00   2.200467E-01   5.638205E+01

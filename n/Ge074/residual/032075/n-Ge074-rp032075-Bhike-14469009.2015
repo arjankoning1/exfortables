@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ge74(n,x)Ge75 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Bhike
 #   year: 2015
 #   subentry: 14469009
 #   X4 reaction: 32-GE-74(N,G)32-GE-75,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/14469009
-# target:
+# target: 
 #   Z: 32
 #   A: 74
 #   nuclide: Ge74
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 32
-#   A: 75
-#   nuclide: Ge75
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 10
+#   residual: 
+#     Z: 32
+#     A: 75
+#     nuclide: Ge75
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.800000E-01   1.100000E-01   2.029000E+01   2.270000E+00   1.000000E+00
@@ -43,18 +44,3 @@
 #   author: M.Bhike,B.Fallin,Krishichayan,W.Tornow
 #   title: Measurement of the neutron-capture cross section of 76Ge and 74Ge below 15MeV and its relevance to neutrinoless double beta decay searches of 76Ge
 #   journal: Jour: Physics Letters,Section B, Vol.741, p.150 (2015)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  3.800000E-01
-#   E-max [MeV]:  7.360000E+00
-#   F-value:  2.091494E+00
-#   A-value:  6.233628E-01
-#   chi-2:  1.398011E+01
-#   p-value:  2.541637E-01
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.523510E+00   1.226917E+00   1.175306E+01
-# jeff3.3       2.622861E+00   3.975176E-01   1.728306E+01
-# jendl5.0      2.065736E+00   4.966509E-01   1.290423E+01

@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: Mo95(n,x)Nb95m cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Liskien
 #   year: 1990
 #   subentry: 22125006
 #   X4 reaction: 42-MO-95(N,P)41-NB-95-M,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22125006
-# target:
+# target: 
 #   Z: 42
 #   A: 95
 #   nuclide: Mo95
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 41
-#   A: 95
-#   nuclide: Nb95m
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 15
+#   residual: 
+#     Z: 41
+#     A: 95
+#     nuclide: Nb95m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 15
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.259000E+01   2.000000E-02   1.098790E+01   2.016100E+00   1.008065E+00
@@ -53,17 +54,3 @@
 #   author: H.Liskien,R.Woelfle,R.Widera,S.M.Qaim
 #   title: Excitation functions of (n,p) and (n,alpha) reactions   on molybdenum isotopes.
 #   journal: Jour: Applied Radiation and Isotopes, Vol.41, p.83 (1990)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  0
-#   E-min [MeV]:  1.259000E+01
-#   E-max [MeV]:  1.958000E+01
-#   F-value:  2.210334E+00
-#   A-value:  5.063109E-01
-#   chi-2:  1.323587E+01
-#   p-value:  1.655017E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.785968E+00   6.467633E-01   8.969541E+00
-# jendl5.0      2.611967E+00   3.963595E-01   1.750220E+01

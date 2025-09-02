@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Th232(n,n'_09)Th233 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Miura
 #   year: 2001
 #   subentry: 22645004
 #   X4 reaction: 90-TH-232(N,INL)90-TH-232,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22645004
-#   level energy [MeV]  8.00000E-01
-# target:
+#   level energy [MeV]:  8.00000E-01
+# target: 
 #   Z: 90
 #   A: 232
 #   nuclide: Th232
-# reaction:
+# reaction: 
 #   type: (n,n'_09)
 #   ENDF_MF: 3
 #   ENDF_MT: 59
@@ -25,14 +25,15 @@
 #     energy [MeV]:  7.741500E-01
 #     spin:  2.000000E+00
 #     parity: 1
-# residual:
-#   Z: 90
-#   A: 233
-#   nuclide: Th233
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 2
+#   residual: 
+#     Z: 90
+#     A: 233
+#     nuclide: Th233
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.600000E+00   0.000000E+00   1.660000E+02   1.300000E+01   1.000000E+00
@@ -41,20 +42,3 @@
 #   author: T.Miura,M.Baba,M.Ibaraki,T.Win,T.Sanami,Y.Hirasawa
 #   title: .Measurements of the Double-Differential neutron  emission cross-sections of 238U and 232Th for  2.6, 3.6 and 11.8 MeV neutrons
 #   journal: Jour: Annals of Nuclear Energy, Vol.28, p.937 (2001)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  2.600000E+00
-#   E-max [MeV]:  3.600000E+00
-#   F-value:  7.320139E+00
-#   A-value:  1.519089E-01
-#   chi-2:  1.149483E+02
-#   p-value:  5.070969E-02
-#   exp. data sets for p-value:      1
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    5.756267E+00   1.796946E-01   1.109848E+02
-# endfb8.0      5.756267E+00   1.796946E-01   1.109848E+02
-# jeff3.3       5.756267E+00   1.796946E-01   1.109848E+02
-# jendl5.0      1.856128E+01   5.890742E-02   1.442239E+02
-# cendl3.2      4.244450E+00   2.366687E-01   9.756326E+01

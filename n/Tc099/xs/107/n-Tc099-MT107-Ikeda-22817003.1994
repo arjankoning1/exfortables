@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Tc99(n,a)Nb96 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Ikeda
 #   year: 1994
 #   subentry: 22817003
 #   X4 reaction: 43-TC-99(N,A)41-NB-96,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22817003
-# target:
+# target: 
 #   Z: 43
 #   A: 99
 #   nuclide: Tc99
-# reaction:
+# reaction: 
 #   type: (n,a)
 #   ENDF_MF: 3
 #   ENDF_MT: 107
-# residual:
-#   Z: 41
-#   A: 96
-#   nuclide: Nb96
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 2
+#   residual: 
+#     Z: 41
+#     A: 96
+#     nuclide: Nb96
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.350000E+01   2.000000E-01   4.408100E+00   2.870900E-01   9.795834E-01
@@ -35,20 +36,3 @@
 #   author: Y.Ikeda, E.T.Cheng, C.Konno, H.Maekawa
 #   title: Measurement of neutron activation cross sections for  the 99Tc(n,p)99Mo, 99Tc(n,alpha)96Nb,  99Tc(n,n'alpha)95Nb, and 99Tc(n,n')99mTc reactions  at 13.5 and 14.8 MeV
 #   journal: Jour: Nuclear Science and Engineering, Vol.116, p.28 (1994)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.350000E+01
-#   E-max [MeV]:  1.480000E+01
-#   F-value:  1.216842E+00
-#   A-value:  1.121737E+00
-#   chi-2:  1.139493E+01
-#   p-value:  2.499837E-01
-#   exp. data sets for p-value:      2
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.406634E+00   1.406190E+00   3.614257E+01
-# endfb8.0      1.066801E+00   1.057515E+00   1.397214E+00
-# jeff3.3       1.118273E+00   9.248290E-01   2.649518E+00
-# jendl5.0      1.013625E+00   1.013618E+00   2.645159E-01
-# cendl3.2      1.275753E+00   1.274057E+00   1.652082E+01

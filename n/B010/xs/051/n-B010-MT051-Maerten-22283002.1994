@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: B10(n,n'_01)B11 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Maerten
 #   year: 1994
 #   subentry: 22283002
 #   X4 reaction: 5-B-10(N,INL)5-B-10,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22283002
-#   level energy [MeV]  7.18300E-01
-# target:
+#   level energy [MeV]:  7.18300E-01
+# target: 
 #   Z: 5
 #   A: 10
 #   nuclide: B10
-# reaction:
+# reaction: 
 #   type: (n,n'_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 51
@@ -25,14 +25,15 @@
 #     energy [MeV]:  7.183800E-01
 #     spin:  1.000000E+00
 #     parity: 1
-# residual:
-#   Z: 5
-#   A: 11
-#   nuclide: B11
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 14
+#   residual: 
+#     Z: 5
+#     A: 11
+#     nuclide: B11
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 14
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.418300E+00   3.588000E-01   3.464400E+00   1.397500E-01   1.000000E+00
@@ -53,20 +54,3 @@
 #   author: H.MAERTEN,J.WARTENA,H.WEIGMANN
 #   title: -SIMULTANEOUS HIGH-RESOLUTION MEASUREMENT OF DIFFEREN-  TIAL ELASTIC AND INELASTIC NEUTRON CROSS SECTIONS ON  SELECTED LIGHT NUCLEI.
 #   journal: Priv.Comm: Maerten (1994)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  1.418300E+00
-#   E-max [MeV]:  2.196900E+00
-#   F-value:  1.687603E+00
-#   A-value:  1.093870E+00
-#   chi-2:  5.549539E+03
-#   p-value:  2.170382E-01
-#   exp. data sets for p-value:      1
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.178009E+00   9.484347E-01   1.430588E+01
-# endfb8.0      1.178009E+00   9.484347E-01   1.430588E+01
-# jeff3.3       1.178009E+00   9.484347E-01   1.430588E+01
-# jendl5.0      3.075125E+00   1.935531E+00   2.769047E+04
-# cendl3.2      1.178010E+00   9.484333E-01   1.430609E+01

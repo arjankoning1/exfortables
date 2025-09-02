@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Br79(p,x)Kr79 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Westjr
 #   year: 1993
 #   subentry: C0151002
 #   X4 reaction: 35-BR-79(P,N)36-KR-79,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/C0151002
-# target:
+# target: 
 #   Z: 35
 #   A: 79
 #   nuclide: Br79
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 36
-#   A: 79
-#   nuclide: Kr79
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 32
+#   residual: 
+#     Z: 36
+#     A: 79
+#     nuclide: Kr79
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 32
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.480000E+00   0.000000E+00   2.600000E-01   2.000000E-02   1.000000E+00
@@ -65,17 +66,3 @@
 #   author: H.I.WEST JR,R.M.NUCKOLLS,B.HUDSON,B.RUIZ,R.G.LANIER, M.G.MUSTAFA
 #   title: Bromine and iodine excitation-function measurements  with protons and deuterons at 3-17 MeV
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.47, p.248 (1993)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  2.480000E+00
-#   E-max [MeV]:  1.687000E+01
-#   F-value:  1.203914E+00
-#   A-value:  1.044196E+00
-#   chi-2:  2.634048E+02
-#   p-value:  3.657019E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.233955E+00   1.050944E+00   3.944925E+02
-# jendl5.0      1.122921E+00   1.018453E+00   1.327194E+02

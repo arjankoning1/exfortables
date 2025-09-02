@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Cr54(p,x)Mn54 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Kailas
 #   year: 1975
 #   subentry: D6017003
 #   X4 reaction: 24-CR-54(P,N)25-MN-54,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/D6017003
-# target:
+# target: 
 #   Z: 24
 #   A: 54
 #   nuclide: Cr54
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 25
-#   A: 54
-#   nuclide: Mn54
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 25
+#   residual: 
+#     Z: 25
+#     A: 54
+#     nuclide: Mn54
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 25
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.502300E+00   0.000000E+00   1.757000E+01   3.048300E+00   1.000000E+00
@@ -58,18 +59,3 @@
 #   author: S.Kailas,S.K.Gupta,M.K.Mehta,S.S.Kerekatte, L.V.Namjoshi,N.K.Ganguly,S.Chintalapudi
 #   title: Total (p,n) reaction cross-section measurements on Ti-50, Cr-54, Co-59
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.12, p.1789 (1975)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  2.502300E+00
-#   E-max [MeV]:  4.994700E+00
-#   F-value:  1.144810E+00
-#   A-value:  9.973520E-01
-#   chi-2:  1.701097E+00
-#   p-value:  2.957394E-01
-#   exp. data sets for p-value:      2
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.051152E+00   9.735259E-01   7.006243E-01
-# endfb8.0      1.241377E+00   1.168877E+00   3.419521E+00
-# jendl5.0      1.116503E+00   9.149120E-01   1.527004E+00

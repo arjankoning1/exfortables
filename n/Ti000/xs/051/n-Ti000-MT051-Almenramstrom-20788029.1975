@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Ti0(n,n'_01)Ti1 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Almenramstrom
 #   year: 1975
 #   subentry: 20788029
 #   X4 reaction: 22-TI-0(N,INL)22-TI-0,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20788029
-#   level energy [MeV]  8.89000E-01
-# target:
+#   level energy [MeV]:  8.89000E-01
+# target: 
 #   Z: 22
 #   A: 0
 #   nuclide: Ti0
-# reaction:
+# reaction: 
 #   type: (n,n'_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 51
@@ -25,14 +25,15 @@
 #     energy [MeV]:  8.500000E-01
 #     spin:  2.000000E+00
 #     parity: 1
-# residual:
-#   Z: 22
-#   A: 1
-#   nuclide: Ti1
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 6
+#   residual: 
+#     Z: 22
+#     A: 1
+#     nuclide: Ti1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.000000E+00   0.000000E+00   5.910000E+02   8.900001E+01   1.000000E+00
@@ -45,20 +46,3 @@
 #   author: E.Almen-Ramstrom
 #   title: A systematic study of neutron inelastic scattering  in the energy range 2.0 to 4.5 MeV
 #   journal: Rept: Aktiebolaget Atomenergi,Stockholm/Studsvik Repts, No.503 (1975)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  2.000000E+00
-#   E-max [MeV]:  3.250000E+00
-#   F-value:  1.422338E+00
-#   A-value:  1.377967E+00
-#   chi-2:  8.664790E+00
-#   p-value:  1.789420E-01
-#   exp. data sets for p-value:      3
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.426197E+00   1.386232E+00   8.721980E+00
-# endfb8.0      1.404607E+00   1.369716E+00   7.871847E+00
-# jeff3.3       1.423929E+00   1.383922E+00   8.636964E+00
-# jendl5.0      1.526176E+00   1.485977E+00   1.312257E+01
-# cendl3.2      1.316182E+00   1.272344E+00   4.970588E+00

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ni58(n,x)Ni57 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Adamski
 #   year: 1980
 #   subentry: 303920022
 #   X4 reaction: 28-NI-58(N,2N)28-NI-57,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/303920022
-# target:
+# target: 
 #   Z: 28
 #   A: 58
 #   nuclide: Ni58
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 28
-#   A: 57
-#   nuclide: Ni57
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 2
+#   residual: 
+#     Z: 28
+#     A: 57
+#     nuclide: Ni57
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.740000E+01   4.000000E-01   6.060000E+01   6.200000E+00   1.000000E+00
@@ -35,18 +36,3 @@
 #   author: L.Adamski,M.Herman,A.Marcinkowski
 #   title: -The cross-section of Ni-58(n,2n)Ni-57 reaction in the energy range of 14 to 17.9 MeV. Final result.-
 #   journal: Jour: Annals of Nuclear Energy, Vol.7, Issue.7, p.397 (1980)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.740000E+01
-#   E-max [MeV]:  1.790000E+01
-#   F-value:  1.022217E+00
-#   A-value:  9.999407E-01
-#   chi-2:  2.368653E-01
-#   p-value:  4.501206E-01
-#   exp. data sets for p-value:      8
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.001838E+00   1.001574E+00   1.940435E-02
-# endfb8.0      1.026101E+00   1.026010E+00   3.379595E-01
-# jendl5.0      1.028346E+00   9.729439E-01   3.532321E-01

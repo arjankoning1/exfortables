@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Zr0(p,x)Zr88 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Bringas
 #   year: 2004
 #   subentry: O1313004
 #   X4 reaction: 40-ZR-0(P,X)40-ZR-88,CUM,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/O1313004
-# target:
+# target: 
 #   Z: 40
 #   A: 0
 #   nuclide: Zr0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 40
-#   A: 88
-#   nuclide: Zr88
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 2
+#   residual: 
+#     Z: 40
+#     A: 88
+#     nuclide: Zr88
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.960000E+01   8.000000E-01   1.810300E-01   1.600200E-02   1.000147E+00
@@ -35,17 +36,3 @@
 #   author: F.Bringas, M.T.Yamashita, I.D.Goldman, P.R.Pascholati, V.Sciani
 #   title: Measurement of proton-induced reaction cross sections in Ti, Ni and Zr near the threshold
 #   journal: Conf: Conf.on Nucl.Data for Sci.and Techn., Santa Fe 2004, Vol.2, p.1374
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  1.960000E+01
-#   E-max [MeV]:  2.710000E+01
-#   F-value:  3.874670E+01
-#   A-value:  1.232450E-01
-#   chi-2:  2.454620E+02
-#   p-value:  1.575312E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    3.848068E+01   1.198633E-01   2.117544E+02
-# jendl5.0      2.612455E+00   2.612455E+00   4.319247E+02

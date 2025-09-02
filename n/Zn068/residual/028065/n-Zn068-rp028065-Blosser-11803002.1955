@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Zn68(n,x)Ni65 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Blosser
 #   year: 1955
 #   subentry: 11803002
 #   X4 reaction: 30-ZN-68(N,A)28-NI-65,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/11803002
-# target:
+# target: 
 #   Z: 30
 #   A: 68
 #   nuclide: Zn68
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 107
-# residual:
-#   Z: 28
-#   A: 65
-#   nuclide: Ni65
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 28
+#     A: 65
+#     nuclide: Ni65
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.400000E+01   0.000000E+00   7.887280E+00   8.000000E-01   1.037800E+00
@@ -34,18 +35,3 @@
 #   author: H.G.BLOSSER,C.D.GOODMAN,T.H.HANDLEY,M.L.RANDOLPH
 #   title: 14-MEV (N,ALPHA) CROSS-SECTION MEASUREMENTS.
 #   journal: Jour: Physical Review, Vol.100, p.429 (1955)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.400000E+01
-#   E-max [MeV]:  1.400000E+01
-#   F-value:  1.891825E+00
-#   A-value:  1.820889E+00
-#   chi-2:  8.805286E+01
-#   p-value:  2.325836E-01
-#   exp. data sets for p-value:      6
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    2.263112E+00   2.263112E+00   1.550810E+02
-# jeff3.3       1.465078E+00   1.465078E+00   2.102475E+01
-# jendl5.0      0.000000E+00   0.000000E+00   0.000000E+00

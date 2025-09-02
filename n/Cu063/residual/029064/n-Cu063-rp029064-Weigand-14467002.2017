@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Cu63(n,x)Cu64 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Weigand
 #   year: 2017
 #   subentry: 14467002
 #   X4 reaction: 29-CU-63(N,G)29-CU-64,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/14467002
-# target:
+# target: 
 #   Z: 29
 #   A: 63
 #   nuclide: Cu63
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 29
-#   A: 64
-#   nuclide: Cu64
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 398
+#   residual: 
+#     Z: 29
+#     A: 64
+#     nuclide: Cu64
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 398
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    7.400000E-05   0.000000E+00   1.920000E+01   2.100000E+00   1.000000E+00
@@ -431,17 +432,3 @@
 #   author: M.Weigand,C.Beinrucker,A.Couture,S.Fiebiger,M.Fonseca, K.Gobel,M.Heftrich,T.Heftrich,M.Jandel,F.Kappeler, A.Krasa,C.Lederer,H.Y.Lee,R.Plag,A.Plompen,R.Reifarth, S.Schmidt,K.Sonnabend,J.L.Ullmann
 #   title: 63Cu(n,gamma) cross section measured via 25 keV activation and time of flight
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.95, p.015808 (2017)
-# statistics:
-#   NEA score: T3
-#   IAEA score:  1
-#   E-min [MeV]:  7.400000E-05
-#   E-max [MeV]:  6.904830E-01
-#   F-value:  4.625527E+00
-#   A-value:  4.824525E-01
-#   chi-2:  6.105091E+01
-#   p-value:  1.753500E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    5.255120E+00   4.759063E-01   6.346748E+01
-# jendl5.0      4.024222E+00   4.890892E-01   5.863439E+01

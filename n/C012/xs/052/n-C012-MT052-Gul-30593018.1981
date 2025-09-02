@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: C12(n,n'_02)C13 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Gul
 #   year: 1981
 #   subentry: 30593018
 #   X4 reaction: 6-C-12(N,INL)6-C-12,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30593018
-#   level energy [MeV]  7.65000E+00
-# target:
+#   level energy [MeV]:  7.65000E+00
+# target: 
 #   Z: 6
 #   A: 12
 #   nuclide: C12
-# reaction:
+# reaction: 
 #   type: (n,n'_02)
 #   ENDF_MF: 3
 #   ENDF_MT: 52
@@ -25,14 +25,15 @@
 #     energy [MeV]:  7.654070E+00
 #     spin:  0.000000E+00
 #     parity: 1
-# residual:
-#   Z: 6
-#   A: 13
-#   nuclide: C13
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 6
+#     A: 13
+#     nuclide: C13
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.470000E+01   0.000000E+00   9.300000E+00   1.600000E+00   1.000000E+00
@@ -40,19 +41,3 @@
 #   author: K.Gul,M.Anwar,M.Ahmad,S.M.Saleem,N.A.Khan
 #   title: Scattering of 14.7 MeV neutrons from C-12 and evidence for a new reaction channel
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.24, Issue.6, p.2458
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  1.470000E+01
-#   E-max [MeV]:  1.470000E+01
-#   F-value:  3.120089E+00
-#   A-value:  7.582243E-01
-#   chi-2:  1.417050E+01
-#   p-value:  1.864734E-01
-#   exp. data sets for p-value:      1
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.666596E+00   1.666596E+00   1.501563E+01
-# endfb8.0      1.666596E+00   1.666596E+00   1.501563E+01
-# jendl5.0      8.652411E+00   1.155747E-01   2.642704E+01
-# cendl3.2      1.029598E+00   1.029598E+00   2.236815E-01

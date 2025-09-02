@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Mo97(n,p)Nb97 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Paul
 #   year: 1953
 #   subentry: 11274068
 #   X4 reaction: 42-MO-97(N,P)41-NB-97,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/11274068
-# target:
+# target: 
 #   Z: 42
 #   A: 97
 #   nuclide: Mo97
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 41
-#   A: 97
-#   nuclide: Nb97
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 41
+#     A: 97
+#     nuclide: Nb97
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.450000E+01   0.000000E+00   1.080000E+02   5.400000E+01   1.000000E+00
@@ -34,20 +35,3 @@
 #   author: E.B.Paul,R.L.Clarke
 #   title: CROSS SECTION MEASUREMENTS OF REACTIONS INDUCED BY NEUTRONS OF THE 14.5 MEV ENERGY.
 #   journal: Jour: Canadian Journal of Physics, Vol.31, p.267 (1953)
-# statistics:
-#   NEA score: R2
-#   IAEA score:  1
-#   E-min [MeV]:  1.450000E+01
-#   E-max [MeV]:  1.450000E+01
-#   F-value:  3.830187E+00
-#   A-value:  2.627357E-01
-#   chi-2:  2.681852E+00
-#   p-value:  7.623911E-03
-#   exp. data sets for p-value:      8
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    2.983216E+00   3.352087E-01   2.322347E+00
-# endfb8.0      4.257195E+00   2.348965E-01   2.839793E+00
-# jeff3.3       4.113300E+00   2.431138E-01   2.795089E+00
-# jendl5.0      4.113300E+00   2.431138E-01   2.795089E+00
-# cendl3.2      3.717199E+00   2.690198E-01   2.656942E+00

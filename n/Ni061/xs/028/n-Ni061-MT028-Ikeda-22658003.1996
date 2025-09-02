@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ni61(n,np)Co60 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Ikeda
 #   year: 1996
 #   subentry: 22658003
 #   X4 reaction: 28-NI-61(N,X)27-CO-60,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22658003
-# target:
+# target: 
 #   Z: 28
 #   A: 61
 #   nuclide: Ni61
-# reaction:
+# reaction: 
 #   type: (n,np)
 #   ENDF_MF: 3
 #   ENDF_MT: 28
-# residual:
-#   Z: 27
-#   A: 60
-#   nuclide: Co60
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 27
+#     A: 60
+#     nuclide: Co60
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.480000E+01   0.000000E+00   5.063071E+01   8.152300E+00   1.002588E+00
@@ -34,20 +35,3 @@
 #   author: Y.Ikeda,C.Konno,A.Kumar,Y.Kasugai
 #   title: Summary of activation cross sections measurements  at FNS
 #   journal: Conf: IAEA Nucl.Data Section report to the I.N.D.C., No.342, p.19 (1996)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  1.480000E+01
-#   E-max [MeV]:  1.480000E+01
-#   F-value:  2.106401E+00
-#   A-value:  8.577195E-01
-#   chi-2:  3.575006E+01
-#   p-value:  2.976119E-01
-#   exp. data sets for p-value:      1
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.384884E+00   7.220823E-01   3.407189E+00
-# endfb8.0      1.452235E+00   6.885939E-01   4.086137E+00
-# jeff3.3       2.992334E+00   2.992334E+00   1.531060E+02
-# jendl5.0      1.012295E+00   9.878542E-01   9.605629E-02
-# cendl3.2      3.166112E+00   3.158448E-01   1.805492E+01

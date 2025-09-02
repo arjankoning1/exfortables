@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Mg26(n,p)Na26 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Kasugai
 #   year: 2001
 #   subentry: 22640004
 #   X4 reaction: 12-MG-26(N,P)11-NA-26,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22640004
-# target:
+# target: 
 #   Z: 12
 #   A: 26
 #   nuclide: Mg26
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 11
-#   A: 26
-#   nuclide: Na26
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 11
+#     A: 26
+#     nuclide: Na26
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.494000E+01   0.000000E+00   3.097497E+01   3.996770E+00   9.991925E-01
@@ -34,20 +35,3 @@
 #   author: Y.Kasugai,Y.Ikeda,H.Takeuchi
 #   title: Measurement of (n,p) reaction cross sections for short-lived products (T1/2=0.6 - 13.8 sec) by 14 MeV neutrons
 #   journal: Conf: JAERI Conference proceedings, No.2001-006, p.190 (2001)
-# statistics:
-#   NEA score: T2
-#   IAEA score:  1
-#   E-min [MeV]:  1.494000E+01
-#   E-max [MeV]:  1.494000E+01
-#   F-value:  2.220953E+00
-#   A-value:  6.701546E-01
-#   chi-2:  1.235303E+01
-#   p-value:  4.142039E-01
-#   exp. data sets for p-value:      5
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    2.280246E+00   4.385491E-01   1.893384E+01
-# endfb8.0      1.138608E+00   1.138608E+00   1.744164E+00
-# jeff3.3       1.138608E+00   1.138608E+00   1.744164E+00
-# jendl5.0      1.138608E+00   1.138608E+00   1.744164E+00
-# cendl3.2      4.789237E+00   2.088015E-01   3.759884E+01

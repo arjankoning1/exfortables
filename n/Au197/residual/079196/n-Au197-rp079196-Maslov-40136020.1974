@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Au197(n,x)Au196 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Maslov
 #   year: 1974
 #   subentry: 40136020
 #   X4 reaction: 79-AU-197(N,2N)79-AU-196,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/40136020
-# target:
+# target: 
 #   Z: 79
 #   A: 197
 #   nuclide: Au197
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 79
-#   A: 196
-#   nuclide: Au196
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 79
+#     A: 196
+#     nuclide: Au196
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.420000E+01   2.000000E-01   2.037646E+03   1.484660E+02   9.084468E-01
@@ -34,17 +35,3 @@
 #   author: G.N.Maslov,F.Nasyrov,N.F.Pashkin
 #   title: Experimental cross-sections for nuclear reactions involving neutrons with energies of about 14 MeV
 #   journal: Rept: USSR report to the I.N.D.C., No.42, p.10 (1974)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.420000E+01
-#   E-max [MeV]:  1.420000E+01
-#   F-value:  1.037636E+00
-#   A-value:  1.036485E+00
-#   chi-2:  7.087283E-01
-#   p-value:  2.470998E-01
-#   exp. data sets for p-value:      8
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.027210E+00   1.027210E+00   5.079628E-01
-# jendl5.0      1.045844E+00   1.045844E+00   9.094937E-01

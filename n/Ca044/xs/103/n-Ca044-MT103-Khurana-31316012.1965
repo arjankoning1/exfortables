@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ca44(n,p)K44 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Khurana
 #   year: 1965
 #   subentry: 31316012
 #   X4 reaction: 20-CA-44(N,P)19-K-44,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/31316012
-# target:
+# target: 
 #   Z: 20
 #   A: 44
 #   nuclide: Ca44
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 19
-#   A: 44
-#   nuclide: K44
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 19
+#     A: 44
+#     nuclide: K44
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.480000E+01   0.000000E+00   9.100002E+01   2.000000E+01   1.000000E+00
@@ -34,19 +35,3 @@
 #   author: C.S.Khurana, I.M.Govil
 #   title: The (n,a),(n,p) and (n,t) cross-sections at 14.8 MeV
 #   journal: Jour: Nuclear Physics, Vol.69, p.153 (1965)
-# statistics:
-#   NEA score: R2
-#   IAEA score:  1
-#   E-min [MeV]:  1.480000E+01
-#   E-max [MeV]:  1.480000E+01
-#   F-value:  2.289846E+00
-#   A-value:  4.388816E-01
-#   chi-2:  6.649673E+00
-#   p-value:  4.133439E-02
-#   exp. data sets for p-value:      8
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    2.386257E+00   4.190664E-01   7.095983E+00
-# endfb8.0      1.971821E+00   5.071455E-01   5.256139E+00
-# jeff3.3       2.514802E+00   3.976457E-01   7.599968E+00
-# jendl5.0      2.277834E+00   4.390135E-01   6.646605E+00

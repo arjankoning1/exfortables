@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Be9(n,t)Li7 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Benveniste
 #   year: 1960
 #   subentry: 11193002
 #   X4 reaction: 4-BE-9(N,T)3-LI-7,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/11193002
-# target:
+# target: 
 #   Z: 4
 #   A: 9
 #   nuclide: Be9
-# reaction:
+# reaction: 
 #   type: (n,t)
 #   ENDF_MF: 3
 #   ENDF_MT: 105
-# residual:
-#   Z: 3
-#   A: 7
-#   nuclide: Li7
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 11
+#   residual: 
+#     Z: 3
+#     A: 7
+#     nuclide: Li7
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 11
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.355000E+01   0.000000E+00   2.100000E+01   2.000000E+00   1.000000E+00
@@ -44,20 +45,3 @@
 #   author: J.BENVENISTE,A.C.MITCHELL,C.D.SCHRADER,J.H.ZENGER
 #   title: GAMMA RAYS FROM THE INTERACTION OF 14-MEV NEUTRONS WITH BERYLLIUM.
 #   journal: Jour: Nuclear Physics, Vol.19, p.52 (1960)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  1.355000E+01
-#   E-max [MeV]:  1.470000E+01
-#   F-value:  1.355659E+00
-#   A-value:  1.024525E+00
-#   chi-2:  9.554191E+00
-#   p-value:  1.955416E-01
-#   exp. data sets for p-value:      4
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.366571E+00   1.070513E+00   1.062046E+01
-# endfb8.0      1.366571E+00   1.070513E+00   1.062046E+01
-# jeff3.3       1.331596E+00   9.802650E-01   8.125830E+00
-# jendl5.0      1.346112E+00   9.386321E-01   7.783796E+00
-# cendl3.2      1.366569E+00   1.070511E+00   1.062040E+01

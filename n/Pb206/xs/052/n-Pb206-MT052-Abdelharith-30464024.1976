@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Pb206(n,n'_02)Pb207 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Abdelharith
 #   year: 1976
 #   subentry: 30464024
 #   X4 reaction: 82-PB-206(N,INL)82-PB-206,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30464024
-#   level energy [MeV]  1.17000E+00
-# target:
+#   level energy [MeV]:  1.17000E+00
+# target: 
 #   Z: 82
 #   A: 206
 #   nuclide: Pb206
-# reaction:
+# reaction: 
 #   type: (n,n'_02)
 #   ENDF_MF: 3
 #   ENDF_MT: 52
@@ -25,14 +25,15 @@
 #     energy [MeV]:  1.166400E+00
 #     spin:  0.000000E+00
 #     parity: 1
-# residual:
-#   Z: 82
-#   A: 207
-#   nuclide: Pb207
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 82
+#     A: 207
+#     nuclide: Pb207
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.400000E+00   1.000000E-01   2.620000E+02   3.930000E+01   1.000000E+00
@@ -40,20 +41,3 @@
 #   author: M.Abdel-Harith,Th.Schweitzer,D.Seeliger,S.Unholzer
 #   title: Elastic and inelastic scattering of 3.4 MeV neutrons  by V-51,Co-59 and Pb-206,207
 #   journal: Prog: Zentralinst. f. Kernforschung Rossendorf Reports, No.315, p.12 (19
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  3.400000E+00
-#   E-max [MeV]:  3.400000E+00
-#   F-value:  4.164788E+00
-#   A-value:  2.406249E-01
-#   chi-2:  2.559507E+01
-#   p-value:  1.057159E-01
-#   exp. data sets for p-value:      1
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    4.805431E+00   2.080979E-01   2.787152E+01
-# endfb8.0      3.900792E+00   2.563582E-01   2.457795E+01
-# jeff3.3       3.859697E+00   2.590877E-01   2.439786E+01
-# jendl5.0      4.120129E+00   2.427109E-01   2.548833E+01
-# cendl3.2      4.158604E+00   2.404653E-01   2.563970E+01

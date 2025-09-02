@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Mo94(n,p)Nb94 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Greenwood
 #   year: 1990
 #   subentry: 13166011
 #   X4 reaction: 42-MO-94(N,P)41-NB-94,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/13166011
-# target:
+# target: 
 #   Z: 42
 #   A: 94
 #   nuclide: Mo94
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 41
-#   A: 94
-#   nuclide: Nb94
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 41
+#     A: 94
+#     nuclide: Nb94
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.480000E+01   0.000000E+00   5.500000E+01   6.000000E+00   1.000000E+00
@@ -34,20 +35,3 @@
 #   author: L.R.Greenwood,D.L.Bowers
 #   title: Measurement of long-lived isotopes and helium production in fusion materials
 #   journal: Conf: 7.Int.Symposium on Reactor Dosimetry, Strasbourg,1990, p.437 (1990
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.480000E+01
-#   E-max [MeV]:  1.480000E+01
-#   F-value:  1.015099E+00
-#   A-value:  1.010839E+00
-#   chi-2:  1.304659E-01
-#   p-value:  4.396564E-01
-#   exp. data sets for p-value:      4
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.000072E+00   1.000072E+00   8.309244E-04
-# endfb8.0      1.000762E+00   1.000762E+00   8.768571E-03
-# jeff3.3       1.023492E+00   1.023492E+00   2.826692E-01
-# jendl5.0      1.023492E+00   1.023492E+00   2.826692E-01
-# cendl3.2      1.006650E+00   1.006650E+00   7.739142E-02

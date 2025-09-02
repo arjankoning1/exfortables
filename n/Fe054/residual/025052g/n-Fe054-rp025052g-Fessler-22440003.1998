@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: Fe54(n,x)Mn52g cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Fessler
 #   year: 1998
 #   subentry: 22440003
 #   X4 reaction: 26-FE-54(N,X)25-MN-52-G,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22440003
-# target:
+# target: 
 #   Z: 26
 #   A: 54
 #   nuclide: Fe54
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 25
-#   A: 52
-#   nuclide: Mn52g
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 5
+#   residual: 
+#     Z: 25
+#     A: 52
+#     nuclide: Mn52g
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.605000E+01   2.500000E-01   2.000000E-02   1.000000E-02   1.000000E+00
@@ -43,18 +44,3 @@
 #   author: A.Fessler
 #   title: Activation cross sections and isomeric cross section  ratios in neutron induced reactions on Cr-, Fe-, and  Ni-isotopes in the energy range 9 to 21 MeV.
 #   journal: Rept: Kernforschungsanlage, Juelich, report series, No.3502 (1998)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  1.605000E+01
-#   E-max [MeV]:  2.035000E+01
-#   F-value:  2.712898E+00
-#   A-value:  4.759671E-01
-#   chi-2:  1.662690E+01
-#   p-value:  2.570669E-01
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    3.109924E+00   3.787925E-01   2.476122E+01
-# jeff3.3       1.511454E+00   1.511454E+00   3.359917E+01
-# jendl5.0      1.000891E+00   9.991097E-01   1.267253E-02

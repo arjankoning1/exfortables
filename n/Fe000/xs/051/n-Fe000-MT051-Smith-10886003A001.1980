@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Fe0(n,n'_01)Fe1 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Smith
 #   year: 1980
 #   subentry: 10886003
 #   X4 reaction: 26-FE-0(N,INL)26-FE-0,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/10886003
-#   level energy [MeV]  8.53000E-01
-# target:
+#   level energy [MeV]:  8.53000E-01
+# target: 
 #   Z: 26
 #   A: 0
 #   nuclide: Fe0
-# reaction:
+# reaction: 
 #   type: (n,n'_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 51
@@ -25,14 +25,15 @@
 #     energy [MeV]:  8.467780E-01
 #     spin:  2.000000E+00
 #     parity: 1
-# residual:
-#   Z: 26
-#   A: 1
-#   nuclide: Fe1
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 50
+#   residual: 
+#     Z: 26
+#     A: 1
+#     nuclide: Fe1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 50
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.590000E+00   0.000000E+00   7.625000E+02   3.500000E+01   1.000000E+00
@@ -89,20 +90,3 @@
 #   author: A.SMITH,P.GUENTHER
 #   title: SCATTERING OF MEV NEUTRONS FROM ELEMENTAL IRON
 #   journal: Jour: Nuclear Science and Engineering, Vol.73, p.186 (1980)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  1.590000E+00
-#   E-max [MeV]:  4.027000E+00
-#   F-value:  1.314903E+00
-#   A-value:  8.625882E-01
-#   chi-2:  4.968007E+01
-#   p-value:  3.227739E-01
-#   exp. data sets for p-value:      6
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.281378E+00   8.760448E-01   4.162743E+01
-# endfb8.0      1.225197E+00   9.471637E-01   3.583166E+01
-# jeff3.3       1.264334E+00   8.889876E-01   4.165598E+01
-# jendl5.0      1.252711E+00   9.017340E-01   3.932967E+01
-# cendl3.2      1.503380E+00   7.179464E-01   8.995561E+01

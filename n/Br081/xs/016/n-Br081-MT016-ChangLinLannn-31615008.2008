@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Br81(n,2n)Br80 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: ChangLinLannn
 #   year: 2008
 #   subentry: 31615008
 #   X4 reaction: 35-BR-81(N,2N)35-BR-80,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/31615008
-# target:
+# target: 
 #   Z: 35
 #   A: 81
 #   nuclide: Br81
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 35
-#   A: 80
-#   nuclide: Br80
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 3
+#   residual: 
+#     Z: 35
+#     A: 80
+#     nuclide: Br80
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.350000E+01   3.000000E-01   6.070001E+02   4.100000E+01   1.000000E+00
@@ -36,19 +37,3 @@
 #   author: Chang-Lin Lan, Kai-Hong Fang, Xiao-San Xu, Qi Wang,  Xiang-Zhong Kong, Rong Liu, Li Jiang
 #   title: Activation cross-section measurements for producing  short-lived nuclei with 14 MeV neutrons - Ge, Pd, Yb
 #   journal: Jour: Radiation Physics and Chemistry, Vol.77, p.854 (2008)
-# statistics:
-#   NEA score: R3
-#   IAEA score:  1
-#   E-min [MeV]:  1.350000E+01
-#   E-max [MeV]:  1.480000E+01
-#   F-value:  1.451979E+00
-#   A-value:  1.446518E+00
-#   chi-2:  5.530187E+01
-#   p-value:  1.108810E-01
-#   exp. data sets for p-value:      2
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.452877E+00   1.449000E+00   5.535822E+01
-# endfb8.0      1.483780E+00   1.478386E+00   6.308601E+01
-# jeff3.3       1.390139E+00   1.386782E+00   4.096636E+01
-# jendl5.0      1.477837E+00   1.473772E+00   6.179689E+01

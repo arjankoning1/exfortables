@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: Rh103(p,x)Rh101m cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Lagunassolar
 #   year: 1984
 #   subentry: C0188007
 #   X4 reaction: 45-RH-103(P,X)45-RH-101-M,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/C0188007
-# target:
+# target: 
 #   Z: 45
 #   A: 103
 #   nuclide: Rh103
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 45
-#   A: 101
-#   nuclide: Rh101m
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 41
+#   residual: 
+#     Z: 45
+#     A: 101
+#     nuclide: Rh101m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 41
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.553000E+01   0.000000E+00   1.134200E+00   8.987900E-02   1.074074E+00
@@ -79,17 +80,3 @@
 #   author: M.C.Lagunas-Solar,M.J.Avila,P.C.Johnson
 #   title: Cyclotron production of 101mRh via proton-induced reactions on 103Rh targets
 #   journal: Jour: Applied Radiation and Isotopes, Vol.35, p.743 (1984)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  1.553000E+01
-#   E-max [MeV]:  6.792300E+01
-#   F-value:  2.649441E+00
-#   A-value:  8.751026E-01
-#   chi-2:  1.001038E+02
-#   p-value:  2.134797E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    2.696468E+00   8.681219E-01   2.823683E+01
-# jendl5.0      2.538571E+00   8.917103E-01   1.545513E+02

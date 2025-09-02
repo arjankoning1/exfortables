@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Cu0(p,x)Co55 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Mills
 #   year: 1992
 #   subentry: A05070033
 #   X4 reaction: 29-CU-0(P,X)27-CO-55,CUM,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/A05070033
-# target:
+# target: 
 #   Z: 29
 #   A: 0
 #   nuclide: Cu0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 27
-#   A: 55
-#   nuclide: Co55
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 31
+#   residual: 
+#     Z: 27
+#     A: 55
+#     nuclide: Co55
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 31
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    6.850000E+01   0.000000E+00   9.999999E-02   4.300000E-02   1.000000E+00
@@ -64,18 +65,3 @@
 #   author: S.J.Mills,G.F.Steyn,F.M.Nortier
 #   title: Experimental and theoretical excitation functions of radionuclides produced in proton bombardment of copper up to 200 MeV.
 #   journal: Jour: Applied Radiation and Isotopes, Vol.43, p.1019 (1992)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  6.850000E+01
-#   E-max [MeV]:  1.966000E+02
-#   F-value:  1.865741E+00
-#   A-value:  1.305139E+00
-#   chi-2:  8.894260E+01
-#   p-value:  3.610345E-01
-#   exp. data sets for p-value:      4
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    2.350915E+00   2.229000E+00   2.269657E+02
-# endfb8.0      1.525248E+00   1.404524E+00   2.436687E+01
-# jendl5.0      1.661763E+00   7.101190E-01   1.549516E+01

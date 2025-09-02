@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Zr90(n,x)Zr89 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Iguchi
 #   year: 1987
 #   subentry: 23008003
 #   X4 reaction: 40-ZR-90(N,2N)40-ZR-89,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/23008003
-# target:
+# target: 
 #   Z: 40
 #   A: 90
 #   nuclide: Zr90
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 40
-#   A: 89
-#   nuclide: Zr89
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 5
+#   residual: 
+#     Z: 40
+#     A: 89
+#     nuclide: Zr89
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.381000E+01   0.000000E+00   5.632896E+02   2.317649E+01   1.007674E+00
@@ -38,18 +39,3 @@
 #   author: T.Iguchi, K.Nakata, M.Nakazawa
 #   title: Improvement of accuracy of Zr/Nb activation-rate ratio method for D-T neutron source energy determination
 #   journal: Jour: Jour. of Nuclear Science and Technology, Vol.24, Issue.12, p.1076
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.381000E+01
-#   E-max [MeV]:  1.476000E+01
-#   F-value:  1.028727E+00
-#   A-value:  9.783415E-01
-#   chi-2:  8.132762E-01
-#   p-value:  2.207619E-01
-#   exp. data sets for p-value:      8
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.029644E+00   9.771387E-01   8.585647E-01
-# jeff3.3       1.029578E+00   9.772847E-01   8.533684E-01
-# jendl5.0      1.026877E+00   9.806048E-01   7.278957E-01

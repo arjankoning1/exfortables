@@ -1,28 +1,29 @@
-# header:
+# header: 
 #   title: Zn64(g,xn) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Carlos
 #   year: 1976
 #   subentry: L0043004
 #   X4 reaction: 30-ZN-64(G,X)0-NN-1,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/L0043004
-# target:
+# target: 
 #   Z: 30
 #   A: 64
 #   nuclide: Zn64
-# reaction:
+# reaction: 
 #   type: (g,xn)
 #   ENDF_MF: 3
 #   ENDF_MT: 201
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 66
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 66
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.185000E+01   0.000000E+00   6.400000E+00   2.049600E+00   1.000000E+00
@@ -95,18 +96,3 @@
 #   author: P.CARLOS,H.BEIL,R.BERGERE,J.FAGOT,A.LEPRETRE, A.VEYSSIERE,G.V.SOLODUKHOV
 #   title: A study of the photoneutron contribution to the giant  dipole resonance of nuclei in the 64<=A<=86 mass  region.
 #   journal: Jour: Nuclear Physics, Section A, Vol.258, p.365 (1976)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  1.185000E+01
-#   E-max [MeV]:  2.947000E+01
-#   F-value:  2.013778E+00
-#   A-value:  5.677221E-01
-#   chi-2:  2.301364E+01
-#   p-value:  1.748305E-01
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    2.521970E+00   4.019846E-01   3.974800E+01
-# endfb8.0      1.327780E+00   7.855794E-01   7.470069E+00
-# jendl5.0      2.076611E+00   5.794393E-01   2.182285E+01

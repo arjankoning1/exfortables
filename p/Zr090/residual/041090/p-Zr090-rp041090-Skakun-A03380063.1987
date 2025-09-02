@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Zr90(p,x)Nb90 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Skakun
 #   year: 1987
 #   subentry: A03380063
 #   X4 reaction: 40-ZR-90(P,N)41-NB-90,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/A03380063
-# target:
+# target: 
 #   Z: 40
 #   A: 90
 #   nuclide: Zr90
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 41
-#   A: 90
-#   nuclide: Nb90
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 4
+#   residual: 
+#     Z: 41
+#     A: 90
+#     nuclide: Nb90
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    7.500000E+00   0.000000E+00   2.400000E+01   2.000000E+00   1.000000E+00
@@ -37,17 +38,3 @@
 #   author: E.A.Skakun, V.G.Batij, Yu.N.Rakivnenko, O.A.Rastrepin
 #   title: Excitation functions and isomer ratios for up-to-9 MeV proton interactions with Zr and Mo isotope nuclei.
 #   journal: Jour: Yadernaya Fizika, Vol.46, p.28 (1987)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  7.500000E+00
-#   E-max [MeV]:  9.000000E+00
-#   F-value:  2.530026E+00
-#   A-value:  1.862722E+00
-#   chi-2:  9.495812E+02
-#   p-value:  2.846720E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    2.248425E+00   1.650886E+00   5.597809E+02
-# jendl5.0      2.809018E+00   2.101739E+00   1.339381E+03

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: O18(a,x)Ne22 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Adams
 #   year: 1969
 #   subentry: C1268002
 #   X4 reaction: 8-O-18(A,G)10-NE-22,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/C1268002
-# target:
+# target: 
 #   Z: 8
 #   A: 18
 #   nuclide: O18
-# reaction:
+# reaction: 
 #   type: (a,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 10
-#   A: 22
-#   nuclide: Ne22
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 12
+#   residual: 
+#     Z: 10
+#     A: 22
+#     nuclide: Ne22
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 12
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.140000E+00   0.000000E+00   4.110000E-04   1.460000E-04   1.000000E+00
@@ -45,17 +46,3 @@
 #   author: A.Adams,M.H.Shapiro,W.M.Denny,E.G.Adelberger,  C.A.Barnes
 #   title: The 18O(alpha, gamma)22Ne reaction
 #   journal: Jour: Nuclear Physics, Section A, Vol.131, p.430 (1969)
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  2.140000E+00
-#   E-max [MeV]:  3.690000E+00
-#   F-value:  6.819028E+00
-#   A-value:  1.831528E-01
-#   chi-2:  5.672567E+01
-#   p-value:  8.548274E-02
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    7.987571E+00   1.565951E-01   5.955355E+01
-# jendl5.0      5.739013E+00   2.142146E-01   5.389779E+01

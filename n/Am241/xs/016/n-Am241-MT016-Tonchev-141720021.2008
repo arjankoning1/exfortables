@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Am241(n,2n)Am240 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Tonchev
 #   year: 2008
 #   subentry: 141720021
 #   X4 reaction: 95-AM-241(N,2N)95-AM-240,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/141720021
-# target:
+# target: 
 #   Z: 95
 #   A: 241
 #   nuclide: Am241
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 95
-#   A: 240
-#   nuclide: Am240
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 11
+#   residual: 
+#     Z: 95
+#     A: 240
+#     nuclide: Am240
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 11
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    7.590000E+00   1.500000E-01   3.400000E+01   2.500840E+00   1.000000E+00
@@ -44,20 +45,3 @@
 #   author: A.P.Tonchev, C.T.Angell, M.Boswell, A.S.Crowell,  B.Fallin, S.Hammond, C.R.Howell, A.Hutcheson,  H.J.Karwowski, J.H.Kelley, R.S.Pedroni, W.Tornow,  J.A.Becker, D.Dashdorj, J.Kenneally, R.A.Macri,  M.A.Stoyer, C.Y.Wu, E.Bond, M.B.Chadwick,  J.Fitzpatrick, T.Kawano, R.S.Rundberg, A.Slemmons,  D.J.Vieira, J.B.Wilhelmy
 #   title: Measurement of the 241Am(n,2n) reaction cross  section from 7.6 MeV to 14.5 MeV
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.77, p.054610 (2008)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  7.590000E+00
-#   E-max [MeV]:  1.446000E+01
-#   F-value:  1.100147E+00
-#   A-value:  1.001225E+00
-#   chi-2:  2.507587E+00
-#   p-value:  3.006777E-01
-#   exp. data sets for p-value:      1
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.103924E+00   9.706707E-01   2.499170E+00
-# endfb8.0      1.102215E+00   1.039208E+00   2.680265E+00
-# jeff3.3       1.103631E+00   9.714164E-01   2.483348E+00
-# jendl5.0      1.116450E+00   1.033977E+00   3.701921E+00
-# cendl3.2      1.068931E+00   9.930429E-01   1.173231E+00

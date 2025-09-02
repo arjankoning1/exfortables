@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ti46(n,p)Sc46 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Ghorai
 #   year: 1971
 #   subentry: 10180002
 #   X4 reaction: 22-TI-46(N,P)21-SC-46,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/10180002
-# target:
+# target: 
 #   Z: 22
 #   A: 46
 #   nuclide: Ti46
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 21
-#   A: 46
-#   nuclide: Sc46
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 3
+#   residual: 
+#     Z: 21
+#     A: 46
+#     nuclide: Sc46
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.100000E+00   2.000000E-01   2.854662E+01   8.000000E+00   6.205787E-01
@@ -36,21 +37,3 @@
 #   author: S.K.Ghorai,J.R.Cooper,J.D.Moore,W.L.Alford
 #   title: Some (n,p) cross-sections of 46Ti, 47Ti and 48Ti
 #   journal: Jour: Journal of Nuclear Energy, Vol.25, p.319 (1971)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  4.100000E+00
-#   E-max [MeV]:  6.100000E+00
-#   F-value:  1.319667E+00
-#   A-value:  8.609411E-01
-#   chi-2:  1.796567E+00
-#   p-value:  1.183166E-01
-#   exp. data sets for p-value:      2
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.277440E+00   8.920543E-01   1.568348E+00
-# endfb8.0      1.458873E+00   7.775079E-01   2.806335E+00
-# jeff3.3       1.277484E+00   8.912716E-01   1.572289E+00
-# jendl5.0      1.364733E+00   8.252258E-01   2.049058E+00
-# cendl3.2      1.228398E+00   8.955481E-01   1.205854E+00
-# irdff2.0      1.277727E+00   8.913999E-01   1.577517E+00

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Th232(g,2n)Th230 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Veyssiere
 #   year: 1973
 #   subentry: L0031004
 #   X4 reaction: 90-TH-232(G,2N)90-TH-230,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/L0031004
-# target:
+# target: 
 #   Z: 90
 #   A: 232
 #   nuclide: Th232
-# reaction:
+# reaction: 
 #   type: (g,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 90
-#   A: 230
-#   nuclide: Th230
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 27
+#   residual: 
+#     Z: 90
+#     A: 230
+#     nuclide: Th230
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 27
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    9.280000E+00   0.000000E+00  -5.000000E+00   6.500000E+00   1.000000E+00
@@ -60,18 +61,3 @@
 #   author: A.VEYSSIERE,H.BEIL,R.BERGERE,P.CARLOS,A.LEPRETRE
 #   title: A study of the photofission and photoneutron processes  in the giant dipole resonance of 232Th, 238U and  237Np.
 #   journal: Jour: Nuclear Physics, Section A, Vol.199, p.45 (1973)
-# statistics:
-#   NEA score: T3
-#   IAEA score: -1
-#   E-min [MeV]:  9.280000E+00
-#   E-max [MeV]:  1.633000E+01
-#   F-value:  1.496571E+00
-#   A-value:  1.441185E+00
-#   chi-2:  4.017989E+01
-#   p-value:  1.118170E-01
-#   exp. data sets for p-value:      2
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.264157E+00   1.230211E+00   1.201953E+01
-# endfb8.0      1.632962E+00   1.611424E+00   6.173479E+01
-# jendl5.0      1.555971E+00   1.524071E+00   5.213054E+01

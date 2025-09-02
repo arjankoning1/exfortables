@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Lu175(n,x)Lu176 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Beer
 #   year: 1981
 #   subentry: 21737008
 #   X4 reaction: 71-LU-175(N,G)71-LU-176,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/21737008
-# target:
+# target: 
 #   Z: 71
 #   A: 175
 #   nuclide: Lu175
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 71
-#   A: 176
-#   nuclide: Lu176
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 33
+#   residual: 
+#     Z: 71
+#     A: 176
+#     nuclide: Lu176
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 33
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.770000E-03   6.800000E-04   3.558000E+03   1.551288E+02   1.000000E+00
@@ -66,18 +67,3 @@
 #   author: H.Beer,F.Kaeppeler,K.Wisshak,R.A.Ward
 #   title: - Lu-176. Cosmic clock or stellar thermometer .
 #   journal: Jour: Astrophysical Journal, Supplement, Vol.46, p.295 (1981)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  4.770000E-03
-#   E-max [MeV]:  9.291000E-02
-#   F-value:  1.234385E+00
-#   A-value:  1.121967E+00
-#   chi-2:  4.623059E+01
-#   p-value:  3.761254E-01
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.422335E+00   1.408830E+00   1.328843E+02
-# jeff3.3       1.069386E+00   9.907332E-01   2.692725E+00
-# jendl5.0      1.068642E+00   1.011871E+00   3.114756E+00

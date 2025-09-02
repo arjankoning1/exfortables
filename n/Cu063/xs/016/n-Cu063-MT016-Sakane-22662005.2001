@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Cu63(n,2n)Cu62 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Sakane
 #   year: 2001
 #   subentry: 22662005
 #   X4 reaction: 29-CU-63(N,2N)29-CU-62,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22662005
-# target:
+# target: 
 #   Z: 29
 #   A: 63
 #   nuclide: Cu63
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 29
-#   A: 62
-#   nuclide: Cu62
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 6
+#   residual: 
+#     Z: 29
+#     A: 62
+#     nuclide: Cu62
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.340000E+01   5.000000E-02   3.485638E+02   1.219973E+01   1.022181E+00
@@ -39,21 +40,3 @@
 #   author: H.Sakane,Y.Kasugai,M.Shibata,T.Iida,A.Takahashi,  T.Fukahori,K.Kawade
 #   title: Measurement of activation cross-sections for (n,2n)  reactions producing short-lived nuclei in the energy  range between 13.4 and 14.9 MeV
 #   journal: Jour: Annals of Nuclear Energy, Vol.28, p.1175 (2001)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.340000E+01
-#   E-max [MeV]:  1.487000E+01
-#   F-value:  1.046137E+00
-#   A-value:  9.756470E-01
-#   chi-2:  1.853511E+00
-#   p-value:  4.003007E-01
-#   exp. data sets for p-value:      8
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.037378E+00   9.754047E-01   1.363960E+00
-# endfb8.0      1.085476E+00   9.270398E-01   5.328728E+00
-# jeff3.3       1.038296E+00   9.759132E-01   1.415290E+00
-# jendl5.0      1.024124E+00   1.013756E+00   7.437231E-01
-# cendl3.2      1.031502E+00   9.863800E-01   1.021301E+00
-# irdff2.0      1.035099E+00   9.774273E-01   1.248063E+00

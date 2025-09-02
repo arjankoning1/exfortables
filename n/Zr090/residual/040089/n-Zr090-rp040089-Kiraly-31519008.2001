@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Zr90(n,x)Zr89 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Kiraly
 #   year: 2001
 #   subentry: 31519008
 #   X4 reaction: 40-ZR-90(N,2N)40-ZR-89,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/31519008
-# target:
+# target: 
 #   Z: 40
 #   A: 90
 #   nuclide: Zr90
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 40
-#   A: 89
-#   nuclide: Zr89
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 2
+#   residual: 
+#     Z: 40
+#     A: 89
+#     nuclide: Zr89
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.130000E+01   2.000000E-01   6.399590E+00   9.999400E-01   9.999360E-01
@@ -35,18 +36,3 @@
 #   author: B.KIRALY,J.CSIKAI,R.DOCZI
 #   title: Validation of neutron data libraries by differential and integral cross sections
 #   journal: Conf: JAERI Conference proceedings, No.2001-006, p.283 (2001)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.130000E+01
-#   E-max [MeV]:  1.410000E+01
-#   F-value:  1.003646E+00
-#   A-value:  9.964986E-01
-#   chi-2:  4.992987E-01
-#   p-value:  1.196317E-01
-#   exp. data sets for p-value:      2
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.004234E+00   9.957837E-01   6.076384E-01
-# jeff3.3       1.004170E+00   9.958470E-01   5.976088E-01
-# jendl5.0      1.002138E+00   9.978665E-01   2.926489E-01

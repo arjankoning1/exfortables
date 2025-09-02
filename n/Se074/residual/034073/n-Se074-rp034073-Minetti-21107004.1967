@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Se74(n,x)Se73 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Minetti
 #   year: 1967
 #   subentry: 21107004
 #   X4 reaction: 34-SE-74(N,2N)34-SE-73,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/21107004
-# target:
+# target: 
 #   Z: 34
 #   A: 74
 #   nuclide: Se74
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 34
-#   A: 73
-#   nuclide: Se73
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 34
+#     A: 73
+#     nuclide: Se73
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.470000E+01   1.000000E-01   8.740001E+02   8.000002E+01   1.000000E+00
@@ -34,18 +35,3 @@
 #   author: B.Minetti,A.Pasquarelli
 #   title: -Measurements of neutron cross sections and isomeric  cross section ratios in Se isotopes-.
 #   journal: Jour: Nuclear Physics, Section A, Vol.100, p.186 (1967)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  0
-#   E-min [MeV]:  1.470000E+01
-#   E-max [MeV]:  1.470000E+01
-#   F-value:  2.447486E+00
-#   A-value:  4.184782E-01
-#   chi-2:  3.997259E+01
-#   p-value:  6.352532E-02
-#   exp. data sets for p-value:      5
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    3.195773E+00   3.129133E-01   5.634636E+01
-# jeff3.3       2.075777E+00   4.817473E-01   3.205722E+01
-# jendl5.0      2.056955E+00   4.861555E-01   3.151419E+01

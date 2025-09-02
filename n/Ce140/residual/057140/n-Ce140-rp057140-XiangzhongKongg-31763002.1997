@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ce140(n,x)La140 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: XiangzhongKongg
 #   year: 1997
 #   subentry: 31763002
 #   X4 reaction: 58-CE-140(N,P)57-LA-140,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/31763002
-# target:
+# target: 
 #   Z: 58
 #   A: 140
 #   nuclide: Ce140
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 57
-#   A: 140
-#   nuclide: La140
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 57
+#     A: 140
+#     nuclide: La140
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.470000E+01   2.000000E-01   7.868600E+00   7.061500E-01   1.008791E+00
@@ -34,17 +35,3 @@
 #   author: Xiangzhong Kong, Yongchang Wang, Jingkang Yang,  Junqian Yuan
 #   title: Cross sections for (n,p), (n,a) and (n,2n) reactions  on rare-earth isotopes at 14.7 MeV
 #   journal: Jour: Radiochimica Acta, Vol.76, p.11 (1997)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.470000E+01
-#   E-max [MeV]:  1.470000E+01
-#   F-value:  1.315168E+00
-#   A-value:  8.129776E-01
-#   chi-2:  6.586636E+00
-#   p-value:  2.924922E-01
-#   exp. data sets for p-value:      8
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.471756E+00   6.794604E-01   1.276647E+01
-# jeff3.3       1.028033E+00   9.727316E-01   4.067962E-01

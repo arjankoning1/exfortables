@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: U238(n,x)U239 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Macklin
 #   year: 1988
 #   subentry: 14023003
 #   X4 reaction: 92-U-238(N,G)92-U-239,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/14023003
-# target:
+# target: 
 #   Z: 92
 #   A: 238
 #   nuclide: U238
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 92
-#   A: 239
-#   nuclide: U239
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 352
+#   residual: 
+#     Z: 92
+#     A: 239
+#     nuclide: U239
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 352
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.541400E-03   0.000000E+00   1.530000E+02   0.000000E+00   1.000000E+00
@@ -385,16 +386,3 @@
 #   author: R.L.Macklin,R.B.Perez,G.DeSaussure,R.W.Ingle
 #   title: High Energy Resolution Measurement of the 238U neutron  capture yield in the energy region between 1 and 100  keV
 #   journal: Conf: Conf.on Nucl.Data For Sci.and Technol.,Mito 1988, p.71 (1988)
-# statistics:
-#   NEA score: T2
-#   IAEA score:  1
-#   E-min [MeV]:  2.541400E-03
-#   E-max [MeV]:  2.369200E-02
-#   F-value:  2.783610E+00
-#   A-value:  7.482153E-01
-#   chi-2:  0.000000E+00
-#   p-value:  9.594900E-02
-#   exp. data sets for p-value:      8
-#   libraries:      1
-##  Library          F              A            chi-2
-# jendl5.0      2.783610E+00   7.482153E-01   0.000000E+00

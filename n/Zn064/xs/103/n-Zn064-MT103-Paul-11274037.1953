@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Zn64(n,p)Cu64 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Paul
 #   year: 1953
 #   subentry: 11274037
 #   X4 reaction: 30-ZN-64(N,P)29-CU-64,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/11274037
-# target:
+# target: 
 #   Z: 30
 #   A: 64
 #   nuclide: Zn64
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 29
-#   A: 64
-#   nuclide: Cu64
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 29
+#     A: 64
+#     nuclide: Cu64
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.450000E+01   0.000000E+00   3.860000E+02   5.790000E+01   1.000000E+00
@@ -34,21 +35,3 @@
 #   author: E.B.Paul,R.L.Clarke
 #   title: CROSS SECTION MEASUREMENTS OF REACTIONS INDUCED BY NEUTRONS OF THE 14.5 MEV ENERGY.
 #   journal: Jour: Canadian Journal of Physics, Vol.31, p.267 (1953)
-# statistics:
-#   NEA score: R2
-#   IAEA score:  1
-#   E-min [MeV]:  1.450000E+01
-#   E-max [MeV]:  1.450000E+01
-#   F-value:  2.439349E+00
-#   A-value:  4.100385E-01
-#   chi-2:  1.547043E+01
-#   p-value:  0.000000E+00
-#   exp. data sets for p-value:      8
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    2.431516E+00   4.112661E-01   1.540745E+01
-# endfb8.0      2.490246E+00   4.015667E-01   1.591865E+01
-# jeff3.3       2.431516E+00   4.112661E-01   1.540745E+01
-# jendl5.0      2.500065E+00   3.999895E-01   1.600258E+01
-# cendl3.2      2.350863E+00   4.253756E-01   1.467900E+01
-# irdff2.0      2.431516E+00   4.112661E-01   1.540745E+01

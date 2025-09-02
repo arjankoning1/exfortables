@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ni0(p,x)Cu61 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Alsaleh
 #   year: 2007
 #   subentry: O1503009
 #   X4 reaction: 28-NI-0(P,X)29-CU-61,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/O1503009
-# target:
+# target: 
 #   Z: 28
 #   A: 0
 #   nuclide: Ni0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 29
-#   A: 61
-#   nuclide: Cu61
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 27
+#   residual: 
+#     Z: 29
+#     A: 61
+#     nuclide: Cu61
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 27
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    5.500000E+00   4.000000E-01   6.724400E-01   9.606300E-02   9.606299E-01
@@ -60,18 +61,3 @@
 #   author: F.S.Al-Saleh, K.S.Al Mugren, A.Azzam
 #   title: Excitation functions of (p,x) reactions on natural nickel between proton energies of 2.7 and 27.5-MeV.
 #   journal: Jour: Applied Radiation and Isotopes, Vol.65, p.104 (2007)
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  5.500000E+00
-#   E-max [MeV]:  2.740000E+01
-#   F-value:  2.977350E+00
-#   A-value:  1.435196E+00
-#   chi-2:  2.184809E+01
-#   p-value:  1.646370E-01
-#   exp. data sets for p-value:      4
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    2.986741E+00   1.472269E+00   1.990631E+01
-# endfb8.0      2.785138E+00   1.179700E+00   1.794453E+01
-# jendl5.0      3.161134E+00   1.702061E+00   2.769344E+01

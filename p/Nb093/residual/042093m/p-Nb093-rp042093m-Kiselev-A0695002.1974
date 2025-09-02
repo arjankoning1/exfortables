@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: Nb93(p,x)Mo93m cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Kiselev
 #   year: 1974
 #   subentry: A0695002
 #   X4 reaction: 41-NB-93(P,N)42-MO-93-M,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/A0695002
-# target:
+# target: 
 #   Z: 41
 #   A: 93
 #   nuclide: Nb93
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 42
-#   A: 93
-#   nuclide: Mo93m
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 21
+#   residual: 
+#     Z: 42
+#     A: 93
+#     nuclide: Mo93m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 21
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    8.100001E+00   0.000000E+00   2.000000E-01   4.000000E-02   1.000000E+00
@@ -59,17 +60,3 @@
 #   author: B.G.Kiselev, N.R.Faizrakhmanova
 #   title: Reaction cross sections of (p,n), (p,pn) and  (p,alpha+n) on 93-Nb.
 #   journal: Conf: 24.Conf.on Nucl.Spectr.and Nucl.Struct.,Kharkov 1974, p.356 (1974)
-# statistics:
-#   NEA score: R2
-#   IAEA score:  1
-#   E-min [MeV]:  8.100001E+00
-#   E-max [MeV]:  2.920000E+01
-#   F-value:  1.195899E+01
-#   A-value:  2.188387E-01
-#   chi-2:  7.544943E+02
-#   p-value:  2.967323E-02
-#   exp. data sets for p-value:      5
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    9.036569E+00   3.021181E-01   1.112536E+03
-# jendl5.0      1.538063E+01   1.585154E-01   3.964529E+02

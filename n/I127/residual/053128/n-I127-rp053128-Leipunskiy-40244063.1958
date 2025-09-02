@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: I127(n,x)I128 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Leipunskiy
 #   year: 1958
 #   subentry: 40244063
 #   X4 reaction: 53-I-127(N,G)53-I-128,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/40244063
-# target:
+# target: 
 #   Z: 53
 #   A: 127
 #   nuclide: I127
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 53
-#   A: 128
-#   nuclide: I128
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 2
+#   residual: 
+#     Z: 53
+#     A: 128
+#     nuclide: I128
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.700000E+00   0.000000E+00   4.700000E+01   2.000000E+00   1.000000E+00
@@ -35,17 +36,3 @@
 #   author: A.I.Leipunskiy, O.D.Kazachkovskiy, G.Ja.Artyukhov, A.I.Baryshnikov, T.S.Belanova, V.I.Galkov, Yu.Ja.Stavisskiy, E.A.Stumbur, L.E.Sherman
 #   title: Radiative capture cross-section measurements  for fast neutrons.
 #   journal: Conf: Second Internat. At.En. Conf., Geneva 1958, Vol.15, p.50 (1958)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  2.700000E+00
-#   E-max [MeV]:  4.000000E+00
-#   F-value:  1.169412E+00
-#   A-value:  1.001260E+00
-#   chi-2:  1.275100E+01
-#   p-value:  3.183794E-01
-#   exp. data sets for p-value:      2
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.111547E+00   1.046749E+00   7.018177E+00
-# jendl5.0      1.214614E+00   9.577470E-01   1.848383E+01

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Fe0(p,x)Ti44 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Gloris
 #   year: 1998
 #   subentry: O1881013
 #   X4 reaction: 26-FE-0(P,X)22-TI-44,CUM,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/O1881013
-# target:
+# target: 
 #   Z: 26
 #   A: 0
 #   nuclide: Fe0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 22
-#   A: 44
-#   nuclide: Ti44
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 17
+#   residual: 
+#     Z: 22
+#     A: 44
+#     nuclide: Ti44
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 17
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.410000E+02   1.000000E+00   2.900000E-01   5.100000E-02   1.000000E+00
@@ -50,18 +51,3 @@
 #   author: M.Gloris
 #   title: Proton-induced production of residual nuclei in heavy elements at medium energies.
 #   journal: Thesis: Gloris (1998)
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  1.410000E+02
-#   E-max [MeV]:  1.190000E+03
-#   F-value:  3.713591E+00
-#   A-value:  2.846883E+00
-#   chi-2:  1.072680E+03
-#   p-value:  3.340015E-02
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    6.261969E+00   5.856977E+00   2.157031E+03
-# endfb8.0      2.054099E+00   2.054099E+00   3.592681E+01
-# jendl5.0      1.666527E+00   1.516456E+00   1.818505E+01

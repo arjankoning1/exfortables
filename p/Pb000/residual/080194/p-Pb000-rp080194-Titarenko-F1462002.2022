@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Pb0(p,x)Hg194 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Titarenko
 #   year: 2022
 #   subentry: F1462002
 #   X4 reaction: 82-PB-0(P,X)80-HG-194,CUM,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/F1462002
-# target:
+# target: 
 #   Z: 82
 #   A: 0
 #   nuclide: Pb0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 80
-#   A: 194
-#   nuclide: Hg194
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 8
+#   residual: 
+#     Z: 80
+#     A: 194
+#     nuclide: Hg194
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.490000E+02   1.000000E+00   2.830000E+01   6.100000E+00   1.000000E+00
@@ -41,18 +42,3 @@
 #   author: Yu.E.Titarenko,V.F.Batyaev,K.V.Pavlov,A.Yu.Titarenko, S.V.Malinovskiy,V.I.Rogov,V.M.Zhivun,T.V.Kulevoy, M.V.Chauzova,R.S.Khalikov,A.V.Ignatyuk, V.Yu.Blandinskiy,A.A.Kovalishin,M.I.Baznat, A.Yu.Stankovskiy,A.I.Dubrouski,H.I.Kiyavitskaya, Tao Xue,Yang Tian,Ming Zeng,Zhi Zeng,O.Normahmedov, T.Sato
 #   title: 206,207,208,natPb(p,x)194Hg and 209Bi(p,x)194Hg excitation functions in the energy range 0.04-2.6 GeV
 #   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.A, Vol.1026, p.166151
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  1.490000E+02
-#   E-max [MeV]:  2.595000E+03
-#   F-value:  7.117824E+00
-#   A-value:  1.493839E-01
-#   chi-2:  1.506310E+01
-#   p-value:  5.215406E-08
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    3.899188E+00   2.564637E-01   1.191248E+01
-# endfb8.0      6.061117E+00   1.649861E-01   1.501044E+01
-# jendl5.0      1.269292E+01   7.878406E-02   1.826639E+01

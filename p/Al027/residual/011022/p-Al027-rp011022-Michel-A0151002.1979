@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Al27(p,x)Na22 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Michel
 #   year: 1979
 #   subentry: A0151002
 #   X4 reaction: 13-AL-27(P,X)11-NA-22,CUM,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/A0151002
-# target:
+# target: 
 #   Z: 13
 #   A: 27
 #   nuclide: Al27
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 11
-#   A: 22
-#   nuclide: Na22
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 11
+#   residual: 
+#     Z: 11
+#     A: 22
+#     nuclide: Na22
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 11
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.658000E+01   4.000000E-01   3.800000E-01   4.000000E-03   1.000000E+00
@@ -44,18 +45,3 @@
 #   author: R.Michel,G.Brinkmann,W.Herr
 #   title: Redetermination of the excitation function for the reaction 27Al(p,3p3n)22Na
 #   journal: Rept: Fed.Rep.Germ.report to the I.N.D.C., No.21, p.70 (1979)
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  2.658000E+01
-#   E-max [MeV]:  4.480000E+01
-#   F-value:  3.020190E+00
-#   A-value:  4.723627E-01
-#   chi-2:  6.871342E+02
-#   p-value:  2.182591E-01
-#   exp. data sets for p-value:      6
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    4.840437E+00   2.546380E-01   8.126973E+02
-# endfb8.0      2.122602E+00   5.472223E-01   5.525137E+02
-# jendl5.0      2.186196E+00   7.563794E-01   6.961915E+02

@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: B10(n,p_01) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Schrack
 #   year: 1978
 #   subentry: 10811003
 #   X4 reaction: 5-B-10(N,A)3-LI-7,PAR,SIG,,RTE
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/10811003
-#   level energy [MeV]  4.78000E-01
-# target:
+#   level energy [MeV]:  4.78000E-01
+# target: 
 #   Z: 5
 #   A: 10
 #   nuclide: B10
-# reaction:
+# reaction: 
 #   type: (n,p_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 801
@@ -25,10 +25,11 @@
 #     energy [MeV]:  0.000000E+00
 #     spin:  1.000000E+00
 #     parity: 1
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 34
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 34
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.820000E-03   0.000000E+00   9.157665E+03   9.222383E+02   1.000000E+00
@@ -69,21 +70,3 @@
 #   author: R.A.SCHRACK,G.P.LAMAZE,O.A.WASSON
 #   title: A MEASUREMENT OF THE B-10(N,AG)LI-7 CROSS SECTION IN THE KEV ENERGY REGION.
 #   journal: Jour: Nuclear Science and Engineering, Vol.68, p.189 (1978)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  3.820000E-03
-#   E-max [MeV]:  5.929700E-01
-#   F-value:  1.035547E+00
-#   A-value:  1.016816E+00
-#   chi-2:  2.776143E+00
-#   p-value:  4.243978E-01
-#   exp. data sets for p-value:      2
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.033921E+00   1.018279E+00   2.507942E+00
-# endfb8.0      1.033921E+00   1.018279E+00   2.507942E+00
-# jeff3.3       1.043226E+00   1.024524E+00   3.971581E+00
-# jendl5.0      1.020183E+00   9.971840E-01   1.187826E+00
-# cendl3.2      1.043226E+00   1.024524E+00   3.971581E+00
-# irdff2.0      1.033939E+00   1.018357E+00   2.509989E+00

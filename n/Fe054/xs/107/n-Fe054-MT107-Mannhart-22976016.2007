@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Fe54(n,a)Cr51 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Mannhart
 #   year: 2007
 #   subentry: 22976016
 #   X4 reaction: 26-FE-54(N,A)24-CR-51,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22976016
-# target:
+# target: 
 #   Z: 26
 #   A: 54
 #   nuclide: Fe54
-# reaction:
+# reaction: 
 #   type: (n,a)
 #   ENDF_MF: 3
 #   ENDF_MT: 107
-# residual:
-#   Z: 24
-#   A: 51
-#   nuclide: Cr51
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 13
+#   residual: 
+#     Z: 24
+#     A: 51
+#     nuclide: Cr51
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 13
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    9.098000E+00   2.000000E-02   4.249712E+01   3.047100E+00   9.608213E-01
@@ -46,20 +47,3 @@
 #   author: W.Mannhart, D.Schmidt
 #   title: .Measurement of Neutron Activation Cross Sections in  the Energy Range from 8 MeV to 15 MeV
 #   journal: Rept: Phys.Techn.Bundesanst., Neutronenphysik Reports, No.53 (2007)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  9.098000E+00
-#   E-max [MeV]:  1.463800E+01
-#   F-value:  1.055604E+00
-#   A-value:  1.002525E+00
-#   chi-2:  1.253526E+00
-#   p-value:  3.333978E-01
-#   exp. data sets for p-value:      1
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.037603E+00   1.008551E+00   7.396311E-01
-# jeff3.3       1.056136E+00   9.702711E-01   1.452593E+00
-# jendl5.0      1.067528E+00   1.020371E+00   1.443724E+00
-# cendl3.2      1.070636E+00   1.004682E+00   1.895632E+00
-# irdff2.0      1.037665E+00   1.009484E+00   7.360509E-01

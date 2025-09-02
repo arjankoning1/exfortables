@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Te130(n,n'_01)Te131 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Konobeevskiy
 #   year: 1973
 #   subentry: 40214012
 #   X4 reaction: 52-TE-130(N,INL)52-TE-130,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/40214012
-#   level energy [MeV]  8.40000E-01
-# target:
+#   level energy [MeV]:  8.40000E-01
+# target: 
 #   Z: 52
 #   A: 130
 #   nuclide: Te130
-# reaction:
+# reaction: 
 #   type: (n,n'_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 51
@@ -25,14 +25,15 @@
 #     energy [MeV]:  8.394940E-01
 #     spin:  2.000000E+00
 #     parity: 1
-# residual:
-#   Z: 52
-#   A: 131
-#   nuclide: Te131
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 48
+#   residual: 
+#     Z: 52
+#     A: 131
+#     nuclide: Te131
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 48
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    8.465222E-01   5.000000E-03   2.000000E+01   3.941100E+00   1.000000E+00
@@ -87,20 +88,3 @@
 #   author: E.S.Konobeevskiy,R.M.Musaelyan,V.I.Popov,I.V.Surkova
 #   title: Inelastic Scattering of Neutrons from Even-Even Cd, Sn, and Te Isotopes at Near Threshold Energies.
 #   journal: Jour: Izv. Rossiiskoi Akademii Nauk, Ser.Fiz., Vol.37, p.1900 (1973)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  8.465222E-01
-#   E-max [MeV]:  1.268776E+00
-#   F-value:  1.622310E+00
-#   A-value:  7.147994E-01
-#   chi-2:  2.829707E+00
-#   p-value:  1.086879E-01
-#   exp. data sets for p-value:      1
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.492247E+00   7.876673E-01   1.927007E+00
-# endfb8.0      1.776147E+00   6.297044E-01   3.996577E+00
-# jeff3.3       1.483716E+00   7.941841E-01   1.864969E+00
-# jendl5.0      1.554621E+00   7.522873E-01   2.363407E+00
-# cendl3.2      1.776147E+00   6.297044E-01   3.996577E+00

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Er168(n,x)Ho168 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Kasugai
 #   year: 1997
 #   subentry: 22393016
 #   X4 reaction: 68-ER-168(N,P)67-HO-168,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22393016
-# target:
+# target: 
 #   Z: 68
 #   A: 168
 #   nuclide: Er168
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 67
-#   A: 168
-#   nuclide: Ho168
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 6
+#   residual: 
+#     Z: 67
+#     A: 168
+#     nuclide: Ho168
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.338000E+01   0.000000E+00   2.236700E+00   4.066700E-01   1.016667E+00
@@ -39,17 +40,3 @@
 #   author: Y.Kasugai,Y.Ikeda,Y.Uno
 #   title: Activation cross section measurements for La, Ce, Pr,  Nd, Gd, Dy AND Er isotopes by 14 MeV neutrons
 #   journal: Conf: Conf.on Nucl.Data for Sci.and Techn., Trieste 1997, Vol.1, p.635 (
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.338000E+01
-#   E-max [MeV]:  1.495000E+01
-#   F-value:  1.621143E+00
-#   A-value:  6.517516E-01
-#   chi-2:  4.085021E+00
-#   p-value:  1.450720E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.469541E+00   7.195606E-01   3.021738E+00
-# jeff3.3       1.758545E+00   5.903326E-01   5.148303E+00

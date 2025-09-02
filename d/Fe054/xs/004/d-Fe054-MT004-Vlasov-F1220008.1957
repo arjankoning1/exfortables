@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Fe54(d,n')Co55 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Vlasov
 #   year: 1957
 #   subentry: F1220008
 #   X4 reaction: 26-FE-54(D,N)27-CO-55,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/F1220008
-# target:
+# target: 
 #   Z: 26
 #   A: 54
 #   nuclide: Fe54
-# reaction:
+# reaction: 
 #   type: (d,n')
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 27
-#   A: 55
-#   nuclide: Co55
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 19
+#   residual: 
+#     Z: 27
+#     A: 55
+#     nuclide: Co55
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 19
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.009000E+00   0.000000E+00   5.300000E-01   7.950000E-02   1.000000E+00
@@ -52,16 +53,3 @@
 #   author: N.A.Vlasov,S.P.Kalinin,A.A.Ogloblin,V.M.Pankratov, V.P.Rudakov,I.N.Serikov,V.A.Sidorov
 #   title: Excitation functions for the reactions Mg-24(d,a)Na-22, Fe-54(d,a)Mn-52, Fe-54(d,n)Co-55, Zn-66(d,2n)Ga-66.
 #   journal: Jour: Atomnaya Energiya, Vol.2, p.169 (1957)
-# statistics:
-#   NEA score: R3
-#   IAEA score:  0
-#   E-min [MeV]:  3.009000E+00
-#   E-max [MeV]:  1.405900E+01
-#   F-value:  2.405924E+00
-#   A-value:  1.511958E+00
-#   chi-2:  9.484498E+02
-#   p-value:  3.194407E-01
-#   exp. data sets for p-value:      2
-#   libraries:      1
-##  Library          F              A            chi-2
-# tendl.2023    2.405924E+00   1.511958E+00   9.484498E+02

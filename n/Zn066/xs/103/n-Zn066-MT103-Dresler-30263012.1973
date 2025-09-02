@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Zn66(n,p)Cu66 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Dresler
 #   year: 1973
 #   subentry: 30263012
 #   X4 reaction: 30-ZN-66(N,P)29-CU-66,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30263012
-# target:
+# target: 
 #   Z: 30
 #   A: 66
 #   nuclide: Zn66
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 29
-#   A: 66
-#   nuclide: Cu66
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 29
+#     A: 66
+#     nuclide: Cu66
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.460000E+01   0.000000E+00   9.093598E+01   2.700000E+00   1.032190E+00
@@ -34,20 +35,3 @@
 #   author: J.Dresler,J.Araminowicz,U.Garuska
 #   title: Cross sections of the (n,p) reactions at 14.6 MeV for 13 nuclides
 #   journal: Prog: Inst.Badan Jadr.(Nucl.Res.),Swierk+Warsaw,Repts, No.1464, p.12 (19
-# statistics:
-#   NEA score: R2
-#   IAEA score:  0
-#   E-min [MeV]:  1.460000E+01
-#   E-max [MeV]:  1.460000E+01
-#   F-value:  1.438400E+00
-#   A-value:  7.102062E-01
-#   chi-2:  1.005141E+02
-#   p-value:  4.853249E-02
-#   exp. data sets for p-value:      8
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.239414E+00   8.068331E-01   4.232620E+01
-# endfb8.0      1.630425E+00   6.133369E-01   1.695936E+02
-# jeff3.3       1.424023E+00   7.022358E-01   1.005747E+02
-# jendl5.0      1.588613E+00   6.294798E-01   1.557283E+02
-# cendl3.2      1.210669E+00   8.259896E-01   3.434744E+01

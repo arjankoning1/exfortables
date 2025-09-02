@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Zn64(n,p)Cu64 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Furuta
 #   year: 2008
 #   subentry: 23032009
 #   X4 reaction: 30-ZN-64(N,P)29-CU-64,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/23032009
-# target:
+# target: 
 #   Z: 30
 #   A: 64
 #   nuclide: Zn64
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 29
-#   A: 64
-#   nuclide: Cu64
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 11
+#   residual: 
+#     Z: 29
+#     A: 64
+#     nuclide: Cu64
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 11
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.570000E+00   1.000000E-01   1.491364E+02   9.246500E+00   1.096591E+00
@@ -44,21 +45,3 @@
 #   author: M.Furuta, T.Shimizu, H.Hayashi, I.Miyazaki, H.Yamamoto, M.Shibata, K.Kawade
 #   title: Measurements of activation cross sections of (n,p)  and (n,alpha) reactions in the energy range of  3.5-5.9 MeV using a deuterium gas target
 #   journal: Jour: Annals of Nuclear Energy, Vol.35, p.1652 (2008)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  3.570000E+00
-#   E-max [MeV]:  5.480000E+00
-#   F-value:  1.147832E+00
-#   A-value:  9.667681E-01
-#   chi-2:  5.723103E+00
-#   p-value:  1.925534E-01
-#   exp. data sets for p-value:      8
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.129706E+00   9.845803E-01   5.239439E+00
-# endfb8.0      1.192161E+00   8.988003E-01   6.553145E+00
-# jeff3.3       1.130019E+00   9.844358E-01   5.268165E+00
-# jendl5.0      1.161108E+00   9.360545E-01   5.498937E+00
-# cendl3.2      1.135222E+00   1.016965E+00   6.498505E+00
-# irdff2.0      1.130054E+00   9.845204E-01   5.280429E+00

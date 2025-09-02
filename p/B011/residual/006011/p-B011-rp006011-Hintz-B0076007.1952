@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: B11(p,x)C11 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Hintz
 #   year: 1952
 #   subentry: B0076007
 #   X4 reaction: 5-B-11(P,N)6-C-11,,SIG,,,EXP
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/B0076007
-# target:
+# target: 
 #   Z: 5
 #   A: 11
 #   nuclide: B11
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 6
-#   A: 11
-#   nuclide: C11
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 31
+#   residual: 
+#     Z: 6
+#     A: 11
+#     nuclide: C11
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 31
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.000000E-01   0.000000E+00   2.500000E+00   0.000000E+00   1.000000E+00
@@ -64,16 +65,3 @@
 #   author: N.M.Hintz, N.F.Ramsey
 #   title: Excitation functions to 100 MeV
 #   journal: Jour: Physical Review, Vol.88, p.19 (1952)
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  2.000000E-01
-#   E-max [MeV]:  9.860000E+01
-#   F-value:  7.390972E+01
-#   A-value:  5.966021E-02
-#   chi-2:  0.000000E+00
-#   p-value:  7.292901E-02
-#   exp. data sets for p-value:      1
-#   libraries:      1
-##  Library          F              A            chi-2
-# tendl.2023    7.390972E+01   5.966021E-02   0.000000E+00

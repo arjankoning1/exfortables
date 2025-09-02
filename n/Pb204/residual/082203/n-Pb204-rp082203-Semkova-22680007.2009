@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Pb204(n,x)Pb203 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Semkova
 #   year: 2009
 #   subentry: 22680007
 #   X4 reaction: 82-PB-204(N,2N)82-PB-203,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22680007
-# target:
+# target: 
 #   Z: 82
 #   A: 204
 #   nuclide: Pb204
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 82
-#   A: 203
-#   nuclide: Pb203
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 9
+#   residual: 
+#     Z: 82
+#     A: 203
+#     nuclide: Pb203
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 9
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.481000E+01   1.700000E-01   2.142288E+03   1.327700E+02   9.982703E-01
@@ -42,19 +43,3 @@
 #   author: V.Semkova, P.Reimer, T.Altzitzoglou, A.J.M.Plompen, C.Quetel, S.Sudar, J.Vogl, A.J.Koning, S.M.Qaim, D.L.Smith, F.Cserpak, V.Avrigeanu
 #   title: Neutron activation cross sections on lead isotopes
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.80, p.024610 (2009)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.481000E+01
-#   E-max [MeV]:  2.050000E+01
-#   F-value:  1.043563E+00
-#   A-value:  9.949964E-01
-#   chi-2:  6.148800E-01
-#   p-value:  3.905565E-01
-#   exp. data sets for p-value:      8
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.013189E+00   1.000017E+00   1.357453E-01
-# endfb8.0      1.047037E+00   9.910212E-01   7.165595E-01
-# jeff3.3       1.047037E+00   9.910212E-01   7.165595E-01
-# jendl5.0      1.055090E+00   9.979593E-01   8.906558E-01

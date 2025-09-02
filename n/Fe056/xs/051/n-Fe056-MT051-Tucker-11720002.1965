@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Fe56(n,n'_01)Fe57 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Tucker
 #   year: 1965
 #   subentry: 11720002
 #   X4 reaction: 26-FE-56(N,INL)26-FE-56,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/11720002
-#   level energy [MeV]  8.45000E-01
-# target:
+#   level energy [MeV]:  8.45000E-01
+# target: 
 #   Z: 26
 #   A: 56
 #   nuclide: Fe56
-# reaction:
+# reaction: 
 #   type: (n,n'_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 51
@@ -25,14 +25,15 @@
 #     energy [MeV]:  8.467780E-01
 #     spin:  2.000000E+00
 #     parity: 1
-# residual:
-#   Z: 26
-#   A: 57
-#   nuclide: Fe57
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 31
+#   residual: 
+#     Z: 26
+#     A: 57
+#     nuclide: Fe57
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 31
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    8.640000E-01   1.000000E-02   5.500000E+01   1.860107E+01   1.000000E+00
@@ -70,20 +71,3 @@
 #   author: A.B.Tucker,J.T.Wells,W.E.Meyerhof
 #   title: Inelastic Neutron Scattering near Threshold.
 #   journal: Jour: Physical Review, Vol.137, p.B1181 (1965)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  8.640000E-01
-#   E-max [MeV]:  1.097000E+00
-#   F-value:  3.965058E+00
-#   A-value:  3.863241E-01
-#   chi-2:  1.732088E+01
-#   p-value:  2.223307E-01
-#   exp. data sets for p-value:      6
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    4.419772E+00   3.142619E-01   1.307201E+01
-# endfb8.0      3.243249E+00   5.247399E-01   3.137304E+01
-# jeff3.3       4.866308E+00   3.084983E-01   1.600484E+01
-# jendl5.0      4.579838E+00   3.280770E-01   1.625303E+01
-# cendl3.2      2.821299E+00   5.155784E-01   9.901500E+00

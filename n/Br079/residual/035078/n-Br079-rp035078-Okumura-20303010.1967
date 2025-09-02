@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Br79(n,x)Br78 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Okumura
 #   year: 1967
 #   subentry: 20303010
 #   X4 reaction: 35-BR-79(N,2N)35-BR-78,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20303010
-# target:
+# target: 
 #   Z: 35
 #   A: 79
 #   nuclide: Br79
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 35
-#   A: 78
-#   nuclide: Br78
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 9
+#   residual: 
+#     Z: 35
+#     A: 78
+#     nuclide: Br78
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 9
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.339000E+01   6.000000E-02   7.650000E+02   1.800000E+01   1.000000E+00
@@ -42,18 +43,3 @@
 #   author: S.Okumura
 #   title: Isomer pair cross sections by 13.4 - 15.0 MeV  neutrons
 #   journal: Jour: Nuclear Physics, Section A, Vol.93, p.74 (1967)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.339000E+01
-#   E-max [MeV]:  1.496000E+01
-#   F-value:  1.090079E+00
-#   A-value:  9.261233E-01
-#   chi-2:  1.796770E+01
-#   p-value:  2.860562E-01
-#   exp. data sets for p-value:      6
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.086104E+00   9.257303E-01   1.701059E+01
-# jeff3.3       1.117233E+00   9.001470E-01   2.842607E+01
-# jendl5.0      1.058257E+00   9.532539E-01   8.466424E+00

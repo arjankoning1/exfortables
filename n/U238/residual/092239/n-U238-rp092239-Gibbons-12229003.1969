@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: U238(n,x)U239 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Gibbons
 #   year: 1969
 #   subentry: 12229003
 #   X4 reaction: 92-U-238(N,G)92-U-239,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/12229003
-# target:
+# target: 
 #   Z: 92
 #   A: 238
 #   nuclide: U238
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 92
-#   A: 239
-#   nuclide: U239
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 125
+#   residual: 
+#     Z: 92
+#     A: 239
+#     nuclide: U239
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 125
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.008190E-02   0.000000E+00   1.341500E+03   1.949000E+02   1.000000E+00
@@ -158,16 +159,3 @@
 #   author: J.H.GIBBONS,R.L.MACKLIN
 #   title:
 #   journal: Priv.Comm: Macklin (1969)
-# statistics:
-#   NEA score:   
-#   IAEA score:  1
-#   E-min [MeV]:  1.008190E-02
-#   E-max [MeV]:  5.706760E-02
-#   F-value:  0.000000E+00
-#   A-value:  0.000000E+00
-#   chi-2:  0.000000E+00
-#   p-value:  0.000000E+00
-#   exp. data sets for p-value:      8
-#   libraries:      1
-##  Library          F              A            chi-2
-# jendl5.0      0.000000E+00   0.000000E+00   0.000000E+00

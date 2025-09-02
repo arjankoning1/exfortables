@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: F19(d,x)F20 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Snowdon
 #   year: 1950
 #   subentry: C1852002
 #   X4 reaction: 9-F-19(D,P)9-F-20,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/C1852002
-# target:
+# target: 
 #   Z: 9
 #   A: 19
 #   nuclide: F19
-# reaction:
+# reaction: 
 #   type: (d,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 9
-#   A: 20
-#   nuclide: F20
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 22
+#   residual: 
+#     Z: 9
+#     A: 20
+#     nuclide: F20
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 22
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    7.006650E-01   0.000000E+00   1.682000E+00   5.046000E-01   1.000000E+00
@@ -55,16 +56,3 @@
 #   author: S.C.Snowdon
 #   title: Excitation Curve for Protons in the Reaction F19(d,p)F20
 #   journal: Jour: Physical Review, Vol.78, p.299(2) (1950)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  7.006650E-01
-#   E-max [MeV]:  1.795977E+00
-#   F-value:  1.264294E+00
-#   A-value:  1.178962E+00
-#   chi-2:  1.335428E+00
-#   p-value:  2.948268E-01
-#   exp. data sets for p-value:      1
-#   libraries:      1
-##  Library          F              A            chi-2
-# tendl.2023    1.264294E+00   1.178962E+00   1.335428E+00

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Mo100(n,x)Zr97 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Semkova
 #   year: 2014
 #   subentry: 23233010
 #   X4 reaction: 42-MO-100(N,A)40-ZR-97,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/23233010
-# target:
+# target: 
 #   Z: 42
 #   A: 100
 #   nuclide: Mo100
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 107
-# residual:
-#   Z: 40
-#   A: 97
-#   nuclide: Zr97
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 4
+#   residual: 
+#     Z: 40
+#     A: 97
+#     nuclide: Zr97
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.092000E+01   1.200000E-01   7.197700E-01   1.399500E-01   9.996777E-01
@@ -37,17 +38,3 @@
 #   author: V.Semkova, R.Nolte
 #   title: Measurement of neutron activation cross sections on Mo isotopes in the energy range from 7 MeV to 15 MeV.
 #   journal: Jour: EPJ Web of Conferences, Vol.66, p.03077 (2014)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.092000E+01
-#   E-max [MeV]:  1.448000E+01
-#   F-value:  1.404098E+00
-#   A-value:  7.382747E-01
-#   chi-2:  7.641898E+00
-#   p-value:  2.527303E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.404098E+00   7.382747E-01   7.641898E+00
-# jendl5.0      0.000000E+00   0.000000E+00   0.000000E+00

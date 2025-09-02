@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Fe0(p,x)Mn52 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Michel
 #   year: 1979
 #   subentry: A0146014
 #   X4 reaction: 26-FE-0(P,X)25-MN-52,CUM,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/A0146014
-# target:
+# target: 
 #   Z: 26
 #   A: 0
 #   nuclide: Fe0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 25
-#   A: 52
-#   nuclide: Mn52
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 17
+#   residual: 
+#     Z: 25
+#     A: 52
+#     nuclide: Mn52
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 17
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.828000E+01   4.200000E-01   1.100000E-01   3.000000E-02   1.000000E+00
@@ -50,18 +51,3 @@
 #   author: R.Michel,G.Brinkmann,H.Weigel,W.Herr
 #   title: Measurement and Hybrid-Model Analysis of proton- induced reactions with V, Fe, and Co
 #   journal: Jour: Nuclear Physics, Section A, Vol.322, p.40 (1979)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  1.828000E+01
-#   E-max [MeV]:  4.453000E+01
-#   F-value:  2.218648E+00
-#   A-value:  1.196450E+00
-#   chi-2:  4.893081E+01
-#   p-value:  3.221442E-01
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    2.095309E+00   1.057951E+00   2.479460E+01
-# endfb8.0      2.117758E+00   1.663911E+00   1.092168E+02
-# jendl5.0      2.439021E+00   9.729441E-01   1.278101E+01

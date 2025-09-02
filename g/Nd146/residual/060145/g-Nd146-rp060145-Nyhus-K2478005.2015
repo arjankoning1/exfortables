@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Nd146(g,x)Nd145 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Nyhus
 #   year: 2015
 #   subentry: K2478005
 #   X4 reaction: 60-ND-146(G,N)60-ND-145,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/K2478005
-# target:
+# target: 
 #   Z: 60
 #   A: 146
 #   nuclide: Nd146
-# reaction:
+# reaction: 
 #   type: (g,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 60
-#   A: 145
-#   nuclide: Nd145
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 13
+#   residual: 
+#     Z: 60
+#     A: 145
+#     nuclide: Nd145
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 13
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    7.630000E+00   0.000000E+00   7.910000E+00   3.751400E-01   1.000000E+00
@@ -46,17 +47,3 @@
 #   author: H.-T.Nyhus, T.Renstrom, H.Utsunomiya, S.Goriely,  D.M.Filipescu, I.Gheorghe, O.Tesileanu, T.Glodariu,  T.Shima, K.Takahisa, S.Miyamoto, Y.-W.Lui, S.Hilaire,  S.Peru, M.Martini, L.Siess, A.J.Koning
 #   title: Photoneutron cross sections for neodymium isotopes: Toward a unified understanding of (gamma,n) and  (n,gamma) reactions in the rare earth region
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.91, p.015808 (2015)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  7.630000E+00
-#   E-max [MeV]:  1.239000E+01
-#   F-value:  1.401140E+00
-#   A-value:  9.021384E-01
-#   chi-2:  2.330943E+01
-#   p-value:  3.141362E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.403813E+00   9.175169E-01   2.375281E+01
-# jendl5.0      1.064824E+00   1.020610E+00   1.591079E+00

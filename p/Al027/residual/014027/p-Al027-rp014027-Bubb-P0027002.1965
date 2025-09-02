@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Al27(p,x)Si27 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Bubb
 #   year: 1965
 #   subentry: P0027002
 #   X4 reaction: 13-AL-27(P,N)14-SI-27,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/P0027002
-# target:
+# target: 
 #   Z: 13
 #   A: 27
 #   nuclide: Al27
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 14
-#   A: 27
-#   nuclide: Si27
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 298
+#   residual: 
+#     Z: 14
+#     A: 27
+#     nuclide: Si27
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 298
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    5.830000E+00   0.000000E+00   1.500000E+00   1.800000E-01   1.000000E+00
@@ -331,18 +332,3 @@
 #   author: I.F.BUBB,J.M.POATE,R.H.SPEAR
 #   title: Excitation function of the reaction Al27(p,n)Si27
 #   journal: Jour: Nuclear Physics, Vol.65, p.655 (1965)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  5.830000E+00
-#   E-max [MeV]:  8.520000E+00
-#   F-value:  1.685954E+00
-#   A-value:  1.365060E+00
-#   chi-2:  5.572836E+01
-#   p-value:  2.650151E-01
-#   exp. data sets for p-value:      4
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    2.016435E+00   1.839712E+00   1.161391E+02
-# endfb8.0      1.432091E+00   9.840928E-01   1.436560E+01
-# jendl5.0      1.575757E+00   1.396479E+00   3.859523E+01

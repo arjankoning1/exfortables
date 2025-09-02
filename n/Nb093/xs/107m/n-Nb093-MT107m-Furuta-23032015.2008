@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: Nb93(n,a)Y90m cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Furuta
 #   year: 2008
 #   subentry: 23032015
 #   X4 reaction: 41-NB-93(N,A)39-Y-90-M,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/23032015
-# target:
+# target: 
 #   Z: 41
 #   A: 93
 #   nuclide: Nb93
-# reaction:
+# reaction: 
 #   type: (n,a)
 #   ENDF_MF: 3
 #   ENDF_MT: 107
-# residual:
-#   Z: 39
-#   A: 90
-#   nuclide: Y90m
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 4
+#   residual: 
+#     Z: 39
+#     A: 90
+#     nuclide: Y90m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.490000E+00   1.000000E-01   1.705300E-01   1.142500E-01   1.003093E+00
@@ -42,18 +43,3 @@
 #   author: M.Furuta, T.Shimizu, H.Hayashi, I.Miyazaki, H.Yamamoto, M.Shibata, K.Kawade
 #   title: Measurements of activation cross sections of (n,p)  and (n,alpha) reactions in the energy range of  3.5-5.9 MeV using a deuterium gas target
 #   journal: Jour: Annals of Nuclear Energy, Vol.35, p.1652 (2008)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  4.490000E+00
-#   E-max [MeV]:  5.240000E+00
-#   F-value:  2.222062E+00
-#   A-value:  4.607886E-01
-#   chi-2:  3.956728E+00
-#   p-value:  1.146253E-01
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    2.308766E+00   4.405891E-01   4.197188E+00
-# jeff3.3       1.942293E+00   5.254415E-01   3.294422E+00
-# jendl5.0      2.407182E+00   4.226170E-01   4.378574E+00

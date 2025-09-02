@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: Lu175(n,x)Lu176m cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Stupegia
 #   year: 1968
 #   subentry: 11624013
 #   X4 reaction: 71-LU-175(N,G)71-LU-176-M,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/11624013
-# target:
+# target: 
 #   Z: 71
 #   A: 175
 #   nuclide: Lu175
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 71
-#   A: 176
-#   nuclide: Lu176m
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 18
+#   residual: 
+#     Z: 71
+#     A: 176
+#     nuclide: Lu176m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 18
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.410000E-01   3.000000E-02   8.100000E+02   7.000000E+01   1.000000E+00
@@ -56,18 +57,3 @@
 #   author: D.C.Stupegia,M.Schmidt,C.R.Keedy,A.A.Madson
 #   title: Neutron capture between 5 keV and 3 MeV
 #   journal: Jour: Journal of Nuclear Energy, Vol.22, p.267 (1968)
-# statistics:
-#   NEA score: T2
-#   IAEA score:  1
-#   E-min [MeV]:  1.410000E-01
-#   E-max [MeV]:  3.133000E+00
-#   F-value:  5.889759E+00
-#   A-value:  2.216264E-01
-#   chi-2:  1.184596E+02
-#   p-value:  9.485826E-02
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    3.896097E+00   3.748185E-01   7.141982E+01
-# jeff3.3       7.200262E+00   1.928015E-01   1.211067E+02
-# jendl5.0      6.820611E+00   1.506374E-01   1.628525E+02

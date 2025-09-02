@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Rh103(n,x)Rh104 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Rigaud
 #   year: 1971
 #   subentry: 20532004
 #   X4 reaction: 45-RH-103(N,G)45-RH-104,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20532004
-# target:
+# target: 
 #   Z: 45
 #   A: 103
 #   nuclide: Rh103
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 45
-#   A: 104
-#   nuclide: Rh104
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 45
+#     A: 104
+#     nuclide: Rh104
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.406000E+01   1.000000E-02   7.500000E-01   2.000000E-01   1.000000E+00
@@ -34,17 +35,3 @@
 #   author: F.Rigaud,J.L.Irigaray, G.Y.Petit, G.Longo,F.Saporetti
 #   title: Gamma-ray spectra following the capture of 14 MeV  neutrons by Co-59, Nb-93 and Rh-103
 #   journal: Jour: Nuclear Physics, Section A, Vol.173, p.551 (1971)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  1.406000E+01
-#   E-max [MeV]:  1.406000E+01
-#   F-value:  1.165982E+00
-#   A-value:  1.158151E+00
-#   chi-2:  8.723878E-01
-#   p-value:  1.993522E-01
-#   exp. data sets for p-value:      2
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.107199E+00   1.107199E+00   5.504097E-01
-# jendl5.0      1.211448E+00   1.211448E+00   1.194366E+00

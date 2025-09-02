@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: Nb93(n,x)Nb92m cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Harper
 #   year: 1982
 #   subentry: 12730004
 #   X4 reaction: 41-NB-93(N,2N)41-NB-92-M,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/12730004
-# target:
+# target: 
 #   Z: 41
 #   A: 93
 #   nuclide: Nb93
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 41
-#   A: 92
-#   nuclide: Nb92m
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 41
+#     A: 92
+#     nuclide: Nb92m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.420000E+01   1.000000E-01   5.272657E+02   4.702369E+01   1.000504E+00
@@ -39,18 +40,3 @@
 #   author: R.C.HARPER,W.L.ALFORD
 #   title: EXPERIMENTAL AND THEORETICAL NEUTRON CROSS SECTIONS  AT 14 MEV.
 #   journal: Jour: Jour. of Physics, Part G (Nucl.and Part.Phys.), Vol.8, p.153 (1982
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.420000E+01
-#   E-max [MeV]:  1.420000E+01
-#   F-value:  1.133182E+00
-#   A-value:  8.830123E-01
-#   chi-2:  2.287865E+00
-#   p-value:  3.232828E-01
-#   exp. data sets for p-value:      8
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.122627E+00   8.907675E-01   2.074993E+00
-# jeff3.3       1.122627E+00   8.907674E-01   2.074995E+00
-# jendl5.0      1.152467E+00   8.677040E-01   2.713608E+00

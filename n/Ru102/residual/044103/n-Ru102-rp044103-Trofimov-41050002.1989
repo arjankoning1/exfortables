@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ru102(n,x)Ru103 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Trofimov
 #   year: 1989
 #   subentry: 41050002
 #   X4 reaction: 44-RU-102(N,G)44-RU-103,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/41050002
-# target:
+# target: 
 #   Z: 44
 #   A: 102
 #   nuclide: Ru102
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 44
-#   A: 103
-#   nuclide: Ru103
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 6
+#   residual: 
+#     Z: 44
+#     A: 103
+#     nuclide: Ru103
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    5.000000E-01   1.300000E-01   4.064088E+01   4.838200E+00   9.676401E-01
@@ -39,17 +40,3 @@
 #   author: Yu.N.Trofimov
 #   title: Radiative neutron capture cross-sections for Ru-102,  Ru-104, Ce-140, Ce-142 in the energy range 0.5 - 2.2  MeV
 #   journal: Jour: Vop.At.Nauki i Tekhn.,Ser.Yaderno-Reak.Konstanty, Issue.4, p.36 (1
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  5.000000E-01
-#   E-max [MeV]:  1.800000E+00
-#   F-value:  1.278099E+00
-#   A-value:  1.086156E+00
-#   chi-2:  7.274662E+00
-#   p-value:  2.147391E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.276607E+00   1.135388E+00   8.758636E+00
-# jendl5.0      1.279585E+00   1.039059E+00   5.790689E+00

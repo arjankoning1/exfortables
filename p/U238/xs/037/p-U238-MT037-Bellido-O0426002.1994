@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: U238(p,4n)Np235 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Bellido
 #   year: 1994
 #   subentry: O0426002
 #   X4 reaction: 92-U-238(P,4N)93-NP-235,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/O0426002
-# target:
+# target: 
 #   Z: 92
 #   A: 238
 #   nuclide: U238
-# reaction:
+# reaction: 
 #   type: (p,4n)
 #   ENDF_MF: 3
 #   ENDF_MT: 37
-# residual:
-#   Z: 93
-#   A: 235
-#   nuclide: Np235
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 12
+#   residual: 
+#     Z: 93
+#     A: 235
+#     nuclide: Np235
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 12
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.220000E+01   9.000000E-01   5.200000E+00   2.000000E-01   1.000000E+00
@@ -45,17 +46,3 @@
 #   author: L.F.Bellido,V.J.Robinson,H.E.Sims
 #   title: Production of Np-235 and Pu-236 for environmental applications.
 #   journal: Jour: Radiochimica Acta, Vol.64, p.11 (1994)
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  2.220000E+01
-#   E-max [MeV]:  5.530000E+01
-#   F-value:  2.424395E+01
-#   A-value:  1.174916E-01
-#   chi-2:  8.315406E+02
-#   p-value:  2.478016E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    8.626962E+01   1.333595E-02   1.150018E+03
-# jendl5.0      1.969971E+00   1.035117E+00   5.130634E+02

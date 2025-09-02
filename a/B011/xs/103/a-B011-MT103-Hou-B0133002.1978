@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: B11(a,p)C14 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Hou
 #   year: 1978
 #   subentry: B0133002
 #   X4 reaction: 5-B-11(A,P)6-C-14,,SIG,,,EXP
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/B0133002
-# target:
+# target: 
 #   Z: 5
 #   A: 11
 #   nuclide: B11
-# reaction:
+# reaction: 
 #   type: (a,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 6
-#   A: 14
-#   nuclide: C14
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 39
+#   residual: 
+#     Z: 6
+#     A: 14
+#     nuclide: C14
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 39
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.400000E+00   0.000000E+00   2.521000E+02   3.180000E+01   1.000000E+00
@@ -72,17 +73,3 @@
 #   author: W.S.HOU, C.S.LIN, M.WEN, H.H.HSU, J.C.CHOU
 #   title: Cross Sections For the B-11(HE-4,P)C-14 Reaction In the Alpha-Particle Energy Range from 4.4 to 6.7 MeV.
 #   journal: Jour: Nuclear Science and Engineering, Vol.66, p.188 (1978)
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  4.400000E+00
-#   E-max [MeV]:  6.700000E+00
-#   F-value:  2.060921E+00
-#   A-value:  5.972235E-01
-#   chi-2:  1.207074E+01
-#   p-value:  2.145026E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    2.152045E+00   5.543111E-01   1.289553E+01
-# jendl5.0      1.968219E+00   6.434578E-01   1.124595E+01

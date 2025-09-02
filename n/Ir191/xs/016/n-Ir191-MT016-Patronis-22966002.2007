@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: Ir191(n,2n)Ir190+ cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Patronis
 #   year: 2007
 #   subentry: 22966002
 #   X4 reaction: 77-IR-191(N,2N)77-IR-190-G+M1,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22966002
-# target:
+# target: 
 #   Z: 77
 #   A: 191
 #   nuclide: Ir191
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 77
-#   A: 190
-#   nuclide: Ir190+
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 4
+#   residual: 
+#     Z: 77
+#     A: 190
+#     nuclide: Ir190+
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.000000E+01   0.000000E+00   1.090000E+03   7.000001E+01   1.000000E+00
@@ -42,19 +43,3 @@
 #   author: N.Patronis, C.T.Papadopoulos, S.Galanopoulos, M.Kokkoris, G.Perdikakis, R.Vlastou, A.Lagoyannis, S.Harissopulos
 #   title: .Activation cross section and isomeric cross-section  ratio for the (n,2n) reaction on 191-Ir
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.75, p.034607 (2007)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.000000E+01
-#   E-max [MeV]:  1.130000E+01
-#   F-value:  1.165861E+00
-#   A-value:  1.124850E+00
-#   chi-2:  7.898460E+00
-#   p-value:  2.020024E-01
-#   exp. data sets for p-value:      1
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.139646E+00   1.133554E+00   5.197865E+00
-# endfb8.0      1.047650E+00   1.043008E+00   1.051859E+00
-# jeff3.3       1.047650E+00   1.043008E+00   1.051859E+00
-# jendl5.0      1.309670E+00   1.298256E+00   2.429226E+01

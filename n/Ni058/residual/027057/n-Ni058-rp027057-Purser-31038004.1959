@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ni58(n,x)Co57 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Purser
 #   year: 1959
 #   subentry: 31038004
 #   X4 reaction: 28-NI-58(N,X)27-CO-57,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/31038004
-# target:
+# target: 
 #   Z: 28
 #   A: 58
 #   nuclide: Ni58
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 28
-# residual:
-#   Z: 27
-#   A: 57
-#   nuclide: Co57
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 27
+#     A: 57
+#     nuclide: Co57
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.410000E+01   0.000000E+00   1.600000E+02   4.000000E+01   1.000000E+00
@@ -34,18 +35,3 @@
 #   author: K.H.Purser,F.W.Titterton
 #   title: The 58Ni(n,p)58Co, 58Ni(n,2n)57Ni and 58Ni(n,np)57Co cross sections at 14.1 MeV
 #   journal: Jour: Australian Journal of Physics, Vol.12, p.103 (1959)
-# statistics:
-#   NEA score: T3
-#   IAEA score: -1
-#   E-min [MeV]:  1.410000E+01
-#   E-max [MeV]:  1.410000E+01
-#   F-value:  3.753235E+00
-#   A-value:  3.750787E+00
-#   chi-2:  1.217572E+02
-#   p-value:  3.553531E-11
-#   exp. data sets for p-value:      8
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    3.977398E+00   3.977398E+00   1.418384E+02
-# endfb8.0      3.632550E+00   3.632550E+00   1.108852E+02
-# jendl5.0      3.652215E+00   3.652215E+00   1.125480E+02

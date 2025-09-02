@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Mn55(n,2n)Mn54 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Ashby
 #   year: 1958
 #   subentry: 11632003
 #   X4 reaction: 25-MN-55(N,2N)25-MN-54,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/11632003
-# target:
+# target: 
 #   Z: 25
 #   A: 55
 #   nuclide: Mn55
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 25
-#   A: 54
-#   nuclide: Mn54
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 25
+#     A: 54
+#     nuclide: Mn54
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.410000E+01   0.000000E+00   9.000000E+02   7.000000E+01   1.000000E+00
@@ -34,21 +35,3 @@
 #   author: V.J.ASHBY,H.C.CATRON,L.L.NEWKIRK,C.J.TAYLOR
 #   title: FAST NEUTRON CROSS SECTIONS.
 #   journal: Conf: Second Internat. At.En. Conf., Geneva 1958, Vol.15, p.3(2494) (195
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.410000E+01
-#   E-max [MeV]:  1.410000E+01
-#   F-value:  1.227617E+00
-#   A-value:  8.168846E-01
-#   chi-2:  5.846647E+00
-#   p-value:  1.296511E-01
-#   exp. data sets for p-value:      8
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.214197E+00   8.235894E-01   5.362806E+00
-# endfb8.0      1.309524E+00   7.636361E-01   9.278283E+00
-# jeff3.3       1.170123E+00   8.546112E-01   3.865845E+00
-# jendl5.0      1.212612E+00   8.246664E-01   5.305031E+00
-# cendl3.2      1.231475E+00   8.120343E-01   6.010201E+00
-# irdff2.0      1.211307E+00   8.255545E-01   5.257718E+00

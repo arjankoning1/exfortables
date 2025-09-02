@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: B11(p,x)C11 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Kalinin
 #   year: 1957
 #   subentry: A0923004
 #   X4 reaction: 5-B-11(P,N)6-C-11,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/A0923004
-# target:
+# target: 
 #   Z: 5
 #   A: 11
 #   nuclide: B11
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 6
-#   A: 11
-#   nuclide: C11
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 23
+#   residual: 
+#     Z: 6
+#     A: 11
+#     nuclide: C11
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 23
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.044000E+00   0.000000E+00   3.201740E+01   6.403500E+00   1.000000E+00
@@ -56,16 +57,3 @@
 #   author: S.P.Kalinin, A.A.Ogloblin, Yu.M.Petrov
 #   title: The excitation curve of reactions Li-7(p,n)4-Be-7, B-10(p,a)4-Be-7, B-11(p,n)6-C-11 and the energy levels of nuclei Be-8,C-11 and C-12.
 #   journal: Jour: Atomnaya Energiya, Vol.2, p.171 (1957)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  3.044000E+00
-#   E-max [MeV]:  1.141900E+01
-#   F-value:  2.070807E+00
-#   A-value:  5.997417E-01
-#   chi-2:  4.348727E+00
-#   p-value:  3.323657E-01
-#   exp. data sets for p-value:      4
-#   libraries:      1
-##  Library          F              A            chi-2
-# tendl.2023    2.070807E+00   5.997417E-01   4.348727E+00

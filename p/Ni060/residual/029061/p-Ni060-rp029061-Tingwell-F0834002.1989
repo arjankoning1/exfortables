@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ni60(p,x)Cu61 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Tingwell
 #   year: 1989
 #   subentry: F0834002
 #   X4 reaction: 28-NI-60(P,G)29-CU-61,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/F0834002
-# target:
+# target: 
 #   Z: 28
 #   A: 60
 #   nuclide: Ni60
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 29
-#   A: 61
-#   nuclide: Cu61
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 51
+#   residual: 
+#     Z: 29
+#     A: 61
+#     nuclide: Cu61
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 51
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    9.427100E-01   0.000000E+00   2.200000E-04   2.200000E-05   1.000000E+00
@@ -84,17 +85,3 @@
 #   author: C.I.W.Tingwell,V.Y.Hansper,S.G.Tims,A.F.Scott, A.J.Morton,D.G.Sargood
 #   title: The 60Ni(p,gamma)61Cu and 62Ni(p,gamma)63Cu cross  sections
 #   journal: Jour: Nuclear Physics, Section A, Vol.496, p.127 (1989)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  9.427100E-01
-#   E-max [MeV]:  3.974800E+00
-#   F-value:  2.280882E+00
-#   A-value:  2.064312E+00
-#   chi-2:  2.499239E+02
-#   p-value:  1.645933E-01
-#   exp. data sets for p-value:      2
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.861813E+00   1.650446E+00   1.779037E+02
-# jendl5.0      2.682237E+00   2.581959E+00   3.219442E+02

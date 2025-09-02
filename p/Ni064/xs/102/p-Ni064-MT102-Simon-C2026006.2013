@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ni64(p,g)Cu65 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Simon
 #   year: 2013
 #   subentry: C2026006
 #   X4 reaction: 28-NI-64(P,G)29-CU-65,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/C2026006
-# target:
+# target: 
 #   Z: 28
 #   A: 64
 #   nuclide: Ni64
-# reaction:
+# reaction: 
 #   type: (p,g)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 29
-#   A: 65
-#   nuclide: Cu65
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 16
+#   residual: 
+#     Z: 29
+#     A: 65
+#     nuclide: Cu65
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 16
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.990900E+00   0.000000E+00   6.600000E-01   1.100000E-01   1.000000E+00
@@ -49,17 +50,3 @@
 #   author: A.Simon,A.Spyrou,T.Rauscher,C.Frohlich,S.J.Quinn, A.Battaglia,A.Best,B.Bucher,M.Couder,P.A.DeYoung, X.Fang,J.Gorres,A.Kontos,Q.Li,L.-Y.Lin,A.Long, S.Lyons,A.Roberts,D.Robertson,K.Smith,M.K.Smith, E.Stech,B.Stefanek,W.P.Tan,X.D.Tang,M.Wiescher
 #   title: Systematic study of (p,gamma) reactions on Ni isotopes
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.87, p.055802 (2013)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  1.990900E+00
-#   E-max [MeV]:  4.997564E+00
-#   F-value:  1.671425E+00
-#   A-value:  1.306107E+00
-#   chi-2:  1.636177E+01
-#   p-value:  2.768209E-01
-#   exp. data sets for p-value:      2
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.864634E+00   1.228736E+00   2.321979E+01
-# jendl5.0      1.452840E+00   1.388350E+00   9.503746E+00

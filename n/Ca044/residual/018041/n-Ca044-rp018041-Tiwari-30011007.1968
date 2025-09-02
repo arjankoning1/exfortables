@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ca44(n,x)Ar41 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Tiwari
 #   year: 1968
 #   subentry: 30011007
 #   X4 reaction: 20-CA-44(N,A)18-AR-41,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30011007
-# target:
+# target: 
 #   Z: 20
 #   A: 44
 #   nuclide: Ca44
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 107
-# residual:
-#   Z: 18
-#   A: 41
-#   nuclide: Ar41
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 18
+#     A: 41
+#     nuclide: Ar41
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.420000E+01   2.000000E-01   3.640608E+01   2.694100E+00   1.040174E+00
@@ -34,19 +35,3 @@
 #   author: P.N.Tiwari,E.Kondaiah
 #   title: Activation cross sections of calcium, potassium, and aluminum for 14.2-MeV neutrons.
 #   journal: Jour: Physical Review, Vol.167, p.1091 (1968)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  0
-#   E-min [MeV]:  1.420000E+01
-#   E-max [MeV]:  1.420000E+01
-#   F-value:  1.735994E+00
-#   A-value:  5.870321E-01
-#   chi-2:  3.153909E+01
-#   p-value:  1.248886E-01
-#   exp. data sets for p-value:      4
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.965690E+00   5.087271E-01   4.407233E+01
-# endfb8.0      0.000000E+00   0.000000E+00   0.000000E+00
-# jeff3.3       1.476254E+00   6.773900E-01   1.900586E+01
-# jendl5.0      0.000000E+00   0.000000E+00   0.000000E+00

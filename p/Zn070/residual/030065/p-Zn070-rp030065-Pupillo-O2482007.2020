@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Zn70(p,x)Zn65 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Pupillo
 #   year: 2020
 #   subentry: O2482007
 #   X4 reaction: 30-ZN-70(P,X)30-ZN-65,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/O2482007
-# target:
+# target: 
 #   Z: 30
 #   A: 70
 #   nuclide: Zn70
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 30
-#   A: 65
-#   nuclide: Zn65
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 7
+#   residual: 
+#     Z: 30
+#     A: 65
+#     nuclide: Zn65
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.470000E+01   7.000000E-01   6.542100E+00   1.133900E+00   1.055172E+00
@@ -40,17 +41,3 @@
 #   author: G.Pupillo,L.Mou,P.Martini,M.Pasquali,A.Boschi, G.Cicoria, A.Duatti,F.Haddad,J.Esposito
 #   title: Production of 67Cu by enriched 70Zn targets: first measurements of formation cross sections of 67Cu, 64Cu, 67Ga, 66Ga, 69mZn and 65Zn in interactions of 70Zn with protons above 45 MeV
 #   journal: Jour: Radiochimica Acta, Vol.108, p.593 (2020)
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  4.470000E+01
-#   E-max [MeV]:  6.780000E+01
-#   F-value:  5.109156E+00
-#   A-value:  3.293560E-01
-#   chi-2:  1.179059E+01
-#   p-value:  2.219463E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    6.975637E+00   2.166030E-01   1.554873E+01
-# jendl5.0      3.469463E+00   5.008025E-01   8.032454E+00

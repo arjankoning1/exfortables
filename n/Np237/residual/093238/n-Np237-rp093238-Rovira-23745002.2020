@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Np237(n,x)Np238 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Rovira
 #   year: 2020
 #   subentry: 23745002
 #   X4 reaction: 93-NP-237(N,G)93-NP-238,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/23745002
-# target:
+# target: 
 #   Z: 93
 #   A: 237
 #   nuclide: Np237
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 93
-#   A: 238
-#   nuclide: Np238
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 20040
+#   residual: 
+#     Z: 93
+#     A: 238
+#     nuclide: Np238
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 20040
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.005950E-08   5.001200E-13   2.953400E+05   5.633600E+03   1.000000E+00
@@ -20073,17 +20074,3 @@
 #   author: G.Rovira, T.Katabuchi, K.Tosaka, S.Matsuura, K.Terada, O.Iwamoto, A.Kimura, S.Nakamura, N.Iwamoto, M.Segawa M.Maeda
 #   title: Neutron capture cross-section measurement and resolved resonance analysis of 237Np
 #   journal: Jour: Jour. of Nuclear Science and Technology, Vol.57, p.24 (2020)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  1.005950E-08
-#   E-max [MeV]:  4.982600E-04
-#   F-value:  1.182532E+00
-#   A-value:  9.875950E-01
-#   chi-2:  1.073378E+01
-#   p-value:  2.853106E-01
-#   exp. data sets for p-value:      6
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.190196E+00   1.002912E+00   1.175993E+01
-# jendl5.0      1.174613E+00   9.725117E-01   9.707599E+00

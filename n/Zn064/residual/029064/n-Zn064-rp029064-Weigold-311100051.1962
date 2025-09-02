@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Zn64(n,x)Cu64 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Weigold
 #   year: 1962
 #   subentry: 311100051
 #   X4 reaction: 30-ZN-64(N,P)29-CU-64,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/311100051
-# target:
+# target: 
 #   Z: 30
 #   A: 64
 #   nuclide: Zn64
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 29
-#   A: 64
-#   nuclide: Cu64
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 5
+#   residual: 
+#     Z: 29
+#     A: 64
+#     nuclide: Cu64
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.386000E+01   1.000000E-01   1.900000E+02   1.520000E+01   1.000000E+00
@@ -38,18 +39,3 @@
 #   author: E.Weigold,R.N.Glover
 #   title: Some activation measurements and a comparison with theoretical (n,2n) cross sections and isomeric cross section ratios.
 #   journal: Jour: Nuclear Physics, Vol.32, p.106 (1962)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.386000E+01
-#   E-max [MeV]:  1.477000E+01
-#   F-value:  1.052162E+00
-#   A-value:  9.582616E-01
-#   chi-2:  7.709514E-01
-#   p-value:  4.409258E-01
-#   exp. data sets for p-value:      8
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.042429E+00   9.663191E-01   6.033075E-01
-# jeff3.3       1.041990E+00   9.666465E-01   5.965284E-01
-# jendl5.0      1.068078E+00   9.420284E-01   1.113018E+00

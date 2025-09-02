@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ni58(d,x)Co55 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Cline
 #   year: 1971
 #   subentry: D40610042
 #   X4 reaction: 28-NI-58(D,X)27-CO-55,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/D40610042
-# target:
+# target: 
 #   Z: 28
 #   A: 58
 #   nuclide: Ni58
-# reaction:
+# reaction: 
 #   type: (d,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 27
-#   A: 55
-#   nuclide: Co55
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 36
+#   residual: 
+#     Z: 27
+#     A: 55
+#     nuclide: Co55
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 36
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.100000E+00   0.000000E+00   2.100000E-02   1.439700E-03   1.000000E+00
@@ -69,16 +70,3 @@
 #   author: C.K.Cline
 #   title: Reaction mechanisms and shell structure effects in 54Fe + 6Li and 58Ni+d reactions at medium energies
 #   journal: Jour: Nuclear Physics, Section A, Vol.174, p.73 (1971)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  4.100000E+00
-#   E-max [MeV]:  4.050000E+01
-#   F-value:  2.387765E+00
-#   A-value:  6.337678E-01
-#   chi-2:  6.121415E+01
-#   p-value:  2.707432E-01
-#   exp. data sets for p-value:      1
-#   libraries:      1
-##  Library          F              A            chi-2
-# tendl.2023    2.387765E+00   6.337678E-01   6.121415E+01

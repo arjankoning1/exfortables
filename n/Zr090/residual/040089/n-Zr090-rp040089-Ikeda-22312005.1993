@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Zr90(n,x)Zr89 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Ikeda
 #   year: 1993
 #   subentry: 22312005
 #   X4 reaction: 40-ZR-90(N,2N)40-ZR-89,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22312005
-# target:
+# target: 
 #   Z: 40
 #   A: 90
 #   nuclide: Zr90
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 40
-#   A: 89
-#   nuclide: Zr89
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 3
+#   residual: 
+#     Z: 40
+#     A: 89
+#     nuclide: Zr89
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.437000E+01   0.000000E+00   3.818843E+02   1.599515E+01   9.996971E-01
@@ -36,18 +37,3 @@
 #   author: Y.Ikeda,C.Konno,Y.Oyama,K.Kosako,K.Oishi,H.Maekawa
 #   title: Absolute measurements of activation cross sections of  27-Al(n,p)27-Mg, 27-Al(n,alpha)24-Na, 56-Fe(n,p)56-Mn,  90-Zr(n,2n)89-Zr-m+g and 93-Nb(n,2n)92-Nb-m at  energy range of 13.3 - 14.9 MeV
 #   journal: Jour: Jour. of Nuclear Science and Technology, Vol.30, p.870 (1993)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  0
-#   E-min [MeV]:  1.437000E+01
-#   E-max [MeV]:  1.495000E+01
-#   F-value:  1.419969E+00
-#   A-value:  1.259984E+00
-#   chi-2:  1.296357E+02
-#   p-value:  2.090151E-01
-#   exp. data sets for p-value:      8
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.418497E+00   1.257438E+00   1.288590E+02
-# jeff3.3       1.418727E+00   1.257823E+00   1.289840E+02
-# jendl5.0      1.422677E+00   1.264702E+00   1.310640E+02

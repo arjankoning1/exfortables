@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: Rb85(n,2n)Rb84m cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Bormann
 #   year: 1968
 #   subentry: 20834005
 #   X4 reaction: 37-RB-85(N,2N)37-RB-84-M,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20834005
-# target:
+# target: 
 #   Z: 37
 #   A: 85
 #   nuclide: Rb85
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 37
-#   A: 84
-#   nuclide: Rb84m
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 10
+#   residual: 
+#     Z: 37
+#     A: 84
+#     nuclide: Rb84m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.294000E+01   2.000000E-01   2.310000E+02   1.700000E+01   1.000000E+00
@@ -48,18 +49,3 @@
 #   author: M.Bormann,A.Behrend,I.Riehle,O.Vogel
 #   title: Measurement of (n,2n) excitation functions
 #   journal: Jour: Nuclear Physics, Section A, Vol.115, p.309 (1968)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.294000E+01
-#   E-max [MeV]:  1.956000E+01
-#   F-value:  1.278148E+00
-#   A-value:  1.260088E+00
-#   chi-2:  1.580543E+01
-#   p-value:  1.275708E-01
-#   exp. data sets for p-value:      2
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.360075E+00   1.353127E+00   2.565634E+01
-# jeff3.3       1.199897E+00   1.182677E+00   8.414884E+00
-# jendl5.0      1.258575E+00   1.250253E+00   1.334507E+01

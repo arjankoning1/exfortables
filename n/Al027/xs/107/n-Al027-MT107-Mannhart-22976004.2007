@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Al27(n,a)Na24 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Mannhart
 #   year: 2007
 #   subentry: 22976004
 #   X4 reaction: 13-AL-27(N,A)11-NA-24,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22976004
-# target:
+# target: 
 #   Z: 13
 #   A: 27
 #   nuclide: Al27
-# reaction:
+# reaction: 
 #   type: (n,a)
 #   ENDF_MF: 3
 #   ENDF_MT: 107
-# residual:
-#   Z: 11
-#   A: 24
-#   nuclide: Na24
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 28
+#   residual: 
+#     Z: 11
+#     A: 24
+#     nuclide: Na24
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 28
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    8.334000E+00   2.000000E-02   4.580293E+01   1.456500E+00   1.000064E+00
@@ -61,21 +62,3 @@
 #   author: W.Mannhart, D.Schmidt
 #   title: .Measurement of Neutron Activation Cross Sections in  the Energy Range from 8 MeV to 15 MeV
 #   journal: Rept: Phys.Techn.Bundesanst., Neutronenphysik Reports, No.53 (2007)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  8.334000E+00
-#   E-max [MeV]:  1.474000E+01
-#   F-value:  1.028039E+00
-#   A-value:  1.012455E+00
-#   chi-2:  1.041195E+00
-#   p-value:  3.674317E-01
-#   exp. data sets for p-value:      8
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.025745E+00   1.012010E+00   9.281040E-01
-# endfb8.0      1.031684E+00   1.020973E+00   1.289383E+00
-# jeff3.3       1.031684E+00   1.020973E+00   1.289382E+00
-# jendl5.0      1.029186E+00   1.007224E+00   1.046148E+00
-# cendl3.2      1.023055E+00   1.001610E+00   7.624000E-01
-# irdff2.0      1.025802E+00   1.012086E+00   9.317513E-01

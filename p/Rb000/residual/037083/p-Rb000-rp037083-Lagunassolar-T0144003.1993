@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Rb0(p,x)Rb83 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Lagunassolar
 #   year: 1993
 #   subentry: T0144003
 #   X4 reaction: 37-RB-0(P,X)37-RB-83,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/T0144003
-# target:
+# target: 
 #   Z: 37
 #   A: 0
 #   nuclide: Rb0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 37
-#   A: 83
-#   nuclide: Rb83
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 40
+#   residual: 
+#     Z: 37
+#     A: 83
+#     nuclide: Rb83
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 40
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.730000E+01   2.400000E-01   2.590000E+01   3.626000E+00   1.000000E+00
@@ -73,17 +74,3 @@
 #   author: M.C.LAGUNAS-SOLAR,R.P.HAFF
 #   title: Theoretical and Experimental Excitation Functions for  Proton Induced Nuclear Reactions on Z=10 to Z=82  Target Nuclides.
 #   journal: Jour: Radiochimica Acta, Vol.60, p.57 (1993)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  2.730000E+01
-#   E-max [MeV]:  6.720000E+01
-#   F-value:  1.982013E+00
-#   A-value:  5.371663E-01
-#   chi-2:  1.324104E+01
-#   p-value:  1.236703E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.985048E+00   5.362850E-01   1.222423E+01
-# jendl5.0      1.978976E+00   5.380489E-01   1.425784E+01

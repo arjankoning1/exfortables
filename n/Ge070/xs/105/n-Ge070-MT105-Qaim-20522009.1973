@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ge70(n,t)Ga68 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Qaim
 #   year: 1973
 #   subentry: 20522009
 #   X4 reaction: 32-GE-70(N,T)31-GA-68,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20522009
-# target:
+# target: 
 #   Z: 32
 #   A: 70
 #   nuclide: Ge70
-# reaction:
+# reaction: 
 #   type: (n,t)
 #   ENDF_MF: 3
 #   ENDF_MT: 105
-# residual:
-#   Z: 31
-#   A: 68
-#   nuclide: Ga68
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 31
+#     A: 68
+#     nuclide: Ga68
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.470000E+01   6.000000E-01   3.600000E-02   1.000000E-02   1.000000E+00
@@ -34,18 +35,3 @@
 #   author: S.M.Qaim, G.L.Stoecklin
 #   title: A systematic investigation of (n,t) reactions at 14  to 15 MeV on medium and heavy mass nuclei
 #   journal: Jour: Journal of Inorganic and Nuclear Chemistry, Vol.35, p.19 (1973)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  1.470000E+01
-#   E-max [MeV]:  1.470000E+01
-#   F-value:  4.408330E+00
-#   A-value:  2.535552E-01
-#   chi-2:  6.969030E+00
-#   p-value:  1.168824E-01
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    5.843930E+00   1.711177E-01   8.953634E+00
-# jeff3.3       5.907893E+00   1.692651E-01   8.992647E+00
-# cendl3.2      1.776826E+00   5.628014E-01   2.960808E+00

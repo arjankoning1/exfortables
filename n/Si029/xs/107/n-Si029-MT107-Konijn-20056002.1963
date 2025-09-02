@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Si29(n,a)Mg26 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Konijn
 #   year: 1963
 #   subentry: 20056002
 #   X4 reaction: 14-SI-29(N,A)12-MG-26,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20056002
-# target:
+# target: 
 #   Z: 14
 #   A: 29
 #   nuclide: Si29
-# reaction:
+# reaction: 
 #   type: (n,a)
 #   ENDF_MF: 3
 #   ENDF_MT: 107
-# residual:
-#   Z: 12
-#   A: 26
-#   nuclide: Mg26
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 46
+#   residual: 
+#     Z: 12
+#     A: 26
+#     nuclide: Mg26
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 46
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.440000E+00   6.000000E-02   1.900000E-01   3.800000E-01   1.000000E+00
@@ -79,20 +80,3 @@
 #   author: J.Konijn,A.Lauber
 #   title: Cross section measurements of the Ni-58(n,p)Co-58 and  Si-29(n,alpha)Mg-26 reactions in the energy  range 2.2 to 3.8 MeV
 #   journal: Jour: Nuclear Physics, Vol.48, p.191 (1963)
-# statistics:
-#   NEA score: T2
-#   IAEA score:  1
-#   E-min [MeV]:  2.440000E+00
-#   E-max [MeV]:  3.770000E+00
-#   F-value:  2.521534E+00
-#   A-value:  1.873609E+00
-#   chi-2:  2.031741E+02
-#   p-value:  1.484302E-01
-#   exp. data sets for p-value:      1
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    2.255357E+00   1.528774E+00   1.435551E+02
-# endfb8.0      2.614472E+00   1.993035E+00   2.335718E+02
-# jeff3.3       2.614472E+00   1.993035E+00   2.335718E+02
-# jendl5.0      2.691072E+00   2.117552E+00   2.716362E+02
-# cendl3.2      2.429752E+00   1.795510E+00   1.335355E+02

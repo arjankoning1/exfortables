@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Re185(n,x)Re186 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Bergman
 #   year: 1971
 #   subentry: 40246002
 #   X4 reaction: 75-RE-185(N,G)75-RE-186,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/40246002
-# target:
+# target: 
 #   Z: 75
 #   A: 185
 #   nuclide: Re185
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 75
-#   A: 186
-#   nuclide: Re186
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 82
+#   residual: 
+#     Z: 75
+#     A: 186
+#     nuclide: Re186
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 82
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.210000E-07   0.000000E+00   3.981100E+04   0.000000E+00   1.000000E+00
@@ -115,18 +116,3 @@
 #   author: A.A.Bergman,D.K.Kaipov,V.A.Konks,S.A.Romanov
 #   title: Radiative capture of neutrons by rhenium isotopes
 #   journal: Conf: Neutron Physics Conf., Kiev 1971, Vol.1, p.144 (1971)
-# statistics:
-#   NEA score: T2
-#   IAEA score:  1
-#   E-min [MeV]:  2.210000E-07
-#   E-max [MeV]:  3.614098E-02
-#   F-value:  7.070720E+00
-#   A-value:  3.459598E-01
-#   chi-2:  0.000000E+00
-#   p-value:  1.487241E-01
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    7.307422E+00   3.534248E-01   0.000000E+00
-# jeff3.3       7.613105E+00   3.246633E-01   0.000000E+00
-# jendl5.0      6.323431E+00   3.608666E-01   0.000000E+00

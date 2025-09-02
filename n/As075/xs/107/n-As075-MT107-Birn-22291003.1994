@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: As75(n,a)Ga72 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Birn
 #   year: 1994
 #   subentry: 22291003
 #   X4 reaction: 33-AS-75(N,A)31-GA-72,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22291003
-# target:
+# target: 
 #   Z: 33
 #   A: 75
 #   nuclide: As75
-# reaction:
+# reaction: 
 #   type: (n,a)
 #   ENDF_MF: 3
 #   ENDF_MT: 107
-# residual:
-#   Z: 31
-#   A: 72
-#   nuclide: Ga72
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 9
+#   residual: 
+#     Z: 31
+#     A: 72
+#     nuclide: Ga72
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 9
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    6.340000E+00   1.400000E-01   1.362600E-01   1.603100E-02   1.001886E+00
@@ -42,20 +43,3 @@
 #   author: I.Birn,S.M.Qaim,B.Strohmaier,H.Freiesleben
 #   title: Excitation functions of neutron threshold reactions  on some isotopes of germanium, arsenic and selenium  in the 6.3- to 14.7-MeV energy range.
 #   journal: Jour: Nuclear Science and Engineering, Vol.116, p.125 (1994)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  6.340000E+00
-#   E-max [MeV]:  1.468000E+01
-#   F-value:  1.370409E+00
-#   A-value:  1.001547E+00
-#   chi-2:  1.043286E+01
-#   p-value:  4.107937E-01
-#   exp. data sets for p-value:      1
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.349269E+00   8.791592E-01   8.797965E+00
-# endfb8.0      1.356756E+00   1.226512E+00   1.158774E+01
-# jeff3.3       1.449838E+00   7.099359E-01   6.600729E+00
-# jendl5.0      1.519604E+00   1.313709E+00   2.497449E+01
-# cendl3.2      1.024199E+00   1.002073E+00   2.033808E-01

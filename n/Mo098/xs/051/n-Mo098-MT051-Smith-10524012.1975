@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Mo98(n,n'_01)Mo99 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Smith
 #   year: 1975
 #   subentry: 10524012
 #   X4 reaction: 42-MO-98(N,INL)42-MO-98,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/10524012
-#   level energy [MeV]  7.40000E-01
-# target:
+#   level energy [MeV]:  7.40000E-01
+# target: 
 #   Z: 42
 #   A: 98
 #   nuclide: Mo98
-# reaction:
+# reaction: 
 #   type: (n,n'_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 51
@@ -25,14 +25,15 @@
 #     energy [MeV]:  7.347500E-01
 #     spin:  0.000000E+00
 #     parity: 1
-# residual:
-#   Z: 42
-#   A: 99
-#   nuclide: Mo99
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 10
+#   residual: 
+#     Z: 42
+#     A: 99
+#     nuclide: Mo99
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.031000E+00   0.000000E+00   5.170000E+02   6.000000E+01   1.000000E+00
@@ -49,20 +50,3 @@
 #   author: A.B.Smith,P.Guenther,J.Whalen
 #   title: Neutron total and scattering cross sections of some even Mo isotopes and the optical model.
 #   journal: Jour: Nuclear Physics, Section A, Vol.244, p.213 (1975)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  1.031000E+00
-#   E-max [MeV]:  1.800000E+00
-#   F-value:  1.270507E+00
-#   A-value:  8.768060E-01
-#   chi-2:  2.700978E+00
-#   p-value:  3.001941E-01
-#   exp. data sets for p-value:      4
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.196149E+00   9.153482E-01   1.763227E+00
-# endfb8.0      1.254998E+00   8.952953E-01   2.469754E+00
-# jeff3.3       1.281542E+00   8.727800E-01   2.835708E+00
-# jendl5.0      1.281542E+00   8.727800E-01   2.835708E+00
-# cendl3.2      1.326567E+00   8.301478E-01   3.600494E+00

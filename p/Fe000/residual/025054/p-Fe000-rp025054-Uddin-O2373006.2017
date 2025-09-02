@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Fe0(p,x)Mn54 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Uddin
 #   year: 2017
 #   subentry: O2373006
 #   X4 reaction: 26-FE-0(P,X)25-MN-54,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/O2373006
-# target:
+# target: 
 #   Z: 26
 #   A: 0
 #   nuclide: Fe0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 25
-#   A: 54
-#   nuclide: Mn54
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 8
+#   residual: 
+#     Z: 25
+#     A: 54
+#     nuclide: Mn54
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    5.800000E+00   4.000000E-01   6.994700E-02   9.992400E-03   9.992399E-01
@@ -41,18 +42,3 @@
 #   author: Md.S.Uddin,A.K.Chakraborty,S.Spellerberg,I.Spahn, Md.A.Shariff,Md.A.Rashid,S.M.Qaim
 #   title: Excitation functions of proton induced nuclear reactions on nat-Fe up to 16 MeV, with emphasis on radiochemical determination of low cross sections.
 #   journal: Jour: Radiochimica Acta, Vol.105, p.985 (2017)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  5.800000E+00
-#   E-max [MeV]:  1.430000E+01
-#   F-value:  2.406477E+00
-#   A-value:  7.060894E-01
-#   chi-2:  1.390397E+01
-#   p-value:  2.739538E-01
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    2.469413E+00   6.578068E-01   1.312504E+01
-# endfb8.0      1.681937E+00   1.047500E+00   1.457095E+01
-# jendl5.0      3.026010E+00   5.108893E-01   1.401593E+01

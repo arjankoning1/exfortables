@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Sm152(n,x)Sm151 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Frehaut
 #   year: 2016
 #   subentry: 20416100
 #   X4 reaction: 62-SM-152(N,2N)62-SM-151,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20416100
-# target:
+# target: 
 #   Z: 62
 #   A: 152
 #   nuclide: Sm152
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 62
-#   A: 151
-#   nuclide: Sm151
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 10
+#   residual: 
+#     Z: 62
+#     A: 151
+#     nuclide: Sm151
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    8.590000E+00   2.600000E-01   3.200000E+01   1.500000E+01   1.000000E+00
@@ -43,17 +44,3 @@
 #   author: J.Frehaut,A.Bertin,R.Bois,J.Jary,G.Mosinski
 #   title: Status of (n,xn) cross section measurements  at Bruyeres-le-Chatel
 #   journal: Rept: Centre d'Etudes Nucleaires, Saclay Reports, No.6447 (2016)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  8.590000E+00
-#   E-max [MeV]:  1.476000E+01
-#   F-value:  1.608440E+00
-#   A-value:  1.283269E+00
-#   chi-2:  1.613080E+01
-#   p-value:  2.902821E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.545147E+00   1.269818E+00   1.468341E+01
-# jeff3.3       1.669083E+00   1.296862E+00   1.757820E+01

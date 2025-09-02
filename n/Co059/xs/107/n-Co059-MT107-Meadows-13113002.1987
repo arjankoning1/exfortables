@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Co59(n,a)Mn56 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Meadows
 #   year: 1987
 #   subentry: 13113002
 #   X4 reaction: 27-CO-59(N,A)25-MN-56,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/13113002
-# target:
+# target: 
 #   Z: 27
 #   A: 59
 #   nuclide: Co59
-# reaction:
+# reaction: 
 #   type: (n,a)
 #   ENDF_MF: 3
 #   ENDF_MT: 107
-# residual:
-#   Z: 25
-#   A: 56
-#   nuclide: Mn56
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 18
+#   residual: 
+#     Z: 25
+#     A: 56
+#     nuclide: Mn56
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 18
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    5.070000E+00   2.140000E-01   1.334800E-01   2.322600E-02   1.026776E+00
@@ -51,21 +52,3 @@
 #   author: J.W.MEADOWS,D.L.SMITH,R.D.LAWSON
 #   title: DIFFERENTIAL MEASUREMENTS AND AN EVALUATION OF THE 59CO(N,ALPHA)56MN REACTION CROSS SECTION
 #   journal: Jour: Annals of Nuclear Energy, Vol.14, p.603 (1987)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  5.070000E+00
-#   E-max [MeV]:  9.976000E+00
-#   F-value:  1.064684E+00
-#   A-value:  9.815332E-01
-#   chi-2:  1.117526E+00
-#   p-value:  3.252261E-01
-#   exp. data sets for p-value:      2
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.045456E+00   9.853491E-01   7.633718E-01
-# endfb8.0      1.092391E+00   9.681918E-01   1.202282E+00
-# jeff3.3       1.046132E+00   9.785492E-01   8.519043E-01
-# jendl5.0      1.059288E+00   9.785150E-01   1.263585E+00
-# cendl3.2      1.082192E+00   9.946565E-01   1.870259E+00
-# irdff2.0      1.047974E+00   9.841361E-01   7.537549E-01

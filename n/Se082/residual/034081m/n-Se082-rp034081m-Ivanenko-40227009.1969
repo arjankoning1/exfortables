@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: Se82(n,x)Se81m cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Ivanenko
 #   year: 1969
 #   subentry: 40227009
 #   X4 reaction: 34-SE-82(N,2N)34-SE-81-M,,SIG,,A
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/40227009
-# target:
+# target: 
 #   Z: 34
 #   A: 82
 #   nuclide: Se82
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 34
-#   A: 81
-#   nuclide: Se81m
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 34
+#     A: 81
+#     nuclide: Se81m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.470000E+01   0.000000E+00   2.120182E+04   2.834468E+03   1.000000E+00
@@ -39,18 +40,3 @@
 #   author: V.V.Ivanenko, K.A.Petrzhak
 #   title: Cross-sections and mechanism of (n,p) reactions of selenium isotopes at the neutron energy 14.7 MeV .
 #   journal: Jour: Yadernaya Fizika, Vol.9, p.258 (1969)
-# statistics:
-#   NEA score: R3
-#   IAEA score: -1
-#   E-min [MeV]:  1.470000E+01
-#   E-max [MeV]:  1.470000E+01
-#   F-value:  2.351528E+01
-#   A-value:  4.254407E-02
-#   chi-2:  5.128496E+01
-#   p-value:  1.192093E-07
-#   exp. data sets for p-value:      8
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    2.477113E+01   4.036958E-02   5.152420E+01
-# jeff3.3       2.230366E+01   4.483569E-02   5.104572E+01
-# jendl5.0      0.000000E+00   0.000000E+00   0.000000E+00

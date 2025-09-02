@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Mo96(n,d)Nb95 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Haight
 #   year: 1981
 #   subentry: 10960018
 #   X4 reaction: 42-MO-96(N,D)41-NB-95,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/10960018
-# target:
+# target: 
 #   Z: 42
 #   A: 96
 #   nuclide: Mo96
-# reaction:
+# reaction: 
 #   type: (n,d)
 #   ENDF_MF: 3
 #   ENDF_MT: 104
-# residual:
-#   Z: 41
-#   A: 95
-#   nuclide: Nb95
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 41
+#     A: 95
+#     nuclide: Nb95
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.480000E+01   0.000000E+00   6.000000E+00   2.000000E+00   1.000000E+00
@@ -34,20 +35,3 @@
 #   author: R.C.Haight,S.M.Grimes,R.G.Johnson,H.H.Barschall
 #   title: Charged particle emission in reactions of 15-MeV  neutrons with 89Y, 90Zr, and 92,94,95,96Mo.
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.23, p.700 (1981)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  1.480000E+01
-#   E-max [MeV]:  1.480000E+01
-#   F-value:  3.417074E+00
-#   A-value:  4.791111E-01
-#   chi-2:  2.434030E+00
-#   p-value:  2.343985E-01
-#   exp. data sets for p-value:      2
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.091968E+00   9.157780E-01   3.344091E-01
-# endfb8.0      1.285233E+01   7.780690E-02   7.737435E+00
-# jeff3.3       1.013684E+00   9.865009E-01   5.118914E-02
-# jendl5.0      1.013684E+00   9.865009E-01   5.118914E-02
-# cendl3.2      2.746769E+00   3.640642E-01   3.995928E+00

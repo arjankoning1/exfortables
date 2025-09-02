@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Co59(p,x)Co57 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Johnson
 #   year: 1984
 #   subentry: C0187002
 #   X4 reaction: 27-CO-59(P,X)27-CO-57,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/C0187002
-# target:
+# target: 
 #   Z: 27
 #   A: 59
 #   nuclide: Co59
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 27
-#   A: 57
-#   nuclide: Co57
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 22
+#   residual: 
+#     Z: 27
+#     A: 57
+#     nuclide: Co57
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 22
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.210000E+01   0.000000E+00   1.090000E+00   1.308000E-01   1.000000E+00
@@ -55,17 +56,3 @@
 #   author: P.C.Johnson,M.C.Lagunas-Solar,M.J.Avila
 #   title: The indirect production of no-carrier-added 57Co via  the 59Co(p,3n)57Ni->57Co reaction
 #   journal: Jour: Applied Radiation and Isotopes, Vol.35, p.371 (1984)
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  1.210000E+01
-#   E-max [MeV]:  3.890000E+01
-#   F-value:  5.351624E+00
-#   A-value:  5.406600E-01
-#   chi-2:  2.164322E+01
-#   p-value:  1.872269E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    5.511406E+00   7.558928E-01   1.863304E+01
-# jendl5.0      5.050033E+00   5.151418E-01   1.931936E+01

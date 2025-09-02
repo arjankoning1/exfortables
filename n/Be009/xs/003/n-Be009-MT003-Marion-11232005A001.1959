@@ -1,28 +1,29 @@
-# header:
+# header: 
 #   title: Be9(n,non) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Marion
 #   year: 1959
 #   subentry: 11232005
 #   X4 reaction: 4-BE-9(N,NON),,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/11232005
-# target:
+# target: 
 #   Z: 4
 #   A: 9
 #   nuclide: Be9
-# reaction:
+# reaction: 
 #   type: (n,non)
 #   ENDF_MF: 3
 #   ENDF_MT: 3
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 2
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    5.000000E+00   2.900000E-01   6.000000E+02   8.000000E+01   1.000000E+00
@@ -31,19 +32,3 @@
 #   author: J.B.MARION,J.S.LEVIN,L.CRANBERG
 #   title: ELASTIC AND NONELASTIC NEUTRON CROSS SECTIONS FOR BERYLLIUM.
 #   journal: Jour: Physical Review, Vol.114, p.1584 (1959)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  5.000000E+00
-#   E-max [MeV]:  6.000000E+00
-#   F-value:  1.124999E+00
-#   A-value:  9.209570E-01
-#   chi-2:  1.523637E+00
-#   p-value:  3.214690E-01
-#   exp. data sets for p-value:      2
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.129365E+00   9.181213E-01   1.592663E+00
-# endfb8.0      1.129365E+00   9.181213E-01   1.592663E+00
-# jendl5.0      1.111230E+00   9.294133E-01   1.318929E+00
-# cendl3.2      1.129210E+00   9.182233E-01   1.590294E+00

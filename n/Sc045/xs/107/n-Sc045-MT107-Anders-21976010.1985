@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Sc45(n,a)K42 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Anders
 #   year: 1985
 #   subentry: 21976010
 #   X4 reaction: 21-SC-45(N,A)19-K-42,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/21976010
-# target:
+# target: 
 #   Z: 21
 #   A: 45
 #   nuclide: Sc45
-# reaction:
+# reaction: 
 #   type: (n,a)
 #   ENDF_MF: 3
 #   ENDF_MT: 107
-# residual:
-#   Z: 19
-#   A: 42
-#   nuclide: K42
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 19
+#     A: 42
+#     nuclide: K42
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.470000E+01   3.000000E-01   5.823009E+01   2.391600E+00   1.039823E+00
@@ -34,19 +35,3 @@
 #   author: B.Anders,B.M.Bahal,R.Pepelnik
 #   title: Measurements of 14 MeV neutron activation  cross section at KORONA
 #   journal: Rept: Ges.Kernen.-Verwertung, Schiffbau and Schiffahrt, No.85-E-24 (1985
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.470000E+01
-#   E-max [MeV]:  1.470000E+01
-#   F-value:  1.181436E+00
-#   A-value:  8.738555E-01
-#   chi-2:  1.307262E+01
-#   p-value:  3.626997E-01
-#   exp. data sets for p-value:      8
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.052605E+00   9.500243E-01   2.056699E+00
-# endfb8.0      1.351360E+00   7.399954E-01   4.007559E+01
-# jeff3.3       1.082217E+00   9.240288E-01   3.800920E+00
-# jendl5.0      1.114015E+00   8.976543E-01   6.357269E+00

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: O16(p,x)Be10 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Amin
 #   year: 1972
 #   subentry: O0420003
 #   X4 reaction: 8-O-16(P,X)4-BE-10,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/O0420003
-# target:
+# target: 
 #   Z: 8
 #   A: 16
 #   nuclide: O16
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 4
-#   A: 10
-#   nuclide: Be10
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 2
+#   residual: 
+#     Z: 4
+#     A: 10
+#     nuclide: Be10
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.350000E+02   0.000000E+00   1.000000E+00   6.000000E-02   1.000000E+00
@@ -35,18 +36,3 @@
 #   author: B.S.AMIN,S.BISWAS,D.LAL,B.L.SOMAYAJULU
 #   title: Radiochemical Measurements of Be-10 and Be-7 Formation Cross Sections in Oxygen by 135 and 550 MeV Protons.
 #   journal: Jour: Nuclear Physics, Section A, Vol.195, p.311 (1972)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  1.350000E+02
-#   E-max [MeV]:  5.500000E+02
-#   F-value:  2.057568E+00
-#   A-value:  4.864522E-01
-#   chi-2:  7.325256E+01
-#   p-value:  6.618294E-02
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    2.003770E+00   4.990592E-01   6.970602E+01
-# endfb8.0      2.003770E+00   4.990592E-01   6.970602E+01
-# jendl5.0      2.163633E+00   4.621856E-01   8.034565E+01

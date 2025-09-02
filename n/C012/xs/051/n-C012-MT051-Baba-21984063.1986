@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: C12(n,n'_01)C13 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Baba
 #   year: 1986
 #   subentry: 21984063
 #   X4 reaction: 6-C-12(N,INL)6-C-12,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/21984063
-#   level energy [MeV]  4.43000E+00
-# target:
+#   level energy [MeV]:  4.43000E+00
+# target: 
 #   Z: 6
 #   A: 12
 #   nuclide: C12
-# reaction:
+# reaction: 
 #   type: (n,n'_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 51
@@ -25,14 +25,15 @@
 #     energy [MeV]:  4.439820E+00
 #     spin:  2.000000E+00
 #     parity: 1
-# residual:
-#   Z: 6
-#   A: 13
-#   nuclide: C13
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 2
+#   residual: 
+#     Z: 6
+#     A: 13
+#     nuclide: C13
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.420000E+01   0.000000E+00   2.144000E+02   1.180000E+01   1.000000E+00
@@ -41,19 +42,3 @@
 #   author: M.Baba, M.Ono, N.Yabuta, T.Kikuti, N.Hirakawa
 #   title: Scattering of 14.1-MeV neutrons from 10B, 11B, C, N, O,  F and Si
 #   journal: Jour: Radiation Effects, Vol.92, p.223 (1986)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  1.420000E+01
-#   E-max [MeV]:  1.820000E+01
-#   F-value:  1.116539E+00
-#   A-value:  9.275507E-01
-#   chi-2:  2.945192E+00
-#   p-value:  4.694782E-01
-#   exp. data sets for p-value:      8
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.040575E+00   9.690710E-01   7.193747E-01
-# endfb8.0      1.040575E+00   9.690710E-01   7.193747E-01
-# jendl5.0      1.232974E+00   8.133619E-01   9.622643E+00
-# cendl3.2      1.040575E+00   9.690710E-01   7.193747E-01

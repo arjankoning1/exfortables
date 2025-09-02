@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Nb93(n,a)Y90 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Mannan
 #   year: 1988
 #   subentry: 22095003
 #   X4 reaction: 41-NB-93(N,A)39-Y-90,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22095003
-# target:
+# target: 
 #   Z: 41
 #   A: 93
 #   nuclide: Nb93
-# reaction:
+# reaction: 
 #   type: (n,a)
 #   ENDF_MF: 3
 #   ENDF_MT: 107
-# residual:
-#   Z: 39
-#   A: 90
-#   nuclide: Y90
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 13
+#   residual: 
+#     Z: 39
+#     A: 90
+#     nuclide: Y90
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 13
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.150000E+00   1.500000E-01   9.999999E-02   1.000000E-02   1.000000E+00
@@ -46,20 +47,3 @@
 #   author: A.MANNAN,S.M.QAIM
 #   title: -ACTIVATION CROSS SECTION AND ISOMERIC CROSS-SECTION  RATIO FOR THE NB-93(N,A)Y-90M,G PROCESS.
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.38, Issue.2, p.630 (
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  4.150000E+00
-#   E-max [MeV]:  1.061000E+01
-#   F-value:  1.377887E+00
-#   A-value:  1.213557E+00
-#   chi-2:  2.303259E+01
-#   p-value:  2.651186E-01
-#   exp. data sets for p-value:      1
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.411504E+00   1.247353E+00   2.645864E+01
-# endfb8.0      1.325115E+00   1.157988E+00   1.664136E+01
-# jeff3.3       1.342416E+00   1.236753E+00   1.782994E+01
-# jendl5.0      1.501974E+00   1.291351E+00   3.968134E+01
-# cendl3.2      1.286719E+00   1.140984E+00   1.455170E+01

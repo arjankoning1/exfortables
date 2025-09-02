@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Hf174(n,2n)Hf173 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Patrick
 #   year: 1990
 #   subentry: 22246006
 #   X4 reaction: 72-HF-174(N,2N)72-HF-173,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22246006
-# target:
+# target: 
 #   Z: 72
 #   A: 174
 #   nuclide: Hf174
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 72
-#   A: 173
-#   nuclide: Hf173
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 72
+#     A: 173
+#     nuclide: Hf173
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.540000E+01   0.000000E+00   2.750000E+03   1.800000E+02   1.000000E+00
@@ -34,20 +35,3 @@
 #   author: B.H.PATRICK,M.G.SOWERBY,C.G.WILFINS,L.C.RUSSEN
 #   title: -ACTIVATION CROSS SECTION FOR THE GENERATION OF LONG-LIVED RADIONUCLIDES OF IMPORTANCE IN FUSION REACTION TECHNOLOGY.
 #   journal: Conf: IAEA Nucl.Data Section report to the I.N.D.C., No.232, p.69 (1990)
-# statistics:
-#   NEA score: R2
-#   IAEA score:  0
-#   E-min [MeV]:  1.540000E+01
-#   E-max [MeV]:  1.540000E+01
-#   F-value:  1.363564E+00
-#   A-value:  7.338929E-01
-#   chi-2:  1.656651E+01
-#   p-value:  1.262230E-01
-#   exp. data sets for p-value:      1
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.316503E+00   7.595879E-01   1.349710E+01
-# endfb8.0      1.359131E+00   7.357640E-01   1.629865E+01
-# jeff3.3       1.392761E+00   7.179981E-01   1.856260E+01
-# jendl5.0      1.392819E+00   7.179682E-01   1.856652E+01
-# cendl3.2      1.353261E+00   7.389555E-01   1.590769E+01

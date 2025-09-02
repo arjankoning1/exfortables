@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Bi209(d,2n)Po209 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Ramler
 #   year: 1959
 #   subentry: A02460039
 #   X4 reaction: 83-BI-209(D,2N)84-PO-209,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/A02460039
-# target:
+# target: 
 #   Z: 83
 #   A: 209
 #   nuclide: Bi209
-# reaction:
+# reaction: 
 #   type: (d,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 84
-#   A: 209
-#   nuclide: Po209
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 27
+#   residual: 
+#     Z: 84
+#     A: 209
+#     nuclide: Po209
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 27
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    7.700000E+00   0.000000E+00   9.100000E+00   9.100000E-02   1.000000E+00
@@ -60,16 +61,3 @@
 #   author: W.J.Ramler,J.Wing,D.J.Henderson,J.R.Huizenga
 #   title: Excitation functions of bismuth and lead.
 #   journal: Jour: Physical Review, Vol.114, p.154 (1959)
-# statistics:
-#   NEA score: R3
-#   IAEA score: -1
-#   E-min [MeV]:  7.700000E+00
-#   E-max [MeV]:  2.140000E+01
-#   F-value:  2.369421E+00
-#   A-value:  1.946868E+00
-#   chi-2:  3.803955E+04
-#   p-value:  1.090619E-01
-#   exp. data sets for p-value:      1
-#   libraries:      1
-##  Library          F              A            chi-2
-# tendl.2023    2.369421E+00   1.946868E+00   3.803955E+04

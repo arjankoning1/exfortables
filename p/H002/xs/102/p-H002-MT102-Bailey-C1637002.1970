@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: H2(p,g)He3 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Bailey
 #   year: 1970
 #   subentry: C1637002
 #   X4 reaction: 1-H-2(P,G)2-HE-3,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/C1637002
-# target:
+# target: 
 #   Z: 1
 #   A: 2
 #   nuclide: H2
-# reaction:
+# reaction: 
 #   type: (p,g)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 2
-#   A: 3
-#   nuclide: He3
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 12
+#   residual: 
+#     Z: 2
+#     A: 3
+#     nuclide: He3
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 12
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    5.422400E-02   0.000000E+00   2.210000E-04   2.600000E-05   1.000000E+00
@@ -45,17 +46,3 @@
 #   author: G.M.Bailey,G.M.Griffiths,M.A.Olivo,R.L.Helmer
 #   title: Gamma-Ray Yields from the Reaction D(p,gamma)3He at Low Energies
 #   journal: Jour: Canadian Journal of Physics, Vol.48, p.3059 (1970)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  5.422400E-02
-#   E-max [MeV]:  1.094205E+00
-#   F-value:  1.292273E+00
-#   A-value:  1.291395E+00
-#   chi-2:  3.824727E+01
-#   p-value:  1.330790E-01
-#   exp. data sets for p-value:      2
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.292273E+00   1.291395E+00   3.824727E+01
-# endfb8.0      1.292273E+00   1.291395E+00   3.824727E+01

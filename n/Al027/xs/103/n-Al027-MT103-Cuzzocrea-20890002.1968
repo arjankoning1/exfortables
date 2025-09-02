@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Al27(n,p)Mg27 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Cuzzocrea
 #   year: 1968
 #   subentry: 20890002
 #   X4 reaction: 13-AL-27(N,P)12-MG-27,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20890002
-# target:
+# target: 
 #   Z: 13
 #   A: 27
 #   nuclide: Al27
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 12
-#   A: 27
-#   nuclide: Mg27
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 27
+#   residual: 
+#     Z: 12
+#     A: 27
+#     nuclide: Mg27
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 27
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.370000E+01   4.000000E-02   7.908531E+01   5.373300E+00   9.727589E-01
@@ -60,21 +61,3 @@
 #   author: P.CUZZOCREA,E.PERILLO,S.NOTARRIGO
 #   title: -SOME EXCITATION FUNCTIONS OF NEUTRON INDUCED  REACTIONS AROUND 14 MEV-
 #   journal: Jour: Nuovo Cimento B, Vol.54, p.53 (1968)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.370000E+01
-#   E-max [MeV]:  1.467000E+01
-#   F-value:  1.080440E+00
-#   A-value:  9.338459E-01
-#   chi-2:  1.661568E+00
-#   p-value:  3.338156E-01
-#   exp. data sets for p-value:      8
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.067667E+00   9.433115E-01   1.351483E+00
-# endfb8.0      1.107040E+00   9.064226E-01   2.523077E+00
-# jeff3.3       1.107040E+00   9.064226E-01   2.523077E+00
-# jendl5.0      1.036199E+00   9.699442E-01   6.369056E-01
-# cendl3.2      1.076218E+00   9.352542E-01   1.583527E+00
-# irdff2.0      1.067665E+00   9.433188E-01   1.351337E+00

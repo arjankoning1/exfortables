@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ba130(a,x)Ce134 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Halasz
 #   year: 2012
 #   subentry: D4271002
 #   X4 reaction: 56-BA-130(A,G)58-CE-134,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/D4271002
-# target:
+# target: 
 #   Z: 56
 #   A: 130
 #   nuclide: Ba130
-# reaction:
+# reaction: 
 #   type: (a,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 58
-#   A: 134
-#   nuclide: Ce134
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 10
+#   residual: 
+#     Z: 58
+#     A: 134
+#     nuclide: Ce134
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.197100E+01   4.500000E-02   6.550000E-02   9.800000E-03   1.000000E+00
@@ -43,16 +44,3 @@
 #   author: Z.Halasz, Gy.Gyurky, J.Farkas, Zs.Fulop, T.Szucs,  E.Somorjai
 #   title: Investigation of alpha-induced reactions on 130Ba and  132Ba and their importance for the synthesis of heavy  p nuclei
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.85, p.025804 (2012)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  1.197100E+01
-#   E-max [MeV]:  1.649100E+01
-#   F-value:  1.419089E+00
-#   A-value:  1.223473E+00
-#   chi-2:  3.893308E+01
-#   p-value:  3.277214E-01
-#   exp. data sets for p-value:      1
-#   libraries:      1
-##  Library          F              A            chi-2
-# tendl.2023    1.419089E+00   1.223473E+00   3.893308E+01

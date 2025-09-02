@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: As75(p,x)Se75 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Fan
 #   year: 1967
 #   subentry: C2676002
 #   X4 reaction: 33-AS-75(P,N)34-SE-75,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/C2676002
-# target:
+# target: 
 #   Z: 33
 #   A: 75
 #   nuclide: As75
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 34
-#   A: 75
-#   nuclide: Se75
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 79
+#   residual: 
+#     Z: 34
+#     A: 75
+#     nuclide: Se75
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 79
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.002000E+00   0.000000E+00   1.328000E+00   0.000000E+00   1.000000E+00
@@ -112,17 +113,3 @@
 #   author: C.Fan,E.B.Paul
 #   title: Asymmetry in isobaric analogue resonances in the 75As(p,n) reaction
 #   journal: Jour: Nuclear Physics, Section A, Vol.100, p.168 (1967)
-# statistics:
-#   NEA score: R3
-#   IAEA score: -1
-#   E-min [MeV]:  4.002000E+00
-#   E-max [MeV]:  4.778000E+00
-#   F-value:  3.162125E+01
-#   A-value:  2.760872E+01
-#   chi-2:  5.431032E+04
-#   p-value:  8.929508E-10
-#   exp. data sets for p-value:      3
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    2.981192E+01   2.598148E+01   4.792263E+04
-# jendl5.0      3.350727E+01   2.933788E+01   6.069800E+04

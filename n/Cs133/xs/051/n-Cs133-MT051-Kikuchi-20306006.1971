@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Cs133(n,n'_01)Cs134 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Kikuchi
 #   year: 1971
 #   subentry: 20306006
 #   X4 reaction: 55-CS-133(N,INL)55-CS-133,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20306006
-#   level energy [MeV]  7.06000E-01
-# target:
+#   level energy [MeV]:  7.06000E-01
+# target: 
 #   Z: 55
 #   A: 133
 #   nuclide: Cs133
-# reaction:
+# reaction: 
 #   type: (n,n'_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 51
@@ -25,14 +25,15 @@
 #     energy [MeV]:  7.055700E-01
 #     spin:  4.500000E+00
 #     parity: 1
-# residual:
-#   Z: 55
-#   A: 134
-#   nuclide: Cs134
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 46
+#   residual: 
+#     Z: 55
+#     A: 134
+#     nuclide: Cs134
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 46
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    6.050000E-01   0.000000E+00   2.000000E+00   1.700000E+01   1.000000E+00
@@ -85,20 +86,3 @@
 #   author: S.KIKUCHI
 #   title: -ENERGY LEVELS OF CS-133 EXCITED BY MEANS OF (N,N'G)  REACTION.-
 #   journal: Jour: Nuclear Physics, Section A, Vol.171, p.480 (1971)
-# statistics:
-#   NEA score: T3
-#   IAEA score: -1
-#   E-min [MeV]:  6.050000E-01
-#   E-max [MeV]:  9.670000E-01
-#   F-value:  6.001177E+00
-#   A-value:  3.866534E+00
-#   chi-2:  1.929832E+02
-#   p-value:  9.834464E-02
-#   exp. data sets for p-value:      1
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    6.282381E+00   4.056951E+00   2.220906E+02
-# endfb8.0      5.862934E+00   3.760328E+00   1.793053E+02
-# jeff3.3       5.862934E+00   3.760328E+00   1.793053E+02
-# jendl5.0      6.073347E+00   3.792421E+00   1.986051E+02
-# cendl3.2      5.928974E+00   3.972290E+00   1.856102E+02

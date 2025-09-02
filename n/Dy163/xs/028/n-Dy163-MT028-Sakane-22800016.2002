@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Dy163(n,np)Tb162 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Sakane
 #   year: 2002
 #   subentry: 22800016
 #   X4 reaction: 66-DY-163(N,X)65-TB-162,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22800016
-# target:
+# target: 
 #   Z: 66
 #   A: 163
 #   nuclide: Dy163
-# reaction:
+# reaction: 
 #   type: (n,np)
 #   ENDF_MF: 3
 #   ENDF_MT: 28
-# residual:
-#   Z: 65
-#   A: 162
-#   nuclide: Tb162
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 6
+#   residual: 
+#     Z: 65
+#     A: 162
+#     nuclide: Tb162
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.340000E+01   0.000000E+00   1.185000E-01   7.821000E-02   9.875000E-01
@@ -39,19 +40,3 @@
 #   author: H.Sakane,Y.Kasugai,M.Shibata,T.Iida,A.Takahashi, T.Fukahori,K.Kawade
 #   title: Measurement of activation cross section of (n,np+d)  reactions producing short-lived nuclei in the energy  range between 13.4 and 14.9 MeV using an intense  neutron source OKTAVIAN
 #   journal: Jour: Annals of Nuclear Energy, Vol.29, p.53 (2002)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  1.340000E+01
-#   E-max [MeV]:  1.487000E+01
-#   F-value:  8.609318E+00
-#   A-value:  1.211761E-01
-#   chi-2:  1.472563E+01
-#   p-value:  2.384186E-07
-#   exp. data sets for p-value:      1
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    7.387556E+00   1.388581E-01   1.416069E+01
-# endfb8.0      7.762191E+00   1.335933E-01   1.451117E+01
-# jeff3.3       7.762191E+00   1.335933E-01   1.451117E+01
-# jendl5.0      1.191819E+01   8.700157E-02   1.571951E+01

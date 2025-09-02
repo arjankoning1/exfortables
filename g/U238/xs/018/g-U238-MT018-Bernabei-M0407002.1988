@@ -1,28 +1,29 @@
-# header:
+# header: 
 #   title: U238(g,f) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Bernabei
 #   year: 1988
 #   subentry: M0407002
 #   X4 reaction: 92-U-238(G,F),,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/M0407002
-# target:
+# target: 
 #   Z: 92
 #   A: 238
 #   nuclide: U238
-# reaction:
+# reaction: 
 #   type: (g,f)
 #   ENDF_MF: 3
 #   ENDF_MT: 18
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 6
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.640000E+01   0.000000E+00   2.200000E+01   3.000000E+00   1.000000E+00
@@ -35,18 +36,3 @@
 #   author: R.Bernabei,V.C.De Oliveira,J.B.Martins, O.A.P.Tavares,J.D.Pinheiro Filho,S.D'angelo, M.P.De Pascale,C.Schaerf,B.Girolami
 #   title: Photofission cross section of U-238 in the  quasi-deuteron region.
 #   journal: Jour: Nuovo Cimento A, Vol.100, p.131 (1988)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  4.640000E+01
-#   E-max [MeV]:  7.190000E+01
-#   F-value:  1.398141E+00
-#   A-value:  1.073887E+00
-#   chi-2:  1.047845E+01
-#   p-value:  1.315029E-01
-#   exp. data sets for p-value:      4
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.305277E+00   1.011008E+00   5.874157E+00
-# endfb8.0      0.000000E+00   0.000000E+00   0.000000E+00
-# jendl5.0      1.479940E+00   1.140676E+00   1.508273E+01

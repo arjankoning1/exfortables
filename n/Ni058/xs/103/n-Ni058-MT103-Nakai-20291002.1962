@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ni58(n,p)Co58 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Nakai
 #   year: 1962
 #   subentry: 20291002
 #   X4 reaction: 28-NI-58(N,P)27-CO-58,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20291002
-# target:
+# target: 
 #   Z: 28
 #   A: 58
 #   nuclide: Ni58
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 27
-#   A: 58
-#   nuclide: Co58
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 6
+#   residual: 
+#     Z: 27
+#     A: 58
+#     nuclide: Co58
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.520000E+00   2.300000E-01   8.400001E+01   3.500000E+01   1.000000E+00
@@ -39,21 +40,3 @@
 #   author: K.Nakai, H.Gotoh, H.Amano
 #   title: Excitation functions of Ni-58(n,p)Co-58 and  Zn-64(n,p)Cu-64 reactions in the energy region from  1.8 to 4.8 MeV
 #   journal: Jour: Journal of the Physical Society of Japan, Vol.17, p.1215 (1962)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  2.520000E+00
-#   E-max [MeV]:  4.630000E+00
-#   F-value:  1.202730E+00
-#   A-value:  1.108278E+00
-#   chi-2:  8.396680E-01
-#   p-value:  2.224012E-01
-#   exp. data sets for p-value:      8
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.180710E+00   1.099102E+00   7.106678E-01
-# endfb8.0      1.176506E+00   1.095287E+00   7.340629E-01
-# jeff3.3       1.190095E+00   1.098017E+00   7.238124E-01
-# jendl5.0      1.238354E+00   1.126139E+00   1.159574E+00
-# cendl3.2      1.234862E+00   1.129508E+00   9.439323E-01
-# irdff2.0      1.188899E+00   1.102140E+00   7.659575E-01

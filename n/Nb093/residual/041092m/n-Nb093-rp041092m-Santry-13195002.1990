@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: Nb93(n,x)Nb92m cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Santry
 #   year: 1990
 #   subentry: 13195002
 #   X4 reaction: 41-NB-93(N,2N)41-NB-92-M,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/13195002
-# target:
+# target: 
 #   Z: 41
 #   A: 93
 #   nuclide: Nb93
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 41
-#   A: 92
-#   nuclide: Nb92m
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 18
+#   residual: 
+#     Z: 41
+#     A: 92
+#     nuclide: Nb92m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 18
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    9.020000E+00   1.100000E-01   0.000000E+00   2.000000E+00   1.000000E+00
@@ -56,18 +57,3 @@
 #   author: D.C.SANTRY,R.D.WERNER
 #   title: Cross Sections for the 93Nb(n,2n)92mNb Reaction
 #   journal: Jour: Canadian Journal of Physics, Vol.68, p.582 (1990)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  9.020000E+00
-#   E-max [MeV]:  1.389000E+01
-#   F-value:  1.157810E+00
-#   A-value:  1.085225E+00
-#   chi-2:  4.952225E+00
-#   p-value:  3.479933E-01
-#   exp. data sets for p-value:      4
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.094704E+00   1.055019E+00   1.859114E+00
-# jeff3.3       1.095024E+00   1.055135E+00   1.864051E+00
-# jendl5.0      1.244901E+00   1.148130E+00   1.113351E+01

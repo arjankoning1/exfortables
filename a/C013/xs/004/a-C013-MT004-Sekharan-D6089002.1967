@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: C13(a,n')O16 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Sekharan
 #   year: 1967
 #   subentry: D6089002
 #   X4 reaction: 6-C-13(A,N)8-O-16,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/D6089002
-# target:
+# target: 
 #   Z: 6
 #   A: 13
 #   nuclide: C13
-# reaction:
+# reaction: 
 #   type: (a,n')
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 8
-#   A: 16
-#   nuclide: O16
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 290
+#   residual: 
+#     Z: 8
+#     A: 16
+#     nuclide: O16
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 290
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.942100E+00   0.000000E+00   1.270900E+01   1.546100E+00   1.000000E+00
@@ -323,17 +324,3 @@
 #   author: K.K.Sekharan, A.S.Divatia, M.K.Mehta, S.S.Kerekatte, K.B.Nambiar
 #   title: 13C(a,n)16O reaction cross section between 1.95 and 5.57 MeV
 #   journal: Jour: Physical Review, Vol.156, p.1187 (1967)
-# statistics:
-#   NEA score: R3
-#   IAEA score:  1
-#   E-min [MeV]:  1.942100E+00
-#   E-max [MeV]:  5.533700E+00
-#   F-value:  3.532758E+00
-#   A-value:  1.841487E+00
-#   chi-2:  2.484528E+06
-#   p-value:  2.256313E-01
-#   exp. data sets for p-value:      3
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    5.338447E+00   2.666888E+00   4.966750E+06
-# jendl5.0      1.852746E+00   1.271547E+00   2.303763E+03

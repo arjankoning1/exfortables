@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: Rh103(n,x)Rh102g cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Fotiades
 #   year: 2016
 #   subentry: 14461015
 #   X4 reaction: 45-RH-103(N,2N)45-RH-102-G,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/14461015
-# target:
+# target: 
 #   Z: 45
 #   A: 103
 #   nuclide: Rh103
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 45
-#   A: 102
-#   nuclide: Rh102g
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 17
+#   residual: 
+#     Z: 45
+#     A: 102
+#     nuclide: Rh102g
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 17
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    8.697000E+00   2.710000E-01   1.680000E+01   1.700000E+00   1.000000E+00
@@ -55,17 +56,3 @@
 #   author: N.Fotiades,M.Devlin,R.O.Nelson,T.Kawano,J.J.Carroll
 #   title: Feeding of Rh and Ag isomers in fast-neutron-induced reactions
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.94, p.044608 (2016)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  8.697000E+00
-#   E-max [MeV]:  3.334600E+01
-#   F-value:  1.335211E+00
-#   A-value:  8.710170E-01
-#   chi-2:  2.822544E+02
-#   p-value:  2.327059E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.351293E+00   7.906395E-01   3.142342E+02
-# jendl5.0      1.318638E+00   9.595659E-01   2.502746E+02

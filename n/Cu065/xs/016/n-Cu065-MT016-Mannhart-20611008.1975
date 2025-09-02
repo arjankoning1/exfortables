@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Cu65(n,2n)Cu64 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Mannhart
 #   year: 1975
 #   subentry: 20611008
 #   X4 reaction: 29-CU-65(N,2N)29-CU-64,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20611008
-# target:
+# target: 
 #   Z: 29
 #   A: 65
 #   nuclide: Cu65
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 29
-#   A: 64
-#   nuclide: Cu64
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 29
+#     A: 64
+#     nuclide: Cu64
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.441000E+01   2.000000E-01   8.535792E+02   5.066000E+00   9.925339E-01
@@ -34,21 +35,3 @@
 #   author: W.MANNHART, H.VONACH
 #   title: -PRECISION MEASUREMENT OF CROSS SECTIONS AT 14 MEV  NEUTRON ENERGY.- (IN GERMAN).
 #   journal: Jour: Zeitschrift fuer Physik A, Hadrons and Nuclei, Vol.272, p.279 (197
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.441000E+01
-#   E-max [MeV]:  1.441000E+01
-#   F-value:  1.076001E+00
-#   A-value:  1.074024E+00
-#   chi-2:  1.646298E+02
-#   p-value:  1.941292E-01
-#   exp. data sets for p-value:      8
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.083820E+00   1.083820E+00   1.994578E+02
-# endfb8.0      1.035935E+00   1.035935E+00   3.666067E+01
-# jeff3.3       1.082807E+00   1.082807E+00   1.946658E+02
-# jendl5.0      1.077294E+00   1.077294E+00   1.696081E+02
-# cendl3.2      1.080323E+00   1.080323E+00   1.831616E+02
-# irdff2.0      1.084816E+00   1.084816E+00   2.042247E+02

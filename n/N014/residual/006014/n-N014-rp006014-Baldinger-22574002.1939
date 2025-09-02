@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: N14(n,x)C14 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Baldinger
 #   year: 1939
 #   subentry: 22574002
 #   X4 reaction: 7-N-14(N,P)6-C-14,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22574002
-# target:
+# target: 
 #   Z: 7
 #   A: 14
 #   nuclide: N14
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 6
-#   A: 14
-#   nuclide: C14
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 6
+#     A: 14
+#     nuclide: C14
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.800000E+00   0.000000E+00   4.000000E+01   0.000000E+00   1.000000E+00
@@ -34,19 +35,3 @@
 #   author: E.BALDINGER,P.HUBER
 #   title: .Nitrogen (N,P) And (N,A) Cross Section Measurement
 #   journal: Jour: Helvetica Physica Acta, Vol.12, p.330 (1939)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  2.800000E+00
-#   E-max [MeV]:  2.800000E+00
-#   F-value:  1.420209E+00
-#   A-value:  1.413834E+00
-#   chi-2:  0.000000E+00
-#   p-value:  1.717651E-01
-#   exp. data sets for p-value:      5
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.368852E+00   1.368852E+00   0.000000E+00
-# endfb8.0      1.368852E+00   1.368852E+00   0.000000E+00
-# jeff3.3       1.368852E+00   1.368852E+00   0.000000E+00
-# jendl5.0      1.557842E+00   1.557842E+00   0.000000E+00

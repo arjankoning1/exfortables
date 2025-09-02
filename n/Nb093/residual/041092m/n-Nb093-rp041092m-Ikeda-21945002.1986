@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: Nb93(n,x)Nb92m cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Ikeda
 #   year: 1986
 #   subentry: 21945002
 #   X4 reaction: 41-NB-93(N,2N)41-NB-92-M,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/21945002
-# target:
+# target: 
 #   Z: 41
 #   A: 93
 #   nuclide: Nb93
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 41
-#   A: 92
-#   nuclide: Nb92m
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 11
+#   residual: 
+#     Z: 41
+#     A: 92
+#     nuclide: Nb92m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 11
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.350000E+01   0.000000E+00   4.569707E+02   1.964974E+01   9.999360E-01
@@ -49,18 +50,3 @@
 #   author: Y.Ikeda,H.Maekawa,T.Nakamura,H.Miyade,K.Kawade, H.Yamamoto,T.Katoh,K.Oishi
 #   title: Measurement of high threshold activation cross  sections for 13.5 to 15.0 MeV neutrons
 #   journal: Jour: Radiation Effects, Vol.92, p.175 (1986)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.350000E+01
-#   E-max [MeV]:  1.488000E+01
-#   F-value:  1.015449E+00
-#   A-value:  9.899313E-01
-#   chi-2:  3.302097E-01
-#   p-value:  4.055710E-01
-#   exp. data sets for p-value:      8
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.008450E+00   9.949373E-01   1.578099E-01
-# jeff3.3       1.008450E+00   9.949373E-01   1.578092E-01
-# jendl5.0      1.024022E+00   9.799948E-01   6.750100E-01

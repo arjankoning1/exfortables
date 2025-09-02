@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Nd144(n,p)Pr144 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Gmuca
 #   year: 1983
 #   subentry: 30649006S
 #   X4 reaction: 60-ND-144(N,P)59-PR-144,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30649006S
-# target:
+# target: 
 #   Z: 60
 #   A: 144
 #   nuclide: Nd144
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 59
-#   A: 144
-#   nuclide: Pr144
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 59
+#     A: 144
+#     nuclide: Pr144
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.480000E+01   2.500000E-01   1.345455E+01   2.646800E+00   1.102832E+00
@@ -34,20 +35,3 @@
 #   author: S.Gmuca,I.Ribansky
 #   title: Neutron activation cross sections on Nd isotopes at 14.8 MeV
 #   journal: Jour: Acta Physica Slovaca, Vol.33, p.9 (1983)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.480000E+01
-#   E-max [MeV]:  1.480000E+01
-#   F-value:  1.096703E+00
-#   A-value:  9.305097E-01
-#   chi-2:  4.920955E-01
-#   p-value:  1.750529E-01
-#   exp. data sets for p-value:      1
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.000469E+00   9.995313E-01   2.987409E-03
-# endfb8.0      1.078269E+00   9.274127E-01   5.013790E-01
-# jeff3.3       1.078269E+00   9.274127E-01   5.013790E-01
-# jendl5.0      1.036486E+00   9.647986E-01   2.330095E-01
-# cendl3.2      1.188980E+00   8.410568E-01   1.221723E+00

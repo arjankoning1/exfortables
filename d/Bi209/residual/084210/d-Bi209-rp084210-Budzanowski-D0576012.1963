@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Bi209(d,x)Po210 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Budzanowski
 #   year: 1963
 #   subentry: D0576012
 #   X4 reaction: 83-BI-209(D,N)84-PO-210,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/D0576012
-# target:
+# target: 
 #   Z: 83
 #   A: 209
 #   nuclide: Bi209
-# reaction:
+# reaction: 
 #   type: (d,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 84
-#   A: 210
-#   nuclide: Po210
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 84
+#     A: 210
+#     nuclide: Po210
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.280000E+01   1.500000E-01   4.000000E+01   1.000000E+01   1.000000E+00
@@ -34,16 +35,3 @@
 #   author: A.Budzanowski,L.Freindl,K.Grotowski,Mrs.M.Rzeszutko,  M.Slapa,J.Szmider,P.E.Hodgson
 #   title: Elastic scattering and total reaction cross-sections for the interaction of 12.8 MeV deuterons with 12C, 58Ni, 60 Ni and 209Bi nuclei
 #   journal: Jour: Nuclear Physics, Vol.49, p.144 (1963)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.280000E+01
-#   E-max [MeV]:  1.280000E+01
-#   F-value:  1.000045E+00
-#   A-value:  9.999551E-01
-#   chi-2:  2.250389E-04
-#   p-value:  3.696166E-01
-#   exp. data sets for p-value:      5
-#   libraries:      1
-##  Library          F              A            chi-2
-# tendl.2023    1.000045E+00   9.999551E-01   2.250389E-04

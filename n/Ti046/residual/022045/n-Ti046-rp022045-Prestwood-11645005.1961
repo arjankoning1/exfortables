@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ti46(n,x)Ti45 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Prestwood
 #   year: 1961
 #   subentry: 11645005
 #   X4 reaction: 22-TI-46(N,2N)22-TI-45,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/11645005
-# target:
+# target: 
 #   Z: 22
 #   A: 46
 #   nuclide: Ti46
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 22
-#   A: 45
-#   nuclide: Ti45
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 9
+#   residual: 
+#     Z: 22
+#     A: 45
+#     nuclide: Ti45
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 9
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.340000E+01   2.000000E-01   1.000000E+00   5.000000E-01   1.000000E+00
@@ -42,18 +43,3 @@
 #   author: R.J.PRESTWOOD,B.P.BAYHURST
 #   title: (N,2N) EXCITATION FUNCTIONS OF SEVERAL NUCLEI FROM 12.0 TO 19.8 MEV.
 #   journal: Jour: Physical Review, Vol.121, p.1438 (1961)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.340000E+01
-#   E-max [MeV]:  1.976000E+01
-#   F-value:  1.374059E+00
-#   A-value:  1.191186E+00
-#   chi-2:  6.996998E+00
-#   p-value:  2.960476E-01
-#   exp. data sets for p-value:      4
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.227584E+00   1.122091E+00   2.650810E+00
-# jeff3.3       1.245931E+00   1.108513E+00   3.497643E+00
-# jendl5.0      1.585689E+00   1.358845E+00   1.484254E+01

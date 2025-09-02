@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: P31(n,n'_02)P32 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Tsukada
 #   year: 1961
 #   subentry: 20341020
 #   X4 reaction: 15-P-31(N,INL)15-P-31,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20341020
-#   level energy [MeV]  2.23400E+00
-# target:
+#   level energy [MeV]:  2.23400E+00
+# target: 
 #   Z: 15
 #   A: 31
 #   nuclide: P31
-# reaction:
+# reaction: 
 #   type: (n,n'_02)
 #   ENDF_MF: 3
 #   ENDF_MT: 52
@@ -25,14 +25,15 @@
 #     energy [MeV]:  2.233600E+00
 #     spin:  2.500000E+00
 #     parity: 1
-# residual:
-#   Z: 15
-#   A: 32
-#   nuclide: P32
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 4
+#   residual: 
+#     Z: 15
+#     A: 32
+#     nuclide: P32
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.850000E+00   0.000000E+00   7.500000E+02   9.000000E+01   1.000000E+00
@@ -43,19 +44,3 @@
 #   author: K.Tsukada, S.Tanaka, M.Maruyama, Y.Tomita
 #   title: Angular distributions of fast neutrons scattered by  Al, Si, P, S and Zn
 #   journal: Conf: Reactor Physics Sem., Vienna 1961, Vol.1, p.75(18/12) (1961)
-# statistics:
-#   NEA score: T3
-#   IAEA score: -1
-#   E-min [MeV]:  3.850000E+00
-#   E-max [MeV]:  4.800000E+00
-#   F-value:  3.502829E+00
-#   A-value:  2.903832E-01
-#   chi-2:  3.316038E+01
-#   p-value:  1.320314E-01
-#   exp. data sets for p-value:      1
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    3.055483E+00   3.287082E-01   2.995164E+01
-# jeff3.3       3.040356E+00   3.303562E-01   2.980633E+01
-# jendl5.0      4.736696E+00   2.113676E-01   4.123363E+01
-# cendl3.2      3.240920E+00   3.097809E-01   3.164991E+01

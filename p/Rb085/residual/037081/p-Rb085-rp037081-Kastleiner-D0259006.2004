@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Rb85(p,x)Rb81 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Kastleiner
 #   year: 2004
 #   subentry: D0259006
 #   X4 reaction: 37-RB-85(P,X)37-RB-81,CUM,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/D0259006
-# target:
+# target: 
 #   Z: 37
 #   A: 85
 #   nuclide: Rb85
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 37
-#   A: 81
-#   nuclide: Rb81
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 29
+#   residual: 
+#     Z: 37
+#     A: 81
+#     nuclide: Rb81
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 29
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.180000E+01   2.000000E-01   4.000000E-01   9.999999E-02   1.000000E+00
@@ -62,17 +63,3 @@
 #   author: S.Kastleiner,Yu.N.Shubin,F.M.Nortier, T.N.van der Walt,S.M.Qaim
 #   title: Experimental studies and nuclear model calculations on  (p,xn) and (p,pxn) reactions on 85Rb from their thresholds up to 100 MeV
 #   journal: Jour: Radiochimica Acta, Vol.92, p.449 (2004)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  4.180000E+01
-#   E-max [MeV]:  1.000000E+02
-#   F-value:  1.705373E+00
-#   A-value:  1.320798E+00
-#   chi-2:  3.205160E+01
-#   p-value:  2.718723E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.495758E+00   1.092603E+00   1.104410E+01
-# jendl5.0      1.893719E+00   1.596653E+00   5.305909E+01

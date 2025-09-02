@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Se0(p,x)Br75 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Elazony
 #   year: 2009
 #   subentry: D0503002
 #   X4 reaction: 34-SE-0(P,X)35-BR-75,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/D0503002
-# target:
+# target: 
 #   Z: 34
 #   A: 0
 #   nuclide: Se0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 35
-#   A: 75
-#   nuclide: Br75
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 23
+#   residual: 
+#     Z: 35
+#     A: 75
+#     nuclide: Br75
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 23
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.680000E+01   2.000000E-01   1.510000E+01   1.600000E+00   1.000000E+00
@@ -56,17 +57,3 @@
 #   author: K.M.El-Azony, K.Suzuki, T.Fukumura, F.Szelecsenyi,  Z.Kovacs
 #   title: Excitation functions of proton induced reactions on  natural selenium up to 62 MeV
 #   journal: Jour: Radiochimica Acta, Vol.97, p.71 (2009)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  1.680000E+01
-#   E-max [MeV]:  6.280000E+01
-#   F-value:  1.723593E+00
-#   A-value:  6.571453E-01
-#   chi-2:  1.156464E+01
-#   p-value:  2.410783E-01
-#   exp. data sets for p-value:      2
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.930539E+00   5.644102E-01   1.600299E+01
-# jendl5.0      1.491949E+00   7.651172E-01   7.126275E+00

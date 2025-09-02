@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: Sr87(n,n')Sr87m cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Trofimov
 #   year: 1985
 #   subentry: 40896002
 #   X4 reaction: 38-SR-87(N,INL)38-SR-87-M,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/40896002
-# target:
+# target: 
 #   Z: 38
 #   A: 87
 #   nuclide: Sr87
-# reaction:
+# reaction: 
 #   type: (n,n')
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 38
-#   A: 87
-#   nuclide: Sr87m
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 19
+#   residual: 
+#     Z: 38
+#     A: 87
+#     nuclide: Sr87m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 19
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.000000E-01   2.800000E-01   0.000000E+00            NaN   1.023239E+00
@@ -57,18 +58,3 @@
 #   author: Yu.N.Trofimov
 #   title: Cross-section for Sr-87(n,inl)Sr-87-m reaction at neutron energies from threshold to 2.2 MeV
 #   journal: Jour: Vop.At.Nauki i Tekhn.,Ser.Yaderno-Reak.Konstanty, Issue.1, p.76 (1
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  4.000000E-01
-#   E-max [MeV]:  2.200000E+00
-#   F-value:  1.436414E+00
-#   A-value:  1.353095E+00
-#   chi-2:  2.128938E+01
-#   p-value:  1.888842E-01
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.485895E+00   1.404356E+00   3.232168E+01
-# jeff3.3       1.420970E+00   1.356385E+00   1.868985E+01
-# jendl5.0      1.399946E+00   1.300542E+00   1.285662E+01

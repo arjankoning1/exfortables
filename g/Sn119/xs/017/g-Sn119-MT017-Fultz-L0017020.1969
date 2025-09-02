@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Sn119(g,3n)Sn116 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Fultz
 #   year: 1969
 #   subentry: L0017020
 #   X4 reaction: 50-SN-119(G,3N)50-SN-116,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/L0017020
-# target:
+# target: 
 #   Z: 50
 #   A: 119
 #   nuclide: Sn119
-# reaction:
+# reaction: 
 #   type: (g,3n)
 #   ENDF_MF: 3
 #   ENDF_MT: 17
-# residual:
-#   Z: 50
-#   A: 116
-#   nuclide: Sn116
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 53
+#   residual: 
+#     Z: 50
+#     A: 116
+#     nuclide: Sn116
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 53
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.303400E+01   0.000000E+00  -3.660000E+00   3.250000E+00   1.000000E+00
@@ -86,18 +87,3 @@
 #   author: S.C.FULTZ,B.L.BERMAN,J.T.CALDWELL,R.L.BRAMBLETT, M.A.KELLY
 #   title: Photoneutron cross sections for Sn116, Sn117, Sn118,  Sn119, Sn120, Sn-124, and indium.
 #   journal: Jour: Physical Review, Vol.186, p.1255 (1969)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  2.303400E+01
-#   E-max [MeV]:  3.108600E+01
-#   F-value:  1.811939E+00
-#   A-value:  9.217971E-01
-#   chi-2:  1.662614E+00
-#   p-value:  1.414938E-01
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.862597E+00   1.153012E+00   1.467309E+00
-# endfb8.0      1.794093E+00   8.078841E-01   1.805971E+00
-# jendl5.0      1.783657E+00   8.563541E-01   1.805276E+00

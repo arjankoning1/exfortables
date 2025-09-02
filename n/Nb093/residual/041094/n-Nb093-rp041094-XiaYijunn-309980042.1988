@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Nb93(n,x)Nb94 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: XiaYijunn
 #   year: 1988
 #   subentry: 309980042
 #   X4 reaction: 41-NB-93(N,G)41-NB-94,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/309980042
-# target:
+# target: 
 #   Z: 41
 #   A: 93
 #   nuclide: Nb93
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 41
-#   A: 94
-#   nuclide: Nb94
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 20
+#   residual: 
+#     Z: 41
+#     A: 94
+#     nuclide: Nb94
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 20
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.120000E-02   3.600000E-04   4.960000E+02   4.960000E+01   1.000000E+00
@@ -53,18 +54,3 @@
 #   author: Xia Yijun, Wang Chunhao, Yang Jingfu, Yang Zhihua, Luo Xiaobing, Liu Jianfeng
 #   title: Measurements of neutron capture cross sections of wolfram and thulium
 #   journal:
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.120000E-02
-#   E-max [MeV]:  1.000000E-01
-#   F-value:  1.141813E+00
-#   A-value:  1.056956E+00
-#   chi-2:  5.086606E+00
-#   p-value:  3.760098E-01
-#   exp. data sets for p-value:      4
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.058462E+00   1.034319E+00   1.170349E+00
-# jeff3.3       1.244537E+00   1.132003E+00   1.347889E+01
-# jendl5.0      1.041794E+00   1.008484E+00   6.105753E-01

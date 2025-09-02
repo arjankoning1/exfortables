@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: Mo0(p,x)Tc99m cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Lagunassolar
 #   year: 1991
 #   subentry: C0068002
 #   X4 reaction: 42-MO-0(P,X)43-TC-99-M,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/C0068002
-# target:
+# target: 
 #   Z: 42
 #   A: 0
 #   nuclide: Mo0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 43
-#   A: 99
-#   nuclide: Tc99m
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 50
+#   residual: 
+#     Z: 43
+#     A: 99
+#     nuclide: Tc99m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 50
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    5.100000E+00   1.530000E-01   7.000000E+00   6.300000E-01   1.000000E+00
@@ -88,17 +89,3 @@
 #   author: M.C.Lagunas-Solar,P.M.Kiefer,O.F.Carvacho,C.A.Lagunas, Ya Po Cha
 #   title: Cyclotron production of NCA 99mTc and 99Mo.  An  alternative non-reactor supply source of instant  99mTc and 99Mo-99mTc generators
 #   journal: Jour: Applied Radiation and Isotopes, Vol.42, p.643 (1991)
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  5.100000E+00
-#   E-max [MeV]:  6.710000E+01
-#   F-value:  1.568756E+02
-#   A-value:  7.454663E-03
-#   chi-2:  1.181742E+02
-#   p-value:  4.336866E-03
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.271549E+02   9.036786E-03   1.181548E+02
-# jendl5.0      1.919269E+02   6.149540E-03   1.181937E+02

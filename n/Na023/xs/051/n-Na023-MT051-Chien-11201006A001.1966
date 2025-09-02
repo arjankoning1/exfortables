@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Na23(n,n'_01)Na24 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Chien
 #   year: 1966
 #   subentry: 11201006
 #   X4 reaction: 11-NA-23(N,INL)11-NA-23,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/11201006
-#   level energy [MeV]  4.40000E-01
-# target:
+#   level energy [MeV]:  4.40000E-01
+# target: 
 #   Z: 11
 #   A: 23
 #   nuclide: Na23
-# reaction:
+# reaction: 
 #   type: (n,n'_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 51
@@ -25,14 +25,15 @@
 #     energy [MeV]:  4.402000E-01
 #     spin:  2.500000E+00
 #     parity: 1
-# residual:
-#   Z: 11
-#   A: 24
-#   nuclide: Na24
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 25
+#   residual: 
+#     Z: 11
+#     A: 24
+#     nuclide: Na24
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 25
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    8.250000E-01   2.000000E-02   3.600000E+02   4.000000E+01   1.000000E+00
@@ -64,20 +65,3 @@
 #   author: J.P.Chien,A.B.Smith
 #   title: Fast neutron scattering from beryllium, sodium and aluminium.
 #   journal: Jour: Nuclear Science and Engineering, Vol.26, p.500 (1966)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  8.250000E-01
-#   E-max [MeV]:  1.500000E+00
-#   F-value:  1.395770E+00
-#   A-value:  1.029294E+00
-#   chi-2:  4.548680E+00
-#   p-value:  2.832499E-01
-#   exp. data sets for p-value:      7
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.485518E+00   1.107661E+00   4.867784E+00
-# endfb8.0      1.309084E+00   1.055580E+00   2.591022E+00
-# jeff3.3       1.378779E+00   9.763054E-01   5.010567E+00
-# jendl5.0      1.379370E+00   1.004671E+00   4.789949E+00
-# cendl3.2      1.414296E+00   1.007368E+00   5.484081E+00

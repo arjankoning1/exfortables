@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Cr54(p,x)Mn54 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Levkovski*0.82
 #   year: 1991
 #   subentry: A0510042
 #   X4 reaction: 24-CR-54(P,N)25-MN-54,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/A0510042
-# target:
+# target: 
 #   Z: 24
 #   A: 54
 #   nuclide: Cr54
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 25
-#   A: 54
-#   nuclide: Mn54
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 25
+#   residual: 
+#     Z: 25
+#     A: 54
+#     nuclide: Mn54
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 25
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    7.700000E+00   0.000000E+00   4.111664E+02   5.014224E+01   7.631999E-01
@@ -58,18 +59,3 @@
 #   author: V.N.Levkovski
 #   title: Cross sections of medium mass nuclide activation  (A=40-100) by medium energy protons and alpha-particles (E=10-50 MeV)
 #   journal: Book: Levkovskij,Act.Cs.By Protons and Alphas,Moscow 1991,  (1991)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  7.700000E+00
-#   E-max [MeV]:  2.950000E+01
-#   F-value:  1.409270E+00
-#   A-value:  1.333362E+00
-#   chi-2:  1.322885E+01
-#   p-value:  1.894865E-01
-#   exp. data sets for p-value:      2
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.204677E+00   1.140492E+00   3.501611E+00
-# endfb8.0      1.519150E+00   1.476751E+00   1.998192E+01
-# jendl5.0      1.460686E+00   1.407488E+00   1.620302E+01

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Mo98(p,x)Tc98 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Flynn
 #   year: 1979
 #   subentry: C1900007
 #   X4 reaction: 42-MO-98(P,N)43-TC-98,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/C1900007
-# target:
+# target: 
 #   Z: 42
 #   A: 98
 #   nuclide: Mo98
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 43
-#   A: 98
-#   nuclide: Tc98
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 232
+#   residual: 
+#     Z: 43
+#     A: 98
+#     nuclide: Tc98
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 232
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.523000E+00   0.000000E+00   3.000000E-03   1.883400E-03   1.000000E+00
@@ -265,17 +266,3 @@
 #   author: D.S.Flynn,R.L.Hershberger,F.Gabbard
 #   title: Sub-Coulomb proton absorption for isotopes of zirconium and molybdenum
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.20, Issue.5, p.1700
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  2.523000E+00
-#   E-max [MeV]:  6.805000E+00
-#   F-value:  1.367242E+00
-#   A-value:  1.004820E+00
-#   chi-2:  2.535510E+03
-#   p-value:  2.324764E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.381012E+00   1.086619E+00   1.828894E+03
-# jendl5.0      1.353160E+00   9.291787E-01   3.242125E+03

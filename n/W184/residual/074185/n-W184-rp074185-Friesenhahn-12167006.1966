@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: W184(n,x)W185 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Friesenhahn
 #   year: 1966
 #   subentry: 12167006
 #   X4 reaction: 74-W-184(N,G)74-W-185,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/12167006
-# target:
+# target: 
 #   Z: 74
 #   A: 184
 #   nuclide: W184
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 74
-#   A: 185
-#   nuclide: W185
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 28
+#   residual: 
+#     Z: 74
+#     A: 185
+#     nuclide: W185
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 28
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.000000E-08   0.000000E+00   2.620000E+03   0.000000E+00   1.000000E+00
@@ -61,17 +62,3 @@
 #   author: S.J.FRIESENHAHN,E.HADDAD,F.H.FROEHNER,W.M.LOPEZ
 #   title: THE NEUTRON CAPTURE CROSS SECTION OF THE TUNGSTEN ISOTOPES FROM 0.01 TO 10 ELECTRON VOLTS.
 #   journal: Jour: Nuclear Science and Engineering, Vol.26, p.487 (1966)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  1.000000E-08
-#   E-max [MeV]:  2.420000E-06
-#   F-value:  1.072900E+00
-#   A-value:  1.034061E+00
-#   chi-2:  0.000000E+00
-#   p-value:  3.824888E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.073537E+00   1.035778E+00   0.000000E+00
-# jendl5.0      1.072258E+00   1.032346E+00   0.000000E+00

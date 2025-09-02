@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Ho165(n,n'_01)Ho166 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Meadows
 #   year: 1971
 #   subentry: 10034065
 #   X4 reaction: 67-HO-165(N,INL)67-HO-165,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/10034065
-#   level energy [MeV]  9.89000E-02
-# target:
+#   level energy [MeV]:  9.89000E-02
+# target: 
 #   Z: 67
 #   A: 165
 #   nuclide: Ho165
-# reaction:
+# reaction: 
 #   type: (n,n'_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 51
@@ -25,14 +25,15 @@
 #     energy [MeV]:  9.470000E-02
 #     spin:  4.500000E+00
 #     parity: -1
-# residual:
-#   Z: 67
-#   A: 166
-#   nuclide: Ho166
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 52
+#   residual: 
+#     Z: 67
+#     A: 166
+#     nuclide: Ho166
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 52
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.200000E-01   2.000000E-02   9.520000E+02   2.030000E+02   1.000000E+00
@@ -91,20 +92,3 @@
 #   author: J.MEADOWS,A.B.SMITH,J.WHALEN,T.D.BEYNON
 #   title: Fast neutron total and scattering cross sections of  Ho-165.
 #   journal: Jour: Zeitschrift fuer Physik, Vol.243, p.171 (1971)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  4.200000E-01
-#   E-max [MeV]:  1.300000E+00
-#   F-value:  1.180858E+00
-#   A-value:  9.017382E-01
-#   chi-2:  1.298922E+00
-#   p-value:  2.471679E-01
-#   exp. data sets for p-value:      2
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.188940E+00   9.065815E-01   1.430239E+00
-# endfb8.0      1.122919E+00   9.361010E-01   8.085064E-01
-# jeff3.3       1.122919E+00   9.361010E-01   8.085064E-01
-# jendl5.0      1.143114E+00   9.224700E-01   9.841782E-01
-# cendl3.2      1.286482E+00   8.135756E-01   2.463179E+00

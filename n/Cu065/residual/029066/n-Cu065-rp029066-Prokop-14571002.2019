@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Cu65(n,x)Cu66 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Prokop
 #   year: 2019
 #   subentry: 14571002
 #   X4 reaction: 29-CU-65(N,G)29-CU-66,,SIG,,TTA
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/14571002
-# target:
+# target: 
 #   Z: 29
 #   A: 65
 #   nuclide: Cu65
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 29
-#   A: 66
-#   nuclide: Cu66
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 264
+#   residual: 
+#     Z: 29
+#     A: 66
+#     nuclide: Cu66
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 264
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.010000E-06   0.000000E+00   1.359000E+02   1.215071E+01   1.000000E+00
@@ -297,17 +298,3 @@
 #   author: C.J.Prokop,A.Couture,S.Jones,S.Mosby,G.Rusev, J.Ullmann,M.Krticka
 #   title: Measurement of the 65Cu(n,gamma) cross section using the Detector for Advanced Neutron Capture Experiments at LANL
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.99, p.055809 (2019)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  1.010000E-06
-#   E-max [MeV]:  9.331000E-01
-#   F-value:  7.595068E+00
-#   A-value:  1.344801E+00
-#   chi-2:  1.447901E+06
-#   p-value:  1.427437E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    7.490886E+00   1.397766E+00   5.704634E+05
-# jendl5.0      7.699976E+00   1.293844E+00   2.325338E+06

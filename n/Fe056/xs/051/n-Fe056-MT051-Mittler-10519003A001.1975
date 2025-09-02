@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Fe56(n,n'_01)Fe57 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Mittler
 #   year: 1975
 #   subentry: 10519003
 #   X4 reaction: 26-FE-56(N,INL)26-FE-56,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/10519003
-#   level energy [MeV]  8.47000E-01
-# target:
+#   level energy [MeV]:  8.47000E-01
+# target: 
 #   Z: 26
 #   A: 56
 #   nuclide: Fe56
-# reaction:
+# reaction: 
 #   type: (n,n'_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 51
@@ -25,14 +25,15 @@
 #     energy [MeV]:  8.467780E-01
 #     spin:  2.000000E+00
 #     parity: 1
-# residual:
-#   Z: 26
-#   A: 57
-#   nuclide: Fe57
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 36
+#   residual: 
+#     Z: 26
+#     A: 57
+#     nuclide: Fe57
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 36
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    8.780000E-01   0.000000E+00   1.020000E+02   1.200000E+01   1.000000E+00
@@ -75,20 +76,3 @@
 #   author: A.Mittler,J.Nardini,G.P.Couchell
 #   title: Measurements of neutron inelastic scattering cross  sections for natural iron.
 #   journal: Thesis: Nardini (1975)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  8.780000E-01
-#   E-max [MeV]:  3.962000E+00
-#   F-value:  1.453461E+00
-#   A-value:  1.032283E+00
-#   chi-2:  3.810341E+01
-#   p-value:  3.374155E-01
-#   exp. data sets for p-value:      8
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.330324E+00   1.001563E+00   1.233496E+01
-# endfb8.0      1.567710E+00   1.154995E+00   7.128677E+01
-# jeff3.3       1.393392E+00   1.058492E+00   2.303717E+01
-# jendl5.0      1.402323E+00   1.062628E+00   2.177832E+01
-# cendl3.2      1.548430E+00   9.008779E-01   6.207988E+01

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Pu240(n,x)Pu241 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Lounsbury
 #   year: 1970
 #   subentry: 10013008
 #   X4 reaction: 94-PU-240(N,G)94-PU-241,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/10013008
-# target:
+# target: 
 #   Z: 94
 #   A: 240
 #   nuclide: Pu240
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 94
-#   A: 241
-#   nuclide: Pu241
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 94
+#     A: 241
+#     nuclide: Pu241
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.530000E-08   0.000000E+00   2.895000E+05   1.400000E+03   1.000000E+00
@@ -34,17 +35,3 @@
 #   author: M.Lounsbury, R.W.Durham, G.C.Hanna
 #   title: Measurements of alpha and of fission cross-section  ratios for 233U, 235U and 239Pu at thermal energies
 #   journal: Conf: Nuclear Data for Reactors Conf., Helsinki 1970, Vol.1, p.287 (1970
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  2.530000E-08
-#   E-max [MeV]:  2.530000E-08
-#   F-value:  1.000098E+00
-#   A-value:  9.999261E-01
-#   chi-2:  1.925505E-02
-#   p-value:  2.094791E-01
-#   exp. data sets for p-value:      4
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.000009E+00   9.999909E-01   2.359184E-03
-# jendl5.0      1.000139E+00   9.998614E-01   3.615091E-02

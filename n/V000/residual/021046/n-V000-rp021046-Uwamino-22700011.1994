@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: V0(n,x)Sc46 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Uwamino
 #   year: 1994
 #   subentry: 22700011
 #   X4 reaction: 23-V-0(N,X)21-SC-46,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22700011
-# target:
+# target: 
 #   Z: 23
 #   A: 0
 #   nuclide: V0
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 21
-#   A: 46
-#   nuclide: Sc46
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 21
+#   residual: 
+#     Z: 21
+#     A: 46
+#     nuclide: Sc46
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 21
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.850000E+01   0.000000E+00   5.456000E-01   2.650000E-01   1.000000E+00
@@ -54,18 +55,3 @@
 #   author: Y.UWAMINO,H.SUGITA,Y.KONDO,T.NAKAMURA
 #   title: Measurement of neutron activation cross sections for energies up to 40 MeV for natural samples of Mg, Si, Ca, V, Cr, Cu and Zn
 #   journal: Jour: Jour. of Nuclear Science and Technology, Vol.31, p.1 (1994)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  1.850000E+01
-#   E-max [MeV]:  3.850000E+01
-#   F-value:  6.735918E+00
-#   A-value:  3.623761E-01
-#   chi-2:  7.632542E+00
-#   p-value:  9.403320E-02
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    7.377243E+00   3.757986E-01   9.023177E+00
-# jeff3.3       7.257787E+00   4.152355E-01   1.161742E+01
-# jendl5.0      5.640683E+00   3.049503E-01   2.257026E+00

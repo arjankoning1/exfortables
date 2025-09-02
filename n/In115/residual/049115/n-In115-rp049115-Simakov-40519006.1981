@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: In115(n,x)In115 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Simakov
 #   year: 1981
 #   subentry: 40519006
 #   X4 reaction: 49-IN-115(N,INL)49-IN-115,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/40519006
-# target:
+# target: 
 #   Z: 49
 #   A: 115
 #   nuclide: In115
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 49
-#   A: 115
-#   nuclide: In115
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 4
+#   residual: 
+#     Z: 49
+#     A: 115
+#     nuclide: In115
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    5.190000E+00   0.000000E+00   2.440000E+03   1.600000E+02   1.000000E+00
@@ -37,17 +38,3 @@
 #   author: S.P.Simakov,G.N.Lovchikova,O.A.Sal'nikov, A.M.Trufanov,G.V.Kotel'nikova,N.N.Shchadin, V.Pilz,H.Foertsch,D.Streil
 #   title: Cross sections of fast-neutron elastic and inelastic  scattering on indium isotopes.
 #   journal: Jour: Atomnaya Energiya, Vol.51, p.244 (1981)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  5.190000E+00
-#   E-max [MeV]:  8.530000E+00
-#   F-value:  1.278718E+00
-#   A-value:  8.184776E-01
-#   chi-2:  9.898791E+00
-#   p-value:  3.306863E-01
-#   exp. data sets for p-value:      2
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.393947E+00   7.202770E-01   1.759008E+01
-# jendl5.0      1.108314E+00   9.300665E-01   2.207503E+00

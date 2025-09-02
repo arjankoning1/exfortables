@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: C12(p,x)B10 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Clegg
 #   year: 1961
 #   subentry: O2067022
 #   X4 reaction: 6-C-12(P,X)5-B-10,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/O2067022
-# target:
+# target: 
 #   Z: 6
 #   A: 12
 #   nuclide: C12
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 5
-#   A: 10
-#   nuclide: B10
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 4
+#   residual: 
+#     Z: 5
+#     A: 10
+#     nuclide: B10
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.330000E+02   0.000000E+00   1.500000E+00   5.500000E-01   1.000000E+00
@@ -37,18 +38,3 @@
 #   author: A.B.Clegg, K.J.Foley, G.L.Salmon, R.E.Segel
 #   title: Gamma radiation from the medium energy proton bombardment of lithium, beryllium, boron, carbon and nitrogen.
 #   journal: Jour: Proceedings of the Physical Society (London),, Vol.78, p.681 (1961
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  1.330000E+02
-#   E-max [MeV]:  1.430000E+02
-#   F-value:  1.422121E+01
-#   A-value:  1.391840E+01
-#   chi-2:  1.842902E+03
-#   p-value:  0.000000E+00
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.144658E+01   1.137073E+01   9.768649E+02
-# endfb8.0      1.144658E+01   1.137073E+01   9.768649E+02
-# jendl5.0      2.096224E+01   2.085413E+01   3.574978E+03

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Na23(n,2n)Na22 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Sigg
 #   year: 1976
 #   subentry: 10776015
 #   X4 reaction: 11-NA-23(N,2N)11-NA-22,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/10776015
-# target:
+# target: 
 #   Z: 11
 #   A: 23
 #   nuclide: Na23
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 11
-#   A: 22
-#   nuclide: Na22
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 11
+#     A: 22
+#     nuclide: Na22
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.460000E+01   0.000000E+00   2.695173E+01   3.981100E+00   9.982123E-01
@@ -34,21 +35,3 @@
 #   author: R.A.Sigg
 #   title: Fast neutron induced reaction cross-sections and their  systematics
 #   journal: Thesis: Sigg (1976)
-# statistics:
-#   NEA score: T2
-#   IAEA score:  1
-#   E-min [MeV]:  1.460000E+01
-#   E-max [MeV]:  1.460000E+01
-#   F-value:  1.377652E+00
-#   A-value:  1.282809E+00
-#   chi-2:  8.405538E+00
-#   p-value:  7.542812E-02
-#   exp. data sets for p-value:      8
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.156619E+00   1.156619E+00   1.714954E+00
-# endfb8.0      1.867138E+00   1.867138E+00   3.446226E+01
-# jeff3.3       1.462180E+00   1.462180E+00   9.823991E+00
-# jendl5.0      1.000085E+00   1.000085E+00   7.219140E-04
-# cendl3.2      1.216881E+00   1.216881E+00   2.673540E+00
-# irdff2.0      1.159627E+00   1.159627E+00   1.757764E+00

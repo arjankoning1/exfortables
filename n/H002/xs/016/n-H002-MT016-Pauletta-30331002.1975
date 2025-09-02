@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: H2(n,2n)H1 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Pauletta
 #   year: 1975
 #   subentry: 30331002
 #   X4 reaction: 1-H-2(N,2N)1-H-1,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30331002
-# target:
+# target: 
 #   Z: 1
 #   A: 2
 #   nuclide: H2
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 1
-#   A: 1
-#   nuclide: H1
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 11
+#   residual: 
+#     Z: 1
+#     A: 1
+#     nuclide: H1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 11
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    8.200000E+00   0.000000E+00   1.030000E+02   1.000000E+01   1.000000E+00
@@ -44,19 +45,3 @@
 #   author: G.Pauletta,F.D.Brooks
 #   title: Cross-sections for the n+d breakup reaction
 #   journal: Jour: Nuclear Physics, Section A, Vol.255, p.267 (1975)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  8.200000E+00
-#   E-max [MeV]:  2.200000E+01
-#   F-value:  1.063947E+00
-#   A-value:  9.729629E-01
-#   chi-2:  8.952529E-01
-#   p-value:  2.852502E-01
-#   exp. data sets for p-value:      3
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.079544E+00   9.761304E-01   1.213172E+00
-# endfb8.0      1.045118E+00   9.677576E-01   6.173033E-01
-# jeff3.3       1.079544E+00   9.761304E-01   1.213172E+00
-# cendl3.2      1.036354E+00   9.804002E-01   4.441068E-01

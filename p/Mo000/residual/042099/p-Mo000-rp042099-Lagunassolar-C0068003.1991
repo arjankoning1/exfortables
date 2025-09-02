@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Mo0(p,x)Mo99 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Lagunassolar
 #   year: 1991
 #   subentry: C0068003
 #   X4 reaction: 42-MO-0(P,X)42-MO-99,CUM,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/C0068003
-# target:
+# target: 
 #   Z: 42
 #   A: 0
 #   nuclide: Mo0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 42
-#   A: 99
-#   nuclide: Mo99
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 50
+#   residual: 
+#     Z: 42
+#     A: 99
+#     nuclide: Mo99
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 50
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    9.100000E+00   2.730000E-01   1.000000E+00   9.000000E-02   1.000000E+00
@@ -83,17 +84,3 @@
 #   author: M.C.Lagunas-Solar,P.M.Kiefer,O.F.Carvacho,C.A.Lagunas, Ya Po Cha
 #   title: Cyclotron production of NCA 99mTc and 99Mo.  An  alternative non-reactor supply source of instant  99mTc and 99Mo-99mTc generators
 #   journal: Jour: Applied Radiation and Isotopes, Vol.42, p.643 (1991)
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  9.100000E+00
-#   E-max [MeV]:  6.710000E+01
-#   F-value:  6.295996E+00
-#   A-value:  1.686755E-01
-#   chi-2:  8.337270E+01
-#   p-value:  6.626461E-02
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    5.566705E+00   1.943973E-01   7.796673E+01
-# jendl5.0      7.065958E+00   1.463571E-01   8.877867E+01

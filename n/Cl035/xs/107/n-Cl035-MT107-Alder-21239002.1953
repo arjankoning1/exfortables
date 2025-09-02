@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Cl35(n,a)P32 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Alder
 #   year: 1953
 #   subentry: 21239002
 #   X4 reaction: 17-CL-35(N,A)15-P-32,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/21239002
-# target:
+# target: 
 #   Z: 17
 #   A: 35
 #   nuclide: Cl35
-# reaction:
+# reaction: 
 #   type: (n,a)
 #   ENDF_MF: 3
 #   ENDF_MT: 107
-# residual:
-#   Z: 15
-#   A: 32
-#   nuclide: P32
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 10
+#   residual: 
+#     Z: 15
+#     A: 32
+#     nuclide: P32
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.000000E+00   1.500000E-01   1.200000E+01   1.000000E+00   1.000000E+00
@@ -43,19 +44,3 @@
 #   author: H.ALDER,P.HUBER,W.HAELG
 #   title: -CROSS SECTION AND Q-VALUE OF THE CL-35(N,ALPHA)-  REACTION.- (IN GERMAN).
 #   journal: Jour: Helvetica Physica Acta, Vol.26, p.349 (1953)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  3.000000E+00
-#   E-max [MeV]:  4.080000E+00
-#   F-value:  1.090311E+00
-#   A-value:  1.055594E+00
-#   chi-2:  1.983746E+00
-#   p-value:  2.822850E-01
-#   exp. data sets for p-value:      2
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.112113E+00   1.076931E+00   2.989904E+00
-# endfb8.0      1.088996E+00   1.063916E+00   1.923897E+00
-# jeff3.3       1.088996E+00   1.063916E+00   1.923897E+00
-# jendl5.0      1.065913E+00   1.018555E+00   1.097287E+00

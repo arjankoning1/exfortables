@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ni0(p,x)Sc44 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Titarenko
 #   year: 2011
 #   subentry: A0906042
 #   X4 reaction: 28-NI-0(P,X)21-SC-44,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/A0906042
-# target:
+# target: 
 #   Z: 28
 #   A: 0
 #   nuclide: Ni0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 21
-#   A: 44
-#   nuclide: Sc44
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 9
+#   residual: 
+#     Z: 21
+#     A: 44
+#     nuclide: Sc44
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 9
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    9.700000E+01   1.000000E+00   5.390000E-01   5.800000E-02   1.000000E+00
@@ -42,17 +43,3 @@
 #   author: Yu.E.Titarenko, V.F.Batyaev, A.Yu.Titarenko, M.A.Butko, K.V.Pavlov, S.N.Florya, R.S.Tikhonov, V.M.Zhivun, A.V.Ignatyuk, S.G.Mashnik, S.Leray, A.Boudard, J.Cugnon, D.Mancusi, Y.Yariv, K.Nishihara, N.Matsuda, H.Kumawat, G.Mank, W.Gudowski
 #   title: Measurement and simulation of the cross sections for nuclide production in Nb-93 and Ni-nat targets irradiated with 0.04- to 2.6-GeV protons.
 #   journal: Jour: Yadernaya Fizika, Vol.74, p.561 (2011)
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  9.700000E+01
-#   E-max [MeV]:  2.605000E+03
-#   F-value:  7.049103E+00
-#   A-value:  1.938333E-01
-#   chi-2:  4.892984E+01
-#   p-value:  1.910249E-02
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.192174E+01   1.193514E-01   5.677399E+01
-# jendl5.0      3.382956E+00   3.147962E-01   4.108570E+01

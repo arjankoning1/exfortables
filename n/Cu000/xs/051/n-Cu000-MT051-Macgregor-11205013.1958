@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Cu0(n,n'_01)Cu1 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Macgregor
 #   year: 1958
 #   subentry: 11205013
 #   X4 reaction: 29-CU-0(N,INL),PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/11205013
-#   level energy [MeV]  1.15000E+01
-# target:
+#   level energy [MeV]:  1.15000E+01
+# target: 
 #   Z: 29
 #   A: 0
 #   nuclide: Cu0
-# reaction:
+# reaction: 
 #   type: (n,n'_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 51
@@ -25,14 +25,15 @@
 #     energy [MeV]:  1.146900E+01
 #     spin:  2.500000E+00
 #     parity: 1
-# residual:
-#   Z: 29
-#   A: 1
-#   nuclide: Cu1
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 29
+#     A: 1
+#     nuclide: Cu1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.420000E+01   0.000000E+00   1.200000E+02   4.000000E+01   1.000000E+00
@@ -40,20 +41,3 @@
 #   author: M.H.MAC GREGOR
 #   title: DIRECT INTERACTION NEUTRONS FROM 14-MEV INELASTIC NEUTRON SCATTERING
 #   journal: Conf: Nucl. Phys. Congress, Paris 1958, p.609 (1958)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  1.420000E+01
-#   E-max [MeV]:  1.420000E+01
-#   F-value:  3.291236E+01
-#   A-value:  3.555542E-02
-#   chi-2:  8.144748E+00
-#   p-value:  3.576279E-07
-#   exp. data sets for p-value:      8
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    5.787081E+01   1.727987E-02   8.745845E+00
-# endfb8.0      1.468568E+02   6.809355E-03   8.927925E+00
-# jeff3.3       1.843881E+01   5.423343E-02   8.121176E+00
-# jendl5.0      9.333650E+00   1.071392E-01   7.276134E+00
-# cendl3.2      1.203185E+01   8.311272E-02   7.652657E+00

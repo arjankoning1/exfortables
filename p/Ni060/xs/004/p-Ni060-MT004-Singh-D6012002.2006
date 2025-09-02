@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ni60(p,n')Cu60 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Singh
 #   year: 2006
 #   subentry: D6012002
 #   X4 reaction: 28-NI-60(P,N)29-CU-60,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/D6012002
-# target:
+# target: 
 #   Z: 28
 #   A: 60
 #   nuclide: Ni60
-# reaction:
+# reaction: 
 #   type: (p,n')
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 29
-#   A: 60
-#   nuclide: Cu60
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 6
+#   residual: 
+#     Z: 29
+#     A: 60
+#     nuclide: Cu60
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    7.098700E+00   5.785100E-01   1.844100E+00   2.737500E-01   1.000000E+00
@@ -39,18 +40,3 @@
 #   author: B.P.Singh, Manoj K.Sharma, M.M.Musthafa, H.D.Bhardwaj,  R.Prasad
 #   title: A study of pre-equilibrium emission in some proton-  and alpha-induced reactions
 #   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.A, Vol.562, p.717 (20
-# statistics:
-#   NEA score: R3
-#   IAEA score:  1
-#   E-min [MeV]:  7.098700E+00
-#   E-max [MeV]:  1.504700E+01
-#   F-value:  2.262637E+00
-#   A-value:  1.300600E+00
-#   chi-2:  2.179666E+02
-#   p-value:  2.081785E-01
-#   exp. data sets for p-value:      2
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    2.184503E+00   1.502007E+00   2.166840E+02
-# endfb8.0      1.616896E+00   6.551787E-01   6.572452E+00
-# jendl5.0      1.335703E+00   1.156313E+00   1.001226E+01

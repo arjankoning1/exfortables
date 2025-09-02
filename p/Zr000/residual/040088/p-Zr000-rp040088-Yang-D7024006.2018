@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Zr0(p,x)Zr88 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Yang
 #   year: 2018
 #   subentry: D7024006
 #   X4 reaction: 40-ZR-0(P,X)40-ZR-88,CUM,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/D7024006
-# target:
+# target: 
 #   Z: 40
 #   A: 0
 #   nuclide: Zr0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 40
-#   A: 88
-#   nuclide: Zr88
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 23
+#   residual: 
+#     Z: 40
+#     A: 88
+#     nuclide: Zr88
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 23
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.570000E+01   5.000000E-01   2.278700E+02   1.463064E+01   1.000044E+00
@@ -56,17 +57,3 @@
 #   author: S.C.Yang, M.H.Jung, G.N.Kim, Y.O.Lee
 #   title: Measurement of production cross sections in proton induced reactions on natural zirconium
 #   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.436, p.179 (20
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  3.570000E+01
-#   E-max [MeV]:  6.660000E+01
-#   F-value:  1.225265E+00
-#   A-value:  8.531175E-01
-#   chi-2:  8.999991E+00
-#   p-value:  2.352324E-01
-#   exp. data sets for p-value:      4
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.277625E+00   8.098270E-01   1.251499E+01
-# jendl5.0      1.161910E+00   8.987221E-01   5.484996E+00

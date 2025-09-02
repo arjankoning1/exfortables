@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: N14(n,x)N13 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Brill
 #   year: 1961
 #   subentry: 40715003
 #   X4 reaction: 7-N-14(N,2N)7-N-13,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/40715003
-# target:
+# target: 
 #   Z: 7
 #   A: 14
 #   nuclide: N14
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 7
-#   A: 13
-#   nuclide: N13
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 12
+#   residual: 
+#     Z: 7
+#     A: 13
+#     nuclide: N13
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 12
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.200000E+01   0.000000E+00   3.000000E-01   5.000000E-01   1.000000E+00
@@ -45,19 +46,3 @@
 #   author: O.D.BRILL,N.A.VLASOV,S.P.KALININ,L.S.SOKOLOV
 #   title: CROSS SECTION OF THE (N,2N) REACTION IN C12,N14,O16  AND F19 IN THE ENERGY INTERVAL 10-37MEV.
 #   journal: Jour: Doklady Akademii Nauk, Vol.136, Issue.1, p.55 (1961)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.200000E+01
-#   E-max [MeV]:  3.750000E+01
-#   F-value:  1.473524E+00
-#   A-value:  9.912991E-01
-#   chi-2:  1.889726E+00
-#   p-value:  2.006306E-01
-#   exp. data sets for p-value:      1
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.470641E+00   9.623647E-01   1.952861E+00
-# endfb8.0      1.470641E+00   9.623647E-01   1.952861E+00
-# jeff3.3       1.470641E+00   9.623647E-01   1.952861E+00
-# jendl5.0      1.482120E+00   1.083427E+00   1.700321E+00

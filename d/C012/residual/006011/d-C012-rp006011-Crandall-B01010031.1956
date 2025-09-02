@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: C12(d,x)C11 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Crandall
 #   year: 1956
 #   subentry: B01010031
 #   X4 reaction: 6-C-12(D,X)6-C-11,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/B01010031
-# target:
+# target: 
 #   Z: 6
 #   A: 12
 #   nuclide: C12
-# reaction:
+# reaction: 
 #   type: (d,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 6
-#   A: 11
-#   nuclide: C11
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 9
+#   residual: 
+#     Z: 6
+#     A: 11
+#     nuclide: C11
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 9
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    8.500000E+01   0.000000E+00   5.690001E+01   1.800000E+00   1.000000E+00
@@ -42,16 +43,3 @@
 #   author: W.E.Crandall, G.P.Millburn, R.V.Pyle, W.Birnbaum
 #   title: 12C(x,xn)11C and 27Al(x,x2pn)24Na cross sections at  high energies
 #   journal: Jour: Physical Review, Vol.101, p.329 (1956)
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  8.500000E+01
-#   E-max [MeV]:  1.900000E+02
-#   F-value:  4.960818E+00
-#   A-value:  2.307563E-01
-#   chi-2:  2.724696E+03
-#   p-value:  2.505772E-01
-#   exp. data sets for p-value:      2
-#   libraries:      1
-##  Library          F              A            chi-2
-# tendl.2023    4.960818E+00   2.307563E-01   2.724696E+03

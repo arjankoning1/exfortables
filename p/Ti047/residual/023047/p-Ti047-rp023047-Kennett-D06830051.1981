@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ti47(p,x)V47 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Kennett
 #   year: 1981
 #   subentry: D06830051
 #   X4 reaction: 22-TI-47(P,N)23-V-47,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/D06830051
-# target:
+# target: 
 #   Z: 22
 #   A: 47
 #   nuclide: Ti47
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 23
-#   A: 47
-#   nuclide: V47
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 16
+#   residual: 
+#     Z: 23
+#     A: 47
+#     nuclide: V47
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 16
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.800000E+00   0.000000E+00   3.617000E+00   1.927000E+00   1.000000E+00
@@ -49,17 +50,3 @@
 #   author: S.R.Kennett, L.W.Mitchell, M.R.Anderson, D.G.Sargood
 #   title: Cross-section measurements and thermonuclear reaction  rates for 46Ti(p,g)47V, 47Ti(p,g)48V, 47Ti(p,n)47V  and 48Ti(p,g)49V
 #   journal: Jour: Nuclear Physics, Section A, Vol.368, p.337 (1981)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  3.800000E+00
-#   E-max [MeV]:  4.400000E+00
-#   F-value:  1.256311E+00
-#   A-value:  8.890716E-01
-#   chi-2:  8.745580E-01
-#   p-value:  1.958693E-01
-#   exp. data sets for p-value:      2
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.207740E+00   9.234911E-01   8.745580E-01
-# jendl5.0      1.336501E+00   7.572402E-01   0.000000E+00

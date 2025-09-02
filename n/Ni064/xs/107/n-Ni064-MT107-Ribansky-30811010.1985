@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ni64(n,a)Fe61 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Ribansky
 #   year: 1985
 #   subentry: 30811010
 #   X4 reaction: 28-NI-64(N,A)26-FE-61,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30811010
-# target:
+# target: 
 #   Z: 28
 #   A: 64
 #   nuclide: Ni64
-# reaction:
+# reaction: 
 #   type: (n,a)
 #   ENDF_MF: 3
 #   ENDF_MT: 107
-# residual:
-#   Z: 26
-#   A: 61
-#   nuclide: Fe61
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 26
+#     A: 61
+#     nuclide: Fe61
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.480000E+01   2.500000E-01   4.256300E+00   1.591000E-01   9.944549E-01
@@ -34,20 +35,3 @@
 #   author: I.Ribansky,J.Kristiak,L.Stoeva,C.Panteleev
 #   title: Neutron activation cross section for Ni isotopes at 14.8 MeV
 #   journal: Jour: Czech.J.of Physics, Part B, Vol.35, p.1128 (1985)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.480000E+01
-#   E-max [MeV]:  1.480000E+01
-#   F-value:  1.575776E+00
-#   A-value:  1.493731E+00
-#   chi-2:  2.898548E+02
-#   p-value:  1.793618E-01
-#   exp. data sets for p-value:      7
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.387078E+00   1.387078E+00   1.072309E+02
-# endfb8.0      1.226078E+00   1.226078E+00   3.657984E+01
-# jeff3.3       2.167799E+00   2.167799E+00   9.760228E+02
-# jendl5.0      1.231670E+00   1.231670E+00   3.841155E+01
-# cendl3.2      1.637685E+00   1.637685E+00   2.910289E+02

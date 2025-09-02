@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Fe56(n,x)Mn56 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Grundl
 #   year: 1967
 #   subentry: 10417007
 #   X4 reaction: 26-FE-56(N,P)25-MN-56,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/10417007
-# target:
+# target: 
 #   Z: 26
 #   A: 56
 #   nuclide: Fe56
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 25
-#   A: 56
-#   nuclide: Mn56
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 9
+#   residual: 
+#     Z: 25
+#     A: 56
+#     nuclide: Mn56
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 9
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.950000E+00   1.700000E-01   5.000000E-02   4.500000E-02   1.000000E+00
@@ -42,18 +43,3 @@
 #   author: J.A.Grundl
 #   title: A Study of Fission-Neutron Spectra with High-Energy  Activation Detectors - Part 1. DEtector Development  and Excitation Measurements
 #   journal: Jour: Nuclear Science and Engineering, Vol.30, p.39 (1967)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  3.950000E+00
-#   E-max [MeV]:  1.410000E+01
-#   F-value:  1.850406E+00
-#   A-value:  7.669531E-01
-#   chi-2:  3.165290E+00
-#   p-value:  3.192319E-01
-#   exp. data sets for p-value:      5
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.699478E+00   7.726238E-01   1.988240E+00
-# jeff3.3       1.718341E+00   8.234013E-01   2.133657E+00
-# jendl5.0      1.971443E+00   7.836077E-01   5.489361E+00

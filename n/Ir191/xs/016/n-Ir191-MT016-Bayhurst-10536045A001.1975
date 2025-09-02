@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: Ir191(n,2n)Ir190+ cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Bayhurst
 #   year: 1975
 #   subentry: 10536045
 #   X4 reaction: 77-IR-191(N,2N)77-IR-190-G+M1,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/10536045
-# target:
+# target: 
 #   Z: 77
 #   A: 191
 #   nuclide: Ir191
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 77
-#   A: 190
-#   nuclide: Ir190+
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 9
+#   residual: 
+#     Z: 77
+#     A: 190
+#     nuclide: Ir190+
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 9
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    8.640000E+00   2.600000E-01   1.770341E+02   8.657399E+00   9.467062E-01
@@ -47,19 +48,3 @@
 #   author: B.P.Bayhurst,J.S.Gilmore,R.J.Prestwood,J.B.Wilhelmy, N.Jarmie,B.H.Erkkila,R.A.Hardekopf
 #   title: Cross sections for (n,xn) reactions between 7.5 and  28 MeV
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.12, p.451 (1975)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  8.640000E+00
-#   E-max [MeV]:  2.448000E+01
-#   F-value:  1.213700E+00
-#   A-value:  1.133735E+00
-#   chi-2:  2.842355E+01
-#   p-value:  3.371916E-01
-#   exp. data sets for p-value:      2
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.217264E+00   1.180925E+00   2.682274E+01
-# endfb8.0      1.073618E+00   1.059571E+00   2.440167E+00
-# jeff3.3       1.073618E+00   1.059571E+00   2.440167E+00
-# jendl5.0      1.330046E+00   1.165292E+00   6.434607E+01

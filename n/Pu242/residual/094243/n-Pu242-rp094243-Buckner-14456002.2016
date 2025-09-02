@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Pu242(n,x)Pu243 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Buckner
 #   year: 2016
 #   subentry: 14456002
 #   X4 reaction: 94-PU-242(N,G)94-PU-243,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/14456002
-# target:
+# target: 
 #   Z: 94
 #   A: 242
 #   nuclide: Pu242
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 94
-#   A: 243
-#   nuclide: Pu243
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 354
+#   residual: 
+#     Z: 94
+#     A: 243
+#     nuclide: Pu243
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 354
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.773200E-08   0.000000E+00   1.686782E+04   2.084656E+03   1.000000E+00
@@ -387,17 +388,3 @@
 #   author: M.Q.Buckner,C.Y.Wu,R.A.Henderson,B.Bucher,A.Chyzh, T.A.Bredeweg,B.Baramsai,A.Couture,M.Jandel,S.Mosby, J.M.O'Donnell,J.L.Ullmann
 #   title: Absolute measurement of the 242Pu neutron-capture cross section
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.93, p.044613 (2016)
-# statistics:
-#   NEA score: T3
-#   IAEA score:  1
-#   E-min [MeV]:  2.773200E-08
-#   E-max [MeV]:  3.623406E-02
-#   F-value:  1.124297E+01
-#   A-value:  2.106814E-01
-#   chi-2:  2.411218E+02
-#   p-value:  8.197215E-02
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.174018E+01   2.010930E-01   2.712556E+02
-# jendl5.0      1.075834E+01   2.207275E-01   2.109881E+02

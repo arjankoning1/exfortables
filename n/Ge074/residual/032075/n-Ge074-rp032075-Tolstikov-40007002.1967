@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ge74(n,x)Ge75 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Tolstikov
 #   year: 1967
 #   subentry: 40007002
 #   X4 reaction: 32-GE-74(N,G)32-GE-75,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/40007002
-# target:
+# target: 
 #   Z: 32
 #   A: 74
 #   nuclide: Ge74
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 32
-#   A: 75
-#   nuclide: Ge75
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 31
+#   residual: 
+#     Z: 32
+#     A: 75
+#     nuclide: Ge75
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 31
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    8.600000E-03   2.600000E-03   8.200000E+01   3.739200E+01   1.000000E+00
@@ -64,18 +65,3 @@
 #   author: V.A.Tolstikov,V.P.Koroleva,V.E.Kolesov,A.G.Dovbenko
 #   title: Cross-sections for the radiative capture of fast  neutrons by Ge-74, Cs-133 and Os-192
 #   journal: Jour: Atomnaya Energiya, Vol.23, p.566 (1967)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  8.600000E-03
-#   E-max [MeV]:  3.128000E+00
-#   F-value:  2.402556E+00
-#   A-value:  8.240245E-01
-#   chi-2:  4.079363E+00
-#   p-value:  3.710197E-01
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    3.096903E+00   8.256568E-01   6.144621E+00
-# jeff3.3       2.738841E+00   6.935057E-01   5.870564E+00
-# jendl5.0      1.115748E+00   9.771715E-01   2.229020E-01

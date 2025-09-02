@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Mg26(n,x)Ne23 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Hyvoenendabek
 #   year: 1978
 #   subentry: 21886004
 #   X4 reaction: 12-MG-26(N,A)10-NE-23,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/21886004
-# target:
+# target: 
 #   Z: 12
 #   A: 26
 #   nuclide: Mg26
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 107
-# residual:
-#   Z: 10
-#   A: 23
-#   nuclide: Ne23
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 10
+#     A: 23
+#     nuclide: Ne23
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.470000E+01   2.000000E-01   5.516718E+01   6.018200E+00   1.003040E+00
@@ -34,17 +35,3 @@
 #   author: M.HYVOENEN-DABEK,M.TARVAINEN,P.HOLMBERG
 #   title: -14 MEV NEUTRON CROSS SECTIONS ON MG, CL AND SR-
 #   journal: Jour: Journal of Radioanalytical Chemistry, Vol.46, p.357 (1978)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.470000E+01
-#   E-max [MeV]:  1.470000E+01
-#   F-value:  1.187411E+00
-#   A-value:  8.421682E-01
-#   chi-2:  2.617306E+00
-#   p-value:  2.336707E-01
-#   exp. data sets for p-value:      8
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.187411E+00   8.421682E-01   2.617306E+00
-# jendl5.0      0.000000E+00   0.000000E+00   0.000000E+00

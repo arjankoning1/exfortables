@@ -1,28 +1,29 @@
-# header:
+# header: 
 #   title: Mg0(n,non) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Pasechnik
 #   year: 1955
 #   subentry: 40381003
 #   X4 reaction: 12-MG-0(N,NON),,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/40381003
-# target:
+# target: 
 #   Z: 12
 #   A: 0
 #   nuclide: Mg0
-# reaction:
+# reaction: 
 #   type: (n,non)
 #   ENDF_MF: 3
 #   ENDF_MT: 3
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.100000E+00   0.000000E+00   7.800000E+02   2.000000E+02   1.000000E+00
@@ -30,17 +31,3 @@
 #   author: M.V.Pasechnik
 #   title: Inelastic scattering of fast neutrons by atomic nuclei
 #   journal: Conf: 1st UN Conf.Peaceful Uses Atomic Energy, Geneva 1955, Vol.2, p.3 (
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  4.100000E+00
-#   E-max [MeV]:  4.100000E+00
-#   F-value:  1.468514E+00
-#   A-value:  7.619541E-01
-#   chi-2:  1.568454E+00
-#   p-value:  2.484127E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.000325E+00   9.996752E-01   1.588059E-03
-# cendl3.2      1.721874E+00   5.807627E-01   3.135320E+00

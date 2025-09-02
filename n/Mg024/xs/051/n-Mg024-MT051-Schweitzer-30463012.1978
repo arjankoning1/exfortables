@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Mg24(n,n'_01)Mg25 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Schweitzer
 #   year: 1978
 #   subentry: 30463012
 #   X4 reaction: 12-MG-24(N,INL)12-MG-24,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30463012
-#   level energy [MeV]  1.36800E+00
-# target:
+#   level energy [MeV]:  1.36800E+00
+# target: 
 #   Z: 12
 #   A: 24
 #   nuclide: Mg24
-# reaction:
+# reaction: 
 #   type: (n,n'_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 51
@@ -25,14 +25,15 @@
 #     energy [MeV]:  1.368672E+00
 #     spin:  2.000000E+00
 #     parity: 1
-# residual:
-#   Z: 12
-#   A: 25
-#   nuclide: Mg25
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 12
+#     A: 25
+#     nuclide: Mg25
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.400000E+00   1.000000E-01   5.097001E+02   9.300000E+01   1.000000E+00
@@ -40,20 +41,3 @@
 #   author: Th.Schweitzer, D.Seeliger, S.Unholzer
 #   title: Elastic and inelastic scattering of 3.4 MeV neutrons  by 23Na, 24Mg, 27Al, 28Si, 31P-, 55Mn, 56Fe and 209Bi
 #   journal: Priv.Comm: Seeliger (1978)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  3.400000E+00
-#   E-max [MeV]:  3.400000E+00
-#   F-value:  1.418695E+00
-#   A-value:  1.380485E+00
-#   chi-2:  5.722107E+00
-#   p-value:  1.367170E-01
-#   exp. data sets for p-value:      2
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.353629E+00   1.353629E+00   4.100359E+00
-# endfb8.0      1.513707E+00   1.513707E+00   8.001364E+00
-# jeff3.3       1.513707E+00   1.513707E+00   8.001364E+00
-# jendl5.0      1.513707E+00   1.513707E+00   8.001364E+00
-# cendl3.2      1.067907E+00   1.067907E+00   5.060851E-01

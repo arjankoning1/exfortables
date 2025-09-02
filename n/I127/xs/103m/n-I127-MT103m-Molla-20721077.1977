@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: I127(n,p)Te127m cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Molla
 #   year: 1977
 #   subentry: 20721077
 #   X4 reaction: 53-I-127(N,P)52-TE-127-M,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20721077
-# target:
+# target: 
 #   Z: 53
 #   A: 127
 #   nuclide: I127
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 52
-#   A: 127
-#   nuclide: Te127m
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 52
+#     A: 127
+#     nuclide: Te127m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.470000E+01   3.000000E-01   8.000000E+00   1.600000E+00   1.000000E+00
@@ -39,19 +40,3 @@
 #   author: N.I.Molla,S.M.Qaim
 #   title: A systematic study of (n,p) reactions at 14.7 MeV
 #   journal: Jour: Nuclear Physics, Section A, Vol.283, p.269 (1977)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.470000E+01
-#   E-max [MeV]:  1.470000E+01
-#   F-value:  1.613935E+00
-#   A-value:  1.422769E+00
-#   chi-2:  1.330293E+01
-#   p-value:  4.161541E-01
-#   exp. data sets for p-value:      2
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.275024E+00   1.275024E+00   2.434566E+00
-# endfb8.0      1.420080E+00   1.420080E+00   4.691755E+00
-# jeff3.3       2.354005E+00   2.354005E+00   4.583323E+01
-# jendl5.0      1.040161E+00   9.613895E-01   2.521636E-01

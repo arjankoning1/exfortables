@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Fe0(h,x)Ni56 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Fulmer
 #   year: 1972
 #   subentry: C2345002
 #   X4 reaction: 26-FE-0(HE3,X)28-NI-56,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/C2345002
-# target:
+# target: 
 #   Z: 26
 #   A: 0
 #   nuclide: Fe0
-# reaction:
+# reaction: 
 #   type: (h,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 28
-#   A: 56
-#   nuclide: Ni56
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 10
+#   residual: 
+#     Z: 28
+#     A: 56
+#     nuclide: Ni56
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.318700E+01   5.000000E-01   1.120000E-01   0.000000E+00   1.000000E+00
@@ -43,16 +44,3 @@
 #   author: C.B.Fulmer,I.R.Williams,W.C.Palmer,G.Kindred
 #   title: Excitation Functions for Helion-Induced Reactions in Iron
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.6, p.1720 (1972)
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  1.318700E+01
-#   E-max [MeV]:  6.901500E+01
-#   F-value:  3.185350E+00
-#   A-value:  4.395636E-01
-#   chi-2:  0.000000E+00
-#   p-value:  2.460582E-01
-#   exp. data sets for p-value:      1
-#   libraries:      1
-##  Library          F              A            chi-2
-# tendl.2023    3.185350E+00   4.395636E-01   0.000000E+00

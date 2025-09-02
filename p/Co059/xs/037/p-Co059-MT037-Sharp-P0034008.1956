@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Co59(p,4n)Ni56 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Sharp
 #   year: 1956
 #   subentry: P0034008
 #   X4 reaction: 27-CO-59(P,4N)28-NI-56,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/P0034008
-# target:
+# target: 
 #   Z: 27
 #   A: 59
 #   nuclide: Co59
-# reaction:
+# reaction: 
 #   type: (p,4n)
 #   ENDF_MF: 3
 #   ENDF_MT: 37
-# residual:
-#   Z: 28
-#   A: 56
-#   nuclide: Ni56
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 21
+#   residual: 
+#     Z: 28
+#     A: 56
+#     nuclide: Ni56
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 21
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.860000E+01   0.000000E+00   7.400000E-02   0.000000E+00   1.000000E+00
@@ -54,17 +55,3 @@
 #   author: R.A.SHARP,R.M.DIAMOND,G.WILKINSON
 #   title: Nuclear Reactions of Cobalt with Protons from 0- to  100-MeV Energy
 #   journal: Jour: Physical Review, Vol.101, p.1493 (1956)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  3.860000E+01
-#   E-max [MeV]:  9.870000E+01
-#   F-value:  1.496193E+00
-#   A-value:  7.166552E-01
-#   chi-2:  0.000000E+00
-#   p-value:  2.982590E-01
-#   exp. data sets for p-value:      3
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.695955E+00   6.106184E-01   0.000000E+00
-# jendl5.0      1.238205E+00   8.411057E-01   0.000000E+00

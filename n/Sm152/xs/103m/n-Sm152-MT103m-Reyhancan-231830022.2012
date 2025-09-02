@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: Sm152(n,p)Pm152m cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Reyhancan
 #   year: 2012
 #   subentry: 231830022
 #   X4 reaction: 62-SM-152(N,P)61-PM-152-M1,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/231830022
-# target:
+# target: 
 #   Z: 62
 #   A: 152
 #   nuclide: Sm152
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 61
-#   A: 152
-#   nuclide: Pm152m
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 6
+#   residual: 
+#     Z: 61
+#     A: 152
+#     nuclide: Pm152m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.357000E+01   4.000000E-02   8.730800E-01   2.235900E-01   1.064736E+00
@@ -44,17 +45,3 @@
 #   author: I.A.Reyhancan
 #   title: Measurements and model calculations of activation cross sections for (n,p) reactions on Sm-152 isotope between 13.57 and 14.83 MeV neutrons.
 #   journal: Jour: Applied Radiation and Isotopes, Vol.70, p.765 (2012)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.357000E+01
-#   E-max [MeV]:  1.483000E+01
-#   F-value:  1.127788E+00
-#   A-value:  9.968252E-01
-#   chi-2:  4.700766E-01
-#   p-value:  3.542950E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.121315E+00   1.056706E+00   5.521682E-01
-# jeff3.3       1.133999E+00   9.403375E-01   3.879850E-01

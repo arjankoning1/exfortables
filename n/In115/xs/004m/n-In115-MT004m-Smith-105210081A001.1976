@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: In115(n,n')In115m cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Smith
 #   year: 1976
 #   subentry: 105210081
 #   X4 reaction: 49-IN-115(N,INL)49-IN-115-M,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/105210081
-# target:
+# target: 
 #   Z: 49
 #   A: 115
 #   nuclide: In115
-# reaction:
+# reaction: 
 #   type: (n,n')
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 49
-#   A: 115
-#   nuclide: In115m
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 16
+#   residual: 
+#     Z: 49
+#     A: 115
+#     nuclide: In115m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 16
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    5.063000E+00   3.294000E-01   3.580000E+02   2.153000E+01   1.000000E+00
@@ -54,18 +55,3 @@
 #   author: D.L.Smith,J.W.Meadows
 #   title: Fast Neutron Excitation of Isomeric States of Indium.
 #   journal: Jour: Nuclear Science and Engineering, Vol.60, p.319 (1976)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  5.063000E+00
-#   E-max [MeV]:  1.003000E+01
-#   F-value:  1.029866E+00
-#   A-value:  9.958771E-01
-#   chi-2:  5.152231E-01
-#   p-value:  3.135475E-01
-#   exp. data sets for p-value:      8
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.033438E+00   9.953464E-01   6.061549E-01
-# jendl5.0      1.021960E+00   9.962747E-01   3.414731E-01
-# irdff2.0      1.032845E+00   9.960105E-01   5.980414E-01

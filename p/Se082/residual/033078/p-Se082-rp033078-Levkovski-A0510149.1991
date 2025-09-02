@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Se82(p,x)As78 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Levkovski*0.82
 #   year: 1991
 #   subentry: A0510149
 #   X4 reaction: 34-SE-82(P,X)33-AS-78,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/A0510149
-# target:
+# target: 
 #   Z: 34
 #   A: 82
 #   nuclide: Se82
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 33
-#   A: 78
-#   nuclide: As78
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 10
+#   residual: 
+#     Z: 33
+#     A: 78
+#     nuclide: As78
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.140000E+01   0.000000E+00   3.129120E+00   3.816000E-01   7.631999E-01
@@ -43,17 +44,3 @@
 #   author: V.N.Levkovski
 #   title: Cross sections of medium mass nuclide activation  (A=40-100) by medium energy protons and alpha-particles (E=10-50 MeV)
 #   journal: Book: Levkovskij,Act.Cs.By Protons and Alphas,Moscow 1991,  (1991)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  2.140000E+01
-#   E-max [MeV]:  2.950000E+01
-#   F-value:  1.652141E+00
-#   A-value:  1.603007E+00
-#   chi-2:  3.221436E+01
-#   p-value:  1.782826E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.613265E+00   1.560353E+00   2.889731E+01
-# jendl5.0      1.690129E+00   1.646827E+00   3.553141E+01

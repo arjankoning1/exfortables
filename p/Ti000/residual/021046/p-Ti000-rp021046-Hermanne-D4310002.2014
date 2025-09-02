@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ti0(p,x)Sc46 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Hermanne
 #   year: 2014
 #   subentry: D4310002
 #   X4 reaction: 22-TI-0(P,X)21-SC-46,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/D4310002
-# target:
+# target: 
 #   Z: 22
 #   A: 0
 #   nuclide: Ti0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 21
-#   A: 46
-#   nuclide: Sc46
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 11
+#   residual: 
+#     Z: 21
+#     A: 46
+#     nuclide: Sc46
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 11
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.430000E+01   9.000000E-01   9.000000E-01   9.999999E-02   1.000000E+00
@@ -44,17 +45,3 @@
 #   author: A.Hermanne,F.Tarkanyi,S.Takacs,F.Ditroi,N.Amjed
 #   title: Excitation functions for production of 46Sc by deuteron and proton beams in natTi: A basis for additional monitor reactions
 #   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.338, p.31 (201
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  1.430000E+01
-#   E-max [MeV]:  3.300000E+01
-#   F-value:  1.654922E+00
-#   A-value:  7.198820E-01
-#   chi-2:  1.012863E+01
-#   p-value:  3.698089E-01
-#   exp. data sets for p-value:      4
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.947898E+00   5.822548E-01   1.424758E+01
-# jendl5.0      1.285254E+00   8.900400E-01   6.009680E+00

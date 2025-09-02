@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ni0(p,x)Co58 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Hermanne
 #   year: 2015
 #   subentry: D4324020
 #   X4 reaction: 28-NI-0(P,X)27-CO-58,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/D4324020
-# target:
+# target: 
 #   Z: 28
 #   A: 0
 #   nuclide: Ni0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 27
-#   A: 58
-#   nuclide: Co58
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 39
+#   residual: 
+#     Z: 27
+#     A: 58
+#     nuclide: Co58
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 39
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    8.200000E+00   1.500000E+00   2.910000E+00   4.400000E-01   1.000000E+00
@@ -72,18 +73,3 @@
 #   author: A.Hermanne,R.Adam Rebeles,F.Tarkanyi,S.Takacs
 #   title: Excitation functions of proton induced reactions on natOs up to 65 MeV: Experiments and comparison with results from theoretical codes
 #   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.345, p.58 (201
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  8.200000E+00
-#   E-max [MeV]:  6.410000E+01
-#   F-value:  2.212080E+00
-#   A-value:  6.196709E-01
-#   chi-2:  1.211207E+01
-#   p-value:  2.089065E-01
-#   exp. data sets for p-value:      2
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    2.373538E+00   5.877931E-01   1.395893E+01
-# endfb8.0      2.089498E+00   5.975118E-01   1.310235E+01
-# jendl5.0      2.170806E+00   6.775050E-01   9.274936E+00

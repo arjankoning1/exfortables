@@ -1,28 +1,29 @@
-# header:
+# header: 
 #   title: U238(p,f) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Ivanova
 #   year: 1956
 #   subentry: O0720002
 #   X4 reaction: 92-U-238(P,F),,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/O0720002
-# target:
+# target: 
 #   Z: 92
 #   A: 238
 #   nuclide: U238
-# reaction:
+# reaction: 
 #   type: (p,f)
 #   ENDF_MF: 3
 #   ENDF_MT: 18
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 7
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.400000E+02   0.000000E+00   1.560000E+03   4.000000E+02   1.000000E+00
@@ -36,17 +37,3 @@
 #   author: N.S.Ivanova
 #   title: The cross section for the fission of uranium by high energy protons (140 to 660-MeV)
 #   journal: Jour: Zhurnal Eksperimental'noi i Teoret. Fiziki, Vol.31, p.413 (1956)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  1.400000E+02
-#   E-max [MeV]:  6.600000E+02
-#   F-value:  1.078052E+00
-#   A-value:  9.605303E-01
-#   chi-2:  5.349388E-01
-#   p-value:  1.065845E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.111580E+00   9.164517E-01   1.027402E+00
-# jendl5.0      1.010392E+00   1.006729E+00   4.247563E-02

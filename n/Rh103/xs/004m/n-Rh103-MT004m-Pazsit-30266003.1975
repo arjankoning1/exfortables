@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: Rh103(n,n')Rh103m cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Pazsit
 #   year: 1975
 #   subentry: 30266003
 #   X4 reaction: 45-RH-103(N,INL)45-RH-103-M,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30266003
-# target:
+# target: 
 #   Z: 45
 #   A: 103
 #   nuclide: Rh103
-# reaction:
+# reaction: 
 #   type: (n,n')
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 45
-#   A: 103
-#   nuclide: Rh103m
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 45
+#     A: 103
+#     nuclide: Rh103m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.480000E+01   2.000000E-01   2.048832E+02   1.663764E+01   9.485334E-01
@@ -39,19 +40,3 @@
 #   author: A.Pazsit,G.Peto,J.Csikai,I.Jozsa,J.Bacso
 #   title: Cross section of Rh-103(n,n')Rh-103m for 2.7 and 14.8 MeV neutrons and for neutron spectra from Cf-252 and Pu-alpha-Be sources
 #   journal: Jour: Applied Radiation and Isotopes, Vol.26, p.621 (1975)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.480000E+01
-#   E-max [MeV]:  1.480000E+01
-#   F-value:  1.370927E+00
-#   A-value:  1.350791E+00
-#   chi-2:  2.217684E+01
-#   p-value:  1.252955E-01
-#   exp. data sets for p-value:      5
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.270487E+00   1.270487E+00   1.111394E+01
-# jeff3.3       1.592222E+00   1.592222E+00   5.318615E+01
-# jendl5.0      1.300050E+00   1.300050E+00   1.365860E+01
-# irdff2.0      1.265956E+00   1.265956E+00   1.074868E+01

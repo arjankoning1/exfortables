@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ni62(n,np)Co61 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Semkova
 #   year: 2004
 #   subentry: 22820011
 #   X4 reaction: 28-NI-62(N,X)27-CO-61,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22820011
-# target:
+# target: 
 #   Z: 28
 #   A: 62
 #   nuclide: Ni62
-# reaction:
+# reaction: 
 #   type: (n,np)
 #   ENDF_MF: 3
 #   ENDF_MT: 28
-# residual:
-#   Z: 27
-#   A: 61
-#   nuclide: Co61
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 4
+#   residual: 
+#     Z: 27
+#     A: 61
+#     nuclide: Co61
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.527000E+01   1.600000E-01   4.600000E+00   3.000000E+00   1.000000E+00
@@ -37,20 +38,3 @@
 #   author: V.Semkova,V.Avrigeanu,T.Glodariu,A.J.Koning,  A.J.M.Plompen,D.L.Smith,S.Sudar,P.Reimer,R.Forrest
 #   title: .A systematic investigation of reaction cross sections  and isomer ratios for neutrons up to 20 MeV on  Ni-isotopes and Co-59 by measurements with activation  technique and new model studies of underlying  reaction mechanisms
 #   journal: Jour: Nuclear Physics, Section A, Vol.730, p.255 (2004)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  1.527000E+01
-#   E-max [MeV]:  1.904000E+01
-#   F-value:  1.441996E+00
-#   A-value:  1.225464E+00
-#   chi-2:  2.751225E+00
-#   p-value:  2.795089E-01
-#   exp. data sets for p-value:      2
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.382444E+00   1.149220E+00   2.270349E+00
-# endfb8.0      1.237639E+00   1.050281E+00   1.246458E+00
-# jeff3.3       1.663172E+00   1.430082E+00   4.507031E+00
-# jendl5.0      1.530711E+00   1.305469E+00   3.417562E+00
-# cendl3.2      1.325710E+00   1.226495E+00   2.314725E+00

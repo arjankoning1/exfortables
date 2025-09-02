@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Sn112(n,x)Sn111 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Betak
 #   year: 2005
 #   subentry: 31551002
 #   X4 reaction: 50-SN-112(N,2N)50-SN-111,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/31551002
-# target:
+# target: 
 #   Z: 50
 #   A: 112
 #   nuclide: Sn112
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 50
-#   A: 111
-#   nuclide: Sn111
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 50
+#     A: 111
+#     nuclide: Sn111
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.440000E+01   2.000000E-01   1.059824E+03   4.127938E+01   9.599854E-01
@@ -34,17 +35,3 @@
 #   author: E.Betak,R.Mikolajczak,J.Staniszewska,S.Mikolajewski, E.Rurarz
 #   title: Activation cross sections for reactions induced by 14 MeV neutrons on natural tin and enriched 112Sn targets with reference to 111In production via radioisotope generator 112Sn(n,2n)111Sn -> 111In
 #   journal: Jour: Radiochimica Acta, Vol.93, p.311 (2005)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.440000E+01
-#   E-max [MeV]:  1.440000E+01
-#   F-value:  1.024093E+00
-#   A-value:  1.016485E+00
-#   chi-2:  6.922036E-01
-#   p-value:  1.761869E-01
-#   exp. data sets for p-value:      8
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.000954E+00   9.990469E-01   3.082599E-02
-# jendl5.0      1.034228E+00   1.034228E+00   1.353581E+00

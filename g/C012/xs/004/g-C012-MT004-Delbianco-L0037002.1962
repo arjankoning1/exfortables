@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: C12(g,n')C11 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Delbianco
 #   year: 1962
 #   subentry: L0037002
 #   X4 reaction: 6-C-12(G,N)6-C-11,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/L0037002
-# target:
+# target: 
 #   Z: 6
 #   A: 12
 #   nuclide: C12
-# reaction:
+# reaction: 
 #   type: (g,n')
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 6
-#   A: 11
-#   nuclide: C11
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 26
+#   residual: 
+#     Z: 6
+#     A: 11
+#     nuclide: C11
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 26
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.017000E+01   0.000000E+00   7.600001E-01   0.000000E+00   1.000000E+00
@@ -59,18 +60,3 @@
 #   author: W.E.DEL BIANCO,W.E.STEPHENS
 #   title: Photonuclear activation by 20.5-MeV gamma rays.
 #   journal: Jour: Physical Review, Vol.126, p.709 (1962)
-# statistics:
-#   NEA score: T2
-#   IAEA score:  1
-#   E-min [MeV]:  2.017000E+01
-#   E-max [MeV]:  2.118000E+01
-#   F-value:  3.240439E+00
-#   A-value:  9.167172E-01
-#   chi-2:  2.920048E+00
-#   p-value:  2.175777E-01
-#   exp. data sets for p-value:      3
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.744484E+00   5.907158E-01   5.568218E-01
-# endfb8.0      7.259567E+01   1.416270E-02   0.000000E+00
-# jendl5.0      2.230093E+00   2.211433E+00   5.283274E+00

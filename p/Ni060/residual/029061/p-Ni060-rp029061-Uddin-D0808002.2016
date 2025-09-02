@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ni60(p,x)Cu61 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Uddin
 #   year: 2016
 #   subentry: D0808002
 #   X4 reaction: 28-NI-60(P,G)29-CU-61,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/D0808002
-# target:
+# target: 
 #   Z: 28
 #   A: 60
 #   nuclide: Ni60
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 29
-#   A: 61
-#   nuclide: Cu61
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 11
+#   residual: 
+#     Z: 29
+#     A: 61
+#     nuclide: Cu61
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 11
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.280000E+00   5.000000E-01   2.000000E-02   3.000000E-03   1.000000E+00
@@ -44,17 +45,3 @@
 #   author: M.S.Uddin, S.Sudar, I.Spahn, M.A.Shariff, S.M.Qaim
 #   title: Excitation function of the 60Ni(p,g)61Cu reaction from  threshold to 16 MeV
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.93, p.044606 (2016)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  1.280000E+00
-#   E-max [MeV]:  3.940000E+00
-#   F-value:  1.450638E+00
-#   A-value:  9.475827E-01
-#   chi-2:  7.646710E+00
-#   p-value:  3.388172E-01
-#   exp. data sets for p-value:      2
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.538858E+00   7.973673E-01   8.089581E+00
-# jendl5.0      1.352053E+00   1.126097E+00   7.203839E+00

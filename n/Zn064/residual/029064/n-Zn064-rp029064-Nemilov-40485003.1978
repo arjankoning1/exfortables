@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Zn64(n,x)Cu64 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Nemilov
 #   year: 1978
 #   subentry: 40485003
 #   X4 reaction: 30-ZN-64(N,P)29-CU-64,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/40485003
-# target:
+# target: 
 #   Z: 30
 #   A: 64
 #   nuclide: Zn64
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 29
-#   A: 64
-#   nuclide: Cu64
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 4
+#   residual: 
+#     Z: 29
+#     A: 64
+#     nuclide: Cu64
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    7.600000E+00   3.000000E-01   2.490000E+02   3.000000E+01   1.000000E+00
@@ -37,18 +38,3 @@
 #   author: Yu.A.Nemilov,Yu.N.Trofimov
 #   title: Cross-sections of (n,p) reactions in the isotopes 58Ni, 56Fe and 64Zn for neutron energies of 7.6 - 9.3 MeV
 #   journal: Prog: Yaderno-Fizicheskie Issledovaniya v SSSR, No.26, p.25 (1978)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  7.600000E+00
-#   E-max [MeV]:  9.300000E+00
-#   F-value:  1.026327E+00
-#   A-value:  9.769722E-01
-#   chi-2:  2.547142E-01
-#   p-value:  2.780669E-01
-#   exp. data sets for p-value:      5
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.022840E+00   9.805092E-01   2.140150E-01
-# jeff3.3       1.022699E+00   9.806385E-01   2.125728E-01
-# jendl5.0      1.032324E+00   9.698087E-01   3.375548E-01

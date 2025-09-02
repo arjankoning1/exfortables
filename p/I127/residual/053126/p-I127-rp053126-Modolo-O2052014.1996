@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: I127(p,x)I126 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Modolo
 #   year: 1996
 #   subentry: O2052014
 #   X4 reaction: 53-I-127(P,X)53-I-126,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/O2052014
-# target:
+# target: 
 #   Z: 53
 #   A: 127
 #   nuclide: I127
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 53
-#   A: 126
-#   nuclide: I126
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 6
+#   residual: 
+#     Z: 53
+#     A: 126
+#     nuclide: I126
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.450000E+02   0.000000E+00   6.076000E+01   7.900000E+00   1.000000E+00
@@ -39,17 +40,3 @@
 #   author: G.Modolo, M.Holzbach, R.Odoj
 #   title: Transmutation of fission product Iodine by high-energy protons. Excitation functions for proton-induced nuclear reactions on I-127.
 #   journal: Conf: Conf.on Accel.Driven Transmut.Tech.Appl.,Kalmar, 1996, Vol.1, p.47
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  1.450000E+02
-#   E-max [MeV]:  2.600000E+03
-#   F-value:  1.138318E+00
-#   A-value:  1.087075E+00
-#   chi-2:  1.510155E+00
-#   p-value:  7.146496E-02
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.015691E+00   9.845511E-01   1.527184E-01
-# jendl5.0      1.200276E+00   1.200276E+00   2.867592E+00

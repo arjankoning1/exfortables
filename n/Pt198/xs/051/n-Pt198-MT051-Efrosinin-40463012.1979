@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Pt198(n,n'_01)Pt199 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Efrosinin
 #   year: 1979
 #   subentry: 40463012
 #   X4 reaction: 78-PT-198(N,INL)78-PT-198,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/40463012
-#   level energy [MeV]  4.07000E-01
-# target:
+#   level energy [MeV]:  4.07000E-01
+# target: 
 #   Z: 78
 #   A: 198
 #   nuclide: Pt198
-# reaction:
+# reaction: 
 #   type: (n,n'_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 51
@@ -25,14 +25,15 @@
 #     energy [MeV]:  4.072200E-01
 #     spin:  2.000000E+00
 #     parity: 1
-# residual:
-#   Z: 78
-#   A: 199
-#   nuclide: Pt199
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 36
+#   residual: 
+#     Z: 78
+#     A: 199
+#     nuclide: Pt199
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 36
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.100000E-01   0.000000E+00   2.500000E+02   5.000000E+01   1.000000E+00
@@ -75,19 +76,3 @@
 #   author: V.P.Efrosinin,E.S.Konobeevskiy,V.I.Popov, V.M.Skorkin,I.V.Surkova
 #   title: Neutron inelastic cross-sections for osmium,  platinum and mercury nuclei near the reaction  threshold .
 #   journal: Conf: 29.Conf.on Nucl.Spectr.and Nucl.Struct.,Riga 1979, p.421 (1979)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  4.100000E-01
-#   E-max [MeV]:  1.018000E+00
-#   F-value:  3.374244E+00
-#   A-value:  3.716883E-01
-#   chi-2:  2.086832E+01
-#   p-value:  9.054460E-02
-#   exp. data sets for p-value:      1
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    3.530846E+00   3.492743E-01   2.278288E+01
-# endfb8.0      3.508060E+00   3.517630E-01   2.258335E+01
-# jeff3.3       3.508060E+00   3.517630E-01   2.258335E+01
-# jendl5.0      2.955649E+00   4.416198E-01   1.552370E+01

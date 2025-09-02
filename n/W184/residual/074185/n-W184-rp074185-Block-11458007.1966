@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: W184(n,x)W185 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Block
 #   year: 1966
 #   subentry: 11458007
 #   X4 reaction: 74-W-184(N,G)74-W-185,,SIG,,AV
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/11458007
-# target:
+# target: 
 #   Z: 74
 #   A: 184
 #   nuclide: W184
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 74
-#   A: 185
-#   nuclide: W185
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 9
+#   residual: 
+#     Z: 74
+#     A: 185
+#     nuclide: W185
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 9
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.250000E-03   6.112055E-06   1.690000E+03   2.535000E+02   1.000000E+00
@@ -42,17 +43,3 @@
 #   author: R.C.BLOCK,R.W.HOCKENBURY,J.E.RUSSELL
 #   title: THE PARAMETERS OF THE NEUTRON RESONANCES IN 182-W,  183-W, 184-W, AND 186-W
 #   journal: Prog: Rensselaer Polytechnic Inst. Reports, No.328-56, p.14 (1966)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  1.250000E-03
-#   E-max [MeV]:  9.950000E-03
-#   F-value:  1.231100E+01
-#   A-value:  1.672748E-01
-#   chi-2:  2.151443E+01
-#   p-value:  2.251755E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.948589E+01   9.905967E-02   2.646627E+01
-# jendl5.0      6.999141E+00   2.824649E-01   1.656259E+01

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Dy164(n,p)Tb164 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Kasugai
 #   year: 1997
 #   subentry: 22393015
 #   X4 reaction: 66-DY-164(N,P)65-TB-164,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22393015
-# target:
+# target: 
 #   Z: 66
 #   A: 164
 #   nuclide: Dy164
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 65
-#   A: 164
-#   nuclide: Tb164
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 3
+#   residual: 
+#     Z: 65
+#     A: 164
+#     nuclide: Tb164
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.403000E+01   0.000000E+00   2.120000E+00   5.047600E-01   1.009524E+00
@@ -36,20 +37,3 @@
 #   author: Y.Kasugai,Y.Ikeda,Y.Uno
 #   title: Activation cross section measurements for La, Ce, Pr,  Nd, Gd, Dy AND Er isotopes by 14 MeV neutrons
 #   journal: Conf: Conf.on Nucl.Data for Sci.and Techn., Trieste 1997, Vol.1, p.635 (
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.403000E+01
-#   E-max [MeV]:  1.495000E+01
-#   F-value:  1.177476E+00
-#   A-value:  9.330456E-01
-#   chi-2:  5.733956E-01
-#   p-value:  2.746433E-01
-#   exp. data sets for p-value:      2
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.132606E+00   9.348772E-01   4.319597E-01
-# endfb8.0      1.125925E+00   9.528236E-01   4.383823E-01
-# jeff3.3       1.353599E+00   7.938900E-01   1.436840E+00
-# jendl5.0      1.088640E+00   9.678065E-01   3.013396E-01
-# cendl3.2      1.073278E+00   1.033233E+00   2.584560E-01

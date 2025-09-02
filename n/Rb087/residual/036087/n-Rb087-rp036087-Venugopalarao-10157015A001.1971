@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Rb87(n,x)Kr87 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Venugopalarao
 #   year: 1971
 #   subentry: 10157015
 #   X4 reaction: 37-RB-87(N,P)36-KR-87,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/10157015
-# target:
+# target: 
 #   Z: 37
 #   A: 87
 #   nuclide: Rb87
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 36
-#   A: 87
-#   nuclide: Kr87
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 36
+#     A: 87
+#     nuclide: Kr87
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.440000E+01   3.000000E-01   5.422700E+00   4.513900E-01   1.106670E+00
@@ -34,18 +35,3 @@
 #   author: P.VENUGOPALA RAO,R.E.WOOD,J.M.PALMS,R.W.FINK
 #   title: Neutron Activation Cross Sections for As, Br, Rb and  Sr Isotopes at 14.4 MeV.
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.3, p.629 (1971)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  0
-#   E-min [MeV]:  1.440000E+01
-#   E-max [MeV]:  1.440000E+01
-#   F-value:  2.179347E+00
-#   A-value:  2.158813E+00
-#   chi-2:  2.080965E+02
-#   p-value:  1.729741E-01
-#   exp. data sets for p-value:      5
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    2.335811E+00   2.335811E+00   2.575238E+02
-# jeff3.3       2.367455E+00   2.367455E+00   2.698693E+02
-# jendl5.0      1.819389E+00   1.819389E+00   9.689632E+01

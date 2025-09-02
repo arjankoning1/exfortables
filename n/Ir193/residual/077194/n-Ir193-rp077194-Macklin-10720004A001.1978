@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ir193(n,x)Ir194 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Macklin
 #   year: 1978
 #   subentry: 10720004
 #   X4 reaction: 77-IR-193(N,G)77-IR-194,,SIG,,AV
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/10720004
-# target:
+# target: 
 #   Z: 77
 #   A: 193
 #   nuclide: Ir193
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 77
-#   A: 194
-#   nuclide: Ir194
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 47
+#   residual: 
+#     Z: 77
+#     A: 194
+#     nuclide: Ir194
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 47
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.500000E-03   5.000000E-04   3.980000E+03   0.000000E+00   1.000000E+00
@@ -80,17 +81,3 @@
 #   author: R.L.Macklin,D.M.Drake,J.J.Malanify
 #   title: Fast Neutron Capture Cross Sections of 169Tm, 191Ir,  193Ir, and 175Lu for 3<=E(n)<= 2000 keV.
 #   journal: Rept: Los Alamos Scientific Lab. Reports, No.7479-MS (1978)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  3.500000E-03
-#   E-max [MeV]:  1.950000E+00
-#   F-value:  1.151957E+00
-#   A-value:  9.070247E-01
-#   chi-2:  1.007445E+01
-#   p-value:  4.132518E-01
-#   exp. data sets for p-value:      3
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.195621E+00   8.609724E-01   1.576241E+01
-# jendl5.0      1.094184E+00   9.555402E-01   4.386487E+00

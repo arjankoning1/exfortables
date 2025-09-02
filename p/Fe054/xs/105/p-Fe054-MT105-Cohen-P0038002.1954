@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Fe54(p,t)Fe52 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Cohen
 #   year: 1954
 #   subentry: P0038002
 #   X4 reaction: 26-FE-54(P,T)26-FE-52,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/P0038002
-# target:
+# target: 
 #   Z: 26
 #   A: 54
 #   nuclide: Fe54
-# reaction:
+# reaction: 
 #   type: (p,t)
 #   ENDF_MF: 3
 #   ENDF_MT: 105
-# residual:
-#   Z: 26
-#   A: 52
-#   nuclide: Fe52
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 16
+#   residual: 
+#     Z: 26
+#     A: 52
+#     nuclide: Fe52
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 16
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.790000E+01   0.000000E+00   1.000000E-03   3.000000E-04   1.000000E+00
@@ -49,16 +50,3 @@
 #   author: B.L.COHEN,T.H.HANDLEY
 #   title: Experimental Studies of (p,t) Reactions
 #   journal: Jour: Physical Review, Vol.93, p.514 (1954)
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  1.790000E+01
-#   E-max [MeV]:  2.340000E+01
-#   F-value:  3.869476E+00
-#   A-value:  2.753845E-01
-#   chi-2:  5.857315E+00
-#   p-value:  2.943310E-01
-#   exp. data sets for p-value:      1
-#   libraries:      1
-##  Library          F              A            chi-2
-# tendl.2023    3.869476E+00   2.753845E-01   5.857315E+00

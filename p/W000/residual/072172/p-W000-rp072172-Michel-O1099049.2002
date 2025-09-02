@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: W0(p,x)Hf172 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Michel
 #   year: 2002
 #   subentry: O1099049
 #   X4 reaction: 74-W-0(P,X)72-HF-172,CUM,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/O1099049
-# target:
+# target: 
 #   Z: 74
 #   A: 0
 #   nuclide: W0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 72
-#   A: 172
-#   nuclide: Hf172
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 33
+#   residual: 
+#     Z: 72
+#     A: 172
+#     nuclide: Hf172
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 33
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    6.860000E+01   1.924000E+00   1.274000E-01   2.240000E-02   1.000000E+00
@@ -66,18 +67,3 @@
 #   author: R.Michel, M.Gloris, J.Protoschill, U.Herpers, J.Kuhnhenn, F.Sudbrock, P.Malmborg, P.Kubik
 #   title: Cross sections for the production of radionuclides by proton-induced reactions on W, Ta, Pb and Bi from thresholds up to 2.6 GeV
 #   journal: Jour: Jour. of Nuclear Science and Technology Suppl., Vol.2, p.242 (2002
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  6.860000E+01
-#   E-max [MeV]:  2.590000E+03
-#   F-value:  9.750415E+00
-#   A-value:  1.165539E-01
-#   chi-2:  6.267944E+01
-#   p-value:  2.868380E-02
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.754085E+01   5.926203E-02   7.556480E+01
-# endfb8.0      9.015307E+00   1.123578E-01   6.726574E+01
-# jendl5.0      5.004642E+00   2.307682E-01   4.590230E+01

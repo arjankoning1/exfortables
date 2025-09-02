@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Te0(p,x)I121 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Kormali
 #   year: 1976
 #   subentry: D4073012
 #   X4 reaction: 52-TE-0(P,X)53-I-121,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/D4073012
-# target:
+# target: 
 #   Z: 52
 #   A: 0
 #   nuclide: Te0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 53
-#   A: 121
-#   nuclide: I121
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 15
+#   residual: 
+#     Z: 53
+#     A: 121
+#     nuclide: I121
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 15
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.350000E+01   0.000000E+00   1.000000E+00   0.000000E+00   1.000000E+00
@@ -48,17 +49,3 @@
 #   author: S.M.Kormali, D.L.Swindle, E.A.Schweikert
 #   title: Charged particle activation of medium z elements II.  Proton excitation functions
 #   journal: Jour: Journal of Radioanalytical Chemistry, Vol.31, p.437 (1976)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  1.350000E+01
-#   E-max [MeV]:  1.930000E+01
-#   F-value:  1.345511E+00
-#   A-value:  1.241565E+00
-#   chi-2:  0.000000E+00
-#   p-value:  4.064135E-01
-#   exp. data sets for p-value:      5
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.384019E+00   1.261674E+00   0.000000E+00
-# jendl5.0      1.304180E+00   1.221777E+00   0.000000E+00

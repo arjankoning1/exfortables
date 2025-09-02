@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Mg24(n,n'_01)Mg25 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Thomson
 #   year: 1962
 #   subentry: 11493005
 #   X4 reaction: 12-MG-24(N,INL)12-MG-24,PAR,DA,,4PI
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/11493005
-#   level energy [MeV]  4.12000E+00
-# target:
+#   level energy [MeV]:  4.12000E+00
+# target: 
 #   Z: 12
 #   A: 24
 #   nuclide: Mg24
-# reaction:
+# reaction: 
 #   type: (n,n'_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 51
@@ -25,14 +25,15 @@
 #     energy [MeV]:  4.122889E+00
 #     spin:  4.000000E+00
 #     parity: 1
-# residual:
-#   Z: 12
-#   A: 25
-#   nuclide: Mg25
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 12
+#     A: 25
+#     nuclide: Mg25
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    5.000000E+00   2.000000E-01   4.300000E+02   6.000000E+01   1.000000E+00
@@ -40,20 +41,3 @@
 #   author: D.B.Thomson,L.Cranberg,J.S.Levin
 #   title: Scattering of fast neutrons by magnesium
 #   journal: Jour: Physical Review, Vol.125, p.2049 (1962)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  5.000000E+00
-#   E-max [MeV]:  5.000000E+00
-#   F-value:  1.510759E+00
-#   A-value:  1.495427E+00
-#   chi-2:  1.389783E+01
-#   p-value:  8.055556E-02
-#   exp. data sets for p-value:      3
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.392772E+00   1.392772E+00   7.998205E+00
-# endfb8.0      1.607029E+00   1.607029E+00   1.892627E+01
-# jeff3.3       1.607029E+00   1.607029E+00   1.892627E+01
-# jendl5.0      1.607029E+00   1.607029E+00   1.892627E+01
-# cendl3.2      1.293824E+00   1.293824E+00   4.712155E+00

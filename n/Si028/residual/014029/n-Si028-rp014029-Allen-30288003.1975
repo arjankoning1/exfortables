@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Si28(n,x)Si29 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Allen
 #   year: 1975
 #   subentry: 30288003
 #   X4 reaction: 14-SI-28(N,G)14-SI-29,,SIG,,AV
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30288003
-# target:
+# target: 
 #   Z: 14
 #   A: 28
 #   nuclide: Si28
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 14
-#   A: 29
-#   nuclide: Si29
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 6
+#   residual: 
+#     Z: 14
+#     A: 29
+#     nuclide: Si29
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.000000E-02   2.000000E-02   1.600000E-01   1.600000E-02   1.000000E+00
@@ -39,17 +40,3 @@
 #   author: B.J.Allen, J.W.Boldeman, M.J.Kenny, A.R.DeL.Musgrove, Hla Pe, R.L.Macklin
 #   title: Neutron capture mechanism in light and closed shell  nuclides
 #   journal: Conf: Conf.on Nucl.Cross-Sect.and Techn.,Washington 1975, Vol.1, p.360 (
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  3.000000E-02
-#   E-max [MeV]:  4.500000E-01
-#   F-value:  5.964337E+00
-#   A-value:  3.725822E-01
-#   chi-2:  1.137323E+02
-#   p-value:  6.969670E-02
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    5.976341E+00   3.718410E-01   1.137150E+02
-# jendl5.0      5.952344E+00   3.733249E-01   1.137495E+02

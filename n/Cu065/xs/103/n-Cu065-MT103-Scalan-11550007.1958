@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Cu65(n,p)Ni65 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Scalan
 #   year: 1958
 #   subentry: 11550007
 #   X4 reaction: 29-CU-65(N,P)28-NI-65,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/11550007
-# target:
+# target: 
 #   Z: 29
 #   A: 65
 #   nuclide: Cu65
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 28
-#   A: 65
-#   nuclide: Ni65
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 28
+#     A: 65
+#     nuclide: Ni65
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.480000E+01   0.000000E+00   3.066970E+01   1.300000E+01   9.893453E-01
@@ -34,20 +35,3 @@
 #   author: R.S.SCALAN,R.W.FINK
 #   title: ACTIVATION CROSS-SECTIONS FOR REACTIONS OF CHLORINE AND COPPER WITH 14.8 MEV NEUTRONS.
 #   journal: Jour: Nuclear Physics, Vol.9, p.334 (1958)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.480000E+01
-#   E-max [MeV]:  1.480000E+01
-#   F-value:  1.280450E+00
-#   A-value:  7.886268E-01
-#   chi-2:  6.977082E-01
-#   p-value:  4.601198E-02
-#   exp. data sets for p-value:      8
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.361238E+00   7.346251E-01   9.043015E-01
-# endfb8.0      1.339398E+00   7.466041E-01   8.575264E-01
-# jeff3.3       1.153632E+00   8.668276E-01   4.216106E-01
-# jendl5.0      1.180972E+00   8.467601E-01   4.904023E-01
-# cendl3.2      1.319750E+00   7.577193E-01   8.147004E-01

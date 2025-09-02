@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ga69(n,x)Cu66 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Furuta
 #   year: 2008
 #   subentry: 23032014
 #   X4 reaction: 31-GA-69(N,A)29-CU-66,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/23032014
-# target:
+# target: 
 #   Z: 31
 #   A: 69
 #   nuclide: Ga69
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 107
-# residual:
-#   Z: 29
-#   A: 66
-#   nuclide: Cu66
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 3
+#   residual: 
+#     Z: 29
+#     A: 66
+#     nuclide: Cu66
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    5.010000E+00   1.000000E-01   2.084500E+00   6.253500E-01   8.017335E-01
@@ -36,18 +37,3 @@
 #   author: M.Furuta, T.Shimizu, H.Hayashi, I.Miyazaki, H.Yamamoto, M.Shibata, K.Kawade
 #   title: Measurements of activation cross sections of (n,p)  and (n,alpha) reactions in the energy range of  3.5-5.9 MeV using a deuterium gas target
 #   journal: Jour: Annals of Nuclear Energy, Vol.35, p.1652 (2008)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  5.010000E+00
-#   E-max [MeV]:  5.240000E+00
-#   F-value:  1.620251E+00
-#   A-value:  6.490942E-01
-#   chi-2:  1.515260E+00
-#   p-value:  1.492047E-01
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.771746E+00   5.825994E-01   1.915462E+00
-# jeff3.3       1.451102E+00   7.231784E-01   1.115057E+00
-# jendl5.0      0.000000E+00   0.000000E+00   0.000000E+00

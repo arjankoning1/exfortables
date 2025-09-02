@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Cu63(p,x)Zn63 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Qiang
 #   year: 1990
 #   subentry: C0739005
 #   X4 reaction: 29-CU-63(P,N)30-ZN-63,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/C0739005
-# target:
+# target: 
 #   Z: 29
 #   A: 63
 #   nuclide: Cu63
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 30
-#   A: 63
-#   nuclide: Zn63
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 41
+#   residual: 
+#     Z: 30
+#     A: 63
+#     nuclide: Zn63
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 41
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.231000E+00   0.000000E+00   3.720000E+00   2.083200E-02   1.000000E+00
@@ -74,18 +75,3 @@
 #   author: S.Qiang
 #   title: Sub-Coulomb proton induced reactions on copper
 #   journal: Thesis: Qiang (1990)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  4.231000E+00
-#   E-max [MeV]:  6.540000E+00
-#   F-value:  1.340825E+00
-#   A-value:  1.257144E+00
-#   chi-2:  2.514189E+04
-#   p-value:  3.281334E-01
-#   exp. data sets for p-value:      8
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.204427E+00   1.133279E+00   1.343265E+04
-# endfb8.0      1.345989E+00   1.341335E+00   4.986550E+04
-# jendl5.0      1.407293E+00   1.379100E+00   2.817691E+04

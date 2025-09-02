@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Re187(n,a)Ta184 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Jovancevic
 #   year: 2016
 #   subentry: 23301006
 #   X4 reaction: 75-RE-187(N,A)73-TA-184,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/23301006
-# target:
+# target: 
 #   Z: 75
 #   A: 187
 #   nuclide: Re187
-# reaction:
+# reaction: 
 #   type: (n,a)
 #   ENDF_MF: 3
 #   ENDF_MT: 107
-# residual:
-#   Z: 73
-#   A: 184
-#   nuclide: Ta184
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 6
+#   residual: 
+#     Z: 73
+#     A: 184
+#     nuclide: Ta184
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.480000E+01   5.000000E-01   5.300000E-01   3.000000E-02   1.000000E+00
@@ -39,19 +40,3 @@
 #   author: N.Jovancevic, L.Daraban, H.Stroh, S.Oberstedt,M.Hult, C.Bonaldi, W.Geerts, F.-J.Hambsch,G.Lutter,G.Marissens, M.Vidali
 #   title: The neutron cross-section functions for the reactions 187Re(n,a)184Ta, 187Re(n,2n)186Re and 185Re(n,2n)184Re in the energy range 13.08 - 19.5 MeV.
 #   journal: Jour: European Physical Journal A: Hadrons and Nuclei, Vol.52, p.148 (20
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.480000E+01
-#   E-max [MeV]:  1.830000E+01
-#   F-value:  1.631038E+00
-#   A-value:  1.509413E+00
-#   chi-2:  1.767655E+02
-#   p-value:  1.754322E-01
-#   exp. data sets for p-value:      4
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.515772E+00   1.406035E+00   1.159703E+02
-# endfb8.0      1.871461E+00   1.785490E+00   3.142253E+02
-# jeff3.3       1.663643E+00   1.546915E+00   1.939201E+02
-# jendl5.0      1.439023E+00   1.336635E+00   8.294627E+01

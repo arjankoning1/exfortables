@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Fe54(n,p)Mn54 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Mannhart
 #   year: 2007
 #   subentry: 22976015
 #   X4 reaction: 26-FE-54(N,P)25-MN-54,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22976015
-# target:
+# target: 
 #   Z: 26
 #   A: 54
 #   nuclide: Fe54
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 25
-#   A: 54
-#   nuclide: Mn54
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 13
+#   residual: 
+#     Z: 25
+#     A: 54
+#     nuclide: Mn54
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 13
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    9.098000E+00   2.000000E-02   4.620731E+02   1.631118E+01   9.598527E-01
@@ -46,21 +47,3 @@
 #   author: W.Mannhart, D.Schmidt
 #   title: .Measurement of Neutron Activation Cross Sections in  the Energy Range from 8 MeV to 15 MeV
 #   journal: Rept: Phys.Techn.Bundesanst., Neutronenphysik Reports, No.53 (2007)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  9.098000E+00
-#   E-max [MeV]:  1.463800E+01
-#   F-value:  1.056324E+00
-#   A-value:  1.032426E+00
-#   chi-2:  2.435076E+00
-#   p-value:  3.088998E-01
-#   exp. data sets for p-value:      3
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.040858E+00   1.020678E+00   1.470680E+00
-# endfb8.0      1.041873E+00   1.022080E+00   1.523637E+00
-# jeff3.3       1.072827E+00   1.057726E+00   3.809587E+00
-# jendl5.0      1.040652E+00   1.008515E+00   1.166696E+00
-# cendl3.2      1.084229E+00   1.064974E+00   5.135480E+00
-# irdff2.0      1.041575E+00   1.021849E+00   1.504372E+00

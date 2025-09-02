@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Sr0(p,x)Kr78 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Gilabert
 #   year: 1998
 #   subentry: O0505036
 #   X4 reaction: 38-SR-0(P,X)36-KR-78,CUM,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/O0505036
-# target:
+# target: 
 #   Z: 38
 #   A: 0
 #   nuclide: Sr0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 36
-#   A: 78
-#   nuclide: Kr78
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 12
+#   residual: 
+#     Z: 36
+#     A: 78
+#     nuclide: Kr78
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 12
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.420000E+01   2.700000E+00   2.900000E-03   8.000000E-04   1.000000E+00
@@ -45,17 +46,3 @@
 #   author: E.Gilabert,B.Lavielle,S.Neumann,M.Gloris, R.Michel, Th.Schiekel,F.Sudbrock,U.Herpers
 #   title: Cross sections for the proton-induced production of krypton isotopes from Rb, Sr, Y, and Zr for energies up to 1600 MeV.
 #   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.145, p.293 (19
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  4.420000E+01
-#   E-max [MeV]:  1.600000E+03
-#   F-value:  3.421197E+00
-#   A-value:  1.918465E+00
-#   chi-2:  4.589894E+02
-#   p-value:  6.112784E-02
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    3.896692E+00   2.148887E+00   6.443092E+02
-# jendl5.0      2.957503E+00   1.712751E+00   2.736698E+02

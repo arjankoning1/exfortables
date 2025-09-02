@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: Nb93(n,x)Nb92m cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Nethaway
 #   year: 1978
 #   subentry: 10709002
 #   X4 reaction: 41-NB-93(N,2N)41-NB-92-M,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/10709002
-# target:
+# target: 
 #   Z: 41
 #   A: 93
 #   nuclide: Nb93
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 41
-#   A: 92
-#   nuclide: Nb92m
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 7
+#   residual: 
+#     Z: 41
+#     A: 92
+#     nuclide: Nb92m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.387000E+01   0.000000E+00   4.647821E+02   1.859128E+01   1.012597E+00
@@ -45,18 +46,3 @@
 #   author: D.R.Nethaway
 #   title: The 93Nb(n,2n)92(m)Nb cross section
 #   journal: Jour: Journal of Inorganic and Nuclear Chemistry, Vol.40, p.1285 (1978)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.387000E+01
-#   E-max [MeV]:  1.468000E+01
-#   F-value:  1.014921E+00
-#   A-value:  9.923366E-01
-#   chi-2:  3.543491E-01
-#   p-value:  3.799823E-01
-#   exp. data sets for p-value:      8
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.008520E+00   9.974226E-01   2.045511E-01
-# jeff3.3       1.008520E+00   9.974225E-01   2.045513E-01
-# jendl5.0      1.022934E+00   9.822424E-01   6.539449E-01

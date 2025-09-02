@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Al27(n,x)Mg27 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Tahir
 #   year: 1985
 #   subentry: 22028006
 #   X4 reaction: 13-AL-27(N,P)12-MG-27,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22028006
-# target:
+# target: 
 #   Z: 13
 #   A: 27
 #   nuclide: Al27
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 12
-#   A: 27
-#   nuclide: Mg27
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 9
+#   residual: 
+#     Z: 12
+#     A: 27
+#     nuclide: Mg27
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 9
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.344000E+01   2.100000E-01   6.996285E+01   1.087000E+00   9.197167E-01
@@ -42,19 +43,3 @@
 #   author: C.M.R.Tahir
 #   title: -Study of Al-27(n,p)Mg-27 excitation function by five  different techniques
 #   journal: Jour: Indian Journal of Pure and Applied Physics, Vol.23, p.439 (1985)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.344000E+01
-#   E-max [MeV]:  1.490000E+01
-#   F-value:  1.200802E+00
-#   A-value:  1.193268E+00
-#   chi-2:  6.203201E+01
-#   p-value:  7.671377E-02
-#   exp. data sets for p-value:      8
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.206585E+00   1.201117E+00   7.607733E+01
-# endfb8.0      1.175168E+00   1.168771E+00   4.288308E+01
-# jeff3.3       1.175168E+00   1.168771E+00   4.288308E+01
-# jendl5.0      1.240847E+00   1.235684E+00   8.628456E+01

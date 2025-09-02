@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ni58(a,x)Ni57 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Tanaka
 #   year: 1960
 #   subentry: P0037002
 #   X4 reaction: 28-NI-58(A,N+A)28-NI-57,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/P0037002
-# target:
+# target: 
 #   Z: 28
 #   A: 58
 #   nuclide: Ni58
-# reaction:
+# reaction: 
 #   type: (a,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 22
-# residual:
-#   Z: 28
-#   A: 57
-#   nuclide: Ni57
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 22
+#   residual: 
+#     Z: 28
+#     A: 57
+#     nuclide: Ni57
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 22
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.890000E+01   0.000000E+00   2.950000E-01   6.200000E-02   1.000000E+00
@@ -55,16 +56,3 @@
 #   author: S.TANAKA
 #   title: Reactions of Nickel with Alpha-Particles
 #   journal: Jour: Journal of the Physical Society of Japan, Vol.15, p.2159 (1960)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  1.890000E+01
-#   E-max [MeV]:  3.950000E+01
-#   F-value:  1.871887E+00
-#   A-value:  1.474404E+00
-#   chi-2:  2.719185E+01
-#   p-value:  2.912448E-01
-#   exp. data sets for p-value:      1
-#   libraries:      1
-##  Library          F              A            chi-2
-# tendl.2023    1.871887E+00   1.474404E+00   2.719185E+01

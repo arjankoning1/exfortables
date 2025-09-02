@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Zr0(p,x)Rb83 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Michel
 #   year: 1997
 #   subentry: O0276244
 #   X4 reaction: 40-ZR-0(P,X)37-RB-83,CUM,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/O0276244
-# target:
+# target: 
 #   Z: 40
 #   A: 0
 #   nuclide: Zr0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 37
-#   A: 83
-#   nuclide: Rb83
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 40
+#   residual: 
+#     Z: 37
+#     A: 83
+#     nuclide: Rb83
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 40
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    5.230000E+01   9.240000E-01   3.510000E-01   7.370000E-02   1.000000E+00
@@ -73,17 +74,3 @@
 #   author: R.Michel, R.Bodemann, H.Busemann, R.Daunke, M.Gloris, H.-J.Lange, B.Klug, A.Krins, I.Leya, M.Luepke, S.Neumann, H.Reinhardt, M.Schnatz-Buettgen, U.Herpers, Th.Schiekel, F.Sudbrock, B.Holmqvist, H.Conde, P.Malmborg, M.Suter, B.Dittrich-Hannen, P.-W.Kubik, H.-A.Synal, D.Filges
 #   title: Cross sections for the production of residual nuclides by low- and medium-energy protons from the target elements C, N, O, Mg, Al, Si, Ca, Ti, V, Mn, Fe, Co, Ni, Cu, Sr, Y, Zr, Nb, Ba and Au.
 #   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.129, p.153 (19
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  5.230000E+01
-#   E-max [MeV]:  2.600000E+03
-#   F-value:  7.207430E+00
-#   A-value:  1.556932E-01
-#   chi-2:  1.269344E+02
-#   p-value:  4.628601E-02
-#   exp. data sets for p-value:      2
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.139104E+01   9.091618E-02   1.525945E+02
-# jendl5.0      3.944823E+00   2.666233E-01   1.012744E+02

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Cs133(p,3n)Ba131 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Tarkanyi
 #   year: 2010
 #   subentry: D4226004
 #   X4 reaction: 55-CS-133(P,3N)56-BA-131,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/D4226004
-# target:
+# target: 
 #   Z: 55
 #   A: 133
 #   nuclide: Cs133
-# reaction:
+# reaction: 
 #   type: (p,3n)
 #   ENDF_MF: 3
 #   ENDF_MT: 17
-# residual:
-#   Z: 56
-#   A: 131
-#   nuclide: Ba131
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 39
+#   residual: 
+#     Z: 56
+#     A: 131
+#     nuclide: Ba131
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 39
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.960000E+01   1.000000E+00   1.420000E+00   1.700000E-01   1.000000E+00
@@ -72,17 +73,3 @@
 #   author: F.Tarkanyi,A.Hermanne,S.Takacs,F.Ditroi,B.Kiraly, H.Yamazaki,M.Baba,A.Mohammadi,A.V.Ignatyuk
 #   title: New measurements and evaluation of excitation functions for (p,xn), (p,pxn) and (p,2pxn) reactions on 133Cs up to 70 MeV proton energy
 #   journal: Jour: Applied Radiation and Isotopes, Vol.68, p.47 (2010)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  1.960000E+01
-#   E-max [MeV]:  6.800000E+01
-#   F-value:  1.645940E+00
-#   A-value:  9.385707E-01
-#   chi-2:  2.214074E+02
-#   p-value:  2.144105E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.811380E+00   9.391887E-01   4.054668E+02
-# jendl5.0      1.460913E+00   9.379530E-01   3.734806E+01

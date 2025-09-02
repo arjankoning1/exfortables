@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Co59(n,x)Co57 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Veeser
 #   year: 1977
 #   subentry: 10445012
 #   X4 reaction: 27-CO-59(N,3N)27-CO-57,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/10445012
-# target:
+# target: 
 #   Z: 27
 #   A: 59
 #   nuclide: Co59
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 17
-# residual:
-#   Z: 27
-#   A: 57
-#   nuclide: Co57
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 4
+#   residual: 
+#     Z: 27
+#     A: 57
+#     nuclide: Co57
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.100000E+01   1.200000E-01   2.100000E+01   1.100000E+01   1.000000E+00
@@ -37,17 +38,3 @@
 #   author: L.R.Veeser,E.D.Arthur,P.G.Young
 #   title: Cross sections for (n,2n) and (n,3n) reaction above  14 MeV
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.16, p.1792 (1977)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  2.100000E+01
-#   E-max [MeV]:  2.400000E+01
-#   F-value:  1.088185E+00
-#   A-value:  1.058159E+00
-#   chi-2:  3.150119E-01
-#   p-value:  3.363332E-01
-#   exp. data sets for p-value:      2
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.037352E+00   1.014364E+00   1.133509E-01
-# jendl5.0      1.120474E+00   1.103845E+00   5.166730E-01

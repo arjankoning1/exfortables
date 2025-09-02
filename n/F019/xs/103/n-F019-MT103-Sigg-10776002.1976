@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: F19(n,p)O19 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Sigg
 #   year: 1976
 #   subentry: 10776002
 #   X4 reaction: 9-F-19(N,P)8-O-19,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/10776002
-# target:
+# target: 
 #   Z: 9
 #   A: 19
 #   nuclide: F19
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 8
-#   A: 19
-#   nuclide: O19
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 8
+#     A: 19
+#     nuclide: O19
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.460000E+01   0.000000E+00   1.786923E+01   2.008900E+00   1.009561E+00
@@ -34,20 +35,3 @@
 #   author: R.A.Sigg
 #   title: Fast neutron induced reaction cross-sections and their  systematics
 #   journal: Thesis: Sigg (1976)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.460000E+01
-#   E-max [MeV]:  1.460000E+01
-#   F-value:  1.108709E+00
-#   A-value:  9.531662E-01
-#   chi-2:  7.693371E-01
-#   p-value:  3.563776E-01
-#   exp. data sets for p-value:      8
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.001324E+00   9.986775E-01   1.478027E-02
-# endfb8.0      1.001324E+00   9.986775E-01   1.478027E-02
-# jeff3.3       1.001324E+00   9.986775E-01   1.478027E-02
-# jendl5.0      1.259462E+00   7.939895E-01   3.744243E+00
-# cendl3.2      1.005188E+00   9.948384E-01   5.810143E-02

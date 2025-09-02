@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Co59(n,a)Mn56 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Preiss
 #   year: 1960
 #   subentry: 11740003
 #   X4 reaction: 27-CO-59(N,A)25-MN-56,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/11740003
-# target:
+# target: 
 #   Z: 27
 #   A: 59
 #   nuclide: Co59
-# reaction:
+# reaction: 
 #   type: (n,a)
 #   ENDF_MF: 3
 #   ENDF_MT: 107
-# residual:
-#   Z: 25
-#   A: 56
-#   nuclide: Mn56
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 25
+#     A: 56
+#     nuclide: Mn56
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.480000E+01   9.000000E-01   3.000000E+01   3.000000E+00   1.000000E+00
@@ -34,21 +35,3 @@
 #   author: I.L.Preiss,R.W.Fink
 #   title: New isotopes of cobalt; activation cross-sections of nickel, cobalt, and zinc for 14.8 MeV neutrons
 #   journal: Jour: Nuclear Physics, Vol.15, p.326 (1960)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.480000E+01
-#   E-max [MeV]:  1.480000E+01
-#   F-value:  1.007877E+00
-#   A-value:  1.005128E+00
-#   chi-2:  6.721145E-02
-#   p-value:  3.183158E-01
-#   exp. data sets for p-value:      8
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.012294E+00   1.012294E+00   1.581562E-01
-# endfb8.0      1.003337E+00   1.003337E+00   4.211104E-02
-# jeff3.3       1.000192E+00   9.998085E-01   2.400979E-03
-# jendl5.0      1.000965E+00   1.000965E+00   1.211538E-02
-# cendl3.2      1.000057E+00   9.999436E-01   7.075538E-04
-# irdff2.0      1.014526E+00   1.014526E+00   1.877775E-01

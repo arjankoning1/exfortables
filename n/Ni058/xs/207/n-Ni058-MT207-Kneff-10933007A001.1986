@@ -1,28 +1,29 @@
-# header:
+# header: 
 #   title: Ni58(n,xa) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Kneff
 #   year: 1986
 #   subentry: 10933007
 #   X4 reaction: 28-NI-58(N,X)2-HE-4,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/10933007
-# target:
+# target: 
 #   Z: 28
 #   A: 58
 #   nuclide: Ni58
-# reaction:
+# reaction: 
 #   type: (n,xa)
 #   ENDF_MF: 3
 #   ENDF_MT: 207
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.480000E+01   1.000000E-01   1.202682E+02   6.274500E+00   9.939525E-01
@@ -30,21 +31,3 @@
 #   author: D.W.KNEFF,B.M.OLIVER,H.FARRAR IV,L.R.GREENWOOD
 #   title: HELIUM PRODUCTION IN PURE ELEMENTS, ISOTOPES, AND  ALLOY STEELS BY 14.8-MEV NEUTRONS.
 #   journal: Jour: Nuclear Science and Engineering, Vol.92, p.491 (1986)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  1.480000E+01
-#   E-max [MeV]:  1.480000E+01
-#   F-value:  1.121767E+00
-#   A-value:  8.984218E-01
-#   chi-2:  4.585613E+00
-#   p-value:  3.683937E-01
-#   exp. data sets for p-value:      6
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.092351E+00   9.154563E-01   3.093310E+00
-# endfb8.0      1.051486E+00   9.510347E-01   1.468701E+00
-# jeff3.3       1.184409E+00   8.443028E-01   8.955924E+00
-# jendl5.0      1.094627E+00   9.135533E-01   3.199600E+00
-# cendl3.2      1.147267E+00   8.716363E-01   6.210532E+00
-# irdff2.0      0.000000E+00   0.000000E+00   0.000000E+00

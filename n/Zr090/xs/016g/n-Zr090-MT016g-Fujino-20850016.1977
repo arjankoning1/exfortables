@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: Zr90(n,2n)Zr89g cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Fujino
 #   year: 1977
 #   subentry: 20850016
 #   X4 reaction: 40-ZR-90(N,2N)40-ZR-89-G,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20850016
-# target:
+# target: 
 #   Z: 40
 #   A: 90
 #   nuclide: Zr90
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 40
-#   A: 89
-#   nuclide: Zr89g
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 40
+#     A: 89
+#     nuclide: Zr89g
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.460000E+01   0.000000E+00   8.046750E+02   5.797657E+01   9.995961E-01
@@ -39,18 +40,3 @@
 #   author: Y.FUJINO,M.HYAKUTAKE,I.KUMABE
 #   title: -ACTIVATION CROSS SECTIONS ON ZIRCONIUM AND  MOLYBDENUM ISOTOPES INDUCED BY 14.6 MEV NEUTRONS-.
 #   journal: Prog: Japanese report to NEANDC, No.51, p.60 (1977)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  0
-#   E-min [MeV]:  1.460000E+01
-#   E-max [MeV]:  1.460000E+01
-#   F-value:  1.271665E+00
-#   A-value:  7.864729E-01
-#   chi-2:  8.841585E+00
-#   p-value:  2.954093E-01
-#   exp. data sets for p-value:      8
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.282544E+00   7.797001E-01   9.389920E+00
-# endfb8.0      1.258301E+00   7.947221E-01   8.186419E+00
-# jendl5.0      1.273772E+00   7.850699E-01   8.948416E+00

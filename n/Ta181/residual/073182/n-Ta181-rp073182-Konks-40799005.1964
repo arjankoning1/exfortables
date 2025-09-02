@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ta181(n,x)Ta182 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Konks
 #   year: 1964
 #   subentry: 40799005
 #   X4 reaction: 73-TA-181(N,G)73-TA-182,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/40799005
-# target:
+# target: 
 #   Z: 73
 #   A: 181
 #   nuclide: Ta181
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 73
-#   A: 182
-#   nuclide: Ta182
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 148
+#   residual: 
+#     Z: 73
+#     A: 182
+#     nuclide: Ta182
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 148
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.200000E-07   0.000000E+00   6.500000E+03   0.000000E+00   1.000000E+00
@@ -181,17 +182,3 @@
 #   author: V.A.Konks,Ju.P.Popov,F.L.Shapiro
 #   title: Cross sections for radioactive capture of neutrons  with energies up to 50 keV by La-139, Pr-141, Ta-181,  and Au-197
 #   journal: Jour: Journal of Experimental and Theoretical Physics, Vol.19, p.59 (196
-# statistics:
-#   NEA score: T2
-#   IAEA score:  1
-#   E-min [MeV]:  3.200000E-07
-#   E-max [MeV]:  4.500000E-02
-#   F-value:  1.021278E+01
-#   A-value:  2.214135E-01
-#   chi-2:  0.000000E+00
-#   p-value:  9.919894E-02
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.015073E+01   2.251880E-01   0.000000E+00
-# jendl5.0      1.027505E+01   2.177023E-01   0.000000E+00

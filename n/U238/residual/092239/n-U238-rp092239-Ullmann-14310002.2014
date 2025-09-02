@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: U238(n,x)U239 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Ullmann
 #   year: 2014
 #   subentry: 14310002
 #   X4 reaction: 92-U-238(N,G)92-U-239,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/14310002
-# target:
+# target: 
 #   Z: 92
 #   A: 238
 #   nuclide: U238
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 92
-#   A: 239
-#   nuclide: U239
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 115
+#   residual: 
+#     Z: 92
+#     A: 239
+#     nuclide: U239
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 115
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.039000E-03   0.000000E+00   1.577000E+03   9.383062E+01   1.000000E+00
@@ -148,16 +149,3 @@
 #   author: J.L.Ullmann,T.Kawano,T.A.Bredeweg,A.Couture, R.C.Haight,M.Jandel,J.M.O'Donnell,R.S.Rundberg, D.J.Vieira,J.B.Wilhelmy,J.A.Becker,A.Chyzh,C.Y.Wu, B.Baramsai,G.E.Mitchell,M.Krticka
 #   title: Cross section and gamma-ray spectra for U238(n,g) measured with the DANCE detector array at the Los Alamos Neutron Science Center
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.89, p.034603 (2014)
-# statistics:
-#   NEA score: T3
-#   IAEA score:  1
-#   E-min [MeV]:  1.039000E-03
-#   E-max [MeV]:  9.935000E-03
-#   F-value:  2.171288E+01
-#   A-value:  1.209668E-01
-#   chi-2:  1.212410E+03
-#   p-value:  7.028792E-02
-#   exp. data sets for p-value:      8
-#   libraries:      1
-##  Library          F              A            chi-2
-# jendl5.0      2.171288E+01   1.209668E-01   1.212410E+03

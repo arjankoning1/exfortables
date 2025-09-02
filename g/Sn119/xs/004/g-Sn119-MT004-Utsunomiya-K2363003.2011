@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Sn119(g,n')Sn118 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Utsunomiya
 #   year: 2011
 #   subentry: K2363003
 #   X4 reaction: 50-SN-119(G,N)50-SN-118,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/K2363003
-# target:
+# target: 
 #   Z: 50
 #   A: 119
 #   nuclide: Sn119
-# reaction:
+# reaction: 
 #   type: (g,n')
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 50
-#   A: 118
-#   nuclide: Sn118
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 14
+#   residual: 
+#     Z: 50
+#     A: 118
+#     nuclide: Sn118
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 14
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    6.610000E+00   0.000000E+00   6.710000E+00   3.934000E-01   1.000000E+00
@@ -47,18 +48,3 @@
 #   author: H.Utsunomiya, S.Goriely, M.Kamata, H.Akimune, T.Kondo,  O.Itoh, C.Iwamoto, T.Yamagata, H.Toyokawa, Y.-W.Lui,  H.Harada, F.Kitatani, S.Goko, S.Hilaire, A.J.Koning
 #   title: Photoneutron cross section for 118-124Sn and the gamma-ray strength function method
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.84, Issue.5, p.05580
-# statistics:
-#   NEA score: T3
-#   IAEA score:  1
-#   E-min [MeV]:  6.610000E+00
-#   E-max [MeV]:  1.179000E+01
-#   F-value:  1.600681E+00
-#   A-value:  8.108023E-01
-#   chi-2:  3.054959E+01
-#   p-value:  2.879111E-01
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.761150E+00   7.222083E-01   3.989001E+01
-# endfb8.0      1.661085E+00   7.752745E-01   4.750896E+01
-# jendl5.0      1.055770E+00   1.003756E+00   1.202083E+00

@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: Rb85(n,x)Rb86m cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Broadhead
 #   year: 1967
 #   subentry: 11850002
 #   X4 reaction: 37-RB-85(N,G)37-RB-86-M,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/11850002
-# target:
+# target: 
 #   Z: 37
 #   A: 85
 #   nuclide: Rb85
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 37
-#   A: 86
-#   nuclide: Rb86m
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 37
+#     A: 86
+#     nuclide: Rb86m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.800000E+00   7.000000E-02   3.829500E+00   5.200000E-01   9.573805E-01
@@ -39,18 +40,3 @@
 #   author: K.G.Broadhead,D.E.Shanks
 #   title: The application of 2.8 MeV (D,d) neutrons to activation analysis.
 #   journal: Jour: Applied Radiation and Isotopes, Vol.18, p.279 (1967)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  2.800000E+00
-#   E-max [MeV]:  2.800000E+00
-#   F-value:  2.011791E+00
-#   A-value:  6.035054E-01
-#   chi-2:  1.246748E+01
-#   p-value:  3.569785E-01
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    2.089755E+00   4.785251E-01   1.475200E+01
-# jeff3.3       2.574828E+00   3.883755E-01   2.028865E+01
-# jendl5.0      1.182734E+00   1.182734E+00   2.361802E+00

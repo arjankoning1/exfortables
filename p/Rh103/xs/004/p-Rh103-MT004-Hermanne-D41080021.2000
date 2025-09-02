@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Rh103(p,n')Pd103 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Hermanne
 #   year: 2000
 #   subentry: D41080021
 #   X4 reaction: 45-RH-103(P,N)46-PD-103,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/D41080021
-# target:
+# target: 
 #   Z: 45
 #   A: 103
 #   nuclide: Rh103
-# reaction:
+# reaction: 
 #   type: (p,n')
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 46
-#   A: 103
-#   nuclide: Pd103
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 70
+#   residual: 
+#     Z: 46
+#     A: 103
+#     nuclide: Pd103
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 70
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.800000E+00   1.000000E+00   4.100000E+01   4.500000E+00   1.000000E+00
@@ -103,17 +104,3 @@
 #   author: A.Hermanne,M.Sonck,A.Fenyvesi,L.Daraban
 #   title: Study on production of 103Pd and characterisation of possible contaminants in the proton irradiation of 103Rh up to 28 MeV
 #   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.170, p.281 (20
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  4.800000E+00
-#   E-max [MeV]:  2.500000E+01
-#   F-value:  1.387759E+00
-#   A-value:  8.916451E-01
-#   chi-2:  7.697907E+00
-#   p-value:  3.200867E-01
-#   exp. data sets for p-value:      3
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.476090E+00   8.213148E-01   9.730972E+00
-# jendl5.0      1.285647E+00   9.679981E-01   5.664841E+00

@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: Sr86(n,2n)Sr85m cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Bormann
 #   year: 1976
 #   subentry: 206140092
 #   X4 reaction: 38-SR-86(N,2N)38-SR-85-M,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/206140092
-# target:
+# target: 
 #   Z: 38
 #   A: 86
 #   nuclide: Sr86
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 38
-#   A: 85
-#   nuclide: Sr85m
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 7
+#   residual: 
+#     Z: 38
+#     A: 85
+#     nuclide: Sr85m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.268000E+01   1.000000E-01   1.440000E+02   1.300000E+01   1.000000E+00
@@ -45,18 +46,3 @@
 #   author: M.BORMANN, H-K.FEDDERSEN, H.-H.HOLSCHER, W.SCOBEL,  H.WAGNER
 #   title: -(N,2N) EXCITATION FUNCTIONS FOR FE-54, GE-70, SE-74,  RB-85, SR-86,88, Y-89, MO-92, AND HG-204 IN THE  NEUTRON ENERGY REGION 13-18 MEV-. (GERMAN)
 #   journal: Jour: Zeitschrift fuer Physik A, Hadrons and Nuclei, Vol.277, p.203 (197
-# statistics:
-#   NEA score: T2
-#   IAEA score:  1
-#   E-min [MeV]:  1.268000E+01
-#   E-max [MeV]:  1.812000E+01
-#   F-value:  1.693971E+00
-#   A-value:  7.245324E-01
-#   chi-2:  1.366973E+01
-#   p-value:  2.569010E-01
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.777625E+00   6.692460E-01   1.619454E+01
-# jeff3.3       1.634005E+00   7.818204E-01   1.175014E+01
-# jendl5.0      1.667357E+00   7.269100E-01   1.306448E+01

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Si0(n,x)Na24 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Yashima
 #   year: 2004
 #   subentry: 23105012
 #   X4 reaction: 14-SI-0(N,X)11-NA-24,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/23105012
-# target:
+# target: 
 #   Z: 14
 #   A: 0
 #   nuclide: Si0
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 11
-#   A: 24
-#   nuclide: Na24
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 6
+#   residual: 
+#     Z: 11
+#     A: 24
+#     nuclide: Na24
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.700000E+01   0.000000E+00   1.170075E+01   1.260100E+00   1.000064E+00
@@ -39,19 +40,3 @@
 #   author: H.Yashima, K.Terunuma, T.Nakamura, M.Hagiwara, N.Kawata, M.Baba
 #   title: Measurement of neutron activation cross sections for  major elements of water, air and soil between 30 and  70 MeV.
 #   journal: Jour: Jour. of Nuclear Science and Technology Suppl., Vol.4, p.70 (2004)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  2.700000E+01
-#   E-max [MeV]:  6.600000E+01
-#   F-value:  4.768910E+00
-#   A-value:  9.952820E-01
-#   chi-2:  3.891323E+02
-#   p-value:  2.907494E-01
-#   exp. data sets for p-value:      1
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    2.221842E+00   1.905785E+00   2.606490E+02
-# endfb8.0      1.936927E+00   1.561611E+00   1.848784E+02
-# jeff3.3       1.990344E+01   8.041980E-02   1.213708E+02
-# jendl5.0      3.000408E+00   2.779469E+00   1.008225E+03

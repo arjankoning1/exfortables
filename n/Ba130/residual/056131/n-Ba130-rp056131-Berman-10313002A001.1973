@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ba130(n,x)Ba131 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Berman
 #   year: 1973
 #   subentry: 10313002
 #   X4 reaction: 56-BA-130(N,G)56-BA-131,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/10313002
-# target:
+# target: 
 #   Z: 56
 #   A: 130
 #   nuclide: Ba130
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 56
-#   A: 131
-#   nuclide: Ba131
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 5865
+#   residual: 
+#     Z: 56
+#     A: 131
+#     nuclide: Ba131
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5865
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.000100E-05   8.000400E-08  -3.775000E+03   5.134000E+01   1.000000E+00
@@ -5898,17 +5899,3 @@
 #   author: B.L.Berman,J.C.Browne
 #   title: Microscopic 130Ba(n,gamma) Cross Section and the Origin  of 131Xe on the Moon
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.7, p.2522 (1973)
-# statistics:
-#   NEA score: T3
-#   IAEA score: -1
-#   E-min [MeV]:  2.000100E-05
-#   E-max [MeV]:  4.991960E-03
-#   F-value:  1.809888E+01
-#   A-value:  1.419805E-01
-#   chi-2:  8.966258E+05
-#   p-value:  3.120898E-02
-#   exp. data sets for p-value:      2
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.928966E+01   1.339998E-01   9.143522E+05
-# jendl5.0      1.695732E+01   1.504357E-01   8.788981E+05

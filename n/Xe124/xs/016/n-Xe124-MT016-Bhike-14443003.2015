@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Xe124(n,2n)Xe123 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Bhike
 #   year: 2015
 #   subentry: 14443003
 #   X4 reaction: 54-XE-124(N,2N)54-XE-123,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/14443003
-# target:
+# target: 
 #   Z: 54
 #   A: 124
 #   nuclide: Xe124
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 54
-#   A: 123
-#   nuclide: Xe123
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 8
+#   residual: 
+#     Z: 54
+#     A: 123
+#     nuclide: Xe123
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.136000E+01   1.400000E-01   8.048239E+01   5.030000E+00   1.001523E+00
@@ -41,20 +42,3 @@
 #   author: M.Bhike,B.Fallin,M.E.Gooden,N.Ludin,W.Tornow
 #   title: Comprehensive sets of 124Xe(n,gamma)125Xe and 124Xe(n,2n)123Xe cross- section data for assessment of inertial-confinement deuterium-tritium fusion plasma
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.91, p.011601 (2015)
-# statistics:
-#   NEA score: T3
-#   IAEA score:  1
-#   E-min [MeV]:  1.136000E+01
-#   E-max [MeV]:  1.480000E+01
-#   F-value:  1.464238E+00
-#   A-value:  1.289946E+00
-#   chi-2:  8.049773E+01
-#   p-value:  1.690056E-01
-#   exp. data sets for p-value:      1
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.304201E+00   1.294376E+00   2.859092E+01
-# endfb8.0      1.032584E+00   1.018944E+00   6.263940E-01
-# jeff3.3       1.441842E+00   1.418057E+00   6.166492E+01
-# jendl5.0      1.914429E+00   1.857077E+00   2.826703E+02
-# cendl3.2      1.371664E+00   1.028310E+00   2.893620E+01

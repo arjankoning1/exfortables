@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ag0(p,x)Pd103 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Fassbender
 #   year: 1999
 #   subentry: D0397002
 #   X4 reaction: 47-AG-0(P,X)46-PD-103,CUM,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/D0397002
-# target:
+# target: 
 #   Z: 47
 #   A: 0
 #   nuclide: Ag0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 46
-#   A: 103
-#   nuclide: Pd103
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 23
+#   residual: 
+#     Z: 46
+#     A: 103
+#     nuclide: Pd103
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 23
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.730000E+01   0.000000E+00   3.080000E+00   4.100000E-01   1.000000E+00
@@ -56,17 +57,3 @@
 #   author: M.Fassbender,F.M.Nortier,I.W.Schroeder, T.N.van der Walt
 #   title: The production of 103Pd via the natAg(p,x)103Pd nuclear process
 #   journal: Jour: Radiochimica Acta, Vol.87, p.87 (1999)
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  1.730000E+01
-#   E-max [MeV]:  9.520000E+01
-#   F-value:  2.882722E+00
-#   A-value:  4.038706E-01
-#   chi-2:  3.600253E+01
-#   p-value:  2.743245E-01
-#   exp. data sets for p-value:      2
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    3.403665E+00   3.183335E-01   4.316436E+01
-# jendl5.0      2.365875E+00   5.123916E-01   2.884070E+01

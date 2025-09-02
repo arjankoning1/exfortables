@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Sn117(n,x)In117 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Hasan
 #   year: 1972
 #   subentry: 30041012
 #   X4 reaction: 50-SN-117(N,P)49-IN-117,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30041012
-# target:
+# target: 
 #   Z: 50
 #   A: 117
 #   nuclide: Sn117
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 49
-#   A: 117
-#   nuclide: In117
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 49
+#     A: 117
+#     nuclide: In117
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.480000E+01   5.000000E-01   3.050000E+01   3.000000E+00   1.000000E+00
@@ -34,17 +35,3 @@
 #   author: S.S.Hasan, R.Prasad, M.L.Seghal
 #   title: The 14.8 MeV neutron cross sections for enriched  isotopes of 82Se, 92Mo, 117Sn, 128Te and 130Te
 #   journal: Jour: Nuclear Physics, Section A, Vol.181, p.101 (1972)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  0
-#   E-min [MeV]:  1.480000E+01
-#   E-max [MeV]:  1.480000E+01
-#   F-value:  1.688016E+00
-#   A-value:  5.956550E-01
-#   chi-2:  1.697038E+01
-#   p-value:  7.235605E-02
-#   exp. data sets for p-value:      5
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.810331E+00   5.523852E-01   2.070955E+01
-# jendl5.0      1.556870E+00   6.423143E-01   1.323120E+01

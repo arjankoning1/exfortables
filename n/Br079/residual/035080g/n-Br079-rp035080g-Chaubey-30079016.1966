@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: Br79(n,x)Br80g cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Chaubey
 #   year: 1966
 #   subentry: 30079016
 #   X4 reaction: 35-BR-79(N,G)35-BR-80-G,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30079016
-# target:
+# target: 
 #   Z: 35
 #   A: 79
 #   nuclide: Br79
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 35
-#   A: 80
-#   nuclide: Br80g
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 35
+#     A: 80
+#     nuclide: Br80g
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.400000E-02   0.000000E+00   5.450000E+02   4.500000E+01   1.000000E+00
@@ -39,18 +40,3 @@
 #   author: A.K.Chaubey, M.L.Sehgal
 #   title: Test of Statistical Theory of Nuclear Reactions at 24 keV.
 #   journal: Jour: Physical Review, Vol.152, p.1055 (1966)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  2.400000E-02
-#   E-max [MeV]:  2.400000E-02
-#   F-value:  1.079998E+00
-#   A-value:  9.974144E-01
-#   chi-2:  1.255688E+00
-#   p-value:  4.666665E-01
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.102860E+00   9.067335E-01   1.862545E+00
-# jeff3.3       1.000316E+00   9.996840E-01   4.799764E-03
-# jendl5.0      1.094673E+00   1.094673E+00   1.899718E+00

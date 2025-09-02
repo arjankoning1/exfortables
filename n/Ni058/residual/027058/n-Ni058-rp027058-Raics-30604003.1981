@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ni58(n,x)Co58 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Raics
 #   year: 1981
 #   subentry: 30604003
 #   X4 reaction: 28-NI-58(N,P)27-CO-58,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30604003
-# target:
+# target: 
 #   Z: 28
 #   A: 58
 #   nuclide: Ni58
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 27
-#   A: 58
-#   nuclide: Co58
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 5
+#   residual: 
+#     Z: 27
+#     A: 58
+#     nuclide: Co58
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.352000E+01   1.300000E-01   3.854825E+02   1.101379E+01   1.001253E+00
@@ -38,18 +39,3 @@
 #   author: P.Raics,F.Paszti,S.Daroczy,S.Nagy
 #   title: Measurement of the cross sections for the Ni-58(n,2n), Ni-58(n,p), Ni-58(n,d) and Y-89(n,2n) reactions around 14 MeV
 #   journal: Jour: ATOMKI Koezlemenyek, Vol.23, p.45 (1981)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.352000E+01
-#   E-max [MeV]:  1.480000E+01
-#   F-value:  1.046467E+00
-#   A-value:  1.040780E+00
-#   chi-2:  2.702326E+00
-#   p-value:  2.097524E-01
-#   exp. data sets for p-value:      8
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.057403E+00   1.056528E+00   3.760816E+00
-# endfb8.0      1.038282E+00   1.028882E+00   1.979907E+00
-# jendl5.0      1.041611E+00   1.037123E+00   2.366255E+00

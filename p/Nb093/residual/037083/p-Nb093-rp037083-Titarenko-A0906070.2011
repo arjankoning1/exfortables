@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Nb93(p,x)Rb83 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Titarenko
 #   year: 2011
 #   subentry: A0906070
 #   X4 reaction: 41-NB-93(P,X)37-RB-83,CUM,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/A0906070
-# target:
+# target: 
 #   Z: 41
 #   A: 93
 #   nuclide: Nb93
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 37
-#   A: 83
-#   nuclide: Rb83
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 10
+#   residual: 
+#     Z: 37
+#     A: 83
+#     nuclide: Rb83
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    6.800000E+01   1.000000E+00   2.450000E+00   2.300000E-01   1.000000E+00
@@ -43,18 +44,3 @@
 #   author: Yu.E.Titarenko, V.F.Batyaev, A.Yu.Titarenko, M.A.Butko, K.V.Pavlov, S.N.Florya, R.S.Tikhonov, V.M.Zhivun, A.V.Ignatyuk, S.G.Mashnik, S.Leray, A.Boudard, J.Cugnon, D.Mancusi, Y.Yariv, K.Nishihara, N.Matsuda, H.Kumawat, G.Mank, W.Gudowski
 #   title: Measurement and simulation of the cross sections for nuclide production in Nb-93 and Ni-nat targets irradiated with 0.04- to 2.6-GeV protons.
 #   journal: Jour: Yadernaya Fizika, Vol.74, p.561 (2011)
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  6.800000E+01
-#   E-max [MeV]:  2.605000E+03
-#   F-value:  1.319714E+01
-#   A-value:  9.729597E-02
-#   chi-2:  7.932000E+01
-#   p-value:  1.699150E-02
-#   exp. data sets for p-value:      4
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    3.891909E+01   2.765951E-02   1.012893E+02
-# endfb8.0      8.862247E+00   1.263828E-01   7.818246E+01
-# jendl5.0      3.828843E+00   2.634828E-01   5.848827E+01

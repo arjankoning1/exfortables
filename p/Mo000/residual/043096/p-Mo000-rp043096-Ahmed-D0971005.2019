@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Mo0(p,x)Tc96 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Ahmed
 #   year: 2019
 #   subentry: D0971005
 #   X4 reaction: 42-MO-0(P,X)43-TC-96,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/D0971005
-# target:
+# target: 
 #   Z: 42
 #   A: 0
 #   nuclide: Mo0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 43
-#   A: 96
-#   nuclide: Tc96
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 43
+#     A: 96
+#     nuclide: Tc96
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.250000E+01   3.500000E+00   1.200000E+02   1.000000E+01   1.000000E+00
@@ -34,17 +35,3 @@
 #   author: A.A.Ahmed, A.Wronska, A.Magiera, M.Bartyzel,  J.W.Mietelski, R.Misiak, B.Was
 #   title: Reexamination of proton-induced reactions on  natMo at  19-26 MeV and study of target yield of resultant  radionuclides
 #   journal: Jour: Acta Physica Polonica, Part B, Vol.50, p.1583 (2019)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  2.250000E+01
-#   E-max [MeV]:  2.250000E+01
-#   F-value:  1.186748E+00
-#   A-value:  1.170541E+00
-#   chi-2:  5.527755E+00
-#   p-value:  4.690505E-01
-#   exp. data sets for p-value:      5
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.094434E+00   1.094434E+00   1.870474E+00
-# jendl5.0      1.251941E+00   1.251941E+00   9.185036E+00

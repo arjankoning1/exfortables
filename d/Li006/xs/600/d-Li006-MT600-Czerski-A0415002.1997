@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Li6(d,p_00) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Czerski
 #   year: 1997
 #   subentry: A0415002
 #   X4 reaction: 3-LI-6(D,P)3-LI-7,PAR,SIG,,SFC
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/A0415002
-#   level energy [MeV]  0.00000E+00
-# target:
+#   level energy [MeV]:  0.00000E+00
+# target: 
 #   Z: 3
 #   A: 6
 #   nuclide: Li6
-# reaction:
+# reaction: 
 #   type: (d,p_00)
 #   ENDF_MF: 3
 #   ENDF_MT: 600
@@ -25,10 +25,11 @@
 #     energy [MeV]:  0.000000E+00
 #     spin:  8.000000E+00
 #     parity: 1
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 8
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    6.390000E-02   0.000000E+00   2.561700E-02   1.450000E-03   1.000000E+00
@@ -43,17 +44,3 @@
 #   author: K.Czerski, G.Ruprecht, H.Bucka, P.Heide
 #   title: Comparison between the ground state transitions of the sub-coulomb deuteron stripping reactions on 6-Li
 #   journal: Jour: Nuclear Physics, Section A, Vol.621, p.119 (1997)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  6.390000E-02
-#   E-max [MeV]:  1.362000E-01
-#   F-value:  1.038502E+00
-#   A-value:  9.783413E-01
-#   chi-2:  6.062911E-01
-#   p-value:  3.959720E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.038502E+00   9.783413E-01   6.062911E-01
-# endfb8.0      1.038502E+00   9.783413E-01   6.062911E-01

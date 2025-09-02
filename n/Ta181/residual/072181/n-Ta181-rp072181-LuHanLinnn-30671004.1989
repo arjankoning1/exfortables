@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ta181(n,x)Hf181 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: LuHanLinnn
 #   year: 1989
 #   subentry: 30671004
 #   X4 reaction: 73-TA-181(N,P)72-HF-181,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30671004
-# target:
+# target: 
 #   Z: 73
 #   A: 181
 #   nuclide: Ta181
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 72
-#   A: 181
-#   nuclide: Hf181
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 18
+#   residual: 
+#     Z: 72
+#     A: 181
+#     nuclide: Hf181
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 18
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.280000E+01   1.700000E-01   2.055300E+00   1.171700E-01   9.881305E-01
@@ -51,18 +52,3 @@
 #   author: Lu Han-Lin,Li Ji-Zhou,Fan Pei-Guo,Huang Jian-Zhou
 #   title: Measurement of cross sections of reactions (n,p) and  (n,a) for Fe-54 and Ta-181
 #   journal: Rept: Chinese report to the I.N.D.C., No.16 (1989)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.280000E+01
-#   E-max [MeV]:  1.823000E+01
-#   F-value:  1.220507E+00
-#   A-value:  1.043231E+00
-#   chi-2:  2.015502E+01
-#   p-value:  2.286686E-01
-#   exp. data sets for p-value:      2
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.244720E+00   1.052921E+00   2.569591E+01
-# jeff3.3       1.177007E+00   1.014639E+00   1.235259E+01
-# jendl5.0      1.235255E+00   1.062758E+00   2.241655E+01

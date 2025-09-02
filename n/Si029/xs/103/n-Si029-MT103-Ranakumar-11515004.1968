@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Si29(n,p)Al29 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Ranakumar
 #   year: 1968
 #   subentry: 11515004
 #   X4 reaction: 14-SI-29(N,P)13-AL-29,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/11515004
-# target:
+# target: 
 #   Z: 14
 #   A: 29
 #   nuclide: Si29
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 13
-#   A: 29
-#   nuclide: Al29
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 13
+#     A: 29
+#     nuclide: Al29
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.440000E+01   3.000000E-01   1.300000E+02   1.600000E+01   1.000000E+00
@@ -34,20 +35,3 @@
 #   author: N.Ranakumar,E.Kondaiah,R.W.Fink
 #   title: Neutron activation cross sections at 14.4 MeV for Si and Zn isotopes.
 #   journal: Jour: Nuclear Physics, Section A, Vol.122, p.679 (1968)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.440000E+01
-#   E-max [MeV]:  1.440000E+01
-#   F-value:  1.003155E+00
-#   A-value:  9.982731E-01
-#   chi-2:  2.090169E-02
-#   p-value:  4.387407E-01
-#   exp. data sets for p-value:      8
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.003194E+00   9.968157E-01   3.260282E-02
-# endfb8.0      1.000000E+00   1.000000E+00   2.628440E-06
-# jeff3.3       1.000000E+00   1.000000E+00   2.628440E-06
-# jendl5.0      1.000780E+00   1.000780E+00   7.954432E-03
-# cendl3.2      1.006252E+00   9.937868E-01   6.394593E-02

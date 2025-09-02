@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Co59(p,x)Mn54 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Ditroi
 #   year: 2013
 #   subentry: D4293008
 #   X4 reaction: 27-CO-59(P,X)25-MN-54,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/D4293008
-# target:
+# target: 
 #   Z: 27
 #   A: 59
 #   nuclide: Co59
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 25
-#   A: 54
-#   nuclide: Mn54
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 20
+#   residual: 
+#     Z: 25
+#     A: 54
+#     nuclide: Mn54
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 20
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.740000E+01   5.000000E-01   2.700000E-01   1.400000E-01   1.000000E+00
@@ -53,17 +54,3 @@
 #   author: F.Ditroi,F.Tarkanyi,S.Takacs,A.Hermanne,H.Yamazaki, M.Baba,A.Mohammadi
 #   title: Activation cross-sections of longer lived products of proton induced nuclear reactions on cobalt up to 70 MeV
 #   journal: Jour: Journal of Radioanalytical and Nuclear Chemistry, Vol.298, p.853 (
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  2.740000E+01
-#   E-max [MeV]:  6.980000E+01
-#   F-value:  1.819704E+00
-#   A-value:  6.637495E-01
-#   chi-2:  9.754554E+00
-#   p-value:  3.189661E-01
-#   exp. data sets for p-value:      3
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    2.253107E+00   5.021929E-01   1.652565E+01
-# jendl5.0      1.269587E+00   8.772792E-01   2.983455E+00

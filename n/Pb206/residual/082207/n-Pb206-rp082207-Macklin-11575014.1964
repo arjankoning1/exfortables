@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Pb206(n,x)Pb207 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Macklin
 #   year: 1964
 #   subentry: 11575014
 #   X4 reaction: 82-PB-206(N,G)82-PB-207,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/11575014
-# target:
+# target: 
 #   Z: 82
 #   A: 206
 #   nuclide: Pb206
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 82
-#   A: 207
-#   nuclide: Pb207
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 42
+#   residual: 
+#     Z: 82
+#     A: 207
+#     nuclide: Pb207
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 42
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.360000E-02   0.000000E+00   1.410000E+01   3.400000E+00   1.000000E+00
@@ -75,18 +76,3 @@
 #   author: R.L.Macklin,P.J.Pasma,J.H.Gibbons
 #   title: Resonance Neutron Capture and Transmission in Sulfur,  Iron and Lead
 #   journal: Jour: Physical Review, Vol.136, p.B695 (1964)
-# statistics:
-#   NEA score: T3
-#   IAEA score:  1
-#   E-min [MeV]:  1.360000E-02
-#   E-max [MeV]:  5.800000E-02
-#   F-value:  6.213195E+01
-#   A-value:  2.582213E-02
-#   chi-2:  2.360604E+04
-#   p-value:  1.474603E-02
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    5.805574E+01   2.610868E-02   3.342204E+02
-# endfb8.0      7.093297E+01   2.525844E-02   7.014970E+04
-# jendl5.0      5.805574E+01   2.610868E-02   3.342204E+02

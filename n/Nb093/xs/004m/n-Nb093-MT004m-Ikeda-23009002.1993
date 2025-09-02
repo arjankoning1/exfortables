@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: Nb93(n,n')Nb93m cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Ikeda
 #   year: 1993
 #   subentry: 23009002
 #   X4 reaction: 41-NB-93(N,INL)41-NB-93-M,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/23009002
-# target:
+# target: 
 #   Z: 41
 #   A: 93
 #   nuclide: Nb93
-# reaction:
+# reaction: 
 #   type: (n,n')
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 41
-#   A: 93
-#   nuclide: Nb93m
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 2
+#   residual: 
+#     Z: 41
+#     A: 93
+#     nuclide: Nb93m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.450000E+01   2.000000E-01   4.441640E+01   3.779300E+00   1.000369E+00
@@ -40,20 +41,3 @@
 #   author: Y.Ikeda, C.Konno, K.Kosako, M.Asai, K.Kawade, H.Maekawa
 #   title: Measurement of the 93Nb(n,n')93mNb reaction cross section at 14.5 and 14.9 MeV
 #   journal: Jour: Jour. of Nuclear Science and Technology, Vol.30, Issue.10, p.967 (
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.450000E+01
-#   E-max [MeV]:  1.490000E+01
-#   F-value:  1.270822E+00
-#   A-value:  9.268104E-01
-#   chi-2:  9.364262E+00
-#   p-value:  2.533235E-01
-#   exp. data sets for p-value:      3
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.203739E+00   8.310614E-01   4.275666E+00
-# endfb8.0      1.225070E+00   8.171503E-01   4.911231E+00
-# jeff3.3       1.203739E+00   8.310614E-01   4.275666E+00
-# jendl5.0      1.458842E+00   1.458786E+00   2.906286E+01
-# irdff2.0      1.204441E+00   8.306059E-01   4.295879E+00

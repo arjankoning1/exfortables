@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: N14(p,n')O14 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: HsinminKuannn
 #   year: 1964
 #   subentry: C0482003
 #   X4 reaction: 7-N-14(P,N)8-O-14,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/C0482003
-# target:
+# target: 
 #   Z: 7
 #   A: 14
 #   nuclide: N14
-# reaction:
+# reaction: 
 #   type: (p,n')
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 8
-#   A: 14
-#   nuclide: O14
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 84
+#   residual: 
+#     Z: 8
+#     A: 14
+#     nuclide: O14
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 84
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    6.356795E+00   0.000000E+00   1.100000E+00   5.400000E-01   1.000000E+00
@@ -117,18 +118,3 @@
 #   author: Hsin-min Kuan,J.R.Risser
 #   title: Excitation function of the 14n(p,n)14O total cross section from threshold to 12 MeV.
 #   journal: Jour: Nuclear Physics, Vol.51, p.518 (1964)
-# statistics:
-#   NEA score: R2
-#   IAEA score:  1
-#   E-min [MeV]:  6.356795E+00
-#   E-max [MeV]:  1.217760E+01
-#   F-value:  1.108466E+01
-#   A-value:  1.410840E-01
-#   chi-2:  2.642252E+00
-#   p-value:  1.300080E-01
-#   exp. data sets for p-value:      3
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.903226E+01   5.272479E-02   3.944617E+00
-# endfb8.0      1.903226E+01   5.272479E-02   3.944617E+00
-# jendl5.0      1.027923E+00   1.010192E+00   3.752219E-02

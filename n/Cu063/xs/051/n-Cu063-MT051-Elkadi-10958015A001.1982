@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Cu63(n,n'_01)Cu64 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Elkadi
 #   year: 1982
 #   subentry: 10958015
 #   X4 reaction: 29-CU-63(N,INL)29-CU-63,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/10958015
-#   level energy [MeV]  9.98500E-01
-# target:
+#   level energy [MeV]:  9.98500E-01
+# target: 
 #   Z: 29
 #   A: 63
 #   nuclide: Cu63
-# reaction:
+# reaction: 
 #   type: (n,n'_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 51
@@ -25,14 +25,15 @@
 #     energy [MeV]:  9.620200E-01
 #     spin:  2.500000E+00
 #     parity: -1
-# residual:
-#   Z: 29
-#   A: 64
-#   nuclide: Cu64
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 2
+#   residual: 
+#     Z: 29
+#     A: 64
+#     nuclide: Cu64
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    7.960000E+00   1.000000E-01   1.220000E+02   1.159291E+01   1.000000E+00
@@ -41,20 +42,3 @@
 #   author: S.M.El-Kadi,C.E.Nelson,F.O.Purser,R.L.Walter, A.Beyerle,C.R.Gould,L.W.Seagondollar
 #   title: Elastic and inelastic scattering of neutrons from  54-,56-Fe and 63-,65-Cu  (part I)
 #   journal: Jour: Nuclear Physics, Section A, Vol.390, p.509 (1982)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  7.960000E+00
-#   E-max [MeV]:  9.940000E+00
-#   F-value:  3.666327E+01
-#   A-value:  3.772606E-02
-#   chi-2:  1.174304E+02
-#   p-value:  1.788139E-07
-#   exp. data sets for p-value:      5
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    2.700237E+02   3.845206E-03   1.360962E+02
-# endfb8.0      8.295063E+01   1.219534E-02   1.339486E+02
-# jeff3.3       1.189844E+01   8.404462E-02   1.151351E+02
-# jendl5.0      8.914433E+00   1.121788E-01   1.081367E+02
-# cendl3.2      5.785414E+00   1.728513E-01   9.383524E+01

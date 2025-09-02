@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: N14(n,x)C14 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Wagemans
 #   year: 2000
 #   subentry: 224960023
 #   X4 reaction: 7-N-14(N,P)6-C-14,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/224960023
-# target:
+# target: 
 #   Z: 7
 #   A: 14
 #   nuclide: N14
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 6
-#   A: 14
-#   nuclide: C14
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 6
+#     A: 14
+#     nuclide: C14
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.530000E-08   0.000000E+00   2.030545E+03   6.038624E+01   1.005220E+00
@@ -34,19 +35,3 @@
 #   author: J.Wagemans,C.Wagemans,G.Goeminne,P.Geltenbort
 #   title: Experimental determination of the 14N(n,p)14C reaction  cross section for thermal neutrons
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.61, p.064601 (2000)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  2.530000E-08
-#   E-max [MeV]:  2.530000E-08
-#   F-value:  1.098763E+00
-#   A-value:  9.134114E-01
-#   chi-2:  9.206320E+00
-#   p-value:  1.787955E-01
-#   exp. data sets for p-value:      8
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.111258E+00   8.998812E-01   1.135104E+01
-# endfb8.0      1.111258E+00   8.998812E-01   1.135104E+01
-# jeff3.3       1.111258E+00   8.998812E-01   1.135104E+01
-# jendl5.0      1.046863E+00   9.552345E-01   2.772165E+00

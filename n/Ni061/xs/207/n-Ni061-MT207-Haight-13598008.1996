@@ -1,28 +1,29 @@
-# header:
+# header: 
 #   title: Ni61(n,xa) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Haight
 #   year: 1996
 #   subentry: 13598008
 #   X4 reaction: 28-NI-61(N,X)2-HE-4,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/13598008
-# target:
+# target: 
 #   Z: 28
 #   A: 61
 #   nuclide: Ni61
-# reaction:
+# reaction: 
 #   type: (n,xa)
 #   ENDF_MF: 3
 #   ENDF_MT: 207
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    9.850000E+00   6.000000E-01   2.760000E+01   2.100000E+00   1.000000E+00
@@ -30,20 +31,3 @@
 #   author: R.C.Haight,D.W.Kneff,B.M.Oliver,L.R.Greenwood,  H.Vonach
 #   title: Helium production by 9.85-MeV neutrons in elemental  iron, nickel, and copper and in 56Fe and 58,60,61Ni
 #   journal: Jour: Nuclear Science and Engineering, Vol.124, p.219 (1996)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  9.850000E+00
-#   E-max [MeV]:  9.850000E+00
-#   F-value:  1.373809E+00
-#   A-value:  1.284529E+00
-#   chi-2:  2.865508E+01
-#   p-value:  2.056493E-01
-#   exp. data sets for p-value:      1
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.110262E+00   1.110262E+00   2.623439E+00
-# endfb8.0      1.754970E+00   1.754970E+00   9.845525E+01
-# jeff3.3       1.414844E+00   1.414844E+00   2.972691E+01
-# jendl5.0      1.000000E+00   1.000000E+00   3.539193E-07
-# cendl3.2      1.268572E+00   1.268572E+00   1.246983E+01

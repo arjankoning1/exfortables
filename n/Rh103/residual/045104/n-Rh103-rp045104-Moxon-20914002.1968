@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Rh103(n,x)Rh104 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Moxon
 #   year: 1968
 #   subentry: 20914002
 #   X4 reaction: 45-RH-103(N,G)45-RH-104,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20914002
-# target:
+# target: 
 #   Z: 45
 #   A: 103
 #   nuclide: Rh103
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 45
-#   A: 104
-#   nuclide: Rh104
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 664
+#   residual: 
+#     Z: 45
+#     A: 104
+#     nuclide: Rh104
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 664
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.095000E-04   2.000000E-07   4.063000E+02   0.000000E+00   1.000000E+00
@@ -697,17 +698,3 @@
 #   author: M.C.MOXON,E.R.RAE
 #   title: -A GAMMA-RAY DETECTOR FOR NEUTRON CAPTURE CROSS  SECTION MEASUREMENTS-.
 #   journal: Rept: Div. of Tech. Info. U.S. AEC Reports, No.17644 (1968)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  1.095000E-04
-#   E-max [MeV]:  2.719000E-02
-#   F-value:  5.828020E+00
-#   A-value:  3.459867E-01
-#   chi-2:  0.000000E+00
-#   p-value:  1.106822E-01
-#   exp. data sets for p-value:      3
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    6.059991E+00   3.253786E-01   0.000000E+00
-# jendl5.0      5.599978E+00   3.679003E-01   0.000000E+00

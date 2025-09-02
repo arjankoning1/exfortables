@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Au197(n,3n)Au195 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Iwasaki
 #   year: 1993
 #   subentry: 22751003
 #   X4 reaction: 79-AU-197(N,3N)79-AU-195,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22751003
-# target:
+# target: 
 #   Z: 79
 #   A: 197
 #   nuclide: Au197
-# reaction:
+# reaction: 
 #   type: (n,3n)
 #   ENDF_MF: 3
 #   ENDF_MT: 17
-# residual:
-#   Z: 79
-#   A: 195
-#   nuclide: Au195
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 7
+#   residual: 
+#     Z: 79
+#     A: 195
+#     nuclide: Au195
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.753900E+01   0.000000E+00   3.055209E+02   9.120800E+01   9.723461E-01
@@ -40,20 +41,3 @@
 #   author: S.Iwasaki, M.Sakuma, K.Sugiyama, N.Odano
 #   title: Cross section measurement for the neutron induced reactions on Ni and Au above 17 MeV by activation technique.
 #   journal: Conf: JAERI-M Reports, No.93-046, p.257 (1993)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  1.753900E+01
-#   E-max [MeV]:  1.956800E+01
-#   F-value:  1.307330E+00
-#   A-value:  1.267198E+00
-#   chi-2:  2.333126E+00
-#   p-value:  2.828291E-01
-#   exp. data sets for p-value:      6
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.378335E+00   1.344225E+00   3.288808E+00
-# endfb8.0      1.272745E+00   1.235156E+00   1.917691E+00
-# jeff3.3       1.272745E+00   1.235156E+00   1.917691E+00
-# jendl5.0      1.260017E+00   1.215031E+00   1.738878E+00
-# cendl3.2      1.341642E+00   1.311355E+00   2.802563E+00

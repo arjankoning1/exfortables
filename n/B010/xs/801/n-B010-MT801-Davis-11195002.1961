@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: B10(n,p_01) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Davis
 #   year: 1961
 #   subentry: 11195002
 #   X4 reaction: 5-B-10(N,A)3-LI-7,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/11195002
-#   level energy [MeV]  0.00000E+00
-# target:
+#   level energy [MeV]:  0.00000E+00
+# target: 
 #   Z: 5
 #   A: 10
 #   nuclide: B10
-# reaction:
+# reaction: 
 #   type: (n,p_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 801
@@ -25,10 +25,11 @@
 #     energy [MeV]:  0.000000E+00
 #     spin:  1.000000E+00
 #     parity: 1
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 100
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 100
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.200000E-01   2.500000E-02   1.048000E+03   2.096000E+02   1.000000E+00
@@ -135,21 +136,3 @@
 #   author: E.A.DAVIS,F.GABBARD,T.W.BONNER,R.BASS
 #   title: THE DISINTEGRATION OF B10 AND F19 BY FAST NEUTRONS.
 #   journal: Jour: Nuclear Physics, Vol.27, p.448 (1961)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  2.200000E-01
-#   E-max [MeV]:  7.890000E+00
-#   F-value:  1.856831E+00
-#   A-value:  6.017488E-01
-#   chi-2:  3.487214E+00
-#   p-value:  2.680822E-01
-#   exp. data sets for p-value:      7
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.828010E+00   6.129801E-01   3.708481E+00
-# endfb8.0      1.828010E+00   6.129801E-01   3.708481E+00
-# jeff3.3       1.720428E+00   6.486140E-01   2.851557E+00
-# jendl5.0      2.194308E+00   4.899817E-01   4.094730E+00
-# cendl3.2      1.720428E+00   6.486140E-01   2.851557E+00
-# irdff2.0      1.828010E+00   6.129801E-01   3.708481E+00

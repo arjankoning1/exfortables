@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Mo98(n,x)Mo99 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Stupegia
 #   year: 1968
 #   subentry: 11624006
 #   X4 reaction: 42-MO-98(N,G)42-MO-99,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/11624006
-# target:
+# target: 
 #   Z: 42
 #   A: 98
 #   nuclide: Mo98
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 42
-#   A: 99
-#   nuclide: Mo99
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 28
+#   residual: 
+#     Z: 42
+#     A: 99
+#     nuclide: Mo99
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 28
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.600000E-03   1.500000E-03   5.800000E+02   5.500000E+01   1.000000E+00
@@ -61,17 +62,3 @@
 #   author: D.C.Stupegia,M.Schmidt,C.R.Keedy,A.A.Madson
 #   title: Neutron capture between 5 keV and 3 MeV
 #   journal: Jour: Journal of Nuclear Energy, Vol.22, p.267 (1968)
-# statistics:
-#   NEA score: T3
-#   IAEA score:  1
-#   E-min [MeV]:  3.600000E-03
-#   E-max [MeV]:  2.644000E+00
-#   F-value:  8.194468E+00
-#   A-value:  3.280728E-01
-#   chi-2:  4.330286E+01
-#   p-value:  1.307677E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    8.676250E+00   3.058221E-01   4.901226E+01
-# jendl5.0      7.727100E+00   3.519424E-01   3.759345E+01

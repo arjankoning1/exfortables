@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Al27(n,n'_02)Al28 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Winterhalter
 #   year: 1963
 #   subentry: 31119005
 #   X4 reaction: 13-AL-27(N,INL)13-AL-27,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/31119005
-#   level energy [MeV]  1.01300E+00
-# target:
+#   level energy [MeV]:  1.01300E+00
+# target: 
 #   Z: 13
 #   A: 27
 #   nuclide: Al27
-# reaction:
+# reaction: 
 #   type: (n,n'_02)
 #   ENDF_MF: 3
 #   ENDF_MT: 52
@@ -25,14 +25,15 @@
 #     energy [MeV]:  1.014560E+00
 #     spin:  1.500000E+00
 #     parity: 1
-# residual:
-#   Z: 13
-#   A: 28
-#   nuclide: Al28
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 13
+#     A: 28
+#     nuclide: Al28
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.760000E+00   0.000000E+00   3.100000E+02   4.000000E+01   1.000000E+00
@@ -40,20 +41,3 @@
 #   author: D.Winterhalter
 #   title: Angular distribution of fast neutrons scattered on aluminium.
 #   journal: Jour: Nuclear Physics, Vol.43, p.339 (1963)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  2.760000E+00
-#   E-max [MeV]:  2.760000E+00
-#   F-value:  1.479048E+00
-#   A-value:  6.788148E-01
-#   chi-2:  6.401376E+00
-#   p-value:  3.031483E-01
-#   exp. data sets for p-value:      2
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.416159E+00   7.061355E-01   5.401907E+00
-# endfb8.0      1.416089E+00   7.061703E-01   5.400772E+00
-# jeff3.3       1.416089E+00   7.061703E-01   5.400772E+00
-# jendl5.0      1.495983E+00   6.684566E-01   6.729179E+00
-# cendl3.2      1.633140E+00   6.123173E-01   9.074253E+00

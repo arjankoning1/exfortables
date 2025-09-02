@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ni0(p,x)Co56 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Tarkanyi
 #   year: 1991
 #   subentry: D4002004
 #   X4 reaction: 28-NI-0(P,X)27-CO-56,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/D4002004
-# target:
+# target: 
 #   Z: 28
 #   A: 0
 #   nuclide: Ni0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 27
-#   A: 56
-#   nuclide: Co56
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 26
+#   residual: 
+#     Z: 27
+#     A: 56
+#     nuclide: Co56
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 26
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.770000E+01   4.000000E-01   2.200000E-02   3.000000E-03   1.000000E+00
@@ -59,18 +60,3 @@
 #   author: F.Tarkanyi,F.Szelecsenyi,P.Kopecky
 #   title: Excitation functions of proton induced nuclear reactions on natural nickel for monitoring beam energy and intensity
 #   journal: Jour: Applied Radiation and Isotopes, Vol.42, p.513 (1991)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  1.770000E+01
-#   E-max [MeV]:  2.960000E+01
-#   F-value:  1.580423E+00
-#   A-value:  8.349263E-01
-#   chi-2:  9.690009E+00
-#   p-value:  3.636957E-01
-#   exp. data sets for p-value:      4
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.192452E+00   1.059580E+00   3.080983E+00
-# endfb8.0      2.087956E+00   5.012479E-01   2.102798E+01
-# jendl5.0      1.265643E+00   1.095868E+00   4.961073E+00

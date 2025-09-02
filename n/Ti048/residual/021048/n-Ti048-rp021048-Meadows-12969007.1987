@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ti48(n,x)Sc48 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Meadows
 #   year: 1987
 #   subentry: 12969007
 #   X4 reaction: 22-TI-48(N,P)21-SC-48,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/12969007
-# target:
+# target: 
 #   Z: 22
 #   A: 48
 #   nuclide: Ti48
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 21
-#   A: 48
-#   nuclide: Sc48
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 21
+#     A: 48
+#     nuclide: Sc48
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.474000E+01   2.000000E-02   4.340000E+01   2.517200E+00   1.000000E+00
@@ -34,18 +35,3 @@
 #   author: J.W.Meadows,D.L.Smith,M.M.Bretscher,S.A.Cox
 #   title: Measurement of 14.7-MeV neutron-activation  cross sections for fusion
 #   journal: Jour: Annals of Nuclear Energy, Vol.14, p.489 (1987)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  0
-#   E-min [MeV]:  1.474000E+01
-#   E-max [MeV]:  1.474000E+01
-#   F-value:  1.448948E+00
-#   A-value:  1.446724E+00
-#   chi-2:  6.026821E+01
-#   p-value:  9.799756E-02
-#   exp. data sets for p-value:      8
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.412354E+00   1.412354E+00   5.054575E+01
-# jeff3.3       1.412921E+00   1.412921E+00   5.068487E+01
-# jendl5.0      1.517385E+00   1.517385E+00   7.957401E+01

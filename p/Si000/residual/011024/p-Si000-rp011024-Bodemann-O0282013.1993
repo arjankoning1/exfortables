@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Si0(p,x)Na24 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Bodemann
 #   year: 1993
 #   subentry: O0282013
 #   X4 reaction: 14-SI-0(P,X)11-NA-24,CUM,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/O0282013
-# target:
+# target: 
 #   Z: 14
 #   A: 0
 #   nuclide: Si0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 11
-#   A: 24
-#   nuclide: Na24
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 46
+#   residual: 
+#     Z: 11
+#     A: 24
+#     nuclide: Na24
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 46
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.760000E+01   2.910000E+00   1.610100E-02   1.130100E-03   1.000064E+00
@@ -79,18 +80,3 @@
 #   author: R.Bodemann, H.-J.Lange, I.Leya, R.Michel, T.Schiekel, R.Rosel, U.Herpers, H.J.Hofmann, B.Dittrich, M.Suter, W.Woelfli, B.Holmqvist, H.Conde, P.Malmborg
 #   title: Production of residual nuclei by proton-induced reactions on C, N, O, Mg, Al and Si.
 #   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.82, p.9 (1993)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  2.760000E+01
-#   E-max [MeV]:  9.790000E+01
-#   F-value:  2.162911E+00
-#   A-value:  1.228855E+00
-#   chi-2:  1.350146E+02
-#   p-value:  2.558197E-01
-#   exp. data sets for p-value:      2
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    2.124700E+00   1.733877E+00   2.166489E+02
-# endfb8.0      2.224078E+00   7.210698E-01   4.342916E+01
-# jendl5.0      2.139571E+00   1.484247E+00   1.449657E+02

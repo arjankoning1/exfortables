@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Se80(p,n')Br80 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Kailas
 #   year: 1979
 #   subentry: D6097002
 #   X4 reaction: 34-SE-80(P,N)35-BR-80,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/D6097002
-# target:
+# target: 
 #   Z: 34
 #   A: 80
 #   nuclide: Se80
-# reaction:
+# reaction: 
 #   type: (p,n')
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 35
-#   A: 80
-#   nuclide: Br80
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 212
+#   residual: 
+#     Z: 35
+#     A: 80
+#     nuclide: Br80
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 212
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.743000E+00   0.000000E+00   1.700000E+00   0.000000E+00   1.000000E+00
@@ -245,17 +246,3 @@
 #   author: S.Kailas, S.Saini, M.K.Mehta, N.Veerabahu, Y.P.Viyogi,  N.K.Ganguly
 #   title: Isobaric analogue resonances in the 80Se(p,n)80Br  reaction
 #   journal: Jour: Nuclear Physics, Section A, Vol.315, p.157 (1979)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  2.743000E+00
-#   E-max [MeV]:  5.348000E+00
-#   F-value:  1.221017E+00
-#   A-value:  9.667909E-01
-#   chi-2:  1.396646E+00
-#   p-value:  2.635366E-01
-#   exp. data sets for p-value:      2
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.214267E+00   1.020886E+00   1.142004E+00
-# jendl5.0      1.227559E+00   9.161152E-01   1.659114E+00

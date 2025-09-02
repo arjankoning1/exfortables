@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: Te128(n,x)Sb128m cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Hasan
 #   year: 1972
 #   subentry: 30041013
 #   X4 reaction: 52-TE-128(N,P)51-SB-128-M,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30041013
-# target:
+# target: 
 #   Z: 52
 #   A: 128
 #   nuclide: Te128
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 51
-#   A: 128
-#   nuclide: Sb128m
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 51
+#     A: 128
+#     nuclide: Sb128m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.480000E+01   5.000000E-01   2.400000E+01   4.000000E+00   1.000000E+00
@@ -39,18 +40,3 @@
 #   author: S.S.Hasan, R.Prasad, M.L.Seghal
 #   title: The 14.8 MeV neutron cross sections for enriched  isotopes of 82Se, 92Mo, 117Sn, 128Te and 130Te
 #   journal: Jour: Nuclear Physics, Section A, Vol.181, p.101 (1972)
-# statistics:
-#   NEA score: T2
-#   IAEA score:  1
-#   E-min [MeV]:  1.480000E+01
-#   E-max [MeV]:  1.480000E+01
-#   F-value:  1.241647E+01
-#   A-value:  8.424313E-02
-#   chi-2:  2.961405E+01
-#   p-value:  5.960464E-07
-#   exp. data sets for p-value:      8
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    6.588545E+00   1.517786E-01   2.590128E+01
-# jeff3.3       1.207434E+01   8.282030E-02   3.028387E+01
-# jendl5.0      2.102537E+01   4.756159E-02   3.265700E+01

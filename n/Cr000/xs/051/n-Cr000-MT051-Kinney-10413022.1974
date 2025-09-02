@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Cr0(n,n'_01)Cr1 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Kinney
 #   year: 1974
 #   subentry: 10413022
 #   X4 reaction: 24-CR-0(N,INL)24-CR-52,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/10413022
-#   level energy [MeV]  3.11200E+00
-# target:
+#   level energy [MeV]:  3.11200E+00
+# target: 
 #   Z: 24
 #   A: 0
 #   nuclide: Cr0
-# reaction:
+# reaction: 
 #   type: (n,n'_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 51
@@ -25,14 +25,15 @@
 #     energy [MeV]:  3.113858E+00
 #     spin:  6.000000E+00
 #     parity: 1
-# residual:
-#   Z: 24
-#   A: 1
-#   nuclide: Cr1
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 3
+#   residual: 
+#     Z: 24
+#     A: 1
+#     nuclide: Cr1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.650000E+00   1.400000E-01   1.632900E+02   2.482008E+01   1.000000E+00
@@ -42,20 +43,3 @@
 #   author: W.E.Kinney,F.G.Perey
 #   title: Natural chromium and 52Cr neutron elastic and  inelastic scattering cross sections from 4.07 to  8.56 MeV
 #   journal: Rept: Oak Ridge National Lab. Reports, No.4806 (1974)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  4.650000E+00
-#   E-max [MeV]:  5.500000E+00
-#   F-value:  1.479195E+00
-#   A-value:  1.443610E+00
-#   chi-2:  1.182965E+01
-#   p-value:  3.293951E-01
-#   exp. data sets for p-value:      8
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.342982E+00   1.320904E+00   5.977812E+00
-# endfb8.0      1.320847E+00   1.293903E+00   5.265602E+00
-# jeff3.3       1.629941E+00   1.604062E+00   1.980778E+01
-# jendl5.0      1.527667E+00   1.511200E+00   1.384432E+01
-# cendl3.2      1.535155E+00   1.513333E+00   1.425275E+01

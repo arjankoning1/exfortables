@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Zr0(p,x)Y88 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Alabyad
 #   year: 2012
 #   subentry: D4258006
 #   X4 reaction: 40-ZR-0(P,X)39-Y-88,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/D4258006
-# target:
+# target: 
 #   Z: 40
 #   A: 0
 #   nuclide: Zr0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 39
-#   A: 88
-#   nuclide: Y88
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 8
+#   residual: 
+#     Z: 39
+#     A: 88
+#     nuclide: Y88
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.100000E+01   5.000000E-01   3.000000E-01   4.000000E-02   1.000000E+00
@@ -41,17 +42,3 @@
 #   author: M.Al-Abyad,A.S.Abdel-Hamid,F.Tarkanyi,F.Ditroi, S.Takacs, U.Seddik,I.I.Bashter
 #   title: Cross-section measurements and nuclear model calculation for proton induced nuclear reaction on zirconium
 #   journal: Jour: Applied Radiation and Isotopes, Vol.70, p.257 (2012)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  1.100000E+01
-#   E-max [MeV]:  1.670000E+01
-#   F-value:  1.685935E+00
-#   A-value:  7.483282E-01
-#   chi-2:  1.282235E+01
-#   p-value:  2.357702E-01
-#   exp. data sets for p-value:      2
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.635790E+00   7.874147E-01   1.188037E+01
-# jendl5.0      1.734747E+00   7.111819E-01   1.376433E+01

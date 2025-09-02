@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Am241(g,n')Am240 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Tonchev
 #   year: 2010
 #   subentry: L0156002
 #   X4 reaction: 95-AM-241(G,N)95-AM-240,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/L0156002
-# target:
+# target: 
 #   Z: 95
 #   A: 241
 #   nuclide: Am241
-# reaction:
+# reaction: 
 #   type: (g,n')
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 95
-#   A: 240
-#   nuclide: Am240
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 9
+#   residual: 
+#     Z: 95
+#     A: 240
+#     nuclide: Am240
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 9
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    9.000000E+00   1.300000E-01   3.300000E+01   1.300000E+01   1.000000E+00
@@ -42,15 +43,3 @@
 #   author: A.P.Tonchev,S.L.Hammond,C.R.Howell,C.Huibregtse, A.Hutcheson,J.H.K Elley,E.Kwan,R.Raut,G.Rusev,W.Tornow, T.Kawano,D.J.Vieira,J.B.Wilhelmy
 #   title: Measurement of the 241Am(g,n)240Am reaction in the giant dipole resonance region
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.82, p.054620 (2010)
-# statistics:
-#   NEA score:   
-#   IAEA score: -1
-#   E-min [MeV]:  9.000000E+00
-#   E-max [MeV]:  1.560000E+01
-#   F-value:  0.000000E+00
-#   A-value:  0.000000E+00
-#   chi-2:  0.000000E+00
-#   p-value:  0.000000E+00
-#   exp. data sets for p-value:      2
-#   libraries:      0
-##  Library          F              A            chi-2

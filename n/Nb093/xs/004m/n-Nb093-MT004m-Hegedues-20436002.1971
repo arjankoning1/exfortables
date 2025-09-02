@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: Nb93(n,n')Nb93m cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Hegedues
 #   year: 1971
 #   subentry: 20436002
 #   X4 reaction: 41-NB-93(N,INL)41-NB-93-M,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20436002
-# target:
+# target: 
 #   Z: 41
 #   A: 93
 #   nuclide: Nb93
-# reaction:
+# reaction: 
 #   type: (n,n')
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 41
-#   A: 93
-#   nuclide: Nb93m
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 21
+#   residual: 
+#     Z: 41
+#     A: 93
+#     nuclide: Nb93m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 21
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.750000E-01   7.500000E-02   3.800000E+00   0.000000E+00   1.000000E+00
@@ -59,20 +60,3 @@
 #   author: F.HEGEDUES
 #   title: FAST NEUTRON FLUENCE DETECTOR USING THE REACTION  NB-93(N,N )NB-93(METASTABLE)         IN FRENCH
 #   journal: Rept: Eidg.Inst.Reaktorforsch.Wuerenlingen Reports, No.195 (1971)
-# statistics:
-#   NEA score: T2
-#   IAEA score:  1
-#   E-min [MeV]:  1.750000E-01
-#   E-max [MeV]:  1.400000E+01
-#   F-value:  1.534739E+00
-#   A-value:  1.108983E+00
-#   chi-2:  0.000000E+00
-#   p-value:  1.638252E-01
-#   exp. data sets for p-value:      1
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.562648E+00   1.069463E+00   0.000000E+00
-# endfb8.0      1.520282E+00   1.147965E+00   0.000000E+00
-# jeff3.3       1.562649E+00   1.069463E+00   0.000000E+00
-# jendl5.0      1.461593E+00   1.194413E+00   0.000000E+00
-# irdff2.0      1.562960E+00   1.069571E+00   0.000000E+00

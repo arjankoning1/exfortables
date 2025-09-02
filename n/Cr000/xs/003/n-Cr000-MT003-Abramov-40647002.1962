@@ -1,28 +1,29 @@
-# header:
+# header: 
 #   title: Cr0(n,non) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Abramov
 #   year: 1962
 #   subentry: 40647002
 #   X4 reaction: 24-CR-0(N,NON),,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/40647002
-# target:
+# target: 
 #   Z: 24
 #   A: 0
 #   nuclide: Cr0
-# reaction:
+# reaction: 
 #   type: (n,non)
 #   ENDF_MF: 3
 #   ENDF_MT: 3
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 4
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.400000E+00   0.000000E+00   1.000000E+02   7.000000E+01   1.000000E+00
@@ -33,18 +34,3 @@
 #   author: A.I.ABRAMOV
 #   title: MEASUREMENT OF THE INELASTIC COLLISION CROSS-SECTIONS OF NEUTRONS WITH NUCLEI OF CHROMIUM, IRON, NICKEL, NIOBIUM, AND MOLYBDENUM AT ENERGIES UP TO 2.6MEV.
 #   journal: Jour: Atomnaya Energiya, Vol.12, p.62 (1962)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  1.400000E+00
-#   E-max [MeV]:  2.380000E+00
-#   F-value:  1.942797E+00
-#   A-value:  8.772327E-01
-#   chi-2:  8.416634E+00
-#   p-value:  2.613884E-01
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.204418E+00   1.089060E+00   2.467370E+00
-# endfb8.0      1.810219E+00   1.377416E+00   4.557045E+00
-# cendl3.2      2.631860E+00   4.500156E-01   1.822549E+01

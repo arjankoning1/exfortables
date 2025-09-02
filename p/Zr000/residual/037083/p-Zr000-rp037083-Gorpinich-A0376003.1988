@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Zr0(p,x)Rb83 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Gorpinich
 #   year: 1988
 #   subentry: A0376003
 #   X4 reaction: 40-ZR-0(P,X)37-RB-83,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/A0376003
-# target:
+# target: 
 #   Z: 40
 #   A: 0
 #   nuclide: Zr0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 37
-#   A: 83
-#   nuclide: Rb83
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 24
+#   residual: 
+#     Z: 37
+#     A: 83
+#     nuclide: Rb83
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 24
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.500000E+01   0.000000E+00   1.900000E-02   3.000000E-03   1.000000E+00
@@ -57,17 +58,3 @@
 #   author: O.K.Gorpinich,S.N.Kondrat'ev,V.A.Kuz'menko, Ju.N.Lobach,S.B.Rakitin,V.S.Prokopenko, V.D.Skljarenko,V.V.Tokarevskij
 #   title: Excitation functions of (p,4pxn) reaction on Zr nuclei at proton energy up to 70 MeV
 #   journal: Conf: 38.Conf.Nucl.Spectrosc.and Nucl.Struct., Baku 1988, p.310 (1988)
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  3.500000E+01
-#   E-max [MeV]:  6.800000E+01
-#   F-value:  3.304165E+00
-#   A-value:  5.111260E-01
-#   chi-2:  5.280925E+01
-#   p-value:  2.866967E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    4.121685E+00   3.053014E-01   3.617399E+01
-# jendl5.0      2.515740E+00   8.557111E-01   6.944450E+01

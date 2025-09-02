@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Zn64(n,2n)Zn63 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Cohen
 #   year: 1956
 #   subentry: 21115006
 #   X4 reaction: 30-ZN-64(N,2N)30-ZN-63,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/21115006
-# target:
+# target: 
 #   Z: 30
 #   A: 64
 #   nuclide: Zn64
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 30
-#   A: 63
-#   nuclide: Zn63
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 18
+#   residual: 
+#     Z: 30
+#     A: 63
+#     nuclide: Zn63
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 18
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.305000E+01   1.500000E-01   1.200000E+02   2.500000E+01   1.000000E+00
@@ -51,20 +52,3 @@
 #   author: A.V.COHEN,P.H.WHITE
 #   title: -THE EXCITATION CURVES OF SOME (N,P) PROCESSES INDUCED  BY NEUTRONS OF 12.5-17.5 MEV ENERGY-
 #   journal: Jour: Nuclear Physics, Vol.1, p.73 (1956)
-# statistics:
-#   NEA score: R2
-#   IAEA score:  1
-#   E-min [MeV]:  1.305000E+01
-#   E-max [MeV]:  1.755000E+01
-#   F-value:  2.334220E+00
-#   A-value:  4.757437E-01
-#   chi-2:  3.130996E+01
-#   p-value:  5.185692E-02
-#   exp. data sets for p-value:      7
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    2.960246E+00   3.651286E-01   4.768096E+01
-# endfb8.0      2.048250E+00   5.325677E-01   2.509212E+01
-# jeff3.3       2.409005E+00   4.512018E-01   3.474895E+01
-# jendl5.0      2.128218E+00   5.148162E-01   2.674883E+01
-# cendl3.2      2.109843E+00   5.395374E-01   2.227894E+01

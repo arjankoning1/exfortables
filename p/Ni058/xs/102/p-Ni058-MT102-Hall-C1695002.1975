@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ni58(p,g)Cu59 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Hall
 #   year: 1975
 #   subentry: C1695002
 #   X4 reaction: 28-NI-58(P,G)29-CU-59,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/C1695002
-# target:
+# target: 
 #   Z: 28
 #   A: 58
 #   nuclide: Ni58
-# reaction:
+# reaction: 
 #   type: (p,g)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 29
-#   A: 59
-#   nuclide: Cu59
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 31
+#   residual: 
+#     Z: 29
+#     A: 59
+#     nuclide: Cu59
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 31
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.378571E+00   0.000000E+00   1.778100E-03   1.086600E-03   9.878214E-01
@@ -64,17 +65,3 @@
 #   author: T.H.Hall,J.M.Cameron,R.H.McCamis,G.A.Moss
 #   title: Total Cross Section and Stellar Reaction Rates for the 58Ni(p,gamma)59Cu Reaction
 #   journal: Jour: Canadian Journal of Physics, Vol.53, Issue.5, p.445 (1975)
-# statistics:
-#   NEA score: R3
-#   IAEA score: -1
-#   E-min [MeV]:  1.378571E+00
-#   E-max [MeV]:  4.776673E+00
-#   F-value:  2.655118E+00
-#   A-value:  1.315145E+00
-#   chi-2:  1.230848E+02
-#   p-value:  2.310953E-01
-#   exp. data sets for p-value:      2
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    2.744285E+00   1.532589E+00   1.752298E+02
-# jendl5.0      2.565878E+00   1.128551E+00   7.093968E+01

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Sn117(p,n')Sb117 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Klyucharev
 #   year: 1970
 #   subentry: D5090003
 #   X4 reaction: 50-SN-117(P,N)51-SB-117,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/D5090003
-# target:
+# target: 
 #   Z: 50
 #   A: 117
 #   nuclide: Sn117
-# reaction:
+# reaction: 
 #   type: (p,n')
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 51
-#   A: 117
-#   nuclide: Sb117
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 10
+#   residual: 
+#     Z: 51
+#     A: 117
+#     nuclide: Sb117
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.900000E+00   0.000000E+00   4.900000E+00   7.400000E-01   1.000000E+00
@@ -43,17 +44,3 @@
 #   author: A.P.Klyucharev,E.A.Skakun,Y.N.Rakivnenko,I.A.Romanii
 #   title: Excitation functions of (p, n) reactions on some Sn isotopes and the isomeric cross section ratios.
 #   journal: Jour: Yadernaya Fizika, Vol.11, Issue.5, p.953 (1970)
-# statistics:
-#   NEA score: R2
-#   IAEA score:  1
-#   E-min [MeV]:  3.900000E+00
-#   E-max [MeV]:  9.000000E+00
-#   F-value:  1.587124E+00
-#   A-value:  9.938091E-01
-#   chi-2:  5.250105E+00
-#   p-value:  1.970730E-01
-#   exp. data sets for p-value:      3
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.482636E+00   1.001089E+00   4.045292E+00
-# jendl5.0      1.684050E+00   9.865819E-01   6.454919E+00

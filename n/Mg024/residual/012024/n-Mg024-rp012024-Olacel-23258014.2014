@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Mg24(n,x)Mg24 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Olacel
 #   year: 2014
 #   subentry: 23258014
 #   X4 reaction: 12-MG-24(N,INL)12-MG-24,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/23258014
-# target:
+# target: 
 #   Z: 12
 #   A: 24
 #   nuclide: Mg24
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 12
-#   A: 24
-#   nuclide: Mg24
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 903
+#   residual: 
+#     Z: 12
+#     A: 24
+#     nuclide: Mg24
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 903
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.429190E+00   1.130000E-03   8.328000E-01   3.364360E+00   1.000000E+00
@@ -936,17 +937,3 @@
 #   author: A.Olacel,C.Borcea,P.Dessagne,M.Kerveno,A.Negret, A.J.M.Plompen
 #   title: Neutron inelastic cross-section measurements for 24Mg
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.90, p.034603 (2014)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.429190E+00
-#   E-max [MeV]:  1.789830E+01
-#   F-value:  2.201889E+00
-#   A-value:  1.501501E+00
-#   chi-2:  3.495014E+02
-#   p-value:  1.570673E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    2.161160E+00   1.465243E+00   3.542393E+02
-# jendl5.0      2.242417E+00   1.538656E+00   3.447634E+02

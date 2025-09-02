@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Cs133(n,x)Cs134 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Yoon
 #   year: 2011
 #   subentry: 30842002
 #   X4 reaction: 55-CS-133(N,G)55-CS-134,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30842002
-# target:
+# target: 
 #   Z: 55
 #   A: 133
 #   nuclide: Cs133
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 55
-#   A: 134
-#   nuclide: Cs134
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 272
+#   residual: 
+#     Z: 55
+#     A: 134
+#     nuclide: Cs134
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 272
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.270000E-09   0.000000E+00   8.718000E+04   3.011000E+03   1.000000E+00
@@ -305,17 +306,3 @@
 #   author: J.R.Yoon, S.Y.Lee
 #   title: A study on the energy-dependent neutron-capture cross-section of natural cesium(133Cs) by using a continuous neutron flux
 #   journal: Jour: New Physics: Sae Mulli, Vol.61, p.7 (2011)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  3.270000E-09
-#   E-max [MeV]:  6.000000E-05
-#   F-value:  1.563945E+00
-#   A-value:  9.382873E-01
-#   chi-2:  2.247037E+02
-#   p-value:  3.267166E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.566399E+00   8.973876E-01   1.578424E+02
-# jendl5.0      1.561487E+00   9.810510E-01   2.915649E+02

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Bi209(n,x)Bi208 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Veeser
 #   year: 1977
 #   subentry: 10445011
 #   X4 reaction: 83-BI-209(N,2N)83-BI-208,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/10445011
-# target:
+# target: 
 #   Z: 83
 #   A: 209
 #   nuclide: Bi209
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 83
-#   A: 208
-#   nuclide: Bi208
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 10
+#   residual: 
+#     Z: 83
+#     A: 208
+#     nuclide: Bi208
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.470000E+01   1.500000E-01   2.180000E+03   1.030000E+02   1.000000E+00
@@ -43,17 +44,3 @@
 #   author: L.R.Veeser,E.D.Arthur,P.G.Young
 #   title: Cross sections for (n,2n) and (n,3n) reaction above  14 MeV
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.16, p.1792 (1977)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.470000E+01
-#   E-max [MeV]:  2.400000E+01
-#   F-value:  1.156092E+00
-#   A-value:  1.043450E+00
-#   chi-2:  9.424609E-01
-#   p-value:  4.223227E-01
-#   exp. data sets for p-value:      8
-#   libraries:      2
-##  Library          F              A            chi-2
-# endfb8.0      1.213706E+00   1.104313E+00   1.072517E+00
-# jendl5.0      1.069898E+00   9.859414E-01   8.124049E-01

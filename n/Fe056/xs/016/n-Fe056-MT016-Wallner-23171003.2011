@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Fe56(n,2n)Fe55 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Wallner
 #   year: 2011
 #   subentry: 23171003
 #   X4 reaction: 26-FE-56(N,2N)26-FE-55,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/23171003
-# target:
+# target: 
 #   Z: 26
 #   A: 56
 #   nuclide: Fe56
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 26
-#   A: 55
-#   nuclide: Fe55
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 15
+#   residual: 
+#     Z: 26
+#     A: 55
+#     nuclide: Fe55
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 15
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.335000E+01   1.500000E-01   3.000000E+02   1.000000E+02   1.000000E+00
@@ -48,20 +49,3 @@
 #   author: A.Wallner, K.Buczak,C.Lederer,H.Vonach, T.Faestermann, G.Korschinek,M.Poutivtsev, G.Rugel, A.Klix, K.Seidel, A.Plompen, V.Semkova
 #   title: Production of long-lived radionuclides 10Be, 14C, 53Mn, 55Fe, 59Ni and 202gPb in a Fusion Environment.
 #   journal: Jour: Journal of the Korean Physical Society, Vol.59, Issue.2, p.1378 (2
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.335000E+01
-#   E-max [MeV]:  2.068000E+01
-#   F-value:  1.069635E+00
-#   A-value:  9.981487E-01
-#   chi-2:  1.642780E+00
-#   p-value:  3.249797E-01
-#   exp. data sets for p-value:      2
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.096025E+00   9.354737E-01   2.589976E+00
-# endfb8.0      1.050040E+00   1.009045E+00   1.054015E+00
-# jeff3.3       1.083092E+00   1.013460E+00   2.153701E+00
-# jendl5.0      1.050400E+00   1.009252E+00   1.073521E+00
-# cendl3.2      1.046755E+00   1.023003E+00   1.073482E+00

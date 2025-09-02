@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ni58(n,p)Co58 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Fink
 #   year: 1970
 #   subentry: 10484004
 #   X4 reaction: 28-NI-58(N,P)27-CO-58,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/10484004
-# target:
+# target: 
 #   Z: 28
 #   A: 58
 #   nuclide: Ni58
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 27
-#   A: 58
-#   nuclide: Co58
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 27
+#     A: 58
+#     nuclide: Co58
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.440000E+01   4.000000E-01   3.310000E+02   3.000000E+01   1.000000E+00
@@ -34,21 +35,3 @@
 #   author: R.W.Fink,W.-D.Lu
 #   title: Some (n,2n), (n,p), and ((n,np)+(n,pn)+(nd))  Activation Cross Sections of Ni58, Cd106, and Sn112  at  14.4 MeV.
 #   journal: Jour: Bulletin of the American Physical Society Ser.II, Vol.15, p.1372(E
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.440000E+01
-#   E-max [MeV]:  1.440000E+01
-#   F-value:  1.016907E+00
-#   A-value:  9.892343E-01
-#   chi-2:  1.659994E-01
-#   p-value:  3.656241E-01
-#   exp. data sets for p-value:      8
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.005912E+00   9.941224E-01   8.239383E-02
-# endfb8.0      1.035165E+00   9.660296E-01   5.099710E-01
-# jeff3.3       1.000282E+00   1.000282E+00   3.906632E-03
-# jendl5.0      1.020692E+00   9.797274E-01   2.941383E-01
-# cendl3.2      1.001638E+00   1.001638E+00   2.273867E-02
-# irdff2.0      1.005945E+00   9.940905E-01   8.284821E-02

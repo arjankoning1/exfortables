@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Pu239(n,2n)Pu238 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Frehaut
 #   year: 1986
 #   subentry: 21971003
 #   X4 reaction: 94-PU-239(N,2N)94-PU-238,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/21971003
-# target:
+# target: 
 #   Z: 94
 #   A: 239
 #   nuclide: Pu239
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 94
-#   A: 238
-#   nuclide: Pu238
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 14
+#   residual: 
+#     Z: 94
+#     A: 238
+#     nuclide: Pu238
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 14
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    6.490000E+00   8.500000E-02   2.400000E+01   6.300000E+01   1.000000E+00
@@ -47,20 +48,3 @@
 #   author: J.Frehaut,A.Bertin,R.Blois,E.Gryntakis,  C.A.Philis
 #   title: (n,2n) cross sections of 2-H and 239-Pu
 #   journal: Jour: Radiation Effects, Vol.96, p.219 (1986)
-# statistics:
-#   NEA score: T2
-#   IAEA score:  1
-#   E-min [MeV]:  6.490000E+00
-#   E-max [MeV]:  1.309000E+01
-#   F-value:  1.609345E+00
-#   A-value:  1.006746E+00
-#   chi-2:  2.012809E+00
-#   p-value:  1.994718E-01
-#   exp. data sets for p-value:      2
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.655986E+00   1.007056E+00   2.245538E+00
-# endfb8.0      1.655986E+00   1.007056E+00   2.245538E+00
-# jeff3.3       1.905429E+00   1.071671E+00   2.536432E+00
-# jendl5.0      1.504591E+00   9.475293E-01   2.417959E+00
-# cendl3.2      1.223501E+00   1.004241E+00   6.185777E-01

@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: Nb93(p,x)Y90m cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Titarenko
 #   year: 2011
 #   subentry: A0906128
 #   X4 reaction: 41-NB-93(P,X)39-Y-90-M,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/A0906128
-# target:
+# target: 
 #   Z: 41
 #   A: 93
 #   nuclide: Nb93
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 39
-#   A: 90
-#   nuclide: Y90m
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 10
+#   residual: 
+#     Z: 39
+#     A: 90
+#     nuclide: Y90m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    6.800000E+01   1.000000E+00   5.530000E-01   9.300000E-02   1.000000E+00
@@ -48,17 +49,3 @@
 #   author: Yu.E.Titarenko, V.F.Batyaev, A.Yu.Titarenko, M.A.Butko, K.V.Pavlov, S.N.Florya, R.S.Tikhonov, V.M.Zhivun, A.V.Ignatyuk, S.G.Mashnik, S.Leray, A.Boudard, J.Cugnon, D.Mancusi, Y.Yariv, K.Nishihara, N.Matsuda, H.Kumawat, G.Mank, W.Gudowski
 #   title: Measurement and simulation of the cross sections for nuclide production in Nb-93 and Ni-nat targets irradiated with 0.04- to 2.6-GeV protons.
 #   journal: Jour: Yadernaya Fizika, Vol.74, p.561 (2011)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  6.800000E+01
-#   E-max [MeV]:  2.605000E+03
-#   F-value:  1.762851E+00
-#   A-value:  5.849810E-01
-#   chi-2:  1.165835E+01
-#   p-value:  4.905075E-02
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    2.013987E+00   5.041921E-01   1.586176E+01
-# jendl5.0      1.478044E+00   6.787151E-01   7.454941E+00

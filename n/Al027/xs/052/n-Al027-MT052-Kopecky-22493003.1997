@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Al27(n,n'_02)Al28 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Kopecky
 #   year: 1997
 #   subentry: 22493003
 #   X4 reaction: 13-AL-27(N,INL)13-AL-27,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22493003
-#   level energy [MeV]  1.01500E+00
-# target:
+#   level energy [MeV]:  1.01500E+00
+# target: 
 #   Z: 13
 #   A: 27
 #   nuclide: Al27
-# reaction:
+# reaction: 
 #   type: (n,n'_02)
 #   ENDF_MF: 3
 #   ENDF_MT: 52
@@ -25,14 +25,15 @@
 #     energy [MeV]:  1.014560E+00
 #     spin:  1.500000E+00
 #     parity: 1
-# residual:
-#   Z: 13
-#   A: 28
-#   nuclide: Al28
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 635
+#   residual: 
+#     Z: 13
+#     A: 28
+#     nuclide: Al28
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 635
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.051530E+00   3.060000E-03   5.583700E+00   1.698900E+00   1.000000E+00
@@ -674,20 +675,3 @@
 #   author: S.Kopecky,R.Shelley,H.Maerten,J.Wartena,H.Weigmann
 #   title: .High resolution inelastic scattering cross sections  in 27Al and 23Na
 #   journal: Conf: Conf.on Nucl.Data for Sci.and Techn., Trieste 1997, Vol.1, p.523 (
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  1.051530E+00
-#   E-max [MeV]:  2.250170E+00
-#   F-value:  2.031204E+00
-#   A-value:  1.500733E+00
-#   chi-2:  1.109775E+02
-#   p-value:  1.955389E-01
-#   exp. data sets for p-value:      3
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    2.104996E+00   1.653167E+00   1.366899E+02
-# endfb8.0      2.113512E+00   1.659754E+00   1.392236E+02
-# jeff3.3       2.113512E+00   1.659754E+00   1.392236E+02
-# jendl5.0      1.913308E+00   1.138118E+00   6.044880E+01
-# cendl3.2      1.905550E+00   1.468677E+00   7.930143E+01

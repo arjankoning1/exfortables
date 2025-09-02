@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Cu65(n,p)Ni65 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Poularikas
 #   year: 1959
 #   subentry: 11484012
 #   X4 reaction: 29-CU-65(N,P)28-NI-65,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/11484012
-# target:
+# target: 
 #   Z: 29
 #   A: 65
 #   nuclide: Cu65
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 28
-#   A: 65
-#   nuclide: Ni65
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 28
+#     A: 65
+#     nuclide: Ni65
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.480000E+01   9.000000E-01   2.207983E+01   8.930799E+00   8.177715E-01
@@ -34,20 +35,3 @@
 #   author: A.POULARIKAS,R.W.FINK
 #   title: ABSOLUTE ACTIVATION CROSS SECTIONS FOR REACTIONS OF BISMUTH, COPPER, TITANIUM AND ALUMINUM WITH 14.8 MEV NEUTRONS.
 #   journal: Jour: Physical Review, Vol.115, p.989 (1959)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.480000E+01
-#   E-max [MeV]:  1.480000E+01
-#   F-value:  1.038738E+00
-#   A-value:  9.711094E-01
-#   chi-2:  9.101025E-02
-#   p-value:  4.659277E-01
-#   exp. data sets for p-value:      8
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.059228E+00   9.440837E-01   1.784293E-01
-# endfb8.0      1.049262E+00   9.530512E-01   1.490993E-01
-# jeff3.3       1.000090E+00   1.000090E+00   2.774895E-04
-# jendl5.0      1.001069E+00   9.989321E-01   3.310676E-03
-# cendl3.2      1.040784E+00   9.608141E-01   1.239345E-01

@@ -1,28 +1,29 @@
-# header:
+# header: 
 #   title: Ni60(n,xp) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Rondio
 #   year: 1989
 #   subentry: 31416002
 #   X4 reaction: 28-NI-60(N,X)1-H-1,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/31416002
-# target:
+# target: 
 #   Z: 28
 #   A: 60
 #   nuclide: Ni60
-# reaction:
+# reaction: 
 #   type: (n,xp)
 #   ENDF_MF: 3
 #   ENDF_MT: 203
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.730000E+01   0.000000E+00   5.270000E+02   7.000001E+01   1.000000E+00
@@ -30,21 +31,3 @@
 #   author: J.Rondio,A.Korman,B.Marianski,K.Czerski
 #   title: Mechanism of the Ni-58,60(n,p) reaction at neutron energies close to 20 MeV
 #   journal: Jour: Acta Physica Polonica, Part B, Vol.20, Issue.7, p.627 (1989)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  1.730000E+01
-#   E-max [MeV]:  1.730000E+01
-#   F-value:  1.530858E+00
-#   A-value:  6.631982E-01
-#   chi-2:  6.780831E+00
-#   p-value:  8.565617E-02
-#   exp. data sets for p-value:      1
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.762657E+00   5.673252E-01   1.063440E+01
-# endfb8.0      1.617404E+00   6.182746E-01   8.324003E+00
-# jeff3.3       1.504825E+00   6.645293E-01   6.517239E+00
-# jendl5.0      1.440864E+00   6.940279E-01   5.512465E+00
-# cendl3.2      1.260921E+00   7.930708E-01   2.916052E+00
-# irdff2.0      0.000000E+00   0.000000E+00   0.000000E+00

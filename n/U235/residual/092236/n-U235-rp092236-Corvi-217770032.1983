@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: U235(n,x)U236 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Corvi
 #   year: 1983
 #   subentry: 217770032
 #   X4 reaction: 92-U-235(N,G)92-U-236,,SIG,,AV
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/217770032
-# target:
+# target: 
 #   Z: 92
 #   A: 235
 #   nuclide: U235
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 92
-#   A: 236
-#   nuclide: U236
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 22
+#   residual: 
+#     Z: 92
+#     A: 236
+#     nuclide: U236
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 22
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.500000E-03   1.728750E-06   1.898000E+03   2.573498E+02   1.000000E+00
@@ -55,17 +56,3 @@
 #   author: F.Corvi, L.Calabretta, M.Merla, T.Van Der Veen,  M.S.Moore
 #   title: Measurement of neutron capture cross section and alpha  of 235U from 2 to 85 keV
 #   journal: Conf: Argonne National Laboratory report series, No.83-4, p.347 (1983)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  2.500000E-03
-#   E-max [MeV]:  8.250000E-02
-#   F-value:  1.132916E+00
-#   A-value:  1.087762E+00
-#   chi-2:  2.347364E+00
-#   p-value:  3.567991E-01
-#   exp. data sets for p-value:      6
-#   libraries:      2
-##  Library          F              A            chi-2
-# jeff3.3       1.184281E+00   1.163449E+00   4.174882E+00
-# jendl5.0      1.051695E+00   1.016999E+00   5.198453E-01

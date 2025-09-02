@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ar40(n,np)Cl39 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Husain
 #   year: 1968
 #   subentry: 11548003
 #   X4 reaction: 18-AR-40(N,X)17-CL-39,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/11548003
-# target:
+# target: 
 #   Z: 18
 #   A: 40
 #   nuclide: Ar40
-# reaction:
+# reaction: 
 #   type: (n,np)
 #   ENDF_MF: 3
 #   ENDF_MT: 28
-# residual:
-#   Z: 17
-#   A: 39
-#   nuclide: Cl39
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 17
+#     A: 39
+#     nuclide: Cl39
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.480000E+01   4.000000E-01   1.655200E+00   2.000000E-01   9.736257E-01
@@ -34,19 +35,3 @@
 #   author: L.Husain,P.K.Kuroda
 #   title: 14.8 MeV neutron activation cross-sections of argon.
 #   journal: Jour: Journal of Inorganic and Nuclear Chemistry, Vol.30, p.355 (1968)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  1.480000E+01
-#   E-max [MeV]:  1.480000E+01
-#   F-value:  6.733162E+00
-#   A-value:  1.533007E-01
-#   chi-2:  4.822244E+01
-#   p-value:  3.576279E-07
-#   exp. data sets for p-value:      2
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    4.095931E+00   2.441448E-01   3.913075E+01
-# endfb8.0      5.332892E+00   1.875155E-01   4.521381E+01
-# jeff3.3       9.104459E+00   1.098363E-01   5.427261E+01
-# jendl5.0      9.104459E+00   1.098363E-01   5.427261E+01

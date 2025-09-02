@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ge70(n,x)Ge69 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Molla
 #   year: 1983
 #   subentry: 30577014
 #   X4 reaction: 32-GE-70(N,2N)32-GE-69,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30577014
-# target:
+# target: 
 #   Z: 32
 #   A: 70
 #   nuclide: Ge70
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 32
-#   A: 69
-#   nuclide: Ge69
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 32
+#     A: 69
+#     nuclide: Ge69
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.480000E+01   3.000000E-01   5.577185E+02   7.976728E+01   9.173002E-01
@@ -34,18 +35,3 @@
 #   author: N.I.Molla,M.Mizanul Islam,M.Mizanur Rahman,S.Khatun
 #   title: Measurement of cross section for neutron induced reactions at 14 MeV via activation technique
 #   journal: Prog: Bangladesh report to the I.N.D.C., No.002, p.1 (1983)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.480000E+01
-#   E-max [MeV]:  1.480000E+01
-#   F-value:  1.293601E+00
-#   A-value:  8.652513E-01
-#   chi-2:  2.221760E+00
-#   p-value:  4.595616E-01
-#   exp. data sets for p-value:      8
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.561300E+00   6.404921E-01   6.460018E+00
-# jeff3.3       1.005761E+00   9.942722E-01   5.061635E-02
-# jendl5.0      1.017203E+00   1.017203E+00   1.546460E-01

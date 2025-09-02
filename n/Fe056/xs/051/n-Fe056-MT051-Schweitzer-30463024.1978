@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Fe56(n,n'_01)Fe57 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Schweitzer
 #   year: 1978
 #   subentry: 30463024
 #   X4 reaction: 26-FE-56(N,INL)26-FE-56,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30463024
-#   level energy [MeV]  8.47000E-01
-# target:
+#   level energy [MeV]:  8.47000E-01
+# target: 
 #   Z: 26
 #   A: 56
 #   nuclide: Fe56
-# reaction:
+# reaction: 
 #   type: (n,n'_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 51
@@ -25,14 +25,15 @@
 #     energy [MeV]:  8.467780E-01
 #     spin:  2.000000E+00
 #     parity: 1
-# residual:
-#   Z: 26
-#   A: 57
-#   nuclide: Fe57
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 26
+#     A: 57
+#     nuclide: Fe57
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.400000E+00   1.000000E-01   6.413000E+02   1.140000E+02   1.000000E+00
@@ -40,20 +41,3 @@
 #   author: Th.Schweitzer, D.Seeliger, S.Unholzer
 #   title: Elastic and inelastic scattering of 3.4 MeV neutrons  by 23Na, 24Mg, 27Al, 28Si, 31P-, 55Mn, 56Fe and 209Bi
 #   journal: Priv.Comm: Seeliger (1978)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  3.400000E+00
-#   E-max [MeV]:  3.400000E+00
-#   F-value:  1.188051E+00
-#   A-value:  9.093331E-01
-#   chi-2:  8.526418E-01
-#   p-value:  2.722675E-01
-#   exp. data sets for p-value:      6
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.018214E+00   9.821120E-01   1.288320E-01
-# endfb8.0      1.008303E+00   9.917657E-01   5.862341E-02
-# jeff3.3       1.051965E+00   9.506018E-01   3.698686E-01
-# jendl5.0      1.017331E+00   9.829640E-01   1.225695E-01
-# cendl3.2      1.463832E+00   6.831383E-01   3.583315E+00

@@ -1,28 +1,29 @@
-# header:
+# header: 
 #   title: U238(p,f) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Bate
 #   year: 1964
 #   subentry: T0044003
 #   X4 reaction: 92-U-238(P,F),,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/T0044003
-# target:
+# target: 
 #   Z: 92
 #   A: 238
 #   nuclide: U238
-# reaction:
+# reaction: 
 #   type: (p,f)
 #   ENDF_MF: 3
 #   ENDF_MT: 18
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 26
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 26
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    5.989000E+00   1.000000E-02   5.064000E-02   3.263000E-03   1.000000E+00
@@ -55,17 +56,3 @@
 #   author: G.L.Bate,J.R.Huizenga
 #   title: Fission and Reaction Cross Sections in the Uranium Region with 4- to 12-MeV Protons
 #   journal: Jour: Physical Review, Vol.133, p.B1471 (1964)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  5.989000E+00
-#   E-max [MeV]:  1.201300E+01
-#   F-value:  1.467652E+00
-#   A-value:  9.974567E-01
-#   chi-2:  6.779137E+00
-#   p-value:  3.135632E-01
-#   exp. data sets for p-value:      5
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.466633E+00   1.407805E+00   1.340702E+01
-# jendl5.0      1.468670E+00   7.067170E-01   1.512577E-01

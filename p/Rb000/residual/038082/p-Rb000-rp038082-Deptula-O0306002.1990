@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Rb0(p,x)Sr82 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Deptula
 #   year: 1990
 #   subentry: O0306002
 #   X4 reaction: 37-RB-0(P,X)38-SR-82,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/O0306002
-# target:
+# target: 
 #   Z: 37
 #   A: 0
 #   nuclide: Rb0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 38
-#   A: 82
-#   nuclide: Sr82
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 31
+#   residual: 
+#     Z: 38
+#     A: 82
+#     nuclide: Sr82
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 31
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.250000E+01   0.000000E+00   1.400000E+01   2.100000E+00   1.000000E+00
@@ -64,17 +65,3 @@
 #   author: C.Deptula,V.A.Khalkin,Kim Sen Han,O.Knotek,V.A.Konov, P.Mikecz,L.M.Popinenkova,E.Rurarz,N.G.Zaitseva
 #   title: Excitation functions and yield for medically important generators 82Sr -> 82Rb, 123Xe -> 123I and 201Bi -> 201Pb -> Tl-201 obtained with 100 MeV protons obtained with 100 MeV protons.
 #   journal: Jour: Nukleonika, Vol.35, p.3 (1990)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  3.250000E+01
-#   E-max [MeV]:  9.880000E+01
-#   F-value:  2.299945E+00
-#   A-value:  6.487007E-01
-#   chi-2:  1.176141E+01
-#   p-value:  2.142866E-01
-#   exp. data sets for p-value:      2
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    2.118207E+00   5.169921E-01   1.196171E+01
-# jendl5.0      2.010431E+00   8.867596E-01   1.061555E+01

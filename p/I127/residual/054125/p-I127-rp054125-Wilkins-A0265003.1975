@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: I127(p,x)Xe125 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Wilkins
 #   year: 1975
 #   subentry: A0265003
 #   X4 reaction: 53-I-127(P,3N)54-XE-125,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/A0265003
-# target:
+# target: 
 #   Z: 53
 #   A: 127
 #   nuclide: I127
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 17
-# residual:
-#   Z: 54
-#   A: 125
-#   nuclide: Xe125
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 8
+#   residual: 
+#     Z: 54
+#     A: 125
+#     nuclide: Xe125
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.515000E+01   5.418001E-01   2.963000E+02   3.555600E+01   1.000000E+00
@@ -41,17 +42,3 @@
 #   author: S.R.Wilkins, S.T.Shimore, H.H.Hines, J.A.Jungerman, F.Hegedus, G.L.Denardo
 #   title: Excitation functions and yields for 123-I production using the 127-I(p,5n)123-Xe reaction
 #   journal: Jour: Applied Radiation and Isotopes, Vol.26, p.279 (1975)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  4.515000E+01
-#   E-max [MeV]:  6.236000E+01
-#   F-value:  1.702665E+00
-#   A-value:  5.916649E-01
-#   chi-2:  1.166979E+01
-#   p-value:  7.829900E-02
-#   exp. data sets for p-value:      7
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.675291E+00   6.013957E-01   1.113723E+01
-# jendl5.0      1.729656E+00   5.820915E-01   1.220234E+01

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Cu0(d,x)Zn65 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Weissman
 #   year: 2015
 #   subentry: D0753003
 #   X4 reaction: 29-CU-0(D,X)30-ZN-65,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/D0753003
-# target:
+# target: 
 #   Z: 29
 #   A: 0
 #   nuclide: Cu0
-# reaction:
+# reaction: 
 #   type: (d,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 30
-#   A: 65
-#   nuclide: Zn65
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 10
+#   residual: 
+#     Z: 30
+#     A: 65
+#     nuclide: Zn65
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.770000E+00   5.000000E-02   9.028801E-03   2.006400E-03   1.003197E+00
@@ -43,16 +44,3 @@
 #   author: L.Weissman, A.Kreisel, T.Hirsh, O.Aviv, D.Berkovits, O.Girshevitz, Y.Eisen
 #   title: Accurate measurements of the 63Cu(d,p)64Cu and natCu(d,x)65Zn cross- sections in the 2.77-5.62 MeV energy range
 #   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.342, p.7 (2015
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  2.770000E+00
-#   E-max [MeV]:  5.620000E+00
-#   F-value:  5.050539E+00
-#   A-value:  3.157593E+00
-#   chi-2:  3.978779E+03
-#   p-value:  9.057624E-02
-#   exp. data sets for p-value:      1
-#   libraries:      1
-##  Library          F              A            chi-2
-# tendl.2023    5.050539E+00   3.157593E+00   3.978779E+03

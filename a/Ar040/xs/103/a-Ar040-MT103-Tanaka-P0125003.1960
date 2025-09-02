@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ar40(a,p)K43 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Tanaka
 #   year: 1960
 #   subentry: P0125003
 #   X4 reaction: 18-AR-40(A,P)19-K-43,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/P0125003
-# target:
+# target: 
 #   Z: 18
 #   A: 40
 #   nuclide: Ar40
-# reaction:
+# reaction: 
 #   type: (a,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 19
-#   A: 43
-#   nuclide: K43
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 9
+#   residual: 
+#     Z: 19
+#     A: 43
+#     nuclide: K43
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 9
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.160000E+01   7.750000E-01   1.500000E+01   1.880000E+00   1.000000E+00
@@ -42,16 +43,3 @@
 #   author: S.TANAKA,M.FURUKAWA,T.MIKUMO,S.IWATA,M.YAGI,H.AMANO
 #   title: Reactions of Argon-40 with Alpha-Particles
 #   journal: Jour: Journal of the Physical Society of Japan, Vol.15, p.952 (1960)
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  1.160000E+01
-#   E-max [MeV]:  3.670000E+01
-#   F-value:  1.500333E+00
-#   A-value:  1.350510E+00
-#   chi-2:  1.785204E+01
-#   p-value:  2.458849E-01
-#   exp. data sets for p-value:      2
-#   libraries:      1
-##  Library          F              A            chi-2
-# tendl.2023    1.500333E+00   1.350510E+00   1.785204E+01

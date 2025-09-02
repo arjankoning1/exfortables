@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Nd142(n,p)Pr142 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: YanbinZhangg
 #   year: 2013
 #   subentry: 32710003
 #   X4 reaction: 60-ND-142(N,P)59-PR-142,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/32710003
-# target:
+# target: 
 #   Z: 60
 #   A: 142
 #   nuclide: Nd142
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 59
-#   A: 142
-#   nuclide: Pr142
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 59
+#     A: 142
+#     nuclide: Pr142
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.470000E+01   2.000000E-01   1.380898E+01   1.499900E+00   9.999260E-01
@@ -34,20 +35,3 @@
 #   author: Yanbin Zhang,Liangyong Zhao,Xiangzhong Kong,Rong Liu, Li Jiang
 #   title: Cross-sections for (n,2n) and (n,p) reactions on neodymium isotopes and 160Gd(n,a)157Sm at neutron energy between 13.5 and 14.7 MeV
 #   journal: Jour: Annals of Nuclear Energy, Vol.53, p.99 (2013)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.470000E+01
-#   E-max [MeV]:  1.470000E+01
-#   F-value:  1.295292E+00
-#   A-value:  8.753322E-01
-#   chi-2:  3.465762E+00
-#   p-value:  3.176185E-01
-#   exp. data sets for p-value:      5
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.776491E+00   5.629073E-01   1.619554E+01
-# endfb8.0      1.019239E+00   9.811243E-01   2.260362E-01
-# jeff3.3       1.066066E+00   9.380279E-01   8.130159E-01
-# jendl5.0      1.000708E+00   9.992925E-01   8.174986E-03
-# cendl3.2      1.007406E+00   9.926482E-01   8.604867E-02

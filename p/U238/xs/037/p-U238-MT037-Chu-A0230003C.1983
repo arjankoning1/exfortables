@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: U238(p,4n)Np235 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Chu
 #   year: 1983
 #   subentry: A0230003C
 #   X4 reaction: 92-U-238(P,4N)93-NP-235,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/A0230003C
-# target:
+# target: 
 #   Z: 92
 #   A: 238
 #   nuclide: U238
-# reaction:
+# reaction: 
 #   type: (p,4n)
 #   ENDF_MF: 3
 #   ENDF_MT: 37
-# residual:
-#   Z: 93
-#   A: 235
-#   nuclide: Np235
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 93
+#     A: 235
+#     nuclide: Np235
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.000000E+02   0.000000E+00   1.020000E+00   1.400000E-01   1.000000E+00
@@ -34,17 +35,3 @@
 #   author: Y.Y.Chu,M.L.Zhou
 #   title: Comparison of the (p,xn) cross sections from U-238, U-235 and Th-232 targets irradiated with 200 MeV protons
 #   journal: Jour: IEEE Transactions on Nuclear Science, Vol.30, p.1153 (1983)
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  2.000000E+02
-#   E-max [MeV]:  2.000000E+02
-#   F-value:  4.195396E+00
-#   A-value:  3.627714E-01
-#   chi-2:  2.001478E+01
-#   p-value:  3.175558E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    7.598608E+00   1.316031E-01   4.002956E+01
-# jendl5.0      1.000000E+00   1.000000E+00   4.640279E-11

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ba0(p,x)Xe128 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Prescher
 #   year: 1991
 #   subentry: O0278016
 #   X4 reaction: 56-BA-0(P,X)54-XE-128,CUM,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/O0278016
-# target:
+# target: 
 #   Z: 56
 #   A: 0
 #   nuclide: Ba0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 54
-#   A: 128
-#   nuclide: Xe128
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 13
+#   residual: 
+#     Z: 54
+#     A: 128
+#     nuclide: Xe128
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 13
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.190000E+01   7.800000E-01   9.500000E-04   1.430000E-04   1.000000E+00
@@ -46,17 +47,3 @@
 #   author: K.Prescher,F.Peiffer,R.Stuek,R.Michel,R.Bodemann, M.N.Rao,K.J.Mathew
 #   title: Thin-target cross-sections of proton-induced reactions on  barium  and  solar  cosmic  ray production rates of xenon-isotopes in lunar surface materials.
 #   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.53, p.105 (199
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  1.190000E+01
-#   E-max [MeV]:  4.420000E+01
-#   F-value:  4.227292E+02
-#   A-value:  2.475849E-03
-#   chi-2:  2.870284E+01
-#   p-value:  1.742290E-07
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    7.200830E+02   1.388729E-03   2.364690E+01
-# jendl5.0      3.295715E+02   3.235559E-03   2.864144E+01

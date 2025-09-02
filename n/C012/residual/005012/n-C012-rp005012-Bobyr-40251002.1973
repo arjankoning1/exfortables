@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: C12(n,x)B12 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Bobyr
 #   year: 1973
 #   subentry: 40251002
 #   X4 reaction: 6-C-12(N,P)5-B-12,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/40251002
-# target:
+# target: 
 #   Z: 6
 #   A: 12
 #   nuclide: C12
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 5
-#   A: 12
-#   nuclide: B12
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 31
+#   residual: 
+#     Z: 5
+#     A: 12
+#     nuclide: B12
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 31
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.616000E+01   0.000000E+00   7.000000E+00   1.400000E-01   1.000000E+00
@@ -64,18 +65,3 @@
 #   author: V.V.Bobyr',G.I.Primenko,K.K.Rev'yuk,V.I.Strizhak, Yu.I.Totskii,V.T.Tustanovskii
 #   title: Excitation function for the reaction C-12(n,p)B-12 at the neutron energies 16-18 MeV
 #   journal: Jour: Bull.Russian Academy of Sciences - Physics, Vol.36, p.2272 (1973)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.616000E+01
-#   E-max [MeV]:  1.790000E+01
-#   F-value:  2.175369E+00
-#   A-value:  4.847545E-01
-#   chi-2:  7.034800E+02
-#   p-value:  6.468315E-02
-#   exp. data sets for p-value:      2
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    2.177369E+00   4.839876E-01   7.035505E+02
-# endfb8.0      2.177369E+00   4.839876E-01   7.035505E+02
-# jendl5.0      2.171367E+00   4.862920E-01   7.033391E+02

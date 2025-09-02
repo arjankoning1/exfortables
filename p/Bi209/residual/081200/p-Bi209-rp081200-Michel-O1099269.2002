@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Bi209(p,x)Tl200 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Michel
 #   year: 2002
 #   subentry: O1099269
 #   X4 reaction: 83-BI-209(P,X)81-TL-200,CUM,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/O1099269
-# target:
+# target: 
 #   Z: 83
 #   A: 209
 #   nuclide: Bi209
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 81
-#   A: 200
-#   nuclide: Tl200
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 23
+#   residual: 
+#     Z: 81
+#     A: 200
+#     nuclide: Tl200
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 23
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.010000E+02   1.940000E+00   3.460000E+01   3.660000E+00   1.000000E+00
@@ -56,18 +57,3 @@
 #   author: R.Michel, M.Gloris, J.Protoschill, U.Herpers, J.Kuhnhenn, F.Sudbrock, P.Malmborg, P.Kubik
 #   title: Cross sections for the production of radionuclides by proton-induced reactions on W, Ta, Pb and Bi from thresholds up to 2.6 GeV
 #   journal: Jour: Jour. of Nuclear Science and Technology Suppl., Vol.2, p.242 (2002
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  1.010000E+02
-#   E-max [MeV]:  2.600000E+03
-#   F-value:  2.083525E+01
-#   A-value:  9.322103E-02
-#   chi-2:  6.333880E+01
-#   p-value:  3.545779E-02
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    2.096894E+01   8.851717E-02   6.381112E+01
-# endfb8.0      5.977999E+01   2.865013E-02   6.693538E+01
-# jendl5.0      1.037767E+01   1.665369E-01   6.051183E+01

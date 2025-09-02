@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ge70(n,2n)Ge69 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Khurana
 #   year: 1961
 #   subentry: 31247007
 #   X4 reaction: 32-GE-70(N,2N)32-GE-69,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/31247007
-# target:
+# target: 
 #   Z: 32
 #   A: 70
 #   nuclide: Ge70
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 32
-#   A: 69
-#   nuclide: Ge69
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 32
+#     A: 69
+#     nuclide: Ge69
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.480000E+01   5.000000E-01   1.343619E+03   2.400000E+02   8.397619E-01
@@ -34,20 +35,3 @@
 #   author: C.S.Khurana,H.S.Hans
 #   title: Cross sections for (n,2n) reactions at 14.8 MeV.
 #   journal: Jour: Nuclear Physics, Vol.28, p.560 (1961)
-# statistics:
-#   NEA score: R2
-#   IAEA score:  0
-#   E-min [MeV]:  1.480000E+01
-#   E-max [MeV]:  1.480000E+01
-#   F-value:  2.567345E+00
-#   A-value:  3.995148E-01
-#   chi-2:  1.119737E+01
-#   p-value:  4.397386E-02
-#   exp. data sets for p-value:      8
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    3.784682E+00   2.642230E-01   1.696896E+01
-# endfb8.0      2.275990E+00   4.393693E-01   9.884002E+00
-# jeff3.3       2.486233E+00   4.022149E-01   1.121822E+01
-# jendl5.0      2.275990E+00   4.393693E-01   9.884002E+00
-# cendl3.2      2.015691E+00   4.961078E-01   8.031688E+00

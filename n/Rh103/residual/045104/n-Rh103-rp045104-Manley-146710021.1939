@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Rh103(n,x)Rh104 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Manley
 #   year: 1939
 #   subentry: 146710021
 #   X4 reaction: 45-RH-103(N,G)45-RH-104,,SIG,,RES
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/146710021
-# target:
+# target: 
 #   Z: 45
 #   A: 103
 #   nuclide: Rh103
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 45
-#   A: 104
-#   nuclide: Rh104
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 45
+#     A: 104
+#     nuclide: Rh104
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.000000E-06   0.000000E+00   6.100000E+06   1.830000E+05   1.000000E+00
@@ -34,17 +35,3 @@
 #   author: J.H.Manley,H.H.Goldsmith,J.Schwinger
 #   title: The Widths of Nuclear Energy Levels
 #   journal: Jour: Physical Review, Vol.55, p.39 (1939)
-# statistics:
-#   NEA score: T3
-#   IAEA score: -1
-#   E-min [MeV]:  2.000000E-06
-#   E-max [MeV]:  2.000000E-06
-#   F-value:  1.398156E+02
-#   A-value:  7.152430E-03
-#   chi-2:  1.095272E+03
-#   p-value:  1.192093E-07
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.418600E+02   7.049204E-03   1.095502E+03
-# jendl5.0      1.377948E+02   7.257166E-03   1.095042E+03

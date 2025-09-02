@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: In115(n,n')In115m cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Moiseev
 #   year: 1990
 #   subentry: 41063004
 #   X4 reaction: 49-IN-115(N,INL)49-IN-115-M,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/41063004
-# target:
+# target: 
 #   Z: 49
 #   A: 115
 #   nuclide: In115
-# reaction:
+# reaction: 
 #   type: (n,n')
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 49
-#   A: 115
-#   nuclide: In115m
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 49
+#     A: 115
+#     nuclide: In115m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.479000E+01   1.500000E-01   6.360000E+01   1.200000E+00   1.000000E+00
@@ -39,18 +40,3 @@
 #   author: N.N.Moiseev,Z.A.Ramendik,V.T.Shchebolev
 #   title: Precision determination of the 115In(n,n')115mIn  cross section for 14.8-MeV neutrons
 #   journal: Jour: Atomnaya Energiya, Vol.68, p.128 (1990)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.479000E+01
-#   E-max [MeV]:  1.479000E+01
-#   F-value:  1.053701E+00
-#   A-value:  9.504985E-01
-#   chi-2:  7.438563E+00
-#   p-value:  4.567034E-01
-#   exp. data sets for p-value:      8
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.059614E+00   9.437396E-01   8.940923E+00
-# jendl5.0      1.033613E+00   9.674796E-01   3.399653E+00
-# irdff2.0      1.063261E+00   9.405032E-01   9.975113E+00

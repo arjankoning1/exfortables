@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: K41(p,n')Ca41 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Saini
 #   year: 1983
 #   subentry: D6100002
 #   X4 reaction: 19-K-41(P,N)20-CA-41,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/D6100002
-# target:
+# target: 
 #   Z: 19
 #   A: 41
 #   nuclide: K41
-# reaction:
+# reaction: 
 #   type: (p,n')
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 20
-#   A: 41
-#   nuclide: Ca41
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 501
+#   residual: 
+#     Z: 20
+#     A: 41
+#     nuclide: Ca41
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 501
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.500021E+00   0.000000E+00   3.250000E-01   2.437500E-02   1.000000E+00
@@ -534,17 +535,3 @@
 #   author: S.Saini, G.Singh, A.Chatterjee, S.Kailas, D.D.Karnik,  N.Veerabahu, M.K.Mehta
 #   title: Isobaric analogue resonances in the 41K and 65Cu(p,n)  reactions
 #   journal: Jour: Nuclear Physics, Section A, Vol.405, p.55 (1983)
-# statistics:
-#   NEA score: R3
-#   IAEA score:  1
-#   E-min [MeV]:  1.500021E+00
-#   E-max [MeV]:  4.246984E+00
-#   F-value:  1.805638E+00
-#   A-value:  1.409781E+00
-#   chi-2:  4.080571E+02
-#   p-value:  1.913414E-01
-#   exp. data sets for p-value:      4
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.713846E+00   1.290227E+00   3.947368E+02
-# jendl5.0      1.894285E+00   1.540412E+00   4.213776E+02

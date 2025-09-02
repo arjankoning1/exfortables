@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Fe0(p,x)Mn54 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Sisterson
 #   year: 2006
 #   subentry: C1447006
 #   X4 reaction: 26-FE-0(P,X)25-MN-54,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/C1447006
-# target:
+# target: 
 #   Z: 26
 #   A: 0
 #   nuclide: Fe0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 25
-#   A: 54
-#   nuclide: Mn54
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 6
+#   residual: 
+#     Z: 25
+#     A: 54
+#     nuclide: Mn54
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.400000E+02   1.000000E+00   5.841403E+01   4.301000E+00   1.000240E+00
@@ -39,18 +40,3 @@
 #   author: J.M.Sisterson,J.Vincent
 #   title: Cross section measurements for proton-induced reactions  in Fe and Ni producing relatively short-lived  radionuclides at Ep = 140-500 MeV
 #   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.251, p.1 (2006
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  1.400000E+02
-#   E-max [MeV]:  5.000000E+02
-#   F-value:  1.220333E+00
-#   A-value:  9.251300E-01
-#   chi-2:  5.977529E+00
-#   p-value:  1.721188E-01
-#   exp. data sets for p-value:      3
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.305310E+00   7.869466E-01   9.720414E+00
-# endfb8.0      1.067954E+00   9.363699E-01   1.325993E+00
-# jendl5.0      1.101148E+00   1.092002E+00   2.356400E+00

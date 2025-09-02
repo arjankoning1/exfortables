@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Hg198(n,n'_01)Hg199 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Efrosinin
 #   year: 1979
 #   subentry: 40463006
 #   X4 reaction: 80-HG-198(N,INL)80-HG-198,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/40463006
-#   level energy [MeV]  4.12000E-01
-# target:
+#   level energy [MeV]:  4.12000E-01
+# target: 
 #   Z: 80
 #   A: 198
 #   nuclide: Hg198
-# reaction:
+# reaction: 
 #   type: (n,n'_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 51
@@ -25,14 +25,15 @@
 #     energy [MeV]:  4.118030E-01
 #     spin:  2.000000E+00
 #     parity: 1
-# residual:
-#   Z: 80
-#   A: 199
-#   nuclide: Hg199
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 29
+#   residual: 
+#     Z: 80
+#     A: 199
+#     nuclide: Hg199
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 29
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.130000E-01   0.000000E+00   9.500000E+01   4.000000E+01   1.000000E+00
@@ -68,19 +69,3 @@
 #   author: V.P.Efrosinin,E.S.Konobeevskiy,V.I.Popov, V.M.Skorkin,I.V.Surkova
 #   title: Neutron inelastic cross-sections for osmium,  platinum and mercury nuclei near the reaction  threshold .
 #   journal: Conf: 29.Conf.on Nucl.Spectr.and Nucl.Struct.,Riga 1979, p.421 (1979)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  4.130000E-01
-#   E-max [MeV]:  9.220000E-01
-#   F-value:  1.490045E+00
-#   A-value:  7.499513E-01
-#   chi-2:  6.276124E+00
-#   p-value:  2.923393E-01
-#   exp. data sets for p-value:      1
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.770639E+00   5.699856E-01   1.235090E+01
-# endfb8.0      1.152430E+00   9.174547E-01   1.141179E+00
-# jeff3.3       1.690523E+00   5.976391E-01   1.079890E+01
-# jendl5.0      1.125431E+00   1.012150E+00   8.135222E-01

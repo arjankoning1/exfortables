@@ -1,28 +1,29 @@
-# header:
+# header: 
 #   title: B0(n,a) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Prosdocimi
 #   year: 1963
 #   subentry: 20192005
 #   X4 reaction: 5-B-0(N,A),,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20192005
-# target:
+# target: 
 #   Z: 5
 #   A: 0
 #   nuclide: B0
-# reaction:
+# reaction: 
 #   type: (n,a)
 #   ENDF_MF: 3
 #   ENDF_MT: 107
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.530000E-08   0.000000E+00   7.608000E+05   4.402822E+03   1.000000E+00
@@ -30,20 +31,3 @@
 #   author: A.Prosdocimi, A.J.Deruytter, G.Debus, P.J.Debievre, J.Spaepen, K.Lauer, H.Moret
 #   title: A precise determination of the thermal neutron   absorption cross-section of B-10 and natural boron   by time-of-flight
 #   journal: Jour: J.Nuclear Energy A&B (Reactor Sci. and Technol.), Vol.17, p.83 (19
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  2.530000E-08
-#   E-max [MeV]:  2.530000E-08
-#   F-value:  1.000125E+00
-#   A-value:  9.999555E-01
-#   chi-2:  1.447474E-02
-#   p-value:  3.846850E-01
-#   exp. data sets for p-value:      4
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.000027E+00   1.000027E+00   5.900012E-03
-# endfb8.0      1.000027E+00   1.000027E+00   5.900012E-03
-# jeff3.3       1.000000E+00   9.999999E-01   1.341335E-05
-# jendl5.0      1.000277E+00   9.997232E-01   6.054739E-02
-# cendl3.2      1.000000E+00   9.999999E-01   1.289849E-05

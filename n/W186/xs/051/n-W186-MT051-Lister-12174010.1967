@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: W186(n,n'_01)W187 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Lister
 #   year: 1967
 #   subentry: 12174010
 #   X4 reaction: 74-W-186(N,INL)74-W-186,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/12174010
-#   level energy [MeV]  1.21000E-01
-# target:
+#   level energy [MeV]:  1.21000E-01
+# target: 
 #   Z: 74
 #   A: 186
 #   nuclide: W186
-# reaction:
+# reaction: 
 #   type: (n,n'_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 51
@@ -25,14 +25,15 @@
 #     energy [MeV]:  1.226300E-01
 #     spin:  2.000000E+00
 #     parity: 1
-# residual:
-#   Z: 74
-#   A: 187
-#   nuclide: W187
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 59
+#   residual: 
+#     Z: 74
+#     A: 187
+#     nuclide: W187
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 59
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.500000E-01   2.000000E-02   6.000000E+02   2.000000E+02   1.000000E+00
@@ -98,19 +99,3 @@
 #   author: D.LISTER,A.B.SMITH,C.DUNFORD
 #   title: FAST-NEUTRON SCATTERING FROM THE 182, 184, AND 186 ISOTOPES OF TUNGSTEN.
 #   journal: Jour: Physical Review, Vol.162, p.1077 (1967)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  3.500000E-01
-#   E-max [MeV]:  1.300000E+00
-#   F-value:  1.136133E+00
-#   A-value:  9.912677E-01
-#   chi-2:  1.378392E+00
-#   p-value:  3.039527E-01
-#   exp. data sets for p-value:      1
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.181634E+00   1.123468E+00   2.383558E+00
-# endfb8.0      1.085628E+00   9.720227E-01   5.103011E-01
-# jeff3.3       1.141405E+00   9.152781E-01   1.588965E+00
-# jendl5.0      1.121069E+00   9.659924E-01   1.030746E+00

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ni0(p,x)Co55 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Griswold
 #   year: 2013
 #   subentry: C2048003
 #   X4 reaction: 28-NI-0(P,X)27-CO-55,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/C2048003
-# target:
+# target: 
 #   Z: 28
 #   A: 0
 #   nuclide: Ni0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 27
-#   A: 55
-#   nuclide: Co55
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 10
+#   residual: 
+#     Z: 27
+#     A: 55
+#     nuclide: Co55
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.192000E+01   7.500000E-01   1.020000E+01   7.000000E-01   1.000000E+00
@@ -43,18 +44,3 @@
 #   author: J.R.Griswold,C.U.Jost,D.W.Stracener,S.H.Bruffey, D.Denton,M.Garland,L.Heilbronn,S.Mirzadeh,C.L.Williams
 #   title: Production of 229Th for medical applications: Excitation functions of low-energy protons on 232Th targets
 #   journal: Conf: Conf.proceedings by Am.Inst.of Phys., No.1525, p.520 (2013)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  1.192000E+01
-#   E-max [MeV]:  3.791000E+01
-#   F-value:  1.326895E+00
-#   A-value:  1.085562E+00
-#   chi-2:  2.206754E+01
-#   p-value:  3.403359E-01
-#   exp. data sets for p-value:      5
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.280522E+00   9.659017E-01   8.936845E+00
-# endfb8.0      1.172188E+00   9.716312E-01   4.607754E+00
-# jendl5.0      1.479849E+00   1.363106E+00   5.265802E+01

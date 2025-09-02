@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Pu239(n,x)Pu238 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Meot
 #   year: 2021
 #   subentry: 23777002
 #   X4 reaction: 94-PU-239(N,2N)94-PU-238,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/23777002
-# target:
+# target: 
 #   Z: 94
 #   A: 239
 #   nuclide: Pu239
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 94
-#   A: 238
-#   nuclide: Pu238
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 3
+#   residual: 
+#     Z: 94
+#     A: 238
+#     nuclide: Pu238
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    7.100000E+00   0.000000E+00   1.420000E+02   2.330000E+01   1.000000E+00
@@ -36,17 +37,3 @@
 #   author: V.Meot, O.Roig, B.Laurent, P.Morel, J.Aupiais,  O.Delaune, G.Haouat, O.Bouland
 #   title: 239Pu(n,2n)238Pu cross section measurement using a recoil method
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.103, p.054609 (2021)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  7.100000E+00
-#   E-max [MeV]:  9.340000E+00
-#   F-value:  1.121498E+00
-#   A-value:  9.986362E-01
-#   chi-2:  8.362238E-01
-#   p-value:  3.676918E-01
-#   exp. data sets for p-value:      3
-#   libraries:      2
-##  Library          F              A            chi-2
-# jeff3.3       1.142824E+00   1.079921E+00   9.992347E-01
-# jendl5.0      1.096419E+00   9.234700E-01   6.732127E-01

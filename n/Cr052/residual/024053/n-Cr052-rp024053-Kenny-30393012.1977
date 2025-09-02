@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Cr52(n,x)Cr53 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Kenny
 #   year: 1977
 #   subentry: 30393012
 #   X4 reaction: 24-CR-52(N,G)24-CR-53,,SIG,,AV
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30393012
-# target:
+# target: 
 #   Z: 24
 #   A: 52
 #   nuclide: Cr52
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 24
-#   A: 53
-#   nuclide: Cr53
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 13
+#   residual: 
+#     Z: 24
+#     A: 53
+#     nuclide: Cr53
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 13
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.500000E-02   5.000000E-03   5.400000E-01   1.300000E-01   1.000000E+00
@@ -46,17 +47,3 @@
 #   author: M.J.Kenny, B.J.Allen, A.R.de L.Musgrove, R.L.Macklin,  J.Halperin
 #   title: Neutron capture by the chromium isotopes
 #   journal: Rept: Australian AEC Reports, No.400 (1977)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  1.500000E-02
-#   E-max [MeV]:  3.250000E-01
-#   F-value:  1.158015E+01
-#   A-value:  1.320091E-01
-#   chi-2:  1.362318E+01
-#   p-value:  1.078273E-01
-#   exp. data sets for p-value:      5
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.336545E+01   1.139392E-01   1.346351E+01
-# jendl5.0      9.944098E+00   1.529446E-01   1.378284E+01

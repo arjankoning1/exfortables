@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: Kr0(p,x)Rb82m cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Steyn
 #   year: 1991
 #   subentry: A0499012
 #   X4 reaction: 36-KR-0(P,X)37-RB-82-M,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/A0499012
-# target:
+# target: 
 #   Z: 36
 #   A: 0
 #   nuclide: Kr0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 37
-#   A: 82
-#   nuclide: Rb82m
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 31
+#   residual: 
+#     Z: 37
+#     A: 82
+#     nuclide: Rb82m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 31
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    5.200000E+00   1.000000E+00   2.610000E+00   2.900000E-01   1.000000E+00
@@ -69,17 +70,3 @@
 #   author: G.F.Steyn,S.J.Mills,F.M.Nortier,F.J.Haasbroek
 #   title: Integral excitation functions for Kr-nat+p up to  116 MeV and optimization of the production of Rb-81  for Kr-81-m generators
 #   journal: Jour: Applied Radiation and Isotopes, Vol.42, p.361 (1991)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  5.200000E+00
-#   E-max [MeV]:  9.780000E+01
-#   F-value:  1.557884E+00
-#   A-value:  6.934078E-01
-#   chi-2:  1.676327E+01
-#   p-value:  2.435088E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.725483E+00   6.162606E-01   2.445142E+01
-# jendl5.0      1.362108E+00   7.802127E-01   9.075124E+00

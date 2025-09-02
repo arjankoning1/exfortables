@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Y89(n,x)Y88 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Vallis
 #   year: 1966
 #   subentry: 20347004
 #   X4 reaction: 39-Y-89(N,2N)39-Y-88,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20347004
-# target:
+# target: 
 #   Z: 39
 #   A: 89
 #   nuclide: Y89
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 39
-#   A: 88
-#   nuclide: Y88
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 39
+#     A: 88
+#     nuclide: Y88
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.470000E+01   1.500000E-01   9.861526E+02   5.300000E+01   9.374074E-01
@@ -34,17 +35,3 @@
 #   author: D.G.VALLIS
 #   title: -CROSS SECTIONS FOR (N,2N) REACTION AT 14.7 MEV OF SOME  ODD-PROTON NUCLEI.-
 #   journal: Rept: A.W.R.E. Aldermaston Reports, No.76/66 (1966)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.470000E+01
-#   E-max [MeV]:  1.470000E+01
-#   F-value:  1.003733E+00
-#   A-value:  1.002648E+00
-#   chi-2:  6.311337E-02
-#   p-value:  4.422783E-01
-#   exp. data sets for p-value:      8
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.000019E+00   1.000019E+00   4.378910E-04
-# jendl5.0      1.005283E+00   1.005283E+00   1.257889E-01

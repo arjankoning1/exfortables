@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Na23(n,x)Ne23 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Weigmann
 #   year: 1982
 #   subentry: 12965002
 #   X4 reaction: 11-NA-23(N,P)10-NE-23,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/12965002
-# target:
+# target: 
 #   Z: 11
 #   A: 23
 #   nuclide: Na23
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 10
-#   A: 23
-#   nuclide: Ne23
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 792
+#   residual: 
+#     Z: 10
+#     A: 23
+#     nuclide: Ne23
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 792
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    5.220000E+00   0.000000E+00   2.342000E+00   8.292000E-01   1.000000E+00
@@ -825,17 +826,3 @@
 #   author: H.WEIGMANN,G.F.AUCHAMPAUGH,P.W.LISOWSKI, M.S.MOORE,G.L.MORGAN
 #   title: NEUTRON INDUCED CHARGED PARTICLE REACTIONS ON  23-NA
 #   journal: Conf: Conf.on Nucl.Data for Sci.and Technol.,Antwerp 1982, p.814 (1982)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  5.220000E+00
-#   E-max [MeV]:  1.100000E+01
-#   F-value:  1.696010E+00
-#   A-value:  1.184283E+00
-#   chi-2:  4.547961E+01
-#   p-value:  2.773312E-01
-#   exp. data sets for p-value:      2
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.856060E+00   1.466180E+00   7.440784E+01
-# jendl5.0      1.520636E+00   9.565847E-01   1.655137E+01

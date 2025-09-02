@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ca48(n,2n)Ca47 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Holmberg
 #   year: 1978
 #   subentry: 21608007
 #   X4 reaction: 20-CA-48(N,2N)20-CA-47,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/21608007
-# target:
+# target: 
 #   Z: 20
 #   A: 48
 #   nuclide: Ca48
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 20
-#   A: 47
-#   nuclide: Ca47
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 20
+#     A: 47
+#     nuclide: Ca47
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.470000E+01   0.000000E+00   6.258746E+02   5.486563E+01   1.016030E+00
@@ -34,19 +35,3 @@
 #   author: P.HOLMBERG,M.HYVOENEN,M.TARVAINEN
 #   title: -CROSS SECTIONS OF 14 MEV NEUTRON REACTIONS ON  PHOSPHORUS AND CALCIUM -.
 #   journal: Jour: Journal of Radioanalytical Chemistry, Vol.42, p.477 (1978)
-# statistics:
-#   NEA score: T3
-#   IAEA score:  0
-#   E-min [MeV]:  1.470000E+01
-#   E-max [MeV]:  1.470000E+01
-#   F-value:  1.490219E+00
-#   A-value:  1.474367E+00
-#   chi-2:  3.224573E+01
-#   p-value:  2.131350E-01
-#   exp. data sets for p-value:      7
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.494147E+00   1.494147E+00   3.177507E+01
-# endfb8.0      1.603561E+00   1.603561E+00   4.740411E+01
-# jeff3.3       1.558518E+00   1.558518E+00   4.059269E+01
-# jendl5.0      1.265412E+00   1.265412E+00   9.211024E+00

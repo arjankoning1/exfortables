@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: Rb85(p,x)Rb84m cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Kastleiner
 #   year: 2004
 #   subentry: D0259002
 #   X4 reaction: 37-RB-85(P,X)37-RB-84-M,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/D0259002
-# target:
+# target: 
 #   Z: 37
 #   A: 85
 #   nuclide: Rb85
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 37
-#   A: 84
-#   nuclide: Rb84m
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 26
+#   residual: 
+#     Z: 37
+#     A: 84
+#     nuclide: Rb84m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 26
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.260000E+01   6.000000E-01   1.746756E+02   2.618222E+01   9.555556E-01
@@ -64,17 +65,3 @@
 #   author: S.Kastleiner,Yu.N.Shubin,F.M.Nortier, T.N.van der Walt,S.M.Qaim
 #   title: Experimental studies and nuclear model calculations on  (p,xn) and (p,pxn) reactions on 85Rb from their thresholds up to 100 MeV
 #   journal: Jour: Radiochimica Acta, Vol.92, p.449 (2004)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  2.260000E+01
-#   E-max [MeV]:  1.000000E+02
-#   F-value:  2.201185E+00
-#   A-value:  6.207553E-01
-#   chi-2:  1.267357E+01
-#   p-value:  2.931646E-01
-#   exp. data sets for p-value:      2
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.604708E+00   9.606070E-01   9.860031E+00
-# jendl5.0      2.747305E+00   4.011392E-01   1.548710E+01

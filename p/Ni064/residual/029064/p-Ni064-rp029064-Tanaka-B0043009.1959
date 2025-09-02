@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ni64(p,x)Cu64 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Tanaka
 #   year: 1959
 #   subentry: B0043009
 #   X4 reaction: 28-NI-64(P,N)29-CU-64,,SIG,,,EXP
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/B0043009
-# target:
+# target: 
 #   Z: 28
 #   A: 64
 #   nuclide: Ni64
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 29
-#   A: 64
-#   nuclide: Cu64
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 14
+#   residual: 
+#     Z: 29
+#     A: 64
+#     nuclide: Cu64
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 14
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.800000E+00   0.000000E+00   2.970000E+02   0.000000E+00   1.000000E+00
@@ -47,18 +48,3 @@
 #   author: S.TANAKA, M.FURUKAWA
 #   title: Excitation Functions For (P,N) Reactions with Titanium, Vanadium, Chromium, Iron and Nickel Up to 14 MeV
 #   journal: Jour: Journal of the Physical Society of Japan, Vol.14, p.1269 (1959)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  4.800000E+00
-#   E-max [MeV]:  1.410000E+01
-#   F-value:  1.528174E+00
-#   A-value:  8.406229E-01
-#   chi-2:  6.740463E-01
-#   p-value:  2.856594E-01
-#   exp. data sets for p-value:      4
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.156045E+00   1.003201E+00   3.471826E-02
-# endfb8.0      2.028065E+00   5.709400E-01   1.987420E+00
-# jendl5.0      1.145800E+00   1.037112E+00   3.019739E-07

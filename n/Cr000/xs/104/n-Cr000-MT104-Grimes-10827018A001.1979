@@ -1,28 +1,29 @@
-# header:
+# header: 
 #   title: Cr0(n,d) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Grimes
 #   year: 1979
 #   subentry: 10827018
 #   X4 reaction: 24-CR-0(N,D),PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/10827018
-# target:
+# target: 
 #   Z: 24
 #   A: 0
 #   nuclide: Cr0
-# reaction:
+# reaction: 
 #   type: (n,d)
 #   ENDF_MF: 3
 #   ENDF_MT: 104
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 13
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 13
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.480000E+01   0.000000E+00   2.000000E-01   1.500000E-01   1.000000E+00
@@ -42,19 +43,3 @@
 #   author: S.M.Grimes,R.C.Haight,K.R.Alvar,H.H.Barschall, R.R.Borchers
 #   title: Charged particle emission in reactions of 15-MeV  neutrons with isotopes of chromium, iron, nickel, and  copper.
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.19, p.2127 (1979)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  1.480000E+01
-#   E-max [MeV]:  1.480000E+01
-#   F-value:  1.015710E+01
-#   A-value:  6.466619E+00
-#   chi-2:  7.017461E+02
-#   p-value:  6.441796E-04
-#   exp. data sets for p-value:      4
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.166821E+01   9.964676E+00   6.043500E+02
-# endfb8.0      2.306056E+00   1.020306E+00   3.430434E+00
-# jeff3.3       1.400749E+01   1.210299E+01   9.148954E+02
-# jendl5.0      1.630969E+01   1.421094E+01   1.284308E+03

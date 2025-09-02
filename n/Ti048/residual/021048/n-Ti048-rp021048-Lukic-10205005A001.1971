@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ti48(n,x)Sc48 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Lukic
 #   year: 1971
 #   subentry: 10205005
 #   X4 reaction: 22-TI-48(N,P)21-SC-48,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/10205005
-# target:
+# target: 
 #   Z: 22
 #   A: 48
 #   nuclide: Ti48
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 21
-#   A: 48
-#   nuclide: Sc48
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 21
+#     A: 48
+#     nuclide: Sc48
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    6.530000E+00   0.000000E+00   3.385500E+00   6.000000E-01   9.149925E-01
@@ -34,18 +35,3 @@
 #   author: Y.LUKIC,E.E.CARROLL
 #   title: Titanium (n,p) Cross-sECTION Measurements
 #   journal: Jour: Nuclear Science and Engineering, Vol.43, p.233 (1971)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  6.530000E+00
-#   E-max [MeV]:  6.530000E+00
-#   F-value:  1.235788E+00
-#   A-value:  1.235556E+00
-#   chi-2:  2.324557E+00
-#   p-value:  2.810617E-01
-#   exp. data sets for p-value:      7
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.243356E+00   1.243356E+00   2.429618E+00
-# jeff3.3       1.243356E+00   1.243356E+00   2.429618E+00
-# jendl5.0      1.220103E+00   1.220103E+00   2.114434E+00

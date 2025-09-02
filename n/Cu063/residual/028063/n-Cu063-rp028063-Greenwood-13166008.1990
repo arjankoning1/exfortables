@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Cu63(n,x)Ni63 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Greenwood
 #   year: 1990
 #   subentry: 13166008
 #   X4 reaction: 29-CU-63(N,P)28-NI-63,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/13166008
-# target:
+# target: 
 #   Z: 29
 #   A: 63
 #   nuclide: Cu63
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 28
-#   A: 63
-#   nuclide: Ni63
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 28
+#     A: 63
+#     nuclide: Ni63
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.480000E+01   0.000000E+00   5.400001E+01   4.000000E+00   1.000000E+00
@@ -34,19 +35,3 @@
 #   author: L.R.Greenwood,D.L.Bowers
 #   title: Measurement of long-lived isotopes and helium production in fusion materials
 #   journal: Conf: 7.Int.Symposium on Reactor Dosimetry, Strasbourg,1990, p.437 (1990
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.480000E+01
-#   E-max [MeV]:  1.480000E+01
-#   F-value:  1.124453E+00
-#   A-value:  9.586744E-01
-#   chi-2:  2.598280E+00
-#   p-value:  3.669534E-01
-#   exp. data sets for p-value:      5
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.076805E+00   9.286734E-01   1.516678E+00
-# endfb8.0      1.036044E+00   1.036044E+00   6.795692E-01
-# jeff3.3       1.229029E+00   8.136502E-01   6.470047E+00
-# jendl5.0      1.078961E+00   1.078961E+00   1.726827E+00

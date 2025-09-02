@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: S32(g,2n)S30 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Veyssiere
 #   year: 1974
 #   subentry: L0039024
 #   X4 reaction: 16-S-32(G,2N)16-S-30,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/L0039024
-# target:
+# target: 
 #   Z: 16
 #   A: 32
 #   nuclide: S32
-# reaction:
+# reaction: 
 #   type: (g,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 16
-#   A: 30
-#   nuclide: S30
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 2
+#   residual: 
+#     Z: 16
+#     A: 30
+#     nuclide: S30
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.947000E+01   0.000000E+00   9.999999E-02   5.000000E-01   1.000000E+00
@@ -35,18 +36,3 @@
 #   author: A.VEYSSIERE,H.BEIL,R.BERGERE,P.CARLOS,A.LEPRETRE, A.DE MINIAC
 #   title: A study of the photoneutron contribution to the giant dipole resonance of s-d shell nuclei.
 #   journal: Jour: Nuclear Physics, Section A, Vol.227, p.513 (1974)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  2.947000E+01
-#   E-max [MeV]:  3.218000E+01
-#   F-value:  1.471889E+00
-#   A-value:  1.180703E+00
-#   chi-2:  8.307704E-02
-#   p-value:  2.221361E-01
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.154866E+00   8.659014E-01   3.380300E-02
-# endfb8.0      1.912052E+00   1.602678E+00   2.040810E-01
-# jendl5.0      1.141740E+00   1.096901E+00   2.637151E-02

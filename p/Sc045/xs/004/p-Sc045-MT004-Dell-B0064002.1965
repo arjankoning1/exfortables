@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Sc45(p,n')Ti45 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Dell
 #   year: 1965
 #   subentry: B0064002
 #   X4 reaction: 21-SC-45(P,N)22-TI-45,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/B0064002
-# target:
+# target: 
 #   Z: 21
 #   A: 45
 #   nuclide: Sc45
-# reaction:
+# reaction: 
 #   type: (p,n')
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 22
-#   A: 45
-#   nuclide: Ti45
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 11
+#   residual: 
+#     Z: 22
+#     A: 45
+#     nuclide: Ti45
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 11
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.280000E+00   0.000000E+00   1.110000E+01   0.000000E+00   1.000000E+00
@@ -44,16 +45,3 @@
 #   author: G.F.Dell, W.D.Ploughe, H.J.Hausman
 #   title: Total reaction cross sections in the mass range 45 to  65
 #   journal: Jour: Nuclear Physics, Vol.64, p.513 (1965)
-# statistics:
-#   NEA score: R3
-#   IAEA score: -1
-#   E-min [MeV]:  3.280000E+00
-#   E-max [MeV]:  6.770000E+00
-#   F-value:  2.004682E+00
-#   A-value:  1.877735E+00
-#   chi-2:  3.152508E+01
-#   p-value:  1.523455E-01
-#   exp. data sets for p-value:      5
-#   libraries:      1
-##  Library          F              A            chi-2
-# tendl.2023    2.004682E+00   1.877735E+00   3.152508E+01

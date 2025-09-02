@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ge73(n,x)Ge74 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Ledererwoods
 #   year: 2019
 #   subentry: 23451003
 #   X4 reaction: 32-GE-73(N,G)32-GE-74,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/23451003
-# target:
+# target: 
 #   Z: 32
 #   A: 73
 #   nuclide: Ge73
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 32
-#   A: 74
-#   nuclide: Ge74
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 135
+#   residual: 
+#     Z: 32
+#     A: 74
+#     nuclide: Ge74
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 135
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.406190E-02   0.000000E+00   7.130950E+02   4.651560E+01   1.000000E+00
@@ -168,18 +169,3 @@
 #   author: C.Lederer-Woods, U.Battino, P.Ferreira, A.Gawlik,  C.Guerrero, F.Gunsing, S.Heinitz, J.Lerendegui-Marco,  A.Mengoni, R.Reifarth, A.Tattersall, S.Valenta,  C.Weiss, O.Aberle, J.Andrzejewski, L.Audouin,  V.Becares, M.Bacak, J.Balibrea, M.Barbagallo,  S.Barros, F.Becvar, C.Beinrucker, F.Belloni,  E.Berthoumieux, J.Billowes, D.Bosnar, M.Brugger,  M.Caamano, F.Calvino, M.Calviani, D.Cano-Ott,  F.Cerutti, E.Chiaveri, N.Colonna, G.Cortes,  M.A.Cortes-Giraldo, L.Cosentino, L.A.Damone, K.Deo,  M.Diakaki, M.Dietz, C.Domingo-Pardo, R.Dressler,  E.Dupont, I.Duran, B.Fernandez-Dominguez, A.Ferrari,  P.Finocchiaro, R.J.W.Frost, V.Furman, K.Goebel,  A.R.Garcia, I.Gheorghe, T.Glodariu, I.F.Goncalves,  E.Gonzalez-Romero, A.Goverdovski, E.Griesmayer,  H.Harada, T.Heftrich, A.Hernandez-Prieto, J.Heyse,  D.G.Jenkins, E.Jericha, F.Kaeppeler, Y.Kadi,  T.Katabuchi, P.Kavrigin, V.Ketlerov, V.Khryachkov,  A.Kimura, N.Kivel, I.Knapova, M.Kokkoris, M.Krticka,  E.Leal-Cidoncha, H.Leeb, M.Licata, S.Lo
 #   title: Measurement of 73Ge(n,g) cross sections and  implications for stellar nucleosynthesis
 #   journal: Jour: Physics Letters,Section B, Vol.790, p.458 (2019)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.406190E-02
-#   E-max [MeV]:  2.957660E-01
-#   F-value:  1.477102E+00
-#   A-value:  7.093970E-01
-#   chi-2:  1.918343E+01
-#   p-value:  1.697981E-01
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.239379E+00   8.501464E-01   7.131488E+00
-# jeff3.3       1.520541E+00   6.723042E-01   2.217634E+01
-# jendl5.0      1.623493E+00   6.246095E-01   2.824249E+01

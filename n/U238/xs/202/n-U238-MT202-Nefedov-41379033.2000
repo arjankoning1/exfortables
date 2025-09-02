@@ -1,28 +1,29 @@
-# header:
+# header: 
 #   title: U238(n,xg) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Nefedov
 #   year: 2000
 #   subentry: 41379033
 #   X4 reaction: 92-U-238(N,X)0-G-0,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/41379033
-# target:
+# target: 
 #   Z: 92
 #   A: 238
 #   nuclide: U238
-# reaction:
+# reaction: 
 #   type: (n,xg)
 #   ENDF_MF: 3
 #   ENDF_MT: 202
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.430000E+01   0.000000E+00   1.017100E+04   9.150001E+02   1.000000E+00
@@ -30,21 +31,3 @@
 #   author: Yu.Ya.Nefedov, V.I.Nagornyj, V.I.Semenov, A.K.Zhitnik,  R.A.Orlov, A.E.Shmarov
 #   title: Gamma-ray production cross-section and spectrum measurement results for inelastic interaction of 14 MeV neutrons with nuclei of Na, S, Cl, Ti, V, Cr, Ni, Zn, Ge, Nb, Cd, In, Sn, Bi, 235U and 238U
 #   journal: Jour: Vop.At.Nauki i Tekhn.,Ser.Yaderno-Reak.Konstanty, Issue.1, p.7 (20
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  1.430000E+01
-#   E-max [MeV]:  1.430000E+01
-#   F-value:  6.395959E+03
-#   A-value:  1.566160E-04
-#   chi-2:  1.235227E+02
-#   p-value:  1.192093E-07
-#   exp. data sets for p-value:      1
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    7.216005E+03   1.385808E-04   1.235278E+02
-# endfb8.0      7.216005E+03   1.385808E-04   1.235278E+02
-# jeff3.3       4.999167E+03   2.000333E-04   1.235126E+02
-# jendl5.0      0.000000E+00   0.000000E+00   0.000000E+00
-# cendl3.2      0.000000E+00   0.000000E+00   0.000000E+00
-# irdff2.0      0.000000E+00   0.000000E+00   0.000000E+00

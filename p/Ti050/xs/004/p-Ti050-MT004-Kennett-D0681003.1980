@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ti50(p,n')V50 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Kennett
 #   year: 1980
 #   subentry: D0681003
 #   X4 reaction: 22-TI-50(P,N)23-V-50,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/D0681003
-# target:
+# target: 
 #   Z: 22
 #   A: 50
 #   nuclide: Ti50
-# reaction:
+# reaction: 
 #   type: (p,n')
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 23
-#   A: 50
-#   nuclide: V50
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 35
+#   residual: 
+#     Z: 23
+#     A: 50
+#     nuclide: V50
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 35
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.330000E+00   0.000000E+00   5.250000E-01   2.450000E-01   1.000000E+00
@@ -68,17 +69,3 @@
 #   author: S.R.Kennett, M.R.Anderson, L.W.Mitchell,  Z.E.Switkowski, D.G.Sargood
 #   title: Cross-section measurements and thermonuclear reaction  rates for 50Ti(p,g)51V and 50Ti(p,n)50V
 #   journal: Jour: Nuclear Physics, Section A, Vol.346, p.523 (1980)
-# statistics:
-#   NEA score: R3
-#   IAEA score:  0
-#   E-min [MeV]:  3.330000E+00
-#   E-max [MeV]:  4.360000E+00
-#   F-value:  5.624500E+00
-#   A-value:  4.167042E+00
-#   chi-2:  6.290511E+03
-#   p-value:  1.932459E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    5.749253E+00   4.341710E+00   6.290511E+03
-# jendl5.0      2.264782E+00   2.219491E+00   0.000000E+00

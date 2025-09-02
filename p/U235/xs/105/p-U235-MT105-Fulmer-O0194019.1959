@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: U235(p,t)U233 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Fulmer
 #   year: 1959
 #   subentry: O0194019
 #   X4 reaction: 92-U-235(P,T)92-U-233,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/O0194019
-# target:
+# target: 
 #   Z: 92
 #   A: 235
 #   nuclide: U235
-# reaction:
+# reaction: 
 #   type: (p,t)
 #   ENDF_MF: 3
 #   ENDF_MT: 105
-# residual:
-#   Z: 92
-#   A: 233
-#   nuclide: U233
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 92
+#     A: 233
+#     nuclide: U233
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.280000E+01   0.000000E+00   1.100000E+01   4.000000E+00   1.000000E+00
@@ -34,16 +35,3 @@
 #   author: C.B.FULMER
 #   title: Total reaction and elastic scattering cross sections for 22.8-MeV protons on uranium isotopes
 #   journal: Jour: Physical Review, Vol.116, p.418 (1959)
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  2.280000E+01
-#   E-max [MeV]:  2.280000E+01
-#   F-value:  5.886154E+00
-#   A-value:  1.698902E-01
-#   chi-2:  5.424468E+00
-#   p-value:  1.192093E-07
-#   exp. data sets for p-value:      1
-#   libraries:      1
-##  Library          F              A            chi-2
-# tendl.2023    5.886154E+00   1.698902E-01   5.424468E+00

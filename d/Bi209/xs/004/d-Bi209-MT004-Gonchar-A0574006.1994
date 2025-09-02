@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Bi209(d,n')Po210 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Gonchar
 #   year: 1994
 #   subentry: A0574006
 #   X4 reaction: 83-BI-209(D,X)84-PO-210,CUM,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/A0574006
-# target:
+# target: 
 #   Z: 83
 #   A: 209
 #   nuclide: Bi209
-# reaction:
+# reaction: 
 #   type: (d,n')
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 84
-#   A: 210
-#   nuclide: Po210
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 12
+#   residual: 
+#     Z: 84
+#     A: 210
+#     nuclide: Po210
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 12
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.250000E+01   0.000000E+00   1.370000E+02   2.000000E+01   1.000000E+00
@@ -45,16 +46,3 @@
 #   author: A.V.Gonchar,S.N.Kondratyev,Yu.N.Lobach,S.V.Nevsky, V.D.Sklyarenko,V.V.Tokarevsky
 #   title: Integral cross sections for (d,xn) and (d,pxn) reactions on Bi-209 nuclei at deuteron energy range to 47 MeV.
 #   journal: Jour: Izv. Rossiiskoi Akademii Nauk, Ser.Fiz., Vol.58, Issue.5, p.81 (19
-# statistics:
-#   NEA score: R2
-#   IAEA score:  0
-#   E-min [MeV]:  1.250000E+01
-#   E-max [MeV]:  4.700000E+01
-#   F-value:  4.274867E+00
-#   A-value:  2.360837E-01
-#   chi-2:  2.200094E+01
-#   p-value:  1.573414E-01
-#   exp. data sets for p-value:      4
-#   libraries:      1
-##  Library          F              A            chi-2
-# tendl.2023    4.274867E+00   2.360837E-01   2.200094E+01

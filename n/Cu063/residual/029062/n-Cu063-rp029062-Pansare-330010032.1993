@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Cu63(n,x)Cu62 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Pansare
 #   year: 1993
 #   subentry: 330010032
 #   X4 reaction: 29-CU-63(N,2N)29-CU-62,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/330010032
-# target:
+# target: 
 #   Z: 29
 #   A: 63
 #   nuclide: Cu63
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 29
-#   A: 62
-#   nuclide: Cu62
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 29
+#     A: 62
+#     nuclide: Cu62
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.470000E+01   0.000000E+00   5.381785E+02   1.993253E+01   9.966268E-01
@@ -34,19 +35,3 @@
 #   author: G.R.Pansare, V.N.Bhoraskar
 #   title: Measurement of 79Br(n,2n)78Br, 63Cu(n,2n)62Cu, 58Ni(n,2n)57Ni, 54Fe(n,2n)53Fe, 50Cr(n,2n)49Cr, 46Ti(n,2n)45Ti reaction cross-sections at 14.7 MeV neutron energy
 #   journal: Jour: Int.Journal of Modern Physics, Part E, Vol.2, p.259 (1993)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  1.470000E+01
-#   E-max [MeV]:  1.470000E+01
-#   F-value:  1.034627E+00
-#   A-value:  9.873352E-01
-#   chi-2:  1.003103E+00
-#   p-value:  4.286976E-01
-#   exp. data sets for p-value:      8
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.000202E+00   9.997978E-01   6.849566E-03
-# endfb8.0      1.068538E+00   9.358579E-01   3.425016E+00
-# jeff3.3       1.000005E+00   1.000005E+00   1.686444E-04
-# jendl5.0      1.015627E+00   1.015627E+00   5.803789E-01

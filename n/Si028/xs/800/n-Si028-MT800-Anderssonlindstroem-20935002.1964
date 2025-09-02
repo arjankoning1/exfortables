@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Si28(n,p_00) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Anderssonlindstroem
 #   year: 1964
 #   subentry: 20935002
 #   X4 reaction: 14-SI-28(N,A)12-MG-25,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20935002
-#   level energy [MeV]  0.00000E+00
-# target:
+#   level energy [MeV]:  0.00000E+00
+# target: 
 #   Z: 14
 #   A: 28
 #   nuclide: Si28
-# reaction:
+# reaction: 
 #   type: (n,p_00)
 #   ENDF_MF: 3
 #   ENDF_MT: 800
@@ -25,10 +25,11 @@
 #     energy [MeV]:  0.000000E+00
 #     spin:  2.000000E+00
 #     parity: 1
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 164
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 164
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    5.864000E+00   5.000000E-02   1.200000E+01   2.505700E+00   1.000000E+00
@@ -199,19 +200,3 @@
 #   author: G.Andersson-Lindstroem,G.Betz,W.Mausberg,E.Roessle
 #   title: Measurements of Si(n,p)Al and Si(n,alpha)Mg reactions in the neutron energy range 5.2 to 9 MeV
 #   journal: Jour: Memoires de la Soc.Royale des Sci.de Liege, Vol.10, p.265 (1964)
-# statistics:
-#   NEA score: E1
-#   IAEA score: -1
-#   E-min [MeV]:  5.864000E+00
-#   E-max [MeV]:  9.122000E+00
-#   F-value:  1.360494E+00
-#   A-value:  8.776400E-01
-#   chi-2:  1.814498E+00
-#   p-value:  2.576596E-01
-#   exp. data sets for p-value:      3
-#   libraries:      4
-##  Library          F              A            chi-2
-# endfb8.0      1.199945E+00   9.729103E-01   1.104532E+00
-# jeff3.3       1.367604E+00   7.943661E-01   1.847758E+00
-# jendl5.0      1.589274E+00   7.890404E-01   3.201169E+00
-# cendl3.2      1.199945E+00   9.729103E-01   1.104532E+00

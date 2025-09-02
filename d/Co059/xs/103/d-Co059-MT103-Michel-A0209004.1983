@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Co59(d,p)Co60 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Michel
 #   year: 1983
 #   subentry: A0209004
 #   X4 reaction: 27-CO-59(D,P)27-CO-60,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/A0209004
-# target:
+# target: 
 #   Z: 27
 #   A: 59
 #   nuclide: Co59
-# reaction:
+# reaction: 
 #   type: (d,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 27
-#   A: 60
-#   nuclide: Co60
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 20
+#   residual: 
+#     Z: 27
+#     A: 60
+#     nuclide: Co60
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 20
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    9.300000E+00   1.400000E+00   2.560000E+02   1.500000E+01   1.000000E+00
@@ -53,16 +54,3 @@
 #   author: R.Michel, M.Galas
 #   title: Deuteron induced reactions on cobalt
 #   journal: Jour: Applied Radiation and Isotopes, Vol.34, p.1325 (1983)
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  9.300000E+00
-#   E-max [MeV]:  8.469000E+01
-#   F-value:  7.531033E+00
-#   A-value:  1.360791E-01
-#   chi-2:  1.432946E+02
-#   p-value:  2.530834E-02
-#   exp. data sets for p-value:      2
-#   libraries:      1
-##  Library          F              A            chi-2
-# tendl.2023    7.531033E+00   1.360791E-01   1.432946E+02

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Cs133(p,x)Cs132 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Gusakow
 #   year: 1961
 #   subentry: P0032004
 #   X4 reaction: 55-CS-133(P,N+P)55-CS-132,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/P0032004
-# target:
+# target: 
 #   Z: 55
 #   A: 133
 #   nuclide: Cs133
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 28
-# residual:
-#   Z: 55
-#   A: 132
-#   nuclide: Cs132
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 12
+#   residual: 
+#     Z: 55
+#     A: 132
+#     nuclide: Cs132
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 12
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.700000E+01   1.950000E+00   1.670000E+02   2.330000E+01   1.000000E+00
@@ -45,17 +46,3 @@
 #   author: M.GUSAKOW,G.ALBOUY,N.POFFE,C.RIEHL
 #   title: Reactions (p,pn) a moyenne energie
 #   journal: Jour: Journal de Physique, Vol.22, p.636 (1961)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  2.700000E+01
-#   E-max [MeV]:  1.530000E+02
-#   F-value:  1.644976E+00
-#   A-value:  6.334638E-01
-#   chi-2:  7.775918E+00
-#   p-value:  2.059285E-01
-#   exp. data sets for p-value:      2
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.507272E+00   6.873472E-01   5.865325E+00
-# jendl5.0      1.771699E+00   5.838044E-01   9.686513E+00

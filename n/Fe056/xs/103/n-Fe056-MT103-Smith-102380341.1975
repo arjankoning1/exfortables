@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Fe56(n,p)Mn56 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Smith
 #   year: 1975
 #   subentry: 102380341
 #   X4 reaction: 26-FE-56(N,P)25-MN-56,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/102380341
-# target:
+# target: 
 #   Z: 26
 #   A: 56
 #   nuclide: Fe56
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 25
-#   A: 56
-#   nuclide: Mn56
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 25
+#     A: 56
+#     nuclide: Mn56
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.979000E+00   1.240000E-01   5.286100E-03   3.380600E-03   9.873210E-01
@@ -34,21 +35,3 @@
 #   author: D.L.Smith,J.W.Meadows
 #   title: Cross-section measurement of (n,p) reactions for 27Al,  46,47,48Ti, 54,56Fe, 58Ni, 59Co, and 64Zn from near  threshold to 10 MeV
 #   journal: Jour: Nuclear Science and Engineering, Vol.58, p.314 (1975)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  3.979000E+00
-#   E-max [MeV]:  3.979000E+00
-#   F-value:  1.226402E+00
-#   A-value:  8.931311E-01
-#   chi-2:  2.060361E-01
-#   p-value:  3.404641E-01
-#   exp. data sets for p-value:      5
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.010097E+00   9.900042E-01   1.965355E-02
-# endfb8.0      1.034824E+00   9.663481E-01   6.668318E-02
-# jeff3.3       0.000000E+00   0.000000E+00   0.000000E+00
-# jendl5.0      1.572028E+00   6.361208E-01   8.104708E-01
-# cendl3.2      1.034826E+00   9.663464E-01   6.668652E-02
-# irdff2.0      1.034826E+00   9.663464E-01   6.668652E-02

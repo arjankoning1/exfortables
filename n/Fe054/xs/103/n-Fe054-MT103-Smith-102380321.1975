@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Fe54(n,p)Mn54 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Smith
 #   year: 1975
 #   subentry: 102380321
 #   X4 reaction: 26-FE-54(N,P)25-MN-54,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/102380321
-# target:
+# target: 
 #   Z: 26
 #   A: 54
 #   nuclide: Fe54
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 25
-#   A: 54
-#   nuclide: Mn54
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 16
+#   residual: 
+#     Z: 25
+#     A: 54
+#     nuclide: Mn54
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 16
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.183000E+00   1.640000E-01   3.281788E+02   1.905457E+01   1.000240E+00
@@ -49,21 +50,3 @@
 #   author: D.L.Smith,J.W.Meadows
 #   title: Cross-section measurement of (n,p) reactions for 27Al,  46,47,48Ti, 54,56Fe, 58Ni, 59Co, and 64Zn from near  threshold to 10 MeV
 #   journal: Jour: Nuclear Science and Engineering, Vol.58, p.314 (1975)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  4.183000E+00
-#   E-max [MeV]:  5.438000E+00
-#   F-value:  1.076402E+00
-#   A-value:  9.697298E-01
-#   chi-2:  1.677189E+00
-#   p-value:  2.901665E-01
-#   exp. data sets for p-value:      5
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.035765E+00   9.990028E-01   7.484784E-01
-# endfb8.0      1.035665E+00   9.993405E-01   7.482162E-01
-# jeff3.3       1.167966E+00   8.654680E-01   5.975711E+00
-# jendl5.0      1.048239E+00   9.865022E-01   9.097970E-01
-# cendl3.2      1.051266E+00   9.764376E-01   9.313514E-01
-# irdff2.0      1.035761E+00   9.991501E-01   7.495781E-01

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: B10(p,x)C10 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Segel
 #   year: 1966
 #   subentry: F0307005
 #   X4 reaction: 5-B-10(P,X)6-C-10,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/F0307005
-# target:
+# target: 
 #   Z: 5
 #   A: 10
 #   nuclide: B10
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 6
-#   A: 10
-#   nuclide: C10
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 42
+#   residual: 
+#     Z: 6
+#     A: 10
+#     nuclide: C10
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 42
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.090000E+00   0.000000E+00   2.000000E-02   2.039600E-03   1.000000E+00
@@ -75,16 +76,3 @@
 #   author: R.E.Segel,P.P.Singh,S.S.Hanna,M.A.Grace
 #   title: Gamma rays from 10B + p; decay schemes and excitation functions
 #   journal: Jour: Physical Review, Vol.145, p.736 (1966)
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  4.090000E+00
-#   E-max [MeV]:  1.193000E+01
-#   F-value:  3.034115E+00
-#   A-value:  2.238576E+00
-#   chi-2:  9.926597E+03
-#   p-value:  2.661442E-01
-#   exp. data sets for p-value:      1
-#   libraries:      1
-##  Library          F              A            chi-2
-# tendl.2023    3.034115E+00   2.238576E+00   9.926597E+03

@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Si28(n,p_00) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Colli
 #   year: 1963
 #   subentry: 20929002
 #   X4 reaction: 14-SI-28(N,A)12-MG-25,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20929002
-#   level energy [MeV]  0.00000E+00
-# target:
+#   level energy [MeV]:  0.00000E+00
+# target: 
 #   Z: 14
 #   A: 28
 #   nuclide: Si28
-# reaction:
+# reaction: 
 #   type: (n,p_00)
 #   ENDF_MF: 3
 #   ENDF_MT: 800
@@ -25,10 +25,11 @@
 #     energy [MeV]:  0.000000E+00
 #     spin:  2.000000E+00
 #     parity: 1
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 84
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 84
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.215000E+01   5.000000E-02   1.460165E+01   7.400000E-01   9.912868E-01
@@ -119,19 +120,3 @@
 #   author: L.Colli,I.Iori,M.G.Marcazzan,M.Milazzo
 #   title: Properties of compound nucleus from experimental  measurement of the Si-28(n,alpha)Mg-25 reaction
 #   journal: Jour: Nuclear Physics, Vol.43, p.529 (1963)
-# statistics:
-#   NEA score: E1
-#   IAEA score: -1
-#   E-min [MeV]:  1.215000E+01
-#   E-max [MeV]:  1.840000E+01
-#   F-value:  1.616262E+00
-#   A-value:  8.508686E-01
-#   chi-2:  6.203259E+01
-#   p-value:  2.455915E-01
-#   exp. data sets for p-value:      4
-#   libraries:      4
-##  Library          F              A            chi-2
-# endfb8.0      1.546673E+00   8.854444E-01   5.232835E+01
-# jeff3.3       1.538853E+00   9.988772E-01   7.925690E+01
-# jendl5.0      1.815850E+00   6.692913E-01   6.421680E+01
-# cendl3.2      1.546673E+00   8.854444E-01   5.232835E+01

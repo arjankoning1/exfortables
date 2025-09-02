@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: N14(n,t)C12 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Ivanova
 #   year: 2012
 #   subentry: 41588002
 #   X4 reaction: 7-N-14(N,T)6-C-12,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/41588002
-# target:
+# target: 
 #   Z: 7
 #   A: 14
 #   nuclide: N14
-# reaction:
+# reaction: 
 #   type: (n,t)
 #   ENDF_MF: 3
 #   ENDF_MT: 105
-# residual:
-#   Z: 6
-#   A: 12
-#   nuclide: C12
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 37
+#   residual: 
+#     Z: 6
+#     A: 12
+#     nuclide: C12
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 37
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    5.137000E+00   0.000000E+00   6.980000E-01   6.500000E-01   1.000000E+00
@@ -70,20 +71,3 @@
 #   author: T.A.Ivanova,V.Ya.Khryachkov,I.P.Bondarenko, B.D.Kuzminov, N.N.Semenova, A.I.Sergachev
 #   title: Excitation function 14N(n,t)12C in fast neutrons energy region
 #   journal: Conf: Int.Sem.on Interactions of Neutrons with Nuclei, No.19, p.158 (201
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  5.137000E+00
-#   E-max [MeV]:  6.953000E+00
-#   F-value:  4.077433E+00
-#   A-value:  2.822887E+00
-#   chi-2:  1.666857E+02
-#   p-value:  9.598784E-02
-#   exp. data sets for p-value:      1
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    4.252386E+00   2.989191E+00   1.759449E+02
-# endfb8.0      4.252386E+00   2.989191E+00   1.759449E+02
-# jeff3.3       4.252386E+00   2.989191E+00   1.759449E+02
-# jendl5.0      3.397600E+00   2.245189E+00   1.296488E+02
-# cendl3.2      4.252388E+00   2.989194E+00   1.759452E+02

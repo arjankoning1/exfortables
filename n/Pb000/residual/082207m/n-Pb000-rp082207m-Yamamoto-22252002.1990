@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: Pb0(n,x)Pb207m cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Yamamoto
 #   year: 1990
 #   subentry: 22252002
 #   X4 reaction: 82-PB-0(N,X)82-PB-207-M,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22252002
-# target:
+# target: 
 #   Z: 82
 #   A: 0
 #   nuclide: Pb0
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 82
-#   A: 207
-#   nuclide: Pb207m
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 82
+#     A: 207
+#     nuclide: Pb207m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.400000E+01   0.000000E+00   1.010000E+03   5.200000E+02   1.000000E+00
@@ -39,17 +40,3 @@
 #   author: J.Yamamoto,J.Datemichi,T.Kanaoka,T.Takayama,  A.Takahashi,K.Sumita
 #   title: Measurement of production cross sections of short  lived nuclei by cyclic activation using a pulsed  neutron source
 #   journal: Conf: JAERI-M Reports, No.90-025, p.259 (1990)
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  1.400000E+01
-#   E-max [MeV]:  1.400000E+01
-#   F-value:  1.528084E+01
-#   A-value:  6.611217E-02
-#   chi-2:  3.673222E+00
-#   p-value:  2.384186E-07
-#   exp. data sets for p-value:      4
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.195085E+01   8.367606E-02   3.574746E+00
-# jendl5.0      1.914425E+01   5.223501E-02   3.771697E+00

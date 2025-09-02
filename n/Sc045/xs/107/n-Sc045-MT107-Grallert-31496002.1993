@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Sc45(n,a)K42 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Grallert
 #   year: 1993
 #   subentry: 31496002
 #   X4 reaction: 21-SC-45(N,A)19-K-42,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/31496002
-# target:
+# target: 
 #   Z: 21
 #   A: 45
 #   nuclide: Sc45
-# reaction:
+# reaction: 
 #   type: (n,a)
 #   ENDF_MF: 3
 #   ENDF_MT: 107
-# residual:
-#   Z: 19
-#   A: 42
-#   nuclide: K42
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 19
+#     A: 42
+#     nuclide: K42
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.460000E+01   1.200000E-01   5.435342E+01   2.631600E+00   1.012168E+00
@@ -34,19 +35,3 @@
 #   author: A.Grallert, J.Csikai, Cs.M.Buczko, I.Shaddad
 #   title: Investigations on the systematics in (n,a) cross  sections at 14.6 MeV
 #   journal: Rept: IAEA Nucl.Data Section report to the I.N.D.C., No.286, p.131 (1993
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.460000E+01
-#   E-max [MeV]:  1.460000E+01
-#   F-value:  1.121749E+00
-#   A-value:  9.404447E-01
-#   chi-2:  4.611024E+00
-#   p-value:  4.035532E-01
-#   exp. data sets for p-value:      8
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.001787E+00   1.001787E+00   4.662447E-02
-# endfb8.0      1.257591E+00   7.951710E-01   1.789853E+01
-# jeff3.3       1.002109E+00   9.978951E-01   5.498840E-02
-# jendl5.0      1.016220E+00   9.840387E-01   4.439490E-01

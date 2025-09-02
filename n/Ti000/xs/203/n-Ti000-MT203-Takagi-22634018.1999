@@ -1,28 +1,29 @@
-# header:
+# header: 
 #   title: Ti0(n,xp) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Takagi
 #   year: 1999
 #   subentry: 22634018
 #   X4 reaction: 22-TI-0(N,X)1-H-1,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22634018
-# target:
+# target: 
 #   Z: 22
 #   A: 0
 #   nuclide: Ti0
-# reaction:
+# reaction: 
 #   type: (n,xp)
 #   ENDF_MF: 3
 #   ENDF_MT: 203
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.410000E+01   0.000000E+00   1.531000E+02   6.400000E+00   1.000000E+00
@@ -30,21 +31,3 @@
 #   author: H.Takagi,Kokooo,I.Murata,A.Takahashi
 #   title: Measurement of double-differential cross sections of  charged particle emission reactions for nat-Zr, 27Al,  and nat-Ti by incident dt neutrons
 #   journal: Conf: JAERI Conference proceedings, No.99-002, p.204 (1999)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  1.410000E+01
-#   E-max [MeV]:  1.410000E+01
-#   F-value:  1.499797E+00
-#   A-value:  6.687520E-01
-#   chi-2:  6.310481E+01
-#   p-value:  8.617944E-02
-#   exp. data sets for p-value:      1
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.527933E+00   6.544791E-01   6.831863E+01
-# endfb8.0      1.433796E+00   6.974491E-01   5.238263E+01
-# jeff3.3       1.521979E+00   6.570394E-01   6.730990E+01
-# jendl5.0      1.397580E+00   7.155226E-01   4.631121E+01
-# cendl3.2      1.604345E+00   6.233072E-01   8.120168E+01
-# irdff2.0      0.000000E+00   0.000000E+00   0.000000E+00

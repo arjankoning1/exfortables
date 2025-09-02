@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Co59(n,a)Mn56 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: LiTingyann
 #   year: 1990
 #   subentry: 32591003
 #   X4 reaction: 27-CO-59(N,A)25-MN-56,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/32591003
-# target:
+# target: 
 #   Z: 27
 #   A: 59
 #   nuclide: Co59
-# reaction:
+# reaction: 
 #   type: (n,a)
 #   ENDF_MF: 3
 #   ENDF_MT: 107
-# residual:
-#   Z: 25
-#   A: 56
-#   nuclide: Mn56
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 6
+#   residual: 
+#     Z: 25
+#     A: 56
+#     nuclide: Mn56
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.374000E+01   1.100000E-01   3.201606E+01   1.600800E+00   1.000502E+00
@@ -39,21 +40,3 @@
 #   author: Li Tingyan,Shi Zhaomin,Lu Hanlin,Zhao Wenrong, Yu Weixiang,Yuan Xialin
 #   title: The cross section measurements for Co-59(n,p)Fe-59, Co-59(n,alpha)Mn-56 and Co-59(n,2n)Co-58 reaction
 #   journal: Jour: High Energy Physics and Nucl.Physics,Chinese ed., Vol.14, Issue.6,
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.374000E+01
-#   E-max [MeV]:  1.777000E+01
-#   F-value:  1.036602E+00
-#   A-value:  9.805923E-01
-#   chi-2:  5.681216E-01
-#   p-value:  2.574137E-01
-#   exp. data sets for p-value:      8
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.012986E+00   9.952658E-01   2.431870E-01
-# endfb8.0      1.019722E+00   9.915907E-01   2.722061E-01
-# jeff3.3       1.076325E+00   9.394420E-01   1.674619E+00
-# jendl5.0      1.030982E+00   9.774790E-01   5.369557E-01
-# cendl3.2      1.027169E+00   9.840800E-01   4.575602E-01
-# irdff2.0      1.012163E+00   9.968993E-01   2.242018E-01

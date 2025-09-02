@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Y89(n,x)Y88 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Molla
 #   year: 1998
 #   subentry: 31494004
 #   X4 reaction: 39-Y-89(N,2N)39-Y-88,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/31494004
-# target:
+# target: 
 #   Z: 39
 #   A: 89
 #   nuclide: Y89
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 39
-#   A: 88
-#   nuclide: Y88
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 4
+#   residual: 
+#     Z: 39
+#     A: 88
+#     nuclide: Y88
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.400000E+01   1.200000E-01   7.933900E+02   7.914114E+01   9.892643E-01
@@ -37,17 +38,3 @@
 #   author: N.I.MOLLA,S.BASUNIA,R.U.MIAH,S.M.HOSSAIN,M.RAHMAN, S.SPELLERBERG,S.M.QAIM
 #   title: Radiochemical study of the Sc-45(n,p)Ac-45 and Y-89(n,p)Sr-89 reactions in the neutron energy range of 13.9 to 14.7 MeV.
 #   journal: Jour: Radiochimica Acta, Vol.80, p.189 (1998)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.400000E+01
-#   E-max [MeV]:  1.471000E+01
-#   F-value:  1.065282E+00
-#   A-value:  1.050098E+00
-#   chi-2:  7.621118E-01
-#   p-value:  2.808170E-01
-#   exp. data sets for p-value:      8
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.061383E+00   1.045063E+00   6.840290E-01
-# jendl5.0      1.068981E+00   1.055157E+00   8.401946E-01

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Te126(n,x)Te127 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Wisshak
 #   year: 1991
 #   subentry: 22285011
 #   X4 reaction: 52-TE-126(N,G)52-TE-127,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22285011
-# target:
+# target: 
 #   Z: 52
 #   A: 126
 #   nuclide: Te126
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 52
-#   A: 127
-#   nuclide: Te127
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 21
+#   residual: 
+#     Z: 52
+#     A: 127
+#     nuclide: Te127
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 21
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    6.250000E-03   1.250000E-03   2.156814E+02   3.715838E+01   1.031968E+00
@@ -54,18 +55,3 @@
 #   author: K.WISSHAK,F.VOSS,F.KAEPPELER,G.REFFO
 #   title: -NEUTRON CAPTURE IN TE-122, TE-123, AND TE-124 -  A CRITICAL TEST FOR C-PROCESS STUDIES.
 #   journal: Rept: Kernforschungszentrum Karlsruhe Reports, No.4899 (1991)
-# statistics:
-#   NEA score: T3
-#   IAEA score:  1
-#   E-min [MeV]:  6.250000E-03
-#   E-max [MeV]:  1.875000E-01
-#   F-value:  2.143894E+01
-#   A-value:  1.805969E-01
-#   chi-2:  1.188924E+03
-#   p-value:  3.433049E-01
-#   exp. data sets for p-value:      2
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.195160E+01   3.929560E-01   6.075818E+01
-# jeff3.3       3.213269E+01   9.549601E-02   2.396635E+03
-# jendl5.0      2.359371E+01   1.569646E-01   1.109379E+03

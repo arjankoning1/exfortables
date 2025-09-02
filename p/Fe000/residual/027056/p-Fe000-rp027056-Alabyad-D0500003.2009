@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Fe0(p,x)Co56 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Alabyad
 #   year: 2009
 #   subentry: D0500003
 #   X4 reaction: 26-FE-0(P,X)27-CO-56,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/D0500003
-# target:
+# target: 
 #   Z: 26
 #   A: 0
 #   nuclide: Fe0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 27
-#   A: 56
-#   nuclide: Co56
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 18
+#   residual: 
+#     Z: 27
+#     A: 56
+#     nuclide: Co56
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 18
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    5.300000E+00   8.000000E-01   3.400000E+01   6.000000E+00   1.000000E+00
@@ -51,18 +52,3 @@
 #   author: M.Al-Abyad, M.N.H.Comsan, S.M.Qaim
 #   title: Excitation functions of proton-induced reactions on natural Fe and enriched 57-Fe with particular reference to the production of 57-Co
 #   journal: Jour: Applied Radiation and Isotopes, Vol.67, Issue.1, p.122 (2009)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  5.300000E+00
-#   E-max [MeV]:  1.850000E+01
-#   F-value:  1.332080E+00
-#   A-value:  8.248634E-01
-#   chi-2:  2.231911E+00
-#   p-value:  2.903272E-01
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.312099E+00   8.158670E-01   1.938573E+00
-# endfb8.0      1.354503E+00   7.763612E-01   2.333805E+00
-# jendl5.0      1.328789E+00   8.860597E-01   2.423354E+00

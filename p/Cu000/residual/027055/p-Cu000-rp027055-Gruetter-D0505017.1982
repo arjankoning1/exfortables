@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Cu0(p,x)Co55 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Gruetter
 #   year: 1982
 #   subentry: D0505017
 #   X4 reaction: 29-CU-0(P,X)27-CO-55,CUM,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/D0505017
-# target:
+# target: 
 #   Z: 29
 #   A: 0
 #   nuclide: Cu0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 27
-#   A: 55
-#   nuclide: Co55
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 6
+#   residual: 
+#     Z: 27
+#     A: 55
+#     nuclide: Co55
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    6.510000E+01   3.400000E-01   7.306300E-02   2.191900E-03   9.860099E-01
@@ -39,18 +40,3 @@
 #   author: A.Gruetter
 #   title: Excitation functions for radioactive isotopes produced by proton bombardment of Cu and Al in the energy range of 16 to 70 MeV
 #   journal: Jour: Nuclear Physics, Section A, Vol.383, p.98 (1982)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  6.510000E+01
-#   E-max [MeV]:  6.980000E+01
-#   F-value:  1.423556E+00
-#   A-value:  1.265196E+00
-#   chi-2:  2.661730E+02
-#   p-value:  3.742727E-01
-#   exp. data sets for p-value:      2
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.749033E+00   1.642437E+00   7.059914E+02
-# endfb8.0      1.277423E+00   1.241605E+00   9.041457E+01
-# jendl5.0      1.041597E+00   9.931186E-01   2.113030E+00

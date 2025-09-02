@@ -1,28 +1,29 @@
-# header:
+# header: 
 #   title: U235(n,tot) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Cabe
 #   year: 1973
 #   subentry: 20480017
 #   X4 reaction: 92-U-235(N,TOT),,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20480017
-# target:
+# target: 
 #   Z: 92
 #   A: 235
 #   nuclide: U235
-# reaction:
+# reaction: 
 #   type: (n,tot)
 #   ENDF_MF: 3
 #   ENDF_MT: 1
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 20
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 20
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.070000E-01   4.300000E-02   1.191000E+04   3.573000E+02   1.000000E+00
@@ -49,15 +50,3 @@
 #   author: J.Cabe, M.Cance,G.Bardolle,M.Laurat,M.Longueve
 #   title: Measurements of the neutron total cross-sections of  Be,B-11,C,Al,Si,S,Ti,V,Ni,U-235,U-238,Pu-239 between  100 keV and 6 MeV
 #   journal: Rept: Centre d'Etudes Nucleaires, Saclay Reports, No.4524 (1973)
-# statistics:
-#   NEA score:   
-#   IAEA score: -1
-#   E-min [MeV]:  1.070000E-01
-#   E-max [MeV]:  1.071000E+00
-#   F-value:  0.000000E+00
-#   A-value:  0.000000E+00
-#   chi-2:  0.000000E+00
-#   p-value:  0.000000E+00
-#   exp. data sets for p-value:      6
-#   libraries:      0
-##  Library          F              A            chi-2

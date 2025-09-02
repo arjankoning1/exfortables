@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ca48(p,n')Sc48 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Kennett
 #   year: 1979
 #   subentry: O1125003
 #   X4 reaction: 20-CA-48(P,N)21-SC-48,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/O1125003
-# target:
+# target: 
 #   Z: 20
 #   A: 48
 #   nuclide: Ca48
-# reaction:
+# reaction: 
 #   type: (p,n')
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 21
-#   A: 48
-#   nuclide: Sc48
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 40
+#   residual: 
+#     Z: 21
+#     A: 48
+#     nuclide: Sc48
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 40
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.113000E+00   0.000000E+00   1.800000E-02   2.700000E-03   1.000000E+00
@@ -73,17 +74,3 @@
 #   author: S.R.Kennett, Z.E.Switkowski, B.M.Paine, D.G.Sargood
 #   title: Yield measurements in the reactions Ca-48(p,gamma)Sc-46 and Ca-48(p,n)Sc-48
 #   journal: Jour: Jour. of Physics, Part G (Nucl.and Part.Phys.), Vol.5, p.399 (1979
-# statistics:
-#   NEA score: R3
-#   IAEA score:  0
-#   E-min [MeV]:  1.113000E+00
-#   E-max [MeV]:  2.295000E+00
-#   F-value:  4.472060E+00
-#   A-value:  2.374910E+00
-#   chi-2:  1.471295E+04
-#   p-value:  2.074255E-01
-#   exp. data sets for p-value:      2
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    6.680818E+00   3.767044E+00   2.904509E+04
-# jendl5.0      2.555066E+00   1.497248E+00   3.807991E+02

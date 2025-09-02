@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: K39(n,x)K38g cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Filatenkov
 #   year: 2016
 #   subentry: 41614009
 #   X4 reaction: 19-K-39(N,2N)19-K-38-G,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/41614009
-# target:
+# target: 
 #   Z: 19
 #   A: 39
 #   nuclide: K39
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 19
-#   A: 38
-#   nuclide: K38g
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 8
+#   residual: 
+#     Z: 19
+#     A: 38
+#     nuclide: K38g
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.348000E+01   0.000000E+00   3.400300E-02   1.499600E-02   1.000100E+00
@@ -46,18 +47,3 @@
 #   author: A.A.Filatenkov
 #   title: Neutron activation cross sections measured at KRI in neutron energy region 13.4 - 14.9 MeV
 #   journal: Rept: USSR report to the I.N.D.C., No.0460 (2016)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  1.348000E+01
-#   E-max [MeV]:  1.485000E+01
-#   F-value:  1.599303E+00
-#   A-value:  1.353459E+00
-#   chi-2:  3.189873E+01
-#   p-value:  2.636779E-01
-#   exp. data sets for p-value:      3
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.362204E+00   1.243526E+00   2.331709E+01
-# jeff3.3       1.363719E+00   1.253699E+00   2.295692E+01
-# jendl5.0      1.984463E+00   1.590329E+00   4.942216E+01

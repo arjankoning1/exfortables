@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Zr0(n,n'_01)Zr1 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Takahashi
 #   year: 1992
 #   subentry: 22753008
 #   X4 reaction: 40-ZR-0(N,INL)40-ZR-0,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22753008
-#   level energy [MeV]  2.30000E+00
-# target:
+#   level energy [MeV]:  2.30000E+00
+# target: 
 #   Z: 40
 #   A: 0
 #   nuclide: Zr0
-# reaction:
+# reaction: 
 #   type: (n,n'_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 51
@@ -25,14 +25,15 @@
 #     energy [MeV]:  2.319000E+00
 #     spin:  5.000000E+00
 #     parity: -1
-# residual:
-#   Z: 40
-#   A: 1
-#   nuclide: Zr1
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 40
+#     A: 1
+#     nuclide: Zr1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.410000E+01   4.000000E-01   9.120000E+01   6.300000E+00   1.000000E+00
@@ -40,20 +41,3 @@
 #   author: A.Takahashi, Y.Sasaki, H.Sugimoto
 #   title: .Measurements of double-differential and energy diffe-  rential neutron emission cross sections at 14.1 MeV  for natural Zirconium
 #   journal: Rept: Osaka Univ., OKTAVIAN Reports, No.92-01 (1992)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  1.410000E+01
-#   E-max [MeV]:  1.410000E+01
-#   F-value:  4.787995E+00
-#   A-value:  2.152612E-01
-#   chi-2:  1.266870E+02
-#   p-value:  1.225752E-01
-#   exp. data sets for p-value:      3
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    3.985214E+00   2.509276E-01   1.175861E+02
-# endfb8.0      6.911115E+00   1.446945E-01   1.533032E+02
-# jeff3.3       3.907627E+00   2.559098E-01   1.160272E+02
-# jendl5.0      6.406860E+00   1.560827E-01   1.492479E+02
-# cendl3.2      3.137711E+00   3.187037E-01   9.727036E+01

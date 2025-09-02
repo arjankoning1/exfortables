@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: Nb93(n,2n)Nb92m cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Vallis
 #   year: 1966
 #   subentry: 20347005
 #   X4 reaction: 41-NB-93(N,2N)41-NB-92-M,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20347005
-# target:
+# target: 
 #   Z: 41
 #   A: 93
 #   nuclide: Nb93
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 41
-#   A: 92
-#   nuclide: Nb92m
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 41
+#     A: 92
+#     nuclide: Nb92m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.470000E+01   1.500000E-01   4.705785E+02   2.500000E+01   9.374074E-01
@@ -39,19 +40,3 @@
 #   author: D.G.VALLIS
 #   title: -CROSS SECTIONS FOR (N,2N) REACTION AT 14.7 MEV OF SOME  ODD-PROTON NUCLEI.-
 #   journal: Rept: A.W.R.E. Aldermaston Reports, No.76/66 (1966)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.470000E+01
-#   E-max [MeV]:  1.470000E+01
-#   F-value:  1.011814E+00
-#   A-value:  9.897049E-01
-#   chi-2:  2.560570E-01
-#   p-value:  4.522128E-01
-#   exp. data sets for p-value:      8
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.007154E+00   9.928965E-01   1.724094E-01
-# jeff3.3       1.007154E+00   9.928966E-01   1.724074E-01
-# jendl5.0      1.020171E+00   9.802282E-01   5.060728E-01
-# irdff2.0      1.007192E+00   9.928593E-01   1.733382E-01

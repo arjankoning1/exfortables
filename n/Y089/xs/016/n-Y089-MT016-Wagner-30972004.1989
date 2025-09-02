@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Y89(n,2n)Y88 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Wagner
 #   year: 1989
 #   subentry: 30972004
 #   X4 reaction: 39-Y-89(N,2N)39-Y-88,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30972004
-# target:
+# target: 
 #   Z: 39
 #   A: 89
 #   nuclide: Y89
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 39
-#   A: 88
-#   nuclide: Y88
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 4
+#   residual: 
+#     Z: 39
+#     A: 88
+#     nuclide: Y88
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.358600E+01   1.000000E-02   6.864001E+02   1.510000E+01   1.000000E+00
@@ -37,21 +38,3 @@
 #   author: M.Wagner,G.Winkler,H.Vonach,Cs.M.Buczko,J.Csikai
 #   title: Measurement of the cross sections for the reactions Cr-52(n,2n)Cr-51, Zn-66(n,2n)Zn-65, Y-89(n,2n)Y-88 and Zr-96(n,2n)Zr-95 from 13.5 to 14.8 MeV.
 #   journal: Jour: Annals of Nuclear Energy, Vol.16, Issue.12, p.623 (1989)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.358600E+01
-#   E-max [MeV]:  1.478900E+01
-#   F-value:  1.021103E+00
-#   A-value:  1.014325E+00
-#   chi-2:  1.227236E+00
-#   p-value:  3.568312E-01
-#   exp. data sets for p-value:      8
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.013953E+00   1.009163E+00   7.870615E-01
-# endfb8.0      1.015969E+00   1.010989E+00   8.231323E-01
-# jeff3.3       1.015969E+00   1.010989E+00   8.231323E-01
-# jendl5.0      1.017192E+00   1.011681E+00   9.009280E-01
-# cendl3.2      1.037855E+00   1.031135E+00   3.096519E+00
-# irdff2.0      1.015989E+00   1.012161E+00   9.326444E-01

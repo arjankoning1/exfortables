@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ne21(n,x)Ne22 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Almeida
 #   year: 1983
 #   subentry: 21808009
 #   X4 reaction: 10-NE-21(N,G)10-NE-22,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/21808009
-# target:
+# target: 
 #   Z: 10
 #   A: 21
 #   nuclide: Ne21
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 10
-#   A: 22
-#   nuclide: Ne22
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 210
+#   residual: 
+#     Z: 10
+#     A: 22
+#     nuclide: Ne22
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 210
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.100000E-03   0.000000E+00   1.650000E+01   3.592923E+01   1.000000E+00
@@ -243,19 +244,3 @@
 #   author: J.Almeida, F.Kaeppeler
 #   title: Isotopic neon cross sections for a study of neutron  balance and temperature during s-process  nucleosynthesis
 #   journal: Jour: Astrophysical Journal, Vol.265, p.417 (1983)
-# statistics:
-#   NEA score: T2
-#   IAEA score:  1
-#   E-min [MeV]:  4.100000E-03
-#   E-max [MeV]:  2.153000E-01
-#   F-value:  3.511819E+00
-#   A-value:  4.332581E-01
-#   chi-2:  3.693053E+00
-#   p-value:  1.588493E-02
-#   exp. data sets for p-value:      1
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    3.590402E+00   4.241205E-01   1.138642E+00
-# endfb8.0      3.711692E+00   4.259387E-01   6.360271E+00
-# jeff3.3       3.711692E+00   4.259387E-01   6.360271E+00
-# jendl5.0      3.041779E+00   4.579348E-01   9.130303E-01

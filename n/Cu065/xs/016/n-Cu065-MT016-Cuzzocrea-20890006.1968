@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Cu65(n,2n)Cu64 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Cuzzocrea
 #   year: 1968
 #   subentry: 20890006
 #   X4 reaction: 29-CU-65(N,2N)29-CU-64,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20890006
-# target:
+# target: 
 #   Z: 29
 #   A: 65
 #   nuclide: Cu65
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 29
-#   A: 64
-#   nuclide: Cu64
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 27
+#   residual: 
+#     Z: 29
+#     A: 64
+#     nuclide: Cu64
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 27
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.370000E+01   4.000000E-02   8.154286E+02   4.779830E+01   9.695941E-01
@@ -60,21 +61,3 @@
 #   author: P.CUZZOCREA,E.PERILLO,S.NOTARRIGO
 #   title: -SOME EXCITATION FUNCTIONS OF NEUTRON INDUCED  REACTIONS AROUND 14 MEV-
 #   journal: Jour: Nuovo Cimento B, Vol.54, p.53 (1968)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.370000E+01
-#   E-max [MeV]:  1.467000E+01
-#   F-value:  1.026968E+00
-#   A-value:  9.943475E-01
-#   chi-2:  4.039377E-01
-#   p-value:  3.826030E-01
-#   exp. data sets for p-value:      8
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.021529E+00   1.000134E+00   3.118169E-01
-# endfb8.0      1.043529E+00   9.709170E-01   8.162259E-01
-# jeff3.3       1.021693E+00   9.999822E-01   3.145551E-01
-# jendl5.0      1.023677E+00   1.000358E+00   3.506579E-01
-# cendl3.2      1.022809E+00   9.939705E-01   3.105031E-01
-# irdff2.0      1.021750E+00   1.001079E+00   3.198670E-01

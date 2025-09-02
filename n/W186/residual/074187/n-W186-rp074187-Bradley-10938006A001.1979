@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: W186(n,x)W187 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Bradley
 #   year: 1979
 #   subentry: 10938006
 #   X4 reaction: 74-W-186(N,G)74-W-187,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/10938006
-# target:
+# target: 
 #   Z: 74
 #   A: 186
 #   nuclide: W186
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 74
-#   A: 187
-#   nuclide: W187
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 74
+#     A: 187
+#     nuclide: W187
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.430000E-02   0.000000E+00   2.524928E+02   1.301162E+01   1.022238E+00
@@ -34,17 +35,3 @@
 #   author: T.Bradley,Z.Parsa,M.L.Stelts,R.E.Chrien
 #   title: Stellar nucleosynthesis and the 24-keV neutron capture  cross sections of some heavy nuclei
 #   journal: Conf: Conf.on Nucl.Cross Sections F.Techn.,Knoxville 1979, p.344 (1979)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  2.430000E-02
-#   E-max [MeV]:  2.430000E-02
-#   F-value:  1.301869E+00
-#   A-value:  7.683548E-01
-#   chi-2:  2.023079E+01
-#   p-value:  3.597682E-01
-#   exp. data sets for p-value:      6
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.285289E+00   7.780352E-01   1.855316E+01
-# jendl5.0      1.317879E+00   7.587948E-01   2.190842E+01

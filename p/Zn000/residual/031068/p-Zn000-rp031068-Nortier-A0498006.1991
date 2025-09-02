@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Zn0(p,x)Ga68 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Nortier
 #   year: 1991
 #   subentry: A0498006
 #   X4 reaction: 30-ZN-0(P,X)31-GA-68,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/A0498006
-# target:
+# target: 
 #   Z: 30
 #   A: 0
 #   nuclide: Zn0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 31
-#   A: 68
-#   nuclide: Ga68
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 20
+#   residual: 
+#     Z: 31
+#     A: 68
+#     nuclide: Ga68
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 20
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    8.400000E+00   1.000000E+00   1.040000E+02   1.210000E+01   1.000000E+00
@@ -53,17 +54,3 @@
 #   author: F.M.Nortier,S.J.Mills,G.F.Steyn
 #   title: Excitation functions and yields of relevance to the production of Ga-67 by proton bombardment of Zn-nat and Ge-nat up to 100 MeV
 #   journal: Jour: Applied Radiation and Isotopes, Vol.42, p.353 (1991)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  8.400000E+00
-#   E-max [MeV]:  4.510000E+01
-#   F-value:  1.298275E+00
-#   A-value:  8.699837E-01
-#   chi-2:  1.680533E+00
-#   p-value:  2.774481E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.217197E+00   9.531788E-01   1.277111E+00
-# jendl5.0      1.366819E+00   7.940500E-01   2.083956E+00

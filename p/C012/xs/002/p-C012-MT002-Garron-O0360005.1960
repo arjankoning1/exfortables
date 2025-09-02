@@ -1,28 +1,29 @@
-# header:
+# header: 
 #   title: C12(p,el) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Garron
 #   year: 1960
 #   subentry: O0360005
 #   X4 reaction: 6-C-12(P,EL)6-C-12,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/O0360005
-# target:
+# target: 
 #   Z: 6
 #   A: 12
 #   nuclide: C12
-# reaction:
+# reaction: 
 #   type: (p,el)
 #   ENDF_MF: 3
 #   ENDF_MT: 2
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.550000E+02   0.000000E+00   7.500000E+01   7.000000E+00   1.000000E+00
@@ -30,18 +31,3 @@
 #   author: J.-P.Garron,J.-C.Jacmart,L.Massonnet,M.Riou,Ch.Ruhla
 #   title: Elastic and Inelastic Scattering of 155 MeV Protons on Carbon
 #   journal: Jour: Journal de Physique, Vol.21, p.317 (1960)
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  1.550000E+02
-#   E-max [MeV]:  1.550000E+02
-#   F-value:  5.131184E+00
-#   A-value:  1.948868E-01
-#   chi-2:  7.441155E+01
-#   p-value:  2.419968E-01
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    0.000000E+00   0.000000E+00   0.000000E+00
-# endfb8.0      0.000000E+00   0.000000E+00   0.000000E+00
-# jendl5.0      5.131184E+00   1.948868E-01   7.441155E+01

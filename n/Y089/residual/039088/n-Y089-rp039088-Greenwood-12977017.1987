@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Y89(n,x)Y88 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Greenwood
 #   year: 1987
 #   subentry: 12977017
 #   X4 reaction: 39-Y-89(N,2N)39-Y-88,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/12977017
-# target:
+# target: 
 #   Z: 39
 #   A: 89
 #   nuclide: Y89
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 39
-#   A: 88
-#   nuclide: Y88
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 2
+#   residual: 
+#     Z: 39
+#     A: 88
+#     nuclide: Y88
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.450000E+01   4.000000E-01   9.232414E+02   5.140900E+00   9.938012E-01
@@ -35,17 +36,3 @@
 #   author: L.R.Greenwood
 #   title: Recent research in neutron dosimetry and damage  analysis for materials irradiations.
 #   journal: Conf: American Soc. of Testing and Materials Reports, No.956, p.743 (198
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.450000E+01
-#   E-max [MeV]:  1.490000E+01
-#   F-value:  1.046189E+00
-#   A-value:  1.043617E+00
-#   chi-2:  6.938411E+01
-#   p-value:  3.184347E-01
-#   exp. data sets for p-value:      8
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.034968E+00   1.034647E+00   3.947274E+01
-# jendl5.0      1.055293E+00   1.052664E+00   9.929547E+01

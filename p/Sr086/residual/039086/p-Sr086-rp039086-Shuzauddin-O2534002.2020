@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Sr86(p,x)Y86 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Shuzauddin
 #   year: 2020
 #   subentry: O2534002
 #   X4 reaction: 38-SR-86(P,N)39-Y-86,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/O2534002
-# target:
+# target: 
 #   Z: 38
 #   A: 86
 #   nuclide: Sr86
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 39
-#   A: 86
-#   nuclide: Y86
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 15
+#   residual: 
+#     Z: 39
+#     A: 86
+#     nuclide: Y86
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 15
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    6.500000E+00   4.000000E-01   1.000000E+02   9.000000E+00   1.000000E+00
@@ -48,17 +49,3 @@
 #   author: M.Shuza Uddin, B.Scholten, M.Shamsuzzhoha Basunia, S.Sudar, S.Spellerberg, A.S.Voyles, J.T.Morrell, H.Zaneb, J.A.Rios, I.Spahn, L.A.Bernstein, B.Neumaier, S.M.Qaim
 #   title: Accurate determination of production data of the non-standard positron emitter 86Y via the 86Sr(p,n)-reaction
 #   journal: Jour: Radiochimica Acta, Vol.108, p.747 (2020)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  6.500000E+00
-#   E-max [MeV]:  1.620000E+01
-#   F-value:  1.345213E+00
-#   A-value:  1.308183E+00
-#   chi-2:  1.722794E+01
-#   p-value:  2.116063E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.370298E+00   1.345795E+00   1.951289E+01
-# jendl5.0      1.331648E+00   1.296805E+00   1.597400E+01

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: C12(n,x)C11 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Anders
 #   year: 1981
 #   subentry: 20348002
 #   X4 reaction: 6-C-12(N,2N)6-C-11,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20348002
-# target:
+# target: 
 #   Z: 6
 #   A: 12
 #   nuclide: C12
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 6
-#   A: 11
-#   nuclide: C11
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 11
+#   residual: 
+#     Z: 6
+#     A: 11
+#     nuclide: C11
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 11
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.280000E+01   3.000000E-01   3.000300E+00   3.000300E-01   1.000100E+00
@@ -44,18 +45,3 @@
 #   author: B.ANDERS,P.HERGES,W.SCOBEL
 #   title: -EXCITATION FUNCTIONS OF NUCLEAR REACTIONS  PRODUCING C-11-
 #   journal: Jour: Zeitschrift fuer Physik A, Hadrons and Nuclei, Vol.301, Issue.4, p
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  2.280000E+01
-#   E-max [MeV]:  3.360000E+01
-#   F-value:  2.240265E+00
-#   A-value:  4.912941E-01
-#   chi-2:  2.978519E+01
-#   p-value:  2.103546E-01
-#   exp. data sets for p-value:      8
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    2.533753E+00   4.298605E-01   3.672512E+01
-# endfb8.0      2.533753E+00   4.298605E-01   3.672512E+01
-# jendl5.0      1.603722E+00   6.417554E-01   1.590534E+01

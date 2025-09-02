@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: N14(n,t)C12 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Suhaimi
 #   year: 1988
 #   subentry: 22102002
 #   X4 reaction: 7-N-14(N,T)6-C-12,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22102002
-# target:
+# target: 
 #   Z: 7
 #   A: 14
 #   nuclide: N14
-# reaction:
+# reaction: 
 #   type: (n,t)
 #   ENDF_MF: 3
 #   ENDF_MT: 105
-# residual:
-#   Z: 6
-#   A: 12
-#   nuclide: C12
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 16
+#   residual: 
+#     Z: 6
+#     A: 12
+#     nuclide: C12
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 16
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    5.020000E+00   1.600000E-01   2.300000E+01   3.000000E+00   1.000000E+00
@@ -49,20 +50,3 @@
 #   author: A.Suhaimi,R.Woelfle,S.M.Qaim,P.Warwick,d G.Stoecklin
 #   title: Measurement of 14N(n,t)12C reaction cross section in the energy range of 5.0 to 10.6 MeV
 #   journal: Jour: Radiochimica Acta, Vol.43, p.133 (1988)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  5.020000E+00
-#   E-max [MeV]:  1.057000E+01
-#   F-value:  2.011674E+00
-#   A-value:  8.956781E-01
-#   chi-2:  9.019989E+00
-#   p-value:  2.175545E-01
-#   exp. data sets for p-value:      1
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    2.016189E+00   9.335754E-01   9.327784E+00
-# endfb8.0      2.016189E+00   9.335754E-01   9.327784E+00
-# jeff3.3       2.016189E+00   9.335754E-01   9.327784E+00
-# jendl5.0      1.993575E+00   7.588611E-01   7.788823E+00
-# cendl3.2      2.016187E+00   9.335753E-01   9.327772E+00

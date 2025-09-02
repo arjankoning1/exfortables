@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Si28(n,p_01) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Bateman
 #   year: 1997
 #   subentry: 13614005
 #   X4 reaction: 14-SI-28(N,P)13-AL-28,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/13614005
-#   level energy [MeV]  9.72000E-01
-# target:
+#   level energy [MeV]:  9.72000E-01
+# target: 
 #   Z: 14
 #   A: 28
 #   nuclide: Si28
-# reaction:
+# reaction: 
 #   type: (n,p_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 601
@@ -25,10 +25,11 @@
 #     energy [MeV]:  0.000000E+00
 #     spin:  2.000000E+00
 #     parity: 1
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 176
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 176
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    7.003000E+00   0.000000E+00   2.520000E+01   2.300000E+00   1.000000E+00
@@ -211,19 +212,3 @@
 #   author: F.B.Bateman,S.M.Grimes,N.Boukharouba,V.Mishra, C.E.Brient,R.S.Pedroni,T.N.Massey,R.C.Haight
 #   title: Determination of 29Si level density from 3 to 22 MeV
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.55, p.133 (1997)
-# statistics:
-#   NEA score: E1
-#   IAEA score: -1
-#   E-min [MeV]:  7.003000E+00
-#   E-max [MeV]:  1.297400E+01
-#   F-value:  1.817119E+00
-#   A-value:  1.172007E+00
-#   chi-2:  6.634334E+01
-#   p-value:  1.969095E-01
-#   exp. data sets for p-value:      8
-#   libraries:      4
-##  Library          F              A            chi-2
-# endfb8.0      1.867501E+00   1.304114E+00   8.635409E+01
-# jeff3.3       1.751533E+00   1.127909E+00   4.904807E+01
-# jendl5.0      1.779929E+00   9.835946E-01   4.361717E+01
-# cendl3.2      1.867501E+00   1.304114E+00   8.635409E+01

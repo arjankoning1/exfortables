@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ti50(n,x)Ti51 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Dudey
 #   year: 1969
 #   subentry: 10026003
 #   X4 reaction: 22-TI-50(N,G)22-TI-51,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/10026003
-# target:
+# target: 
 #   Z: 22
 #   A: 50
 #   nuclide: Ti50
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 22
-#   A: 51
-#   nuclide: Ti51
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 27
+#   residual: 
+#     Z: 22
+#     A: 51
+#     nuclide: Ti51
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 27
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.400000E-01   5.150000E-02   1.132000E+00   1.310000E-01   1.000000E+00
@@ -60,18 +61,3 @@
 #   author: N.D.Dudey, R.R.Heinrich, A.A.Madson
 #   title: Fast neutron capture by vanadium and titanium
 #   journal: Jour: Journal of Nuclear Energy, Vol.23, p.443 (1969)
-# statistics:
-#   NEA score: T3
-#   IAEA score:  1
-#   E-min [MeV]:  1.400000E-01
-#   E-max [MeV]:  1.645000E+00
-#   F-value:  1.030290E+01
-#   A-value:  2.335530E-01
-#   chi-2:  6.140196E+01
-#   p-value:  3.042414E-01
-#   exp. data sets for p-value:      2
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    3.106607E+00   7.935610E-01   5.890122E+01
-# jeff3.3       1.994274E+01   6.757800E-02   8.648125E+01
-# jendl5.0      1.176889E+01   2.375586E-01   3.882339E+01

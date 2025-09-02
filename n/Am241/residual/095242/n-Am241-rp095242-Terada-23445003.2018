@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Am241(n,x)Am242 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Terada
 #   year: 2018
 #   subentry: 23445003
 #   X4 reaction: 95-AM-241(N,G)95-AM-242,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/23445003
-# target:
+# target: 
 #   Z: 95
 #   A: 241
 #   nuclide: Am241
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 95
-#   A: 242
-#   nuclide: Am242
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 2297
+#   residual: 
+#     Z: 95
+#     A: 242
+#     nuclide: Am242
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2297
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.000800E-08   0.000000E+00   1.220600E+06   6.689900E+04   1.000000E+00
@@ -2330,17 +2331,3 @@
 #   author: K.Terada, A.Kimura, T.Nakao, S.Nakamura, K.Mizuyama, N.Iwamoto, O.Iwamoto, H.Harada, T.Katabuchi, M.Igashira, T.Sano, Y.Takahashi, C.H.Pyeon, S.Fukutani, T.Fujii, T.Yagi, K.Takamiya, J.-I.Hori
 #   title: Measurements of neutron total and capture cross sections of 241 Am with ANNRI at J-PARC
 #   journal: Jour: Jour. of Nuclear Science and Technology, Vol.55, p.1198 (2018)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  1.000800E-08
-#   E-max [MeV]:  1.006100E-04
-#   F-value:  1.375538E+00
-#   A-value:  9.079903E-01
-#   chi-2:  2.912733E+01
-#   p-value:  3.201597E-01
-#   exp. data sets for p-value:      2
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.433934E+00   8.660360E-01   2.567599E+01
-# jendl5.0      1.311225E+00   9.519771E-01   3.257868E+01

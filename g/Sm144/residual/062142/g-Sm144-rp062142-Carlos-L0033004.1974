@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Sm144(g,x)Sm142 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Carlos
 #   year: 1974
 #   subentry: L0033004
 #   X4 reaction: 62-SM-144(G,2N)62-SM-142,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/L0033004
-# target:
+# target: 
 #   Z: 62
 #   A: 144
 #   nuclide: Sm144
-# reaction:
+# reaction: 
 #   type: (g,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 62
-#   A: 142
-#   nuclide: Sm142
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 29
+#   residual: 
+#     Z: 62
+#     A: 142
+#     nuclide: Sm142
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 29
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.321000E+01   0.000000E+00   1.400000E+00   1.500000E+00   1.000000E+00
@@ -62,18 +63,3 @@
 #   author: P.CARLOS,H.BEIL,R.BERGERE,A.LEPRETRE,A.DEMINIAC, A.VEYSSIERE
 #   title: The giant dipole resonance in the transition region of  the samariam isotopes
 #   journal: Jour: Nuclear Physics, Section A, Vol.225, p.171 (1974)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  1.321000E+01
-#   E-max [MeV]:  2.079000E+01
-#   F-value:  3.788005E+00
-#   A-value:  3.986394E-01
-#   chi-2:  8.848224E+00
-#   p-value:  3.077875E-02
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    3.624178E+00   4.407317E-01   7.573135E+00
-# endfb8.0      1.157081E+00   9.021610E-01   1.383048E+00
-# jendl5.0      1.987625E+00   5.302019E-01   7.780162E+00

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Li6(n,t)He4 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Gabbard
 #   year: 1959
 #   subentry: 11098005
 #   X4 reaction: 3-LI-6(N,T)2-HE-4,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/11098005
-# target:
+# target: 
 #   Z: 3
 #   A: 6
 #   nuclide: Li6
-# reaction:
+# reaction: 
 #   type: (n,t)
 #   ENDF_MF: 3
 #   ENDF_MT: 105
-# residual:
-#   Z: 2
-#   A: 4
-#   nuclide: He4
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 122
+#   residual: 
+#     Z: 2
+#     A: 4
+#     nuclide: He4
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 122
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.500000E-02   0.000000E+00   1.280000E+03   0.000000E+00   1.000000E+00
@@ -155,20 +156,3 @@
 #   author: F.Gabbard,R.H.Davis,T.W.Bonner
 #   title: Study of the neutron reactions Li-6(n,alpha)H-3,  F-19(n,gamma)F-20 and I-127(n,gamma)I-128.
 #   journal: Jour: Physical Review, Vol.114, p.201 (1959)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  2.500000E-02
-#   E-max [MeV]:  4.066000E+00
-#   F-value:  1.247516E+00
-#   A-value:  9.115436E-01
-#   chi-2:  0.000000E+00
-#   p-value:  2.769230E-01
-#   exp. data sets for p-value:      7
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.251758E+00   9.130360E-01   0.000000E+00
-# endfb8.0      1.251758E+00   9.130360E-01   0.000000E+00
-# jeff3.3       1.259972E+00   9.100435E-01   0.000000E+00
-# jendl5.0      1.223147E+00   9.092416E-01   0.000000E+00
-# irdff2.0      1.249817E+00   9.123681E-01   0.000000E+00

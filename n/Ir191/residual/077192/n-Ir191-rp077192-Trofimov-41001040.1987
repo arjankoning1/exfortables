@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ir191(n,x)Ir192 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Trofimov
 #   year: 1987
 #   subentry: 41001040
 #   X4 reaction: 77-IR-191(N,G)77-IR-192,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/41001040
-# target:
+# target: 
 #   Z: 77
 #   A: 191
 #   nuclide: Ir191
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 77
-#   A: 192
-#   nuclide: Ir192
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 77
+#     A: 192
+#     nuclide: Ir192
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.000000E+00   0.000000E+00   2.950000E+02   3.000000E+01   1.000000E+00
@@ -34,17 +35,3 @@
 #   author: YU.N.TROFIMOV
 #   title: Neutron Radiation Capture Cross-sections For Nuclei  Of Medium And Large Masses At The Neutron Energy  1 MeV
 #   journal: Conf: 1.Int.Conf.on Neutron Physics, Kiev,14-18 Sep 1987, Vol.3, p.331 (
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.000000E+00
-#   E-max [MeV]:  1.000000E+00
-#   F-value:  1.600874E+00
-#   A-value:  6.247115E-01
-#   chi-2:  1.362596E+01
-#   p-value:  1.652853E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.586554E+00   6.302968E-01   1.322355E+01
-# jendl5.0      1.615050E+00   6.191758E-01   1.402837E+01

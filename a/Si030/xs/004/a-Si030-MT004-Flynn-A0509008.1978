@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Si30(a,n')S33 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Flynn
 #   year: 1978
 #   subentry: A0509008
 #   X4 reaction: 14-SI-30(A,N)16-S-33,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/A0509008
-# target:
+# target: 
 #   Z: 14
 #   A: 30
 #   nuclide: Si30
-# reaction:
+# reaction: 
 #   type: (a,n')
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 16
-#   A: 33
-#   nuclide: S33
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 295
+#   residual: 
+#     Z: 16
+#     A: 33
+#     nuclide: S33
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 295
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.983000E+00   0.000000E+00   9.000000E+00   6.689700E-01   1.000000E+00
@@ -328,17 +329,3 @@
 #   author: D.S.Flynn,K.K.Sekharan,B.A.Hiller,H.Laumer,J.L.Weil, F.Gabbard
 #   title: Cross sections and reaction rates for 23Na(p,n)23Mg, 27Al(p,n)27Si, 27Al(alpha,n)30P, 29Si(alpha,n)32S, 30Si(alpha,n)33S.
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.18, p.1566 (1978)
-# statistics:
-#   NEA score: R3
-#   IAEA score:  1
-#   E-min [MeV]:  3.983000E+00
-#   E-max [MeV]:  6.284000E+00
-#   F-value:  3.689697E+00
-#   A-value:  2.134243E+00
-#   chi-2:  5.662178E+03
-#   p-value:  1.197226E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    3.136187E+00   1.642781E+00   3.180562E+03
-# jendl5.0      4.263005E+00   2.772731E+00   8.143787E+03

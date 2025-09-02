@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Mn55(p,x)Fe52 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Steyn
 #   year: 1990
 #   subentry: A04970031
 #   X4 reaction: 25-MN-55(P,4N)26-FE-52,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/A04970031
-# target:
+# target: 
 #   Z: 25
 #   A: 55
 #   nuclide: Mn55
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 37
-# residual:
-#   Z: 26
-#   A: 52
-#   nuclide: Fe52
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 46
+#   residual: 
+#     Z: 26
+#     A: 52
+#     nuclide: Fe52
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 46
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.200000E+01   1.000000E+00   1.410000E-01   3.300000E-02   1.000000E+00
@@ -79,17 +80,3 @@
 #   author: G.F.Steyn,S.J.Mills,F.M.Nortier,B.R.S.Simpson, B.R.Meyer
 #   title: Production of Fe-52 via proton-induced reactions on manganese and nickel
 #   journal: Jour: Applied Radiation and Isotopes, Vol.41, p.315 (1990)
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  4.200000E+01
-#   E-max [MeV]:  1.999000E+02
-#   F-value:  3.166436E+00
-#   A-value:  3.661769E-01
-#   chi-2:  3.710296E+01
-#   p-value:  1.660981E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    4.492954E+00   2.369986E-01   5.477925E+01
-# jendl5.0      1.881434E+00   5.657651E-01   1.942668E+01

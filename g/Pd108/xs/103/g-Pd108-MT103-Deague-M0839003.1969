@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Pd108(g,p)Rh107 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Deague
 #   year: 1969
 #   subentry: M0839003
 #   X4 reaction: 46-PD-108(G,P)45-RH-107,,SIG,,BRS
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/M0839003
-# target:
+# target: 
 #   Z: 46
 #   A: 108
 #   nuclide: Pd108
-# reaction:
+# reaction: 
 #   type: (g,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 45
-#   A: 107
-#   nuclide: Rh107
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 83
+#   residual: 
+#     Z: 45
+#     A: 107
+#     nuclide: Rh107
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 83
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    8.250000E+00   0.000000E+00   4.900000E-02   0.000000E+00   1.000000E+00
@@ -116,18 +117,3 @@
 #   author: T.K.Deague,E.G.Muirhead,B.M.Spicer
 #   title: Structure in the giant resonance of 108Pd and of 110Pd.
 #   journal: Jour: Nuclear Physics, Section A, Vol.139, p.501 (1969)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  8.250000E+00
-#   E-max [MeV]:  2.875000E+01
-#   F-value:  1.147249E+01
-#   A-value:  1.120324E-01
-#   chi-2:  4.395598E+02
-#   p-value:  4.644277E-02
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.655255E+01   6.608202E-02   5.234586E+02
-# endfb8.0      5.005425E+00   2.708424E-01   3.328923E+02
-# jendl5.0      1.211995E+01   9.170742E-02   4.941286E+02

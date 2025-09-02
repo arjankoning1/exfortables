@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: N14(n,t)C12 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Gabbard
 #   year: 1959
 #   subentry: 11281002
 #   X4 reaction: 7-N-14(N,T)6-C-12,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/11281002
-# target:
+# target: 
 #   Z: 7
 #   A: 14
 #   nuclide: N14
-# reaction:
+# reaction: 
 #   type: (n,t)
 #   ENDF_MF: 3
 #   ENDF_MT: 105
-# residual:
-#   Z: 6
-#   A: 12
-#   nuclide: C12
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 66
+#   residual: 
+#     Z: 6
+#     A: 12
+#     nuclide: C12
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 66
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    5.328000E+00   0.000000E+00   8.000000E+00   3.200000E+00   1.000000E+00
@@ -99,20 +100,3 @@
 #   author: F.Gabbard,H.Bichsel,T.W.Bonner
 #   title: The disintegration of nitrogen by fast neutrons.
 #   journal: Jour: Nuclear Physics, Vol.14, p.277 (1959)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  5.328000E+00
-#   E-max [MeV]:  8.198000E+00
-#   F-value:  1.429871E+00
-#   A-value:  1.192003E+00
-#   chi-2:  2.208051E+00
-#   p-value:  2.473607E-01
-#   exp. data sets for p-value:      2
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.489479E+00   1.242463E+00   2.726893E+00
-# endfb8.0      1.489479E+00   1.242463E+00   2.726893E+00
-# jeff3.3       1.489479E+00   1.242463E+00   2.726893E+00
-# jendl5.0      1.068245E+00   1.009840E+00   1.326657E-01
-# cendl3.2      1.489480E+00   1.242464E+00   2.726908E+00

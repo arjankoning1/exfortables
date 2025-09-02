@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Fe56(n,n'_01)Fe57 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Schmidt
 #   year: 1994
 #   subentry: 22403008
 #   X4 reaction: 26-FE-56(N,INL)26-FE-56,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22403008
-#   level energy [MeV]  8.47000E-01
-# target:
+#   level energy [MeV]:  8.47000E-01
+# target: 
 #   Z: 26
 #   A: 56
 #   nuclide: Fe56
-# reaction:
+# reaction: 
 #   type: (n,n'_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 51
@@ -25,14 +25,15 @@
 #     energy [MeV]:  8.467780E-01
 #     spin:  2.000000E+00
 #     parity: 1
-# residual:
-#   Z: 26
-#   A: 57
-#   nuclide: Fe57
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 12
+#   residual: 
+#     Z: 26
+#     A: 57
+#     nuclide: Fe57
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 12
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    9.410000E+00   2.000000E-02   9.781601E+01   4.078900E+00   1.000000E+00
@@ -51,20 +52,3 @@
 #   author: D.Schmidt,W.Mannhart,H.Klein,R.Nolte
 #   title: .Elastic and inelastic neutron scattering  on elemental iron.
 #   journal: Rept: Phys.Techn.Bundesanst., Neutronenphysik Reports, No.20 (1994)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  9.410000E+00
-#   E-max [MeV]:  1.520000E+01
-#   F-value:  1.167488E+00
-#   A-value:  9.011522E-01
-#   chi-2:  8.178226E+00
-#   p-value:  2.803096E-01
-#   exp. data sets for p-value:      2
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.125942E+00   9.497575E-01   3.361068E+00
-# endfb8.0      1.222494E+00   8.213651E-01   1.450068E+01
-# jeff3.3       1.029903E+00   9.881722E-01   5.612980E-01
-# jendl5.0      1.031206E+00   9.887776E-01   7.021670E-01
-# cendl3.2      1.286991E+00   7.796695E-01   2.176591E+01

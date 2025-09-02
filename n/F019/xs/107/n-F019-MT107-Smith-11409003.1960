@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: F19(n,a)N16 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Smith
 #   year: 1960
 #   subentry: 11409003
 #   X4 reaction: 9-F-19(N,A)7-N-16,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/11409003
-# target:
+# target: 
 #   Z: 9
 #   A: 19
 #   nuclide: F19
-# reaction:
+# reaction: 
 #   type: (n,a)
 #   ENDF_MF: 3
 #   ENDF_MT: 107
-# residual:
-#   Z: 7
-#   A: 16
-#   nuclide: N16
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 91
+#   residual: 
+#     Z: 7
+#     A: 16
+#     nuclide: N16
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 91
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.868000E+00   3.500000E-02   2.220000E+01   3.330000E+00   1.000000E+00
@@ -124,20 +125,3 @@
 #   author: D.M.Smith,N.A.Bostrom,E.L.Hudspeth
 #   title: Excitation study of F-19(n,alpha)N-16 with a BaF2 crystal.
 #   journal: Jour: Physical Review, Vol.117, p.514 (1960)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  3.868000E+00
-#   E-max [MeV]:  6.156000E+00
-#   F-value:  1.183971E+00
-#   A-value:  1.086179E+00
-#   chi-2:  2.014458E+00
-#   p-value:  3.216536E-01
-#   exp. data sets for p-value:      6
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.179138E+00   1.090523E+00   1.855898E+00
-# endfb8.0      1.179138E+00   1.090523E+00   1.855898E+00
-# jeff3.3       1.179138E+00   1.090523E+00   1.855898E+00
-# jendl5.0      1.202414E+00   1.068976E+00   2.648695E+00
-# cendl3.2      1.179138E+00   1.090523E+00   1.855898E+00

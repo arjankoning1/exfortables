@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Xe128(n,2n)Xe127 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Sigg
 #   year: 1976
 #   subentry: 107750043
 #   X4 reaction: 54-XE-128(N,2N)54-XE-127,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/107750043
-# target:
+# target: 
 #   Z: 54
 #   A: 128
 #   nuclide: Xe128
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 54
-#   A: 127
-#   nuclide: Xe127
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 54
+#     A: 127
+#     nuclide: Xe127
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.460000E+01   4.000000E-01   1.748693E+03   1.383212E+02   9.981124E-01
@@ -34,19 +35,3 @@
 #   author: R.A.Sigg,P.K.Kuroda
 #   title: 14.6-MeV Neutron Activation Cross Sections for the  Xenon Isotopes.
 #   journal: Jour: Nuclear Science and Engineering, Vol.60, p.235 (1976)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.460000E+01
-#   E-max [MeV]:  1.460000E+01
-#   F-value:  1.168468E+00
-#   A-value:  8.944438E-01
-#   chi-2:  3.235990E+00
-#   p-value:  3.362039E-01
-#   exp. data sets for p-value:      3
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.293130E+00   7.733173E-01   8.278981E+00
-# endfb8.0      1.191790E+00   8.390741E-01   4.444816E+00
-# jeff3.3       1.006869E+00   9.931779E-01   1.100815E-01
-# jendl5.0      1.006869E+00   9.931779E-01   1.100815E-01

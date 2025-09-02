@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ni58(n,2n)Ni57 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Mannhart
 #   year: 2007
 #   subentry: 22976022
 #   X4 reaction: 28-NI-58(N,2N)28-NI-57,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22976022
-# target:
+# target: 
 #   Z: 28
 #   A: 58
 #   nuclide: Ni58
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 28
-#   A: 57
-#   nuclide: Ni57
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 9
+#   residual: 
+#     Z: 28
+#     A: 57
+#     nuclide: Ni57
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 9
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.252100E+01   2.000000E-02   2.100000E-01   5.770800E-02   1.000000E+00
@@ -42,21 +43,3 @@
 #   author: W.Mannhart, D.Schmidt
 #   title: .Measurement of Neutron Activation Cross Sections in  the Energy Range from 8 MeV to 15 MeV
 #   journal: Rept: Phys.Techn.Bundesanst., Neutronenphysik Reports, No.53 (2007)
-# statistics:
-#   NEA score: T2
-#   IAEA score:  1
-#   E-min [MeV]:  1.252100E+01
-#   E-max [MeV]:  1.442100E+01
-#   F-value:  1.408471E+00
-#   A-value:  1.115019E+00
-#   chi-2:  9.036888E+00
-#   p-value:  3.623561E-01
-#   exp. data sets for p-value:      3
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.336272E+00   1.100858E+00   6.342952E+00
-# endfb8.0      1.083125E+00   9.853424E-01   1.688911E+00
-# jeff3.3       1.646736E+00   1.249589E+00   2.132064E+01
-# jendl5.0      1.537324E+00   1.220700E+00   1.345903E+01
-# cendl3.2      1.464524E+00   1.128192E+00   9.289339E+00
-# irdff2.0      1.202975E+00   1.029476E+00   2.120450E+00

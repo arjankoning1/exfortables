@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Pu239(n,g)Pu240 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Spivak
 #   year: 1956
 #   subentry: 40350006
 #   X4 reaction: 94-PU-239(N,G)94-PU-240,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/40350006
-# target:
+# target: 
 #   Z: 94
 #   A: 239
 #   nuclide: Pu239
-# reaction:
+# reaction: 
 #   type: (n,g)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 94
-#   A: 240
-#   nuclide: Pu240
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 4
+#   residual: 
+#     Z: 94
+#     A: 240
+#     nuclide: Pu240
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.000000E-02   0.000000E+00   8.419900E+02   0.000000E+00   1.000000E+00
@@ -37,15 +38,3 @@
 #   author: P.E.Spivak,B.G.Erozolimskij,G.A.Dorofeev, V.N.Lavrenchik,I.E.Kutikov,Ju.P.Dobrynin
 #   title: Average number of neutrons  NU-eff emitted by the isotopes U-233, U-235 and Pu-239 on capture of neutrons with energies from 30 to 900 keV.
 #   journal: Jour: Atomnaya Energiya, Vol.1, Issue.3, p.21 (1956)
-# statistics:
-#   NEA score:   
-#   IAEA score:  0
-#   E-min [MeV]:  3.000000E-02
-#   E-max [MeV]:  9.000000E-01
-#   F-value:  0.000000E+00
-#   A-value:  0.000000E+00
-#   chi-2:  0.000000E+00
-#   p-value:  0.000000E+00
-#   exp. data sets for p-value:      2
-#   libraries:      0
-##  Library          F              A            chi-2

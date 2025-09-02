@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Cu63(g,x)Cu62 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Yasumi
 #   year: 1960
 #   subentry: M0271002
 #   X4 reaction: 29-CU-63(G,N)29-CU-62,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/M0271002
-# target:
+# target: 
 #   Z: 29
 #   A: 63
 #   nuclide: Cu63
-# reaction:
+# reaction: 
 #   type: (g,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 29
-#   A: 62
-#   nuclide: Cu62
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 29
+#     A: 62
+#     nuclide: Cu62
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.620000E+01   1.400000E+00   6.200000E+01   4.000000E+00   1.000000E+00
@@ -34,18 +35,3 @@
 #   author: S.YASUMI,M.YATA,K.TAKAMATSU,A.MASAIKE,Y.MASUDA
 #   title: Absolute cross section of the reaction  63Cu(gamma,n)62Cu for Lithium gamma rays.
 #   journal: Jour: Journal of the Physical Society of Japan, Vol.15, p.1913 (1960)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.620000E+01
-#   E-max [MeV]:  1.620000E+01
-#   F-value:  1.251347E+00
-#   A-value:  1.243815E+00
-#   chi-2:  1.548958E+01
-#   p-value:  3.176924E-01
-#   exp. data sets for p-value:      4
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.156276E+00   1.156276E+00   6.035456E+00
-# endfb8.0      1.294499E+00   1.294499E+00   2.083705E+01
-# jendl5.0      1.285595E+00   1.285595E+00   1.959624E+01

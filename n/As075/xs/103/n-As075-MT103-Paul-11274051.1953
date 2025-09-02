@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: As75(n,p)Ge75 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Paul
 #   year: 1953
 #   subentry: 11274051
 #   X4 reaction: 33-AS-75(N,P)32-GE-75,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/11274051
-# target:
+# target: 
 #   Z: 33
 #   A: 75
 #   nuclide: As75
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 32
-#   A: 75
-#   nuclide: Ge75
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 32
+#     A: 75
+#     nuclide: Ge75
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.450000E+01   0.000000E+00   1.180000E+01   2.360000E+00   1.000000E+00
@@ -34,20 +35,3 @@
 #   author: E.B.Paul,R.L.Clarke
 #   title: CROSS SECTION MEASUREMENTS OF REACTIONS INDUCED BY NEUTRONS OF THE 14.5 MEV ENERGY.
 #   journal: Jour: Canadian Journal of Physics, Vol.31, p.267 (1953)
-# statistics:
-#   NEA score: R2
-#   IAEA score:  0
-#   E-min [MeV]:  1.450000E+01
-#   E-max [MeV]:  1.450000E+01
-#   F-value:  1.756154E+00
-#   A-value:  1.739061E+00
-#   chi-2:  1.489331E+01
-#   p-value:  4.358204E-02
-#   exp. data sets for p-value:      8
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.822129E+00   1.822129E+00   1.689876E+01
-# endfb8.0      2.036090E+00   2.036090E+00   2.683705E+01
-# jeff3.3       1.787045E+00   1.787045E+00   1.548856E+01
-# jendl5.0      1.545837E+00   1.545837E+00   7.539215E+00
-# cendl3.2      1.552025E+00   1.552025E+00   7.702979E+00

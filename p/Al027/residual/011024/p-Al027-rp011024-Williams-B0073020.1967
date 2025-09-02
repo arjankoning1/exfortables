@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Al27(p,x)Na24 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Williams
 #   year: 1967
 #   subentry: B0073020
 #   X4 reaction: 13-AL-27(P,X)11-NA-24,CUM,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/B0073020
-# target:
+# target: 
 #   Z: 13
 #   A: 27
 #   nuclide: Al27
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 11
-#   A: 24
-#   nuclide: Na24
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 12
+#   residual: 
+#     Z: 11
+#     A: 24
+#     nuclide: Na24
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 12
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.350000E+01   0.000000E+00   1.900100E-01   5.700400E-02   1.000064E+00
@@ -45,18 +46,3 @@
 #   author: I.R.Williams, C.B.Fulmer
 #   title: Excitation functions for radioactive isotopes produced by protons below 60 MeV on Al, Fe, and Cu
 #   journal: Jour: Physical Review, Vol.162, p.1055 (1967)
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  3.350000E+01
-#   E-max [MeV]:  6.120000E+01
-#   F-value:  3.468788E+00
-#   A-value:  9.098984E-01
-#   chi-2:  8.683475E+00
-#   p-value:  2.069978E-01
-#   exp. data sets for p-value:      8
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.547216E+00   1.501211E+00   3.887986E+00
-# endfb8.0      8.639147E+00   1.859127E-01   5.843565E+00
-# jendl5.0      2.122073E+00   1.967680E+00   1.706482E+01

@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: Pb206(n,x)Pb204m cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Semkova
 #   year: 2009
 #   subentry: 22680011
 #   X4 reaction: 82-PB-206(N,3N)82-PB-204-M,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22680011
-# target:
+# target: 
 #   Z: 82
 #   A: 206
 #   nuclide: Pb206
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 17
-# residual:
-#   Z: 82
-#   A: 204
-#   nuclide: Pb204m
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 3
+#   residual: 
+#     Z: 82
+#     A: 204
+#     nuclide: Pb204m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.810000E+01   1.000000E-01   4.199830E+00   2.999900E-01   9.999596E-01
@@ -41,18 +42,3 @@
 #   author: V.Semkova, P.Reimer, T.Altzitzoglou, A.J.M.Plompen, C.Quetel, S.Sudar, J.Vogl, A.J.Koning, S.M.Qaim, D.L.Smith, F.Cserpak, V.Avrigeanu
 #   title: Neutron activation cross sections on lead isotopes
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.80, p.024610 (2009)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  1.810000E+01
-#   E-max [MeV]:  2.050000E+01
-#   F-value:  1.931162E+00
-#   A-value:  1.393497E+00
-#   chi-2:  2.594807E+02
-#   p-value:  2.779900E-01
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    2.068492E+00   1.628102E+00   3.886292E+02
-# endfb8.0      1.926062E+00   1.146626E+00   1.999466E+02
-# jendl5.0      1.793812E+00   1.449488E+00   1.898663E+02

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Pb204(n,x)Pb203 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Begun
 #   year: 2002
 #   subentry: 32205025
 #   X4 reaction: 82-PB-204(N,2N)82-PB-203,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/32205025
-# target:
+# target: 
 #   Z: 82
 #   A: 204
 #   nuclide: Pb204
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 82
-#   A: 203
-#   nuclide: Pb203
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 6
+#   residual: 
+#     Z: 82
+#     A: 203
+#     nuclide: Pb203
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.356000E+01   3.000000E-02   1.986558E+03   1.397579E+02   9.982703E-01
@@ -39,19 +40,3 @@
 #   author: S.V.Begun, I.M.Kadenko, V.K.Maidanyuk, V.M.Neplyuev,  V.A.Plujko, G.I.Primenko, V.K.Tarakanov
 #   title: Determination of the cross sections of (n,x) nuclear  reactions on Y, La, Ta, Pb and Bi at the energy of  neutrons about 14 MeV
 #   journal: Jour: Jour. of Nuclear Science and Technology Suppl., Vol.2, p.425 (2002
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.356000E+01
-#   E-max [MeV]:  1.453000E+01
-#   F-value:  1.039422E+00
-#   A-value:  1.013757E+00
-#   chi-2:  6.974869E-01
-#   p-value:  2.921343E-01
-#   exp. data sets for p-value:      6
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.028004E+00   9.798527E-01   5.480192E-01
-# endfb8.0      1.043854E+00   1.026257E+00   7.798545E-01
-# jeff3.3       1.043854E+00   1.026257E+00   7.798545E-01
-# jendl5.0      1.039926E+00   1.023439E+00   6.822197E-01

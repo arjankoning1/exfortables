@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Cr52(n,p)V52 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Fessler
 #   year: 1998
 #   subentry: 22406003
 #   X4 reaction: 24-CR-52(N,P)23-V-52,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22406003
-# target:
+# target: 
 #   Z: 24
 #   A: 52
 #   nuclide: Cr52
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 23
-#   A: 52
-#   nuclide: V52
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 22
+#   residual: 
+#     Z: 23
+#     A: 52
+#     nuclide: V52
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 22
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    9.310000E+00   2.000000E-01   5.080000E+01   3.500000E+00   1.000000E+00
@@ -55,20 +56,3 @@
 #   author: A.Fessler,E.Wattecamps,D.L.Smith,S.M.Qaim
 #   title: Excitation functions of (n,2n), (n,p), (n,np+pn+d), and  (n,alpha) reactions on isotopes of chromium
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.58, p.996 (1998)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  9.310000E+00
-#   E-max [MeV]:  2.107000E+01
-#   F-value:  1.152030E+00
-#   A-value:  1.005283E+00
-#   chi-2:  5.152158E+00
-#   p-value:  3.281665E-01
-#   exp. data sets for p-value:      1
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.204190E+00   8.854238E-01   7.775901E+00
-# endfb8.0      1.181400E+00   1.062829E+00   6.979622E+00
-# jeff3.3       1.074381E+00   1.004788E+00   1.351534E+00
-# jendl5.0      1.123683E+00   1.013699E+00   3.081844E+00
-# cendl3.2      1.118583E+00   1.048543E+00   5.755374E+00

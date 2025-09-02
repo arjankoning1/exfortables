@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Fe56(n,n'_01)Fe57 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Nemilov
 #   year: 1982
 #   subentry: 41385002
 #   X4 reaction: 26-FE-56(N,INL)26-FE-56,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/41385002
-#   level energy [MeV]  8.47000E-01
-# target:
+#   level energy [MeV]:  8.47000E-01
+# target: 
 #   Z: 26
 #   A: 56
 #   nuclide: Fe56
-# reaction:
+# reaction: 
 #   type: (n,n'_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 51
@@ -25,14 +25,15 @@
 #     energy [MeV]:  8.467780E-01
 #     spin:  2.000000E+00
 #     parity: 1
-# residual:
-#   Z: 26
-#   A: 57
-#   nuclide: Fe57
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 25
+#   residual: 
+#     Z: 26
+#     A: 57
+#     nuclide: Fe57
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 25
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    8.930000E-01   6.000000E-02   3.300000E+01   1.500000E+00   1.000000E+00
@@ -64,20 +65,3 @@
 #   author: Yu.A.Nemilov, L.A.Pobedonostsev, E.L.Teterin
 #   title: Inelastic scattering of neutrons on 56Fe nuclei
 #   journal: Jour: Atomnaya Energiya, Vol.53, p.194 (1982)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  8.930000E-01
-#   E-max [MeV]:  2.115000E+00
-#   F-value:  1.668452E+00
-#   A-value:  1.315040E+00
-#   chi-2:  4.340347E+02
-#   p-value:  1.473217E-01
-#   exp. data sets for p-value:      8
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.590287E+00   1.304759E+00   3.872379E+02
-# endfb8.0      1.751494E+00   1.470725E+00   5.668743E+02
-# jeff3.3       1.743394E+00   1.318156E+00   4.294329E+02
-# jendl5.0      1.721057E+00   1.309560E+00   3.939878E+02
-# cendl3.2      1.523253E+00   1.187248E+00   3.926411E+02

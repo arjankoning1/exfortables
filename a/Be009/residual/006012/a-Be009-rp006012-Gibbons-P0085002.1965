@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Be9(a,x)C12 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Gibbons
 #   year: 1965
 #   subentry: P0085002
 #   X4 reaction: 4-BE-9(A,N)6-C-12,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/P0085002
-# target:
+# target: 
 #   Z: 4
 #   A: 9
 #   nuclide: Be9
-# reaction:
+# reaction: 
 #   type: (a,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 6
-#   A: 12
-#   nuclide: C12
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 93
+#   residual: 
+#     Z: 6
+#     A: 12
+#     nuclide: C12
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 93
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.660000E+00   0.000000E+00   2.000000E+01   1.200000E+00   1.000000E+00
@@ -126,17 +127,3 @@
 #   author: J.H.GIBBONS,R.L.MACKLIN
 #   title: Total Cross Section for 9Be(alpha,n)
 #   journal: Jour: Physical Review, Vol.137, p.B1508 (1965)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.660000E+00
-#   E-max [MeV]:  1.030000E+01
-#   F-value:  1.869596E+00
-#   A-value:  9.368168E-01
-#   chi-2:  1.714411E+02
-#   p-value:  2.944797E-01
-#   exp. data sets for p-value:      3
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.894955E+00   1.185802E+00   3.066624E+02
-# jendl5.0      1.844030E+00   7.401115E-01   3.621984E+01

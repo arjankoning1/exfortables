@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Lu175(n,x)Lu176 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Macklin
 #   year: 1967
 #   subentry: 11679020
 #   X4 reaction: 71-LU-175(N,G)71-LU-176,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/11679020
-# target:
+# target: 
 #   Z: 71
 #   A: 175
 #   nuclide: Lu175
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 71
-#   A: 176
-#   nuclide: Lu176
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 8
+#   residual: 
+#     Z: 71
+#     A: 176
+#     nuclide: Lu176
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.000000E-02   1.000000E-02   1.410900E+03   1.070000E+02   1.000000E+00
@@ -41,18 +42,3 @@
 #   author: R.L.MACKLIN,J.H.GIBBONS
 #   title: CAPTURE-CROSS-SECTION STUDIES FOR 30-220-KEV NEUTRONS USING A NEW TECHNIQUE.
 #   journal: Jour: Physical Review, Vol.159, p.1007 (1967)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  3.000000E-02
-#   E-max [MeV]:  2.000000E-01
-#   F-value:  1.309891E+00
-#   A-value:  1.180340E+00
-#   chi-2:  1.360602E+01
-#   p-value:  3.342897E-01
-#   exp. data sets for p-value:      2
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.559326E+00   1.531932E+00   3.811981E+01
-# jeff3.3       1.076397E+00   1.008148E+00   9.029691E-01
-# jendl5.0      1.134067E+00   1.064774E+00   1.795271E+00

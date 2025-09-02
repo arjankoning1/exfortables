@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Fe56(n,n'_06)Fe57 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Negret
 #   year: 2013
 #   subentry: 23073040
 #   X4 reaction: 26-FE-56(N,INL)26-FE-56,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/23073040
-#   level energy [MeV]  3.12010E+00
-# target:
+#   level energy [MeV]:  3.12010E+00
+# target: 
 #   Z: 26
 #   A: 56
 #   nuclide: Fe56
-# reaction:
+# reaction: 
 #   type: (n,n'_06)
 #   ENDF_MF: 3
 #   ENDF_MT: 56
@@ -25,14 +25,15 @@
 #     energy [MeV]:  3.120110E+00
 #     spin:  1.000000E+00
 #     parity: 1
-# residual:
-#   Z: 26
-#   A: 57
-#   nuclide: Fe57
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 69
+#   residual: 
+#     Z: 26
+#     A: 57
+#     nuclide: Fe57
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 69
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.182740E+00   7.550000E-03   0.000000E+00   1.000000E-06   1.000000E+00
@@ -108,20 +109,3 @@
 #   author: A.Negret,C.Borcea, Ph.Dessagne,M.Kerveno, A.Olacel, A.J.M.Plompen, M.Stanoiu, J.C.Drohe, L.C.Mihailescu, R.Wynants
 #   title: Neutron inelastic scattering measurements
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.88, p.027601 (2013)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  3.182740E+00
-#   E-max [MeV]:  4.512420E+00
-#   F-value:  1.565494E+00
-#   A-value:  8.597312E-01
-#   chi-2:  1.837402E+01
-#   p-value:  1.710111E-01
-#   exp. data sets for p-value:      1
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.314209E+00   9.539880E-01   1.261726E+01
-# endfb8.0      1.417692E+00   8.752248E-01   1.493513E+01
-# jeff3.3       2.167319E+00   6.664674E-01   3.406267E+01
-# jendl5.0      1.376535E+00   8.776374E-01   1.415497E+01
-# cendl3.2      1.388079E+00   9.617383E-01   1.610009E+01

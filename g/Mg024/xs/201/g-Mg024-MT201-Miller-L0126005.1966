@@ -1,28 +1,29 @@
-# header:
+# header: 
 #   title: Mg24(g,xn) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Miller
 #   year: 1966
 #   subentry: L0126005
 #   X4 reaction: 12-MG-24(G,X)0-NN-1,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/L0126005
-# target:
+# target: 
 #   Z: 12
 #   A: 24
 #   nuclide: Mg24
-# reaction:
+# reaction: 
 #   type: (g,xn)
 #   ENDF_MF: 3
 #   ENDF_MT: 201
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 31
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 31
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.640000E+01   0.000000E+00   2.050000E+00   3.201900E-01   1.000000E+00
@@ -60,18 +61,3 @@
 #   author: J.Miller,C.Schuhl.G.Tamas,C.Tzara
 #   title: Mesure des sections efficaces (g,n) de 12C, 16O, 24Mg  and 40Ca
 #   journal: Jour: Journal de Physique, Vol.27, p.8 (1966)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  1.640000E+01
-#   E-max [MeV]:  2.620000E+01
-#   F-value:  1.721626E+00
-#   A-value:  7.698862E-01
-#   chi-2:  1.000941E+01
-#   p-value:  2.938948E-01
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.520190E+00   9.372079E-01   6.241938E+00
-# endfb8.0      1.723142E+00   6.738851E-01   1.542017E+01
-# jendl5.0      1.700885E+00   7.633770E-01   7.520371E+00

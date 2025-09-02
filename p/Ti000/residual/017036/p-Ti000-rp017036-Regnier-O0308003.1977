@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ti0(p,x)Cl36 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Regnier
 #   year: 1977
 #   subentry: O0308003
 #   X4 reaction: 22-TI-0(P,X)17-CL-36,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/O0308003
-# target:
+# target: 
 #   Z: 22
 #   A: 0
 #   nuclide: Ti0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 17
-#   A: 36
-#   nuclide: Cl36
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 2
+#   residual: 
+#     Z: 17
+#     A: 36
+#     nuclide: Cl36
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.500000E+02   0.000000E+00   5.100000E+00   1.300000E+00   1.000000E+00
@@ -35,17 +36,3 @@
 #   author: S.Regnier,M.Baklouti,M.Simonoff-Lagarde,G.N.Simonoff
 #   title: Production of Cl-36 by high energy spallation
 #   journal: Jour: Physics Letters,Section B, Vol.68, p.202 (1977)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  1.500000E+02
-#   E-max [MeV]:  2.400000E+04
-#   F-value:  1.073410E+00
-#   A-value:  9.564551E-01
-#   chi-2:  2.792867E-01
-#   p-value:  2.298581E-01
-#   exp. data sets for p-value:      5
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.010636E+00   1.010636E+00   5.275796E-02
-# jendl5.0      1.104755E+00   9.051784E-01   5.058154E-01

@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: Sn124(n,x)Sn125g cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Krane
 #   year: 2006
 #   subentry: 14107008
 #   X4 reaction: 50-SN-124(N,G)50-SN-125-G,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/14107008
-# target:
+# target: 
 #   Z: 50
 #   A: 124
 #   nuclide: Sn124
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 50
-#   A: 125
-#   nuclide: Sn125g
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 50
+#     A: 125
+#     nuclide: Sn125g
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.530000E-08   0.000000E+00   3.300000E+00   3.000000E-01   1.000000E+00
@@ -39,18 +40,3 @@
 #   author: K.S.Krane,J.Sylvester
 #   title: Neutron capture cross sections of 112,116,122,124Sn
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.73, p.054312 (2006)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  2.530000E-08
-#   E-max [MeV]:  2.530000E-08
-#   F-value:  5.921717E+00
-#   A-value:  3.554173E+00
-#   chi-2:  1.545916E+04
-#   p-value:  0.000000E+00
-#   exp. data sets for p-value:      5
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    2.056270E+01   2.056270E+01   4.630660E+04
-# jeff3.3       1.714527E+00   1.714527E+00   6.177645E+01
-# jendl5.0      1.273478E+00   1.273478E+00   9.096152E+00

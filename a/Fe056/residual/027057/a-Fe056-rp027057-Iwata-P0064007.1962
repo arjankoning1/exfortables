@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Fe56(a,x)Co57 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Iwata
 #   year: 1962
 #   subentry: P0064007
 #   X4 reaction: 26-FE-56(A,2N+P)27-CO-57,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/P0064007
-# target:
+# target: 
 #   Z: 26
 #   A: 56
 #   nuclide: Fe56
-# reaction:
+# reaction: 
 #   type: (a,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 41
-# residual:
-#   Z: 27
-#   A: 57
-#   nuclide: Co57
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 11
+#   residual: 
+#     Z: 27
+#     A: 57
+#     nuclide: Co57
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 11
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.820000E+01   6.200000E-01   1.790000E+01   2.950000E+00   1.000000E+00
@@ -44,16 +45,3 @@
 #   author: S.J.IWATA
 #   title: Isomeric Cross Section Ratios in Alpha-Particle  Reactions
 #   journal: Jour: Journal of the Physical Society of Japan, Vol.17, p.1323 (1962)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  2.820000E+01
-#   E-max [MeV]:  3.870000E+01
-#   F-value:  2.292973E+00
-#   A-value:  1.972794E+00
-#   chi-2:  8.053487E+01
-#   p-value:  2.890588E-01
-#   exp. data sets for p-value:      1
-#   libraries:      1
-##  Library          F              A            chi-2
-# tendl.2023    2.292973E+00   1.972794E+00   8.053487E+01

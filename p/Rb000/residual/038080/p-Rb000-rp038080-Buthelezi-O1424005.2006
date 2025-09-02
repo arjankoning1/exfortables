@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Rb0(p,x)Sr80 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Buthelezi
 #   year: 2006
 #   subentry: O1424005
 #   X4 reaction: 37-RB-0(P,X)38-SR-80,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/O1424005
-# target:
+# target: 
 #   Z: 37
 #   A: 0
 #   nuclide: Rb0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 38
-#   A: 80
-#   nuclide: Sr80
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 8
+#   residual: 
+#     Z: 38
+#     A: 80
+#     nuclide: Sr80
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    7.067000E+01   1.000000E+00   9.500000E-01   3.000000E-01   1.000000E+00
@@ -41,17 +42,3 @@
 #   author: E.Z.Buthelezi, F.M.Nortier, I.W.Schroeder
 #   title: Excitation functions for the production of 82Sr by  proton bombardment of natRb at energies up to 100 MeV
 #   journal: Jour: Applied Radiation and Isotopes, Vol.64, p.915 (2006)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  7.067000E+01
-#   E-max [MeV]:  1.001000E+02
-#   F-value:  1.940797E+00
-#   A-value:  7.186398E-01
-#   chi-2:  5.977631E+00
-#   p-value:  3.466762E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    2.375447E+00   4.305859E-01   8.265193E+00
-# jendl5.0      1.435821E+00   1.199396E+00   3.690067E+00

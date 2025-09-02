@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Co59(p,x)Fe52 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Wagner
 #   year: 1954
 #   subentry: C0278005
 #   X4 reaction: 27-CO-59(P,X)26-FE-52,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/C0278005
-# target:
+# target: 
 #   Z: 27
 #   A: 59
 #   nuclide: Co59
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 26
-#   A: 52
-#   nuclide: Fe52
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 9
+#   residual: 
+#     Z: 26
+#     A: 52
+#     nuclide: Fe52
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 9
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    6.000000E+01   0.000000E+00   6.000000E-04   3.000000E-04   1.000000E+00
@@ -42,17 +43,3 @@
 #   author: G.D.WAGNER,E.O.WIIG
 #   title: REACTIONS OF COBALT WITH PROTONS AT 60, 100, 170, AND 240 MEV
 #   journal: Jour: Physical Review, Vol.96, p.1100 (1954)
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  6.000000E+01
-#   E-max [MeV]:  2.400000E+02
-#   F-value:  4.946936E+00
-#   A-value:  5.607647E-01
-#   chi-2:  2.275539E+02
-#   p-value:  5.577793E-02
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    3.075907E+00   6.679308E-01   1.482356E+01
-# jendl5.0      7.113903E+00   4.707927E-01   4.402843E+02

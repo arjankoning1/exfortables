@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Nb93(p,x)Mo93 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Johnson
 #   year: 1964
 #   subentry: T0126021
 #   X4 reaction: 41-NB-93(P,N)42-MO-93,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/T0126021
-# target:
+# target: 
 #   Z: 41
 #   A: 93
 #   nuclide: Nb93
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 42
-#   A: 93
-#   nuclide: Mo93
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 16
+#   residual: 
+#     Z: 42
+#     A: 93
+#     nuclide: Mo93
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 16
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.570000E+00   0.000000E+00   1.000000E-04   2.552600E-07   1.000000E+00
@@ -49,18 +50,3 @@
 #   author: C.H.Johnson,C.C.Trail,A.Galonsky
 #   title: Thresholds for (p,n) reactions on 26 intermediate- weight nuclei
 #   journal: Jour: Physical Review, Vol.136, p.B1719 (1964)
-# statistics:
-#   NEA score: R3
-#   IAEA score:  0
-#   E-min [MeV]:  1.570000E+00
-#   E-max [MeV]:  4.960000E+00
-#   F-value:  4.551469E+00
-#   A-value:  1.223780E+00
-#   chi-2:  5.070222E+05
-#   p-value:  1.575596E-01
-#   exp. data sets for p-value:      2
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    2.427823E+00   1.722052E+00   8.501256E+05
-# endfb8.0      1.364558E+01   4.185579E-01   1.453402E+05
-# jendl5.0      1.781767E+00   1.595221E+00   1.376702E+05

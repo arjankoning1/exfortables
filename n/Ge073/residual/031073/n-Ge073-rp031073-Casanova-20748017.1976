@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ge73(n,x)Ga73 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Casanova
 #   year: 1976
 #   subentry: 20748017
 #   X4 reaction: 32-GE-73(N,P)31-GA-73,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20748017
-# target:
+# target: 
 #   Z: 32
 #   A: 73
 #   nuclide: Ge73
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 31
-#   A: 73
-#   nuclide: Ga73
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 31
+#     A: 73
+#     nuclide: Ga73
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.410000E+01   0.000000E+00   2.758525E+01   2.873900E+00   9.512154E-01
@@ -34,18 +35,3 @@
 #   author: J.L.Casanova,M.L.Sanchez
 #   title: Measurement of the (n,p),(n,alpha),(n,2n)  cross sections of Zn,Ga,Ge,As,and Se for 14.1 MeV  neutrons, and (n,p) cross section analysis
 #   journal: Jour: Anales de Fisica, Vol.72, Issue.3, p.186 (1976)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  0
-#   E-min [MeV]:  1.410000E+01
-#   E-max [MeV]:  1.410000E+01
-#   F-value:  1.193440E+00
-#   A-value:  9.324299E-01
-#   chi-2:  2.498345E+00
-#   p-value:  2.740095E-01
-#   exp. data sets for p-value:      6
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.090315E+00   1.090315E+00   1.331084E+00
-# jeff3.3       1.002528E+00   9.974787E-01   3.048591E-02
-# jendl5.0      1.341551E+00   7.454059E-01   6.133464E+00

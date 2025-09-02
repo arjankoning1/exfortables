@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: He3(n,p)H3 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Antolkovic
 #   year: 1967
 #   subentry: 30044008
 #   X4 reaction: 2-HE-3(N,P)1-H-3,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30044008
-# target:
+# target: 
 #   Z: 2
 #   A: 3
 #   nuclide: He3
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 1
-#   A: 3
-#   nuclide: H3
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 1
+#     A: 3
+#     nuclide: H3
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.440000E+01   0.000000E+00   1.422000E+02   6.300000E+00   1.000000E+00
@@ -34,19 +35,3 @@
 #   author: B.Antolkovic, G.Paic, P.Tomas, D.Rendic
 #   title: Study of neutron-induced reactions on He-3 at E-n = 14.4 MeV.
 #   journal: Jour: Physical Review, Vol.159, p.777 (1967)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  1.440000E+01
-#   E-max [MeV]:  1.440000E+01
-#   F-value:  1.177882E+00
-#   A-value:  8.612561E-01
-#   chi-2:  1.150743E+01
-#   p-value:  1.606002E-01
-#   exp. data sets for p-value:      1
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.206916E+00   8.285579E-01   1.497779E+01
-# endfb8.0      1.206916E+00   8.285579E-01   1.497779E+01
-# jeff3.3       1.206916E+00   8.285579E-01   1.497779E+01
-# jendl5.0      1.033807E+00   9.672989E-01   1.096351E+00

@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: O16(n,p_00) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Giorginis
 #   year: 2007
 #   subentry: 23040002
 #   X4 reaction: 8-O-16(N,A)6-C-13,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/23040002
-#   level energy [MeV]  0.00000E+00
-# target:
+#   level energy [MeV]:  0.00000E+00
+# target: 
 #   Z: 8
 #   A: 16
 #   nuclide: O16
-# reaction:
+# reaction: 
 #   type: (n,p_00)
 #   ENDF_MF: 3
 #   ENDF_MT: 800
@@ -25,10 +25,11 @@
 #     energy [MeV]:  0.000000E+00
 #     spin:  3.000000E+00
 #     parity: -1
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 19
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 19
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.950000E+00   1.230000E-02   3.135508E+01   1.853000E+00   1.018022E+00
@@ -54,18 +55,3 @@
 #   author: G.Giorginis, V.Khryachkov, V.Corcalciuc, M.Kievets
 #   title: The cross section of the 16O(n,a)13C reaction in the  MeV energy range
 #   journal: Conf: Conf.on Nucl.Data for Sci. and Technology, Nice 2007, Vol.1, p.525
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  3.950000E+00
-#   E-max [MeV]:  4.400000E+00
-#   F-value:  1.412830E+00
-#   A-value:  7.518561E-01
-#   chi-2:  2.085225E+01
-#   p-value:  1.320515E-01
-#   exp. data sets for p-value:      3
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.484393E+00   7.038815E-01   2.658502E+01
-# endfb8.0      1.168376E+00   9.131911E-01   4.999806E+00
-# jeff3.3       1.524969E+00   6.612155E-01   3.097193E+01

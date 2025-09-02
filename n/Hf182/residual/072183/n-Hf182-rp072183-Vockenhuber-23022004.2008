@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Hf182(n,x)Hf183 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Vockenhuber
 #   year: 2008
 #   subentry: 23022004
 #   X4 reaction: 72-HF-182(N,G)72-HF-183,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/23022004
-# target:
+# target: 
 #   Z: 72
 #   A: 182
 #   nuclide: Hf182
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 72
-#   A: 183
-#   nuclide: Hf183
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 72
+#     A: 183
+#     nuclide: Hf183
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.500000E-08   0.000000E+00   1.343000E+05   1.170000E+04   1.000000E+00
@@ -34,17 +35,3 @@
 #   author: C.Vockenhuber, M.Bichler, A.Wallner, W.Kutschera, I.Dillmann, F.Kaeppeler
 #   title: Measurement of the thermal neutron capture cross  section and the resonance integral of radioactive  182Hf
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.77, p.044608 (2008)
-# statistics:
-#   NEA score: T3
-#   IAEA score: -1
-#   E-min [MeV]:  2.500000E-08
-#   E-max [MeV]:  2.500000E-08
-#   F-value:  4.047862E+00
-#   A-value:  3.720726E-01
-#   chi-2:  4.890175E+01
-#   p-value:  3.066015E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.000005E+00   1.000005E+00   7.405926E-05
-# jeff3.3       7.223485E+00   1.384373E-01   9.780343E+01

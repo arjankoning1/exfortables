@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: W186(n,p)Ta186 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Semkova
 #   year: 2007
 #   subentry: 22877014
 #   X4 reaction: 74-W-186(N,P)73-TA-186,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22877014
-# target:
+# target: 
 #   Z: 74
 #   A: 186
 #   nuclide: W186
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 73
-#   A: 186
-#   nuclide: Ta186
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 4
+#   residual: 
+#     Z: 73
+#     A: 186
+#     nuclide: Ta186
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.630000E+01   6.000000E-01   2.580000E+00   5.100000E-01   1.000000E+00
@@ -37,18 +38,3 @@
 #   author: V.Semkova, R.Capote, R.J.Tornin, A.J.Koning,  A.Moens, A.J.M.Plompen
 #   title: New cross section measurements for neutron-induced   reactions on Cr, Ni, Cu, Ta and W isotopes obtained   with the activation technique
 #   journal: Conf: Conf.on Nucl.Data for Sci. and Technology, Nice 2007, Vol.1, p.559
-# statistics:
-#   NEA score: T2
-#   IAEA score:  1
-#   E-min [MeV]:  1.630000E+01
-#   E-max [MeV]:  2.060000E+01
-#   F-value:  1.944647E+00
-#   A-value:  1.909330E+00
-#   chi-2:  3.401488E+01
-#   p-value:  1.238952E-01
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    2.294354E+00   2.292954E+00   5.962128E+01
-# jeff3.3       1.691525E+00   1.668660E+00   1.915908E+01
-# jendl5.0      1.823727E+00   1.819198E+00   2.326428E+01

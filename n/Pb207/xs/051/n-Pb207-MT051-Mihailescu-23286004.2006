@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Pb207(n,n'_01)Pb208 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Mihailescu
 #   year: 2006
 #   subentry: 23286004
 #   X4 reaction: 82-PB-207(N,INL)82-PB-207,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/23286004
-#   level energy [MeV]  5.69700E-01
-# target:
+#   level energy [MeV]:  5.69700E-01
+# target: 
 #   Z: 82
 #   A: 207
 #   nuclide: Pb207
-# reaction:
+# reaction: 
 #   type: (n,n'_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 51
@@ -25,14 +25,15 @@
 #     energy [MeV]:  5.696980E-01
 #     spin:  2.500000E+00
 #     parity: -1
-# residual:
-#   Z: 82
-#   A: 208
-#   nuclide: Pb208
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1506
+#   residual: 
+#     Z: 82
+#     A: 208
+#     nuclide: Pb208
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1506
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    5.726500E-01   4.800000E-04   4.023000E+00   1.529100E+01   1.000000E+00
@@ -1545,20 +1546,3 @@
 #   author: L.C.Mihailescu, A.J.M.Plompen, C.Borcea
 #   title: Neutron (n,xng) cross-section measurements for 52Cr,  209Bi,206,207,208Pb from threshold up to 20 MeV
 #   journal: Rept: Euratom Reports, No.22343 (2006)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  5.726500E-01
-#   E-max [MeV]:  4.310050E+00
-#   F-value:  2.022931E+00
-#   A-value:  1.311169E+00
-#   chi-2:  5.377160E+01
-#   p-value:  1.418742E-01
-#   exp. data sets for p-value:      1
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.684905E+00   1.224892E+00   3.036554E+01
-# endfb8.0      2.158028E+00   1.430840E+00   5.928307E+01
-# jeff3.3       1.121200E+00   9.723142E-01   6.494190E-01
-# jendl5.0      2.173674E+00   1.388601E+00   5.922332E+01
-# cendl3.2      2.364124E+00   1.509007E+00   9.305080E+01

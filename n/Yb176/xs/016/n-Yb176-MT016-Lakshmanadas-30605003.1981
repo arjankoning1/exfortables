@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Yb176(n,2n)Yb175 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Lakshmanadas
 #   year: 1981
 #   subentry: 30605003
 #   X4 reaction: 70-YB-176(N,2N)70-YB-175,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30605003
-# target:
+# target: 
 #   Z: 70
 #   A: 176
 #   nuclide: Yb176
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 70
-#   A: 175
-#   nuclide: Yb175
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 70
+#     A: 175
+#     nuclide: Yb175
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.420000E+01   2.000000E-01   2.071342E+03   1.405016E+02   1.035671E+00
@@ -34,19 +35,3 @@
 #   author: N.Lakshmana Das, C.V.Srinivasa Rao, J.Rama Rao
 #   title: Some neutron activation cross-sections in the heavy mass region at 14 MeV
 #   journal: Jour: Annals of Nuclear Energy, Vol.8, p.283 (1981)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.420000E+01
-#   E-max [MeV]:  1.420000E+01
-#   F-value:  1.060860E+00
-#   A-value:  9.576254E-01
-#   chi-2:  1.017075E+00
-#   p-value:  3.909502E-01
-#   exp. data sets for p-value:      2
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.081773E+00   9.244086E-01   1.829767E+00
-# endfb8.0      1.003249E+00   9.967615E-01   6.044108E-02
-# jeff3.3       1.092104E+00   9.156641E-01   2.117649E+00
-# jendl5.0      1.003249E+00   9.967615E-01   6.044108E-02

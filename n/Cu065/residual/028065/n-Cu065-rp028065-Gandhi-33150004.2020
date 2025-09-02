@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Cu65(n,x)Ni65 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Gandhi
 #   year: 2020
 #   subentry: 33150004
 #   X4 reaction: 29-CU-65(N,P)28-NI-65,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/33150004
-# target:
+# target: 
 #   Z: 29
 #   A: 65
 #   nuclide: Cu65
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 28
-#   A: 65
-#   nuclide: Ni65
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 28
+#     A: 65
+#     nuclide: Ni65
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.492000E+01   2.000000E-02   2.243973E+01   1.612000E+00   9.999878E-01
@@ -34,19 +35,3 @@
 #   author: A.Gandhi, A.Sharma, A.Kumar, R.Pachuau, B.Lalremruata, S.V.Suryanarayana, L.S.Danu, T.Patel, S.Bishnoi, B.K.Nayak
 #   title: Measurement of (n,g), (n,p), and (n,2n) reaction cross sections for sodium, potassium, copper, and iodine at neutron energy 14.92 +/- 0.02 MeV with covariance analysis
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.102, p.014603 (2020)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  1.492000E+01
-#   E-max [MeV]:  1.492000E+01
-#   F-value:  1.157785E+00
-#   A-value:  8.981888E-01
-#   chi-2:  3.517689E+00
-#   p-value:  4.181106E-01
-#   exp. data sets for p-value:      8
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.246230E+00   8.024201E-01   7.651252E+00
-# endfb8.0      1.212584E+00   8.246853E-01   6.118430E+00
-# jeff3.3       1.000779E+00   9.992214E-01   1.361440E-02
-# jendl5.0      1.015971E+00   9.842799E-01   2.874614E-01

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Pb0(d,x)Pb203 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Ditroi
 #   year: 2014
 #   subentry: D4311008
 #   X4 reaction: 82-PB-0(D,X)82-PB-203,CUM,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/D4311008
-# target:
+# target: 
 #   Z: 82
 #   A: 0
 #   nuclide: Pb0
-# reaction:
+# reaction: 
 #   type: (d,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 82
-#   A: 203
-#   nuclide: Pb203
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 25
+#   residual: 
+#     Z: 82
+#     A: 203
+#     nuclide: Pb203
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 25
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.270000E+01   5.000000E-01   9.995100E-02   1.999000E-01   9.995058E-01
@@ -58,16 +59,3 @@
 #   author: F.Ditroi,F.Tarkanyi,S.Takacs,A.Hermanne,A.V.Ignatyuk
 #   title: Excitation functions of natPb(d,x) 206,205,204,203,202Bi, 203cum,202m,201cumPb and 202cum, 201cumTl reactions up to 50 MeV
 #   journal: Jour: Journal of Radioanalytical and Nuclear Chemistry, Vol.300, p.1267
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  1.270000E+01
-#   E-max [MeV]:  4.910000E+01
-#   F-value:  3.702546E+01
-#   A-value:  3.044444E-02
-#   chi-2:  5.808002E+01
-#   p-value:  1.739140E-02
-#   exp. data sets for p-value:      2
-#   libraries:      1
-##  Library          F              A            chi-2
-# tendl.2023    3.702546E+01   3.044444E-02   5.808002E+01

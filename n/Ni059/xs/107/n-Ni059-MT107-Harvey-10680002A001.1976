@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ni59(n,a)Fe56 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Harvey
 #   year: 1976
 #   subentry: 10680002
 #   X4 reaction: 28-NI-59(N,A)26-FE-56,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/10680002
-# target:
+# target: 
 #   Z: 28
 #   A: 59
 #   nuclide: Ni59
-# reaction:
+# reaction: 
 #   type: (n,a)
 #   ENDF_MF: 3
 #   ENDF_MT: 107
-# residual:
-#   Z: 26
-#   A: 56
-#   nuclide: Fe56
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 26
+#     A: 56
+#     nuclide: Fe56
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.530000E-08   0.000000E+00   1.140000E+04   8.000000E+02   1.000000E+00
@@ -34,19 +35,3 @@
 #   author: J.A.Harvey,J.Halperin,N.W.Hill,S.Raman,R.L.Macklin
 #   title: (n,alpha),(n,p),(n,gamma), and total neutron-cross- section measurements on 59Ni
 #   journal: Prog: Oak Ridge National Lab. Reports, No.5137, p.2 (1976)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  2.530000E-08
-#   E-max [MeV]:  2.530000E-08
-#   F-value:  1.079410E+00
-#   A-value:  1.078324E+00
-#   chi-2:  1.858502E+00
-#   p-value:  1.579588E-01
-#   exp. data sets for p-value:      8
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.063096E+00   1.063096E+00   1.392311E+00
-# endfb8.0      1.075302E+00   1.075302E+00   1.741707E+00
-# jeff3.3       1.099928E+00   1.099928E+00   2.558281E+00
-# jendl5.0      1.075302E+00   1.075302E+00   1.741707E+00

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Cu63(n,3n)Cu61 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Uwamino
 #   year: 1992
 #   subentry: 22703007
 #   X4 reaction: 29-CU-63(N,3N)29-CU-61,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22703007
-# target:
+# target: 
 #   Z: 29
 #   A: 63
 #   nuclide: Cu63
-# reaction:
+# reaction: 
 #   type: (n,3n)
 #   ENDF_MF: 3
 #   ENDF_MT: 17
-# residual:
-#   Z: 29
-#   A: 61
-#   nuclide: Cu61
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 18
+#   residual: 
+#     Z: 29
+#     A: 61
+#     nuclide: Cu61
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 18
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.150000E+01   0.000000E+00   1.838000E+00   7.600001E-01   1.000000E+00
@@ -51,19 +52,3 @@
 #   author: Y.UWAMINO,H.SUGITA,Y.KONDO,T.NAKAMURA
 #   title: Measurement of neutron activation cross sections of energy up to 40 MeV using semimonoenergetic p-Be neutrons
 #   journal: Jour: Nuclear Science and Engineering, Vol.111, p.391 (1992)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  2.150000E+01
-#   E-max [MeV]:  3.850000E+01
-#   F-value:  1.334682E+00
-#   A-value:  1.192504E+00
-#   chi-2:  2.395564E+00
-#   p-value:  2.869139E-01
-#   exp. data sets for p-value:      1
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.477690E+00   1.421865E+00   4.634534E+00
-# endfb8.0      1.100339E+00   9.372511E-01   3.624550E-01
-# jeff3.3       1.382322E+00   1.254814E+00   2.971728E+00
-# jendl5.0      1.258924E+00   1.155994E+00   1.589606E+00

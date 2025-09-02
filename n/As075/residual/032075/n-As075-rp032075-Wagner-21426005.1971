@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: As75(n,x)Ge75 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Wagner
 #   year: 1971
 #   subentry: 21426005
 #   X4 reaction: 33-AS-75(N,P)32-GE-75,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/21426005
-# target:
+# target: 
 #   Z: 33
 #   A: 75
 #   nuclide: As75
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 32
-#   A: 75
-#   nuclide: Ge75
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 32
+#     A: 75
+#     nuclide: Ge75
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.470000E+01   5.000000E-01   2.551087E+01   4.611100E+00   1.004365E+00
@@ -34,18 +35,3 @@
 #   author: I.Wagner,M.Uhl
 #   title: Measurements of some (n,p), (n,2n) and (n,n+gamma)  cross sections of medium heavy nuclei   (in German)
 #   journal: Jour: Oesterr.Akad.Wiss.,Math-Naturw.Kl.,Anzeiger, Vol.108, p.185 (1971)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.470000E+01
-#   E-max [MeV]:  1.470000E+01
-#   F-value:  1.217519E+00
-#   A-value:  8.337939E-01
-#   chi-2:  1.469399E+00
-#   p-value:  1.883103E-01
-#   exp. data sets for p-value:      8
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.123886E+00   8.897697E-01   8.773651E-01
-# jeff3.3       1.151337E+00   8.685555E-01   1.077195E+00
-# jendl5.0      1.333211E+00   7.500686E-01   2.453638E+00

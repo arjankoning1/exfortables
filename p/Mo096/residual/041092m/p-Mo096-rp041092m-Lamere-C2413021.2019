@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: Mo96(p,x)Nb92m cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Lamere
 #   year: 2019
 #   subentry: C2413021
 #   X4 reaction: 42-MO-96(P,X)41-NB-92-M,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/C2413021
-# target:
+# target: 
 #   Z: 42
 #   A: 96
 #   nuclide: Mo96
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 41
-#   A: 92
-#   nuclide: Nb92m
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 6
+#   residual: 
+#     Z: 41
+#     A: 92
+#     nuclide: Nb92m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.405000E+01   4.000000E-02   1.800000E-01   7.000000E-02   1.000000E+00
@@ -44,17 +45,3 @@
 #   author: E.Lamere,M.Couder,M.Beard,A.Simon,A.Simonetti, M.Skulski,G.Seymour,P.Huestis,K.Manukyan,Z.Meisel, L.Morales,M.Moran,S.Moylan,C.Seymour,E.Stech
 #   title: Proton-induced reactions on molybdenum
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.100, p.034614 (2019)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  1.405000E+01
-#   E-max [MeV]:  1.906000E+01
-#   F-value:  1.815747E+00
-#   A-value:  7.600381E-01
-#   chi-2:  9.524793E-01
-#   p-value:  3.218150E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.795358E+00   7.627154E-01   9.163239E-01
-# jendl5.0      1.835983E+00   7.573701E-01   9.886344E-01

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: B10(h,n')N12 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Peterson
 #   year: 1963
 #   subentry: P0082002
 #   X4 reaction: 5-B-10(HE3,N)7-N-12,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/P0082002
-# target:
+# target: 
 #   Z: 5
 #   A: 10
 #   nuclide: B10
-# reaction:
+# reaction: 
 #   type: (h,n')
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 7
-#   A: 12
-#   nuclide: N12
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 45
+#   residual: 
+#     Z: 7
+#     A: 12
+#     nuclide: N12
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 45
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.500000E+00   0.000000E+00   2.900000E-01   8.700000E-02   1.000000E+00
@@ -78,16 +79,3 @@
 #   author: R.W.PETERSON,N.W.GLASS
 #   title: Some N12 and B12 Beta-Decay Measurements
 #   journal: Jour: Physical Review, Vol.130, p.292 (1963)
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  1.500000E+00
-#   E-max [MeV]:  6.280000E+00
-#   F-value:  5.456784E+00
-#   A-value:  5.385647E+00
-#   chi-2:  2.380232E+02
-#   p-value:  1.574348E-01
-#   exp. data sets for p-value:      2
-#   libraries:      1
-##  Library          F              A            chi-2
-# tendl.2023    5.456784E+00   5.385647E+00   2.380232E+02

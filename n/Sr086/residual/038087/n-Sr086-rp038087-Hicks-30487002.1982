@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Sr86(n,x)Sr87 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Hicks
 #   year: 1982
 #   subentry: 30487002
 #   X4 reaction: 38-SR-86(N,G)38-SR-87,,SIG,,AV
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30487002
-# target:
+# target: 
 #   Z: 38
 #   A: 86
 #   nuclide: Sr86
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 38
-#   A: 87
-#   nuclide: Sr87
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 15
+#   residual: 
+#     Z: 38
+#     A: 87
+#     nuclide: Sr87
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 15
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.500000E-03   5.000000E-04   7.350001E+02   8.400001E+01   1.000000E+00
@@ -48,18 +49,3 @@
 #   author: G.C.Hicks, B.J.Allen, A.R.de L.Musgrove, R.L.Macklin
 #   title: Resonance neutron capture in 86,87Sr
 #   journal: Jour: Australian Journal of Physics, Vol.35, p.267 (1982)
-# statistics:
-#   NEA score: T3
-#   IAEA score: -1
-#   E-min [MeV]:  3.500000E-03
-#   E-max [MeV]:  1.750000E-01
-#   F-value:  2.933733E+01
-#   A-value:  1.598852E-01
-#   chi-2:  7.406163E+03
-#   p-value:  1.183425E-01
-#   exp. data sets for p-value:      2
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    3.297845E+01   1.458399E-01   5.710995E+03
-# jeff3.3       3.092690E+01   1.115665E-01   8.254620E+03
-# jendl5.0      2.458256E+01   2.511972E-01   8.252878E+03

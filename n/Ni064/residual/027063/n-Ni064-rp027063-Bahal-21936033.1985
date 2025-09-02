@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ni64(n,x)Co63 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Bahal
 #   year: 1985
 #   subentry: 21936033
 #   X4 reaction: 28-NI-64(N,X)27-CO-63,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/21936033
-# target:
+# target: 
 #   Z: 28
 #   A: 64
 #   nuclide: Ni64
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 28
-# residual:
-#   Z: 27
-#   A: 63
-#   nuclide: Co63
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 27
+#     A: 63
+#     nuclide: Co63
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.470000E+01   6.000000E-01   3.622000E+00   7.042900E-01   1.006122E+00
@@ -34,19 +35,3 @@
 #   author: B.M.Bahal, R.Pepelnik
 #   title: Cross section measurements of Cr,Mn,Fe,Co,Ni for an  accurate determination of these elements in natural  and synthetic samples using a 14 MeV neutron generator
 #   journal: Rept: Ges.Kernen.-Verwertung, Schiffbau and Schiffahrt, No.85-E-11 (1985
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  1.470000E+01
-#   E-max [MeV]:  1.470000E+01
-#   F-value:  3.675314E+01
-#   A-value:  4.489351E-02
-#   chi-2:  1.919137E+01
-#   p-value:  9.472513E-02
-#   exp. data sets for p-value:      3
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    2.363577E+01   4.230875E-02   2.425748E+01
-# endfb8.0      7.387882E+01   1.353568E-02   2.573694E+01
-# jeff3.3       1.113563E+00   8.980180E-01   7.391055E-01
-# jendl5.0      1.266081E+02   7.898390E-03   2.603194E+01

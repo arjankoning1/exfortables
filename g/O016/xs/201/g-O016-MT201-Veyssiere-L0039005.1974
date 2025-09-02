@@ -1,28 +1,29 @@
-# header:
+# header: 
 #   title: O16(g,xn) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Veyssiere
 #   year: 1974
 #   subentry: L0039005
 #   X4 reaction: 8-O-16(G,X)0-NN-1,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/L0039005
-# target:
+# target: 
 #   Z: 8
 #   A: 16
 #   nuclide: O16
-# reaction:
+# reaction: 
 #   type: (g,xn)
 #   ENDF_MF: 3
 #   ENDF_MT: 201
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 136
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 136
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.564000E+01   0.000000E+00   9.999999E-02   1.500000E-01   1.000000E+00
@@ -165,18 +166,3 @@
 #   author: A.VEYSSIERE,H.BEIL,R.BERGERE,P.CARLOS,A.LEPRETRE, A.DE MINIAC
 #   title: A study of the photoneutron contribution to the giant dipole resonance of s-d shell nuclei.
 #   journal: Jour: Nuclear Physics, Section A, Vol.227, p.513 (1974)
-# statistics:
-#   NEA score: T3
-#   IAEA score: -1
-#   E-min [MeV]:  1.564000E+01
-#   E-max [MeV]:  3.705000E+01
-#   F-value:  3.262727E+00
-#   A-value:  7.197502E-01
-#   chi-2:  1.587999E+02
-#   p-value:  2.600102E-01
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.859844E+00   1.053424E+00   1.116511E+02
-# endfb8.0      6.972368E+00   3.068988E-01   3.662287E+02
-# jendl5.0      1.454717E+00   1.096425E+00   9.745409E+00

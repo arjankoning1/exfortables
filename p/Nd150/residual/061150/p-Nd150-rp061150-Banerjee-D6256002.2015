@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Nd150(p,x)Pm150 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Banerjee
 #   year: 2015
 #   subentry: D6256002
 #   X4 reaction: 60-ND-150(P,N)61-PM-150,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/D6256002
-# target:
+# target: 
 #   Z: 60
 #   A: 150
 #   nuclide: Nd150
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 61
-#   A: 150
-#   nuclide: Pm150
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 20
+#   residual: 
+#     Z: 61
+#     A: 150
+#     nuclide: Pm150
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 20
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    7.120000E+00   0.000000E+00   2.555000E+01   1.880000E+00   1.000000E+00
@@ -53,16 +54,3 @@
 #   author: D.Banerjee, A.Saha, T.Bhattacharjee, R.Guin, S.K.Das,  P.Das, D.Pandit, A.Mukherjee, A.Chowdhury,  S.Bhattacharya, S.Das Gupta, S.Bhattacharyya,  P.Mukhopadhyay, S.R.Banerjee
 #   title: Role of p-induced population of medium-mass (A~150)  neutron-rich nuclei
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.91, p.024617 (2015)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  7.120000E+00
-#   E-max [MeV]:  1.494000E+01
-#   F-value:  1.385656E+00
-#   A-value:  1.044532E+00
-#   chi-2:  5.878876E+01
-#   p-value:  2.380073E-01
-#   exp. data sets for p-value:      1
-#   libraries:      1
-##  Library          F              A            chi-2
-# tendl.2023    1.385656E+00   1.044532E+00   5.878876E+01

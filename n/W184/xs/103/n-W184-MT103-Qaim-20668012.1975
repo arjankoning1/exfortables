@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: W184(n,p)Ta184 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Qaim
 #   year: 1975
 #   subentry: 20668012
 #   X4 reaction: 74-W-184(N,P)73-TA-184,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20668012
-# target:
+# target: 
 #   Z: 74
 #   A: 184
 #   nuclide: W184
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 73
-#   A: 184
-#   nuclide: Ta184
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 73
+#     A: 184
+#     nuclide: Ta184
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.470000E+01   6.000000E-01   3.343100E+00   3.458300E-01   1.152778E+00
@@ -34,18 +35,3 @@
 #   author: S.M.Qaim,C.Graca
 #   title: Neutron activation cross sections at 14.7 MeV for  isotopes of tungsten
 #   journal: Jour: Nuclear Physics, Section A, Vol.242, p.317 (1975)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.470000E+01
-#   E-max [MeV]:  1.470000E+01
-#   F-value:  1.028257E+00
-#   A-value:  9.759985E-01
-#   chi-2:  3.095649E-01
-#   p-value:  4.479364E-01
-#   exp. data sets for p-value:      8
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.041332E+00   9.603082E-01   5.231367E-01
-# jeff3.3       1.025591E+00   9.750476E-01   3.184374E-01
-# jendl5.0      1.007138E+00   9.929124E-01   8.712051E-02

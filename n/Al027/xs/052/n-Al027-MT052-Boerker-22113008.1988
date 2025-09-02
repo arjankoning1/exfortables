@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Al27(n,n'_02)Al28 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Boerker
 #   year: 1988
 #   subentry: 22113008
 #   X4 reaction: 13-AL-27(N,INL)13-AL-27,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22113008
-#   level energy [MeV]  1.00000E+00
-# target:
+#   level energy [MeV]:  1.00000E+00
+# target: 
 #   Z: 13
 #   A: 27
 #   nuclide: Al27
-# reaction:
+# reaction: 
 #   type: (n,n'_02)
 #   ENDF_MF: 3
 #   ENDF_MT: 52
@@ -25,14 +25,15 @@
 #     energy [MeV]:  1.014560E+00
 #     spin:  1.500000E+00
 #     parity: 1
-# residual:
-#   Z: 13
-#   A: 28
-#   nuclide: Al28
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 13
+#     A: 28
+#     nuclide: Al28
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.015900E+01   4.900000E-02   4.440000E+01   1.200000E+00   1.000000E+00
@@ -40,20 +41,3 @@
 #   author: G.BOERKER,R.BOETTGER,H.J.BREDE,H.KLEIN,W.MANNHART,  R.L.SIEBERT
 #   title: -ELASTIC AND INELASTIC DIFFERENTIAL NEUTRON SCATTERING  CROSS SECTIONS OF OXYGEN BETWEEN 6 AND 15 MEV.
 #   journal: Conf: Conf.on Nucl.Data For Sci.and Technol.,Mito 1988, p.193 (1988)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  1.015900E+01
-#   E-max [MeV]:  1.015900E+01
-#   F-value:  2.364625E+00
-#   A-value:  4.939158E-01
-#   chi-2:  3.311396E+02
-#   p-value:  7.182914E-02
-#   exp. data sets for p-value:      1
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    5.406117E+00   1.849756E-01   9.093785E+02
-# endfb8.0      1.663295E+00   6.012163E-01   2.177099E+02
-# jeff3.3       1.663295E+00   6.012163E-01   2.177099E+02
-# jendl5.0      1.496678E+00   6.681463E-01   1.507637E+02
-# cendl3.2      1.519788E+00   6.579866E-01   1.601363E+02

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Fe54(a,n')Ni57 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Tanaka
 #   year: 1960
 #   subentry: P0057002
 #   X4 reaction: 26-FE-54(A,N)28-NI-57,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/P0057002
-# target:
+# target: 
 #   Z: 26
 #   A: 54
 #   nuclide: Fe54
-# reaction:
+# reaction: 
 #   type: (a,n')
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 28
-#   A: 57
-#   nuclide: Ni57
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 15
+#   residual: 
+#     Z: 28
+#     A: 57
+#     nuclide: Ni57
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 15
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.100000E+01   0.000000E+00   5.270001E+01   0.000000E+00   1.000000E+00
@@ -48,16 +49,3 @@
 #   author: S.TANAKA,M.FURUKAWA,S.IWATA,M.YAGI,H.AMANO,T.MIKUMO
 #   title: Reactions of Iron-54 with Alpha Particles
 #   journal: Jour: Journal of the Physical Society of Japan, Vol.15, p.1547 (1960)
-# statistics:
-#   NEA score: R2
-#   IAEA score:  1
-#   E-min [MeV]:  1.100000E+01
-#   E-max [MeV]:  2.760000E+01
-#   F-value:  1.574001E+00
-#   A-value:  7.124709E-01
-#   chi-2:  1.366873E+00
-#   p-value:  3.246289E-01
-#   exp. data sets for p-value:      2
-#   libraries:      1
-##  Library          F              A            chi-2
-# tendl.2023    1.574001E+00   7.124709E-01   1.366873E+00

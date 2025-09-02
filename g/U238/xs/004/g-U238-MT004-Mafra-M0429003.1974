@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: U238(g,n')U237 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Mafra
 #   year: 1974
 #   subentry: M0429003
 #   X4 reaction: 92-U-238(G,N)92-U-237,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/M0429003
-# target:
+# target: 
 #   Z: 92
 #   A: 238
 #   nuclide: U238
-# reaction:
+# reaction: 
 #   type: (g,n')
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 92
-#   A: 237
-#   nuclide: U237
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 10
+#   residual: 
+#     Z: 92
+#     A: 237
+#     nuclide: U237
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    6.070000E+00   0.000000E+00   1.060000E+01   3.200000E+00   1.000000E+00
@@ -43,18 +44,3 @@
 #   author: O.Y.Mafra,M.F.Cezar,C.Renner,J.Goldemberg
 #   title: The Th-232(gamma,n)Th-231 cross section near  threshold.
 #   journal: Jour: Nuclear Physics, Section A, Vol.236, p.1 (1974)
-# statistics:
-#   NEA score: T3
-#   IAEA score:  1
-#   E-min [MeV]:  6.070000E+00
-#   E-max [MeV]:  9.000000E+00
-#   F-value:  2.711080E+00
-#   A-value:  2.239161E+00
-#   chi-2:  4.191415E+01
-#   p-value:  1.367745E-01
-#   exp. data sets for p-value:      5
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    2.499113E+00   2.025178E+00   2.813873E+01
-# endfb8.0      0.000000E+00   0.000000E+00   0.000000E+00
-# jendl5.0      2.905172E+00   2.410499E+00   6.051733E+01

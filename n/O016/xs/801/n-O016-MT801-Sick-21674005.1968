@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: O16(n,p_01) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Sick
 #   year: 1968
 #   subentry: 21674005
 #   X4 reaction: 8-O-16(N,A)6-C-13,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/21674005
-#   level energy [MeV]  3.09000E+00
-# target:
+#   level energy [MeV]:  3.09000E+00
+# target: 
 #   Z: 8
 #   A: 16
 #   nuclide: O16
-# reaction:
+# reaction: 
 #   type: (n,p_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 801
@@ -25,10 +25,11 @@
 #     energy [MeV]:  0.000000E+00
 #     spin:  3.000000E+00
 #     parity: -1
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 28
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 28
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.480000E+01   3.500000E-01   7.443501E+01   3.721750E+00   1.000000E+00
@@ -63,18 +64,3 @@
 #   author: I.Sick,E.Baumgartner,P.Huber,Th.Stammbach
 #   title: -Measurement of the differential cross sections of the  reaction O-16(N,A)C-13 in the energy range 14.8 - 18.8  MeV -.
 #   journal: Jour: Helvetica Physica Acta, Vol.41, p.573 (1968)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  1.480000E+01
-#   E-max [MeV]:  1.881000E+01
-#   F-value:  1.575107E+01
-#   A-value:  6.414773E-02
-#   chi-2:  3.490086E+02
-#   p-value:  1.383679E-07
-#   exp. data sets for p-value:      2
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.575107E+01   6.414773E-02   3.490086E+02
-# endfb8.0      1.575107E+01   6.414774E-02   3.490086E+02
-# jeff3.3       1.575107E+01   6.414773E-02   3.490086E+02

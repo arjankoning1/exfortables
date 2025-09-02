@@ -1,28 +1,29 @@
-# header:
+# header: 
 #   title: Fe56(p,x) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Jenkins
 #   year: 1970
 #   subentry: B0041006
 #   X4 reaction: 26-FE-56(P,X)25-MN-54,IND,SIG,,,EXP
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/B0041006
-# target:
+# target: 
 #   Z: 26
 #   A: 56
 #   nuclide: Fe56
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 9000
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 8
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.460000E+01   0.000000E+00   6.001400E+00   2.766600E-01   1.000240E+00
@@ -37,18 +38,3 @@
 #   author: I.L.Jenkins, A.G.Wain
 #   title: Excitation functions for the bombardment of Fe-56 with protons
 #   journal: Jour: Journal of Inorganic and Nuclear Chemistry, Vol.32, p.1419 (1970)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  2.460000E+01
-#   E-max [MeV]:  3.900000E+01
-#   F-value:  1.811508E+00
-#   A-value:  8.665034E-01
-#   chi-2:  6.794504E+01
-#   p-value:  2.646753E-01
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.712588E+00   8.763720E-01   6.447238E+01
-# endfb8.0      1.806708E+00   8.785474E-01   7.001299E+01
-# jendl5.0      1.911483E+00   8.450007E-01   6.934976E+01

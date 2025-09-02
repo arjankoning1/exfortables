@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Au197(n,2n)Au196 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Majerle
 #   year: 2016
 #   subentry: 31767002
 #   X4 reaction: 79-AU-197(N,2N)79-AU-196,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/31767002
-# target:
+# target: 
 #   Z: 79
 #   A: 197
 #   nuclide: Au197
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 79
-#   A: 196
-#   nuclide: Au196
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 8
+#   residual: 
+#     Z: 79
+#     A: 196
+#     nuclide: Au196
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.730000E+01   1.100000E+00   1.470000E+03   1.700000E+02   1.000000E+00
@@ -41,21 +42,3 @@
 #   author: M.Majerle, P.Bem, J.Novak, E.Simeckova, M.Stefanik
 #   title: Au, Bi, Co and Nb cross-section measured by  quasimonoenergetic neutrons from p+7Li reaction in  the energy range of 18-36 MeV
 #   journal: Jour: Nuclear Physics, Section A, Vol.953, p.139 (2016)
-# statistics:
-#   NEA score: T2
-#   IAEA score:  0
-#   E-min [MeV]:  1.730000E+01
-#   E-max [MeV]:  3.550000E+01
-#   F-value:  1.597139E+00
-#   A-value:  9.279688E-01
-#   chi-2:  5.156791E+00
-#   p-value:  2.127983E-01
-#   exp. data sets for p-value:      8
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.888425E+00   6.767226E-01   3.925643E+00
-# endfb8.0      1.411309E+00   1.286755E+00   9.151777E+00
-# jeff3.3       1.411309E+00   1.286755E+00   9.151777E+00
-# jendl5.0      1.453700E+00   1.011747E+00   4.707675E+00
-# cendl3.2      1.124209E+00   1.122301E+00   1.616746E+00
-# irdff2.0      1.392340E+00   9.444437E-01   2.894659E+00

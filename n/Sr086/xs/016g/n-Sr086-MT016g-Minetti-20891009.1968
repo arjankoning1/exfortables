@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: Sr86(n,2n)Sr85g cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Minetti
 #   year: 1968
 #   subentry: 20891009
 #   X4 reaction: 38-SR-86(N,2N)38-SR-85-G,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20891009
-# target:
+# target: 
 #   Z: 38
 #   A: 86
 #   nuclide: Sr86
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 38
-#   A: 85
-#   nuclide: Sr85g
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 38
+#     A: 85
+#     nuclide: Sr85g
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.470000E+01   0.000000E+00   9.979208E+02   8.350632E+01   1.096616E+00
@@ -39,18 +40,3 @@
 #   author: B.MINETTI,A.PASQUARELLI
 #   title: -ISOMERIC CROSS SECTION RATIO FOR (N,2N) REACTIONS  INDUCED BY 14.7 MEV NEUTRONS-
 #   journal: Jour: Nuclear Physics, Section A, Vol.118, p.449 (1968)
-# statistics:
-#   NEA score: R2
-#   IAEA score:  1
-#   E-min [MeV]:  1.470000E+01
-#   E-max [MeV]:  1.470000E+01
-#   F-value:  1.475267E+00
-#   A-value:  6.778684E-01
-#   chi-2:  1.482357E+01
-#   p-value:  3.076822E-01
-#   exp. data sets for p-value:      8
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.481774E+00   6.748666E-01   1.509959E+01
-# jeff3.3       1.464170E+00   6.829807E-01   1.435676E+01
-# jendl5.0      1.479756E+00   6.757870E-01   1.501437E+01

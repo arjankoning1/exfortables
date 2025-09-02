@@ -1,28 +1,29 @@
-# header:
+# header: 
 #   title: U238(g,f) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Manfredini
 #   year: 1966
 #   subentry: L0093002
 #   X4 reaction: 92-U-238(G,F),,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/L0093002
-# target:
+# target: 
 #   Z: 92
 #   A: 238
 #   nuclide: U238
-# reaction:
+# reaction: 
 #   type: (g,f)
 #   ENDF_MF: 3
 #   ENDF_MT: 18
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 12
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 12
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    5.410000E+00   0.000000E+00   4.090000E-01   0.000000E+00   1.000000E+00
@@ -41,18 +42,3 @@
 #   author: A.Manfredini,M.Muchnik,L.Fiore,C.Ramorino,  H.G.De Carvalho,R.Bosch,W.Wolfli
 #   title: Results on the cross section of 238U fission induced by  low energy monoenergetic gamma rays
 #   journal: Jour: Nuovo Cimento B, Vol.44, p.218 (1966)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  5.410000E+00
-#   E-max [MeV]:  8.850000E+00
-#   F-value:  1.979491E+00
-#   A-value:  1.055657E+00
-#   chi-2:  2.206750E+01
-#   p-value:  2.503957E-01
-#   exp. data sets for p-value:      8
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    2.229273E+00   1.068946E+00   1.603445E+01
-# endfb8.0      1.696412E+00   1.018370E+00   2.086069E+01
-# jendl5.0      1.994724E+00   1.080704E+00   2.930737E+01

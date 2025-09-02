@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Al27(n,x)Mg27 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Robertson
 #   year: 1972
 #   subentry: 20822007
 #   X4 reaction: 13-AL-27(N,P)12-MG-27,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20822007
-# target:
+# target: 
 #   Z: 13
 #   A: 27
 #   nuclide: Al27
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 12
-#   A: 27
-#   nuclide: Mg27
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 18
+#   residual: 
+#     Z: 12
+#     A: 27
+#     nuclide: Mg27
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 18
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.300000E+00   0.000000E+00   9.780000E+00   0.000000E+00   1.000000E+00
@@ -51,19 +52,3 @@
 #   author: J.C.ROBERTSON,K.J.ZIEBA
 #   title: -THE (N,ALPHA) AND (N,P) REACTIONS IN SILICON AND  THE (N,P) REACTION IN ALUMINIUM AT ENERGIES UP TO  5.6 MEV-
 #   journal: Jour: Journal of Nuclear Energy, Vol.26, Issue.1, p.1 (1972)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  4.300000E+00
-#   E-max [MeV]:  5.270000E+00
-#   F-value:  1.248769E+00
-#   A-value:  1.092716E+00
-#   chi-2:  0.000000E+00
-#   p-value:  2.342650E-01
-#   exp. data sets for p-value:      7
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.322548E+00   1.101759E+00   0.000000E+00
-# endfb8.0      1.193852E+00   1.040442E+00   0.000000E+00
-# jeff3.3       1.193852E+00   1.040442E+00   0.000000E+00
-# jendl5.0      1.268258E+00   1.195382E+00   0.000000E+00

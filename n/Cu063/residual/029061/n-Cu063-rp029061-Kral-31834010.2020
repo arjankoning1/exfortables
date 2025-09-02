@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Cu63(n,x)Cu61 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Kral
 #   year: 2020
 #   subentry: 31834010
 #   X4 reaction: 29-CU-63(N,3N)29-CU-61,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/31834010
-# target:
+# target: 
 #   Z: 29
 #   A: 63
 #   nuclide: Cu63
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 17
-# residual:
-#   Z: 29
-#   A: 61
-#   nuclide: Cu61
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 29
+#     A: 61
+#     nuclide: Cu61
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.910000E+01   0.000000E+00   1.364000E+02   2.750000E+01   1.000000E+00
@@ -34,19 +35,3 @@
 #   author: D.Kral, M.Zeman, K.Katovsky, E.Melyan, R.Holomb
 #   title: Cross section determination for TAD materials in quasi  mono-energetic neutron spectrum from p(Li) reaction
 #   journal: Jour: EPJ Web of Conferences, Vol.239, p.20004 (2020)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  2.910000E+01
-#   E-max [MeV]:  2.910000E+01
-#   F-value:  1.209038E+00
-#   A-value:  9.231206E-01
-#   chi-2:  9.980308E-01
-#   p-value:  3.244492E-01
-#   exp. data sets for p-value:      2
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.113846E+00   1.113846E+00   8.034972E-01
-# endfb8.0      1.434664E+00   6.970276E-01   2.765329E+00
-# jeff3.3       1.032776E+00   9.682637E-01   2.040162E-01
-# jendl5.0      1.035225E+00   9.659734E-01   2.192813E-01

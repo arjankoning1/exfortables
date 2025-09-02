@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: C0(n,n'_01)C1 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Perey
 #   year: 1978
 #   subentry: 10609005
 #   X4 reaction: 6-C-0(N,INL)6-C-12,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/10609005
-#   level energy [MeV]  4.43000E+00
-# target:
+#   level energy [MeV]:  4.43000E+00
+# target: 
 #   Z: 6
 #   A: 0
 #   nuclide: C0
-# reaction:
+# reaction: 
 #   type: (n,n'_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 51
@@ -25,14 +25,15 @@
 #     energy [MeV]:  4.439820E+00
 #     spin:  2.000000E+00
 #     parity: 1
-# residual:
-#   Z: 6
-#   A: 1
-#   nuclide: C1
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 39
+#   residual: 
+#     Z: 6
+#     A: 1
+#     nuclide: C1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 39
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    5.320000E+00   1.000000E-01   1.160000E+02   2.088000E+01   1.000000E+00
@@ -78,20 +79,3 @@
 #   author: F.G.Perey,W.E.Kinney
 #   title: Elastic and inelastic scattering cross sections in the energy range 5.2 - 8.7 MeV
 #   journal: Prog: U.S.AEC Nucl.Cross Sections Advisory Comm. Repts, No.42, p.190 (19
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  5.320000E+00
-#   E-max [MeV]:  8.690000E+00
-#   F-value:  1.081036E+00
-#   A-value:  1.011228E+00
-#   chi-2:  1.116584E+00
-#   p-value:  2.750627E-01
-#   exp. data sets for p-value:      2
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.077638E+00   1.004953E+00   9.468924E-01
-# endfb8.0      1.077638E+00   1.004953E+00   9.468924E-01
-# jeff3.3       1.043354E+00   1.015929E+00   5.795274E-01
-# jendl5.0      1.134522E+00   1.022940E+00   2.595795E+00
-# cendl3.2      1.038754E+00   1.007488E+00   5.138132E-01

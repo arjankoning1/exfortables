@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Mg25(n,np)Na24 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Janczyszyn
 #   year: 1999
 #   subentry: 315090022
 #   X4 reaction: 12-MG-25(N,X)11-NA-24,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/315090022
-# target:
+# target: 
 #   Z: 12
 #   A: 25
 #   nuclide: Mg25
-# reaction:
+# reaction: 
 #   type: (n,np)
 #   ENDF_MF: 3
 #   ENDF_MT: 28
-# residual:
-#   Z: 11
-#   A: 24
-#   nuclide: Na24
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 10
+#   residual: 
+#     Z: 11
+#     A: 24
+#     nuclide: Na24
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.339000E+01   6.400000E-01   9.067400E+00   8.059300E-01   1.007494E+00
@@ -43,20 +44,3 @@
 #   author: J.Janczyszyn,G.Domanska,W.Pohorecki
 #   title: Measurement of cross section for 24Na production from magnesium isotopes by 13.5-18.0 MeV neutrons
 #   journal: Jour: Annals of Nuclear Energy, Vol.26, p.83 (1999)
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  1.339000E+01
-#   E-max [MeV]:  1.812000E+01
-#   F-value:  1.072188E+01
-#   A-value:  2.380687E-01
-#   chi-2:  5.746300E+02
-#   p-value:  1.898525E-01
-#   exp. data sets for p-value:      2
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.467284E+01   1.425280E-01   5.698820E+02
-# endfb8.0      5.911664E+00   4.198990E-01   4.755003E+02
-# jeff3.3       5.911664E+00   4.198990E-01   4.755003E+02
-# jendl5.0      5.911664E+00   4.198990E-01   4.755003E+02
-# cendl3.2      2.948967E+01   7.247305E-02   8.767676E+02

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: C12(g,x)B11 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Kirichenko
 #   year: 1978
 #   subentry: M0013002
 #   X4 reaction: 6-C-12(G,P)5-B-11,,SIG,,BRS
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/M0013002
-# target:
+# target: 
 #   Z: 6
 #   A: 12
 #   nuclide: C12
-# reaction:
+# reaction: 
 #   type: (g,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 5
-#   A: 11
-#   nuclide: B11
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 37
+#   residual: 
+#     Z: 5
+#     A: 11
+#     nuclide: B11
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 37
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.637000E+01   0.000000E+00   1.700000E+00   6.300000E-01   1.000000E+00
@@ -70,18 +71,3 @@
 #   author: V.V.Kirichenko,Yu.M.Arkatov,P.I.Vatset,I.M.Dogyust,  A.F.Khodyachikh
 #   title: Reaction C-12(gamma,p)B-11 at Eg-max = 120 MeV.
 #   journal: Jour: Yadernaya Fizika, Vol.27, p.589 (1978)
-# statistics:
-#   NEA score: T3
-#   IAEA score: -1
-#   E-min [MeV]:  1.637000E+01
-#   E-max [MeV]:  1.110400E+02
-#   F-value:  1.502533E+01
-#   A-value:  8.911133E-02
-#   chi-2:  6.307423E+01
-#   p-value:  3.561750E-02
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    3.872360E+01   3.920494E-02   8.211328E+01
-# endfb8.0      1.224938E+01   1.106173E-01   6.259298E+01
-# jendl5.0      5.981342E+00   1.912906E-01   5.448723E+01

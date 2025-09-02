@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Si28(n,p_01) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Mainsbridge
 #   year: 1963
 #   subentry: 11552002
 #   X4 reaction: 14-SI-28(N,P)13-AL-28,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/11552002
-#   level energy [MeV]  9.70000E-01
-# target:
+#   level energy [MeV]:  9.70000E-01
+# target: 
 #   Z: 14
 #   A: 28
 #   nuclide: Si28
-# reaction:
+# reaction: 
 #   type: (n,p_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 601
@@ -25,10 +25,11 @@
 #     energy [MeV]:  0.000000E+00
 #     spin:  2.000000E+00
 #     parity: 1
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 28
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 28
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    7.710000E+00   0.000000E+00   2.250000E+01   6.750000E+00   1.000000E+00
@@ -63,19 +64,3 @@
 #   author: B.Mainsbridge,T.W.Bonner,T.A.Rabson
 #   title: The disintegration of silicon by fast neutrons.
 #   journal: Jour: Nuclear Physics, Vol.48, p.83 (1963)
-# statistics:
-#   NEA score: E2
-#   IAEA score: -1
-#   E-min [MeV]:  7.710000E+00
-#   E-max [MeV]:  8.420000E+00
-#   F-value:  2.142772E+00
-#   A-value:  7.875790E-01
-#   chi-2:  1.358302E+01
-#   p-value:  1.526968E-01
-#   exp. data sets for p-value:      8
-#   libraries:      4
-##  Library          F              A            chi-2
-# endfb8.0      1.948475E+00   9.230422E-01   1.639856E+01
-# jeff3.3       2.043918E+00   7.673240E-01   1.104812E+01
-# jendl5.0      2.612578E+00   5.885110E-01   1.048682E+01
-# cendl3.2      1.948475E+00   9.230422E-01   1.639856E+01

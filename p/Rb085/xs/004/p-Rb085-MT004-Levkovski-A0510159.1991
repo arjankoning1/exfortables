@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Rb85(p,n')Sr85 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Levkovski*0.82
 #   year: 1991
 #   subentry: A0510159
 #   X4 reaction: 37-RB-85(P,N)38-SR-85,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/A0510159
-# target:
+# target: 
 #   Z: 37
 #   A: 85
 #   nuclide: Rb85
-# reaction:
+# reaction: 
 #   type: (p,n')
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 38
-#   A: 85
-#   nuclide: Sr85
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 13
+#   residual: 
+#     Z: 38
+#     A: 85
+#     nuclide: Sr85
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 13
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    7.700000E+00   0.000000E+00   2.434454E+02   2.968848E+01   7.631999E-01
@@ -46,17 +47,3 @@
 #   author: V.N.Levkovski
 #   title: Cross sections of medium mass nuclide activation  (A=40-100) by medium energy protons and alpha-particles (E=10-50 MeV)
 #   journal: Book: Levkovskij,Act.Cs.By Protons and Alphas,Moscow 1991,  (1991)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  7.700000E+00
-#   E-max [MeV]:  1.830000E+01
-#   F-value:  1.383431E+00
-#   A-value:  1.205229E+00
-#   chi-2:  1.232046E+01
-#   p-value:  2.077407E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.364029E+00   1.197070E+00   1.166338E+01
-# jendl5.0      1.402282E+00   1.213444E+00   1.297755E+01

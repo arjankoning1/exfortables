@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Fe0(d,x)Co56 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Takacs
 #   year: 2001
 #   subentry: D4081005
 #   X4 reaction: 26-FE-0(D,X)27-CO-56,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/D4081005
-# target:
+# target: 
 #   Z: 26
 #   A: 0
 #   nuclide: Fe0
-# reaction:
+# reaction: 
 #   type: (d,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 27
-#   A: 56
-#   nuclide: Co56
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 19
+#   residual: 
+#     Z: 27
+#     A: 56
+#     nuclide: Co56
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 19
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.040000E+01   7.000000E-01   8.570001E+01   9.900000E+00   1.000000E+00
@@ -52,16 +53,3 @@
 #   author: S.Takacs,F.Szelecsenyi,F.Tarkanyi,M.Sonck, A.Hermanne,Yu.Shubin,A.Dityuk,M.G.Mustafa, Zhuang Youxiang
 #   title: New Cross-Sections and intercomparison of deuteron  monitor reactions on Al, Ti, Fe, Ni and Cu
 #   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.174, p.235 (20
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  1.040000E+01
-#   E-max [MeV]:  4.860000E+01
-#   F-value:  1.209224E+00
-#   A-value:  9.123024E-01
-#   chi-2:  3.133489E+00
-#   p-value:  3.606007E-01
-#   exp. data sets for p-value:      6
-#   libraries:      1
-##  Library          F              A            chi-2
-# tendl.2023    1.209224E+00   9.123024E-01   3.133489E+00

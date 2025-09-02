@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Cu0(p,x)Cu60 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Fox
 #   year: 2021
 #   subentry: C2702040
 #   X4 reaction: 29-CU-0(P,X)29-CU-60,CUM,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/C2702040
-# target:
+# target: 
 #   Z: 29
 #   A: 0
 #   nuclide: Cu0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 29
-#   A: 60
-#   nuclide: Cu60
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 21
+#   residual: 
+#     Z: 29
+#     A: 60
+#     nuclide: Cu60
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 21
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.230000E+01   1.600000E-01   4.700000E+00   1.800000E+00   1.000000E+00
@@ -54,18 +55,3 @@
 #   author: M.B.Fox,A.S.Voyles,J.T.Morrell,L.A.Bernstein, J.C.Batchelder,E.R.Birnbaum,C.S.Cutler,A.J.Koning, A.M.Lewis,D.G.Medvedev,F.M.Nortier,E.M.O'Brien, Ch.Vermeulen
 #   title: Measurement and modeling of proton-induced reactions on arsenic from 35 to 200 MeV
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.104, p.064615 (2021)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  4.230000E+01
-#   E-max [MeV]:  1.925400E+02
-#   F-value:  1.665715E+00
-#   A-value:  9.294464E-01
-#   chi-2:  8.880820E+01
-#   p-value:  1.965736E-01
-#   exp. data sets for p-value:      3
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.513102E+00   1.060264E+00   2.059552E+01
-# endfb8.0      1.912454E+00   7.366648E-01   2.161869E+02
-# jendl5.0      1.544815E+00   1.027991E+00   2.964217E+01

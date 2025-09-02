@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: C12(n,p)B12 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Kellogg
 #   year: 1953
 #   subentry: 13651002
 #   X4 reaction: 6-C-12(N,P)5-B-12,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/13651002
-# target:
+# target: 
 #   Z: 6
 #   A: 12
 #   nuclide: C12
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 5
-#   A: 12
-#   nuclide: B12
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 5
+#     A: 12
+#     nuclide: B12
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    9.000000E+01   6.000000E+01   4.930000E+00   1.000000E+00   1.000000E+00
@@ -34,19 +35,3 @@
 #   author: D.A.KELLOGG
 #   title: Cross Sections for Products of 90-MeV Neutrons on  Carbon
 #   journal: Jour: Physical Review, Vol.90, p.224 (1953)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  9.000000E+01
-#   E-max [MeV]:  9.000000E+01
-#   F-value:  8.418577E+00
-#   A-value:  1.187849E-01
-#   chi-2:  1.887425E+01
-#   p-value:  4.768372E-07
-#   exp. data sets for p-value:      1
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    0.000000E+00   0.000000E+00   0.000000E+00
-# endfb8.0      0.000000E+00   0.000000E+00   0.000000E+00
-# jendl5.0      8.418577E+00   1.187849E-01   1.887425E+01
-# cendl3.2      0.000000E+00   0.000000E+00   0.000000E+00

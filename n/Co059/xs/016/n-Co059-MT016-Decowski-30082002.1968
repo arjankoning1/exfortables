@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Co59(n,2n)Co58 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Decowski
 #   year: 1968
 #   subentry: 30082002
 #   X4 reaction: 27-CO-59(N,2N)27-CO-58,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30082002
-# target:
+# target: 
 #   Z: 27
 #   A: 59
 #   nuclide: Co59
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 27
-#   A: 58
-#   nuclide: Co58
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 14
+#   residual: 
+#     Z: 27
+#     A: 58
+#     nuclide: Co58
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 14
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.257000E+01   1.500000E-01   3.669000E+02   1.884544E+01   1.000000E+00
@@ -47,21 +48,3 @@
 #   author: P.Decowski,W.Grochulski,A.Marcinkowski,K.Siwek, I.Sledzinska,Z.Wilhelmi
 #   title: Isomeric cross-section ratios and total cross-sections for the Co-59(n,2n)Co-58-g,m and Ni-58(n,p)Co-58-g,m and Co-59(gamma,n)Co-58-g,m reactions
 #   journal: Jour: Nuclear Physics, Section A, Vol.112, p.513 (1968)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.257000E+01
-#   E-max [MeV]:  1.820000E+01
-#   F-value:  1.187866E+00
-#   A-value:  1.168190E+00
-#   chi-2:  9.011122E+00
-#   p-value:  2.077692E-01
-#   exp. data sets for p-value:      8
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.174281E+00   1.154949E+00   7.667230E+00
-# endfb8.0      1.171996E+00   1.151730E+00   7.464249E+00
-# jeff3.3       1.155797E+00   1.138988E+00   5.798839E+00
-# jendl5.0      1.195585E+00   1.178624E+00   9.421491E+00
-# cendl3.2      1.243488E+00   1.229792E+00   1.588058E+01
-# irdff2.0      1.176673E+00   1.157289E+00   7.834335E+00

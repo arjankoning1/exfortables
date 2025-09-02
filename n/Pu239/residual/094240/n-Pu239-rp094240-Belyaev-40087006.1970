@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Pu239(n,x)Pu240 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Belyaev
 #   year: 1970
 #   subentry: 40087006
 #   X4 reaction: 94-PU-239(N,G)94-PU-240,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/40087006
-# target:
+# target: 
 #   Z: 94
 #   A: 239
 #   nuclide: Pu239
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 94
-#   A: 240
-#   nuclide: Pu240
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 96
+#   residual: 
+#     Z: 94
+#     A: 240
+#     nuclide: Pu240
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 96
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    9.937500E-05   0.000000E+00   1.118990E+04   0.000000E+00   1.000000E+00
@@ -129,16 +130,3 @@
 #   author: F.N.Belyaev,K.G.Ignat'ev,S.I.Sukhoruchkin, S.P.Borovlev,V.V.Pavlov,M.B.Polozov,A.N.Soldatov
 #   title: Measurement of ALPHA values for U-235 and Pu-239.
 #   journal: Conf: Nuclear Data for Reactors Conf., Helsinki 1970, Vol.1, p.339 (1970
-# statistics:
-#   NEA score: T2
-#   IAEA score:  1
-#   E-min [MeV]:  9.937500E-05
-#   E-max [MeV]:  9.862739E-03
-#   F-value:  9.151424E+00
-#   A-value:  2.568840E-01
-#   chi-2:  0.000000E+00
-#   p-value:  1.216608E-01
-#   exp. data sets for p-value:      4
-#   libraries:      1
-##  Library          F              A            chi-2
-# jendl5.0      9.151424E+00   2.568840E-01   0.000000E+00

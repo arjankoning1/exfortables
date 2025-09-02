@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Cu0(p,x)Co60 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Garrido
 #   year: 2016
 #   subentry: O2315024
 #   X4 reaction: 29-CU-0(P,X)27-CO-60,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/O2315024
-# target:
+# target: 
 #   Z: 29
 #   A: 0
 #   nuclide: Cu0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 27
-#   A: 60
-#   nuclide: Co60
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 10
+#   residual: 
+#     Z: 27
+#     A: 60
+#     nuclide: Co60
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.637000E+01   1.060000E+00   4.890000E+00   1.770000E+00   1.000000E+00
@@ -43,18 +44,3 @@
 #   author: E.Garrido,C.Duchemin,A.Guertin,F.Haddad,N.Michel, V.Metivier
 #   title: New excitation functions for proton induced reactions on natural titanium, nickel and copper up to 70 MeV.
 #   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.383, p.191 (20
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  3.637000E+01
-#   E-max [MeV]:  7.008000E+01
-#   F-value:  1.436797E+00
-#   A-value:  7.733728E-01
-#   chi-2:  2.352014E+00
-#   p-value:  2.331288E-01
-#   exp. data sets for p-value:      4
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.570389E+00   7.506168E-01   1.538267E+00
-# endfb8.0      1.465045E+00   7.050650E-01   4.820975E+00
-# jendl5.0      1.234875E+00   8.740157E-01   6.967991E-01

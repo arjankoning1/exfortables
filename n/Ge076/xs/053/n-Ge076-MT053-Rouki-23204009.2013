@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Ge76(n,n'_03)Ge77 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Rouki
 #   year: 2013
 #   subentry: 23204009
 #   X4 reaction: 32-GE-76(N,INL)32-GE-76,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/23204009
-#   level energy [MeV]  1.41010E+00
-# target:
+#   level energy [MeV]:  1.41010E+00
+# target: 
 #   Z: 32
 #   A: 76
 #   nuclide: Ge76
-# reaction:
+# reaction: 
 #   type: (n,n'_03)
 #   ENDF_MF: 3
 #   ENDF_MT: 53
@@ -25,14 +25,15 @@
 #     energy [MeV]:  1.410080E+00
 #     spin:  4.000000E+00
 #     parity: 1
-# residual:
-#   Z: 32
-#   A: 77
-#   nuclide: Ge77
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 26
+#   residual: 
+#     Z: 32
+#     A: 77
+#     nuclide: Ge77
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 26
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.426830E+00   1.810000E-02   1.670000E+01   4.370000E+00   1.000000E+00
@@ -65,20 +66,3 @@
 #   author: C.Rouki,A.R.Domula,J.C.Drohe,A.J.Koning,A.J.M.Plompen, K.Zuber
 #   title: Gamma production and neutron inelastic scattering cross sections for 76Ge.
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.88, p.054613 (2013)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  1.426830E+00
-#   E-max [MeV]:  2.038630E+00
-#   F-value:  7.716688E+00
-#   A-value:  1.626572E+00
-#   chi-2:  2.100024E+05
-#   p-value:  1.542429E-01
-#   exp. data sets for p-value:      1
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    7.543249E+00   1.419266E+00   1.606682E+05
-# endfb8.0      7.835997E+00   1.811604E+00   2.452972E+05
-# jeff3.3       7.995898E+00   2.028334E+00   2.861981E+05
-# jendl5.0      7.835997E+00   1.811604E+00   2.452972E+05
-# cendl3.2      7.380576E+00   1.205137E+00   1.125511E+05

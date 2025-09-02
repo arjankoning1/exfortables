@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: U235(a,3n)Pu236 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Delagrange
 #   year: 1978
 #   subentry: B0139010
 #   X4 reaction: 92-U-235(A,3N)94-PU-236,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/B0139010
-# target:
+# target: 
 #   Z: 92
 #   A: 235
 #   nuclide: U235
-# reaction:
+# reaction: 
 #   type: (a,3n)
 #   ENDF_MF: 3
 #   ENDF_MT: 17
-# residual:
-#   Z: 94
-#   A: 236
-#   nuclide: Pu236
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 21
+#   residual: 
+#     Z: 94
+#     A: 236
+#     nuclide: Pu236
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 21
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.550000E+01   0.000000E+00   1.610000E-01   2.900000E-02   1.000000E+00
@@ -54,16 +55,3 @@
 #   author: H.Delagrange, A.Fleury, J.M.Alexander
 #   title: Fission-evaporation competition in Pu isotopes of mass 235-239
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.17, p.1706 (1978)
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  2.550000E+01
-#   E-max [MeV]:  4.600000E+01
-#   F-value:  2.902101E+01
-#   A-value:  3.597254E-02
-#   chi-2:  4.131390E+02
-#   p-value:  9.305049E-03
-#   exp. data sets for p-value:      1
-#   libraries:      1
-##  Library          F              A            chi-2
-# tendl.2023    2.902101E+01   3.597254E-02   4.131390E+02

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Bi209(n,x)Bi210 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Macklin
 #   year: 1976
 #   subentry: 10610006
 #   X4 reaction: 83-BI-209(N,G)83-BI-210,,SIG,,AV
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/10610006
-# target:
+# target: 
 #   Z: 83
 #   A: 209
 #   nuclide: Bi209
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 83
-#   A: 210
-#   nuclide: Bi210
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 17
+#   residual: 
+#     Z: 83
+#     A: 210
+#     nuclide: Bi210
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 17
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.000000E-02   5.000000E-03   4.869200E+00   3.211600E+00   1.000000E+00
@@ -50,16 +51,3 @@
 #   author: R.Macklin,J.Halperin
 #   title: Resonance neutron capture by 209Bi
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.14, p.1389 (1976)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  3.000000E-02
-#   E-max [MeV]:  8.500000E-01
-#   F-value:  2.386514E+01
-#   A-value:  9.626707E-02
-#   chi-2:  1.464750E+01
-#   p-value:  1.719911E-01
-#   exp. data sets for p-value:      4
-#   libraries:      1
-##  Library          F              A            chi-2
-# jendl5.0      2.386514E+01   9.626707E-02   1.464750E+01

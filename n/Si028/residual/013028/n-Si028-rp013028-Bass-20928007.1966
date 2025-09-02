@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Si28(n,x)Al28 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Bass
 #   year: 1966
 #   subentry: 20928007
 #   X4 reaction: 14-SI-28(N,P)13-AL-28,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20928007
-# target:
+# target: 
 #   Z: 14
 #   A: 28
 #   nuclide: Si28
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 13
-#   A: 28
-#   nuclide: Al28
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 121
+#   residual: 
+#     Z: 13
+#     A: 28
+#     nuclide: Al28
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 121
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    6.000000E+00   2.500000E-02   9.205000E+01   1.380750E+01   1.000000E+00
@@ -154,18 +155,3 @@
 #   author: R.BASS,P.HAUG,K.KRUGER,B.STAGINNUS
 #   title: -FAST NEUTRON EXCITATION FUNCTIONS BY ACTIVATION  TECHNIQUES-
 #   journal: Rept: Report from Euratom-countries + Euratom to EANDC, No.66, p.64 (196
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  6.000000E+00
-#   E-max [MeV]:  9.000000E+00
-#   F-value:  1.288514E+00
-#   A-value:  8.381761E-01
-#   chi-2:  2.215678E+00
-#   p-value:  2.896714E-01
-#   exp. data sets for p-value:      5
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.253512E+00   8.042741E-01   2.310410E+00
-# endfb8.0      1.078510E+00   9.749746E-01   4.453815E-01
-# jendl5.0      1.445984E+00   7.509455E-01   3.891245E+00

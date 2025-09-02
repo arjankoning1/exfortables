@@ -1,28 +1,29 @@
-# header:
+# header: 
 #   title: U238(p,f) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Karttunen
 #   year: 1991
 #   subentry: O0646002
 #   X4 reaction: 92-U-238(P,F),,SIG,,,EXP
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/O0646002
-# target:
+# target: 
 #   Z: 92
 #   A: 238
 #   nuclide: U238
-# reaction:
+# reaction: 
 #   type: (p,f)
 #   ENDF_MF: 3
 #   ENDF_MT: 18
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 6
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.250000E+01   0.000000E+00   3.100000E+02   0.000000E+00   1.000000E+00
@@ -35,17 +36,3 @@
 #   author: E.KARTTUNEN,M.BRENNER,V.A.RUBCHENYA, S.A.EGOROV,V.B.FUNSCHTEIN,V.A.JAKOVLEV,YU.A.SELITSKIY
 #   title: Cross Sections For Formation of Fission Products in The U-238(P,F) Reaction at Proton Energies Between 12 And 30 MeV.
 #   journal: Jour: Nuclear Science and Engineering, Vol.109, p.350 (1991)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  1.250000E+01
-#   E-max [MeV]:  1.750000E+01
-#   F-value:  1.209955E+00
-#   A-value:  8.938326E-01
-#   chi-2:  0.000000E+00
-#   p-value:  3.619404E-01
-#   exp. data sets for p-value:      3
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.041252E+00   1.029863E+00   0.000000E+00
-# jendl5.0      1.305357E+00   7.757697E-01   0.000000E+00

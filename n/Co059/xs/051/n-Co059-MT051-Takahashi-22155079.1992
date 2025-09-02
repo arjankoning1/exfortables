@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Co59(n,n'_01)Co60 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Takahashi
 #   year: 1992
 #   subentry: 22155079
 #   X4 reaction: 27-CO-59(N,INL)27-CO-59,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22155079
-#   level energy [MeV]  1.09900E+00
-# target:
+#   level energy [MeV]:  1.09900E+00
+# target: 
 #   Z: 27
 #   A: 59
 #   nuclide: Co59
-# reaction:
+# reaction: 
 #   type: (n,n'_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 51
@@ -25,14 +25,15 @@
 #     energy [MeV]:  1.099256E+00
 #     spin:  1.500000E+00
 #     parity: -1
-# residual:
-#   Z: 27
-#   A: 60
-#   nuclide: Co60
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 27
+#     A: 60
+#     nuclide: Co60
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.410000E+01   2.000000E-01   6.610000E+01   5.300000E+00   1.000000E+00
@@ -40,20 +41,3 @@
 #   author: A.Takahashi, Y.Sasaki, F.Maekawa, H.Sugimoto
 #   title: Measurement of double, single differential and  integral neutron emission cross sections at 14.1 MeV  for Ca-nat, Mn-55, Co-59 and W-nat.
 #   journal: Rept: Osaka Univ., OKTAVIAN Reports, No.92-01 (1992)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  1.410000E+01
-#   E-max [MeV]:  1.410000E+01
-#   F-value:  1.301314E+02
-#   A-value:  1.087853E-02
-#   chi-2:  1.447981E+02
-#   p-value:  1.192093E-07
-#   exp. data sets for p-value:      3
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.016986E+03   9.832978E-04   1.552375E+02
-# endfb8.0      4.768556E+02   2.097071E-03   1.548915E+02
-# jeff3.3       8.498545E+00   1.176672E-01   1.210921E+02
-# jendl5.0      2.147022E+01   4.657615E-02   1.413914E+02
-# cendl3.2      7.417639E+01   1.348138E-02   1.513776E+02

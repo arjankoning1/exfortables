@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Bi209(p,x)Bi206 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Kuhnhenn
 #   year: 2001
 #   subentry: O0920038
 #   X4 reaction: 83-BI-209(P,X)83-BI-206,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/O0920038
-# target:
+# target: 
 #   Z: 83
 #   A: 209
 #   nuclide: Bi209
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 83
-#   A: 206
-#   nuclide: Bi206
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 13
+#   residual: 
+#     Z: 83
+#     A: 206
+#     nuclide: Bi206
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 13
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.360000E+01   1.800000E+00   1.540000E-01   2.200000E-02   1.000000E+00
@@ -46,18 +47,3 @@
 #   author: J.Kuhnhenn
 #   title: Proton-induced production of radioactive residual nuclide in lead and bismuth at energy up to 71 MeV
 #   journal: Thesis: Kuhnhenn (2001)
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  2.360000E+01
-#   E-max [MeV]:  6.930000E+01
-#   F-value:  3.574556E+00
-#   A-value:  2.545046E+00
-#   chi-2:  5.696793E+02
-#   p-value:  1.724041E-01
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    2.575552E+00   1.477770E+00   1.049047E+02
-# endfb8.0      5.888057E+00   5.293205E+00   1.506035E+03
-# jendl5.0      2.486521E+00   2.107468E+00   9.809807E+01

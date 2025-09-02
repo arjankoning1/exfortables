@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Zn64(n,p)Cu64 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Ghorai
 #   year: 1995
 #   subentry: 13597002
 #   X4 reaction: 30-ZN-64(N,P)29-CU-64,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/13597002
-# target:
+# target: 
 #   Z: 30
 #   A: 64
 #   nuclide: Zn64
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 29
-#   A: 64
-#   nuclide: Cu64
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 4
+#   residual: 
+#     Z: 29
+#     A: 64
+#     nuclide: Cu64
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.420000E+01   2.000000E-01   1.935233E+02   1.073576E+01   1.075130E+00
@@ -37,21 +38,3 @@
 #   author: S.K.Ghorai,P.M.Sylva,J.R.Williams,W.L.Alford
 #   title: Partial neutron cross sections for 64Zn, 66Zn, 67Zn  and 68Zn between 14.2 and 18.2 MeV
 #   journal: Jour: Annals of Nuclear Energy, Vol.22, p.11 (1995)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.420000E+01
-#   E-max [MeV]:  1.720000E+01
-#   F-value:  1.302280E+00
-#   A-value:  7.942973E-01
-#   chi-2:  1.412771E+01
-#   p-value:  2.673048E-01
-#   exp. data sets for p-value:      8
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.274303E+00   8.087615E-01   1.214461E+01
-# endfb8.0      1.340236E+00   7.692186E-01   1.730887E+01
-# jeff3.3       1.274209E+00   8.088980E-01   1.213473E+01
-# jendl5.0      1.304172E+00   7.861841E-01   1.473696E+01
-# cendl3.2      1.337453E+00   7.872640E-01   1.600446E+01
-# irdff2.0      1.278166E+00   8.062873E-01   1.243663E+01

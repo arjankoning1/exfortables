@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ir191(n,3n)Ir189 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Kalamara
 #   year: 2018
 #   subentry: 23442006
 #   X4 reaction: 77-IR-191(N,3N)77-IR-189,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/23442006
-# target:
+# target: 
 #   Z: 77
 #   A: 191
 #   nuclide: Ir191
-# reaction:
+# reaction: 
 #   type: (n,3n)
 #   ENDF_MF: 3
 #   ENDF_MT: 17
-# residual:
-#   Z: 77
-#   A: 189
-#   nuclide: Ir189
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 3
+#   residual: 
+#     Z: 77
+#     A: 189
+#     nuclide: Ir189
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.710000E+01   6.000000E-01   1.670000E+02   4.625900E+01   1.000000E+00
@@ -36,19 +37,3 @@
 #   author: A.Kalamara,R.Vlastou,M.Kokkoris,S.Chasapoglou, A.Stamatopoulos,N.Patronis,M.Serris,A.Lagoyannis, S.Harissopulos
 #   title: 191Ir(n,2n) and 191Ir(n,3n) reaction cross sections in the 15-21 MeV energy range
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.98, p.034607 (2018)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  1.710000E+01
-#   E-max [MeV]:  2.090000E+01
-#   F-value:  2.024230E+00
-#   A-value:  1.838728E+00
-#   chi-2:  2.107297E+01
-#   p-value:  1.268361E-01
-#   exp. data sets for p-value:      3
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.641653E+00   1.534238E+00   7.670433E+00
-# endfb8.0      2.454689E+00   2.308997E+00   3.510120E+01
-# jeff3.3       2.454689E+00   2.308997E+00   3.510120E+01
-# jendl5.0      2.179190E+00   2.002501E+00   2.696966E+01

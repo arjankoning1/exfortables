@@ -1,28 +1,29 @@
-# header:
+# header: 
 #   title: O0(n,n') cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Conner
 #   year: 1953
 #   subentry: 11388003
 #   X4 reaction: 8-O-0(N,INL)8-O-0,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/11388003
-# target:
+# target: 
 #   Z: 8
 #   A: 0
 #   nuclide: O0
-# reaction:
+# reaction: 
 #   type: (n,n')
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.410000E+01   0.000000E+00   5.000000E+02   0.000000E+00   1.000000E+00
@@ -30,20 +31,3 @@
 #   author: J.P.CONNER
 #   title: A CLOUD CHAMBER STUDY OF THE SCATTERING OF FAST NEUTRONS IN OXYGEN.
 #   journal: Jour: Physical Review, Vol.89, p.712 (1953)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  1.410000E+01
-#   E-max [MeV]:  1.410000E+01
-#   F-value:  1.610636E+00
-#   A-value:  6.626315E-01
-#   chi-2:  0.000000E+00
-#   p-value:  2.324445E-01
-#   exp. data sets for p-value:      1
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.600928E+00   6.246377E-01   0.000000E+00
-# endfb8.0      1.600928E+00   6.246377E-01   0.000000E+00
-# jeff3.3       1.597887E+00   6.258264E-01   0.000000E+00
-# jendl5.0      1.039812E+00   1.039812E+00   0.000000E+00
-# cendl3.2      1.987488E+00   5.031476E-01   0.000000E+00

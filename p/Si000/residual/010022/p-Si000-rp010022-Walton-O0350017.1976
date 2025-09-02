@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Si0(p,x)Ne22 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Walton
 #   year: 1976
 #   subentry: O0350017
 #   X4 reaction: 14-SI-0(P,X)10-NE-22,CUM,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/O0350017
-# target:
+# target: 
 #   Z: 14
 #   A: 0
 #   nuclide: Si0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 10
-#   A: 22
-#   nuclide: Ne22
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 6
+#   residual: 
+#     Z: 10
+#     A: 22
+#     nuclide: Ne22
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.350000E+01   1.300000E+00   1.400000E-02   1.400000E-02   1.000000E+00
@@ -39,18 +40,3 @@
 #   author: J.R.Walton,D.Heymann,A.Yaniv,D.Edgerley,M.W.Rowe
 #   title: Cross sections for He and Ne isotopes in natural Mg,Al, and Si,He isotopes in Ca-F(2),Ar isotopes in natural Ca and radionuclides in natural Al,Si,Ti,Cr and stainless steel induced by 12-To 45-MeV protons.
 #   journal: Jour: Journal of Geophysical Research, Vol.81, p.5689 (1976)
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  3.350000E+01
-#   E-max [MeV]:  4.440000E+01
-#   F-value:  3.647560E+00
-#   A-value:  3.568853E-01
-#   chi-2:  2.000088E+00
-#   p-value:  1.240078E-01
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    3.580860E+00   3.288950E-01   2.254205E+00
-# endfb8.0      5.450031E+00   2.171421E-01   2.799361E+00
-# jendl5.0      2.058807E+00   6.364795E-01   9.466980E-01

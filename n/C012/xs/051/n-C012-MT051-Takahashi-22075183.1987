@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: C12(n,n'_01)C13 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Takahashi
 #   year: 1987
 #   subentry: 22075183
 #   X4 reaction: 6-C-12(N,INL)6-C-12,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22075183
-#   level energy [MeV]  4.44000E+00
-# target:
+#   level energy [MeV]:  4.44000E+00
+# target: 
 #   Z: 6
 #   A: 12
 #   nuclide: C12
-# reaction:
+# reaction: 
 #   type: (n,n'_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 51
@@ -25,14 +25,15 @@
 #     energy [MeV]:  4.439820E+00
 #     spin:  2.000000E+00
 #     parity: 1
-# residual:
-#   Z: 6
-#   A: 13
-#   nuclide: C13
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 6
+#     A: 13
+#     nuclide: C13
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.410000E+01   2.000000E-01   1.430000E+02   1.600000E+01   1.000000E+00
@@ -40,19 +41,3 @@
 #   author: A.Takahashi, E.Ichimura, Y.Sasaki, H.Sugimoto
 #   title: Measurement of double differential neutron emission  cross sections for incident neutrons of 14 MeV
 #   journal: Rept: Osaka Univ., OKTAVIAN Reports, No.87-03 (1987)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  1.410000E+01
-#   E-max [MeV]:  1.410000E+01
-#   F-value:  1.426282E+00
-#   A-value:  1.418380E+00
-#   chi-2:  1.479178E+01
-#   p-value:  2.894185E-03
-#   exp. data sets for p-value:      8
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.470552E+00   1.470552E+00   1.768765E+01
-# endfb8.0      1.470552E+00   1.470552E+00   1.768765E+01
-# jendl5.0      1.272710E+00   1.272710E+00   6.104181E+00
-# cendl3.2      1.470552E+00   1.470552E+00   1.768765E+01

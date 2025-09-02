@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Zn0(p,x)Co57 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Bonardi
 #   year: 2005
 #   subentry: O1310014
 #   X4 reaction: 30-ZN-0(P,X)27-CO-57,CUM,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/O1310014
-# target:
+# target: 
 #   Z: 30
 #   A: 0
 #   nuclide: Zn0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 27
-#   A: 57
-#   nuclide: Co57
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 12
+#   residual: 
+#     Z: 27
+#     A: 57
+#     nuclide: Co57
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 12
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.220000E+01   8.999980E-01   1.800000E+00   3.000000E-01   1.000000E+00
@@ -45,17 +46,3 @@
 #   author: M.L.Bonardi, F.Groppi, H.S.Mainardi, V.M.Kokhanyuk, E.V.Lapshina, M.V.Mebel, B.L.Zhuikov
 #   title: Cross section studies on Cu-64 with zinc target in the proton energy range from 141 down to 31-MeV.
 #   journal: Jour: Journal of Radioanalytical and Nuclear Chemistry, Vol.264, p.101 (
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  3.220000E+01
-#   E-max [MeV]:  1.408000E+02
-#   F-value:  2.001996E+00
-#   A-value:  9.671910E-01
-#   chi-2:  3.095450E+01
-#   p-value:  2.786272E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    2.291044E+00   7.350677E-01   2.372969E+01
-# jendl5.0      1.691739E+00   1.272615E+00   3.817931E+01

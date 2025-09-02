@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Co59(n,2n)Co58 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Semkova
 #   year: 2004
 #   subentry: 22820012
 #   X4 reaction: 27-CO-59(N,2N)27-CO-58,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22820012
-# target:
+# target: 
 #   Z: 27
 #   A: 59
 #   nuclide: Co59
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 27
-#   A: 58
-#   nuclide: Co58
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 13
+#   residual: 
+#     Z: 27
+#     A: 58
+#     nuclide: Co58
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 13
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.332000E+01   2.500000E-01   6.140000E+02   3.600000E+01   1.000000E+00
@@ -46,21 +47,3 @@
 #   author: V.Semkova,V.Avrigeanu,T.Glodariu,A.J.Koning,  A.J.M.Plompen,D.L.Smith,S.Sudar,P.Reimer,R.Forrest
 #   title: .A systematic investigation of reaction cross sections  and isomer ratios for neutrons up to 20 MeV on  Ni-isotopes and Co-59 by measurements with activation  technique and new model studies of underlying  reaction mechanisms
 #   journal: Jour: Nuclear Physics, Section A, Vol.730, p.255 (2004)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.332000E+01
-#   E-max [MeV]:  2.035000E+01
-#   F-value:  1.057127E+00
-#   A-value:  9.708543E-01
-#   chi-2:  1.395630E+00
-#   p-value:  2.539715E-01
-#   exp. data sets for p-value:      8
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.032536E+00   9.775529E-01   7.107613E-01
-# endfb8.0      1.058918E+00   9.619529E-01   1.464943E+00
-# jeff3.3       1.081268E+00   9.448739E-01   2.470789E+00
-# jendl5.0      1.072547E+00   9.636939E-01   1.891341E+00
-# cendl3.2      1.028293E+00   1.012643E+00   7.919035E-01
-# irdff2.0      1.028784E+00   9.800909E-01   6.245832E-01

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: B10(n,a)Li7 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Prosdocimi
 #   year: 1963
 #   subentry: 20192003
 #   X4 reaction: 5-B-10(N,A)3-LI-7,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20192003
-# target:
+# target: 
 #   Z: 5
 #   A: 10
 #   nuclide: B10
-# reaction:
+# reaction: 
 #   type: (n,a)
 #   ENDF_MF: 3
 #   ENDF_MT: 107
-# residual:
-#   Z: 3
-#   A: 7
-#   nuclide: Li7
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 50
+#   residual: 
+#     Z: 3
+#     A: 7
+#     nuclide: Li7
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 50
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    6.010000E-09   0.000000E+00   7.472000E+06   4.307698E+05   1.000000E+00
@@ -83,21 +84,3 @@
 #   author: A.Prosdocimi, A.J.Deruytter, G.Debus, P.J.Debievre, J.Spaepen, K.Lauer, H.Moret
 #   title: A precise determination of the thermal neutron   absorption cross-section of B-10 and natural boron   by time-of-flight
 #   journal: Jour: J.Nuclear Energy A&B (Reactor Sci. and Technol.), Vol.17, p.83 (19
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  6.010000E-09
-#   E-max [MeV]:  8.200000E-08
-#   F-value:  1.034894E+00
-#   A-value:  1.020208E+00
-#   chi-2:  3.232072E+00
-#   p-value:  4.186269E-01
-#   exp. data sets for p-value:      1
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.035167E+00   1.020595E+00   3.275789E+00
-# endfb8.0      1.035167E+00   1.020595E+00   3.275789E+00
-# jeff3.3       1.034872E+00   1.020169E+00   3.228553E+00
-# jendl5.0      1.033934E+00   1.018908E+00   3.083006E+00
-# cendl3.2      1.034872E+00   1.020170E+00   3.228597E+00
-# irdff2.0      1.035333E+00   1.020812E+00   3.300699E+00

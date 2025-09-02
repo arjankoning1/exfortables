@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: Ni58(n,p)Co58g cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Viennot
 #   year: 1991
 #   subentry: 30978025
 #   X4 reaction: 28-NI-58(N,P)27-CO-58-G,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30978025
-# target:
+# target: 
 #   Z: 28
 #   A: 58
 #   nuclide: Ni58
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 27
-#   A: 58
-#   nuclide: Co58g
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 7
+#   residual: 
+#     Z: 27
+#     A: 58
+#     nuclide: Co58g
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.377000E+01   2.600000E-01   1.515428E+02   3.566300E+00   1.003595E+00
@@ -45,18 +46,3 @@
 #   author: M.Viennot, M.Berrada, G.Paic, S.Joly
 #   title: Cross section measurements of (n,p) and (n,np+pn+d)  reactions for some titanium, chromium, iron, cobalt,  nickel, and zinc isotopes around 14 MeV
 #   journal: Jour: Nuclear Science and Engineering, Vol.108, p.289 (1991)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.377000E+01
-#   E-max [MeV]:  1.483000E+01
-#   F-value:  1.739883E+00
-#   A-value:  1.659813E+00
-#   chi-2:  1.180984E+03
-#   p-value:  3.587009E-02
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.772845E+00   1.693721E+00   1.291580E+03
-# jeff3.3       1.845389E+00   1.784377E+00   1.489022E+03
-# jendl5.0      1.593167E+00   1.513036E+00   7.623503E+02

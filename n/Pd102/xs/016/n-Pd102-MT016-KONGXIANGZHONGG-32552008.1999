@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Pd102(n,2n)Pd101 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: KONGXIANGZHONGG
 #   year: 1999
 #   subentry: 32552008
 #   X4 reaction: 46-PD-102(N,2N)46-PD-101,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/32552008
-# target:
+# target: 
 #   Z: 46
 #   A: 102
 #   nuclide: Pd102
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 46
-#   A: 101
-#   nuclide: Pd101
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 3
+#   residual: 
+#     Z: 46
+#     A: 101
+#     nuclide: Pd101
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.350000E+01   2.000000E-01   8.500000E+02   8.200000E+01   1.000000E+00
@@ -36,19 +37,3 @@
 #   author: KONG XIANGZHONG,WANG RONG,WANG YONGCHANG,  YANG JINGKANG
 #   title: Cross sections for 13.5-14.7 MeV neutron induced reactions on palladium isotopes
 #   journal: Jour: Applied Radiation and Isotopes, Vol.50, p.361 (1999)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.350000E+01
-#   E-max [MeV]:  1.470000E+01
-#   F-value:  1.095765E+00
-#   A-value:  9.682924E-01
-#   chi-2:  1.215843E+00
-#   p-value:  2.613837E-01
-#   exp. data sets for p-value:      5
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.090673E+00   9.544542E-01   1.058230E+00
-# endfb8.0      1.130180E+00   9.273553E-01   1.749030E+00
-# jeff3.3       1.077147E+00   9.638796E-01   8.904718E-01
-# jendl5.0      1.076414E+00   1.030391E+00   1.165638E+00

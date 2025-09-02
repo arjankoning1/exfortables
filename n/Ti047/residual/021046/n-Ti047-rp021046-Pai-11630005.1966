@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ti47(n,x)Sc46 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Pai
 #   year: 1966
 #   subentry: 11630005
 #   X4 reaction: 22-TI-47(N,X)21-SC-46,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/11630005
-# target:
+# target: 
 #   Z: 22
 #   A: 47
 #   nuclide: Ti47
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 28
-# residual:
-#   Z: 21
-#   A: 46
-#   nuclide: Sc46
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 5
+#   residual: 
+#     Z: 21
+#     A: 46
+#     nuclide: Sc46
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.360000E+01   4.000000E-01   4.000000E+01   7.000000E+00   1.000000E+00
@@ -38,18 +39,3 @@
 #   author: H.L.Pai
 #   title: The (n,p) cross sections of titanium isotopes for neutron energies between 13.6 MeV and 19.5 MeV.
 #   journal: Jour: Canadian Journal of Physics, Vol.44, p.2337 (1966)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  1.360000E+01
-#   E-max [MeV]:  1.950000E+01
-#   F-value:  1.476419E+00
-#   A-value:  9.497565E-01
-#   chi-2:  5.202477E+00
-#   p-value:  2.844269E-01
-#   exp. data sets for p-value:      2
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.576577E+00   8.357857E-01   3.495209E+00
-# jeff3.3       1.464082E+00   9.963642E-01   6.557084E+00
-# jendl5.0      1.378025E+00   1.028783E+00   5.555140E+00

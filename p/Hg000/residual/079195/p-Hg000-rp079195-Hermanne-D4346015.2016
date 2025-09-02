@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Hg0(p,x)Au195 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Hermanne
 #   year: 2016
 #   subentry: D4346015
 #   X4 reaction: 80-HG-0(P,X)79-AU-195,CUM,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/D4346015
-# target:
+# target: 
 #   Z: 80
 #   A: 0
 #   nuclide: Hg0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 79
-#   A: 195
-#   nuclide: Au195
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 21
+#   residual: 
+#     Z: 79
+#     A: 195
+#     nuclide: Au195
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 21
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.200000E+01   1.100000E+00   8.000000E+00   1.000000E+00   1.000000E+00
@@ -54,18 +55,3 @@
 #   author: A.Hermanne,F.Tarkanyi,S.Takacs,F.Ditroi,Z.Szucs, K.Brezovcsik
 #   title: Experimental cross-sections for proton induced nuclear reactions on mercury up to 65 MeV
 #   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.378, p.12 (201
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  3.200000E+01
-#   E-max [MeV]:  6.500000E+01
-#   F-value:  4.678497E+01
-#   A-value:  2.390125E-02
-#   chi-2:  6.376074E+01
-#   p-value:  5.409337E-03
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    4.992892E+01   2.200584E-02   6.434825E+01
-# endfb8.0      6.407825E+01   1.722288E-02   6.519358E+01
-# jendl5.0      3.088056E+01   3.602616E-02   6.174036E+01

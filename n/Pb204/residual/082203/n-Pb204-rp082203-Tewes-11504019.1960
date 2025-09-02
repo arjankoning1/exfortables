@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Pb204(n,x)Pb203 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Tewes
 #   year: 1960
 #   subentry: 11504019
 #   X4 reaction: 82-PB-204(N,2N)82-PB-203,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/11504019
-# target:
+# target: 
 #   Z: 82
 #   A: 204
 #   nuclide: Pb204
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 82
-#   A: 203
-#   nuclide: Pb203
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 5
+#   residual: 
+#     Z: 82
+#     A: 203
+#     nuclide: Pb203
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.010000E+01   2.000000E-01   4.710000E+02   1.884000E+02   1.000000E+00
@@ -38,19 +39,3 @@
 #   author: H.A.Tewes,A.A.Caretto,A.E.Miller,D.R.Nethaway
 #   title: Excitation functions of neutron-induced reactions
 #   journal: Rept: U.C., Lawrence Rad.Lab. (Berkeley and Livermore), No.6028-T (1960)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  0
-#   E-min [MeV]:  1.010000E+01
-#   E-max [MeV]:  1.400000E+01
-#   F-value:  1.487084E+00
-#   A-value:  1.458984E+00
-#   chi-2:  2.104717E+00
-#   p-value:  1.087290E-01
-#   exp. data sets for p-value:      1
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.340391E+00   1.323114E+00   1.286299E+00
-# endfb8.0      1.505617E+00   1.489218E+00   2.188314E+00
-# jeff3.3       1.505617E+00   1.489218E+00   2.188314E+00
-# jendl5.0      1.579824E+00   1.544148E+00   2.755939E+00

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: V51(n,p)Ti51 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Ikeda
 #   year: 1988
 #   subentry: 22089034
 #   X4 reaction: 23-V-51(N,P)22-TI-51,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22089034
-# target:
+# target: 
 #   Z: 23
 #   A: 51
 #   nuclide: V51
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 22
-#   A: 51
-#   nuclide: Ti51
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 6
+#   residual: 
+#     Z: 22
+#     A: 51
+#     nuclide: Ti51
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.333000E+01   0.000000E+00   3.029732E+01   1.705500E+00   1.003222E+00
@@ -39,19 +40,3 @@
 #   author: Y.Ikeda,C.Konno,K.Oishi,T.Nakamura,H.Miyade, K.Kawade,  H.Yamamoto, T.Katoh
 #   title: Activation cross section measurements for fusion  reactor structural materials at neutron energy from  13.3 to 15.0 MeV using FNS facility
 #   journal: Rept: JAERI Reports, No.1312 (1988)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.333000E+01
-#   E-max [MeV]:  1.493000E+01
-#   F-value:  1.064679E+00
-#   A-value:  1.042390E+00
-#   chi-2:  1.604551E+00
-#   p-value:  3.610938E-01
-#   exp. data sets for p-value:      6
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.052229E+00   1.034668E+00   1.103104E+00
-# endfb8.0      1.084898E+00   1.069299E+00   2.570938E+00
-# jeff3.3       1.081585E+00   1.065572E+00   2.396717E+00
-# jendl5.0      1.018296E+00   1.001470E+00   3.474457E-01

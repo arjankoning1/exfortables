@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Ca40(n,n'_01)Ca41 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Olsson
 #   year: 1990
 #   subentry: 22128008
 #   X4 reaction: 20-CA-40(N,INL)20-CA-40,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22128008
-#   level energy [MeV]  3.74000E+00
-# target:
+#   level energy [MeV]:  3.74000E+00
+# target: 
 #   Z: 20
 #   A: 40
 #   nuclide: Ca40
-# reaction:
+# reaction: 
 #   type: (n,n'_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 51
@@ -25,14 +25,15 @@
 #     energy [MeV]:  3.736690E+00
 #     spin:  3.000000E+00
 #     parity: -1
-# residual:
-#   Z: 20
-#   A: 41
-#   nuclide: Ca41
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 20
+#     A: 41
+#     nuclide: Ca41
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.160000E+01   1.000000E-01   4.796000E+01   2.020000E+00   1.000000E+00
@@ -40,20 +41,3 @@
 #   author: N.Olsson,E.Ramstroem,B.Trostell
 #   title: -Neutron inelastic scattering from Mg, Si, S, Ca, Cr,  Fe and Ni at En = 21.6 MeV.
 #   journal: Jour: Nuclear Physics, Section A, Vol.513, p.205 (1990)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  2.160000E+01
-#   E-max [MeV]:  2.160000E+01
-#   F-value:  3.220195E+04
-#   A-value:  3.105402E-05
-#   chi-2:  5.636748E+02
-#   p-value:  4.172325E-07
-#   exp. data sets for p-value:      1
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    0.000000E+00   0.000000E+00   0.000000E+00
-# endfb8.0      0.000000E+00   0.000000E+00   0.000000E+00
-# jeff3.3       3.220195E+04   3.105402E-05   5.636748E+02
-# jendl5.0      0.000000E+00   0.000000E+00   0.000000E+00
-# cendl3.2      0.000000E+00   0.000000E+00   0.000000E+00

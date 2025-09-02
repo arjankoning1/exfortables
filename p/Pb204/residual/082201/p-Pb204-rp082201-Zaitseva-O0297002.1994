@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Pb204(p,x)Pb201 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Zaitseva
 #   year: 1994
 #   subentry: O0297002
 #   X4 reaction: 82-PB-204(P,X)82-PB-201,CUM,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/O0297002
-# target:
+# target: 
 #   Z: 82
 #   A: 204
 #   nuclide: Pb204
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 82
-#   A: 201
-#   nuclide: Pb201
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 20
+#   residual: 
+#     Z: 82
+#     A: 201
+#     nuclide: Pb201
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 20
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.570000E+01   0.000000E+00   1.328701E+02   2.044156E+01   1.022078E+00
@@ -53,17 +54,3 @@
 #   author: N.G.Zaitseva,E.Rurarz,M.Vobecky,V.A.Khalkin, Kim Hyn Hwan,V.N.Gluschenko,L.M.Popinenkova, S.V.Sokolov,V.B.Pugachevich
 #   title: Excitation functions for the formation of Pb-200,201 and Pb-202 by proton induced nuclear reactions on enriched Pb-204.
 #   journal: Jour: Radiochimica Acta, Vol.65, p.151 (1994)
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  2.570000E+01
-#   E-max [MeV]:  3.970000E+01
-#   F-value:  2.000475E+02
-#   A-value:  6.258151E-03
-#   chi-2:  4.224698E+01
-#   p-value:  2.175570E-07
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    3.747665E+02   3.272369E-03   4.282038E+01
-# jendl5.0      9.806815E+01   1.196825E-02   4.167358E+01

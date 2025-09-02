@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Pd0(d,x)Ag111 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Ukon
 #   year: 2018
 #   subentry: E2575008
 #   X4 reaction: 46-PD-0(D,X)47-AG-111,CUM,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/E2575008
-# target:
+# target: 
 #   Z: 46
 #   A: 0
 #   nuclide: Pd0
-# reaction:
+# reaction: 
 #   type: (d,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 47
-#   A: 111
-#   nuclide: Ag111
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 12
+#   residual: 
+#     Z: 47
+#     A: 111
+#     nuclide: Ag111
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 12
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    5.800000E+00   3.000000E-01   1.800000E+01   1.900000E+00   1.000000E+00
@@ -45,16 +46,3 @@
 #   author: N.Ukon, M.Aikawa, Y.Komori, H.Haba
 #   title: Production cross sections of deuteron-induced reactions on natural palladium for Ag isotopes
 #   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.426, p.13 (201
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  5.800000E+00
-#   E-max [MeV]:  2.380000E+01
-#   F-value:  8.226747E+00
-#   A-value:  1.233353E-01
-#   chi-2:  3.132224E+01
-#   p-value:  2.174471E-02
-#   exp. data sets for p-value:      1
-#   libraries:      1
-##  Library          F              A            chi-2
-# tendl.2023    8.226747E+00   1.233353E-01   3.132224E+01

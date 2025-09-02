@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Zr96(n,x)Zr97 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Katabuchi
 #   year: 2011
 #   subentry: 23155002
 #   X4 reaction: 40-ZR-96(N,G)40-ZR-97,,SIG,,AV
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/23155002
-# target:
+# target: 
 #   Z: 40
 #   A: 96
 #   nuclide: Zr96
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 40
-#   A: 97
-#   nuclide: Zr97
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 4
+#   residual: 
+#     Z: 40
+#     A: 97
+#     nuclide: Zr97
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.000000E-02   5.000000E-03   1.920000E+01   4.000000E+00   1.000000E+00
@@ -37,17 +38,3 @@
 #   author: T.Katabuchi,M.Igashira,Y.Kiyanagi
 #   title: Measurement of keV-Neutron Capture Cross Section of  96Zr
 #   journal: Jour: Jour. of Nuclear Science and Technology, Vol.48, p.744 (2011)
-# statistics:
-#   NEA score: T3
-#   IAEA score: -1
-#   E-min [MeV]:  2.000000E-02
-#   E-max [MeV]:  7.750000E-02
-#   F-value:  4.150484E+01
-#   A-value:  1.077047E-01
-#   chi-2:  1.452140E+02
-#   p-value:  2.585266E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.780578E+01   3.277154E-01   1.249393E+02
-# jendl5.0      8.248949E+01   3.539746E-02   1.654888E+02

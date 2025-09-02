@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Tl205(n,n'_02)Tl206 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Ahmed
 #   year: 1975
 #   subentry: 10367003
 #   X4 reaction: 81-TL-205(N,INL)81-TL-205,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/10367003
-#   level energy [MeV]  6.20000E-01
-# target:
+#   level energy [MeV]:  6.20000E-01
+# target: 
 #   Z: 81
 #   A: 205
 #   nuclide: Tl205
-# reaction:
+# reaction: 
 #   type: (n,n'_02)
 #   ENDF_MF: 3
 #   ENDF_MT: 52
@@ -25,14 +25,15 @@
 #     energy [MeV]:  6.194000E-01
 #     spin:  2.500000E+00
 #     parity: 1
-# residual:
-#   Z: 81
-#   A: 206
-#   nuclide: Tl206
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 7
+#   residual: 
+#     Z: 81
+#     A: 206
+#     nuclide: Tl206
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.195000E+00   0.000000E+00   2.960000E+02   2.100000E+01   1.000000E+00
@@ -46,19 +47,3 @@
 #   author: N.Ahmed,D.R.Gill,W.J.McDonald,G.C.Neilson, W.K.Dawson
 #   title: Levels of 203,205Tl from the (n,n'gamma) reaction
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.11, p.869 (1975)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  1.195000E+00
-#   E-max [MeV]:  2.754000E+00
-#   F-value:  1.353153E+00
-#   A-value:  1.023867E+00
-#   chi-2:  1.548470E+01
-#   p-value:  2.731279E-01
-#   exp. data sets for p-value:      2
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.363315E+00   1.030878E+00   1.703556E+01
-# endfb8.0      1.415713E+00   8.952299E-01   1.354904E+01
-# jeff3.3       1.338958E+00   1.052823E+00   1.663651E+01
-# jendl5.0      1.287285E+00   1.131037E+00   1.471768E+01

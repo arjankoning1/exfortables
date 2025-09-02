@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Au197(n,x)Au198 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Harris
 #   year: 1965
 #   subentry: 12197002
 #   X4 reaction: 79-AU-197(N,G)79-AU-198,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/12197002
-# target:
+# target: 
 #   Z: 79
 #   A: 197
 #   nuclide: Au197
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 79
-#   A: 198
-#   nuclide: Au198
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 14
+#   residual: 
+#     Z: 79
+#     A: 198
+#     nuclide: Au198
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 14
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.310000E-02   9.700000E-03   1.250821E+03   2.092712E+02   9.990587E-01
@@ -47,17 +48,3 @@
 #   author: K.K.Harris,H.A.Grench,R.G.Johnson,F.J.Vaughn
 #   title: The Au-197(n,gamma)Au-198 cross section from 1 keV to 683 keV.
 #   journal: Jour: Nuclear Physics, Vol.69, p.37 (1965)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.310000E-02
-#   E-max [MeV]:  6.912000E-01
-#   F-value:  1.093662E+00
-#   A-value:  9.511575E-01
-#   chi-2:  1.692015E+00
-#   p-value:  2.489677E-01
-#   exp. data sets for p-value:      8
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.089554E+00   9.522300E-01   1.810792E+00
-# jendl5.0      1.097619E+00   9.500861E-01   1.573238E+00

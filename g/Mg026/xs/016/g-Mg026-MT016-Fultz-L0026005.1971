@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Mg26(g,2n)Mg24 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Fultz
 #   year: 1971
 #   subentry: L0026005
 #   X4 reaction: 12-MG-26(G,2N)12-MG-24,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/L0026005
-# target:
+# target: 
 #   Z: 12
 #   A: 26
 #   nuclide: Mg26
-# reaction:
+# reaction: 
 #   type: (g,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 12
-#   A: 24
-#   nuclide: Mg24
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 53
+#   residual: 
+#     Z: 12
+#     A: 24
+#     nuclide: Mg24
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 53
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.848200E+01   0.000000E+00  -5.000000E-02   1.900000E-01   1.000000E+00
@@ -86,18 +87,3 @@
 #   author: S.C.FULTZ,R.A.ALVAREZ,B.L.BERMAN,M.A.KELLY,D.R.LASHER, T.W.PHILLIPS,J.MCELHINNEY
 #   title: Photoneutron cross sections for 24Mg, 26Mg, and  natural magnesium.
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.4, p.149 (1971)
-# statistics:
-#   NEA score: T3
-#   IAEA score: -1
-#   E-min [MeV]:  1.848200E+01
-#   E-max [MeV]:  2.862100E+01
-#   F-value:  2.007096E+00
-#   A-value:  1.573570E+00
-#   chi-2:  4.253063E+01
-#   p-value:  2.520134E-01
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    2.404205E+00   2.265414E+00   1.078482E+02
-# endfb8.0      1.652375E+00   1.147764E+00   5.589171E+00
-# jendl5.0      1.864324E+00   1.462668E+00   1.437262E+01

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Sr0(p,x)Y88 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Elbinawi
 #   year: 2018
 #   subentry: D4389008
 #   X4 reaction: 38-SR-0(P,X)39-Y-88,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/D4389008
-# target:
+# target: 
 #   Z: 38
 #   A: 0
 #   nuclide: Sr0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 39
-#   A: 88
-#   nuclide: Y88
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 21
+#   residual: 
+#     Z: 39
+#     A: 88
+#     nuclide: Y88
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 21
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.500000E+00   9.000000E-01   1.310000E+01   2.000000E+00   1.000000E+00
@@ -54,17 +55,3 @@
 #   author: A.Elbinawi,M.Al-abyad,I.Bashter,U.Seddik,F.Ditroi
 #   title: Excitation function of proton induced nuclear reaction on strontium: Special relevance to the production of 88Y
 #   journal: Jour: Applied Radiation and Isotopes, Vol.140, p.272 (2018)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  4.500000E+00
-#   E-max [MeV]:  1.790000E+01
-#   F-value:  1.422144E+00
-#   A-value:  9.472488E-01
-#   chi-2:  4.616995E+00
-#   p-value:  3.151557E-01
-#   exp. data sets for p-value:      2
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.231458E+00   9.685871E-01   2.980449E+00
-# jendl5.0      1.572130E+00   9.263806E-01   6.253542E+00

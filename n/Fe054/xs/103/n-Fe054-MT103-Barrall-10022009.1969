@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Fe54(n,p)Mn54 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Barrall
 #   year: 1969
 #   subentry: 10022009
 #   X4 reaction: 26-FE-54(N,P)25-MN-54,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/10022009
-# target:
+# target: 
 #   Z: 26
 #   A: 54
 #   nuclide: Fe54
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 25
-#   A: 54
-#   nuclide: Mn54
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 25
+#     A: 54
+#     nuclide: Mn54
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.460000E+01   2.000000E-01   3.268066E+02   2.833583E+01   9.445279E-01
@@ -34,21 +35,3 @@
 #   author: R.C.Barrall,J.A.Holmes,M.Silbergeld
 #   title: High energy neutron cross section validation and  neutron flux spectrum using the HENRE source.
 #   journal: Rept: Air Force Spec.Weap.Center Kirtland A.F.B.Repts., No.68-134 (1969)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.460000E+01
-#   E-max [MeV]:  1.460000E+01
-#   F-value:  1.068922E+00
-#   A-value:  9.431986E-01
-#   chi-2:  9.985327E-01
-#   p-value:  2.579877E-01
-#   exp. data sets for p-value:      8
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.056145E+00   9.468393E-01   8.827801E-01
-# endfb8.0      1.054398E+00   9.484081E-01   8.529486E-01
-# jeff3.3       1.046229E+00   9.558137E-01   7.156300E-01
-# jendl5.0      1.133075E+00   8.825541E-01   2.383490E+00
-# cendl3.2      1.020382E+00   9.800254E-01   3.033991E-01
-# irdff2.0      1.054398E+00   9.484081E-01   8.529486E-01

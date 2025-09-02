@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ni64(p,n')Cu64 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Tanaka
 #   year: 1972
 #   subentry: B0020020
 #   X4 reaction: 28-NI-64(P,N)29-CU-64,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/B0020020
-# target:
+# target: 
 #   Z: 28
 #   A: 64
 #   nuclide: Ni64
-# reaction:
+# reaction: 
 #   type: (p,n')
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 29
-#   A: 64
-#   nuclide: Cu64
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 18
+#   residual: 
+#     Z: 29
+#     A: 64
+#     nuclide: Cu64
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 18
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.500000E+00   0.000000E+00   7.400000E+00   0.000000E+00   1.000000E+00
@@ -51,18 +52,3 @@
 #   author: S.Tanaka, M.Furukawa, M.Chiba
 #   title: Nuclear reactions of nickel with protons up to 56 MeV
 #   journal: Jour: Journal of Inorganic and Nuclear Chemistry, Vol.34, p.2419 (1972)
-# statistics:
-#   NEA score: R2
-#   IAEA score:  1
-#   E-min [MeV]:  3.500000E+00
-#   E-max [MeV]:  1.480000E+01
-#   F-value:  2.137481E+00
-#   A-value:  1.304986E+00
-#   chi-2:  0.000000E+00
-#   p-value:  3.123830E-01
-#   exp. data sets for p-value:      4
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    2.122216E+00   1.518147E+00   0.000000E+00
-# endfb8.0      2.253397E+00   9.569774E-01   0.000000E+00
-# jendl5.0      2.035065E+00   1.529684E+00   0.000000E+00

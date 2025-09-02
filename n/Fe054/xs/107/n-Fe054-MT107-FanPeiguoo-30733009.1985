@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Fe54(n,a)Cr51 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: FanPeiguoo
 #   year: 1985
 #   subentry: 30733009
 #   X4 reaction: 26-FE-54(N,A)24-CR-51,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30733009
-# target:
+# target: 
 #   Z: 26
 #   A: 54
 #   nuclide: Fe54
-# reaction:
+# reaction: 
 #   type: (n,a)
 #   ENDF_MF: 3
 #   ENDF_MT: 107
-# residual:
-#   Z: 24
-#   A: 51
-#   nuclide: Cr51
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 24
+#     A: 51
+#     nuclide: Cr51
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    8.500000E+00   2.700000E-01   4.007740E+01   2.617000E+00   9.587896E-01
@@ -34,20 +35,3 @@
 #   author: Fan Peiguo,Zhao Wenrong,Teng Dan,Lu Hanlin
 #   title: Measurement of cross sections for some reactions induced by 8.50 MeV neutrons
 #   journal: Jour: Chinese J.of Nuclear Physics (Beijing)., Vol.7, Issue.3, p.242 (19
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  8.500000E+00
-#   E-max [MeV]:  8.500000E+00
-#   F-value:  1.136224E+00
-#   A-value:  9.356707E-01
-#   chi-2:  3.060909E+00
-#   p-value:  2.122250E-01
-#   exp. data sets for p-value:      4
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.025013E+00   9.755976E-01   5.083420E-01
-# jeff3.3       1.327718E+00   7.531723E-01   1.429274E+01
-# jendl5.0      1.000112E+00   1.000112E+00   2.143389E-03
-# cendl3.2      1.000132E+00   9.998681E-01   2.532238E-03
-# irdff2.0      1.024569E+00   9.760205E-01   4.987925E-01

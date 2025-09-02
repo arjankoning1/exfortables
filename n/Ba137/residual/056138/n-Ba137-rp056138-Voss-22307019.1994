@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ba137(n,x)Ba138 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Voss
 #   year: 1994
 #   subentry: 22307019
 #   X4 reaction: 56-BA-137(N,G)56-BA-138,,SIG,,AV
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22307019
-# target:
+# target: 
 #   Z: 56
 #   A: 137
 #   nuclide: Ba137
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 56
-#   A: 138
-#   nuclide: Ba138
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 15
+#   residual: 
+#     Z: 56
+#     A: 138
+#     nuclide: Ba138
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 15
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.125000E-02   1.250000E-03   1.241766E+02   4.094100E+00   1.018676E+00
@@ -48,17 +49,3 @@
 #   author: F.Voss,K.Wisshak,K.Guber,F.Kaeppeler,G.Reffo
 #   title: Stellar neutron capture cross section of Ba isotopes
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.50, Issue.5, p.2582
-# statistics:
-#   NEA score: T3
-#   IAEA score: -1
-#   E-min [MeV]:  1.125000E-02
-#   E-max [MeV]:  2.125000E-01
-#   F-value:  4.942996E+00
-#   A-value:  7.763233E-01
-#   chi-2:  4.093236E+02
-#   p-value:  3.324959E-01
-#   exp. data sets for p-value:      2
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    8.154227E+00   7.986010E-01   7.478043E+02
-# jendl5.0      2.313018E+00   7.546670E-01   7.084276E+01

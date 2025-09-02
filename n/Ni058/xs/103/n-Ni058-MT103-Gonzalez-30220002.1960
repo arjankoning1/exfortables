@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ni58(n,p)Co58 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Gonzalez
 #   year: 1960
 #   subentry: 30220002
 #   X4 reaction: 28-NI-58(N,P)27-CO-58,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30220002
-# target:
+# target: 
 #   Z: 28
 #   A: 58
 #   nuclide: Ni58
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 27
-#   A: 58
-#   nuclide: Co58
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 10
+#   residual: 
+#     Z: 27
+#     A: 58
+#     nuclide: Co58
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.220000E+00   1.600000E-01   1.420000E+02   1.000000E+01   1.000000E+00
@@ -43,21 +44,3 @@
 #   author: L.Gonzalez,J.Rapaport,J.J.Van Loef
 #   title: Ni-58(n,p)Co-58 cross section for neutrons of energies between 2.2 and 3.6 MeV.
 #   journal: Jour: Physical Review, Vol.120, p.1319 (1960)
-# statistics:
-#   NEA score: T2
-#   IAEA score:  1
-#   E-min [MeV]:  2.220000E+00
-#   E-max [MeV]:  3.550000E+00
-#   F-value:  1.531385E+00
-#   A-value:  8.703338E-01
-#   chi-2:  1.879343E+01
-#   p-value:  1.261416E-01
-#   exp. data sets for p-value:      8
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.521284E+00   8.601177E-01   1.864076E+01
-# endfb8.0      1.611166E+00   8.254627E-01   2.080235E+01
-# jeff3.3       1.480546E+00   8.733858E-01   1.635435E+01
-# jendl5.0      1.599155E+00   8.859543E-01   2.201237E+01
-# cendl3.2      1.442381E+00   9.142988E-01   1.620254E+01
-# irdff2.0      1.524236E+00   8.652747E-01   1.874821E+01

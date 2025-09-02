@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Si28(g,p)Al27 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Gulbranson
 #   year: 1983
 #   subentry: L0134004
 #   X4 reaction: 14-SI-28(G,P)13-AL-27,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/L0134004
-# target:
+# target: 
 #   Z: 14
 #   A: 28
 #   nuclide: Si28
-# reaction:
+# reaction: 
 #   type: (g,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 13
-#   A: 27
-#   nuclide: Al27
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 71
+#   residual: 
+#     Z: 13
+#     A: 27
+#     nuclide: Al27
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 71
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.562000E+01   0.000000E+00   3.860000E+00   0.000000E+00   1.000000E+00
@@ -104,18 +105,3 @@
 #   author: R.L.Gulbranson,L.S.Cardman,A.Doron,A.Erell,  K.R.Lindgren,A.I.Yavin
 #   title: Charged particle decay of the 28Si giant electric  dipole resonance
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.27, p.470 (1983)
-# statistics:
-#   NEA score: T3
-#   IAEA score: -1
-#   E-min [MeV]:  1.562000E+01
-#   E-max [MeV]:  2.255000E+01
-#   F-value:  1.665029E+00
-#   A-value:  1.259734E+00
-#   chi-2:  1.579896E+02
-#   p-value:  2.503260E-01
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.767044E+00   1.409166E+00   2.682059E+02
-# endfb8.0      1.462076E+00   1.220986E+00   1.170129E+02
-# jendl5.0      1.747255E+00   1.161887E+00   8.874998E+01

@@ -1,28 +1,29 @@
-# header:
+# header: 
 #   title: U238(g,f) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Bowman
 #   year: 1975
 #   subentry: M0426002
 #   X4 reaction: 92-U-238(G,F),,SIG,,BRS
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/M0426002
-# target:
+# target: 
 #   Z: 92
 #   A: 238
 #   nuclide: U238
-# reaction:
+# reaction: 
 #   type: (g,f)
 #   ENDF_MF: 3
 #   ENDF_MT: 18
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 7
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.750000E+00   0.000000E+00   1.900000E-08   1.000000E-08   1.000000E+00
@@ -36,18 +37,3 @@
 #   author: C.D.Bowman,I.G.Schroder,C.E.Dick,H.E.Jackson
 #   title: Very low energy photofission of U-238.
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.12, p.863 (1975)
-# statistics:
-#   NEA score: T3
-#   IAEA score: -1
-#   E-min [MeV]:  2.750000E+00
-#   E-max [MeV]:  5.750000E+00
-#   F-value:  5.290911E+00
-#   A-value:  3.913338E+00
-#   chi-2:  4.454948E+03
-#   p-value:  1.337214E-01
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.849714E+01   1.464502E+01   1.969524E+04
-# endfb8.0      2.710215E+00   2.602386E+00   6.923026E+01
-# jendl5.0      2.876816E+00   2.572385E+00   1.101613E+02

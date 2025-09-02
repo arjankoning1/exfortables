@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Mo100(n,x)Mo99 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: ZhouMuyaoo
 #   year: 1987
 #   subentry: 30755015
 #   X4 reaction: 42-MO-100(N,2N)42-MO-99,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30755015
-# target:
+# target: 
 #   Z: 42
 #   A: 100
 #   nuclide: Mo100
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 42
-#   A: 99
-#   nuclide: Mo99
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 42
+#     A: 99
+#     nuclide: Mo99
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.460000E+01   2.000000E-01   1.229000E+03   4.200000E+01   1.000000E+00
@@ -34,17 +35,3 @@
 #   author: Zhou Muyao,Zhang Yongfa,Wang Chuanshan,Zhang Lu, Chen Yitai,Zhou Shuxin,Zhang Shenjin,Xie Kuanzhong, Zhou Shenmuo,Chen Xueshi,Zhang Yiping,Yan Qinguan
 #   title: Shell effect from the cross section of the (n,2n) reaction produced by 14.6 MeV neutrons
 #   journal: Jour: Chinese J.of Nuclear Physics (Beijing)., Vol.9, p.34 (1987)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.460000E+01
-#   E-max [MeV]:  1.460000E+01
-#   F-value:  1.181318E+00
-#   A-value:  1.177125E+00
-#   chi-2:  2.846572E+01
-#   p-value:  5.589366E-02
-#   exp. data sets for p-value:      8
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.218127E+00   1.218127E+00   4.074041E+01
-# jendl5.0      1.137502E+00   1.137502E+00   1.619104E+01

@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: Se74(n,x)Se73g cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Bormann
 #   year: 1966
 #   subentry: 20836025
 #   X4 reaction: 34-SE-74(N,2N)34-SE-73-G,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20836025
-# target:
+# target: 
 #   Z: 34
 #   A: 74
 #   nuclide: Se74
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 34
-#   A: 73
-#   nuclide: Se73g
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 10
+#   residual: 
+#     Z: 34
+#     A: 73
+#     nuclide: Se73g
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.295000E+01   2.000000E-01   6.190000E+01   5.600000E+00   1.000000E+00
@@ -48,18 +49,3 @@
 #   author: M.Bormann,U.Seebeck,W.Voigts,G.Woelfer
 #   title: Level densities of some medium weight nuclei from  evaporation spectra of the alpha particles from  (n,alpha) reactions
 #   journal: Jour: Zeitschrift fuer Naturforschung, Section A, Vol.21, p.988 (1966)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.295000E+01
-#   E-max [MeV]:  1.960000E+01
-#   F-value:  1.955131E+00
-#   A-value:  5.516743E-01
-#   chi-2:  2.655316E+01
-#   p-value:  1.250258E-01
-#   exp. data sets for p-value:      2
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    2.643948E+00   3.786183E-01   4.886697E+01
-# jeff3.3       1.703755E+00   6.094447E-01   2.050366E+01
-# jendl5.0      1.412573E+00   7.276329E-01   1.028884E+01

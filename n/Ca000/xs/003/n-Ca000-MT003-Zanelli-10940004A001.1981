@@ -1,28 +1,29 @@
-# header:
+# header: 
 #   title: Ca0(n,non) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Zanelli
 #   year: 1981
 #   subentry: 10940004
 #   X4 reaction: 20-CA-0(N,NON),,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/10940004
-# target:
+# target: 
 #   Z: 20
 #   A: 0
 #   nuclide: Ca0
-# reaction:
+# reaction: 
 #   type: (n,non)
 #   ENDF_MF: 3
 #   ENDF_MT: 3
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 2
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.030000E+01   0.000000E+00   9.300001E+02   5.300000E+01   1.000000E+00
@@ -31,19 +32,3 @@
 #   author: C.ZANELLI,P.URONE,J.ROMERO,F.BRADY,M.JOHNSON,  G.NEEDHAM,J.ULLMANN,D.JOHNSON
 #   title: TOTAL NON-ELASTIC CROSS SECTIONS OF NEUTRONS ON  C,O,CA,AND FE AT 40.3 AND 50.4 MEV
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.23, p.1015 (1981)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  4.030000E+01
-#   E-max [MeV]:  5.040000E+01
-#   F-value:  1.006718E+00
-#   A-value:  9.934824E-01
-#   chi-2:  1.141454E-01
-#   p-value:  4.834811E-01
-#   exp. data sets for p-value:      2
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.006928E+00   9.932594E-01   1.176992E-01
-# endfb8.0      1.006278E+00   9.939283E-01   1.070379E-01
-# jeff3.3       1.006928E+00   9.932594E-01   1.176992E-01
-# cendl3.2      0.000000E+00   0.000000E+00   0.000000E+00

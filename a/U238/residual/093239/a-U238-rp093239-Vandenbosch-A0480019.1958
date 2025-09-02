@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: U238(a,x)Np239 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Vandenbosch
 #   year: 1958
 #   subentry: A0480019
 #   X4 reaction: 92-U-238(A,X)93-NP-239,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/A0480019
-# target:
+# target: 
 #   Z: 92
 #   A: 238
 #   nuclide: U238
-# reaction:
+# reaction: 
 #   type: (a,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 93
-#   A: 239
-#   nuclide: Np239
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 9
+#   residual: 
+#     Z: 93
+#     A: 239
+#     nuclide: Np239
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 9
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.260000E+01   0.000000E+00   2.200000E-01   3.300000E-02   1.000000E+00
@@ -42,16 +43,3 @@
 #   author: R.Vandenbosch,T.D.Thomas,S.E.Vandenbosch,R.A.Glass, G.T.Seaborg
 #   title: Spallation-fission competition in heaviest elements; Helium-ion-induced reactions in uranium isotopes
 #   journal: Jour: Physical Review, Vol.111, p.1358 (1958)
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  2.260000E+01
-#   E-max [MeV]:  4.540000E+01
-#   F-value:  1.726488E+01
-#   A-value:  8.221306E-02
-#   chi-2:  3.329184E+01
-#   p-value:  6.948198E-02
-#   exp. data sets for p-value:      1
-#   libraries:      1
-##  Library          F              A            chi-2
-# tendl.2023    1.726488E+01   8.221306E-02   3.329184E+01

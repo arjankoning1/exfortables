@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Dy160(n,2n)Dy159 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Dilg
 #   year: 1968
 #   subentry: 20802006
 #   X4 reaction: 66-DY-160(N,2N)66-DY-159,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20802006
-# target:
+# target: 
 #   Z: 66
 #   A: 160
 #   nuclide: Dy160
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 66
-#   A: 159
-#   nuclide: Dy159
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 66
+#     A: 159
+#     nuclide: Dy159
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.470000E+01   1.500000E-01   2.032871E+03   1.174687E+02   1.008869E+00
@@ -34,19 +35,3 @@
 #   author: W.Dilg, H.Vonach, G.Winkler, P.Hille
 #   title: Measurement of (n,2n) reactions cross-sections on heavy nuclei.
 #   journal: Jour: Nuclear Physics, Section A, Vol.118, p.9 (1968)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.470000E+01
-#   E-max [MeV]:  1.470000E+01
-#   F-value:  1.032109E+00
-#   A-value:  9.778874E-01
-#   chi-2:  5.655069E-01
-#   p-value:  4.654716E-01
-#   exp. data sets for p-value:      2
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.052008E+00   9.505632E-01   1.309741E+00
-# endfb8.0      1.000031E+00   1.000031E+00   6.701823E-04
-# jeff3.3       1.038454E+00   9.629698E-01   9.289862E-01
-# jendl5.0      1.001041E+00   9.989606E-01   2.262971E-02

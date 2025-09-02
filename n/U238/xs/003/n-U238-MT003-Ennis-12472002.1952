@@ -1,28 +1,29 @@
-# header:
+# header: 
 #   title: U238(n,non) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Ennis
 #   year: 1952
 #   subentry: 12472002
 #   X4 reaction: 92-U-238(N,NON),,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/12472002
-# target:
+# target: 
 #   Z: 92
 #   A: 238
 #   nuclide: U238
-# reaction:
+# reaction: 
 #   type: (n,non)
 #   ENDF_MF: 3
 #   ENDF_MT: 3
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 25
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 25
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.600000E-01   0.000000E+00   5.300000E+02   0.000000E+00   1.000000E+00
@@ -54,16 +55,3 @@
 #   author: E.ENNIS
 #   title:
 #   journal: Priv.Comm: Ennis (1952)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  3.600000E-01
-#   E-max [MeV]:  1.725000E+00
-#   F-value:  1.761064E+00
-#   A-value:  1.599266E+00
-#   chi-2:  0.000000E+00
-#   p-value:  2.976350E-01
-#   exp. data sets for p-value:      1
-#   libraries:      1
-##  Library          F              A            chi-2
-# cendl3.2      1.761064E+00   1.599266E+00   0.000000E+00

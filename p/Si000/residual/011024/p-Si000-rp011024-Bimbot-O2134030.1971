@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Si0(p,x)Na24 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Bimbot
 #   year: 1971
 #   subentry: O2134030
 #   X4 reaction: 14-SI-0(P,X)11-NA-24,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/O2134030
-# target:
+# target: 
 #   Z: 14
 #   A: 0
 #   nuclide: Si0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 11
-#   A: 24
-#   nuclide: Na24
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 2
+#   residual: 
+#     Z: 11
+#     A: 24
+#     nuclide: Na24
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    5.000000E+01   5.000000E+00   2.989800E-02   5.575700E-03   1.494924E-01
@@ -35,18 +36,3 @@
 #   author: R.Bimbot, H.Gauvin
 #   title: Spallation reactions of light nuclei induced by protons from 50, 100 to 153 MeV.
 #   journal: Jour: Comptes Rendus, Serie B, Physique, Vol.273, p.1054 (1971)
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  5.000000E+01
-#   E-max [MeV]:  1.530000E+02
-#   F-value:  6.305017E+00
-#   A-value:  3.873472E+00
-#   chi-2:  2.352233E+03
-#   p-value:  1.804065E-01
-#   exp. data sets for p-value:      6
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    7.085522E+00   4.489000E+00   3.145873E+03
-# endfb8.0      1.037428E+01   1.037428E+01   2.526746E+03
-# jendl5.0      6.644449E+00   3.792279E+00   2.643057E+03

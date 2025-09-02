@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Se74(n,x)Se73 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Abboud
 #   year: 1969
 #   subentry: 30028002
 #   X4 reaction: 34-SE-74(N,2N)34-SE-73,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30028002
-# target:
+# target: 
 #   Z: 34
 #   A: 74
 #   nuclide: Se74
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 34
-#   A: 73
-#   nuclide: Se73
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 9
+#   residual: 
+#     Z: 34
+#     A: 73
+#     nuclide: Se73
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 9
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.371000E+01   1.200000E-01   2.335000E+02   7.900000E+00   1.000000E+00
@@ -42,18 +43,3 @@
 #   author: A.Abboud,P.Decowski,W.Grochulski,A.Marcinkowski, J.Piotrowski,K.Siwek,J.Wilhelmi
 #   title: Isomeric cross-section ratios and total cross-sections for the Se-74(n,2n)Se-73-g,m,Zr-90(n,2n)Zr-89-g,m and Mo-92(n,2n)Mo-91-g,m reactions
 #   journal: Jour: Nuclear Physics, Section A, Vol.139, p.42 (1969)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.371000E+01
-#   E-max [MeV]:  1.758000E+01
-#   F-value:  1.311678E+00
-#   A-value:  8.306015E-01
-#   chi-2:  1.081956E+02
-#   p-value:  2.156191E-01
-#   exp. data sets for p-value:      4
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.549664E+00   6.518280E-01   2.667893E+02
-# jeff3.3       1.146007E+00   9.270336E-01   3.527167E+01
-# jendl5.0      1.107213E+00   9.483084E-01   2.252584E+01

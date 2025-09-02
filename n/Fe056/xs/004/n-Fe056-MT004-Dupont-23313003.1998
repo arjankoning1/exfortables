@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Fe56(n,n')Fe56 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Dupont
 #   year: 1998
 #   subentry: 23313003
 #   X4 reaction: 26-FE-56(N,INL)26-FE-56,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/23313003
-# target:
+# target: 
 #   Z: 26
 #   A: 56
 #   nuclide: Fe56
-# reaction:
+# reaction: 
 #   type: (n,n')
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 26
-#   A: 56
-#   nuclide: Fe56
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 11274
+#   residual: 
+#     Z: 26
+#     A: 56
+#     nuclide: Fe56
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 11274
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    5.346172E-01   0.000000E+00  -1.427000E+00   1.962500E+01   1.000000E+00
@@ -11307,20 +11308,3 @@
 #   author: E.Dupont,P.Ribon,H.Weigmann,G.VanPraet
 #   title: High resolution measurement of the neutron inelastic scattering cross section of Fe-56
 #   journal: Thesis: Dupont (1998)
-# statistics:
-#   NEA score: T3
-#   IAEA score:  1
-#   E-min [MeV]:  5.346172E-01
-#   E-max [MeV]:  2.996271E+00
-#   F-value:  2.159503E+00
-#   A-value:  1.268552E+00
-#   chi-2:  1.655269E+02
-#   p-value:  1.095660E-01
-#   exp. data sets for p-value:      2
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    2.095287E+00   1.730342E+00   2.635126E+02
-# endfb8.0      2.047137E+00   1.976156E+00   2.752821E+02
-# jeff3.3       1.856024E+00   1.710372E+00   1.854987E+02
-# jendl5.0      2.100646E+00   1.252185E+00   1.497042E+02
-# cendl3.2      1.973762E+00   1.694635E+00   1.794894E+02

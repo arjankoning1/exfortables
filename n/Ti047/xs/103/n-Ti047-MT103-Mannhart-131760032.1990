@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ti47(n,p)Sc47 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Mannhart
 #   year: 1990
 #   subentry: 131760032
 #   X4 reaction: 22-TI-47(N,P)21-SC-47,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/131760032
-# target:
+# target: 
 #   Z: 22
 #   A: 47
 #   nuclide: Ti47
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 21
-#   A: 47
-#   nuclide: Sc47
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 40
+#   residual: 
+#     Z: 21
+#     A: 47
+#     nuclide: Sc47
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 40
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.970000E+00   1.120000E-01   1.302046E+01   8.227400E-01   1.050884E+00
@@ -73,21 +74,3 @@
 #   author: W.Mannhart, D.L.Smith, J.W.Meadows
 #   title: Measurement of the Ti-47 (n,p) reaction cross section
 #   journal: Conf: Nucl. En. Agency Nucl. Data Committee reports, No.259, p.121 (1990
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.970000E+00
-#   E-max [MeV]:  4.288000E+00
-#   F-value:  1.133735E+00
-#   A-value:  9.437794E-01
-#   chi-2:  2.797806E+00
-#   p-value:  3.726270E-01
-#   exp. data sets for p-value:      6
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.069290E+00   9.694203E-01   1.150686E+00
-# endfb8.0      1.294061E+00   8.226939E-01   1.011242E+01
-# jeff3.3       1.032164E+00   9.799378E-01   4.837538E-01
-# jendl5.0      1.128796E+00   9.259164E-01   2.869631E+00
-# cendl3.2      1.088005E+00   9.942704E-01   1.739366E+00
-# irdff2.0      1.028540E+00   9.821953E-01   4.309800E-01

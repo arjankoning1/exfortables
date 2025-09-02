@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Cu63(n,2n)Cu62 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Ghanbari
 #   year: 1986
 #   subentry: 12950002
 #   X4 reaction: 29-CU-63(N,2N)29-CU-62,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/12950002
-# target:
+# target: 
 #   Z: 29
 #   A: 63
 #   nuclide: Cu63
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 29
-#   A: 62
-#   nuclide: Cu62
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 29
+#     A: 62
+#     nuclide: Cu62
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.480000E+01   1.000000E-01   5.334385E+02   1.240029E+01   9.752073E-01
@@ -34,21 +35,3 @@
 #   author: F.GHANBARI,J.C.ROBERTSON
 #   title: THE 63-CU(N,2N)62-CU AND 65-CU(N,2N)64-CU CROSS  SECTIONS AT 14.8 MEV
 #   journal: Jour: Annals of Nuclear Energy, Vol.13, p.301 (1986)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.480000E+01
-#   E-max [MeV]:  1.480000E+01
-#   F-value:  1.037954E+00
-#   A-value:  1.022673E+00
-#   chi-2:  3.110988E+00
-#   p-value:  3.730949E-01
-#   exp. data sets for p-value:      8
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.022275E+00   1.022275E+00   1.507449E+00
-# endfb8.0      1.038946E+00   9.625137E-01   3.070523E+00
-# jeff3.3       1.027356E+00   1.027356E+00   1.966484E+00
-# jendl5.0      1.060152E+00   1.060152E+00   6.818366E+00
-# cendl3.2      1.040842E+00   1.040842E+00   3.502939E+00
-# irdff2.0      1.025585E+00   1.025585E+00   1.800168E+00

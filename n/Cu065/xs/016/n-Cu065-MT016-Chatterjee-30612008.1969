@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Cu65(n,2n)Cu64 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Chatterjee
 #   year: 1969
 #   subentry: 30612008
 #   X4 reaction: 29-CU-65(N,2N)29-CU-64,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30612008
-# target:
+# target: 
 #   Z: 29
 #   A: 65
 #   nuclide: Cu65
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 29
-#   A: 64
-#   nuclide: Cu64
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 3
+#   residual: 
+#     Z: 29
+#     A: 64
+#     nuclide: Cu64
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.420000E+01   0.000000E+00   8.500000E+02   5.000000E+01   1.000000E+00
@@ -36,21 +37,3 @@
 #   author: A.Chatterjee,A.Nath,A.M.Ghose
 #   title: Absolute (n,2n) cross sections of nuclei near 14 MeV
 #   journal: Conf: Nucl. and Solid State Physics Symp., Roorkee 1969, Vol.2, p.117 (1
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.420000E+01
-#   E-max [MeV]:  1.480000E+01
-#   F-value:  1.039408E+00
-#   A-value:  9.870593E-01
-#   chi-2:  7.930880E-01
-#   p-value:  2.752476E-01
-#   exp. data sets for p-value:      8
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.031143E+00   9.962852E-01   6.737900E-01
-# endfb8.0      1.064530E+00   9.508646E-01   1.258093E+00
-# jeff3.3       1.031665E+00   9.950548E-01   6.895816E-01
-# jendl5.0      1.035503E+00   9.911411E-01   7.796177E-01
-# cendl3.2      1.031016E+00   9.923116E-01   6.679094E-01
-# irdff2.0      1.031979E+00   9.975315E-01   6.895370E-01

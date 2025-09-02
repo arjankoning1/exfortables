@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: S34(n,a)Si31 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Robertson
 #   year: 1973
 #   subentry: 20799011
 #   X4 reaction: 16-S-34(N,A)14-SI-31,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20799011
-# target:
+# target: 
 #   Z: 16
 #   A: 34
 #   nuclide: S34
-# reaction:
+# reaction: 
 #   type: (n,a)
 #   ENDF_MF: 3
 #   ENDF_MT: 107
-# residual:
-#   Z: 14
-#   A: 31
-#   nuclide: Si31
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 14
+#     A: 31
+#     nuclide: Si31
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.478000E+01   1.000000E-01   1.874157E+02   4.347270E+00   9.660600E-01
@@ -34,20 +35,3 @@
 #   author: J.C.Robertson,B.Audric,P.Kolkowski
 #   title: Some activation cross-sections at 14.78 MeV.
 #   journal: Jour: Journal of Nuclear Energy, Vol.27, p.531 (1973)
-# statistics:
-#   NEA score: R2
-#   IAEA score:  1
-#   E-min [MeV]:  1.478000E+01
-#   E-max [MeV]:  1.478000E+01
-#   F-value:  2.218550E+00
-#   A-value:  4.752830E-01
-#   chi-2:  5.079858E+02
-#   p-value:  8.226329E-02
-#   exp. data sets for p-value:      7
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.807081E+00   5.533788E-01   3.707298E+02
-# endfb8.0      2.965770E+00   3.371805E-01   8.165245E+02
-# jeff3.3       1.520090E+00   6.578557E-01   2.175692E+02
-# jendl5.0      2.965770E+00   3.371805E-01   8.165245E+02
-# cendl3.2      1.706541E+00   5.859806E-01   3.185812E+02

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Pd104(p,x)Ag104 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Zhuravlev
 #   year: 1996
 #   subentry: A0840002
 #   X4 reaction: 46-PD-104(P,N)47-AG-104,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/A0840002
-# target:
+# target: 
 #   Z: 46
 #   A: 104
 #   nuclide: Pd104
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 47
-#   A: 104
-#   nuclide: Ag104
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 18
+#   residual: 
+#     Z: 47
+#     A: 104
+#     nuclide: Ag104
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 18
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    6.146000E+00   0.000000E+00   1.181000E+02   0.000000E+00   1.000000E+00
@@ -51,17 +52,3 @@
 #   author: Yu.Yu.Zhuravlev, P.P.Zarubin, Yu.V.Zeits, A.A.Kolozhvari, I.V.Shelkunov, Hu Bi Tao
 #   title: Total cross sections for the (p,n) reaction at nuclei of Pd isotopes at E(p)=6.1-6.9 MeV.
 #   journal: Jour: Izv. Rossiiskoi Akademii Nauk, Ser.Fiz., Vol.60, Issue.5, p.169 (1
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  6.146000E+00
-#   E-max [MeV]:  6.897000E+00
-#   F-value:  1.380149E+00
-#   A-value:  7.995535E-01
-#   chi-2:  1.708796E+01
-#   p-value:  1.366810E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.279437E+00   8.890686E-01   1.057846E+01
-# jendl5.0      1.467067E+00   7.190511E-01   2.359747E+01

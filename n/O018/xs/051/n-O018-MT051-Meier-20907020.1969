@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: O18(n,n'_01)O19 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Meier
 #   year: 1969
 #   subentry: 20907020
 #   X4 reaction: 8-O-18(N,INL)8-O-18,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20907020
-#   level energy [MeV]  1.98000E+00
-# target:
+#   level energy [MeV]:  1.98000E+00
+# target: 
 #   Z: 8
 #   A: 18
 #   nuclide: O18
-# reaction:
+# reaction: 
 #   type: (n,n'_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 51
@@ -25,14 +25,15 @@
 #     energy [MeV]:  1.982070E+00
 #     spin:  2.000000E+00
 #     parity: 1
-# residual:
-#   Z: 8
-#   A: 19
-#   nuclide: O19
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 8
+#     A: 19
+#     nuclide: O19
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.414000E+01   8.000000E-02   7.500000E+01   1.200000E+01   1.000000E+00
@@ -40,17 +41,3 @@
 #   author: D.MEIER,M.BREULLMANN,H.JUNG,P.MARMIER
 #   title: -ELASTIC AND INELASTIC SCATTERING OF 14.1 MEV  NEUTRONS ON O-16 AND O-18-. (IN GERMAN)
 #   journal: Jour: Helvetica Physica Acta, Vol.42, p.813 (1969)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  1.414000E+01
-#   E-max [MeV]:  1.414000E+01
-#   F-value:  1.752927E+00
-#   A-value:  5.709130E-01
-#   chi-2:  7.297534E+00
-#   p-value:  2.446795E-01
-#   exp. data sets for p-value:      2
-#   libraries:      2
-##  Library          F              A            chi-2
-# jeff3.3       1.803777E+00   5.543921E-01   7.836539E+00
-# jendl5.0      1.700894E+00   5.879261E-01   6.758528E+00

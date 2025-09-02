@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: V51(n,x)Ti51 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Khan
 #   year: 1983
 #   subentry: 30654002
 #   X4 reaction: 23-V-51(N,P)22-TI-51,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30654002
-# target:
+# target: 
 #   Z: 23
 #   A: 51
 #   nuclide: V51
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 22
-#   A: 51
-#   nuclide: Ti51
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 22
+#     A: 51
+#     nuclide: Ti51
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.470000E+01   0.000000E+00   2.600000E+01   2.000000E+00   1.000000E+00
@@ -34,18 +35,3 @@
 #   author: Naeem A.Khan,Hameed A.Khan,M.Ahmad,K.Jamil,M.Anwar, S.M.Saleem,K.Gul
 #   title: Calibration of Homalite CR-39 plastic track detector for light particle spectrometry and its application in studying the(n,alpha) and (n,p) reaction on V-51
 #   journal: Jour: Nuclear Instrum.and Methods in Physics Res., Vol.215, p.193 (1983)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.470000E+01
-#   E-max [MeV]:  1.470000E+01
-#   F-value:  1.116059E+00
-#   A-value:  1.105239E+00
-#   chi-2:  2.746534E+00
-#   p-value:  9.639540E-02
-#   exp. data sets for p-value:      8
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.116276E+00   1.116276E+00   2.789193E+00
-# jeff3.3       1.161601E+00   1.161601E+00   4.693334E+00
-# jendl5.0      1.041213E+00   1.041213E+00   7.570741E-01

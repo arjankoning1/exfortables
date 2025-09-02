@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Li6(n,t)He4 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: HuaiyongBaii
 #   year: 2020
 #   subentry: 32800002
 #   X4 reaction: 3-LI-6(N,T)2-HE-4,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/32800002
-# target:
+# target: 
 #   Z: 3
 #   A: 6
 #   nuclide: Li6
-# reaction:
+# reaction: 
 #   type: (n,t)
 #   ENDF_MF: 3
 #   ENDF_MT: 105
-# residual:
-#   Z: 2
-#   A: 4
-#   nuclide: He4
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 80
+#   residual: 
+#     Z: 2
+#     A: 4
+#     nuclide: He4
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 80
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.000000E-06   4.200000E-09   1.631738E+05   2.525047E+03   1.001066E+00
@@ -113,20 +114,3 @@
 #   author: Huaiyong Bai,Ruirui Fan,Haoyu Jiang,Zengqi Cui, Yiwei Hu,Guohui Zhang,Zhenpeng Chen,Wei Jiang,Han Yi, Jingyu Tang,Liang Zhou,Qi An,Jie Bao,Ping Cao, Qiping Chen,Yonghao Chen,Pinjing Cheng,Changqing Feng, Minhao Gu,Fengqin Guo,Changcai Han,Zijie Han, Guozhu He,Yongcheng He,Yuefeng He,Hanxiong Huang, Weiling Huang,Xiru Huang,Xiaolu Ji,Xuyang Ji, Hantao Jing,Ling Kang,Mingtao Kang,Bo Li,Lun Li, Qiang Li,Xiao Li,Yang Li,Yang Li,Rong Liu,Shubin Liu, Xingyan Liu,Guangyuan Luan,Yinglin Ma,Changjun Ning, Binbin Qi,Jie Ren,Xichao Ruan,Zhaohui Song,Hong Sun, Xiaoyang Sun,Zhijia Sun,Zhixin Tan,Hongqing Tang, Pengcheng Wang,Qi Wang,Taofeng Wang,Yanfeng Wang, Zhaohui Wang,Zheng Wang, Jie Wen,Zhongwei Wen, Qingbiao Wu,Xiaoguang Wu,Xuan Wu,Likun Xie, Yiwei Yang,Li Yu,Tao Yu,Yongji Yu,Jing Zhang, Linhao Zhang, Liying Zhang,Qingmin Zhang,Qiwei Zhang, Xianpeng Zhang,Yuliang Zhang,Zhiyong Zhang, Yingtan Zhao,Zuying Zhou,Danyang Zhu,Kejun Zhu, Peng Zhu
 #   title: Measurement of the differential cross sections and angle-integrated cross sections of the 6Li(n,t)4He reaction from 1.0 eV to 3.0 MeV at the CSNS Back-n white neutron source
 #   journal: Jour: Chinese Physics C, Vol.44, p.014003 (2020)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  1.000000E-06
-#   E-max [MeV]:  3.000000E+00
-#   F-value:  1.058250E+00
-#   A-value:  9.882239E-01
-#   chi-2:  5.278173E+00
-#   p-value:  3.228038E-01
-#   exp. data sets for p-value:      4
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.056488E+00   9.867728E-01   4.900765E+00
-# endfb8.0      1.056488E+00   9.867728E-01   4.900765E+00
-# jeff3.3       1.057126E+00   9.866605E-01   4.824206E+00
-# jendl5.0      1.063562E+00   9.933705E-01   6.822356E+00
-# irdff2.0      1.057298E+00   9.875599E-01   4.942771E+00

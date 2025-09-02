@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Nd142(n,2n)Nd141 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Kasugai
 #   year: 1997
 #   subentry: 22393011
 #   X4 reaction: 60-ND-142(N,2N)60-ND-141,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22393011
-# target:
+# target: 
 #   Z: 60
 #   A: 142
 #   nuclide: Nd142
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 60
-#   A: 141
-#   nuclide: Nd141
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 6
+#   residual: 
+#     Z: 60
+#     A: 141
+#     nuclide: Nd141
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.338000E+01   0.000000E+00   1.500000E+03   1.000000E+02   1.000000E+00
@@ -39,20 +40,3 @@
 #   author: Y.Kasugai,Y.Ikeda,Y.Uno
 #   title: Activation cross section measurements for La, Ce, Pr,  Nd, Gd, Dy AND Er isotopes by 14 MeV neutrons
 #   journal: Conf: Conf.on Nucl.Data for Sci.and Techn., Trieste 1997, Vol.1, p.635 (
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.338000E+01
-#   E-max [MeV]:  1.495000E+01
-#   F-value:  1.124424E+00
-#   A-value:  9.215177E-01
-#   chi-2:  3.103563E+00
-#   p-value:  3.847717E-01
-#   exp. data sets for p-value:      4
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.182731E+00   8.511562E-01   6.165112E+00
-# endfb8.0      1.031480E+00   9.760389E-01   5.613839E-01
-# jeff3.3       1.216903E+00   8.265479E-01   8.036817E+00
-# jendl5.0      1.019242E+00   9.863889E-01   3.064349E-01
-# cendl3.2      1.027502E+00   9.811281E-01   4.480650E-01

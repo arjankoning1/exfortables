@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Tc99(n,x)Tc100 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Chou
 #   year: 1973
 #   subentry: 20352010
 #   X4 reaction: 43-TC-99(N,G)43-TC-100,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20352010
-# target:
+# target: 
 #   Z: 43
 #   A: 99
 #   nuclide: Tc99
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 43
-#   A: 100
-#   nuclide: Tc100
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 6
+#   residual: 
+#     Z: 43
+#     A: 100
+#     nuclide: Tc100
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    5.000000E-04   0.000000E+00   5.300000E+03   4.000000E+02   1.000000E+00
@@ -39,18 +40,3 @@
 #   author: J.-C.Chou, H.Werle
 #   title: (n,gamma) - cross-section measurements of Tc-99, Eu,  Sm and Fe in the energy range 1 eV to 50 keV with a  slowing-down time spectrometer
 #   journal: Jour: Journal of Nuclear Energy, Vol.27, p.811 (1973)
-# statistics:
-#   NEA score: T3
-#   IAEA score:  1
-#   E-min [MeV]:  5.000000E-04
-#   E-max [MeV]:  5.000000E-02
-#   F-value:  1.291083E+01
-#   A-value:  2.802137E-01
-#   chi-2:  5.824405E+01
-#   p-value:  8.447499E-02
-#   exp. data sets for p-value:      2
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.286414E+01   2.482413E-01   5.142952E+01
-# jeff3.3       1.303287E+01   2.914923E-01   5.993455E+01
-# jendl5.0      1.283602E+01   3.040652E-01   6.336805E+01

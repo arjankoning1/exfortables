@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: He3(h,2p)He4 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Junker
 #   year: 1998
 #   subentry: A0110002
 #   X4 reaction: 2-HE-3(HE3,2P)2-HE-4,,SIG,,SFC
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/A0110002
-# target:
+# target: 
 #   Z: 2
 #   A: 3
 #   nuclide: He3
-# reaction:
+# reaction: 
 #   type: (h,2p)
 #   ENDF_MF: 3
 #   ENDF_MT: 111
-# residual:
-#   Z: 2
-#   A: 4
-#   nuclide: He4
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 25
+#   residual: 
+#     Z: 2
+#     A: 4
+#     nuclide: He4
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 25
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.152000E-02   0.000000E+00   7.331400E-10   1.180800E-10   1.000000E+00
@@ -58,17 +59,3 @@
 #   author: M.Junker, A.D'alessandro, S.Zavatarelli, C.Arpesella, E.Bellotti, C.Broggini, P.Corvisiero, G.Fiorentini, A.Fubini, G.Gervino, U.Greife, C.Gustavino, J.Lambert, P.Prati, W.S.Rodney, C.Rolfs, F.Strieder, H.P.Trautvetter, D.Zahnow
 #   title: Cross section of 3-He(3-He,2p)4-He measured at solar energies.
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.57, p.2700 (1998)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  4.152000E-02
-#   E-max [MeV]:  1.834000E-01
-#   F-value:  1.009402E+00
-#   A-value:  9.930904E-01
-#   chi-2:  8.116806E-02
-#   p-value:  2.582757E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.009402E+00   9.930904E-01   8.116806E-02
-# endfb8.0      1.009402E+00   9.930904E-01   8.116806E-02

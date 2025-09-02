@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Pb207(p,x)Bi206 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Deptula
 #   year: 1990
 #   subentry: O0306008
 #   X4 reaction: 82-PB-207(P,2N)83-BI-206,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/O0306008
-# target:
+# target: 
 #   Z: 82
 #   A: 207
 #   nuclide: Pb207
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 83
-#   A: 206
-#   nuclide: Bi206
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 20
+#   residual: 
+#     Z: 83
+#     A: 206
+#     nuclide: Bi206
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 20
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    5.000000E+01   0.000000E+00   4.800000E+01   6.240000E+00   1.000000E+00
@@ -53,18 +54,3 @@
 #   author: C.Deptula,V.A.Khalkin,Kim Sen Han,O.Knotek,V.A.Konov, P.Mikecz,L.M.Popinenkova,E.Rurarz,N.G.Zaitseva
 #   title: Excitation functions and yield for medically important generators 82Sr -> 82Rb, 123Xe -> 123I and 201Bi -> 201Pb -> Tl-201 obtained with 100 MeV protons obtained with 100 MeV protons.
 #   journal: Jour: Nukleonika, Vol.35, p.3 (1990)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  5.000000E+01
-#   E-max [MeV]:  9.730000E+01
-#   F-value:  1.713075E+00
-#   A-value:  1.632368E+00
-#   chi-2:  3.508730E+01
-#   p-value:  1.375829E-01
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.497755E+00   1.444950E+00   1.638282E+01
-# endfb8.0      2.133370E+00   2.127373E+00   7.690230E+01
-# jendl5.0      1.438025E+00   1.415003E+00   1.197676E+01

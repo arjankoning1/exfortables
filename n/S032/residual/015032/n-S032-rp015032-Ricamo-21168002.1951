@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: S32(n,x)P32 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Ricamo
 #   year: 1951
 #   subentry: 21168002
 #   X4 reaction: 16-S-32(N,P)15-P-32,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/21168002
-# target:
+# target: 
 #   Z: 16
 #   A: 32
 #   nuclide: S32
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 15
-#   A: 32
-#   nuclide: P32
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 39
+#   residual: 
+#     Z: 15
+#     A: 32
+#     nuclide: P32
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 39
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.900000E+00   3.000000E-02   1.600000E+01   3.200000E-01   1.000000E+00
@@ -72,17 +73,3 @@
 #   author: R.RICAMO,E.LUESCHER,P.SCHERRER,W.ZUENTI
 #   title: -ELASTIC SCATTERING AND (N,P) RESONANCES OF P-31 AND S-
 #   journal: Jour: Nuovo Cimento, Vol.8, p.383 (1951)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.900000E+00
-#   E-max [MeV]:  3.660000E+00
-#   F-value:  1.196222E+00
-#   A-value:  9.307870E-01
-#   chi-2:  6.603518E+01
-#   p-value:  2.085721E-01
-#   exp. data sets for p-value:      2
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.196264E+00   9.307395E-01   6.605379E+01
-# jeff3.3       1.196180E+00   9.308345E-01   6.601656E+01

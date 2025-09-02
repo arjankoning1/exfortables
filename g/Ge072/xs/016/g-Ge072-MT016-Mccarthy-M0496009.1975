@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ge72(g,2n)Ge70 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Mccarthy
 #   year: 1975
 #   subentry: M0496009
 #   X4 reaction: 32-GE-72(G,2N)32-GE-70,,SIG,,BRS
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/M0496009
-# target:
+# target: 
 #   Z: 32
 #   A: 72
 #   nuclide: Ge72
-# reaction:
+# reaction: 
 #   type: (g,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 32
-#   A: 70
-#   nuclide: Ge70
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 15
+#   residual: 
+#     Z: 32
+#     A: 70
+#     nuclide: Ge70
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 15
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.000000E+01   0.000000E+00   0.000000E+00   1.000000E+00   1.000000E+00
@@ -48,18 +49,3 @@
 #   author: J.J.Mccarthy,R.C.Morrison,H.J.Vander Molen
 #   title: Systematic study of the photodisintegration of Ge-70,  Ge-72, Ge-74, and Ge-76.
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.11, p.772 (1975)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  1.000000E+01
-#   E-max [MeV]:  3.800000E+01
-#   F-value:  1.982151E+00
-#   A-value:  8.352153E-01
-#   chi-2:  2.057339E+01
-#   p-value:  9.758628E-02
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.944657E+00   1.032363E+00   3.076651E+01
-# endfb8.0      1.863828E+00   8.046504E-01   1.421747E+01
-# jendl5.0      2.133642E+00   7.013840E-01   1.673620E+01

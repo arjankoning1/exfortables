@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Nd146(n,p)Pr146 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Sunitha
 #   year: 2020
 #   subentry: 33153005
 #   X4 reaction: 60-ND-146(N,P)59-PR-146,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/33153005
-# target:
+# target: 
 #   Z: 60
 #   A: 146
 #   nuclide: Nd146
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 59
-#   A: 146
-#   nuclide: Pr146
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 59
+#     A: 146
+#     nuclide: Pr146
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.454000E+01   4.800000E-01   4.135540E+00   7.059800E-01   1.008668E+00
@@ -34,20 +35,3 @@
 #   author: A.M.Sunitha, S.V.Suryanarayana, K.Nagaraja, B.Rudraswamy, H.Naik, I.Pasha
 #   title: Measurement of 92Mo(n,a)89Zr, 97Mo(n,p)97Nb, 148Nd(n,2n)147Nd and 146Nd(n,p)146Pr reaction cross sections at the neutron energy of 14.54 MeV with covariance analysis
 #   journal: Jour: Journal of Radioanalytical and Nuclear Chemistry, Vol.326, p.1383
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  1.454000E+01
-#   E-max [MeV]:  1.454000E+01
-#   F-value:  1.044008E+00
-#   A-value:  1.015082E+00
-#   chi-2:  2.414537E-01
-#   p-value:  4.299727E-01
-#   exp. data sets for p-value:      8
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.091815E+00   1.091815E+00   7.603766E-01
-# endfb8.0      1.011114E+00   1.011114E+00   8.272331E-02
-# jeff3.3       1.011114E+00   1.011114E+00   8.272331E-02
-# jendl5.0      1.036892E+00   9.644205E-01   2.731583E-01
-# cendl3.2      1.001127E+00   1.001127E+00   8.287047E-03

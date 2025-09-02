@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: N14(n,p)C14 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Morgan
 #   year: 1979
 #   subentry: 10789002
 #   X4 reaction: 7-N-14(N,P)6-C-14,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/10789002
-# target:
+# target: 
 #   Z: 7
 #   A: 14
 #   nuclide: N14
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 6
-#   A: 14
-#   nuclide: C14
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 432
+#   residual: 
+#     Z: 6
+#     A: 14
+#     nuclide: C14
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 432
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.640000E-01   2.000000E-03   2.912000E+00   1.568000E+00   1.000000E+00
@@ -465,20 +466,3 @@
 #   author: G.L.Morgan
 #   title: Cross Sections for the 14N(n,p), 14N(n,alpha-0) and  14N(n,alpha-1) Reactions from 0.5 to 15 MeV
 #   journal: Jour: Nuclear Science and Engineering, Vol.70, p.163 (1979)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  4.640000E-01
-#   E-max [MeV]:  6.857000E+00
-#   F-value:  1.264149E+00
-#   A-value:  1.126257E+00
-#   chi-2:  5.290777E+00
-#   p-value:  2.782312E-01
-#   exp. data sets for p-value:      3
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.286947E+00   1.154702E+00   6.108285E+00
-# endfb8.0      1.286947E+00   1.154702E+00   6.108285E+00
-# jeff3.3       1.286947E+00   1.154702E+00   6.108285E+00
-# jendl5.0      1.152520E+00   1.019312E+00   2.020756E+00
-# cendl3.2      1.286946E+00   1.154702E+00   6.108248E+00

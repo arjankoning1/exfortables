@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ge70(n,x)Ge69 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Rayburn
 #   year: 1961
 #   subentry: 11328016
 #   X4 reaction: 32-GE-70(N,2N)32-GE-69,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/11328016
-# target:
+# target: 
 #   Z: 32
 #   A: 70
 #   nuclide: Ge70
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 32
-#   A: 69
-#   nuclide: Ge69
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 32
+#     A: 69
+#     nuclide: Ge69
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.440000E+01   3.000000E-01   5.928355E+02   1.228999E+01   9.913638E-01
@@ -34,18 +35,3 @@
 #   author: L.A.RAYBURN
 #   title: 14.4 MEV (N,2N) CROSS SECTIONS.
 #   journal: Jour: Physical Review, Vol.122, p.168 (1961)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.440000E+01
-#   E-max [MeV]:  1.440000E+01
-#   F-value:  1.490817E+00
-#   A-value:  7.251864E-01
-#   chi-2:  2.119512E+02
-#   p-value:  2.928945E-01
-#   exp. data sets for p-value:      8
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.923197E+00   5.199674E-01   5.361752E+02
-# jeff3.3       1.210781E+00   8.259130E-01   7.051768E+01
-# jendl5.0      1.126060E+00   8.880523E-01   2.916055E+01

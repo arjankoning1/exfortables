@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Y89(n,x)Y90 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Boldeman
 #   year: 1977
 #   subentry: 30391006
 #   X4 reaction: 39-Y-89(N,G)39-Y-90,,SIG,,AV
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30391006
-# target:
+# target: 
 #   Z: 39
 #   A: 89
 #   nuclide: Y89
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 39
-#   A: 90
-#   nuclide: Y90
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 13
+#   residual: 
+#     Z: 39
+#     A: 90
+#     nuclide: Y90
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 13
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.500000E-03   5.000000E-04   4.900000E+01   5.000000E+00   1.000000E+00
@@ -46,17 +47,3 @@
 #   author: J.W.Boldeman, B.J.Allen, A.R.de L.Musgrove,  R.L.Macklin
 #   title: The neutron capture cross-section of yttrium-89
 #   journal: Jour: Nuclear Science and Engineering, Vol.64, p.744 (1977)
-# statistics:
-#   NEA score: T3
-#   IAEA score: -1
-#   E-min [MeV]:  3.500000E-03
-#   E-max [MeV]:  9.000000E-02
-#   F-value:  4.694797E+01
-#   A-value:  3.997636E-02
-#   chi-2:  6.917279E+01
-#   p-value:  1.291209E-02
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    4.694334E+01   3.998148E-02   6.918567E+01
-# jendl5.0      4.695260E+01   3.997124E-02   6.915991E+01

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: P31(n,x)Si31 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Hassler
 #   year: 1962
 #   subentry: 11492009
 #   X4 reaction: 15-P-31(N,P)14-SI-31,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/11492009
-# target:
+# target: 
 #   Z: 15
 #   A: 31
 #   nuclide: P31
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 14
-#   A: 31
-#   nuclide: Si31
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 14
+#     A: 31
+#     nuclide: Si31
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.440000E+01   2.000000E-01   1.550000E+02   1.600000E+01   1.000000E+00
@@ -34,19 +35,3 @@
 #   author: F.L.HASSLER,R.A.PECK JR
 #   title: NEUTRON-INDUCED REACTIONS IN THIRD AND FOURTH SHELL NUCLEI.
 #   journal: Jour: Physical Review, Vol.125, p.1011 (1962)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  0
-#   E-min [MeV]:  1.440000E+01
-#   E-max [MeV]:  1.440000E+01
-#   F-value:  1.754580E+00
-#   A-value:  5.699464E-01
-#   chi-2:  1.735798E+01
-#   p-value:  8.468556E-02
-#   exp. data sets for p-value:      2
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.748323E+00   5.719768E-01   1.719441E+01
-# endfb8.0      1.748076E+00   5.720575E-01   1.718793E+01
-# jeff3.3       1.755162E+00   5.697479E-01   1.737385E+01
-# jendl5.0      1.766709E+00   5.660243E-01   1.767571E+01

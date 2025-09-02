@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ga71(p,x)Ga68 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Porile
 #   year: 1963
 #   subentry: P0014021
 #   X4 reaction: 31-GA-71(P,X)31-GA-68,IND,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/P0014021
-# target:
+# target: 
 #   Z: 31
 #   A: 71
 #   nuclide: Ga71
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 31
-#   A: 68
-#   nuclide: Ga68
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 4
+#   residual: 
+#     Z: 31
+#     A: 68
+#     nuclide: Ga68
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.580000E+01   0.000000E+00   3.190000E+01   4.785000E+00   1.000000E+00
@@ -37,17 +38,3 @@
 #   author: N.T.Porile,S.Tanaka,H.Amano,M.Furukawa,S.Iwata,M.Yagi
 #   title: Nuclear reactions of Ga69 and Ga71 with 13-56 MeV  protons
 #   journal: Jour: Nuclear Physics, Vol.43, p.500 (1963)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  3.580000E+01
-#   E-max [MeV]:  5.510000E+01
-#   F-value:  1.243363E+00
-#   A-value:  8.976768E-01
-#   chi-2:  1.969326E+00
-#   p-value:  3.674496E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.334554E+00   7.700977E-01   3.047566E+00
-# jendl5.0      1.113732E+00   1.046391E+00   8.910865E-01

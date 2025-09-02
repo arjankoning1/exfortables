@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Fe56(n,p)Mn56 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Liskien
 #   year: 1966
 #   subentry: 20387004
 #   X4 reaction: 26-FE-56(N,P)25-MN-56,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20387004
-# target:
+# target: 
 #   Z: 26
 #   A: 56
 #   nuclide: Fe56
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 25
-#   A: 56
-#   nuclide: Mn56
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 17
+#   residual: 
+#     Z: 25
+#     A: 56
+#     nuclide: Mn56
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 17
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    6.060000E+00   1.000000E-01   1.190000E+01   8.000000E-01   1.000000E+00
@@ -50,21 +51,3 @@
 #   author: H.LISKIEN,A.PAULSEN
 #   title: -CROSS SECTIONS FOR THE CU63(N,A)CO60, NI60(N,P)CO60 AND SOME OTHER THRESHOLD REACTIONS USING NEUTRONS FROM THE BE9(A,N)C12 REACTION.-
 #   journal: Jour: Nukleonik, Vol.8, p.315 (1966)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  6.060000E+00
-#   E-max [MeV]:  8.200000E+00
-#   F-value:  1.098398E+00
-#   A-value:  1.072525E+00
-#   chi-2:  3.582351E+00
-#   p-value:  2.385039E-01
-#   exp. data sets for p-value:      4
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.084592E+00   1.060431E+00   2.700190E+00
-# endfb8.0      1.086862E+00   1.064630E+00   2.828172E+00
-# jeff3.3       1.052699E+00   1.031263E+00   1.129007E+00
-# jendl5.0      1.165059E+00   1.153909E+00   9.346642E+00
-# cendl3.2      1.085102E+00   1.064417E+00   2.745049E+00
-# irdff2.0      1.085102E+00   1.064417E+00   2.745048E+00

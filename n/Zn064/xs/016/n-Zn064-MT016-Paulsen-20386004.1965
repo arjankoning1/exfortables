@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Zn64(n,2n)Zn63 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Paulsen
 #   year: 1965
 #   subentry: 20386004
 #   X4 reaction: 30-ZN-64(N,2N)30-ZN-63,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20386004
-# target:
+# target: 
 #   Z: 30
 #   A: 64
 #   nuclide: Zn64
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 30
-#   A: 63
-#   nuclide: Zn63
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 27
+#   residual: 
+#     Z: 30
+#     A: 63
+#     nuclide: Zn63
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 27
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.260000E+01   1.100000E-01   1.052636E+01   7.797300E-01   9.746630E-01
@@ -60,20 +61,3 @@
 #   author: A.Paulsen,H.Liskien
 #   title: Excitation functions for the reactions Ni58(n,2n)Ni57, Cu65(n,2n)Cu64 and Zn64(n,2n)Zn63 in the energy range from 12.6 to 19.6 MeV
 #   journal: Jour: Nukleonik, Vol.7, p.117 (1965)
-# statistics:
-#   NEA score: T2
-#   IAEA score:  1
-#   E-min [MeV]:  1.260000E+01
-#   E-max [MeV]:  1.958000E+01
-#   F-value:  1.492050E+00
-#   A-value:  6.939961E-01
-#   chi-2:  2.040609E+01
-#   p-value:  1.900806E-01
-#   exp. data sets for p-value:      4
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.820664E+00   5.496866E-01   4.068467E+01
-# endfb8.0      1.372051E+00   7.606533E-01   1.375519E+01
-# jeff3.3       1.494528E+00   6.734487E-01   2.172503E+01
-# jendl5.0      1.388403E+00   7.378433E-01   1.498605E+01
-# cendl3.2      1.308687E+00   7.748444E-01   1.087950E+01

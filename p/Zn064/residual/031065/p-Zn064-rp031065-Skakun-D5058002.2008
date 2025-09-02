@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Zn64(p,x)Ga65 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Skakun
 #   year: 2008
 #   subentry: D5058002
 #   X4 reaction: 30-ZN-64(P,G)31-GA-65,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/D5058002
-# target:
+# target: 
 #   Z: 30
 #   A: 64
 #   nuclide: Zn64
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 31
-#   A: 65
-#   nuclide: Ga65
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 25
+#   residual: 
+#     Z: 31
+#     A: 65
+#     nuclide: Ga65
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 25
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    9.940000E-01   0.000000E+00   2.700000E-04   4.000000E-05   1.000000E+00
@@ -58,17 +59,3 @@
 #   author: E.A.Skakun, S.N.Utenkov, V.N.Bondarenko,A.V.Goncharov, V.M.Mishchenko, V.I.Sukhostavets, K.V.Shebeko
 #   title: Cross sections and rates of the thermonuclear reactions  64Zn(p,g)65Ga and 66Zn(p,g)67Ga
 #   journal: Jour: Izv. Rossiiskoi Akademii Nauk, Ser.Fiz., Vol.72, Issue.3, p.402 (2
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  9.940000E-01
-#   E-max [MeV]:  2.810000E+00
-#   F-value:  2.032724E+00
-#   A-value:  1.517419E+00
-#   chi-2:  2.006255E+02
-#   p-value:  2.347631E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    2.285942E+00   1.757791E+00   2.823898E+02
-# jendl5.0      1.486991E+00   1.213321E+00   1.453377E+01

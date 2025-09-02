@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Nb93(p,x)Y88 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Ditroi
 #   year: 2009
 #   subentry: D4228009
 #   X4 reaction: 41-NB-93(P,X)39-Y-88,CUM,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/D4228009
-# target:
+# target: 
 #   Z: 41
 #   A: 93
 #   nuclide: Nb93
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 39
-#   A: 88
-#   nuclide: Y88
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 17
+#   residual: 
+#     Z: 39
+#     A: 88
+#     nuclide: Y88
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 17
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.680000E+01   0.000000E+00   1.400000E-01   3.000000E-02   1.000000E+00
@@ -50,18 +51,3 @@
 #   author: F.Ditroi,A.Hermanne,E.Corniani,S.Takacs, F.Tarkanyi,J.Csikai,Yu.N.Shubin
 #   title: Investigation of proton induced reactions on niobium at low and medium energies
 #   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.267, Issue.19,
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  2.680000E+01
-#   E-max [MeV]:  3.700000E+01
-#   F-value:  2.326915E+00
-#   A-value:  9.821723E-01
-#   chi-2:  1.024769E+01
-#   p-value:  3.077941E-01
-#   exp. data sets for p-value:      2
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    2.489641E+00   5.051100E-01   1.853975E+01
-# endfb8.0      2.095673E+00   1.095561E+00   5.162208E+00
-# jendl5.0      2.391641E+00   1.712146E+00   7.041116E+00

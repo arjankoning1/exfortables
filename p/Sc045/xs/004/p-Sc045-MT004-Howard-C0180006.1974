@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Sc45(p,n')Ti45 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Howard
 #   year: 1974
 #   subentry: C0180006
 #   X4 reaction: 21-SC-45(P,N)22-TI-45,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/C0180006
-# target:
+# target: 
 #   Z: 21
 #   A: 45
 #   nuclide: Sc45
-# reaction:
+# reaction: 
 #   type: (p,n')
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 22
-#   A: 45
-#   nuclide: Ti45
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 25
+#   residual: 
+#     Z: 22
+#     A: 45
+#     nuclide: Ti45
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 25
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.975237E+00   0.000000E+00   2.835000E+01   4.252500E+00   1.000000E+00
@@ -58,16 +59,3 @@
 #   author: A.J.Howard,H.B.Jensen,M.Rios,W.A.Fowler,B.A.Zimmerman
 #   title: Measurement and theoretical analysis of some reaction rates of interest in silicon burning
 #   journal: Jour: Astrophysical Journal, Vol.188, p.131 (1974)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  2.975237E+00
-#   E-max [MeV]:  9.978802E+00
-#   F-value:  1.124062E+00
-#   A-value:  9.297673E-01
-#   chi-2:  7.787406E-01
-#   p-value:  2.120113E-01
-#   exp. data sets for p-value:      4
-#   libraries:      1
-##  Library          F              A            chi-2
-# tendl.2023    1.124062E+00   9.297673E-01   7.787406E-01

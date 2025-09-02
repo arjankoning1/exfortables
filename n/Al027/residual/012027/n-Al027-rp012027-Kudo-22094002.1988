@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Al27(n,x)Mg27 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Kudo
 #   year: 1988
 #   subentry: 22094002
 #   X4 reaction: 13-AL-27(N,P)12-MG-27,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22094002
-# target:
+# target: 
 #   Z: 13
 #   A: 27
 #   nuclide: Al27
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 12
-#   A: 27
-#   nuclide: Mg27
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 12
+#     A: 27
+#     nuclide: Mg27
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.992000E+00   5.400000E-02   2.160000E+01   5.000000E-01   1.000000E+00
@@ -34,19 +35,3 @@
 #   author: K.KUDO,T.KINOSHITA,Y.HINO,A.FUKUDA,Y.KAWADA,  K.TAKEUCHI,A.IWAHARA
 #   title: -MEASUREMENT OF AL-27(N,P)MG-27 ACTIVATION CROSS  SECTION.
 #   journal: Conf: Conf.on Nucl.Data For Sci.and Technol.,Mito 1988, p.1021 (1988)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  4.992000E+00
-#   E-max [MeV]:  4.992000E+00
-#   F-value:  1.184364E+00
-#   A-value:  1.042056E+00
-#   chi-2:  6.401508E+01
-#   p-value:  4.370216E-01
-#   exp. data sets for p-value:      8
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.311631E+00   1.311631E+00   1.812373E+02
-# endfb8.0      1.120964E+00   8.920895E-01   2.173188E+01
-# jeff3.3       1.120964E+00   8.920895E-01   2.173188E+01
-# jendl5.0      1.129628E+00   1.129628E+00   3.135926E+01

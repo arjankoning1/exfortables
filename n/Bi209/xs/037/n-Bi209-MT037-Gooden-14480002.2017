@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Bi209(n,4n)Bi206 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Gooden
 #   year: 2017
 #   subentry: 14480002
 #   X4 reaction: 83-BI-209(N,4N)83-BI-206,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/14480002
-# target:
+# target: 
 #   Z: 83
 #   A: 209
 #   nuclide: Bi209
-# reaction:
+# reaction: 
 #   type: (n,4n)
 #   ENDF_MF: 3
 #   ENDF_MT: 37
-# residual:
-#   Z: 83
-#   A: 206
-#   nuclide: Bi206
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 8
+#   residual: 
+#     Z: 83
+#     A: 206
+#     nuclide: Bi206
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.390000E+01   1.050000E-01   2.200000E-01   2.000000E-02   1.000000E+00
@@ -41,18 +42,3 @@
 #   author: M.E.Gooden,T.A.Bredeweg,B.Champine,D.C.Combs,S.Finch, A.Hayes-Sterbenz,E.Henry,Krishichayan,R.Rundberg, W.Tornow,J.Wilhelmy,C.Yeamans
 #   title: Measurement of the 209Bi(n,4n)206Bi and 169Tm(n,3n)167Tm cross sections between 23.5 and 30.5 MeV relevant to reaction-in-flight neutron studies at the National Ignition Facility
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.96, p.024622 (2017)
-# statistics:
-#   NEA score: T3
-#   IAEA score: -1
-#   E-min [MeV]:  2.390000E+01
-#   E-max [MeV]:  3.050000E+01
-#   F-value:  4.853416E+00
-#   A-value:  2.003142E+00
-#   chi-2:  6.272536E+04
-#   p-value:  1.875354E-01
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# endfb8.0      1.628272E+00   9.255947E-01   8.385925E+01
-# jendl5.0      1.816385E+00   1.286363E+00   2.940947E+02
-# irdff2.0      5.017425E+00   2.427425E+00   6.289434E+04

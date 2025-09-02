@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ni60(a,x)Zn62 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Levkovski*0.82
 #   year: 1991
 #   subentry: A0510359
 #   X4 reaction: 28-NI-60(A,2N)30-ZN-62,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/A0510359
-# target:
+# target: 
 #   Z: 28
 #   A: 60
 #   nuclide: Ni60
-# reaction:
+# reaction: 
 #   type: (a,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 30
-#   A: 62
-#   nuclide: Zn62
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 34
+#   residual: 
+#     Z: 30
+#     A: 62
+#     nuclide: Zn62
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 34
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.830000E+01   0.000000E+00   1.886000E+00   2.300000E-01   1.000000E+00
@@ -67,16 +68,3 @@
 #   author: V.N.Levkovski
 #   title: Cross sections of medium mass nuclide activation  (A=40-100) by medium energy protons and alpha-particles (E=10-50 MeV)
 #   journal: Book: Levkovskij,Act.Cs.By Protons and Alphas,Moscow 1991,  (1991)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  1.830000E+01
-#   E-max [MeV]:  4.590000E+01
-#   F-value:  2.627946E+00
-#   A-value:  5.546744E-01
-#   chi-2:  2.314143E+01
-#   p-value:  2.660844E-01
-#   exp. data sets for p-value:      2
-#   libraries:      1
-##  Library          F              A            chi-2
-# tendl.2023    2.627946E+00   5.546744E-01   2.314143E+01

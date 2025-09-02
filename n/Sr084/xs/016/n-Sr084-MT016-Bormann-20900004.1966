@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Sr84(n,2n)Sr83 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Bormann
 #   year: 1966
 #   subentry: 20900004
 #   X4 reaction: 38-SR-84(N,2N)38-SR-83,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20900004
-# target:
+# target: 
 #   Z: 38
 #   A: 84
 #   nuclide: Sr84
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 38
-#   A: 83
-#   nuclide: Sr83
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 10
+#   residual: 
+#     Z: 38
+#     A: 83
+#     nuclide: Sr83
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.295000E+01   2.000000E-01   3.100000E+02   4.200000E+01   1.000000E+00
@@ -43,19 +44,3 @@
 #   author: M.Bormann,F.Dreyer,U.Zielinski
 #   title: Measurements of some fast neutron cross sections  with the activation method
 #   journal: Prog: Report from Euratom-countries + Euratom to EANDC, No.66, p.42 (196
-# statistics:
-#   NEA score: R2
-#   IAEA score:  0
-#   E-min [MeV]:  1.295000E+01
-#   E-max [MeV]:  1.955000E+01
-#   F-value:  1.744250E+00
-#   A-value:  5.849012E-01
-#   chi-2:  2.185392E+01
-#   p-value:  1.296699E-01
-#   exp. data sets for p-value:      1
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.729238E+00   5.808312E-01   2.260457E+01
-# endfb8.0      1.775273E+00   5.769223E-01   2.323302E+01
-# jeff3.3       1.636073E+00   6.138798E-01   1.935303E+01
-# jendl5.0      1.831599E+00   5.689566E-01   2.222508E+01

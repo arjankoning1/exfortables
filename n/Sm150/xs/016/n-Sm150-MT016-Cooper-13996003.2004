@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Sm150(n,2n)Sm149 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Cooper
 #   year: 2004
 #   subentry: 13996003
 #   X4 reaction: 62-SM-150(N,2N)62-SM-149,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/13996003
-# target:
+# target: 
 #   Z: 62
 #   A: 150
 #   nuclide: Sm150
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 62
-#   A: 149
-#   nuclide: Sm149
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 16
+#   residual: 
+#     Z: 62
+#     A: 149
+#     nuclide: Sm149
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 16
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    9.310000E+00   2.100000E-01   7.000000E+02   5.000000E+01   1.000000E+00
@@ -49,20 +50,3 @@
 #   author: J.R.Cooper,J.A.Becker,D.Dashdorj,F.S.Dietrich,  P.E.Garrett,R.Hoffman,W.Younes,R.O.Nelson,M.Devlin,  N.Fotiades
 #   title: Measurement of 150Sm(n,2gamma i)149Sm cross sections  between threshold and 20 MeV
 #   journal: Rept: U.C., Lawrence Radiation Lab. translation series, No.205760 (2004)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  9.310000E+00
-#   E-max [MeV]:  1.976000E+01
-#   F-value:  1.197574E+00
-#   A-value:  1.097378E+00
-#   chi-2:  1.043893E+01
-#   p-value:  2.523719E-01
-#   exp. data sets for p-value:      2
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.101594E+00   1.031408E+00   2.751683E+00
-# endfb8.0      1.087351E+00   1.040172E+00   1.798898E+00
-# jeff3.3       1.119917E+00   1.016575E+00   3.327182E+00
-# jendl5.0      1.266752E+00   1.256300E+00   1.467252E+01
-# cendl3.2      1.320819E+00   1.161482E+00   2.964439E+01

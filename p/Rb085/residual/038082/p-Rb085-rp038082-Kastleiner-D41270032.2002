@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Rb85(p,x)Sr82 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Kastleiner
 #   year: 2002
 #   subentry: D41270032
 #   X4 reaction: 37-RB-85(P,4N)38-SR-82,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/D41270032
-# target:
+# target: 
 #   Z: 37
 #   A: 85
 #   nuclide: Rb85
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 37
-# residual:
-#   Z: 38
-#   A: 82
-#   nuclide: Sr82
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 41
+#   residual: 
+#     Z: 38
+#     A: 82
+#     nuclide: Sr82
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 41
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.770000E+01   3.000000E-01   3.540000E+01   5.300000E+00   1.000000E+00
@@ -74,17 +75,3 @@
 #   author: S.Kastleiner, S.M.Qaim, F.M.Nortier, G.Blessing, T.N.Van Der Walt, H.H.Coenen
 #   title: Excitation functions of 85Rb(p,xn)85m,g,83,82,81Sr reactions up to 100 MeV: integral tests of cross section data, comparison of production routes of 83Sr and thick target yield of 82Sr
 #   journal: Jour: Applied Radiation and Isotopes, Vol.56, p.685 (2002)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  3.770000E+01
-#   E-max [MeV]:  1.000000E+02
-#   F-value:  1.481864E+00
-#   A-value:  9.597632E-01
-#   chi-2:  8.949581E+00
-#   p-value:  3.098204E-01
-#   exp. data sets for p-value:      3
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.498467E+00   7.264354E-01   4.739972E+00
-# jendl5.0      1.464969E+00   1.268035E+00   1.315919E+01

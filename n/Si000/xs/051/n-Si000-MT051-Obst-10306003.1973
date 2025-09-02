@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Si0(n,n'_01)Si1 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Obst
 #   year: 1973
 #   subentry: 10306003
 #   X4 reaction: 14-SI-0(N,INL)14-SI-0,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/10306003
-#   level energy [MeV]  2.00000E+00
-# target:
+#   level energy [MeV]:  2.00000E+00
+# target: 
 #   Z: 14
 #   A: 0
 #   nuclide: Si0
-# reaction:
+# reaction: 
 #   type: (n,n'_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 51
@@ -25,14 +25,15 @@
 #     energy [MeV]:  2.028160E+00
 #     spin:  2.500000E+00
 #     parity: 1
-# residual:
-#   Z: 14
-#   A: 1
-#   nuclide: Si1
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 14
+#     A: 1
+#     nuclide: Si1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    9.800000E+00   6.000000E-02   2.150000E+02   3.500000E+01   1.000000E+00
@@ -40,20 +41,3 @@
 #   author: A.W.Obst,J.L.Weil
 #   title: Scattering of 9.8 MeV Neutrons from Silicon and Sulfur
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.7, p.1076 (1973)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  9.800000E+00
-#   E-max [MeV]:  9.800000E+00
-#   F-value:  1.075627E+00
-#   A-value:  9.575118E-01
-#   chi-2:  3.704793E-01
-#   p-value:  3.418882E-01
-#   exp. data sets for p-value:      2
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.001615E+00   9.983879E-01   1.243738E-02
-# endfb8.0      1.001019E+00   9.989822E-01   7.846242E-03
-# jeff3.3       1.066529E+00   9.376210E-01   5.223783E-01
-# jendl5.0      1.161535E+00   8.609299E-01   1.307405E+00
-# cendl3.2      1.000303E+00   9.996976E-01   2.329496E-03

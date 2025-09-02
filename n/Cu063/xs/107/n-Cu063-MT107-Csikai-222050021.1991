@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Cu63(n,a)Co60 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Csikai
 #   year: 1991
 #   subentry: 222050021
 #   X4 reaction: 29-CU-63(N,A)27-CO-60,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/222050021
-# target:
+# target: 
 #   Z: 29
 #   A: 63
 #   nuclide: Cu63
-# reaction:
+# reaction: 
 #   type: (n,a)
 #   ENDF_MF: 3
 #   ENDF_MT: 107
-# residual:
-#   Z: 27
-#   A: 60
-#   nuclide: Co60
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 27
+#     A: 60
+#     nuclide: Co60
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.450000E+01   3.000000E-01   5.104459E+01   1.945700E+00   1.000874E+00
@@ -34,21 +35,3 @@
 #   author: J.Csikai,Cs.M.Buczko,R.Pepelnik,H.M.Agrawal
 #   title: Activation cross-sections related to nuclear heating  of high Tc superconductors
 #   journal: Jour: Annals of Nuclear Energy, Vol.18, Issue.1, p.1 (1991)
-# statistics:
-#   NEA score: E1
-#   IAEA score:  1
-#   E-min [MeV]:  1.450000E+01
-#   E-max [MeV]:  1.450000E+01
-#   F-value:  1.194882E+00
-#   A-value:  8.377556E-01
-#   chi-2:  1.825617E+01
-#   p-value:  1.169028E-01
-#   exp. data sets for p-value:      8
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.176700E+00   8.498340E-01   1.552252E+01
-# endfb8.0      1.175468E+00   8.507251E-01   1.533908E+01
-# jeff3.3       1.189701E+00   8.405471E-01   1.749996E+01
-# jendl5.0      1.205210E+00   8.297308E-01   1.995386E+01
-# cendl3.2      1.239518E+00   8.067653E-01   2.569912E+01
-# irdff2.0      1.176700E+00   8.498340E-01   1.552252E+01

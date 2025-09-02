@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: Ni0(n,x)Co60m cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: FangKaiHonggg
 #   year: 2008
 #   subentry: 31640003
 #   X4 reaction: 28-NI-0(N,X)27-CO-60-M,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/31640003
-# target:
+# target: 
 #   Z: 28
 #   A: 0
 #   nuclide: Ni0
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 27
-#   A: 60
-#   nuclide: Co60m
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 2
+#   residual: 
+#     Z: 27
+#     A: 60
+#     nuclide: Co60m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.350000E+01   3.000000E-01   3.640801E+01   2.879600E+00   9.581056E-01
@@ -40,18 +41,3 @@
 #   author: Fang Kai-Hong, Xu Xiao-San, Lan Chang-Lin, Yuan Ji-Long, Kong Xiang-Zhong
 #   title: Cross-section measurement for Ni(n,x)Co-58-m+g, Ni(n,x)Co-60-m, Ni(n,x)Co-61 and Ni(n,x)Co-62-m around 14 MeV
 #   journal: Jour: Chinese Physics C, Vol.32, p.251 (2008)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  1.350000E+01
-#   E-max [MeV]:  1.460000E+01
-#   F-value:  1.392828E+00
-#   A-value:  7.387679E-01
-#   chi-2:  1.209011E+01
-#   p-value:  1.777652E-01
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.357288E+00   7.618024E-01   1.053895E+01
-# jeff3.3       0.000000E+00   0.000000E+00   0.000000E+00
-# jendl5.0      1.426621E+00   7.164299E-01   1.364126E+01

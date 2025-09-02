@@ -1,28 +1,29 @@
-# header:
+# header: 
 #   title: U238(a,f) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Gindler
 #   year: 1970
 #   subentry: B0030012
 #   X4 reaction: 92-U-238(A,F),,SIG,,,EXP
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/B0030012
-# target:
+# target: 
 #   Z: 92
 #   A: 238
 #   nuclide: U238
-# reaction:
+# reaction: 
 #   type: (a,f)
 #   ENDF_MF: 3
 #   ENDF_MT: 18
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.030000E+02   0.000000E+00   3.200000E+03   8.000000E+02   1.000000E+00
@@ -30,16 +31,3 @@
 #   author: J.GINDLER, H.MUENZEL, J.BUSCHMANN, G.CHRISTALLER, F.MICHEL, G.ROHDE
 #   title: Fragment Angular Distributions in the Fission of Heavy Nuclei by 103 MeV Helium Ions and 51.5 MeV Deuterons
 #   journal: Jour: Nuclear Physics, Section A, Vol.145, p.337 (1970)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  1.030000E+02
-#   E-max [MeV]:  1.030000E+02
-#   F-value:  1.179592E+00
-#   A-value:  8.477508E-01
-#   chi-2:  8.759584E-01
-#   p-value:  2.572523E-01
-#   exp. data sets for p-value:      1
-#   libraries:      1
-##  Library          F              A            chi-2
-# tendl.2023    1.179592E+00   8.477508E-01   8.759584E-01

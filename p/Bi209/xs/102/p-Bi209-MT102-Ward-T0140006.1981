@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Bi209(p,g)Po210 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Ward
 #   year: 1981
 #   subentry: T0140006
 #   X4 reaction: 83-BI-209(P,X)84-PO-210,IND,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/T0140006
-# target:
+# target: 
 #   Z: 83
 #   A: 209
 #   nuclide: Bi209
-# reaction:
+# reaction: 
 #   type: (p,g)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 84
-#   A: 210
-#   nuclide: Po210
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 14
+#   residual: 
+#     Z: 84
+#     A: 210
+#     nuclide: Po210
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 14
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    6.200000E+01   0.000000E+00   1.520000E-02   3.344000E-03   1.000000E+00
@@ -47,17 +48,3 @@
 #   author: T.E.WARD,P.P.SINGH,D.L.FRIESEL,A.YAVIN,A.DORON, J.M.D'AURIA,G.SHEFFER,M.DILLIG
 #   title: Radiochemical study of the combined (p,pi0) and (p,  gamma) reactions on bismuth with protons from 62 to  480 MeV.
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.24, p.588 (1981)
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  6.200000E+01
-#   E-max [MeV]:  1.900000E+02
-#   F-value:  4.827359E+00
-#   A-value:  2.670025E+00
-#   chi-2:  7.856845E+02
-#   p-value:  1.306175E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    8.227282E+00   7.729798E+00   1.558319E+03
-# jendl5.0      2.050249E+00   9.222792E-01   1.304989E+01

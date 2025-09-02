@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: K41(p,n')Ca41 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Sevior
 #   year: 1982
 #   subentry: D0854004
 #   X4 reaction: 19-K-41(P,N)20-CA-41,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/D0854004
-# target:
+# target: 
 #   Z: 19
 #   A: 41
 #   nuclide: K41
-# reaction:
+# reaction: 
 #   type: (p,n')
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 20
-#   A: 41
-#   nuclide: Ca41
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 31
+#   residual: 
+#     Z: 20
+#     A: 41
+#     nuclide: Ca41
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 31
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.263300E+00   0.000000E+00   2.496000E-01   3.244800E-02   1.000000E+00
@@ -64,17 +65,3 @@
 #   author: M.E.Sevior, M.R.Anderson, L.W.Mitchell, S.R.Kennett, D.G.Sargood
 #   title: Thermonuclear reaction rates for proton induced reactions on K-41 and neutron induced reactions on Ca-41
 #   journal: Jour: Nuclear Physics, Section A, Vol.378, p.349 (1982)
-# statistics:
-#   NEA score: R3
-#   IAEA score:  1
-#   E-min [MeV]:  1.263300E+00
-#   E-max [MeV]:  2.463300E+00
-#   F-value:  2.016987E+00
-#   A-value:  1.628075E+00
-#   chi-2:  1.068046E+02
-#   p-value:  2.725515E-01
-#   exp. data sets for p-value:      3
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.872816E+00   1.512541E+00   6.816268E+01
-# jendl5.0      2.156840E+00   1.752433E+00   1.454465E+02

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Gd157(n,p)Eu157 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Coleman
 #   year: 1959
 #   subentry: 21440020
 #   X4 reaction: 64-GD-157(N,P)63-EU-157,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/21440020
-# target:
+# target: 
 #   Z: 64
 #   A: 157
 #   nuclide: Gd157
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 63
-#   A: 157
-#   nuclide: Eu157
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 63
+#     A: 157
+#     nuclide: Eu157
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.450000E+01   0.000000E+00   1.130000E+01   1.695000E+00   1.000000E+00
@@ -34,20 +35,3 @@
 #   author: R.F.Coleman,B.E.Hawker,L.P.O'Connor,J.L.Perkin
 #   title: Cross sections for (n,p) and (n,alpha) reactions with  14.5 MeV neutrons
 #   journal: Jour: Proceedings of the Physical Society (London),, Vol.73, p.215 (1959
-# statistics:
-#   NEA score: R2
-#   IAEA score:  0
-#   E-min [MeV]:  1.450000E+01
-#   E-max [MeV]:  1.450000E+01
-#   F-value:  2.148607E+00
-#   A-value:  4.716676E-01
-#   chi-2:  1.243488E+01
-#   p-value:  7.376003E-02
-#   exp. data sets for p-value:      2
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.630787E+00   6.132009E-01   6.774211E+00
-# endfb8.0      2.484567E+00   4.024846E-01   1.586992E+01
-# jeff3.3       2.091450E+00   4.781371E-01   1.211615E+01
-# jendl5.0      2.256421E+00   4.431797E-01   1.378560E+01
-# cendl3.2      2.240288E+00   4.463712E-01   1.362851E+01

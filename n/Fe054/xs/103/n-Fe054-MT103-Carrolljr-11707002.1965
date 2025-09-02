@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Fe54(n,p)Mn54 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Carrolljr
 #   year: 1965
 #   subentry: 11707002
 #   X4 reaction: 26-FE-54(N,P)25-MN-54,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/11707002
-# target:
+# target: 
 #   Z: 26
 #   A: 54
 #   nuclide: Fe54
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 25
-#   A: 54
-#   nuclide: Mn54
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 9
+#   residual: 
+#     Z: 25
+#     A: 54
+#     nuclide: Mn54
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 9
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.550000E+00   1.300000E-01   2.260000E+02   2.200000E+01   1.000000E+00
@@ -42,21 +43,3 @@
 #   author: E.E.Carroll Jr,G.G.Smith
 #   title: Iron-54 (n,p) cross section measurements.
 #   journal: Jour: Nuclear Science and Engineering, Vol.22, p.411 (1965)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  3.550000E+00
-#   E-max [MeV]:  6.020000E+00
-#   F-value:  1.106685E+00
-#   A-value:  9.925737E-01
-#   chi-2:  1.377812E+00
-#   p-value:  2.838096E-01
-#   exp. data sets for p-value:      6
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.100313E+00   1.016049E+00   1.354253E+00
-# endfb8.0      1.099869E+00   1.017087E+00   1.352116E+00
-# jeff3.3       1.148480E+00   9.023810E-01   2.119243E+00
-# jendl5.0      1.088055E+00   1.002757E+00   1.036993E+00
-# cendl3.2      1.094401E+00   1.005520E+00   1.057293E+00
-# irdff2.0      1.099685E+00   1.017015E+00   1.346975E+00

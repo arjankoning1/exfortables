@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Cu63(n,2n)Cu62 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Qaim
 #   year: 1972
 #   subentry: 20536008
 #   X4 reaction: 29-CU-63(N,2N)29-CU-62,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20536008
-# target:
+# target: 
 #   Z: 29
 #   A: 63
 #   nuclide: Cu63
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 29
-#   A: 62
-#   nuclide: Cu62
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 29
+#     A: 62
+#     nuclide: Cu62
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.470000E+01   3.000000E-01   5.410789E+02   3.284795E+01   9.124432E-01
@@ -34,21 +35,3 @@
 #   author: S.M.Qaim
 #   title: -Activation cross sections, isomeric cross-section  ratios and systematics of (n,2n) reactions at  14-15 MeV.-
 #   journal: Jour: Nuclear Physics, Section A, Vol.185, p.614 (1972)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.470000E+01
-#   E-max [MeV]:  1.470000E+01
-#   F-value:  1.024380E+00
-#   A-value:  9.912000E-01
-#   chi-2:  2.759303E-01
-#   p-value:  4.612715E-01
-#   exp. data sets for p-value:      8
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.000927E+00   9.990736E-01   1.918737E-02
-# endfb8.0      1.060371E+00   9.430662E-01   1.467277E+00
-# jeff3.3       1.000313E+00   9.996871E-01   6.466927E-03
-# jendl5.0      1.006620E+00   1.006620E+00   1.398668E-01
-# cendl3.2      1.000664E+00   1.000664E+00   1.374508E-02
-# irdff2.0      1.000437E+00   9.995629E-01   9.038711E-03

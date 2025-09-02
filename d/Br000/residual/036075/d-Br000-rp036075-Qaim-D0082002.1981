@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Br0(d,x)Kr75 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Qaim
 #   year: 1981
 #   subentry: D0082002
 #   X4 reaction: 35-BR-0(D,X)36-KR-75,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/D0082002
-# target:
+# target: 
 #   Z: 35
 #   A: 0
 #   nuclide: Br0
-# reaction:
+# reaction: 
 #   type: (d,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 36
-#   A: 75
-#   nuclide: Kr75
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 10
+#   residual: 
+#     Z: 36
+#     A: 75
+#     nuclide: Kr75
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    6.000000E+01   0.000000E+00   2.147800E+00   5.814400E-01   1.077143E+00
@@ -43,16 +44,3 @@
 #   author: S.M.Qaim, R.Weinreich
 #   title: Production of 75Br via the 75Kr precursor: excitation function for the deuteron induced nuclear reaction on bromine
 #   journal: Jour: Applied Radiation and Isotopes, Vol.32, p.823 (1981)
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  6.000000E+01
-#   E-max [MeV]:  8.520000E+01
-#   F-value:  1.626589E+01
-#   A-value:  6.816116E-02
-#   chi-2:  1.336263E+01
-#   p-value:  2.086163E-07
-#   exp. data sets for p-value:      1
-#   libraries:      1
-##  Library          F              A            chi-2
-# tendl.2023    1.626589E+01   6.816116E-02   1.336263E+01

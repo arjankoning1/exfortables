@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ca41(n,a)Ar38 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Vermote
 #   year: 2012
 #   subentry: 23083002
 #   X4 reaction: 20-CA-41(N,A)18-AR-38,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/23083002
-# target:
+# target: 
 #   Z: 20
 #   A: 41
 #   nuclide: Ca41
-# reaction:
+# reaction: 
 #   type: (n,a)
 #   ENDF_MF: 3
 #   ENDF_MT: 107
-# residual:
-#   Z: 18
-#   A: 38
-#   nuclide: Ar38
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1010
+#   residual: 
+#     Z: 18
+#     A: 38
+#     nuclide: Ar38
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1010
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    7.333300E-04   1.111005E-05   1.080000E+00   1.500000E-01   1.000000E+00
@@ -1043,18 +1044,3 @@
 #   author: S.Vermote, C.Wagemans, L.De Smet, C.Lampoudis,  J.Van Gils
 #   title: Experimental determination of the 41Ca(n,a)38Ar  reaction cross section up to 80 keV, and calculation  of the Maxwellian averaged cross section at stellar  temperatures
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.85, p.015803 (2012)
-# statistics:
-#   NEA score: T3
-#   IAEA score: -1
-#   E-min [MeV]:  7.333300E-04
-#   E-max [MeV]:  4.503918E-02
-#   F-value:  4.702176E+00
-#   A-value:  1.617293E+00
-#   chi-2:  2.900247E+02
-#   p-value:  1.662649E-01
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    6.088491E+00   1.864036E+00   5.252882E+01
-# jeff3.3       6.071124E+00   1.824777E+00   2.912855E+01
-# jendl5.0      2.271735E+00   1.243661E+00   7.884167E+02

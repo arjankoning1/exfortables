@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Cu0(p,x)Sc46 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Yashima
 #   year: 2003
 #   subentry: E1829066
 #   X4 reaction: 29-CU-0(P,X)21-SC-46,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/E1829066
-# target:
+# target: 
 #   Z: 29
 #   A: 0
 #   nuclide: Cu0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 21
-#   A: 46
-#   nuclide: Sc46
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 4
+#   residual: 
+#     Z: 21
+#     A: 46
+#     nuclide: Sc46
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.000000E+02   0.000000E+00   3.500600E-02   5.250800E-04   1.000160E+00
@@ -37,17 +38,3 @@
 #   author: H.Yashima, Y.Uwamino, H.Iwase, H.Sugita, T.Nakamura,  S.Ito, A.Fukumura
 #   title: Measurement and calculation of radioactivities of spallation products by high-energy heavy ions
 #   journal: Jour: Radiochimica Acta, Vol.91, p.689 (2003)
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  1.000000E+02
-#   E-max [MeV]:  2.020000E+02
-#   F-value:  6.008857E+00
-#   A-value:  1.979478E-01
-#   chi-2:  1.108809E+03
-#   p-value:  7.131749E-02
-#   exp. data sets for p-value:      2
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.305132E+01   8.411636E-02   4.219232E+02
-# jendl5.0      3.086380E+00   3.378278E-01   1.036179E+03

@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: B10(n,p_00) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Macklin
 #   year: 1968
 #   subentry: 11240005
 #   X4 reaction: 5-B-10(N,A)3-LI-7,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/11240005
-#   level energy [MeV]  0.00000E+00
-# target:
+#   level energy [MeV]:  0.00000E+00
+# target: 
 #   Z: 5
 #   A: 10
 #   nuclide: B10
-# reaction:
+# reaction: 
 #   type: (n,p_00)
 #   ENDF_MF: 3
 #   ENDF_MT: 800
@@ -25,10 +25,11 @@
 #     energy [MeV]:  0.000000E+00
 #     spin:  1.000000E+00
 #     parity: 1
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 15
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 15
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.100000E-02   0.000000E+00   2.952785E+03   4.058294E+01   1.501925E+01
@@ -50,21 +51,3 @@
 #   author: R.L.Macklin,J.H.Gibbons
 #   title: Study of B-10(n,alpha)Li-7, Li-7* for 30 < En keV < 500
 #   journal: Jour: Physical Review, Vol.165, p.1147 (1968)
-# statistics:
-#   NEA score: T3
-#   IAEA score: -1
-#   E-min [MeV]:  4.100000E-02
-#   E-max [MeV]:  5.160000E-01
-#   F-value:  1.373456E+01
-#   A-value:  7.293832E-02
-#   chi-2:  6.544322E+03
-#   p-value:  1.072884E-07
-#   exp. data sets for p-value:      1
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.391040E+01   7.200404E-02   6.561591E+03
-# endfb8.0      1.391040E+01   7.200404E-02   6.561591E+03
-# jeff3.3       1.361498E+01   7.356642E-02   6.537814E+03
-# jendl5.0      1.345115E+01   7.452346E-02   6.505554E+03
-# cendl3.2      1.361498E+01   7.356642E-02   6.537814E+03
-# irdff2.0      1.391000E+01   7.200606E-02   6.561569E+03

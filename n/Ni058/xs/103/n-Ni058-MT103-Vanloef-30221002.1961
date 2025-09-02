@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ni58(n,p)Co58 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Vanloef
 #   year: 1961
 #   subentry: 30221002
 #   X4 reaction: 28-NI-58(N,P)27-CO-58,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30221002
-# target:
+# target: 
 #   Z: 28
 #   A: 58
 #   nuclide: Ni58
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 27
-#   A: 58
-#   nuclide: Co58
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 27
+#     A: 58
+#     nuclide: Co58
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.300000E+00   1.000000E-01   2.507958E+02   2.950539E+01   1.475269E+00
@@ -34,21 +35,3 @@
 #   author: J.J.Van Loef
 #   title: Activation cross sections for (n,p) reactions in some medium weight nuclei with d+d neutrons.
 #   journal: Jour: Nuclear Physics, Vol.24, p.340 (1961)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  3.300000E+00
-#   E-max [MeV]:  3.300000E+00
-#   F-value:  1.012731E+00
-#   A-value:  9.996248E-01
-#   chi-2:  1.004075E-01
-#   p-value:  1.375388E-01
-#   exp. data sets for p-value:      8
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.007450E+00   9.926046E-01   7.983417E-02
-# endfb8.0      1.000285E+00   9.997149E-01   3.039205E-03
-# jeff3.3       1.014141E+00   9.860558E-01   1.523306E-01
-# jendl5.0      1.026486E+00   1.026486E+00   2.961477E-01
-# cendl3.2      1.002229E+00   9.977761E-01   2.378575E-02
-# irdff2.0      1.004425E+00   9.955941E-01   4.730755E-02

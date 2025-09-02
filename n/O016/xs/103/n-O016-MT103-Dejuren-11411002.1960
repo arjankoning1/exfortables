@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: O16(n,p)N16 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Dejuren
 #   year: 1960
 #   subentry: 11411002
 #   X4 reaction: 8-O-16(N,P)7-N-16,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/11411002
-# target:
+# target: 
 #   Z: 8
 #   A: 16
 #   nuclide: O16
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 7
-#   A: 16
-#   nuclide: N16
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 7
+#     A: 16
+#     nuclide: N16
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.470000E+01   1.000000E-01   3.920000E+01   1.600000E+00   1.000000E+00
@@ -34,20 +35,3 @@
 #   author: J.A.DE JUREN,R.W.STOOKSBERRY
 #   title: MEASUREMENT OF THE O16(N,P)N16 CROSS SECTION AT 14.7 MEV.
 #   journal: Jour: Physical Review, Vol.120, p.901 (1960)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.470000E+01
-#   E-max [MeV]:  1.470000E+01
-#   F-value:  1.042873E+00
-#   A-value:  9.772556E-01
-#   chi-2:  1.138630E+00
-#   p-value:  3.794646E-01
-#   exp. data sets for p-value:      8
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.005465E+00   9.945646E-01   1.716899E-01
-# endfb8.0      1.005465E+00   9.945646E-01   1.716899E-01
-# jeff3.3       1.005465E+00   9.945646E-01   1.716899E-01
-# jendl5.0      1.097719E+00   9.109799E-01   5.006401E+00
-# cendl3.2      1.005465E+00   9.945648E-01   1.716820E-01

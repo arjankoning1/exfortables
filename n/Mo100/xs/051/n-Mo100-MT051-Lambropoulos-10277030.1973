@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Mo100(n,n'_01)Mo101 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Lambropoulos
 #   year: 1973
 #   subentry: 10277030
 #   X4 reaction: 42-MO-100(N,INL)42-MO-100,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/10277030
-#   level energy [MeV]  5.20000E-01
-# target:
+#   level energy [MeV]:  5.20000E-01
+# target: 
 #   Z: 42
 #   A: 100
 #   nuclide: Mo100
-# reaction:
+# reaction: 
 #   type: (n,n'_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 51
@@ -25,14 +25,15 @@
 #     energy [MeV]:  5.355900E-01
 #     spin:  2.000000E+00
 #     parity: 1
-# residual:
-#   Z: 42
-#   A: 101
-#   nuclide: Mo101
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 41
+#   residual: 
+#     Z: 42
+#     A: 101
+#     nuclide: Mo101
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 41
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    9.000000E-01   1.000000E-02   8.277000E+02   1.377000E+02   1.000000E+00
@@ -80,20 +81,3 @@
 #   author: P.Lambropoulos,P.Guenther,A.Smith,J.Whalen
 #   title: Fast-neutron cross sections of the even isotopes of molybdenum.
 #   journal: Jour: Nuclear Physics, Section A, Vol.201, p.1 (1973)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  9.000000E-01
-#   E-max [MeV]:  1.500000E+00
-#   F-value:  1.252179E+00
-#   A-value:  1.168816E+00
-#   chi-2:  3.388158E+00
-#   p-value:  2.648760E-01
-#   exp. data sets for p-value:      2
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.171068E+00   1.122196E+00   1.769054E+00
-# endfb8.0      1.089720E+00   9.950784E-01   5.310194E-01
-# jeff3.3       1.376141E+00   1.342069E+00   6.717773E+00
-# jendl5.0      1.376141E+00   1.342069E+00   6.717773E+00
-# cendl3.2      1.137784E+00   1.084564E+00   1.205175E+00

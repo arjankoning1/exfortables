@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: As75(n,x)As76 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Hasan
 #   year: 1968
 #   subentry: 30077006
 #   X4 reaction: 33-AS-75(N,G)33-AS-76,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30077006
-# target:
+# target: 
 #   Z: 33
 #   A: 75
 #   nuclide: As75
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 33
-#   A: 76
-#   nuclide: As76
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 33
+#     A: 76
+#     nuclide: As76
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.400000E-02   0.000000E+00   3.100000E+02   2.000000E+01   1.000000E+00
@@ -34,18 +35,3 @@
 #   author: S.S.Hasan,A.K.Chaubey, M.L.Sehgal
 #   title: Study of the Average Level Spacing from Neutron-Capture Cross-Section
 #   journal: Jour: Nuovo Cimento B, Vol.58, p.402 (1968)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  2.400000E-02
-#   E-max [MeV]:  2.400000E-02
-#   F-value:  1.570786E+00
-#   A-value:  9.945893E-01
-#   chi-2:  4.665113E+01
-#   p-value:  2.805021E-01
-#   exp. data sets for p-value:      6
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.142791E+00   1.142791E+00   5.136396E+00
-# jeff3.3       1.849028E+00   5.408248E-01   5.065475E+01
-# jendl5.0      1.591871E+00   1.591871E+00   8.416225E+01

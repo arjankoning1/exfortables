@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: Te130(n,p)Sb130m cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Struwe
 #   year: 1974
 #   subentry: 20540025
 #   X4 reaction: 52-TE-130(N,P)51-SB-130-M,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20540025
-# target:
+# target: 
 #   Z: 52
 #   A: 130
 #   nuclide: Te130
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 51
-#   A: 130
-#   nuclide: Sb130m
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 51
+#     A: 130
+#     nuclide: Sb130m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.460000E+01   2.000000E-01   8.344200E-01   9.434700E-02   9.482068E-01
@@ -39,18 +40,3 @@
 #   author: W.Struwe, G.Winkler
 #   title: Measurement of (n,p) cross sections on isotopes of  Cd, Sn and Te for 14 MeV neutrons.
 #   journal: Jour: Nuclear Physics, Section A, Vol.222, p.605 (1974)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.460000E+01
-#   E-max [MeV]:  1.460000E+01
-#   F-value:  1.432202E+00
-#   A-value:  1.320499E+00
-#   chi-2:  1.689417E+01
-#   p-value:  3.757094E-01
-#   exp. data sets for p-value:      5
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.721035E+00   1.721035E+00   4.066549E+01
-# jeff3.3       1.354737E+00   1.354737E+00   9.876023E+00
-# jendl5.0      1.012582E+00   9.875739E-01   1.409811E-01

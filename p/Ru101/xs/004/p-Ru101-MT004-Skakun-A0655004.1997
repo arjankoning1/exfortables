@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ru101(p,n')Rh101 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Skakun
 #   year: 1997
 #   subentry: A0655004
 #   X4 reaction: 44-RU-101(P,N)45-RH-101,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/A0655004
-# target:
+# target: 
 #   Z: 44
 #   A: 101
 #   nuclide: Ru101
-# reaction:
+# reaction: 
 #   type: (p,n')
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 45
-#   A: 101
-#   nuclide: Rh101
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 5
+#   residual: 
+#     Z: 45
+#     A: 101
+#     nuclide: Rh101
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.850000E+00   0.000000E+00   2.560000E+01   1.920000E+00   1.000000E+00
@@ -38,17 +39,3 @@
 #   author: E.A.Skakun,A.I.Stojanov,V.G.Batij
 #   title: Excitation functions of (p,n) reactions on 99-Ru, 100-Ru, 101-Ru and 102-Ru.  101-m-Rh production.
 #   journal: Conf: Conf.on Nucl.Data for Sci.and Techn., Trieste 1997, Vol.2, p.1649
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  4.850000E+00
-#   E-max [MeV]:  9.040000E+00
-#   F-value:  1.120812E+00
-#   A-value:  1.071334E+00
-#   chi-2:  3.150728E+00
-#   p-value:  2.735500E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.148878E+00   1.088940E+00   4.658473E+00
-# jendl5.0      1.085660E+00   1.054012E+00   1.642983E+00

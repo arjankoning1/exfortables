@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ni64(n,a)Fe61 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: KaihongFangg
 #   year: 2008
 #   subentry: 31616005
 #   X4 reaction: 28-NI-64(N,A)26-FE-61,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/31616005
-# target:
+# target: 
 #   Z: 28
 #   A: 64
 #   nuclide: Ni64
-# reaction:
+# reaction: 
 #   type: (n,a)
 #   ENDF_MF: 3
 #   ENDF_MT: 107
-# residual:
-#   Z: 26
-#   A: 61
-#   nuclide: Fe61
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 2
+#   residual: 
+#     Z: 26
+#     A: 61
+#     nuclide: Fe61
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.350000E+01   3.000000E-01   3.142900E+00   5.342900E-01   1.047619E+00
@@ -35,20 +36,3 @@
 #   author: Kaihong Fang, Shiwei Xu, Changlin Lan, Xiaosan Xu,  Xiangzhong Konga, Rong Liu, Li Jiang
 #   title: Cross-section measurement for the reactions  producing short-lived nuclei induced by neutrons  around 14 MeV
 #   journal: Jour: Applied Radiation and Isotopes, Vol.66, p.1104 (2008)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.350000E+01
-#   E-max [MeV]:  1.460000E+01
-#   F-value:  1.234535E+00
-#   A-value:  1.116204E+00
-#   chi-2:  3.614104E+00
-#   p-value:  4.156108E-01
-#   exp. data sets for p-value:      2
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.006510E+00   1.004593E+00   4.586615E-02
-# endfb8.0      1.025882E+00   9.808879E-01   1.934324E-01
-# jeff3.3       1.574606E+00   1.573956E+00   1.628939E+01
-# jendl5.0      1.059619E+00   1.033915E+00   4.154221E-01
-# cendl3.2      1.114701E+00   1.080516E+00   1.126411E+00

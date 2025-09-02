@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Br0(p,x)Kr77 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Deptula
 #   year: 1990
 #   subentry: A0570003
 #   X4 reaction: 35-BR-0(P,X)36-KR-77,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/A0570003
-# target:
+# target: 
 #   Z: 35
 #   A: 0
 #   nuclide: Br0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 36
-#   A: 77
-#   nuclide: Kr77
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 22
+#   residual: 
+#     Z: 36
+#     A: 77
+#     nuclide: Kr77
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 22
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.470000E+01   0.000000E+00   2.500000E+01   3.750000E+00   1.000000E+00
@@ -55,17 +56,3 @@
 #   author: C.DEPTULA,KIM SEN HAN,O.KNOTEK,S.MIKOLAJEWSKI, L.M.POPINENKOVA,E.RURARZ,N.G.ZAITSEVA
 #   title: Excitation Function and Yields For Br-Nat(P,XN)Kr-76, Kr-77,Kr-79 Reactions at 100 MeV Bombarding Energy.
 #   journal: Jour: Nukleonika, Vol.35, p.79 (1990)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  2.470000E+01
-#   E-max [MeV]:  9.810000E+01
-#   F-value:  2.074929E+00
-#   A-value:  5.747350E-01
-#   chi-2:  8.751161E+00
-#   p-value:  2.373567E-01
-#   exp. data sets for p-value:      4
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    2.152332E+00   5.261014E-01   1.071161E+01
-# jendl5.0      1.996437E+00   6.278644E-01   6.790715E+00

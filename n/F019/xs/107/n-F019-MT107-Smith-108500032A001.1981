@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: F19(n,a)N16 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Smith
 #   year: 1981
 #   subentry: 108500032
 #   X4 reaction: 9-F-19(N,A)7-N-16,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/108500032
-# target:
+# target: 
 #   Z: 9
 #   A: 19
 #   nuclide: F19
-# reaction:
+# reaction: 
 #   type: (n,a)
 #   ENDF_MF: 3
 #   ENDF_MT: 107
-# residual:
-#   Z: 7
-#   A: 16
-#   nuclide: N16
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 75
+#   residual: 
+#     Z: 7
+#     A: 16
+#     nuclide: N16
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 75
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.344000E+00   9.100000E-02   3.210000E+00   4.750900E-01   1.029851E+00
@@ -108,20 +109,3 @@
 #   author: D.L.Smith,J.W.Meadows,J.F.Whalen
 #   title: Cross sections for F-19(n,p)O-19 and F-19(n,alpha)N-16       from threshold to 9-MeV.
 #   journal: Jour: Nuclear Science and Engineering, Vol.77, p.256 (1981)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  3.344000E+00
-#   E-max [MeV]:  8.949000E+00
-#   F-value:  1.247796E+00
-#   A-value:  1.170709E+00
-#   chi-2:  4.382895E+00
-#   p-value:  2.684884E-01
-#   exp. data sets for p-value:      5
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.237038E+00   1.169387E+00   3.947709E+00
-# endfb8.0      1.237038E+00   1.169387E+00   3.947709E+00
-# jeff3.3       1.237038E+00   1.169387E+00   3.947709E+00
-# jendl5.0      1.287973E+00   1.176010E+00   6.123635E+00
-# cendl3.2      1.237038E+00   1.169387E+00   3.947709E+00

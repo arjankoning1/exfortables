@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Zn64(p,x)Ga65 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Famiano
 #   year: 2008
 #   subentry: C1601005
 #   X4 reaction: 30-ZN-64(P,G)31-GA-65,,SIG,,SFC
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/C1601005
-# target:
+# target: 
 #   Z: 30
 #   A: 64
 #   nuclide: Zn64
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 31
-#   A: 65
-#   nuclide: Ga65
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 9
+#   residual: 
+#     Z: 31
+#     A: 65
+#     nuclide: Ga65
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 9
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.245328E+00   0.000000E+00   3.604100E-04   5.209400E-05   1.000000E+00
@@ -42,17 +43,3 @@
 #   author: M.A.Famiano,R.S.Kodikara,B.M.Giacherio, V.G.Subramanian,A.Kayani
 #   title: Measurement of the (p,alpha) cross sections of 46Ti, 64Zn, 114Sn, and 116Sn at astrophysically relevant energies
 #   journal: Jour: Nuclear Physics, Section A, Vol.802, p.26 (2008)
-# statistics:
-#   NEA score: R3
-#   IAEA score: -1
-#   E-min [MeV]:  1.245328E+00
-#   E-max [MeV]:  3.619170E+00
-#   F-value:  1.039454E+01
-#   A-value:  1.030029E+01
-#   chi-2:  3.699990E+03
-#   p-value:  0.000000E+00
-#   exp. data sets for p-value:      3
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.057016E+01   1.043299E+01   4.040937E+03
-# jendl5.0      1.022061E+01   1.016929E+01   3.359042E+03

@@ -1,28 +1,29 @@
-# header:
+# header: 
 #   title: Sn0(n,non) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Macgregor
 #   year: 1957
 #   subentry: 11226018
 #   X4 reaction: 50-SN-0(N,NON),,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/11226018
-# target:
+# target: 
 #   Z: 50
 #   A: 0
 #   nuclide: Sn0
-# reaction:
+# reaction: 
 #   type: (n,non)
 #   ENDF_MF: 3
 #   ENDF_MT: 3
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.420000E+01   0.000000E+00   1.900000E+03   3.000000E+01   1.000000E+00
@@ -30,17 +31,3 @@
 #   author: M.H.MacGregor,W.P.Ball,R.Booth
 #   title: Nonelastic Neutron Cross Sections at 14 Mev
 #   journal: Jour: Physical Review, Vol.108, p.726 (1957)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  1.420000E+01
-#   E-max [MeV]:  1.420000E+01
-#   F-value:  4.757737E+00
-#   A-value:  3.404775E-01
-#   chi-2:  1.593197E+03
-#   p-value:  3.907773E-01
-#   exp. data sets for p-value:      8
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.051756E+00   1.051756E+00   1.076671E+01
-# jeff3.3       9.072733E+00   1.102204E-01   3.175628E+03

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Zn0(n,x)Ni65 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Uwamino
 #   year: 1994
 #   subentry: 22700016
 #   X4 reaction: 30-ZN-0(N,X)28-NI-65,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22700016
-# target:
+# target: 
 #   Z: 30
 #   A: 0
 #   nuclide: Zn0
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 28
-#   A: 65
-#   nuclide: Ni65
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 30
+#   residual: 
+#     Z: 28
+#     A: 65
+#     nuclide: Ni65
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 30
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    9.500000E+00   0.000000E+00   5.352000E-01   3.010000E-01   1.000000E+00
@@ -63,18 +64,3 @@
 #   author: Y.UWAMINO,H.SUGITA,Y.KONDO,T.NAKAMURA
 #   title: Measurement of neutron activation cross sections for energies up to 40 MeV for natural samples of Mg, Si, Ca, V, Cr, Cu and Zn
 #   journal: Jour: Jour. of Nuclear Science and Technology, Vol.31, p.1 (1994)
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  9.500000E+00
-#   E-max [MeV]:  3.850000E+01
-#   F-value:  3.415757E+00
-#   A-value:  2.087102E+00
-#   chi-2:  2.288534E+01
-#   p-value:  1.533494E-01
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    3.085860E+00   2.621989E+00   2.830531E+01
-# jeff3.3       2.745111E+00   2.138233E+00   2.425980E+01
-# jendl5.0      5.569097E+00   1.675494E+00   2.123095E+01

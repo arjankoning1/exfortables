@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Y89(d,x)Y88 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Bissem
 #   year: 1980
 #   subentry: A0347041
 #   X4 reaction: 39-Y-89(D,X)39-Y-88,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/A0347041
-# target:
+# target: 
 #   Z: 39
 #   A: 89
 #   nuclide: Y89
-# reaction:
+# reaction: 
 #   type: (d,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 39
-#   A: 88
-#   nuclide: Y88
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 4
+#   residual: 
+#     Z: 39
+#     A: 88
+#     nuclide: Y88
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.920000E+01   0.000000E+00   1.563145E+01   1.250500E+00   1.002016E+00
@@ -37,16 +38,3 @@
 #   author: H.H.Bissem,R.Georgi,W.Scobel,J.Ernst,M.Kaba, J.Rama Rao,H.Strohe
 #   title: Entrance and exit channel phenomena in d- and He3- induced preequilibrium decay
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.22, p.1468 (1980)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  1.920000E+01
-#   E-max [MeV]:  2.540000E+01
-#   F-value:  1.357301E+00
-#   A-value:  9.723113E-01
-#   chi-2:  1.267956E+01
-#   p-value:  2.827578E-01
-#   exp. data sets for p-value:      4
-#   libraries:      1
-##  Library          F              A            chi-2
-# tendl.2023    1.357301E+00   9.723113E-01   1.267956E+01

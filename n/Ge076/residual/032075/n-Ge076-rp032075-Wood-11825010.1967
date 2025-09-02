@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ge76(n,x)Ge75 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Wood
 #   year: 1967
 #   subentry: 11825010
 #   X4 reaction: 32-GE-76(N,2N)32-GE-75,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/11825010
-# target:
+# target: 
 #   Z: 32
 #   A: 76
 #   nuclide: Ge76
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 32
-#   A: 75
-#   nuclide: Ge75
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 32
+#     A: 75
+#     nuclide: Ge75
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.440000E+01   3.000000E-01   1.444000E+03   2.890000E+02   1.000000E+00
@@ -34,18 +35,3 @@
 #   author: R.E.Wood,W.S.Cook,J.R.Goodgame,R.W.Fink
 #   title: Activation Cross Sections of Germanium for 14.4-MeV Neutrons
 #   journal: Jour: Physical Review, Vol.154, p.1108 (1967)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.440000E+01
-#   E-max [MeV]:  1.440000E+01
-#   F-value:  1.157599E+00
-#   A-value:  8.652864E-01
-#   chi-2:  9.856820E-01
-#   p-value:  1.222956E-01
-#   exp. data sets for p-value:      8
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.191901E+00   8.389958E-01   1.215339E+00
-# jeff3.3       1.141195E+00   8.762745E-01   8.912016E-01
-# jendl5.0      1.134803E+00   8.812103E-01   8.505054E-01

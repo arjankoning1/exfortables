@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: S32(n,t)P30 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Diksic
 #   year: 1974
 #   subentry: 30169002
 #   X4 reaction: 16-S-32(N,T)15-P-30,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30169002
-# target:
+# target: 
 #   Z: 16
 #   A: 32
 #   nuclide: S32
-# reaction:
+# reaction: 
 #   type: (n,t)
 #   ENDF_MF: 3
 #   ENDF_MT: 105
-# residual:
-#   Z: 15
-#   A: 30
-#   nuclide: P30
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 15
+#     A: 30
+#     nuclide: P30
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.460000E+01   0.000000E+00   1.987700E-01   8.843000E-02   1.290709E+00
@@ -34,18 +35,3 @@
 #   author: M.Diksic,P.Strohal,I.Slaus
 #   title: (n,t) cross sections at 14 MeV
 #   journal: Jour: Journal of Inorganic and Nuclear Chemistry, Vol.36, p.477 (1974)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  1.460000E+01
-#   E-max [MeV]:  1.460000E+01
-#   F-value:  2.787359E+01
-#   A-value:  3.590648E-02
-#   chi-2:  4.950128E+00
-#   p-value:  1.192093E-07
-#   exp. data sets for p-value:      8
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    2.597148E+01   3.850377E-02   4.927881E+00
-# jeff3.3       2.691896E+01   3.714854E-02   4.939921E+00
-# cendl3.2      3.089772E+01   3.236485E-02   4.982582E+00

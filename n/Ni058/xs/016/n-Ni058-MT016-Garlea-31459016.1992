@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ni58(n,2n)Ni57 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Garlea
 #   year: 1992
 #   subentry: 31459016
 #   X4 reaction: 28-NI-58(N,2N)28-NI-57,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/31459016
-# target:
+# target: 
 #   Z: 28
 #   A: 58
 #   nuclide: Ni58
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 28
-#   A: 57
-#   nuclide: Ni57
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 28
+#     A: 57
+#     nuclide: Ni57
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.480000E+01   3.000000E-01   3.748649E+01   1.800000E+00   1.015894E+00
@@ -34,21 +35,3 @@
 #   author: I.Garlea, C.Miron-Garlea, H.N.Rosu, G.Fodor, V.Raducu
 #   title: Integral neutron cross sections measured around 14 MeV
 #   journal: Jour: Revue Roumaine de Physique, Vol.37, p.19 (1992)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.480000E+01
-#   E-max [MeV]:  1.480000E+01
-#   F-value:  1.024144E+00
-#   A-value:  1.017505E+00
-#   chi-2:  5.435630E-01
-#   p-value:  4.802454E-01
-#   exp. data sets for p-value:      8
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.000022E+00   9.999777E-01   5.813406E-04
-# endfb8.0      1.022825E+00   1.022825E+00   6.621048E-01
-# jeff3.3       1.024465E+00   1.024465E+00   7.154440E-01
-# jendl5.0      1.048380E+00   1.048380E+00   1.606269E+00
-# cendl3.2      1.009460E+00   1.009460E+00   2.575637E-01
-# irdff2.0      1.000741E+00   1.000741E+00   1.941572E-02

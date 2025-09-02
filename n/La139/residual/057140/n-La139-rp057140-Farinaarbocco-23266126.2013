@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: La139(n,x)La140 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Farinaarbocco
 #   year: 2013
 #   subentry: 23266126
 #   X4 reaction: 57-LA-139(N,G)57-LA-140,,SIG,,AV
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/23266126
-# target:
+# target: 
 #   Z: 57
 #   A: 139
 #   nuclide: La139
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 57
-#   A: 140
-#   nuclide: La140
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 57
+#     A: 140
+#     nuclide: La140
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.530000E-08   0.000000E+00   9.250000E+03   4.000000E+01   1.000000E+00
@@ -34,17 +35,3 @@
 #   author: F.Farina Arbocco,P.Vermaercke,K.Smits,L.Sneyers, K.Strijckmans
 #   title: Experimental determination of k0, Q0, <Er> factors and neutron cross-sections for 41 isotopes of interest in Neutron Activation Analysis.
 #   journal: Jour: Journal of Radioanalytical and Nuclear Chemistry, Vol.296, p.931 (
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  2.530000E-08
-#   E-max [MeV]:  2.530000E-08
-#   F-value:  1.024734E+00
-#   A-value:  9.814437E-01
-#   chi-2:  3.112433E+01
-#   p-value:  3.849514E-01
-#   exp. data sets for p-value:      8
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.003047E+00   9.969623E-01   1.034075E+00
-# jendl5.0      1.035018E+00   9.661666E-01   6.121458E+01

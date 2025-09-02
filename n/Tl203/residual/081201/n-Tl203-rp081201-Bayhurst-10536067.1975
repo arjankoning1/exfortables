@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Tl203(n,x)Tl201 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Bayhurst
 #   year: 1975
 #   subentry: 10536067
 #   X4 reaction: 81-TL-203(N,3N)81-TL-201,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/10536067
-# target:
+# target: 
 #   Z: 81
 #   A: 203
 #   nuclide: Tl203
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 17
-# residual:
-#   Z: 81
-#   A: 201
-#   nuclide: Tl201
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 7
+#   residual: 
+#     Z: 81
+#     A: 201
+#     nuclide: Tl201
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.723000E+01   1.700000E-01   1.345576E+02   6.044060E+00   9.893939E-01
@@ -40,17 +41,3 @@
 #   author: B.P.Bayhurst,J.S.Gilmore,R.J.Prestwood,J.B.Wilhelmy, N.Jarmie,B.H.Erkkila,R.A.Hardekopf
 #   title: Cross sections for (n,xn) reactions between 7.5 and  28 MeV
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.12, p.451 (1975)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  1.723000E+01
-#   E-max [MeV]:  2.449000E+01
-#   F-value:  1.555795E+00
-#   A-value:  6.592459E-01
-#   chi-2:  3.984638E+02
-#   p-value:  2.420494E-01
-#   exp. data sets for p-value:      2
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.613969E+00   6.238645E-01   4.244332E+02
-# jeff3.3       1.494718E+00   6.966339E-01   3.724945E+02

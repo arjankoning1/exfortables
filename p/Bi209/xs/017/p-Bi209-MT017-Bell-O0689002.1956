@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Bi209(p,3n)Po207 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Bell
 #   year: 1956
 #   subentry: O0689002
 #   X4 reaction: 83-BI-209(P,3N)84-PO-207,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/O0689002
-# target:
+# target: 
 #   Z: 83
 #   A: 209
 #   nuclide: Bi209
-# reaction:
+# reaction: 
 #   type: (p,3n)
 #   ENDF_MF: 3
 #   ENDF_MT: 17
-# residual:
-#   Z: 84
-#   A: 207
-#   nuclide: Po207
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 9
+#   residual: 
+#     Z: 84
+#     A: 207
+#     nuclide: Po207
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 9
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.190000E+01   0.000000E+00   3.700000E+02   5.550000E+01   1.000000E+00
@@ -42,18 +43,3 @@
 #   author: R.E.Bell, H.M.Skarsgard
 #   title: Cross sections of (p,xn) reactions in the isotopes of lead and bismuth
 #   journal: Jour: Canadian Journal of Physics, Vol.34, p.745 (1956)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  2.190000E+01
-#   E-max [MeV]:  5.040000E+01
-#   F-value:  1.305552E+00
-#   A-value:  1.175384E+00
-#   chi-2:  4.994958E+00
-#   p-value:  2.935425E-01
-#   exp. data sets for p-value:      2
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.313557E+00   1.112975E+00   5.173771E+00
-# endfb8.0      1.290643E+00   1.205495E+00   4.516257E+00
-# jendl5.0      1.312106E+00   1.210288E+00   5.294844E+00

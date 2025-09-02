@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Hg202(n,n'_01)Hg203 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Konobeevskii
 #   year: 1974
 #   subentry: 40215004
 #   X4 reaction: 80-HG-202(N,INL)80-HG-202,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/40215004
-#   level energy [MeV]  4.39000E-01
-# target:
+#   level energy [MeV]:  4.39000E-01
+# target: 
 #   Z: 80
 #   A: 202
 #   nuclide: Hg202
-# reaction:
+# reaction: 
 #   type: (n,n'_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 51
@@ -25,14 +25,15 @@
 #     energy [MeV]:  4.395120E-01
 #     spin:  2.000000E+00
 #     parity: 1
-# residual:
-#   Z: 80
-#   A: 203
-#   nuclide: Hg203
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 21
+#   residual: 
+#     Z: 80
+#     A: 203
+#     nuclide: Hg203
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 21
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.482274E-01   0.000000E+00   1.400000E+02   1.789031E+01   1.000000E+00
@@ -60,19 +61,3 @@
 #   author: E.S.Konobeevskii,R.M.Musaelyan,V.I.Popov,I.V.Surkova
 #   title: Inelastic scattering of neutrons by Hg-198,200,202 and Pb-206 at energies near the threshold
 #   journal: Jour: Bull.Russian Academy of Sciences - Physics, Vol.37, Issue.8, p.129
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  4.482274E-01
-#   E-max [MeV]:  7.316357E-01
-#   F-value:  1.605817E+00
-#   A-value:  7.735786E-01
-#   chi-2:  5.637822E+00
-#   p-value:  3.017172E-01
-#   exp. data sets for p-value:      2
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.688668E+00   6.877366E-01   7.129978E+00
-# endfb8.0      1.621147E+00   8.314862E-01   5.037210E+00
-# jeff3.3       1.683605E+00   6.902438E-01   7.057223E+00
-# jendl5.0      1.409898E+00   9.072731E-01   3.326873E+00

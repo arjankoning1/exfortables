@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Mo98(p,x)Nb96 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Levkovski*0.82
 #   year: 1991
 #   subentry: A0510248
 #   X4 reaction: 42-MO-98(P,X)41-NB-96,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/A0510248
-# target:
+# target: 
 #   Z: 42
 #   A: 98
 #   nuclide: Mo98
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 41
-#   A: 96
-#   nuclide: Nb96
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 5
+#   residual: 
+#     Z: 41
+#     A: 96
+#     nuclide: Nb96
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.570000E+01   0.000000E+00   2.127818E-01   2.594900E-02   7.631999E-01
@@ -38,17 +39,3 @@
 #   author: V.N.Levkovski
 #   title: Cross sections of medium mass nuclide activation  (A=40-100) by medium energy protons and alpha-particles (E=10-50 MeV)
 #   journal: Book: Levkovskij,Act.Cs.By Protons and Alphas,Moscow 1991,  (1991)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  2.570000E+01
-#   E-max [MeV]:  2.950000E+01
-#   F-value:  2.488237E+00
-#   A-value:  2.180264E+00
-#   chi-2:  2.202875E+02
-#   p-value:  2.099190E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    3.452332E+00   3.416290E+00   4.272357E+02
-# jendl5.0      1.427518E+00   1.391438E+00   1.333920E+01

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Yb170(n,2n)Yb169 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Bari
 #   year: 1971
 #   subentry: 10431061
 #   X4 reaction: 70-YB-170(N,2N)70-YB-169,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/10431061
-# target:
+# target: 
 #   Z: 70
 #   A: 170
 #   nuclide: Yb170
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 70
-#   A: 169
-#   nuclide: Yb169
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 70
+#     A: 169
+#     nuclide: Yb169
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.480000E+01   2.000000E-01   1.911076E+03   1.009402E+02   9.484246E-01
@@ -34,19 +35,3 @@
 #   author: A.Bari
 #   title: 14.8 MeV neutron activation cross sections of rubidium,  strontium,zirconium,niobium and rare-earth nuclides.
 #   journal: Thesis: Bari (1971)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.480000E+01
-#   E-max [MeV]:  1.480000E+01
-#   F-value:  1.063028E+00
-#   A-value:  1.049003E+00
-#   chi-2:  1.781057E+00
-#   p-value:  2.234802E-01
-#   exp. data sets for p-value:      8
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.005378E+00   1.005378E+00   1.303973E-01
-# endfb8.0      1.089528E+00   1.089528E+00   3.312863E+00
-# jeff3.3       1.014612E+00   1.014612E+00   3.681032E-01
-# jendl5.0      1.089528E+00   1.089528E+00   3.312863E+00

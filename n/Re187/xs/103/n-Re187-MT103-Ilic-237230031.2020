@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Re187(n,p)W187 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Ilic
 #   year: 2020
 #   subentry: 237230031
 #   X4 reaction: 75-RE-187(N,P)74-W-187,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/237230031
-# target:
+# target: 
 #   Z: 75
 #   A: 187
 #   nuclide: Re187
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 74
-#   A: 187
-#   nuclide: W187
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 74
+#     A: 187
+#     nuclide: W187
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.810000E+01   2.800000E-01   4.919400E+00   1.204800E+00   1.003963E+00
@@ -34,19 +35,3 @@
 #   author: S.Ilic,N.Jovancevic,L.Daraban,H.Stroh,S.Oberstedt, M.Hult,C.Bonaldi,W.Geerts,F.-J.Hambsch,G.Lutter, G.Marissens,M.Vidali,D.Knezevic
 #   title: The cross-sections for the 187Re(n,p)187W and 185Re(n,3n)183Re reactions in the energy range between 13.08 MeV and 19.50 MeV
 #   journal: Jour: European Physical Journal A: Hadrons and Nuclei, Vol.56, p.202 (20
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  1.810000E+01
-#   E-max [MeV]:  1.810000E+01
-#   F-value:  2.315119E+00
-#   A-value:  2.313117E+00
-#   chi-2:  2.895068E+01
-#   p-value:  2.968465E-01
-#   exp. data sets for p-value:      3
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    2.196464E+00   2.196464E+00   2.386682E+01
-# endfb8.0      2.351466E+00   2.351466E+00   3.045120E+01
-# jeff3.3       2.276891E+00   2.276891E+00   2.718331E+01
-# jendl5.0      2.434361E+00   2.434361E+00   3.430139E+01

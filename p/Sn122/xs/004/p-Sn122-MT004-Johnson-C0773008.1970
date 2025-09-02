@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Sn122(p,n')Sb122 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Johnson
 #   year: 1970
 #   subentry: C0773008
 #   X4 reaction: 50-SN-122(P,N)51-SB-122,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/C0773008
-# target:
+# target: 
 #   Z: 50
 #   A: 122
 #   nuclide: Sn122
-# reaction:
+# reaction: 
 #   type: (p,n')
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 51
-#   A: 122
-#   nuclide: Sb122
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 14
+#   residual: 
+#     Z: 51
+#     A: 122
+#     nuclide: Sb122
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 14
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.029000E+00   3.029000E-04   9.100000E-02   3.640000E-03   1.000000E+00
@@ -47,17 +48,3 @@
 #   author: C.H.Johnson,R.L.Kernell
 #   title: (p,n) Cross Sections and the Strength Functions for 3-  to 5.5-MeV Protons on In and on Sn Isotopes
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.2, p.639 (1970)
-# statistics:
-#   NEA score: R3
-#   IAEA score:  1
-#   E-min [MeV]:  3.029000E+00
-#   E-max [MeV]:  5.150000E+00
-#   F-value:  1.580642E+00
-#   A-value:  1.341470E+00
-#   chi-2:  3.911418E+02
-#   p-value:  4.244460E-01
-#   exp. data sets for p-value:      2
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.908038E+00   1.746646E+00   7.807091E+02
-# jendl5.0      1.043405E+00   1.030285E+00   1.574382E+00

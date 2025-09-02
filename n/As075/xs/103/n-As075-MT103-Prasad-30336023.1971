@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: As75(n,p)Ge75 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Prasad
 #   year: 1971
 #   subentry: 30336023
 #   X4 reaction: 33-AS-75(N,P)32-GE-75,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30336023
-# target:
+# target: 
 #   Z: 33
 #   A: 75
 #   nuclide: As75
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 32
-#   A: 75
-#   nuclide: Ge75
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 32
+#     A: 75
+#     nuclide: Ge75
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.480000E+01   5.000000E-01   3.527000E+01   4.000000E+00   8.397619E-01
@@ -34,20 +35,3 @@
 #   author: R.Prasad, D.C.Sarkar
 #   title: Measured (n,p) reaction cross-sections and their predicted values at 14.8 MeV
 #   journal: Jour: Nuovo Cimento A, Vol.3, p.467 (1971)
-# statistics:
-#   NEA score: R2
-#   IAEA score:  0
-#   E-min [MeV]:  1.480000E+01
-#   E-max [MeV]:  1.480000E+01
-#   F-value:  1.752118E+00
-#   A-value:  5.775073E-01
-#   chi-2:  1.401453E+01
-#   p-value:  5.092591E-02
-#   exp. data sets for p-value:      8
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.676156E+00   5.966030E-01   1.266137E+01
-# endfb8.0      1.428944E+00   6.998177E-01   7.114252E+00
-# jeff3.3       1.716543E+00   5.825663E-01   1.355400E+01
-# jendl5.0      1.928126E+00   5.186383E-01   1.801578E+01
-# cendl3.2      1.963780E+00   5.092220E-01   1.872726E+01

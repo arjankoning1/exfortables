@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Li6(n,n'_01)Li7 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Smith
 #   year: 1982
 #   subentry: 10904003
 #   X4 reaction: 3-LI-6(N,INL)3-LI-6,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/10904003
-#   level energy [MeV]  2.18300E+00
-# target:
+#   level energy [MeV]:  2.18300E+00
+# target: 
 #   Z: 3
 #   A: 6
 #   nuclide: Li6
-# reaction:
+# reaction: 
 #   type: (n,n'_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 51
@@ -25,14 +25,15 @@
 #     energy [MeV]:  2.186000E+00
 #     spin:  3.000000E+00
 #     parity: 1
-# residual:
-#   Z: 3
-#   A: 7
-#   nuclide: Li7
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 6
+#   residual: 
+#     Z: 3
+#     A: 7
+#     nuclide: Li7
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.500000E+00   0.000000E+00   2.789000E+02   8.000000E+01   1.000000E+00
@@ -45,19 +46,3 @@
 #   author: A.B.SMITH,P.T.GUENTHER,J.F.WHALEN
 #   title: NEUTRON TOTAL AND SCATTERING CROSS SECTIONS OF LI-6 IN  THE LOW MEV REGION.
 #   journal: Jour: Nuclear Physics, Section A, Vol.373, p.305 (1982)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  3.500000E+00
-#   E-max [MeV]:  4.000000E+00
-#   F-value:  2.286560E+01
-#   A-value:  5.086775E-02
-#   chi-2:  1.233609E+01
-#   p-value:  2.781550E-07
-#   exp. data sets for p-value:      2
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.137391E+01   8.820651E-02   1.181351E+01
-# endfb8.0      1.137391E+01   8.820651E-02   1.181351E+01
-# jeff3.3       1.137391E+01   8.820651E-02   1.181351E+01
-# jendl5.0      1.025977E+02   9.755922E-03   1.390384E+01

@@ -1,28 +1,29 @@
-# header:
+# header: 
 #   title: U238(p,f) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Boyce
 #   year: 1974
 #   subentry: T0296014
 #   X4 reaction: 92-U-238(P,F),,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/T0296014
-# target:
+# target: 
 #   Z: 92
 #   A: 238
 #   nuclide: U238
-# reaction:
+# reaction: 
 #   type: (p,f)
 #   ENDF_MF: 3
 #   ENDF_MT: 18
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 104
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 104
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    5.500000E+00   0.000000E+00   1.108800E-02   9.700000E-04   1.000000E+00
@@ -133,17 +134,3 @@
 #   author: J.R.Boyce,T.D.Hayward,R.Bass,H.W.Newson,E.G.Bilpuch, F.O.Purser,H.W.Schmitt
 #   title: Absolute cross sections for proton-induced fission of  the uranium isotopes.
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.10, p.231 (1974)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  5.500000E+00
-#   E-max [MeV]:  3.100000E+01
-#   F-value:  1.386397E+00
-#   A-value:  1.043619E+00
-#   chi-2:  2.259389E+02
-#   p-value:  3.363735E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.483839E+00   1.229295E+00   3.769107E+02
-# jendl5.0      1.271624E+00   8.859871E-01   7.496680E+01

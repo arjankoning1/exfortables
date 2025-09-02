@@ -1,28 +1,29 @@
-# header:
+# header: 
 #   title: Li6(g,xn) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Berman
 #   year: 1965
 #   subentry: L0008002
 #   X4 reaction: 3-LI-6(G,X)0-NN-1,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/L0008002
-# target:
+# target: 
 #   Z: 3
 #   A: 6
 #   nuclide: Li6
-# reaction:
+# reaction: 
 #   type: (g,xn)
 #   ENDF_MF: 3
 #   ENDF_MT: 201
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 108
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 108
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    5.680000E+00   0.000000E+00   2.480000E-01   2.000000E-02   1.000000E+00
@@ -137,17 +138,3 @@
 #   author: B.L.BERMAN,R.L.BRAMBLETT,J.T.CALDWELL,R.R.HARVEY, S.C.FULTZ
 #   title: Photoneutron cross sections of Li6.
 #   journal: Jour: Physical Review Letters, Vol.15, p.727 (1965)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  5.680000E+00
-#   E-max [MeV]:  3.202000E+01
-#   F-value:  1.242257E+00
-#   A-value:  1.013934E+00
-#   chi-2:  6.763738E+00
-#   p-value:  2.910301E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    3.422911E+00   3.706298E-01   3.024569E+01
-# jendl5.0      1.111058E+00   1.038850E+00   6.057181E+00

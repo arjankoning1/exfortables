@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Mo95(n,a)Zr92 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: GuohuiZhangg
 #   year: 2010
 #   subentry: 32676002
 #   X4 reaction: 42-MO-95(N,A)40-ZR-92,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/32676002
-# target:
+# target: 
 #   Z: 42
 #   A: 95
 #   nuclide: Mo95
-# reaction:
+# reaction: 
 #   type: (n,a)
 #   ENDF_MF: 3
 #   ENDF_MT: 107
-# residual:
-#   Z: 40
-#   A: 92
-#   nuclide: Zr92
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 3
+#   residual: 
+#     Z: 40
+#     A: 92
+#     nuclide: Zr92
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.000000E+00   2.300000E-01   7.039600E-01   7.000000E-02   1.005662E+00
@@ -36,20 +37,3 @@
 #   author: Guohui Zhang,Hao Wu,Jiaguo Zhang,Jiaming Liu, Yuxiang Yin,Jinxiang Chen,Yu.M.Gledenov,M.V.Sedysheva, G.Khuukhenkhuu,P.E.Koehler,P.J.Szalanski
 #   title: Cross-Section Measurement for the 95Mo(n,a)92Zr Reaction at 4.0, 5.0 and 6.0 MeV
 #   journal: Jour: Applied Radiation and Isotopes, Vol.68, p.180 (2010)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  4.000000E+00
-#   E-max [MeV]:  6.000000E+00
-#   F-value:  1.641486E+00
-#   A-value:  1.002451E+00
-#   chi-2:  3.132899E+01
-#   p-value:  4.406081E-01
-#   exp. data sets for p-value:      1
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.580918E+00   1.578361E+00   3.443996E+01
-# endfb8.0      1.741745E+00   6.156300E-01   1.654758E+01
-# jeff3.3       1.741745E+00   6.156300E-01   1.654758E+01
-# jendl5.0      1.844824E+00   1.660711E+00   8.570261E+01
-# cendl3.2      1.180452E+00   1.019006E+00   3.407211E+00

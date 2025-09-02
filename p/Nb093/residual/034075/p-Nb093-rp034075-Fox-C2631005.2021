@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Nb93(p,x)Se75 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Fox
 #   year: 2021
 #   subentry: C2631005
 #   X4 reaction: 41-NB-93(P,X)34-SE-75,CUM,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/C2631005
-# target:
+# target: 
 #   Z: 41
 #   A: 93
 #   nuclide: Nb93
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 34
-#   A: 75
-#   nuclide: Se75
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 4
+#   residual: 
+#     Z: 34
+#     A: 75
+#     nuclide: Se75
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.486600E+02   8.600000E-01   2.000000E-01   2.400000E-02   1.000000E+00
@@ -37,18 +38,3 @@
 #   author: M.B.Fox,A.S.Voyles,J.T.Morrell,L.A.Bernstein, A.M.Lewis,A.J.Koning,J.C.Batchelder,E.R.Birnbaum, C.S.Cutler,D.G.Medvedev,F.M.Nortier,E.M.O'Brien, C.Vermeulen
 #   title: Investigating high-energy proton-induced reactions on spherical nuclei: Implications for the preequilibrium exciton model
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.103, p.034601 (2021)
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  1.486600E+02
-#   E-max [MeV]:  1.923800E+02
-#   F-value:  5.012769E+00
-#   A-value:  2.961369E-01
-#   chi-2:  3.046553E+02
-#   p-value:  1.804995E-01
-#   exp. data sets for p-value:      3
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.003753E+01   1.007052E-01   5.564182E+02
-# endfb8.0      3.494517E+00   2.861626E-01   3.538637E+01
-# jendl5.0      1.426698E+00   9.127099E-01   5.406177E+01

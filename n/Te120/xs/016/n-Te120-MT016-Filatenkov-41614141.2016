@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Te120(n,2n)Te119 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Filatenkov
 #   year: 2016
 #   subentry: 41614141
 #   X4 reaction: 52-TE-120(N,2N)52-TE-119,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/41614141
-# target:
+# target: 
 #   Z: 52
 #   A: 120
 #   nuclide: Te120
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 52
-#   A: 119
-#   nuclide: Te119
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 7
+#   residual: 
+#     Z: 52
+#     A: 119
+#     nuclide: Te119
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.348000E+01   0.000000E+00   9.449951E+02   9.098008E+01   9.999947E-01
@@ -40,19 +41,3 @@
 #   author: A.A.Filatenkov
 #   title: Neutron activation cross sections measured at KRI in neutron energy region 13.4 - 14.9 MeV
 #   journal: Rept: USSR report to the I.N.D.C., No.0460 (2016)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.348000E+01
-#   E-max [MeV]:  1.483000E+01
-#   F-value:  1.050577E+00
-#   A-value:  9.953448E-01
-#   chi-2:  8.637127E-01
-#   p-value:  3.306549E-01
-#   exp. data sets for p-value:      1
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.070444E+00   9.441417E-01   1.718730E+00
-# endfb8.0      1.020008E+00   9.891422E-01   3.442194E-01
-# jeff3.3       1.069400E+00   1.046327E+00   1.182174E+00
-# jendl5.0      1.014556E+00   1.004455E+00   2.097268E-01

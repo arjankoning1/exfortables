@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: P31(n,a)Al28 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Garuska
 #   year: 1978
 #   subentry: 30479004
 #   X4 reaction: 15-P-31(N,A)13-AL-28,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30479004
-# target:
+# target: 
 #   Z: 15
 #   A: 31
 #   nuclide: P31
-# reaction:
+# reaction: 
 #   type: (n,a)
 #   ENDF_MF: 3
 #   ENDF_MT: 107
-# residual:
-#   Z: 13
-#   A: 28
-#   nuclide: Al28
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 13
+#     A: 28
+#     nuclide: Al28
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.460000E+01   0.000000E+00   1.073478E+02   1.175228E+01   1.032190E+00
@@ -34,20 +35,3 @@
 #   author: U.Garuska,J.Dresler,H.Malecki
 #   title: Cross-section measurements of the (n,a) reaction at 14.6 MeV neutron-energy.
 #   journal: Prog: Inst.Badan Jadr.(Nucl.Res.),Swierk+Warsaw,Repts, No.1773/I/PL/A, p
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.460000E+01
-#   E-max [MeV]:  1.460000E+01
-#   F-value:  1.059131E+00
-#   A-value:  1.038756E+00
-#   chi-2:  5.551759E-01
-#   p-value:  2.271864E-01
-#   exp. data sets for p-value:      8
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.000276E+00   9.997244E-01   3.156383E-03
-# endfb8.0      1.000269E+00   1.000269E+00   3.079680E-03
-# jeff3.3       1.079704E+00   1.079704E+00   1.078632E+00
-# jendl5.0      1.011028E+00   1.011028E+00   1.289702E-01
-# cendl3.2      1.107907E+00   1.107907E+00   1.562041E+00

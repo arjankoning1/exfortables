@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: B10(n,a)Li7 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Friesenhahn
 #   year: 1975
 #   subentry: 10303004
 #   X4 reaction: 5-B-10(N,A)3-LI-7,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/10303004
-# target:
+# target: 
 #   Z: 5
 #   A: 10
 #   nuclide: B10
-# reaction:
+# reaction: 
 #   type: (n,a)
 #   ENDF_MF: 3
 #   ENDF_MT: 107
-# residual:
-#   Z: 3
-#   A: 7
-#   nuclide: Li7
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 152
+#   residual: 
+#     Z: 3
+#     A: 7
+#     nuclide: Li7
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 152
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.396600E-03   4.659985E-05   1.231100E+04   7.181404E+02   1.000000E+00
@@ -185,21 +186,3 @@
 #   author: S.J.Friesenhahn,V.J.Orphan,A.D.Carlson,M.P.Fricke, W.M.Lopez
 #   title: Measurements of the 6Li and 10B Partial Cross Sections  from 1 to 1500 keV.
 #   journal: Conf: Conf.on Nucl.Cross-Sect.and Techn.,Washington 1975, Vol.1, p.232 (
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  2.396600E-03
-#   E-max [MeV]:  1.621200E+00
-#   F-value:  1.106835E+00
-#   A-value:  9.468507E-01
-#   chi-2:  4.412584E+00
-#   p-value:  3.232630E-01
-#   exp. data sets for p-value:      2
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.105285E+00   9.480782E-01   4.426289E+00
-# endfb8.0      1.105285E+00   9.480782E-01   4.426289E+00
-# jeff3.3       1.106519E+00   9.491321E-01   4.203800E+00
-# jendl5.0      1.112021E+00   9.385128E-01   4.793055E+00
-# cendl3.2      1.106519E+00   9.491325E-01   4.203783E+00
-# irdff2.0      1.105243E+00   9.482154E-01   4.422292E+00

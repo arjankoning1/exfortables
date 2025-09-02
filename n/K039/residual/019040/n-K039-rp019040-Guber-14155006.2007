@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: K39(n,x)K40 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Guber
 #   year: 2007
 #   subentry: 14155006
 #   X4 reaction: 19-K-39(N,G)19-K-40,,SIG,,TTA
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/14155006
-# target:
+# target: 
 #   Z: 19
 #   A: 39
 #   nuclide: K39
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 19
-#   A: 40
-#   nuclide: K40
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 22152
+#   residual: 
+#     Z: 19
+#     A: 40
+#     nuclide: K40
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 22152
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.003580E-05   0.000000E+00   1.040900E+03   2.026540E+03   1.000000E+00
@@ -22185,18 +22186,3 @@
 #   author: K.H.Guber,P.E.Koehler,D.Wiarda,J.A.Harvey, T.E.Valentine,R.O.Sayer,L.L Leal,N.M.Larson, T.S.Bigelow, C.Ausmus,D.R.Brashear,R.B.Overton, J.A.White,V.M.Cauley
 #   title: New neutron cross-section measurements from ORELA and new resonance parameter evaluations
 #   journal: Conf: Conf.on Nucl.Data for Sci. and Technology, Nice 2007, Vol.1, p.403
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  3.003580E-05
-#   E-max [MeV]:  6.000280E-01
-#   F-value:  3.706024E+00
-#   A-value:  5.277834E-01
-#   chi-2:  2.636369E+01
-#   p-value:  4.460804E-02
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    4.416273E+00   4.989821E-01   3.247242E+01
-# jeff3.3       4.133434E+00   4.679233E-01   3.738799E+01
-# jendl5.0      2.620421E+00   6.296676E-01   9.230606E+00

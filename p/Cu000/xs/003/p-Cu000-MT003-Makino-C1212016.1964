@@ -1,28 +1,29 @@
-# header:
+# header: 
 #   title: Cu0(p,non) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Makino
 #   year: 1964
 #   subentry: C1212016
 #   X4 reaction: 29-CU-0(P,NON),,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/C1212016
-# target:
+# target: 
 #   Z: 29
 #   A: 0
 #   nuclide: Cu0
-# reaction:
+# reaction: 
 #   type: (p,non)
 #   ENDF_MF: 3
 #   ENDF_MT: 3
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.800000E+01   0.000000E+00   1.024000E+03   3.500000E+01   1.000000E+00
@@ -30,16 +31,3 @@
 #   author: M.Q.Makino,C.N.Waddell,R.M.Eisberg,J.Hestenes
 #   title: Study of shell closure effect on proton total reaction  cross sections
 #   journal: Jour: Physics Letters, Vol.9, p.178 (1964)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  2.800000E+01
-#   E-max [MeV]:  2.800000E+01
-#   F-value:  1.123444E+00
-#   A-value:  1.123444E+00
-#   chi-2:  1.305169E+01
-#   p-value:  2.221899E-02
-#   exp. data sets for p-value:      1
-#   libraries:      1
-##  Library          F              A            chi-2
-# tendl.2023    1.123444E+00   1.123444E+00   1.305169E+01

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Rh103(n,2n)Rh102 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Mather
 #   year: 1972
 #   subentry: 20795006
 #   X4 reaction: 45-RH-103(N,2N)45-RH-102,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20795006
-# target:
+# target: 
 #   Z: 45
 #   A: 103
 #   nuclide: Rh103
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 45
-#   A: 102
-#   nuclide: Rh102
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 2
+#   residual: 
+#     Z: 45
+#     A: 102
+#     nuclide: Rh102
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.240000E+01   0.000000E+00   1.187301E+03   7.125298E+01   1.025303E+00
@@ -35,20 +36,3 @@
 #   author: D.S.MATHER,P.F.BAMPTON,R.E.COLES,G.JAMES,P.J.NIND
 #   title: -MEASUREMENT OF (N,2N) CROSS SECTIONS FOR INCIDENT  ENERGIES BETWEEN 6 AND 14 MEV-.
 #   journal: Rept: A.W.R.E. Aldermaston Reports, No.72/72 (1972)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.240000E+01
-#   E-max [MeV]:  1.430000E+01
-#   F-value:  1.129253E+00
-#   A-value:  9.060181E-01
-#   chi-2:  4.010859E+00
-#   p-value:  1.428192E-01
-#   exp. data sets for p-value:      4
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.213738E+00   8.263596E-01   8.950974E+00
-# endfb8.0      1.104392E+00   9.056498E-01   3.031678E+00
-# jeff3.3       1.045768E+00   1.001926E+00   1.129428E+00
-# jendl5.0      1.081815E+00   9.321064E-01   2.096826E+00
-# cendl3.2      1.144905E+00   8.734822E-01   4.845386E+00

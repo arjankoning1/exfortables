@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ca48(p,n')Sc48 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Zyskind
 #   year: 1979
 #   subentry: C0670003
 #   X4 reaction: 20-CA-48(P,N)21-SC-48,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/C0670003
-# target:
+# target: 
 #   Z: 20
 #   A: 48
 #   nuclide: Ca48
-# reaction:
+# reaction: 
 #   type: (p,n')
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 21
-#   A: 48
-#   nuclide: Sc48
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 75
+#   residual: 
+#     Z: 21
+#     A: 48
+#     nuclide: Sc48
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 75
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    9.560000E-01   0.000000E+00   1.220000E-02   4.000000E-03   1.000000E+00
@@ -108,17 +109,3 @@
 #   author: J.L.ZYSKIND,J.M.DAVIDSON,M.T.ESAT,R.H.SPEAR, M.H.SHAPIRO,W.A.FOWLER,C.A.BARNES
 #   title: Cross section measurements and thermonuclear reaction  rates
 #   journal: Jour: Nuclear Physics, Section A, Vol.315, p.430 (1979)
-# statistics:
-#   NEA score: R3
-#   IAEA score:  0
-#   E-min [MeV]:  9.560000E-01
-#   E-max [MeV]:  2.670000E+00
-#   F-value:  4.288077E+00
-#   A-value:  2.908892E+00
-#   chi-2:  1.875659E+04
-#   p-value:  2.098957E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    6.253597E+00   4.288266E+00   3.594201E+04
-# jendl5.0      2.433746E+00   1.902094E+00   1.600037E+03

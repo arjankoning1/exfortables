@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ni62(n,x)Ni63 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Tomyo
 #   year: 2005
 #   subentry: 22894002
 #   X4 reaction: 28-NI-62(N,G)28-NI-63,,SIG,,AV
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22894002
-# target:
+# target: 
 #   Z: 28
 #   A: 62
 #   nuclide: Ni62
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 28
-#   A: 63
-#   nuclide: Ni63
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 8
+#   residual: 
+#     Z: 28
+#     A: 63
+#     nuclide: Ni63
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    6.250000E-03   7.500000E-04   3.090000E+02   3.000000E+01   1.000000E+00
@@ -41,18 +42,3 @@
 #   author: A.Tomyo,Y.Temma,M.Segawa,Y.Nagai,T.Shima,T.Ohsaki, M.Igashira, H.Makii,T.Masaki,J.Nishiyama
 #   title: Ni-62(n,gamma)Ni-63 reaction and overproduction   of Ni isotopes
 #   journal: Jour: Astrophysical Journal, Vol.623, p.L153 (2005)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  6.250000E-03
-#   E-max [MeV]:  7.250000E-02
-#   F-value:  1.341164E+01
-#   A-value:  9.179567E-02
-#   chi-2:  1.476110E+02
-#   p-value:  3.777742E-02
-#   exp. data sets for p-value:      2
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.243825E+01   9.711458E-02   1.465162E+02
-# jeff3.3       1.418493E+01   8.707534E-02   1.495350E+02
-# jendl5.0      1.364886E+01   9.147172E-02   1.467818E+02

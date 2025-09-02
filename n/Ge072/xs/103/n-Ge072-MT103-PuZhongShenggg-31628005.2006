@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ge72(n,p)Ga72 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: PuZhongShenggg
 #   year: 2006
 #   subentry: 31628005
 #   X4 reaction: 32-GE-72(N,P)31-GA-72,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/31628005
-# target:
+# target: 
 #   Z: 32
 #   A: 72
 #   nuclide: Ge72
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 31
-#   A: 72
-#   nuclide: Ga72
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 3
+#   residual: 
+#     Z: 31
+#     A: 72
+#     nuclide: Ga72
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.350000E+01   3.000000E-01   2.604903E+01   3.005700E+00   1.001886E+00
@@ -36,20 +37,3 @@
 #   author: Pu Zhong-Sheng, Guan Qiu-Yun, Ma Jun, Yan Dong
 #   title: Cross section measurements for (n,2n),(n,p) and (n,a)  reactions on germanium isotopes at the neutron energy  around 14 MeV
 #   journal: Jour: High Energy Physics and Nucl.Physics,Chinese ed., Vol.30, p.1171 (
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.350000E+01
-#   E-max [MeV]:  1.460000E+01
-#   F-value:  1.359674E+00
-#   A-value:  1.320274E+00
-#   chi-2:  1.239274E+01
-#   p-value:  7.602771E-02
-#   exp. data sets for p-value:      4
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.677860E+00   1.676795E+00   3.897776E+01
-# endfb8.0      1.205045E+00   1.197235E+00   3.870315E+00
-# jeff3.3       1.252229E+00   1.250491E+00   5.615506E+00
-# jendl5.0      1.205046E+00   1.197236E+00   3.870330E+00
-# cendl3.2      1.336203E+00   1.334751E+00   9.629792E+00

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: In0(p,x)Sn109 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Nortier
 #   year: 1991
 #   subentry: A0506004
 #   X4 reaction: 49-IN-0(P,X)50-SN-109,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/A0506004
-# target:
+# target: 
 #   Z: 49
 #   A: 0
 #   nuclide: In0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 50
-#   A: 109
-#   nuclide: Sn109
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 34
+#   residual: 
+#     Z: 50
+#     A: 109
+#     nuclide: Sn109
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 34
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    5.660000E+01   0.000000E+00   2.840000E+00   7.200000E-01   1.000000E+00
@@ -67,17 +68,3 @@
 #   author: F.M.Nortier,S.J.Mills,G.F.Steyn
 #   title: Excitation functions for the production of Cd-109, In-109 and Sn-109 in proton bombardment of indium up to 200 MeV
 #   journal: Jour: Applied Radiation and Isotopes, Vol.42, p.1105 (1991)
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  5.660000E+01
-#   E-max [MeV]:  1.996000E+02
-#   F-value:  3.430801E+00
-#   A-value:  3.449355E-01
-#   chi-2:  1.680660E+01
-#   p-value:  2.009286E-01
-#   exp. data sets for p-value:      2
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    3.527978E+00   3.096838E-01   1.880334E+01
-# jendl5.0      3.334140E+00   3.841998E-01   1.480985E+01

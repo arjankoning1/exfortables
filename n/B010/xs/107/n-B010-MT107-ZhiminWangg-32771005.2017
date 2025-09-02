@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: B10(n,a)Li7 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: ZhiminWangg
 #   year: 2017
 #   subentry: 32771005
 #   X4 reaction: 5-B-10(N,A)3-LI-7,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/32771005
-# target:
+# target: 
 #   Z: 5
 #   A: 10
 #   nuclide: B10
-# reaction:
+# reaction: 
 #   type: (n,a)
 #   ENDF_MF: 3
 #   ENDF_MT: 107
-# residual:
-#   Z: 3
-#   A: 7
-#   nuclide: Li7
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 3
+#   residual: 
+#     Z: 3
+#     A: 7
+#     nuclide: Li7
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.000000E+00   0.000000E+00   2.756000E+02   1.120000E+01   1.000000E+00
@@ -36,21 +37,3 @@
 #   author: Zhimin Wang, Huaiyong Bai, Luyu Zhang, Haoyu Jiang, Yi Lu, Jinxiang Chen, Guohui Zhang, Yu.M.Gledenov, M.V.Sedysheva, G.Khuukhenkhuu
 #   title: Cross section measurement for the 10B(n,t2a) three- body reaction at 4.0, 4.5, and 5.0 MeV. II. Experimental setup and results
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.96, p.044621 (2017)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  4.000000E+00
-#   E-max [MeV]:  5.000000E+00
-#   F-value:  1.144866E+00
-#   A-value:  9.752629E-01
-#   chi-2:  1.070353E+01
-#   p-value:  3.642999E-01
-#   exp. data sets for p-value:      5
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.048226E+00   1.005177E+00   1.679592E+00
-# endfb8.0      1.048226E+00   1.005177E+00   1.679592E+00
-# jeff3.3       1.186407E+00   1.018557E+00   1.951016E+01
-# jendl5.0      1.235433E+00   8.164535E-01   2.014582E+01
-# cendl3.2      1.186407E+00   1.018557E+00   1.951016E+01
-# irdff2.0      1.048547E+00   1.005408E+00   1.695850E+00

@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: In113(n,n')In113m cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Smith
 #   year: 1976
 #   subentry: 105210041
 #   X4 reaction: 49-IN-113(N,INL)49-IN-113-M,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/105210041
-# target:
+# target: 
 #   Z: 49
 #   A: 113
 #   nuclide: In113
-# reaction:
+# reaction: 
 #   type: (n,n')
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 49
-#   A: 113
-#   nuclide: In113m
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 13
+#   residual: 
+#     Z: 49
+#     A: 113
+#     nuclide: In113m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 13
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.169000E+00   1.064000E-01   2.979000E+02   1.906000E+01   1.000000E+00
@@ -51,18 +52,3 @@
 #   author: D.L.Smith,J.W.Meadows
 #   title: Fast Neutron Excitation of Isomeric States of Indium.
 #   journal: Jour: Nuclear Science and Engineering, Vol.60, p.319 (1976)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  3.169000E+00
-#   E-max [MeV]:  5.750000E+00
-#   F-value:  1.044448E+00
-#   A-value:  9.962529E-01
-#   chi-2:  6.750243E-01
-#   p-value:  3.585046E-01
-#   exp. data sets for p-value:      4
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.047259E+00   9.999138E-01   7.644008E-01
-# jendl5.0      1.040464E+00   9.878929E-01   5.314081E-01
-# irdff2.0      1.045361E+00   1.001005E+00   7.292640E-01

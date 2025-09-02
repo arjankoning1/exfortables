@@ -1,28 +1,29 @@
-# header:
+# header: 
 #   title: U0(n,non) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Walt
 #   year: 1956
 #   subentry: 12371005
 #   X4 reaction: 92-U-0(N,NON),,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/12371005
-# target:
+# target: 
 #   Z: 92
 #   A: 0
 #   nuclide: U0
-# reaction:
+# reaction: 
 #   type: (n,non)
 #   ENDF_MF: 3
 #   ENDF_MT: 3
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    7.000000E+00   0.000000E+00   2.830000E+03   3.200000E+02   1.000000E+00
@@ -30,19 +31,3 @@
 #   author: M.WALT,J.R.BEYSTER
 #   title: SCATTERING OF FAST NEUTRONS BY U238.
 #   journal: Rept: Los Alamos Scientific Lab. Reports, No.2061 (1956)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  7.000000E+00
-#   E-max [MeV]:  7.000000E+00
-#   F-value:  4.975832E+03
-#   A-value:  6.518202E-04
-#   chi-2:  5.925457E+01
-#   p-value:  3.088796E-01
-#   exp. data sets for p-value:      1
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.939562E+04   5.155804E-05   7.820385E+01
-# endfb8.0      1.815715E+04   5.507473E-05   7.820329E+01
-# jeff3.3       1.815715E+04   5.507473E-05   7.820329E+01
-# cendl3.2      1.154277E+00   1.154277E+00   2.407851E+00

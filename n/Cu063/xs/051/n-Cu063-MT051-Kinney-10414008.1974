@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Cu63(n,n'_01)Cu64 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Kinney
 #   year: 1974
 #   subentry: 10414008
 #   X4 reaction: 29-CU-63(N,INL)29-CU-63,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/10414008
-#   level energy [MeV]  1.32700E+00
-# target:
+#   level energy [MeV]:  1.32700E+00
+# target: 
 #   Z: 29
 #   A: 63
 #   nuclide: Cu63
-# reaction:
+# reaction: 
 #   type: (n,n'_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 51
@@ -25,14 +25,15 @@
 #     energy [MeV]:  1.326760E+00
 #     spin:  3.500000E+00
 #     parity: -1
-# residual:
-#   Z: 29
-#   A: 64
-#   nuclide: Cu64
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 7
+#   residual: 
+#     Z: 29
+#     A: 64
+#     nuclide: Cu64
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    5.500000E+00   9.000000E-02   8.380001E+01   8.799000E+00   1.000000E+00
@@ -46,20 +47,3 @@
 #   author: W.E.Kinney,F.G.Perey
 #   title: 63Cu and 65Cu neutron elastic and inelastic scattering  cross sections from 5.50 to 8.50 MeV
 #   journal: Rept: Oak Ridge National Lab. Reports, No.4908 (1974)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  5.500000E+00
-#   E-max [MeV]:  8.500000E+00
-#   F-value:  7.412451E+00
-#   A-value:  1.768764E-01
-#   chi-2:  2.913197E+01
-#   p-value:  1.398762E-01
-#   exp. data sets for p-value:      2
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    2.461374E+01   4.219862E-02   4.332043E+01
-# endfb8.0      1.276820E+01   7.977023E-02   4.001725E+01
-# jeff3.3       3.740005E+00   2.702819E-01   2.714317E+01
-# jendl5.0      2.941597E+00   3.469420E-01   2.266300E+01
-# cendl3.2      1.898538E+00   5.484495E-01   1.251599E+01

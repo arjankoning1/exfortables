@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: C13(g,p)B12 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Denisov
 #   year: 1964
 #   subentry: M0988002
 #   X4 reaction: 6-C-13(G,P)5-B-12,,SIG,,BRS
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/M0988002
-# target:
+# target: 
 #   Z: 6
 #   A: 13
 #   nuclide: C13
-# reaction:
+# reaction: 
 #   type: (g,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 5
-#   A: 12
-#   nuclide: B12
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 28
+#   residual: 
+#     Z: 5
+#     A: 12
+#     nuclide: B12
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 28
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.700000E+01   0.000000E+00  -4.900000E-02   1.450000E-01   1.000000E+00
@@ -61,18 +62,3 @@
 #   author: V.P.Denisov,A.V.Kulikov,L.A.Kul'chitskii
 #   title: Cross section for the reaction 13C(gamma,p)12B.
 #   journal: Jour: Zhurnal Eksperimental'noi i Teoret. Fiziki, Vol.46, p.1488 (1964)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  1.700000E+01
-#   E-max [MeV]:  3.100000E+01
-#   F-value:  1.522595E+01
-#   A-value:  9.001316E-02
-#   chi-2:  1.178230E+02
-#   p-value:  3.750777E-02
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    7.545290E+00   1.430045E-01   1.107316E+02
-# endfb8.0      9.364010E+00   1.585408E-01   1.077217E+02
-# jendl5.0      3.980271E+01   2.961280E-02   1.418711E+02

@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Na23(n,n'_01)Na24 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Kozy
 #   year: 1978
 #   subentry: 405960373
 #   X4 reaction: 11-NA-23(N,INL)11-NA-23,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/405960373
-#   level energy [MeV]  9.53000E+00
-# target:
+#   level energy [MeV]:  9.53000E+00
+# target: 
 #   Z: 11
 #   A: 23
 #   nuclide: Na23
-# reaction:
+# reaction: 
 #   type: (n,n'_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 51
@@ -25,14 +25,15 @@
 #     energy [MeV]:  9.487700E+00
 #     spin:  1.500000E+00
 #     parity: -1
-# residual:
-#   Z: 11
-#   A: 24
-#   nuclide: Na24
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 11
+#     A: 24
+#     nuclide: Na24
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.460000E+01   0.000000E+00   2.600000E+02   3.000000E+01   1.000000E+00
@@ -40,20 +41,3 @@
 #   author: Yu.E.Kozy, G.A.Prokopets
 #   title: The reactions (n,n'gamma), (n,np), and (n,pn) in 23Na,  27Al, and 32S at a neutron energy 14.6 MeV
 #   journal: Jour: Yadernaya Fizika, Vol.28, p.16 (1978)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  1.460000E+01
-#   E-max [MeV]:  1.460000E+01
-#   F-value:  6.654582E+00
-#   A-value:  1.535855E-01
-#   chi-2:  5.316108E+01
-#   p-value:  1.192093E-07
-#   exp. data sets for p-value:      2
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    5.429853E+00   1.841670E-01   4.999271E+01
-# endfb8.0      4.326252E+00   2.311469E-01   4.440081E+01
-# jeff3.3       1.012848E+01   9.873146E-02   6.101164E+01
-# jendl5.0      7.357260E+00   1.359202E-01   5.608051E+01
-# cendl3.2      6.684802E+00   1.495931E-01   5.431975E+01

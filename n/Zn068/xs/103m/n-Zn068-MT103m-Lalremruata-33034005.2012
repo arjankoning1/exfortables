@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: Zn68(n,p)Cu68m cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Lalremruata
 #   year: 2012
 #   subentry: 33034005
 #   X4 reaction: 30-ZN-68(N,P)29-CU-68-M,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/33034005
-# target:
+# target: 
 #   Z: 30
 #   A: 68
 #   nuclide: Zn68
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 29
-#   A: 68
-#   nuclide: Cu68m
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 29
+#     A: 68
+#     nuclide: Cu68m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.480000E+01   0.000000E+00   4.162600E+00   4.885800E-01   1.027791E+00
@@ -39,18 +40,3 @@
 #   author: B.Lalremruata, N.Otuka, G.J.Tambave, V.K.Mulik,  B.J.Patil, S.D.Dhole, A.Saxena, S.Ganesan,  V.N.Bhoraskar
 #   title: Systematic study of (n, p) reaction cross sections  from the reaction threshold to 20 MeV
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.85, p.024624 (2012)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.480000E+01
-#   E-max [MeV]:  1.480000E+01
-#   F-value:  1.251246E+00
-#   A-value:  1.203670E+00
-#   chi-2:  5.078461E+00
-#   p-value:  2.469058E-01
-#   exp. data sets for p-value:      8
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.018489E+00   1.018489E+00   2.041592E-01
-# jeff3.3       1.380687E+00   1.380687E+00   1.054403E+01
-# jendl5.0      1.240142E+00   1.240142E+00   4.487198E+00

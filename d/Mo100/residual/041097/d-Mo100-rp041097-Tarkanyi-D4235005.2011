@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Mo100(d,x)Nb97 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Tarkanyi
 #   year: 2011
 #   subentry: D4235005
 #   X4 reaction: 42-MO-100(D,X)41-NB-97,IND,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/D4235005
-# target:
+# target: 
 #   Z: 42
 #   A: 100
 #   nuclide: Mo100
-# reaction:
+# reaction: 
 #   type: (d,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 41
-#   A: 97
-#   nuclide: Nb97
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 33
+#   residual: 
+#     Z: 41
+#     A: 97
+#     nuclide: Nb97
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 33
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.220000E+01   7.000000E-01   1.500000E+00   3.000000E-01   1.000000E+00
@@ -66,16 +67,3 @@
 #   author: F.Tarkanyi, A.Hermanne, S.Takacs, M.Sonck, Z.Szucs, B.Kiraly, A.V.Ignatyuk
 #   title: Investigation of alternative production routes of 99mTc: Deuteron induced reactions on 100Mo
 #   journal: Jour: Applied Radiation and Isotopes, Vol.69, p.18 (2011)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  1.220000E+01
-#   E-max [MeV]:  4.950000E+01
-#   F-value:  2.360372E+00
-#   A-value:  4.616700E-01
-#   chi-2:  1.393316E+01
-#   p-value:  2.089565E-01
-#   exp. data sets for p-value:      1
-#   libraries:      1
-##  Library          F              A            chi-2
-# tendl.2023    2.360372E+00   4.616700E-01   1.393316E+01

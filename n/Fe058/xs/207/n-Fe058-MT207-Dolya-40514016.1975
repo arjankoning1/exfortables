@@ -1,28 +1,29 @@
-# header:
+# header: 
 #   title: Fe58(n,xa) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Dolya
 #   year: 1975
 #   subentry: 40514016
 #   X4 reaction: 26-FE-58(N,X)2-HE-4,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/40514016
-# target:
+# target: 
 #   Z: 26
 #   A: 58
 #   nuclide: Fe58
-# reaction:
+# reaction: 
 #   type: (n,xa)
 #   ENDF_MF: 3
 #   ENDF_MT: 207
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.470000E+01   0.000000E+00   2.900000E+01   4.400000E+00   1.000000E+00
@@ -30,21 +31,3 @@
 #   author: G.P.DOLYA,A.P.KLYUCHAREV,V.P.BOZHKO,  V.YA.GOLOVNYA,A.S.KACHAN,A.I.TUTUBALIN
 #   title: DIFFERENTIAL AND INTEGRAL CROSS-SECTIONS FOR  (N,ALFA) REACTIONS ON NUCLEI  FE-54,-56,-57,-58  AND NI-58,-60,-62 AT NEUTRON ENERGY  14.7 MEV
 #   journal: Conf: 3.All Union Conf.on Neutron Phys.,Kiev,9-13 Jun 1975, Vol.4, p.173
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  1.470000E+01
-#   E-max [MeV]:  1.470000E+01
-#   F-value:  1.431566E+00
-#   A-value:  7.462456E-01
-#   chi-2:  3.767437E+00
-#   p-value:  1.208217E-01
-#   exp. data sets for p-value:      4
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.460001E+00   6.849313E-01   4.601508E+00
-# endfb8.0      1.228804E+00   8.137997E-01   2.080565E+00
-# jeff3.3       1.089405E+00   9.179319E-01   7.652739E-01
-# jendl5.0      1.145776E+00   8.727709E-01   1.278076E+00
-# cendl3.2      1.929596E+00   5.182432E-01   1.011176E+01
-# irdff2.0      0.000000E+00   0.000000E+00   0.000000E+00

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: F19(n,a)N16 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Bartle
 #   year: 1981
 #   subentry: 10447006
 #   X4 reaction: 9-F-19(N,A)7-N-16,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/10447006
-# target:
+# target: 
 #   Z: 9
 #   A: 19
 #   nuclide: F19
-# reaction:
+# reaction: 
 #   type: (n,a)
 #   ENDF_MF: 3
 #   ENDF_MT: 107
-# residual:
-#   Z: 7
-#   A: 16
-#   nuclide: N16
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 2
+#   residual: 
+#     Z: 7
+#     A: 16
+#     nuclide: N16
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.760000E+00   1.000000E-01   1.020000E+02   6.000000E+00   1.000000E+00
@@ -35,20 +36,3 @@
 #   author: C.M.Bartle,P.A.Quin
 #   title: Total cross sections for the 40Ca(n,p) and (n,alpha)  reactions between 2.7 and 5.5 MeV
 #   journal: Jour: Annals of Nuclear Energy, Vol.8, p.43 (1981)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  4.760000E+00
-#   E-max [MeV]:  5.540000E+00
-#   F-value:  1.302295E+00
-#   A-value:  1.275365E+00
-#   chi-2:  2.798482E+01
-#   p-value:  3.008069E-01
-#   exp. data sets for p-value:      8
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.331995E+00   1.315024E+00   3.315360E+01
-# endfb8.0      1.331995E+00   1.315024E+00   3.315360E+01
-# jeff3.3       1.331995E+00   1.315024E+00   3.315360E+01
-# jendl5.0      1.152244E+00   1.128334E+00   7.309673E+00
-# cendl3.2      1.331995E+00   1.315024E+00   3.315360E+01

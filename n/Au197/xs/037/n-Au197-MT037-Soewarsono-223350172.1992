@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Au197(n,4n)Au194 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Soewarsono
 #   year: 1992
 #   subentry: 223350172
 #   X4 reaction: 79-AU-197(N,4N)79-AU-194,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/223350172
-# target:
+# target: 
 #   Z: 79
 #   A: 197
 #   nuclide: Au197
-# reaction:
+# reaction: 
 #   type: (n,4n)
 #   ENDF_MF: 3
 #   ENDF_MT: 37
-# residual:
-#   Z: 79
-#   A: 194
-#   nuclide: Au194
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 3
+#   residual: 
+#     Z: 79
+#     A: 194
+#     nuclide: Au194
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.760000E+01   0.000000E+00   2.980000E+02   4.700000E+01   1.000000E+00
@@ -36,19 +37,3 @@
 #   author: T.S.Soewarsono, Y.Uwamino, T.Nakamura
 #   title: Neutron activation cross section measurement from  Li-7(p,n) in the proton energy region of 20 MeV to  40 MeV
 #   journal: Conf: JAERI-M Reports, No.92-027, p.354 (1992)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  2.760000E+01
-#   E-max [MeV]:  3.830000E+01
-#   F-value:  1.461899E+00
-#   A-value:  7.235399E-01
-#   chi-2:  5.677575E+00
-#   p-value:  1.950595E-01
-#   exp. data sets for p-value:      8
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.232153E+00   8.242636E-01   2.434719E+00
-# endfb8.0      1.998578E+00   5.003558E-01   1.006633E+01
-# jeff3.3       1.998578E+00   5.003558E-01   1.006633E+01
-# jendl5.0      1.385493E+00   7.370297E-01   6.396151E+00

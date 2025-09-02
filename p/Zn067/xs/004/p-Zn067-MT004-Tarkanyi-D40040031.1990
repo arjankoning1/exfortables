@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Zn67(p,n')Ga67 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Tarkanyi
 #   year: 1990
 #   subentry: D40040031
 #   X4 reaction: 30-ZN-67(P,N)31-GA-67,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/D40040031
-# target:
+# target: 
 #   Z: 30
 #   A: 67
 #   nuclide: Zn67
-# reaction:
+# reaction: 
 #   type: (p,n')
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 31
-#   A: 67
-#   nuclide: Ga67
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 25
+#   residual: 
+#     Z: 31
+#     A: 67
+#     nuclide: Ga67
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 25
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    6.500000E+00   2.000000E-01   2.810000E+02   3.653000E+01   1.000000E+00
@@ -58,17 +59,3 @@
 #   author: F.Tarkanyi,F.Szelecsenyi,Z.Kovacs,S.Sudar
 #   title: Excitation functions of proton induced nuclear reactions on enriched 66Zn, 67Zn and 68Zn. production of 67Ga and 66Ga.
 #   journal: Jour: Radiochimica Acta, Vol.50, p.19 (1990)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  6.500000E+00
-#   E-max [MeV]:  2.130000E+01
-#   F-value:  1.395200E+00
-#   A-value:  8.051907E-01
-#   chi-2:  4.317870E+00
-#   p-value:  2.752749E-01
-#   exp. data sets for p-value:      2
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.269881E+00   8.542002E-01   2.852657E+00
-# jendl5.0      1.500632E+00   7.589930E-01   5.783082E+00

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Mo100(n,x)Mo99 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Fujino
 #   year: 1977
 #   subentry: 20850019
 #   X4 reaction: 42-MO-100(N,2N)42-MO-99,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20850019
-# target:
+# target: 
 #   Z: 42
 #   A: 100
 #   nuclide: Mo100
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 42
-#   A: 99
-#   nuclide: Mo99
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 42
+#     A: 99
+#     nuclide: Mo99
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.460000E+01   0.000000E+00   1.396721E+03   9.836065E+01   9.836065E-01
@@ -34,17 +35,3 @@
 #   author: Y.FUJINO,M.HYAKUTAKE,I.KUMABE
 #   title: -ACTIVATION CROSS SECTIONS ON ZIRCONIUM AND  MOLYBDENUM ISOTOPES INDUCED BY 14.6 MEV NEUTRONS-.
 #   journal: Prog: Japanese report to NEANDC, No.51, p.60 (1977)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.460000E+01
-#   E-max [MeV]:  1.460000E+01
-#   F-value:  1.034929E+00
-#   A-value:  1.024579E+00
-#   chi-2:  5.205924E-01
-#   p-value:  3.213060E-01
-#   exp. data sets for p-value:      8
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.049752E+00   1.049752E+00   1.041016E+00
-# jendl5.0      1.000010E+00   1.000010E+00   1.690963E-04

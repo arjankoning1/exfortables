@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Cu0(p,x)Zn62 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Szelecsenyi
 #   year: 2001
 #   subentry: D40830032
 #   X4 reaction: 29-CU-0(P,X)30-ZN-62,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/D40830032
-# target:
+# target: 
 #   Z: 29
 #   A: 0
 #   nuclide: Cu0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 30
-#   A: 62
-#   nuclide: Zn62
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 6
+#   residual: 
+#     Z: 30
+#     A: 62
+#     nuclide: Zn62
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.490000E+01   2.000000E-01   6.300000E+00   8.000000E-01   1.000000E+00
@@ -39,18 +40,3 @@
 #   author: F.SZELECSENYI, F.Tarkanyi, S.TAKACS, A.HERMANNE,  M.SONCK, YU.SHUBIN, M.G.MUSTAFA, ZHUANG YOUXIANG
 #   title: Excitation function for the natTi(p,x)48V nuclear process: Evaluation and new measurements for practical applications
 #   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.174, p.47 (200
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  1.490000E+01
-#   E-max [MeV]:  1.770000E+01
-#   F-value:  1.273035E+00
-#   A-value:  1.057695E+00
-#   chi-2:  6.019066E+00
-#   p-value:  2.791258E-01
-#   exp. data sets for p-value:      5
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.339655E+00   1.225997E+00   9.826042E+00
-# endfb8.0      1.194166E+00   9.122691E-01   2.502507E+00
-# jendl5.0      1.271871E+00   1.057959E+00   5.728649E+00

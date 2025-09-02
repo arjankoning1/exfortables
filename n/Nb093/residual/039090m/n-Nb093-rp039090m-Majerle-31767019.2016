@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: Nb93(n,x)Y90m cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Majerle
 #   year: 2016
 #   subentry: 31767019
 #   X4 reaction: 41-NB-93(N,X)39-Y-90-M,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/31767019
-# target:
+# target: 
 #   Z: 41
 #   A: 93
 #   nuclide: Nb93
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 39
-#   A: 90
-#   nuclide: Y90m
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 7
+#   residual: 
+#     Z: 39
+#     A: 90
+#     nuclide: Y90m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.730000E+01   1.100000E+00   3.500000E+00   5.000000E-01   1.000000E+00
@@ -45,18 +46,3 @@
 #   author: M.Majerle, P.Bem, J.Novak, E.Simeckova, M.Stefanik
 #   title: Au, Bi, Co and Nb cross-section measured by  quasimonoenergetic neutrons from p+7Li reaction in  the energy range of 18-36 MeV
 #   journal: Jour: Nuclear Physics, Section A, Vol.953, p.139 (2016)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  1.730000E+01
-#   E-max [MeV]:  3.550000E+01
-#   F-value:  2.346176E+00
-#   A-value:  1.529750E+00
-#   chi-2:  4.673798E+01
-#   p-value:  2.316011E-01
-#   exp. data sets for p-value:      5
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    2.649197E+00   1.590432E+00   7.002561E+01
-# jeff3.3       2.548302E+00   1.488781E+00   5.862442E+01
-# jendl5.0      1.851094E+00   1.496889E+00   1.039024E+01

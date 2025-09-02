@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: F19(p,n')Ne19 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Gibbons
 #   year: 1959
 #   subentry: T0010007
 #   X4 reaction: 9-F-19(P,N)10-NE-19,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/T0010007
-# target:
+# target: 
 #   Z: 9
 #   A: 19
 #   nuclide: F19
-# reaction:
+# reaction: 
 #   type: (p,n')
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 10
-#   A: 19
-#   nuclide: Ne19
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 39
+#   residual: 
+#     Z: 10
+#     A: 19
+#     nuclide: Ne19
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 39
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.210000E+00   0.000000E+00   1.100000E-01   0.000000E+00   1.000000E+00
@@ -72,17 +73,3 @@
 #   author: J.H.Gibbons, R.L.Macklin
 #   title: Total neutron yields from light elements under proton and alpha bombardment
 #   journal: Jour: Physical Review, Vol.114, p.571 (1959)
-# statistics:
-#   NEA score: R2
-#   IAEA score:  1
-#   E-min [MeV]:  4.210000E+00
-#   E-max [MeV]:  4.930000E+00
-#   F-value:  1.657478E+00
-#   A-value:  6.634876E-01
-#   chi-2:  0.000000E+00
-#   p-value:  1.928949E-01
-#   exp. data sets for p-value:      3
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.657478E+00   6.634876E-01   0.000000E+00
-# jendl5.0      0.000000E+00   0.000000E+00   0.000000E+00

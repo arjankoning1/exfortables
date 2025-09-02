@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Fe54(n,2n)Fe53 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Sakane
 #   year: 2001
 #   subentry: 22662004
 #   X4 reaction: 26-FE-54(N,2N)26-FE-53,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22662004
-# target:
+# target: 
 #   Z: 26
 #   A: 54
 #   nuclide: Fe54
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 26
-#   A: 53
-#   nuclide: Fe53
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 5
+#   residual: 
+#     Z: 26
+#     A: 53
+#     nuclide: Fe53
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.370000E+01   5.000000E-02   2.200000E-01   1.980000E-01   1.000000E+00
@@ -38,21 +39,3 @@
 #   author: H.Sakane,Y.Kasugai,M.Shibata,T.Iida,A.Takahashi,  T.Fukahori,K.Kawade
 #   title: Measurement of activation cross-sections for (n,2n)  reactions producing short-lived nuclei in the energy  range between 13.4 and 14.9 MeV
 #   journal: Jour: Annals of Nuclear Energy, Vol.28, p.1175 (2001)
-# statistics:
-#   NEA score: R2
-#   IAEA score:  1
-#   E-min [MeV]:  1.370000E+01
-#   E-max [MeV]:  1.487000E+01
-#   F-value:  1.358889E+00
-#   A-value:  9.686722E-01
-#   chi-2:  2.278979E+00
-#   p-value:  3.738243E-01
-#   exp. data sets for p-value:      6
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.328135E+00   8.218642E-01   1.488891E+00
-# endfb8.0      1.379228E+00   7.904521E-01   1.825737E+00
-# jeff3.3       1.593309E+00   1.540851E+00   6.609767E+00
-# jendl5.0      1.129955E+00   1.037199E+00   6.194459E-01
-# cendl3.2      1.236536E+00   1.006670E+00   1.304296E+00
-# irdff2.0      1.379228E+00   7.904521E-01   1.825737E+00

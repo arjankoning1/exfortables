@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ti48(n,p)Sc48 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Greenwood
 #   year: 1987
 #   subentry: 12977007
 #   X4 reaction: 22-TI-48(N,P)21-SC-48,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/12977007
-# target:
+# target: 
 #   Z: 22
 #   A: 48
 #   nuclide: Ti48
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 21
-#   A: 48
-#   nuclide: Sc48
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 5
+#   residual: 
+#     Z: 21
+#     A: 48
+#     nuclide: Sc48
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.450000E+01   4.000000E-01   6.559089E+01   3.652300E-01   9.938012E-01
@@ -38,21 +39,3 @@
 #   author: L.R.Greenwood
 #   title: Recent research in neutron dosimetry and damage  analysis for materials irradiations.
 #   journal: Conf: American Soc. of Testing and Materials Reports, No.956, p.743 (198
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.450000E+01
-#   E-max [MeV]:  1.490000E+01
-#   F-value:  1.086822E+00
-#   A-value:  9.263399E-01
-#   chi-2:  2.034715E+02
-#   p-value:  2.911986E-01
-#   exp. data sets for p-value:      8
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.094215E+00   9.157767E-01   2.378472E+02
-# endfb8.0      1.098562E+00   9.120276E-01   2.581183E+02
-# jeff3.3       1.093807E+00   9.161429E-01   2.359589E+02
-# jendl5.0      1.024450E+00   9.840938E-01   1.833558E+01
-# cendl3.2      1.094391E+00   9.152780E-01   2.387695E+02
-# irdff2.0      1.092885E+00   9.167945E-01   2.317994E+02

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Pb208(n,x)Pb208 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Mihailescu
 #   year: 2008
 #   subentry: 23039003
 #   X4 reaction: 82-PB-208(N,INL)82-PB-208,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/23039003
-# target:
+# target: 
 #   Z: 82
 #   A: 208
 #   nuclide: Pb208
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 82
-#   A: 208
-#   nuclide: Pb208
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 582
+#   residual: 
+#     Z: 82
+#     A: 208
+#     nuclide: Pb208
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 582
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.627590E+00   4.760000E-03   1.708108E+01   3.472900E+00   1.010774E+00
@@ -615,17 +616,3 @@
 #   author: L.C.Mihailescu, C.Borcea, P.Baumann, Ph.Dessagne,  E.Jericha, H.Karam, M.Kerveno, A.J.Koning, N.Leveque,  A.Pavlik, A.J.M.Plompen, C.Quetel, G.Rudolf, I.Tresl
 #   title: A measurement of (n,xng) cross sections for 208Pb from  threshold up to 20 MeV
 #   journal: Jour: Nuclear Physics, Section A, Vol.811, p.1 (2008)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  2.627590E+00
-#   E-max [MeV]:  1.968560E+01
-#   F-value:  1.299139E+00
-#   A-value:  1.174234E+00
-#   chi-2:  1.403079E+01
-#   p-value:  2.192684E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# endfb8.0      1.320072E+00   1.184743E+00   1.515834E+01
-# jendl5.0      1.277206E+00   1.163819E+00   1.290325E+01

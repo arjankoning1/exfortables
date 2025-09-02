@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Mo0(p,x)Nb90 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Uddin
 #   year: 2004
 #   subentry: E18940131
 #   X4 reaction: 42-MO-0(P,X)41-NB-90,CUM,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/E18940131
-# target:
+# target: 
 #   Z: 42
 #   A: 0
 #   nuclide: Mo0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 41
-#   A: 90
-#   nuclide: Nb90
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 10
+#   residual: 
+#     Z: 41
+#     A: 90
+#     nuclide: Nb90
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.234300E+01   0.000000E+00   2.430000E+00   1.800000E-01   1.000000E+00
@@ -43,17 +44,3 @@
 #   author: M.S.Uddin, M.Hagiwara, F.Tarkanyi, F.Ditroi, M.Baba
 #   title: Experimental studies on the proton-induced activation reactions of molybdenum in the energy range 22-67 MeV
 #   journal: Jour: Applied Radiation and Isotopes, Vol.60, Issue.6, p.911 (2004)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  2.234300E+01
-#   E-max [MeV]:  6.658000E+01
-#   F-value:  2.038207E+00
-#   A-value:  6.187521E-01
-#   chi-2:  9.131442E+01
-#   p-value:  2.620220E-01
-#   exp. data sets for p-value:      4
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    2.151698E+00   5.786822E-01   9.426365E+01
-# jendl5.0      1.922074E+00   6.615966E-01   8.836521E+01

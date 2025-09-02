@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Pd108(n,x)Pd109 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Weston
 #   year: 1960
 #   subentry: 11818006
 #   X4 reaction: 46-PD-108(N,G)46-PD-109,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/11818006
-# target:
+# target: 
 #   Z: 46
 #   A: 108
 #   nuclide: Pd108
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 46
-#   A: 109
-#   nuclide: Pd109
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 12
+#   residual: 
+#     Z: 46
+#     A: 109
+#     nuclide: Pd109
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 12
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.990000E-03   0.000000E+00   2.475000E+03   0.000000E+00   1.000000E+00
@@ -45,17 +46,3 @@
 #   author: L.W.WESTON,K.K.SETH,E.G.BILPUCH,H.W.NEWSON
 #   title: NEUTRON CAPTURE CROSS SECTIONS IN THE KEV REGION. PART II. SPIN-ORBIT COUPLING AND THE OPTICAL MODEL.
 #   journal: Jour: Annals of Physics (New York), Vol.10, p.477 (1960)
-# statistics:
-#   NEA score: T2
-#   IAEA score:  0
-#   E-min [MeV]:  2.990000E-03
-#   E-max [MeV]:  2.000000E-01
-#   F-value:  1.158353E+01
-#   A-value:  2.295680E-01
-#   chi-2:  0.000000E+00
-#   p-value:  1.474115E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    7.784106E+00   3.240945E-01   0.000000E+00
-# jendl5.0      1.629788E+01   1.626114E-01   0.000000E+00

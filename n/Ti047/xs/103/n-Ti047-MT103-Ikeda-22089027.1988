@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ti47(n,p)Sc47 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Ikeda
 #   year: 1988
 #   subentry: 22089027
 #   X4 reaction: 22-TI-47(N,P)21-SC-47,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22089027
-# target:
+# target: 
 #   Z: 22
 #   A: 47
 #   nuclide: Ti47
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 21
-#   A: 47
-#   nuclide: Sc47
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 6
+#   residual: 
+#     Z: 21
+#     A: 47
+#     nuclide: Sc47
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.333000E+01   0.000000E+00   1.449231E+02   9.728400E+00   1.002928E+00
@@ -39,21 +40,3 @@
 #   author: Y.Ikeda,C.Konno,K.Oishi,T.Nakamura,H.Miyade, K.Kawade,  H.Yamamoto, T.Katoh
 #   title: Activation cross section measurements for fusion  reactor structural materials at neutron energy from  13.3 to 15.0 MeV using FNS facility
 #   journal: Rept: JAERI Reports, No.1312 (1988)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.333000E+01
-#   E-max [MeV]:  1.491000E+01
-#   F-value:  1.024451E+00
-#   A-value:  1.002826E+00
-#   chi-2:  2.972991E-01
-#   p-value:  3.205182E-01
-#   exp. data sets for p-value:      2
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.011521E+00   9.909142E-01   1.758013E-01
-# endfb8.0      1.056774E+00   1.048010E+00   1.128839E+00
-# jeff3.3       1.011171E+00   9.911788E-01   1.704456E-01
-# jendl5.0      1.003863E+00   1.001707E+00   3.990278E-02
-# cendl3.2      1.007920E+00   9.951196E-01   9.996239E-02
-# irdff2.0      1.011034E+00   9.912550E-01   1.688437E-01

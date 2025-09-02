@@ -1,28 +1,29 @@
-# header:
+# header: 
 #   title: Zr91(g,xn) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Berman
 #   year: 1967
 #   subentry: L0011008
 #   X4 reaction: 40-ZR-91(G,X)0-NN-1,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/L0011008
-# target:
+# target: 
 #   Z: 40
 #   A: 91
 #   nuclide: Zr91
-# reaction:
+# reaction: 
 #   type: (g,xn)
 #   ENDF_MF: 3
 #   ENDF_MT: 201
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 101
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 101
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.080100E+01   0.000000E+00   1.472000E+01   2.450000E+00   1.000000E+00
@@ -130,18 +131,3 @@
 #   author: B.L.Berman,J.T.Caldwell,R.R.Harvey,M.A.Kelly, R.L.Bramblett,S.C.Fultz
 #   title: Photoneutron cross sections for Zr90, Zr91, Zr92,  Zr94, and Y89.
 #   journal: Jour: Physical Review, Vol.162, p.1098 (1967)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  1.080100E+01
-#   E-max [MeV]:  3.000200E+01
-#   F-value:  1.286065E+00
-#   A-value:  1.079546E+00
-#   chi-2:  8.639192E+00
-#   p-value:  3.369821E-01
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.423302E+00   1.324885E+00   1.902978E+01
-# endfb8.0      1.248847E+00   9.504220E-01   3.976238E+00
-# jendl5.0      1.134445E+00   9.991467E-01   2.911561E+00

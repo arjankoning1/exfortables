@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Cu63(n,2n)Cu62 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Dejuren
 #   year: 1960
 #   subentry: 11411003
 #   X4 reaction: 29-CU-63(N,2N)29-CU-62,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/11411003
-# target:
+# target: 
 #   Z: 29
 #   A: 63
 #   nuclide: Cu63
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 29
-#   A: 62
-#   nuclide: Cu62
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 29
+#     A: 62
+#     nuclide: Cu62
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.460000E+01   0.000000E+00   5.300000E+02   2.650000E+01   1.000000E+00
@@ -34,21 +35,3 @@
 #   author: J.A.DE JUREN,R.W.STOOKSBERRY
 #   title: MEASUREMENT OF THE O16(N,P)N16 CROSS SECTION AT 14.7 MEV.
 #   journal: Jour: Physical Review, Vol.120, p.901 (1960)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.460000E+01
-#   E-max [MeV]:  1.460000E+01
-#   F-value:  1.027304E+00
-#   A-value:  9.895647E-01
-#   chi-2:  4.079236E-01
-#   p-value:  4.902206E-01
-#   exp. data sets for p-value:      8
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.001775E+00   9.982282E-01   4.474470E-02
-# endfb8.0      1.067817E+00   9.364902E-01   2.180349E+00
-# jeff3.3       1.000885E+00   9.991157E-01   2.224892E-02
-# jendl5.0      1.006575E+00   1.006575E+00   1.694736E-01
-# cendl3.2      1.000001E+00   9.999994E-01   1.421562E-05
-# irdff2.0      1.001220E+00   9.987811E-01   3.071067E-02

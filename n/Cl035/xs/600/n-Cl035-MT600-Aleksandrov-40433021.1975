@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Cl35(n,p_00) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Aleksandrov
 #   year: 1975
 #   subentry: 40433021
 #   X4 reaction: 17-CL-35(N,P)16-S-35,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/40433021
-#   level energy [MeV]  0.00000E+00
-# target:
+#   level energy [MeV]:  0.00000E+00
+# target: 
 #   Z: 17
 #   A: 35
 #   nuclide: Cl35
-# reaction:
+# reaction: 
 #   type: (n,p_00)
 #   ENDF_MF: 3
 #   ENDF_MT: 600
@@ -25,10 +25,11 @@
 #     energy [MeV]:  0.000000E+00
 #     spin:  5.000000E-01
 #     parity: 1
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.410000E+01   0.000000E+00   9.000000E-01   2.000000E-01   1.000000E+00
@@ -36,18 +37,3 @@
 #   author: D.V.Aleksandrov,L.I.Klochkova,B.S.Kovrigin
 #   title: (n,p) cross sections for Al-27, Si-28, P-31,  Cl-35, K-39 and Cr-52 at 14.1 MeV
 #   journal: Jour: Soviet Atomic Energy, Vol.39, p.736 (1975)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  1.410000E+01
-#   E-max [MeV]:  1.410000E+01
-#   F-value:  3.244370E+00
-#   A-value:  9.023216E-01
-#   chi-2:  2.000899E+01
-#   p-value:  1.724607E-01
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# endfb8.0      2.067303E+00   2.067303E+00   2.306758E+01
-# jeff3.3       2.067303E+00   2.067303E+00   2.306758E+01
-# jendl5.0      5.817337E+00   1.719000E-01   1.389181E+01

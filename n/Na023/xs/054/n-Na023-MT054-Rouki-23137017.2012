@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Na23(n,n'_04)Na24 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Rouki
 #   year: 2012
 #   subentry: 23137017
 #   X4 reaction: 11-NA-23(N,INL)11-NA-23,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/23137017
-#   level energy [MeV]  2.63985E+00
-# target:
+#   level energy [MeV]:  2.63985E+00
+# target: 
 #   Z: 11
 #   A: 23
 #   nuclide: Na23
-# reaction:
+# reaction: 
 #   type: (n,n'_04)
 #   ENDF_MF: 3
 #   ENDF_MT: 54
@@ -25,14 +25,15 @@
 #     energy [MeV]:  2.640500E+00
 #     spin:  5.000000E-01
 #     parity: -1
-# residual:
-#   Z: 11
-#   A: 24
-#   nuclide: Na24
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 11
+#   residual: 
+#     Z: 11
+#     A: 24
+#     nuclide: Na24
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 11
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.758740E+00   6.090000E-03   7.080000E-02   1.410000E+00   1.000000E+00
@@ -50,20 +51,3 @@
 #   author: C.Rouki,P.Archier,C.Borcea, C.De Saint Jean,J.C.Drohe, S.Kopecky, A.Moens, N.Nankov, A.Negret, G.Noguere, A.J.M.Plompen, M.Stanoiu
 #   title: High resolution measurement of neutron inelastic scattering cross-sections for Na-23
 #   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.A, Vol.672, p.82 (201
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  2.758740E+00
-#   E-max [MeV]:  2.820660E+00
-#   F-value:  4.351847E+00
-#   A-value:  1.459659E+00
-#   chi-2:  6.979875E+00
-#   p-value:  2.766482E-01
-#   exp. data sets for p-value:      1
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    6.742308E+00   4.445503E+00   2.241371E+01
-# endfb8.0      5.591708E+00   2.705421E-01   2.348158E+00
-# jeff3.3       5.956639E+00   3.854281E+00   7.952774E+00
-# jendl5.0      1.315633E+00   1.086227E+00   1.512313E+00
-# cendl3.2      2.648676E+00   1.315944E+00   6.724161E-01

@@ -1,28 +1,29 @@
-# header:
+# header: 
 #   title: V51(g,xn) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Fultz
 #   year: 1962
 #   subentry: L0001002
 #   X4 reaction: 23-V-51(G,X)0-NN-1,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/L0001002
-# target:
+# target: 
 #   Z: 23
 #   A: 51
 #   nuclide: V51
-# reaction:
+# reaction: 
 #   type: (g,xn)
 #   ENDF_MF: 3
 #   ENDF_MT: 201
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 50
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 50
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.026100E+01   0.000000E+00   5.100000E-01   5.000000E-01   1.000000E+00
@@ -79,18 +80,3 @@
 #   author: S.C.Fultz,R.L.Bramblett,J.T.Caldwell,N.E.Hansen, C.P.Jupiter
 #   title: Photoneutron cross sections for V51 and Co59.
 #   journal: Jour: Physical Review, Vol.128, p.2345 (1962)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  1.026100E+01
-#   E-max [MeV]:  2.777700E+01
-#   F-value:  1.123201E+00
-#   A-value:  9.940582E-01
-#   chi-2:  2.786976E+00
-#   p-value:  3.007346E-01
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.125286E+00   9.421840E-01   2.572896E+00
-# endfb8.0      1.135401E+00   9.976373E-01   1.754697E+00
-# jendl5.0      1.095436E+00   1.055545E+00   4.182262E+00

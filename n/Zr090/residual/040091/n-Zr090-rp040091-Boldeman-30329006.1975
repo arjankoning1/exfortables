@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Zr90(n,x)Zr91 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Boldeman
 #   year: 1975
 #   subentry: 30329006
 #   X4 reaction: 40-ZR-90(N,G)40-ZR-91,,SIG,,AV
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30329006
-# target:
+# target: 
 #   Z: 40
 #   A: 90
 #   nuclide: Zr90
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 40
-#   A: 91
-#   nuclide: Zr91
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 14
+#   residual: 
+#     Z: 40
+#     A: 91
+#     nuclide: Zr91
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 14
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.500000E-03   5.000000E-04   6.900002E+01   4.000000E+00   1.000000E+00
@@ -47,17 +48,3 @@
 #   author: J.W.Boldeman, B.J.Allen, A.R.de L.Musgrove,  R.L.Macklin
 #   title: Valence component in the neutron capture cross section  of 90Zr
 #   journal: Jour: Nuclear Physics, Section A, Vol.246, p.1 (1975)
-# statistics:
-#   NEA score: T3
-#   IAEA score: -1
-#   E-min [MeV]:  3.500000E-03
-#   E-max [MeV]:  1.750000E-01
-#   F-value:  2.417557E+01
-#   A-value:  8.325698E-02
-#   chi-2:  1.097400E+03
-#   p-value:  8.759635E-02
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    2.566967E+01   5.649495E-02   1.379159E+02
-# jendl5.0      2.274225E+01   1.226963E-01   2.056885E+03

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Nb93(n,x)Nb94 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Berlev
 #   year: 2007
 #   subentry: 41510003
 #   X4 reaction: 41-NB-93(N,G)41-NB-94,,SIG,,AV
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/41510003
-# target:
+# target: 
 #   Z: 41
 #   A: 93
 #   nuclide: Nb93
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 41
-#   A: 94
-#   nuclide: Nb94
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 5
+#   residual: 
+#     Z: 41
+#     A: 94
+#     nuclide: Nb94
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.575000E-04   5.750000E-05   3.000000E+03   1.000000E+02   1.000000E+00
@@ -38,18 +39,3 @@
 #   author: A.I.Berlev, Yu.V.Grigor'ev
 #   title: REPS facility for investigation of structure of  neutron cross-sections and neutron fundamental  characteristics.
 #   journal: Rept: Inst. Nucl. Res., Russian Acad. Sci. Preprint, No.1183 (2007)
-# statistics:
-#   NEA score: T3
-#   IAEA score: -1
-#   E-min [MeV]:  1.575000E-04
-#   E-max [MeV]:  3.400000E-03
-#   F-value:  2.104011E+01
-#   A-value:  2.426518E-01
-#   chi-2:  9.296668E+02
-#   p-value:  4.277214E-02
-#   exp. data sets for p-value:      5
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    2.023824E+01   2.623797E-01   1.062577E+03
-# jeff3.3       2.131621E+01   2.475390E-01   1.089137E+03
-# jendl5.0      2.158218E+01   2.199767E-01   6.372861E+02

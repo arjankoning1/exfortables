@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Gd0(n,n'_01)Gd1 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Sherwood
 #   year: 1970
 #   subentry: 10007009
 #   X4 reaction: 64-GD-0(N,INL)64-GD-0,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/10007009
-#   level energy [MeV]  8.00000E-02
-# target:
+#   level energy [MeV]:  8.00000E-02
+# target: 
 #   Z: 64
 #   A: 0
 #   nuclide: Gd0
-# reaction:
+# reaction: 
 #   type: (n,n'_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 51
@@ -25,14 +25,15 @@
 #     energy [MeV]:  7.951400E-02
 #     spin:  2.000000E+00
 #     parity: 1
-# residual:
-#   Z: 64
-#   A: 1
-#   nuclide: Gd1
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 53
+#   residual: 
+#     Z: 64
+#     A: 1
+#     nuclide: Gd1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 53
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.200000E-01   1.000000E-02   8.728000E+02   3.309000E+02   1.000000E+00
@@ -92,20 +93,3 @@
 #   author: G.L.Sherwood,A.B.Smith,J.F.Whalen
 #   title: Fast neutron cross sections of hafnium, gadolinium  and samarium.
 #   journal: Jour: Nuclear Science and Engineering, Vol.39, p.67 (1970)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  3.200000E-01
-#   E-max [MeV]:  1.320000E+00
-#   F-value:  1.429247E+00
-#   A-value:  7.315623E-01
-#   chi-2:  6.737869E+00
-#   p-value:  1.904663E-01
-#   exp. data sets for p-value:      2
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.153931E+00   8.868019E-01   1.958928E+00
-# endfb8.0      1.336268E+00   7.656908E-01   5.186032E+00
-# jeff3.3       1.690369E+00   5.996202E-01   1.250359E+01
-# jendl5.0      1.514838E+00   6.711732E-01   9.152483E+00
-# cendl3.2      1.307659E+00   7.801430E-01   4.830708E+00

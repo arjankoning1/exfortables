@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Al27(h,2p)Al28 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Pichard
 #   year: 2011
 #   subentry: D06540042
 #   X4 reaction: 13-AL-27(HE3,2P)13-AL-28,,SIG,,AV
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/D06540042
-# target:
+# target: 
 #   Z: 13
 #   A: 27
 #   nuclide: Al27
-# reaction:
+# reaction: 
 #   type: (h,2p)
 #   ENDF_MF: 3
 #   ENDF_MT: 111
-# residual:
-#   Z: 13
-#   A: 28
-#   nuclide: Al28
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 10
+#   residual: 
+#     Z: 13
+#     A: 28
+#     nuclide: Al28
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.200000E+00   1.700000E+00   2.300000E+01   2.000000E+00   1.000000E+00
@@ -43,16 +44,3 @@
 #   author: A.Pichard, J.Mrazek, A.Assie, M.Hass, M.Honusek,  G.Lhersonneau, F.de Oliveira Santos,  M.-G.Saint-Laurent, E.Simeckova
 #   title: A new cross-section measurement of reactions induced  by 3He particles on a carbon target
 #   journal: Jour: European Physical Journal A: Hadrons and Nuclei, Vol.47, p.72 (201
-# statistics:
-#   NEA score: R3
-#   IAEA score: -1
-#   E-min [MeV]:  4.200000E+00
-#   E-max [MeV]:  3.460000E+01
-#   F-value:  4.496922E+00
-#   A-value:  3.678709E-01
-#   chi-2:  4.381439E+01
-#   p-value:  2.460307E-01
-#   exp. data sets for p-value:      2
-#   libraries:      1
-##  Library          F              A            chi-2
-# tendl.2023    4.496922E+00   3.678709E-01   4.381439E+01

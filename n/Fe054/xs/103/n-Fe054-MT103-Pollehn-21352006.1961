@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Fe54(n,p)Mn54 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Pollehn
 #   year: 1961
 #   subentry: 21352006
 #   X4 reaction: 26-FE-54(N,P)25-MN-54,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/21352006
-# target:
+# target: 
 #   Z: 26
 #   A: 54
 #   nuclide: Fe54
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 25
-#   A: 54
-#   nuclide: Mn54
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 25
+#     A: 54
+#     nuclide: Mn54
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.410000E+01   0.000000E+00   2.540000E+02   2.794000E+01   1.000000E+00
@@ -34,21 +35,3 @@
 #   author: H.Pollehn, H.Neuert
 #   title: -Determination Of The Cross Sections Of Some 14 MeV  neutron induced nuclear reactions  with the  activation method.- (In German).
 #   journal: Jour: Zeitschrift fuer Naturforschung, Section A, Vol.16, p.227 (1961)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.410000E+01
-#   E-max [MeV]:  1.410000E+01
-#   F-value:  1.346424E+00
-#   A-value:  1.345298E+00
-#   chi-2:  9.987891E+00
-#   p-value:  2.161694E-04
-#   exp. data sets for p-value:      8
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.324385E+00   1.324385E+00   8.750435E+00
-# endfb8.0      1.333486E+00   1.333486E+00   9.234944E+00
-# jeff3.3       1.389614E+00   1.389614E+00   1.255529E+01
-# jendl5.0      1.308732E+00   1.308732E+00   7.953490E+00
-# cendl3.2      1.383424E+00   1.383424E+00   1.216178E+01
-# irdff2.0      1.334159E+00   1.334159E+00   9.271413E+00

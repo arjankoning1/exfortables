@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Br81(n,p)Se81 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Strohal
 #   year: 1962
 #   subentry: 30008019
 #   X4 reaction: 35-BR-81(N,P)34-SE-81,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30008019
-# target:
+# target: 
 #   Z: 35
 #   A: 81
 #   nuclide: Br81
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 34
-#   A: 81
-#   nuclide: Se81
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 34
+#     A: 81
+#     nuclide: Se81
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.460000E+01   3.000000E-01   5.700000E+01   1.000000E+01   1.000000E+00
@@ -34,19 +35,3 @@
 #   author: P.Strohal, N.Cindro, B.Eman
 #   title: Reaction mechanism and shell effects from the  interaction of 14.6 MeV neutrons with nuclei
 #   journal: Jour: Nuclear Physics, Vol.30, p.49 (1962)
-# statistics:
-#   NEA score: T2
-#   IAEA score:  1
-#   E-min [MeV]:  1.460000E+01
-#   E-max [MeV]:  1.460000E+01
-#   F-value:  1.926740E+00
-#   A-value:  5.400609E-01
-#   chi-2:  7.110282E+00
-#   p-value:  9.915310E-02
-#   exp. data sets for p-value:      1
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.475694E+00   6.776475E-01   3.760407E+00
-# endfb8.0      2.631903E+00   3.799532E-01   1.250121E+01
-# jeff3.3       1.576793E+00   6.341987E-01   4.633505E+00
-# jendl5.0      1.919501E+00   5.209686E-01   7.546009E+00

@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: Sr88(n,2n)Sr87m cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Husain
 #   year: 1970
 #   subentry: 10088016
 #   X4 reaction: 38-SR-88(N,2N)38-SR-87-M,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/10088016
-# target:
+# target: 
 #   Z: 38
 #   A: 88
 #   nuclide: Sr88
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 38
-#   A: 87
-#   nuclide: Sr87m
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 38
+#     A: 87
+#     nuclide: Sr87m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.480000E+01   2.000000E-01   3.440000E+02   3.000000E+01   1.000000E+00
@@ -39,18 +40,3 @@
 #   author: L.Husain,A.Bari,P.K.Kuroda
 #   title: Neutron Activation Cross Sections at 14.8 MeV for Rubidium, Zirconium, and Niobium
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.1, p.1233 (1970)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.480000E+01
-#   E-max [MeV]:  1.480000E+01
-#   F-value:  1.360569E+00
-#   A-value:  7.374025E-01
-#   chi-2:  9.227950E+00
-#   p-value:  6.577551E-02
-#   exp. data sets for p-value:      8
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.371369E+00   7.291982E-01   9.678290E+00
-# jeff3.3       1.423441E+00   7.025230E-01   1.165034E+01
-# jendl5.0      1.277592E+00   7.827223E-01   6.355216E+00

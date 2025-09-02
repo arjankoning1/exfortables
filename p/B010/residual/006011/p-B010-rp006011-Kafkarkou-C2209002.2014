@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: B10(p,x)C11 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Kafkarkou
 #   year: 2014
 #   subentry: C2209002
 #   X4 reaction: 5-B-10(P,G)6-C-11,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/C2209002
-# target:
+# target: 
 #   Z: 5
 #   A: 10
 #   nuclide: B10
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 6
-#   A: 11
-#   nuclide: C11
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 10
+#   residual: 
+#     Z: 6
+#     A: 11
+#     nuclide: C11
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.800668E+00   1.500000E-02   2.570000E-03   1.000000E-04   1.000000E+00
@@ -43,16 +44,3 @@
 #   author: A.Kafkarkou,M.W.Ahmed,D.P.Kendellen,I.Mazumdar, J.M.Mueller,L.S.Myers,M.H.Sikora,H.R.Weller, W.R.Zimmerman
 #   title: Cross section measurements of the 10B(p,gamma)11C reaction between 2.0 and 6.0 MeV
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.89, p.014601 (2014)
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  1.800668E+00
-#   E-max [MeV]:  5.998558E+00
-#   F-value:  1.868989E+01
-#   A-value:  8.400964E-02
-#   chi-2:  1.091538E+03
-#   p-value:  1.098084E-01
-#   exp. data sets for p-value:      1
-#   libraries:      1
-##  Library          F              A            chi-2
-# tendl.2023    1.868989E+01   8.400964E-02   1.091538E+03

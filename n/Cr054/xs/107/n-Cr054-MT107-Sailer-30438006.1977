@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Cr54(n,a)Ti51 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Sailer
 #   year: 1977
 #   subentry: 30438006
 #   X4 reaction: 24-CR-54(N,A)22-TI-51,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30438006
-# target:
+# target: 
 #   Z: 24
 #   A: 54
 #   nuclide: Cr54
-# reaction:
+# reaction: 
 #   type: (n,a)
 #   ENDF_MF: 3
 #   ENDF_MT: 107
-# residual:
-#   Z: 22
-#   A: 51
-#   nuclide: Ti51
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 22
+#     A: 51
+#     nuclide: Ti51
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.481000E+01   2.500000E-01   1.356866E+01   1.391700E+00   1.012586E+00
@@ -34,19 +35,3 @@
 #   author: K.Sailer, S.Daroczy, P.Raics, S.Nagy
 #   title: The cross sections of (n,2n), (n,p), (n,a) reactions for 14.8 MeV neutrons on isotopes of Cr and Zr
 #   journal: Conf: 4.All Union Conf.on Neutron Phys.,Kiev,18-22 Apr 1977, Vol.1, p.24
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.481000E+01
-#   E-max [MeV]:  1.481000E+01
-#   F-value:  1.051308E+00
-#   A-value:  9.649700E-01
-#   chi-2:  5.424457E-01
-#   p-value:  2.405935E-01
-#   exp. data sets for p-value:      8
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.066158E+00   9.379476E-01   8.693463E-01
-# endfb8.0      1.078389E+00   9.273091E-01   1.044909E+00
-# jendl5.0      1.011870E+00   9.882692E-01   1.468617E-01
-# cendl3.2      1.008734E+00   1.008734E+00   1.086663E-01

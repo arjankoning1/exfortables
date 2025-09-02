@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Si28(n,p_02) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Grimes
 #   year: 1969
 #   subentry: 10012009
 #   X4 reaction: 14-SI-28(N,A)12-MG-25,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/10012009
-#   level energy [MeV]  9.60000E-01
-# target:
+#   level energy [MeV]:  9.60000E-01
+# target: 
 #   Z: 14
 #   A: 28
 #   nuclide: Si28
-# reaction:
+# reaction: 
 #   type: (n,p_02)
 #   ENDF_MF: 3
 #   ENDF_MT: 802
@@ -25,10 +25,11 @@
 #     energy [MeV]:  0.000000E+00
 #     spin:  2.000000E+00
 #     parity: 1
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 233
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 233
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    6.640000E+00   0.000000E+00   5.100000E+00   1.020000E+00   1.000000E+00
@@ -268,19 +269,3 @@
 #   author: S.M.GRIMES
 #   title: Fluctuations in the neutron cross sections of Si.
 #   journal: Jour: Nuclear Physics, Section A, Vol.124, p.369 (1969)
-# statistics:
-#   NEA score: E1
-#   IAEA score: -1
-#   E-min [MeV]:  6.640000E+00
-#   E-max [MeV]:  1.344000E+01
-#   F-value:  1.425556E+00
-#   A-value:  9.046345E-01
-#   chi-2:  3.130363E+00
-#   p-value:  1.787636E-01
-#   exp. data sets for p-value:      2
-#   libraries:      4
-##  Library          F              A            chi-2
-# endfb8.0      1.435799E+00   8.760512E-01   3.291206E+00
-# jeff3.3       1.499566E+00   8.637579E-01   3.116484E+00
-# jendl5.0      1.319823E+00   1.010279E+00   2.822558E+00
-# cendl3.2      1.435799E+00   8.760512E-01   3.291206E+00

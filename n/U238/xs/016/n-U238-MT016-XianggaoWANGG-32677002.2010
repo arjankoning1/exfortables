@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: U238(n,2n)U237 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: XianggaoWANGG
 #   year: 2010
 #   subentry: 32677002
 #   X4 reaction: 92-U-238(N,2N)92-U-237,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/32677002
-# target:
+# target: 
 #   Z: 92
 #   A: 238
 #   nuclide: U238
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 92
-#   A: 237
-#   nuclide: U237
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 4
+#   residual: 
+#     Z: 92
+#     A: 237
+#     nuclide: U237
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.350000E+01   3.000000E-01   1.101000E+03   2.900000E+01   1.000000E+00
@@ -37,21 +38,3 @@
 #   author: Xianggao WANG,Shan JIANG,Ming HE,Kejun Dong, Caijing XIAO
 #   title: Accurate determination of cross sections for 238U(n,2n)237U induced by neutrons around 14 MeV
 #   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.A, Vol.621, p.326 (20
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.350000E+01
-#   E-max [MeV]:  1.490000E+01
-#   F-value:  1.071815E+00
-#   A-value:  1.038802E+00
-#   chi-2:  7.930405E+00
-#   p-value:  2.693483E-01
-#   exp. data sets for p-value:      8
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.050201E+00   1.042223E+00   3.911003E+00
-# endfb8.0      1.050201E+00   1.042223E+00   3.911003E+00
-# jeff3.3       1.045243E+00   9.652461E-01   2.995574E+00
-# jendl5.0      1.131392E+00   1.117607E+00   2.589104E+01
-# cendl3.2      1.069095E+00   1.028935E+00   6.962806E+00
-# irdff2.0      1.050201E+00   1.042223E+00   3.911003E+00

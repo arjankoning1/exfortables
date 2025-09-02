@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Co59(p,x)Ni60 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Drake
 #   year: 1973
 #   subentry: O0092003
 #   X4 reaction: 27-CO-59(P,G)28-NI-60,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/O0092003
-# target:
+# target: 
 #   Z: 27
 #   A: 59
 #   nuclide: Co59
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 28
-#   A: 60
-#   nuclide: Ni60
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 16
+#   residual: 
+#     Z: 28
+#     A: 60
+#     nuclide: Ni60
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 16
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    7.020000E+00   0.000000E+00   6.200000E-01   0.000000E+00   1.000000E+00
@@ -49,17 +50,3 @@
 #   author: D.M.Drake,S.L.Whetstone,I.Halpern
 #   title: The Radiative Capture of Fast Protons by Medium-Mass Nuclei.
 #   journal: Jour: Nuclear Physics, Section A, Vol.203, p.257 (1973)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  7.020000E+00
-#   E-max [MeV]:  2.208000E+01
-#   F-value:  1.673716E+00
-#   A-value:  1.020921E+00
-#   chi-2:  0.000000E+00
-#   p-value:  4.738370E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.740020E+00   1.613572E+00   0.000000E+00
-# jendl5.0      1.604825E+00   6.459463E-01   0.000000E+00

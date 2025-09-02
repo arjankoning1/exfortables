@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: As75(n,x)Ga72 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Zupranska
 #   year: 1980
 #   subentry: 30581006
 #   X4 reaction: 33-AS-75(N,A)31-GA-72,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30581006
-# target:
+# target: 
 #   Z: 33
 #   A: 75
 #   nuclide: As75
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 107
-# residual:
-#   Z: 31
-#   A: 72
-#   nuclide: Ga72
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 10
+#   residual: 
+#     Z: 31
+#     A: 72
+#     nuclide: Ga72
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.300000E+01   1.000000E-01   9.350400E+00   5.081700E-01   1.016349E+00
@@ -43,18 +44,3 @@
 #   author: E.Zupranska,K.Rusek,J.Turkiewicz,P.Zupranski
 #   title: Excitation functions for (n,a) reactions in the neutron energy range from 13 to 18 MeV.
 #   journal: Jour: Acta Physica Polonica, Part B, Vol.11, p.853 (1980)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.300000E+01
-#   E-max [MeV]:  1.780000E+01
-#   F-value:  1.283336E+00
-#   A-value:  1.192734E+00
-#   chi-2:  1.738220E+02
-#   p-value:  3.156744E-01
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.395085E+00   1.380253E+00   3.261088E+02
-# jeff3.3       1.123711E+00   1.030691E+00   2.153510E+01
-# jendl5.0      0.000000E+00   0.000000E+00   0.000000E+00

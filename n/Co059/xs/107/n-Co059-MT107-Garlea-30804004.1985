@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Co59(n,a)Mn56 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Garlea
 #   year: 1985
 #   subentry: 30804004
 #   X4 reaction: 27-CO-59(N,A)25-MN-56,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30804004
-# target:
+# target: 
 #   Z: 27
 #   A: 59
 #   nuclide: Co59
-# reaction:
+# reaction: 
 #   type: (n,a)
 #   ENDF_MF: 3
 #   ENDF_MT: 107
-# residual:
-#   Z: 25
-#   A: 56
-#   nuclide: Mn56
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 25
+#     A: 56
+#     nuclide: Mn56
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.480000E+01   6.500000E-02   3.500000E+01   2.030000E+00   1.000000E+00
@@ -34,21 +35,3 @@
 #   author: I.Garlea,C.Garlea,D.Dobrea,C.Roth,H.N.Rosu,S.Rapeanu
 #   title: Cross sections of some reactions induced by 14 MeV neutrons
 #   journal: Jour: Revue Roumaine de Physique, Vol.30, Issue.8, p.673 (1985)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.480000E+01
-#   E-max [MeV]:  1.480000E+01
-#   F-value:  1.143097E+00
-#   A-value:  8.762466E-01
-#   chi-2:  4.914314E+00
-#   p-value:  1.267909E-01
-#   exp. data sets for p-value:      8
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.113787E+00   8.978378E-01   3.516889E+00
-# endfb8.0      1.138188E+00   8.785892E-01   4.664687E+00
-# jeff3.3       1.170146E+00   8.545943E-01   6.428596E+00
-# jendl5.0      1.150171E+00   8.694362E-01   5.291791E+00
-# cendl3.2      1.167333E+00   8.566534E-01   6.261827E+00
-# irdff2.0      1.109248E+00   9.015118E-01   3.322091E+00

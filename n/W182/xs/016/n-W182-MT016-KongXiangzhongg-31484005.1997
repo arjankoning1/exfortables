@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: W182(n,2n)W181 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: KongXiangzhongg
 #   year: 1997
 #   subentry: 31484005
 #   X4 reaction: 74-W-182(N,2N)74-W-181,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/31484005
-# target:
+# target: 
 #   Z: 74
 #   A: 182
 #   nuclide: W182
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 74
-#   A: 181
-#   nuclide: W181
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 5
+#   residual: 
+#     Z: 74
+#     A: 181
+#     nuclide: W181
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.350000E+01   2.000000E-01   2.074699E+03   7.084339E+01   1.012048E+00
@@ -38,19 +39,3 @@
 #   author: Kong Xiangzhong, Hu Shangbin, Yang Jingkang
 #   title: Cross sections of 14 MeV neutron induced reactions on  wolfram isotopes
 #   journal: Rept: Chinese report to the I.N.D.C., No.042, p.9 (1997)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.350000E+01
-#   E-max [MeV]:  1.470000E+01
-#   F-value:  1.017377E+00
-#   A-value:  9.878023E-01
-#   chi-2:  5.402775E-01
-#   p-value:  4.334798E-01
-#   exp. data sets for p-value:      2
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.026464E+00   9.761966E-01   1.018405E+00
-# endfb8.0      1.002652E+00   1.001912E+00   7.351588E-02
-# jeff3.3       1.012676E+00   9.887223E-01   4.403738E-01
-# jendl5.0      1.018587E+00   9.845523E-01   6.288155E-01

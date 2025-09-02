@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Zr92(n,x)Y92 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Raics
 #   year: 1991
 #   subentry: 30988005
 #   X4 reaction: 40-ZR-92(N,P)39-Y-92,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30988005
-# target:
+# target: 
 #   Z: 40
 #   A: 92
 #   nuclide: Zr92
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 39
-#   A: 92
-#   nuclide: Y92
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 11
+#   residual: 
+#     Z: 39
+#     A: 92
+#     nuclide: Y92
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 11
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    5.890000E+00   0.000000E+00   4.600000E-01   1.600000E-01   1.000000E+00
@@ -44,18 +45,3 @@
 #   author: P.Raics,S.Nagy,S.Szegedi,N.V.Kornilov,A.B.Kagalenko
 #   title: Cross section measurements of neutron induced reactions on the zirconium isotopes in the energy range of 5.4 to 12.3 MeV.
 #   journal: Conf: Conf.on Nucl.Data for Sci.and Technol.,Juelich 1991, p.660 (1991)
-# statistics:
-#   NEA score: R2
-#   IAEA score:  1
-#   E-min [MeV]:  5.890000E+00
-#   E-max [MeV]:  1.225000E+01
-#   F-value:  3.860886E+00
-#   A-value:  4.462744E-01
-#   chi-2:  1.356076E+01
-#   p-value:  1.910334E-01
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    4.441685E+00   4.374732E-01   1.792999E+01
-# jeff3.3       4.464165E+00   3.450989E-01   1.798799E+01
-# jendl5.0      2.736389E+00   5.887228E-01   4.764294E+00

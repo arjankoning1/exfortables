@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Eu153(n,x)Eu154 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Lee
 #   year: 2017
 #   subentry: 23181003
 #   X4 reaction: 63-EU-153(N,G)63-EU-154,,SIG,,AV
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/23181003
-# target:
+# target: 
 #   Z: 63
 #   A: 153
 #   nuclide: Eu153
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 63
-#   A: 154
-#   nuclide: Eu154
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 22
+#   residual: 
+#     Z: 63
+#     A: 154
+#     nuclide: Eu154
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 22
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.290000E-08   4.100000E-09   3.110000E+05   3.830000E+04   1.000000E+00
@@ -55,16 +56,3 @@
 #   author: J.Lee, J.Hori, K.Nakajima, T.Sano, S.Lee
 #   title: Neutron capture cross section measurements of 151, 153Eu using a pair of C6D6 detectors.
 #   journal: Jour: Jour. of Nuclear Science and Technology, Vol.54, p.1046 (2017)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  3.290000E-08
-#   E-max [MeV]:  2.265000E-03
-#   F-value:  3.057455E+00
-#   A-value:  5.292425E-01
-#   chi-2:  2.422294E+01
-#   p-value:  2.221709E-01
-#   exp. data sets for p-value:      3
-#   libraries:      1
-##  Library          F              A            chi-2
-# tendl.2023    3.057455E+00   5.292425E-01   2.422294E+01

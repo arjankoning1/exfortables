@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ni58(g,x)Ni56 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Goryachev
 #   year: 1970
 #   subentry: M0597004
 #   X4 reaction: 28-NI-58(G,2N)28-NI-56,,SIG,,BRS
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/M0597004
-# target:
+# target: 
 #   Z: 28
 #   A: 58
 #   nuclide: Ni58
-# reaction:
+# reaction: 
 #   type: (g,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 28
-#   A: 56
-#   nuclide: Ni56
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 75
+#   residual: 
+#     Z: 28
+#     A: 56
+#     nuclide: Ni56
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 75
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.260000E+01   0.000000E+00   2.000000E-01   0.000000E+00   1.000000E+00
@@ -108,18 +109,3 @@
 #   author: B.I.Goryachev,B.S.Ishkhanov,I.M.Kapitonov,  I.M.Piskarev,V.G.Shevchenko,O.P.Shevchenko
 #   title: Giant dipole resonance of Ni isotopes.
 #   journal: Jour: Yadernaya Fizika, Vol.11, p.252 (1970)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  2.260000E+01
-#   E-max [MeV]:  3.000000E+01
-#   F-value:  1.162676E+01
-#   A-value:  9.347450E-02
-#   chi-2:  7.380046E+01
-#   p-value:  7.764664E-03
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.222983E+01   8.674429E-02   7.389830E+01
-# endfb8.0      9.030915E+00   1.155749E-01   7.577229E+01
-# jendl5.0      1.586497E+01   6.723693E-02   8.226672E+01

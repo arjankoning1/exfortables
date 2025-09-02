@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Bi209(p,x)Pb200 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Titarenko
 #   year: 1998
 #   subentry: O0900044
 #   X4 reaction: 83-BI-209(P,X)82-PB-200,CUM,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/O0900044
-# target:
+# target: 
 #   Z: 83
 #   A: 209
 #   nuclide: Bi209
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 82
-#   A: 200
-#   nuclide: Pb200
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 2
+#   residual: 
+#     Z: 82
+#     A: 200
+#     nuclide: Pb200
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.300000E+02   0.000000E+00   1.470000E+02   1.700000E+01   1.000000E+00
@@ -35,18 +36,3 @@
 #   author: Yu.E.Titarenko, O.V.Shvedov, M.M.Igumnov, S.G.Mashnik, E.I.Karpikhin, V.D.Kazaritsky, V.F.Batyaev, A.B.Koldobsky, V.M.Zhivun, A.N.Sosnin, R.E.Prael, M.B.Chadwick, T.A.Gabriel, M.Blann
 #   title: Experimental and computer simulation study of the radionuclides produced in thin 209-Bi targets by 130 MeV and 1.5 GeV proton - induced reactions
 #   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.A, Vol.414, p.73 (199
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  1.300000E+02
-#   E-max [MeV]:  1.500000E+03
-#   F-value:  1.088494E+01
-#   A-value:  9.331427E-02
-#   chi-2:  6.102530E+01
-#   p-value:  0.000000E+00
-#   exp. data sets for p-value:      3
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    7.293553E+00   1.371074E-01   5.567374E+01
-# endfb8.0      1.321736E+01   7.565808E-02   6.388548E+01
-# jendl5.0      1.276650E+01   7.832998E-02   6.351667E+01

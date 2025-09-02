@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Se76(n,p)As76 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Molla
 #   year: 1977
 #   subentry: 20721067
 #   X4 reaction: 34-SE-76(N,P)33-AS-76,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20721067
-# target:
+# target: 
 #   Z: 34
 #   A: 76
 #   nuclide: Se76
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 33
-#   A: 76
-#   nuclide: As76
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 33
+#     A: 76
+#     nuclide: As76
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.470000E+01   3.000000E-01   6.833334E+01   5.466700E+00   9.111111E-01
@@ -34,19 +35,3 @@
 #   author: N.I.Molla,S.M.Qaim
 #   title: A systematic study of (n,p) reactions at 14.7 MeV
 #   journal: Jour: Nuclear Physics, Section A, Vol.283, p.269 (1977)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  0
-#   E-min [MeV]:  1.470000E+01
-#   E-max [MeV]:  1.470000E+01
-#   F-value:  1.135713E+00
-#   A-value:  9.123397E-01
-#   chi-2:  2.341868E+00
-#   p-value:  1.042956E-01
-#   exp. data sets for p-value:      8
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.031860E+00   9.691241E-01   5.264769E-01
-# endfb8.0      1.000084E+00   9.999162E-01   1.313631E-03
-# jeff3.3       1.257390E+00   7.952984E-01   6.677010E+00
-# jendl5.0      1.112364E+00   8.989865E-01   2.162673E+00

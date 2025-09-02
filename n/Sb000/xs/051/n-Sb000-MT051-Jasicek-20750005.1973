@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Sb0(n,n'_01)Sb1 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Jasicek
 #   year: 1973
 #   subentry: 20750005
 #   X4 reaction: 51-SB-0(N,INL)51-SB-0,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20750005
-#   level energy [MeV]  1.50000E-02
-# target:
+#   level energy [MeV]:  1.50000E-02
+# target: 
 #   Z: 51
 #   A: 0
 #   nuclide: Sb0
-# reaction:
+# reaction: 
 #   type: (n,n'_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 51
@@ -25,14 +25,15 @@
 #     energy [MeV]:  3.713000E-02
 #     spin:  3.500000E+00
 #     parity: 1
-# residual:
-#   Z: 51
-#   A: 1
-#   nuclide: Sb1
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 51
+#     A: 1
+#     nuclide: Sb1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    9.580000E-01   1.500000E-02   2.900000E+02   1.000000E+02   1.000000E+00
@@ -40,20 +41,3 @@
 #   author: H.A.Jasicek
 #   title: Inelastic scattering cross sections of neutrons of  epithermal energies
 #   journal: Thesis: Jasicek (1973)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  9.580000E-01
-#   E-max [MeV]:  9.580000E-01
-#   F-value:  1.513385E+00
-#   A-value:  1.500392E+00
-#   chi-2:  2.775858E+00
-#   p-value:  2.403756E-01
-#   exp. data sets for p-value:      4
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.341521E+00   1.341521E+00   1.571614E+00
-# endfb8.0      1.439600E+00   1.439600E+00   2.191275E+00
-# jeff3.3       1.679148E+00   1.679148E+00   4.210557E+00
-# jendl5.0      1.628746E+00   1.628746E+00   3.714570E+00
-# cendl3.2      1.439600E+00   1.439600E+00   2.191275E+00

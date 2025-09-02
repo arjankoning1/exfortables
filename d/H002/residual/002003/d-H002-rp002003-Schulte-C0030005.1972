@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: H2(d,x)He3 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Schulte
 #   year: 1972
 #   subentry: C0030005
 #   X4 reaction: 1-H-2(D,N)2-HE-3,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/C0030005
-# target:
+# target: 
 #   Z: 1
 #   A: 2
 #   nuclide: H2
-# reaction:
+# reaction: 
 #   type: (d,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 2
-#   A: 3
-#   nuclide: He3
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 10
+#   residual: 
+#     Z: 2
+#     A: 3
+#     nuclide: He3
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.960000E+00   3.600000E-03   1.043000E+02   2.500000E-01   1.000000E+00
@@ -43,15 +44,3 @@
 #   author: R.L.Schulte,M.Cosack,A.W.Obst,J.L.Weil
 #   title: 2H+d reactions from 1.96 to 6.20 MeV
 #   journal: Jour: Nuclear Physics, Section A, Vol.192, p.609 (1972)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  1.960000E+00
-#   E-max [MeV]:  6.200000E+00
-#   F-value:  0.000000E+00
-#   A-value:  0.000000E+00
-#   chi-2:  0.000000E+00
-#   p-value:  0.000000E+00
-#   exp. data sets for p-value:      1
-#   libraries:      0
-##  Library          F              A            chi-2

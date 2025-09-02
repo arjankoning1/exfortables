@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ti50(n,x)Ca47 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Hillman
 #   year: 1962
 #   subentry: 11610005
 #   X4 reaction: 22-TI-50(N,A)20-CA-47,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/11610005
-# target:
+# target: 
 #   Z: 22
 #   A: 50
 #   nuclide: Ti50
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 107
-# residual:
-#   Z: 20
-#   A: 47
-#   nuclide: Ca47
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 20
+#     A: 47
+#     nuclide: Ca47
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.450000E+01   5.000000E-01   1.064124E+01   2.128200E+00   1.064124E+00
@@ -34,18 +35,3 @@
 #   author: M.Hillman
 #   title: Formation cross sections for CA47 using 14.5MEV neutrons.
 #   journal: Jour: Nuclear Physics, Vol.37, p.78 (1962)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.450000E+01
-#   E-max [MeV]:  1.450000E+01
-#   F-value:  1.035144E+00
-#   A-value:  9.682547E-01
-#   chi-2:  2.063333E-01
-#   p-value:  2.056083E-01
-#   exp. data sets for p-value:      8
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.020118E+00   9.802785E-01   1.261938E-01
-# jeff3.3       1.045611E+00   9.563785E-01   2.864729E-01
-# jendl5.0      0.000000E+00   0.000000E+00   0.000000E+00

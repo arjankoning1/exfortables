@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Li6(n,n'_01)Li7 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Schmidt
 #   year: 1987
 #   subentry: 32001005
 #   X4 reaction: 3-LI-6(N,INL)3-LI-6,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/32001005
-#   level energy [MeV]  2.18400E+00
-# target:
+#   level energy [MeV]:  2.18400E+00
+# target: 
 #   Z: 3
 #   A: 6
 #   nuclide: Li6
-# reaction:
+# reaction: 
 #   type: (n,n'_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 51
@@ -25,14 +25,15 @@
 #     energy [MeV]:  2.186000E+00
 #     spin:  3.000000E+00
 #     parity: 1
-# residual:
-#   Z: 3
-#   A: 7
-#   nuclide: Li7
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 2
+#   residual: 
+#     Z: 3
+#     A: 7
+#     nuclide: Li7
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    7.750000E+00   1.600000E-01   1.450000E+02   1.200000E+01   1.000000E+00
@@ -41,19 +42,3 @@
 #   author: D.Schmidt, D.Seeliger, G.N.Lovchikova, A.M.Trufanov
 #   title: Measurement and status of neutron scattering on 6Li and 7Li between 6 and 14 MeV
 #   journal: Jour: Nuclear Science and Engineering, Vol.96, p.159 (1987)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  7.750000E+00
-#   E-max [MeV]:  8.900000E+00
-#   F-value:  4.991332E+01
-#   A-value:  2.390785E-02
-#   chi-2:  1.428997E+02
-#   p-value:  5.960464E-08
-#   exp. data sets for p-value:      1
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    2.152149E+01   4.658709E-02   1.396477E+02
-# endfb8.0      2.152149E+01   4.658709E-02   1.396477E+02
-# jeff3.3       2.152149E+01   4.658709E-02   1.396477E+02
-# jendl5.0      3.098895E+02   3.231212E-03   1.526557E+02

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Fe58(n,p)Mn58 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Klochkova
 #   year: 1981
 #   subentry: 41320002
 #   X4 reaction: 26-FE-58(N,P)25-MN-58,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/41320002
-# target:
+# target: 
 #   Z: 26
 #   A: 58
 #   nuclide: Fe58
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 25
-#   A: 58
-#   nuclide: Mn58
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 25
+#     A: 58
+#     nuclide: Mn58
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.410000E+01   0.000000E+00   1.060000E+02   9.000000E+00   1.000000E+00
@@ -34,20 +35,3 @@
 #   author: L.I.KLOCHKOVA,B.S.KOVRIGIN,V.N.KURITSYN, N.S.LAVROVA,E.V.CHEREPANOV,V.A.SHIBAEV
 #   title: .STUDY OF THE REACTIONS (N,P) AND (N,NP) ON 27-AL,  50-CR, 54-FE, 58-FE WITH 14.1 MEV NEUTRONS
 #   journal: Conf: 31.Conf.Nucl.Spectr.and Nucl.Struct.,Samarkand 1981, p.342 (1981)
-# statistics:
-#   NEA score: R2
-#   IAEA score:  1
-#   E-min [MeV]:  1.410000E+01
-#   E-max [MeV]:  1.410000E+01
-#   F-value:  5.163361E+00
-#   A-value:  1.990429E-01
-#   chi-2:  8.754832E+01
-#   p-value:  7.562876E-02
-#   exp. data sets for p-value:      1
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    4.963813E+00   2.014581E-01   8.845496E+01
-# endfb8.0      3.207433E+00   3.117758E-01   6.570322E+01
-# jeff3.3       5.049253E+00   1.980491E-01   8.921182E+01
-# jendl5.0      4.843910E+00   2.064448E-01   8.735365E+01
-# cendl3.2      8.219967E+00   1.216550E-01   1.070180E+02

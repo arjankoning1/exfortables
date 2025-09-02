@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Sm149(n,p)Pm149 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: JunhuaLuoo
 #   year: 2016
 #   subentry: 32730004
 #   X4 reaction: 62-SM-149(N,P)61-PM-149,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/32730004
-# target:
+# target: 
 #   Z: 62
 #   A: 149
 #   nuclide: Sm149
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 61
-#   A: 149
-#   nuclide: Pm149
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 2
+#   residual: 
+#     Z: 61
+#     A: 149
+#     nuclide: Pm149
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.350000E+01   2.000000E-01   6.909700E+00   5.483900E-01   1.096774E+00
@@ -35,20 +36,3 @@
 #   author: Junhua Luo, Chunlei Wu, Li Jiang, Long He
 #   title: Cross sections for d-3H neutron interactions with samarium isotopes
 #   journal: Jour: Radiochimica Acta, Vol.104, p.523 (2016)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.350000E+01
-#   E-max [MeV]:  1.480000E+01
-#   F-value:  1.275246E+00
-#   A-value:  9.318166E-01
-#   chi-2:  7.004677E+00
-#   p-value:  3.797211E-01
-#   exp. data sets for p-value:      1
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.109959E+00   1.071777E+00   1.485488E+00
-# endfb8.0      1.349802E+00   7.808457E-01   9.762455E+00
-# jeff3.3       1.349802E+00   7.808457E-01   9.762455E+00
-# jendl5.0      1.297603E+00   1.233745E+00   9.476249E+00
-# cendl3.2      1.211723E+00   8.713486E-01   4.536740E+00

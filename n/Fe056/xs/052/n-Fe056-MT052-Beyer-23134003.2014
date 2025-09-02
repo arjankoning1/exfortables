@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Fe56(n,n'_02)Fe57 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Beyer
 #   year: 2014
 #   subentry: 23134003
 #   X4 reaction: 26-FE-56(N,INL)26-FE-56,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/23134003
-#   level energy [MeV]  2.08500E+00
-# target:
+#   level energy [MeV]:  2.08500E+00
+# target: 
 #   Z: 26
 #   A: 56
 #   nuclide: Fe56
-# reaction:
+# reaction: 
 #   type: (n,n'_02)
 #   ENDF_MF: 3
 #   ENDF_MT: 52
@@ -25,14 +25,15 @@
 #     energy [MeV]:  2.085105E+00
 #     spin:  4.000000E+00
 #     parity: 1
-# residual:
-#   Z: 26
-#   A: 57
-#   nuclide: Fe57
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 14
+#   residual: 
+#     Z: 26
+#     A: 57
+#     nuclide: Fe57
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 14
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.252000E+00   0.000000E+00   2.100000E+01   2.000000E+00   1.000000E+00
@@ -53,20 +54,3 @@
 #   author: R.Beyer,R.Schwengner, R.Hannaske, A.R.Junghans, R.Massarczyk,M.Anders,D.Bemmerer, A.Ferrari,A.Hartmann, T.Koegler, M.Roeder, K.Schmidt, A.Wagner
 #   title: Inelastic scattering of fast neutrons from excited states in 56Fe.
 #   journal: Jour: Nuclear Physics, Section A, Vol.927, p.41 (2014)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  2.252000E+00
-#   E-max [MeV]:  9.562000E+00
-#   F-value:  5.787590E+00
-#   A-value:  3.208950E-01
-#   chi-2:  2.440239E+01
-#   p-value:  1.245786E-01
-#   exp. data sets for p-value:      3
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    9.031886E+00   2.500143E-01   2.487734E+01
-# endfb8.0      4.977292E+00   3.645206E-01   2.346152E+01
-# jeff3.3       4.841162E+00   3.500373E-01   2.404369E+01
-# jendl5.0      5.421105E+00   3.367382E-01   2.432535E+01
-# cendl3.2      5.091751E+00   3.167533E-01   2.530406E+01

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ni58(n,t)Co56 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Katoh
 #   year: 1989
 #   subentry: 22156017
 #   X4 reaction: 28-NI-58(N,T)27-CO-56,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22156017
-# target:
+# target: 
 #   Z: 28
 #   A: 58
 #   nuclide: Ni58
-# reaction:
+# reaction: 
 #   type: (n,t)
 #   ENDF_MF: 3
 #   ENDF_MT: 105
-# residual:
-#   Z: 27
-#   A: 56
-#   nuclide: Co56
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 4
+#   residual: 
+#     Z: 27
+#     A: 56
+#     nuclide: Co56
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.416000E+01   1.000000E-01   1.158600E-02   3.012400E-03   9.988214E-01
@@ -37,20 +38,3 @@
 #   author: T.Katoh,K.Kawade,H.Yamamoto
 #   title: Measurement of activation cross sections.
 #   journal: Rept: JAERI-M Reports, No.89-083 (1989)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  1.416000E+01
-#   E-max [MeV]:  1.487000E+01
-#   F-value:  2.255823E+00
-#   A-value:  7.478888E-01
-#   chi-2:  4.840777E+00
-#   p-value:  2.678033E-01
-#   exp. data sets for p-value:      2
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    5.828452E+00   1.769354E-01   1.315422E+01
-# endfb8.0      1.119285E+00   1.040031E+00   6.491424E-01
-# jeff3.3       1.024274E+00   9.863605E-01   8.359400E-02
-# jendl5.0      1.105109E+00   9.968395E-01   4.825460E-01
-# cendl3.2      1.525715E+00   1.293193E+00   9.834387E+00

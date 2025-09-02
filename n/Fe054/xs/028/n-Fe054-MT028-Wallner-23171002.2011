@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Fe54(n,np)Mn53 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Wallner
 #   year: 2011
 #   subentry: 23171002
 #   X4 reaction: 26-FE-54(N,X)25-MN-53,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/23171002
-# target:
+# target: 
 #   Z: 26
 #   A: 54
 #   nuclide: Fe54
-# reaction:
+# reaction: 
 #   type: (n,np)
 #   ENDF_MF: 3
 #   ENDF_MT: 28
-# residual:
-#   Z: 25
-#   A: 53
-#   nuclide: Mn53
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 2
+#   residual: 
+#     Z: 25
+#     A: 53
+#     nuclide: Mn53
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.348900E+01   0.000000E+00   5.550000E+02   1.010000E+02   1.000000E+00
@@ -35,19 +36,3 @@
 #   author: A.Wallner, K.Buczak,C.Lederer,H.Vonach, T.Faestermann, G.Korschinek,M.Poutivtsev, G.Rugel, A.Klix, K.Seidel, A.Plompen, V.Semkova
 #   title: Production of long-lived radionuclides 10Be, 14C, 53Mn, 55Fe, 59Ni and 202gPb in a Fusion Environment.
 #   journal: Jour: Journal of the Korean Physical Society, Vol.59, Issue.2, p.1378 (2
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  1.348900E+01
-#   E-max [MeV]:  1.465000E+01
-#   F-value:  1.157121E+00
-#   A-value:  8.817974E-01
-#   chi-2:  1.192713E+00
-#   p-value:  1.428403E-01
-#   exp. data sets for p-value:      1
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.041225E+00   9.624066E-01   3.368242E-01
-# jeff3.3       1.132650E+00   8.839253E-01   1.080331E+00
-# jendl5.0      1.106802E+00   9.036465E-01   8.829628E-01
-# cendl3.2      1.271629E+00   7.865071E-01   2.470735E+00

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Cu63(n,n')Cu63 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Glazkov
 #   year: 1963
 #   subentry: 40680012
 #   X4 reaction: 29-CU-63(N,INL)29-CU-63,,SIG,,A
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/40680012
-# target:
+# target: 
 #   Z: 29
 #   A: 63
 #   nuclide: Cu63
-# reaction:
+# reaction: 
 #   type: (n,n')
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 29
-#   A: 63
-#   nuclide: Cu63
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 3
+#   residual: 
+#     Z: 29
+#     A: 63
+#     nuclide: Cu63
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    8.000000E-01   0.000000E+00   1.446132E+02   7.230658E+01   1.000000E+00
@@ -36,20 +37,3 @@
 #   author: N.P.Glazkov
 #   title: Cross sections of the inelastic scattering of neutrons with energies of 0.4-1.2 MeV on medium and light nuclei
 #   journal: Jour: Atomnaya Energiya, Vol.15, p.416 (1963)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  8.000000E-01
-#   E-max [MeV]:  1.200000E+00
-#   F-value:  1.518435E+00
-#   A-value:  7.060082E-01
-#   chi-2:  8.013249E+00
-#   p-value:  1.047915E-01
-#   exp. data sets for p-value:      1
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.564029E+00   6.738361E-01   1.031686E+01
-# endfb8.0      1.237409E+00   8.419461E-01   3.674576E+00
-# jeff3.3       1.404920E+00   7.339816E-01   6.917717E+00
-# jendl5.0      1.372282E+00   7.653798E-01   6.595441E+00
-# cendl3.2      1.898730E+00   5.503614E-01   1.256166E+01

@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: Zr90(n,x)Zr89m cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Goncalves
 #   year: 1987
 #   subentry: 30740002
 #   X4 reaction: 40-ZR-90(N,2N)40-ZR-89-M,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30740002
-# target:
+# target: 
 #   Z: 40
 #   A: 90
 #   nuclide: Zr90
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 40
-#   A: 89
-#   nuclide: Zr89m
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 40
+#     A: 89
+#     nuclide: Zr89m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.480000E+01   1.700000E-01   1.248326E+02   2.996000E+00   9.986610E-01
@@ -39,17 +40,3 @@
 #   author: I.F.Goncalves,Zs.Schram,Z.Papp,S.Daroczy
 #   title: (n,p),(n,a) and (n,2n) reaction cross-sections for  some isotopes of Zr,Pd and Cd at 14.8 MeV
 #   journal: Jour: Applied Radiation and Isotopes, Vol.38, Issue.11, p.989 (1987)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.480000E+01
-#   E-max [MeV]:  1.480000E+01
-#   F-value:  1.128380E+00
-#   A-value:  1.128332E+00
-#   chi-2:  2.861740E+01
-#   p-value:  1.879757E-01
-#   exp. data sets for p-value:      8
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.124702E+00   1.124702E+00   2.699722E+01
-# jendl5.0      1.131974E+00   1.131974E+00   3.023758E+01

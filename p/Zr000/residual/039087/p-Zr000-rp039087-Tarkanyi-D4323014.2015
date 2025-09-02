@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Zr0(p,x)Y87 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Tarkanyi
 #   year: 2015
 #   subentry: D4323014
 #   X4 reaction: 40-ZR-0(P,X)39-Y-87,CUM,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/D4323014
-# target:
+# target: 
 #   Z: 40
 #   A: 0
 #   nuclide: Zr0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 39
-#   A: 87
-#   nuclide: Y87
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 30
+#   residual: 
+#     Z: 39
+#     A: 87
+#     nuclide: Y87
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 30
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.750000E+01   7.000000E-01   5.480000E+00   6.400000E-01   1.000000E+00
@@ -63,17 +64,3 @@
 #   author: F.Tarkanyi,F.Ditroi,S.Takacs,A.Hermanne,M.Al-Abyad, H.Yamazaki,M.Baba,M.A.Mohammadi
 #   title: New activation cross section data on longer lived radio-nuclei produced in proton induced nuclear reaction on zirconium
 #   journal: Jour: Applied Radiation and Isotopes, Vol.97, p.149 (2015)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  1.750000E+01
-#   E-max [MeV]:  6.980000E+01
-#   F-value:  1.827476E+00
-#   A-value:  6.230749E-01
-#   chi-2:  1.391620E+01
-#   p-value:  2.608019E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.932594E+00   5.811177E-01   1.591543E+01
-# jendl5.0      1.718171E+00   6.680616E-01   1.191697E+01

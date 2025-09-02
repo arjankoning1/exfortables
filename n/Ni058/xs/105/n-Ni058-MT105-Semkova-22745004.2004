@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ni58(n,t)Co56 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Semkova
 #   year: 2004
 #   subentry: 22745004
 #   X4 reaction: 28-NI-58(N,T)27-CO-56,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22745004
-# target:
+# target: 
 #   Z: 28
 #   A: 58
 #   nuclide: Ni58
-# reaction:
+# reaction: 
 #   type: (n,t)
 #   ENDF_MF: 3
 #   ENDF_MT: 105
-# residual:
-#   Z: 27
-#   A: 56
-#   nuclide: Co56
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 2
+#   residual: 
+#     Z: 27
+#     A: 56
+#     nuclide: Co56
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.780000E+01   0.000000E+00   3.560000E-01   4.685200E-02   1.000001E+00
@@ -35,20 +36,3 @@
 #   author: V.SEMKOVA, A.J.M.PLOMPEN, D.L.SMITH
 #   title: Measurement of the Ni-58(n,t)Co-59, Co-59(n,p)Fe-59  and Cu-63(n,alpha)Co-60 Reaction Cross Sections from  14 to 20 MeV.
 #   journal: Conf: Conf.on Nucl.Data for Sci.and Techn., Santa Fe 2004, Vol.1, p.1019
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  1.780000E+01
-#   E-max [MeV]:  1.950000E+01
-#   F-value:  5.616263E+00
-#   A-value:  3.255391E+00
-#   chi-2:  1.243468E+04
-#   p-value:  0.000000E+00
-#   exp. data sets for p-value:      1
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    2.839781E+00   2.785121E+00   2.924249E+02
-# endfb8.0      1.527286E+00   7.410753E-01   5.870532E+00
-# jeff3.3       2.855192E+01   2.842163E+01   6.091258E+04
-# jendl5.0      1.426690E+00   1.391991E+00   1.618429E+01
-# cendl3.2      4.497500E+00   4.477381E+00   9.463185E+02

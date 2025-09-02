@@ -1,28 +1,29 @@
-# header:
+# header: 
 #   title: U238(g,f) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Mafra
 #   year: 1972
 #   subentry: M0433002
 #   X4 reaction: 92-U-238(G,F),,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/M0433002
-# target:
+# target: 
 #   Z: 92
 #   A: 238
 #   nuclide: U238
-# reaction:
+# reaction: 
 #   type: (g,f)
 #   ENDF_MF: 3
 #   ENDF_MT: 18
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 12
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 12
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    5.430000E+00   0.000000E+00   5.300000E-01   4.200000E-01   1.000000E+00
@@ -41,18 +42,3 @@
 #   author: O.Y.Mafra,S.Kuniyoshi,J.Goldemberg
 #   title: Intermediate structure in the photoneutron and photofission cross sections in U-238 and Th-232.
 #   journal: Jour: Nuclear Physics, Section A, Vol.186, p.110 (1972)
-# statistics:
-#   NEA score: T3
-#   IAEA score: -1
-#   E-min [MeV]:  5.430000E+00
-#   E-max [MeV]:  9.000000E+00
-#   F-value:  1.967452E+00
-#   A-value:  1.322645E+00
-#   chi-2:  5.793652E+01
-#   p-value:  2.432199E-01
-#   exp. data sets for p-value:      8
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    2.209758E+00   1.213149E+00   3.759186E+01
-# endfb8.0      1.728874E+00   1.288052E+00   4.114452E+01
-# jendl5.0      1.949335E+00   1.480753E+00   9.507317E+01

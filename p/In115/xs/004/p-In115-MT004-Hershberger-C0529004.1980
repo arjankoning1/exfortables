@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: In115(p,n')Sn115 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Hershberger
 #   year: 1980
 #   subentry: C0529004
 #   X4 reaction: 49-IN-115(P,N)50-SN-115,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/C0529004
-# target:
+# target: 
 #   Z: 49
 #   A: 115
 #   nuclide: In115
-# reaction:
+# reaction: 
 #   type: (p,n')
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 50
-#   A: 115
-#   nuclide: Sn115
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 60
+#   residual: 
+#     Z: 50
+#     A: 115
+#     nuclide: Sn115
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 60
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.944000E+00   2.000000E-03   6.000000E-02   2.760000E-03   1.000000E+00
@@ -93,17 +94,3 @@
 #   author: R.L.HERSHBERGER,D.S.FLYNN,F.GABBARD,C.H.JOHNSON
 #   title: Systematics of proton absorption deduced from (p,p)  and (p,n) cross sectiopns for 2.0- to 6.7-MeV protons  on 107,109Ag and 115In
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.21, p.896 (1980)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  2.944000E+00
-#   E-max [MeV]:  6.840000E+00
-#   F-value:  1.335600E+00
-#   A-value:  1.224205E+00
-#   chi-2:  5.607476E+03
-#   p-value:  3.169545E-01
-#   exp. data sets for p-value:      3
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.397392E+00   1.310404E+00   9.661973E+03
-# jendl5.0      1.265703E+00   1.143677E+00   1.552977E+03

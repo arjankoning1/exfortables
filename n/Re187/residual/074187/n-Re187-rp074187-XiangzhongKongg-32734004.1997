@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Re187(n,x)W187 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: XiangzhongKongg
 #   year: 1997
 #   subentry: 32734004
 #   X4 reaction: 75-RE-187(N,P)74-W-187,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/32734004
-# target:
+# target: 
 #   Z: 75
 #   A: 187
 #   nuclide: Re187
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 74
-#   A: 187
-#   nuclide: W187
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 3
+#   residual: 
+#     Z: 74
+#     A: 187
+#     nuclide: W187
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.350000E+01   1.000000E-01   2.379700E+00   2.379700E-01   7.932330E-01
@@ -36,18 +37,3 @@
 #   author: Xiangzhong Kong, Shangbin Hu, Jingkang Yang, Yongchang Wang
 #   title: Activation cross sections for the element rhenium
 #   journal: Jour: Journal of Radioanalytical and Nuclear Chemistry, Vol.218, p.127 (
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.350000E+01
-#   E-max [MeV]:  1.470000E+01
-#   F-value:  1.175176E+00
-#   A-value:  1.153861E+00
-#   chi-2:  3.138517E+00
-#   p-value:  2.405500E-01
-#   exp. data sets for p-value:      3
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.181657E+00   1.170956E+00   3.398647E+00
-# jeff3.3       1.181615E+00   1.168224E+00   3.390537E+00
-# jendl5.0      1.161664E+00   1.123037E+00   2.626368E+00

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Cu63(n,a)Co60 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Ikeda
 #   year: 1996
 #   subentry: 22658004
 #   X4 reaction: 29-CU-63(N,A)27-CO-60,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22658004
-# target:
+# target: 
 #   Z: 29
 #   A: 63
 #   nuclide: Cu63
-# reaction:
+# reaction: 
 #   type: (n,a)
 #   ENDF_MF: 3
 #   ENDF_MT: 107
-# residual:
-#   Z: 27
-#   A: 60
-#   nuclide: Co60
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 2
+#   residual: 
+#     Z: 27
+#     A: 60
+#     nuclide: Co60
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.450000E+01   0.000000E+00   4.391337E+01   2.331000E+00   1.002588E+00
@@ -35,21 +36,3 @@
 #   author: Y.Ikeda,C.Konno,A.Kumar,Y.Kasugai
 #   title: Summary of activation cross sections measurements  at FNS
 #   journal: Conf: IAEA Nucl.Data Section report to the I.N.D.C., No.342, p.19 (1996)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.450000E+01
-#   E-max [MeV]:  1.480000E+01
-#   F-value:  1.018389E+00
-#   A-value:  9.970099E-01
-#   chi-2:  3.171077E-01
-#   p-value:  3.776118E-01
-#   exp. data sets for p-value:      8
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.005607E+00   1.002694E+00   1.193333E-01
-# endfb8.0      1.022632E+00   1.014982E+00   4.579523E-01
-# jeff3.3       1.006822E+00   9.990146E-01   1.632987E-01
-# jendl5.0      1.012670E+00   9.911870E-01   2.251804E-01
-# cendl3.2      1.035471E+00   9.714774E-01   8.033778E-01
-# irdff2.0      1.006369E+00   1.003251E+00   1.335041E-01

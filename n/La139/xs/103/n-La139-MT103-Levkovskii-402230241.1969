@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: La139(n,p)Ba139 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Levkovskii
 #   year: 1969
 #   subentry: 402230241
 #   X4 reaction: 57-LA-139(N,P)56-BA-139,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/402230241
-# target:
+# target: 
 #   Z: 57
 #   A: 139
 #   nuclide: La139
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 56
-#   A: 139
-#   nuclide: Ba139
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 56
+#     A: 139
+#     nuclide: Ba139
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.480000E+01   0.000000E+00   5.116800E+00   1.000000E+00   9.654319E-01
@@ -34,20 +35,3 @@
 #   author: V.N.Levkovskii,G.E.Kovel'skaya,G.P.Vinitskaya, V.M.Stepanov,V.V.Sokol'skii
 #   title: Cross sections of the (n,p) and (n,alpha) reactions  at 14.8 MeV .
 #   journal: Jour: Soviet Journal of Nuclear Physics, Vol.8, p.4 (1969)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.480000E+01
-#   E-max [MeV]:  1.480000E+01
-#   F-value:  1.050072E+00
-#   A-value:  9.551133E-01
-#   chi-2:  3.035360E-01
-#   p-value:  1.251929E-01
-#   exp. data sets for p-value:      8
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.044511E+00   9.573858E-01   2.863846E-01
-# endfb8.0      1.048510E+00   9.537343E-01   3.122124E-01
-# jeff3.3       1.048510E+00   9.537343E-01   3.122124E-01
-# jendl5.0      1.019589E+00   9.807873E-01   1.257990E-01
-# cendl3.2      1.074589E+00   9.305887E-01   4.810719E-01

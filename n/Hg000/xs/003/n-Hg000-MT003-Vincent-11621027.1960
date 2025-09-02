@@ -1,28 +1,29 @@
-# header:
+# header: 
 #   title: Hg0(n,non) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Vincent
 #   year: 1960
 #   subentry: 11621027
 #   X4 reaction: 80-HG-0(N,NON),,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/11621027
-# target:
+# target: 
 #   Z: 80
 #   A: 0
 #   nuclide: Hg0
-# reaction:
+# reaction: 
 #   type: (n,non)
 #   ENDF_MF: 3
 #   ENDF_MT: 3
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.100000E+00   1.000000E-01   2.600000E+03   4.000000E+02   1.000000E+00
@@ -30,19 +31,3 @@
 #   author: L.D.VINCENT,I.L.MORGAN,J.T.PRUD'HOMME
 #   title: ELASTIC AND INELASTIC SCATTERING OF 4.1 MEV NEUTRONS FROM CA, MO, SB, BA AND HG.
 #   journal: Rept: Wright Air Devel. Centre Reports, No.60-217 (1960)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  4.100000E+00
-#   E-max [MeV]:  4.100000E+00
-#   F-value:  1.018402E+00
-#   A-value:  9.928266E-01
-#   chi-2:  1.288221E-01
-#   p-value:  4.095560E-01
-#   exp. data sets for p-value:      2
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.000692E+00   1.000692E+00   5.644334E-03
-# jeff3.3       1.017673E+00   9.826337E-01   1.448996E-01
-# jendl5.0      1.015947E+00   1.015947E+00   1.327949E-01
-# cendl3.2      1.028181E+00   9.725913E-01   2.319495E-01

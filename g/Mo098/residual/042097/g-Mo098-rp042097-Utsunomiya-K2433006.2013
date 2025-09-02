@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Mo98(g,x)Mo97 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Utsunomiya
 #   year: 2013
 #   subentry: K2433006
 #   X4 reaction: 42-MO-98(G,N)42-MO-97,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/K2433006
-# target:
+# target: 
 #   Z: 42
 #   A: 98
 #   nuclide: Mo98
-# reaction:
+# reaction: 
 #   type: (g,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 42
-#   A: 97
-#   nuclide: Mo97
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 10
+#   residual: 
+#     Z: 42
+#     A: 97
+#     nuclide: Mo97
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    8.810000E+00   0.000000E+00   8.773000E+00   4.654100E-01   1.000000E+00
@@ -43,18 +44,3 @@
 #   author: H.Utsunomiya, S.Goriely, T.Kondo, C.Iwamoto,  H.Akimune, T.Yamagata, H.Toyokawa, H.Harada,  F.Kitatani, Y.W.Lui, A.C.Larsen, M.Guttormsen,  P.E.Koehler, S.Hilaire, S.Peru, M.Martini,  A.J.Koning
 #   title: Photoneutron cross sections for Mo isotopes: A step towards a unified understanding of (gamma,n) and  (n,gamma) reactions
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.88, p.015805 (2013)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  8.810000E+00
-#   E-max [MeV]:  1.200000E+01
-#   F-value:  1.223052E+00
-#   A-value:  9.680209E-01
-#   chi-2:  1.090994E+01
-#   p-value:  3.462331E-01
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.207004E+00   9.074775E-01   8.399445E+00
-# endfb8.0      1.147881E+00   1.137573E+00   8.819368E+00
-# jendl5.0      1.089152E+00   1.044652E+00   3.788514E+00

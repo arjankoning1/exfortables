@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Nd142(g,n')Nd141 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Angell
 #   year: 2012
 #   subentry: K2403002
 #   X4 reaction: 60-ND-142(G,N)60-ND-141,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/K2403002
-# target:
+# target: 
 #   Z: 60
 #   A: 142
 #   nuclide: Nd142
-# reaction:
+# reaction: 
 #   type: (g,n')
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 60
-#   A: 141
-#   nuclide: Nd141
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 15
+#   residual: 
+#     Z: 60
+#     A: 141
+#     nuclide: Nd141
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 15
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    9.860000E+00   0.000000E+00   2.230000E+01   1.790750E+00   1.000000E+00
@@ -48,17 +49,3 @@
 #   author: C.T.Angell, S.L.Hammond, H.J.Karwowski, J.H.Kelley,  M.Krticka, E.Kwan, A.Makinaga, G.Rusev
 #   title: Evidence for radiative coupling of the pygmy dipole resonance to excited states
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.86, p.051302 (2012)
-# statistics:
-#   NEA score: T3
-#   IAEA score:  1
-#   E-min [MeV]:  9.860000E+00
-#   E-max [MeV]:  1.326000E+01
-#   F-value:  1.840958E+00
-#   A-value:  7.123199E-01
-#   chi-2:  3.326579E+01
-#   p-value:  1.730713E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.847333E+00   7.092037E-01   3.393958E+01
-# jendl5.0      1.177516E+00   8.989517E-01   6.984663E+00

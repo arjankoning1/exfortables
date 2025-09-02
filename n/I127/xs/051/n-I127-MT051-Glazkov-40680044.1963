@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: I127(n,n'_01)I128 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Glazkov
 #   year: 1963
 #   subentry: 40680044
 #   X4 reaction: 53-I-127(N,INL)53-I-127,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/40680044
-#   level energy [MeV]  6.00000E-02
-# target:
+#   level energy [MeV]:  6.00000E-02
+# target: 
 #   Z: 53
 #   A: 127
 #   nuclide: I127
-# reaction:
+# reaction: 
 #   type: (n,n'_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 51
@@ -25,14 +25,15 @@
 #     energy [MeV]:  5.760800E-02
 #     spin:  3.500000E+00
 #     parity: 1
-# residual:
-#   Z: 53
-#   A: 128
-#   nuclide: I128
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 4
+#   residual: 
+#     Z: 53
+#     A: 128
+#     nuclide: I128
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.000000E-01   0.000000E+00   5.000000E+02   1.000000E+02   1.000000E+00
@@ -43,20 +44,3 @@
 #   author: N.P.Glazkov
 #   title: Cross sections of the inelastic scattering of neutrons with energies of 0.4-1.2 MeV on medium and light nuclei
 #   journal: Jour: Atomnaya Energiya, Vol.15, p.416 (1963)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  4.000000E-01
-#   E-max [MeV]:  1.000000E+00
-#   F-value:  1.539932E+00
-#   A-value:  7.514583E-01
-#   chi-2:  4.362079E+00
-#   p-value:  2.672467E-01
-#   exp. data sets for p-value:      2
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.764951E+00   6.215045E-01   6.783285E+00
-# endfb8.0      1.285067E+00   8.682414E-01   2.166688E+00
-# jeff3.3       1.728315E+00   6.391239E-01   6.452123E+00
-# jendl5.0      1.564402E+00   7.097242E-01   4.781601E+00
-# cendl3.2      1.241205E+00   9.789600E-01   1.626696E+00

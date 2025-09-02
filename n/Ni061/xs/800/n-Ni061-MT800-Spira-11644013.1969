@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Ni61(n,p_00) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Spira
 #   year: 1969
 #   subentry: 11644013
 #   X4 reaction: 28-NI-61(N,A)26-FE-58,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/11644013
-#   level energy [MeV]  0.00000E+00
-# target:
+#   level energy [MeV]:  0.00000E+00
+# target: 
 #   Z: 28
 #   A: 61
 #   nuclide: Ni61
-# reaction:
+# reaction: 
 #   type: (n,p_00)
 #   ENDF_MF: 3
 #   ENDF_MT: 800
@@ -25,10 +25,11 @@
 #     energy [MeV]:  0.000000E+00
 #     spin:  2.000000E+00
 #     parity: 1
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.460000E+01   0.000000E+00   7.000000E-01   2.000000E-01   1.000000E+00
@@ -36,17 +37,3 @@
 #   author: C.Spira,J.M.Robson
 #   title: Individual transitions in (n,alpha) reactions at 14.6 MeV.
 #   journal: Jour: Nuclear Physics, Section A, Vol.127, p.81 (1969)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  1.460000E+01
-#   E-max [MeV]:  1.460000E+01
-#   F-value:  7.197517E+01
-#   A-value:  2.087347E-02
-#   chi-2:  1.075780E+01
-#   p-value:  1.192093E-07
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# jendl5.0      2.959414E+02   3.379047E-03   1.217912E+01
-# cendl3.2      7.755416E+00   1.289421E-01   9.336487E+00

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Co59(n,p)Fe59 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Shimizu
 #   year: 2004
 #   subentry: 22837007
 #   X4 reaction: 27-CO-59(N,P)26-FE-59,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22837007
-# target:
+# target: 
 #   Z: 27
 #   A: 59
 #   nuclide: Co59
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 26
-#   A: 59
-#   nuclide: Fe59
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 2
+#   residual: 
+#     Z: 26
+#     A: 59
+#     nuclide: Fe59
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.900000E+00   5.000000E-02   3.419300E-01   1.507400E-01   1.005666E+00
@@ -35,21 +36,3 @@
 #   author: T.Shimizu,H.Sakane,M.Shibata,K.Kawade, T.Nishitani
 #   title: .Measurements of activation cross sections of (n,p)   and (n,alpha) reactions with d-D neutrons in   the energy range 2.1 - 3.1 MeV
 #   journal: Jour: Annals of Nuclear Energy, Vol.31, p.975 (2004)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  2.900000E+00
-#   E-max [MeV]:  3.090000E+00
-#   F-value:  1.357892E+00
-#   A-value:  1.206765E+00
-#   chi-2:  2.690981E+00
-#   p-value:  2.349776E-01
-#   exp. data sets for p-value:      1
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.364105E+00   1.227625E+00   2.735741E+00
-# endfb8.0      1.317311E+00   1.141766E+00   2.100857E+00
-# jeff3.3       1.354583E+00   1.233324E+00   2.589223E+00
-# jendl5.0      1.470946E+00   1.314503E+00   4.534286E+00
-# cendl3.2      1.284618E+00   1.131012E+00   1.772097E+00
-# irdff2.0      1.339528E+00   1.201675E+00   2.413680E+00

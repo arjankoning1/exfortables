@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Al27(n,p)Mg27 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Bass
 #   year: 1966
 #   subentry: 20928006
 #   X4 reaction: 13-AL-27(N,P)12-MG-27,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20928006
-# target:
+# target: 
 #   Z: 13
 #   A: 27
 #   nuclide: Al27
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 12
-#   A: 27
-#   nuclide: Mg27
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 121
+#   residual: 
+#     Z: 12
+#     A: 27
+#     nuclide: Mg27
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 121
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    6.000000E+00   2.500000E-02   4.071000E+01   6.106500E+00   1.000000E+00
@@ -154,21 +155,3 @@
 #   author: R.BASS,P.HAUG,K.KRUGER,B.STAGINNUS
 #   title: -FAST NEUTRON EXCITATION FUNCTIONS BY ACTIVATION  TECHNIQUES-
 #   journal: Rept: Report from Euratom-countries + Euratom to EANDC, No.66, p.64 (196
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  6.000000E+00
-#   E-max [MeV]:  9.000000E+00
-#   F-value:  1.192674E+00
-#   A-value:  8.673125E-01
-#   chi-2:  1.529377E+00
-#   p-value:  1.574480E-01
-#   exp. data sets for p-value:      8
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.159690E+00   8.690521E-01   1.367549E+00
-# endfb8.0      1.243858E+00   8.325952E-01   2.029336E+00
-# jeff3.3       1.243858E+00   8.325952E-01   2.029336E+00
-# jendl5.0      1.068616E+00   9.821981E-01   3.893074E-01
-# cendl3.2      1.227350E+00   8.349384E-01   1.916839E+00
-# irdff2.0      1.162665E+00   8.615620E-01   1.443896E+00

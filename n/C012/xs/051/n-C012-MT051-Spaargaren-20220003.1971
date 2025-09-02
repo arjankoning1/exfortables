@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: C12(n,n'_01)C13 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Spaargaren
 #   year: 1971
 #   subentry: 20220003
 #   X4 reaction: 6-C-12(N,INL)6-C-12,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20220003
-#   level energy [MeV]  4.44000E+00
-# target:
+#   level energy [MeV]:  4.44000E+00
+# target: 
 #   Z: 6
 #   A: 12
 #   nuclide: C12
-# reaction:
+# reaction: 
 #   type: (n,n'_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 51
@@ -25,14 +25,15 @@
 #     energy [MeV]:  4.439820E+00
 #     spin:  2.000000E+00
 #     parity: 1
-# residual:
-#   Z: 6
-#   A: 13
-#   nuclide: C13
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 6
+#     A: 13
+#     nuclide: C13
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.500000E+01   2.000000E-01   2.290000E+02   1.100000E+01   1.000000E+00
@@ -40,19 +41,3 @@
 #   author: D.Spaargaren, C.C.Jonker
 #   title: Angular correlations in inelastic neutron scattering  by carbon at 15.0 MeV
 #   journal: Jour: Nuclear Physics, Section A, Vol.161, p.354 (1971)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  1.500000E+01
-#   E-max [MeV]:  1.500000E+01
-#   F-value:  1.386115E+00
-#   A-value:  7.236205E-01
-#   chi-2:  3.336153E+01
-#   p-value:  2.511581E-01
-#   exp. data sets for p-value:      4
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.347059E+00   7.423581E-01   2.876860E+01
-# endfb8.0      1.347059E+00   7.423581E-01   2.876860E+01
-# jendl5.0      1.492097E+00   6.701978E-01   4.714034E+01
-# cendl3.2      1.347059E+00   7.423581E-01   2.876860E+01

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Cr53(n,x)Ti50 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Khromyleva
 #   year: 2018
 #   subentry: 41653006
 #   X4 reaction: 24-CR-53(N,A)22-TI-50,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/41653006
-# target:
+# target: 
 #   Z: 24
 #   A: 53
 #   nuclide: Cr53
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 107
-# residual:
-#   Z: 22
-#   A: 50
-#   nuclide: Ti50
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 7
+#   residual: 
+#     Z: 22
+#     A: 50
+#     nuclide: Ti50
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.500000E+00   1.100000E-01   1.300000E+00   3.000000E-01   1.000000E+00
@@ -40,19 +41,3 @@
 #   author: T.Khromyleva, I.P.Bondarenko, A.Gurbich, V.Ketlerov, V.A.Khryachkov, P.Prusachenko
 #   title: Investigation of (n,alpha) reaction cross section for a number of structural material isotopes
 #   journal: Jour: Nuclear Science and Engineering, Vol.191, p.282 (2018)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  4.500000E+00
-#   E-max [MeV]:  7.150000E+00
-#   F-value:  1.886057E+00
-#   A-value:  1.470908E+00
-#   chi-2:  7.987163E+01
-#   p-value:  4.722522E-01
-#   exp. data sets for p-value:      1
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.138942E+00   8.977514E-01   1.481389E+00
-# endfb8.0      0.000000E+00   0.000000E+00   0.000000E+00
-# jeff3.3       2.429829E+00   2.409988E+00   1.582619E+02
-# jendl5.0      0.000000E+00   0.000000E+00   0.000000E+00

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Zr90(n,2n)Zr89 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Chiadli
 #   year: 1982
 #   subentry: 30697003
 #   X4 reaction: 40-ZR-90(N,2N)40-ZR-89,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30697003
-# target:
+# target: 
 #   Z: 40
 #   A: 90
 #   nuclide: Zr90
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 40
-#   A: 89
-#   nuclide: Zr89
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 2
+#   residual: 
+#     Z: 40
+#     A: 89
+#     nuclide: Zr89
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.410000E+01   1.000000E-01   6.630000E+02   5.400001E+01   1.000000E+00
@@ -35,21 +36,3 @@
 #   author: A.CHIADLI,G.PAIC
 #   title: Cross-section of (n,2n) reaction on 93Nb and 90Zr
 #   journal: Prog: Univ. Mohammed V, Rabat, Annual Report, No.5, p.13 (1982)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.410000E+01
-#   E-max [MeV]:  1.480000E+01
-#   F-value:  1.068056E+00
-#   A-value:  9.427044E-01
-#   chi-2:  1.383142E+00
-#   p-value:  1.478612E-01
-#   exp. data sets for p-value:      8
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.078056E+00   9.342905E-01   1.657226E+00
-# endfb8.0      1.057468E+00   9.468983E-01   1.159536E+00
-# jeff3.3       1.077551E+00   9.346379E-01   1.643897E+00
-# jendl5.0      1.065736E+00   9.431056E-01   1.344483E+00
-# cendl3.2      1.051790E+00   9.591609E-01   9.585541E-01
-# irdff2.0      1.073701E+00   9.383669E-01   1.535155E+00

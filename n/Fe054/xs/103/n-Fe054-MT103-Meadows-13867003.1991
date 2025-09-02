@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Fe54(n,p)Mn54 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Meadows
 #   year: 1991
 #   subentry: 13867003
 #   X4 reaction: 26-FE-54(N,P)25-MN-54,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/13867003
-# target:
+# target: 
 #   Z: 26
 #   A: 54
 #   nuclide: Fe54
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 25
-#   A: 54
-#   nuclide: Mn54
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 10
+#   residual: 
+#     Z: 25
+#     A: 54
+#     nuclide: Mn54
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    5.290000E+00   5.400000E-01   4.658754E+02   1.546707E+01   9.999900E-01
@@ -43,21 +44,3 @@
 #   author: J.W.Meadows,D.L.Smith,L.R.Greenwood,L.P.Geraldo, W.Mannhart,G.Boerker,G.Mueller
 #   title: Measurements of the neutron cross section for  Fe-54(n,alpha)Cr-51 between 5.3 and 14.6 MeV
 #   journal: Conf: Conf.on Nucl.Data for Sci.and Technol.,Juelich 1991, p.288 (1991)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  5.290000E+00
-#   E-max [MeV]:  9.820000E+00
-#   F-value:  1.049048E+00
-#   A-value:  9.936033E-01
-#   chi-2:  2.333763E+00
-#   p-value:  3.064657E-01
-#   exp. data sets for p-value:      6
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.027940E+00   9.977536E-01   1.140115E+00
-# endfb8.0      1.027954E+00   9.985634E-01   1.144579E+00
-# jeff3.3       1.094115E+00   9.605588E-01   6.876759E+00
-# jendl5.0      1.028298E+00   9.824671E-01   8.083342E-01
-# cendl3.2      1.052324E+00   1.025345E+00   2.885011E+00
-# irdff2.0      1.028087E+00   9.980841E-01   1.147784E+00

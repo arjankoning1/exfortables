@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: S0(n,n'_01)S1 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Perey
 #   year: 1970
 #   subentry: 10108057
 #   X4 reaction: 16-S-0(N,INL)16-S-0,PAR,SIG,,AV
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/10108057
-#   level energy [MeV]  4.29000E+00
-# target:
+#   level energy [MeV]:  4.29000E+00
+# target: 
 #   Z: 16
 #   A: 0
 #   nuclide: S0
-# reaction:
+# reaction: 
 #   type: (n,n'_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 51
@@ -25,14 +25,15 @@
 #     energy [MeV]:  4.281800E+00
 #     spin:  2.000000E+00
 #     parity: 1
-# residual:
-#   Z: 16
-#   A: 1
-#   nuclide: S1
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 3
+#   residual: 
+#     Z: 16
+#     A: 1
+#     nuclide: S1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    6.000000E+00   8.000000E-02   7.470000E+00   9.412200E-01   1.000000E+00
@@ -42,20 +43,3 @@
 #   author: F.G.PEREY,W.E.KINNEY
 #   title: Sulfur neutron elastic- and inelastic-scattering cross sections from 4.0 to 8.5 MeV
 #   journal: Rept: Oak Ridge National Lab. Reports, No.4539 (1970)
-# statistics:
-#   NEA score: T3
-#   IAEA score: -1
-#   E-min [MeV]:  6.000000E+00
-#   E-max [MeV]:  8.520000E+00
-#   F-value:  2.152237E+01
-#   A-value:  2.128684E+01
-#   chi-2:  4.354233E+04
-#   p-value:  0.000000E+00
-#   exp. data sets for p-value:      6
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.850216E+01   1.823632E+01   3.127897E+04
-# endfb8.0      2.396068E+01   2.389351E+01   5.329784E+04
-# jeff3.3       1.965520E+01   1.933716E+01   3.586216E+04
-# jendl5.0      2.396068E+01   2.389351E+01   5.329784E+04
-# cendl3.2      2.192290E+01   2.171033E+01   4.397483E+04

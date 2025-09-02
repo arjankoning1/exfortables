@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Al27(a,n')P30 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Williamson
 #   year: 1960
 #   subentry: C2190003
 #   X4 reaction: 13-AL-27(A,N)15-P-30,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/C2190003
-# target:
+# target: 
 #   Z: 13
 #   A: 27
 #   nuclide: Al27
-# reaction:
+# reaction: 
 #   type: (a,n')
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 15
-#   A: 30
-#   nuclide: P30
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 147
+#   residual: 
+#     Z: 15
+#     A: 30
+#     nuclide: P30
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 147
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.766000E+00   0.000000E+00   7.650000E-01   1.147500E-01   1.000000E+00
@@ -180,17 +181,3 @@
 #   author: R.M.Williamson,T.Katman,B.S.Burton
 #   title: F19, Na23, and Al27(a,n) Reactions
 #   journal: Jour: Physical Review, Vol.117, p.1325 (1960)
-# statistics:
-#   NEA score: R2
-#   IAEA score:  0
-#   E-min [MeV]:  2.766000E+00
-#   E-max [MeV]:  3.949000E+00
-#   F-value:  3.629587E+00
-#   A-value:  3.592811E-01
-#   chi-2:  1.666593E+01
-#   p-value:  5.564328E-02
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    3.479689E+00   3.483163E-01   1.730796E+01
-# jendl5.0      2.983816E+00   4.377033E-01   1.385153E+01

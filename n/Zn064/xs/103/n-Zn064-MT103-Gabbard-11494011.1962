@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Zn64(n,p)Cu64 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Gabbard
 #   year: 1962
 #   subentry: 11494011
 #   X4 reaction: 30-ZN-64(N,P)29-CU-64,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/11494011
-# target:
+# target: 
 #   Z: 30
 #   A: 64
 #   nuclide: Zn64
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 29
-#   A: 64
-#   nuclide: Cu64
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 17
+#   residual: 
+#     Z: 29
+#     A: 64
+#     nuclide: Cu64
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 17
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.240000E+01   1.000000E-01   2.456582E+02   1.800000E+01   9.376267E-01
@@ -50,21 +51,3 @@
 #   author: F.Gabbard,B.D.Kern
 #   title: Cross sections for charged particle reactions induced in medium weight nuclei by neutrons in the energy range 12-18 MeV.
 #   journal: Jour: Physical Review, Vol.128, p.1276 (1962)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.240000E+01
-#   E-max [MeV]:  1.755000E+01
-#   F-value:  1.304278E+00
-#   A-value:  8.019695E-01
-#   chi-2:  7.606859E+00
-#   p-value:  2.135836E-01
-#   exp. data sets for p-value:      6
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.279165E+00   8.137349E-01   6.764694E+00
-# endfb8.0      1.339692E+00   7.811472E-01   8.926251E+00
-# jeff3.3       1.279083E+00   8.139429E-01   6.758702E+00
-# jendl5.0      1.307996E+00   7.948303E-01   7.854162E+00
-# cendl3.2      1.332473E+00   7.970140E-01   8.436055E+00
-# irdff2.0      1.283289E+00   8.117027E-01   6.901289E+00

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ti47(p,n')V47 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Taketani
 #   year: 1962
 #   subentry: B0051002
 #   X4 reaction: 22-TI-47(P,N)23-V-47,,SIG,,,EXP
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/B0051002
-# target:
+# target: 
 #   Z: 22
 #   A: 47
 #   nuclide: Ti47
-# reaction:
+# reaction: 
 #   type: (p,n')
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 23
-#   A: 47
-#   nuclide: V47
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 6
+#   residual: 
+#     Z: 23
+#     A: 47
+#     nuclide: V47
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.790000E+00   1.000000E-01   1.360000E+02   7.000000E+00   1.000000E+00
@@ -39,17 +40,3 @@
 #   author: H.TAKETANI, W.P.ALFORD
 #   title: (P,N) Cross Sections on Ti-47, V-51, Cr-52, Co-59, And Cu-63 from 4 to 6.5 MeV
 #   journal: Jour: Physical Review, Vol.125, p.291 (1962)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  4.790000E+00
-#   E-max [MeV]:  6.570000E+00
-#   F-value:  1.268771E+00
-#   A-value:  1.255764E+00
-#   chi-2:  2.506536E+01
-#   p-value:  2.283549E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.308933E+00   1.303080E+00   3.261203E+01
-# jendl5.0      1.224014E+00   1.210165E+00   1.751868E+01

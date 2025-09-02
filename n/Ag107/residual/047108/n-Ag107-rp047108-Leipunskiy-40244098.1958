@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ag107(n,x)Ag108 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Leipunskiy
 #   year: 1958
 #   subentry: 40244098
 #   X4 reaction: 47-AG-107(N,G)47-AG-108,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/40244098
-# target:
+# target: 
 #   Z: 47
 #   A: 107
 #   nuclide: Ag107
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 47
-#   A: 108
-#   nuclide: Ag108
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 2
+#   residual: 
+#     Z: 47
+#     A: 108
+#     nuclide: Ag108
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.700000E+00   0.000000E+00   5.600000E+01   1.000000E+00   1.000000E+00
@@ -35,18 +36,3 @@
 #   author: A.I.Leipunskiy, O.D.Kazachkovskiy, G.Ja.Artyukhov, A.I.Baryshnikov, T.S.Belanova, V.I.Galkov, Yu.Ja.Stavisskiy, E.A.Stumbur, L.E.Sherman
 #   title: Radiative capture cross-section measurements  for fast neutrons.
 #   journal: Conf: Second Internat. At.En. Conf., Geneva 1958, Vol.15, p.50 (1958)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  2.700000E+00
-#   E-max [MeV]:  4.000000E+00
-#   F-value:  1.593598E+00
-#   A-value:  6.898571E-01
-#   chi-2:  2.095242E+02
-#   p-value:  2.260267E-01
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.641758E+00   6.303290E-01   2.136822E+02
-# jeff3.3       1.889015E+00   5.327427E-01   4.134573E+02
-# jendl5.0      1.033709E+00   9.776709E-01   1.433235E+00

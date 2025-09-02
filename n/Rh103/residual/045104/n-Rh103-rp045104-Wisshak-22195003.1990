@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Rh103(n,x)Rh104 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Wisshak
 #   year: 1990
 #   subentry: 22195003
 #   X4 reaction: 45-RH-103(N,G)45-RH-104,,SIG,,AV
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22195003
-# target:
+# target: 
 #   Z: 45
 #   A: 103
 #   nuclide: Rh103
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 45
-#   A: 104
-#   nuclide: Rh104
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 12
+#   residual: 
+#     Z: 45
+#     A: 104
+#     nuclide: Rh104
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 12
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.000000E-03   1.000000E-03   2.347437E+03   2.638468E+02   1.058739E+00
@@ -45,17 +46,3 @@
 #   author: K.WISSHAK,F.VOSS,F.KAEPPELER,G.REFFO
 #   title: -MEASUREMENTS OF KEV NEUTRON CAPTURE CROSS SECTIONS  WITH A 4-PI BARIUM FLUORIDE DETECTOR: EXAMPLES OF  93-NB, 103-RH, AND 181-TA.
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.42, p.1731 (1990)
-# statistics:
-#   NEA score: T3
-#   IAEA score: -1
-#   E-min [MeV]:  4.000000E-03
-#   E-max [MeV]:  1.750000E-01
-#   F-value:  2.836631E+00
-#   A-value:  6.427895E-01
-#   chi-2:  2.832227E+02
-#   p-value:  3.399559E-01
-#   exp. data sets for p-value:      7
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    3.474662E+00   5.305941E-01   5.520404E+02
-# jendl5.0      2.201636E+00   7.787089E-01   1.440504E+01

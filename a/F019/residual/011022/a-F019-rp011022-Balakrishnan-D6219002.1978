@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: F19(a,x)Na22 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Balakrishnan
 #   year: 1978
 #   subentry: D6219002
 #   X4 reaction: 9-F-19(A,N)11-NA-22,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/D6219002
-# target:
+# target: 
 #   Z: 9
 #   A: 19
 #   nuclide: F19
-# reaction:
+# reaction: 
 #   type: (a,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 11
-#   A: 22
-#   nuclide: Na22
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 482
+#   residual: 
+#     Z: 11
+#     A: 22
+#     nuclide: Na22
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 482
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.555000E+00   0.000000E+00   1.481000E+00   2.221500E-01   1.000000E+00
@@ -515,17 +516,3 @@
 #   author: M.Balakrishnan, S.Kailas, M.K.Mehta
 #   title: A study of the reaction 19F(alpha,n)22Na in the bombarding energy range 2.6 to 5.1 MeV
 #   journal: Jour: Pramana, Vol.10, p.329 (1978)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  2.555000E+00
-#   E-max [MeV]:  4.970000E+00
-#   F-value:  2.047632E+00
-#   A-value:  1.516188E+00
-#   chi-2:  8.420586E+01
-#   p-value:  1.865301E-01
-#   exp. data sets for p-value:      2
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    2.209190E+00   1.758028E+00   1.240669E+02
-# jendl5.0      1.880763E+00   1.307616E+00   4.434481E+01

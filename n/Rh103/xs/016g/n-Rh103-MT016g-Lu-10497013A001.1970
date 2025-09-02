@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: Rh103(n,2n)Rh102g cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Lu
 #   year: 1970
 #   subentry: 10497013
 #   X4 reaction: 45-RH-103(N,2N)45-RH-102-G,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/10497013
-# target:
+# target: 
 #   Z: 45
 #   A: 103
 #   nuclide: Rh103
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 45
-#   A: 102
-#   nuclide: Rh102g
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 45
+#     A: 102
+#     nuclide: Rh102g
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.440000E+01   3.000000E-01   7.171288E+02   6.182145E+01   1.373810E+00
@@ -39,18 +40,3 @@
 #   author: W.D.Lu,N.Ranakumar,R.W.Fink
 #   title: Activation Cross Sections for (n,2n) Reactions at 14.4  MeV in the Region Z=40-60. Precision Measurements and  Systematics.
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.1, p.350 (1970)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.440000E+01
-#   E-max [MeV]:  1.440000E+01
-#   F-value:  1.012813E+00
-#   A-value:  1.012102E+00
-#   chi-2:  1.821053E-01
-#   p-value:  2.968346E-01
-#   exp. data sets for p-value:      5
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.008649E+00   1.008649E+00   1.284342E-01
-# jeff3.3       1.018064E+00   1.018064E+00   2.746914E-01
-# jendl5.0      1.009619E+00   1.009619E+00   1.431905E-01

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Sn112(n,np)In111 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Lu
 #   year: 1970
 #   subentry: 10497021
 #   X4 reaction: 50-SN-112(N,X)49-IN-111,CUM,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/10497021
-# target:
+# target: 
 #   Z: 50
 #   A: 112
 #   nuclide: Sn112
-# reaction:
+# reaction: 
 #   type: (n,np)
 #   ENDF_MF: 3
 #   ENDF_MT: 28
-# residual:
-#   Z: 49
-#   A: 111
-#   nuclide: In111
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 49
+#     A: 111
+#     nuclide: In111
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.440000E+01   3.000000E-01   1.413578E+03   1.108689E+02   1.108689E+00
@@ -34,20 +35,3 @@
 #   author: W.D.Lu,N.Ranakumar,R.W.Fink
 #   title: Activation Cross Sections for (n,2n) Reactions at 14.4  MeV in the Region Z=40-60. Precision Measurements and  Systematics.
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.1, p.350 (1970)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  1.440000E+01
-#   E-max [MeV]:  1.440000E+01
-#   F-value:  2.787359E+01
-#   A-value:  3.856116E-02
-#   chi-2:  1.473463E+02
-#   p-value:  4.172325E-07
-#   exp. data sets for p-value:      6
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    4.257376E+01   2.348864E-02   1.550154E+02
-# endfb8.0      1.221069E+01   8.189547E-02   1.370264E+02
-# jeff3.3       3.176576E+01   3.148044E-02   1.524884E+02
-# jendl5.0      1.114588E+01   8.971924E-02   1.347010E+02
-# cendl3.2      6.372264E+01   1.569301E-02   1.575003E+02

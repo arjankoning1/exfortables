@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Fe0(p,x)K43 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Lagardesimonoff
 #   year: 1975
 #   subentry: O0410011
 #   X4 reaction: 26-FE-0(P,X)19-K-43,CUM,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/O0410011
-# target:
+# target: 
 #   Z: 26
 #   A: 0
 #   nuclide: Fe0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 19
-#   A: 43
-#   nuclide: K43
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 3
+#   residual: 
+#     Z: 19
+#     A: 43
+#     nuclide: K43
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.500000E+02   0.000000E+00   7.799999E-02   1.600000E-02   1.000000E+00
@@ -36,18 +37,3 @@
 #   author: M.Lagarde-Simonoff,S.Regnier,H.Sauvageon,G.N.Simonoff, F.Brout
 #   title: Spallation cross sections in high energy nuclear reactions with medium mass targets 21<=z<=29 and 0.15,  0.3 and 0.6 GeV protons.
 #   journal: Jour: Journal of Inorganic and Nuclear Chemistry, Vol.37, p.627 (1975)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  1.500000E+02
-#   E-max [MeV]:  6.000000E+02
-#   F-value:  2.673266E+00
-#   A-value:  4.646404E-01
-#   chi-2:  7.113239E+00
-#   p-value:  1.300169E-01
-#   exp. data sets for p-value:      3
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    4.672827E+00   2.140032E-01   1.468591E+01
-# endfb8.0      2.060115E+00   4.854098E-01   6.436332E+00
-# jendl5.0      1.035566E+00   9.656553E-01   2.174749E-01

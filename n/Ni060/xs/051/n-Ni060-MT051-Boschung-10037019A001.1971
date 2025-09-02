@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Ni60(n,n'_01)Ni61 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Boschung
 #   year: 1971
 #   subentry: 10037019
 #   X4 reaction: 28-NI-60(N,INL)28-NI-60,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/10037019
-#   level energy [MeV]  1.33000E+00
-# target:
+#   level energy [MeV]:  1.33000E+00
+# target: 
 #   Z: 28
 #   A: 60
 #   nuclide: Ni60
-# reaction:
+# reaction: 
 #   type: (n,n'_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 51
@@ -25,14 +25,15 @@
 #     energy [MeV]:  1.332514E+00
 #     spin:  2.000000E+00
 #     parity: 1
-# residual:
-#   Z: 28
-#   A: 61
-#   nuclide: Ni61
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 2
+#   residual: 
+#     Z: 28
+#     A: 61
+#     nuclide: Ni61
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    5.050000E+00   1.000000E-02   2.410000E+02   9.000000E+00   1.000000E+00
@@ -41,20 +42,3 @@
 #   author: P.Boschung,J.T.Lindow,E.F.Shrader
 #   title: Scattering of fast neutrons by C-12,Fe-54,Fe-56,Ni-58,  and Ni-60.
 #   journal: Jour: Nuclear Physics, Section A, Vol.161, p.593 (1971)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  5.050000E+00
-#   E-max [MeV]:  5.580000E+00
-#   F-value:  1.420951E+00
-#   A-value:  7.513683E-01
-#   chi-2:  3.573550E+01
-#   p-value:  9.409359E-02
-#   exp. data sets for p-value:      2
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.630862E+00   6.131978E-01   6.752499E+01
-# endfb8.0      1.629266E+00   6.137987E-01   6.730914E+01
-# jeff3.3       1.022038E+00   9.784447E-01   6.205010E-01
-# jendl5.0      1.444329E+00   6.927510E-01   4.089767E+01
-# cendl3.2      1.065416E+00   9.386945E-01   2.325219E+00

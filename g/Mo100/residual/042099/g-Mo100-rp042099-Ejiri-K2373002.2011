@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Mo100(g,x)Mo99 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Ejiri
 #   year: 2011
 #   subentry: K2373002
 #   X4 reaction: 42-MO-100(G,N)42-MO-99,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/K2373002
-# target:
+# target: 
 #   Z: 42
 #   A: 100
 #   nuclide: Mo100
-# reaction:
+# reaction: 
 #   type: (g,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 42
-#   A: 99
-#   nuclide: Mo99
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 42
+#     A: 99
+#     nuclide: Mo99
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.400000E+01   4.000000E+00   1.060000E+02   2.000000E+01   1.000000E+00
@@ -34,18 +35,3 @@
 #   author: H.Ejiri, T.Shima, S.Miyamoto, K.Horikawa, Y.Kitagawa,  Y.Asano, S.Date, Y.Ohashi
 #   title: Resonant photonuclear reactions for isotope transmutation
 #   journal: Jour: Journal of the Physical Society of Japan, Vol.80, p.094202 (2011)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.400000E+01
-#   E-max [MeV]:  1.400000E+01
-#   F-value:  1.333125E+00
-#   A-value:  1.332965E+00
-#   chi-2:  3.531152E+00
-#   p-value:  1.318588E-01
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.339697E+00   1.339697E+00   3.640427E+00
-# endfb8.0      1.341881E+00   1.341881E+00   3.677670E+00
-# jendl5.0      1.317456E+00   1.317456E+00   3.275359E+00

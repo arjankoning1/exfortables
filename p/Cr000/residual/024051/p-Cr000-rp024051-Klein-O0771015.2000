@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Cr0(p,x)Cr51 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Klein
 #   year: 2000
 #   subentry: O0771015
 #   X4 reaction: 24-CR-0(P,X)24-CR-51,IND,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/O0771015
-# target:
+# target: 
 #   Z: 24
 #   A: 0
 #   nuclide: Cr0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 24
-#   A: 51
-#   nuclide: Cr51
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 15
+#   residual: 
+#     Z: 24
+#     A: 51
+#     nuclide: Cr51
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 15
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.739000E+01   4.800000E-01   2.393138E+02   7.218970E+01   9.889001E-01
@@ -48,18 +49,3 @@
 #   author: A.T.J.Klein,F.Roesch,S.M.Qaim
 #   title: Investigation of Cr-50(d,n)Mn-51 and Nat-Cr(p,x)Mn-51 processes with respect to the production of the positron emitter Mn-51.
 #   journal: Jour: Radiochimica Acta, Vol.88, p.253 (2000)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  1.739000E+01
-#   E-max [MeV]:  3.808000E+01
-#   F-value:  1.120693E+00
-#   A-value:  1.064026E+00
-#   chi-2:  4.753442E-01
-#   p-value:  3.081942E-01
-#   exp. data sets for p-value:      4
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.174014E+00   1.098837E+00   7.399064E-01
-# endfb8.0      1.090899E+00   1.043859E+00   3.681007E-01
-# jendl5.0      1.078029E+00   1.050223E+00   3.180255E-01

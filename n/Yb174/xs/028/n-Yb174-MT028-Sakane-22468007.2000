@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Yb174(n,np)Tm173 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Sakane
 #   year: 2000
 #   subentry: 22468007
 #   X4 reaction: 70-YB-174(N,X)69-TM-173,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22468007
-# target:
+# target: 
 #   Z: 70
 #   A: 174
 #   nuclide: Yb174
-# reaction:
+# reaction: 
 #   type: (n,np)
 #   ENDF_MF: 3
 #   ENDF_MT: 28
-# residual:
-#   Z: 69
-#   A: 173
-#   nuclide: Tm173
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 6
+#   residual: 
+#     Z: 69
+#     A: 173
+#     nuclide: Tm173
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.340000E+01   0.000000E+00   1.200000E-01   4.560000E-02   1.000000E+00
@@ -39,19 +40,3 @@
 #   author: H.Sakane, M.Shibata, K.Kawade, Y.Kasugai, Y.Ikeda
 #   title: Systematics of (n,n'p) reaction cross sections  by 14 MeV neutrons
 #   journal: Conf: Japanese report to the I.N.D.C., No.185, p.202 (2000)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  1.340000E+01
-#   E-max [MeV]:  1.487000E+01
-#   F-value:  2.095806E+01
-#   A-value:  4.875286E-02
-#   chi-2:  2.006059E+01
-#   p-value:  3.278255E-07
-#   exp. data sets for p-value:      2
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    2.491245E+01   4.078240E-02   2.045008E+01
-# endfb8.0      1.848154E+01   5.535272E-02   1.975320E+01
-# jeff3.3       2.242817E+01   4.521159E-02   2.028590E+01
-# jendl5.0      1.848154E+01   5.535272E-02   1.975320E+01

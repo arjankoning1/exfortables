@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Tc99(n,x)Tc100 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Kobayashi
 #   year: 2004
 #   subentry: 22866002
 #   X4 reaction: 43-TC-99(N,G)43-TC-100,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22866002
-# target:
+# target: 
 #   Z: 43
 #   A: 99
 #   nuclide: Tc99
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 43
-#   A: 100
-#   nuclide: Tc100
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 187
+#   residual: 
+#     Z: 43
+#     A: 100
+#     nuclide: Tc100
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 187
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.510000E-09   0.000000E+00   5.662550E+04   4.132150E+03   1.000000E+00
@@ -220,18 +221,3 @@
 #   author: K.Kobayashi, S.Lee, S.Yamamoto, T.Kawano
 #   title: .Neutron capture cross section measurement of Tc-99  by linac time-of flight method and the resonance  analysis
 #   journal: Jour: Nuclear Science and Engineering, Vol.146, Issue.2, p.209 (2004)
-# statistics:
-#   NEA score: T3
-#   IAEA score:  1
-#   E-min [MeV]:  4.510000E-09
-#   E-max [MeV]:  4.685000E-02
-#   F-value:  5.746336E+00
-#   A-value:  3.989968E-01
-#   chi-2:  2.330362E+02
-#   p-value:  1.573613E-01
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    5.693690E+00   3.952278E-01   2.621562E+02
-# jeff3.3       5.691359E+00   3.975416E-01   2.621198E+02
-# jendl5.0      5.854610E+00   4.042763E-01   1.748328E+02

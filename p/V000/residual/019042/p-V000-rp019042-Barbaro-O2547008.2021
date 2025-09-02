@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: V0(p,x)K42 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Barbaro
 #   year: 2021
 #   subentry: O2547008
 #   X4 reaction: 23-V-0(P,X)19-K-42,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/O2547008
-# target:
+# target: 
 #   Z: 23
 #   A: 0
 #   nuclide: V0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 19
-#   A: 42
-#   nuclide: K42
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 8
+#   residual: 
+#     Z: 19
+#     A: 42
+#     nuclide: K42
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    5.100000E+01   7.000000E-01   7.000000E-02   1.000000E-02   1.000000E+00
@@ -41,17 +42,3 @@
 #   author: F.Barbaro, L.Canton, M.P.Carante, A.Colombi,  L.De Dominicis, A.Fontana, F.Haddad, L.Mou,  G.Pupillo
 #   title: New results on proton-induced reactions on vanadium  for 47Sc production and the impact of level densities  on theoretical cross sections
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.104, p.044619 (2021)
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  5.100000E+01
-#   E-max [MeV]:  7.000000E+01
-#   F-value:  6.020140E+00
-#   A-value:  2.634614E-01
-#   chi-2:  9.007233E+01
-#   p-value:  2.425572E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.249446E+01   8.116247E-02   1.651245E+02
-# jendl5.0      1.297370E+00   8.552216E-01   1.502014E+01

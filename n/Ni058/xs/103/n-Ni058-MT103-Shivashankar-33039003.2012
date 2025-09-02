@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ni58(n,p)Co58 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Shivashankar
 #   year: 2012
 #   subentry: 33039003
 #   X4 reaction: 28-NI-58(N,P)27-CO-58,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/33039003
-# target:
+# target: 
 #   Z: 28
 #   A: 58
 #   nuclide: Ni58
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 27
-#   A: 58
-#   nuclide: Co58
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 27
+#     A: 58
+#     nuclide: Co58
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.700000E+00   3.000000E-01   3.162546E+02   3.591535E+01   9.976487E-01
@@ -34,21 +35,3 @@
 #   author: B.S.Shivashankar, H.Naik, S.V.Suryanarayana, P.M.Prajapati, V.K.Mulik, K.C.Jagadeesan, S.V.Thakare, A.Goswami, S.Ganesan
 #   title: Measurement of reaction cross-sections for 64Ni(n,gamma)65Ni at En = 0.025 eV and 58Ni(n,p)58Co at En = 3.7 MeV
 #   journal: Jour: Journal of Radioanalytical and Nuclear Chemistry, Vol.292, p.745 (
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  3.700000E+00
-#   E-max [MeV]:  3.700000E+00
-#   F-value:  1.004141E+00
-#   A-value:  9.969201E-01
-#   chi-2:  3.429809E-02
-#   p-value:  3.332216E-01
-#   exp. data sets for p-value:      8
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.001043E+00   9.989585E-01   1.151664E-02
-# endfb8.0      1.001967E+00   9.980369E-01   2.174398E-02
-# jeff3.3       1.008902E+00   9.911767E-01   9.898405E-02
-# jendl5.0      1.001805E+00   9.981982E-01   1.995168E-02
-# cendl3.2      1.003849E+00   9.961659E-01   4.261399E-02
-# irdff2.0      1.000994E+00   9.990070E-01   1.097816E-02

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: N15(d,p)N16 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Bostrom
 #   year: 1957
 #   subentry: P0078003
 #   X4 reaction: 7-N-15(D,P)7-N-16,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/P0078003
-# target:
+# target: 
 #   Z: 7
 #   A: 15
 #   nuclide: N15
-# reaction:
+# reaction: 
 #   type: (d,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 7
-#   A: 16
-#   nuclide: N16
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 31
+#   residual: 
+#     Z: 7
+#     A: 16
+#     nuclide: N16
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 31
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    6.000000E-01   0.000000E+00   6.000000E+00   0.000000E+00   1.000000E+00
@@ -64,16 +65,3 @@
 #   author: N.A.BOSTROM,E.L.HUDSPETH,I.L.MORGAN
 #   title: Deuteron-Induced Reactions Leading to N16
 #   journal: Jour: Physical Review, Vol.105, p.1545 (1957)
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  6.000000E-01
-#   E-max [MeV]:  2.610000E+00
-#   F-value:  2.215271E+01
-#   A-value:  4.669544E-02
-#   chi-2:  0.000000E+00
-#   p-value:  5.383645E-08
-#   exp. data sets for p-value:      1
-#   libraries:      1
-##  Library          F              A            chi-2
-# tendl.2023    2.215271E+01   4.669544E-02   0.000000E+00

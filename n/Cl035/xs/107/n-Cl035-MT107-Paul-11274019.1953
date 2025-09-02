@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Cl35(n,a)P32 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Paul
 #   year: 1953
 #   subentry: 11274019
 #   X4 reaction: 17-CL-35(N,A)15-P-32,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/11274019
-# target:
+# target: 
 #   Z: 17
 #   A: 35
 #   nuclide: Cl35
-# reaction:
+# reaction: 
 #   type: (n,a)
 #   ENDF_MF: 3
 #   ENDF_MT: 107
-# residual:
-#   Z: 15
-#   A: 32
-#   nuclide: P32
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 15
+#     A: 32
+#     nuclide: P32
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.450000E+01   0.000000E+00   1.910000E+02   3.056000E+01   1.000000E+00
@@ -34,19 +35,3 @@
 #   author: E.B.Paul,R.L.Clarke
 #   title: CROSS SECTION MEASUREMENTS OF REACTIONS INDUCED BY NEUTRONS OF THE 14.5 MEV ENERGY.
 #   journal: Jour: Canadian Journal of Physics, Vol.31, p.267 (1953)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  0
-#   E-min [MeV]:  1.450000E+01
-#   E-max [MeV]:  1.450000E+01
-#   F-value:  1.585994E+00
-#   A-value:  6.310177E-01
-#   chi-2:  5.530554E+00
-#   p-value:  9.606010E-02
-#   exp. data sets for p-value:      5
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.514808E+00   6.601496E-01   4.782681E+00
-# endfb8.0      1.599580E+00   6.251642E-01   5.681500E+00
-# jeff3.3       1.599580E+00   6.251642E-01   5.681500E+00
-# jendl5.0      1.627288E+00   6.145194E-01   5.976537E+00

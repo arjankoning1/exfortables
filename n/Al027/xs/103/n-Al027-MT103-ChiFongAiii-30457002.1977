@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Al27(n,p)Mg27 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: ChiFongAiii
 #   year: 1977
 #   subentry: 30457002
 #   X4 reaction: 13-AL-27(N,P)12-MG-27,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30457002
-# target:
+# target: 
 #   Z: 13
 #   A: 27
 #   nuclide: Al27
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 12
-#   A: 27
-#   nuclide: Mg27
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 16
+#   residual: 
+#     Z: 12
+#     A: 27
+#     nuclide: Mg27
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 16
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.780000E+00   4.000000E-02   2.723900E-01   1.357100E-02   9.693593E-01
@@ -49,21 +50,3 @@
 #   author: Chi-Fong Ai,Mien-Win Wu,Jen-Chang Chou
 #   title: Measurements of Al-27(n,p)Mg-27 and Fe-54(n,p)Mn-54 cross sections.
 #   journal: Jour: Nuclear Science, Taiwan, Vol.14, Issue.4, p.1 (1977)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  2.780000E+00
-#   E-max [MeV]:  4.590000E+00
-#   F-value:  1.303832E+00
-#   A-value:  9.581180E-01
-#   chi-2:  2.239898E+01
-#   p-value:  3.384824E-01
-#   exp. data sets for p-value:      8
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.076224E+00   9.755666E-01   2.165190E+00
-# endfb8.0      1.288641E+00   1.072176E+00   2.944403E+01
-# jeff3.3       1.288641E+00   1.072176E+00   2.944403E+01
-# jendl5.0      1.316731E+00   1.016455E+00   2.767531E+01
-# cendl3.2      1.576670E+00   6.963210E-01   4.360813E+01
-# irdff2.0      1.075500E+00   9.746011E-01   2.057220E+00

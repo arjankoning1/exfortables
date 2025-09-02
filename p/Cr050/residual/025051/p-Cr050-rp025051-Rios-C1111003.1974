@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Cr50(p,x)Mn51 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Rios
 #   year: 1974
 #   subentry: C1111003
 #   X4 reaction: 24-CR-50(P,G)25-MN-51,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/C1111003
-# target:
+# target: 
 #   Z: 24
 #   A: 50
 #   nuclide: Cr50
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 25
-#   A: 51
-#   nuclide: Mn51
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 35
+#   residual: 
+#     Z: 25
+#     A: 51
+#     nuclide: Mn51
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 35
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    7.600329E-01   0.000000E+00   1.119000E-03   2.238000E-04   1.000000E+00
@@ -68,17 +69,3 @@
 #   author: M.Rios,B.D.Anderson,J.S.Schweitzer
 #   title: The 46Ti(p,gamma)47V, 50Cr(p,gamma)51Mn, 58Ni(alpha,gamma)62Zn and 58Ni(alpha,p)61Cu cross sections
 #   journal: Jour: Nuclear Physics, Section A, Vol.236, p.523 (1974)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  7.600329E-01
-#   E-max [MeV]:  4.190893E+00
-#   F-value:  2.453175E+00
-#   A-value:  1.685780E+00
-#   chi-2:  1.324912E+02
-#   p-value:  2.809005E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.878790E+00   1.130051E+00   5.938491E+01
-# jendl5.0      3.118422E+00   2.685535E+00   2.232555E+02

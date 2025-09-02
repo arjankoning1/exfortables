@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ca43(n,x)K43 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Csikai
 #   year: 1967
 #   subentry: 30115005
 #   X4 reaction: 20-CA-43(N,P)19-K-43,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30115005
-# target:
+# target: 
 #   Z: 20
 #   A: 43
 #   nuclide: Ca43
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 19
-#   A: 43
-#   nuclide: K43
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 19
+#     A: 43
+#     nuclide: K43
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.470000E+01   0.000000E+00   1.010000E+02   8.000000E+00   1.000000E+00
@@ -34,19 +35,3 @@
 #   author: J.Csikai,S.Nagy
 #   title: Some (n,p) reaction cross-sections for 14.7MeV neutrons
 #   journal: Jour: Nuclear Physics, Section A, Vol.91, p.222 (1967)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.470000E+01
-#   E-max [MeV]:  1.470000E+01
-#   F-value:  1.102911E+00
-#   A-value:  9.252920E-01
-#   chi-2:  1.696589E+00
-#   p-value:  3.574293E-01
-#   exp. data sets for p-value:      6
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.126065E+00   8.880479E-01   2.531195E+00
-# endfb8.0      1.009900E+00   9.901973E-01   1.592361E-01
-# jeff3.3       1.165020E+00   8.583543E-01   3.601715E+00
-# jendl5.0      1.029697E+00   9.711593E-01   4.942078E-01

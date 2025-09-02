@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Te0(p,x)I124 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Elazony
 #   year: 2008
 #   subentry: D0502005
 #   X4 reaction: 52-TE-0(P,X)53-I-124,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/D0502005
-# target:
+# target: 
 #   Z: 52
 #   A: 0
 #   nuclide: Te0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 53
-#   A: 124
-#   nuclide: I124
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 27
+#   residual: 
+#     Z: 53
+#     A: 124
+#     nuclide: I124
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 27
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.870000E+00   1.800000E+00   1.600000E+00   2.000000E-01   1.000000E+00
@@ -60,17 +61,3 @@
 #   author: K.M.El-Azony, K.Suzuki, T.Fukumura, F.Szelecsenyi,  Z.Kovacs
 #   title: Proton induced reactions on natural tellurium up to  63 MeV: Data validation and investigation of  possibility of 124I production
 #   journal: Jour: Radiochimica Acta, Vol.96, p.763 (2008)
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  3.870000E+00
-#   E-max [MeV]:  6.295000E+01
-#   F-value:  3.492220E+00
-#   A-value:  6.035793E-01
-#   chi-2:  1.550737E+01
-#   p-value:  2.617607E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    2.768809E+00   6.688108E-01   1.252984E+01
-# jendl5.0      4.245507E+00   5.447103E-01   1.848491E+01

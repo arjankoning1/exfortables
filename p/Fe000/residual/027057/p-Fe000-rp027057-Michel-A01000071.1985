@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Fe0(p,x)Co57 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Michel
 #   year: 1985
 #   subentry: A01000071
 #   X4 reaction: 26-FE-0(P,X)27-CO-57,IND,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/A01000071
-# target:
+# target: 
 #   Z: 26
 #   A: 0
 #   nuclide: Fe0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 27
-#   A: 57
-#   nuclide: Co57
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 19
+#   residual: 
+#     Z: 27
+#     A: 57
+#     nuclide: Co57
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 19
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    7.900000E+01   1.900000E+00   3.350000E-01   4.400000E-02   1.000000E+00
@@ -52,18 +53,3 @@
 #   author: R.Michel,R.Stueck,F.Peiffer
 #   title: Proton-induced reaction on Ti,V,Mn,Fe,Co and Ni.
 #   journal: Jour: Nuclear Physics, Section A, Vol.441, p.617 (1985)
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  7.900000E+01
-#   E-max [MeV]:  1.998000E+02
-#   F-value:  3.371968E+00
-#   A-value:  3.047169E-01
-#   chi-2:  2.270171E+01
-#   p-value:  1.561698E-01
-#   exp. data sets for p-value:      2
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    3.747048E+00   2.738056E-01   2.480753E+01
-# endfb8.0      2.655453E+00   3.788449E-01   2.143102E+01
-# jendl5.0      3.040038E+00   3.363146E-01   2.074822E+01

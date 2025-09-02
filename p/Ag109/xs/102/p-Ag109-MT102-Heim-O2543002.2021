@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ag109(p,g)Cd110 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Heim
 #   year: 2021
 #   subentry: O2543002
 #   X4 reaction: 47-AG-109(P,G)48-CD-110,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/O2543002
-# target:
+# target: 
 #   Z: 47
 #   A: 109
 #   nuclide: Ag109
-# reaction:
+# reaction: 
 #   type: (p,g)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 48
-#   A: 110
-#   nuclide: Cd110
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 9
+#   residual: 
+#     Z: 48
+#     A: 110
+#     nuclide: Cd110
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 9
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.468636E+00   2.600000E-02   4.800000E-04   6.000000E-05   1.000000E+00
@@ -42,17 +43,3 @@
 #   author: F.Heim, J.Mayer, M.Mueller, P.Scholz, A.Zilges
 #   title: Investigating the 109Ag(p,gamma)110Cd reaction and its underlying nuclear physics
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.103, p.055803 (2021)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  2.468636E+00
-#   E-max [MeV]:  4.980670E+00
-#   F-value:  1.566316E+00
-#   A-value:  1.379728E+00
-#   chi-2:  3.526911E+01
-#   p-value:  2.659649E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.496068E+00   1.206773E+00   2.840821E+01
-# jendl5.0      1.632865E+00   1.577471E+00   4.213000E+01

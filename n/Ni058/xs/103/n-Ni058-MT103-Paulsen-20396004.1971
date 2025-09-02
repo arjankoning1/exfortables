@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ni58(n,p)Co58 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Paulsen
 #   year: 1971
 #   subentry: 20396004
 #   X4 reaction: 28-NI-58(N,P)27-CO-58,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20396004
-# target:
+# target: 
 #   Z: 28
 #   A: 58
 #   nuclide: Ni58
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 27
-#   A: 58
-#   nuclide: Co58
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 39
+#   residual: 
+#     Z: 27
+#     A: 58
+#     nuclide: Co58
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 39
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    9.900000E-01   6.100000E-02   1.180000E+00   2.500000E-01   1.000000E+00
@@ -72,21 +73,3 @@
 #   author: A.PAULSEN, R.WIDERA
 #   title: -NI-58(N,P)CO-58 AND FE-54(N,P)MN-54 CROSS-SECTION  MEASUREMENTS FOR USE AS THRESHOLD DETECTORS.-
 #   journal: Conf: Chemical Nucl. Data Conf.,Canterbury 1971, p.129 (1971)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  9.900000E-01
-#   E-max [MeV]:  1.640000E+01
-#   F-value:  1.331811E+00
-#   A-value:  1.082724E+00
-#   chi-2:  1.742523E+01
-#   p-value:  2.971546E-01
-#   exp. data sets for p-value:      2
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.146468E+00   1.045305E+00   5.355086E+00
-# endfb8.0      1.165938E+00   9.556106E-01   5.663058E+00
-# jeff3.3       1.406805E+00   1.273539E+00   2.264501E+01
-# jendl5.0      1.255319E+00   8.998103E-01   7.764720E+00
-# cendl3.2      1.673387E+00   1.364792E+00   5.793853E+01
-# irdff2.0      1.139707E+00   1.031225E+00   5.184958E+00

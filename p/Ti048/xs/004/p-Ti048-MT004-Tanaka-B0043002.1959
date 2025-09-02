@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ti48(p,n')V48 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Tanaka
 #   year: 1959
 #   subentry: B0043002
 #   X4 reaction: 22-TI-48(P,N)23-V-48,,SIG,,,EXP
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/B0043002
-# target:
+# target: 
 #   Z: 22
 #   A: 48
 #   nuclide: Ti48
-# reaction:
+# reaction: 
 #   type: (p,n')
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 23
-#   A: 48
-#   nuclide: V48
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 15
+#   residual: 
+#     Z: 23
+#     A: 48
+#     nuclide: V48
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 15
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    5.100000E+00   0.000000E+00   2.800000E+00   0.000000E+00   1.000000E+00
@@ -48,17 +49,3 @@
 #   author: S.TANAKA, M.FURUKAWA
 #   title: Excitation Functions For (P,N) Reactions with Titanium, Vanadium, Chromium, Iron and Nickel Up to 14 MeV
 #   journal: Jour: Journal of the Physical Society of Japan, Vol.14, p.1269 (1959)
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  5.100000E+00
-#   E-max [MeV]:  1.400000E+01
-#   F-value:  1.927147E+00
-#   A-value:  1.318334E+00
-#   chi-2:  5.559356E-02
-#   p-value:  2.839373E-01
-#   exp. data sets for p-value:      2
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.883721E+00   1.305607E+00   7.891977E-02
-# jendl5.0      1.970064E+00   1.331185E+00   3.226735E-02

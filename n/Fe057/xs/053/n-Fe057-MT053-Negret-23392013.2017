@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Fe57(n,n'_03)Fe58 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Negret
 #   year: 2017
 #   subentry: 23392013
 #   X4 reaction: 26-FE-57(N,INL)26-FE-57,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/23392013
-#   level energy [MeV]  3.66800E-01
-# target:
+#   level energy [MeV]:  3.66800E-01
+# target: 
 #   Z: 26
 #   A: 57
 #   nuclide: Fe57
-# reaction:
+# reaction: 
 #   type: (n,n'_03)
 #   ENDF_MF: 3
 #   ENDF_MT: 53
@@ -25,14 +25,15 @@
 #     energy [MeV]:  3.667590E-01
 #     spin:  1.500000E+00
 #     parity: -1
-# residual:
-#   Z: 26
-#   A: 58
-#   nuclide: Fe58
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 32
+#   residual: 
+#     Z: 26
+#     A: 58
+#     nuclide: Fe58
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 32
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.781050E-01   1.232500E-02   0.000000E+00   0.000000E+00   1.000000E+00
@@ -71,20 +72,3 @@
 #   author: A.Negret,M.Sin,C.Borcea,R.Capote,Ph.Dessagne, M.Kerveno,N.Nankov,A.Olacel,A.J.M.Plompen,C.Rouki
 #   title: Cross-section measurements for the 57Fe(n,n gamma)57Fe and 57Fe(n,2n gamma)56Fe reactions
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.96, p.024620 (2017)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  3.781050E-01
-#   E-max [MeV]:  5.193320E+00
-#   F-value:  2.317371E+00
-#   A-value:  5.844343E-01
-#   chi-2:  1.226909E+01
-#   p-value:  1.947011E-01
-#   exp. data sets for p-value:      1
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.917672E+00   7.153942E-01   1.021921E+01
-# endfb8.0      2.662614E+00   5.210611E-01   1.335454E+01
-# jeff3.3       1.949458E+00   6.777135E-01   1.003782E+01
-# jendl5.0      2.075727E+00   6.176177E-01   1.057512E+01
-# cendl3.2      2.949137E+00   4.369973E-01   1.715876E+01

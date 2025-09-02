@@ -1,28 +1,29 @@
-# header:
+# header: 
 #   title: Li6(n,non) cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Cookson
 #   year: 1967
 #   subentry: 21162009
 #   X4 reaction: 3-LI-6(N,NON),PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/21162009
-# target:
+# target: 
 #   Z: 3
 #   A: 6
 #   nuclide: Li6
-# reaction:
+# reaction: 
 #   type: (n,non)
 #   ENDF_MF: 3
 #   ENDF_MT: 3
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.000000E+01   4.000000E-02   3.940000E+02   4.600000E+01   1.000000E+00
@@ -30,17 +31,3 @@
 #   author: J.A.COOKSON,D.DANDY,J.C.HOPKINS
 #   title: -SCATTERING OF 10 MEV NEUTRONS BY LI-6 AND LI-7 -.
 #   journal: Jour: Nuclear Physics, Section A, Vol.91, p.273 (1967)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  1.000000E+01
-#   E-max [MeV]:  1.000000E+01
-#   F-value:  1.767639E+00
-#   A-value:  1.764412E+00
-#   chi-2:  4.354871E+01
-#   p-value:  1.938230E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# jeff3.3       1.685788E+00   1.685788E+00   3.450295E+01
-# jendl5.0      1.846704E+00   1.846704E+00   5.259446E+01

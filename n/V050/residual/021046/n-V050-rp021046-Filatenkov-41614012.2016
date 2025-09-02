@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: V50(n,x)Sc46 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Filatenkov
 #   year: 2016
 #   subentry: 41614012
 #   X4 reaction: 23-V-50(N,N+A)21-SC-46,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/41614012
-# target:
+# target: 
 #   Z: 23
 #   A: 50
 #   nuclide: V50
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 22
-# residual:
-#   Z: 21
-#   A: 46
-#   nuclide: Sc46
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 2
+#   residual: 
+#     Z: 21
+#     A: 46
+#     nuclide: Sc46
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.365000E+01   0.000000E+00   2.600000E-02   1.999400E-02   9.999945E-01
@@ -35,18 +36,3 @@
 #   author: A.A.Filatenkov
 #   title: Neutron activation cross sections measured at KRI in neutron energy region 13.4 - 14.9 MeV
 #   journal: Rept: USSR report to the I.N.D.C., No.0460 (2016)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  1.365000E+01
-#   E-max [MeV]:  1.482000E+01
-#   F-value:  3.252277E+00
-#   A-value:  3.597945E-01
-#   chi-2:  4.668408E+00
-#   p-value:  1.749910E-01
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    5.643682E+00   1.771893E-01   1.280648E+01
-# jeff3.3       3.606011E+00   2.774546E-01   5.806143E+00
-# jendl5.0      1.929775E+00   6.847181E-01   1.141800E+00

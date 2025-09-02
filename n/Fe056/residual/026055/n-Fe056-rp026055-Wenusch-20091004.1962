@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Fe56(n,x)Fe55 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Wenusch
 #   year: 1962
 #   subentry: 20091004
 #   X4 reaction: 26-FE-56(N,2N)26-FE-55,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20091004
-# target:
+# target: 
 #   Z: 26
 #   A: 56
 #   nuclide: Fe56
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 26
-#   A: 55
-#   nuclide: Fe55
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 26
+#     A: 55
+#     nuclide: Fe55
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.400000E+01   0.000000E+00   4.400000E+02   9.000000E+01   1.000000E+00
@@ -34,18 +35,3 @@
 #   author: R.WENUSCH,H.VONACH
 #   title: -(N,2N) CROSS-SECTION MEASUREMENTS ON MN-55, CO-59,  CR-52, FE-56 AND ZN-68 FOR 14 MEV NEUTRONS.-  (IN GERMAN).
 #   journal: Jour: Oesterr.Akad.Wiss.,Math-Naturw.Kl.,Anzeiger, Vol.99, p.1 (1962)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.400000E+01
-#   E-max [MeV]:  1.400000E+01
-#   F-value:  1.056596E+00
-#   A-value:  9.598546E-01
-#   chi-2:  2.612180E-01
-#   p-value:  2.018946E-01
-#   exp. data sets for p-value:      3
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.096637E+00   9.118791E-01   5.938312E-01
-# jeff3.3       1.023088E+00   9.774333E-01   1.415430E-01
-# jendl5.0      1.007878E+00   9.921835E-01   4.827976E-02

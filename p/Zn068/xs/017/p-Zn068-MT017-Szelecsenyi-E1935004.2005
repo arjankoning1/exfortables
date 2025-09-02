@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Zn68(p,3n)Ga66 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Szelecsenyi
 #   year: 2005
 #   subentry: E1935004
 #   X4 reaction: 30-ZN-68(P,3N)31-GA-66,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/E1935004
-# target:
+# target: 
 #   Z: 30
 #   A: 68
 #   nuclide: Zn68
-# reaction:
+# reaction: 
 #   type: (p,3n)
 #   ENDF_MF: 3
 #   ENDF_MT: 17
-# residual:
-#   Z: 31
-#   A: 66
-#   nuclide: Ga66
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 20
+#   residual: 
+#     Z: 31
+#     A: 66
+#     nuclide: Ga66
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 20
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.478000E+01   2.190000E+00   3.110000E+00   3.500000E-01   1.000000E+00
@@ -53,17 +54,3 @@
 #   author: F.Szelecsenyi, G.F.Steyn, Z.Kovacs, T.N.van der Walt, K.Suzuki, K.Okada, K.Mukai
 #   title: New cross-section data for the 66Zn(p,n)66Ga, 68Zn(p,3n)66Ga, natZn(p,x)66Ga, 68Zn(p,2n)67Ga and natZn(p,x)67Ga nuclear reactions up to 100 MeV
 #   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.234, Issue.4,
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  2.478000E+01
-#   E-max [MeV]:  9.926000E+01
-#   F-value:  1.561807E+00
-#   A-value:  7.464820E-01
-#   chi-2:  1.122831E+01
-#   p-value:  2.231636E-01
-#   exp. data sets for p-value:      5
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.230629E+00   9.845256E-01   6.372327E+00
-# jendl5.0      1.813734E+00   5.659937E-01   1.608430E+01

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Zn64(g,x)Cu62 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Rodrigues
 #   year: 2003
 #   subentry: M0652005
 #   X4 reaction: 30-ZN-64(G,X)29-CU-62,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/M0652005
-# target:
+# target: 
 #   Z: 30
 #   A: 64
 #   nuclide: Zn64
-# reaction:
+# reaction: 
 #   type: (g,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 29
-#   A: 62
-#   nuclide: Cu62
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 801
+#   residual: 
+#     Z: 29
+#     A: 62
+#     nuclide: Cu62
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 801
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.000000E+01   0.000000E+00   1.521000E+00   0.000000E+00   1.000000E+00
@@ -834,18 +835,3 @@
 #   author: T.E.Rodrigues,J.D.T.Arruda-Neto,Z.Carvalheiro,J.Mesa, A.Deppman,V.P.Likhachev,M.N.Martins
 #   title: Statistical and direct aspects of 64Zn(gamma,n) and  (gamma,np) decay channels in the giant dipole  resonance and quasideuteron energy regions.
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.68, p.014618 (2003)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  2.000000E+01
-#   E-max [MeV]:  6.000000E+01
-#   F-value:  2.779467E+00
-#   A-value:  5.108364E-01
-#   chi-2:  0.000000E+00
-#   p-value:  2.616370E-01
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    3.291162E+00   3.855209E-01   0.000000E+00
-# endfb8.0      1.719725E+00   9.719070E-01   0.000000E+00
-# jendl5.0      3.295295E+00   3.557726E-01   0.000000E+00

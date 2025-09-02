@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: Pd102(n,p)Rh102g cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Weigel
 #   year: 1975
 #   subentry: 21609008
 #   X4 reaction: 46-PD-102(N,P)45-RH-102-G,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/21609008
-# target:
+# target: 
 #   Z: 46
 #   A: 102
 #   nuclide: Pd102
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 45
-#   A: 102
-#   nuclide: Rh102g
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 45
+#     A: 102
+#     nuclide: Rh102g
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.440000E+01   3.500000E-01   5.262284E+01   6.000000E+00   8.379431E-01
@@ -39,18 +40,3 @@
 #   author: H.Weigel,R.Michel,W.Herr
 #   title: Measurement  of 14MeV cross sections for (n,p),  (n,alpha),(n,2n) and (n,np+pn+d) reactions in the  elements Sc,Ni,Ge,Pd,Cd,Sm,Dy,Gd and Yb by taking into  account the "effective" n-energy spectra. (in German)
 #   journal: Jour: Radiochimica Acta, Vol.22, p.11 (1975)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.440000E+01
-#   E-max [MeV]:  1.440000E+01
-#   F-value:  1.822644E+00
-#   A-value:  1.756709E+00
-#   chi-2:  5.982499E+01
-#   p-value:  1.170174E-01
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.676929E+00   1.676929E+00   3.524779E+01
-# jeff3.3       1.399741E+00   1.399741E+00   1.230261E+01
-# jendl5.0      2.309603E+00   2.309603E+00   1.319246E+02

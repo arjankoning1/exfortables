@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Si0(p,x)Mg28 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Lundqvist
 #   year: 1979
 #   subentry: A0299007
 #   X4 reaction: 14-SI-0(P,X)12-MG-28,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/A0299007
-# target:
+# target: 
 #   Z: 14
 #   A: 0
 #   nuclide: Si0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 12
-#   A: 28
-#   nuclide: Mg28
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 5
+#   residual: 
+#     Z: 12
+#     A: 28
+#     nuclide: Mg28
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    5.561000E+01   0.000000E+00   1.730000E-02   1.297500E-03   1.000000E+00
@@ -38,18 +39,3 @@
 #   author: H.Lundqvist,P.Malmborg
 #   title: Production of carrier-free Mg-28 and Na-24 by 50-180 MeV protons on Si,P,Cl,S,Ar and K: Excitation functions and chemical separation.
 #   journal: Jour: Applied Radiation and Isotopes, Vol.30, p.33 (1979)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  5.561000E+01
-#   E-max [MeV]:  1.500900E+02
-#   F-value:  2.594580E+00
-#   A-value:  4.158049E-01
-#   chi-2:  6.026000E+01
-#   p-value:  2.557817E-01
-#   exp. data sets for p-value:      2
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    3.129276E+00   3.255318E-01   8.003185E+01
-# endfb8.0      1.890548E+00   5.762801E-01   3.462173E+01
-# jendl5.0      2.367944E+00   4.480383E-01   5.384404E+01

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: As75(n,x)Ge75 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Venugopalarao
 #   year: 1971
 #   subentry: 10157012
 #   X4 reaction: 33-AS-75(N,P)32-GE-75,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/10157012
-# target:
+# target: 
 #   Z: 33
 #   A: 75
 #   nuclide: As75
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 32
-#   A: 75
-#   nuclide: Ge75
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 32
+#     A: 75
+#     nuclide: Ge75
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.440000E+01   3.000000E-01   2.028895E+01   1.768400E+00   1.067839E+00
@@ -34,18 +35,3 @@
 #   author: P.VENUGOPALA RAO,R.E.WOOD,J.M.PALMS,R.W.FINK
 #   title: Neutron Activation Cross Sections for As, Br, Rb and  Sr Isotopes at 14.4 MeV.
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.3, p.629 (1971)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.440000E+01
-#   E-max [MeV]:  1.440000E+01
-#   F-value:  1.051735E+00
-#   A-value:  9.920020E-01
-#   chi-2:  7.183533E-01
-#   p-value:  4.559354E-01
-#   exp. data sets for p-value:      8
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.037056E+00   1.037056E+00   5.852458E-01
-# jeff3.3       1.017239E+00   1.017239E+00   2.586181E-01
-# jendl5.0      1.080657E+00   9.253632E-01   1.311196E+00

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: K41(n,x)Ar41 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Ikeda
 #   year: 1988
 #   subentry: 22089014
 #   X4 reaction: 19-K-41(N,P)18-AR-41,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22089014
-# target:
+# target: 
 #   Z: 19
 #   A: 41
 #   nuclide: K41
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 18
-#   A: 41
-#   nuclide: Ar41
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 8
+#   residual: 
+#     Z: 18
+#     A: 41
+#     nuclide: Ar41
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.332000E+01   0.000000E+00   5.980000E+01   2.800000E+00   1.000000E+00
@@ -41,18 +42,3 @@
 #   author: Y.Ikeda,C.Konno,K.Oishi,T.Nakamura,H.Miyade, K.Kawade,  H.Yamamoto, T.Katoh
 #   title: Activation cross section measurements for fusion  reactor structural materials at neutron energy from  13.3 to 15.0 MeV using FNS facility
 #   journal: Rept: JAERI Reports, No.1312 (1988)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.332000E+01
-#   E-max [MeV]:  1.491000E+01
-#   F-value:  1.122822E+00
-#   A-value:  9.293398E-01
-#   chi-2:  5.201212E+00
-#   p-value:  3.218511E-01
-#   exp. data sets for p-value:      2
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.143382E+00   8.972591E-01   6.739377E+00
-# jeff3.3       1.152829E+00   8.859910E-01   7.562599E+00
-# jendl5.0      1.046669E+00   1.009663E+00   1.301661E+00

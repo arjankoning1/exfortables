@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Cr0(n,n'_01)Cr1 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Towle
 #   year: 1967
 #   subentry: 20905010
 #   X4 reaction: 24-CR-0(N,INL)24-CR-0,PAR,DA,,4PI
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20905010
-#   level energy [MeV]  4.40000E-01
-# target:
+#   level energy [MeV]:  4.40000E-01
+# target: 
 #   Z: 24
 #   A: 0
 #   nuclide: Cr0
-# reaction:
+# reaction: 
 #   type: (n,n'_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 51
@@ -25,14 +25,15 @@
 #     energy [MeV]:  4.018000E-01
 #     spin:  4.500000E+00
 #     parity: -1
-# residual:
-#   Z: 24
-#   A: 1
-#   nuclide: Cr1
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 24
+#     A: 1
+#     nuclide: Cr1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    7.000000E+00   1.500000E-01   1.200000E+03   4.000000E+01   1.000000E+00
@@ -40,20 +41,3 @@
 #   author: J.H.Towle,R.O.Owens
 #   title: Absolute level densities from neutron inelastic  scattering
 #   journal: Jour: Nuclear Physics, Section A, Vol.100, p.257 (1967)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  7.000000E+00
-#   E-max [MeV]:  7.000000E+00
-#   F-value:  1.205248E+01
-#   A-value:  8.313662E-02
-#   chi-2:  7.559606E+02
-#   p-value:  5.960464E-08
-#   exp. data sets for p-value:      3
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.306526E+01   7.653886E-02   7.675023E+02
-# endfb8.0      1.399571E+01   7.145048E-02   7.759838E+02
-# jeff3.3       1.075894E+01   9.294599E-02   7.404723E+02
-# jendl5.0      1.127062E+01   8.872624E-02   7.473780E+02
-# cendl3.2      1.135555E+01   8.806265E-02   7.484667E+02

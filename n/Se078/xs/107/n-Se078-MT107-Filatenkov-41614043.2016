@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Se78(n,a)Ge75 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Filatenkov
 #   year: 2016
 #   subentry: 41614043
 #   X4 reaction: 34-SE-78(N,A)32-GE-75,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/41614043
-# target:
+# target: 
 #   Z: 34
 #   A: 78
 #   nuclide: Se78
-# reaction:
+# reaction: 
 #   type: (n,a)
 #   ENDF_MF: 3
 #   ENDF_MT: 107
-# residual:
-#   Z: 32
-#   A: 75
-#   nuclide: Ge75
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 4
+#   residual: 
+#     Z: 32
+#     A: 75
+#     nuclide: Ge75
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.349000E+01   0.000000E+00   7.590000E+00   1.297900E+00   9.999999E-01
@@ -37,19 +38,3 @@
 #   author: A.A.Filatenkov
 #   title: Neutron activation cross sections measured at KRI in neutron energy region 13.4 - 14.9 MeV
 #   journal: Rept: USSR report to the I.N.D.C., No.0460 (2016)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.349000E+01
-#   E-max [MeV]:  1.481000E+01
-#   F-value:  1.442413E+00
-#   A-value:  7.236123E-01
-#   chi-2:  3.308868E+00
-#   p-value:  1.865394E-01
-#   exp. data sets for p-value:      1
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.522395E+00   6.719067E-01   4.165765E+00
-# endfb8.0      1.565653E+00   6.562118E-01   4.436770E+00
-# jeff3.3       1.181197E+00   8.668733E-01   1.230850E+00
-# jendl5.0      1.436920E+00   7.173237E-01   3.402089E+00

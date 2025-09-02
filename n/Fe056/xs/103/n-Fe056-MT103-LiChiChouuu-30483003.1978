@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Fe56(n,p)Mn56 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: LiChiChouuu
 #   year: 1978
 #   subentry: 30483003
 #   X4 reaction: 26-FE-56(N,P)25-MN-56,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30483003
-# target:
+# target: 
 #   Z: 26
 #   A: 56
 #   nuclide: Fe56
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 25
-#   A: 56
-#   nuclide: Mn56
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 24
+#   residual: 
+#     Z: 25
+#     A: 56
+#     nuclide: Mn56
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 24
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.279000E+01   5.800000E-01   1.127570E+02   4.602300E+00   1.000506E+00
@@ -57,21 +58,3 @@
 #   author: Li Chi-Chou, Lu Han-Lin,Fan Pei-kuo, Ma Hung-Chang,  Li Yeh-Sha
 #   title: Cross section measurement for the reaction  56Fe(n,p)56Mn
 #   journal: Jour: High Energy Physics and Nucl.Physics,Chinese ed., Vol.2, p.550 (19
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.279000E+01
-#   E-max [MeV]:  1.826000E+01
-#   F-value:  1.012047E+00
-#   A-value:  1.007079E+00
-#   chi-2:  2.945538E-01
-#   p-value:  3.636263E-01
-#   exp. data sets for p-value:      5
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.010316E+00   1.005615E+00   2.197375E-01
-# endfb8.0      1.013087E+00   1.008337E+00   3.234748E-01
-# jeff3.3       1.008545E+00   1.003190E+00   1.959161E-01
-# jendl5.0      1.016034E+00   1.011642E+00   4.814169E-01
-# cendl3.2      1.011481E+00   1.006854E+00   2.733893E-01
-# irdff2.0      1.011481E+00   1.006854E+00   2.733883E-01

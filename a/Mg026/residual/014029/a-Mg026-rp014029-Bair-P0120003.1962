@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Mg26(a,x)Si29 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Bair
 #   year: 1962
 #   subentry: P0120003
 #   X4 reaction: 12-MG-26(A,N)14-SI-29,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/P0120003
-# target:
+# target: 
 #   Z: 12
 #   A: 26
 #   nuclide: Mg26
-# reaction:
+# reaction: 
 #   type: (a,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 14
-#   A: 29
-#   nuclide: Si29
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 209
+#   residual: 
+#     Z: 14
+#     A: 29
+#     nuclide: Si29
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 209
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.128000E+00   0.000000E+00   1.440000E+00   3.600000E-01   1.000000E+00
@@ -242,16 +243,3 @@
 #   author: J.K.Bair,H.B.Willard
 #   title: Level structure in Ne22 and Si30 from the reactions O18(alpha,n)Ne21 and Mg26(alpha,n)Si29
 #   journal: Jour: Physical Review, Vol.128, p.299 (1962)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  3.128000E+00
-#   E-max [MeV]:  5.373000E+00
-#   F-value:  2.192982E+00
-#   A-value:  1.892393E+00
-#   chi-2:  3.668917E+01
-#   p-value:  2.381564E-01
-#   exp. data sets for p-value:      2
-#   libraries:      1
-##  Library          F              A            chi-2
-# tendl.2023    2.192982E+00   1.892393E+00   3.668917E+01

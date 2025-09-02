@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Pb204(n,x)Pb203 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Ryves
 #   year: 1990
 #   subentry: 22148005
 #   X4 reaction: 82-PB-204(N,2N)82-PB-203,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22148005
-# target:
+# target: 
 #   Z: 82
 #   A: 204
 #   nuclide: Pb204
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 82
-#   A: 203
-#   nuclide: Pb203
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 82
+#     A: 203
+#     nuclide: Pb203
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.430000E+01   1.000000E-01   2.182435E+03   1.121039E+02   9.875271E-01
@@ -34,19 +35,3 @@
 #   author: T.B.RYVES,P.KOLKOWSKI,A.C.HOOLEY
 #   title: - HO, PB AND BI CROSS SECTIONS FOR 14.3 MEV NEUTRONS.
 #   journal: Jour: Annals of Nuclear Energy, Vol.17, p.107 (1990)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.430000E+01
-#   E-max [MeV]:  1.430000E+01
-#   F-value:  1.014925E+00
-#   A-value:  9.938095E-01
-#   chi-2:  2.300032E-01
-#   p-value:  2.439763E-01
-#   exp. data sets for p-value:      8
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.029938E+00   9.709324E-01   8.054599E-01
-# endfb8.0      1.001831E+00   1.001831E+00   4.501546E-02
-# jeff3.3       1.001831E+00   1.001831E+00   4.501546E-02
-# jendl5.0      1.001001E+00   1.001001E+00   2.452206E-02

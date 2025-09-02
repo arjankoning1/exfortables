@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Bi209(p,n')Po209 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Miyano
 #   year: 1973
 #   subentry: E0058002
 #   X4 reaction: 83-BI-209(P,N)84-PO-209,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/E0058002
-# target:
+# target: 
 #   Z: 83
 #   A: 209
 #   nuclide: Bi209
-# reaction:
+# reaction: 
 #   type: (p,n')
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 84
-#   A: 209
-#   nuclide: Po209
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 23
+#   residual: 
+#     Z: 84
+#     A: 209
+#     nuclide: Po209
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 23
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.124000E+01   0.000000E+00   2.487000E+02   2.759000E+01   1.000000E+00
@@ -56,18 +57,3 @@
 #   author: K.Miyano, H.Nakahara
 #   title: The cross section and the recoil range study of the 209Bi(p,n) and (p,2n) reactions
 #   journal: Jour: Journal of the Physical Society of Japan, Vol.35, Issue.4, p.953 (
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.124000E+01
-#   E-max [MeV]:  5.195000E+01
-#   F-value:  1.310994E+00
-#   A-value:  1.083377E+00
-#   chi-2:  6.828780E+00
-#   p-value:  2.584918E-01
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.222698E+00   9.890432E-01   2.467398E+00
-# endfb8.0      1.479386E+00   1.360524E+00   1.635009E+01
-# jendl5.0      1.175617E+00   9.449685E-01   1.668856E+00

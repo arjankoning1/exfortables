@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Zn0(d,x)Zn63 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Simeckova
 #   year: 2017
 #   subentry: D0900011
 #   X4 reaction: 30-ZN-0(D,X)30-ZN-63,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/D0900011
-# target:
+# target: 
 #   Z: 30
 #   A: 0
 #   nuclide: Zn0
-# reaction:
+# reaction: 
 #   type: (d,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 30
-#   A: 63
-#   nuclide: Zn63
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 8
+#   residual: 
+#     Z: 30
+#     A: 63
+#     nuclide: Zn63
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.124000E+01   3.800000E-01   6.000000E-01   5.400000E-01   1.000000E+00
@@ -41,16 +42,3 @@
 #   author: E.Simeckova, P.Bem, J.Mrazek, M.Stefanik, R.Behal,  V.Gladolev
 #   title: Proton and deuteron activation measurements at the NPI  and future plans in SPIRAL2/NFS
 #   journal: Jour: EPJ Web of Conferences, Vol.146, p.11034 (2017)
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  1.124000E+01
-#   E-max [MeV]:  1.936000E+01
-#   F-value:  7.219127E+00
-#   A-value:  1.511387E-01
-#   chi-2:  8.350156E+00
-#   p-value:  2.598109E-02
-#   exp. data sets for p-value:      1
-#   libraries:      1
-##  Library          F              A            chi-2
-# tendl.2023    7.219127E+00   1.511387E-01   8.350156E+00

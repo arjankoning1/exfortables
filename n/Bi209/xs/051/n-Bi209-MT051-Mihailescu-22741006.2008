@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Bi209(n,n'_01)Bi210 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Mihailescu
 #   year: 2008
 #   subentry: 22741006
 #   X4 reaction: 83-BI-209(N,INL)83-BI-209,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22741006
-#   level energy [MeV]  8.96200E-01
-# target:
+#   level energy [MeV]:  8.96200E-01
+# target: 
 #   Z: 83
 #   A: 209
 #   nuclide: Bi209
-# reaction:
+# reaction: 
 #   type: (n,n'_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 51
@@ -25,14 +25,15 @@
 #     energy [MeV]:  8.962800E-01
 #     spin:  3.500000E+00
 #     parity: -1
-# residual:
-#   Z: 83
-#   A: 210
-#   nuclide: Bi210
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 925
+#   residual: 
+#     Z: 83
+#     A: 210
+#     nuclide: Bi210
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 925
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    9.004900E-01   9.500000E-04   2.252500E-01   2.519000E+00   1.005597E+00
@@ -964,20 +965,3 @@
 #   author: L.C.Mihailescu, C.Borcea, A.J.Koning, A.Pavlik,  A.J.M.Plompen
 #   title: High resolution measurement of neutron inelastic  scattering and (n,2n) cross sections for 209Bi
 #   journal: Jour: Nuclear Physics, Section A, Vol.799, p.1 (2008)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  9.004900E-01
-#   E-max [MeV]:  3.467470E+00
-#   F-value:  1.401437E+00
-#   A-value:  1.071813E+00
-#   chi-2:  1.446332E+01
-#   p-value:  2.382986E-01
-#   exp. data sets for p-value:      2
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.433009E+00   1.050332E+00   1.272463E+01
-# endfb8.0      1.411137E+00   1.012584E+00   1.063338E+01
-# jeff3.3       1.001399E+00   9.989818E-01   2.312535E-02
-# jendl5.0      1.485745E+00   1.184731E+00   2.606760E+01
-# cendl3.2      1.500755E+00   1.125257E+00   2.300695E+01

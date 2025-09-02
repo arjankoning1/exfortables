@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: U238(n,n'_01)U239 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Miura
 #   year: 2000
 #   subentry: 22643003
 #   X4 reaction: 92-U-238(N,INL)92-U-238,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22643003
-#   level energy [MeV]  4.49000E-02
-# target:
+#   level energy [MeV]:  4.49000E-02
+# target: 
 #   Z: 92
 #   A: 238
 #   nuclide: U238
-# reaction:
+# reaction: 
 #   type: (n,n'_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 51
@@ -25,14 +25,15 @@
 #     energy [MeV]:  4.491600E-02
 #     spin:  2.000000E+00
 #     parity: 1
-# residual:
-#   Z: 92
-#   A: 239
-#   nuclide: U239
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 7
+#   residual: 
+#     Z: 92
+#     A: 239
+#     nuclide: U239
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.400000E-01   1.000000E-02   1.380000E+03   2.000000E+02   1.000000E+00
@@ -46,20 +47,3 @@
 #   author: T.Miura,M.Baba,M.Ibaraki,T.Sanami,Than Win, Y.Hirasawa,N.Hirakawa,S.Matsuyama
 #   title: Measurement of neutron inelastic scattering  cross-section  for the first level of 238U  in hundreds of keV range
 #   journal: Jour: Annals of Nuclear Energy, Vol.27, p.625 (2000)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  3.400000E-01
-#   E-max [MeV]:  8.550000E-01
-#   F-value:  1.060893E+00
-#   A-value:  1.029278E+00
-#   chi-2:  7.715856E-01
-#   p-value:  3.621638E-01
-#   exp. data sets for p-value:      1
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.075125E+00   1.057183E+00   1.095896E+00
-# endfb8.0      1.075125E+00   1.057183E+00   1.095896E+00
-# jeff3.3       1.037207E+00   9.761500E-01   3.415921E-01
-# jendl5.0      1.075125E+00   1.057183E+00   1.095896E+00
-# cendl3.2      1.020067E+00   1.001604E+00   2.286487E-01

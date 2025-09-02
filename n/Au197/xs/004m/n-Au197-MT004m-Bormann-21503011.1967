@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: Au197(n,n')Au197m cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Bormann
 #   year: 1967
 #   subentry: 21503011
 #   X4 reaction: 79-AU-197(N,INL)79-AU-197-M,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/21503011
-# target:
+# target: 
 #   Z: 79
 #   A: 197
 #   nuclide: Au197
-# reaction:
+# reaction: 
 #   type: (n,n')
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 79
-#   A: 197
-#   nuclide: Au197m
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 12
+#   residual: 
+#     Z: 79
+#     A: 197
+#     nuclide: Au197m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 12
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.318000E+01   1.300000E-01   4.530000E+02   4.700000E+01   1.000000E+00
@@ -50,17 +51,3 @@
 #   author: M.Bormann,C.Abels,W.Carstens,I.Riehle
 #   title: Excitation functions of some fast neutron reactions
 #   journal: Prog: Report from Euratom-countries + Euratom to EANDC, No.76, p.51 (196
-# statistics:
-#   NEA score: R2
-#   IAEA score:  1
-#   E-min [MeV]:  1.318000E+01
-#   E-max [MeV]:  1.605000E+01
-#   F-value:  3.331366E+00
-#   A-value:  3.030048E-01
-#   chi-2:  4.486520E+01
-#   p-value:  2.083970E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    2.879531E+00   3.477721E-01   3.948076E+01
-# jendl5.0      3.793533E+00   2.640001E-01   5.024966E+01

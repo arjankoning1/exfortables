@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Mn55(n,2n)Mn54 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Filatenkov
 #   year: 2016
 #   subentry: 41614017
 #   X4 reaction: 25-MN-55(N,2N)25-MN-54,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/41614017
-# target:
+# target: 
 #   Z: 25
 #   A: 55
 #   nuclide: Mn55
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 25
-#   A: 54
-#   nuclide: Mn54
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 7
+#   residual: 
+#     Z: 25
+#     A: 54
+#     nuclide: Mn54
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.356000E+01   0.000000E+00   6.220057E+02   2.512215E+01   1.000009E+00
@@ -40,21 +41,3 @@
 #   author: A.A.Filatenkov
 #   title: Neutron activation cross sections measured at KRI in neutron energy region 13.4 - 14.9 MeV
 #   journal: Rept: USSR report to the I.N.D.C., No.0460 (2016)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.356000E+01
-#   E-max [MeV]:  1.478000E+01
-#   F-value:  1.059198E+00
-#   A-value:  1.041661E+00
-#   chi-2:  2.678569E+00
-#   p-value:  2.757058E-01
-#   exp. data sets for p-value:      8
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.057559E+00   1.046853E+00   2.524250E+00
-# endfb8.0      1.017722E+00   9.893833E-01   5.306798E-01
-# jeff3.3       1.091610E+00   1.085701E+00   5.970915E+00
-# jendl5.0      1.062665E+00   1.049907E+00   2.866817E+00
-# cendl3.2      1.041183E+00   1.031227E+00   1.462245E+00
-# irdff2.0      1.060033E+00   1.049285E+00   2.716509E+00

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Zr90(n,2n)Zr89 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Anders
 #   year: 1985
 #   subentry: 21976026
 #   X4 reaction: 40-ZR-90(N,2N)40-ZR-89,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/21976026
-# target:
+# target: 
 #   Z: 40
 #   A: 90
 #   nuclide: Zr90
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 40
-#   A: 89
-#   nuclide: Zr89
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 40
+#     A: 89
+#     nuclide: Zr89
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.470000E+01   3.000000E-01   7.605473E+02   2.925182E+01   1.008683E+00
@@ -34,21 +35,3 @@
 #   author: B.Anders,B.M.Bahal,R.Pepelnik
 #   title: Measurements of 14 MeV neutron activation  cross section at KORONA
 #   journal: Rept: Ges.Kernen.-Verwertung, Schiffbau and Schiffahrt, No.85-E-24 (1985
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.470000E+01
-#   E-max [MeV]:  1.470000E+01
-#   F-value:  1.017808E+00
-#   A-value:  1.015196E+00
-#   chi-2:  5.628654E-01
-#   p-value:  4.727073E-01
-#   exp. data sets for p-value:      8
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.005863E+00   1.005863E+00   1.973487E-01
-# endfb8.0      1.026126E+00   1.026126E+00   9.941587E-01
-# jeff3.3       1.006181E+00   1.006181E+00   2.084360E-01
-# jendl5.0      1.014699E+00   1.014699E+00   5.208622E-01
-# cendl3.2      1.029305E+00   1.029305E+00   1.138612E+00
-# irdff2.0      1.009259E+00   1.009259E+00   3.177744E-01

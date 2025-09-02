@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Nb93(n,x)Nb94 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Popov
 #   year: 1962
 #   subentry: 40797005
 #   X4 reaction: 41-NB-93(N,G)41-NB-94,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/40797005
-# target:
+# target: 
 #   Z: 41
 #   A: 93
 #   nuclide: Nb93
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 41
-#   A: 94
-#   nuclide: Nb94
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 83
+#   residual: 
+#     Z: 41
+#     A: 94
+#     nuclide: Nb94
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 83
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.550000E-05   0.000000E+00   5.700000E+01   4.275000E+00   1.000000E+00
@@ -116,18 +117,3 @@
 #   author: Ju.P.Popov,F.L.Shapiro
 #   title: Energy dependence of cross sections for (n,gamma)  reactions on a number of odd-z nuclei.
 #   journal: Jour: Zhurnal Eksperimental'noi i Teoret. Fiziki, Vol.42, p.988 (1962)
-# statistics:
-#   NEA score: R3
-#   IAEA score:  1
-#   E-min [MeV]:  1.550000E-05
-#   E-max [MeV]:  5.600000E-02
-#   F-value:  3.260855E+01
-#   A-value:  6.101081E-02
-#   chi-2:  9.540646E+02
-#   p-value:  3.190748E-02
-#   exp. data sets for p-value:      2
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    3.252342E+01   6.329061E-02   1.062696E+03
-# jeff3.3       3.282986E+01   5.877748E-02   6.151609E+02
-# jendl5.0      3.247318E+01   6.104792E-02   1.184337E+03

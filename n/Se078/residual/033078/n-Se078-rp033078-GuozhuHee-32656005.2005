@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Se78(n,x)As78 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: GuozhuHee
 #   year: 2005
 #   subentry: 32656005
 #   X4 reaction: 34-SE-78(N,P)33-AS-78,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/32656005
-# target:
+# target: 
 #   Z: 34
 #   A: 78
 #   nuclide: Se78
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 33
-#   A: 78
-#   nuclide: As78
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 2
+#   residual: 
+#     Z: 33
+#     A: 78
+#     nuclide: As78
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.350000E+01   3.000000E-01   1.610000E+01   1.000000E+00   1.000000E+00
@@ -35,18 +36,3 @@
 #   author: Guozhu He,Zhongjie Liu, Junhua Luo, Xiangzhong Kong
 #   title: Cross-section measurements of (n,2n),(n,p) and (n,a) reactions on some selenium isotopes near En=14MeV
 #   journal: Jour: Indian Journal of Pure and Applied Physics, Vol.43, p.729 (2005)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.350000E+01
-#   E-max [MeV]:  1.460000E+01
-#   F-value:  1.357917E+00
-#   A-value:  1.281582E+00
-#   chi-2:  3.936338E+01
-#   p-value:  3.283724E-01
-#   exp. data sets for p-value:      4
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.564156E+00   1.556205E+00   8.793929E+01
-# jeff3.3       1.320593E+00   1.310205E+00   2.873425E+01
-# jendl5.0      1.059788E+00   1.032365E+00   1.416613E+00

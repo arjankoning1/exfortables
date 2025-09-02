@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: V0(p,x)Cr51 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Michel
 #   year: 1985
 #   subentry: A01000031
 #   X4 reaction: 23-V-0(P,X)24-CR-51,IND,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/A01000031
-# target:
+# target: 
 #   Z: 23
 #   A: 0
 #   nuclide: V0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 24
-#   A: 51
-#   nuclide: Cr51
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 26
+#   residual: 
+#     Z: 24
+#     A: 51
+#     nuclide: Cr51
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 26
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.983000E+01   7.000000E-01   1.408500E+00   2.579000E-01   9.919274E-01
@@ -59,17 +60,3 @@
 #   author: R.Michel,R.Stueck,F.Peiffer
 #   title: Proton-induced reaction on Ti,V,Mn,Fe,Co and Ni.
 #   journal: Jour: Nuclear Physics, Section A, Vol.441, p.617 (1985)
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  4.983000E+01
-#   E-max [MeV]:  2.003000E+02
-#   F-value:  3.945093E+00
-#   A-value:  8.779473E-01
-#   chi-2:  4.816083E+02
-#   p-value:  1.030616E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    4.042409E+00   9.591050E-01   6.210718E+02
-# jendl5.0      3.848424E+00   8.036569E-01   3.421447E+02

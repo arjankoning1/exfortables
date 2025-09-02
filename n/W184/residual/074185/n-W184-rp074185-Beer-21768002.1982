@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: W184(n,x)W185 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Beer
 #   year: 1982
 #   subentry: 21768002
 #   X4 reaction: 74-W-184(N,G)74-W-185,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/21768002
-# target:
+# target: 
 #   Z: 74
 #   A: 184
 #   nuclide: W184
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 74
-#   A: 185
-#   nuclide: W185
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 31
+#   residual: 
+#     Z: 74
+#     A: 185
+#     nuclide: W185
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 31
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    5.170000E-03   1.150000E-03   5.900000E+02   5.557800E+01   1.000000E+00
@@ -64,17 +65,3 @@
 #   author: H.Beer,F.Kaeppeler,K.Wisshak
 #   title: Fast neutron capture on Hf-180 and W-184  and the solar hafnium and tungsten abundance
 #   journal: Jour: Astronomy and Astrophysics, Vol.105, p.270 (1982)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  5.170000E-03
-#   E-max [MeV]:  1.714600E-01
-#   F-value:  1.454064E+00
-#   A-value:  9.148857E-01
-#   chi-2:  4.322936E+00
-#   p-value:  2.930548E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.681251E+00   8.893281E-01   5.745992E+00
-# jendl5.0      1.107226E+00   9.411777E-01   2.899878E+00

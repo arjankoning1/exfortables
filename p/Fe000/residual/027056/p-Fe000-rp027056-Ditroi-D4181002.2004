@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Fe0(p,x)Co56 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Ditroi
 #   year: 2004
 #   subentry: D4181002
 #   X4 reaction: 26-FE-0(P,X)27-CO-56,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/D4181002
-# target:
+# target: 
 #   Z: 26
 #   A: 0
 #   nuclide: Fe0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 27
-#   A: 56
-#   nuclide: Co56
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 11
+#   residual: 
+#     Z: 27
+#     A: 56
+#     nuclide: Co56
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 11
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.200000E+01   0.000000E+00   2.140000E+01   2.400000E+00   1.000000E+00
@@ -44,18 +45,3 @@
 #   author: F.Ditroi, F.Tarkanyi, J.Csikai, M.S.Uddin, M.Hagiwara, M.Baba
 #   title: Investigation of activation cross sections of the proton induced nuclear reactions on natural iron at medium energies
 #   journal: Conf: Conf.on Nucl.Data for Sci.and Techn., Santa Fe 2004, Vol.769, p.10
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  4.200000E+01
-#   E-max [MeV]:  6.720000E+01
-#   F-value:  1.864989E+00
-#   A-value:  5.799071E-01
-#   chi-2:  1.359024E+01
-#   p-value:  1.811750E-01
-#   exp. data sets for p-value:      4
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    2.286787E+00   4.550221E-01   2.144419E+01
-# endfb8.0      1.448708E+00   7.286227E-01   6.463985E+00
-# jendl5.0      1.797358E+00   5.882203E-01   1.286255E+01

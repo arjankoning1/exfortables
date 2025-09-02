@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: C13(a,x)O16 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Drotleff
 #   year: 1993
 #   subentry: A0613003
 #   X4 reaction: 6-C-13(A,N)8-O-16,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/A0613003
-# target:
+# target: 
 #   Z: 6
 #   A: 13
 #   nuclide: C13
-# reaction:
+# reaction: 
 #   type: (a,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 8
-#   A: 16
-#   nuclide: O16
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 55
+#   residual: 
+#     Z: 8
+#     A: 16
+#     nuclide: O16
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 55
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.648798E-01   0.000000E+00   6.099999E-08   3.700000E-08   1.000000E+00
@@ -88,17 +89,3 @@
 #   author: H.W.DROTLEFF, A.DENKER, H.KNEE, M.SOINE, G.WOLF, J.W.HAMMER, U.GREIPE, C.ROLFS, H.P.TRAUTVETTER
 #   title: Reaction Rates of the S-Process Neutron Sources 22-Ne(ALPHA,N)25-Mg and 13-C(ALPHA,N)16-O.
 #   journal: Jour: Astrophysical Journal, Vol.414, p.735 (1993)
-# statistics:
-#   NEA score: R3
-#   IAEA score: -1
-#   E-min [MeV]:  3.648798E-01
-#   E-max [MeV]:  1.388897E+00
-#   F-value:  3.049926E+00
-#   A-value:  1.283439E+00
-#   chi-2:  1.891572E+03
-#   p-value:  2.001591E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    3.444516E+00   2.531947E+00   2.354642E+03
-# jendl5.0      2.304580E+00   5.823497E-01   3.971172E+01

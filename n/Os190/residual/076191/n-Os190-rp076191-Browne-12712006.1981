@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Os190(n,x)Os191 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Browne
 #   year: 1981
 #   subentry: 12712006
 #   X4 reaction: 76-OS-190(N,G)76-OS-191,,SIG,,AV
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/12712006
-# target:
+# target: 
 #   Z: 76
 #   A: 190
 #   nuclide: Os190
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 76
-#   A: 191
-#   nuclide: Os191
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 20
+#   residual: 
+#     Z: 76
+#     A: 191
+#     nuclide: Os191
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 20
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.145000E-03   2.900000E-04   1.800000E+03   1.280000E+02   1.000000E+00
@@ -53,17 +54,3 @@
 #   author: J.C.BROWNE,B.L.BERMAN
 #   title: Neutron-capture cross sections for osmium isotopes  and the age of the universe
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.23, p.1434 (1981)
-# statistics:
-#   NEA score: T3
-#   IAEA score: -1
-#   E-min [MeV]:  1.145000E-03
-#   E-max [MeV]:  1.480000E-01
-#   F-value:  5.275678E+00
-#   A-value:  7.809214E-01
-#   chi-2:  1.586893E+02
-#   p-value:  2.939962E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    6.080599E+00   9.022202E-01   8.954775E+01
-# jeff3.3       4.516772E+00   6.759305E-01   2.278309E+02

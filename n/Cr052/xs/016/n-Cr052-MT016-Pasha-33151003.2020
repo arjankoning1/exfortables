@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Cr52(n,2n)Cr51 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Pasha
 #   year: 2020
 #   subentry: 33151003
 #   X4 reaction: 24-CR-52(N,2N)24-CR-51,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/33151003
-# target:
+# target: 
 #   Z: 24
 #   A: 52
 #   nuclide: Cr52
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 24
-#   A: 51
-#   nuclide: Cr51
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 24
+#     A: 51
+#     nuclide: Cr51
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.454000E+01   4.800000E-01   3.839679E+02   3.677491E+01   9.955093E-01
@@ -34,20 +35,3 @@
 #   author: I.Pasha, B.Rudraswamy, S.Y.Santhi, S.V.Suryanarayana, H.Naik, C.V.Midhun, T.Patel
 #   title: Measurement of 14.54 MeV neutron induced reaction cross sections of Cr and Mn with covariance analysis
 #   journal: Jour: Radiochimica Acta, Vol.108, p.679 (2020)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  1.454000E+01
-#   E-max [MeV]:  1.454000E+01
-#   F-value:  1.075365E+00
-#   A-value:  9.527086E-01
-#   chi-2:  7.900652E-01
-#   p-value:  3.178434E-01
-#   exp. data sets for p-value:      8
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.031545E+00   9.694195E-01   4.289638E-01
-# endfb8.0      1.031334E+00   9.696183E-01   4.259753E-01
-# jeff3.3       1.166960E+00   8.569274E-01   2.741405E+00
-# jendl5.0      1.000602E+00   9.993980E-01   7.888157E-03
-# cendl3.2      1.025639E+00   9.750017E-01   3.460938E-01

@@ -1,28 +1,29 @@
-# header:
+# header: 
 #   title: Ni0(p,n') cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Albert
 #   year: 1959
 #   subentry: T0130007
 #   X4 reaction: 28-NI-0(P,N),,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/T0130007
-# target:
+# target: 
 #   Z: 28
 #   A: 0
 #   nuclide: Ni0
-# reaction:
+# reaction: 
 #   type: (p,n')
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    7.000000E+00   0.000000E+00   3.390000E+02   5.085000E+01   1.000000E+00
@@ -30,18 +31,3 @@
 #   author: R.D.ALBERT
 #   title: (p,n) Cross Section and Proton Optical-Model  Parameters in the 4 to 5.5 MeV Energy Region
 #   journal: Jour: Physical Review, Vol.115, p.925 (1959)
-# statistics:
-#   NEA score: R3
-#   IAEA score: -1
-#   E-min [MeV]:  7.000000E+00
-#   E-max [MeV]:  7.000000E+00
-#   F-value:  1.499756E+01
-#   A-value:  6.730034E-02
-#   chi-2:  3.853841E+01
-#   p-value:  2.384186E-07
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.309178E+01   7.638378E-02   3.791409E+01
-# endfb8.0      2.036159E+01   4.911209E-02   4.018613E+01
-# jendl5.0      1.230659E+01   8.125728E-02   3.751503E+01

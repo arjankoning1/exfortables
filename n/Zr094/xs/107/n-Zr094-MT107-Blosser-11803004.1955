@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Zr94(n,a)Sr91 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Blosser
 #   year: 1955
 #   subentry: 11803004
 #   X4 reaction: 40-ZR-94(N,A)38-SR-91,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/11803004
-# target:
+# target: 
 #   Z: 40
 #   A: 94
 #   nuclide: Zr94
-# reaction:
+# reaction: 
 #   type: (n,a)
 #   ENDF_MF: 3
 #   ENDF_MT: 107
-# residual:
-#   Z: 38
-#   A: 91
-#   nuclide: Sr91
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 38
+#     A: 91
+#     nuclide: Sr91
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.400000E+01   0.000000E+00   3.736080E+00   5.000000E-01   1.037800E+00
@@ -34,19 +35,3 @@
 #   author: H.G.BLOSSER,C.D.GOODMAN,T.H.HANDLEY,M.L.RANDOLPH
 #   title: 14-MEV (N,ALPHA) CROSS-SECTION MEASUREMENTS.
 #   journal: Jour: Physical Review, Vol.100, p.429 (1955)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.400000E+01
-#   E-max [MeV]:  1.400000E+01
-#   F-value:  1.269890E+00
-#   A-value:  1.203982E+00
-#   chi-2:  4.785428E+00
-#   p-value:  1.736108E-01
-#   exp. data sets for p-value:      8
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.031436E+00   9.695219E-01   2.997517E-01
-# jeff3.3       1.238639E+00   1.238639E+00   3.585418E+00
-# jendl5.0      1.182638E+00   1.182638E+00   2.408623E+00
-# cendl3.2      1.479538E+00   1.479538E+00   1.284792E+01

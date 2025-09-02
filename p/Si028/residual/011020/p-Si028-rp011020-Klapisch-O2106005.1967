@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Si28(p,x)Na20 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Klapisch
 #   year: 1967
 #   subentry: O2106005
 #   X4 reaction: 14-SI-28(P,X)11-NA-20,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/O2106005
-# target:
+# target: 
 #   Z: 14
 #   A: 28
 #   nuclide: Si28
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 11
-#   A: 20
-#   nuclide: Na20
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 11
+#     A: 20
+#     nuclide: Na20
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.500000E+02   0.000000E+00   2.300000E-01   0.000000E+00   1.000000E+00
@@ -34,18 +35,3 @@
 #   author: R.Klapisch, J.Chaumont, C.Philippe, I.Amarel, R.Fergeau, M.Salome, R.Bernas
 #   title: Online mass spectrometer for the study of very short periods of isotopes produced by nuclear reactions.
 #   journal: Jour: Nuclear Instrum.and Methods in Physics Res., Vol.53, p.216 (1967)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  1.500000E+02
-#   E-max [MeV]:  1.500000E+02
-#   F-value:  1.843599E+00
-#   A-value:  6.072385E-01
-#   chi-2:  0.000000E+00
-#   p-value:  1.473789E-01
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.122587E+00   8.907996E-01   0.000000E+00
-# endfb8.0      2.636812E+00   3.792458E-01   0.000000E+00
-# jendl5.0      1.508770E+00   6.627917E-01   0.000000E+00

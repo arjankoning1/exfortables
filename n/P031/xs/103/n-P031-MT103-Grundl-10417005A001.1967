@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: P31(n,p)Si31 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Grundl
 #   year: 1967
 #   subentry: 10417005
 #   X4 reaction: 15-P-31(N,P)14-SI-31,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/10417005
-# target:
+# target: 
 #   Z: 15
 #   A: 31
 #   nuclide: P31
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 14
-#   A: 31
-#   nuclide: Si31
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 17
+#   residual: 
+#     Z: 14
+#     A: 31
+#     nuclide: Si31
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 17
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.680000E+00   1.500000E-01   5.300000E+00   4.240000E-01   1.000000E+00
@@ -50,21 +51,3 @@
 #   author: J.A.Grundl
 #   title: A Study of Fission-Neutron Spectra with High-Energy  Activation Detectors - Part 1. DEtector Development  and Excitation Measurements
 #   journal: Jour: Nuclear Science and Engineering, Vol.30, p.39 (1967)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.680000E+00
-#   E-max [MeV]:  1.410000E+01
-#   F-value:  1.210448E+00
-#   A-value:  9.248046E-01
-#   chi-2:  1.257595E+01
-#   p-value:  3.003639E-01
-#   exp. data sets for p-value:      3
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.116644E+00   1.029864E+00   6.085084E+00
-# endfb8.0      1.137790E+00   9.550382E-01   7.671349E+00
-# jeff3.3       1.329668E+00   8.156826E-01   2.731913E+01
-# jendl5.0      1.174024E+00   8.924949E-01   1.290463E+01
-# cendl3.2      1.302352E+00   8.676423E-01   1.565545E+01
-# irdff2.0      1.122322E+00   1.007006E+00   5.820062E+00

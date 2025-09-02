@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Pd0(n,n'_01)Pd1 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Smith
 #   year: 1994
 #   subentry: 13637004
 #   X4 reaction: 46-PD-0(N,INL)46-PD-0,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/13637004
-#   level energy [MeV]  6.00000E-01
-# target:
+#   level energy [MeV]:  6.00000E-01
+# target: 
 #   Z: 46
 #   A: 0
 #   nuclide: Pd0
-# reaction:
+# reaction: 
 #   type: (n,n'_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 51
@@ -25,14 +25,15 @@
 #     energy [MeV]:  5.971000E-01
 #     spin:  4.500000E+00
 #     parity: 1
-# residual:
-#   Z: 46
-#   A: 1
-#   nuclide: Pd1
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 4
+#   residual: 
+#     Z: 46
+#     A: 1
+#     nuclide: Pd1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    5.500000E+00   0.000000E+00   1.480000E+02   2.100000E+01   1.000000E+00
@@ -43,20 +44,3 @@
 #   author: A.B.SMITH,P.T.GUENTHER
 #   title: Fast-neutron scattering from vibrational palladium  nuclei
 #   journal: Jour: Annals of Nuclear Energy, Vol.21, p.629 (1994)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  5.500000E+00
-#   E-max [MeV]:  8.000000E+00
-#   F-value:  1.669165E+00
-#   A-value:  8.344166E-01
-#   chi-2:  6.002894E+00
-#   p-value:  4.286554E-01
-#   exp. data sets for p-value:      1
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.032089E+00   9.800134E-01   2.985359E-01
-# endfb8.0      1.047613E+00   1.021779E+00   2.844300E-01
-# jeff3.3       1.031162E+00   1.005307E+00   2.229750E-01
-# jendl5.0      1.251707E+00   1.230437E+00   4.175951E+00
-# cendl3.2      3.069603E+00   3.265636E-01   2.503258E+01

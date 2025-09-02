@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Fe0(p,x)Cr51 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Schoen
 #   year: 1979
 #   subentry: T0276007
 #   X4 reaction: 26-FE-0(P,X)24-CR-51,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/T0276007
-# target:
+# target: 
 #   Z: 26
 #   A: 0
 #   nuclide: Fe0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 24
-#   A: 51
-#   nuclide: Cr51
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 6
+#   residual: 
+#     Z: 24
+#     A: 51
+#     nuclide: Cr51
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.820000E+01   9.000000E-01   4.425833E+01   3.293600E+00   1.029263E+00
@@ -39,18 +40,3 @@
 #   author: N.C.Schoen, G.Orlov, R.J.McDonald
 #   title: Excitation functions for radioactive isotopes produced  by proton bombardment of Fe, Co, and W in the energy  range from 10 to 60 MeV
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.20, p.88 (1979)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  3.820000E+01
-#   E-max [MeV]:  6.300000E+01
-#   F-value:  1.878363E+00
-#   A-value:  5.613091E-01
-#   chi-2:  3.410467E+01
-#   p-value:  4.416330E-01
-#   exp. data sets for p-value:      6
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    2.265214E+00   4.461113E-01   5.219511E+01
-# endfb8.0      1.903946E+00   5.319040E-01   3.749636E+01
-# jendl5.0      1.391155E+00   7.452977E-01   1.262254E+01

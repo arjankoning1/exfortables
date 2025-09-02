@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Mo98(p,x)Tc98 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Trufanov
 #   year: 1982
 #   subentry: A01640032
 #   X4 reaction: 42-MO-98(P,N)43-TC-98,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/A01640032
-# target:
+# target: 
 #   Z: 42
 #   A: 98
 #   nuclide: Mo98
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 43
-#   A: 98
-#   nuclide: Tc98
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 4
+#   residual: 
+#     Z: 43
+#     A: 98
+#     nuclide: Tc98
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    6.000000E+00   0.000000E+00   1.810000E+02   9.000000E+00   1.000000E+00
@@ -37,17 +38,3 @@
 #   author: A.M.Trufanov,G.N.Lovchikova,O.A.Salnikov,S.P.Simakov
 #   title: Simultaneous study of the mechanism of Mo-95,98(p,n)Tc-95,98 reaction and nuclear level density
 #   journal: Jour: Yadernaya Fizika, Vol.36, p.299 (1982)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  6.000000E+00
-#   E-max [MeV]:  9.000000E+00
-#   F-value:  1.092796E+00
-#   A-value:  9.277579E-01
-#   chi-2:  3.136885E+00
-#   p-value:  3.174220E-01
-#   exp. data sets for p-value:      2
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.074879E+00   9.384887E-01   2.339294E+00
-# jendl5.0      1.108094E+00   9.171498E-01   3.934475E+00

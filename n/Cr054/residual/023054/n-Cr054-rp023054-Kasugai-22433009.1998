@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Cr54(n,x)V54 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Kasugai
 #   year: 1998
 #   subentry: 22433009
 #   X4 reaction: 24-CR-54(N,P)23-V-54,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22433009
-# target:
+# target: 
 #   Z: 24
 #   A: 54
 #   nuclide: Cr54
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 23
-#   A: 54
-#   nuclide: V54
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 6
+#   residual: 
+#     Z: 23
+#     A: 54
+#     nuclide: V54
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.340000E+01   5.000000E-02   1.500000E+01   1.140000E+00   1.000000E+00
@@ -39,19 +40,3 @@
 #   author: Y.Kasugai, H.Yamamoto, K.Kawade, T.Iida
 #   title: Measurement of (n,p) cross-sections for short-lived  products by 13.4-14.9 MeV neutrons
 #   journal: Jour: Annals of Nuclear Energy, Vol.25, Issue.1-3, p.23 (1998)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.340000E+01
-#   E-max [MeV]:  1.487000E+01
-#   F-value:  1.222915E+00
-#   A-value:  9.274815E-01
-#   chi-2:  6.146618E+00
-#   p-value:  2.490077E-01
-#   exp. data sets for p-value:      1
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.094207E+00   1.050977E+00   2.151591E+00
-# endfb8.0      1.456322E+00   6.929870E-01   1.914080E+01
-# jeff3.3       1.072686E+00   9.865406E-01   1.356854E+00
-# jendl5.0      1.091378E+00   1.029883E+00   1.937230E+00

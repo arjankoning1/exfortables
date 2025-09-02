@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ti48(n,x)Ti48 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Olacel
 #   year: 2017
 #   subentry: 23346026
 #   X4 reaction: 22-TI-48(N,INL)22-TI-48,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/23346026
-# target:
+# target: 
 #   Z: 22
 #   A: 48
 #   nuclide: Ti48
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 22
-#   A: 48
-#   nuclide: Ti48
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 113
+#   residual: 
+#     Z: 22
+#     A: 48
+#     nuclide: Ti48
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 113
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.012050E+00   1.351006E-02   0.000000E+00   0.000000E+00   1.000000E+00
@@ -146,18 +147,3 @@
 #   author: A.Olacel, F.Belloni, C.Borcea, M.Boromiza, P.Dessagne,  G.Henning, M.Kerveno, A.Negret, M.Nyman, E.Pirovano,  A.J.M.Plompen
 #   title: Neutron inelastic scattering measurements on the  stable isotopes of titanium
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.96, p.014621 (2017)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.012050E+00
-#   E-max [MeV]:  1.656300E+01
-#   F-value:  1.293371E+00
-#   A-value:  1.100275E+00
-#   chi-2:  3.483944E+01
-#   p-value:  3.127769E-01
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.242724E+00   1.055383E+00   1.842381E+01
-# jeff3.3       1.242733E+00   1.053668E+00   1.840011E+01
-# jendl5.0      1.380753E+00   1.197816E+00   6.769442E+01

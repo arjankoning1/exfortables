@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Rb0(p,x)Sr83 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Sakamoto
 #   year: 1985
 #   subentry: E1867010
 #   X4 reaction: 37-RB-0(P,X)38-SR-83,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/E1867010
-# target:
+# target: 
 #   Z: 37
 #   A: 0
 #   nuclide: Rb0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 38
-#   A: 83
-#   nuclide: Sr83
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 8
+#   residual: 
+#     Z: 38
+#     A: 83
+#     nuclide: Sr83
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.332000E+01   1.174000E+00   1.185400E+00   0.000000E+00   1.123596E+00
@@ -41,17 +42,3 @@
 #   author: K.Sakamoto, M.Dohniwa, K.Okada
 #   title: Excitation functions for (p,xn) and (p,pxn) reactions on natural 79+81Br, 85+87Rb, 127I and 133Cs upto Ep=52 MeV
 #   journal: Jour: Applied Radiation and Isotopes, Vol.36, Issue.6, p.481 (1985)
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  2.332000E+01
-#   E-max [MeV]:  5.080000E+01
-#   F-value:  2.115379E+00
-#   A-value:  1.192212E+00
-#   chi-2:  2.991826E+00
-#   p-value:  2.744561E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.916447E+00   1.040156E+00   3.748750E+00
-# jendl5.0      2.308074E+00   1.366498E+00   2.234901E+00

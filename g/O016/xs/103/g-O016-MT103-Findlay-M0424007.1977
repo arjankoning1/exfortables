@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: O16(g,p)N15 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Findlay
 #   year: 1977
 #   subentry: M0424007
 #   X4 reaction: 8-O-16(G,P)7-N-15,,SIG,,BRS
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/M0424007
-# target:
+# target: 
 #   Z: 8
 #   A: 16
 #   nuclide: O16
-# reaction:
+# reaction: 
 #   type: (g,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 7
-#   A: 15
-#   nuclide: N15
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 3
+#   residual: 
+#     Z: 7
+#     A: 15
+#     nuclide: N15
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    6.000000E+01   0.000000E+00   6.580000E-02   7.509200E-03   1.000000E+00
@@ -36,18 +37,3 @@
 #   author: D.J.S.Findlay,R.O.Owens
 #   title: The O-16(g,p-0) reaction at intermediate photon  energies.
 #   journal: Jour: Nuclear Physics, Section A, Vol.279, p.385 (1977)
-# statistics:
-#   NEA score: T3
-#   IAEA score: -1
-#   E-min [MeV]:  6.000000E+01
-#   E-max [MeV]:  1.000000E+02
-#   F-value:  7.929107E+00
-#   A-value:  1.694394E+00
-#   chi-2:  3.320485E+03
-#   p-value:  1.137480E-01
-#   exp. data sets for p-value:      2
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.580621E+01   6.474027E-02   6.260403E+01
-# endfb8.0      2.041982E+00   1.678597E+00   6.313901E+01
-# jendl5.0      1.016166E+01   8.691146E+00   7.108046E+03

@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Fe56(n,n'_02)Fe57 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Negret
 #   year: 2013
 #   subentry: 23073036
 #   X4 reaction: 26-FE-56(N,INL)26-FE-56,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/23073036
-#   level energy [MeV]  2.08510E+00
-# target:
+#   level energy [MeV]:  2.08510E+00
+# target: 
 #   Z: 26
 #   A: 56
 #   nuclide: Fe56
-# reaction:
+# reaction: 
 #   type: (n,n'_02)
 #   ENDF_MF: 3
 #   ENDF_MT: 52
@@ -25,14 +25,15 @@
 #     energy [MeV]:  2.085105E+00
 #     spin:  4.000000E+00
 #     parity: 1
-# residual:
-#   Z: 26
-#   A: 57
-#   nuclide: Fe57
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 288
+#   residual: 
+#     Z: 26
+#     A: 57
+#     nuclide: Fe57
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 288
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.122295E+00   2.055000E-03   0.000000E+00   1.000000E-06   1.000000E+00
@@ -327,20 +328,3 @@
 #   author: A.Negret,C.Borcea, Ph.Dessagne,M.Kerveno, A.Olacel, A.J.M.Plompen, M.Stanoiu, J.C.Drohe, L.C.Mihailescu, R.Wynants
 #   title: Neutron inelastic scattering measurements
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.88, p.027601 (2013)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  2.122295E+00
-#   E-max [MeV]:  4.603060E+00
-#   F-value:  1.421343E+00
-#   A-value:  9.216110E-01
-#   chi-2:  7.588226E+00
-#   p-value:  2.197026E-01
-#   exp. data sets for p-value:      2
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.467409E+00   9.308087E-01   9.534019E+00
-# endfb8.0      1.286119E+00   1.051463E+00   3.631793E+00
-# jeff3.3       1.538829E+00   8.435117E-01   1.105827E+01
-# jendl5.0      1.190096E+00   1.016532E+00   2.118904E+00
-# cendl3.2      1.549290E+00   7.922673E-01   1.159813E+01

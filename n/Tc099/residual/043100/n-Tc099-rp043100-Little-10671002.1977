@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Tc99(n,x)Tc100 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Little
 #   year: 1977
 #   subentry: 10671002
 #   X4 reaction: 43-TC-99(N,G)43-TC-100,,SIG,,AV
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/10671002
-# target:
+# target: 
 #   Z: 43
 #   A: 99
 #   nuclide: Tc99
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 43
-#   A: 100
-#   nuclide: Tc100
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 10
+#   residual: 
+#     Z: 43
+#     A: 100
+#     nuclide: Tc100
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.500000E-03   5.000000E-04   2.316000E+03   1.973232E+02   1.000000E+00
@@ -43,18 +44,3 @@
 #   author: R.C.Little,R.C.Block
 #   title: Neutron capture cross-section measurements of 99-Tc up to 80 keV
 #   journal: Jour: Transactions of the American Nuclear Society, Vol.26, p.574 (1977)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  4.500000E-03
-#   E-max [MeV]:  7.000000E-02
-#   F-value:  1.643647E+00
-#   A-value:  1.032804E+00
-#   chi-2:  1.600363E+02
-#   p-value:  3.532859E-01
-#   exp. data sets for p-value:      4
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.727585E+00   8.883489E-01   1.648250E+02
-# jeff3.3       1.603585E+00   1.090770E+00   1.575907E+02
-# jendl5.0      1.596520E+00   1.136938E+00   1.576933E+02

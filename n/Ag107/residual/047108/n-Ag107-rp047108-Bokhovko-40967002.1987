@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ag107(n,x)Ag108 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Bokhovko
 #   year: 1987
 #   subentry: 40967002
 #   X4 reaction: 47-AG-107(N,G)47-AG-108,,SIG,,AV
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/40967002
-# target:
+# target: 
 #   Z: 47
 #   A: 107
 #   nuclide: Ag107
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 47
-#   A: 108
-#   nuclide: Ag108
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 58
+#   residual: 
+#     Z: 47
+#     A: 108
+#     nuclide: Ag108
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 58
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.500000E-03   5.000000E-04   1.809000E+03   1.500000E+02   1.000000E+00
@@ -91,18 +92,3 @@
 #   author: M.V.Bokhovko,L.E.Kazakov,V.N.Kononov,E.D.Poletaev, V.M.Timokhov,A.A.Voevodskij
 #   title: Measurement of the neutron radiative capture cross-sections for silver in the energy region 4-400keV
 #   journal: Jour: Vop.At.Nauki i Tekhn.,Ser.Yaderno-Reak.Konstanty, Issue.2, p.21 (1
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  4.500000E-03
-#   E-max [MeV]:  3.900000E-01
-#   F-value:  1.695116E+00
-#   A-value:  8.839862E-01
-#   chi-2:  3.841571E+01
-#   p-value:  3.612974E-01
-#   exp. data sets for p-value:      2
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.614483E+00   9.309465E-01   2.785379E+01
-# jeff3.3       1.827044E+00   7.473919E-01   5.317064E+01
-# jendl5.0      1.636910E+00   9.928036E-01   3.422267E+01

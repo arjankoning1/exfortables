@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: U238(n,x)U239 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Spencer
 #   year: 1975
 #   subentry: 21698005
 #   X4 reaction: 92-U-238(N,G)92-U-239,,SIG,,AV
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/21698005
-# target:
+# target: 
 #   Z: 92
 #   A: 238
 #   nuclide: U238
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 92
-#   A: 239
-#   nuclide: U239
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 20
+#   residual: 
+#     Z: 92
+#     A: 239
+#     nuclide: U239
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 20
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.500000E-02   5.000000E-03   5.320000E+02   6.384000E+01   1.000000E+00
@@ -53,16 +54,3 @@
 #   author: R.R.Spencer,F.Kaeppeler
 #   title: Measurement of the U-238 capture cross section shape  in the neutron energy region 20 to 550 keV
 #   journal: Conf: Conf.on Nucl.Cross-Sect.and Techn.,Washington 1975, Vol.2, p.620 (
-# statistics:
-#   NEA score:   
-#   IAEA score: -1
-#   E-min [MeV]:  2.500000E-02
-#   E-max [MeV]:  5.360000E-01
-#   F-value:  0.000000E+00
-#   A-value:  0.000000E+00
-#   chi-2:  0.000000E+00
-#   p-value:  0.000000E+00
-#   exp. data sets for p-value:      8
-#   libraries:      1
-##  Library          F              A            chi-2
-# jendl5.0      0.000000E+00   0.000000E+00   0.000000E+00

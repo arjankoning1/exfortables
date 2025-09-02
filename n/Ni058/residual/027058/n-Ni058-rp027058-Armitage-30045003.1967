@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Ni58(n,x)Co58 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Armitage
 #   year: 1967
 #   subentry: 30045003
 #   X4 reaction: 28-NI-58(N,P)27-CO-58,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30045003
-# target:
+# target: 
 #   Z: 28
 #   A: 58
 #   nuclide: Ni58
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 27
-#   A: 58
-#   nuclide: Co58
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 6
+#   residual: 
+#     Z: 27
+#     A: 58
+#     nuclide: Co58
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.190000E+00   0.000000E+00   2.810984E+01   4.468800E+00   9.067689E-01
@@ -39,18 +40,3 @@
 #   author: F.G.Armitage
 #   title: 47Ti(n,p) Cross-section from 2.19 To 3.64 MeV
 #   journal: Priv.Comm: Symonds (1967)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  2.190000E+00
-#   E-max [MeV]:  3.640000E+00
-#   F-value:  2.332839E+00
-#   A-value:  2.322243E+00
-#   chi-2:  9.486106E+01
-#   p-value:  7.836769E-03
-#   exp. data sets for p-value:      8
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    2.335021E+00   2.328425E+00   9.334985E+01
-# endfb8.0      2.263508E+00   2.255515E+00   8.666702E+01
-# jendl5.0      2.399628E+00   2.384597E+00   1.045663E+02

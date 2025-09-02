@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Zn64(n,2n)Zn63 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Filatenkov
 #   year: 2016
 #   subentry: 41614033
 #   X4 reaction: 30-ZN-64(N,2N)30-ZN-63,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/41614033
-# target:
+# target: 
 #   Z: 30
 #   A: 64
 #   nuclide: Zn64
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 30
-#   A: 63
-#   nuclide: Zn63
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 8
+#   residual: 
+#     Z: 30
+#     A: 63
+#     nuclide: Zn63
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.347000E+01   0.000000E+00   5.849999E+01   4.604000E+00   9.999999E-01
@@ -41,20 +42,3 @@
 #   author: A.A.Filatenkov
 #   title: Neutron activation cross sections measured at KRI in neutron energy region 13.4 - 14.9 MeV
 #   journal: Rept: USSR report to the I.N.D.C., No.0460 (2016)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.347000E+01
-#   E-max [MeV]:  1.481000E+01
-#   F-value:  1.197739E+00
-#   A-value:  9.569193E-01
-#   chi-2:  5.506804E+00
-#   p-value:  3.817263E-01
-#   exp. data sets for p-value:      8
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.403873E+00   7.171538E-01   1.661528E+01
-# endfb8.0      1.136701E+00   1.101571E+00   3.906772E+00
-# jeff3.3       1.129162E+00   9.029524E-01   3.096274E+00
-# jendl5.0      1.099775E+00   1.055943E+00   2.125115E+00
-# cendl3.2      1.090372E+00   1.065238E+00   1.790582E+00

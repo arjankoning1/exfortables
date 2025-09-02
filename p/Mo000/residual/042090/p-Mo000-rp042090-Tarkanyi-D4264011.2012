@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Mo0(p,x)Mo90 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Tarkanyi
 #   year: 2012
 #   subentry: D4264011
 #   X4 reaction: 42-MO-0(P,X)42-MO-90,CUM,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/D4264011
-# target:
+# target: 
 #   Z: 42
 #   A: 0
 #   nuclide: Mo0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 42
-#   A: 90
-#   nuclide: Mo90
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 18
+#   residual: 
+#     Z: 42
+#     A: 90
+#     nuclide: Mo90
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 18
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.639000E+01   5.800000E-01   2.500000E-01   9.000000E-02   1.000000E+00
@@ -51,17 +52,3 @@
 #   author: F.Tarkanyi,F.Ditroi,A.Hermanne,S.Takacs,A.V.Ignatyuk
 #   title: Investigation of activation cross-sections of proton induced nuclear reactions on natMo up to 40 MeV: New data and evaluation
 #   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.280, p.45 (201
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  2.639000E+01
-#   E-max [MeV]:  3.658000E+01
-#   F-value:  1.590493E+00
-#   A-value:  1.492199E+00
-#   chi-2:  2.741725E+01
-#   p-value:  3.119578E-01
-#   exp. data sets for p-value:      2
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.625610E+00   1.530354E+00   3.134190E+01
-# jendl5.0      1.554457E+00   1.454994E+00   2.349258E+01

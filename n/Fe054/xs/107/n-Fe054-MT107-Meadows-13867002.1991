@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Fe54(n,a)Cr51 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Meadows
 #   year: 1991
 #   subentry: 13867002
 #   X4 reaction: 26-FE-54(N,A)24-CR-51,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/13867002
-# target:
+# target: 
 #   Z: 26
 #   A: 54
 #   nuclide: Fe54
-# reaction:
+# reaction: 
 #   type: (n,a)
 #   ENDF_MF: 3
 #   ENDF_MT: 107
-# residual:
-#   Z: 24
-#   A: 51
-#   nuclide: Cr51
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 10
+#   residual: 
+#     Z: 24
+#     A: 51
+#     nuclide: Cr51
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    5.290000E+00   5.400000E-01   3.627900E+00   4.832400E-01   9.939455E-01
@@ -43,20 +44,3 @@
 #   author: J.W.Meadows,D.L.Smith,L.R.Greenwood,L.P.Geraldo, W.Mannhart,G.Boerker,G.Mueller
 #   title: Measurements of the neutron cross section for  Fe-54(n,alpha)Cr-51 between 5.3 and 14.6 MeV
 #   journal: Conf: Conf.on Nucl.Data for Sci.and Technol.,Juelich 1991, p.288 (1991)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  5.290000E+00
-#   E-max [MeV]:  9.820000E+00
-#   F-value:  1.333588E+00
-#   A-value:  9.023018E-01
-#   chi-2:  9.909086E+00
-#   p-value:  3.108234E-01
-#   exp. data sets for p-value:      3
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.027905E+00   9.933975E-01   5.330729E-01
-# jeff3.3       1.894434E+00   5.920827E-01   4.571472E+01
-# jendl5.0      1.057960E+00   1.008882E+00   1.725046E+00
-# cendl3.2      1.038154E+00   1.014935E+00   1.039075E+00
-# irdff2.0      1.028706E+00   9.930598E-01   5.335159E-01

@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Zr90(n,x)Zr89 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Ibnmajah
 #   year: 2001
 #   subentry: 22664003
 #   X4 reaction: 40-ZR-90(N,2N)40-ZR-89,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22664003
-# target:
+# target: 
 #   Z: 40
 #   A: 90
 #   nuclide: Zr90
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 40
-#   A: 89
-#   nuclide: Zr89
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 2
+#   residual: 
+#     Z: 40
+#     A: 89
+#     nuclide: Zr89
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.144000E+01   2.100000E-01   1.799300E+00   2.998800E-01   9.995961E-01
@@ -35,18 +36,3 @@
 #   author: M.Ibn Majah, A.Chiadli, S.Sudar, S.M.Qaim
 #   title: Cross sections of (n,p), (n,alpha) and (n,2n) reactions  on some isotopes of zirconium in the neutron energy  range of 10-12 MeV and integral tests of differential  cross section data using a 14 MeV D(BE) neutron  spectrum
 #   journal: Jour: Applied Radiation and Isotopes, Vol.54, p.655 (2001)
-# statistics:
-#   NEA score: R2
-#   IAEA score:  1
-#   E-min [MeV]:  1.144000E+01
-#   E-max [MeV]:  1.237000E+01
-#   F-value:  3.801154E+00
-#   A-value:  2.640356E-01
-#   chi-2:  8.900690E+01
-#   p-value:  3.359148E-02
-#   exp. data sets for p-value:      2
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    3.524484E+00   2.837295E-01   8.449548E+01
-# jeff3.3       3.541069E+00   2.824006E-01   8.480926E+01
-# jendl5.0      4.352942E+00   2.297297E-01   9.771598E+01

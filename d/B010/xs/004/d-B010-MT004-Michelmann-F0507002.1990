@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: B10(d,n')C11 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Michelmann
 #   year: 1990
 #   subentry: F0507002
 #   X4 reaction: 5-B-10(D,N)6-C-11,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/F0507002
-# target:
+# target: 
 #   Z: 5
 #   A: 10
 #   nuclide: B10
-# reaction:
+# reaction: 
 #   type: (d,n')
 #   ENDF_MF: 3
 #   ENDF_MT: 4
-# residual:
-#   Z: 6
-#   A: 11
-#   nuclide: C11
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 45
+#   residual: 
+#     Z: 6
+#     A: 11
+#     nuclide: C11
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 45
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    4.800000E-01   0.000000E+00   1.220000E+01   9.760000E-01   1.000000E+00
@@ -78,16 +79,3 @@
 #   author: R.W.Michelmann,J.Krauskopf,J.D.Meyer,K.Bethge
 #   title: Excitation functions for the reactions 10B(d,n)11C and 12C(d,n)13N for charged particle activation analysis
 #   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.51, p.1 (1990)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  4.800000E-01
-#   E-max [MeV]:  5.020000E+00
-#   F-value:  1.176980E+00
-#   A-value:  9.325139E-01
-#   chi-2:  3.801966E+00
-#   p-value:  2.257924E-01
-#   exp. data sets for p-value:      1
-#   libraries:      1
-##  Library          F              A            chi-2
-# tendl.2023    1.176980E+00   9.325139E-01   3.801966E+00

@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: S0(n,n'_01)S1 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Perey
 #   year: 1970
 #   subentry: 10108056
 #   X4 reaction: 16-S-0(N,INL)16-S-0,PAR,SIG,,AV
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/10108056
-#   level energy [MeV]  3.78000E+00
-# target:
+#   level energy [MeV]:  3.78000E+00
+# target: 
 #   Z: 16
 #   A: 0
 #   nuclide: S0
-# reaction:
+# reaction: 
 #   type: (n,n'_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 51
@@ -25,14 +25,15 @@
 #     energy [MeV]:  3.778400E+00
 #     spin:  0.000000E+00
 #     parity: 1
-# residual:
-#   Z: 16
-#   A: 1
-#   nuclide: S1
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 7
+#   residual: 
+#     Z: 16
+#     A: 1
+#     nuclide: S1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    5.000000E+00   5.000000E-02   2.730000E+00   8.544900E-01   1.000000E+00
@@ -46,20 +47,3 @@
 #   author: F.G.PEREY,W.E.KINNEY
 #   title: Sulfur neutron elastic- and inelastic-scattering cross sections from 4.0 to 8.5 MeV
 #   journal: Rept: Oak Ridge National Lab. Reports, No.4539 (1970)
-# statistics:
-#   NEA score: T3
-#   IAEA score: -1
-#   E-min [MeV]:  5.000000E+00
-#   E-max [MeV]:  8.520000E+00
-#   F-value:  1.278942E+02
-#   A-value:  1.266824E+02
-#   chi-2:  7.004586E+05
-#   p-value:  0.000000E+00
-#   exp. data sets for p-value:      2
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.156102E+02   1.145270E+02   5.379104E+05
-# endfb8.0      1.332426E+02   1.320260E+02   8.110408E+05
-# jeff3.3       1.261216E+02   1.248892E+02   6.273279E+05
-# jendl5.0      1.332426E+02   1.320260E+02   8.110408E+05
-# cendl3.2      1.319846E+02   1.308672E+02   7.149735E+05

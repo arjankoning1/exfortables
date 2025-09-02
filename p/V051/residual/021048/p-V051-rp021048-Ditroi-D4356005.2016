@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: V51(p,x)Sc48 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Ditroi
 #   year: 2016
 #   subentry: D4356005
 #   X4 reaction: 23-V-51(P,X)21-SC-48,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/D4356005
-# target:
+# target: 
 #   Z: 23
 #   A: 51
 #   nuclide: V51
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 21
-#   A: 48
-#   nuclide: Sc48
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 16
+#   residual: 
+#     Z: 21
+#     A: 48
+#     nuclide: Sc48
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 16
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    3.644000E+01   1.190000E+00   4.000000E-02   1.000000E-02   1.000000E+00
@@ -49,17 +50,3 @@
 #   author: F.Ditroi,F.Tarkanyi,S.Takacs,A.Hermanne
 #   title: Activation cross-sections of proton induced reactions on vanadium in the 37-65 MeV energy range
 #   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.381, p.16 (201
-# statistics:
-#   NEA score: R1
-#   IAEA score: -1
-#   E-min [MeV]:  3.644000E+01
-#   E-max [MeV]:  6.428000E+01
-#   F-value:  1.653549E+00
-#   A-value:  1.039026E+00
-#   chi-2:  3.468782E+01
-#   p-value:  3.427486E-01
-#   exp. data sets for p-value:      2
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.586615E+00   1.172514E+00   5.390371E+01
-# jendl5.0      1.717894E+00   9.207343E-01   1.547194E+01

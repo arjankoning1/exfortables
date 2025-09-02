@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Zr90(n,x)Zr89 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Csikai
 #   year: 1967
 #   subentry: 30033011
 #   X4 reaction: 40-ZR-90(N,2N)40-ZR-89,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30033011
-# target:
+# target: 
 #   Z: 40
 #   A: 90
 #   nuclide: Zr90
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 40
-#   A: 89
-#   nuclide: Zr89
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 40
+#     A: 89
+#     nuclide: Zr89
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.507000E+01   0.000000E+00   7.572613E+02   1.200000E+02   9.465765E-01
@@ -34,18 +35,3 @@
 #   author: J.Csikai,G.Peto
 #   title: Influence of direct inelastic scattering on (n,2n) cross-sections
 #   journal: Jour: Acta Physica Hungarica, Vol.23, p.87 (1967)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.507000E+01
-#   E-max [MeV]:  1.507000E+01
-#   F-value:  1.077631E+00
-#   A-value:  1.076703E+00
-#   chi-2:  6.785079E-01
-#   p-value:  4.911299E-01
-#   exp. data sets for p-value:      8
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    1.066959E+00   1.066959E+00   5.813093E-01
-# jeff3.3       1.069345E+00   1.069345E+00   6.041423E-01
-# jendl5.0      1.094014E+00   1.094014E+00   8.500720E-01

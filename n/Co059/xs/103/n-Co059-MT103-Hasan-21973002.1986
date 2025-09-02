@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Co59(n,p)Fe59 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Hasan
 #   year: 1986
 #   subentry: 21973002
 #   X4 reaction: 27-CO-59(N,P)26-FE-59,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/21973002
-# target:
+# target: 
 #   Z: 27
 #   A: 59
 #   nuclide: Co59
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 26
-#   A: 59
-#   nuclide: Fe59
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 4
+#   residual: 
+#     Z: 26
+#     A: 59
+#     nuclide: Fe59
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.345000E+01   1.000000E-02   5.294138E+01   2.986500E+00   9.983289E-01
@@ -37,21 +38,3 @@
 #   author: S.J.HASAN,A.PAVLIK,G.WINKLER,M.UHL,M.KABA
 #   title: -PRECISE MEASUREMENT OF CROSS SECTIONS FOR THE  REACTIONS 59-CO(N,2N) AND 59-CO(N,P)59-FE  AROUND 14 MEV
 #   journal: Jour: Jour. of Physics, Part G (Nucl.and Part.Phys.), Vol.12, p.397 (198
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.345000E+01
-#   E-max [MeV]:  1.482200E+01
-#   F-value:  1.034741E+00
-#   A-value:  1.008206E+00
-#   chi-2:  6.634309E-01
-#   p-value:  2.929596E-01
-#   exp. data sets for p-value:      8
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.010236E+00   9.956298E-01   1.343817E-01
-# endfb8.0      1.011009E+00   1.000248E+00   2.131514E-01
-# jeff3.3       1.015714E+00   9.988827E-01   3.115756E-01
-# jendl5.0      1.013455E+00   1.006209E+00   2.877122E-01
-# cendl3.2      1.082300E+00   1.053717E+00   2.903512E+00
-# irdff2.0      1.009919E+00   9.957827E-01   1.302526E-01

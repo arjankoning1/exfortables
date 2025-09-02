@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Er170(n,np)Ho169 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Sakane
 #   year: 2000
 #   subentry: 22468004
 #   X4 reaction: 68-ER-170(N,X)67-HO-169,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22468004
-# target:
+# target: 
 #   Z: 68
 #   A: 170
 #   nuclide: Er170
-# reaction:
+# reaction: 
 #   type: (n,np)
 #   ENDF_MF: 3
 #   ENDF_MT: 28
-# residual:
-#   Z: 67
-#   A: 169
-#   nuclide: Ho169
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 67
+#     A: 169
+#     nuclide: Ho169
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.487000E+01   0.000000E+00   5.140200E-02   3.135500E-02   1.028037E+00
@@ -34,19 +35,3 @@
 #   author: H.Sakane, M.Shibata, K.Kawade, Y.Kasugai, Y.Ikeda
 #   title: Systematics of (n,n'p) reaction cross sections  by 14 MeV neutrons
 #   journal: Conf: Japanese report to the I.N.D.C., No.185, p.202 (2000)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  1.487000E+01
-#   E-max [MeV]:  1.487000E+01
-#   F-value:  1.353153E+00
-#   A-value:  7.467387E-01
-#   chi-2:  5.678105E-01
-#   p-value:  3.216681E-01
-#   exp. data sets for p-value:      4
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.416217E+00   7.061065E-01   6.721095E-01
-# endfb8.0      1.409534E+00   7.094545E-01   6.635916E-01
-# jeff3.3       1.376826E+00   7.263080E-01   6.210472E-01
-# jendl5.0      1.170149E+00   8.545922E-01   3.144939E-01

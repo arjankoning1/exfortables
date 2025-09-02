@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Mo100(n,x)Mo101 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Tolstikov
 #   year: 1964
 #   subentry: 40689003
 #   X4 reaction: 42-MO-100(N,G)42-MO-101,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/40689003
-# target:
+# target: 
 #   Z: 42
 #   A: 100
 #   nuclide: Mo100
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 42
-#   A: 101
-#   nuclide: Mo101
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 8
+#   residual: 
+#     Z: 42
+#     A: 101
+#     nuclide: Mo101
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    5.000000E-03   0.000000E+00   4.300000E+02   2.154300E+01   1.000000E+00
@@ -41,17 +42,3 @@
 #   author: V.A.TOLSTIKOV,V.E.KOLESOV,A.G.DOVBENKO, JU.JA.STAVISSKIJ
 #   title: NEUTRON RADIATIVE CAPTURE IN COPPER AND MOLYBDENUM.
 #   journal: Jour: Atomnaya Energiya, Vol.17, Issue.6, p.505 (1964)
-# statistics:
-#   NEA score: T3
-#   IAEA score:  1
-#   E-min [MeV]:  5.000000E-03
-#   E-max [MeV]:  1.600000E-01
-#   F-value:  1.595824E+01
-#   A-value:  3.107360E-01
-#   chi-2:  1.376322E+02
-#   p-value:  1.562261E-01
-#   exp. data sets for p-value:      2
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.474869E+01   3.355568E-01   1.500089E+02
-# jendl5.0      1.722937E+01   2.877511E-01   1.252556E+02

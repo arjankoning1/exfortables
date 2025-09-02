@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Pr141(n,2n)Pr140 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Chatterjee
 #   year: 1969
 #   subentry: 30612011
 #   X4 reaction: 59-PR-141(N,2N)59-PR-140,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30612011
-# target:
+# target: 
 #   Z: 59
 #   A: 141
 #   nuclide: Pr141
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 59
-#   A: 140
-#   nuclide: Pr140
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 3
+#   residual: 
+#     Z: 59
+#     A: 140
+#     nuclide: Pr140
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.420000E+01   0.000000E+00   2.004000E+03   1.500000E+02   1.000000E+00
@@ -36,21 +37,3 @@
 #   author: A.Chatterjee,A.Nath,A.M.Ghose
 #   title: Absolute (n,2n) cross sections of nuclei near 14 MeV
 #   journal: Conf: Nucl. and Solid State Physics Symp., Roorkee 1969, Vol.2, p.117 (1
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.420000E+01
-#   E-max [MeV]:  1.480000E+01
-#   F-value:  1.247424E+00
-#   A-value:  8.237531E-01
-#   chi-2:  7.120356E+00
-#   p-value:  1.507105E-01
-#   exp. data sets for p-value:      8
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.187549E+00   8.626130E-01   4.598485E+00
-# endfb8.0      1.332183E+00   7.628024E-01   1.144132E+01
-# jeff3.3       1.332183E+00   7.628024E-01   1.144132E+01
-# jendl5.0      1.191032E+00   8.602088E-01   4.731172E+00
-# cendl3.2      1.218563E+00   8.389229E-01   5.911390E+00
-# irdff2.0      1.187549E+00   8.626134E-01   4.598460E+00

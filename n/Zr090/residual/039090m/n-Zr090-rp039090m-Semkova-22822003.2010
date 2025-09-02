@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: Zr90(n,x)Y90m cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Semkova
 #   year: 2010
 #   subentry: 22822003
 #   X4 reaction: 40-ZR-90(N,P)39-Y-90-M,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22822003
-# target:
+# target: 
 #   Z: 40
 #   A: 90
 #   nuclide: Zr90
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 39
-#   A: 90
-#   nuclide: Y90m
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 10
+#   residual: 
+#     Z: 39
+#     A: 90
+#     nuclide: Y90m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.310000E+01   4.000000E-01   1.123464E+01   8.024700E-01   1.003093E+00
@@ -48,17 +49,3 @@
 #   author: V.Semkova, E.Bauge, A.J.M.Plompen, D.L.Smith, A.Moens, R.J.Tornin, V.Avrigeanu, P.Reimer, S.Sudar, A.Koning, R.Forrest
 #   title: .Neutron activation cross sections for zirconium  isotopes.
 #   journal: Jour: Nuclear Physics, Section A, Vol.832, p.149 (2010)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.310000E+01
-#   E-max [MeV]:  2.060000E+01
-#   F-value:  1.389329E+00
-#   A-value:  1.250451E+00
-#   chi-2:  2.809099E+01
-#   p-value:  2.628165E-01
-#   exp. data sets for p-value:      2
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    1.378335E+00   1.274470E+00   2.211429E+01
-# jendl5.0      1.400148E+00   1.226886E+00   3.406770E+01

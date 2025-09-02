@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: I127(n,2n)I126 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Anders
 #   year: 1985
 #   subentry: 21976040
 #   X4 reaction: 53-I-127(N,2N)53-I-126,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/21976040
-# target:
+# target: 
 #   Z: 53
 #   A: 127
 #   nuclide: I127
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 53
-#   A: 126
-#   nuclide: I126
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 53
+#     A: 126
+#     nuclide: I126
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.470000E+01   3.000000E-01   1.655000E+03   1.730000E+02   1.000000E+00
@@ -34,21 +35,3 @@
 #   author: B.Anders,B.M.Bahal,R.Pepelnik
 #   title: Measurements of 14 MeV neutron activation  cross section at KORONA
 #   journal: Rept: Ges.Kernen.-Verwertung, Schiffbau and Schiffahrt, No.85-E-24 (1985
-# statistics:
-#   NEA score: R1
-#   IAEA score:  0
-#   E-min [MeV]:  1.470000E+01
-#   E-max [MeV]:  1.470000E+01
-#   F-value:  1.052260E+00
-#   A-value:  9.670086E-01
-#   chi-2:  5.010955E-01
-#   p-value:  3.090338E-01
-#   exp. data sets for p-value:      8
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.065000E+00   9.389673E-01   8.346823E-01
-# endfb8.0      1.091231E+00   9.163966E-01   1.206824E+00
-# jeff3.3       1.009319E+00   1.009319E+00   1.138613E-01
-# jendl5.0      1.000090E+00   1.000090E+00   1.074929E-03
-# cendl3.2      1.002008E+00   1.002008E+00   2.417760E-02
-# irdff2.0      1.064365E+00   9.395270E-01   8.259535E-01

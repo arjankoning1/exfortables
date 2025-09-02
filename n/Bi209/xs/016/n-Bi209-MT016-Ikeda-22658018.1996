@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Bi209(n,2n)Bi208 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Ikeda
 #   year: 1996
 #   subentry: 22658018
 #   X4 reaction: 83-BI-209(N,2N)83-BI-208,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22658018
-# target:
+# target: 
 #   Z: 83
 #   A: 209
 #   nuclide: Bi209
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 83
-#   A: 208
-#   nuclide: Bi208
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 83
+#     A: 208
+#     nuclide: Bi208
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.480000E+01   0.000000E+00   2.461698E+03   2.560858E+02   1.004775E+00
@@ -34,21 +35,3 @@
 #   author: Y.Ikeda,C.Konno,A.Kumar,Y.Kasugai
 #   title: Summary of activation cross sections measurements  at FNS
 #   journal: Conf: IAEA Nucl.Data Section report to the I.N.D.C., No.342, p.19 (1996)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.480000E+01
-#   E-max [MeV]:  1.480000E+01
-#   F-value:  1.066365E+00
-#   A-value:  9.392615E-01
-#   chi-2:  8.398620E-01
-#   p-value:  1.220785E-01
-#   exp. data sets for p-value:      8
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.062999E+00   9.407349E-01   8.116385E-01
-# endfb8.0      1.093316E+00   9.146490E-01   1.244639E+00
-# jeff3.3       1.050497E+00   9.519301E-01   6.416227E-01
-# jendl5.0      1.047017E+00   9.550946E-01   5.951263E-01
-# cendl3.2      1.071819E+00   9.329937E-01   9.345087E-01
-# irdff2.0      1.062999E+00   9.407350E-01   8.116368E-01

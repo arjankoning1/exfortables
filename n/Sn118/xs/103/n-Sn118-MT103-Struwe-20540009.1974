@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Sn118(n,p)In118 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Struwe
 #   year: 1974
 #   subentry: 20540009
 #   X4 reaction: 50-SN-118(N,P)49-IN-118,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20540009
-# target:
+# target: 
 #   Z: 50
 #   A: 118
 #   nuclide: Sn118
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 49
-#   A: 118
-#   nuclide: In118
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 49
+#     A: 118
+#     nuclide: In118
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.460000E+01   2.000000E-01   6.597500E+00   5.639800E-01   9.981124E-01
@@ -34,20 +35,3 @@
 #   author: W.Struwe, G.Winkler
 #   title: Measurement of (n,p) cross sections on isotopes of  Cd, Sn and Te for 14 MeV neutrons.
 #   journal: Jour: Nuclear Physics, Section A, Vol.222, p.605 (1974)
-# statistics:
-#   NEA score: T2
-#   IAEA score:  1
-#   E-min [MeV]:  1.460000E+01
-#   E-max [MeV]:  1.460000E+01
-#   F-value:  1.437151E+00
-#   A-value:  1.357339E+00
-#   chi-2:  3.008995E+01
-#   p-value:  1.332096E-01
-#   exp. data sets for p-value:      1
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    1.091779E+00   1.091779E+00   1.742957E+00
-# endfb8.0      1.085094E+00   1.085094E+00   1.581752E+00
-# jeff3.3       1.373078E+00   1.373078E+00   1.904770E+01
-# jendl5.0      1.716354E+00   1.716354E+00   7.022421E+01
-# cendl3.2      1.650201E+00   1.650201E+00   5.785312E+01

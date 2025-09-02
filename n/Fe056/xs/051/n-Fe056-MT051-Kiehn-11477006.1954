@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: Fe56(n,n'_01)Fe57 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Kiehn
 #   year: 1954
 #   subentry: 11477006
 #   X4 reaction: 26-FE-56(N,INL)26-FE-56,PAR,SIG,,A
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/11477006
-#   level energy [MeV]  8.45000E-01
-# target:
+#   level energy [MeV]:  8.45000E-01
+# target: 
 #   Z: 26
 #   A: 56
 #   nuclide: Fe56
-# reaction:
+# reaction: 
 #   type: (n,n'_01)
 #   ENDF_MF: 3
 #   ENDF_MT: 51
@@ -25,14 +25,15 @@
 #     energy [MeV]:  8.467780E-01
 #     spin:  2.000000E+00
 #     parity: 1
-# residual:
-#   Z: 26
-#   A: 57
-#   nuclide: Fe57
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 133
+#   residual: 
+#     Z: 26
+#     A: 57
+#     nuclide: Fe57
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 133
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    8.120000E-01   0.000000E+00   0.000000E+00   0.000000E+00   1.000000E+00
@@ -172,20 +173,3 @@
 #   author: R.M.KIEHN,C.GOODMAN
 #   title: NEUTRON INELASTIC SCATTERING
 #   journal: Jour: Physical Review, Vol.95, p.989 (1954)
-# statistics:
-#   NEA score: T1
-#   IAEA score: -1
-#   E-min [MeV]:  8.120000E-01
-#   E-max [MeV]:  2.700000E+00
-#   F-value:  2.086205E+00
-#   A-value:  5.878450E-01
-#   chi-2:  0.000000E+00
-#   p-value:  1.116619E-01
-#   exp. data sets for p-value:      1
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    2.097877E+00   5.587762E-01   0.000000E+00
-# endfb8.0      1.900182E+00   6.648988E-01   0.000000E+00
-# jeff3.3       2.181832E+00   5.792738E-01   0.000000E+00
-# jendl5.0      2.138679E+00   5.832089E-01   0.000000E+00
-# cendl3.2      2.107905E+00   5.592589E-01   0.000000E+00

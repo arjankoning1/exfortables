@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Cl35(n,x)S35 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Koehler
 #   year: 1991
 #   subentry: 13533002
 #   X4 reaction: 17-CL-35(N,P)16-S-35,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/13533002
-# target:
+# target: 
 #   Z: 17
 #   A: 35
 #   nuclide: Cl35
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 16
-#   A: 35
-#   nuclide: S35
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 166
+#   residual: 
+#     Z: 16
+#     A: 35
+#     nuclide: S35
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 166
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.750000E-08   0.000000E+00   4.736000E+02   5.200000E+00   1.000000E+00
@@ -199,17 +200,3 @@
 #   author: P.E.KOEHLER
 #   title: 35CL(N,P)35S CROSS SECTION FROM 25 MEV TO 100 KEV
 #   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.44, p.1675 (1991)
-# statistics:
-#   NEA score: T3
-#   IAEA score: -1
-#   E-min [MeV]:  2.750000E-08
-#   E-max [MeV]:  1.460000E-01
-#   F-value:  6.711175E+00
-#   A-value:  6.017783E-01
-#   chi-2:  1.540583E+03
-#   p-value:  2.693478E-01
-#   exp. data sets for p-value:      1
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    7.502450E+00   8.199190E-01   9.713371E+01
-# jendl5.0      5.930363E+00   4.328580E-01   3.001343E+03

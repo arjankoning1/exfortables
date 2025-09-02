@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Te0(p,x)I121 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Azzam
 #   year: 2020
 #   subentry: D0978006
 #   X4 reaction: 52-TE-0(P,X)53-I-121,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/D0978006
-# target:
+# target: 
 #   Z: 52
 #   A: 0
 #   nuclide: Te0
-# reaction:
+# reaction: 
 #   type: (p,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 5
-# residual:
-#   Z: 53
-#   A: 121
-#   nuclide: I121
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 2
+#   residual: 
+#     Z: 53
+#     A: 121
+#     nuclide: I121
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.280000E+01   0.000000E+00   5.779400E-01   9.964400E-02   9.964412E-01
@@ -35,17 +36,3 @@
 #   author: A.Azzam, M.S.Hamada, S.A.Said, G.Y.Mohamed,  M.Al-Abyad
 #   title: Excitation functions for proton-induced reactions on  Te and natTi targets: Measurements and model  calculations special relevant to the 128Te(p,n)128I  reaction
 #   journal: Jour: Nuclear Physics, Section A, Vol.999, p.121790 (2020)
-# statistics:
-#   NEA score: R2
-#   IAEA score: -1
-#   E-min [MeV]:  1.280000E+01
-#   E-max [MeV]:  1.330000E+01
-#   F-value:  2.637112E+01
-#   A-value:  5.774463E-02
-#   chi-2:  2.777995E+01
-#   p-value:  4.214627E-02
-#   exp. data sets for p-value:      2
-#   libraries:      2
-##  Library          F              A            chi-2
-# tendl.2023    2.239249E+01   6.672121E-02   2.700912E+01
-# jendl5.0      3.081557E+01   4.997574E-02   2.855077E+01

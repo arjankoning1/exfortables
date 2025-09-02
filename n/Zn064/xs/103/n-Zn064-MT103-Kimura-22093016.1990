@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Zn64(n,p)Cu64 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Kimura
 #   year: 1990
 #   subentry: 22093016
 #   X4 reaction: 30-ZN-64(N,P)29-CU-64,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/22093016
-# target:
+# target: 
 #   Z: 30
 #   A: 64
 #   nuclide: Zn64
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 29
-#   A: 64
-#   nuclide: Cu64
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 29
+#     A: 64
+#     nuclide: Cu64
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.405000E+01   7.000000E-02   1.707805E+02   1.141700E+01   9.883129E-01
@@ -34,21 +35,3 @@
 #   author: I.Kimura, K.Kobayashi
 #   title: Calibrated fission and fusion neutron fields at the  Kyoto University Reactor
 #   journal: Jour: Nuclear Science and Engineering, Vol.106, p.332 (1990)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.405000E+01
-#   E-max [MeV]:  1.405000E+01
-#   F-value:  1.015611E+00
-#   A-value:  1.010985E+00
-#   chi-2:  2.232097E-01
-#   p-value:  2.991022E-01
-#   exp. data sets for p-value:      8
-#   libraries:      6
-##  Library          F              A            chi-2
-# tendl.2023    1.009351E+00   1.009351E+00   1.805938E-01
-# endfb8.0      1.002014E+00   1.002014E+00   3.800427E-02
-# jeff3.3       1.009940E+00   1.009940E+00   1.923345E-01
-# jendl5.0      1.000522E+00   1.000522E+00   9.812587E-03
-# cendl3.2      1.034555E+00   1.034555E+00   7.271155E-01
-# irdff2.0      1.009893E+00   1.009893E+00   1.913978E-01

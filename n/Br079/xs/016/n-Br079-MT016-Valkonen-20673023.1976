@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: Br79(n,2n)Br78 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Valkonen
 #   year: 1976
 #   subentry: 20673023
 #   X4 reaction: 35-BR-79(N,2N)35-BR-78,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/20673023
-# target:
+# target: 
 #   Z: 35
 #   A: 79
 #   nuclide: Br79
-# reaction:
+# reaction: 
 #   type: (n,2n)
 #   ENDF_MF: 3
 #   ENDF_MT: 16
-# residual:
-#   Z: 35
-#   A: 78
-#   nuclide: Br78
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 35
+#     A: 78
+#     nuclide: Br78
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.470000E+01   3.000000E-01   9.550000E+02   5.500000E+01   1.000000E+00
@@ -34,19 +35,3 @@
 #   author: M.Valkonen,P.Homberg,R.Rieppo,J.K.Keinaenen,J.Kantele
 #   title: Studies of 14 MeV neutron activation cross sections  with special reference to the capture reaction
 #   journal: Rept: Univ. of Jyvaeskylae, Dept.of Physics Reports, No.1/1976 (1976)
-# statistics:
-#   NEA score: R1
-#   IAEA score:  1
-#   E-min [MeV]:  1.470000E+01
-#   E-max [MeV]:  1.470000E+01
-#   F-value:  1.011406E+00
-#   A-value:  9.943411E-01
-#   chi-2:  1.967550E-01
-#   p-value:  4.135408E-01
-#   exp. data sets for p-value:      8
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.007921E+00   9.921412E-01   1.760568E-01
-# endfb8.0      1.005873E+00   1.005873E+00   1.306021E-01
-# jeff3.3       1.020653E+00   9.797654E-01   4.754864E-01
-# jendl5.0      1.000224E+00   9.997762E-01   4.874646E-03

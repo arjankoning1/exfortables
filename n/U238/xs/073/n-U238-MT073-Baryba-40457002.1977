@@ -1,22 +1,22 @@
-# header:
+# header: 
 #   title: U238(n,n'_23)U239 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Baryba
 #   year: 1977
 #   subentry: 40457002
 #   X4 reaction: 92-U-238(N,INL)92-U-238,PAR,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/40457002
-#   level energy [MeV]  1.12500E+00
-# target:
+#   level energy [MeV]:  1.12500E+00
+# target: 
 #   Z: 92
 #   A: 238
 #   nuclide: U238
-# reaction:
+# reaction: 
 #   type: (n,n'_23)
 #   ENDF_MF: 3
 #   ENDF_MT: 73
@@ -25,14 +25,15 @@
 #     energy [MeV]:  1.076700E+00
 #     spin:  1.200000E+01
 #     parity: 1
-# residual:
-#   Z: 92
-#   A: 239
-#   nuclide: U239
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 1
+#   residual: 
+#     Z: 92
+#     A: 239
+#     nuclide: U239
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    2.470000E+00   1.000000E-01   3.800000E+02   2.500000E+01   1.000000E+00
@@ -40,20 +41,3 @@
 #   author: V.Ya.Baryba,B.V.Zhuravlev,N.V.Kornilov, O.A.Sal'nikov
 #   title: Energy and angular distributions of neutrons produced in the bombardment of U-238 with 2.47 MeV neutrons
 #   journal: Jour: Atomnaya Energiya, Vol.43, p.266 (1977)
-# statistics:
-#   NEA score: T2
-#   IAEA score: -1
-#   E-min [MeV]:  2.470000E+00
-#   E-max [MeV]:  2.470000E+00
-#   F-value:  2.562376E+01
-#   A-value:  3.982853E-02
-#   chi-2:  2.120385E+02
-#   p-value:  1.192093E-07
-#   exp. data sets for p-value:      1
-#   libraries:      5
-##  Library          F              A            chi-2
-# tendl.2023    2.175915E+01   4.595769E-02   2.102918E+02
-# endfb8.0      2.175915E+01   4.595769E-02   2.102918E+02
-# jeff3.3       2.127873E+01   4.699529E-02   2.098347E+02
-# jendl5.0      1.920774E+01   5.206233E-02   2.076093E+02
-# cendl3.2      5.156127E+01   1.939440E-02   2.221651E+02

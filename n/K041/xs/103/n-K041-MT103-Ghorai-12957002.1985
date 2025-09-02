@@ -1,32 +1,33 @@
-# header:
+# header: 
 #   title: K41(n,p)Ar41 cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Ghorai
 #   year: 1985
 #   subentry: 12957002
 #   X4 reaction: 19-K-41(N,P)18-AR-41,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/12957002
-# target:
+# target: 
 #   Z: 19
 #   A: 41
 #   nuclide: K41
-# reaction:
+# reaction: 
 #   type: (n,p)
 #   ENDF_MF: 3
 #   ENDF_MT: 103
-# residual:
-#   Z: 18
-#   A: 41
-#   nuclide: Ar41
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 4
+#   residual: 
+#     Z: 18
+#     A: 41
+#     nuclide: Ar41
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    1.420000E+01   2.000000E-01   5.196273E+01   2.937200E+00   9.804289E-01
@@ -37,19 +38,3 @@
 #   author: S.K.GHORAI,J.R.WILLIAMS,W.L.ALFORD
 #   title: THE CROSS SECTION FOR THE 41K (N,P) 41AR REACTION BETWEEN 14.2 AND 17.2 MEV.
 #   journal: Jour: Annals of Nuclear Energy, Vol.12, p.681 (1985)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  1.420000E+01
-#   E-max [MeV]:  1.720000E+01
-#   F-value:  1.206746E+00
-#   A-value:  1.050936E+00
-#   chi-2:  7.375042E+00
-#   p-value:  3.567461E-01
-#   exp. data sets for p-value:      6
-#   libraries:      4
-##  Library          F              A            chi-2
-# tendl.2023    1.080785E+00   9.963102E-01   1.652322E+00
-# endfb8.0      1.421978E+00   1.311462E+00   2.529993E+01
-# jeff3.3       1.080340E+00   9.801844E-01   1.760028E+00
-# jendl5.0      1.075679E+00   9.524601E-01   7.878895E-01

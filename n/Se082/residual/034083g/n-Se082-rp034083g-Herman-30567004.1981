@@ -1,37 +1,38 @@
-# header:
+# header: 
 #   title: Se82(n,x)Se83g cross section
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2024-01-18
-#   format: YANDF-0.1
-# exfor:
+#   date: 2025-08-01
+#   format: YANDF-0.2
+# exfor: 
 #   author: Herman
 #   year: 1981
 #   subentry: 30567004
 #   X4 reaction: 34-SE-82(N,G)34-SE-83-G,,SIG
 #   X4 source: IAEA-NDS C5 file, database version 2023-08-08
 #   X4 link: https://nds.iaea.org/EXFOR/30567004
-# target:
+# target: 
 #   Z: 34
 #   A: 82
 #   nuclide: Se82
-# reaction:
+# reaction: 
 #   type: (n,x)
 #   ENDF_MF: 3
 #   ENDF_MT: 102
-# residual:
-#   Z: 34
-#   A: 83
-#   nuclide: Se83g
-#   level: 
-#     number: 0
-#     energy [MeV]:  0.000000E+00
-#     spin:  0.000000E+00
-#     parity: 0
-# datablock:
-#   quantity: cross section
-#   columns: 5
-#   entries: 4
+#   residual: 
+#     Z: 34
+#     A: 83
+#     nuclide: Se83g
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
 ##       E             dE             xs             dxs       Normalization
 ##     [MeV]          [MeV]          [mb]           [mb]            []
    5.300000E-01   1.400000E-01   2.487100E+00   3.244100E-01   1.081356E+00
@@ -42,18 +43,3 @@
 #   author: M.Herman,A.Marcinkowski
 #   title: Cross sections for fast neutron capture on the Se, Pd, Cd, Os and Pt isotopes. (New exp.)
 #   journal: Jour: Nuclear Physics, Section A, Vol.357, p.1 (1981)
-# statistics:
-#   NEA score: T1
-#   IAEA score:  1
-#   E-min [MeV]:  5.300000E-01
-#   E-max [MeV]:  1.310000E+00
-#   F-value:  1.890621E+00
-#   A-value:  1.467817E+00
-#   chi-2:  4.632019E+01
-#   p-value:  4.154557E-01
-#   exp. data sets for p-value:      1
-#   libraries:      3
-##  Library          F              A            chi-2
-# tendl.2023    2.415263E+00   2.355690E+00   9.125742E+01
-# jeff3.3       1.201542E+00   9.145886E-01   1.382970E+00
-# jendl5.0      0.000000E+00   0.000000E+00   0.000000E+00
