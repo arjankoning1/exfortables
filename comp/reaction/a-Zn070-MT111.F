@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  30  70  0  -1 P0074005 S.AMIEL         1959     1 30-ZN-70(A,2P)30-ZN-72,,SIG     1.57     0.637      2.18     4.138E-02 T1 4.048E-03 0.104      25.1      26.3      37.3      0.00      1.57      0.00      0.00      0.00      0.00      0.00      0.00

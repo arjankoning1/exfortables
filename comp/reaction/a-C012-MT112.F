@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   6  12  0  -1 F0586002 A.Vidal-Quadra  1979     0 6-C-12(A,P+A)5-B-11,,SIG,,AV    0.00      0.00      0.00      0.00         0.00      74.7      20.3      33.4      50.6      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

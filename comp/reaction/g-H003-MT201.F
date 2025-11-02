@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   1   3  0  -1 L0052004 D.D.Faul,B.L.B  1981     0 1-H-3(G,X)0-NN-1,,SIG           0.00      0.00      0.00      0.00         0.00      1.76      12.4      6.56      23.4      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

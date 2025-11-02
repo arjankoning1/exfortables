@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  80 201  0  -1 01080201 Kadonis         2024    20                                 1.08      1.03      1.83     0.334     T1  258.      246.      6.25     5.000E-03 0.100      0.00      1.06      1.06      1.06      1.05      0.00      1.12      0.00
+  80 201  0  -1 12879005 H.Beer,R.L.Mac  1985    16 80-HG-201(N,G)80-HG-202,,SIG,,  1.09     0.991      7.24     0.314     T1  384.      380.      3.32     3.500E-03 0.450      0.00      1.08      1.11      1.08      1.09      0.00      1.10      0.00

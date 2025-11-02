@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  30  68  0  -1 22637010 C.Konno, Y.Ike  1993     6 30-ZN-68(N,X)29-CU-67,,SIG      2.17     0.504      37.0     3.382E-02 T1  2.86      4.95      8.29      13.4      15.0      0.00      1.44      1.92      2.07      3.41      2.47      1.50      0.00
+  30  68  0  -1 21784006 S.M.Qaim        1982     1 30-ZN-68(N,X)29-CU-67,,SIG      2.33      2.23      102.     7.298E-02 T1  4.57      1.98      14.1      14.7      14.7      0.00      3.03      2.28      2.33      1.32      2.03      2.84      0.00

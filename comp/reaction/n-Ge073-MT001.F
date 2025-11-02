@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  32  73  0  -1 22046010 L.Koester,K.Kn  1987     3 32-GE-73(N,TOT),,SIG            1.06      1.01      28.1     0.341     T1 3.841E+04 3.557E+04  2.97     5.700E-10 5.190E-06  0.00      1.06      1.07      1.06      1.07      1.05      0.00      0.00

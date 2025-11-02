@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  24   0  0  -1 C1212004 M.Q.Makino,C.N  1964     1 24-CR-0(P,NON),,SIG             1.09      1.09      5.01     2.318E-02 T1 1.072E+03  980.      4.18      28.0      28.0      0.00      1.09      0.00      0.00      0.00      0.00      0.00      0.00

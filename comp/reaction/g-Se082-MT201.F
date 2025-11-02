@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  34  82  0  -1 L0043034 P.CARLOS,H.BEI  1976    64 34-SE-82(G,X)0-NN-1,,SIG        1.39      1.04      3.60     0.323     T1  96.5      86.9      14.0      9.11      26.5      0.00      1.51      1.11      0.00      1.14      0.00      0.00      0.00

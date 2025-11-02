@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  54 128  0   1 11884015 E.KONDAIAH,N.R  1968     1 54-XE-128(N,2N)54-XE-127-M,,SI  1.72     0.697      23.5     0.267     R2  633.      840.      7.74      14.4      14.4      0.00      1.36      0.00      1.36      1.17      0.00      2.66      0.00
+  54 128  0   1 107750041R.A.Sigg,P.K.K  1976     1 54-XE-128(N,2N)54-XE-127-M,,SI  2.11      1.87      267.     0.202     R3  641.      316.      7.80      14.6      14.6      0.00      1.98      0.00      1.98      3.14      0.00      1.00      0.00

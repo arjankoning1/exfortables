@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  79 197  0  -1 D0512026 A.Budzanowski,  2008     0 79-AU-197(P,X)1-H-1,,SIG        0.00      0.00      0.00      0.00         0.00     2.023E+03  10.0     1.200E+03 2.500E+03  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  79 197  0  -1 O00460051J.P.Alard, A.B  1975     0 79-AU-197(P,X)1-H-1,,SIG        0.00      0.00      0.00      0.00         0.00     6.550E+03  0.00      600.      600.      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

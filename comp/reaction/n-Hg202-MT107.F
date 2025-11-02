@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  80 202  0  -1 21440040 R.F.Coleman,B.  1959     1 80-HG-202(N,A)78-PT-199,,SIG    19.4     5.360E-02  88.4     1.788E-07 R2 6.098E-02  1.01      10.0      14.5      14.5      0.00      26.1      14.8      26.1      8.27      0.00      27.0      0.00

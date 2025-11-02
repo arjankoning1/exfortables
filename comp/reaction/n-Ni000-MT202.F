@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  28   0  0  -1 41379024 Yu.Ya.Nefedov,  2000     0 28-NI-0(N,X)0-G-0,,SIG          0.00      0.00      0.00      0.00     R1  0.00     2.677E+03  8.97      14.3      14.3      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  28   0  0  -1 22689016 M.Mitsuda,T.Ko  2002     0 28-NI-0(N,X)0-G-0,,SIG          0.00      0.00      0.00      0.00     R1  0.00     1.710E+03  7.60      14.1      14.1      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

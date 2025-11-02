@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  52 130  0  -1 21441004 J.F.Barry,R.F.  1959     1 52-TE-130(N,X)51-SB-129,,SIG    10.4     0.173      48.0     0.351     T2 9.135E-02 0.170      11.8      14.5      14.5      0.00      15.2      1.49      15.2      31.1      1.49      11.3      0.00
+  52 130  0  -1 40029017 V.N.Levkovskii  1971     1 52-TE-130(N,X)51-SB-129,,SIG    17.7     8.774E-02  15.1     0.100     T2 0.166     0.670      20.9      14.8      14.8      0.00      29.7      1.39      29.7      63.7      1.39      20.1      0.00

@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  60   0  0   0 D0743006 O.Lebeda, V.Lo  2014     8 60-ND-0(P,X)61-PM-148-G,,SIG    1.55      1.34      30.8     0.336     T1  4.60      3.19      11.1      5.38      35.4      0.00      1.55      0.00      0.00      0.00      0.00      0.00      0.00
+  60   0  0   0 D0676006 O.Lebeda, V.Lo  2012    17 60-ND-0(P,X)61-PM-148-G,,SIG    1.69      1.59      41.4     0.267     T1  18.5      11.1      11.0      9.96      29.0      0.00      1.69      0.00      0.00      0.00      0.00      0.00      0.00

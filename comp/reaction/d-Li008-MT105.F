@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   3   8  0  -1 E2140003 T.Hashimoto, H  2009     0 3-LI-8(D,T)3-LI-7,,SIG          0.00      0.00      0.00      0.00         0.00      221.      9.23     0.375      1.50      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+   3   8  0  -1 C0126004 M.J.BALBES,M.M  1993     0 3-LI-8(D,T)3-LI-7,,SIG          0.00      0.00      0.00      0.00         0.00      77.2      23.1      2.00      3.50      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

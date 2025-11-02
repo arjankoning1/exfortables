@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  48 116  0  -1 21976039 B.Anders,B.M.B  1985     1 48-CD-116(N,P)47-AG-116,,SIG    1.49      1.39      18.8     0.311     R2  3.54      2.50      12.0      14.7      14.7      0.00      1.47      1.07      1.47      1.87      0.00      1.37      0.00
+  48 116  0  -1 20421002 T.BJORNSTAD, J  1973     1 48-CD-116(N,P)47-AG-116,,SIG    1.66      1.56      9.62     0.149     T2  3.54      2.20      22.7      14.7      14.7      0.00      1.67      1.00      1.67      2.13      0.00      1.55      0.00

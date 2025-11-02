@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  59 141  0  -1 20788019 E.Almen-Ramstr  1975     3 59-PR-141(N,INL)59-PR-141,PAR,  2.01      1.73      43.3     0.270     T1  431.      240.      19.9      2.02      2.50      0.00      1.08      2.14      1.24      1.98      3.18      0.00      0.00
+  59 141  0  -1 20788036 E.Almen-Ramstr  1975     7 59-PR-141(N,INL)59-PR-141,PAR,  2.42      1.39      137.     0.271     T1  275.      152.      14.8      2.02      4.02      0.00      2.30      2.33      1.66      1.60      4.13      0.00      0.00

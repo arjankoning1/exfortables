@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   8   0  0  -1 M0825008 J.Ahrens,H.Bor  1975   138 8-O-0(G,ABS),,SIG               2.40     0.932      45.7     0.262     T2  10.0      10.6      32.6      10.1      31.8      0.00      2.39      2.36      0.00      0.00      0.00      0.00      0.00
+   8   0  0  -1 M0825009 J.Ahrens,H.Bor  1975    68 8-O-0(G,ABS),,SIG               8.46      3.79     1.714E+03 0.137     T2  19.4      3.76      70.1      11.2      159.      0.00      17.7      1.70      0.00      0.00      0.00      0.00      0.00

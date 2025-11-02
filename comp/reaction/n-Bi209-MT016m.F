@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  83 209  0   1 10361002 G.N.Salaita,P.  1973     1 83-BI-209(N,2N)83-BI-208-M,,SI  1.15      1.05      3.04     0.429     T1  418.      393.      8.91      14.8      14.8      0.00      0.00      0.00      1.15      1.15      0.00      1.14      0.00

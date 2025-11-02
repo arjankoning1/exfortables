@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  47   0  0  -1 D02230151S.Mayo,W.Schim  1965     0 47-AG-0(D,NON),,SIG             0.00      0.00      0.00      0.00         0.00     1.855E+03  2.70      25.1      25.1      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  47   0  0  -1 F0579011 L.V.Dubar,O.F.  1974     0 47-AG-0(D,NON),,SIG             0.00      0.00      0.00      0.00         0.00     1.644E+03  6.14      13.5      13.5      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

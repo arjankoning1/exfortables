@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  17  37  0  -1 A0309003 R.O.Weber, C.I  1985    19 17-CL-37(P,A)16-S-34,,SIG       297.      273.     4.565E+06  0.00     T3  5.96     4.167E-02  20.2      1.23      2.09      0.00      297.      0.00      0.00      0.00      0.00      0.00      0.00

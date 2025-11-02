@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  47   0  0  -1 20297006 I.NONAKA        1941     0 47-AG-0(N,X)0-G-0,,SIG          0.00      0.00      0.00      0.00         0.00     3.462E+03  4.37      2.25      2.90      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

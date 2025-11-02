@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  67 165  0  -1 22148002 T.B.RYVES,P.KO  1990     1 67-HO-165(N,P)66-DY-165,,SIG    1.41      1.30      45.2     0.181     T2  5.40      4.03      6.73      14.3      14.3      0.00      1.58      0.00      1.80      1.01      1.11      1.16      0.00

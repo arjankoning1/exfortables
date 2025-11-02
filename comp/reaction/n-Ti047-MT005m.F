@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  22  47  0   1 22325003 Y.Kasugai, H.Y  1994     5 22-TI-47(N,X)21-SC-46-M,,SIG    1.17     0.945      1.91     0.290     R1  5.04      5.22      13.1      13.4      14.9      0.00      1.21      0.00      1.17      1.14      0.00      0.00      0.00
+  22  47  0   1 30660003MI.Ribansky,S.G  1983     1 22-TI-47(N,X)21-SC-46-M,,SIG    1.21      1.15      21.0     0.344     T1  7.96      6.89      4.83      14.8      14.8      0.00      1.02      0.00      1.15      1.35      0.00      0.00      0.00

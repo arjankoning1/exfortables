@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  83 209  0   0 A0574002 A.V.Gonchar,S.  1994     0 83-BI-209(D,4N)84-PO-207-G,M+,  0.00      0.00      0.00      0.00         0.00      576.      12.4      26.9      46.8      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

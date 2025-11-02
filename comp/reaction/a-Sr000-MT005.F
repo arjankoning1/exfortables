@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  38   0  0  -1 O1512007 S.A.Kandil, I.  2007     8 38-SR-0(A,X)40-ZR-86,,SIG       1.46     0.839      5.26     0.234     T1 0.864      1.11      15.3      18.5      25.3      0.00      1.46      0.00      0.00      0.00      0.00      0.00      0.00
+  38   0  0  -1 O1512006 S.A.Kandil, I.  2007    11 38-SR-0(A,X)40-ZR-88,,SIG       5.93     0.387      5.30     0.194     T2  41.9      58.6      22.3      14.7      25.3      0.00      5.93      0.00      0.00      0.00      0.00      0.00      0.00

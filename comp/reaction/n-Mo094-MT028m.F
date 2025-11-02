@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  42  94  0   1 13166004 L.R.Greenwood,  1990     1 42-MO-94(N,X)41-NB-93-M,,SIG    1.14      1.00      1.17     0.460     T1  5.72      5.70      15.8      14.7      14.7      0.00      1.11      0.00      1.11      1.24      0.00      1.01      0.00

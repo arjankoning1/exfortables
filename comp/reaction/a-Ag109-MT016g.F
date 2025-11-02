@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  47 109  0   0 A0442003 M.Ismail,A.S.D  1988    17 47-AG-109(A,2N)49-IN-111-G,,SI  2.09      1.14     1.220E+03 0.188     T3  272.      335.      8.14      16.6      54.6      0.00      2.09      0.00      0.00      0.00      0.00      0.00      0.00
+  47 109  0   0 D40670022C.Wasilevsky,   1986    14 47-AG-109(A,2N)49-IN-111-G,,SI  6.56      1.84     4.819E+04 0.136     T3  304.      279.      23.3      18.0      54.2      0.00      6.56      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   6  12  0  -1 M0071003 V.V.Kirichenko  1979     1 6-C-12(G,N+A)4-BE-7,,SIG,,BRS   1.62     0.618      1.82     1.716E-02 T1 3.267E-02 0.164      41.7      26.2      110.      0.00      1.62      0.00      0.00      0.00      0.00      0.00      0.00

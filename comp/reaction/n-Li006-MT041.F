@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   3   6  0  -1 11024003 A.H.Armstrong,  1964     1 3-LI-6(N,2N+P)2-HE-4,,SIG       1.35     0.738      1.08     0.404     T1  78.3      125.      36.0      14.1      14.1      0.00      0.00      1.35      0.00      0.00      0.00      0.00      0.00
+   3   6  0  -1 21480002 M.H.MC TAGGART  1961     1 3-LI-6(N,2N+P)2-HE-4,,SIG       1.44     0.693      1.06     0.312     T1  78.3      140.      42.9      14.1      14.1      0.00      0.00      1.44      0.00      0.00      0.00      0.00      0.00

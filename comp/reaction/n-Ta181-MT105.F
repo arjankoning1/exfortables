@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  73 181  0  -1 22183006 R.Woelfle,S.M.  1990     3 73-TA-181(N,T)72-HF-179,,SIG    5.97     0.481      43.8     0.337     T2 0.679     0.680      8.92      16.3      19.0      0.00      1.52      0.00      0.00      1.12      34.4      1.34      0.00

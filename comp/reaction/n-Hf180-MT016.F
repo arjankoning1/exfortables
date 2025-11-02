@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  72 180  0  -1 31674002 Ts.Ts.Pantelee  1996     1 72-HF-180(N,2N)72-HF-179,,SIG   1.05     0.961      3.33     0.362     T1 2.211E+03 2.310E+03  2.60      14.0      14.0      0.00      1.01      1.04      1.01      1.04      1.09      1.05      0.00

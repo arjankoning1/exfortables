@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  80 196  0  -1 32761005 Yuan Junqian,   1995     5 80-HG-196(N,X)79-AU-195,,SIG   2.571E+03 3.965E-04  164.     3.219E-07 T2 0.280      623.      9.53      13.8      14.8      0.00     1.714E+03 3.070E+03 1.714E+03 3.494E+03  0.00     3.444E+03  0.00

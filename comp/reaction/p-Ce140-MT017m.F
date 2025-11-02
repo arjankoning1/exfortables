@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  58 140  0   1 A0193002 S.K.Zeisler, D  2000    41 58-CE-140(P,3N)59-PR-138-M,,SI  2.55      2.46      250.     0.236     T3  355.      165.      10.9      23.0      32.2      0.00      2.55      0.00      0.00      0.00      0.00      0.00      0.00

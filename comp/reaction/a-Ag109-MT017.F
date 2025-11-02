@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  47 109  0  -1 D6208006 A.K.Chaubey, M  1990    10 47-AG-109(A,3N)49-IN-110,,SIG   1.32     0.851     0.762     0.215     T1  450.      703.      38.5      26.6      45.4      0.00      1.32      0.00      0.00      0.00      0.00      0.00      0.00
+  47 109  0  -1 D6155007 R.Guin, S.K.Sa  1992    11 47-AG-109(A,3N)49-IN-110,,SIG   1.56     0.710      20.6     0.234     T1  333.      505.      8.29      29.0      58.4      0.00      1.56      0.00      0.00      0.00      0.00      0.00      0.00

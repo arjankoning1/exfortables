@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  18   0  0   0 O2000002 J.-L.Reyss, Y.  1981     0 18-AR-0(P,X)13-AL-26-G,,SIG     0.00      0.00      0.00      0.00         0.00      2.47      21.3      480.     2.980E+03  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

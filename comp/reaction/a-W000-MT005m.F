@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  74   0  0   1 E2741003 N.Ukon, M.Aika  2023     8 74-W-0(A,X)76-OS-183-M,,SIG     2.36      2.11      301.     0.309     T1  77.9      33.2      8.63      30.2      49.7      0.00      2.36      0.00      0.00      0.00      0.00      0.00      0.00

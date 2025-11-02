@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  50 118  0  -1 O1911003 P.Guazzoni, L.  2011    55 50-SN-118(P,T)50-SN-116,PAR,SI  210.      170.     1.203E+07 6.570E-03 T2  1.83     5.303E-02  8.85      24.6      24.6      0.00      210.      0.00      0.00      0.00      0.00      0.00      0.00

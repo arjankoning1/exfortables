@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  46 102  0   0 32552003 KONG XIANGZHON  1999     1 46-PD-102(N,P)45-RH-102-G,,SIG  1.76      1.42      174.     0.462     T1  93.2      59.5      6.72      14.7      14.7      0.00      1.17      0.00      2.54      1.88      0.00      1.00      0.00
+  46 102  0   0 21609008 H.Weigel,R.Mic  1975     1 46-PD-102(N,P)45-RH-102-G,,SIG  2.04      1.71      121.     0.134     R2  101.      52.6      11.4      14.4      14.4      0.00      1.01      0.00      3.13      2.31      0.00      1.18      0.00

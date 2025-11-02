@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  14  29  0  -1 22666028 D.Schmidt,W.Ma  2001    10 14-SI-29(N,INL)14-SI-29,PAR,SI  5.25     0.230      22.9     6.660E-02 T2  48.7      177.      22.4      7.89      13.9      0.00      10.8      3.94      3.94      2.14      6.96      0.00      0.00

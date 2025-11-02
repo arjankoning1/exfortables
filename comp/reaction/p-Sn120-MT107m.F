@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  50 120  0   1 C0130003 J.L.Need,B.Lin  1963     6 50-SN-120(P,A)49-IN-117-M,,SIG  3.49     0.543      3.81     0.118     T2 0.644      1.31      26.5      3.50      69.9      0.00      3.49      0.00      0.00      0.00      0.00      0.00      0.00

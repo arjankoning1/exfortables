@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  22   0  0  -1 22634018 H.Takagi,Kokoo  1999     1 22-TI-0(N,X)1-H-1,,SIG          1.48     0.680      59.0     9.298E-02 T2  104.      153.      4.18      14.1      14.1      0.00      1.37      1.45      1.54      1.40      1.60      0.00      0.00

@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  16  34  0  -1 12886003 R.F.Carlton,W.  1984   631 16-S-34(N,G)16-S-35,,SIG        8.59     0.449      0.00     9.562E-02 T2 0.596      2.16      0.00     3.354E-02 0.999      0.00      7.34      9.22      7.34      9.22      9.53      9.07      0.00

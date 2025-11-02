@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  80   0  0   0 O0768033 E.Porras, F.Sa  2000     0 80-HG-0(P,X)79-AU-198-G,,SIG    0.00      0.00      0.00      0.00         0.00      4.90      2.04     1.700E+03 1.700E+03  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

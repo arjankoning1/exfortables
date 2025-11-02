@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  98 252  0  -1 C1129003 T.Sikkeland,S.  1959     6 98-CF-252(A,2N)100-FM-254,,SIG 2.873E+03 3.521E-04  70.9     2.252E-07 T2 2.108E-03  5.06      18.0      22.6      40.3      0.00     2.873E+03  0.00      0.00      0.00      0.00      0.00      0.00

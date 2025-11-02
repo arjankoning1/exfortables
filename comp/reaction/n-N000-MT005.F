@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   7   0  0  -1 11079005 J.R.SMITH       1954     0 7-N-0(N,INL)7-N-0,,SIG          0.00      0.00      0.00      0.00         0.00      480.      0.00      14.1      14.1      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+   7   0  0  -1 23287003 K.Ninomiya, T.  2011     0 7-N-0(N,X)4-BE-7,,SIG           0.00      0.00      0.00      0.00         0.00      5.33      41.5      287.      287.      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

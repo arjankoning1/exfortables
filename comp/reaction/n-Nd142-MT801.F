@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  60 142  0  -1 21346004 G.STAUDT        1967     0 60-ND-142(N,A)58-CE-139,PAR,SI  0.00      0.00      0.00      0.00         0.00      10.0      30.0      15.0      15.0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

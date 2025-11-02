@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  69 169  0  -1 13876004 Y.J.Ko,J.J.Ega  2000    20 69-TM-169(N,INL)69-TM-169,PAR,  1.50      1.36      14.0     0.209     T1  486.      365.      15.4     0.200      1.00      0.00      1.41      1.41      1.74      1.43      0.00      0.00      0.00

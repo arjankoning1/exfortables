@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   7  15  0  -1 L0053004 J.W.JURY,B.L.B  1982   101 7-N-15(G,X)0-NN-1,,SIG          1.81      1.25      7.30     0.281     T2  5.52      4.26      51.0      10.8      38.0      0.00      2.48      1.56      0.00      1.21      0.00      0.00      0.00

@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  28  62  0  -1 10933010 D.W.KNEFF,B.M.  1986     1 28-NI-62(N,X)2-HE-4,,SIG        1.07     0.993      1.15     0.464     T1  21.7      21.9      8.13      14.8      14.8      0.00      1.07      1.01      1.10      1.12      1.00      0.00      0.00
+  28  62  0  -1 40514015 G.P.DOLYA,A.P.  1975     1 28-NI-62(N,X)2-HE-4,,SIG        1.39     0.729      4.70     6.328E-02 R1  21.2      29.5      13.2      14.7      14.7      0.00      1.49      1.31      1.53      1.17      1.39      0.00      0.00

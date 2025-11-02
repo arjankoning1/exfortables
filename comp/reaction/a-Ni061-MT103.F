@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  28  61  0  -1 P0037017 S.TANAKA        1960     3 28-NI-61(A,P)29-CU-64,,SIG      2.22     0.658      2.28     0.272     T2  87.0      83.9      16.5      8.46      15.6      0.00      2.22      0.00      0.00      0.00      0.00      0.00      0.00
+  28  61  0  -1 O0076014 A.E.Antropov,P  1985     1 28-NI-61(A,P)29-CU-64,,SIG      12.5     7.980E-02  4.22      0.00     T2  62.2     1.500E+03  46.7      24.5      24.5      0.00      12.5      0.00      0.00      0.00      0.00      0.00      0.00

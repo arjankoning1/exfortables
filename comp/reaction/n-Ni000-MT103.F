@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  28   0  0  -1 11492022 F.L.HASSLER,R.  1962     1 28-NI-0(N,P),,SIG               1.01      1.01     0.103     0.375     T1  262.      255.      10.2      14.4      14.4      0.00      1.00      1.00      1.00      1.00      1.01      1.03      0.00
+  28   0  0  -1 41036006 L.I.Klochkova,  1990     1 28-NI-0(N,P),,SIG               1.51     0.663      20.7     9.041E-02 T2  287.      432.      7.41      14.1      14.1      0.00      1.54      1.53      1.54      1.55      1.48      1.42      0.00

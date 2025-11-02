@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  34  77  0  -1 118360063R.E.Cote,L.M.B  1964     9 34-SE-77(N,TOT),,SIG,,RES       11.8     9.484E-02  358.     2.175E-02 T2 8.557E+04 8.300E+05  32.0     1.120E-04 1.480E-03  0.00      13.7      10.5      13.7      10.9      10.5      0.00      0.00
+  34  77  0  -1 206760124J.Julien        1968     5 34-SE-77(N,TOT),,SIG,,RES       16.8     6.583E-02  31.9     2.067E-02 T2 1.466E+05 1.266E+06  17.0     2.090E-04 1.256E-03  0.00      21.9      13.8      21.9      14.3      13.8      0.00      0.00

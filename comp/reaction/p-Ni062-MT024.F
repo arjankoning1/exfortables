@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  28  62  0  -1 C1267007 C.M.Sterns      1962     7 28-NI-62(P,2N+A)27-CO-57,,SIG   3.01     0.398      0.00     3.753E-02 T2  4.03      31.2      0.00      26.3      39.6      0.00      3.01      0.00      0.00      0.00      0.00      0.00      0.00

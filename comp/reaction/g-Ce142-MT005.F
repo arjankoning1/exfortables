@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  58 142  0  -1 L0188002 A.Sauerwein,K.  2014     7 58-CE-142(G,N)58-CE-141,,SIG    1.15      1.04     0.834     0.389     T1  26.2      25.2      19.5      7.64      9.67      0.00      1.07      1.23      0.00      1.12      0.00      0.00      0.00

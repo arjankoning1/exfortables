@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  74 186  0   0 F1470006 A.N.Moiseeva,R  2021     0 74-W-186(HE3,X)75-RE-186-G,,SI  0.00      0.00      0.00      0.00         0.00      95.9      20.2      13.4      43.8      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  74 186  0   0 F1470005 A.N.Moiseeva,R  2021     0 74-W-186(HE3,X)75-RE-184-G,,SI  0.00      0.00      0.00      0.00         0.00      25.2      20.0      30.9      43.8      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  59 141  0  -1 21231024 R.O.Owens,J.H.  1968     3 59-PR-141(N,INL)59-PR-141,,SIG  1.12     0.901      4.92     0.396     T1 2.172E+03 2.423E+03  4.94      5.00      6.97      0.00      1.14      1.06      1.14      1.07      1.16      0.00      0.00

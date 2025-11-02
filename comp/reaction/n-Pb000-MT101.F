@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  82   0  0  -1 11087014 T.COOR,D.A.HIL  1955     0 82-PB-0(N,ABS),,SIG             0.00      0.00      0.00      0.00         0.00     1.730E+03  5.00     1.400E+03 1.400E+03  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  82   0  0  -1 21103010 P.H.Bowen,J.P.  1961     0 82-PB-0(N,ABS),,SIG             0.00      0.00      0.00      0.00         0.00     2.000E+03  3.00      80.0      80.0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

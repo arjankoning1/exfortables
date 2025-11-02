@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  29  65  0  -1 41049011 Ya.M.Kramarovs  1989    15 29-CU-65(N,INL)29-CU-65,PAR,SI  1.38      1.17      5.71     0.168     T1  102.      90.3      14.9      1.99      2.20      0.00      1.37      1.40      1.40      1.35      1.35      0.00      0.00

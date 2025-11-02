@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  17  35  0  -1 C0180003 A.J.Howard,H.B  1974    14 17-CL-35(A,N)19-K-38,,SIG       2.66      2.63      72.3     0.294     T1  70.3      26.0      20.0      6.76      11.0      0.00      2.66      0.00      0.00      0.00      0.00      0.00      0.00
+  17  35  0  -1 A0393002 S.M.Qaim,M.S.S  1988    43 17-CL-35(A,N)19-K-38,,SIG       2.85      1.30      335.     0.203     T3  91.0      84.4      15.7      6.83      26.2      0.00      2.85      0.00      0.00      0.00      0.00      0.00      0.00

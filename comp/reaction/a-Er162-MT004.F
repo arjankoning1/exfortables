@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  68 162  0  -1 D4318003 G.G.Kiss,T.Szu  2014     7 68-ER-162(A,N)70-YB-165,,SIG    1.74      1.52      35.3     0.377     T3  3.15      3.12      11.9      12.5      16.5      0.00      1.74      0.00      0.00      0.00      0.00      0.00      0.00

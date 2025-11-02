@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  12  26  0  -1 L0026005 S.C.FULTZ,R.A.  1971    51 12-MG-26(G,2N)12-MG-24,,SIG     1.84      1.43      16.7     0.240     T2  7.65      5.83      25.6      18.5      28.6      0.00      1.93      1.65      0.00      1.86      0.00      0.00      0.00

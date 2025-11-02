@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  13  27  0  -1 O20970031N.E.Booth, B.L  1957     0 13-AL-27(P,INL)13-AL-27,,SIG    0.00      0.00      0.00      0.00         0.00      370.      7.84      900.      900.      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  13  27  0  -1 F1373004 S.S.Vasil'ev,E  1961     1 13-AL-27(P,INL)13-AL-27,,SIG    2.69     0.392      17.7     0.167     T2  286.      700.      14.3      6.60      6.60      0.00      1.98      3.95      0.00      2.13      0.00      0.00      0.00

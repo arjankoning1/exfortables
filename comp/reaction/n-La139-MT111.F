@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  57 139  0  -1 30106012 S.Lulic,P.Stro  1970     0 57-LA-139(N,2P)55-CS-138,,SIG   0.00      0.00      0.00     1.192E-07     0.00     3.000E-02  66.7      14.6      14.6      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  57 139  0  -1 32675006 Junhua Luo,Che  2010     0 57-LA-139(N,2P)55-CS-138,,SIG   0.00      0.00      0.00     2.384E-07     0.00     3.471E-02  42.9      14.8      14.8      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

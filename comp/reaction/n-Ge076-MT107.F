@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  32  76  0  -1 31481007 A.D.Majdeddin,  1997     1 32-GE-76(N,A)30-ZN-73,,SIG      3.58     0.349      31.2     0.159     T2  1.18      2.60      11.5      14.7      14.7      0.00      5.45      4.11      5.45      4.11      1.00      1.10      0.00

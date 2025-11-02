@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  63 151  0   0 F1456005 A.N.Moiseeva,R  2021    30 63-EU-151(A,X)65-TB-152-G,CUM,  6.82     0.166      24.9     8.483E-02 T2  60.0      408.      17.5      28.1      59.5      0.00      6.82      0.00      0.00      0.00      0.00      0.00      0.00

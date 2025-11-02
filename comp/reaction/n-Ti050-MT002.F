@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  22  50  0  -1 11642019 C.SHULL,M.WILK  1960     1 22-TI-50(N,EL)22-TI-50,,SIG     1.10     0.993      0.00     0.437     T1 3.491E+03 3.500E+03  0.00     2.530E-08 2.530E-08  0.00      1.14      1.07      1.14      1.07      1.08      0.00      0.00

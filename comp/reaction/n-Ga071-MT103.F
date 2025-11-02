@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  31  71  0  -1 207210622N.I.Molla,S.M.  1977     1 31-GA-71(N,P)30-ZN-71,,SIG      1.24     0.919      2.75     0.280     R1  18.8      20.5      12.2      14.7      14.7      0.00      1.04      1.41      1.04      1.26      1.36      1.01      0.00

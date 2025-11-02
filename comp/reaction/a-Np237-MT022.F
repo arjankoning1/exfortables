@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  93 237  0  -1 C0719024 R.M.Lessler,W.  1966     1 93-NP-237(A,X)93-NP-236,,SIG    423.     2.365E-03  24.9     2.554E-08 T2 1.774E-03  8.82      20.0      23.1      45.3      0.00      423.      0.00      0.00      0.00      0.00      0.00      0.00

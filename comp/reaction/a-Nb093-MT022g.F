@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  41  93  0   0 D0121005 A.Agarwal,I.A.  2002     3 41-NB-93(A,N+A)41-NB-92-G,,SIG  5.37      5.30     2.784E+03 0.100     T1  40.3      11.5      7.89      23.3      37.4      0.00      5.37      0.00      0.00      0.00      0.00      0.00      0.00

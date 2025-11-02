@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  44  96  0   1 31632003 Junhua Luo,Gan  2007     3 44-RU-96(N,A)42-MO-93-M,,SIG    2.43     0.603      14.4     0.274     T1  2.07      3.16      25.8      13.5      14.8      0.00      1.28      0.00      1.28      1.47      0.00      5.45      0.00

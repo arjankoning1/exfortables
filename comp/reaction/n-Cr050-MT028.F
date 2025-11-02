@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  24  50  0  -1 21784004 S.M.Qaim        1982     1 24-CR-50(N,X)23-V-49,,SIG       1.23     0.917      1.36     0.425     T1  376.      396.      15.8      14.7      14.7      0.00      1.03      1.00      1.00      1.06      1.15      1.62      0.00
+  24  50  0  -1 22465002 A.Fessler,S.M.  1999     4 24-CR-50(N,X)23-V-49,,SIG       1.38     0.855      3.53     0.298     T1  510.      589.      13.7      14.2      19.4      0.00      1.02      1.06      1.06      1.06      1.17      2.16      0.00

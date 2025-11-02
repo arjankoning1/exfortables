@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  55 137  0  -1 22737002 T.Sekine,Y.Hat  1993     1 55-CS-137(N,G)55-CS-138,,SIG    1.27     0.931      4.62     0.425     T1  241.      249.      8.70     2.530E-08 2.530E-08  0.00      1.04      1.00      1.04      1.04      1.02      1.78      0.00
+  55 137  0  -1 31517003 N.L.MAIDANA,M.  1998     1 55-CS-137(N,G)55-CS-138,,SIG    1.28     0.922      9.97     0.465     T1  241.      253.      5.93     2.530E-08 2.530E-08  0.00      1.03      1.01      1.03      1.04      1.01      1.81      0.00

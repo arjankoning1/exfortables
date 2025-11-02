@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   7  15  0  -1 M0827005 V.P.Denisov,L.  1971     0 7-N-15(G,P)6-C-14,PAR,SIG,,BRS  0.00      0.00      0.00      0.00         0.00      1.28      0.00      13.5      29.5      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

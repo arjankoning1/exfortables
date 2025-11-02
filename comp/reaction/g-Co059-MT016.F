@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  27  59  0  -1 M0541003 G.Baciu,G.C.Bo  1965    16 27-CO-59(G,2N)27-CO-57,,SIG,,B  1.27      1.11      1.58     0.276     T2  16.6      13.7      11.8      19.0      27.0      0.00      1.30      1.26      0.00      1.19      0.00      0.00      0.00
+  27  59  0  -1 L0028009 R.A.Alvarez,B.  1979    74 27-CO-59(G,2N)27-CO-57,,SIG     1.64      1.33      9.32     0.167     T2  12.2      7.41      53.9      17.1      36.5      0.00      1.82      1.51      0.00      1.48      0.00      0.00      0.00

@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  57 139  0   1 D4375003 F.Tarkanyi,A.H  2017    24 57-LA-139(P,3N)58-CE-137-M,,SI  1.32     0.814      4.53     0.253     T1  118.      127.      11.3      33.7      64.1      0.00      1.32      0.00      0.00      0.00      0.00      0.00      0.00
+  57 139  0   1 C2516007 K.V.Becker,E.V  2020     8 57-LA-139(P,3N)58-CE-137-M,,SI  1.36     0.740      12.9     0.370     T1  41.9      56.1      7.35      47.0      88.7      0.00      1.36      0.00      0.00      0.00      0.00      0.00      0.00

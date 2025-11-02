@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  48 108  0  -1 C0392009 W.J.Nieckarz J  1970     0 48-CD-108(P,X)48-CD-107,,SIG    0.00      0.00      0.00      0.00         0.00      102.      12.6      400.      400.      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

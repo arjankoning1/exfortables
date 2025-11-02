@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  42  97  0  -1 O24480072V.Foteinou,M.A  2019     9 42-MO-97(P,G)43-TC-98,,SIG,,SF  1.68     0.683      1.69     0.346     T1 2.269E-02 2.744E-02  40.0      2.99      5.00      0.00      1.54      0.00      0.00      1.81      0.00      0.00      0.00
+  42  97  0  -1 O24480071V.Foteinou,M.A  2019     9 42-MO-97(P,G)43-TC-98,,SIG      1.68     0.684      1.68     0.346     T1 2.269E-02 2.741E-02  40.0      2.99      5.00      0.00      1.54      0.00      0.00      1.81      0.00      0.00      0.00

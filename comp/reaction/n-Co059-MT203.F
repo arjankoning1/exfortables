@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  27  59  0  -1 22467017 Kokooo, I.Mura  1999     1 27-CO-59(N,X)1-H-1,,SIG         1.55      1.07     1.214E+03 0.284     T2  134.      116.      1.21      14.1      14.1      0.00      1.10      1.15      1.15      1.38      1.74      0.00      2.32

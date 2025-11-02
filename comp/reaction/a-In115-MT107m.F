@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  49 115  0   1 C2312003 N.T.Porile      1961     5 49-IN-115(A,INL)49-IN-115-M,,S  1.91      1.86      25.2     0.123     T1  4.24      3.22      35.6      15.6      40.2      0.00      1.91      0.00      0.00      0.00      0.00      0.00      0.00
+  49 115  0   1 A0277002 A.E.Antropov,V  1991     7 49-IN-115(A,INL)49-IN-115-M,,S  13.1     0.136      18.7     0.101     T2  1.55      4.05      16.5      10.3      23.0      0.00      13.1      0.00      0.00      0.00      0.00      0.00      0.00

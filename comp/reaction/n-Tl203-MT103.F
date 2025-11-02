@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  81 203  0  -1 20721087 N.I.Molla,S.M.  1977     1 81-TL-203(N,P)80-HG-203,,SIG    1.04     0.996     0.175     0.377     R1  5.17      5.15      19.0      14.7      14.7      0.00      1.00      0.00      1.00      1.04      0.00      1.06      0.00
+  81 203  0  -1 12181007 A.Poularikas,R  1960     1 81-TL-203(N,P)80-HG-203,,SIG    5.27     0.190      6.06     2.636E-02 R2  5.38      30.0      33.3      14.8      14.8      0.00      5.18      0.00      5.18      4.75      0.00      6.00      0.00

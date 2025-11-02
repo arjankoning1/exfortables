@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  80 198  0   0 22935007 M.Al-Abyad, S.  2006     8 80-HG-198(N,P)79-AU-198-G,,SIG  1.14     0.946     0.781     0.311     T1 0.973      1.06      16.9      9.73      12.5      0.00      1.05      0.00      1.05      1.05      0.00      1.29      0.00
+  80 198  0   0 23018008 Y.Kasugai, F.M  2001     6 80-HG-198(N,P)79-AU-198-G,,SIG  1.18     0.909      5.73     0.290     T1  4.83      5.31      6.64      13.4      14.9      0.00      1.04      0.00      1.04      1.05      0.00      1.38      0.00

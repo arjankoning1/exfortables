@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  47 109  0  -1 M0270004 T.Nakamura,K.T  1959     1 47-AG-109(G,N)47-AG-108,,SIG    1.86      1.86      29.0     0.131     T1  114.      61.5      16.0      17.6      17.6      0.00      1.80      1.89      0.00      1.89      0.00      0.00      0.00

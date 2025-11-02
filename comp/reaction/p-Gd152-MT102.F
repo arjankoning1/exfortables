@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  64 152  0  -1 D4329002 R.T.Guray, N.O  2015     9 64-GD-152(P,G)65-TB-153,,SIG    4.50      3.07     2.195E+03 0.225     T3  16.4      1.67      11.8      3.49      8.00      0.00      4.50      0.00      0.00      0.00      0.00      0.00      0.00

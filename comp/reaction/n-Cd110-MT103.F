@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  48 110  0  -1 11583008 YU-WEN YU,D.G.  1967     1 48-CD-110(N,P)47-AG-110,,SIG    1.29     0.855      1.61     0.248     R1  22.8      27.0      20.0      14.1      14.1      0.00      1.08      1.59      1.08      1.14      0.00      1.34      0.00

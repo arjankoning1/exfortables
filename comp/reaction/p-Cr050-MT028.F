@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  24  50  0  -1 C0269003 L.P.Remsberg,J  1963     0 24-CR-50(P,X)24-CR-49,,SIG      0.00      0.00      0.00      0.00         0.00      47.7      6.02      370.      370.      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  24  50  0  -1 A0510033 V.N.Levkovski   1991    18 24-CR-50(P,X)24-CR-49,CUM,SIG   3.37      1.06      18.6     0.215     T1  223.      166.      12.2      13.8      29.5      0.00      3.37      0.00      0.00      0.00      0.00      0.00      0.00

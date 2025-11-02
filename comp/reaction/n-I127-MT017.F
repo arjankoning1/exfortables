@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  53 127  0  -1 31080006 S.M.Qaim, M.Ej  1968     0 53-I-127(N,3N)53-I-125,,SIG     0.00      0.00      0.00      0.00         0.00      38.5      39.0      14.7      14.7      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  53 127  0  -1 20380006 H.LISKIEN       1968     1 53-I-127(N,3N)53-I-125,,SIG     1.44     0.795      11.5     0.401     T1  255.      310.      8.06      19.5      19.5      0.00      1.86      1.13      1.86      1.03      1.00      1.01      0.00

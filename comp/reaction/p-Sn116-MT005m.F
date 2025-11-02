@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  50 116  0   1 A0617003 V.G.Batij, E.A  1990     5 50-SN-116(P,N)51-SB-116-M,,SIG  1.86      1.65      14.2     0.211     T1  3.96      2.68      27.2      7.00      9.00      0.00      1.39      0.00      0.00      2.26      0.00      0.00      0.00

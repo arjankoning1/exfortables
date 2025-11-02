@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  60 142  0  -1 C0717002 M.KAPLAN        1966    19 60-ND-142(A,4N)62-SM-142,,SIG   1.46      1.17      0.00     0.314     T1  403.      372.      0.00      44.2      65.1      0.00      1.46      0.00      0.00      0.00      0.00      0.00      0.00
+  60 142  0  -1 O2004003 J.Olkowsky, I.  1960     1 60-ND-142(A,4N)62-SM-142,,SIG   2.03      2.03      0.00     0.244     T2  60.8      30.0      0.00      44.0      44.0      0.00      2.03      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  60 142  0  -1 K2403002 C.T.Angell, S.  2012    15 60-ND-142(G,N)60-ND-141,,SIG    1.58     0.856      22.7     0.312     T1  83.7      82.2      5.80      9.86      13.3      0.00      1.58      1.10      0.00      1.18      0.00      0.00      0.00
+  60 142  0  -1 L0025004 P.CARLOS,H.BEI  1971     9 60-ND-142(G,2N)60-ND-140,,SIG   1.59      1.21      8.70     0.194     T1  28.1      16.1      52.8      17.2      20.2      0.00      1.96      1.16      0.00      1.52      0.00      0.00      0.00

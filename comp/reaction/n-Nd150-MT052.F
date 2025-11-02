@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  60 150  0  -1 40748003 E.S.KONOBEEVSK  1983    17 60-ND-150(N,INL)60-ND-150,PAR,  1.34     0.870      2.92     0.234     T1  179.      195.      17.3     0.507      1.25      0.00      1.28      1.31      1.28      1.30      1.51      0.00      0.00
+  60 150  0  -1 21338022 G.HAOUAT,J.LAC  1979     1 60-ND-150(N,INL)60-ND-150,PAR,  12.5     0.133      20.8     0.134     T2  48.4      168.      16.7      7.00      7.00      0.00      1.62      8.37      1.62      10.9      98.9      0.00      0.00

@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  26  54  0  -1 P0058011 F.S.HOUCK,J.M.  1961     2 26-FE-54(A,N+2P)26-FE-55,,SIG   1.45      1.30      0.00     0.126     T1  37.5      290.      0.00      27.7      40.8      0.00      1.45      0.00      0.00      0.00      0.00      0.00      0.00

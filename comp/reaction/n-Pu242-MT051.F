@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  94 242  0  -1 10899005 D.M.Drake,M.Dr  1979     2 94-PU-242(N,INL)94-PU-242,PAR,  1.16     0.929     0.766     0.299     T1 1.146E+03 1.235E+03  17.9     0.570      1.00      0.00      1.05      1.05      1.05      1.05      1.38      0.00      0.00
+  94 242  0  -1 21782041 G.Haouat,J.Lac  1982     6 94-PU-242(N,INL)94-PU-242,PAR,  1.43     0.820      33.7     0.297     T1  736.      848.      7.42     0.600      3.40      0.00      1.16      1.24      1.24      1.24      2.01      0.00      0.00

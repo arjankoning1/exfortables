@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  75 185  0   0 O12660111M.Ismail        1998     0 75-RE-185(A,X)75-RE-184-G,,SIG  0.00      0.00      0.00      0.00         0.00      12.9      8.24      32.6      47.6      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  50 124  0  -1 A0820031 A.R.Balabekyan  2005     0 50-SN-124(P,3N)51-SB-122,,SIG   0.00      0.00      0.00      0.00         0.00      3.90      5.13     3.650E+03 3.650E+03  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  50 124  0  -1 A0579005 V.E.Alexandrya  1996     0 50-SN-124(P,3N)51-SB-122,,SIG   0.00      0.00      0.00      0.00         0.00      5.10      9.80      660.      660.      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

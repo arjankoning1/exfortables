@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  76 192  0  -1 40254016 V.P.Vertebnyy,  1975     1 76-OS-192(N,EL)76-OS-192,,SIG   1.20      1.05      11.1     0.485     T1 1.810E+04 1.700E+04  5.88     2.530E-08 2.530E-08  0.00      1.25      1.13      1.25      1.13      0.00      0.00      0.00
+  76 192  0  -1 40551012 T.S.Belanova,   1980     1 76-OS-192(N,EL)76-OS-192,POT,S  3.48      1.79     1.899E+03 0.394     T2 8.369E+04 2.800E+04  7.14     2.755E-04 2.755E-04  0.00      1.68      5.38      1.68      5.38      0.00      0.00      0.00

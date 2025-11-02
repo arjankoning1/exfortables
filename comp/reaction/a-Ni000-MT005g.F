@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  28   0  0   0 A0148044 R.Michel,G.Bri  1983    14 28-NI-0(A,X)26-FE-52-G,,SIG     2.55      1.68      438.     0.227     T1  3.14      1.05      13.0      66.7      171.      0.00      2.55      0.00      0.00      0.00      0.00      0.00      0.00

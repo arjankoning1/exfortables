@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  73   0  0  -1 11495047 D.B.THOMSON     1963     1 73-TA-0(N,INL)73-TA-0,,SIG      1.01      1.01     0.139     0.471     T1 2.767E+03 2.670E+03  10.9      7.00      7.00      0.00      1.01      1.02      1.02      1.00      1.00      0.00      0.00

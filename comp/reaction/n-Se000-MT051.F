@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  34   0  0  -1 40680023 N.P.Glazkov     1963     3 34-SE-0(N,INL)34-SE-0,PAR,SIG   1.76     0.641      15.9     0.156     T1  561.      833.      9.81     0.800      1.20      0.00      1.44      1.38      1.44      1.09      3.01      0.00      0.00

@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  34   0  0   1 D0503005 K.M.El-Azony,   2009    12 34-SE-0(P,X)35-BR-80-M,,SIG     1.94     0.581      17.0     0.235     T1  52.6      81.5      10.9      9.80      49.2      0.00      2.00      0.00      0.00      1.87      0.00      0.00      0.00

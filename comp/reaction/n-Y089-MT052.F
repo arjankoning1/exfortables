@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  39  89  0  -1 12835005 C.Budtz-Jorgen  1984    23 39-Y-89(N,INL)39-Y-89,PAR,SIG   1.22     0.945      2.32     0.324     T1  391.      403.      10.0      1.60      3.80      0.00      1.10      1.10      1.17      1.09      1.46      0.00      0.00

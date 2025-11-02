@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  40  91  0   1 P0033013 J.P.Blaser,F.B  1951    12 40-ZR-91(P,N)41-NB-91-M,,SIG    2.27      2.23      0.00     0.264     T2  49.8      19.7      0.00      3.50      6.66      0.00      2.27      0.00      0.00      0.00      0.00      0.00      0.00

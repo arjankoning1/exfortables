@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   2   4  0  -1 C1998004 A.F.Wickersham  1957     0 2-HE-4(P,N+P)2-HE-3,,SIG        0.00      0.00      0.00      0.00         0.00      4.80      27.1      27.9      27.9      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+   2   4  0  -1 O2382004 M.Jung,Y.Sakam  1973     0 2-HE-4(P,N+P)2-HE-3,,SIG        0.00      0.00      0.00      0.00         0.00      15.6      14.1      145.      145.      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

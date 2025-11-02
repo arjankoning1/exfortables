@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  81 203  0  -1 11888014 H.W.NEWSON,J.H  1961    66 81-TL-203(N,TOT),,SIG           1.48      1.15      0.00     0.230     T2 1.669E+04 1.485E+04  0.00     4.000E-03 3.000E-02  0.00      1.48      1.48      1.48      1.48      0.00      0.00      0.00
+  81 203  0  -1 12816003 J.A.Harvey,W.M  1972  7312 81-TL-203(N,TOT),,SIG           2.12     0.526      200.     0.140     T2 2.243E+04 3.299E+04  9.11     5.426E-05  1.25      0.00      2.10      2.13      2.10      2.14      0.00      0.00      0.00

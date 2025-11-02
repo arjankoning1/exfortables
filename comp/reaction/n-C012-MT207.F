@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   6  12  0  -1 12899005 R.C.Haight,S.M  1984     1 6-C-12(N,X)2-HE-4,,SIG          3.94     0.368      39.5     0.258     T3  236.      402.      11.4      14.1      14.1      0.00      1.38      5.75      5.75      5.50      1.69      0.00      0.00
+   6  12  0  -1 22715004 M.Moszynski,G.  1994     2 6-C-12(N,X)2-HE-4,,SIG          4.54      3.90      101.     0.150     T3  338.      81.0      45.0      40.0      56.0      0.00      1.53      5.82      5.82      5.29      0.00      0.00      0.00

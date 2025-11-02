@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   6  13  0  -1 F0928010 H.R.Weller,N.R  1968     0 6-C-13(HE3,A)6-C-12,PAR,SIG     0.00      0.00      0.00      0.00         0.00      5.44      1.15      5.26      7.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

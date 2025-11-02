@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  44 102  0  -1 30007009 R.PRASAD, D.C.  1966     1 44-RU-102(N,P)43-TC-102,,SIG    6.50      6.20      472.      0.00     R2  11.4      1.68      29.8      14.8      14.8      0.00      5.26      3.98      11.5      5.98      3.98      9.94      0.00

@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  92 235  0  -1 12404004 G.J.SAFFORD,W.  1959     0 92-U-235(N,ABS),,SIG,,RTE       0.00      0.00      0.00      0.00         0.00     2.133E+06 0.287     2.910E-09 2.910E-09  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  92 235  0  -1 13877003 E.E.Anderson,L  1944     0 92-U-235(N,ABS),,SIG,,RTE       0.00      0.00      0.00      0.00         0.00     1.139E+05  0.00     1.200E-08 2.080E-04  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

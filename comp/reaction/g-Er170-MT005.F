@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  68 170  0  -1 M0892011 A.D.Antonov,N.  1990    18 68-ER-170(G,A)66-DY-166,,SIG,,  2.09      2.08     0.213     0.295     T1 3.572E-02 1.713E-02  2.52      19.0      24.7      0.00      0.00      2.09      0.00      2.09      0.00      0.00      0.00
+  68 170  0  -1 M0894007 A.D.Antonov,N.  1991    25 68-ER-170(G,A)66-DY-166,,SIG,,  3.69      2.95      0.00     0.263     T2 3.680E-02 1.889E-02  0.00      19.5      25.0      0.00      0.00      3.69      0.00      3.69      0.00      0.00      0.00

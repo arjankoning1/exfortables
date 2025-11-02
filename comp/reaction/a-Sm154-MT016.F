@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  62 154  0  -1 C0416002 S.GIL,R.VANDEN  1985    18 62-SM-154(A,2N)64-GD-156,,SIG   1.47     0.698      24.7     0.177     T2  338.      466.      9.17      15.0      24.0      0.00      1.47      0.00      0.00      0.00      0.00      0.00      0.00

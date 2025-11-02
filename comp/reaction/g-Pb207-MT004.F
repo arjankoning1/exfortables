@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  82 207  0  -1 K2385003 T.Kondo, H.Uts  2012    14 82-PB-207(G,N)82-PB-206,,SIG    1.45      1.23      100.     0.286     T1  123.      103.      5.93      6.84      12.2      0.00      1.69      1.36      0.00      1.21      0.00      0.00      0.00

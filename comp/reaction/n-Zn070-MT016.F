@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  30  70  0  -1 30119002 J.Csikai, G.Pe  1967     1 30-ZN-70(N,2N)30-ZN-69,,SIG     1.10     0.929      1.10     0.263     R1 1.132E+03 1.257E+03  10.3      14.7      14.7      0.00      1.07      1.04      1.20      1.04      1.01      1.11      0.00
+  30  70  0  -1 30090002 J.Csikai        1966     1 30-ZN-70(N,2N)30-ZN-69,,SIG     1.18     0.871      1.40     0.137     T1  900.     1.080E+03  15.0      12.4      12.4      0.00      1.10      1.14      1.36      1.10      1.03      1.18      0.00

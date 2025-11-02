@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  49 115  0   1 D6209010 M.K.Bhardwaj,   1992     3 49-IN-115(A,X)50-SN-117-M,,SIG  3.06     0.327      0.00     6.390E-02 T1  18.8      84.7      0.00      21.4      50.0      0.00      3.06      0.00      0.00      0.00      0.00      0.00      0.00
+  49 115  0   1 E2574002 M.Aikawa, M.Sa  2018     3 49-IN-115(A,X)50-SN-117-M,CUM,  3.32      2.80      261.     3.396E-02 T1  15.0      30.2      9.76      18.2      50.3      0.00      3.32      0.00      0.00      0.00      0.00      0.00      0.00

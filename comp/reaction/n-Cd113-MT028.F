@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  48 113  0  -1 22468002 H.Sakane, M.Sh  2000     3 48-CD-113(N,X)47-AG-112,,SIG    3.03     0.377      9.84     0.280     T1 0.186     0.567      30.7      14.4      14.9      0.00      3.79      0.00      3.79      1.70      0.00      2.83      0.00
+  48 113  0  -1 22827007 H.Sakane,Y.Kas  2003     3 48-CD-113(N,X)47-AG-112,,SIG    3.25     0.337      7.59     0.168     T1 0.186     0.600      32.7      14.4      14.9      0.00      4.13      0.00      4.13      1.70      0.00      3.05      0.00

@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  34  82  0   0 21438012 J.L.PERKIN,L.P  1958     0 34-SE-82(N,G)34-SE-83-G,,SIG    0.00      0.00      0.00      0.00         0.00     0.650      30.0      14.5      14.5      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  34  82  0   0 30567004 M.Herman,A.Mar  1981     0 34-SE-82(N,G)34-SE-83-G,,SIG    0.00      0.00      0.00      0.00         0.00      1.24      16.0     0.530      1.31      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

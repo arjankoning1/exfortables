@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  70 176  0   1 A0559004 Yu.Ts.Oganessi  1995     1 70-YB-176(A,X)71-LU-177-M,,SIG  3.73      3.73      4.01     0.151     T2 0.541     0.140      143.      32.0      32.0      0.00      3.73      0.00      0.00      0.00      0.00      0.00      0.00

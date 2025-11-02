@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  56 138  0  -1 11720008 A.B.Tucker,J.T  1965    15 56-BA-138(N,INL)56-BA-138,PAR,  2.36      1.87      15.4     0.130     T1  111.      48.9      38.5      1.91      2.15      0.00      2.48      2.09      2.47      2.67      2.09      0.00      0.00

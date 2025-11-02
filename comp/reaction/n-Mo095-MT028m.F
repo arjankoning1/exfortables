@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  42  95  0   1 22827003 H.Sakane,Y.Kas  2003     4 42-MO-95(N,X)41-NB-94-M,,SIG    2.27      2.07      18.0     0.134     T1  4.22      1.91      33.3      14.0      14.9      0.00      2.87      0.00      2.87      1.17      0.00      1.92      0.00

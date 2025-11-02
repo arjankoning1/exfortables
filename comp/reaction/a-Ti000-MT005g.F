@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  22   0  0   0 D40890052A.HERMANNE, M.  1999     8 22-TI-0(A,X)21-SC-44-G,,SIG     1.14     0.925     0.765     0.318     T1  1.06      1.24      28.7      33.2      41.8      0.00      1.14      0.00      0.00      0.00      0.00      0.00      0.00
+  22   0  0   0 A0148010 R.Michel,G.Bri  1983    19 22-TI-0(A,X)21-SC-44-G,,SIG     1.83      1.41      100.     0.267     T1  52.4      29.4      11.9      37.0      171.      0.00      1.83      0.00      0.00      0.00      0.00      0.00      0.00

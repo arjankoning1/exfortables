@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  23  51  0  -1 M0547006 M.L.Terranova,  1998     2 23-V-51(G,ABS),,SIG             1.35     0.745      1.35     0.252     T2  2.63      3.95      29.1      120.      145.      0.00      1.35      0.00      0.00      0.00      0.00      0.00      0.00

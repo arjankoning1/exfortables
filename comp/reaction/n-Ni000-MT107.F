@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  28   0  0  -1 21658004 A.PAULSEN,H.LI  1981    11 28-NI-0(N,A),,SIG               1.26     0.960      14.1     0.321     R1  65.9      64.7      6.18      4.89      9.97      0.00      1.36      1.12      1.39      1.13      1.08      1.33      0.00
+  28   0  0  -1 21873004 E.WATTECAMPS,   1982     1 28-NI-0(N,A),,SIG               1.28      1.11      10.9     0.406     R1  106.      95.0      9.47      14.1      14.1      0.00      1.52      1.02      1.53      1.05      1.12      1.06      0.00

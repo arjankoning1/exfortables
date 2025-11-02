@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  77 191  0   0 20802016 W.Dilg, H.Vona  1968     1 77-IR-191(N,2N)77-IR-190-G,,SI  1.30     0.898      6.98     0.426     T1 1.599E+03 1.745E+03  7.67      14.7      14.7      0.00      1.00      1.80      1.00      1.06      0.00      1.01      0.00

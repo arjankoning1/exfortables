@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  77 191  0  -1 D0142005 M.K.Bhardwaj,I  1992     6 77-IR-191(A,4N)79-AU-191,,SIG   1.72      1.58      28.6     0.323     T1  828.      481.      7.02      37.9      55.1      0.00      1.72      0.00      0.00      0.00      0.00      0.00      0.00

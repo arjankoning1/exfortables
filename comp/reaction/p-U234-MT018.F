@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  92 234  0  -1 T0296005 J.R.Boyce,T.D.  1974    98 92-U-234(P,F),,SIG              1.25      1.08      62.1     0.334     T1  812.      801.      2.34      5.00      30.0      0.00      1.25      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  74 183  0  -1 20416108 J.Frehaut,A.Be  2016    14 74-W-183(N,2N)74-W-182,,SIG     1.10      1.07      5.41     0.305     T1 1.712E+03 1.595E+03  5.98      7.41      14.8      0.00      1.12      1.06      1.06      1.15      0.00      1.11      0.00

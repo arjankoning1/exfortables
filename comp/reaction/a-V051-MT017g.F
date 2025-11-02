@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  23  51  0   0 O1232003 B.Bindu Kumar,  1998    13 23-V-51(A,3N)25-MN-52-G,,SIG    2.09     0.584      54.8     0.264     T1  38.4      76.2      8.00      30.0      77.1      0.00      2.09      0.00      0.00      0.00      0.00      0.00      0.00
+  23  51  0   0 A0510302 V.N.Levkovski   1991    26 23-V-51(A,3N)25-MN-52-G,,SIG    2.68     0.403      23.0     0.241     T2  62.7      145.      12.2      24.5      45.8      0.00      2.68      0.00      0.00      0.00      0.00      0.00      0.00

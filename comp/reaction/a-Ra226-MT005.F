@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  88 226  0  -1 C2305002 R.Vandenbosch,  1958     8 88-RA-226(A,X)90-TH-226,CUM,SI  1.40      1.08      7.37     0.317     T1  347.      329.      19.6      35.6      45.5      0.00      1.40      0.00      0.00      0.00      0.00      0.00      0.00
+  88 226  0  -1 A0480056 R.Vandenbosch,  1958     8 88-RA-226(A,4N)90-TH-226,,SIG   1.40      1.08      7.37     0.317     T1  347.      329.      19.6      35.6      45.5      0.00      1.40      0.00      0.00      0.00      0.00      0.00      0.00

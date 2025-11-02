@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  73   0  0   0 E2121008 K.Ochiai, M.Na  2007     0 73-TA-0(D,X)73-TA-180-G,,SIG    0.00      0.00      0.00      0.00         0.00      201.      14.0      25.4      48.8      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  26  54  0   0 P0030011 K.Eskola        1967     3 26-FE-54(P,N+P)26-FE-53-G,,SIG  270.      267.      0.00      0.00     T2  251.     0.923      0.00      20.1      28.1      0.00      270.      0.00      0.00      0.00      0.00      0.00      0.00

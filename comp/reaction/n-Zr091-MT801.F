@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  40  91  0  -1 32100007 E.Gadioli,E.Ga  1986     1 40-ZR-91(N,A)38-SR-88,PAR,SIG  1.660E+03 6.718E-04  223.     5.960E-08 R2 7.595E-03  5.08      6.69      14.3      14.3      0.00      0.00     2.690E+03  0.00     4.788E+03  256.      0.00      0.00

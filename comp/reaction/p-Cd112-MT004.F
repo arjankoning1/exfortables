@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  48 112  0  -1 A0129003 S.N.Abramovich  1975   105 48-CD-112(P,N)49-IN-112,,SIG    1.08     0.977     0.388     0.193     T1  225.      228.      15.0      6.59      7.84      0.00      1.08      0.00      0.00      0.00      0.00      0.00      0.00
+  48 112  0  -1 A0001006 E.A.Skakun,A.P  1975    17 48-CD-112(P,N)49-IN-112,,SIG    1.17     0.910     0.447     0.213     T1  203.      240.      30.0      4.70      20.9      0.00      1.17      0.00      0.00      0.00      0.00      0.00      0.00

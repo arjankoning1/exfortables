@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  56 130  0  -1 O2234002 L.Netterdon, A  2014    45 56-BA-130(P,G)57-LA-131,,SIG    1.32     0.908      8.37     0.365     T1  1.86      1.93      9.10      3.60      5.02      0.00      1.25      0.00      0.00      1.39      0.00      0.00      0.00
+  56 130  0  -1 O2234003 L.Netterdon, A  2014     8 56-BA-130(P,G)57-LA-131,,SIG    1.33     0.902      10.1     0.414     T1  1.76      1.84      8.53      3.60      5.02      0.00      1.24      0.00      0.00      1.40      0.00      0.00      0.00

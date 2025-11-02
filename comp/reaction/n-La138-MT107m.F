@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  57 138  0   1 32205015 S.V.Begun, I.M  2002     1 57-LA-138(N,A)55-CS-135-M,,SIG  3.00     0.611      3.82     0.292     T2 0.560     0.630      23.8      14.5      14.5      0.00      1.02      0.00      1.15      1.06      0.00      8.95      0.00
+  57 138  0   1 32204008 S.V.Begun, I.M  2000     1 57-LA-138(N,A)55-CS-135-M,,SIG  3.25     0.550      3.52     0.410     T2 0.584     0.780      24.4      14.6      14.6      0.00      1.03      0.00      1.01      1.01      0.00      10.6      0.00

@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  36  82  0   1 A04890032Z.Kovacs, F.Ta  1991    25 36-KR-82(P,N)37-RB-82-M,,SIG    1.79      1.04      35.7     0.253     T3  125.      158.      14.5      6.00      29.5      0.00      1.79      0.00      0.00      0.00      0.00      0.00      0.00

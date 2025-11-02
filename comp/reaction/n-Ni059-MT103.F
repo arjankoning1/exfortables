@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  28  59  0  -1 10680003 J.A.Harvey,J.H  1976     1 28-NI-59(N,P)27-CO-59,,SIG      1.23      1.15      7.33     0.280     T1 1.679E+03 1.430E+03  9.09     2.530E-08 2.530E-08  0.00      1.40      1.00      1.04      1.00      0.00      1.37      0.00
+  28  59  0  -1 20433002 J.McDonald, N.  1976     1 28-NI-59(N,P)27-CO-59,,SIG      2.37     0.428      5.45     7.142E-02 T2 1.679E+03 4.000E+03  25.0     2.530E-08 2.530E-08  0.00      1.91      2.71      2.55      2.71      0.00      1.96      0.00

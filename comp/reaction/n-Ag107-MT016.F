@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  47 107  0  -1 20891021 B.MINETTI,A.PA  1968     1 47-AG-107(N,2N)47-AG-106,,SIG   1.16     0.873      9.12     0.210     R1 1.327E+03 1.523E+03  4.60      14.7      14.7      0.00      1.24      1.10      1.24      1.05      1.10      1.16      0.00

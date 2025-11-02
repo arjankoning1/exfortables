@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  12  25  0  -1 22178007 B.LAVIELLE,H.S  1990     2 12-MG-25(N,A)10-NE-22,,SIG      1.57      1.21      34.5     0.383     T1  98.7      74.4      14.1      5.20      7.00      0.00      1.32      2.07      1.15      2.07      1.25      1.19      0.00
+  12  25  0  -1 32783002 Yu.M.Gledenov,  2018     5 12-MG-25(N,A)10-NE-22,,SIG      2.16      1.78      386.     0.156     R2  67.6      31.1      11.9      4.00      6.00      0.00      1.31      3.13      1.94      3.13      1.55      1.67      0.00

@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  17  35  0  -1 14683002 S.A.Kuvin,H.Y.  2020    39 17-CL-35(N,P)16-S-35,PAR,SIG    5.40     0.740      35.4     0.147     T2  15.9      28.6      29.2      1.25      5.75      0.00      0.00      5.18      5.18      5.84      0.00      0.00      0.00

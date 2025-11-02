@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  76 189  0   1 22827020 H.Sakane,Y.Kas  2003     1 76-OS-189(N,X)75-RE-188-M,,SIG  3.31      3.31      121.     0.314     T2 0.124     3.757E-02  21.0      14.9      14.9      0.00      3.31      0.00      3.31      0.00      0.00      0.00      0.00
+  76 189  0   1 22800018 H.Sakane,Y.Kas  2002     1 76-OS-189(N,X)75-RE-188-M,,SIG  4.42      4.42      55.2     0.152     T2 0.124     2.817E-02  46.0      14.9      14.9      0.00      4.42      0.00      4.42      0.00      0.00      0.00      0.00

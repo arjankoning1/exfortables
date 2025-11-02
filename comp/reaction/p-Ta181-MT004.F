@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  73 181  0  -1 T0121002 L.F.HANSEN, R.  1962    16 73-TA-181(P,N)74-W-181,,SIG     1.29     0.836     0.297     0.325     T1  49.2      58.3     0.651      4.50      12.0      0.00      1.37      0.00      0.00      1.21      0.00      0.00      0.00
+  73 181  0  -1 A0922003 N.N.Krasnov, P  1966    37 73-TA-181(P,N)74-W-181,,SIG     2.40      1.43      259.     0.268     T3  47.7      42.9      20.0      5.70      19.5      0.00      2.91      0.00      0.00      1.87      0.00      0.00      0.00

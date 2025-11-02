@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  53 129  0   0 O0911022 I.Adam, A.Bala  2001     0 53-I-129(P,X)51-SB-118-G,CUM,S  0.00      0.00      0.00      0.00         0.00      21.1      7.11      660.      660.      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  53 129  0   0 O0911019 I.Adam, A.Bala  2001     0 53-I-129(P,X)45-RH-102-G,,SIG   0.00      0.00      0.00      0.00         0.00      5.03      43.7      660.      660.      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   6  12  0  -1 E1761092 M.Harada, Y.Wa  1999     0 6-C-12(P,A)5-B-9,PAR,SIG        0.00      0.00      0.00      0.00         0.00      12.4      5.00      26.0      26.0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+   6  12  0  -1 E1761079 M.Harada, Y.Wa  1999     0 6-C-12(P,A)5-B-9,PAR,SIG        0.00      0.00      0.00      0.00         0.00      41.9      5.00      14.0      18.0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

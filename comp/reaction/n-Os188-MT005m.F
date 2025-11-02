@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  76 188  0   1 22365013 Y.Satoh,T.Mats  1995     1 76-OS-188(N,P)75-RE-188-M,,SIG  1.92      1.92      76.2     0.212     T1  1.10     0.573      10.5      14.9      14.9      0.00      1.92      0.00      1.92      0.00      0.00      0.00      0.00

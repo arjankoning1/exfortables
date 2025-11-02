@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  92 238  0  -1 A0480021 R.Vandenbosch,  1958     2 92-U-238(A,X)92-U-237,,SIG      216.     5.191E-03  43.7     3.725E-08 T2 1.221E-02  31.7      15.0      25.2      45.4      0.00      216.      0.00      0.00      0.00      0.00      0.00      0.00

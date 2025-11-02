@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  50   0  0  -1 10933043 D.W.KNEFF,B.M.  1986     1 50-SN-0(N,X)2-HE-4,,SIG         1.79      1.71      273.     0.387     T1  2.62      1.49      5.29      14.8      14.8      0.00      1.46      1.40      1.46      1.92      2.55      0.00      0.00
+  50   0  0  -1 22487003 Y.Takao,T.Fuji  1998     1 50-SN-0(N,X)2-HE-4,,SIG         6.27      6.19     1.431E+04  0.00     T2  2.73     0.430      4.65      14.9      14.9      0.00      5.31      5.12      5.31      6.93      9.09      0.00      0.00

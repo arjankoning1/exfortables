@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  52 130  0  -1 T0126030 C.H.Johnson,C.  1964    19 52-TE-130(P,N)53-I-130,,SIG     1.69      1.45     1.035E+05 0.229     T3  10.7      7.50     0.255      1.75      5.70      0.00      1.69      0.00      0.00      0.00      0.00      0.00      0.00
+  52 130  0  -1 T0138009 C.H.Johnson,A.  1958    15 52-TE-130(P,N)53-I-130,,SIG     1.84      1.61      0.00     0.274     T2  13.1      10.5      0.00      2.73      5.66      0.00      1.84      0.00      0.00      0.00      0.00      0.00      0.00

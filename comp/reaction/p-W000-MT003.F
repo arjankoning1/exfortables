@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  74   0  0  -1 C1232006 F.S.Dietrich,E  2002     0 74-W-0(P,NON),,SIG              0.00      0.00      0.00      0.00         0.00     1.714E+03  3.05      534.     3.533E+03  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  74   0  0  -1 O0340035 P.KIRKBY,W.T.L  1966     1 74-W-0(P,NON),,SIG,,,EXP        1.01      1.01     0.558     1.346E-02 T1 1.769E+03 1.733E+03  2.80      99.3      99.3      0.00      1.01      0.00      0.00      0.00      0.00      0.00      0.00

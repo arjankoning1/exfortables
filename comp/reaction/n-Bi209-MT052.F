@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  83 209  0  -1 30463063 Th.Schweitzer,  1978     1 83-BI-209(N,INL)83-BI-209,PAR,  1.13     0.909     0.557     0.155     T1  297.      352.      23.0      3.40      3.40      0.00      1.20      1.03      1.03      1.03      1.22      0.00      0.00
+  83 209  0  -1 40047023 Ju.G.Degtjarev  1967     6 83-BI-209(N,INL)83-BI-209,PAR,  1.98     0.809      5.97     0.153     T1  267.      320.      22.6      1.78      3.76      0.00      2.13      1.96      1.96      1.96      1.87      0.00      0.00

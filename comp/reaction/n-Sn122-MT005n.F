@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  50 122  0   2 410320303P.M.Gopych, M.  1987     1 50-SN-122(N,P)49-IN-122-M2,,SI  1.08     0.930     0.276     0.176     R1 0.148     0.180      33.3      14.6      14.6      0.00      1.08      0.00      1.08      0.00      0.00      0.00      0.00

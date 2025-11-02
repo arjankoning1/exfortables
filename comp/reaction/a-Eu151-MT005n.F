@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  63 151  0   2 D4241005 Gy.Gyurky,Z.El  2010     0 63-EU-151(A,N)65-TB-154-M2,,SI  0.00      0.00      0.00      0.00         0.00     0.457      24.4      11.6      17.5      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

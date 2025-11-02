@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  50 132  0  -1 E2646003 V.Vaquero, A.J  2020     0 50-SN-132(A,X)50-SN-131,,SIG    0.00      0.00      0.00      0.00         0.00      120.      12.5      812.      812.      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  50 132  0  -1 E2646002 V.Vaquero, A.J  2020     0 50-SN-132(A,X)50-SN-131,PAR,SI  0.00      0.00      0.00      0.00         0.00      9.77      13.3      812.      812.      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

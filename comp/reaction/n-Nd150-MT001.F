@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  60 150  0  -1 40302008 A.N.Dyumin,A.I  1973     1 60-ND-150(N,TOT),,SIG           1.04     0.965      17.7     0.354     T1 5.149E+03 5.340E+03 0.936      14.2      14.2      0.00      1.04      1.00      1.04      1.04      1.06      0.00      0.00
+  60 150  0  -1 20118008 H.Tellier       1971 15109 60-ND-150(N,TOT),,SIG           7.57     0.947     1.036E+04 0.102     T2 3.400E+04 1.924E+04  431.     1.835E-05 1.400E-02  0.00      6.72      6.53      6.72      6.32      12.4      0.00      0.00

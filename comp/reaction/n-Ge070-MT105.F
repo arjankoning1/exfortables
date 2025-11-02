@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  32  70  0  -1 20522009 S.M.Qaim, G.L.  1973     1 32-GE-70(N,T)31-GA-68,,SIG      3.69     0.287      6.57     0.172     T2 1.080E-02 3.600E-02  27.8      14.7      14.7      0.00      4.20      0.00      4.20      0.00      1.78      4.68      0.00

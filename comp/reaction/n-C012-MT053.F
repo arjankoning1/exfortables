@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   6  12  0  -1 30635004 B.Antolkovic,   1983    20 6-C-12(N,INL)6-C-12,PAR,SIG     2.00     0.717      1.53     0.199     T1  28.4      37.8      53.6      11.0      35.0      0.00      1.51      1.28      1.36      5.65      1.75      0.00      0.00
+   6  12  0  -1 22728003 D.Schmidt, B.R  1994     3 6-C-12(N,INL)6-C-12,PAR,SIG     2.42     0.666      32.9     0.320     T1  53.4      64.0      8.51      14.1      15.8      0.00      1.13      1.11      1.32      6.47      1.75      0.00      0.00

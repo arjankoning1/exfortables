@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  82   0  0   1 D4311009 F.Ditroi,F.Tar  2014     0 82-PB-0(D,X)82-PB-202-M,,SIG    0.00      0.00      0.00      0.00         0.00      7.34      12.2      28.7      49.1      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  82   0  0   1 A0471092 Ts.Damdinsuren  1990     0 82-PB-0(D,X)39-Y-87-M,,SIG      0.00      0.00      0.00      0.00         0.00      2.10      19.0     7.300E+03 7.300E+03  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

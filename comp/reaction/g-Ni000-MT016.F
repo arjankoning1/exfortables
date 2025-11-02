@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  28   0  0  -1 M0541005 G.Baciu,G.C.Bo  1965    14 28-NI-0(G,2N),,SIG,,BRS         1.58      1.29      4.24     0.244     T2  4.79      3.85      12.4      21.5      28.0      0.00      1.72      1.51      0.00      1.51      0.00      0.00      0.00

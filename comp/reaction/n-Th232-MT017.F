@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  90 232  0  -1 21750005 M.H.McTaggart,  1963     1 90-TH-232(N,3N)90-TH-230,,SIG   1.39     0.726      2.93     0.165     T1  595.      850.      17.6      14.0      14.0      0.00      1.29      1.35      1.35      1.60      1.36      1.34      0.00

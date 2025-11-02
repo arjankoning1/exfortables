@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  56 135  0   0 C1095005 D.G.Swanson,N.  1970     4 56-BA-135(A,2N)58-CE-137-G,,SI  1.82     0.592      12.4     0.137     T2  257.      487.      12.3      19.2      27.4      0.00      1.82      0.00      0.00      0.00      0.00      0.00      0.00

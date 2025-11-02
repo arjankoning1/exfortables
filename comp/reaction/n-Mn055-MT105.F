@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  25  55  0  -1 30473003 S.Sudar,J.Csik  1979     2 25-MN-55(N,T)24-CR-53,,SIG      5.61     0.321      30.4     0.273     T2 0.624      1.12      11.1      14.6      14.8      0.00      3.54      0.00      0.00      24.7      1.07      1.07      0.00

@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  62 150  0  -1 40473003 V.P.Efrosinin,  1979    32 62-SM-150(N,INL)62-SM-150,PAR,  1.56      1.21      19.9     0.245     T1 1.387E+03 1.127E+03  14.4     0.345      1.04      0.00      1.76      1.20      1.91      1.24      1.50      0.00      0.00
+  62 150  0  -1 40574002 E.A.ANDREJEV,V  1977     1 62-SM-150(N,INL)62-SM-150,PAR,  1.98     0.625      13.0     0.468     T1  415.      580.      12.1      2.75      2.75      0.00      1.07      1.72      1.04      1.92      3.57      0.00      0.00

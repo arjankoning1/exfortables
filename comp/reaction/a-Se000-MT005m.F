@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  34   0  0   1 O2031008 R.Debuyst, A.V  1968    10 34-SE-0(A,X)35-BR-80-M,,SIG     2.63     0.406      0.00     0.250     T1  5.79      14.6      0.00      13.7      24.3      0.00      2.63      0.00      0.00      0.00      0.00      0.00      0.00

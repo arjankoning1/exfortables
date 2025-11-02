@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  29  65  0  -1 10827063 S.M.Grimes,R.C  1979     1 29-CU-65(N,X)1-H-1,,SIG         1.29      1.25      6.78     0.230     T1  55.4      44.0      11.4      14.8      14.8      0.00      1.00      1.39      1.39      1.28      1.22      0.00      0.00
+  29  65  0  -1 12960007 M.Ahmad,C.E.Br  1987     2 29-CU-65(N,X)1-H-1,,SIG         1.37      1.12      6.16     0.266     T1  27.1      21.8      16.5      9.00      11.0      0.00      1.62      1.28      1.28      1.37      1.22      0.00      0.00

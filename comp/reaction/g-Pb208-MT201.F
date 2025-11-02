@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  82 208  0  -1 L0007008 R.R.HARVEY,J.T  1964    82 82-PB-208(G,X)0-NN-1,,SIG       1.43      1.19      96.8     0.193     T1  291.      232.      13.8      8.48      26.4      0.00      1.66      1.26      0.00      1.30      0.00      0.00      0.00
+  82 208  0  -1 L0021013 A.VEYSSIERE,H.  1970   101 82-PB-208(G,X)0-NN-1,,SIG       1.74      1.26      30.7     0.313     T1  170.      152.      21.2      7.50      37.5      0.00      2.16      1.54      0.00      1.46      0.00      0.00      0.00

@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   3   7  0  -1 P0131002 R.L.Macklin,H.  1955     0 3-LI-7(D,T)3-LI-6,,SIG          0.00      0.00      0.00      0.00         0.00      69.7      5.00      1.28      4.14      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+   3   7  0  -1 F1451009 L.N.Generalov,  2020     0 3-LI-7(D,T)3-LI-6,PAR,SIG       0.00      0.00      0.00      0.00         0.00      109.      9.31      3.73      9.99      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

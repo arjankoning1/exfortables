@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  48 114  0  -1 O1254004 J.Pal, S.Saha,  2005     4 48-CD-114(A,4N)50-SN-114,,SIG   1.60     0.638      20.1     0.203     T1  530.      697.      9.26      35.0      55.0      0.00      1.60      0.00      0.00      0.00      0.00      0.00      0.00

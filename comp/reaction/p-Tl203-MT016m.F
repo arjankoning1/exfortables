@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  81 203  0   1 A04940021A.Hermanne,N.W  1991    13 81-TL-203(P,2N)82-PB-202-M,,SI  1.84      1.80      105.     0.397     T2  102.      57.9      8.50      15.0      27.0      0.00      1.84      0.00      0.00      0.00      0.00      0.00      0.00
+  81 203  0   1 T0148008 M.C.Lagunas-So  1978    17 81-TL-203(P,2N)82-PB-202-M,,SI  5.58      4.16     3.724E+04 0.191     T3  110.      37.3      9.00      17.0      27.4      0.00      5.58      0.00      0.00      0.00      0.00      0.00      0.00

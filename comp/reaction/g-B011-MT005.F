@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   5  11  0  -1 L0044006 U.KNEISSL,K.H.  1976    60 5-B-11(G,2N)5-B-9,,SIG          2.65     0.665      5.73     0.173     T1 0.856     0.782      70.8      16.0      35.1      0.00      3.45      0.00      0.00      1.87      0.00      0.00      0.00
+   5  11  0  -1 L0129002 Yu.I.Sorokin,V  1969    49 5-B-11(G,P)4-BE-10,,SIG,,BRS    27.2     5.716E-02  19.3     1.545E-03 T2 0.226      7.20      52.2      15.7      31.4      0.00      14.7      0.00      0.00      45.4      0.00      0.00      0.00

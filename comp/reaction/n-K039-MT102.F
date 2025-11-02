@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  19  39  0  -1 14155006 K.H.Guber,P.E.  2007 14376 19-K-39(N,G)19-K-40,,SIG,,TTA   3.21     0.771      12.6     5.280E-02 T2  12.2      33.7      843.     3.004E-05 0.600      0.00      3.47      2.87      3.54      2.87      0.00      3.34      0.00

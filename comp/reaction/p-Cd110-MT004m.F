@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  48 110  0   1 B0048009 J.-P.Blaser, F  1951    10 48-CD-110(P,N)49-IN-110-M,,SIG  1.14      1.03      0.00     0.232     T1  59.5      46.6      0.00      4.52      6.40      0.00      1.14      0.00      0.00      0.00      0.00      0.00      0.00
+  48 110  0   1 P0019002 K.Otozai,S.Kum  1966     5 48-CD-110(P,N)49-IN-110-M,,SIG  1.22     0.828      14.6     0.131     T1  441.      526.      5.53      7.37      14.8      0.00      1.22      0.00      0.00      0.00      0.00      0.00      0.00

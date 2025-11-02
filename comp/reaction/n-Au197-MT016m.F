@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  79 197  0   1 22335016 T.S.Soewarsono  1992     5 79-AU-197(N,2N)79-AU-196-M,,SI  2.41      1.62      92.8     0.421     T2  123.      51.8      110.      17.5      38.3      0.00      3.69      0.00      0.00      1.06      0.00      1.15      0.00

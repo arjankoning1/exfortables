@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  34  77  0  -1 40227005 V.V.Ivanenko,   1969     1 34-SE-77(N,X)33-AS-76,,SIG      3.34     0.401      14.7     0.179     R1  8.11      15.6      15.4      14.7      14.7      0.00      1.00      4.54      1.00      3.24      8.64      1.89      0.00

@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  42  96  0   0 B0025002GJ.J.HOGAN       1972    10 42-MO-96(P,N)43-TC-96-G,,SIG,,  2.99      1.05     1.724E+03 0.226     T2  61.7      24.3      13.2      10.0      65.0      0.00      2.27      0.00      0.00      3.72      0.00      0.00      0.00
+  42  96  0   0 O2542003 F.Heim, M.Muel  2021     6 42-MO-96(P,N)43-TC-96-G,,SIG    5.12     0.448      27.1     0.302     T2  17.0      15.0      28.2      3.88      5.38      0.00      7.32      0.00      0.00      2.43      0.00      0.00      0.00

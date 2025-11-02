@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  50   0  0  -1 T0130021 R.D.ALBERT      1959     7 50-SN-0(P,N),,SIG               1.55     0.825      4.61     0.220     T2  82.2      69.4      15.0      3.60      8.10      0.00      1.20      0.00      0.00      1.81      0.00      0.00      0.00
+  50   0  0  -1 C0775005 C.H.Johnson,R.  1968    16 50-SN-0(P,N),,SIG               2.00      1.52      0.00     0.285     T2  14.1      11.5      0.00      2.58      5.79      0.00      2.65      0.00      0.00      1.07      0.00      0.00      0.00

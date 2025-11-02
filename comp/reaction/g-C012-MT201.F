@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   6  12  0  -1 M0240002 U.KNEISSL,E.A.  1975    68 6-C-12(G,X)0-NN-1,,SIG          3.18     0.508      240.     0.162     T3  2.48      4.67      8.85      19.1      32.1      0.00      2.21      6.58      0.00      1.32      0.00      0.00      0.00
+   6  12  0  -1 L0126004 J.Miller,C.Sch  1966    20 6-C-12(G,X)0-NN-1,,SIG          3.45     0.605      197.     0.304     T3  2.58      3.86      9.96      18.5      25.6      0.00      2.26      8.87      0.00      1.41      0.00      0.00      0.00

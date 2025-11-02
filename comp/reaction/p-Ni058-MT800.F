@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  28  58  0  -1 O0461005 I.KUMABE,H.OGA  1963     0 28-NI-58(P,A)27-CO-55,PAR,SIG   0.00      0.00      0.00      0.00         0.00      5.52     0.622      8.92      10.3      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

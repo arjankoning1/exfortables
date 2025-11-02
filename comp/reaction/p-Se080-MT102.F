@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  34  80  0  -1 O24460032V.Foteinou,S.H  2018    18 34-SE-80(P,G)35-BR-81,,SIG,,SF  1.87     0.706      11.0     0.387     T1 0.628     0.983      11.7      1.50      3.52      0.00      2.38      0.00      0.00      1.18      0.00      0.00      0.00
+  34  80  0  -1 O24460031V.Foteinou,S.H  2018    18 34-SE-80(P,G)35-BR-81,,SIG      1.87     0.706      10.9     0.388     T1 0.628     0.983      11.7      1.50      3.52      0.00      2.38      0.00      0.00      1.18      0.00      0.00      0.00

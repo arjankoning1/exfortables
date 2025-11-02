@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  93 237  0  -1 T0129004 A.Fleury,F.H.R  1973    17 93-NP-237(A,3N)95-AM-238,,SIG   138.     7.305E-03  0.00     7.012E-08 T2 1.802E-02  2.68      0.00      29.2      45.9      0.00      138.      0.00      0.00      0.00      0.00      0.00      0.00
+  93 237  0  -1 C0719021 R.M.Lessler,W.  1966     7 93-NP-237(A,3N)95-AM-238,,SIG   521.     1.964E-03  24.9     6.812E-08 T2 1.655E-02  7.33      20.0      28.7      45.3      0.00      521.      0.00      0.00      0.00      0.00      0.00      0.00

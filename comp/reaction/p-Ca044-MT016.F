@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  20  44  0  -1 A0510006 V.N.Levkovski   1991    17 20-CA-44(P,2N)21-SC-43,,SIG     2.02      1.85      95.2     0.230     T3  143.      72.2      12.2      14.8      29.5      0.00      2.49      0.00      0.00      1.51      0.00      0.00      0.00
+  20  44  0  -1 O2423002 T.S.Carzaniga,  2017     5 20-CA-44(P,2N)21-SC-43,,SIG     2.41      2.15      254.     0.283     T3  118.      48.0      8.53      15.3      18.4      0.00      3.14      0.00      0.00      1.63      0.00      0.00      0.00

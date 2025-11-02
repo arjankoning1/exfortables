@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  76 192  0  -1 D4324010 A.Hermanne,R.A  2015    20 76-OS-192(P,N)77-IR-192-G+M1,,  1.90      1.83      51.6     0.324     T2  46.7      27.1      13.0      8.60      33.7      0.00      1.90      0.00      0.00      0.00      0.00      0.00      0.00
+  76 192  0  -1 D0633002 F.Szelecsenyi,  2010    24 76-OS-192(P,N)77-IR-192,,SIG    2.10      1.99      96.0     0.309     T3  38.7      22.1      11.9      7.70      66.5      0.00      2.10      0.00      0.00      0.00      0.00      0.00      0.00

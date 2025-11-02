@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  92 238  0  -1 O0194024 C.B.FULMER      1959     1 92-U-238(P,A)91-PA-235,,SIG     2.82     0.354      4.10     0.241     T2 0.976      3.00      33.3      22.8      22.8      0.00      2.82      0.00      0.00      0.00      0.00      0.00      0.00

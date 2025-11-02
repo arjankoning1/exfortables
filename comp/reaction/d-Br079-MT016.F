@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  35  79  0  -1 C0151004 H.I.WEST JR,R.  1993     0 35-BR-79(D,2N)36-KR-79,,SIG     0.00      0.00      0.00      0.00         0.00      452.      4.23      5.04      16.8      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

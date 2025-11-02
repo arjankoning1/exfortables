@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   7  14  0  -1 30139002 J.Moesner, G.S  1967     1 7-N-14(N,2A)3-LI-7,,SIG         10.3     0.258      7.27     8.437E-02 T2  28.3      58.0      20.7      14.1      14.1      0.00      266.      1.78      1.78      1.50      1.78      1.50      0.00

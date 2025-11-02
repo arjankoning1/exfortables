@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  11  23  0  -1 C2171008 L.H.Bowen,J.W.  1962     0 11-NA-23(D,T)11-NA-22,,SIG      0.00      0.00      0.00      0.00         0.00      6.36      0.00      7.75      15.4      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  11  23  0  -1 C2171003 L.H.Bowen,J.W.  1962     0 11-NA-23(D,T)11-NA-22,,SIG      0.00      0.00      0.00      0.00         0.00      12.2      16.4      15.2      15.2      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

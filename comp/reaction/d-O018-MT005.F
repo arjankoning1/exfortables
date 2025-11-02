@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   8  18  0  -1 P0078002 N.A.BOSTROM,E.  1957     0 8-O-18(D,A)7-N-16,,SIG          0.00      0.00      0.00      0.00         0.00      55.6      0.00     0.445      2.96      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+   8  18  0  -1 D0104007 G.Amsel, D.Sam  1967     0 8-O-18(D,A)7-N-16,,SIG          0.00      0.00      0.00      0.00         0.00      5.00      0.00     0.600     0.600      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

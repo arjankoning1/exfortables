@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   4   9  0  -1 M0612002 F.M.Clikeman,A  1962    93 4-BE-9(G,P)3-LI-8,,SIG,,BRS     6.21     0.284     0.429     0.126     T2 0.284     0.741     0.116      16.9      53.8      0.00      10.5      0.00      0.00      2.98      0.00      0.00      0.00

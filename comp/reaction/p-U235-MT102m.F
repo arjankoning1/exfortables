@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  92 235  0   1 O2399002 E.Gromova,V.Ja  2014     9 92-U-235(P,G)93-NP-236-M,,SIG   8.04     0.128      265.     0.156     T2 1.440E-02 9.496E-02  13.2      6.54      16.1      0.00      8.04      0.00      0.00      0.00      0.00      0.00      0.00

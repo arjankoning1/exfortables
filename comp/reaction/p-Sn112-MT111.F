@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  50 112  0  -1 A0579020 V.E.Alexandrya  1996     0 50-SN-112(P,2P)49-IN-111,,SIG   0.00      0.00      0.00      0.00         0.00      82.6      9.69      660.      660.      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  50 112  0  -1 A0578003 V.E.Alexandrya  1996     0 50-SN-112(P,X)49-IN-111,CUM,SI  0.00      0.00      0.00      0.00         0.00      82.6      9.69      660.      660.      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

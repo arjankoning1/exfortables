@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   5  10  0  -1 20285005 M.Sakisaka      1959     1 5-B-10(N,T)4-BE-8,PAR,SIG       1.94      1.72      7.17     0.106     T1  77.6      42.0      38.1      14.1      14.1      0.00      1.00      0.00      0.00      2.25      0.00      2.25      0.00
+   5  10  0  -1 20876014 Ch.Sellem, J.P  1975     2 5-B-10(N,T)4-BE-8,PAR,SIG       9.31      8.21     4.976E+03 9.998E-03 T2  78.0      10.9      13.9      14.0      14.0      0.00      5.64      0.00      0.00      11.5      0.00      11.5      0.00

@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  92 235  0  -1 L0050007 J.T.CALDWELL,E  1980    18 92-U-235(G,2N)92-U-233,,SIG     2.08     0.885      5.45     0.170     T2  28.1      24.0      49.6      11.4      18.3      0.00      1.76      2.87      0.00      1.45      0.00      0.00      0.00

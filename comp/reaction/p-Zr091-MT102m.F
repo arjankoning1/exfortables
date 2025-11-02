@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  40  91  0   1 D4417002 Gy.Gyurky,Z.Ha  2021    14 40-ZR-91(P,G)41-NB-92-M,,SIG    1.22     0.909      5.22     0.412     T1 1.722E-02 1.286E-02  8.87      1.45      2.80      0.00      1.22      0.00      0.00      0.00      0.00      0.00      0.00

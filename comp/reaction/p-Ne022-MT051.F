@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  10  22  0  -1 F1032007 M.A.Abuzeid,Y.  1964     0 10-NE-22(P,INL)10-NE-22,PAR,SI  0.00      0.00      0.00      0.00         0.00      180.      0.00      1.90      2.43      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  53 127  0   1 20721077 N.I.Molla,S.M.  1977     1 53-I-127(N,P)52-TE-127-M,,SIG   1.17      1.05      1.10     0.313     R1  8.19      8.00      20.0      14.7      14.7      0.00      1.05      1.42      1.05      1.04      0.00      1.00      0.00
+  53 127  0   1 40226034 V.N.Levkovskii  1970     1 53-I-127(N,P)52-TE-127-M,,SIG   1.60      1.54      12.3     8.297E-02 R1  8.36      5.30      18.9      14.8      14.8      0.00      1.36      2.21      1.36      1.37      0.00      1.54      0.00

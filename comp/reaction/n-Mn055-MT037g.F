@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  25  55  0   0 22335007 T.S.Soewarsono  1992     1 25-MN-55(N,4N)25-MN-52-G,,SIG   1.73     0.698      2.43     9.899E-02 T1  4.33      6.24      23.7      38.3      38.3      0.00      3.17      1.07      1.07      1.47      0.00      1.13      0.00

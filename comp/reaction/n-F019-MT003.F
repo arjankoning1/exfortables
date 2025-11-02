@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   9  19  0  -1 11226005 M.H.MacGregor,  1957     1 9-F-19(N,NON),,SIG              1.26      1.11      23.4     0.405     T1  932.      830.      6.02      14.2      14.2      0.00      1.58      1.01      1.01      0.00      1.01      0.00      0.00
+   9  19  0  -1 40247002 G.A.Prokopets,  1969     1 9-F-19(N,NON),,SIG              2.09      2.09      525.     0.128     T2  878.      420.      4.76      2.80      2.80      0.00      2.18      2.06      2.06      0.00      2.06      0.00      0.00

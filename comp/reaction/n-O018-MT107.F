@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   8  18  0  -1 20545003 M.SCHMIDT-HOEN  1972     1 8-O-18(N,A)6-C-15,,SIG          1.95      1.55      27.8     0.228     R1  13.6      7.60      22.4      14.4      14.4      0.00      1.11      2.86      2.86      1.00      0.00      1.00      0.00

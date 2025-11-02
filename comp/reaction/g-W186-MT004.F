@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  74 186  0  -1 M0663002 P.Mohr,T.Shizu  2004    15 74-W-186(G,N)74-W-185,,SIG      1.44      1.08      21.5     0.315     T1  47.3      39.2      7.49      7.26      10.9      0.00      1.64      1.30      0.00      1.04      0.00      0.00      0.00

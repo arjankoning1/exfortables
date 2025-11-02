@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  54 129  0  -1 21563012 M.Lucas,R.Hage  1977     1 54-XE-129(N,G)54-XE-130,,SIG    1.01     0.991     8.256E-02 0.385     T1 2.130E+04 2.200E+04  13.6     2.530E-08 2.530E-08  0.00      1.01      0.00      1.01      1.00      0.00      0.00      0.00
+  54 129  0  -1 22816006 R.Reifarth,M.H  2002    18 54-XE-129(N,G)54-XE-130,,SIG,,  1.28      1.02      48.0     0.354     T1  829.      716.      3.09     4.000E-03 0.213      0.00      1.34      0.00      1.34      1.13      0.00      0.00      0.00

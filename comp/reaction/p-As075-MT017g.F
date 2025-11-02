@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  33  75  0   0 B0024011GL.B.CHURCH, A.  1969     0 33-AS-75(P,3N)34-SE-73-G,,SIG,  0.00      0.00      0.00      0.00         0.00      3.80      15.0      400.      400.      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

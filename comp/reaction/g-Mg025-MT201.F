@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  12  25  0  -1 L0022005 R.A.ALVAREZ,B.  1971    80 12-MG-25(G,X)0-NN-1,,SIG        1.85      1.02      18.6     0.314     T2  12.5      11.6      36.2      8.55      28.9      0.00      2.13      2.07      0.00      1.21      0.00      0.00      0.00

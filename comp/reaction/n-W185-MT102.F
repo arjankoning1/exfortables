@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  74 185  0  -1 40850010 V.A.ANUFRIEV,S  1983     1 74-W-185(N,G)74-W-186,,SIG      1.05     0.961     0.629     0.340     T1 3.115E+03 3.300E+03  9.09     2.500E-08 2.500E-08  0.00      1.07      1.06      1.07      1.00      0.00      1.00      0.00

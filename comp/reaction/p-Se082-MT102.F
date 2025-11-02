@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  34  82  0  -1 P0029006 P.J.DALY,B.M.S  1968    28 34-SE-82(P,G)35-BR-83,,SIG      4.79     0.553      4.44     0.387     T2 0.446     0.469      4.82      6.85      48.0      0.00      2.13      0.00      0.00      8.04      0.00      0.00      0.00

@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  50 120  0   0 20540013 W.Struwe, G.Wi  1974     1 50-SN-120(N,P)49-IN-120-G,,SIG  1.19      1.14      2.95     0.197     T1  1.62      1.38      12.3      14.6      14.6      0.00      1.09      0.00      1.09      1.37      0.00      1.03      0.00
+  50 120  0   0 20540014 W.Struwe, G.Wi  1974     1 50-SN-120(N,P)49-IN-120-G,,SIG  1.96     0.514      30.2     7.823E-02 T2  1.62      3.13      8.84      14.6      14.6      0.00      2.02      0.00      2.02      1.65      0.00      2.12      0.00

@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   8   0  0  -1 11388003 J.P.CONNER      1953     0 8-O-0(N,INL)8-O-0,,SIG          0.00      0.00      0.00      0.00         0.00      500.      0.00      14.1      14.1      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+   8   0  0  -1 23287004 K.Ninomiya, T.  2011     0 8-O-0(N,X)4-BE-7,,SIG           0.00      0.00      0.00      0.00         0.00      4.38      39.5      287.      370.      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

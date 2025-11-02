@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  56 140  0  -1 10348002 J.Halperin,J.S  1967     1 56-BA-140(N,G)56-BA-141,,SIG    1.00      1.00     1.505E-03 0.496     T1 1.574E+03 1.570E+03  19.1     2.530E-08 2.530E-08  0.00      1.00      1.00      1.00      1.00      0.00      1.00      0.00

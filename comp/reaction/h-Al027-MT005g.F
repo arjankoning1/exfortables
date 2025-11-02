@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  13  27  0   0 O2070003 G.F.Herzog, M.  2011     0 13-AL-27(HE3,X)13-AL-26-G,,SIG  0.00      0.00      0.00      0.00         0.00      32.5      13.2      5.25      35.2      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

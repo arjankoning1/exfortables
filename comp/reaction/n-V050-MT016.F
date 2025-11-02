@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  23  50  0  -1 13166002 L.R.Greenwood,  1990     1 23-V-50(N,2N)23-V-49,,SIG       2.40      2.19      97.1     0.295     R3  602.      258.      15.1      14.3      14.3      0.00      2.71      2.63      2.68      1.00      0.00      2.64      0.00

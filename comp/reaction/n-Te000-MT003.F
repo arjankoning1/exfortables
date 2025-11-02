@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  52   0  0  -1 40360014 V.I.Strizhak    1957     1 52-TE-0(N,NON),,SIG             1.01     0.994     0.208     0.430     T1 1.986E+03 2.000E+03  5.00      14.0      14.0      0.00      1.00      0.00      1.00      1.02      0.00      0.00      0.00
+  52   0  0  -1 40782018 V.I.STRIZHAK    1956     1 52-TE-0(N,NON),,SIG             1.13     0.882     0.987     0.249     T1 1.653E+03 2.000E+03  17.5      2.50      2.50      0.00      1.12      0.00      1.12      1.16      0.00      0.00      0.00

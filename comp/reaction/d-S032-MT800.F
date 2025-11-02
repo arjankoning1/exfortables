@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  16  32  0  -1 E1872021 K.Takamatsu     1962     0 16-S-32(D,A)15-P-30,PAR,SIG     0.00      0.00      0.00      0.00         0.00     0.920      0.00      14.5      14.5      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  16  32  0  -1 F0197010 R.Jahr,K.Kayse  1966     0 16-S-32(D,A)15-P-30,PAR,SIG     0.00      0.00      0.00      0.00         0.00      1.31      10.0      11.8      11.8      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

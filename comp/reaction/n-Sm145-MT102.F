@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  62 145  0  -1 13108004 C.W.Alexander,  1987     1 62-SM-145(N,G)62-SM-146,,SIG    1.00     0.998     2.541E-02 0.486     T1 2.767E+05 2.800E+05  7.50     2.530E-08 2.530E-08  0.00      1.00      1.00      1.00      1.00      0.00      1.00      0.00

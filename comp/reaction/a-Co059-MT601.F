@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  27  59  0  -1 D0064003 S.G.Tims,C.I.W  1988     0 27-CO-59(A,P)28-NI-62,PAR,SIG   0.00      0.00      0.00      0.00         0.00     0.742      13.9      6.49      9.37      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

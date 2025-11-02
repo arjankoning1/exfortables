@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  94 239  0  -1 M0603005 G.M.Gurevich,L  1974     0 94-PU-239(G,ABS),,SIG,,BRS      0.00      0.00      0.00      0.00         0.00      268.      20.5      7.80      19.2      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  94 239  0  -1 M0090005 G.M.GUREVICH,L  1976     0 94-PU-239(G,ABS),,SIG,,BRS      0.00      0.00      0.00      0.00         0.00      268.      20.5      7.80      19.2      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

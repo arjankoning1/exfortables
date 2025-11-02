@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  32  74  0  -1 C2196004 S.J.Quinn,A.Sp  2015     6 32-GE-74(A,G)34-SE-78,,SIG      1.25      1.15      2.27     0.425     T1 0.122     0.101      18.8      8.95      11.5      0.00      1.25      0.00      0.00      0.00      0.00      0.00      0.00

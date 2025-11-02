@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  22  46  0  -1 O2423005 T.S.Carzaniga,  2017    12 22-TI-46(P,A)21-SC-43,,SIG      1.65      1.37      32.9     0.291     T1  29.1      25.1      17.0      8.90      18.4      0.00      1.65      0.00      0.00      0.00      0.00      0.00      0.00
+  22  46  0  -1 A0510013 V.N.Levkovski   1991    18 22-TI-46(P,A)21-SC-43,,SIG      2.21     0.815      12.9     0.216     T2  22.3      19.7      12.2      7.70      23.1      0.00      2.21      0.00      0.00      0.00      0.00      0.00      0.00

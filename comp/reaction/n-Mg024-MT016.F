@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  12  24  0  -1 11520002 D.M.ARNOLD,L.A  1965     7 12-MG-24(N,2N)12-MG-23,,SIG     31.1     8.153E-02  16.1     0.160     R2  7.23      14.8      18.8      17.1      18.2      0.00      92.2      4.25      77.8      4.25      127.      4.68      0.00

@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  40  91  0  -1 O2418002 S.V.Harissopul  2018    11 40-ZR-91(A,G)42-MO-95,,SIG      1.25      1.20      2.08     0.186     T1 3.873E-02 2.922E-02  27.6      9.38      11.4      0.00      1.25      0.00      0.00      0.00      0.00      0.00      0.00
+  40  91  0  -1 O1415002 S.Harissopulos  2005    11 40-ZR-91(A,G)42-MO-95,,SIG      2.41      2.36      57.4     0.357     T2 3.884E-02 1.468E-02  20.9      9.37      11.4      0.00      2.41      0.00      0.00      0.00      0.00      0.00      0.00

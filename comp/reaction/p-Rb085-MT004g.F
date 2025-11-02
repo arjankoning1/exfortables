@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  37  85  0   0 D41270021S.Kastleiner,   2002    57 37-RB-85(P,N)38-SR-85-G,,SIG    3.42     0.437      20.0     0.184     T2  83.7      117.      15.3      3.10      70.6      0.00      1.75      0.00      0.00      5.17      0.00      0.00      0.00

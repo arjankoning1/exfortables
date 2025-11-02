@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  28  58  0  -1 30656022 Shi Xiamin,She  1982     1 28-NI-58(N,INL)28-NI-58,,SIG    1.13      1.05      2.17     0.453     T1  337.      320.      9.38      14.2      14.2      0.00      1.00      1.21      1.00      1.16      1.13      0.00      0.00

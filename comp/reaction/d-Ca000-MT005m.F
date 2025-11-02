@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  20   0  0   1 D4387005 M.Al-Abyad,G.Y  2018     0 20-CA-0(D,X)21-SC-44-M,,SIG     0.00      0.00      0.00      0.00         0.00     0.152      9.56      6.70      9.80      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

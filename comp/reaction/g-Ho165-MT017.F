@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  67 165  0  -1 L0016013 B.L.Berman,M.A  1969    16 67-HO-165(G,3N)67-HO-162,,SIG   2.08      1.75      6.32     0.155     T1  14.6      7.63      85.0      23.0      28.9      0.00      2.17      2.13      0.00      1.94      0.00      0.00      0.00
+  67 165  0  -1 L0012013 R.BERGERE,H.BE  1968     8 67-HO-165(G,3N)67-HO-162,,SIG   2.20      1.47     0.880     0.119     T1  15.6      5.37      41.8      22.0      28.5      0.00      2.20      2.39      0.00      2.01      0.00      0.00      0.00

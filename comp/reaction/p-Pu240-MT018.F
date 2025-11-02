@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  94 240  0  -1 O20420051S.Bjoernholm,J  1967     2 94-PU-240(P,F),,SIG             1.22      1.18      0.00     0.263     T1  119.      99.5      0.00      10.9      11.3      0.00      1.25      0.00      0.00      1.18      0.00      0.00      0.00

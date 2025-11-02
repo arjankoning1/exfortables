@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  47 107  0  -1 O2054002 L.Th.M.Ornstei  1953     0 47-AG-107(D,2N+A)46-PD-103,,SI  0.00      0.00      0.00      0.00         0.00      2.78      13.6      15.0      29.0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

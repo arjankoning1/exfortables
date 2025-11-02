@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  12  26  0  -1 P0120003 J.K.Bair,H.B.W  1962   209 12-MG-26(A,N)14-SI-29,,SIG      2.24      1.92      41.2     0.222     T3  83.9      51.3      25.0      3.13      5.37      0.00      2.24      0.00      0.00      0.00      0.00      0.00      0.00
+  12  26  0  -1 D0755003 M.R.Anderson,L  1983    84 12-MG-26(A,N)14-SI-29,,SIG      2.81      1.47      452.     0.149     T3  79.6      107.      14.0      1.85      5.99      0.00      2.81      0.00      0.00      0.00      0.00      0.00      0.00

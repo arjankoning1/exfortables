@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  18   0  0  -1 P0066005 S.C.WRIGHT      1950     0 18-AR-0(D,X)3-LI-8,,SIG         0.00      0.00      0.00      0.00         0.00     0.134      9.80      62.6      190.      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

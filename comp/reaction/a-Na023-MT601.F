@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  11  23  0  -1 O2269005 A.M.Howard, M.  2015     0 11-NA-23(A,P)12-MG-26,PAR,SIG   0.00      0.00      0.00      0.00         0.00      1.19      25.1      2.05      2.90      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  11  23  0  -1 C2107004 S.Almaraz-Cald  2014     0 11-NA-23(A,P)12-MG-26,PAR,SIG   0.00      0.00      0.00      0.00         0.00     0.430      33.3      2.13      2.84      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

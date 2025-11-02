@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  51   0  0  -1 20750006 H.A.Jasicek     1973     0 51-SB-0(N,ABS),,SIG             0.00      0.00      0.00      0.00         0.00      123.      8.22     0.387     0.958      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  51   0  0  -1 11139011 W.W.Havens Jr,  1946     0 51-SB-0(N,ABS),,SIG             0.00      0.00      0.00      0.00         0.00     8.220E+03  5.23     2.530E-08 2.530E-08  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

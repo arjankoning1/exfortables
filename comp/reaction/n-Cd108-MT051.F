@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  48 108  0  -1 40214013 E.S.Konobeevsk  1973    19 48-CD-108(N,INL)48-CD-108,PAR,  1.57     0.902      2.48     0.231     T1  692.      717.      19.8     0.643      1.11      0.00      1.56      1.66      1.56      1.48      0.00      0.00      0.00

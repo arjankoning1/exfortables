@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  72 182  0  -1 23022004 C.Vockenhuber,  2008     1 72-HF-182(N,G)72-HF-183,,SIG    1.00      1.00     7.346E-05 0.497     T1 1.344E+05 1.343E+05  8.71     2.500E-08 2.500E-08  0.00      1.00      0.00      1.00      0.00      0.00      0.00      0.00

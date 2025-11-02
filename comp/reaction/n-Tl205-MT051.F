@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  81 205  0  -1 20982004 E.J.Feicht,H.G  1971     1 81-TL-205(N,INL)81-TL-205,PAR,  2.58     0.397      5.71     0.106     T1  153.      390.      25.6      3.00      3.00      0.00      2.76      3.01      2.76      1.76      0.00      0.00      0.00

@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  40  91  0   0 11896008 C.H.Reed        1960     1 40-ZR-91(N,P)39-Y-91-G,,SIG     1.19     0.903      2.34     0.310     T1  12.7      14.2      9.86      14.1      14.1      0.00      1.00      0.00      1.00      1.35      0.00      0.00      0.00

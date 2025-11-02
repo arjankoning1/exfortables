@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  24  53  0  -1 D0696005 H.J.Gardner, L  1981     0 24-CR-53(P,INL)24-CR-53,PAR,SI  0.00      0.00      0.00      0.00         0.00     0.142      19.7      1.25      2.38      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

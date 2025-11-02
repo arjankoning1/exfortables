@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  48 110  0   0 D0727002 S.Mukhammedov,  1985     0 48-CD-110(D,2N)49-IN-110-G,,SI  0.00      0.00      0.00      0.00         0.00      608.      0.00      7.71      11.9      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

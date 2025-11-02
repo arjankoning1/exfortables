@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  63 154  0  -1 40753004 V.P.Vertebnyi,  1982     1 63-EU-154(N,G)63-EU-155,,SIG    1.19      1.13      3.02     0.194     T1 1.467E+06 1.250E+06  12.8     2.500E-08 2.500E-08  0.00      1.13      1.14      1.04      1.04      1.04      1.47      0.00
+  63 154  0  -1 02063154 Gamgam          2024     2                                 1.83     0.578      11.9     5.529E-02 T1 9.446E+03 1.581E+04  12.8     5.000E-03 1.000E-02  0.00      1.01      1.89      1.84      1.98      1.89      2.09      0.00

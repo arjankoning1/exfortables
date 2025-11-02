@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  60 144  0  -1 10807022 D.F.Coope,S.N.  1979     1 60-ND-144(N,INL)60-ND-144,PAR,  1.14      1.03      0.00     0.433     T1  604.      584.      0.00      2.50      2.50      0.00      1.15      1.02      1.15      1.03      1.24      0.00      0.00
+  60 144  0  -1 21338018 G.HAOUAT,J.LAC  1979     1 60-ND-144(N,INL)60-ND-144,PAR,  1.30     0.779      9.88     9.868E-02 T1  85.7      110.      7.27      7.00      7.00      0.00      1.19      1.38      1.19      1.24      1.44      0.00      0.00

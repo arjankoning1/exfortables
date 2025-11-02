@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  18  40  0  -1 E1836002 K.Nagatsu, A.K  1999    16 18-AR-40(P,3N)19-K-38,,SIG      2.29     0.714      14.5     0.255     T2  4.21      3.48      13.6      23.4      39.5      0.00      1.79      0.00      0.00      2.77      0.00      0.00      0.00

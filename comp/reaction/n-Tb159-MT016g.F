@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  65 159  0   0 20541037 S.M.Qaim        1974     1 65-TB-159(N,2N)65-TB-158-G,,SI  1.06      1.05     0.537     0.294     R1 1.469E+03 1.350E+03  13.7      14.7      14.7      0.00      1.12      0.00      1.05      1.04      0.00      1.00      0.00
+  65 159  0   0 31406005 Lu Hanlin,Yu W  1991     2 65-TB-159(N,2N)65-TB-158-G,,SI  1.32     0.761      78.0     0.169     T1 1.465E+03 1.923E+03  2.73      14.2      14.8      0.00      1.23      0.00      1.30      1.32      0.00      1.40      0.00

@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  28  64  0  -1 C0669006 J.L.ZYSKIND,J.  1979    16 28-NI-64(A,N)30-ZN-67,,SIG      1.59      1.41      199.     0.281     T3  1.70      1.03      9.40      5.29      7.44      0.00      1.59      0.00      0.00      0.00      0.00      0.00      0.00

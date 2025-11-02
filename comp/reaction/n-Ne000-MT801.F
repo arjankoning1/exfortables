@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  10   0  0  -1 11853005 R.E.Shamu       1962     0 10-NE-0(N,A),PAR,SIG            0.00      0.00      0.00      0.00         0.00      99.7      25.0      9.10      10.7      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  10   0  0  -1 11853004 R.E.Shamu       1962     0 10-NE-0(N,A),PAR,SIG            0.00      0.00      0.00      0.00         0.00      138.      25.0      6.15      9.55      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

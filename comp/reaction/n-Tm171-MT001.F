@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  69 171  0  -1 10405003 G.E.Stokes,R.P  1974   347 69-TM-171(N,TOT),,SIG           5.77      1.65      0.00     0.219     T2 2.612E+05 1.634E+05  0.00     5.000E-08 1.000E-04  0.00      4.90      9.54      4.90      4.33      0.00      0.00      0.00

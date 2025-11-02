@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  74 186  0  -1 L0016017 B.L.Berman,M.A  1969    26 74-W-186(G,3N)74-W-183,,SIG     1.89      1.23      3.47     0.287     T1  21.0      18.2      56.7      20.6      28.6      0.00      2.33      1.56      0.00      1.72      0.00      0.00      0.00

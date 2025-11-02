@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  68 168  0  -1 M0073005 G.M.Gurevich,L  1981    44 68-ER-168(G,ABS),,SIG           1.40      1.17      1.44     0.149     T2  222.      201.      25.3      8.36      19.7      0.00      1.40      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  28  61  0  -1 32813004 Haoyu Jiang,Ze  2020     2 28-NI-61(N,A)26-FE-58,,SIG      1.31     0.846      6.74     0.252     R1  9.16      10.6      9.17      5.00      5.50      0.00      1.47      1.08      1.46      1.22      1.34      1.13      0.00

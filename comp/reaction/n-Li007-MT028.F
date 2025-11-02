@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   3   7  0  -1 22515002 J.F.Barry       1963     1 3-LI-7(N,X)2-HE-6,,SIG          3.18     0.510      32.1     0.470     T1  10.6      14.0      10.7      14.8      14.8      0.00      0.00      0.00      0.00      0.00      1.31      5.02      0.00
+   3   7  0  -1 11058003 M.E.Battat,F.L  1953     1 3-LI-7(N,X)2-HE-6,,SIG          3.47     0.461      47.9     0.452     T1  8.91      12.7      8.75      14.1      14.1      0.00      0.00      0.00      0.00      0.00      1.22      5.75      0.00

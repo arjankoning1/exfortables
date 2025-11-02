@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  12  24  0  -1 C2509004 H.P.Trautvette  1975     0 12-MG-24(P,G)13-AL-25,,SIG,,SF  0.00      0.00      0.00     7.112E-02     0.00     2.986E-04  29.8     0.604      1.55      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

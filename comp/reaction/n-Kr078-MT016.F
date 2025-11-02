@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  36  78  0  -1 11884002 E.KONDAIAH,N.R  1968     1 36-KR-78(N,2N)36-KR-77,,SIG     1.31     0.922      13.9     0.409     R2  286.      300.      5.64      14.4      14.4      0.00      1.02      1.04      1.80      1.11      0.00      1.06      0.00
+  36  78  0  -1 13184002 F.BAZAN         1989     3 36-KR-78(N,2N)36-KR-77,,SIG     1.34     0.883      34.0     0.317     T3  279.      310.      4.96      14.0      14.7      0.00      1.10      1.02      1.90      1.10      0.00      1.10      0.00

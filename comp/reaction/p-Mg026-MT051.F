@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  12  26  0  -1 C0733004 G.Doukellis,J.  1987     0 12-MG-26(P,INL)12-MG-26,PAR,SI  0.00      0.00      0.00      0.00         0.00      197.      16.6      53.1      60.6      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

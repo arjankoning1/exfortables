@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  77   0  0   2 D4383002 S.Takacs,F.Dit  2018     6 77-IR-0(A,X)79-AU-196-M2,,SIG   2.95      2.27      247.     0.327     T2  2.28     0.658      17.6      16.2      28.3      0.00      2.95      0.00      0.00      0.00      0.00      0.00      0.00

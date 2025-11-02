@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  76 192  0  -1 13554002 S.E.HICKS,Z.CA  1989    53 76-OS-192(N,TOT),,SIG           1.09     0.937      15.9     0.335     T1 6.406E+03 6.825E+03  2.00     0.265      4.21      0.00      1.11      1.06      1.11      1.06      0.00      0.00      0.00
+  76 192  0  -1 40127029 V.P.Vertebnyj,  1971     5 76-OS-192(N,TOT),,SIG,,RV       2.35      1.42     5.377E+03 0.363     T2 3.051E+04 1.508E+04  1.09     1.000E-06 3.000E-04  0.00      1.34      3.24      1.34      3.24      0.00      0.00      0.00

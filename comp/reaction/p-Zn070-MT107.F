@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  30  70  0  -1 O0738002 S.Kastleiner,   1999    21 30-ZN-70(P,A)29-CU-67,,SIG      1.21      1.12      2.09     0.352     T1  10.6      7.90      17.3      7.70      35.1      0.00      1.21      0.00      0.00      0.00      0.00      0.00      0.00
+  30  70  0  -1 A0510098 V.N.Levkovski   1991    19 30-ZN-70(P,A)29-CU-67,,SIG      1.84      1.82      49.8     0.215     T1  10.2      5.40      12.2      10.4      29.5      0.00      1.84      0.00      0.00      0.00      0.00      0.00      0.00

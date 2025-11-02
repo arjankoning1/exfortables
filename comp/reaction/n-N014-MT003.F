@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   7  14  0  -1 406940051JU.G.DEGTJAREV  1965     2 7-N-14(N,NON),,SIG              1.13     0.899      6.46     2.580E-02 T1  617.      695.      5.77      15.2      19.8      0.00      1.13      0.00      0.00      0.00      0.00      0.00      0.00

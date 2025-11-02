@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  46 102  0  -1 C2453003 R.Kelmar,A.Sim  2020     6 46-PD-102(A,G)48-CD-106,,SIG    2.09      1.83      35.5     0.296     T1 0.148     5.745E-02  26.7      9.23      11.9      0.00      2.09      0.00      0.00      0.00      0.00      0.00      0.00

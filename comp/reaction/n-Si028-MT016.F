@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  14  28  0  -1 11520004 D.M.ARNOLD,L.A  1965     5 14-SI-28(N,2N)14-SI-27,,SIG     87.5     1.512E-02  21.6     1.550E-07 R2 0.255      6.62      20.9      17.8      18.3      0.00      113.      20.7      20.7      306.      221.      64.3      0.00

@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  21  45  0  -1 D0884002 S.B.Solomon, D  1978   223 21-SC-45(P,G)22-TI-46,,SIG      1.51     0.852      2.39     0.322     T1  1.24      1.32      20.0     0.845      4.20      0.00      1.51      0.00      0.00      0.00      0.00      0.00      0.00
+  21  45  0  -1 D0884003 S.B.Solomon, D  1978    21 21-SC-45(P,G)22-TI-46,,SIG,,AV  1.67     0.795      0.00     0.377     T1  1.20      1.29      0.00     0.940      4.03      0.00      1.67      0.00      0.00      0.00      0.00      0.00      0.00

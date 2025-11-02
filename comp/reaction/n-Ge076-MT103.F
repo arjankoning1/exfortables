@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  32  76  0  -1 20770014 R.Rieppo, J.K.  1976     1 32-GE-76(N,P)31-GA-76,,SIG      1.07      1.04     0.127     0.270     R1  3.57      3.20      47.8      14.7      14.7      0.00      1.00      1.13      1.00      1.13      1.00      1.00      0.00
+  32  76  0  -1 22325006 Y.Kasugai, H.Y  1994     5 32-GE-76(N,P)31-GA-76,,SIG      1.20     0.991      3.25     0.344     R1  2.80      2.93      18.6      13.4      14.9      0.00      1.16      1.27      1.16      1.27      1.17      1.13      0.00

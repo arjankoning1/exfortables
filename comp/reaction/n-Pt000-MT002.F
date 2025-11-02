@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  78   0  0  -1 10631006 A.B.Smith,P.T.  1968     0 78-PT-0(N,EL)78-PT-0,,SIG       0.00      0.00      0.00      0.00         0.00     4.674E+03  0.00     0.300      1.50      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  78   0  0  -1 13041022 C.T.HIBDON      1950     0 78-PT-0(N,EL)78-PT-0,POT,SIG    0.00      0.00      0.00      0.00         0.00     1.225E+04  0.00     1.200E-04 3.450E-04  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

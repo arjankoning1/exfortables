@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  32  70  0  -1 P0119002 K.Otozai,S.Kuz  1968     0 32-GE-70(D,P)32-GE-71,IND,SIG   0.00      0.00      0.00      0.00         0.00      286.      1.48      4.73      14.5      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

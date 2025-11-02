@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  42 100  0  -1 22793005 I.-G.Birn, A.M  1997     7 42-MO-100(N,INL)42-MO-100,PAR,  1.25      1.05      1.54     0.268     T1  369.      360.      19.3      1.15      1.90      0.00      1.30      1.18      1.30      1.26      1.19      0.00      0.00

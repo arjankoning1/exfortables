@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  56   0  0   1 30322013 J.Janczyszyn,L  1973     1 56-BA-0(N,X)56-BA-136-M,,SIG    2.52      2.51      93.8     0.146     T1  47.8      19.0      15.8      14.0      14.0      0.00      2.72      0.00      2.58      2.25      0.00      0.00      0.00

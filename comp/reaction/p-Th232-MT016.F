@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  90 232  0  -1 A0348004 A.Celler,M.Luo  1981    15 90-TH-232(P,2N)91-PA-231,,SIG   1.66     0.611      22.6     0.325     T2  98.2      161.      10.1      7.23      20.2      0.00      1.66      0.00      0.00      0.00      0.00      0.00      0.00
+  90 232  0  -1 O0020026 H.Kudo,H.Muram  1982    15 90-TH-232(P,2N)91-PA-231,,SIG   2.33     0.519      14.3     0.269     T2  115.      229.      15.8      11.4      20.5      0.00      2.33      0.00      0.00      0.00      0.00      0.00      0.00

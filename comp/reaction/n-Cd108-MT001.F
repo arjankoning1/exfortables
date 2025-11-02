@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  48 108  0  -1 40813010 Yu.V.Dukarevic  1967     1 48-CD-108(N,TOT),,SIG           1.01      1.00     0.574     0.453     T1 4.342E+03 4.330E+03  1.62      14.2      14.2      0.00      1.01      1.00      1.01      1.01      0.00      0.00      0.00
+  48 108  0  -1 40573009 V.F.Razbudey,V  1977    51 48-CD-108(N,TOT),,SIG           1.78     0.813      53.5     0.119     T2 4.540E+03 5.988E+03  14.8     6.270E-09 3.690E-07  0.00      1.83      1.79      1.83      1.66      0.00      0.00      0.00

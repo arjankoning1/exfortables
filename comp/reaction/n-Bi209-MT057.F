@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  83 209  0  -1 40047024 Ju.G.Degtjarev  1967     3 83-BI-209(N,INL)83-BI-209,PAR,  4.64     0.225      23.3     5.762E-02 T2  101.      463.      15.9      2.96      3.76      0.00      5.22      3.91      4.71      4.71      4.68      0.00      0.00

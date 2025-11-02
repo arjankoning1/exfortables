@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  77 191  0  -1 20721082 N.I.Molla,S.M.  1977     1 77-IR-191(N,P)76-OS-191,,SIG    1.07     0.992     0.393     0.409     R1  4.89      4.80      16.7      14.7      14.7      0.00      1.04      1.01      1.04      1.01      0.00      1.15      0.00
+  77 191  0  -1 41614208 A.A.Filatenkov  2016     7 77-IR-191(N,P)76-OS-191,,SIG    1.11      1.01     0.868     0.370     T1  4.22      4.16      15.7      13.6      14.8      0.00      1.11      1.07      1.11      1.07      0.00      1.16      0.00

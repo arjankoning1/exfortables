@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  75 187  0  -1 R00530071N.E.Scott, J.W  1968     0 75-RE-187(HE3,A)75-RE-186,,SIG  0.00      0.00      0.00      0.00         0.00      7.42      0.00      17.3      17.3      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

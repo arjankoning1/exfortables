@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  75 187  0  -1 D0493014 J.D.Stickler,   1974     0 75-RE-187(HE3,4N)77-IR-186,,SI  0.00      0.00      0.00      0.00         0.00      249.      21.9      28.5      59.8      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

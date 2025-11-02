@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  20  40  0  -1 22128008 N.Olsson,E.Ram  1990     0 20-CA-40(N,INL)20-CA-40,PAR,SI  0.00      0.00      0.00     2.384E-07     0.00      48.0      4.21      21.6      21.6      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  20  40  0  -1 10447005 C.M.Bartle,P.A  1981     4 20-CA-40(N,INL)20-CA-40,PAR,SI  1.51      1.41      64.1     0.213     T1  51.8      34.8      6.26      3.51      4.38      0.00      1.56      1.75      1.54      1.35      1.29      0.00      0.00

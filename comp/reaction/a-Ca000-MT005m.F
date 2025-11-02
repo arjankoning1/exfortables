@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  20   0  0   1 E2722004 M.Aikawa, Y.Ha  2022     9 20-CA-0(A,X)21-SC-44-M,,SIG     1.23      1.05      3.74     0.343     T1  2.26      2.34      10.3      17.5      28.6      0.00      1.23      0.00      0.00      0.00      0.00      0.00      0.00

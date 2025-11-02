@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  57 139  0  -1 C1751004 A.Buttkewitz,H  2009     0 57-LA-139(A,F),,SIG             0.00      0.00      0.00      0.00         0.00     7.000E-03  14.3      120.      120.      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

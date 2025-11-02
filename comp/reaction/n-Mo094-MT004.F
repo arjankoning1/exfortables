@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  42  94  0  -1 32201003 I.A.Korzh,V.A.  1994     5 42-MO-94(N,INL)42-MO-94,,SIG    1.26      1.11      1.87     0.215     T1  703.      677.      16.7     0.907      1.40      0.00      1.32      1.05      1.32      1.23      1.30      0.00      0.00

@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  28  58  0  -1 20971007 K.Debertin,E.R  1965     1 28-NI-58(N,P)27-CO-58,PAR,SIG   71.5     1.477E-02  96.4     2.384E-07 T2 0.461      25.0      10.0      14.1      14.1      0.00      0.00      69.5      0.00      154.      29.1      0.00      0.00

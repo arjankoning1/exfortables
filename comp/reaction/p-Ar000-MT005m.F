@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  18   0  0   1 C19620051R.L.Brodzinski  1970     0 18-AR-0(P,X)17-CL-34-M,,SIG     0.00      0.00      0.00      0.00         0.00     0.707      47.0      310.      578.      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

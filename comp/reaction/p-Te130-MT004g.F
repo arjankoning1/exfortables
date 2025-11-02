@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  52 130  0   0 P0010004 P.J.DALY,P.F.D  1964    10 52-TE-130(P,N)53-I-130-G,,SIG   2.00     0.755      0.00     0.253     T2  55.1      87.0      0.00      6.41      19.8      0.00      2.00      0.00      0.00      0.00      0.00      0.00      0.00
+  52 130  0   0 P0033021 J.P.Blaser,F.B  1951    13 52-TE-130(P,N)53-I-130-G,,SIG   2.23      1.16      0.00     0.257     T2  11.5      17.9      0.00      3.33      6.39      0.00      2.23      0.00      0.00      0.00      0.00      0.00      0.00

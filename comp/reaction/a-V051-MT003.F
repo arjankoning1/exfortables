@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  23  51  0  -1 D0474005 A.Lepine-Szily  2007     1 23-V-51(A,NON),,SIG             1.00      1.00     9.038E-03 1.440E-02 T1 1.294E+03 1.283E+03  9.35      23.2      23.2      0.00      1.00      0.00      0.00      0.00      0.00      0.00      0.00
+  23  51  0  -1 D5003004 M.P.Bilaniuk,V  1981     1 23-V-51(A,NON),,SIG             1.14     0.878      19.1     1.479E-02 T1 1.349E+03 1.537E+03  2.80      27.2      27.2      0.00      1.14      0.00      0.00      0.00      0.00      0.00      0.00

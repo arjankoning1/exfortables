@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  50 117  0   0 A0203003AV.G.Batij,E.A.  1982     8 50-SN-117(A,2N)52-TE-119-G,,SI  1.57     0.648      9.96     0.208     T2  262.      411.      11.4      20.4      30.4      0.00      1.57      0.00      0.00      0.00      0.00      0.00      0.00
+  50 117  0   0 F1291004 A.E.Antropov,V  1992     6 50-SN-117(A,2N)52-TE-119-G,,SI  2.79     0.376      30.0     0.119     T3  179.      471.      11.8      17.5      24.4      0.00      2.79      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  29   0  0  -1 L0006002 S.C.FULTZ,R.L.  1964    54 29-CU-0(G,X)0-NN-1,,SIG         1.31      1.26      31.5     0.179     T1  50.5      39.3      13.3      9.34      27.8      0.00      1.42      1.25      0.00      1.24      0.00      0.00      0.00
+  29   0  0  -1 M0542002 J.Miller,C.Sch  1962    11 29-CU-0(G,X)0-NN-1,,SIG         1.49      1.16      4.61     0.171     T1  55.1      43.9      19.4      9.90      19.8      0.00      1.55      1.48      0.00      1.43      0.00      0.00      0.00

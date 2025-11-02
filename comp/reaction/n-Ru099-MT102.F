@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  44  99  0  -1 02044099 Gamgam          2024     2                                 1.25     0.852      2.58     0.188     R1 1.597E+03 1.871E+03  12.4     5.000E-03 1.000E-02  0.00      1.00      1.31      1.00      1.03      1.31      1.49      0.00
+  44  99  0  -1 11846004 J.Halperin,C.R  1965     1 44-RU-99(N,G)44-RU-100,,SIG     1.71      1.71      8.13     9.585E-02 R1 7.142E+03 4.170E+03  25.0     2.530E-08 2.530E-08  0.00      1.72      1.73      1.72      1.73      1.68      1.68      0.00

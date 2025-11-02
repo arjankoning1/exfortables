@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  19   0  0  -1 11331009 R.L.Macklin,J.  1963     2 19-K-0(N,G),,SIG                24.9     0.101      31.4     0.166     T3  1.88      10.0      18.8     3.000E-02 6.500E-02  0.00      0.00      0.00      0.00      0.00      24.9      0.00      0.00

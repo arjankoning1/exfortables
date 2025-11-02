@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  15  31  0  -1 40369010 N.N.Flerov,V.M  1956     1 15-P-31(N,NON),,SIG             1.01     0.997     0.161     0.455     T1 1.125E+03 1.130E+03  2.65      14.5      14.5      0.00      1.00      0.00      1.00      0.00      1.01      0.00      0.00
+  15  31  0  -1 40782004 V.I.STRIZHAK    1956     1 15-P-31(N,NON),,SIG             1.13     0.899     0.480     0.251     T1  566.      700.      28.6      2.50      2.50      0.00      1.07      0.00      1.07      0.00      1.21      0.00      0.00

@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  83 209  0   0 C2125003 D.H.Templeton,  1947     0 83-BI-209(D,P)83-BI-210-G,,SIG  0.00      0.00      0.00      0.00         0.00      130.      0.00      20.0      20.0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  83 209  0   0 A0246003EW.J.Ramler,J.W  1959     0 83-BI-209(D,P)83-BI-210-G,,SIG  0.00      0.00      0.00      0.00         0.00      72.6      1.00      6.30      21.5      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

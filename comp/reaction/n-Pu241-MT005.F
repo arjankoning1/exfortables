@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  94 241  0  -1 21410017 M.J.Cabell      1968     1 94-PU-241(N,G)94-PU-242,,SIG    1.01     0.988     0.520     0.345     T1 3.629E+05 3.716E+05  3.23     2.530E-08 2.530E-08  0.00      1.01      0.00      0.00      1.01      0.00      0.00      0.00
+  94 241  0  -1 10768002 L.W.Weston, J.  1978  2918 94-PU-241(N,G)94-PU-242,,SIG    2.83     0.775      0.00     0.117     T2 5.138E+04 4.800E+04  0.00     1.007E-08 3.003E-02  0.00      2.83      0.00      0.00      2.83      0.00      0.00      0.00

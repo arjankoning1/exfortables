@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  42   0  0  -1 10960020 R.C.Haight,S.M  1981     1 42-MO-0(N,X)1-H-1,,SIG          1.12     0.901     0.947     0.186     T1  166.      195.      15.4      14.8      14.8      0.00      1.10      1.11      1.10      1.18      1.06      0.00      0.00
+  42   0  0  -1 22467022 Kokooo, I.Mura  1999     1 42-MO-0(N,X)1-H-1,,SIG          1.41     0.711      157.     0.102     T1  163.      228.      2.32      14.1      14.1      0.00      1.42      1.43      1.42      1.52      1.25      0.00      0.00

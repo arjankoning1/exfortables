@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  16  32  0  -1 405960172Yu.E.Kozy, G.A  1978     1 16-S-32(N,P+N)15-P-31,SEQ,SIG   1.67      1.14      56.4     0.280     T1  164.      130.      7.69      14.6      14.6      0.00      1.55      1.75      1.55      1.75      1.42      1.92      0.00
+  16  32  0  -1 405960171Yu.E.Kozy, G.A  1978     1 16-S-32(N,N+P)15-P-31,SEQ,SIG   1.70      1.24      16.1     0.241     T1  164.      120.      16.7      14.6      14.6      0.00      1.68      1.59      1.68      1.59      1.54      2.08      0.00

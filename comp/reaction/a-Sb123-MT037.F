@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  51 123  0  -1 A0629008 B.P.Singh,H.D.  1991    10 51-SB-123(A,4N)53-I-123,,SIG    1.29      1.24      11.6     0.207     T1  604.      497.      8.89      36.0      58.6      0.00      1.29      0.00      0.00      0.00      0.00      0.00      0.00
+  51 123  0  -1 F0068015 M.Ismail        1990    14 51-SB-123(A,4N)53-I-123,,SIG    1.45     0.755      15.3     0.203     T1  715.      931.      8.01      34.4      57.3      0.00      1.45      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  28  60  0  -1 41653007 T.Khromyleva,   2018    10 28-NI-60(N,A)26-FE-57,,SIG      1.48     0.832      17.3     0.380     T1  20.1      22.6      8.35      6.00      7.15      0.00      1.84      1.37      1.82      1.09      1.33      1.09      0.00
+  28  60  0  -1 32813003 Haoyu Jiang,Ze  2020     2 28-NI-60(N,A)26-FE-57,,SIG      1.62     0.760      6.80     0.397     T1  5.09      6.04      14.4      5.00      5.50      0.00      2.00      1.80      2.00      1.01      1.32      1.16      0.00

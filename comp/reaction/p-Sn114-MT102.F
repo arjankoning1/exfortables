@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  50 114  0  -1 C1601003 M.A.Famiano,R.  2008     5 50-SN-114(P,G)51-SB-115,,SIG,,  1.45     0.716      3.90     0.296     T1 0.105     0.117      15.8      2.11      3.62      0.00      1.57      0.00      0.00      1.30      0.00      0.00      0.00

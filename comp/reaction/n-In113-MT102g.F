@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  49 113  0   0 11975004 H.A.GRENCH,H.O  1968     0 49-IN-113(N,G)49-IN-114-G,,SIG  0.00      0.00      0.00      0.00         0.00      58.0      39.7     0.368      1.02      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  49 113  0   0 30079025 A.K.Chaubey, M  1966     0 49-IN-113(N,G)49-IN-114-G,,SIG  0.00      0.00      0.00      0.00         0.00      260.      34.6     2.400E-02 2.400E-02  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

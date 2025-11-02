@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  75   0  0  -1 10631009 A.B.Smith,P.T.  1968    46 75-RE-0(N,INL)75-RE-0,PAR,SIG   1.54     0.808      6.53     0.376     T1  563.      655.      12.5     0.375      1.55      0.00      1.08      2.36      1.08      1.09      0.00      0.00      0.00
+  75   0  0  -1 13878003 A.B.Smith       2004    21 75-RE-0(N,INL)75-RE-0,PAR,SIG   1.64     0.758      2.78     0.231     T1  550.      698.      18.8     0.396      1.42      0.00      1.10      2.64      1.10      1.14      0.00      0.00      0.00

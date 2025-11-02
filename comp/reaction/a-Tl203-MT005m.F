@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  81 203  0   1 D5186024 K.S.Goncharov,  1980     0 81-TL-203(A,3N)83-BI-204-L2,,S  0.00      0.00      0.00      0.00         0.00      101.      0.00      37.8      37.8      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

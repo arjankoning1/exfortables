@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  82 206  0  -1 M0493009 R.D.Starr,P.Ax  1982     0 82-PB-206(G,EL)82-PB-206,EP,SI  0.00      0.00      0.00      0.00         0.00      1.07      11.3      9.56      11.9      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  82 206  0  -1 M0493008 R.D.Starr,P.Ax  1982     0 82-PB-206(G,EL)82-PB-206,EP,SI  0.00      0.00      0.00      0.00         0.00      1.05      17.3      9.56      11.9      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

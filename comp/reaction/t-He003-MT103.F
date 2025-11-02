@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   2   3  0  -1 A1116007 B.KUHN,B.SCHLE  1963     0 2-HE-3(T,P)2-HE-5,,SIG,,,EXP    0.00      0.00      0.00      0.00         0.00      3.08      20.0     0.460      1.09      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

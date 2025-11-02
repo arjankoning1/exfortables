@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  94 239  0  -1 12408004 D.O.Nellis,I.L  1966     6 94-PU-239(N,X)0-G-0,,SIG       1.872E+04 5.869E-05  0.00     1.192E-07 R2  1.80     1.310E+04  0.00      1.09      14.8      0.00     4.875E+04  0.00     6.483E+03  0.00      0.00      0.00      0.00

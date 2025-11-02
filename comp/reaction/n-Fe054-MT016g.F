@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  26  54  0   0 20536005 S.M.Qaim        1972     1 26-FE-54(N,2N)26-FE-53-G,,SIG   1.59      1.51      8.76     0.128     T2  10.4      6.66      21.3      14.7      14.7      0.00      1.13      0.00      0.00      1.61      0.00      1.88      0.00
+  26  54  0   0 22335008 T.S.Soewarsono  1992     5 26-FE-54(N,2N)26-FE-53-G,,SIG   1.69     0.630      5.06     0.133     T2  68.8      112.      17.8      17.5      38.3      0.00      1.42      0.00      0.00      1.98      0.00      1.62      0.00

@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  90 232  0  -1 O0044014 M.Lefort,G.N.S  1961     0 90-TH-232(P,X)89-AC-228,,SIG    0.00      0.00      0.00      0.00         0.00      15.0      13.3      150.      150.      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  90 232  0  -1 P0003006 H.GAUVIN        1963     0 90-TH-232(P,X)89-AC-228,,SIG    0.00      0.00      0.00      0.00         0.00      3.89      25.7      32.0      115.      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

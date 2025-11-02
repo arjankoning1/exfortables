@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  66 161  0  -1 41280034 V.P.VERTEBNYJ,  1970     2 66-DY-161(N,EL)66-DY-161,,SIG   1.26     0.795      154.     0.109     T2 1.669E+04 2.100E+04  1.66     2.530E-08 7.000E-08  0.00      1.31      1.22      1.31      1.21      0.00      0.00      0.00

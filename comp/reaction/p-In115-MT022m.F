@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  49 115  0   1 D6292008 P.T.Muhammed S  2018     3 49-IN-115(P,N+A)48-CD-111-M,,S  10.8     0.289      49.2     0.235     T2  2.24      1.67      9.60      12.7      21.8      0.00      10.8      0.00      0.00      0.00      0.00      0.00      0.00

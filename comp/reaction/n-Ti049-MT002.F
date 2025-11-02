@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  22  49  0  -1 41263009 E.Ya.Doil'nits  1969     1 22-TI-49(N,EL)22-TI-49,BA,SIG   4.90     0.206      40.2     9.001E-02 T2  666.     3.200E+03  12.5     2.500E-08 2.500E-08  0.00      4.15      5.86      4.15      5.86      4.60      0.00      0.00

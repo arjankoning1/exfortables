@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  12  24  0  -1 F1351007 E.A.Romanovski  1958     0 12-MG-24(D,INL)12-MG-24,PAR,SI  0.00      0.00      0.00      0.00         0.00      30.0      10.0      4.50      4.50      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  12  24  0  -1 E2224009 Y.Ishizaki      1961     0 12-MG-24(D,INL)12-MG-24,PAR,SI  0.00      0.00      0.00      0.00         0.00      54.4      19.6      15.9      17.5      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

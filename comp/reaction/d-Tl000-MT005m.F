@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  81   0  0   1 D4270002 R.Adam Rebeles  2012     0 81-TL-0(D,X)82-PB-204-M,,SIG    0.00      0.00      0.00      0.00         0.00      150.      13.3      13.2      48.6      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  81   0  0   1 D4270004 R.Adam Rebeles  2012     0 81-TL-0(D,X)82-PB-202-M,,SIG    0.00      0.00      0.00      0.00         0.00      218.      13.1      16.0      49.9      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

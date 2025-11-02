@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  35  79  0  -1 O2032006 L.J.Gilly, P.H  1964     1 35-BR-79(A,N+A)35-BR-78,,SIG    1.10     0.909      1.69     0.324     T1  10.2      11.5      8.70      24.0      24.0      0.00      1.10      0.00      0.00      0.00      0.00      0.00      0.00

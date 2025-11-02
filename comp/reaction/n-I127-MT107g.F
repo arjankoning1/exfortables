@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  53 127  0   0 21125003 P.G.BIZZETI,A.  1962     1 53-I-127(N,A)51-SB-124-G,,SIG   1.27     0.907      2.45     0.484     T1  1.32      1.39      12.2      14.1      14.1      0.00      1.01      1.72      1.01      1.02      0.00      1.01      0.00
+  53 127  0   0 20509003 E.Havlik        1971     1 53-I-127(N,A)51-SB-124-G,,SIG   1.31      1.24     0.885     0.300     R1  1.63      1.21      48.3      14.7      14.7      0.00      1.34      1.09      1.34      1.30      0.00      1.40      0.00

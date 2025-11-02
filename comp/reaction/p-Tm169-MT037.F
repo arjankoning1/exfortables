@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  69 169  0  -1 B0038003 C.Birattari, E  1971     8 69-TM-169(P,4N)70-YB-166,,SIG,  2.41      1.82      258.     0.262     T3  602.      392.      10.8      30.6      44.3      0.00      2.41      0.00      0.00      0.00      0.00      0.00      0.00
+  69 169  0  -1 D4259004 F.Tarkanyi,A.H  2012     6 69-TM-169(P,4N)70-YB-166,,SIG   3.52      2.78      395.     0.258     T3  484.      273.      90.0      28.0      35.8      0.00      3.52      0.00      0.00      0.00      0.00      0.00      0.00

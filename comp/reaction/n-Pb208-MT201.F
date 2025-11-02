@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  82 208  0  -1 23059008BI.C.Sagrado Ga  2011     1 82-PB-208(N,X)0-NN-1,,SIG       1.15      1.14      0.00     0.452     T1 9.871E+03 8.663E+03  0.00      96.0      96.0      0.00      1.09      0.00      0.00      1.19      0.00      0.00      0.00
+  82 208  0  -1 23059008AI.C.Sagrado Ga  2011     1 82-PB-208(N,X)0-NN-1,,SIG       1.61      1.61      0.00     0.118     T1 9.871E+03 6.132E+03  0.00      96.0      96.0      0.00      1.54      0.00      0.00      1.68      0.00      0.00      0.00

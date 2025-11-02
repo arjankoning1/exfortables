@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  18   0  0  -1 11556003 S.C.Mathur,I.L  1966     9 18-AR-0(N,X)2-HE-4,,SIG         2.58     0.684      9.83     0.233     T2  40.4      55.4      17.2      12.9      20.1      0.00      1.31      1.54      1.49      5.68      0.00      0.00      0.00

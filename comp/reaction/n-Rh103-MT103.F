@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  45 103  0  -1 41614085 A.A.Filatenkov  2016     5 45-RH-103(N,P)44-RU-103,,SIG    1.13     0.925      3.44     0.234     T1  19.7      21.3      6.07      13.7      14.9      0.00      1.21      1.01      1.21      1.09      1.02      1.02      0.00
+  45 103  0  -1 10145011 W.D.Lu, N.Rana  1970     1 45-RH-103(N,P)44-RU-103,,SIG    1.14      1.11      4.69     0.288     T1  20.1      18.1      6.63      14.4      14.4      0.00      1.00      1.18      1.00      1.20      1.15      1.17      0.00

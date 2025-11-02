@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  24   0  0   0 D0915003 E.Simeckova, M  2018     0 24-CR-0(D,X)25-MN-52-G,,SIG     0.00      0.00      0.00      0.00         0.00      93.7      5.82      8.29      19.5      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

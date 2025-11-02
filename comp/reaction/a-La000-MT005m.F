@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  57   0  0   1 E2734004 S.Ebata, M.Aik  2022     6 57-LA-0(A,X)59-PR-138-M,,SIG    3.99      2.94     2.271E+03 0.247     T2  16.9      6.62      15.6      40.6      50.0      0.00      3.99      0.00      0.00      0.00      0.00      0.00      0.00

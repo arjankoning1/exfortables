@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  40  96  0  -1 C0556002 F.R.Chloupek,   1999     8 40-ZR-96(P,G)41-NB-97,,SIG,,SF  2.10     0.485      6.83     0.273     T2 4.746E-02 9.735E-02  20.1      3.44      5.99      0.00      2.24      0.00      0.00      1.95      0.00      0.00      0.00

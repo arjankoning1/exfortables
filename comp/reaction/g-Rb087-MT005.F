@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  37  87  0  -1 M0273013 L.KATZ,A.G.W.C  1951    11 37-RB-87(G,A)35-BR-83,,SIG,,BR  2.56     0.533      0.00     0.229     T1 3.442E-02 4.400E-02  0.00      15.0      27.0      0.00      0.00      0.00      0.00      2.56      0.00      0.00      0.00

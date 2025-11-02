@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  69 169  0  -1 O1179007 A.V.Mohan Rao,  1992     0 69-TM-169(A,X)69-TM-168,IND,SI  0.00      0.00      0.00      0.00         0.00     0.739      13.0      38.4      65.8      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  69 169  0  -1 D0137012 N.L.Singh, S.A  1990     1 69-TM-169(A,N+A)69-TM-168,,SIG  3.22      3.22      276.     2.201E-02 T1  7.68      15.1      13.2      29.9      46.8      0.00      3.22      0.00      0.00      0.00      0.00      0.00      0.00

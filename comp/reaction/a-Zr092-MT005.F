@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  40  92  0  -1 O2418003 S.V.Harissopul  2018     8 40-ZR-92(A,G)42-MO-96,,SIG      1.16     0.906     0.995     0.308     T1 2.826E-02 3.265E-02  16.7      9.43      11.3      0.00      1.16      0.00      0.00      0.00      0.00      0.00      0.00
+  40  92  0  -1 C2196003 S.J.Quinn,A.Sp  2015     4 40-ZR-92(A,G)42-MO-96,,SIG      1.22     0.849      1.05     0.243     T1 6.240E-02 7.425E-02  21.3      10.4      11.9      0.00      1.22      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  98 249  0  -1 M0764012 A.S.Soldatov    2003    46 98-CF-249(G,F),,SIG,,BRS        1.16      1.05      1.05     0.384     T1  114.      113.      16.6      6.00      12.4      0.00      0.00      0.00      0.00      1.16      0.00      0.00      0.00
+  98 249  0  -1 M0729009 A.S.SOLDATOV    2003    46 98-CF-249(G,F),,SIG,,BRS        1.16      1.05      1.05     0.384     T1  114.      113.      16.6      6.00      12.4      0.00      0.00      0.00      0.00      1.16      0.00      0.00      0.00

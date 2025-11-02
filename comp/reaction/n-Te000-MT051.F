@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  52   0  0  -1 10418012 A.B.Smith,R.Ha  1967    13 52-TE-0(N,INL)52-TE-0,PAR,SIG   1.73     0.949      11.0     0.368     T1  555.      529.      12.8      1.12      1.50      0.00      1.35      1.19      1.36      1.35      3.00      0.00      0.00

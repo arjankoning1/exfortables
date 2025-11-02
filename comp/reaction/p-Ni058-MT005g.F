@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  28  58  0   0 B0020006 S.Tanaka, M.Fu  1972     6 28-NI-58(P,X)26-FE-52-G,CUM,SI  1.65     0.666      0.00     0.293     T1 0.319     0.618      0.00      41.7      56.2      0.00      1.65      0.00      0.00      0.00      0.00      0.00      0.00
+  28  58  0   0 B0020009 S.Tanaka, M.Fu  1972     8 28-NI-58(P,X)25-MN-52-G,CUM,SI  7.00     0.152      0.00     0.116     T2  2.48      14.2      0.00      38.8      56.2      0.00      7.00      0.00      0.00      0.00      0.00      0.00      0.00

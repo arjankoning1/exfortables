@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  30  64  0  -1 B0060003 H.A.HOWE        1958     8 30-ZN-64(P,N)31-GA-64,,SIG,,,E  5.58     0.210      0.00     0.147     T2  41.9      147.      0.00      8.10      11.9      0.00      6.71      0.00      0.00      2.50      0.00      0.00      0.00

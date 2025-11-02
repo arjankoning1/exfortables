@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  25  55  0   0 S0013003 Long Xianguan,  1990    10 25-MN-55(A,N)27-CO-58-G,,SIG    1.61      1.34      115.     0.290     T3  105.      102.      7.46      10.4      26.5      0.00      1.61      0.00      0.00      0.00      0.00      0.00      0.00
+  25  55  0   0 C0718010 T.MATSUO,J.M.M  1965    10 25-MN-55(A,N)27-CO-58-G,,SIG    2.36      1.70      0.00     0.205     T2  94.0      82.4      0.00      11.5      29.5      0.00      2.36      0.00      0.00      0.00      0.00      0.00      0.00

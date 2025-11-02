@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  13  27  0  -1 D4104024 R.L.Wilson,D.J  1976     0 13-AL-27(D,2N)14-SI-27,,SIG     0.00      0.00      0.00      0.00         0.00      24.1      33.2      16.5      16.5      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

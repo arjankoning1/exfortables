@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  36  86  0   0 A01310025V.V.Kuzminov,A  1982     0 36-KR-86(P,X)36-KR-85-G,CUM,SI  0.00      0.00      0.00      0.00         0.00      36.7      2.18      600.      600.      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

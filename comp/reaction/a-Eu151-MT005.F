@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  63 151  0  -1 D4241002 Gy.Gyurky,Z.El  2010    15 63-EU-151(A,G)65-TB-155,,SIG    1.43      1.39      11.8     0.239     T1 0.187     0.119      14.2      12.6      17.5      0.00      1.43      0.00      0.00      0.00      0.00      0.00      0.00
+  63 151  0  -1 F1456006 A.N.Moiseeva,R  2021    35 63-EU-151(A,X)65-TB-153,CUM,SI  1.80      1.29      97.8     0.310     T1  277.      226.      20.0      18.7      59.5      0.00      1.80      0.00      0.00      0.00      0.00      0.00      0.00

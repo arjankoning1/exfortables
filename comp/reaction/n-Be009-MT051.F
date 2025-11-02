@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   4   9  0  -1 11205002 M.H.MAC GREGOR  1958     1 4-BE-9(N,INL)4-BE-9,PAR,SIG     1.70     0.590      1.64     0.341     T1  24.4      50.0      40.0      14.2      14.2      0.00      1.70      0.00      0.00      0.00      0.00      0.00      0.00
+   4   9  0  -1 13154005 M.Sugimoto,P.T  1989     8 4-BE-9(N,INL)4-BE-9,PAR,SIG     4.53     0.221      60.6     0.112     T2  48.1      233.      10.0      4.50      10.0      0.00      4.53      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  30  68  0  -1 20091006 R.WENUSCH,H.VO  1962     1 30-ZN-68(N,2N)30-ZN-67,,SIG     1.72      1.72      14.7     9.201E-02 T2  912.      530.      18.9      14.0      14.0      0.00      1.71      1.78      1.71      1.79      1.72      1.62      0.00

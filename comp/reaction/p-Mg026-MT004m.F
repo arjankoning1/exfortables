@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  12  26  0   1 C1058002 J.D.King,C.W.C  1979    28 12-MG-26(P,N)13-AL-26-M,,SIG    1.80     0.963      56.7     0.247     T3  73.8      89.4      9.19      5.25      9.50      0.00      1.80      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  59 141  0  -1 L0009008 R.L.BRAMBLETT,  1966    16 59-PR-141(G,3N)59-PR-138,,SIG   2.11     0.555      1.31     9.841E-02 T1  3.32      7.16      87.0      28.0      33.0      0.00      1.50      2.46      0.00      2.46      0.00      0.00      0.00

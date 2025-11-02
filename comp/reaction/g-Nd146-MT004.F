@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  60 146  0  -1 K2478005 H.-T.Nyhus, T.  2015    13 60-ND-146(G,N)60-ND-145,,SIG    1.37     0.938      22.6     0.302     T1  53.3      49.0      5.44      7.63      12.4      0.00      1.40      1.10      0.00      1.06      0.00      0.00      0.00

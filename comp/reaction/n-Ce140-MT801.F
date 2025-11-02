@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  58 140  0  -1 21346003 G.STAUDT        1967     1 58-CE-140(N,A)56-BA-137,PAR,SI  519.     1.928E-03  12.2     4.768E-07 R2 1.018E-02  7.00      28.6      15.0      15.0      0.00      0.00      0.00      0.00      0.00      519.      0.00      0.00

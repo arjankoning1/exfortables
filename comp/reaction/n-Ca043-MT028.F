@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  20  43  0  -1 30011013 P.N.Tiwari,E.K  1968     1 20-CA-43(N,X)19-K-42,,SIG       6.58      6.43     1.675E+06  0.00     T1  9.06      1.35     0.462      14.2      14.2      0.00      3.98      8.48      7.31      5.22      0.00      8.51      0.00

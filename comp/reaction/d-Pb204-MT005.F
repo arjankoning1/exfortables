@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  82 204  0  -1 D0727004 S.Mukhammedov,  1985     0 82-PB-204(D,2N)83-BI-204,,SIG   0.00      0.00      0.00      0.00         0.00      204.      0.00      10.1      15.5      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

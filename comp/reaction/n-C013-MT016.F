@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   6  13  0  -1 13144002 D.A.Resler,R.O  1987     1 6-C-13(N,2N)6-C-12,,SIG         1.02      1.01     0.806     0.244     T1  99.6      98.0      3.06      8.24      8.24      0.00      1.04      0.00      0.00      1.00      0.00      1.00      0.00
+   6  13  0  -1 21669003 J.Frehaut       1978    16 6-C-13(N,2N)6-C-12,,SIG         1.44      1.22      35.9     0.363     T3  211.      165.      16.9      7.41      14.8      0.00      1.85      0.00      0.00      1.09      0.00      1.09      0.00

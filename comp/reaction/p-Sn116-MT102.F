@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  50 116  0  -1 C0904003 N.Ozkan,A.St.J  2002     8 50-SN-116(P,G)51-SB-117,,SIG,,  1.96     0.618      10.1     0.269     T1 0.511     0.540      17.7      2.63      4.18      0.00      1.98      0.00      0.00      1.93      0.00      0.00      0.00
+  50 116  0  -1 C1601002 M.A.Famiano,R.  2008     4 50-SN-116(P,G)51-SB-117,,SIG,,  2.18     0.488      11.9     0.321     T2 0.164     0.219      15.7      2.23      3.62      0.00      2.23      0.00      0.00      2.14      0.00      0.00      0.00

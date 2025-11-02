@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  58 142  0  -1 C0694003 E.V.VERDIECK,J  1967    29 58-CE-142(P,G)59-PR-143,,SIG    2.02      1.42      51.2     0.332     T1 0.490     0.266      13.8      6.10      29.9      0.00      2.02      0.00      0.00      0.00      0.00      0.00      0.00
+  58 142  0  -1 P0010002 P.J.DALY,P.F.D  1964    24 58-CE-142(P,G)59-PR-143,,SIG    2.29      1.76      0.00     0.370     T2 0.630     0.347      0.00      7.16      48.5      0.00      2.29      0.00      0.00      0.00      0.00      0.00      0.00

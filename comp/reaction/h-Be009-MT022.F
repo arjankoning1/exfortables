@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   4   9  0  -1 D4024003 F.Ditroi,S.Tak  1995     0 4-BE-9(HE3,X)4-BE-7,,SIG        0.00      0.00      0.00      0.00         0.00      52.6      15.0      4.50      27.0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+   4   9  0  -1 A0165004 S.N.Abramovich  1982     0 4-BE-9(HE3,X)4-BE-7,,SIG        0.00      0.00      0.00      0.00         0.00      129.      9.84      1.89      7.95      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

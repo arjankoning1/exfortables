@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  60 142  0   0 12033020 R.G.Wille,R.W.  1960     1 60-ND-142(N,A)58-CE-139-G,,SIG  1.54      1.44      1.58     0.145     R1  3.01      1.89      52.8      14.8      14.8      0.00      1.40      0.00      1.63      1.86      0.00      1.02      0.00

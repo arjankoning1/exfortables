@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  90 232  0  -1 20066002 M.Holmberg,L.G  1969    17 90-TH-232(N,INL)90-TH-232,PAR,  4.86     0.211      47.0     6.719E-02 T2  151.      690.      12.0      1.05      2.20      0.00      4.51      4.66      4.66      6.09      4.46      0.00      0.00
+  90 232  0  -1 22645004 T.Miura,M.Baba  2001     2 90-TH-232(N,INL)90-TH-232,PAR,  6.77     0.168      109.     4.418E-02 T2  27.7      127.      7.73      2.60      3.60      0.00      3.46      5.76      5.76      18.6      4.24      0.00      0.00

@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  78 194  0  -1 41614216 A.A.Filatenkov  2016     1 78-PT-194(N,A)76-OS-191,,SIG    1.06     0.972     0.129     0.443     R1  1.09      1.15      30.5      14.7      14.7      0.00      1.00      1.02      1.00      1.14      0.00      1.01      0.00
+  78 194  0  -1 21440031 R.F.Coleman,B.  1959     1 78-PT-194(N,A)76-OS-191,,SIG    1.26     0.822      1.43     0.232     R1 0.974      1.26      20.0      14.5      14.5      0.00      1.16      1.23      1.16      1.51      0.00      1.07      0.00

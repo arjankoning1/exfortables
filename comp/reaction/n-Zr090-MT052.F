@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  40  90  0  -1 41090002 Ya.M.Kramarovs  1990    36 40-ZR-90(N,INL)40-ZR-90,PAR,SI  2.31      2.17      278.     0.265     T1  521.      271.      8.12      2.24      2.77      0.00      2.15      2.34      2.15      2.22      2.66      0.00      0.00
+  40  90  0  -1 41119002 Ya.M.Kramarovs  1992     6 40-ZR-90(N,INL)40-ZR-90,PAR,SI  2.43      2.32      320.     0.325     T1  296.      129.      10.1      2.23      2.38      0.00      2.14      2.53      2.14      2.31      3.02      0.00      0.00

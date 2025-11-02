@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  30  79  0  -1 E2626040 N.Paul, A.Ober  2019     0 30-ZN-79(P,X)30-ZN-78,,SIG      0.00      0.00      0.00      0.00         0.00      63.0      4.76      230.      230.      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

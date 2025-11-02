@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  52 130  0  -1 P0010003 P.J.DALY,P.F.D  1964    10 52-TE-130(P,G)53-I-131,,SIG     1.97      1.76      0.00     0.341     T1 0.790     0.451      0.00      6.42      19.8      0.00      1.97      0.00      0.00      0.00      0.00      0.00      0.00

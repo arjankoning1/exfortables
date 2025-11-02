@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  30  70  0   2 21976023 B.Anders,B.M.B  1985     1 30-ZN-70(N,P)29-CU-70-M2,,SIG   2.87     0.683      22.7     0.325     R2  2.65      2.81      10.3      14.7      14.7      0.00      1.39      0.00      1.24      1.00      0.00      7.92      0.00

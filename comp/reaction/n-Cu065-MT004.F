@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  29  65  0  -1 30656025 Shi Xiamin,She  1982     1 29-CU-65(N,INL)29-CU-65,,SIG    1.17      1.14      2.11     0.193     T1  546.      463.      13.6      14.2      14.2      0.00      1.33      1.15      1.03      1.09      1.13      0.00      0.00

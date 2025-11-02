@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   6  12  0  -1 30593018 K.Gul,M.Anwar,  1981     1 6-C-12(N,INL)6-C-12,PAR,SIG     2.94     0.947      20.8     0.152     T1  12.6      9.30      17.2      14.7      14.7      0.00      1.96      1.67      1.96      8.65      1.03      0.00      0.00

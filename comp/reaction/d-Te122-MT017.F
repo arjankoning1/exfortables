@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  52 122  0  -1 A0234011 J.H.Zaidi,S.M.  1983     0 52-TE-122(D,3N)53-I-121,,SIG    0.00      0.00      0.00      0.00         0.00      169.      6.09      19.0      39.5      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  52 122  0  -1 D4403002 A.Hermanne,F.T  2020     0 52-TE-122(D,3N)53-I-121,,SIG    0.00      0.00      0.00      0.00         0.00      214.      11.1      17.9      21.4      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

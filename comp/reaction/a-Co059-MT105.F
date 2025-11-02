@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  27  59  0  -1 A0039006 V.V.Tokarevski  1977     2 27-CO-59(A,T)28-NI-60,PAR,SIG   6.84      6.69      0.00     0.210     T2  3.02     0.471      0.00      27.2      27.2      0.00      6.84      0.00      0.00      0.00      0.00      0.00      0.00

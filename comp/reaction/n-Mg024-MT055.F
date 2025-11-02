@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  12  24  0  -1 30613014 M.Adel-Fawzy,H  1985     5 12-MG-24(N,INL)12-MG-24,PAR,SI  1.35      1.13      6.82     0.381     T1  41.5      36.0      14.0      8.00      12.0      0.00      1.16      1.48      1.19      1.48      1.33      0.00      0.00
+  12  24  0  -1 23258013 A.Olacel,C.Bor  2014    75 12-MG-24(N,INL)12-MG-24,PAR,SI  2.05     0.689      4.56     0.105     T1  36.9      63.2      50.4      6.28      8.16      0.00      1.84      1.92      1.81      1.92      2.72      0.00      0.00

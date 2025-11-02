@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  41  93  0  -1 30696009 I.J.van Heerde  1973    17 41-NB-93(N,INL)41-NB-93,PAR,SI  1.60     0.939      281.     0.372     T1  45.2      48.7      3.55      1.58      2.58      0.00      1.67      1.43      1.60      0.00      0.00      0.00      0.00

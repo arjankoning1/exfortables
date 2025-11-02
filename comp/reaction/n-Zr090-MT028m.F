@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  40  90  0   1 22822016 V.Semkova, E.B  2010     4 40-ZR-90(N,X)39-Y-89-M,,SIG     1.18      1.01      3.75     0.388     T1  61.9      60.8      9.94      16.3      20.6      0.00      1.15      1.16      1.15      1.02      0.00      1.26      0.00
+  40  90  0   1 41614058 A.A.Filatenkov  2016     6 40-ZR-90(N,X)39-Y-89-M,,SIG     1.41     0.748      10.9     7.333E-02 T1  25.8      34.7      8.95      13.6      14.9      0.00      1.19      1.31      1.19      1.45      0.00      1.74      0.00

@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  28  58  0  -1 D0162003 G.A.Brinkman,J  1977     0 28-NI-58(D,N+D)28-NI-57,,SIG    0.00      0.00      0.00      0.00         0.00      47.4      0.00      35.9      35.9      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

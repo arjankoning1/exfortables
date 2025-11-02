@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  38  84  0  -1 22637030 C.Konno, Y.Ike  1993     3 38-SR-84(N,X)37-RB-83,,SIG      1.04     0.989     6.204E-02 0.367     T1  105.      109.      64.0      13.3      14.9      0.00      1.01      1.05      1.02      1.01      0.00      1.09      0.00
+  38  84  0  -1 20513007 S.M.Qaim, G.St  1974     1 38-SR-84(N,X)37-RB-83,,SIG      1.18      1.06      8.27     0.292     T1  121.      112.      6.71      14.7      14.7      0.00      1.00      1.40      1.01      1.10      0.00      1.14      0.00

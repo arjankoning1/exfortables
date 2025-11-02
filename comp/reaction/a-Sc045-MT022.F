@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  21  45  0  -1 D41050023K.L.Chen, J.M.  1964    10 21-SC-45(A,X)21-SC-44,,SIG      1.51      1.13      60.3     0.152     T1  77.1      125.      7.14      21.2      40.1      0.00      1.51      0.00      0.00      0.00      0.00      0.00      0.00
+  21  45  0  -1 C0932003 P.A.Beeley,J.A  1983     2 21-SC-45(A,N+A)21-SC-44,,SIG    2.71     0.455      480.     6.929E-02 T1  59.8      161.      2.51      19.3      83.2      0.00      2.71      0.00      0.00      0.00      0.00      0.00      0.00

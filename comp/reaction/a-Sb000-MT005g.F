@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  51   0  0   0 D4419010 S.Takacs,F.Dit  2021    12 51-SB-0(A,X)52-TE-121-G,,SIG    4.32     0.373      12.1     0.154     T2  8.64      18.5      71.2      34.2      49.9      0.00      4.32      0.00      0.00      0.00      0.00      0.00      0.00
+  51   0  0   0 D4419009 S.Takacs,F.Dit  2021    13 51-SB-0(A,X)52-TE-121-G,CUM,SI  26.2     4.516E-02  66.4     7.288E-03 T2  8.05      263.      33.6      34.2      49.9      0.00      26.2      0.00      0.00      0.00      0.00      0.00      0.00

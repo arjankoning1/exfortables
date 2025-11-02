@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  67 165  0  -1 21231052 R.O.Owens,J.H.  1968     3 67-HO-165(N,INL)67-HO-165,,SIG  1.02      1.02     0.560     0.440     T1 2.792E+03 2.730E+03  4.66      5.00      6.97      0.00      1.03      1.01      1.04      1.02      1.01      0.00      0.00

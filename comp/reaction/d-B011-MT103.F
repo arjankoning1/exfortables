@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   5  11  0  -1 F0280003 R.W.Kavanagh,C  1958     0 5-B-11(D,P)5-B-12,,SIG          0.00      0.00      0.00      0.00         0.00      379.      50.0     0.504      3.14      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+   5  11  0  -1 A0167002 S.N.Abramovich  1985     0 5-B-11(D,P)5-B-12,,SIG          0.00      0.00      0.00      0.00         0.00      103.     0.528      2.99      10.0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

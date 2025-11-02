@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   5  11  0  -1 F0778003 L.N.Generalov,  2006     0 5-B-11(T,P)5-B-13,,SIG          0.00      0.00      0.00      0.00         0.00      18.7      1.40      3.01      4.24      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+   5  11  0  -1 F0778002 L.N.Generalov,  2006     0 5-B-11(T,P)5-B-13,,SIG          0.00      0.00      0.00      0.00         0.00      19.6      1.53      2.53      6.95      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

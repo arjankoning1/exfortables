@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  42 100  0   0 C2156008 K.Gagnon,F.Ben  2011     9 42-MO-100(P,2N)43-TC-99-G,,SIG  2.04     0.628      9.36     0.229     T2  393.      590.      14.3      8.50      17.5      0.00      1.03      0.00      0.00      2.92      0.00      0.00      0.00

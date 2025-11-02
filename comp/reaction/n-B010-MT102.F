@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   5  10  0  -1 22383003 M.IGASHIRA,K.M  1994     3 5-B-10(N,G)5-B-11,,SIG          1.74     0.908      30.3     0.372     T1 0.326     0.323      6.72     2.300E-02 6.100E-02  0.00      3.65      1.03      1.03      1.28      1.26      1.28      0.00
+   5  10  0  -1 31768014 R.B.Firestone,  2016     1 5-B-10(N,G)5-B-11,,SIG          1.82     0.884      88.4     0.324     T1  394.      394.      3.81     2.530E-08 2.530E-08  0.00      4.12      1.00      1.00      1.25      1.25      1.26      0.00

@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  92 233  0  -1 21782018 G.Haouat,J.Lac  1982     1 92-U-233(N,INL)92-U-233,PAR,SI  1.17     0.871      12.3     0.197     T1  144.      166.      4.10      1.50      1.50      0.00      1.22      1.22      1.01      1.22      1.09      0.00      0.00

@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  97 249  0  -1 40467013 V.D.Gavrilov,V  1976     1 97-BK-249(N,G)97-BK-250,,SIG    2.41     0.415      111.     0.261     T1 7.473E+05 1.800E+06  5.56     2.530E-08 2.530E-08  0.00      2.41      0.00      0.00      0.00      0.00      0.00      0.00

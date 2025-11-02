@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  71 176  0  -1 21322008 A.H.Baston, J.  1960     0 71-LU-176(N,ABS),,SIG           0.00      0.00      0.00      0.00         0.00     4.578E+06  21.5     1.191E-08 7.469E-07  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  71 176  0  -1 30734004 D.Albert,J.Hag  1967     0 71-LU-176(N,ABS),,SIG           0.00      0.00      0.00      0.00         0.00     1.980E+06  2.53     2.530E-08 2.530E-08  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

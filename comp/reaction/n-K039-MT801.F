@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  19  39  0  -1 21048004 R.BASS,U.FANGE  1964     9 19-K-39(N,A)17-CL-36,PAR,SIG    1.49      1.29      9.87     0.338     T1  41.2      30.1      17.4      4.00      8.00      0.00      0.00      1.74      0.00      1.10      0.00      0.00      0.00
+  19  39  0  -1 31506003 Xuemei Zhang,   2000     6 19-K-39(N,A)17-CL-36,PAR,SIG    1.76     0.758      19.8     0.301     T1  47.5      61.2      9.77      4.46      6.50      0.00      0.00      1.44      0.00      2.04      0.00      0.00      0.00

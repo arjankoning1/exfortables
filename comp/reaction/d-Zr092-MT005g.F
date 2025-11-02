@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  40  92  0   0 D4057002 O.U.Anders, W.  1960     0 40-ZR-92(D,A)39-Y-90-G,,SIG     0.00      0.00      0.00      0.00         0.00      1.18      16.4      2.48      7.56      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

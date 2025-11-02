@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  30   0  0  -1 30045004 F.G.Armitage    1967     6 30-ZN-0(N,P),,SIG               1.11     0.964     0.588     0.278     T1  39.0      40.2      14.9      2.19      3.64      0.00      1.05      1.05      1.05      1.07      1.15      1.22      0.00

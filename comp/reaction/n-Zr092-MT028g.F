@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  40  92  0   0 21784008 S.M.Qaim        1982     1 40-ZR-92(N,X)39-Y-91-G,,SIG     2.01     0.548      1.82     0.102     T1  1.42      2.93      39.9      14.7      14.7      0.00      1.33      0.00      1.33      1.95      0.00      3.19      0.00

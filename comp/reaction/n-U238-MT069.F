@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  92 238  0  -1 10851002 A.Mittler,G.P.  1979    17 92-U-238(N,INL)92-U-238,PAR,SI  4.08     0.287      103.     0.122     T2  55.8      178.      8.50      1.17      1.98      0.00      2.80      2.79      8.43      2.13      5.29      0.00      0.00

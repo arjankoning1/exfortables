@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  26   0  0  -1 O0678005 M.Enke,C.-M.He  1999     0 26-FE-0(P,X)0-NN-1,,SIG         0.00      0.00      0.00      0.00         0.00     5.140E+03  0.00     1.200E+03 1.200E+03  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

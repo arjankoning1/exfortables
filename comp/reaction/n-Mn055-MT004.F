@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  25  55  0  -1 11495009 D.B.THOMSON     1963     1 25-MN-55(N,INL)25-MN-55,,SIG    1.18      1.17      3.50     0.173     T1 1.476E+03 1.240E+03  10.5      7.00      7.00      0.00      1.22      1.21      1.21      1.16      1.07      0.00      0.00
+  25  55  0  -1 40680019 N.P.Glazkov     1963     5 25-MN-55(N,INL)25-MN-55,,SIG    1.38      1.22      11.8     0.231     T1  711.      596.      11.1     0.400      1.20      0.00      1.20      1.48      1.48      1.50      1.10      0.00      0.00

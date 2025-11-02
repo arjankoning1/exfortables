@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  30  68  0  -1 O0076013 A.E.Antropov,P  1985     1 30-ZN-68(A,X)31-GA-70,,SIG      230.      230.     1.180E+05  0.00     T3  69.0     0.300      66.7      24.5      24.5      0.00      230.      0.00      0.00      0.00      0.00      0.00      0.00

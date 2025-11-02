@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  26  56  0  -1 23073041 A.Negret,C.Bor  2013    68 26-FE-56(N,INL)26-FE-56,PAR,SI  1.46     0.994      16.4     0.216     T1  47.6      48.1      11.0      3.18      4.51      0.00      1.28      1.27      1.27      1.35      1.96      0.00      0.00

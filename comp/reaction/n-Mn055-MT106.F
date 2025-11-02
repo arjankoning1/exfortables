@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  25  55  0  -1 30152004 M.Diksic,P.Str  1974     1 25-MN-55(N,HE3)23-V-53,,SIG     7.67     0.130      4.98      0.00     T1 8.600E-02 0.800      40.0      14.6      14.6      0.00      0.00      0.00      0.00      0.00      7.67      0.00      0.00

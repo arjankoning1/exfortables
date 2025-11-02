@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  59 141  0  -1 D0361003 M.Afzal Ansari  2005     5 59-PR-141(A,2N)61-PM-143,,SIG   3.43      2.15      615.     0.190     T3  592.      200.      12.8      18.2      44.6      0.00      3.43      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  48 116  0   0 30246012 A.Lakshmana RA  1970     0 48-CD-116(N,G)48-CD-117-G,,SIG  0.00      0.00      0.00      0.00         0.00      61.2      14.7     2.500E-02 2.500E-02  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  48 116  0   0 305670082M.Herman,A.Mar  1981     0 48-CD-116(N,G)48-CD-117-G,,SIG  0.00      0.00      0.00      0.00         0.00      12.8      11.1     0.530      1.31      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

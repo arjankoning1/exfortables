@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  94 239  0  -1 20036015 R.Batchelor, K  1969     3 94-PU-239(N,INL)94-PU-239,,SIG  1.05      1.02     0.137     0.302     T1 1.684E+03 1.620E+03  36.7      2.00      4.00      0.00      1.04      1.05      1.05      1.09      1.01      0.00      0.00

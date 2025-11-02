@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  81 203  0   1 304320022A.Szalay, Moha  1977     0 81-TL-203(N,A)79-AU-200-M,,SIG  0.00      0.00      0.00      0.00         0.00     2.400E-02  25.0      14.0      14.0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

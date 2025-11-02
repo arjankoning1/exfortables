@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  59 141  0  -1 30550002 J.Csikai,A.K.C  1979     0 59-PR-141(N,2P)57-LA-140,,SIG   0.00      0.00      0.00     1.192E-07     0.00     7.300E-04  15.1      14.7      14.7      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

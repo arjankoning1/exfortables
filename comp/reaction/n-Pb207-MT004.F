@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  82 207  0  -1 23286003 L.C.Mihailescu  2006  1738 82-PB-207(N,INL)82-PB-207,,SIG  1.96      1.45      74.8     0.190     T3 1.078E+03  765.      19.4     0.574      17.9      0.00      1.70      1.96      1.28      2.11      2.29      0.00      0.00

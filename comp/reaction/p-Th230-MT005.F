@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  90 230  0  -1 C2603002 K.N.Kmak,D.A.S  2021     6 90-TH-230(P,2N)91-PA-229,,SIG   1.95     0.514      29.7     0.267     T1  78.7      154.      12.6      14.1      16.9      0.00      1.95      0.00      0.00      0.00      0.00      0.00      0.00
+  90 230  0  -1 C2603003 K.N.Kmak,D.A.S  2021     3 90-TH-230(P,3N)91-PA-228,,SIG   8.71     0.116      112.     1.589E-07 T2  1.02      9.10      24.8      15.7      16.9      0.00      8.71      0.00      0.00      0.00      0.00      0.00      0.00

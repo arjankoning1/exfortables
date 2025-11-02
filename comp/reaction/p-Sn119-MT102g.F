@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  50 119  0   0 C0556004 F.R.Chloupek,   1999    13 50-SN-119(P,G)51-SB-120-G,,SIG  20.2     0.148      87.7     0.352     T2 0.186      1.01      9.84      2.76      6.51      0.00      2.19      0.00      0.00      454.      0.00      0.00      0.00

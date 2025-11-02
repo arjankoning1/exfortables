@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   8  18  0  -1 21846008 W.Schantl       1970     1 8-O-18(N,P)7-N-18,,SIG          5.21     0.605      27.4     0.457     T2  2.95      2.30      21.7      14.7      14.7      0.00      27.9      1.38      1.38      2.68      0.00      3.19      0.00
+   8  18  0  -1 22640003 Y.Kasugai,Y.Ik  2001     1 8-O-18(N,P)7-N-18,,SIG          5.23      1.85     1.186E+03 7.277E-02 T2  4.66      1.15      14.8      14.9      14.9      0.00      7.67      3.76      3.76      1.00      0.00      11.7      0.00

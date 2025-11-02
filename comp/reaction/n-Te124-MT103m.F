@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  52 124  0   1 30136011 J.Brzosko, P.D  1963     1 52-TE-124(N,P)51-SB-124-M1,,SI  1.76     0.690     0.557     0.136     T2  2.43      4.09      68.2      14.2      14.2      0.00      1.47      0.00      1.01      2.91      0.00      1.03      0.00
+  52 124  0   1 41163005 P.M.Gopych, I.  1994     1 52-TE-124(N,P)51-SB-124-M1,,SI  13.7      12.4     1.735E+03  0.00     T2  2.73     0.180      38.9      14.6      14.6      0.00      11.4      0.00      23.3      4.08      0.00      21.8      0.00

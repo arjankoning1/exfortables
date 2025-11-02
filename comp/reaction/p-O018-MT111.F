@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   8  18  0  -1 C02370073I.Dostrovsky,H  1968     0 8-O-18(P,X)7-N-17,,SIG          0.00      0.00      0.00      0.00         0.00      14.5      1.38      156.      156.      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+   8  18  0  -1 C02360053I.Dostrovsky,R  1965     0 8-O-18(P,X)7-N-17,,SIG          0.00      0.00      0.00      0.00         0.00      27.8      5.83     1.000E+03 2.800E+03  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

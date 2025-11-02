@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  75 187  0  -1 M0676003 T.Shizuma,H.Ut  2005    14 75-RE-187(G,N)75-RE-186,,SIG    1.23      1.10      114.     0.340     T1  46.1      40.2      6.31      7.44      10.9      0.00      1.41      1.08      0.00      1.08      0.00      0.00      0.00

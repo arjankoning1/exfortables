@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  24  50  0  -1 F03150022A.J.MORTON,A.F  1994    64 24-CR-50(A,N)26-FE-53,,SIG      1.26     0.875      1.32     0.164     T1  27.8      38.9      22.6      6.20      9.96      0.00      1.26      0.00      0.00      0.00      0.00      0.00      0.00
+  24  50  0  -1 F03150021A.J.MORTON,A.F  1994    77 24-CR-50(A,N)26-FE-53,,SIG      1.49      1.21      7.55     0.356     T1  24.2      26.7      22.5      5.41      10.0      0.00      1.49      0.00      0.00      0.00      0.00      0.00      0.00

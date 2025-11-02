@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  28  58  0  -1 D0214004 B.Bonin, N.Ala  1985     0 28-NI-58(A,NON),,SIG            0.00      0.00      0.00      0.00         0.00     1.449E+03  3.96      288.      699.      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  28  58  0  -1 D0186007 A.Ingemarsson,  2000     3 28-NI-58(A,NON),,SIG            1.05     0.961      1.12     1.625E-02 T1 1.538E+03 1.620E+03  6.56      117.      192.      0.00      1.05      0.00      0.00      0.00      0.00      0.00      0.00

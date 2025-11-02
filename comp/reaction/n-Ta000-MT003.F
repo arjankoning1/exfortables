@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  73   0  0  -1 11215039 M.WALT,J.R.BEY  1955     1 73-TA-0(N,NON),,SIG             1.05      1.04     0.897     0.432     T1 2.852E+03 2.700E+03  7.41      4.10      4.10      0.00      1.06      0.00      0.00      1.07      1.00      0.00      0.00
+  73   0  0  -1 11220026 J.R.Beyster,M.  1956     2 73-TA-0(N,NON),,SIG             1.06      1.05     0.896     0.414     T1 2.877E+03 2.700E+03  10.0      2.50      7.00      0.00      1.06      0.00      0.00      1.07      1.04      0.00      0.00

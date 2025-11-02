@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  50 122  0  -1 40937041 Zo-In-Ok, V.G.  1985    33 50-SN-122(N,EL)50-SN-122,,SIG   1.44     0.981      107.     0.286     T2 6.356E+03 5.754E+03  8.30     1.500E-03 0.442      0.00      1.41      1.40      1.41      1.50      1.49      0.00      0.00

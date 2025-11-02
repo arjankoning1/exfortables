@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  81   0  0  -1 12240014 J.A.M.DE VILLI  1965    19 81-TL-0(N,INL),PAR,SIG          1.27     0.863      2.69     0.188     T1  469.      563.      14.1     0.550      1.50      0.00      1.24      1.35      1.24      1.20      1.29      0.00      0.00
+  81   0  0  -1 12240015 J.A.M.DE VILLI  1965    11 81-TL-0(N,INL),PAR,SIG          1.42      1.34      12.4     0.146     T1  497.      368.      13.3     0.500      1.20      0.00      1.38      1.23      1.38      1.40      1.65      0.00      0.00

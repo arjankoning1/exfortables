@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  72 180  0   0 C0467005 E.B.NORMAN,T.R  1982     6 72-HF-180(P,N)73-TA-180-G,,SIG  1.35      1.32      19.1     0.274     T1  51.0      39.5      8.21      6.50      9.00      0.00      1.35      0.00      0.00      0.00      0.00      0.00      0.00
+  72 180  0   0 A0676003 V.G.Batij, E.A  1986     4 72-HF-180(P,N)73-TA-180-G,,SIG  1.71      1.58      37.5     0.275     T1  65.0      47.8      13.5      7.19      9.18      0.00      1.71      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  55 133  0  -1 L0035038 A.LEPRETRE,H.B  1974   111 55-CS-133(G,X)0-NN-1,,SIG       1.21      1.00      49.2     0.342     T1  170.      165.      2.37      9.18      24.2      0.00      1.29      1.17      0.00      1.14      0.00      0.00      0.00
+  55 133  0  -1 L0014008 B.L.Berman,R.L  1969    66 55-CS-133(G,X)0-NN-1,,SIG       1.26      1.16      22.8     0.218     T1  142.      122.      11.5      9.10      29.5      0.00      1.44      1.13      0.00      1.12      0.00      0.00      0.00

@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  22  47  0  -1 D0683003 S.R.Kennett, L  1981    82 22-TI-47(P,G)23-V-48,,SIG       1.63      1.14      18.9     0.294     T1 0.655     0.467      15.6     0.760      4.10      0.00      1.81      0.00      0.00      1.37      0.00      0.00      0.00

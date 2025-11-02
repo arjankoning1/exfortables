@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  92 235  0  -1 A0230004CY.Y.Chu,M.L.Zh  1983     1 92-U-235(P,3N)93-NP-233,,SIG    2.39     0.540      22.2     0.484     T2 0.303     0.470      10.6      200.      200.      0.00      3.43      0.00      0.00      1.00      0.00      0.00      0.00

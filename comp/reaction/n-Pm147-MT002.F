@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  61 147  0  -1 10114009 J.W.Codding Jr  1971     1 61-PM-147(N,EL)61-PM-147,POT,S  4.82      4.80      0.00     0.181     T2 6.280E+04 1.300E+04  0.00     7.500E-06 7.500E-06  0.00      5.52      4.42      5.37      4.42      4.42      0.00      0.00

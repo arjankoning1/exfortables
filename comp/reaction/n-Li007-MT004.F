@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   3   7  0  -1 41226008 K.M.Mikhailina  1961     1 3-LI-7(N,INL)3-LI-7,,SIG        4.75      3.65      266.     0.467     T3  246.      50.0      30.0      14.1      14.1      0.00      1.66      7.34      7.34      7.25      1.00      0.00      0.00

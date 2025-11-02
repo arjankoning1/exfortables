@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  62 149  0  -1 32730004 Junhua Luo, Ch  2016     2 62-SM-149(N,P)61-PM-149,,SIG    1.21     0.963      4.52     0.292     T1  7.62      7.68      9.16      13.5      14.8      0.00      1.04      1.35      1.04      1.30      1.21      1.13      0.00

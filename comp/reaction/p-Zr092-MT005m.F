@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  40  92  0   1 A0338007 E.A.Skakun, V.  1987    10 40-ZR-92(P,N)41-NB-92-M,,SIG    1.68      1.38      119.     0.266     T1  288.      266.      7.55      4.50      9.00      0.00      1.75      0.00      0.00      1.59      0.00      0.00      0.00

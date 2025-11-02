@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   9  19  0  -1 21984108 M.Baba, M.Ono,  1986     1 9-F-19(N,EL)9-F-19,,SIG         1.08     0.990      1.17     0.421     T1  933.      934.      8.05      14.2      14.2      0.00      1.17      1.00      1.00      1.10      1.01      0.00      0.00

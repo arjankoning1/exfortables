@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  51 123  0  -1 D4216002 F.Tarkanyi,S.T  2009     0 51-SB-123(HE3,2N)53-I-124,,SIG  0.00      0.00      0.00      0.00         0.00      90.2      12.8      10.5      27.2      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  51 123  0  -1 D4033002 CH.Wiktorsson,  1976     0 51-SB-123(HE3,3N)53-I-123,,SIG  0.00      0.00      0.00      0.00         0.00      149.      0.00      16.6      27.0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

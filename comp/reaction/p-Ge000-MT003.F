@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  32   0  0  -1 O0213007 P.U.RENBERG,D.  1972     0 32-GE-0(P,NON),,SIG,,,EXP       0.00      0.00      0.00      0.00         0.00      865.      1.98      237.      568.      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  32   0  0  -1 C1212022 M.Q.Makino,C.N  1964     1 32-GE-0(P,NON),,SIG             1.11      1.11      3.64     0.349     T1 1.233E+03 1.105E+03  6.06      28.0      28.0      0.00      1.12      0.00      0.00      1.10      0.00      0.00      0.00

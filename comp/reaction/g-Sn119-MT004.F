@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  50 119  0  -1 K2363003 H.Utsunomiya,   2011    14 50-SN-119(G,N)50-SN-118,,SIG    1.34     0.999      21.7     0.321     T1  23.0      20.6      5.37      6.61      11.8      0.00      1.66      1.06      0.00      1.06      0.00      0.00      0.00

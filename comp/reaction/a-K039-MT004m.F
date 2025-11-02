@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  19  39  0   1 T0056003 J.W.NELSIN,J.D  1965     1 19-K-39(A,N)21-SC-42-M,,SIG     4.00      4.00     1.086E+03 0.383     T2  26.4      6.60      9.09      10.2      10.2      0.00      4.00      0.00      0.00      0.00      0.00      0.00      0.00

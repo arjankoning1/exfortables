@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  35   0  0   0 E1967009 Y.Homma, K.Kur  1979     0 35-BR-0(HE3,X)36-KR-79-G,CUM,S  0.00      0.00      0.00      0.00         0.00      93.2      9.05      11.8      37.7      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

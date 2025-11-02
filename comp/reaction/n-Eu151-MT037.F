@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  63 151  0  -1 10536027 B.P.Bayhurst,J  1975     1 63-EU-151(N,4N)63-EU-148,,SIG   1.46     0.704      41.3     0.198     T1  74.6      105.      4.76      26.0      26.0      0.00      1.56      0.00      1.56      0.00      0.00      1.17      0.00
+  63 151  0  -1 10536028 B.P.Bayhurst,J  1975     1 63-EU-151(N,4N)63-EU-148,,SIG   1.80     0.608      67.5     0.245     T1  248.      390.      5.13      28.0      28.0      0.00      2.06      0.00      2.06      0.00      0.00      1.05      0.00

@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  39  89  0  -1 M0954003 E.Van Camp,D.R  1984   117 39-Y-89(G,P)38-SR-88,PAR,SIG    70.0     1.963E-02  351.     5.534E-02 T2 0.186      2.10      9.95      13.0      24.6      0.00      0.00      70.0      0.00      0.00      0.00      0.00      0.00
+  39  89  0  -1 M0932002 E.Van Camp,R.V  1981    11 39-Y-89(G,P)38-SR-88,PAR,SIG    80.3     1.628E-02  0.00     3.109E-02 T2 0.164      2.14      0.00      13.8      23.8      0.00      0.00      80.3      0.00      0.00      0.00      0.00      0.00

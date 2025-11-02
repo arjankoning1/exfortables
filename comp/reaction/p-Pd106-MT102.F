@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  46 106  0  -1 O1291007 A.Spyrou,A.Lag  2008     0 46-PD-106(P,G)47-AG-107,,SIG,,  0.00      0.00      0.00      0.00         0.00     6.590E-07  14.4      2.58      4.78      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  46 106  0  -1 O1291004 A.Spyrou,A.Lag  2008    12 46-PD-106(P,G)47-AG-107,,SIG    1.38     0.985      5.09     0.338     T1 0.599     0.659      14.4      2.58      4.78      0.00      1.47      0.00      0.00      1.28      0.00      0.00      0.00

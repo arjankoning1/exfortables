@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  42 100  0  -1 T0289016 H.F.LUTZ, D.W.  1971     0 42-MO-100(P,INL)42-MO-100,PAR,  0.00      0.00      0.00      0.00         0.00      40.0      0.00      15.0      15.0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  42 100  0  -1 O0580010 E.Fretwurst,G.  1987     0 42-MO-100(P,INL)42-MO-100,PAR,  0.00      0.00      0.00      0.00         0.00     1.526E+03  0.00      25.6      25.6      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  56   0  0  -1 40680049 N.P.Glazkov     1963     2 56-BA-0(N,INL)56-BA-0,,SIG      2.37     0.447      1.77     0.117     T2  157.      450.      50.0     0.800      1.00      0.00      2.26      3.76      2.22      1.74      1.83      0.00      0.00

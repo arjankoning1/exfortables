@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  32  70  0  -1 C0282004 N.T.Porile,S.T  1963     0 32-GE-70(P,X)32-GE-69,,SIG      0.00      0.00      0.00      0.00         0.00      60.3      5.08     2.900E+03 2.900E+03  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  32  70  0  -1 A0510108 V.N.Levkovski   1991    18 32-GE-70(P,X)32-GE-69,CUM,SIG   1.53      1.35      16.6     0.137     T1  522.      365.      12.2      13.8      29.5      0.00      1.53      0.00      0.00      0.00      0.00      0.00      0.00

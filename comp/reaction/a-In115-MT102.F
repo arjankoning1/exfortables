@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  49 115  0  -1 C0720006 R.V.Carlson,P.  1967    15 49-IN-115(A,G)51-SB-119,,SIG    2.22     0.854      55.6     0.206     T2 0.106     4.674E-02  24.1      2.00      41.8      0.00      2.22      0.00      0.00      0.00      0.00      0.00      0.00
+  49 115  0  -1 D4385002 G.G.Kiss,T.Szu  2018     6 49-IN-115(A,G)51-SB-119,,SIG    2.37     0.555      23.1     0.183     T2 0.161     0.146      9.96      9.14      16.1      0.00      2.37      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  29   0  0  -1 20961022 D.L.Allan       1959     1 29-CU-0(N,X)1-H-1,,SIG          1.27      1.24      45.5     0.159     T1  306.      246.      4.07      14.1      14.1      0.00      1.41      1.10      1.10      1.33      1.28      0.00      0.00

@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  23  51  0  -1 30464012 M.Abdel-Harith  1976     1 23-V-51(N,INL)23-V-51,PAR,SIG   8.66     0.187      21.9     0.159     T2  100.      263.      15.0      3.40      3.40      0.00      1.37      21.6      1.37      20.1      0.00      0.00      0.00
+  23  51  0  -1 22075209 A.Takahashi, E  1987     1 23-V-51(N,INL)23-V-51,PAR,SIG   29.0     4.436E-02  356.     1.192E-07 T2  1.45      20.3      4.93      14.1      14.1      0.00      9.95      206.      9.67      13.1      0.00      0.00      0.00

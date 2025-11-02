@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  36  84  0  -1 C2773002 A.Palmisano-Ky  2022     4 36-KR-84(P,G)37-RB-85,,SIG      1.50      1.35      13.9     0.364     T1  1.04     0.943      15.1      2.15      3.00      0.00      1.30      0.00      0.00      1.66      0.00      0.00      0.00
+  36  84  0  -1 C2660005 G.Lotay,S.A.Gi  2021     2 36-KR-84(P,G)37-RB-85,,SIG      5.12      5.01      37.5     5.019E-02 T3 0.523     0.103      75.1      2.42      2.46      0.00      4.23      0.00      0.00      6.07      0.00      0.00      0.00

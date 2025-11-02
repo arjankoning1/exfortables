@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  30  64  0  -1 R0038007 D.C.Williams,   1963     0 30-ZN-64(D,2P)29-CU-64,,SIG     0.00      0.00      0.00      0.00         0.00      32.8      0.00      9.30      15.5      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  30  64  0  -1 O1588002 L.Daraban, K.A  2008     0 30-ZN-64(D,2P)29-CU-64,,SIG     0.00      0.00      0.00      0.00         0.00      33.5      21.4      12.9      18.2      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

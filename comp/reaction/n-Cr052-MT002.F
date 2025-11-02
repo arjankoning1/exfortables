@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  24  52  0  -1 10413025 W.E.Kinney,F.G  1974     3 24-CR-52(N,EL)24-CR-52,,SIG     1.05     0.991      186.     0.477     T1 1.913E+03 1.935E+03 0.386      6.44      8.56      0.00      1.05      1.05      1.05      1.03      1.06      0.00      0.00
+  24  52  0  -1 40557003 I.A.Korzh,V.A.  1977     4 24-CR-52(N,EL)24-CR-52,,SIG     1.10      1.06      6.69     0.327     T1 2.899E+03 2.719E+03  4.59      1.50      3.00      0.00      1.08      1.09      1.09      1.08      1.15      0.00      0.00

@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  32  74  0  -1 218920031R.Vanska, R.Ri  1981     1 32-GE-74(N,A)30-ZN-71,,SIG      3.11     0.358      14.9     0.151     R2  7.44      18.0      16.7      14.7      14.7      0.00      3.02      4.23      3.02      4.23      1.00      2.90      0.00

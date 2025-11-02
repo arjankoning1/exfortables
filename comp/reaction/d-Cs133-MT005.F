@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  55 133  0  -1 P0115002 F.W.Pement,R.L  1966     0 55-CS-133(D,2N)56-BA-133,,SIG   0.00      0.00      0.00      0.00         0.00      325.      15.0      5.74      14.9      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  55 133  0  -1 D4334005 F.Tarkanyi,F.D  2016     0 55-CS-133(D,X)55-CS-132,,SIG    0.00      0.00      0.00      0.00         0.00      124.      10.9     0.600      38.9      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

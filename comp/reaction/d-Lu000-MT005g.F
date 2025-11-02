@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  71   0  0   0 D4411007 F.Tarkanyi,S.T  2020     0 71-LU-0(D,X)71-LU-177-G,,SIG    0.00      0.00      0.00      0.00         0.00      2.66      17.4      21.1      49.4      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  71   0  0   0 D4411009 F.Tarkanyi,S.T  2020     0 71-LU-0(D,X)71-LU-174-G,,SIG    0.00      0.00      0.00      0.00         0.00      120.      2.64      21.1      49.4      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

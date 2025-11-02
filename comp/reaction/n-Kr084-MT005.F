@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  36  84  0  -1 21683002 F.HENSLEY       1980   100 36-KR-84(N,G)36-KR-85,,SIG      3.55     0.658      1.77     0.153     T2  25.7      49.9      330.     6.260E-03 0.236      0.00      4.15      0.00      8.35      1.52      0.00      0.00      0.00

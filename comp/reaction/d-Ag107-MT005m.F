@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  47 107  0   1 A0201002MM.E.Lalli,C.Wa  1976     0 47-AG-107(D,X)47-AG-106-M,,SIG  0.00      0.00      0.00      0.00         0.00      49.9      11.8      11.4      26.9      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

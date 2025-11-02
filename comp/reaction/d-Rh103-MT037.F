@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  45 103  0  -1 D4337003 A.Hermanne,F.T  2015     0 45-RH-103(D,4N)46-PD-101,,SIG   0.00      0.00      0.00      0.00         0.00      334.      11.0      36.6      49.8      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  45 103  0  -1 D4250003 F.Ditroi,F.Tar  2011     0 45-RH-103(D,4N)46-PD-101,,SIG   0.00      0.00      0.00      0.00         0.00      347.      11.3      30.6      39.9      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  46 108  0  -1 31615004 Chang-Lin Lan,  2008     2 46-PD-108(N,P)45-RH-108,,SIG    1.14      1.03      2.71     0.380     T1  11.2      10.7      8.97      13.5      14.8      0.00      1.05      1.27      1.05      1.01      1.00      1.20      0.00

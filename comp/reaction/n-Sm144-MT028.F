@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  62 144  0  -1 21609013 H.Weigel,R.Mic  1975     1 62-SM-144(N,X)61-PM-143,CUM,SI  72.0     1.407E-02  155.     2.384E-07 R2  19.1     1.284E+03  7.92      14.3      14.3      0.00      64.1      100.      64.1      39.1      104.      76.7      0.00

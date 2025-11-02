@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   1   3  0  -1 20794003 D.S.Mather,L.F  1969     1 1-H-3(N,3N)1-H-1,,SIG           4.84      3.05      1.60     0.426     T2  1.11     0.202      500.      14.1      14.1      0.00      0.00      0.00      0.00      0.00      1.00      9.30      0.00
