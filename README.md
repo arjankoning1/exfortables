@@ -1,6 +1,5 @@
-
 # EXFORTABLES
-EXFORTABLES is a database with experimental nuclear reaction data based on EXFOR.
+EXFORTABLES is a database with experimental nuclear reaction data mined from EXFOR.
 
 ## Documentation and reference
 A description of the code and its options can be found in the [EXFORTABLES Tutorial (pdf)](https://github.com/arjankoning1/exfortables/blob/main/doc/exfortables.pdf).
@@ -34,7 +33,9 @@ The *exfortables/* directory contains the following directories and files:
 + `README.md` is this README file
 + `LICENSE` is the License file
 + `doc/` contains the tutorial in pdf format
-+ `n/ p/ d/ t/ h/ a/ g/ i/ FY/` contains the directory structured experimental reaction database, pre-produced by the author
++ `source/` contains the source code
++ `special/` contains a set of special output files for all thermal cross sections, MACS etc.
++ `n/ p/ d/ t/ h/ a/ g/ i/ FY/` contains the directory structured experimental reaction database
 
 In total, you will need about 1.5 Gb of free disk space to install EXFORTABLES.
 
