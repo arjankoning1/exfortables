@@ -2,7 +2,7 @@
 #   title: F per nuclide for (h,4n)
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2025-10-25
+#   date: 2025-12-01
 #   format: YANDF-0.4
 # reaction: 
 #   type: (h,4n)

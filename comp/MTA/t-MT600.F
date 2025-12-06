@@ -2,7 +2,7 @@
 #   title: F per nuclide for (t,p_00)
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2025-10-25
+#   date: 2025-12-01
 #   format: YANDF-0.4
 # reaction: 
 #   type: (t,p_00)
