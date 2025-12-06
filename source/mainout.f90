@@ -5,7 +5,7 @@ subroutine mainout
 !
 ! Revision    Date      Author      Quality  Description
 ! ======================================================
-!    1     2025-10-25   A.J. Koning    A     Original code
+!    1     2025-12-01   A.J. Koning    A     Original code
 !-----------------------------------------------------------------------------------------------------------------------------------
 !
 ! *** Use data from other modules
@@ -45,7 +45,7 @@ subroutine mainout
 !
   subdir = 'stat/total/'
   open (unit = 2, status = 'unknown', file = subdir//'statistics')
-  write(2, '(/"    EXFORTABLES-2.14    (Version: October 25, 2025)"/)')
+  write(2, '(/"    EXFORTABLES-2.2    (Version: December 1, 2025)"/)')
   write(2, '(" Copyright (C) 2025  A.J. Koning"/)')
 !
 ! ***************************** Write main statistics ******************

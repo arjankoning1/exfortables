@@ -5,7 +5,7 @@ program exfortables
 !
 ! Revision    Date      Author      Quality  Description
 ! ======================================================
-!    1     2025-10-25   A.J. Koning    A     Original code
+!    1     2025-12-01   A.J. Koning    A     Original code
 !-----------------------------------------------------------------------------------------------------------------------------------
 !
 !   |-------------------------------------------------------|
@@ -16,7 +16,7 @@ program exfortables
 !
 ! MIT License
 !
-! Copyright (c) 2024 Arjan Koning
+! Copyright (c) 2025 Arjan Koning
 !
 ! Permission is hereby granted, free of charge, to any person obtaining a copy
 ! of this software and associated documentation files (the "Software"), to deal
