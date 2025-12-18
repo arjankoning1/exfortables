@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  19  39  0  -1 20081002 P.HILLE,A.FRIT  1966     1 19-K-39(N,2A)15-P-32,,SIG       13.5     9.335E-02  19.9     5.235E-02 T2 2.342E-02 0.127      19.0      14.8      14.8      0.00      17.3      0.00      18.8      1.67      0.00      24.1      0.00

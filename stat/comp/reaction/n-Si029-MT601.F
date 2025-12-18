@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  14  29  0  -1 20822006 J.C.ROBERTSON,  1972     1 14-SI-29(N,P)13-AL-29,PAR,SIG   150.     6.788E-03  41.6     1.192E-07 T2 0.382      52.0      15.4      5.31      5.31      0.00      0.00      194.      194.      85.2      0.00      0.00      0.00

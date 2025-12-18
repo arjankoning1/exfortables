@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   4   9  0  -1 F0523002 S.N.Abramovich  1999     0 4-BE-9(D,X)0-NN-1,,SIG          0.00      0.00      0.00      0.00         0.00      627.     0.721      1.86      9.96      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

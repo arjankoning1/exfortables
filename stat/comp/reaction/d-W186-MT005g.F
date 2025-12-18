@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  74 186  0   0 E2083002 N.S.Ishioka, S  2002     0 74-W-186(D,2N)75-RE-186-G,,SIG  0.00      0.00      0.00      0.00         0.00      196.      36.2      7.81      33.8      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  74 186  0   0 A0202004 S.J.Nassiff,H.  1973     0 74-W-186(D,2N)75-RE-186-G,,SIG  0.00      0.00      0.00      0.00         0.00      471.      0.00      7.30      16.7      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

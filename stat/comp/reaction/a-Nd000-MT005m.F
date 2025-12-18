@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  60   0  0   1 E2703007 M.Sakaguchi, M  2021     0 60-ND-0(A,X)61-PM-148-M,,SIG    0.00      0.00      0.00      0.00         0.00      4.21      8.21      22.2      49.3      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  27  58  0  -1 12597002 C.H.HOGG,L.D.W  1962     1 27-CO-58(N,G)27-CO-59,,SIG      1.13      1.13      2.56     0.208     T1 1.889E+06 1.650E+06  9.09     2.530E-08 2.530E-08  0.00      1.14      0.00      1.14      1.11      0.00      0.00      0.00

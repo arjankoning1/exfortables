@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  88 226  0  -1 40170002 S.M.Kalebin,M.  1971     1 88-RA-226(N,EL)88-RA-226,POT,S  1.22     0.820      2.76     0.106     T1 1.001E+04 1.250E+04  12.0     1.500E-05 1.500E-05  0.00      1.21      1.23      1.21      1.23      0.00      0.00      0.00

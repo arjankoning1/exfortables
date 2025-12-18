@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  74 184  0   1 30015008 R.Prasad, D.C.  1966     1 74-W-184(N,2N)74-W-183-M,,SIG   1.01      1.00     5.840E-02 0.486     R1  673.      663.      13.6      14.8      14.8      0.00      1.02      1.00      1.00      1.01      0.00      1.00      0.00
+  74 184  0   1 21818008 B.Anders,R.Pep  1982     1 74-W-184(N,2N)74-W-183-M,,SIG   1.01      1.01     8.525E-02 0.469     T1  670.      656.      11.3      14.6      14.6      0.00      1.03      1.00      1.00      1.00      0.00      1.00      0.00

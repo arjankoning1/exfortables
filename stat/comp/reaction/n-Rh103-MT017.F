@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  45 103  0  -1 10445015 L.R.Veeser,E.D  1977     7 45-RH-103(N,3N)45-RH-101,,SIG   1.51     0.846      17.1     0.340     T1  359.      385.      16.0      18.0      24.0      0.00      1.68      1.84      1.68      1.31      1.31      1.33      0.00

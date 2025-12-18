@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  49 113  0  -1 A0622004 A.E.ANTROPOV,   1990     6 49-IN-113(A,2N)51-SB-115,,SIG   1.10      1.06      2.57     0.337     T1  450.      418.      7.33      17.9      24.1      0.00      1.10      0.00      0.00      0.00      0.00      0.00      0.00
+  49 113  0  -1 D6209003 M.K.Bhardwaj,   1992    10 49-IN-113(A,2N)51-SB-115,,SIG   1.95      1.80      0.00     0.249     T2  459.      294.      0.00      21.4      50.0      0.00      1.95      0.00      0.00      0.00      0.00      0.00      0.00

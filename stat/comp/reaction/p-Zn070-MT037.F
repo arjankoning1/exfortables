@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  30  70  0  -1 O2482004 G.Pupillo,L.Mo  2020     7 30-ZN-70(P,4N)31-GA-67,,SIG     2.10     0.510      12.0     0.152     T2  83.3      158.      14.6      44.7      67.8      0.00      2.63      0.00      0.00      1.50      0.00      0.00      0.00

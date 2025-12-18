@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  48 110  0  -1 C2602006 O.Olivas-Gomez  2020    16 48-CD-110(P,G)49-IN-111,,SIG    1.23     0.980      3.15     0.373     T1  3.97      3.82      12.8      2.94      5.96      0.00      1.28      0.00      0.00      1.17      0.00      0.00      0.00

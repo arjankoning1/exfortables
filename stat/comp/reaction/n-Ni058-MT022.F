@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  28  58  0  -1 30306003 N.A.Khan,S.Mub  1973     1 28-NI-58(N,N+A)26-FE-54,,SIG    3.47     0.324      0.00     0.137     R1  13.8      36.0      0.00      14.7      14.7      0.00      3.74      5.10      3.69      3.89      3.17      1.00      0.00
+  28  58  0  -1 20837014 U.SEEBECK,M.BO  1965     1 28-NI-58(N,N+A)26-FE-54,SEQ,SI  5.43     0.203      15.2     6.652E-02 R1  7.36      30.0      20.0      14.1      14.1      0.00      6.40      7.42      6.36      6.06      5.56      1.40      0.00

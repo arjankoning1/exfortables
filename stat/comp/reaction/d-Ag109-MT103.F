@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  47 109  0  -1 S0020003 Yu Weixiang,Lu  1989     0 47-AG-109(D,P)47-AG-110,,SIG    0.00      0.00      0.00      0.00         0.00      23.8      5.15      5.91      17.7      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

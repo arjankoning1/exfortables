@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  50 120  0   0 30077010 S.S.Hasan,A.K.  1968     0 50-SN-120(N,G)50-SN-121-G,,SIG  0.00      0.00      0.00      0.00         0.00      77.0      14.3     2.400E-02 2.400E-02  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  79 197  0  -1 E0808002 O.Hashimoto, H  1984     0 79-AU-197(A,2P)79-AU-199,,SIG   0.00      0.00      0.00      0.00         0.00     0.206      24.5      42.0      106.      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  79 197  0  -1 A0288002 O.Hashimoto,H.  1984     0 79-AU-197(A,2P)79-AU-199,,SIG   0.00      0.00      0.00      0.00         0.00     0.206      24.5      42.0      106.      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

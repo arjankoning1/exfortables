@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  73 181  0  -1 C06930091G.Chodil,R.C.J  1967    16 73-TA-181(P,X)0-NN-1,,SIG       1.31     0.787      5.70     0.201     T1  543.      706.      9.93      7.00      15.0      0.00      1.28      0.00      0.00      1.33      0.00      0.00      0.00
+  73 181  0  -1 O0726013 V.V.VERBINSKI,  1969     1 73-TA-181(P,X)0-NN-1,,SIG       1.66     0.602      0.00     0.173     T1 2.067E+03 3.430E+03  0.00      18.0      18.0      0.00      1.72      0.00      0.00      1.61      0.00      0.00      0.00

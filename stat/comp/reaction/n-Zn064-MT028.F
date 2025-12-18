@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  30  64  0  -1 20330009 K.IWATANI, I.F  1968     1 30-ZN-64(N,N+P)29-CU-63,PAR,SI  2.83      2.82      144.     0.127     T1  479.      169.      15.4      14.1      14.1      0.00      2.60      2.69      3.02      3.10      2.58      3.01      0.00

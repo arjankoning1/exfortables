@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  82   0  0  -1 M0615006 V.Muccifora,N.  1999     0 82-PB-0(G,ABS),,SIG,,DMN        0.00      0.00      0.00      0.00         0.00     0.143      3.86      530.     2.590E+03  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

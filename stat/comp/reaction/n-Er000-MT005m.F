@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  68   0  0   1 30322015 J.Janczyszyn,L  1973     1 68-ER-0(N,X)68-ER-167-M,,SIG    4.42     0.227      13.4     0.153     T2  131.      570.      21.1      14.0      14.0      0.00      3.85      0.00      5.01      0.00      0.00      0.00      0.00
+  68   0  0   1 10835020 S.Sothras       1977     1 68-ER-0(N,X)68-ER-167-M,,SIG    7.78     0.129      76.8     1.192E-07 T2  126.      967.      9.93      14.8      14.8      0.00      6.74      0.00      8.90      0.00      0.00      0.00      0.00

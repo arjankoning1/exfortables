@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  32  72  0  -1 32218004 N.R.Dzysiuk, I  2007     4 32-GE-72(N,2N)32-GE-71,,SIG     1.16     0.941      3.47     0.316     T1  717.      757.      7.92      13.4      14.7      0.00      1.23      1.11      1.23      1.11      1.13      1.07      0.00
+  32  72  0  -1 32231003 S.V.Begun,O.G.  2007     1 32-GE-72(N,2N)32-GE-71,,SIG     1.16     0.908      3.61     0.401     T1  719.      785.      7.60      14.0      14.0      0.00      1.27      1.04      1.27      1.04      1.13      1.07      0.00

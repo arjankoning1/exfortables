@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  35   0  0  -1 21319004 V.KOENIG        1965     5 35-BR-0(N,A),,SIG               1.33     0.936      8.78     0.128     T1  8.98      10.4      9.94      12.8      17.0      0.00      1.27      1.38      1.27      1.44      0.00      1.27      0.00

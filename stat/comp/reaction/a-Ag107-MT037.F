@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  47 107  0  -1 O1235005 C.Wasilevsky,   1985     6 47-AG-107(A,4N)49-IN-107,,SIG   2.75     0.563      1.36     9.630E-02 T2  24.4      98.3      199.      37.9      53.9      0.00      2.75      0.00      0.00      0.00      0.00      0.00      0.00
+  47 107  0  -1 A0319014 P.Misaelides,H  1980    15 47-AG-107(A,4N)49-IN-107,,SIG   4.72     0.234      26.2     0.127     T2  25.4      131.      15.0      36.7      96.8      0.00      4.72      0.00      0.00      0.00      0.00      0.00      0.00

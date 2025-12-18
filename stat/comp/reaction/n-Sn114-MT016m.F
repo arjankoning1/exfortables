@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  50 114  0   1 30805010 M.Berrada       1984     1 50-SN-114(N,2N)50-SN-113-M,,SI  1.02      1.02     0.235     4.050E-02 R1  985.      939.      10.6      14.7      14.7      0.00      1.03      0.00      1.03      1.00      0.00      1.01      0.00
+  50 114  0   1 30805011 M.Berrada       1984     1 50-SN-114(N,2N)50-SN-113-M,,SI  1.26      1.26      9.67     1.146E-02 R1  985.      780.      8.46      14.7      14.7      0.00      1.28      0.00      1.28      1.23      0.00      1.25      0.00

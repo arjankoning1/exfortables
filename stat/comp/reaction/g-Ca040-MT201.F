@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  20  40  0  -1 L0126003 J.Miller,C.Sch  1966    39 20-CA-40(G,X)0-NN-1,,SIG        2.71     0.674      27.3     0.325     T2  7.23      8.85      11.7      15.7      26.2      0.00      5.38      1.29      0.00      1.25      0.00      0.00      0.00

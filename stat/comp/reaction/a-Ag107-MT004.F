@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  47 107  0  -1 D6208004 A.K.Chaubey, M  1990     8 47-AG-107(A,N)49-IN-110,,SIG    2.16     0.502      0.00     0.300     T2  129.      217.      0.00      9.20      25.8      0.00      2.16      0.00      0.00      0.00      0.00      0.00      0.00

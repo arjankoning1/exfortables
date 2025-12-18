@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   7  14  0  -1 22081087 J.CHARDINE,G.H  1986    10 7-N-14(N,INL)7-N-14,PAR,SIG     1.82     0.755      96.4     0.356     T1  14.0      16.9      4.78      7.70      13.5      0.00      2.06      2.09      2.09      1.37      1.37      0.00      0.00
+   7  14  0  -1 22081086 J.CHARDINE,G.H  1986    10 7-N-14(N,INL)7-N-14,PAR,SIG     5.29     0.206      416.     5.096E-02 T2  14.0      63.8      3.86      7.70      13.5      0.00      6.37      6.62      6.62      3.61      3.61      0.00      0.00

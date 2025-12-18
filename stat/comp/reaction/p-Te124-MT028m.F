@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  52 124  0   1 C0346012 R.F.SCHALL,A.A  1970     0 52-TE-124(P,N+P)52-TE-123-M,,S  0.00      0.00      0.00      0.00         0.00      18.6      28.0      300.      300.      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  17   0  0  -1 40381005 M.V.Pasechnik   1955     1 17-CL-0(N,NON),,SIG             1.03      1.01     7.706E-02 0.422     T1  926.      900.      33.3      4.10      4.10      0.00      1.00      1.00      1.00      0.00      1.07      0.00      0.00
+  17   0  0  -1 40782006 V.I.STRIZHAK    1956     1 17-CL-0(N,NON),,SIG             1.16     0.873     0.336     3.795E-02 T1  430.      600.      50.0      2.50      2.50      0.00      1.13      1.20      1.20      0.00      1.05      0.00      0.00

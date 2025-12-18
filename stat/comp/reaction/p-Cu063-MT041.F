@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  29  63  0  -1 C0537022 L.R.Greenwood,  1984     1 29-CU-63(P,2N+P)29-CU-61,,SIG   3.89     0.257      221.     1.906E-02 T2  23.0      106.      5.00      26.0      450.      0.00      3.89      0.00      0.00      0.00      0.00      0.00      0.00

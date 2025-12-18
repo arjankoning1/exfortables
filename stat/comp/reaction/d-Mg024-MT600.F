@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  12  24  0  -1 F0922003 H.M.Omar,I.I.Z  1964     0 12-MG-24(D,P)12-MG-25,PAR,SIG   0.00      0.00      0.00      0.00         0.00      12.4      0.00      1.21      2.53      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

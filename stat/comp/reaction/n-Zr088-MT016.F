@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  40  88  0  -1 12763002 R.J.Prestwood,  1984     1 40-ZR-88(N,2N)40-ZR-87,,SIG     1.07      1.06      2.41     0.435     T1  498.      467.      4.93      14.8      14.8      0.00      1.09      0.00      1.09      1.00      0.00      1.06      0.00

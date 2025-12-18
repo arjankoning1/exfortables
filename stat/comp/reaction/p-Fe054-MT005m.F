@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  26  54  0   1 A0501026 Yu.V.Aleksandr  1990     0 26-FE-54(P,X)21-SC-44-M,,SIG    0.00      0.00      0.00      0.00         0.00      8.70      6.90     1.000E+03 1.000E+03  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  26  54  0   1 P0030002 K.Eskola        1967     7 26-FE-54(P,N+P)26-FE-53-M,,SIG  2.62      2.20      0.00     0.235     T1  4.78      2.55      0.00      25.1      65.3      0.00      2.62      0.00      0.00      0.00      0.00      0.00      0.00

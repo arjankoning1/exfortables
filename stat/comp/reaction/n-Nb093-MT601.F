@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  41  93  0  -1 21905002 N.KOORI,Y.OHSA  1984     0 41-NB-93(N,P)40-ZR-93,PAR,SIG   0.00      0.00      0.00     1.192E-07     0.00      34.3      9.04      14.1      14.1      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

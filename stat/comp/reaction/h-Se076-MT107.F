@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  34  76  0  -1 A0154007 He Youfeng, S.  1982     0 34-SE-76(HE3,A)34-SE-75,,SIG    0.00      0.00      0.00      0.00         0.00      32.3      25.9      10.2      35.1      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

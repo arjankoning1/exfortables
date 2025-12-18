@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  72 178  0   2 22658013 Y.Ikeda,C.Konn  1996     2 72-HF-178(N,INL)72-HF-178-M2,,  1.74      1.55      36.4     0.281     R2 0.153     9.625E-02  20.2      14.1      14.8      0.00      1.25      0.00      2.11      0.00      0.00      0.00      0.00

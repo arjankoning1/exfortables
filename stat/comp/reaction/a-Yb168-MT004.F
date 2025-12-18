@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  70 168  0  -1 O21780022L.Netterdon, P  2013     3 70-YB-168(A,N)72-HF-171,,SIG    1.18     0.987      3.08     0.383     T1 0.507     0.583      9.92      13.7      15.1      0.00      1.18      0.00      0.00      0.00      0.00      0.00      0.00
+  70 168  0  -1 O21780021L.Netterdon, P  2013     6 70-YB-168(A,N)72-HF-171,,SIG    1.26      1.06      6.21     0.332     T1 0.299     0.319      10.0      12.8      15.1      0.00      1.26      0.00      0.00      0.00      0.00      0.00      0.00

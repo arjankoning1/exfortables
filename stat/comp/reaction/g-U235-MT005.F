@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  92 235  0  -1 M0167043 P.P.Ganich,A.S  1986     0 92-U-235(G,F)0-NN-1,DL,SIG,,BR  0.00      0.00      0.00      0.00         0.00     0.748      113.      7.00      17.0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  92 235  0  -1 L0050007 J.T.CALDWELL,E  1980    18 92-U-235(G,2N)92-U-233,,SIG     1.66     0.915      4.72     0.151     T1  29.3      24.0      49.6      11.4      18.3      0.00      1.76      0.00      0.00      1.45      0.00      0.00      0.00

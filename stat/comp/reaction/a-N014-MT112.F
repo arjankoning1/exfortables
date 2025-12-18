@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   7  14  0  -1 O1997111 C.Jacquot, M.J  1968     0 7-N-14(A,P+A)6-C-13,,SIG        0.00      0.00      0.00      0.00         0.00      1.60      100.      90.0      90.0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

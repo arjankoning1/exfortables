@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  40  90  0  -1 20669008 S.M.QAIM,G.STO  1976     1 40-ZR-90(N,T)39-Y-88,,SIG       1.02      1.02     8.268E-02 0.402     T1 4.416E-02 4.100E-02  26.8      14.6      14.6      0.00      0.00      0.00      0.00      0.00      0.00      1.02      0.00
+  40  90  0  -1 32515011 Xiangzhong Kon  1998     1 40-ZR-90(N,T)39-Y-88,,SIG       1.06      1.06     0.724     0.425     T1 4.733E-02 4.307E-02  11.6      14.7      14.7      0.00      0.00      0.00      0.00      0.00      0.00      1.06      0.00

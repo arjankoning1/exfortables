@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  80 200  0   1 23018010 Y.Kasugai, F.M  2001     1 80-HG-200(N,P)79-AU-200-M,,SIG  43.8     2.496E-02  19.0     2.384E-07 T2 5.172E-02  1.60      22.2      14.6      14.6      0.00      22.5      0.00      22.5      0.00      0.00      127.      0.00

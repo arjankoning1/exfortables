@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   8  18  0  -1 M0242011 K.Bangert,U.E.  1982    17 8-O-18(G,T)7-N-15,PAR,SIG,,BRS  2.01     0.822      17.7     0.219     T1 7.959E-02 0.131      3.73      20.9      25.6      0.00      2.01      0.00      0.00      0.00      0.00      0.00      0.00
+   8  18  0  -1 M0242012 K.Bangert,U.E.  1982    12 8-O-18(G,T)7-N-15,PAR,SIG,,BRS  2.35      1.01      2.00     0.120     T2 9.358E-02 0.129      17.7      20.9      24.0      0.00      2.35      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  22  48  0  -1 10634026 S.M.Grimes,R.C  1977     1 22-TI-48(N,X)1-H-1,,SIG         1.14     0.894     0.822     0.213     R1  71.9      85.0      18.8      15.0      15.0      0.00      1.13      1.20      1.16      1.00      1.12      0.00      0.00

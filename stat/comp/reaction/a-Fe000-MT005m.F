@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  26   0  0   1 A0609030 E.Daum          1997     9 26-FE-0(A,X)26-FE-53-M,CUM,SIG  2.98     0.366      15.7     0.243     T2  1.77      4.14      15.4      34.2      94.6      0.00      2.98      0.00      0.00      0.00      0.00      0.00      0.00
+  26   0  0   1 A0148029 R.Michel,G.Bri  1983    11 26-FE-0(A,X)21-SC-44-M,,SIG     15.6     0.131      28.8     0.159     T2  2.47      3.37      13.0      83.6      171.      0.00      15.6      0.00      0.00      0.00      0.00      0.00      0.00

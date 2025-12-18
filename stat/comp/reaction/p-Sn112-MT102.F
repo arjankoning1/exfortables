@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  50 112  0  -1 C0556003 F.R.Chloupek,   1999    17 50-SN-112(P,G)51-SB-113,,SIG,,  1.56      1.11      88.9     0.394     T1  10.2      7.92      5.93      2.96      8.54      0.00      1.36      0.00      0.00      1.73      0.00      0.00      0.00
+  50 112  0  -1 A0668003 E.A.Skakun, V.  1987     3 50-SN-112(P,G)51-SB-113,,SIG    1.67      1.11      110.     0.384     T1  22.2      19.9      5.96      5.00      9.00      0.00      1.54      0.00      0.00      1.80      0.00      0.00      0.00

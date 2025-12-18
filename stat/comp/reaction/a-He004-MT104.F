@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   2   4  0  -1 C1956007 L.W.Woo,K.Kwia  1985     0 2-HE-4(A,D)3-LI-6,,SIG          0.00      0.00      0.00      0.00         0.00     0.600      33.3      198.      198.      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+   2   4  0  -1 C0165003 B.G.Glagola,V.  1982     0 2-HE-4(A,D)3-LI-6,PAR,SIG       0.00      0.00      0.00      0.00         0.00      5.47      7.84      61.5      158.      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

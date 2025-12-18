@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   6  13  0  -1 A0290004 M.M.Nagadi, A.  1998     0 6-C-13(D,P)6-C-14,,SIG          0.00      0.00      0.00      0.00         0.00     0.161      17.1     0.200     0.350      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+   6  13  0  -1 O2055003 B.Koudijs, F.P  1953     0 6-C-13(D,P)6-C-14,,SIG          0.00      0.00      0.00      0.00         0.00     0.423      15.0     0.282     0.637      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

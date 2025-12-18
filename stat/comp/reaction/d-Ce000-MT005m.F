@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  58   0  0   1 D4295004 F.Tarkanyi,S.T  2013     0 58-CE-0(D,X)59-PR-138-M,,SIG    0.00      0.00      0.00      0.00         0.00      229.      11.7      10.4      49.7      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  58   0  0   1 D4295009 F.Tarkanyi,S.T  2013     0 58-CE-0(D,X)58-CE-137-M,IND,SI  0.00      0.00      0.00      0.00         0.00      9.26      15.1      9.20      49.7      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

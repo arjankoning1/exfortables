@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  16  32  0  -1 20283004 I.KUMABE        1958     1 16-S-32(N,X)2-HE-4,,SIG         3.85      3.60      507.     0.160     R3  428.      109.      14.7      14.8      14.8      0.00      5.66      2.21      5.66      2.21      3.87      0.00      0.00

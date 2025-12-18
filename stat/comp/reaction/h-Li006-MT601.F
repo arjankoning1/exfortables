@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   3   6  0  -1 T0031008 A.J.ELWYN,R.E.  1980     0 3-LI-6(HE3,P)4-BE-8,PAR,SIG     0.00      0.00      0.00      0.00         0.00      17.3      4.32     0.660      1.85      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

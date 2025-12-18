@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  96 245  0  -1 10271012 J.R.Berreth,F.  1972     1 96-CM-245(N,TOT),,SIG           1.16     0.862      1.38     0.183     T1 2.371E+06 2.900E+06  15.5     2.530E-08 2.530E-08  0.00      1.16      1.16      1.16      1.16      0.00      0.00      0.00
+  96 245  0  -1 404320054T.S.Belanova,Y  1975    18 96-CM-245(N,TOT),,SIG,,RES      2.89     0.555      0.00     0.139     T2 2.183E+05 3.589E+05  0.00     2.000E-06 3.620E-05  0.00      3.05      2.84      2.84      2.84      0.00      0.00      0.00

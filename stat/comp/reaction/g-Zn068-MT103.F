@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  30  68  0  -1 M0921002 A.El Sioufi,P.  1957     5 30-ZN-68(G,P)29-CU-67,,SIG,,BR  4.41     0.292      80.3     8.651E-02 T2  1.03      5.64      34.3      15.0      27.0      0.00      4.53      4.34      0.00      4.34      0.00      0.00      0.00

@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  55 133  0   1 E1867020 K.Sakamoto, M.  1985     6 55-CS-133(P,3N)56-BA-131-M,,SI  2.31      2.03      4.37     0.190     T2  229.      105.      3.35      19.6      48.2      0.00      2.31      0.00      0.00      0.00      0.00      0.00      0.00
+  55 133  0   1 D4224002MR.S.Tilbury, L  1963     5 55-CS-133(P,3N)56-BA-131-M,,SI  4.25     0.256      0.00     0.125     T2  327.     1.134E+03  0.00      25.0      45.0      0.00      4.25      0.00      0.00      0.00      0.00      0.00      0.00

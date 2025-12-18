@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  91 232  0  -1 13602009 Y.Danon,M.S.Mo  1996     1 91-PA-232(N,F),,SIG             1.22     0.903      299.     0.478     T1 1.377E+06 1.506E+06 0.930     2.530E-08 2.530E-08  0.00      1.00      1.02      1.02      1.02      0.00      1.56      0.00
+  91 232  0  -1 13602002 Y.Danon,M.S.Mo  1996  3685 91-PA-232(N,F),,SIG             1.52     0.802      16.8     0.266     T2 4.454E+05 4.710E+05  12.9     1.001E-08 1.002E-04  0.00      1.80      1.32      1.32      1.32      0.00      1.73      0.00

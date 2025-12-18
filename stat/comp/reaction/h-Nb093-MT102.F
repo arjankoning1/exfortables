@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  41  93  0  -1 A0347004 H.H.Bissem,R.G  1980     0 41-NB-93(HE3,G)43-TC-96,,SIG    0.00      0.00      0.00      0.00         0.00     8.619E-03  8.00      8.90      28.4      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  82 207  0  -1 O0397108 Yu.E.Titarenko  1996     0 82-PB-207(P,4N)83-BI-204,,SIG   0.00      0.00      0.00      0.00         0.00      3.40      20.6     1.500E+03 1.500E+03  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  82 207  0  -1 O0689016 R.E.Bell, H.M.  1956     5 82-PB-207(P,4N)83-BI-204,,SIG   1.99      1.29      84.0     0.169     T1  726.      622.      15.0      33.9      46.4      0.00      2.06      1.91      0.00      1.98      0.00      0.00      0.00

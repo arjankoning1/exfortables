@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  74 183  0   1 21818007 B.Anders,R.Pep  1982     1 74-W-183(N,INL)74-W-183-M,,SIG  5.04     0.243      41.9     0.129     T2  41.0      127.      11.0      14.6      14.6      0.00      1.59      0.00      0.00      10.9      0.00      4.03      0.00

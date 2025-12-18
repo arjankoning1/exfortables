@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  47 109  0   1 D6218009 N.L.Singh, S.A  1987     0 47-AG-109(A,3N+A)47-AG-106-M,,  0.00      0.00      0.00      0.00         0.00      13.0      13.4      40.2      47.2      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

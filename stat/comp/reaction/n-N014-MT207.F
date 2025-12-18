@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   7  14  0  -1 11302002 A.B.Lillie      1952     1 7-N-14(N,X)2-HE-4,,SIG          1.37      1.25      0.00     0.263     T1  130.      101.      0.00      14.1      14.1      0.00      1.24      1.42      1.42      1.32      1.43      0.00      0.00

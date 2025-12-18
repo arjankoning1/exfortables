@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  28  60  0  -1 P0061002 R.RADICELLA,J.  1958     0 28-NI-60(D,2N)29-CU-60,,SIG     0.00      0.00      0.00      0.00         0.00      51.9      24.1      9.60      27.4      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  28  60  0  -1 D0576006 A.Budzanowski,  1963     0 28-NI-60(D,2N)29-CU-60,,SIG     0.00      0.00      0.00      0.00         0.00      120.      15.0      12.8      12.8      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   3   7  0  -1 A1486007 P.D.FORSYTH,R.  1965     2 3-LI-7(HE3,A)3-LI-6,PAR,SIG,,,  2.20     0.591      10.3     0.296     T2  2.90      4.55      15.0      1.81      2.50      0.00      0.00      2.20      0.00      0.00      0.00      0.00      0.00

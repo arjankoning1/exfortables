@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  95 242  1  -1 22941016 A.Letourneau,   2009     1 95-AM-242-M(N,G)95-AM-243,,SIG  1.06      1.03     0.543     0.438     T1 1.192E+06 1.152E+06  9.72     2.530E-08 2.530E-08  0.00      1.10      0.00      1.00      1.00      0.00      0.00      0.00
+  95 242  1  -1 14471002 M.Q.Buckner,C.  2017   132 95-AM-242-M(N,G)95-AM-243,,SIG  1.79     0.643      3.96     0.160     T1 7.620E+04 9.692E+04  25.2     1.234E-07 8.155E-03  0.00      1.85      0.00      1.76      1.76      0.00      0.00      0.00

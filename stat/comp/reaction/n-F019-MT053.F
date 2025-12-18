@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   9  19  0  -1 21381002 M.A.GRACE,L.E.  1951     1 9-F-19(N,INL)9-F-19,PAR,SIG     4.41     0.228      5.20     1.167E-02 T2  110.      520.      34.6      2.50      2.50      0.00      3.54      4.64      4.64      4.61      4.64      0.00      0.00

@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  56 138  0  -1 41188002 L.A.Pobedonost  1994    11 56-BA-138(N,INL)56-BA-138,PAR,  1.69      1.58      86.2     0.147     T1  754.      485.      7.76      1.72      2.22      0.00      1.70      1.63      1.70      1.79      1.63      0.00      0.00
+  56 138  0  -1 11720007 A.B.Tucker,J.T  1965    38 56-BA-138(N,INL)56-BA-138,PAR,  2.06     0.710      2.79     0.259     T1  282.      311.      28.3      1.44      1.73      0.00      1.50      2.81      1.50      1.47      2.81      0.00      0.00

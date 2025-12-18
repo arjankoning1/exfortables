@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  25  55  0  -1 B0178003 M.Watanabe, H.  1979     0 25-MN-55(HE3,2N)27-CO-56,,SIG   0.00      0.00      0.00      0.00         0.00      48.3      0.00      8.38      39.0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

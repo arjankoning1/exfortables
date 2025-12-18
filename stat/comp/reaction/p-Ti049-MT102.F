@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  22  49  0  -1 D0680002 S.R.Kennett, M  1980    52 22-TI-49(P,G)23-V-50,,SIG       2.68     0.507      34.7     0.239     T3 7.534E-02 0.164      12.3     0.730      2.26      0.00      2.81      0.00      0.00      2.49      0.00      0.00      0.00
+  22  49  0  -1 D5004008 I.D.Fedorets,   1986    22 22-TI-49(P,G)23-V-50,,SIG       2.72     0.475      119.     0.288     T3 7.904E-02 0.153      5.89     0.836      2.58      0.00      2.82      0.00      0.00      2.23      0.00      0.00      0.00

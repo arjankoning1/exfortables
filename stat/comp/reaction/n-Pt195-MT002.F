@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  78 195  0  -1 40276012 V.P.Vertebnyi,  1975     1 78-PT-195(N,EL)78-PT-195,,SIG   1.09     0.964      15.8     0.393     T1 9.735E+03 1.010E+04  1.98     5.125E-07 5.125E-07  0.00      1.02      1.17      1.02      1.05      0.00      0.00      0.00

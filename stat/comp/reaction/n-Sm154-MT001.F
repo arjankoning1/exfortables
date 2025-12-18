@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  62 154  0  -1 40302014 A.N.Dyumin,A.I  1973     1 62-SM-154(N,TOT),,SIG           1.08     0.929      102.     0.359     T1 5.194E+03 5.590E+03 0.716      14.2      14.2      0.00      1.07      1.08      1.07      1.06      1.11      0.00      0.00
+  62 154  0  -1 40536003 V.P.Vertebnyj,  1980   457 62-SM-154(N,TOT),,SIG           1.52     0.996     0.958     0.159     T2 1.362E+04 1.532E+04 0.151     2.500E-08 3.850E-06  0.00      1.49      1.52      1.49      1.53      1.53      0.00      0.00

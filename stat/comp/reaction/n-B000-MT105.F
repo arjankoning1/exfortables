@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   5   0  0  -1 30271003 T.Biro,S.Sudar  1975     1 5-B-0(N,T),,SIG                 2.03     0.600      4.95     0.255     T1  24.0      36.5      20.3      14.7      14.7      0.00      1.01      2.80      2.54      1.04      2.80      1.05      0.00

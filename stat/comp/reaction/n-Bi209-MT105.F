@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  83 209  0  -1 22183007 R.Woelfle,S.M.  1990     3 83-BI-209(N,T)82-PB-207,,SIG    2.19      1.30      83.8     0.325     T2  1.34     0.803      11.9      16.3      19.0      0.00      1.45      3.26      2.59      2.59      1.02      1.78      0.00
+  83 209  0  -1 30473006 S.Sudar,J.Csik  1979     1 83-BI-209(N,T)82-PB-207,,SIG    2.22     0.534      8.27     0.207     T2 0.172     0.300      16.7      14.6      14.6      0.00      4.08      3.38      1.22      1.22      1.32      1.57      0.00

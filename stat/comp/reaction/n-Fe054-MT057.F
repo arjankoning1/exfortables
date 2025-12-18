@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  26  54  0  -1 10469021 W.E.Kinney,F.G  1974     1 26-FE-54(N,INL)26-FE-54,PAR,SI  1.71     0.751      16.2     0.416     T1  74.9      90.0      10.1      5.50      5.50      0.00      1.46      1.27      1.27      2.14      2.16      0.00      0.00

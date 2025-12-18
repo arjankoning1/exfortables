@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  90 232  0  -1 O0340041 P.KIRKBY,W.T.L  1966     1 90-TH-232(P,NON),,SIG,,,EXP     1.01      1.01     0.320     5.957E-03 T1 2.038E+03 2.006E+03  2.80      99.1      99.1      0.00      1.01      0.00      0.00      0.00      0.00      0.00      0.00
+  90 232  0  -1 O0741018 B.D.WILKINS,G.  1963     1 90-TH-232(P,NON),,SIG           1.05      1.05     2.038E-02 7.040E-02 T1  70.8      49.0      312.      9.98      9.98      0.00      1.05      0.00      0.00      0.00      0.00      0.00      0.00

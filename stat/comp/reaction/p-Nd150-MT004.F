@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  60 150  0  -1 O2244002 J.Olkowsky, I.  1961    10 60-ND-150(P,N)61-PM-150,,SIG    1.41      1.25      0.00     0.273     T1  40.1      32.1      0.00      6.90      10.8      0.00      1.41      0.00      0.00      0.00      0.00      0.00      0.00
+  60 150  0  -1 D6256002 D.Banerjee, A.  2015    20 60-ND-150(P,N)61-PM-150,,SIG    1.41      1.04      66.1     0.258     T1  37.4      38.3      7.33      7.12      14.9      0.00      1.41      0.00      0.00      0.00      0.00      0.00      0.00

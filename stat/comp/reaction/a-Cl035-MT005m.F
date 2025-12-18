@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  17  35  0   1 A0393004 S.M.Qaim,M.S.S  1988    15 17-CL-35(A,X)17-CL-34-M,,SIG    3.77      3.15     1.391E+03 0.311     T2  25.8      10.8      15.9      21.5      26.2      0.00      3.77      0.00      0.00      0.00      0.00      0.00      0.00

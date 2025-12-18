@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  28  61  0  -1 D6067007 Abhishek Yadav  2008     2 28-NI-61(A,3N)30-ZN-62,,SIG     7.55      6.90     1.219E+03 0.204     T2  31.6      6.00      23.5      36.0      40.0      0.00      7.55      0.00      0.00      0.00      0.00      0.00      0.00

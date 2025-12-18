@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  82   0  0  -1 L0057014 B.L.BERMAN,R.E  1987    11 82-PB-0(G,X)0-NN-1,,SIG         1.25      1.05      6.79     0.347     T1  465.      449.      10.6      12.1      16.9      0.00      1.46      1.04      0.00      1.03      0.00      0.00      0.00
+  82   0  0  -1 M0542007 J.Miller,C.Sch  1962    17 82-PB-0(G,X)0-NN-1,,SIG         1.76      1.03      23.4     0.274     T1  270.      262.      13.6      6.50      22.0      0.00      1.91      1.71      0.00      1.67      0.00      0.00      0.00

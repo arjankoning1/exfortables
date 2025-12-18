@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  16  34  0  -1 C1128004 K.L.Hall,W.W.M  1959     0 16-S-34(D,A)15-P-32,,SIG        0.00      0.00      0.00      0.00         0.00      300.      66.7      7.70      7.70      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  16  34  0  -1 D4057011 O.U.Anders, W.  1960     0 16-S-34(D,A)15-P-32,,SIG        0.00      0.00      0.00      0.00         0.00      153.      15.3     0.700      7.73      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  42  95  0   0 A0510227 V.N.Levkovski   1991    19 42-MO-95(P,2N)43-TC-94-G,,SIG   1.32      1.08      9.66     0.285     T1  249.      225.      12.2      12.8      29.5      0.00      1.11      0.00      0.00      1.47      0.00      0.00      0.00
+  42  95  0   0 C2413018 E.Lamere,M.Cou  2019     6 42-MO-95(P,2N)43-TC-94-G,,SIG   1.75      1.55      21.5     0.299     T2  274.      196.      19.6      13.0      19.0      0.00      1.53      0.00      0.00      1.95      0.00      0.00      0.00

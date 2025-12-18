@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  52 122  0  -1 C0346002 R.F.SCHALL,A.A  1970     0 52-TE-122(P,2N)53-I-121,,SIG    0.00      0.00      0.00      0.00         0.00      3.73      20.1      300.      300.      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  52 122  0  -1 O0677004 A.Hohn, B.Scho  1998    25 52-TE-122(P,2N)53-I-121,,SIG    1.27      1.19      4.72     0.248     T2  524.      462.      13.9      14.0      45.4      0.00      1.26      0.00      0.00      1.29      0.00      0.00      0.00

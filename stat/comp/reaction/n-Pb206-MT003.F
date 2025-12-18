@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  82 206  0  -1 11794006 G.M.HAAS,P.L.O  1963     1 82-PB-206(N,NON),,SIG           1.00     0.999     0.208     0.428     T1 2.496E+03 2.500E+03  2.00      14.0      14.0      0.00      1.00      0.00      0.00      0.00      1.00      0.00      0.00

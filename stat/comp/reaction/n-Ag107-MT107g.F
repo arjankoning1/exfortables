@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  47 107  0   0 20471018 M.BORMANN, W.S  1972     1 47-AG-107(N,A)45-RH-104-G,,SIG  1.05     0.975     0.248     0.326     T1  5.99      6.20      14.5      14.2      14.2      0.00      1.00      0.00      1.00      1.00      0.00      1.11      0.00
+  47 107  0   0 20471019 M.BORMANN, W.S  1972     1 47-AG-107(N,A)45-RH-104-G,DI,S  3.52      3.52      74.2     0.108     T2  5.99      1.70      29.4      14.2      14.2      0.00      3.66      0.00      3.66      3.65      0.00      3.12      0.00

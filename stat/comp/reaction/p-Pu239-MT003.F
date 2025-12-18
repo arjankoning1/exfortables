@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  94 239  0  -1 O0700003 I.Yu.Gorshkov,  1991    10 94-PU-239(P,NON),,SIG           1.05      1.04     0.564     0.413     T1 1.953E+03 1.860E+03  10.0      24.0      69.0      0.00      1.05      0.00      0.00      1.06      0.00      0.00      0.00

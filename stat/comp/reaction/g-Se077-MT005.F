@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  34  77  0  -1 K2497002 F.Kitatani, H.  2016    19 34-SE-77(G,N)34-SE-76,,SIG      1.32      1.11      21.9     0.388     T1  24.2      22.0      7.77      7.70      13.8      0.00      1.42      0.00      0.00      1.19      0.00      0.00      0.00

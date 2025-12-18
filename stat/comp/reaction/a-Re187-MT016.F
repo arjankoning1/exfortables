@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  75 187  0  -1 D6297006 N.L.Singh, M.S  2004     6 75-RE-187(A,2N)77-IR-189,,SIG   3.07     0.850      99.0     0.131     T3  235.      194.      7.56      18.4      46.4      0.00      3.07      0.00      0.00      0.00      0.00      0.00      0.00
+  75 187  0  -1 A0523021 M.Ismail        1993    17 75-RE-187(A,2N)77-IR-189,,SIG   3.10     0.859     1.544E+04 0.228     T3  173.      163.      8.00      27.9      59.9      0.00      3.10      0.00      0.00      0.00      0.00      0.00      0.00

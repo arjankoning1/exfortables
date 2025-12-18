@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  40   0  0  -1 20416069 J.Frehaut,A.Be  2016    15 40-ZR-0(N,2N),,SIG              1.29      1.02      8.84     0.293     R2  519.      484.      10.3      7.93      14.8      0.00      1.30      1.02      1.30      1.22      1.38      1.25      0.00
+  40   0  0  -1 11632007 V.J.ASHBY,H.C.  1958     1 40-ZR-0(N,2N),,SIG              1.29     0.776      9.72     0.109     R2  970.     1.250E+03  7.20      14.1      14.1      0.00      1.28      1.33      1.28      1.29      1.28      1.28      0.00

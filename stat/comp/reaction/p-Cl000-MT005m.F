@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  17   0  0   1 O2134031 R.Bimbot, H.Ga  1971     2 17-CL-0(P,X)17-CL-34-M,,SIG     1.02     0.988     7.728E-02 0.436     T1  22.7      24.2      19.4      50.0      100.      0.00      1.02      0.00      0.00      0.00      0.00      0.00      0.00
+  17   0  0   1 T0144002 M.C.LAGUNAS-SO  1993    23 17-CL-0(P,X)17-CL-34-M,,SIG     2.57     0.818     1.366E+03 0.229     T1  46.5      60.8      14.0      21.9      66.2      0.00      2.57      0.00      0.00      0.00      0.00      0.00      0.00

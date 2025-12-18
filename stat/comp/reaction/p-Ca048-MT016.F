@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  20  48  0  -1 C0249003 I.Levenberg,V.  1963     2 20-CA-48(P,2N)21-SC-47,,SIG     2.44     0.488      220.     5.803E-02 T2  10.7      11.1      5.43      120.      660.      0.00      3.15      0.00      0.00      1.69      0.00      0.00      0.00
+  20  48  0  -1 O2422002 T.S.Carzaniga,  2019     7 20-CA-48(P,2N)21-SC-47,,SIG     2.48      1.29      363.     0.133     T3  680.      669.      6.21      8.90      18.4      0.00      2.55      0.00      0.00      2.41      0.00      0.00      0.00

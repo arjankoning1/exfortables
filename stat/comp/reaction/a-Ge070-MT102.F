@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  32  70  0  -1 O0897002 Zs.Fulop, A.Z.  1996    11 32-GE-70(A,G)34-SE-74,,SIG      1.28     0.813      1.95     0.308     T1 0.287     0.305      25.8      5.05      7.96      0.00      1.28      0.00      0.00      0.00      0.00      0.00      0.00

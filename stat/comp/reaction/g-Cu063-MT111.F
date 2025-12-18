@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  29  63  0  -1 G3001007 M.L.P.Antunes,  1995     1 29-CU-63(G,2P)27-CO-61,,SIG,,B  3.56     0.281      34.3     8.035E-02 T2 0.160     0.330      11.5      22.1      41.0      0.00      3.56      0.00      0.00      0.00      0.00      0.00      0.00

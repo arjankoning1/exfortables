@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  32   0  0  -1 T0130010 R.D.ALBERT      1959     4 32-GE-0(P,N),,SIG               1.61     0.626      6.47     0.178     T2  93.2      146.      15.0      4.00      5.50      0.00      1.65      0.00      0.00      1.58      0.00      0.00      0.00

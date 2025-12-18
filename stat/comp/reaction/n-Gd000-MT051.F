@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  64   0  0  -1 13894003 A.B.Smith       2004    12 64-GD-0(N,INL)64-GD-0,PAR,SIG   1.38     0.739      4.02     0.234     T1  936.     1.313E+03  17.0     0.338      1.33      0.00      1.34      1.33      0.00      1.52      1.29      0.00      0.00
+  64   0  0  -1 10007009 G.L.Sherwood,A  1970    53 64-GD-0(N,INL)64-GD-0,PAR,SIG   1.38     0.744      6.07     0.223     T1  953.     1.321E+03  15.5     0.320      1.32      0.00      1.34      1.34      0.00      1.51      1.31      0.00      0.00

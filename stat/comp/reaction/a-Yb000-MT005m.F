@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  70   0  0   1 D4203010 B.Kiraly, F.Ta  2008     8 70-YB-0(A,X)71-LU-178-M,IND,SI  1.23      1.18      3.50     0.290     T1 0.806     0.662      14.0      29.6      37.7      0.00      1.23      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  90 230  0  -1 40377007 R.N.Ivanov,S.M  1977     1 90-TH-230(N,EL)90-TH-230,POT,S  1.41     0.709      1.94     9.948E-02 T2 1.043E+04 1.600E+04  25.0     2.500E-08 2.500E-08  0.00      1.40      1.42      1.40      1.42      0.00      0.00      0.00
+  90 230  0  -1 40093005 S.M.Kalebin, P  1968     1 90-TH-230(N,EL)90-TH-230,,SIG   1.51     0.665      6.49     0.103     T2 9.919E+03 1.500E+04  13.3     8.000E-06 8.000E-06  0.00      1.56      1.45      1.56      1.45      0.00      0.00      0.00

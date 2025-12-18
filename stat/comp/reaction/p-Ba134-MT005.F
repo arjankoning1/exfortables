@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  56 134  0  -1 D0726006 A.Vasidov, G.V  1981     5 56-BA-134(P,N)57-LA-134,,SIG    5.01      4.91     1.268E+03 6.705E-02 T3  469.      98.6      12.0      7.00      12.7      0.00      4.89      0.00      0.00      5.12      0.00      0.00      0.00
+  56 134  0  -1 A0085025 A.V.Muminov,S.  1980     2 56-BA-134(P,N)57-LA-134,,SIG    27.1      27.0     3.003E+04  0.00     T3  632.      24.2      15.5      10.5      11.7      0.00      27.0      0.00      0.00      27.3      0.00      0.00      0.00

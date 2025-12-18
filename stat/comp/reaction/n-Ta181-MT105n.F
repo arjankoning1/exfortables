@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  73 181  0   2 14235003 Junhua Luo,Fei  2009     3 73-TA-181(N,T)72-HF-179-M2,,SI  46.7     2.373E-02  16.9     8.742E-07 T2 4.195E-03 0.118      23.9      14.1      14.7      0.00      13.7      0.00      0.00      89.6      0.00      81.1      0.00

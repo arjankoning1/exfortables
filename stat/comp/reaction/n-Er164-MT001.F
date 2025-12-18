@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  68 164  0  -1 40585019 A.N.DJUMIN,A.I  1977     1 68-ER-164(N,TOT),,SIG           1.04     0.971      9.70     6.481E-03 T1 5.288E+03 5.440E+03  1.10      14.2      14.2      0.00      1.04      1.00      1.03      1.05      0.00      0.00      0.00
+  68 164  0  -1 12120002 S.F.MUGHABGHAB  1967     1 68-ER-164(N,TOT),,SIG           2.42     0.414      13.4     0.103     T2 2.071E+04 5.000E+04  16.0     2.530E-08 2.530E-08  0.00      2.56      2.28      2.56      2.29      0.00      0.00      0.00

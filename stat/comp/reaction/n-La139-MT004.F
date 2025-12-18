@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  57 139  0  -1 21231014 R.O.Owens,J.H.  1968     3 57-LA-139(N,INL)57-LA-139,,SIG  1.11     0.908      4.99     0.346     T1 2.132E+03 2.367E+03  5.09      5.00      6.97      0.00      1.13      1.13      1.13      1.07      1.08      0.00      0.00

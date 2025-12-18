@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  73 181  0  -1 M0056005 G.M.Gurevich,L  1976    48 73-TA-181(G,TOT),,SIG           1.28     0.961      1.24     0.276     T1  238.      243.      21.7      8.41      20.9      0.00      0.00      1.28      0.00      0.00      0.00      0.00      0.00
+  73 181  0  -1 M0420002 N.K.SHERMAN,C.  1980    41 73-TA-181(G,TOT),,SIG           242.     4.761E-03 1.139E+05 1.111E-07 T2  145.     1.600E+04 0.458      3.87      27.5      0.00      0.00      242.      0.00      0.00      0.00      0.00      0.00

@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  27  59  0   1 D0954002 A.Kreisel, L.W  2019     0 27-CO-59(D,P)27-CO-60-M,,SIG    0.00      0.00      0.00      0.00         0.00      66.6      12.5      3.40      5.40      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  27  59  0   1 C2325002 J.B.Natowitz,R  1967     0 27-CO-59(D,P)27-CO-60-M,,SIG    0.00      0.00      0.00      0.00         0.00      116.      12.1      4.69      13.7      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

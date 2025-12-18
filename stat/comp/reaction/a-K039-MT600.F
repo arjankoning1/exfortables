@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  19  39  0  -1 F0042002 A.F.Scott,C.I.  1987     0 19-K-39(A,P)20-CA-42,PAR,SIG    0.00      0.00      0.00      0.00         0.00      6.11      10.3      4.30      8.98      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

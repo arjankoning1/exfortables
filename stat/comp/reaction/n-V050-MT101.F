@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  23  50  0  -1 40294016 V.P.Vertebnyi,  1973     0 23-V-50(N,ABS),,SIG             0.00      0.00      0.00      0.00         0.00     4.100E+04  9.76     2.530E-08 2.530E-08  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  23  50  0  -1 40142003 V.P.Vertebny,M  1972     0 23-V-50(N,ABS),,SIG             0.00      0.00      0.00      0.00         0.00     4.100E+04  9.76     2.530E-08 2.530E-08  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

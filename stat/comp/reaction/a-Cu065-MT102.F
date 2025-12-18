@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  29  65  0  -1 O1761004 P.Demetriou, A  2009     9 29-CU-65(A,G)31-GA-69,,SIG      1.38     0.952      2.25     0.470     T1 4.457E-02 5.429E-02  20.8      5.18      8.08      0.00      1.38      0.00      0.00      0.00      0.00      0.00      0.00

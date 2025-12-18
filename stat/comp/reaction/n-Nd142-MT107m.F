@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  60 142  0   1 23239002 I.A.Reyhancan   2014     4 60-ND-142(N,A)58-CE-139-M,,SIG  1.42      1.20      1.89     0.311     R1  2.93      2.36      37.9      13.6      14.8      0.00      1.23      0.00      1.50      1.23      0.00      1.64      0.00
+  60 142  0   1 12033019 R.G.Wille,R.W.  1960     1 60-ND-142(N,A)58-CE-139-M,,SIG  3.35     0.311      13.0     7.826E-02 R2  3.45      10.6      18.9      14.8      14.8      0.00      3.27      0.00      2.53      5.39      0.00      2.38      0.00

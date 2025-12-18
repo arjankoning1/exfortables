@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  67 165  0  -1 D6293002 R.H.Iyer, A.K.  1991     0 67-HO-165(A,F),,SIG             0.00      0.00      0.00      0.00         0.00     6.774E-04  17.1      40.0      70.0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  67 165  0  -1 C1751006 A.Buttkewitz,H  2009     0 67-HO-165(A,F),,SIG             0.00      0.00      0.00      0.00         0.00     0.600      8.33      120.      120.      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

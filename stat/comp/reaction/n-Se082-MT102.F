@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  34  82  0  -1 41001006 YU.N.TROFIMOV   1987     1 34-SE-82(N,G)34-SE-83,,SIG      4.20      3.22     4.074E+03 0.160     T2  2.22     0.440      11.4      1.00      1.00      0.00      3.08      18.4      3.08      2.55      1.72      1.46      0.00

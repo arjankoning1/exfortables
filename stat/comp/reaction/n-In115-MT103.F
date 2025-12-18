@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  49 115  0  -1 41614120 A.A.Filatenkov  2016     8 49-IN-115(N,P)48-CD-115,,SIG    1.10      1.00     0.369     0.444     R1  9.58      9.58      22.8      13.5      14.9      0.00      1.18      1.17      1.00      1.00      1.01      1.01      0.00
+  49 115  0  -1 13025004 T.Mavaddat,S.A  1974     1 49-IN-115(N,P)48-CD-115,,SIG    2.12     0.478      6.46     6.130E-02 R2  11.0      23.1      20.8      14.8      14.8      0.00      1.61      2.73      2.08      2.08      2.06      2.13      0.00

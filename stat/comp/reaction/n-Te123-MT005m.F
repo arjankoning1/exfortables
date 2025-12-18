@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  52 123  0   1 22827014 H.Sakane,Y.Kas  2003     4 52-TE-123(N,X)51-SB-122-M,,SIG  2.15      2.10      115.     0.243     T1 0.560     0.254      14.2      13.7      14.9      0.00      2.58      0.00      1.83      2.01      0.00      0.00      0.00
+  52 123  0   1 22800015 H.Sakane,Y.Kas  2002     1 52-TE-123(N,X)51-SB-122-M,,SIG  2.82      2.77      251.     0.275     T2 0.877     0.311      12.0      14.9      14.9      0.00      3.59      0.00      2.43      2.44      0.00      0.00      0.00

@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  19  39  0  -1 21976002 B.Anders,B.M.B  1985     1 19-K-39(N,2N)19-K-38,,SIG       1.65      1.57      152.     7.369E-02 R2  5.78      3.60      5.56      14.7      14.7      0.00      1.11      1.40      1.76      1.75      0.00      2.02      0.00

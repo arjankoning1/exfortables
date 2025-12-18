@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  50 116  0  -1 D0214007 B.Bonin, N.Ala  1985     0 50-SN-116(A,NON),,SIG           0.00      0.00      0.00      0.00         0.00     2.186E+03  4.23      288.      480.      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  50 116  0  -1 D0186010 A.Ingemarsson,  2000     3 50-SN-116(A,NON),,SIG           1.06     0.966     0.943     1.123E-02 T1 2.130E+03 2.222E+03  8.30      117.      192.      0.00      1.06      0.00      0.00      0.00      0.00      0.00      0.00

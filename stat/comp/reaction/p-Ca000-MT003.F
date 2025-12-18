@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  20   0  0  -1 D0533006 A.Johansson, U  1961     1 20-CA-0(P,NON),,SIG             1.01     0.991     0.476     4.956E-02 T1  514.      524.      2.67      180.      180.      0.00      1.01      0.00      0.00      0.00      0.00      0.00      0.00
+  20   0  0  -1 O0340007 P.KIRKBY,W.T.L  1966     1 20-CA-0(P,NON),,SIG,,,EXP       1.08      1.08      7.68     5.174E-02 T1  625.      580.      2.80      99.3      99.3      0.00      1.08      0.00      0.00      0.00      0.00      0.00      0.00

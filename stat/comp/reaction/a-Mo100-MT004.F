@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  42 100  0  -1 B0040003 H.P.Graf, H.Mu  1974    10 42-MO-100(A,N)44-RU-103,,SIG    1.65     0.804      8.11     0.294     T2  39.5      49.0      10.0      10.8      30.0      0.00      1.65      0.00      0.00      0.00      0.00      0.00      0.00
+  42 100  0  -1 R0048005 R.A.Esterlund,  1965     9 42-MO-100(A,N)44-RU-103,,SIG    8.57     0.535      9.16     0.229     T2  37.6      31.7      18.1      7.07      23.3      0.00      8.57      0.00      0.00      0.00      0.00      0.00      0.00

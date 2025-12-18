@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  63   0  0  -1 40729026 V.P.Vertebnij,  1980     0 63-EU-0(N,ABS),,SIG             0.00      0.00      0.00      0.00         0.00     1.990E+04  5.53     2.000E-03 2.000E-03  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  63   0  0  -1 30734002 D.Albert,J.Hag  1967     0 63-EU-0(N,ABS),,SIG             0.00      0.00      0.00      0.00         0.00     4.750E+06 0.842     2.530E-08 2.530E-08  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  12  24  0  -1 23258010 A.Olacel,C.Bor  2014   190 12-MG-24(N,INL)12-MG-24,PAR,SI  2.04      1.48      20.5     0.196     T1  89.1      65.0      28.4      4.31      7.94      0.00      2.32      1.93      2.31      1.93      1.67      0.00      0.00

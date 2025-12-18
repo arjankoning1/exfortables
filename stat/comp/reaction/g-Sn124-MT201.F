@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  50 124  0  -1 L0035029 A.LEPRETRE,H.B  1974    46 50-SN-124(G,X)0-NN-1,,SIG       1.34      1.14      44.6     0.346     T1  182.      166.      6.91      9.41      21.6      0.00      1.58      1.18      0.00      1.18      0.00      0.00      0.00
+  50 124  0  -1 L0017025 S.C.FULTZ,B.L.  1969    91 50-SN-124(G,X)0-NN-1,,SIG       1.43      1.05      22.2     0.305     T1  142.      135.      17.1      8.48      31.1      0.00      1.62      1.31      0.00      1.31      0.00      0.00      0.00

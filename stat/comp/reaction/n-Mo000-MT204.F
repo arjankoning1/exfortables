@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  42   0  0  -1 10960021 R.C.Haight,S.M  1981     1 42-MO-0(N,X)1-H-2,,SIG          2.51     0.517      1.57     0.139     T2  4.40      9.00      44.4      14.8      14.8      0.00      1.29      6.49      1.29      2.16      1.16      0.00      0.00

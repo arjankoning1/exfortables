@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  50 120  0  -1 40214007 E.S.Konobeevsk  1973    31 50-SN-120(N,INL)50-SN-120,PAR,  1.21      1.11      1.67     0.246     T1  482.      442.      19.7      1.19      1.74      0.00      1.05      1.10      1.05      1.31      1.36      0.00      0.00
+  50 120  0  -1 13158012 P.P.GUSS,R.C.B  1989     3 50-SN-120(N,INL)50-SN-120,PAR,  1.38     0.920      43.9     0.357     T1  40.7      43.0      5.81      9.94      16.9      0.00      1.39      1.41      1.39      1.46      1.21      0.00      0.00

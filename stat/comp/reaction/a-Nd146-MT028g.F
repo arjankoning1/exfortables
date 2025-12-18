@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  60 146  0   0 B0086004GD.C.AUMANN, W.  1977     2 60-ND-146(A,X)61-PM-148-G,IND,  2.03     0.496      11.3     1.790E-02 T1  1.61      4.33      15.1      28.6      59.1      0.00      2.03      0.00      0.00      0.00      0.00      0.00      0.00

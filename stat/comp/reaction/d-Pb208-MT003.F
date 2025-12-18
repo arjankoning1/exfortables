@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  82 208  0  -1 A0604014 A.Auce,R.F.Car  1996     0 82-PB-208(D,NON),,SIG           0.00      0.00      0.00      0.00         0.00     3.048E+03  3.28      37.9      97.4      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

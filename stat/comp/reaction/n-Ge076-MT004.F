@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  32  76  0  -1 23204012 C.Rouki,A.R.Do  2013   107 32-GE-76(N,INL)32-GE-76,,SIG    1.44     0.800      3.01     0.208     T1  713.      846.      15.6     0.569      2.21      0.00      1.47      1.26      1.47      1.26      1.67      0.00      0.00

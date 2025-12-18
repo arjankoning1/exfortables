@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  44  96  0  -1 11923002 P.R.Gray,A.R.Z  1966     1 44-RU-96(N,X)43-TC-95,CUM,SIG   6.84     0.147      54.4     1.192E-07 T1  350.     2.342E+03  11.5      14.7      14.7      0.00      5.92      9.16      5.92      6.02      0.00      7.43      0.00

@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  49 115  0  -1 40221024 G.V.Gorlov,N.S  1965     1 49-IN-115(N,EL)49-IN-115,,SIG   1.04      1.03     0.748     0.348     T1 1.940E+03 1.840E+03  7.07      4.00      4.00      0.00      1.01      1.07      1.02      1.02      1.01      0.00      1.07
+  49 115  0  -1 21692012 L.KOESTER,K.KN  1980     1 49-IN-115(N,EL)49-IN-115,FA,SI  1.21      1.20      28.8     0.108     T1 3.126E+03 2.600E+03  3.85     5.100E-10 5.100E-10  0.00      1.29      1.18      1.19      1.19      1.19      0.00      1.18

@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   4   9  0  -1 S0005006 Jiang Chenglie  1972     0 4-BE-9(D,A)3-LI-7,PAR,SIG       0.00      0.00      0.00      0.00         0.00      27.1      7.00     0.150      2.50      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

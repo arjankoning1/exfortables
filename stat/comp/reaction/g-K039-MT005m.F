@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  19  39  0   1 L0132002 D.V.Webb,E.G.M  1971    87 19-K-39(G,N)19-K-38-M,,SIG      5.82     0.392      80.6     9.576E-02 T2  2.76      5.67      21.7      12.3      30.5      0.00      9.01      4.43      0.00      4.43      0.00      0.00      0.00

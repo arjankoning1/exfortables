@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  56 137  0   1 C2740003 D.M.Montgomery  1970     0 56-BA-137(HE3,3N)58-CE-137-M,,  0.00      0.00      0.00      0.00         0.00      230.      9.35      14.2      33.4      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

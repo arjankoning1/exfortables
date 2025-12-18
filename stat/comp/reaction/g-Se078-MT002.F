@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  34  78  0  -1 G00320021G.Schramm, R.M  2012     0 34-SE-78(G,EL)34-SE-78,,SIG     0.00      0.00      0.00      0.00         0.00      2.35      42.6      4.10      10.5      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

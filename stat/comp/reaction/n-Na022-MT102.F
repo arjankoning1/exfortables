@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  11  22  0  -1 10555002 G.H.E.Sims      1967     1 11-NA-22(N,G)11-NA-23,,SIG     4.592E+03 3.686E-04  890.     1.192E-07 T2 1.080E+05 3.590E+07  3.34     2.530E-08 2.530E-08  0.00     8.972E+04  144.     8.972E+04  881.      0.00      144.      0.00

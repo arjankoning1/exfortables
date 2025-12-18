@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  56 137  0   1 30655002 V.K.Chindhade,  1982     1 56-BA-137(N,2N)56-BA-136-M,,SI  1.59      1.36      42.7     0.339     T3  512.      350.      11.4      14.4      14.4      0.00      1.19      0.00      1.15      1.00      0.00      2.47      0.00

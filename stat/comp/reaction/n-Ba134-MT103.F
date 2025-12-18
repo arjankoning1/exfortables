@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  56 134  0  -1 22205006 J.Csikai,Cs.M.  1991     1 56-BA-134(N,P)55-CS-134,,SIG    1.25      1.16     0.937     0.324     E1  7.27      6.00      33.3      14.5      14.5      0.00      1.00      1.20      1.57      1.00      1.01      1.29      0.00

@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   6   0  0  -1 C1218003 G.P.Millburn,W  1954     0 6-C-0(D,NON),,SIG               0.00      0.00      0.00      0.00         0.00      667.      4.95      160.      160.      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+   6   0  0  -1 D02230031S.Mayo,W.Schim  1965     0 6-C-0(D,NON),,SIG               0.00      0.00      0.00      0.00         0.00      924.      3.25      25.1      25.1      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

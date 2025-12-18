@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  42  98  0   0 218400091S.Amemiya,K.Is  1982     1 42-MO-98(N,X)41-NB-97-G,,SIG    3.34     0.318      11.3     9.371E-02 T1 0.505      1.50      20.0      14.8      14.8      0.00      2.37      0.00      2.37      5.94      0.00      2.95      0.00

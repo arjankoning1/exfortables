@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   9  19  0  -1 D0062003 S.Laribi,H.Bea  1972     0 9-F-19(D,P)9-F-20,PAR,SIG       0.00      0.00      0.00      0.00         0.00      7.50      20.0      3.00      3.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+   9  19  0  -1 D0072002 A.Z.El-Behay,M  1964     0 9-F-19(D,P)9-F-20,PAR,SIG       0.00      0.00      0.00      0.00         0.00      6.23      0.00     0.851      2.45      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  31  69  0  -1 11810004 D.E.VELKLEY,K.  1969     4 31-GA-69(N,INL)31-GA-69,PAR,SI  1.72      1.50      0.00     0.195     T1  145.      95.5      0.00     0.800      2.50      0.00      1.82      1.34      1.82      1.89      1.66      0.00      0.00

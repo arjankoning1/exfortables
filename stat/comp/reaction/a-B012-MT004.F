@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   5  12  0  -1 E2146002 H.Ishiyama, T.  2008     0 5-B-12(A,N)7-N-15,,SIG          0.00      0.00      0.00      0.00         0.00      315.      16.2      1.53      4.87      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

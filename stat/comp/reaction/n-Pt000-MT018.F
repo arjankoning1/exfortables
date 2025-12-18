@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  78   0  0  -1 41037006 P.E.Vorotnikov  1988     0 78-PT-0(N,F),,SIG               0.00      0.00      0.00      0.00         0.00     6.350E-04  41.0      22.9      23.2      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  78   0  0  -1 41212006 V.I.Goldanskii  1956     0 78-PT-0(N,F),,SIG               0.00      0.00      0.00      0.00         0.00      12.0      0.00      380.      380.      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

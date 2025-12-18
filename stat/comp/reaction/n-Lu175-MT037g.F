@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  71 175  0   0 10536044 B.P.Bayhurst,J  1975     1 71-LU-175(N,4N)71-LU-172-G,,SI  1.23     0.868      18.6     0.340     T1  105.      120.      4.17      26.0      26.0      0.00      1.32      0.00      1.32      1.07      0.00      1.06      0.00
+  71 175  0   0 10536043 B.P.Bayhurst,J  1975     1 71-LU-175(N,4N)71-LU-172-G,,SI  1.50     0.687      56.8     0.157     T1  341.      490.      4.29      28.0      28.0      0.00      1.69      0.00      1.69      1.31      0.00      1.20      0.00

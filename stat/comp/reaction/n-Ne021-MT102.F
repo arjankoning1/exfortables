@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  10  21  0  -1 21808009 J.Almeida, F.K  1983   133 10-NE-21(N,G)10-NE-22,,SIG      3.39     0.444      1.04     2.914E-02 T2 0.391      2.47      174.     4.100E-03 0.215      0.00      3.38      3.40      3.38      2.84      0.00      4.00      0.00

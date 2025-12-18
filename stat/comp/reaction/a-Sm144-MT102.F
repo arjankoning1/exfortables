@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  62 144  0  -1 A0416003 E.Somorjai, Zs  1998     7 62-SM-144(A,G)64-GD-148,,SIG,,  1.20      1.08      3.49     0.330     T1 4.078E-02 3.482E-02  25.7      10.5      13.4      0.00      1.20      0.00      0.00      0.00      0.00      0.00      0.00
+  62 144  0  -1 A0416002 E.Somorjai, Zs  1998     7 62-SM-144(A,G)64-GD-148,,SIG    1.25      1.12      5.53     0.328     T1 4.078E-02 3.432E-02  25.8      10.5      13.4      0.00      1.25      0.00      0.00      0.00      0.00      0.00      0.00

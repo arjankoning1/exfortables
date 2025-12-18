@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  18  40  0  -1 E2218017 Y.Oda, M.Taked  1960     0 18-AR-40(P,INL)18-AR-40,PAR,SI  0.00      0.00      0.00      0.00         0.00      32.3      0.00      5.53      14.0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

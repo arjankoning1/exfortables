@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  81 205  0  -1 D07730332K.G.Kuvatov, V  1972     1 81-TL-205(A,F),,SIG             4.46      4.46      532.     0.275     T2 0.535     0.120      15.0      38.0      38.0      0.00      4.46      0.00      0.00      0.00      0.00      0.00      0.00
+  81 205  0  -1 D07730331K.G.Kuvatov, V  1972     1 81-TL-205(A,F),,SIG             7.53      7.53      0.00      0.00     T2 0.535     7.110E-02  0.00      38.0      38.0      0.00      7.53      0.00      0.00      0.00      0.00      0.00      0.00

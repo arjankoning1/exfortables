@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  40  92  0  -1 K2115003 H.Utsunomiya,   2008    15 40-ZR-92(G,N)40-ZR-91,,SIG      2.12     0.767      24.8     0.309     T1  18.3      18.4      9.23      8.66      12.8      0.00      2.19      1.14      0.00      1.14      0.00      0.00      0.00

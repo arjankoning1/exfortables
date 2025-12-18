@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  28  61  0  -1 41262003 E.Doilnitsyn    1965     1 28-NI-61(N,EL)28-NI-61,,SIG     1.05     0.974     0.229     0.401     T1 9.172E+03 9.600E+03  20.8     2.500E-08 2.500E-08  0.00      1.01      1.03      1.01      1.03      1.11      0.00      0.00
+  28  61  0  -1 12617003 S.SIDHU,K.ANDE  1967     1 28-NI-61(N,EL)28-NI-61,FA,SIG   1.29      1.27      0.00     0.130     T2 9.124E+03 7.150E+03  0.00     7.145E-08 7.145E-08  0.00      1.41      1.22      1.41      1.22      1.11      0.00      0.00

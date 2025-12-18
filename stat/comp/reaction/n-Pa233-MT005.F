@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  91 233  0  -1 10083004 J.C.CONNOR      1970     1 91-PA-233(N,G)91-PA-234,,SIG    1.00      1.00     1.824E-03 0.424     T1 3.955E+04 3.950E+04  3.04     2.530E-08 2.530E-08  0.00      1.00      0.00      0.00      0.00      0.00      0.00      0.00
+  91 233  0  -1 22941026 A.Letourneau,   2009     1 91-PA-233(N,G)91-PA-234,,SIG    1.02      1.02     0.463     0.335     T1 3.955E+04 3.834E+04  4.64     2.530E-08 2.530E-08  0.00      1.02      0.00      0.00      0.00      0.00      0.00      0.00

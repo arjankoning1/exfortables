@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   6  12  0  -1 F0929005 R.A.Atneosen,H  1964     0 6-C-12(A,INL)6-C-12,PAR,SIG     0.00      0.00      0.00      0.00         0.00      250.      32.3      20.2      22.7      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

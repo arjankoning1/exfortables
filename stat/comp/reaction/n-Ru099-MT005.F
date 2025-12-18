@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  44  99  0  -1 11846004 J.Halperin,C.R  1965     1 44-RU-99(N,G)44-RU-100,,SIG     1.74      1.74      8.83     0.136     T1 7.267E+03 4.170E+03  25.0     2.530E-08 2.530E-08  0.00      1.74      0.00      1.74      1.75      0.00      0.00      0.00

@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  52 130  0   1 A0298004 B.P.SINGH, M.G  1993     5 52-TE-130(A,X)53-I-132-M,IND,S  9.61     0.105     1.346E+03 5.960E-08 T2  2.51      26.7      2.88      22.6      40.0      0.00      9.61      0.00      0.00      0.00      0.00      0.00      0.00

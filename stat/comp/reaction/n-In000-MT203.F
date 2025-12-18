@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  49   0  0  -1 22084004 R.FISCHER,M.UH  1988     1 49-IN-0(N,X)1-H-1,,SIG          1.14      1.05      7.47     0.367     T1  13.4      12.6      4.76      14.1      14.1      0.00      1.06      1.10      1.15      1.15      1.20      0.00      0.00

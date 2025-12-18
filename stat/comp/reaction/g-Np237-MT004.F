@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  93 237  0  -1 L0082009 R.Bergere,H.Be  1972    24 93-NP-237(G,N)93-NP-236,,SIG    2.39     0.571     0.550     0.295     T2  95.4      139.      12.4      9.22      16.5      0.00      3.34      0.00      0.00      1.29      0.00      0.00      0.00
+  93 237  0  -1 G0002004 Marilia T.F.Ce  1983    10 93-NP-237(G,N)93-NP-236,,SIG    11.2     0.152      13.0     6.119E-02 T2  27.7      65.1      24.9      6.73      10.8      0.00      10.8      0.00      0.00      5.45      0.00      0.00      0.00

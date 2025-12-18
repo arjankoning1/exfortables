@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   8  18  0  -1 L0121002 B.L.Berman,D.D  1976    94 8-O-18(G,P)7-N-17,,SIG          10.7     0.156      413.     0.191     T2 0.592      1.94      4.95      16.1      30.5      0.00      18.7      3.46      0.00      15.0      0.00      0.00      0.00
+   8  18  0  -1 L0047005 J.G.WOODWORTH,  1979   107 8-O-18(G,P)7-N-17,,SIG          11.3     0.152      484.     0.150     T2 0.573      1.90      12.9      15.5      41.8      0.00      26.6      2.84      0.00      13.1      0.00      0.00      0.00

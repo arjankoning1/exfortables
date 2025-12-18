@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  30  68  0  -1 40531112 I.A.Korzh, V.A  1975     4 30-ZN-68(N,INL)30-ZN-68,PAR,SI  1.12     0.930      7.24     0.290     T1  568.      607.      4.20      1.50      3.00      0.00      1.09      1.09      1.09      1.07      1.22      0.00      0.00
+  30  68  0  -1 40096006 E.S.Konobeevsk  1972    34 30-ZN-68(N,INL)30-ZN-68,PAR,SI  1.51     0.834      26.2     0.212     T1  379.      422.      5.00      1.10      1.66      0.00      1.42      1.14      1.42      2.13      1.15      0.00      0.00

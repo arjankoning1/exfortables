@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  34  78  0  -1 L0043027 P.CARLOS,H.BEI  1976    32 34-SE-78(G,2N)34-SE-76,,SIG     1.27      1.01      2.12     0.332     T1  32.7      30.0      20.4      17.5      26.5      0.00      1.33      1.21      0.00      1.18      0.00      0.00      0.00
+  34  78  0  -1 K2348003 F.Kitatani, H.  2011    18 34-SE-78(G,N)34-SE-77,,SIG      1.28      1.01      13.9     0.345     T1  31.7      29.2      6.48      10.6      14.0      0.00      1.47      1.09      0.00      1.18      0.00      0.00      0.00

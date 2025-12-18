@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  45 103  0  -1 D0123003 A.Agarwal,M.K.  2001     5 45-RH-103(A,3N)47-AG-104,,SIG   1.27     0.833      524.     0.145     T1  515.      595.      1.01      31.5      49.9      0.00      1.27      0.00      0.00      0.00      0.00      0.00      0.00
+  45 103  0  -1 A0605004 M.Afzal Ansari  1996     3 45-RH-103(A,3N)47-AG-104,,SIG   1.64      1.04     1.114E+03 0.132     T1  588.      709.      4.07      29.6      39.9      0.00      1.64      0.00      0.00      0.00      0.00      0.00      0.00

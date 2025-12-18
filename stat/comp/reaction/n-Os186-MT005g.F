@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  76 186  0   0 20721079 N.I.Molla,S.M.  1977     1 76-OS-186(N,P)75-RE-186-G,,SIG  1.02      1.02     0.121     0.300     R1  5.95      5.50      23.6      14.7      14.7      0.00      1.02      0.00      1.02      0.00      0.00      0.00      0.00
+  76 186  0   0 41614202 A.A.Filatenkov  2016     2 76-OS-186(N,P)75-RE-186-G,,SIG  1.08     0.967     0.410     0.257     R1  5.84      6.11      24.8      14.5      14.8      0.00      1.08      0.00      1.08      0.00      0.00      0.00      0.00

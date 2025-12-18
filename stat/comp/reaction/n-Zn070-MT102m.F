@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  30  70  0   1 33076002 R.Pachuau, B.L  2018     0 30-ZN-70(N,G)30-ZN-71-M,,SIG    0.00      0.00      0.00      0.00         0.00      1.74      6.39     0.400      1.69      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

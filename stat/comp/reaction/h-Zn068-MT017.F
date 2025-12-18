@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  30  68  0  -1 A0448021 Y.Nagame, H.Na  1989     0 30-ZN-68(HE3,3N)32-GE-68,,SIG   0.00      0.00      0.00      0.00         0.00      197.      7.94      18.5      39.0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

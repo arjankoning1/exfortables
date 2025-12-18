@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  35  81  0  -1 B0171003 M.Diksic, J.-L  1979    10 35-BR-81(P,3N)36-KR-79,,SIG     1.43     0.849      10.3     0.272     T1  181.      198.      11.2      25.0      85.0      0.00      1.50      0.00      0.00      1.35      0.00      0.00      0.00
+  35  81  0  -1 A0510155 V.N.Levkovski   1991     7 35-BR-81(P,3N)36-KR-79,,SIG     1.48      1.41      18.1     0.220     T1  351.      259.      12.2      24.0      29.5      0.00      1.60      0.00      0.00      1.34      0.00      0.00      0.00

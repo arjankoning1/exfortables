@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  28  62  0  -1 A0392002 M.E.Sevior,L.M  1986    27 28-NI-62(A,P)29-CU-65,,SIG      1.77      1.21      51.9     0.204     T2 0.591     0.449      10.6      6.45      8.95      0.00      1.77      0.00      0.00      0.00      0.00      0.00      0.00

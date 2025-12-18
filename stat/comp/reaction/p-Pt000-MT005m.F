@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  78   0  0   1 E1922012 F.Tarkanyi, F.  2004    44 78-PT-0(P,X)78-PT-195-M,IND,SI  1.55      1.45      8.78     0.290     T1  35.4      24.9      20.1      18.8      69.4      0.00      1.55      0.00      0.00      0.00      0.00      0.00      0.00
+  78   0  0   1 E1922017 F.Tarkanyi, F.  2004    14 78-PT-0(P,X)77-IR-194-M,,SIG    6.43      5.49      71.9     0.130     T2 0.947     0.157      64.3      30.0      69.4      0.00      6.43      0.00      0.00      0.00      0.00      0.00      0.00

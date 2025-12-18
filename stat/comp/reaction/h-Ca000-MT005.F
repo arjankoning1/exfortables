@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  20   0  0  -1 O2070005 G.F.Herzog, M.  2011     0 20-CA-0(HE3,X)20-CA-41,,SIG     0.00      0.00      0.00      0.00         0.00      485.      16.4      5.25      35.2      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  20   0  0  -1 O2070004 G.F.Herzog, M.  2011     0 20-CA-0(HE3,X)17-CL-36,,SIG     0.00      0.00      0.00      0.00         0.00      1.86      18.3      24.9      35.2      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

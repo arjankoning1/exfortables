@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  65 159  0  -1 L0005003 R.L.Bramblett,  1964    95 65-TB-159(G,X)0-NN-1,,SIG       1.30      1.12      10.3     0.245     T1  201.      179.      10.8      8.63      28.0      0.00      1.30      1.31      0.00      1.30      0.00      0.00      0.00
+  65 159  0  -1 L0012006 R.BERGERE,H.BE  1968    71 65-TB-159(G,X)0-NN-1,,SIG       1.38      1.05      6.85     0.223     T1  181.      161.      18.6      7.80      27.4      0.00      1.20      1.55      0.00      1.16      0.00      0.00      0.00

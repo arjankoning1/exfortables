@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  32  70  0  -1 P0074003 S.AMIEL         1959     3 32-GE-70(A,N+P)33-AS-72,,SIG    2.66      2.49      247.     7.882E-02 T1  518.      366.      10.3      20.8      41.1      0.00      2.66      0.00      0.00      0.00      0.00      0.00      0.00
+  32  70  0  -1 A0510414 V.N.Levkovski   1991    15 32-GE-70(A,X)33-AS-72,,SIG      6.79     0.738      31.9     7.266E-02 T1  475.      387.      12.2      16.7      46.0      0.00      6.79      0.00      0.00      0.00      0.00      0.00      0.00

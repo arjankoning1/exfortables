@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  69 169  0  -1 E2533003 M.Saito, M.Aik  2017     0 69-TM-169(D,X)69-TM-170,,SIG    0.00      0.00      0.00      0.00         0.00      99.9      10.9      5.10      24.1      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

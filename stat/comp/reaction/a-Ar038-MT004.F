@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  18  38  0  -1 C2302003 R.Talwar,M.J.B  2018     8 18-AR-38(A,N)20-CA-41,,SIG      1.42      1.39      79.1     0.201     T1  294.      218.      4.63      7.64      10.4      0.00      1.42      0.00      0.00      0.00      0.00      0.00      0.00

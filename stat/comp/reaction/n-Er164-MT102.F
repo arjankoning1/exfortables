@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  68 164  0  -1 01068164 Kadonis         2024    20                                 1.40      1.09      73.8     0.402     R1 1.144E+03  993.      4.71     5.000E-03 0.100      0.00      1.03      1.78      1.29      1.05      0.00      1.51      0.00
+  68 164  0  -1 41001029 YU.N.TROFIMOV   1987     1 68-ER-164(N,G)68-ER-165,,SIG    4.72      4.50     1.544E+03 0.124     T3  413.      86.0      10.5      1.00      1.00      0.00      4.19      7.04      4.91      5.57      0.00      2.28      0.00

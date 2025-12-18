@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  24   0  0  -1 10933004 D.W.KNEFF,B.M.  1986     1 24-CR-0(N,X)2-HE-4,,SIG         16.3     0.195      71.4     0.249     T2  25.5      33.8      7.83      14.8      14.8      0.00      1.09      81.9      81.9      1.43      1.21      0.00      0.00
+  24   0  0  -1 10827017 S.M.Grimes,R.C  1979     1 24-CR-0(N,X)2-HE-4,,SIG         17.5     0.172      16.3     0.469     R2  25.5      38.0      15.8      14.8      14.8      0.00      1.00      92.1      92.1      1.25      1.03      0.00      0.00

@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   8   0  0  -1 C2651003 L.E.Agnew,O.Ch  1957     0 8-O-0(P,NON),,SIG               0.00      0.00      0.00      0.00         0.00      340.      1.18      457.      457.      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

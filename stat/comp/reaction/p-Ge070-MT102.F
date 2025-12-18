@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  32  70  0  -1 D4194003 G.G.Kiss, Gy.G  2007     8 32-GE-70(P,G)33-AS-71,,SIG,,SF  1.62     0.641      13.1     0.355     T1  1.52      2.35      10.7      1.59      4.40      0.00      1.61      0.00      0.00      1.63      0.00      0.00      0.00
+  32  70  0  -1 D4194002 G.G.Kiss, Gy.G  2007     8 32-GE-70(P,G)33-AS-71,,SIG      1.72     0.601      11.1     0.232     T1  1.52      2.46      12.5      1.59      4.40      0.00      1.71      0.00      0.00      1.73      0.00      0.00      0.00

@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  58 138  0  -1 327380023Junhua Luo, Li  2015     3 58-CE-138(N,2N)58-CE-137,,SIG   1.13      1.07      2.83     0.412     T1 1.581E+03 1.479E+03  8.19      13.5      14.8      0.00      1.18      1.03      1.01      1.01      0.00      1.24      0.00
+  58 138  0  -1 20541003 S.M.Qaim        1974     1 58-CE-138(N,2N)58-CE-137,,SIG   1.18     0.878      2.48     0.196     R1 1.666E+03 1.916E+03  9.81      14.7      14.7      0.00      1.03      1.26      1.23      1.20      0.00      1.00      0.00

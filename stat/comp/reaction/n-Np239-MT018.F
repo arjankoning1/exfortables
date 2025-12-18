@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  93 239  0  -1 14360002 A.Czeszumska,C  2013    62 93-NP-239(N,F),,SIG             1.67      1.08      30.2     0.223     T3 1.778E+03 1.551E+03  11.6     0.481      18.8      0.00      1.97      1.30      1.98      1.30      1.47      1.81      0.00

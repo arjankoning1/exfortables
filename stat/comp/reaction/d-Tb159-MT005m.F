@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  65 159  0   1 A0471058 Ts.Damdinsuren  1990     0 65-TB-159(D,X)39-Y-87-M,,SIG    0.00      0.00      0.00      0.00         0.00      3.80      18.4     7.300E+03 7.300E+03  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

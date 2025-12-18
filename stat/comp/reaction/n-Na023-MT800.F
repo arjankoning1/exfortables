@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  11  23  0  -1 20927005 R.Bass,Fatma S  1966     2 11-NA-23(N,A)9-F-20,PAR,SIG     2.27      1.87      15.1     0.199     T2  15.6      9.00      31.5      8.00      8.80      0.00      0.00      0.00      0.00      2.38      2.15      0.00      0.00

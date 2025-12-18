@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  49 115  0  -1 D4059008 N.Baron, B.L.C  1963     0 49-IN-115(D,P+A)47-AG-112,,SIG  0.00      0.00      0.00      0.00         0.00     5.300E-02  7.50      19.3      19.3      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

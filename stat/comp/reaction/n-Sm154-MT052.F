@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  62 154  0  -1 40748005 E.S.KONOBEEVSK  1983     9 62-SM-154(N,INL)62-SM-154,PAR,  1.16      1.05      1.15     0.317     T1  205.      194.      26.9     0.353      1.09      0.00      1.19      1.11      1.19      1.16      1.10      0.00      0.00
+  62 154  0  -1 40473005 V.P.Efrosinin,  1979    36 62-SM-154(N,INL)62-SM-154,PAR,  1.38     0.842      1.99     0.142     T1  191.      231.      36.4     0.302      1.11      0.00      1.27      1.54      1.27      1.29      1.48      0.00      0.00

@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  52 120  0   1 32669009 F.Zhou, F.Tuo,  2007     3 52-TE-120(N,P)51-SB-120-M,,SIG  3.25     0.438      26.1     0.186     R2  13.8      24.0      11.0      14.1      14.6      0.00      1.21      0.00      2.80      1.04      0.00      8.25      0.00

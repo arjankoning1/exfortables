@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  46 104  0   1 A0304003 V.G.Batij, E.A  1986     4 46-PD-104(P,N)47-AG-104-M,,SIG  1.05      1.01     0.455     9.538E-02 T1  256.      260.      11.3      6.00      9.00      0.00      1.05      0.00      0.00      0.00      0.00      0.00      0.00

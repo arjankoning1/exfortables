@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  82 206  0  -1 23292049 A.Negret, L.C.  2015    51 82-PB-206(N,INL)82-PB-206,PAR,  2.77     0.787      17.4     0.302     T1  66.2      64.4      28.1      1.29      3.49      0.00      1.62      1.92      1.60      1.00      8.01      0.00      0.00
+  26  56  0  -1 23073044 A.Negret,C.Bor  2013    11 26-FE-56(N,INL)26-FE-56,PAR,SI  4.31     0.485      21.3     0.161     T2  41.3      53.2      9.98      3.47      4.59      0.00      1.20      1.19      1.19      1.18      25.7      0.00      0.00

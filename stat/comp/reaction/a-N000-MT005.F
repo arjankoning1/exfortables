@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   7   0  0  -1 C0980003 C.O.Hower       1962     0 7-N-0(A,X)4-BE-7,,SIG           0.00      0.00      0.00      0.00         0.00     0.974      20.0      30.8      38.1      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

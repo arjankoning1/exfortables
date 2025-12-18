@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  83 209  0  -1 A02460039W.J.Ramler,J.W  1959     0 83-BI-209(D,2N)84-PO-209,,SIG   0.00      0.00      0.00      0.00         0.00      281.      1.00      7.70      21.4      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  83 209  0  -1 D0576011 A.Budzanowski,  1963     0 83-BI-209(D,2N)84-PO-209,,SIG   0.00      0.00      0.00      0.00         0.00      429.      24.9      12.8      12.8      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

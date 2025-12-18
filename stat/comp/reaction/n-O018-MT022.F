@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   8  18  0  -1 23001005 Y.M.Verzilov,   1998     1 8-O-18(N,N+A)6-C-14,,SIG        2.25      1.58      81.4     0.491     R1  52.6      26.8      18.3      14.7      14.7      0.00      3.89      1.13      1.13      1.00      0.00      3.28      0.00

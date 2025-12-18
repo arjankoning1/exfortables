@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  92 238  0  -1 12382006 A.B.SMITH       1963     7 92-U-238(N,INL)92-U-238,PAR,SI  2.48     0.433      8.06     8.928E-02 T1  184.      447.      25.2      1.10      1.50      0.00      2.45      2.45      2.51      2.66      2.34      0.00      0.00
+  92 238  0  -1 22645007 T.Miura,M.Baba  2001     2 92-U-238(N,INL)92-U-238,PAR,SI  3.29     0.321      75.3     6.944E-02 T1  22.7      65.9      7.93      2.60      3.60      0.00      2.31      2.31      4.74      3.63      3.55      0.00      0.00

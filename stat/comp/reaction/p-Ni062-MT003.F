@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  28  62  0  -1 O0081010 J.J.H.Menet,E.  1971     2 28-NI-62(P,NON),,SIG            1.00      1.00     1.737E-02 2.639E-02 T1 1.031E+03 1.026E+03  8.08      40.0      60.8      0.00      1.00      0.00      0.00      0.00      0.00      0.00      0.00
+  28  62  0  -1 C1217009 J.F.Dicello,G.  1967     1 28-NI-62(P,NON),,SIG            1.03     0.969      3.26     2.133E-02 T1 1.031E+03 1.067E+03  1.87      14.5      14.5      0.00      1.03      0.00      0.00      0.00      0.00      0.00      0.00

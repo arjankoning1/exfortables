@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  50 118  0  -1 D5090004 A.P.Klyucharev  1970     7 50-SN-118(P,N)51-SB-118,,SIG    1.16      1.05      2.30     0.227     T1  219.      194.      10.6      5.30      8.50      0.00      1.07      0.00      0.00      1.22      0.00      0.00      0.00
+  50 118  0  -1 T0132003 C.H.Johnson,J.  1977    22 50-SN-118(P,N)51-SB-118,,SIG    1.21      1.19     8.030E+03 0.192     T1  70.4      60.7     0.348      4.53      6.92      0.00      1.26      0.00      0.00      1.14      0.00      0.00      0.00

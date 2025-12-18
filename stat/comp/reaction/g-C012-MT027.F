@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   6  12  0  -1 G0048002 V.Nedorezov, A  2015     0 6-C-12(G,ABS),,SIG,,FCT         0.00      0.00      0.00      0.00         0.00     0.126      2.99      780.     1.440E+03  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+   6  12  0  -1 M0945002 N.Bianchi,V.Mu  1993     0 6-C-12(G,ABS),,SIG,,FCT         0.00      0.00      0.00      0.00         0.00     0.198      3.75      363.     1.166E+03  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

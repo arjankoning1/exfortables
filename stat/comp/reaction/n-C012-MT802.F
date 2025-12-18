@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   6  12  0  -1 22231004 B.Antolkovic,G  1991     0 6-C-12(N,A)4-BE-9,PAR,SIG       0.00      0.00      0.00      0.00         0.00      26.3      61.4      11.9      19.0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  32   0  0  -1 11617013 D.W.KENT,S.P.P  1962     1 32-GE-0(N,NON),,SIG             1.02     0.978     0.263     2.114E-03 T1 1.857E+03 1.970E+03  11.2      3.66      3.66      0.00      1.02      0.00      1.02      0.00      0.00      0.00      0.00

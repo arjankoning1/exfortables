@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  27  59  0  -1 L0028010 R.A.Alvarez,B.  1979     8 27-CO-59(G,3N)27-CO-56,,SIG     2.94     0.438      1.38     1.690E-02 T2 0.384     0.653      283.      29.2      36.5      0.00      2.34      3.95      0.00      2.20      0.00      0.00      0.00

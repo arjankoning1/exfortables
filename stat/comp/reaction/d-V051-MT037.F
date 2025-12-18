@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  23  51  0  -1 A0169003 R.Weinreich,H.  1980     0 23-V-51(D,4N)24-CR-49,,SIG      0.00      0.00      0.00      0.00         0.00      12.6      5.47      31.6      90.6      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  23  51  0  -1 E2121003 K.Ochiai, M.Na  2007     0 23-V-51(D,4N)24-CR-49,,SIG      0.00      0.00      0.00      0.00         0.00      8.38      15.2      29.8      47.2      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

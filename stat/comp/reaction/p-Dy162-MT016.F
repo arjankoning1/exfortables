@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  66 162  0  -1 C2018011 M.May,L.Yafee   1964     4 66-DY-162(P,2N)67-HO-161,,SIG   1.85     0.549      0.00     0.147     T2  482.      880.      0.00      13.0      33.0      0.00      1.85      0.00      0.00      0.00      0.00      0.00      0.00

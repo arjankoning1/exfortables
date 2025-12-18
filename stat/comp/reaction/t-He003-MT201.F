@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   2   3  0  -1 A1228003 L.G.Youn,G.M.O  1960    23 2-HE-3(T,X)0-NN-1,,SIG          1.96     0.529      0.00     0.227     T2  9.95      20.2      0.00     0.148     0.967      0.00      0.00      1.96      0.00      0.00      0.00      0.00      0.00

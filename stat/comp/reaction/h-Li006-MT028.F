@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   3   6  0  -1 F0011002 R.V.Pyle,L.Rub  1978     0 3-LI-6(HE3,X)4-BE-7,,SIG        0.00      0.00      0.00      0.00         0.00      356.      5.72      1.70      5.90      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+   3   6  0  -1 A0165002 S.N.Abramovich  1982     0 3-LI-6(HE3,X)4-BE-7,,SIG        0.00      0.00      0.00      0.00         0.00      324.      8.48      1.75      6.89      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

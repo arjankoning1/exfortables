@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  41  93  0   0 D41130042F.Tarkanyi,F.D  2002     3 41-NB-93(A,2P)41-NB-95-G,M+,SI  1.57     0.758      2.59     4.892E-02 T1 0.161      1.36      16.9      27.9      43.7      0.00      1.57      0.00      0.00      0.00      0.00      0.00      0.00
+  41  93  0   0 O1230005 S.Mukherjee, N  1997     1 41-NB-93(A,2P)41-NB-95-G,M+,SI  18.6     5.380E-02  183.     6.274E-09 T2 0.125      1.26      9.32      28.2      114.      0.00      18.6      0.00      0.00      0.00      0.00      0.00      0.00

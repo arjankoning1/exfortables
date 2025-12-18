@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  77   0  0   2 D4401010 F.Tarkanyi,A.H  2019     0 77-IR-0(D,X)77-IR-190-M2,,SIG   0.00      0.00      0.00      0.00         0.00      11.1      12.9      17.1      49.5      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

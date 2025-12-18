@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   6  12  0  -1 13862007 M.W.McNaughton  1975     1 6-C-12(N,X)1-H-2,,SIG           1.21      1.02      0.00     0.475     T1  81.4      78.0      0.00      56.0      56.0      0.00      1.41      1.14      1.14      1.01      0.00      0.00      0.00
+   6  12  0  -1 22715002 M.Moszynski,G.  1994     2 6-C-12(N,X)1-H-2,,SIG           1.61     0.652      3.84     0.124     T1  75.9      118.      19.1      40.0      56.0      0.00      1.19      1.78      1.78      1.59      0.00      0.00      0.00

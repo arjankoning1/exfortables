@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  28  61  0  -1 B0020017 S.Tanaka, M.Fu  1972    12 28-NI-61(P,A)27-CO-58,,SIG      1.45      1.24      0.00     0.326     T1  59.1      42.6      0.00      7.00      14.5      0.00      1.45      0.00      0.00      0.00      0.00      0.00      0.00
+  28  61  0  -1 D4037003 S.Sudar, F.Sze  1993    13 28-NI-61(P,A)27-CO-58,,SIG      1.79      1.77      33.5     0.254     T1  59.6      34.4      37.3      5.30      18.5      0.00      1.79      0.00      0.00      0.00      0.00      0.00      0.00

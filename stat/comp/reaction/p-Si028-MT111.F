@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  14  28  0  -1 O0807015 O.Artun,Y.Cass  1975     0 14-SI-28(P,X)13-AL-27,,SIG      0.00      0.00      0.00      0.00         0.00      25.0      20.0      218.      218.      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

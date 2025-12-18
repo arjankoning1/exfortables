@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  92 238  0   1 C1797002 M.N.Namboodiri  1973     0 92-U-238(A,2N)94-PU-240-L1,,SI  0.00      0.00      0.00      0.00         0.00     4.930E-03  25.7      20.5      37.4      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  92 238  0   1 A0480018 R.Vandenbosch,  1958     7 92-U-238(A,X)93-NP-240-M,,SIG   95.4     1.148E-02  43.2     3.974E-08 T2 6.729E-02  3.48      15.0      22.6      45.4      0.00      95.4      0.00      0.00      0.00      0.00      0.00      0.00

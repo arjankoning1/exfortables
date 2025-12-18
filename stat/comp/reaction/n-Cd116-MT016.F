@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  48 116  0  -1 11645019 R.J.PRESTWOOD,  1961    13 48-CD-116(N,2N)48-CD-115,,SIG   1.10      1.01      2.17     0.357     R1 1.517E+03 1.520E+03  7.11      12.1      19.8      0.00      1.10      1.12      1.10      1.08      0.00      1.08      0.00
+  48 116  0  -1 41614115 A.A.Filatenkov  2016     9 48-CD-116(N,2N)48-CD-115,,SIG   1.13      1.10      1.15     0.191     R1 1.573E+03 1.388E+03  16.3      13.4      14.9      0.00      1.08      1.13      1.08      1.22      0.00      1.10      0.00

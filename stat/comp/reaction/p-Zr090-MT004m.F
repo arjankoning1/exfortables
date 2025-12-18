@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  40  90  0   1 A03380061E.A.Skakun, V.  1987     3 40-ZR-90(P,N)41-NB-90-M,,SIG    1.27      1.21      12.6     0.282     T1  234.      203.      7.94      8.00      9.00      0.00      1.27      0.00      0.00      0.00      0.00      0.00      0.00
+  40  90  0   1 P0008003 A.M.MOROZOV,V.  1962    26 40-ZR-90(P,N)41-NB-90-M,,SIG    2.34      2.24      98.1     0.166     T3  271.      104.      4.06      4.94      19.2      0.00      2.34      0.00      0.00      0.00      0.00      0.00      0.00

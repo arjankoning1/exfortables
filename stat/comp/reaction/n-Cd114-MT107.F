@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  48 114  0  -1 40016004 V.N.Levkovskii  1964     1 48-CD-114(N,A)46-PD-111,,SIG    1.26     0.879      1.41     0.377     R1 0.528     0.600      16.7      14.0      14.0      0.00      1.00      1.65      1.00      1.04      0.00      1.12      0.00
+  48 114  0  -1 11583013 YU-WEN YU,D.G.  1967     1 48-CD-114(N,A)46-PD-111,,SIG    1.34     0.828      2.52     0.221     R1 0.574     0.700      15.0      14.1      14.1      0.00      1.01      1.83      1.01      1.11      0.00      1.26      0.00

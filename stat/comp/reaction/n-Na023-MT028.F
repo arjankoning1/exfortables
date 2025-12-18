@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  11  23  0  -1 405960121Yu.E.Kozy, G.A  1978     1 11-NA-23(N,N+P)10-NE-22,SEQ,SI  1.19      1.09      3.41     0.260     T1  299.      270.      11.1      14.6      14.6      0.00      1.25      0.00      1.35      1.02      1.00      1.14      0.00
+  11  23  0  -1 405960122Yu.E.Kozy, G.A  1978     1 11-NA-23(N,P+N)10-NE-22,SEQ,SI  2.72      2.68      379.     0.135     T1  299.      110.      9.09      14.6      14.6      0.00      3.08      0.00      3.30      2.59      2.51      2.09      0.00

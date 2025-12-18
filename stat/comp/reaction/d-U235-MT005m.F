@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  92 235  0   1 O1064003 L.F.Bellido, V  1993     0 92-U-235(D,N)93-NP-236-M,,SIG   0.00      0.00      0.00      0.00         0.00      7.73      6.05      15.4      28.4      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  92 235  0   1 C0709002 J.WING,W.J.RAM  1959     0 92-U-235(D,N)93-NP-236-M,,SIG   0.00      0.00      0.00      0.00         0.00      6.83      0.00      8.70      21.5      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

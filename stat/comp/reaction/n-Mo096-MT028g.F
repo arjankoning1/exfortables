@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  42  96  0   0 21935008 H.Atsumi,H.Miy  1984     1 42-MO-96(N,X)41-NB-95-G,,SIG    2.23     0.782     1.163E+04 0.465     T1  4.61      4.56     0.579      14.6      14.6      0.00      1.63      0.00      1.63      3.57      0.00      1.99      0.00

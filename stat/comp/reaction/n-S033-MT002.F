@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  16  33  0  -1 20857026 L.KOESTER,K.KN  1979     1 16-S-33(N,EL)16-S-33,FA,SIG     1.62      1.61      6.32     8.926E-02 T2 4.545E+03 2.800E+03  25.0     5.100E-10 5.100E-10  0.00      1.50      1.69      1.50      1.69      1.69      0.00      0.00

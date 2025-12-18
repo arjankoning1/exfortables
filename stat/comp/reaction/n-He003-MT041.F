@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   2   3  0  -1 20794004 D.S.Mather,L.F  1969     0 2-HE-3(N,2N+P)1-H-1,,SIG        0.00      0.00      0.00      0.00         0.00      1.01     1.100E+03  14.1      14.1      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+   2   3  0  -1 21883009 B.Haesner,W.He  1983     0 2-HE-3(N,2N+P)1-H-1,,SIG        0.00      0.00      0.00      0.00         0.00      119.      36.1      14.0      30.0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

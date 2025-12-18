@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   1   2  0  -1 O07440221J.Jaros,A.Wagn  1978     0 1-H-2(A,NON),,SIG               0.00      0.00      0.00      0.00         0.00      202.      5.12     3.480E+03 8.400E+03  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+   1   2  0  -1 A1195002 M.Bruno,F.Cann  1982     0 1-H-2(A,NON),,SIG               0.00      0.00      0.00      0.00         0.00     0.167      2.00      7.48      13.9      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

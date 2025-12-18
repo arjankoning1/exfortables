@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  18  40  0  -1 P0125002 S.TANAKA,M.FUR  1960     4 18-AR-40(A,N+P)19-K-42,,SIG     2.84      2.67      231.     0.172     T1  204.      118.      4.90      18.6      36.8      0.00      2.84      0.00      0.00      0.00      0.00      0.00      0.00

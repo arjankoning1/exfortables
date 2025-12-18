@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  60 142  0  -1 O2004005 J.Olkowsky, I.  1960     0 60-ND-142(P,X)60-ND-141,,SIG    0.00      0.00      0.00     2.980E-08     0.00     0.132      0.00      7.89      10.8      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  60 142  0  -1 O2004002 J.Olkowsky, I.  1960     0 60-ND-142(P,X)60-ND-141,,SIG    0.00      0.00      0.00     2.980E-08     0.00     0.132      0.00      7.89      10.8      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

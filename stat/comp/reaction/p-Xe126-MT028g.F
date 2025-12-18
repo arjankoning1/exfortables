@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  54 126  0   0 A0526003 N.I.Venikov,V.  1993    10 54-XE-126(P,X)54-XE-125-G,,SIG  3.76     0.288      12.5     0.161     T1  57.3      190.      19.9      16.6      36.3      0.00      3.76      0.00      0.00      0.00      0.00      0.00      0.00

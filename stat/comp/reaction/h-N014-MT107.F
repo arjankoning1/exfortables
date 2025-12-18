@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   7  14  0  -1 F0207004 O.D.Brill'      1965     0 7-N-14(HE3,A)7-N-13,,SIG        0.00      0.00      0.00      0.00         0.00      49.7      25.0      6.47      29.4      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

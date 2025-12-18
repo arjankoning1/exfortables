@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  12  26  0   0 C2281002 M.Paul,W.Henni  1980     5 12-MG-26(P,N)13-AL-26-G,,SIG    2.16      1.02      20.8     0.286     T1  50.4      36.1      19.4      5.00      6.70      0.00      2.16      0.00      0.00      0.00      0.00      0.00      0.00

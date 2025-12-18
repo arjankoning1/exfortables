@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  37  87  0  -1 E1867011 K.Sakamoto, M.  1985     5 37-RB-87(P,X)37-RB-86,,SIG      4.87      4.73      968.     0.164     T1  118.      29.7      6.67      14.8      50.7      0.00      4.87      0.00      0.00      0.00      0.00      0.00      0.00

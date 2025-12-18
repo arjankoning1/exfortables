@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  76 187  0  -1 413990032Yu.Andzheevsky  1988     2 76-OS-187(N,A)74-W-184,,SIG,,R  22.9      7.39     5.849E+04  0.00     T3 0.492     1.370E-02  48.8     4.550E-05 1.015E-04  0.00      4.34      99.7      4.34      99.7      0.00      4.67      0.00

@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  26  57  0  -1 A0510054 V.N.Levkovski   1991    12 26-FE-57(P,2P)25-MN-56,,SIG     1.12      1.04      1.44     0.359     T1  8.28      8.52      12.2      19.3      29.5      0.00      1.12      0.00      0.00      0.00      0.00      0.00      0.00
+  26  57  0  -1 B0049012 B.L.Cohen, E.N  1955     1 26-FE-57(P,2P)25-MN-56,,SIG,,,  2.75     0.364      0.00     0.157     T2  4.55      12.5      0.00      21.5      21.5      0.00      2.75      0.00      0.00      0.00      0.00      0.00      0.00

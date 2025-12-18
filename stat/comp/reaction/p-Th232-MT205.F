@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  90 232  0  -1 O0342008 P.C.Brun, M.Le  1962     1 90-TH-232(P,X)1-H-3,,SIG        4.59      4.59      827.     0.210     T2  184.      40.0      12.5      150.      150.      0.00      4.59      0.00      0.00      0.00      0.00      0.00      0.00
+  90 232  0  -1 O0044027 M.Lefort,G.N.S  1961     1 90-TH-232(P,X)1-H-3,,SIG        9.19      9.19     6.705E+03  0.00     T2  184.      20.0      10.0      150.      150.      0.00      9.19      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  31   0  0  -1 A0631003 I.A.Rizvi,M.K.  1989    11 31-GA-0(A,X)33-AS-71,,SIG       2.94     0.493      347.     0.245     T3  157.      397.      6.86      17.9      56.0      0.00      2.94      0.00      0.00      0.00      0.00      0.00      0.00

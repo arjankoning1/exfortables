@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  98 250  0  -1 13646003 Y.DANON,M.S.MO  1994    44 98-CF-250(N,F),,SIG             2.57     0.684      3.27     0.157     T2 1.988E+05 2.193E+05  336.     4.030E-07 8.050E-07  0.00      2.41      2.28      2.28      2.28      0.00      3.61      0.00
+  98 250  0  -1 13197003 Y.DANON,R.E.SL  1991   101 98-CF-250(N,F),,SIG             3.22     0.501      113.     6.515E-02 T3 2.371E+04 9.988E+03  99.5     1.160E-07 9.760E-02  0.00      4.84      2.67      2.67      2.67      0.00      3.59      0.00

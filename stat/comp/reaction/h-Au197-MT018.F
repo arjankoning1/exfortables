@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  79 197  0  -1 C0444002 Th.Rubehn,K.X.  1996     0 79-AU-197(HE3,F),,SIG           0.00      0.00      0.00      0.00         0.00      38.0      20.3      21.0      135.      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  79 197  0  -1 C2442008 F.D.Becchetti,  1983     0 79-AU-197(HE3,F),,SIG           0.00      0.00      0.00      0.00         0.00     1.766E-02  61.6      19.7      44.3      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

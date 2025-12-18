@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  33  75  0  -1 A0232008 Z.B.Alfassi,R.  1982    43 33-AS-75(A,4N)35-BR-75,,SIG     1.47     0.719      7.24     0.285     T1  63.0      93.7      13.6      42.4      106.      0.00      1.47      0.00      0.00      0.00      0.00      0.00      0.00
+  33  75  0  -1 A0253012 A.M.J.Paans,J.  1980     9 33-AS-75(A,4N)35-BR-75,,SIG     1.49     0.976      21.4     0.315     T1  88.9      105.      10.5      40.3      71.7      0.00      1.49      0.00      0.00      0.00      0.00      0.00      0.00

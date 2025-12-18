@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  23  51  0  -1 O2245006 N.O.Lassen,V.A  1960     3 23-V-51(A,X)1-H-1,,SIG          1.53      1.45      0.00     0.287     T2  156.      98.3      0.00      11.9      19.3      0.00      1.53      0.00      0.00      0.00      0.00      0.00      0.00

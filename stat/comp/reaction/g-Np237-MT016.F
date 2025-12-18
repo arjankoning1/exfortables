@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  93 237  0  -1 L0031008 A.VEYSSIERE,H.  1973    14 93-NP-237(G,2N)93-NP-235,,SIG   1.86     0.992     0.465     0.245     T2  30.3      30.9      177.      12.8      16.6      0.00      2.11      1.50      0.00      1.95      0.00      0.00      0.00
+  93 237  0  -1 L0082010 R.Bergere,H.Be  1972    15 93-NP-237(G,2N)93-NP-235,,SIG   3.02     0.719     0.124     0.197     T2  29.6      36.3      37.2      12.7      16.5      0.00      5.16      1.78      0.00      2.22      0.00      0.00      0.00

@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  28  60  0   0 P0037015 S.TANAKA        1960     0 28-NI-60(A,N+P+A)27-CO-58-G,,S  0.00      0.00      0.00      0.00         0.00      46.9      3.22      31.0      39.4      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  26  54  0   0 P0057007 S.TANAKA,M.FUR  1960     0 26-FE-54(A,N+P+A)25-MN-52-G,,S  0.00      0.00      0.00      0.00         0.00      34.0      11.9      34.5      37.7      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

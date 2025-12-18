@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  52 130  0  -1 32228028 V.A.Mishchenko  1989     5 52-TE-130(N,EL)52-TE-130,,SIG   1.03     0.989     0.600     0.456     T1 4.018E+03 4.090E+03  6.49      1.50      5.00      0.00      1.04      1.02      1.04      1.03      1.02      0.00      0.00

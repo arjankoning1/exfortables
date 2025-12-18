@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  90 232  0  -1 12765002 C.A.Ciarcia,G.  1985     9 90-TH-232(N,INL)90-TH-232,PAR,  1.18      1.12      2.20     0.178     T1  209.      183.      13.7     0.950      1.60      0.00      1.18      1.22      1.22      1.17      1.12      0.00      0.00
+  90 232  0  -1 10810003 J.H.Dave,J.J.E  1985    30 90-TH-232(N,INL)90-TH-232,PAR,  1.95     0.631      10.1     0.219     T1  162.      232.      12.3     0.818      2.12      0.00      1.91      1.90      1.90      2.15      1.90      0.00      0.00

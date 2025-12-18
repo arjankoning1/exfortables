@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  41  93  0  -1 A0583004 S.N.Kondratyev  1996     0 41-NB-93(HE3,N)43-TC-95,,SIG    0.00      0.00      0.00      0.00         0.00      2.65      12.9      14.7      67.4      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  41  93  0  -1 A0347003 H.H.Bissem,R.G  1980     0 41-NB-93(HE3,N)43-TC-95,,SIG    0.00      0.00      0.00      0.00         0.00      2.30      10.0      12.8      42.8      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

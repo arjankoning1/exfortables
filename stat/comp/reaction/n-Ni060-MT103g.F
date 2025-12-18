@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  28  60  0   0 20841005 K.Fukuda,K.Mat  1978     1 28-NI-60(N,P)27-CO-60-G,,SIG    2.10     0.477      40.6     0.106     R2  64.1      134.      8.21      14.6      14.6      0.00      2.29      0.00      2.18      1.93      0.00      2.00      0.00

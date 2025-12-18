@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  52 130  0  -1 P0115006 F.W.Pement,R.L  1966     0 52-TE-130(D,2N)53-I-130,,SIG    0.00      0.00      0.00      0.00         0.00      422.      0.00      4.62      14.1      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  52 130  0  -1 P0119012 K.Otozai,S.Kuz  1968     0 52-TE-130(D,2N)53-I-130,,SIG    0.00      0.00      0.00      0.00         0.00      496.      2.76      6.60      14.3      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  16  32  0  -1 C2839011 P.W.Davison     1949     0 16-S-32(D,P)16-S-33,,SIG,,AV    0.00      0.00      0.00      0.00         0.00     1.200E+03  50.0      3.00      3.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

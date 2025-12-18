@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  13  27  0  -1 22497002 R.COSZACH, P.D  2000     4 13-AL-27(N,2P)11-NA-26,,SIG     1.77      1.21      94.8     0.188     R1 0.739     0.455      14.1      20.0      64.4      0.00      5.14      0.00      1.35      0.00      0.00      1.58      0.00

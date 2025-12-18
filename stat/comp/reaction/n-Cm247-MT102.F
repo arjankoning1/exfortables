@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  96 247  0  -1 40486010 V.D.Gavrilov,V  1978     1 96-CM-247(N,G)96-CM-248,,SIG    1.04     0.969      0.00     0.434     T1 5.816E+04 6.000E+04  0.00     2.530E-08 2.530E-08  0.00      1.05      1.01      1.01      1.01      0.00      1.07      0.00
+  96 247  0  -1 02096247 Gamgam          2024     2                                 4.70     0.219      7.60     7.058E-02 T2  852.     3.826E+03  28.3     5.000E-03 1.000E-02  0.00      7.59      4.47      4.46      4.47      0.00      2.94      0.00

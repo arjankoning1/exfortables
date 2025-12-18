@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  23  51  0  -1 F1214007 P.P.Dmitriev,I  1969     9 23-V-51(A,3N)25-MN-52,,SIG      3.03      1.68     1.554E+03 0.271     T2  91.4      90.7      13.0      28.2      40.8      0.00      3.03      0.00      0.00      0.00      0.00      0.00      0.00

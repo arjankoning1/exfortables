@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   6  14  0  -1 C0519010 T.R.Wang,R.B.V  1991    78 6-C-14(P,N)7-N-14,,SIG          12.5      4.64     3.375E+08 2.755E-02 T3  173.      125.     0.362      1.06      1.46      0.00      12.5      0.00      0.00      0.00      0.00      0.00      0.00
+   6  14  0  -1 T0010011 J.H.Gibbons, R  1959    64 6-C-14(P,N)7-N-14,,SIG          15.8      7.74      0.00     3.581E-02 T2  151.      76.8      0.00     0.680      1.48      0.00      15.8      0.00      0.00      0.00      0.00      0.00      0.00

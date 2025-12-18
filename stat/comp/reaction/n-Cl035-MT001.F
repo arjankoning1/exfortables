@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  17  35  0  -1 11589007 J.R.PATTERSON,  1957   128 17-CL-35(N,TOT),,SIG            1.86     0.927      0.00     0.150     T2 2.207E+03 2.883E+03  0.00     9.181E-03 0.211      0.00      1.87      1.84      1.84      1.88      0.00      0.00      0.00
+  17  35  0  -1 408210021E.N.KARZHAVINA  1965     1 17-CL-35(N,TOT),,SIG,,RES       29.4     3.398E-02  76.1      0.00     T2 9.835E+03 2.890E+05  11.1     4.050E-04 4.050E-04  0.00      29.6      30.7      30.7      26.9      0.00      0.00      0.00

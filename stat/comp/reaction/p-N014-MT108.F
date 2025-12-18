@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   7  14  0  -1 A0050006AA.I.Vdovin,I.G  1979     0 7-N-14(P,2A)4-BE-7,,SIG         0.00      0.00      0.00      0.00         0.00      2.90      51.7      50.0      50.0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+   7  14  0  -1 R0025003 W.W.Jacobs, D.  1974     6 7-N-14(P,2A)4-BE-7,,SIG         138.     1.173E-02  62.1     9.212E-08 T2  1.39      31.3      1.90      14.0      24.0      0.00      138.      0.00      0.00      0.00      0.00      0.00      0.00

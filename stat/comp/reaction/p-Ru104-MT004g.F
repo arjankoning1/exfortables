@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  44 104  0   0 A0281005 E.A.Skakun,V.G  1991     5 44-RU-104(P,N)45-RH-104-G,,SIG  2.24      1.21      12.0     0.275     T2  146.      104.      34.6      5.00      9.00      0.00      2.59      0.00      0.00      1.87      0.00      0.00      0.00

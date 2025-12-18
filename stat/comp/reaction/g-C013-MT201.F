@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   6  13  0  -1 L0048004 J.W.JURY,B.L.B  1979   177 6-C-13(G,X)0-NN-1,,SIG          1.56      1.11      118.     0.324     T1  4.53      3.90      6.88      7.60      41.8      0.00      2.09      1.16      0.00      1.16      0.00      0.00      0.00
+   6  13  0  -1 M0217004 L.Green,D.J.Do  1964     9 6-C-13(G,X)0-NN-1,,SIG          1.89     0.744      9.17     0.215     T2 0.628      1.08      29.7      6.61      10.8      0.00      2.11      1.88      0.00      1.67      0.00      0.00      0.00

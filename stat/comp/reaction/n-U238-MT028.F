@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  92 238  0  -1 22551003 N.TRAUTMANN,R.  1969     1 92-U-238(N,N+P)91-PA-237,,SIG   92.9     1.109E-02  20.6     1.192E-07 T2 2.891E-03 0.230      21.7      14.8      14.8      0.00      54.0      0.00      0.00      0.00      0.00      151.      0.00

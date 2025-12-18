@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   5  10  0  -1 20876012 Ch.Sellem, J.P  1975     2 5-B-10(N,D)4-BE-9,PAR,SIG       1.32      1.20      22.8     0.294     T1  32.4      26.4      7.62      14.0      14.0      0.00      1.08      1.20      1.20      1.81      1.20      1.09      0.00

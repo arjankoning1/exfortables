@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  67 165  0   1 M1038003 J.H.Khushvakto  2022    53 67-HO-165(G,3N)67-HO-162-M,,SI  3.59      2.31      50.5     0.218     T2 0.499     0.274      215.      58.0      110.      0.00      3.59      0.00      0.00      0.00      0.00      0.00      0.00

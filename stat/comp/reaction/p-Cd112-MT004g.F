@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  48 112  0   0 A0085029 A.V.Muminov,S.  1980     3 48-CD-112(P,N)49-IN-112-G,,SIG  1.60     0.641      6.87     0.201     T2  179.      314.      24.4      5.65      9.14      0.00      1.60      0.00      0.00      0.00      0.00      0.00      0.00
+  48 112  0   0 P0019009 K.Otozai,S.Kum  1966     5 48-CD-112(P,N)49-IN-112-G,,SIG  1.72     0.645      3.53     0.225     T2  139.      204.      31.6      9.40      22.8      0.00      1.72      0.00      0.00      0.00      0.00      0.00      0.00

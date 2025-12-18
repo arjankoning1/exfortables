@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  34  76  0  -1 O0849003AGy.Gyurky, Zs.  2003    14 34-SE-76(P,G)35-BR-77,,SIG,,SF  1.95     0.760      27.5     0.296     T1 0.997      2.72      9.87      1.48      3.60      0.00      2.08      0.00      0.00      1.82      0.00      0.00      0.00
+  34  76  0  -1 O0849003SGy.Gyurky, Zs.  2003    14 34-SE-76(P,G)35-BR-77,,SIG      2.02     0.695      24.5     0.299     T1 0.997      2.93      9.81      1.48      3.60      0.00      2.19      0.00      0.00      1.85      0.00      0.00      0.00

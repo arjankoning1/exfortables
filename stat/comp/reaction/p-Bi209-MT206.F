@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  83 209  0  -1 O1710002 I.Leya, J.-C.D  2008     5 83-BI-209(P,X)2-HE-3,CUM,SIG    4.58     0.274      24.0     5.938E-02 T2  20.4      214.      14.9      102.     2.589E+03  0.00      1.73      0.00      0.00      8.02      0.00      0.00      0.00

@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  23   0  0  -1 11310025 E.R.Graves,R.W  1955     1 23-V-0(N,NON),,SIG              1.02     0.984     0.368     0.430     T1 1.279E+03 1.320E+03  6.06      14.1      14.1      0.00      1.00      0.00      1.00      0.00      1.04      0.00      0.00

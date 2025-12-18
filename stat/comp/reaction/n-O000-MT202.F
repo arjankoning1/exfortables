@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   8   0  0  -1 11306004 V.E.SCHERRER,R  1953     0 8-O-0(N,X)0-G-0,,SIG            0.00      0.00      0.00      0.00         0.00      520.      25.0      14.2      14.2      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+   8   0  0  -1 41333013 YU.YA.NEFEDOV,  1999     0 8-O-0(N,X)0-G-0,,SIG            0.00      0.00      0.00      0.00         0.00      401.      8.98      14.3      14.3      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

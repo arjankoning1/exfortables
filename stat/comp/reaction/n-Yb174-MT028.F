@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  70 174  0  -1 22809009 H.SAKANE, Y.KA  2002     6 70-YB-174(N,X)69-TM-173,,SIG    21.1     4.852E-02  241.     2.583E-07 T2 2.581E-02 0.422      6.13      13.4      14.9      0.00      24.1      18.1      21.9      18.1      0.00      23.7      0.00
+  70 174  0  -1 22468007 H.Sakane, M.Sh  2000     6 70-YB-174(N,X)69-TM-173,,SIG    21.3     4.811E-02  20.1     2.583E-07 T2 2.581E-02 0.458      23.0      13.4      14.9      0.00      24.1      18.5      22.0      18.5      0.00      23.7      0.00

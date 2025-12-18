@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  82 207  0  -1 23127003 M.Pillon        2002     1 82-PB-207(N,P)81-TL-207,,SIG    1.18     0.886     0.142     0.195     T1  2.02      2.88      100.      14.3      14.3      0.00      1.19      1.38      1.00      1.00      1.17      1.08      0.00
+  82 207  0  -1 40347003 G.E.Belovitski  1975     1 82-PB-207(N,P)81-TL-207,,SIG    1.51      1.30      9.77     0.272     T2  2.21      1.60      18.8      14.5      14.5      0.00      1.02      1.15      1.97      1.97      1.07      1.30      0.00

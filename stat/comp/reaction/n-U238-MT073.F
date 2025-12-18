@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  92 238  0  -1 40457002 V.Ya.Baryba,B.  1977     1 92-U-238(N,INL)92-U-238,PAR,SI  25.2     4.056E-02  212.     1.788E-07 T2  16.3      380.      6.58      2.47      2.47      0.00      21.8      21.8      19.4      19.2      51.6      0.00      0.00

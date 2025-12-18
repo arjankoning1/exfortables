@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   9  19  0  -1 L0039008 A.VEYSSIERE,H.  1974   104 9-F-19(G,X)0-NN-1,,SIG          1.52      1.23      189.     0.323     T1  6.85      5.53      6.87      10.9      27.8      0.00      1.87      1.29      0.00      1.29      0.00      0.00      0.00

@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  47 107  0  -1 O24440022A.Khaliel,T.J.  2017     3 47-AG-107(P,G)48-CD-108,,SIG,,  1.84     0.619      16.7     0.362     T1 3.394E-02 4.668E-02  9.95      2.18      3.99      0.00      2.04      0.00      0.00      1.63      0.00      0.00      0.00
+  47 107  0  -1 O24440021A.Khaliel,T.J.  2017     3 47-AG-107(P,G)48-CD-108,,SIG    1.84     0.620      22.0     0.362     T1 3.394E-02 4.653E-02  9.04      2.18      3.99      0.00      2.03      0.00      0.00      1.63      0.00      0.00      0.00

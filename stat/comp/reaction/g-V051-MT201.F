@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  23  51  0  -1 L0001002 S.C.Fultz,R.L.  1962    47 23-V-51(G,X)0-NN-1,,SIG         1.32      1.19      33.6     0.247     T1  49.5      39.9      18.3      10.3      27.8      0.00      1.55      1.10      0.00      1.10      0.00      0.00      0.00
+  23  51  0  -1 L0039043 A.VEYSSIERE,H.  1974    28 23-V-51(G,X)0-NN-1,,SIG         1.33      1.15      85.6     0.369     T1  50.3      45.4      3.68      13.2      27.8      0.00      1.61      1.09      0.00      1.09      0.00      0.00      0.00

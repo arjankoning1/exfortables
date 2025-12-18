@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  42  95  0  -1 32676002 Guohui Zhang,H  2010     3 42-MO-95(N,A)40-ZR-92,,SIG      1.87     0.718      29.8     0.338     T1  1.03      1.21      9.91      4.00      6.00      0.00      1.70      1.74      1.70      1.84      1.18      2.82      0.00
+  42  95  0  -1 13896003 W.Rapp, P.E.Ko  2003    15 42-MO-95(N,A)40-ZR-92,,SIG,,AV  1.97      1.03      42.2     0.332     T1 3.813E-02 3.724E-02  8.90     1.500E-03 0.450      0.00      1.42      1.29      1.42      1.52      3.27      3.59      0.00

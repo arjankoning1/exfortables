@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  56 135  0  -1 22307017 F.Voss,K.Wissh  1994    15 56-BA-135(N,G)56-BA-136,,SIG,,  1.09      1.02      8.79     0.335     T1  406.      404.      3.15     1.125E-02 0.213      0.00      1.09      0.00      1.12      1.07      0.00      0.00      0.00
+  56 135  0  -1 30293004 A.R.de L.Musgr  1974    15 56-BA-135(N,G)56-BA-136,,SIG,,  2.15     0.974      71.7     0.354     T1  857.      613.      15.9     3.500E-03 0.175      0.00      1.15      0.00      1.23      3.67      0.00      0.00      0.00

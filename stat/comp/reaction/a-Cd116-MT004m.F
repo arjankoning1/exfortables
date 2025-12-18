@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  48 116  0   1 D4204008 R.Adam Rebeles  2008     7 48-CD-116(A,N)50-SN-119-M,,SIG  1.35     0.966      4.17     0.282     T1  23.1      30.0      14.0      14.8      38.2      0.00      1.35      0.00      0.00      0.00      0.00      0.00      0.00
+  48 116  0   1 E2563002 H.Muramatsu, H  1981     6 48-CD-116(A,N)50-SN-119-M,,SIG  5.47     0.643      139.     0.114     T3  31.1      30.4      11.3      6.18      22.6      0.00      5.47      0.00      0.00      0.00      0.00      0.00      0.00

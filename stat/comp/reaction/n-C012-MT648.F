@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   6  12  0  -1 23142008 M.Pillon, M.An  2011     0 6-C-12(N,P)5-B-12,PAR,SIG       0.00      0.00      0.00      0.00         0.00      4.31      15.2      18.0      20.5      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+   6  12  0  -1 23142007 M.Pillon, M.An  2011     0 6-C-12(N,P)5-B-12,PAR,SIG       0.00      0.00      0.00      0.00         0.00      4.76      12.5      17.5      20.5      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

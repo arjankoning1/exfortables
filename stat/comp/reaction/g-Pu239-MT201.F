@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  94 239  0  -1 L0058015 B.L.Berman,J.T  1986    33 94-PU-239(G,X)0-NN-1,,SIG       20.8     5.506E-02  542.     9.217E-04 T3  47.4      636.      6.50      6.00      17.8      0.00      40.6      0.00      0.00      8.71      0.00      0.00      0.00
+  94 239  0  -1 M0515005 M.Antonio,P.V.  1993     9 94-PU-239(G,X)0-NN-1,,SIG       28.4     3.716E-02  29.2     3.576E-07 T2  9.27      194.      18.1      6.73      9.72      0.00      47.5      0.00      0.00      15.4      0.00      0.00      0.00

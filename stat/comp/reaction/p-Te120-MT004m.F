@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  52 120  0   1 D41210022A.HOHN,H.H.COE  1998    34 52-TE-120(P,N)53-I-120-M,,SIG   8.14      5.15     1.060E+03 7.143E-02 T3  93.9      13.0      21.1      6.90      27.9      0.00      8.14      0.00      0.00      0.00      0.00      0.00      0.00
+  52 120  0   1 C17420032R.T.Guray,N.Oz  2009     3 52-TE-120(P,N)53-I-120-M,,SIG   14.6     8.728E-02  4.66     5.328E-03 T2  1.55      9.41      42.0      6.50      8.00      0.00      14.6      0.00      0.00      0.00      0.00      0.00      0.00

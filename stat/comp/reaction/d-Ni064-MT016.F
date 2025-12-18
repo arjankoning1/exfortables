@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  28  64  0  -1 D4182002 A.Hermanne, F.  2007     0 28-NI-64(D,2N)29-CU-64,,SIG     0.00      0.00      0.00      0.00         0.00      663.      21.5      4.20      20.4      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  28  64  0  -1 D0547003 L.Daraban, R.A  2009     0 28-NI-64(D,2N)29-CU-64,,SIG     0.00      0.00      0.00      0.00         0.00      720.      10.1      6.20      19.6      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

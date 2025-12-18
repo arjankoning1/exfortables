@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  92 238  0  -1 12738002 J.Q.Shao,G.P.C  1986    27 92-U-238(N,INL)92-U-238,PAR,SI  1.20     0.972      1.21     0.259     T1  195.      192.      15.1     0.900      2.20      0.00      1.18      1.18      1.17      1.23      1.23      0.00      0.00
+  92 238  0  -1 40749002 B.G.Kazyula,E.  1980     8 92-U-238(N,INL)92-U-238,PAR,SI  1.68     0.874      33.8     0.151     T1  280.      346.      8.96     0.780      1.40      0.00      1.63      1.64      1.74      1.70      1.69      0.00      0.00

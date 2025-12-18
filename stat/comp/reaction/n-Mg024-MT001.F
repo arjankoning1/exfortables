@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  12  24  0  -1 13582010 A.J.Elwyn,R.O.  1962    56 12-MG-24(N,TOT),,SIG            1.19      1.05      0.00     0.259     T1 8.569E+03 8.253E+03  0.00     0.164     0.455      0.00      1.17      1.20      1.17      1.20      1.20      0.00      0.00
+  12  24  0  -1 20662003 J.Bommer        1976  1600 12-MG-24(N,TOT),,SIG            1.36      1.07      37.5     0.179     T1 2.599E+03 2.443E+03  9.49      1.02      5.19      0.00      1.38      1.34      1.38      1.34      1.34      0.00      0.00

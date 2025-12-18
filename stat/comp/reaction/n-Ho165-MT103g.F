@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  67 165  0   0 20289009 F.Fukuzawa      1961     1 67-HO-165(N,P)66-DY-165-G,,SIG  9.82     0.102      12.9     5.960E-07 R2  4.11      40.0      25.0      14.1      14.1      0.00      8.97      0.00      8.34      10.8      0.00      11.4      0.00

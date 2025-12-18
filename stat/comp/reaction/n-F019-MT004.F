@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   9  19  0  -1 40036004 D.L.Broder, A.  1969    30 9-F-19(N,INL)9-F-19,,SIG        2.02     0.627      34.9     0.239     T3 1.786E+03 2.497E+03  7.00     0.230      1.24      0.00      4.00      1.89      1.89      1.14      2.25      0.00      0.00

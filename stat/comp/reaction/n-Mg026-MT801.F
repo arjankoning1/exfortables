@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  12  26  0  -1 21672004 M.Brendle,R.En  1978     6 12-MG-26(N,A)10-NE-23,PAR,SIG   8.08     0.127      15.1     1.231E-03 R2  1.75      14.7      25.5      13.5      13.9      0.00      0.00      0.00      0.00      0.00      8.08      0.00      0.00

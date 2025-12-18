@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  26  54  0  -1 M0507003 J.W.Norbury,M.  1978    17 26-FE-54(G,P)25-MN-53,,SIG,,BR  1.54     0.896      54.1     0.258     T1  54.3      59.3      5.43      15.0      23.0      0.00      1.88      1.33      0.00      1.33      0.00      0.00      0.00
+  26  54  0  -1 L0037006 W.E.DEL BIANCO  1962     1 26-FE-54(G,N)26-FE-53,,SIG      1.57      1.32      13.2     0.389     T1  41.5      30.0      16.0      20.5      20.5      0.00      1.25      1.69      0.00      1.69      0.00      0.00      0.00

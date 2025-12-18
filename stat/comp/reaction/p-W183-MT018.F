@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  74 183  0  -1 O0627002 V.N.OKOLOVICH,  1974     0 74-W-183(P,F),,SIG,,,EXP        0.00      0.00      0.00      0.00         0.00     3.780E-05  6.00      27.6      29.6      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  74 183  0  -1 O1697003 A.N.Smirnov,O.  2007     6 74-W-183(P,F),,SIG              5.38      3.10     2.362E+03 0.226     T2  1.12      1.19      14.4      40.4      170.      0.00      5.38      0.00      0.00      0.00      0.00      0.00      0.00

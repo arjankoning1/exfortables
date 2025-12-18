@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   7  15  0  -1 C1993002 C.Ugalde,B.Dig  2013     5 7-N-15(A,G)9-F-19,,SIG          1.99      1.04      159.     6.625E-02 T1 3.025E-03 9.954E-04  8.87      1.25      2.42      0.00      2.04      0.00      0.00      1.94      0.00      0.00      0.00

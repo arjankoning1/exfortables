@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  48 114  0  -1 31674003 Ts.Ts.Pantelee  1996     1 48-CD-114(N,2N)48-CD-113,,SIG   1.29     0.790      17.3     7.233E-02 T2 1.507E+03 1.900E+03  5.26      14.7      14.7      0.00      1.26      1.18      1.26      1.15      0.00      1.51      0.00

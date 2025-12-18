@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  34   0  0   1 10835005 S.Sothras       1977     1 34-SE-0(N,X)34-SE-77-M,,SIG     4.18     0.241      56.6     0.216     T3  189.      775.      10.1      14.8      14.8      0.00      3.75      0.00      3.75      5.08      0.00      0.00      0.00

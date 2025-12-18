@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  60 148  0  -1 21338020 G.HAOUAT,J.LAC  1979     1 60-ND-148(N,INL)60-ND-148,PAR,  1.89     0.753      33.4     0.462     T1  205.      237.      7.17      7.00      7.00      0.00      1.30      1.27      1.30      1.51      3.63      0.00      0.00

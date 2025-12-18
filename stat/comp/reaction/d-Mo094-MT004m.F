@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  42  94  0   1 B0109010 Z.Randa, K.Svo  1976     0 42-MO-94(D,N)43-TC-95-M,,SIG    0.00      0.00      0.00      0.00         0.00      9.88      0.00      3.40      4.90      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

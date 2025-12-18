@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  34  77  0  -1 02034077 Gamgam          2024     2                                 1.08      1.04     0.261     0.298     R1  978.      916.      26.5     5.000E-03 1.000E-02  0.00      1.00      1.01      1.00      1.20      1.01      1.06      0.00
+  34  77  0  -1 31721002 G.Schramm, R.M  2012     1 34-SE-77(N,G)34-SE-78,,SIG      1.11      1.11      1.35     0.165     T1 4.119E+04 3.600E+04  12.4     2.530E-08 2.530E-08  0.00      1.10      1.12      1.10      1.09      1.12      1.12      0.00

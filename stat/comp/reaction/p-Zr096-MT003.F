@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  40  96  0  -1 O0081021 J.J.H.Menet,E.  1971     1 40-ZR-96(P,NON),,SIG            1.02      1.02     0.224     0.388     T1 1.311E+03 1.241E+03  12.1      60.8      60.8      0.00      1.01      0.00      0.00      1.03      0.00      0.00      0.00

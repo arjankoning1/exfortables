@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   3   7  0  -1 L0030002 R.L.BRAMBLETT,  1973    57 3-LI-7(G,X)0-NN-1,,SIG          3.85     0.518      90.8     0.360     T3 0.787     0.973     0.973      7.05      30.5      0.00      8.53      1.26      0.00      1.26      0.00      0.00      0.00
+   3   7  0  -1 M0217003 L.Green,D.J.Do  1964     8 3-LI-7(G,X)0-NN-1,,SIG          5.07     0.336      6.57     0.171     T2 0.118     0.278      34.6      7.38      10.8      0.00      11.9      1.34      0.00      1.34      0.00      0.00      0.00

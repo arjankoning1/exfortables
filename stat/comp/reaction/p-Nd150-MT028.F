@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  60 150  0  -1 D6256004 D.Banerjee, A.  2015     6 60-ND-150(P,X)60-ND-149,,SIG    7.90     0.156      303.     0.110     T2 0.192     0.645      11.9      11.9      14.9      0.00      7.90      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  40  96  0  -1 22325009 Y.Kasugai, H.Y  1994     1 40-ZR-96(N,X)39-Y-95,,SIG       48.6     2.126E-02  6.70     1.788E-07 R2 8.303E-03 0.569      38.1      14.9      14.9      0.00      78.9      28.5      23.9      54.4      0.00      78.6      0.00
+  40  96  0  -1 31329002 A.K.Ganguly,H.  1963     1 40-ZR-96(N,X)39-Y-95,,SIG       78.8     1.390E-02  0.00      0.00     T2 6.011E-03 0.300      0.00      14.8      14.8      0.00      189.      29.7      23.1      78.5      0.00      189.      0.00

@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  69 171  0  -1 14128003 J.B.Wilhelmy,E  2002   136 69-TM-171(N,G)69-TM-172,,SIG    8.54      1.84      0.00     0.142     T2 3.682E+04 3.309E+04  0.00     1.524E-08 0.111      0.00      8.08      9.30      8.08      8.67      0.00      8.59      0.00
+  69 171  0  -1 23540002 T.Heftrich,M.W  2019     1 69-TM-171(N,G)69-TM-172,,SIG    12.4      9.47     2.389E+04  0.00     T3 1.339E+05 9.900E+03  9.09     2.530E-08 2.530E-08  0.00      15.9      18.9      15.9      1.00      0.00      16.0      0.00

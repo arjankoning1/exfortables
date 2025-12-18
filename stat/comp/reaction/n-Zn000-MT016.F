@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  30   0  0  -1 11632006 V.J.ASHBY,H.C.  1958     1 30-ZN-0(N,2N),,SIG              1.23     0.823      4.44     0.115     R1  448.      550.      9.09      14.1      14.1      0.00      1.21      1.14      1.40      1.14      1.17      1.24      0.00

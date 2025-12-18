@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   9  19  0  -1 20546016 G.STAUDT        1974     0 9-F-19(N,A)7-N-16,PAR,SIG       0.00      0.00      0.00      0.00         0.00      22.5      19.4      13.9      15.6      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+   9  19  0  -1 11195008 E.A.DAVIS,F.GA  1961     0 9-F-19(N,A)7-N-16,PAR,SIG       0.00      0.00      0.00      0.00         0.00      78.4      37.6      2.89      8.20      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

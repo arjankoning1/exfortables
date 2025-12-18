@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  50 124  0  -1 O2028003 I.S.Grant, M.R  1979     2 50-SN-124(A,X)51-SB-126,,SIG    14.7     8.508E-02  58.3     4.154E-02 T2  1.47      8.46      9.92      9.10      35.7      0.00      14.7      0.00      0.00      0.00      0.00      0.00      0.00

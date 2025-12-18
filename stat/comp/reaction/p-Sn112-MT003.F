@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  50 112  0  -1 O0579009 A.INGEMARSSON,  1999     1 50-SN-112(P,NON),,SIG           1.02     0.981     0.900     0.486     T1 1.371E+03 1.411E+03  3.05      65.5      65.5      0.00      1.03      0.00      0.00      1.01      0.00      0.00      0.00
+  50 112  0  -1 C0424002 R.F.CARLSON,A.  1995     7 50-SN-112(P,NON),,SIG           1.04     0.972      1.90     0.426     T1 1.415E+03 1.457E+03  3.15      22.8      47.8      0.00      1.04      0.00      0.00      1.04      0.00      0.00      0.00

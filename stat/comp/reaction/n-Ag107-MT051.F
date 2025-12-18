@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  47 107  0  -1 10876005 A.Smith,P.Guen  1979     6 47-AG-107(N,INL)47-AG-107,PAR,  1.14     0.955     0.302     0.374     T1  122.      134.      40.8      1.50      3.00      0.00      1.12      1.12      1.12      1.22      1.12      0.00      0.00

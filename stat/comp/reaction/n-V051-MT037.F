@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  23  51  0  -1 31784014 M.Majerle, E.S  2017     2 23-V-51(N,4N)23-V-48,,SIG       60.9     3.251E-02  35.1     3.096E-02 T2 0.115     0.410      17.8      27.4      34.2      0.00      8.95      0.00      1.90      0.00      0.00      56.1      0.00

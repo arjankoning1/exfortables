@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  40  90  0  -1 10536017 B.P.Bayhurst,J  1975     1 40-ZR-90(N,3N)40-ZR-88,,SIG     1.36     0.776      2.16     0.175     T1  279.      374.      19.0      28.0      28.0      0.00      1.54      0.00      1.54      1.10      0.00      1.05      0.00

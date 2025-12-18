@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  58   0  0  -1 30337008 A.Chatterjee,   1967     1 58-CE-0(N,NON),,SIG             23.2     0.214      162.     0.366     T2 1.605E+03 2.030E+03  3.94      14.8      14.8      0.00      1.03      0.00      1.03      1.08      540.      0.00      0.00

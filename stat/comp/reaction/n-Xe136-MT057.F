@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  54 136  0  -1 14465005 E.E.Peters,T.J  2017     9 54-XE-136(N,INL)54-XE-136,PAR,  1.81     0.898      344.     0.172     R1  121.      130.      4.90      2.50      4.50      0.00      1.33      1.46      1.33      1.32      3.23      0.00      0.00

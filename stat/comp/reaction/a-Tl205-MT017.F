@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  81 205  0  -1 A0452005 N.P.M.Sathik,   2002     8 81-TL-205(A,3N)83-BI-206,,SIG   2.21      1.64      101.     0.140     T1  731.      365.      13.3      29.0      49.8      0.00      2.21      0.00      0.00      0.00      0.00      0.00      0.00

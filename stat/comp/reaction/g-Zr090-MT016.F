@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  40  90  0  -1 M0741009 D.BRAJNIK,D.JA  1976    10 40-ZR-90(G,2N)40-ZR-88,,SIG,,B  1.41      1.11      59.5     0.344     T3  15.0      12.7      8.42      20.4      30.4      0.00      1.49      1.12      0.00      1.40      0.00      0.00      0.00
+  40  90  0  -1 L0027013 A.Lepretre,H.B  1971    33 40-ZR-90(G,2N)40-ZR-88,,SIG     1.87      1.51      10.3     0.226     T2  15.8      11.2      36.0      21.6      25.9      0.00      2.26      1.58      0.00      1.68      0.00      0.00      0.00

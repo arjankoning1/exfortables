@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  50   0  0  -1 M0615005 V.Muccifora,N.  1999     0 50-SN-0(G,ABS),,SIG,,DMN        0.00      0.00      0.00      0.00         0.00     0.145      3.57      530.     2.590E+03  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  50   0  0  -1 M0947005 P.Carlos,H.Bei  1984     0 50-SN-0(G,ABS),,SIG,,FCT        0.00      0.00      0.00      0.00         0.00     0.325      7.58      235.      330.      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

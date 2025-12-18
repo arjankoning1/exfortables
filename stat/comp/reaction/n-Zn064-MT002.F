@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  30  64  0  -1 40531104 I.A.Korzh, V.A  1975     4 30-ZN-64(N,EL)30-ZN-64,,SIG     1.14      1.06      2.27     0.263     T1 2.303E+03 2.160E+03  9.32      1.50      3.00      0.00      1.17      1.12      1.16      1.12      1.12      0.00      0.00

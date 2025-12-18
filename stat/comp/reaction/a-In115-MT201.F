@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  49 115  0  -1 A0101013 N.S.Biryukov,B  1980     1 49-IN-115(A,X)0-NN-1,,SIG       1.01     0.989     0.171     0.416     T1 4.941E+03 5.110E+03  8.02      45.2      45.2      0.00      1.01      0.00      0.00      0.00      0.00      0.00      0.00

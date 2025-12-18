@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   3   7  0  -1 G0011002 S.Karataglidis  1989    29 3-LI-7(G,N)3-LI-6,,SIG          6.21     0.332      69.9     0.209     T3 5.924E-02 7.319E-02  32.4      7.00      8.75      0.00      12.5      1.19      0.00      1.19      0.00      0.00      0.00

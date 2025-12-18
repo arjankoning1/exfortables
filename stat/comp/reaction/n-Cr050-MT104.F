@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  24  50  0  -1 10827007 S.M.Grimes,R.C  1979     1 24-CR-50(N,D)23-V-49,,SIG       1.24     0.906     0.638     0.486     T1  11.1      12.0      33.3      14.8      14.8      0.00      1.04      1.38      1.38      1.12      0.00      1.00      0.00
+  24  50  0  -1 10827006 S.M.Grimes,R.C  1979    11 24-CR-50(N,D)23-V-49,PAR,SIG    12.7      11.4     1.863E+03 3.782E-04 T2  11.1      1.13      34.6      14.8      14.8      0.00      15.8      8.92      8.92      17.2      0.00      14.0      0.00

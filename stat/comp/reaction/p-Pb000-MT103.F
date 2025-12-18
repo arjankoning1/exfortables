@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  82   0  0  -1 A0862002 M.Zamani, S.St  2010     0 82-PB-0(P,INL)82-PB-0,,SIG      0.00      0.00      0.00      0.00         0.00     1.683E+03  7.86     1.000E+03 2.000E+03  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  82   0  0  -1 O2097006 N.E.Booth, B.L  1957     0 82-PB-0(P,INL)82-PB-0,,SIG      0.00      0.00      0.00      0.00         0.00     1.660E+03  3.01      900.      900.      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  90 232  0  -1 F0378002 M.F.Andreev,V.  1998     0 90-TH-232(T,F),,SIG             0.00      0.00      0.00      0.00         0.00      157.      14.0      8.64      13.4      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

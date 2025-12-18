@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  62 147  0  -1 E2172003 K.Katoh, H.Miy  2002    12 62-SM-147(P,2N)63-EU-146,,SIG   1.25      1.11      30.3     0.143     T1  562.      532.      5.00      11.1      18.0      0.00      1.25      0.00      0.00      0.00      0.00      0.00      0.00

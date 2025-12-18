@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  24  50  0  -1 A0048002 G.A.Krivonosov  1977    38 24-CR-50(P,G)25-MN-51,,SIG      2.36     0.666      89.6     0.277     T3 0.119     0.123      10.1     0.540      3.00      0.00      2.72      0.00      0.00      1.93      0.00      0.00      0.00
+  24  50  0  -1 C1111003 M.Rios,B.D.And  1974    33 24-CR-50(P,G)25-MN-51,,SIG      2.49      1.78      113.     0.234     T3 0.237     0.122      19.9     0.760      4.19      0.00      1.87      0.00      0.00      3.10      0.00      0.00      0.00

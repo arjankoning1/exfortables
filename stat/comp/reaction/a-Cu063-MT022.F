@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  29  63  0  -1 D6021024 A.Navin, V.Tri  2004     4 29-CU-63(A,X)29-CU-62,,SIG      1.57      1.35      5.15     0.244     T1  88.8      93.0      8.58      21.0      34.0      0.00      1.57      0.00      0.00      0.00      0.00      0.00      0.00
+  29  63  0  -1 B0156008 N.T.Porile, D.  1959     4 29-CU-63(A,X)29-CU-62,,SIG      5.50      3.51     4.423E+03 5.008E-02 T1  85.5      126.      12.0      21.0      40.1      0.00      5.50      0.00      0.00      0.00      0.00      0.00      0.00

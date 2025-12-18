@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  26  58  0  -1 41320003 L.I.KLOCHKOVA,  1981     1 26-FE-58(N,N+P)25-MN-57,,SIG    298.     3.406E-03  20.1     1.788E-07 R2 0.101      27.0      22.2      14.1      14.1      0.00      185.      0.00      383.      384.      167.      482.      0.00

@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  82 208  0  -1 C2280004 F.N.Spiess      1954     5 82-PB-208(A,P)83-BI-211,,SIG    11.8     8.804E-02  0.00     1.073E-07 T2 0.115     0.886      0.00      23.0      39.0      0.00      11.8      0.00      0.00      0.00      0.00      0.00      0.00

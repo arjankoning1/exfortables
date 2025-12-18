@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  51 121  0  -1 C0092004 Jong Hwa Yi, D  1992    10 51-SB-121(P,4N)52-TE-118,,SIG   1.35      1.10      27.0     0.310     T1  327.      321.      16.6      33.8      45.5      0.00      1.46      0.00      0.00      1.21      0.00      0.00      0.00
+  51 121  0  -1 F1461027 S.V.Ermolaev,B  2020    17 51-SB-121(P,4N)52-TE-118,,SIG   1.55     0.954      7.04     0.267     T1  145.      153.      19.2      32.0      88.0      0.00      1.56      0.00      0.00      1.53      0.00      0.00      0.00

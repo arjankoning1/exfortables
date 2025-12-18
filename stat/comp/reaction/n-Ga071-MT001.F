@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  31  71  0  -1 21953011 L.KOESTER,K.KN  1984     1 31-GA-71(N,TOT),,SIG            1.12      1.08      8.27     0.287     T1 6.278E+03 5.740E+03  4.36     1.260E-06 1.260E-06  0.00      1.20      1.01      1.20      1.01      1.01      0.00      0.00
+  31  71  0  -1 118040054R.R.PALMER,L.M  1956     3 31-GA-71(N,TOT),,SIG,,RES       9.95     0.114      656.     4.343E-02 T2 5.044E+05 3.367E+06  14.2     9.500E-05 3.800E-04  0.00      12.0      8.68      12.0      8.69      8.68      0.00      0.00

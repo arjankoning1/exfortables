@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  28  58  0  -1 S0016002 Zhu Fuying, Ta  1983     0 28-NI-58(D,A)27-CO-56,,SIG      0.00      0.00      0.00      0.00         0.00      39.3      6.58      5.40      14.3      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  28  58  0  -1 C0705004 M.BLANN,G.MERK  1963     0 28-NI-58(D,A)27-CO-56,,SIG      0.00      0.00      0.00      0.00         0.00      44.9      15.0      6.30      24.0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

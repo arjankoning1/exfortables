@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   8  16  0  -1 40715004 O.D.BRILL,N.A.  1961     9 8-O-16(N,2N)8-O-15,,SIG         1.57      1.24      14.7     0.337     T2  10.9      9.17      25.9      17.7      37.5      0.00      1.69      1.21      1.21      1.37      1.09      2.22      0.00
+   8  16  0  -1 23105005 H.Yashima, K.T  2004     6 8-O-16(N,2N)8-O-15,,SIG         1.97     0.716      3.42     0.103     T2  13.0      19.9      32.2      27.0      66.0      0.00      2.25      1.87      1.87      1.65      0.00      2.05      0.00

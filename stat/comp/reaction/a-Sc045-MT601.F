@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  21  45  0  -1 F0527003 V.Y.Hansper, C  1989     0 21-SC-45(A,P)22-TI-48,PAR,SIG   0.00      0.00      0.00      0.00         0.00      1.15      7.89      4.41      9.13      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

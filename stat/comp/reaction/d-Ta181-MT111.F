@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  73 181  0  -1 D4409012 A.Hermanne,F.T  2020     0 73-TA-181(D,2P)72-HF-181,,SIG   0.00      0.00      0.00      0.00         0.00     0.492      14.7      29.5      48.6      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  73 181  0  -1 A0283007 J.Bisplinghoff  1974     0 73-TA-181(D,2P)72-HF-181,,SIG   0.00      0.00      0.00      0.00         0.00      1.45      30.0      37.8      79.2      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

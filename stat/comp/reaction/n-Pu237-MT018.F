@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  94 237  0  -1 14047004 E.K.Hulet,H.I.  1961     1 94-PU-237(N,F),,SIG             1.48     0.831      0.00     0.442     T1 1.928E+06 2.200E+06  0.00     2.500E-08 2.500E-08  0.00      1.79      1.04      2.11      1.04      1.07      1.08      0.00

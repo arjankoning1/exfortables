@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  34  80  0  -1 40859008 I.A.KORZH,V.P.  1983    10 34-SE-80(N,INL)34-SE-80,PAR,SI  1.55     0.706      25.7     0.146     T1  634.      868.      7.12      1.10      5.00      0.00      1.30      2.13      1.30      1.28      0.00      0.00      0.00
+  34  80  0  -1 20426017 J.Lachkar, M.T  1976     1 34-SE-80(N,INL)34-SE-80,PAR,SI  12.4     0.219      6.79     5.141E-02 T2  100.      202.      22.2      8.00      8.00      0.00      1.46      149.      1.46      1.37      0.00      0.00      0.00

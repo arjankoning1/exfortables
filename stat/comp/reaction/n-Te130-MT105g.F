@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  52 130  0   0 10806011 T.W.Woo,G.N.Sa  1979     1 52-TE-130(N,T)51-SB-128-G,,SIG  1.00      1.00     2.831E-03 0.498     T1 2.400E-02 2.358E-02  33.2      14.6      14.6      0.00      0.00      0.00      0.00      0.00      0.00      1.00      0.00

@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  40  91  0   1 10835011 S.Sothras       1977     1 40-ZR-91(N,2N)40-ZR-90-M,,SIG   1.07     0.954     0.912     0.322     R1  693.      734.      9.54      14.8      14.8      0.00      1.10      0.00      1.10      1.01      0.00      1.02      0.00
+  40  91  0   1 21770003 S.Amemiya,V.N.  1981     1 40-ZR-91(N,2N)40-ZR-90-M,,SIG   1.10     0.936      1.55     0.285     T1  693.      745.      7.99      14.8      14.8      0.00      1.14      0.00      1.14      1.03      0.00      1.02      0.00

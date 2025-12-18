@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  20  40  0  -1 T0156004 J.A.McGill,G.W  1984     0 20-CA-40(P,X)1-H-1,,SIG         0.00      0.00      0.00      0.00         0.00      574.      4.70      800.      800.      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

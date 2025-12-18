@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  75 185  0   1 22428010 H.Sakane, T.Ii  1998     2 75-RE-185(N,P)74-W-185-M,,SIG   1.73     0.798      1.76     0.393     T2  1.19      1.39      40.7      13.4      14.9      0.00      2.00      0.00      2.00      1.01      0.00      1.62      0.00
+  75 185  0   1 10835023 S.Sothras       1977     1 75-RE-185(N,P)74-W-185-M,,SIG   52.1     2.008E-02  102.     3.576E-07 R2  1.48      62.0      9.68      14.8      14.8      0.00      87.7      0.00      87.7      36.0      0.00      22.2      0.00

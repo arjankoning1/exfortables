@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  65 159  0   1 D4370008 F.Tarkanyi,A.H  2017    13 65-TB-159(P,X)65-TB-156-M1,,SI  3.22     0.324      13.5     0.221     T2  6.83      22.6      22.1      45.3      64.9      0.00      3.22      0.00      0.00      0.00      0.00      0.00      0.00

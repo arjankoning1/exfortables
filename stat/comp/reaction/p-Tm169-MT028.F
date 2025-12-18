@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  69 169  0  -1 D4259005 F.Tarkanyi,A.H  2012     4 69-TM-169(P,X)69-TM-168,,SIG    1.31     0.809      4.03     0.138     T1  97.6      161.      12.0      24.5      35.8      0.00      1.31      0.00      0.00      0.00      0.00      0.00      0.00
+  69 169  0  -1 E2654003 M.Saito, M.Aik  2020     8 69-TM-169(P,X)69-TM-168,,SIG    22.1     4.744E-02  66.3     1.416E-07 T2 0.643      7.69      11.7      12.5      17.5      0.00      22.1      0.00      0.00      0.00      0.00      0.00      0.00

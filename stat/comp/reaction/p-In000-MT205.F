@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  49   0  0  -1 E1854007 M.Noguchi, T.M  1991     0 49-IN-0(P,X)1-H-3,,SIG          0.00      0.00      0.00      0.00         0.00      288.      13.9     1.200E+04 1.200E+04  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

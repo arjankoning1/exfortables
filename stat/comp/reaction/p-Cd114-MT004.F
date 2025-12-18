@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  48 114  0  -1 A0129004 S.N.Abramovich  1975   142 48-CD-114(P,N)49-IN-114,,SIG    1.04     0.985     0.147     8.292E-02 T1  285.      295.      15.0      7.00      8.23      0.00      1.04      0.00      0.00      0.00      0.00      0.00      0.00
+  48 114  0  -1 F1108015 R.L.Bramblett,  1960     1 48-CD-114(P,N)49-IN-114,,SIG    1.52      1.52      27.0     0.284     T2  48.6      32.0      10.0      5.30      5.30      0.00      1.52      0.00      0.00      0.00      0.00      0.00      0.00

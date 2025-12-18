@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  49 113  0   1 D6292005 P.T.Muhammed S  2018     3 49-IN-113(P,INL)49-IN-113-M,,S  2.72      1.69      428.     0.257     T2  10.8      3.78      12.4      8.61      17.7      0.00      2.72      0.00      0.00      0.00      0.00      0.00      0.00
+  49 113  0   1 D0949002 E.K.Elmaghraby  2019    13 49-IN-113(P,INL)49-IN-113-M,,S  3.24     0.445      22.2     0.212     T2  5.91      8.14      11.3      2.94      14.2      0.00      3.24      0.00      0.00      0.00      0.00      0.00      0.00

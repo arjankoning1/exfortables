@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  44 101  0  -1 O1363003 Ye.Skakun, S.M  2004     5 44-RU-101(A,2N)46-PD-103,,SIG   1.29      1.13      1.92     0.158     T2  573.      592.      8.94      15.4      23.1      0.00      1.29      0.00      0.00      0.00      0.00      0.00      0.00
+  44 101  0  -1 D5057003 Ye.Skakun, S.M  2008     5 44-RU-101(A,2N)46-PD-103,,SIG   1.42      1.20      11.5     0.172     T2  584.      593.      12.2      15.5      23.1      0.00      1.42      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  24  52  0  -1 40047016 Ju.G.Degtjarev  1967     3 24-CR-52(N,INL)24-CR-52,PAR,SI  2.98     0.598      7.05     0.177     T1  112.      189.      26.6      2.96      3.76      0.00      3.00      3.24      3.24      2.59      2.80      0.00      0.00

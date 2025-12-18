@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  72 180  0  -1 D4233008 S.Takacs, F.Ta  2010     0 72-HF-180(D,P)72-HF-181,,SIG    0.00      0.00      0.00      0.00         0.00      127.      12.5      2.70      20.6      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

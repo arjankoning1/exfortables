@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  68   0  0  -1 L0015017 R.Bergere, H.B  1969    23 68-ER-0(G,3N),,SIG              1.53      1.09      1.49     0.265     T1  10.6      7.39      111.      20.3      27.7      0.00      1.81      1.48      0.00      1.19      0.00      0.00      0.00

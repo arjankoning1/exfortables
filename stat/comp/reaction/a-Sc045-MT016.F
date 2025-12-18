@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  21  45  0  -1 D4105013 K.L.Chen, J.M.  1964    19 21-SC-45(A,2N)23-V-47,,SIG      1.32     0.863      11.6     0.294     T2  97.5      122.      7.14      14.7      39.9      0.00      1.32      0.00      0.00      0.00      0.00      0.00      0.00

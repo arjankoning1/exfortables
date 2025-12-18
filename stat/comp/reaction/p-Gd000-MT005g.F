@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  64   0  0   0 O0908003 Yu.T.Mironov    2001     3 64-GD-0(P,X)65-TB-149-G,,SIG    2.52     0.443      20.9     8.146E-02 T1  3.44      3.12      12.7      60.0     1.000E+03  0.00      2.52      0.00      0.00      0.00      0.00      0.00      0.00
+  64   0  0   0 O2515003 R.Formento-Cav  2020    10 64-GD-0(P,X)65-TB-150-G,,SIG    11.5     8.721E-02  78.4     1.371E-07 T2  2.12      24.6      10.3      58.2      69.8      0.00      11.5      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  56 134  0   1 31421007 Lu Hanlin,Zhao  1992     2 56-BA-134(N,A)54-XE-131-M,,SIG  35.2     3.007E-02  571.     8.941E-08 R2  4.37      127.      4.19      17.0      18.0      0.00      23.2      0.00      19.2      83.2      0.00      34.6      0.00

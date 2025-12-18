@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  20  40  0  -1 22611002 V.H.BRAUN,W.SC  1968     0 20-CA-40(N,2N)20-CA-39,,SIG     0.00      0.00      0.00      0.00         0.00      8.00      25.0      14.7      14.7      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  20  40  0  -1 11520008 D.M.ARNOLD,L.A  1965     7 20-CA-40(N,2N)20-CA-39,,SIG     29.8     4.908E-02  32.9     0.139     R2  2.48      12.3      15.8      16.4      17.9      0.00      94.1      18.5      16.6      35.6      81.2      1.24      0.00

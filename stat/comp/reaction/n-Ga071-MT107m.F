@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  31  71  0   1 22363004 K.Yamauchi, Y.  1994     6 31-GA-71(N,A)29-CU-68-M,,SIG    1.38      1.26      4.09     0.328     R1  1.92      1.50      20.7      13.4      14.9      0.00      1.53      0.00      1.53      1.23      0.00      1.08      0.00
+  31  71  0   1 22434009 Y.Kasugai,H.Ya  1998     1 31-GA-71(N,A)29-CU-68-M,,SIG    1.55      1.43      4.28     0.159     R1  2.27      1.50      29.0      14.8      14.8      0.00      1.81      0.00      1.81      1.27      0.00      1.01      0.00

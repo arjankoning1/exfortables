@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+   3   7  0  -1 11024010 A.H.Armstrong,  1964     1 3-LI-7(N,X)0-NN-1,,SIG          4.59     0.235      36.3     0.225     R3  412.     1.610E+03  12.4      14.1      14.1      0.00      11.0      3.42      3.42      3.20      3.42      0.00      0.00
+   3   7  0  -1 12928004 M.Drosg,P.W.Li  1988     1 3-LI-7(N,X)0-NN-1,,SIG          4.87     0.221      528.     0.101     R3  412.     1.710E+03  3.32      14.1      14.1      0.00      11.6      3.63      3.63      3.40      3.63      0.00      0.00

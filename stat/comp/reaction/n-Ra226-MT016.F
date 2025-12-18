@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  88 226  0  -1 21405002 L.P.O'CONNOR,J  1960     1 88-RA-226(N,2N)88-RA-225,,SIG   2.02     0.617      12.0     0.126     R2 1.090E+03 1.600E+03  12.5      14.5      14.5      0.00      1.00      3.01      1.00      3.01      0.00      1.23      0.00

@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  50 124  0   1 C0710006 R.L.HAHN,J.M.M  1961     4 50-SN-124(A,N+P)51-SB-126-M,,S  9.75     0.253      0.00     6.028E-02 T2  1.80      8.09      0.00      16.5      42.0      0.00      9.75      0.00      0.00      0.00      0.00      0.00      0.00

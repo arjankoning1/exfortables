@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  92 235  0  -1 10795003 L.R.Veeser,E.D  1978     2 92-U-235(N,4N)92-U-232,,SIG     4.54     0.448      1.72     0.257     T2  27.1      58.5      71.4      20.0      21.0      0.00      1.16      26.1      1.46      1.71      0.00      1.79      0.00

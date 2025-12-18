@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  52 124  0  -1 B0071008 D.J.Reuland, A  1969     0 52-TE-124(P,N)53-I-124,,SIG     0.00      0.00      0.00      0.00         0.00      1.30      18.0      400.      400.      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  52 124  0  -1 D4019002 B.Scholten,Z.K  1995    21 52-TE-124(P,N)53-I-124,,SIG     1.54      1.49      18.0     0.201     T2  236.      170.      14.9      5.80      31.2      0.00      1.49      0.00      0.00      1.60      0.00      0.00      0.00

@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  20  40  0  -1 30818003 Z.T.Body,F.Cse  1982     1 20-CA-40(N,T)19-K-38,,SIG       2.51     0.398      2.77     4.768E-07 T2 1.169E-03 3.500E-03  40.0      14.7      14.7      0.00      0.00      0.00      0.00      0.00      2.51      0.00      0.00
+  20  40  0  -1 31316010 C.S.Khurana, I  1965     1 20-CA-40(N,T)19-K-38,,SIG      1.134E+04 8.821E-05  25.0     5.364E-07 R2 1.753E-03  20.0      20.0      14.8      14.8      0.00      0.00      0.00      0.00      0.00     1.134E+04  0.00      0.00

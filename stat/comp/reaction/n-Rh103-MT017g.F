@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  45 103  0   0 14461019 N.Fotiades,M.D  2016     7 45-RH-103(N,3N)45-RH-101-G,,SI  1.79     0.888     1.380E+03 0.205     T1  128.      168.      5.78      18.0      33.3      0.00      1.61      0.00      1.61      2.16      0.00      1.76      0.00

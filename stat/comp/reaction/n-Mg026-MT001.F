@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  12  26  0  -1 11452007 H.W.NEWSON,R.C  1959    32 12-MG-26(N,TOT),,SIG            1.66     0.979      0.00     0.205     T2 5.210E+03 4.781E+03  0.00     1.500E-02 0.370      0.00      2.11      1.50      1.62      1.50      1.50      0.00      0.00

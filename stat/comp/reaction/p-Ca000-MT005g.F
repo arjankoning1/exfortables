@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  20   0  0   0 O0276022 R.Michel, R.Bo  1997     0 20-CA-0(P,X)13-AL-26-G,,SIG     0.00      0.00      0.00      0.00         0.00      5.98      14.4      243.     1.200E+03  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  20   0  0   0 B0115002 J.M.Sisterson,  1978    15 20-CA-0(P,X)19-K-38-G,,SIG      4.00     0.998      95.7     0.224     T2  63.6      43.2      5.58      21.2      156.      0.00      4.00      0.00      0.00      0.00      0.00      0.00      0.00

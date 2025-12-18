@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  95 242  0  -1 22941022 A.Letourneau,   2009     0 95-AM-242(N,F),,SIG             0.00      0.00      0.00      0.00         0.00     2.472E+06  11.4     2.530E-08 2.530E-08  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  95 242  0  -1 40062004 M.A.Bak, A.S.K  1967     0 95-AM-242(N,F),,SIG             0.00      0.00      0.00      0.00         0.00     2.100E+06  9.52     2.000E-07 2.000E-07  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

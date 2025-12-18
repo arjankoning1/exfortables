@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  92 238  0  -1 40966014 A.A.Filatenkov  1988     1 92-U-238(N,INL)92-U-238,PAR,SI  13.8     7.505E-02  10.0     1.192E-07 T2  25.1      310.      29.0      3.00      3.00      0.00      11.4      11.4      16.1      7.21      27.6      0.00      0.00

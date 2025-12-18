@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  40  96  0  -1 A0510500 V.N.Levkovski   1991     4 40-ZR-96(A,X)40-ZR-95,,SIG      1.46      1.44      15.6     5.911E-02 T1  38.7      49.5      12.2      27.9      46.1      0.00      1.46      0.00      0.00      0.00      0.00      0.00      0.00
+  40  96  0  -1 A0204013 D.P.Chowdhury,  1995     4 40-ZR-96(A,N+A)40-ZR-95,,SIG    3.65     0.600      32.3     0.179     T1  9.58      6.53      14.7      19.5      27.6      0.00      3.65      0.00      0.00      0.00      0.00      0.00      0.00

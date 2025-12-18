@@ -1,0 +1,2 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  42  96  0  -1 K2433004 H.Utsunomiya,   2013     7 42-MO-96(G,N)42-MO-95,,SIG      1.43      1.00      33.9     0.288     T1  24.4      21.8      5.89      9.38      11.7      0.00      1.55      1.10      0.00      1.10      0.00      0.00      0.00

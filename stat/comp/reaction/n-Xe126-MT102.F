@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  54 126  0  -1 20630005 M.Bresesti,F.C  1965     1 54-XE-126(N,G)54-XE-127,,SIG    1.32      1.22      12.2     0.347     R1 3.193E+03 2.594E+03  10.0     2.530E-08 2.530E-08  0.00      1.03      1.33      1.03      1.63      0.00      1.31      0.00
+  54 126  0  -1 01054126 Kadonis         2024    20                                 1.49      1.26      16.0     0.319     R1  406.      306.      14.1     5.000E-03 0.100      0.00      1.00      2.06      1.00      1.66      0.00      1.09      0.00

@@ -1,0 +1,3 @@
+# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
+  47   0  0  -1 T0130018 R.D.ALBERT      1959     7 47-AG-0(P,N),,SIG               1.32      1.14      5.86     0.293     T1  99.9      74.6      15.0      3.60      8.10      0.00      1.38      0.00      0.00      1.26      0.00      0.00      0.00
+  47   0  0  -1 C0775006 C.H.Johnson,R.  1968     9 47-AG-0(P,N),,SIG               1.55      1.20      0.00     0.373     T2  21.5      19.5      0.00      2.75      6.00      0.00      1.72      0.00      0.00      1.35      0.00      0.00      0.00
