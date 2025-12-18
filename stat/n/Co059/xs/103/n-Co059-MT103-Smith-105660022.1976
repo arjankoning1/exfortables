@@ -1,0 +1,68 @@
+# header: 
+#   title: Co59(n,p)Fe59 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Smith
+#   year: 1976
+#   subentry: 105660022
+#   X4 reaction: 27-CO-59(N,P)26-FE-59,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/105660022
+# target: 
+#   Z: 27
+#   A: 59
+#   nuclide: Co59
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 26
+#     A: 59
+#     nuclide: Fe59
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 13
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.569000E+00   3.230000E-01   1.020000E-01   6.000000E-03   1.000000E+00
+   2.974000E+00   3.430000E-01   3.500000E-01   2.100000E-02   1.000000E+00
+   3.372000E+00   3.640000E-01   1.100000E+00   7.000000E-02   1.000000E+00
+   3.744000E+00   3.840000E-01   2.280000E+00   1.400000E-01   1.000000E+00
+   3.749000E+00   1.510000E-01   2.520000E+00   1.500000E-01   1.000000E+00
+   3.948000E+00   1.520000E-01   3.360000E+00   2.000000E-01   1.000000E+00
+   3.983000E+00   8.200000E-02   3.400000E+00   2.000000E-01   1.000000E+00
+   3.993000E+00   3.980000E-01   3.400000E+00   2.000000E-01   1.000000E+00
+   4.165000E+00   1.120000E-01   4.080000E+00   2.500000E-01   1.000000E+00
+   4.210000E+00   4.100000E-01   4.710000E+00   2.800000E-01   1.000000E+00
+   4.451000E+00   4.230000E-01   5.580000E+00   3.400000E-01   1.000000E+00
+   4.671000E+00   4.360000E-01   7.630000E+00   4.600000E-01   1.000000E+00
+   4.911000E+00   4.500000E-01   9.639999E+00   5.800000E-01   1.000000E+00
+# reference:
+#   author: D.L.Smith,J.W.Meadows
+#   title: Measurement of Cross Sections for the 59Co(n,p)59Fe  Reaction Near Threshold
+#   journal: Jour: Nuclear Science and Engineering, Vol.60, p.187 (1976)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  2.569000E+00
+#   E-max [MeV]:  4.911000E+00
+#   F-value:  1.109553E+00
+#   A-value:  9.490538E-01
+#   chi-2:  2.823317E+00
+#   p-value:  3.027398E-01
+#   exp. data sets for p-value:      2
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.105460E+00   9.206405E-01   2.853384E+00
+# endfb8.1      1.109631E+00   9.169716E-01   3.012822E+00
+# jeff4.0       1.161852E+00   9.749108E-01   4.556650E+00
+# jendl5.0      1.069091E+00   1.020349E+00   1.767405E+00
+# cendl3.2      1.131456E+00   9.139665E-01   3.780944E+00
+# eaf.2010      1.042499E+00   9.853516E-01   7.790518E-01
+# irdff2.0      1.109634E+00   9.169690E-01   3.012960E+00

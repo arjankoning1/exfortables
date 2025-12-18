@@ -1,0 +1,58 @@
+# header: 
+#   title: Os188(n,p)Re188 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Filatenkov
+#   year: 2016
+#   subentry: 41614203
+#   X4 reaction: 76-OS-188(N,P)75-RE-188,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/41614203
+# target: 
+#   Z: 76
+#   A: 188
+#   nuclide: Os188
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 75
+#     A: 188
+#     nuclide: Re188
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.364000E+01   0.000000E+00   2.912400E+00   3.319900E-01   1.007749E+00
+   1.388000E+01   0.000000E+00   3.406220E+00   3.814800E-01   1.007758E+00
+   1.447000E+01   0.000000E+00   4.796800E+00   5.420600E-01   1.007740E+00
+   1.468000E+01   0.000000E+00   5.159600E+00   5.727400E-01   1.007738E+00
+   1.482000E+01   0.000000E+00   5.653510E+00   6.049400E-01   1.007756E+00
+# reference:
+#   author: A.A.Filatenkov
+#   title: Neutron activation cross sections measured at KRI in neutron energy region 13.4 - 14.9 MeV
+#   journal: Rept: USSR report to the I.N.D.C., No.0460 (2016)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.364000E+01
+#   E-max [MeV]:  1.482000E+01
+#   F-value:  1.109324E+00
+#   A-value:  9.331915E-01
+#   chi-2:  1.038236E+00
+#   p-value:  3.353830E-01
+#   exp. data sets for p-value:      3
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2025    1.176012E+00   8.527237E-01   2.348055E+00
+# endfb8.1      1.008455E+00   1.000797E+00   7.558011E-02
+# jeff4.0       1.176012E+00   8.527237E-01   2.348055E+00
+# jendl5.0      1.008455E+00   1.000797E+00   7.558011E-02
+# eaf.2010      1.033850E+00   9.717302E-01   3.439110E-01

@@ -1,0 +1,64 @@
+# header: 
+#   title: Sn112(n,2n)Sn111 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Bormann
+#   year: 1968
+#   subentry: 20834010
+#   X4 reaction: 50-SN-112(N,2N)50-SN-111,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20834010
+# target: 
+#   Z: 50
+#   A: 112
+#   nuclide: Sn112
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 50
+#     A: 111
+#     nuclide: Sn111
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.278000E+01   1.100000E-01   7.240000E+02   8.200000E+01   1.000000E+00
+   1.344000E+01   1.300000E-01   9.980001E+02   1.100000E+02   1.000000E+00
+   1.411000E+01   1.500000E-01   1.110000E+03   1.270000E+02   1.000000E+00
+   1.487000E+01   1.700000E-01   1.217000E+03   1.380000E+02   1.000000E+00
+   1.552000E+01   1.700000E-01   1.253000E+03   1.410000E+02   1.000000E+00
+   1.618000E+01   1.800000E-01   1.256000E+03   1.410000E+02   1.000000E+00
+   1.685000E+01   1.800000E-01   1.255000E+03   1.390000E+02   1.000000E+00
+   1.778000E+01   1.700000E-01   1.205000E+03   1.350000E+02   1.000000E+00
+   1.856000E+01   1.500000E-01   1.164000E+03   1.310000E+02   1.000000E+00
+   1.942000E+01   1.200000E-01   1.138000E+03   1.280000E+02   1.000000E+00
+# reference:
+#   author: M.Bormann,A.Behrend,I.Riehle,O.Vogel
+#   title: Measurement of (n,2n) excitation functions
+#   journal: Jour: Nuclear Physics, Section A, Vol.115, p.309 (1968)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.278000E+01
+#   E-max [MeV]:  1.942000E+01
+#   F-value:  1.033163E+00
+#   A-value:  9.928784E-01
+#   chi-2:  2.448265E-01
+#   p-value:  4.229459E-01
+#   exp. data sets for p-value:      3
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.021669E+00   9.996171E-01   1.840653E-01
+# endfb8.1      1.041723E+00   9.784040E-01   3.471836E-01
+# jeff4.0       1.021669E+00   9.996171E-01   1.840653E-01
+# jendl5.0      1.025753E+00   9.867868E-01   1.627222E-01
+# cendl3.2      1.039165E+00   1.014996E+00   2.432951E-01
+# eaf.2010      1.041764E+00   9.783700E-01   3.476273E-01

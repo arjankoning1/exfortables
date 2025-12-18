@@ -1,0 +1,53 @@
+# header: 
+#   title: Te128(n,x)Sb127 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Sakane
+#   year: 2000
+#   subentry: 22468005
+#   X4 reaction: 52-TE-128(N,X)51-SB-127,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22468005
+# target: 
+#   Z: 52
+#   A: 128
+#   nuclide: Te128
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 28
+#   residual: 
+#     Z: 51
+#     A: 127
+#     nuclide: Sb127
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.435000E+01   0.000000E+00   2.983700E-01   8.951100E-02   9.945652E-01
+   1.487000E+01   0.000000E+00   6.962000E-01   4.455700E-01   9.945652E-01
+# reference:
+#   author: H.Sakane, M.Shibata, K.Kawade, Y.Kasugai, Y.Ikeda
+#   title: Systematics of (n,n'p) reaction cross sections  by 14 MeV neutrons
+#   journal: Conf: Japanese report to the I.N.D.C., No.185, p.202 (2000)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  1.435000E+01
+#   E-max [MeV]:  1.487000E+01
+#   F-value:  2.762374E+00
+#   A-value:  4.256415E-01
+#   chi-2:  2.892820E+00
+#   p-value:  3.219797E-01
+#   exp. data sets for p-value:      3
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    3.452646E+00   2.997716E-01   4.136588E+00
+# jeff4.0       3.452646E+00   2.997716E-01   4.136588E+00
+# jendl5.0      1.176344E+00   8.581258E-01   4.052857E-01

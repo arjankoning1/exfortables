@@ -1,0 +1,61 @@
+# header: 
+#   title: Rh103(n,x)Rh102m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Filatenkov
+#   year: 2016
+#   subentry: 41614086
+#   X4 reaction: 45-RH-103(N,2N)45-RH-102-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/41614086
+# target: 
+#   Z: 45
+#   A: 103
+#   nuclide: Rh103
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 45
+#     A: 102
+#     nuclide: Rh102m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.368000E+01   0.000000E+00   5.749962E+02   2.723928E+01   9.999934E-01
+   1.388000E+01   0.000000E+00   5.790062E+02   2.732329E+01   1.000010E+00
+   1.405000E+01   0.000000E+00   6.330048E+02   3.816978E+01   1.000008E+00
+   1.447000E+01   0.000000E+00   6.169958E+02   2.900281E+01   9.999934E-01
+   1.486000E+01   0.000000E+00   6.520028E+02   3.124341E+01   1.000004E+00
+# reference:
+#   author: A.A.Filatenkov
+#   title: Neutron activation cross sections measured at KRI in neutron energy region 13.4 - 14.9 MeV
+#   journal: Rept: USSR report to the I.N.D.C., No.0460 (2016)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.368000E+01
+#   E-max [MeV]:  1.486000E+01
+#   F-value:  1.405291E+00
+#   A-value:  7.569208E-01
+#   chi-2:  3.133745E+01
+#   p-value:  2.015430E-01
+#   exp. data sets for p-value:      2
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.516791E+00   6.598278E-01   4.690884E+01
+# jeff4.0       1.516791E+00   6.598278E-01   4.690884E+01
+# jendl5.0      1.013965E+00   9.960705E-01   1.946663E-01

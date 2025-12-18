@@ -1,0 +1,55 @@
+# header: 
+#   title: Se76(n,p)As76 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Ivanenko
+#   year: 1969
+#   subentry: 40227003
+#   X4 reaction: 34-SE-76(N,P)33-AS-76,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/40227003
+# target: 
+#   Z: 34
+#   A: 76
+#   nuclide: Se76
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 33
+#     A: 76
+#     nuclide: As76
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.470000E+01   0.000000E+00   5.700000E+01   8.000000E+00   1.000000E+00
+# reference:
+#   author: V.V.Ivanenko, K.A.Petrzhak
+#   title: Cross-sections and mechanism of (n,p) reactions of selenium isotopes at the neutron energy 14.7 MeV .
+#   journal: Jour: Yadernaya Fizika, Vol.9, p.258 (1969)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.470000E+01
+#   E-max [MeV]:  1.470000E+01
+#   F-value:  1.074450E+00
+#   A-value:  1.003629E+00
+#   chi-2:  5.836670E-01
+#   p-value:  3.490306E-01
+#   exp. data sets for p-value:      8
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.041812E+00   9.598659E-01   3.812984E-01
+# endfb8.1      1.163326E+00   1.163326E+00   1.937388E+00
+# jeff4.0       1.041812E+00   9.598659E-01   3.812984E-01
+# jendl5.0      1.018462E+00   1.018462E+00   1.695379E-01
+# cendl3.2      1.000130E+00   1.000130E+00   1.157000E-03
+# eaf.2010      1.068277E+00   9.360865E-01   6.313217E-01

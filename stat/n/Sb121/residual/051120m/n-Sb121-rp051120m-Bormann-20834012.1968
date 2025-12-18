@@ -1,0 +1,66 @@
+# header: 
+#   title: Sb121(n,x)Sb120m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Bormann
+#   year: 1968
+#   subentry: 20834012
+#   X4 reaction: 51-SB-121(N,2N)51-SB-120-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20834012
+# target: 
+#   Z: 51
+#   A: 121
+#   nuclide: Sb121
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 51
+#     A: 120
+#     nuclide: Sb120m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.278000E+01   1.100000E-01   5.520000E+02   5.100000E+01   1.000000E+00
+   1.344000E+01   1.300000E-01   6.010000E+02   5.500000E+01   1.000000E+00
+   1.411000E+01   1.500000E-01   6.110001E+02   5.800000E+01   1.000000E+00
+   1.487000E+01   1.700000E-01   6.950001E+02   6.400000E+01   1.000000E+00
+   1.552000E+01   1.700000E-01   6.790000E+02   6.400000E+01   1.000000E+00
+   1.618000E+01   1.800000E-01   7.310001E+02   6.800000E+01   1.000000E+00
+   1.685000E+01   1.800000E-01   7.130001E+02   6.600001E+01   1.000000E+00
+   1.778000E+01   1.700000E-01   7.350001E+02   6.800000E+01   1.000000E+00
+   1.856000E+01   1.500000E-01   6.720001E+02   6.200000E+01   1.000000E+00
+   1.942000E+01   1.200000E-01   6.800001E+02   6.300000E+01   1.000000E+00
+# reference:
+#   author: M.Bormann,A.Behrend,I.Riehle,O.Vogel
+#   title: Measurement of (n,2n) excitation functions
+#   journal: Jour: Nuclear Physics, Section A, Vol.115, p.309 (1968)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.278000E+01
+#   E-max [MeV]:  1.942000E+01
+#   F-value:  1.438607E+00
+#   A-value:  7.125516E-01
+#   chi-2:  1.044662E+01
+#   p-value:  1.254964E-01
+#   exp. data sets for p-value:      3
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.475967E+00   6.827996E-01   1.191770E+01
+# jeff4.0       1.539047E+00   6.535498E-01   1.408717E+01
+# jendl5.0      1.275758E+00   8.107314E-01   5.334987E+00

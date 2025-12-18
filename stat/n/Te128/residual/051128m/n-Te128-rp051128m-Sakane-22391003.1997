@@ -1,0 +1,61 @@
+# header: 
+#   title: Te128(n,x)Sb128m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Sakane
+#   year: 1997
+#   subentry: 22391003
+#   X4 reaction: 52-TE-128(N,P)51-SB-128-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22391003
+# target: 
+#   Z: 52
+#   A: 128
+#   nuclide: Te128
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 51
+#     A: 128
+#     nuclide: Sb128m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.340000E+01   5.000000E-02   6.400000E-01   9.000000E-02   1.000000E+00
+   1.365000E+01   5.000000E-02   6.100000E-01   9.000000E-02   1.000000E+00
+   1.428000E+01   5.000000E-02   9.600000E-01   1.400000E-01   1.000000E+00
+   1.458000E+01   5.000000E-02   1.110000E+00   1.400000E-01   1.000000E+00
+   1.487000E+01   5.000000E-02   1.260000E+00   1.500000E-01   1.000000E+00
+# reference:
+#   author: H.Sakane,T.Iida,A.Takahashi,H.Yamamoto,K.Kawade
+#   title: Measurement of cross sections producing short-lived  nuclei by 14 MeV neutron
+#   journal: Conf: Conf.on Nucl.Data for Sci.and Techn., Trieste 1997, Vol.1, p.619 (
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.340000E+01
+#   E-max [MeV]:  1.487000E+01
+#   F-value:  1.378076E+00
+#   A-value:  1.280058E+00
+#   chi-2:  8.463598E+00
+#   p-value:  3.532727E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.479223E+00   1.470474E+00   1.251136E+01
+# jeff4.0       1.479223E+00   1.470474E+00   1.251136E+01
+# jendl5.0      1.045171E+00   9.700063E-01   3.680779E-01

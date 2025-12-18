@@ -1,0 +1,53 @@
+# header: 
+#   title: Cu0(p,x)Fe59 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Orth
+#   year: 1978
+#   subentry: O0418058
+#   X4 reaction: 29-CU-0(P,X)26-FE-59,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O0418058
+# target: 
+#   Z: 29
+#   A: 0
+#   nuclide: Cu0
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 26
+#     A: 59
+#     nuclide: Fe59
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.000000E+02   0.000000E+00   1.300000E+00   1.300000E-01   1.000000E+00
+   3.500000E+02   0.000000E+00   1.500000E+00   3.000000E-01   1.000000E+00
+# reference:
+#   author: C.J.Orth,B.J.Dropesky,R.A.Williams,G.C.Giesler,  J.Hudis
+#   title: Pion-induced spallation of copper across the (3,3) resonance.
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.18, p.1426 (1978)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  2.000000E+02
+#   E-max [MeV]:  3.500000E+02
+#   F-value:  5.147810E+00
+#   A-value:  3.085205E-01
+#   chi-2:  3.874797E+01
+#   p-value:  8.128059E-02
+#   exp. data sets for p-value:      3
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    2.139868E+00   4.673186E-01   2.837495E+01
+# endfb8.1      1.539481E+01   6.495697E-02   8.743055E+01
+# jendl5.0      1.033682E+00   9.674157E-01   4.384169E-01

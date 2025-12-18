@@ -1,0 +1,60 @@
+# header: 
+#   title: Ni60(a,x)Zn64 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Simon
+#   year: 2015
+#   subentry: C2181002
+#   X4 reaction: 28-NI-60(A,G)30-ZN-64,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C2181002
+# target: 
+#   Z: 28
+#   A: 60
+#   nuclide: Ni60
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 30
+#     A: 64
+#     nuclide: Zn64
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 11
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.351004E+00   0.000000E+00   1.100000E-02   1.300000E-03   1.000000E+00
+   5.554760E+00   0.000000E+00   1.880000E-02   2.800000E-03   1.000000E+00
+   5.758517E+00   0.000000E+00   2.980000E-02   3.800000E-03   1.000000E+00
+   5.961206E+00   0.000000E+00   4.880000E-02   7.300000E-03   1.000000E+00
+   6.162829E+00   0.000000E+00   7.150000E-02   8.800000E-03   1.000000E+00
+   6.365519E+00   0.000000E+00   9.500001E-02   1.000000E-02   1.000000E+00
+   6.568208E+00   0.000000E+00   1.270000E-01   1.900000E-02   1.000000E+00
+   6.770898E+00   0.000000E+00   1.680000E-01   2.100000E-02   1.000000E+00
+   6.973587E+00   0.000000E+00   2.240000E-01   2.700000E-02   1.000000E+00
+   7.174143E+00   0.000000E+00   2.820000E-01   4.500000E-02   1.000000E+00
+   7.376833E+00   0.000000E+00   3.640000E-01   4.900000E-02   1.000000E+00
+# reference:
+#   author: A.Simon,M.Beard,A.Spyrou,S.J.Quinn,B.Bucher,M.Couder, P.A.DeYoung,A.C.Dombos,J.Gorres,A.Kontos,A.Long, M.T.Moran,N.Paul,J.Pereira,D.Robertson,K.Smith,E.Stech, R.Talwar,W.P.Tan,M.Wiescher
+#   title: Systematic study of (alpha,gamma) reactions for stable nickel isotopes
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.92, p.025806 (2015)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  5.351004E+00
+#   E-max [MeV]:  7.376833E+00
+#   F-value:  2.031907E+00
+#   A-value:  1.907192E+00
+#   chi-2:  7.299334E+01
+#   p-value:  2.760418E-01
+#   exp. data sets for p-value:      1
+#   libraries:      1
+##  Library          F              A            chi-2
+# tendl.2025    2.031907E+00   1.907192E+00   7.299334E+01

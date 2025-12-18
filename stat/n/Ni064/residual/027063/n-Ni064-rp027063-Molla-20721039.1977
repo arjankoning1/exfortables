@@ -1,0 +1,53 @@
+# header: 
+#   title: Ni64(n,x)Co63 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Molla
+#   year: 1977
+#   subentry: 20721039
+#   X4 reaction: 28-NI-64(N,X)27-CO-63,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20721039
+# target: 
+#   Z: 28
+#   A: 64
+#   nuclide: Ni64
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 28
+#   residual: 
+#     Z: 27
+#     A: 63
+#     nuclide: Co63
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.470000E+01   3.000000E-01   1.500000E+01   1.000000E+00   1.000000E+00
+# reference:
+#   author: N.I.Molla,S.M.Qaim
+#   title: A systematic study of (n,p) reactions at 14.7 MeV
+#   journal: Jour: Nuclear Physics, Section A, Vol.283, p.269 (1977)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  1.470000E+01
+#   E-max [MeV]:  1.470000E+01
+#   F-value:  2.075700E+02
+#   A-value:  5.067778E-03
+#   chi-2:  2.221158E+02
+#   p-value:  2.384186E-07
+#   exp. data sets for p-value:      3
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    9.823473E+01   1.017970E-02   2.204425E+02
+# endfb8.1      3.059693E+02   3.268301E-03   2.235317E+02
+# jeff4.0       9.619740E+01   1.039529E-02   2.203464E+02
+# jendl5.0      5.243534E+02   1.907111E-03   2.241426E+02

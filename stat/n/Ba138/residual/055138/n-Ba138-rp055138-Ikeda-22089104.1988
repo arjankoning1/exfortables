@@ -1,0 +1,59 @@
+# header: 
+#   title: Ba138(n,x)Cs138 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Ikeda
+#   year: 1988
+#   subentry: 22089104
+#   X4 reaction: 56-BA-138(N,P)55-CS-138,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22089104
+# target: 
+#   Z: 56
+#   A: 138
+#   nuclide: Ba138
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 55
+#     A: 138
+#     nuclide: Cs138
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.335000E+01   0.000000E+00   1.602200E+00   1.179600E-01   9.829620E-01
+   1.358000E+01   0.000000E+00   1.779200E+00   1.277900E-01   9.829620E-01
+   1.376000E+01   0.000000E+00   1.700500E+00   1.474400E-01   9.829620E-01
+   1.399000E+01   0.000000E+00   2.083900E+00   1.474400E-01   9.829620E-01
+   1.423000E+01   0.000000E+00   2.192000E+00   1.671000E-01   9.829620E-01
+   1.444000E+01   0.000000E+00   2.713000E+00   1.867600E-01   9.829620E-01
+   1.469000E+01   0.000000E+00   3.076700E+00   2.162500E-01   9.829620E-01
+   1.496000E+01   0.000000E+00   3.037400E+00   2.064200E-01   9.829620E-01
+# reference:
+#   author: Y.Ikeda,C.Konno,K.Oishi,T.Nakamura,H.Miyade, K.Kawade,  H.Yamamoto, T.Katoh
+#   title: Activation cross section measurements for fusion  reactor structural materials at neutron energy from  13.3 to 15.0 MeV using FNS facility
+#   journal: Rept: JAERI Reports, No.1312 (1988)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.335000E+01
+#   E-max [MeV]:  1.496000E+01
+#   F-value:  1.157865E+00
+#   A-value:  9.944707E-01
+#   chi-2:  4.121948E+00
+#   p-value:  3.033148E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.113429E+00   1.062530E+00   2.967008E+00
+# jeff4.0       1.172615E+00   9.642877E-01   4.538524E+00
+# jendl5.0      1.180569E+00   9.599051E-01   4.860314E+00

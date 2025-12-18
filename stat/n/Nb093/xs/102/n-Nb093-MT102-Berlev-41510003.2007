@@ -1,0 +1,60 @@
+# header: 
+#   title: Nb93(n,g)Nb94 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Berlev
+#   year: 2007
+#   subentry: 41510003
+#   X4 reaction: 41-NB-93(N,G)41-NB-94,,SIG,,AV
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/41510003
+# target: 
+#   Z: 41
+#   A: 93
+#   nuclide: Nb93
+# reaction: 
+#   type: (n,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 41
+#     A: 94
+#     nuclide: Nb94
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.575000E-04   5.750000E-05   3.000000E+03   1.000000E+02   1.000000E+00
+   3.400000E-04   1.250000E-04   1.700000E+03   1.000000E+02   1.000000E+00
+   7.325000E-04   2.675000E-04   1.200000E+03   1.000000E+02   1.000000E+00
+   1.575000E-03   5.750000E-04   2.000000E+03   3.000000E+02   1.000000E+00
+   3.400000E-03   1.250000E-03   8.000000E+02   1.000000E+02   1.000000E+00
+# reference:
+#   author: A.I.Berlev, Yu.V.Grigor'ev
+#   title: REPS facility for investigation of structure of  neutron cross-sections and neutron fundamental  characteristics.
+#   journal: Rept: Inst. Nucl. Res., Russian Acad. Sci. Preprint, No.1183 (2007)
+# statistics:
+#   NEA score: T3
+#   IAEA score: -1
+#   E-min [MeV]:  1.575000E-04
+#   E-max [MeV]:  3.400000E-03
+#   F-value:  1.091885E+01
+#   A-value:  3.094553E-01
+#   chi-2:  2.149545E+02
+#   p-value:  1.208940E-01
+#   exp. data sets for p-value:      5
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.150129E+01   2.833931E-01   2.134182E+02
+# endfb8.1      1.166726E+01   3.132204E-01   2.179454E+02
+# jeff4.0       1.150115E+01   2.833994E-01   2.134184E+02
+# jendl5.0      1.142351E+01   3.187661E-01   2.166236E+02
+# cendl3.2      1.166725E+01   3.132201E-01   2.179451E+02
+# eaf.2010      7.088900E+00   3.933645E-01   2.145389E+02
+# irdff2.0      1.213383E+01   2.750617E-01   2.107916E+02

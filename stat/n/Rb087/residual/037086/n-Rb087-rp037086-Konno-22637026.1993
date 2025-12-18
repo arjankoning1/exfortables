@@ -1,0 +1,59 @@
+# header: 
+#   title: Rb87(n,x)Rb86 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Konno
+#   year: 1993
+#   subentry: 22637026
+#   X4 reaction: 37-RB-87(N,2N)37-RB-86,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22637026
+# target: 
+#   Z: 37
+#   A: 87
+#   nuclide: Rb87
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 37
+#     A: 86
+#     nuclide: Rb86
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.333000E+01   0.000000E+00   1.072761E+03   3.474469E+01   1.009183E+00
+   1.357000E+01   0.000000E+00   1.034412E+03   3.183802E+01   1.009183E+00
+   1.375000E+01   0.000000E+00   1.059642E+03   3.543287E+01   1.009183E+00
+   1.398000E+01   0.000000E+00   1.112119E+03   2.487515E+01   1.009183E+00
+   1.422000E+01   0.000000E+00   1.119184E+03   3.211748E+01   1.009183E+00
+   1.443000E+01   0.000000E+00   1.189826E+03   3.668431E+01   1.009183E+00
+   1.467000E+01   0.000000E+00   1.222120E+03   3.480337E+01   1.009183E+00
+   1.494000E+01   0.000000E+00   1.202946E+03   2.847523E+01   1.009183E+00
+# reference:
+#   author: C.Konno, Y.Ikeda, K.Oishi, K.Kawade, H.Yamamoto, H.Maekawa
+#   title: Activation Cross section measurements at neutron  energy from 13.3 to 14.9 MeV
+#   journal: Rept: JAERI Reports, No.1329 (1993)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.333000E+01
+#   E-max [MeV]:  1.494000E+01
+#   F-value:  1.071512E+00
+#   A-value:  1.014158E+00
+#   chi-2:  6.472196E+00
+#   p-value:  2.936147E-01
+#   exp. data sets for p-value:      7
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.104086E+00   1.099277E+00   1.409003E+01
+# jeff4.0       1.020607E+00   1.001622E+00   8.228754E-01
+# jendl5.0      1.066057E+00   9.473401E-01   4.503682E+00

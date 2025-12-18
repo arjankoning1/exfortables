@@ -1,0 +1,61 @@
+# header: 
+#   title: U235(n,n'_01)U236 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Armitage
+#   year: 1966
+#   subentry: 21086003
+#   X4 reaction: 92-U-235(N,INL)92-U-235,PAR,DA,,4PI
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21086003
+#   level energy [MeV]:  1.25000E-02
+# target: 
+#   Z: 92
+#   A: 235
+#   nuclide: U235
+# reaction: 
+#   type: (n,n'_01)
+#   ENDF_MF: 3
+#   ENDF_MT: 51
+#   level: 
+#     number: 1
+#     energy [MeV]:  7.600000E-05
+#     spin:  5.000000E-01
+#     parity: 1
+#   residual: 
+#     Z: 92
+#     A: 236
+#     nuclide: U236
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.300000E-01   0.000000E+00   3.440000E+02   6.880000E+01   1.000000E+00
+   4.000000E-01   0.000000E+00   3.700000E+01   7.400000E+00   1.000000E+00
+# reference:
+#   author: B.H.Armitage,A.T.G.Ferguson,J.H.Montague,N.Starfelt
+#   title: Inelastic scattering of fast neutrons by U-235
+#   journal: Conf: Nuclear Data For Reactors Conf., Paris 1966, Vol.1, p.383 (1966)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  1.300000E-01
+#   E-max [MeV]:  4.000000E-01
+#   F-value:  2.203677E+01
+#   A-value:  7.815636E-02
+#   chi-2:  1.601080E+01
+#   p-value:  4.645157E-02
+#   exp. data sets for p-value:      2
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2025    2.225558E+01   7.795179E-02   1.592273E+01
+# endfb8.1      2.223348E+01   7.800745E-02   1.592226E+01
+# jeff4.0       2.144148E+01   7.710608E-02   1.645651E+01
+# jendl5.0      1.793785E+01   9.728850E-02   1.486488E+01
+# cendl3.2      2.693992E+01   6.393073E-02   1.688763E+01

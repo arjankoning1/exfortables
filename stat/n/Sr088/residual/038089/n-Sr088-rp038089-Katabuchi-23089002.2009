@@ -1,0 +1,57 @@
+# header: 
+#   title: Sr88(n,x)Sr89 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Katabuchi
+#   year: 2009
+#   subentry: 23089002
+#   X4 reaction: 38-SR-88(N,G)38-SR-89,,SIG,,AV
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/23089002
+# target: 
+#   Z: 38
+#   A: 88
+#   nuclide: Sr88
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 38
+#     A: 89
+#     nuclide: Sr89
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.180000E-02   1.800000E-03   5.270001E+01   3.636300E+00   1.000000E+00
+   1.640000E-02   2.800000E-03   2.550000E+00   6.375000E-01   1.000000E+00
+   2.260000E-02   3.400000E-03   1.060000E+01   8.798000E-01   1.000000E+00
+   2.995000E-02   3.950000E-03   9.400000E+00   6.298000E-01   1.000000E+00
+   3.920000E-02   5.300000E-03   4.370000E+00   3.889300E-01   1.000000E+00
+   6.565000E-02   2.115000E-02   4.830000E+00   2.704800E-01   1.000000E+00
+# reference:
+#   author: T.Katabuchi, N.Canh Hai, M.Igashira, S.Kamada, M.Tajika, M.Mizumoto
+#   title: Measurement of keV-Neutron Capture Cross Sections and  Capture Gamma-Ray Spectra of 88Sr
+#   journal: Conf: JAEA Conference proceedings, No.2009-004, p.145 (2009)
+# statistics:
+#   NEA score: T2
+#   IAEA score:  1
+#   E-min [MeV]:  1.180000E-02
+#   E-max [MeV]:  6.565000E-02
+#   F-value:  2.858648E+01
+#   A-value:  4.596956E-02
+#   chi-2:  1.434230E+02
+#   p-value:  2.084627E-02
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    2.853695E+01   4.603489E-02   1.434048E+02
+# jeff4.0       2.853664E+01   4.603545E-02   1.434042E+02
+# jendl5.0      2.868604E+01   4.583864E-02   1.434600E+02

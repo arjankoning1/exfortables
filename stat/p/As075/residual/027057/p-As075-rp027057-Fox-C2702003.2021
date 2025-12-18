@@ -1,0 +1,55 @@
+# header: 
+#   title: As75(p,x)Co57 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Fox
+#   year: 2021
+#   subentry: C2702003
+#   X4 reaction: 33-AS-75(P,X)27-CO-57,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C2702003
+# target: 
+#   Z: 33
+#   A: 75
+#   nuclide: As75
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 27
+#     A: 57
+#     nuclide: Co57
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.337500E+02   6.200000E-01   5.100000E-01   1.700000E-01   1.000000E+00
+   1.485500E+02   5.800000E-01   1.680000E+00   2.500000E-01   1.000000E+00
+   1.632100E+02   5.400000E-01   2.030000E+00   2.800000E-01   1.000000E+00
+   1.770100E+02   5.100000E-01   1.360000E+00   1.800000E-01   1.000000E+00
+   1.922800E+02   4.900000E-01   3.040000E+00   4.600000E-01   1.000000E+00
+# reference:
+#   author: M.B.Fox,A.S.Voyles,J.T.Morrell,L.A.Bernstein, J.C.Batchelder,E.R.Birnbaum,C.S.Cutler,A.J.Koning, A.M.Lewis,D.G.Medvedev,F.M.Nortier,E.M.O'Brien, Ch.Vermeulen
+#   title: Measurement and modeling of proton-induced reactions on arsenic from 35 to 200 MeV
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.104, p.064615 (2021)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.337500E+02
+#   E-max [MeV]:  1.922800E+02
+#   F-value:  2.171241E+00
+#   A-value:  7.157568E-01
+#   chi-2:  1.249208E+01
+#   p-value:  2.238328E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    2.795279E+00   6.180955E-01   1.947966E+01
+# jendl5.0      1.464462E+00   8.288488E-01   5.504506E+00

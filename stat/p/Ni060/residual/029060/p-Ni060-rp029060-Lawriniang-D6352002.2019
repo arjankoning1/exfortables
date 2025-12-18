@@ -1,0 +1,55 @@
+# header: 
+#   title: Ni60(p,x)Cu60 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Lawriniang
+#   year: 2019
+#   subentry: D6352002
+#   X4 reaction: 28-NI-60(P,N)29-CU-60,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D6352002
+# target: 
+#   Z: 28
+#   A: 60
+#   nuclide: Ni60
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+#   residual: 
+#     Z: 29
+#     A: 60
+#     nuclide: Cu60
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   7.250000E+00   1.390000E+00   1.900000E+01   2.400000E+00   1.000000E+00
+   1.197000E+01   1.030000E+00   2.842000E+02   3.560000E+01   1.000000E+00
+   1.570000E+01   8.500000E-01   1.502000E+02   1.890000E+01   1.000000E+00
+   1.888000E+01   7.600000E-01   4.770000E+01   6.000000E+00   1.000000E+00
+# reference:
+#   author: B.Lawriniang, R.Ghosh, S.Badwar, S.S.Yerraguntla, B.Jyrwa, H.Naik, Y.P.Naik, S.V.Suryanarayana
+#   title: Measurements of 60Ni(p,n)60Cu reaction cross-sections and covariance analysis of the uncertainty
+#   journal: Jour: Journal of Radioanalytical and Nuclear Chemistry, Vol.319, p.695 (
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  7.250000E+00
+#   E-max [MeV]:  1.888000E+01
+#   F-value:  1.598336E+00
+#   A-value:  1.352148E+00
+#   chi-2:  2.526538E+01
+#   p-value:  2.618110E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.588032E+00   1.466120E+00   2.577808E+01
+# endfb8.1      1.413841E+00   9.135400E-01   7.422348E+00
+# jendl5.0      1.472058E+00   1.379228E+00   1.662107E+01

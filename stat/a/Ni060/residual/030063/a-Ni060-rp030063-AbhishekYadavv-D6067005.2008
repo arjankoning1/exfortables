@@ -1,0 +1,52 @@
+# header: 
+#   title: Ni60(a,x)Zn63 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: AbhishekYadavv
+#   year: 2008
+#   subentry: D6067005
+#   X4 reaction: 28-NI-60(A,N)30-ZN-63,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D6067005
+# target: 
+#   Z: 28
+#   A: 60
+#   nuclide: Ni60
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+#   residual: 
+#     Z: 30
+#     A: 63
+#     nuclide: Zn63
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.900000E+01   8.000000E-01   2.100000E+01   3.000000E+00   1.000000E+00
+   3.600000E+01   7.000000E-01   4.000000E+00   9.000000E-01   1.000000E+00
+   4.000000E+01   7.000000E-01   1.000000E+00   3.000000E-01   1.000000E+00
+# reference:
+#   author: Abhishek Yadav,Pushpendra P.Singh,Manoj K.Sharma, Devendra P.Singh,Unnati,B.P.Singh,R.Prasad, M.M.Musthafa
+#   title: Large pre-equilibrium contribution in A + nat.Ni interactions at ~ 8-40 MeV
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.78, p.044606 (2008)
+# statistics:
+#   NEA score: T2
+#   IAEA score:  1
+#   E-min [MeV]:  2.900000E+01
+#   E-max [MeV]:  4.000000E+01
+#   F-value:  5.879080E+00
+#   A-value:  4.604515E+00
+#   chi-2:  7.008777E+02
+#   p-value:  9.667359E-02
+#   exp. data sets for p-value:      4
+#   libraries:      1
+##  Library          F              A            chi-2
+# tendl.2025    5.879080E+00   4.604515E+00   7.008777E+02

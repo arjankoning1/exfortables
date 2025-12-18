@@ -1,0 +1,56 @@
+# header: 
+#   title: Mo92(p,n')Tc92 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Lamere
+#   year: 2019
+#   subentry: C2413006
+#   X4 reaction: 42-MO-92(P,N)43-TC-92,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C2413006
+# target: 
+#   Z: 42
+#   A: 92
+#   nuclide: Mo92
+# reaction: 
+#   type: (p,n')
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+#   residual: 
+#     Z: 43
+#     A: 92
+#     nuclide: Tc92
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.052000E+01   6.000000E-02   2.330000E+02   3.300000E+01   1.000000E+00
+   1.303000E+01   6.000000E-02   4.830000E+02   7.200000E+01   1.000000E+00
+   1.507000E+01   2.000000E-02   5.500000E+02   1.100000E+02   1.000000E+00
+   1.607000E+01   2.000000E-02   4.670000E+02   9.000000E+01   1.000000E+00
+   1.705000E+01   4.000000E-02   4.570000E+02   7.300001E+01   1.000000E+00
+   1.807000E+01   2.000000E-02   3.310000E+02   6.500002E+01   1.000000E+00
+# reference:
+#   author: E.Lamere,M.Couder,M.Beard,A.Simon,A.Simonetti, M.Skulski,G.Seymour,P.Huestis,K.Manukyan,Z.Meisel, L.Morales,M.Moran,S.Moylan,C.Seymour,E.Stech
+#   title: Proton-induced reactions on molybdenum
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.100, p.034614 (2019)
+# statistics:
+#   NEA score: T2
+#   IAEA score:  1
+#   E-min [MeV]:  1.052000E+01
+#   E-max [MeV]:  1.807000E+01
+#   F-value:  1.627235E+00
+#   A-value:  6.278434E-01
+#   chi-2:  5.639834E+00
+#   p-value:  1.781518E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.700547E+00   6.034211E-01   6.439932E+00
+# jendl5.0      1.550237E+00   6.532541E-01   4.839736E+00

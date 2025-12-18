@@ -1,0 +1,58 @@
+# header: 
+#   title: Ni0(p,xt) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Titarenko
+#   year: 2021
+#   subentry: F1477003
+#   X4 reaction: 28-NI-0(P,X)1-H-3,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/F1477003
+# target: 
+#   Z: 28
+#   A: 0
+#   nuclide: Ni0
+# reaction: 
+#   type: (p,xt)
+#   ENDF_MF: 3
+#   ENDF_MT: 205
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 11
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   4.600000E+01   1.000000E+00   4.110000E+00   8.200000E-01   1.000000E+00
+   6.800000E+01   1.000000E+00   3.590000E+00   5.500000E-01   1.000000E+00
+   9.900000E+01   1.000000E+00   4.840000E+00   6.200000E-01   1.000000E+00
+   1.490000E+02   1.000000E+00   9.740000E+00   1.220000E+00   1.000000E+00
+   2.490000E+02   1.000000E+00   9.660000E+00   1.320000E+00   1.000000E+00
+   4.000000E+02   2.000000E+00   1.770000E+01   2.500000E+00   1.000000E+00
+   6.000000E+02   2.000000E+00   4.410000E+01   6.100000E+00   1.000000E+00
+   7.990000E+02   2.000000E+00   3.230000E+01   3.900000E+00   1.000000E+00
+   1.199000E+03   3.000000E+00   6.620000E+01   8.000000E+00   1.000000E+00
+   1.599000E+03   4.000000E+00   9.370000E+01   9.200000E+00   1.000000E+00
+   2.605000E+03   8.000000E+00   9.180001E+01   8.700000E+00   1.000000E+00
+# reference:
+#   author: Yu.E.Titarenko,M.V.Chauzova,K.V.Pavlov,S.V.Malinovsky, A.Yu.Titarenko,V.I.Rogov,V.F.Batyaev
+#   title: Cross section of tritium production in structural materials of accelerator-driven facilities
+#   journal: Jour: Physics of Atomic Nuclei, Vol.84, p.1697 (2021)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  4.600000E+01
+#   E-max [MeV]:  2.605000E+03
+#   F-value:  2.585044E+00
+#   A-value:  2.227338E+00
+#   chi-2:  1.954285E+02
+#   p-value:  5.999881E-02
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    2.414437E+00   2.127843E+00   1.486539E+02
+# endfb8.1      1.582379E+00   1.491495E+00   2.056958E+01
+# jendl5.0      3.709476E+00   3.481747E+00   4.170621E+02

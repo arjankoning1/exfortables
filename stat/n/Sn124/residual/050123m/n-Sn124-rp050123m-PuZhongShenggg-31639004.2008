@@ -1,0 +1,59 @@
+# header: 
+#   title: Sn124(n,x)Sn123m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: PuZhongShenggg
+#   year: 2008
+#   subentry: 31639004
+#   X4 reaction: 50-SN-124(N,2N)50-SN-123-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/31639004
+# target: 
+#   Z: 50
+#   A: 124
+#   nuclide: Sn124
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 50
+#     A: 123
+#     nuclide: Sn123m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.350000E+01   3.000000E-01   7.117261E+02   3.500292E+01   1.166764E+00
+   1.410000E+01   2.000000E-01   7.338947E+02   3.383616E+01   1.166764E+00
+   1.440000E+01   3.000000E-01   6.615552E+02   3.266940E+01   1.166764E+00
+# reference:
+#   author: Pu Zhong-Sheng, Yan Dong, Ma Jun, Du Xiao-Fang, Guan Qiu-Yun
+#   title: Cross-section measurements for (n,2n) reactions on stannum isotopes in the neutron energy range of 13.5 to 14.6 MeV
+#   journal: Jour: Chinese Physics C, Vol.32, Issue.1, p.28 (2008)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.350000E+01
+#   E-max [MeV]:  1.440000E+01
+#   F-value:  1.125813E+00
+#   A-value:  9.132924E-01
+#   chi-2:  5.442849E+00
+#   p-value:  2.464886E-01
+#   exp. data sets for p-value:      3
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.062184E+00   9.550651E-01   1.841384E+00
+# jeff4.0       1.062184E+00   9.550651E-01   1.841384E+00
+# jendl5.0      1.205249E+00   8.351483E-01   1.264578E+01

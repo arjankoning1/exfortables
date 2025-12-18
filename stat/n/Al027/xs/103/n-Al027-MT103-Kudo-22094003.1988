@@ -1,0 +1,61 @@
+# header: 
+#   title: Al27(n,p)Mg27 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Kudo
+#   year: 1988
+#   subentry: 22094003
+#   X4 reaction: 13-AL-27(N,P)12-MG-27,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22094003
+# target: 
+#   Z: 13
+#   A: 27
+#   nuclide: Al27
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 12
+#     A: 27
+#     nuclide: Mg27
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.460000E+01   4.000000E-02   6.980000E+01   1.600000E+00   1.000000E+00
+   1.521000E+01   4.000000E-02   6.490000E+01   1.800000E+00   1.000000E+00
+   1.588000E+01   5.000000E-02   5.650000E+01   1.600000E+00   1.000000E+00
+   1.698000E+01   8.000000E-02   4.700000E+01   1.600000E+00   1.000000E+00
+   1.804000E+01   8.000000E-02   4.270000E+01   1.800000E+00   1.000000E+00
+   1.987000E+01   8.000000E-02   3.380000E+01   2.300000E+00   1.000000E+00
+# reference:
+#   author: K.KUDO,T.KINOSHITA,Y.HINO,A.FUKUDA,Y.KAWADA,  K.TAKEUCHI,A.IWAHARA
+#   title: -MEASUREMENT OF AL-27(N,P)MG-27 ACTIVATION CROSS  SECTION.
+#   journal: Conf: Conf.on Nucl.Data For Sci.and Technol.,Mito 1988, p.1021 (1988)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.460000E+01
+#   E-max [MeV]:  1.987000E+01
+#   F-value:  1.079516E+00
+#   A-value:  9.888466E-01
+#   chi-2:  4.084800E+00
+#   p-value:  3.784860E-01
+#   exp. data sets for p-value:      8
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.033252E+00   9.748175E-01   1.323282E+00
+# endfb8.1      1.037107E+00   9.696873E-01   1.523163E+00
+# jeff4.0       1.038216E+00   9.682433E-01   1.524895E+00
+# jendl5.0      1.176655E+00   1.148300E+00   1.819671E+01
+# cendl3.2      1.063437E+00   9.459156E-01   2.909856E+00
+# eaf.2010      1.077711E+00   9.590138E-01   1.592268E+00
+# irdff2.0      1.037110E+00   9.696846E-01   1.523422E+00

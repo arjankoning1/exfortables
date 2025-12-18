@@ -1,0 +1,62 @@
+# header: 
+#   title: Fe0(p,x)Co56 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Ditroi
+#   year: 2004
+#   subentry: D4181002
+#   X4 reaction: 26-FE-0(P,X)27-CO-56,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D4181002
+# target: 
+#   Z: 26
+#   A: 0
+#   nuclide: Fe0
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 27
+#     A: 56
+#     nuclide: Co56
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 11
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   4.200000E+01   0.000000E+00   2.140000E+01   2.400000E+00   1.000000E+00
+   4.330000E+01   0.000000E+00   2.060000E+01   2.300000E+00   1.000000E+00
+   4.470000E+01   0.000000E+00   2.000000E+01   2.300000E+00   1.000000E+00
+   4.600000E+01   0.000000E+00   1.950000E+01   2.300000E+00   1.000000E+00
+   4.950000E+01   0.000000E+00   1.830000E+01   2.100000E+00   1.000000E+00
+   5.280000E+01   0.000000E+00   1.820000E+01   2.100000E+00   1.000000E+00
+   5.590000E+01   0.000000E+00   2.010000E+01   2.300000E+00   1.000000E+00
+   5.890000E+01   0.000000E+00   1.850000E+01   2.200000E+00   1.000000E+00
+   6.170000E+01   0.000000E+00   1.730000E+01   2.100000E+00   1.000000E+00
+   6.450000E+01   0.000000E+00   1.770000E+01   2.100000E+00   1.000000E+00
+   6.720000E+01   0.000000E+00   1.840000E+01   2.200000E+00   1.000000E+00
+# reference:
+#   author: F.Ditroi, F.Tarkanyi, J.Csikai, M.S.Uddin, M.Hagiwara, M.Baba
+#   title: Investigation of activation cross sections of the proton induced nuclear reactions on natural iron at medium energies
+#   journal: Conf: Conf.on Nucl.Data for Sci.and Techn., Santa Fe 2004, Vol.769, p.10
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  4.200000E+01
+#   E-max [MeV]:  6.720000E+01
+#   F-value:  1.662044E+00
+#   A-value:  6.423391E-01
+#   chi-2:  1.021686E+01
+#   p-value:  1.827041E-01
+#   exp. data sets for p-value:      4
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.718503E+00   6.183729E-01   1.132405E+01
+# endfb8.1      1.448708E+00   7.286227E-01   6.463985E+00
+# jendl5.0      1.797358E+00   5.882203E-01   1.286255E+01

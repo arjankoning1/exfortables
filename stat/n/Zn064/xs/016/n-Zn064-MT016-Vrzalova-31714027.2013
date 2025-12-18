@@ -1,0 +1,57 @@
+# header: 
+#   title: Zn64(n,2n)Zn63 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Vrzalova
+#   year: 2013
+#   subentry: 31714027
+#   X4 reaction: 30-ZN-64(N,2N)30-ZN-63,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/31714027
+# target: 
+#   Z: 30
+#   A: 64
+#   nuclide: Zn64
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 30
+#     A: 63
+#     nuclide: Zn63
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.750000E+01   8.000000E-01   2.439024E+02   3.902439E+01   9.756097E-01
+   3.040000E+01   8.000000E-01   1.619512E+02   2.341463E+01   9.756097E-01
+   3.590000E+01   8.000000E-01   1.541463E+02   2.243902E+01   9.756097E-01
+# reference:
+#   author: J.Vrzalova, O.Svoboda, A.Krasa, A.Kugler, M.Majerle,  M.Suchopar, V.Wagner
+#   title: Studies of (n,xn) cross-sections in Al, Au, Bi, Cu,  Fe, I, In, Mg, Ni, Ta, Y, and Zn by the activation  method
+#   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.A, Vol.726, p.84 (201
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.750000E+01
+#   E-max [MeV]:  3.590000E+01
+#   F-value:  1.160487E+00
+#   A-value:  9.437196E-01
+#   chi-2:  9.830443E-01
+#   p-value:  1.742334E-01
+#   exp. data sets for p-value:      8
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.022628E+00   1.005070E+00   1.673471E-01
+# endfb8.1      1.021990E+00   1.021990E+00   1.773561E-01
+# jeff4.0       1.313681E+00   8.332568E-01   2.123822E+00
+# jendl5.0      1.138831E+00   9.278651E-01   9.175429E-01
+# cendl3.2      1.171357E+00   1.171357E+00   1.737357E+00
+# eaf.2010      1.132743E+00   9.387975E-01   9.896988E-01

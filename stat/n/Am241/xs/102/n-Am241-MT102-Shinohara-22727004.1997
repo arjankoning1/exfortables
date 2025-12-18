@@ -1,0 +1,55 @@
+# header: 
+#   title: Am241(n,g)Am242 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Shinohara
+#   year: 1997
+#   subentry: 22727004
+#   X4 reaction: 95-AM-241(N,G)95-AM-242,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22727004
+# target: 
+#   Z: 95
+#   A: 241
+#   nuclide: Am241
+# reaction: 
+#   type: (n,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 95
+#     A: 242
+#     nuclide: Am242
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.530000E-08   0.000000E+00   8.540000E+05   5.800000E+04   1.000000E+00
+# reference:
+#   author: N.SHINOHARA, Y.HATSUKAWA, K.HATA, N.KOHNO
+#   title: .Radiochemical determination of Neutron capture  cross section of 241-Am
+#   journal: Jour: Jour. of Nuclear Science and Technology, Vol.34, Issue.7, p.613 (1
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.530000E-08
+#   E-max [MeV]:  2.530000E-08
+#   F-value:  1.289290E+00
+#   A-value:  7.801385E-01
+#   chi-2:  1.080590E+01
+#   p-value:  4.212010E-02
+#   exp. data sets for p-value:      7
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.264568E+00   7.907841E-01   9.528152E+00
+# endfb8.1      1.264569E+00   7.907833E-01   9.528218E+00
+# jeff4.0       1.201922E+00   8.320006E-01   6.271862E+00
+# jendl5.0      1.219713E+00   8.198647E-01   7.142038E+00
+# cendl3.2      1.398961E+00   7.148163E-01   1.763325E+01
+# eaf.2010      1.352526E+00   7.393575E-01   1.473187E+01

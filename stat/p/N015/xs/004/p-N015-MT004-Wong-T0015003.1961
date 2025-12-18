@@ -1,0 +1,67 @@
+# header: 
+#   title: N15(p,n')O15 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Wong
+#   year: 1961
+#   subentry: T0015003
+#   X4 reaction: 7-N-15(P,N)8-O-15,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/T0015003
+# target: 
+#   Z: 7
+#   A: 15
+#   nuclide: N15
+# reaction: 
+#   type: (p,n')
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+#   residual: 
+#     Z: 8
+#     A: 15
+#     nuclide: O15
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 17
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.503000E+00   2.130000E-01   1.594810E+02   1.508800E+01   1.000000E+00
+   6.458000E+00   2.130000E-01   2.336170E+02   2.453600E+01   1.000000E+00
+   6.985000E+00   1.660000E-01   1.963900E+02   2.216600E+01   1.000000E+00
+   7.350000E+00   0.000000E+00   1.374500E+02   1.415600E+01   1.000000E+00
+   7.605000E+00   0.000000E+00   1.671890E+02   0.000000E+00   1.000000E+00
+   7.653000E+00   0.000000E+00   1.634180E+02   0.000000E+00   1.000000E+00
+   7.748000E+00   1.660000E-01   1.572930E+02   1.651400E+01   1.000000E+00
+   8.071000E+00   1.890000E-01   7.806501E+01   7.071000E+00   1.000000E+00
+   8.116000E+00   0.000000E+00   8.986200E+01   0.000000E+00   1.000000E+00
+   8.639000E+00   0.000000E+00   7.197500E+01   0.000000E+00   1.000000E+00
+   8.992000E+00   3.070000E-01   7.860701E+01   9.434999E+00   1.000000E+00
+   9.420000E+00   0.000000E+00   6.778900E+01   0.000000E+00   1.000000E+00
+   1.049800E+01   0.000000E+00   4.585600E+01   0.000000E+00   1.000000E+00
+   1.065000E+01   2.370000E-01   5.939100E+01   6.133000E+00   1.000000E+00
+   1.138200E+01   2.130000E-01   5.897500E+01   7.076000E+00   1.000000E+00
+   1.216500E+01   2.600000E-01   4.346700E+01   4.716000E+00   1.000000E+00
+   1.353900E+01   1.890000E-01   2.847600E+01   3.776000E+00   1.000000E+00
+# reference:
+#   author: C.Wong, J.D.Anderson, S.D.Bloom, J.W.McClure,  B.D.Walker
+#   title: Angular distribution of the ground-state neutrons from  the C13(p,n)N13 and N15(p,n)O15 reactions
+#   journal: Jour: Physical Review, Vol.123, p.598 (1961)
+# statistics:
+#   NEA score: T3
+#   IAEA score:  1
+#   E-min [MeV]:  5.503000E+00
+#   E-max [MeV]:  1.353900E+01
+#   F-value:  1.736851E+00
+#   A-value:  9.928070E-01
+#   chi-2:  3.876482E+01
+#   p-value:  2.917365E-01
+#   exp. data sets for p-value:      6
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.807416E+00   9.978977E-01   5.465855E+01
+# jendl5.0      1.663866E+00   9.877422E-01   2.287109E+01

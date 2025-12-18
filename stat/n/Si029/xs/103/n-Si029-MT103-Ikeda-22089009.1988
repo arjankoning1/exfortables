@@ -1,0 +1,58 @@
+# header: 
+#   title: Si29(n,p)Al29 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Ikeda
+#   year: 1988
+#   subentry: 22089009
+#   X4 reaction: 14-SI-29(N,P)13-AL-29,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22089009
+# target: 
+#   Z: 14
+#   A: 29
+#   nuclide: Si29
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 13
+#     A: 29
+#     nuclide: Al29
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.334000E+01   0.000000E+00   1.269231E+02   1.171598E+01   9.763314E-01
+   1.411000E+01   0.000000E+00   1.231154E+02   7.029600E+00   9.763314E-01
+   1.466000E+01   0.000000E+00   1.427396E+02   8.005900E+00   9.763314E-01
+   1.490000E+01   0.000000E+00   1.315118E+02   7.322500E+00   9.763314E-01
+# reference:
+#   author: Y.Ikeda,C.Konno,K.Oishi,T.Nakamura,H.Miyade, K.Kawade,  H.Yamamoto, T.Katoh
+#   title: Activation cross section measurements for fusion  reactor structural materials at neutron energy from  13.3 to 15.0 MeV using FNS facility
+#   journal: Rept: JAERI Reports, No.1312 (1988)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.334000E+01
+#   E-max [MeV]:  1.490000E+01
+#   F-value:  1.083524E+00
+#   A-value:  9.958012E-01
+#   chi-2:  1.959144E+00
+#   p-value:  3.168299E-01
+#   exp. data sets for p-value:      3
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.043559E+00   9.916854E-01   8.368086E-01
+# endfb8.1      1.117384E+00   1.012626E+00   3.208947E+00
+# jeff4.0       1.117384E+00   1.012626E+00   3.208947E+00
+# jendl5.0      1.080690E+00   9.992625E-01   2.156389E+00
+# cendl3.2      1.060556E+00   9.607454E-01   1.188297E+00
+# eaf.2010      1.053093E+00   9.987940E-01   1.155474E+00

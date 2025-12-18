@@ -1,0 +1,56 @@
+# header: 
+#   title: Na23(a,x)Al26 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Avila
+#   year: 2016
+#   subentry: C2249004
+#   X4 reaction: 11-NA-23(A,N)13-AL-26,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C2249004
+# target: 
+#   Z: 11
+#   A: 23
+#   nuclide: Na23
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+#   residual: 
+#     Z: 13
+#     A: 26
+#     nuclide: Al26
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.505873E+00   2.000000E-02   3.060000E+00   3.060000E+00   1.000000E+00
+   3.814662E+00   2.430000E-01   5.100000E+00   9.800000E-01   1.000000E+00
+   4.261996E+00   2.250000E-01   1.664000E+01   1.740000E+00   1.000000E+00
+   4.703459E+00   2.130000E-01   2.578000E+01   2.170000E+00   1.000000E+00
+   5.137877E+00   2.040000E-01   5.577000E+01   3.190000E+00   1.000000E+00
+   5.561729E+00   1.960000E-01   7.332000E+01   3.660000E+00   1.000000E+00
+# reference:
+#   author: M.L.Avila,K.E.Rehm,S.Almaraz-Calderon,A.D.Ayangeakaa, C.Dickerson,C.R.Hoffman,C.L.Jiang,B.P.Kay,J.Lai, O.Nusair,R.C.Pardo,D.Santiago-Gonzalez,R.Talwar, C.Ugalde
+#   title: Experimental study of the astrophysically important 23Na(alpha,p)26Mg and 23Na(alpha,n)26Al reactions
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.94, p.065804 (2016)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  3.505873E+00
+#   E-max [MeV]:  5.561729E+00
+#   F-value:  1.509855E+00
+#   A-value:  9.302209E-01
+#   chi-2:  8.158398E+00
+#   p-value:  2.410321E-01
+#   exp. data sets for p-value:      3
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.478790E+00   9.794567E-01   9.164876E+00
+# jendl5.0      1.540031E+00   8.834602E-01   7.151919E+00

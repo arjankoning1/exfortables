@@ -1,0 +1,62 @@
+# header: 
+#   title: Ba132(n,x)Ba131m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Sakane
+#   year: 2001
+#   subentry: 22662012
+#   X4 reaction: 56-BA-132(N,2N)56-BA-131-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22662012
+# target: 
+#   Z: 56
+#   A: 132
+#   nuclide: Ba132
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 56
+#     A: 131
+#     nuclide: Ba131m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.340000E+01   5.000000E-02   7.351192E+02   4.631251E+01   9.920635E-01
+   1.365000E+01   5.000000E-02   6.924603E+02   5.054960E+01   9.920635E-01
+   1.388000E+01   5.000000E-02   7.827380E+02   4.931250E+01   9.920635E-01
+   1.428000E+01   5.000000E-02   7.857144E+02   6.207144E+01   9.920635E-01
+   1.458000E+01   5.000000E-02   8.065476E+02   5.726488E+01   9.920635E-01
+   1.487000E+01   5.000000E-02   8.730159E+02   6.809524E+01   9.920635E-01
+# reference:
+#   author: H.Sakane,Y.Kasugai,M.Shibata,T.Iida,A.Takahashi,  T.Fukahori,K.Kawade
+#   title: Measurement of activation cross-sections for (n,2n)  reactions producing short-lived nuclei in the energy  range between 13.4 and 14.9 MeV
+#   journal: Jour: Annals of Nuclear Energy, Vol.28, p.1175 (2001)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.340000E+01
+#   E-max [MeV]:  1.487000E+01
+#   F-value:  1.041838E+00
+#   A-value:  9.930512E-01
+#   chi-2:  6.061079E-01
+#   p-value:  3.469003E-01
+#   exp. data sets for p-value:      2
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.061412E+00   9.584986E-01   1.079816E+00
+# jeff4.0       1.029167E+00   1.016660E+00   4.330471E-01
+# jendl5.0      1.026041E+00   1.004958E+00   3.054604E-01

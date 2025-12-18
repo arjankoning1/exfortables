@@ -1,0 +1,53 @@
+# header: 
+#   title: Cu65(n,x)Cu64 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Pollehn
+#   year: 1961
+#   subentry: 21352009
+#   X4 reaction: 29-CU-65(N,2N)29-CU-64,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21352009
+# target: 
+#   Z: 29
+#   A: 65
+#   nuclide: Cu65
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 29
+#     A: 64
+#     nuclide: Cu64
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.410000E+01   0.000000E+00   9.400001E+02   8.460001E+01   1.000000E+00
+# reference:
+#   author: H.Pollehn, H.Neuert
+#   title: -Determination Of The Cross Sections Of Some 14 MeV  neutron induced nuclear reactions  with the  activation method.- (In German).
+#   journal: Jour: Zeitschrift fuer Naturforschung, Section A, Vol.16, p.227 (1961)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.410000E+01
+#   E-max [MeV]:  1.410000E+01
+#   F-value:  1.025141E+00
+#   A-value:  9.754864E-01
+#   chi-2:  3.620985E-01
+#   p-value:  4.583983E-01
+#   exp. data sets for p-value:      8
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.026447E+00   9.742346E-01   3.817621E-01
+# endfb8.1      1.024754E+00   9.758436E-01   3.564894E-01
+# jeff4.0       1.024754E+00   9.758436E-01   3.564894E-01
+# jendl5.0      1.024564E+00   9.760250E-01   3.536529E-01

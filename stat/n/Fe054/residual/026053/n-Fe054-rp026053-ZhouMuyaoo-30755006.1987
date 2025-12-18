@@ -1,0 +1,51 @@
+# header: 
+#   title: Fe54(n,x)Fe53 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: ZhouMuyaoo
+#   year: 1987
+#   subentry: 30755006
+#   X4 reaction: 26-FE-54(N,2N)26-FE-53,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30755006
+# target: 
+#   Z: 26
+#   A: 54
+#   nuclide: Fe54
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 26
+#     A: 53
+#     nuclide: Fe53
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.460000E+01   2.000000E-01   2.700000E+01   1.000000E+00   1.000000E+00
+# reference:
+#   author: Zhou Muyao,Zhang Yongfa,Wang Chuanshan,Zhang Lu, Chen Yitai,Zhou Shuxin,Zhang Shenjin,Xie Kuanzhong, Zhou Shenmuo,Chen Xueshi,Zhang Yiping,Yan Qinguan
+#   title: Shell effect from the cross section of the (n,2n) reaction produced by 14.6 MeV neutrons
+#   journal: Jour: Chinese J.of Nuclear Physics (Beijing)., Vol.9, p.34 (1987)
+# statistics:
+#   NEA score: R2
+#   IAEA score:  1
+#   E-min [MeV]:  1.460000E+01
+#   E-max [MeV]:  1.460000E+01
+#   F-value:  3.574460E+00
+#   A-value:  2.824812E-01
+#   chi-2:  3.731277E+02
+#   p-value:  5.960464E-08
+#   exp. data sets for p-value:      8
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    4.140471E+00   2.415184E-01   4.193895E+02
+# jendl5.0      3.026713E+00   3.303914E-01   3.268659E+02

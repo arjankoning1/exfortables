@@ -1,0 +1,57 @@
+# header: 
+#   title: Pd0(p,x)Rh100 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Nguyen
+#   year: 2019
+#   subentry: D7036002
+#   X4 reaction: 46-PD-0(P,X)45-RH-100,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D7036002
+# target: 
+#   Z: 46
+#   A: 0
+#   nuclide: Pd0
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 45
+#     A: 100
+#     nuclide: Rh100
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.109000E+01   8.100000E-01   1.850000E+00   4.600000E-01   1.000000E+00
+   2.561000E+01   6.900000E-01   5.110000E+00   6.800000E-01   1.000000E+00
+   2.960000E+01   6.500000E-01   9.590000E+00   1.510000E+00   1.000000E+00
+   3.323000E+01   5.700000E-01   1.056000E+01   2.160000E+00   1.000000E+00
+   3.654000E+01   5.400000E-01   1.125000E+01   2.530000E+00   1.000000E+00
+   3.970000E+01   5.100000E-01   1.371000E+01   2.620000E+00   1.000000E+00
+   4.261000E+01   4.900000E-01   1.454000E+01   2.530000E+00   1.000000E+00
+# reference:
+#   author: V.D.Nguyen, T.L.Nguyen, T.X.Nguyen, T.H.Nguyen,  G.N.Kim, K.Kim
+#   title: Measurement of cross sections for the formation of 100gRh in natPd(p,x)100m,gRh reactions up to 42.61 MeV
+#   journal: Jour: Journal of Radioanalytical and Nuclear Chemistry, Vol.321, p.117 (
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.109000E+01
+#   E-max [MeV]:  4.261000E+01
+#   F-value:  1.724734E+00
+#   A-value:  1.578789E+00
+#   chi-2:  1.630163E+01
+#   p-value:  2.417341E-01
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.867162E+00   1.661607E+00   2.292391E+01
+# jendl5.0      1.571460E+00   1.500100E+00   9.679351E+00

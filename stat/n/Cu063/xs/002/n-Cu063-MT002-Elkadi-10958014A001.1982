@@ -1,0 +1,54 @@
+# header: 
+#   title: Cu63(n,el) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Elkadi
+#   year: 1982
+#   subentry: 10958014
+#   X4 reaction: 29-CU-63(N,EL)29-CU-63,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/10958014
+# target: 
+#   Z: 29
+#   A: 63
+#   nuclide: Cu63
+# reaction: 
+#   type: (n,el)
+#   ENDF_MF: 3
+#   ENDF_MT: 2
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   7.960000E+00   1.000000E-01   2.070000E+03   1.077052E+02   1.000000E+00
+   9.940000E+00   1.000000E-01   1.885000E+03   1.029267E+02   1.000000E+00
+   1.193000E+01   1.000000E-01   1.515000E+03   9.200925E+01   1.000000E+00
+   1.392000E+01   1.000000E-01   1.309000E+03   6.676925E+01   1.000000E+00
+# reference:
+#   author: S.M.El-Kadi,C.E.Nelson,F.O.Purser,R.L.Walter, A.Beyerle,C.R.Gould,L.W.Seagondollar
+#   title: Elastic and inelastic scattering of neutrons from  54-,56-Fe and 63-,65-Cu  (part I)
+#   journal: Jour: Nuclear Physics, Section A, Vol.390, p.509 (1982)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  7.960000E+00
+#   E-max [MeV]:  1.392000E+01
+#   F-value:  1.072380E+00
+#   A-value:  1.047950E+00
+#   chi-2:  2.093511E+00
+#   p-value:  3.889285E-01
+#   exp. data sets for p-value:      2
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.066454E+00   1.046225E+00   1.757879E+00
+# endfb8.1      1.094943E+00   1.068098E+00   3.367995E+00
+# jeff4.0       1.094943E+00   1.068098E+00   3.367995E+00
+# jendl5.0      1.049641E+00   1.033541E+00   1.154545E+00
+# cendl3.2      1.035330E+00   1.021245E+00   7.552336E-01
+# irdff2.0      1.074430E+00   1.051328E+00   2.157422E+00

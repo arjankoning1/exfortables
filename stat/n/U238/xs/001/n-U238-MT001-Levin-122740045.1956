@@ -1,0 +1,53 @@
+# header: 
+#   title: U238(n,tot) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Levin
+#   year: 1956
+#   subentry: 122740045
+#   X4 reaction: 92-U-238(N,TOT),,SIG,,RES
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/122740045
+# target: 
+#   Z: 92
+#   A: 238
+#   nuclide: U238
+# reaction: 
+#   type: (n,tot)
+#   ENDF_MF: 3
+#   ENDF_MT: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   6.700000E-06   6.000000E-07   2.300000E+07   3.000000E+06   1.000000E+00
+   2.110000E-05   2.000000E-07   2.700000E+07   6.000000E+06   1.000000E+00
+   3.710000E-05   4.000000E-07   3.000000E+07   1.000000E+07   1.000000E+00
+# reference:
+#   author: J.S.LEVIN,D.J.HUGHES
+#   title: RADIATION WIDTHS OF NUCLEAR ENERGY LEVELS.
+#   journal: Jour: Physical Review, Vol.101, p.1328 (1956)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  6.700000E-06
+#   E-max [MeV]:  3.710000E-05
+#   F-value:  1.860693E+01
+#   A-value:  6.263060E-02
+#   chi-2:  2.093930E+01
+#   p-value:  2.288846E-02
+#   exp. data sets for p-value:      6
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.860578E+01   6.268792E-02   2.091100E+01
+# endfb8.1      1.860627E+01   6.268601E-02   2.091132E+01
+# jeff4.0       1.850518E+01   6.298652E-02   2.088877E+01
+# jendl5.0      1.860681E+01   6.268254E-02   2.091244E+01
+# cendl3.2      1.871291E+01   6.205757E-02   2.109955E+01
+# irdff2.0      1.860503E+01   6.268680E-02   2.091271E+01

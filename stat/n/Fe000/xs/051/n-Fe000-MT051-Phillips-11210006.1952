@@ -1,0 +1,60 @@
+# header: 
+#   title: Fe0(n,n'_01)Fe1 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Phillips
+#   year: 1952
+#   subentry: 11210006
+#   X4 reaction: 26-FE-0(N,INL)26-FE-0,PAR,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11210006
+#   level energy [MeV]:  1.15000E+01
+# target: 
+#   Z: 26
+#   A: 0
+#   nuclide: Fe0
+# reaction: 
+#   type: (n,n'_01)
+#   ENDF_MF: 3
+#   ENDF_MT: 51
+#   level: 
+#     number: 1
+#     energy [MeV]:  1.150370E+01
+#     spin:  3.000000E+00
+#     parity: 1
+#   residual: 
+#     Z: 26
+#     A: 1
+#     nuclide: Fe1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.415000E+01   5.000000E-02   1.450000E+03   2.000000E+01   1.000000E+00
+# reference:
+#   author: D.D.Phillips,R.W.Davis,E.R.Graves
+#   title: Inelastic Collision Cross Sections for 14-Mev Neutrons
+#   journal: Jour: Physical Review, Vol.88, p.600 (1952)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  1.415000E+01
+#   E-max [MeV]:  1.415000E+01
+#   F-value:  2.409674E+01
+#   A-value:  4.152866E-02
+#   chi-2:  4.827830E+03
+#   p-value:  4.172325E-07
+#   exp. data sets for p-value:      8
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2025    2.404766E+01   4.158408E-02   4.828187E+03
+# endfb8.1      2.465457E+01   4.056043E-02   4.838506E+03
+# jeff4.0       2.466236E+01   4.054762E-02   4.838635E+03
+# jendl5.0      2.127852E+01   4.699576E-02   4.773815E+03
+# cendl3.2      2.602042E+01   3.843135E-02   4.860004E+03

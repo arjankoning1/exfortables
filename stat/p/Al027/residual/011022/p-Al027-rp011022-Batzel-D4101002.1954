@@ -1,0 +1,58 @@
+# header: 
+#   title: Al27(p,x)Na22 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Batzel
+#   year: 1954
+#   subentry: D4101002
+#   X4 reaction: 13-AL-27(P,X)11-NA-22,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D4101002
+# target: 
+#   Z: 13
+#   A: 27
+#   nuclide: Al27
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 11
+#     A: 22
+#     nuclide: Na22
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.550000E+01   0.000000E+00   3.000000E-03   0.000000E+00   1.000000E+00
+   2.670000E+01   0.000000E+00   1.700000E-02   0.000000E+00   1.000000E+00
+   2.780000E+01   0.000000E+00   6.000000E-02   0.000000E+00   1.000000E+00
+   2.900000E+01   0.000000E+00   2.200000E-01   0.000000E+00   1.000000E+00
+   3.000000E+01   0.000000E+00   5.200000E-01   0.000000E+00   1.000000E+00
+   3.100000E+01   0.000000E+00   1.290000E+00   0.000000E+00   1.000000E+00
+   3.200000E+01   0.000000E+00   2.630000E+00   0.000000E+00   1.000000E+00
+# reference:
+#   author: R.E.BATZEL,G.H.COLEMAN
+#   title: Cross sections for the formation of 22Na from aluminium and magnesium bombarded with protons
+#   journal: Jour: Physical Review, Vol.93, p.280 (1954)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.550000E+01
+#   E-max [MeV]:  3.200000E+01
+#   F-value:  2.467492E+00
+#   A-value:  2.340734E+00
+#   chi-2:  0.000000E+00
+#   p-value:  1.846259E-01
+#   exp. data sets for p-value:      4
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    2.097810E+00   1.988635E+00   0.000000E+00
+# endfb8.1      2.853259E+00   2.699272E+00   0.000000E+00
+# jendl5.0      2.498705E+00   2.416359E+00   0.000000E+00

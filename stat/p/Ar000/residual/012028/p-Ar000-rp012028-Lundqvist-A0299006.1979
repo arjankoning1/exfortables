@@ -1,0 +1,59 @@
+# header: 
+#   title: Ar0(p,x)Mg28 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Lundqvist
+#   year: 1979
+#   subentry: A0299006
+#   X4 reaction: 18-AR-0(P,X)12-MG-28,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/A0299006
+# target: 
+#   Z: 18
+#   A: 0
+#   nuclide: Ar0
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 12
+#     A: 28
+#     nuclide: Mg28
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 9
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.486000E+01   0.000000E+00   1.350000E-02   1.012500E-03   1.000000E+00
+   7.795000E+01   0.000000E+00   3.450000E-02   2.587500E-03   1.000000E+00
+   9.636000E+01   0.000000E+00   4.420000E-02   3.315000E-03   1.000000E+00
+   1.140400E+02   0.000000E+00   8.900000E-02   6.675000E-03   1.000000E+00
+   1.282800E+02   0.000000E+00   1.206000E-01   9.045000E-03   1.000000E+00
+   1.410500E+02   0.000000E+00   1.529000E-01   1.146800E-02   1.000000E+00
+   1.535700E+02   0.000000E+00   1.790000E-01   1.342500E-02   1.000000E+00
+   1.641200E+02   0.000000E+00   2.026000E-01   1.519500E-02   1.000000E+00
+   1.643700E+02   0.000000E+00   2.193000E-01   1.644800E-02   1.000000E+00
+# reference:
+#   author: H.Lundqvist,P.Malmborg
+#   title: Production of carrier-free Mg-28 and Na-24 by 50-180 MeV protons on Si,P,Cl,S,Ar and K: Excitation functions and chemical separation.
+#   journal: Jour: Applied Radiation and Isotopes, Vol.30, p.33 (1979)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  5.486000E+01
+#   E-max [MeV]:  1.643700E+02
+#   F-value:  3.036110E+00
+#   A-value:  3.915704E-01
+#   chi-2:  6.460158E+01
+#   p-value:  1.731220E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    4.430110E+00   2.435972E-01   9.713966E+01
+# jendl5.0      1.978497E+00   5.764061E-01   3.848291E+01

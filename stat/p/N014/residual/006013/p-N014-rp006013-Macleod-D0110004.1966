@@ -1,0 +1,53 @@
+# header: 
+#   title: N14(p,x)C13 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Macleod
+#   year: 1966
+#   subentry: D0110004
+#   X4 reaction: 7-N-14(P,2P)6-C-13,PAR,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D0110004
+# target: 
+#   Z: 7
+#   A: 14
+#   nuclide: N14
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 111
+#   residual: 
+#     Z: 6
+#     A: 13
+#     nuclide: C13
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.320000E+01   3.000000E-01   6.600001E+01   3.900000E+00   1.000000E+00
+   1.320000E+01   3.000000E-01   5.000000E-01   3.400000E+00   1.000000E+00
+# reference:
+#   author: A.M.MacLeod,J.M.Reid
+#   title: Proton nuclear reaction cross sections in nitrogen at 13 MeV
+#   journal: Jour: Proceedings of the Physical Society (London),, Vol.87, p.437 (1966
+# statistics:
+#   NEA score: T3
+#   IAEA score: -1
+#   E-min [MeV]:  1.320000E+01
+#   E-max [MeV]:  1.320000E+01
+#   F-value:  2.463542E+01
+#   A-value:  6.778211E+00
+#   chi-2:  2.134762E+02
+#   p-value:  2.252380E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.461981E+01   3.037930E+00   8.990916E+01
+# endfb8.1      3.855882E+01   1.512351E+01   3.370433E+02
+# jendl5.0      0.000000E+00   0.000000E+00   0.000000E+00

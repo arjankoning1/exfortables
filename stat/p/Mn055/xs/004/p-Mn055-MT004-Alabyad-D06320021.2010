@@ -1,0 +1,60 @@
+# header: 
+#   title: Mn55(p,n')Fe55 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Alabyad
+#   year: 2010
+#   subentry: D06320021
+#   X4 reaction: 25-MN-55(P,N)26-FE-55,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D06320021
+# target: 
+#   Z: 25
+#   A: 55
+#   nuclide: Mn55
+# reaction: 
+#   type: (p,n')
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+#   residual: 
+#     Z: 26
+#     A: 55
+#     nuclide: Fe55
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.400000E+00   5.000000E-01   4.540000E+01   8.000000E+00   1.000000E+00
+   3.100000E+00   5.000000E-01   1.140000E+02   2.000000E+01   1.000000E+00
+   4.800000E+00   5.000000E-01   2.100000E+02   3.800000E+01   1.000000E+00
+   6.100000E+00   5.000000E-01   3.360000E+02   6.000000E+01   1.000000E+00
+   9.100000E+00   4.000000E-01   5.760000E+02   1.030000E+02   1.000000E+00
+   1.140000E+01   4.000000E-01   5.880001E+02   1.060000E+02   1.000000E+00
+   1.340000E+01   3.000000E-01   3.000000E+02   5.400001E+01   1.000000E+00
+   1.510000E+01   3.000000E-01   1.570000E+02   2.500000E+01   1.000000E+00
+   1.670000E+01   3.000000E-01   1.170000E+02   2.100000E+01   1.000000E+00
+   1.820000E+01   2.000000E-01   7.600002E+01   1.400000E+01   1.000000E+00
+# reference:
+#   author: M.Al-Abyad, I.Spahn, S.M.Qaim
+#   title: Experimental studies and nuclear model calculations on proton induced reactions on manganese up to 45 MeV with reference to production of 55Fe, 54Mn and 51Cr
+#   journal: Jour: Applied Radiation and Isotopes, Vol.68, p.2393 (2010)
+# statistics:
+#   NEA score: T2
+#   IAEA score:  1
+#   E-min [MeV]:  2.400000E+00
+#   E-max [MeV]:  1.820000E+01
+#   F-value:  1.508568E+00
+#   A-value:  9.964725E-01
+#   chi-2:  4.317312E+00
+#   p-value:  2.330050E-01
+#   exp. data sets for p-value:      3
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.479245E+00   1.086602E+00   5.151146E+00
+# jendl5.0      1.537095E+00   9.138188E-01   3.483477E+00

@@ -1,0 +1,55 @@
+# header: 
+#   title: Zn68(n,p)Cu68 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Casanova
+#   year: 1976
+#   subentry: 20748006
+#   X4 reaction: 30-ZN-68(N,P)29-CU-68,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20748006
+# target: 
+#   Z: 30
+#   A: 68
+#   nuclide: Zn68
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 29
+#     A: 68
+#     nuclide: Cu68
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.410000E+01   0.000000E+00   4.375591E+01   4.786700E+00   9.512154E-01
+# reference:
+#   author: J.L.Casanova,M.L.Sanchez
+#   title: Measurement of the (n,p),(n,alpha),(n,2n)  cross sections of Zn,Ga,Ge,As,and Se for 14.1 MeV  neutrons, and (n,p) cross section analysis
+#   journal: Jour: Anales de Fisica, Vol.72, Issue.3, p.186 (1976)
+# statistics:
+#   NEA score: R2
+#   IAEA score:  0
+#   E-min [MeV]:  1.410000E+01
+#   E-max [MeV]:  1.410000E+01
+#   F-value:  2.297578E+00
+#   A-value:  4.446383E-01
+#   chi-2:  2.560278E+01
+#   p-value:  9.382623E-02
+#   exp. data sets for p-value:      2
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    2.580056E+00   3.875885E-01   3.133919E+01
+# endfb8.1      1.895846E+00   5.274691E-01   1.865843E+01
+# jeff4.0       1.866861E+00   5.356586E-01   1.801752E+01
+# jendl5.0      2.265025E+00   4.414963E-01   2.606474E+01
+# cendl3.2      1.988879E+00   5.027958E-01   2.065738E+01
+# eaf.2010      3.145817E+00   3.178824E-01   3.887940E+01

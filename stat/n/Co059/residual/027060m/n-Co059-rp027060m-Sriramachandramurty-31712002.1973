@@ -1,0 +1,56 @@
+# header: 
+#   title: Co59(n,x)Co60m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Sriramachandramurty
+#   year: 1973
+#   subentry: 31712002
+#   X4 reaction: 27-CO-59(N,G)27-CO-60-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/31712002
+# target: 
+#   Z: 27
+#   A: 59
+#   nuclide: Co59
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 27
+#     A: 60
+#     nuclide: Co60m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.400000E-02   5.000000E-03   6.600001E+01   7.000000E+00   1.000000E+00
+# reference:
+#   author: M.Sriramachandra Murty, K.Siddappa, J.Rama Rao
+#   title: Capture cross sections of intermediate neutrons
+#   journal: Jour: Journal of the Physical Society of Japan, Vol.35, p.8 (1973)
+# statistics:
+#   NEA score: T3
+#   IAEA score:  0
+#   E-min [MeV]:  2.400000E-02
+#   E-max [MeV]:  2.400000E-02
+#   F-value:  7.079663E+00
+#   A-value:  1.415304E-01
+#   chi-2:  6.544506E+01
+#   p-value:  1.192093E-07
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    7.716717E+00   1.295888E-01   6.735051E+01
+# jendl5.0      6.469454E+00   1.545725E-01   6.353961E+01

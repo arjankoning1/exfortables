@@ -1,0 +1,57 @@
+# header: 
+#   title: Kr83(p,x)Rb81 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Kovacs
+#   year: 1991
+#   subentry: A04890041
+#   X4 reaction: 36-KR-83(P,3N)37-RB-81,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/A04890041
+# target: 
+#   Z: 36
+#   A: 83
+#   nuclide: Kr83
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 17
+#   residual: 
+#     Z: 37
+#     A: 81
+#     nuclide: Rb81
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.400000E+01   0.000000E+00   3.070000E+01   4.438200E+00   1.000000E+00
+   2.500000E+01   0.000000E+00   6.920000E+01   1.000413E+01   1.000000E+00
+   2.600000E+01   0.000000E+00   1.090000E+02   1.575795E+01   1.000000E+00
+   2.700000E+01   0.000000E+00   1.530000E+02   2.211895E+01   1.000000E+00
+   2.800000E+01   0.000000E+00   1.900000E+02   2.746798E+01   1.000000E+00
+   2.900000E+01   0.000000E+00   2.180000E+02   3.151589E+01   1.000000E+00
+   2.950000E+01   0.000000E+00   2.260000E+02   3.267245E+01   1.000000E+00
+# reference:
+#   author: Z.Kovacs, F.Tarkanyi, S.M.Qaim, G.Stocklin
+#   title: Excitation functions for the formation of some radioisotopes of rubidium in proton induced nuclear reactions on Kr-nat,Kr-82 and Kr-83 with special reference to the production of Rb-81(Kr-81-m) generator radionuclide.
+#   journal: Jour: Applied Radiation and Isotopes, Vol.42, p.329 (1991)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  2.400000E+01
+#   E-max [MeV]:  2.950000E+01
+#   F-value:  2.045150E+00
+#   A-value:  2.039088E+00
+#   chi-2:  5.305932E+01
+#   p-value:  1.873218E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    2.031136E+00   2.029003E+00   5.110959E+01
+# jendl5.0      2.059125E+00   2.049223E+00   5.500905E+01

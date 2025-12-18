@@ -1,0 +1,59 @@
+# header: 
+#   title: Rb87(n,x)Rb86 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Augustyniak
+#   year: 1976
+#   subentry: 30350008
+#   X4 reaction: 37-RB-87(N,2N)37-RB-86,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30350008
+# target: 
+#   Z: 37
+#   A: 87
+#   nuclide: Rb87
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 37
+#     A: 86
+#     nuclide: Rb86
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.300000E+01   2.000000E-01   1.262963E+03   1.171296E+02   1.018518E+00
+   1.330000E+01   1.000000E-01   1.110185E+03   1.089815E+02   1.018518E+00
+   1.380000E+01   1.000000E-01   1.147870E+03   1.140741E+02   1.018518E+00
+   1.450000E+01   1.000000E-01   1.331204E+03   1.425926E+02   1.018518E+00
+   1.510000E+01   2.000000E-01   1.146852E+03   1.222222E+02   1.018518E+00
+   1.540000E+01   2.000000E-01   1.197778E+03   1.222222E+02   1.018518E+00
+   1.600000E+01   2.000000E-01   1.231389E+03   9.981481E+01   1.018518E+00
+   1.660000E+01   1.000000E-01   1.046018E+03   9.675927E+01   1.018518E+00
+# reference:
+#   author: W.Augustyniak,M.Herman,A.Marcinkowski
+#   title: Cross-sections for the fast neutron induced reactions on rubidium isotopes.
+#   journal: Jour: Acta Physica Polonica, Part B, Vol.7, p.347 (1976)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.300000E+01
+#   E-max [MeV]:  1.660000E+01
+#   F-value:  1.149123E+00
+#   A-value:  9.852592E-01
+#   chi-2:  2.313802E+00
+#   p-value:  3.540179E-01
+#   exp. data sets for p-value:      3
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.137162E+00   1.054424E+00   2.522631E+00
+# jeff4.0       1.132259E+00   9.753178E-01   1.840966E+00
+# jendl5.0      1.175014E+00   9.300154E-01   2.577810E+00

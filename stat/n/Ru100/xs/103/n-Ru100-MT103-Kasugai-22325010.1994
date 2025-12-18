@@ -1,0 +1,59 @@
+# header: 
+#   title: Ru100(n,p)Tc100 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Kasugai
+#   year: 1994
+#   subentry: 22325010
+#   X4 reaction: 44-RU-100(N,P)43-TC-100,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22325010
+# target: 
+#   Z: 44
+#   A: 100
+#   nuclide: Ru100
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 43
+#     A: 100
+#     nuclide: Tc100
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.370000E+01   1.000000E-01   2.333868E+01   7.948100E+00   1.060849E+00
+   1.403000E+01   1.000000E-01   1.862242E+01   5.719580E+00   1.034579E+00
+   1.436000E+01   1.000000E-01   2.618958E+01   6.152700E+00   1.007292E+00
+   1.466000E+01   1.000000E-01   3.248689E+01   6.580000E+00   9.844511E-01
+   1.495000E+01   1.000000E-01   3.376243E+01   6.233200E+00   9.646410E-01
+# reference:
+#   author: Y.Kasugai, H.Yamamoto, K.Kawade, Y.Ikeda, Y.Uno,  H.Maekawa
+#   title: Activation cross section measurement of reactions  producing short-lived nuclei at neutron energy  between 13.4 MeV and 14.9 MeV
+#   journal: Conf: Conf.on Nucl.Data for Sci.and Techn.,Gatlinburg 1994, Vol.2, p.935
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.370000E+01
+#   E-max [MeV]:  1.495000E+01
+#   F-value:  1.306506E+00
+#   A-value:  9.363919E-01
+#   chi-2:  1.213770E+00
+#   p-value:  2.402382E-01
+#   exp. data sets for p-value:      1
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.081736E+00   9.999961E-01   3.335353E-01
+# endfb8.1      1.776929E+00   5.881917E-01   4.236672E+00
+# jeff4.0       1.280100E+00   1.175850E+00   1.326535E+00
+# jendl5.0      1.107653E+00   1.015677E+00   4.063868E-01
+# cendl3.2      1.113458E+00   9.601926E-01   5.568208E-01
+# eaf.2010      1.100825E+00   9.994538E-01   4.226716E-01

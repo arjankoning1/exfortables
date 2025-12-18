@@ -1,0 +1,56 @@
+# header: 
+#   title: Fe57(n,x)Mn57 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Kasugai
+#   year: 1994
+#   subentry: 22325004
+#   X4 reaction: 26-FE-57(N,P)25-MN-57,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22325004
+# target: 
+#   Z: 26
+#   A: 57
+#   nuclide: Fe57
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 25
+#     A: 57
+#     nuclide: Mn57
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.338000E+01   1.000000E-01   6.463660E+01   7.181800E+00   1.025978E+00
+   1.370000E+01   1.000000E-01   6.001375E+01   4.000900E+00   1.000229E+00
+   1.403000E+01   1.000000E-01   5.755215E+01   3.901840E+00   9.754601E-01
+   1.436000E+01   1.000000E-01   5.603419E+01   3.798900E+00   9.497321E-01
+   1.466000E+01   1.000000E-01   5.105082E+01   3.712800E+00   9.281967E-01
+   1.495000E+01   1.000000E-01   4.820449E+01   3.638100E+00   9.095186E-01
+# reference:
+#   author: Y.Kasugai, H.Yamamoto, K.Kawade, Y.Ikeda, Y.Uno,  H.Maekawa
+#   title: Activation cross section measurement of reactions  producing short-lived nuclei at neutron energy  between 13.4 MeV and 14.9 MeV
+#   journal: Conf: Conf.on Nucl.Data for Sci.and Techn.,Gatlinburg 1994, Vol.2, p.935
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.338000E+01
+#   E-max [MeV]:  1.495000E+01
+#   F-value:  1.132334E+00
+#   A-value:  9.561588E-01
+#   chi-2:  2.178995E+00
+#   p-value:  3.181014E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.165608E+00   9.115078E-01   2.969527E+00
+# jendl5.0      1.089884E+00   1.002997E+00   1.388464E+00

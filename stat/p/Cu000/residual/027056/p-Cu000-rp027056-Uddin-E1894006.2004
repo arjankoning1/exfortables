@@ -1,0 +1,56 @@
+# header: 
+#   title: Cu0(p,x)Co56 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Uddin
+#   year: 2004
+#   subentry: E1894006
+#   X4 reaction: 29-CU-0(P,X)27-CO-56,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/E1894006
+# target: 
+#   Z: 29
+#   A: 0
+#   nuclide: Cu0
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 27
+#     A: 56
+#     nuclide: Co56
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.343500E+01   0.000000E+00   3.600000E-01   7.000000E-02   1.000000E+00
+   5.755200E+01   0.000000E+00   1.930000E+00   2.000000E-01   1.000000E+00
+   6.147200E+01   0.000000E+00   5.120000E+00   5.000000E-01   1.000000E+00
+   6.519400E+01   0.000000E+00   9.160000E+00   8.000000E-01   1.000000E+00
+   6.878800E+01   0.000000E+00   1.220000E+01   1.100000E+00   1.000000E+00
+# reference:
+#   author: M.S.Uddin, M.Hagiwara, F.Tarkanyi, F.Ditroi, M.Baba
+#   title: Experimental studies on the proton-induced activation reactions of molybdenum in the energy range 22-67 MeV
+#   journal: Jour: Applied Radiation and Isotopes, Vol.60, Issue.6, p.911 (2004)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  5.343500E+01
+#   E-max [MeV]:  6.878800E+01
+#   F-value:  1.779148E+00
+#   A-value:  1.313652E+00
+#   chi-2:  4.155425E+01
+#   p-value:  3.183978E-01
+#   exp. data sets for p-value:      6
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.574914E+00   8.489257E-01   1.372045E+01
+# endfb8.1      2.128182E+00   2.022819E+00   9.124391E+01
+# jendl5.0      1.596867E+00   1.320124E+00   1.969838E+01

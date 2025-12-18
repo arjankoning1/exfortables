@@ -1,0 +1,63 @@
+# header: 
+#   title: Nd145(n,x)Nd146 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Musgrove
+#   year: 1977
+#   subentry: 30360017
+#   X4 reaction: 60-ND-145(N,G)60-ND-146,,SIG,,AV
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30360017
+# target: 
+#   Z: 60
+#   A: 145
+#   nuclide: Nd145
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 60
+#     A: 146
+#     nuclide: Nd146
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 13
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.500000E-03   5.000000E-04   1.901000E+03   2.850000E+02   1.000000E+00
+   4.500000E-03   5.000000E-04   1.436000E+03   2.380000E+02   1.000000E+00
+   5.500000E-03   5.000000E-04   1.360000E+03   1.900000E+02   1.000000E+00
+   7.000000E-03   1.000000E-03   1.236000E+03   1.900000E+02   1.000000E+00
+   9.000000E-03   1.000000E-03   9.700001E+02   1.520000E+02   1.000000E+00
+   1.250000E-02   2.500000E-03   7.990000E+02   1.520000E+02   1.000000E+00
+   1.750000E-02   2.500000E-03   6.420000E+02   9.500002E+01   1.000000E+00
+   2.500000E-02   5.000000E-03   4.750000E+02   9.500002E+01   1.000000E+00
+   3.500000E-02   5.000000E-03   3.610000E+02   7.600002E+01   1.000000E+00
+   4.500000E-02   5.000000E-03   2.950000E+02   6.700000E+01   1.000000E+00
+   5.500000E-02   5.000000E-03   2.800000E+02   5.700000E+01   1.000000E+00
+   7.000000E-02   1.000000E-02   1.620000E+02   5.700000E+01   1.000000E+00
+   9.000000E-02   1.000000E-02   1.240000E+02   5.700000E+01   1.000000E+00
+# reference:
+#   author: A.R.de L.Musgrove, B.J.Allen, J.W.Boldeman,  R.L.Macklin
+#   title: Non-statistical effects in the radiative capture cross  sections of the neodymium isotopes
+#   journal: Rept: Australian AEC Reports, No.401 (1977)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  0
+#   E-min [MeV]:  3.500000E-03
+#   E-max [MeV]:  9.000000E-02
+#   F-value:  2.417036E+00
+#   A-value:  7.301844E-01
+#   chi-2:  5.555015E+00
+#   p-value:  2.826031E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    2.420425E+00   7.642732E-01   5.383007E+00
+# jeff4.0       2.413645E+00   6.976161E-01   5.727025E+00

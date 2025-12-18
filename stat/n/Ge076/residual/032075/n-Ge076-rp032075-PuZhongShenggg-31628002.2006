@@ -1,0 +1,54 @@
+# header: 
+#   title: Ge76(n,x)Ge75 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: PuZhongShenggg
+#   year: 2006
+#   subentry: 31628002
+#   X4 reaction: 32-GE-76(N,2N)32-GE-75,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/31628002
+# target: 
+#   Z: 32
+#   A: 76
+#   nuclide: Ge76
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 32
+#     A: 75
+#     nuclide: Ge75
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.350000E+01   3.000000E-01   1.079000E+03   8.800001E+01   1.000000E+00
+   1.410000E+01   2.000000E-01   1.217000E+03   1.020000E+02   1.000000E+00
+   1.460000E+01   3.000000E-01   1.139000E+03   9.200001E+01   1.000000E+00
+# reference:
+#   author: Pu Zhong-Sheng, Guan Qiu-Yun, Ma Jun, Yan Dong
+#   title: Cross section measurements for (n,2n),(n,p) and (n,a)  reactions on germanium isotopes at the neutron energy  around 14 MeV
+#   journal: Jour: High Energy Physics and Nucl.Physics,Chinese ed., Vol.30, p.1171 (
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.350000E+01
+#   E-max [MeV]:  1.460000E+01
+#   F-value:  1.129782E+00
+#   A-value:  9.116015E-01
+#   chi-2:  2.201554E+00
+#   p-value:  3.944605E-01
+#   exp. data sets for p-value:      6
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.160767E+00   8.684180E-01   3.184359E+00
+# jeff4.0       1.160767E+00   8.684180E-01   3.184359E+00
+# jendl5.0      1.014951E+00   1.004517E+00   2.359440E-01

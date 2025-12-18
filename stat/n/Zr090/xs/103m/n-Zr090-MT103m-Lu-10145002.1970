@@ -1,0 +1,58 @@
+# header: 
+#   title: Zr90(n,p)Y90m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Lu
+#   year: 1970
+#   subentry: 10145002
+#   X4 reaction: 40-ZR-90(N,P)39-Y-90-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/10145002
+# target: 
+#   Z: 40
+#   A: 90
+#   nuclide: Zr90
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 39
+#     A: 90
+#     nuclide: Y90m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.440000E+01   6.000000E-01   1.427604E+01   7.174900E-01   1.106670E+00
+# reference:
+#   author: W.D.Lu, N.RanaKumar, R.W.Fink
+#   title: Activation Cross Sections for (n,p), ((n,np)+(n,pn)+  (n,d)), and (n,alpha) Reactions in the Region of Z=40  to 58 at 14.4 MeV.
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.1, p.358 (1970)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.440000E+01
+#   E-max [MeV]:  1.440000E+01
+#   F-value:  1.152506E+00
+#   A-value:  8.785177E-01
+#   chi-2:  6.967331E+00
+#   p-value:  1.374455E-01
+#   exp. data sets for p-value:      8
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.192192E+00   8.387908E-01   1.031596E+01
+# jeff4.0       1.192192E+00   8.387908E-01   1.031596E+01
+# jendl5.0      1.034219E+00   9.669135E-01   9.584915E-01
+# eaf.2010      1.142071E+00   8.756026E-01   6.278909E+00

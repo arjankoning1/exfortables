@@ -1,0 +1,53 @@
+# header: 
+#   title: V51(n,x)V52 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Leipunskiy
+#   year: 1958
+#   subentry: 40244090
+#   X4 reaction: 23-V-51(N,G)23-V-52,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/40244090
+# target: 
+#   Z: 23
+#   A: 51
+#   nuclide: V51
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 23
+#     A: 52
+#     nuclide: V52
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.700000E+00   0.000000E+00   1.970000E+00   8.000000E-02   1.000000E+00
+   4.000000E+00   0.000000E+00   1.780000E+00   6.000000E-02   1.000000E+00
+# reference:
+#   author: A.I.Leipunskiy, O.D.Kazachkovskiy, G.Ja.Artyukhov, A.I.Baryshnikov, T.S.Belanova, V.I.Galkov, Yu.Ja.Stavisskiy, E.A.Stumbur, L.E.Sherman
+#   title: Radiative capture cross-section measurements  for fast neutrons.
+#   journal: Conf: Second Internat. At.En. Conf., Geneva 1958, Vol.15, p.50 (1958)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  0
+#   E-min [MeV]:  2.700000E+00
+#   E-max [MeV]:  4.000000E+00
+#   F-value:  1.554345E+00
+#   A-value:  7.109112E-01
+#   chi-2:  8.343034E+01
+#   p-value:  2.001065E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.076066E+00   9.327133E-01   3.687259E+00
+# jeff4.0       2.002174E+00   5.042090E-01   1.905389E+02
+# jendl5.0      1.363758E+00   7.639893E-01   5.606489E+01

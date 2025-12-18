@@ -1,0 +1,65 @@
+# header: 
+#   title: Sr88(n,2n)Sr87m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Filatenkov
+#   year: 2016
+#   subentry: 41614052
+#   X4 reaction: 38-SR-88(N,2N)38-SR-87-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/41614052
+# target: 
+#   Z: 38
+#   A: 88
+#   nuclide: Sr88
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 38
+#     A: 87
+#     nuclide: Sr87m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.347000E+01   0.000000E+00   1.740000E+02   1.092727E+01   9.999999E-01
+   1.364000E+01   0.000000E+00   1.968866E+02   1.094348E+01   9.994242E-01
+   1.388000E+01   0.000000E+00   2.159562E+02   1.302281E+01   9.997974E-01
+   1.405000E+01   0.000000E+00   2.249491E+02   1.183386E+01   9.997737E-01
+   1.428000E+01   0.000000E+00   2.408090E+02   1.185066E+01   9.992074E-01
+   1.447000E+01   0.000000E+00   2.489656E+02   1.192677E+01   9.998618E-01
+   1.468000E+01   0.000000E+00   2.698517E+02   1.695029E+01   9.994506E-01
+   1.486000E+01   0.000000E+00   2.777376E+02   1.369299E+01   9.990562E-01
+# reference:
+#   author: A.A.Filatenkov
+#   title: Neutron activation cross sections measured at KRI in neutron energy region 13.4 - 14.9 MeV
+#   journal: Rept: USSR report to the I.N.D.C., No.0460 (2016)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.347000E+01
+#   E-max [MeV]:  1.486000E+01
+#   F-value:  1.084179E+00
+#   A-value:  9.566393E-01
+#   chi-2:  1.995132E+00
+#   p-value:  2.824384E-01
+#   exp. data sets for p-value:      4
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.021377E+00   1.012366E+00   4.234231E-01
+# jeff4.0       1.072806E+00   9.467323E-01   1.707502E+00
+# jendl5.0      1.006834E+00   9.982393E-01   1.329867E-01
+# eaf.2010      1.154727E+00   8.753733E-01   5.716619E+00

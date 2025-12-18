@@ -1,0 +1,57 @@
+# header: 
+#   title: He3(n,g)He4 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Komar
+#   year: 1993
+#   subentry: 13590003
+#   X4 reaction: 2-HE-3(N,G)2-HE-4,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/13590003
+# target: 
+#   Z: 2
+#   A: 3
+#   nuclide: He3
+# reaction: 
+#   type: (n,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 2
+#     A: 4
+#     nuclide: He4
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.350000E-01   0.000000E+00   1.920000E-02   2.508000E-03   1.000000E+00
+   5.710000E-01   0.000000E+00   3.350000E-02   2.220400E-03   1.000000E+00
+   1.068000E+00   0.000000E+00   5.670000E-02   7.561100E-03   1.000000E+00
+   1.530000E+00   0.000000E+00   6.310000E-02   4.808300E-03   1.000000E+00
+   1.999000E+00   0.000000E+00   7.530000E-02   6.014200E-03   1.000000E+00
+# reference:
+#   author: R.J.KOMAR,H.B.MAK,J.R.LESLIE,H.C.EVANS,E.BONVIN, E.D.EARLE,T.K.ALEXANDER
+#   title: 3He(n,gamma)4He cross section and the photo-  disintegration of 4He
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.48, p.2375 (1993)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.350000E-01
+#   E-max [MeV]:  1.999000E+00
+#   F-value:  1.424382E+00
+#   A-value:  1.031078E+00
+#   chi-2:  2.095195E+01
+#   p-value:  4.175313E-01
+#   exp. data sets for p-value:      1
+#   libraries:      4
+##  Library          F              A            chi-2
+# endfb8.1      1.417736E+00   1.398444E+00   3.071735E+01
+# jeff4.0       1.417726E+00   1.398436E+00   3.071692E+01
+# jendl5.0      1.431250E+00   7.600619E-01   1.119509E+01
+# eaf.2010      1.430703E+00   7.603778E-01   1.117846E+01

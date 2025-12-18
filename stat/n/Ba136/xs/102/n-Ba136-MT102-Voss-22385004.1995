@@ -1,0 +1,60 @@
+# header: 
+#   title: Ba136(n,g)Ba137 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Voss
+#   year: 1995
+#   subentry: 22385004
+#   X4 reaction: 56-BA-136(N,G)56-BA-137,,SIG,,AV
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22385004
+# target: 
+#   Z: 56
+#   A: 136
+#   nuclide: Ba136
+# reaction: 
+#   type: (n,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 56
+#     A: 137
+#     nuclide: Ba137
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   4.000000E-03   6.997488E-06   3.541000E+02   2.080000E+01   1.000000E+00
+   6.250000E-03   1.366697E-05   9.750000E+01   8.200000E+00   1.000000E+00
+   8.750000E-03   2.263937E-05   9.920000E+01   3.700000E+00   1.000000E+00
+   1.125000E-02   3.300509E-05   8.900001E+01   3.800000E+00   1.000000E+00
+   1.375000E-02   4.459706E-05   1.004000E+02   2.400000E+00   1.000000E+00
+   1.750000E-02   6.403380E-05   8.870000E+01   1.900000E+00   1.000000E+00
+# reference:
+#   author: F.VOSS,K.WISSHAK,F.KAEPPELER
+#   title: .RESONANCE NEUTRON CAPTURE IN BA-136
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.52, Issue.2, p.1102
+# statistics:
+#   NEA score: T3
+#   IAEA score:  1
+#   E-min [MeV]:  4.000000E-03
+#   E-max [MeV]:  1.750000E-02
+#   F-value:  1.057974E+01
+#   A-value:  2.721201E-01
+#   chi-2:  4.858445E+02
+#   p-value:  2.222125E-01
+#   exp. data sets for p-value:      1
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.368857E+01   2.142247E-01   5.179947E+02
+# endfb8.1      1.393633E+01   2.090485E-01   4.668180E+02
+# jeff4.0       1.368845E+01   2.142273E-01   5.180014E+02
+# jendl5.0      1.367097E+01   2.175868E-01   9.373484E+02
+# cendl3.2      1.108619E+01   2.232837E-01   4.341341E+02
+# eaf.2010      1.428627E+00   8.711290E-01   4.077055E+01

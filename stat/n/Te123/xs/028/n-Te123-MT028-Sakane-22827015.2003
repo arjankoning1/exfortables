@@ -1,0 +1,55 @@
+# header: 
+#   title: Te123(n,np)Sb122 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Sakane
+#   year: 2003
+#   subentry: 22827015
+#   X4 reaction: 52-TE-123(N,X)51-SB-122,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22827015
+# target: 
+#   Z: 52
+#   A: 123
+#   nuclide: Te123
+# reaction: 
+#   type: (n,np)
+#   ENDF_MF: 3
+#   ENDF_MT: 28
+#   residual: 
+#     Z: 51
+#     A: 122
+#     nuclide: Sb122
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.464000E+01   0.000000E+00   1.549800E+00   4.029400E-01   9.998586E-01
+   1.487000E+01   0.000000E+00   1.849700E+00   4.254400E-01   9.998586E-01
+# reference:
+#   author: H.Sakane,Y.Kasugai,M.Shibata,H.Takeuchi,K.Kawade
+#   title: Measurement of the (n,np+d) activation cross section  with 13.4 - 14.9 MeV neutrons using a fusion  neutronics source/JAERI
+#   journal: Jour: Annals of Nuclear Energy, Vol.30, p.1847 (2003)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.464000E+01
+#   E-max [MeV]:  1.487000E+01
+#   F-value:  2.373197E+00
+#   A-value:  1.112677E+00
+#   chi-2:  1.781993E+01
+#   p-value:  4.296099E-01
+#   exp. data sets for p-value:      1
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2025    2.375969E+00   2.375843E+00   3.203486E+01
+# endfb8.1      3.748762E+00   2.670948E-01   9.045994E+00
+# jeff4.0       2.532308E+00   2.532297E+00   3.960363E+01
+# jendl5.0      1.496302E+00   6.684400E-01   2.407357E+00
+# eaf.2010      1.587778E+00   1.587765E+00   6.007825E+00

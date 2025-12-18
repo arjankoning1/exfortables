@@ -1,0 +1,59 @@
+# header: 
+#   title: Lu175(n,2n)Lu174m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Laurec
+#   year: 1981
+#   subentry: 21709008
+#   X4 reaction: 71-LU-175(N,2N)71-LU-174-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21709008
+# target: 
+#   Z: 71
+#   A: 175
+#   nuclide: Lu175
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 71
+#     A: 174
+#     nuclide: Lu174m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.410000E+01   1.000000E-01   5.150000E+02   3.600000E+01   1.000000E+00
+   1.480000E+01   3.000000E-01   5.400000E+02   3.600000E+01   1.000000E+00
+# reference:
+#   author: J.Laurec,A.Adam,T.de Bruyne
+#   title: Measurement of the (n,2n) reaction cross sections  of the nuclei Y-89, Nb-93, Rh-103, Ag-107, Tm-169,  Lu-175, and Au-197 at 14.1 and 14.8 MeV.
+#   journal: Rept: Centre d'Etudes Nucleaires, Saclay Reports, No.5109 (1981)
+# statistics:
+#   NEA score: T2
+#   IAEA score:  1
+#   E-min [MeV]:  1.410000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.591638E+00
+#   A-value:  7.657440E-01
+#   chi-2:  2.649009E+01
+#   p-value:  3.391249E-01
+#   exp. data sets for p-value:      5
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.905603E+00   5.249448E-01   4.858913E+01
+# jeff4.0       1.905603E+00   5.249448E-01   4.858913E+01
+# jendl5.0      1.055082E+00   1.052068E+00   1.161406E+00
+# eaf.2010      1.187789E+00   1.185942E+00   7.620687E+00

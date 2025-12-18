@@ -1,0 +1,61 @@
+# header: 
+#   title: Tc99(n,x)Tc100 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Little
+#   year: 1977
+#   subentry: 10671002
+#   X4 reaction: 43-TC-99(N,G)43-TC-100,,SIG,,AV
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/10671002
+# target: 
+#   Z: 43
+#   A: 99
+#   nuclide: Tc99
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 43
+#     A: 100
+#     nuclide: Tc100
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   4.500000E-03   5.000000E-04   2.316000E+03   1.973232E+02   1.000000E+00
+   7.000000E-03   1.000000E-03   2.053000E+03   1.753262E+02   1.000000E+00
+   9.000000E-03   1.000000E-03   1.837000E+03   1.570635E+02   1.000000E+00
+   1.250000E-02   2.500000E-03   1.613000E+03   1.374276E+02   1.000000E+00
+   1.750000E-02   2.500000E-03   1.332000E+03   1.134864E+02   1.000000E+00
+   2.250000E-02   2.500000E-03   1.226000E+03   1.043326E+02   1.000000E+00
+   2.750000E-02   2.500000E-03   1.062000E+03   9.037621E+01   1.000000E+00
+   4.500000E-02   5.000000E-03   8.030000E+02   6.833530E+01   1.000000E+00
+   5.500000E-02   5.000000E-03   7.150000E+02   6.084650E+01   1.000000E+00
+   7.000000E-02   1.000000E-02   6.180000E+02   5.259180E+01   1.000000E+00
+# reference:
+#   author: R.C.Little,R.C.Block
+#   title: Neutron capture cross-section measurements of 99-Tc up to 80 keV
+#   journal: Jour: Transactions of the American Nuclear Society, Vol.26, p.574 (1977)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  0
+#   E-min [MeV]:  4.500000E-03
+#   E-max [MeV]:  7.000000E-02
+#   F-value:  1.629368E+00
+#   A-value:  1.034541E+00
+#   chi-2:  1.594117E+02
+#   p-value:  3.416328E-01
+#   exp. data sets for p-value:      4
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.645531E+00   9.868545E-01   1.602709E+02
+# jeff4.0       1.645531E+00   9.868545E-01   1.602709E+02
+# jendl5.0      1.596520E+00   1.136938E+00   1.576933E+02

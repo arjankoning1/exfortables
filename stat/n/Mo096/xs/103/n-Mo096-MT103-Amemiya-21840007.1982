@@ -1,0 +1,55 @@
+# header: 
+#   title: Mo96(n,p)Nb96 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Amemiya
+#   year: 1982
+#   subentry: 21840007
+#   X4 reaction: 42-MO-96(N,P)41-NB-96,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21840007
+# target: 
+#   Z: 42
+#   A: 96
+#   nuclide: Mo96
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 41
+#     A: 96
+#     nuclide: Nb96
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.480000E+01   3.000000E-01   2.080000E+01   2.100000E+00   1.000000E+00
+# reference:
+#   author: S.Amemiya,K.Ishibashi,T.Katoh
+#   title: Neutron activation cross section of  molybdenum isotopes at 14.8 MeV.
+#   journal: Jour: Jour. of Nuclear Science and Technology, Vol.19, Issue.10, p.781 (
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.480000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.142266E+00
+#   A-value:  1.137472E+00
+#   chi-2:  2.508212E+00
+#   p-value:  1.641771E-01
+#   exp. data sets for p-value:      8
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.171353E+00   1.171353E+00   3.319474E+00
+# endfb8.1      1.143686E+00   1.143686E+00   2.556224E+00
+# jeff4.0       1.171353E+00   1.171353E+00   3.319474E+00
+# jendl5.0      1.070895E+00   1.070895E+00   1.033611E+00
+# cendl3.2      1.163551E+00   1.163551E+00   3.091636E+00
+# eaf.2010      1.107719E+00   1.107719E+00   1.728854E+00

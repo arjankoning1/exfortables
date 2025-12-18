@@ -1,0 +1,57 @@
+# header: 
+#   title: Pu239(n,xg) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Nellis
+#   year: 1966
+#   subentry: 12408004
+#   X4 reaction: 94-PU-239(N,X)0-G-0,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/12408004
+# target: 
+#   Z: 94
+#   A: 239
+#   nuclide: Pu239
+# reaction: 
+#   type: (n,xg)
+#   ENDF_MF: 3
+#   ENDF_MT: 202
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.090000E+00   5.000000E-02   9.280000E+03   0.000000E+00   1.000000E+00
+   2.100000E+00   2.000000E-01   1.288000E+04   0.000000E+00   1.000000E+00
+   3.000000E+00   2.000000E-01   1.541000E+04   0.000000E+00   1.000000E+00
+   4.000000E+00   1.000000E-01   1.207000E+04   0.000000E+00   1.000000E+00
+   5.000000E+00   1.000000E-01   1.179000E+04   0.000000E+00   1.000000E+00
+   1.480000E+01   4.000000E-01   1.719000E+04   0.000000E+00   1.000000E+00
+# reference:
+#   author: D.O.Nellis,I.L.Morgan
+#   title: Gamma ray production cross sections for U235, U238, and Pu239.
+#   journal: Prog: Oak Ridge Operations Office, contract report, No.2791-17 (1966)
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  1.090000E+00
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.872475E+04
+#   A-value:  5.869012E-05
+#   chi-2:  0.000000E+00
+#   p-value:  1.192093E-07
+#   exp. data sets for p-value:      1
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    4.875490E+04   2.093363E-05   0.000000E+00
+# endfb8.1      0.000000E+00   0.000000E+00   0.000000E+00
+# jeff4.0       6.482854E+03   1.645453E-04   0.000000E+00
+# jendl5.0      0.000000E+00   0.000000E+00   0.000000E+00
+# cendl3.2      0.000000E+00   0.000000E+00   0.000000E+00
+# eaf.2010      0.000000E+00   0.000000E+00   0.000000E+00
+# irdff2.0      0.000000E+00   0.000000E+00   0.000000E+00

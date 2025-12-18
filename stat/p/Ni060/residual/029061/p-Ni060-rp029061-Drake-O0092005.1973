@@ -1,0 +1,62 @@
+# header: 
+#   title: Ni60(p,x)Cu61 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Drake
+#   year: 1973
+#   subentry: O0092005
+#   X4 reaction: 28-NI-60(P,G)29-CU-61,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O0092005
+# target: 
+#   Z: 28
+#   A: 60
+#   nuclide: Ni60
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 29
+#     A: 61
+#     nuclide: Cu61
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 12
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   8.000000E+00   0.000000E+00   3.860000E-01   0.000000E+00   1.000000E+00
+   8.010000E+00   0.000000E+00   3.530000E-01   0.000000E+00   1.000000E+00
+   8.970000E+00   0.000000E+00   3.340000E-01   0.000000E+00   1.000000E+00
+   8.990000E+00   0.000000E+00   3.050000E-01   0.000000E+00   1.000000E+00
+   1.000000E+01   0.000000E+00   2.390000E-01   0.000000E+00   1.000000E+00
+   1.090000E+01   0.000000E+00   4.290000E-01   0.000000E+00   1.000000E+00
+   1.200000E+01   0.000000E+00   4.960000E-01   0.000000E+00   1.000000E+00
+   1.312000E+01   0.000000E+00   5.440000E-01   0.000000E+00   1.000000E+00
+   1.400000E+01   0.000000E+00   6.870000E-01   0.000000E+00   1.000000E+00
+   1.400000E+01   0.000000E+00   6.390000E-01   0.000000E+00   1.000000E+00
+   1.524000E+01   0.000000E+00   5.920000E-01   0.000000E+00   1.000000E+00
+   1.600000E+01   0.000000E+00   5.250000E-01   0.000000E+00   1.000000E+00
+# reference:
+#   author: D.M.Drake,S.L.Whetstone,I.Halpern
+#   title: The Radiative Capture of Fast Protons by Medium-Mass Nuclei.
+#   journal: Jour: Nuclear Physics, Section A, Vol.203, p.257 (1973)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  8.000000E+00
+#   E-max [MeV]:  1.600000E+01
+#   F-value:  1.948377E+00
+#   A-value:  1.573938E+00
+#   chi-2:  0.000000E+00
+#   p-value:  2.910343E-01
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    2.160805E+00   2.124220E+00   0.000000E+00
+# jendl5.0      1.723188E+00   1.166207E+00   0.000000E+00

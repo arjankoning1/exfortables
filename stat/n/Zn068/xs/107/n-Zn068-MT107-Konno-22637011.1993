@@ -1,0 +1,60 @@
+# header: 
+#   title: Zn68(n,a)Ni65 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Konno
+#   year: 1993
+#   subentry: 22637011
+#   X4 reaction: 30-ZN-68(N,A)28-NI-65,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22637011
+# target: 
+#   Z: 30
+#   A: 68
+#   nuclide: Zn68
+# reaction: 
+#   type: (n,a)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+#   residual: 
+#     Z: 28
+#     A: 65
+#     nuclide: Ni65
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.333000E+01   0.000000E+00   8.458799E+00   4.775100E-01   9.881766E-01
+   1.357000E+01   0.000000E+00   8.547700E+00   4.623700E-01   9.881766E-01
+   1.398000E+01   0.000000E+00   8.982500E+00   5.105700E-01   9.881766E-01
+   1.422000E+01   0.000000E+00   8.933100E+00   4.998100E-01   9.881766E-01
+   1.467000E+01   0.000000E+00   9.447000E+00   5.084300E-01   9.881766E-01
+   1.493000E+01   0.000000E+00   9.338300E+00   5.118900E-01   9.881766E-01
+# reference:
+#   author: C.Konno, Y.Ikeda, K.Oishi, K.Kawade, H.Yamamoto, H.Maekawa
+#   title: Activation Cross section measurements at neutron  energy from 13.3 to 14.9 MeV
+#   journal: Rept: JAERI Reports, No.1329 (1993)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.333000E+01
+#   E-max [MeV]:  1.493000E+01
+#   F-value:  1.274236E+00
+#   A-value:  1.035111E+00
+#   chi-2:  2.712365E+01
+#   p-value:  4.479865E-01
+#   exp. data sets for p-value:      5
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.380766E+00   7.251441E-01   2.486466E+01
+# endfb8.1      1.016523E+00   9.949759E-01   3.086055E-01
+# jeff4.0       1.643052E+00   1.637706E+00   1.362867E+02
+# jendl5.0      1.009376E+00   1.006707E+00   1.604332E-01
+# cendl3.2      1.032103E+00   1.017737E+00   7.191219E-01
+# eaf.2010      1.019557E+00   1.016038E+00   4.023592E-01

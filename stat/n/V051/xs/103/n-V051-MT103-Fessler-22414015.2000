@@ -1,0 +1,57 @@
+# header: 
+#   title: V51(n,p)Ti51 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Fessler
+#   year: 2000
+#   subentry: 22414015
+#   X4 reaction: 23-V-51(N,P)22-TI-51,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22414015
+# target: 
+#   Z: 23
+#   A: 51
+#   nuclide: V51
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 22
+#     A: 51
+#     nuclide: Ti51
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.702800E+01   4.000000E-02   2.622000E+01   1.350000E+00   1.000000E+00
+   1.777700E+01   3.200000E-02   2.363000E+01   1.070000E+00   1.000000E+00
+   1.910100E+01   1.100000E-02   1.790000E+01   1.090000E+00   1.000000E+00
+   2.031300E+01   1.000000E-02   1.355000E+01   1.020000E+00   1.000000E+00
+# reference:
+#   author: A.Fessler,A.J.M.Plompen,D.L.Smith,J.W.Meadows, Y.Ikeda
+#   title: Neutron activation cross-section measurements  from 16 to 20 MeV for isotopes of F, Na, Mg, Al, Si,  P, Cl, Ti, V, Mn, Fe, Nb, Sn, and Ba
+#   journal: Jour: Nuclear Science and Engineering, Vol.134, Issue.2, p.171 (2000)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.702800E+01
+#   E-max [MeV]:  2.031300E+01
+#   F-value:  1.241238E+00
+#   A-value:  1.084343E+00
+#   chi-2:  1.557283E+01
+#   p-value:  3.850836E-01
+#   exp. data sets for p-value:      4
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2025    1.184504E+00   9.367375E-01   9.123253E+00
+# endfb8.1      1.224673E+00   1.166149E+00   1.641928E+01
+# jeff4.0       1.395683E+00   1.299958E+00   3.807565E+01
+# jendl5.0      1.204956E+00   1.026539E+00   9.804036E+00
+# eaf.2010      1.016065E+00   1.001084E+00   3.086411E-01

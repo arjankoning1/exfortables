@@ -1,0 +1,55 @@
+# header: 
+#   title: I127(n,x)I127 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Glazkov
+#   year: 1963
+#   subentry: 40680043
+#   X4 reaction: 53-I-127(N,INL)53-I-127,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/40680043
+# target: 
+#   Z: 53
+#   A: 127
+#   nuclide: I127
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+#   residual: 
+#     Z: 53
+#     A: 127
+#     nuclide: I127
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   4.000000E-01   0.000000E+00   7.500000E+02   1.500000E+02   1.000000E+00
+   6.000000E-01   0.000000E+00   1.320000E+03   2.000000E+02   1.000000E+00
+   8.000000E-01   0.000000E+00   1.630000E+03   2.000000E+02   1.000000E+00
+   1.000000E+00   0.000000E+00   1.650000E+03   2.000000E+02   1.000000E+00
+# reference:
+#   author: N.P.Glazkov
+#   title: Cross sections of the inelastic scattering of neutrons with energies of 0.4-1.2 MeV on medium and light nuclei
+#   journal: Jour: Atomnaya Energiya, Vol.15, p.416 (1963)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  4.000000E-01
+#   E-max [MeV]:  1.000000E+00
+#   F-value:  1.387787E+00
+#   A-value:  7.437605E-01
+#   chi-2:  4.477009E+00
+#   p-value:  1.515519E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.420468E+00   7.223921E-01   4.979609E+00
+# jeff4.0       1.420468E+00   7.223921E-01   4.979609E+00
+# jendl5.0      1.316948E+00   7.884124E-01   3.471809E+00

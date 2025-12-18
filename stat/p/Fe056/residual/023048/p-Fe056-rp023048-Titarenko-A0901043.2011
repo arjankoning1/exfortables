@@ -1,0 +1,62 @@
+# header: 
+#   title: Fe56(p,x)V48 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Titarenko
+#   year: 2011
+#   subentry: A0901043
+#   X4 reaction: 26-FE-56(P,X)23-V-48,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/A0901043
+# target: 
+#   Z: 26
+#   A: 56
+#   nuclide: Fe56
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 23
+#     A: 48
+#     nuclide: V48
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 11
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   4.600000E+01   1.000000E+00   2.150000E+00   1.800000E-01   1.000000E+00
+   6.800000E+01   1.000000E+00   1.730000E+00   1.500000E-01   1.000000E+00
+   9.900000E+01   1.000000E+00   1.610000E+01   1.400000E+00   1.000000E+00
+   1.490000E+02   1.000000E+00   1.680000E+01   1.600000E+00   1.000000E+00
+   2.490000E+02   1.000000E+00   1.920000E+01   1.500000E+00   1.000000E+00
+   4.000000E+02   2.000000E+00   2.000000E+01   1.900000E+00   1.000000E+00
+   6.000000E+02   2.000000E+00   1.990000E+01   1.700000E+00   1.000000E+00
+   7.990000E+02   2.000000E+00   1.920000E+01   1.700000E+00   1.000000E+00
+   1.199000E+03   3.000000E+00   1.790000E+01   1.500000E+00   1.000000E+00
+   1.598000E+03   4.000000E+00   1.740000E+01   1.600000E+00   1.000000E+00
+   2.605000E+03   8.000000E+00   1.270000E+01   1.200000E+00   1.000000E+00
+# reference:
+#   author: Yu.E.Titarenko, V.F.Batyaev, A.Yu.Titarenko, M.A.Butko, K.V.Pavlov, S.N.Florya, R.S.Tikhonov, V.M.Zhivun, A.V.Ignatyuk, S.G.Mashnik, S.Leray, A.Boudard, J.Cugnon, D.Mancusi, Y.Yariv, K.Nishihara, N.Matsuda, H.Kumawat, G.Mank, W.Gudowski
+#   title: Measurement and simulation of the cross sections for nuclide production in Fe-56 and Cr-nat targets irradiated with 0.04- to 2.6-GeV protons.
+#   journal: Jour: Yadernaya Fizika, Vol.74, p.548 (2011)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  4.600000E+01
+#   E-max [MeV]:  2.605000E+03
+#   F-value:  2.239198E+00
+#   A-value:  6.840972E-01
+#   chi-2:  3.698135E+01
+#   p-value:  1.145264E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    3.261974E+00   6.011201E-01   7.060499E+01
+# endfb8.1      1.808596E+00   7.504009E-01   2.626541E+01
+# jendl5.0      1.564736E+00   7.097392E-01   1.407365E+01

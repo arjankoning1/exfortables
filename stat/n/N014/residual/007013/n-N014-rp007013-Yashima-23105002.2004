@@ -1,0 +1,58 @@
+# header: 
+#   title: N14(n,x)N13 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Yashima
+#   year: 2004
+#   subentry: 23105002
+#   X4 reaction: 7-N-14(N,2N)7-N-13,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/23105002
+# target: 
+#   Z: 7
+#   A: 14
+#   nuclide: N14
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 7
+#     A: 13
+#     nuclide: N13
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.700000E+01   0.000000E+00   1.179787E+01   3.869300E+00   9.998196E-01
+   3.100000E+01   0.000000E+00   6.018900E+00   1.889700E+00   9.998196E-01
+   3.700000E+01   0.000000E+00   5.659000E+00   1.759700E+00   9.998196E-01
+   4.600000E+01   0.000000E+00   5.689000E+00   1.819700E+00   9.998196E-01
+   5.600000E+01   0.000000E+00   4.959100E+00   1.599700E+00   9.998196E-01
+   6.600000E+01   0.000000E+00   4.029300E+00   1.289800E+00   9.998196E-01
+# reference:
+#   author: H.Yashima, K.Terunuma, T.Nakamura, M.Hagiwara, N.Kawata, M.Baba
+#   title: Measurement of neutron activation cross sections for  major elements of water, air and soil between 30 and  70 MeV.
+#   journal: Jour: Jour. of Nuclear Science and Technology Suppl., Vol.4, p.70 (2004)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.700000E+01
+#   E-max [MeV]:  6.600000E+01
+#   F-value:  2.173466E+00
+#   A-value:  1.543068E+00
+#   chi-2:  4.630050E+01
+#   p-value:  3.501836E-01
+#   exp. data sets for p-value:      1
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    4.060939E+00   3.389951E+00   1.760415E+02
+# endfb8.1      1.225224E+00   9.834840E-01   8.396966E-01
+# jeff4.0       1.225224E+00   9.834840E-01   8.396966E-01
+# jendl5.0      1.828534E+00   1.729068E+00   7.481012E+00

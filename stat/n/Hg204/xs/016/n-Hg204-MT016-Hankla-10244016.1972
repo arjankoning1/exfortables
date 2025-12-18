@@ -1,0 +1,54 @@
+# header: 
+#   title: Hg204(n,2n)Hg203 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Hankla
+#   year: 1972
+#   subentry: 10244016
+#   X4 reaction: 80-HG-204(N,2N)80-HG-203,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/10244016
+# target: 
+#   Z: 80
+#   A: 204
+#   nuclide: Hg204
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 80
+#     A: 203
+#     nuclide: Hg203
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.440000E+01   8.000000E-01   2.088205E+03   1.668955E+02   1.005395E+00
+# reference:
+#   author: A.K.Hankla,R.W.Fink,J.H.Hamilton
+#   title: Neutron activation cross sections at 14.4 MeV for some  naturally occurring heavy elements in the region  76 <= Z <= 82
+#   journal: Jour: Nuclear Physics, Section A, Vol.180, p.157 (1972)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.440000E+01
+#   E-max [MeV]:  1.440000E+01
+#   F-value:  1.019110E+00
+#   A-value:  1.012696E+00
+#   chi-2:  2.689164E-01
+#   p-value:  4.417137E-01
+#   exp. data sets for p-value:      4
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2025    1.016651E+00   1.016651E+00   2.730505E-01
+# endfb8.1      1.004320E+00   1.004320E+00   6.851970E-02
+# jeff4.0       1.016651E+00   1.016651E+00   2.730505E-01
+# jendl5.0      1.034626E+00   1.034626E+00   5.975180E-01
+# eaf.2010      1.008332E+00   9.917369E-01   1.324435E-01

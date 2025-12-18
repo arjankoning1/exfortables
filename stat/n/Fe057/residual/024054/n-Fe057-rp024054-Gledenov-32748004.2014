@@ -1,0 +1,56 @@
+# header: 
+#   title: Fe57(n,x)Cr54 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Gledenov
+#   year: 2014
+#   subentry: 32748004
+#   X4 reaction: 26-FE-57(N,A)24-CR-54,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/32748004
+# target: 
+#   Z: 26
+#   A: 57
+#   nuclide: Fe57
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+#   residual: 
+#     Z: 24
+#     A: 54
+#     nuclide: Cr54
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.000000E+00   3.200000E-01   3.123100E+00   3.433500E-01   1.004204E+00
+   5.500000E+00   2.800000E-01   4.701100E+00   4.741500E-01   1.002365E+00
+   6.000000E+00   2.400000E-01   6.111600E+00   6.142000E-01   1.000262E+00
+   6.500000E+00   2.000000E-01   7.288100E+00   6.667300E-01   1.002494E+00
+# reference:
+#   author: Yu.M.Gledenov, M.V.Sedysheva, V.A.Stolupin,  Guohui Zhang, Jinhua Han, Zhimin Wang, Xiao Fan,  Xiang Liu, Jinxiang Chen, G.Khuukhenkhuu,  P.J.Szalanski
+#   title: Cross sections of the 57Fe(n,a)54Cr and 63Cu(n,a)60Co  reactions in the MeV region
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.89, p.064607 (2014)
+# statistics:
+#   NEA score: T2
+#   IAEA score:  1
+#   E-min [MeV]:  5.000000E+00
+#   E-max [MeV]:  6.500000E+00
+#   F-value:  2.912392E+01
+#   A-value:  1.664593E-01
+#   chi-2:  3.307548E+01
+#   p-value:  1.747730E-01
+#   exp. data sets for p-value:      2
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.689070E+00   5.929520E-01   1.678322E+01
+# endfb8.1      3.558262E+03   2.810361E-04   1.194221E+02
+# jeff4.0       3.558262E+03   2.810361E-04   1.194221E+02
+# jendl5.0      0.000000E+00   0.000000E+00   0.000000E+00

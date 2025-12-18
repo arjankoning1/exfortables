@@ -1,0 +1,55 @@
+# header: 
+#   title: Pu239(n,f) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Davis
+#   year: 1978
+#   subentry: 10314003
+#   X4 reaction: 94-PU-239(N,F),,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/10314003
+# target: 
+#   Z: 94
+#   A: 239
+#   nuclide: Pu239
+# reaction: 
+#   type: (n,f)
+#   ENDF_MF: 3
+#   ENDF_MT: 18
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.400000E-01   0.000000E+00   1.469000E+03   3.408080E+01   1.000000E+00
+   2.650000E-01   0.000000E+00   1.515000E+03   3.560250E+01   1.000000E+00
+   7.700000E-01   0.000000E+00   1.670000E+03   4.191700E+01   1.000000E+00
+   9.640000E-01   0.000000E+00   1.643000E+03   5.011150E+01   1.000000E+00
+# reference:
+#   author: M.C.Davis, G.F.Knoll, J.C.Robertson, D.M.Gilliam
+#   title: Absolute measurements of 235U and 239PU fission  cross-sections with photoneutron sources
+#   journal: Jour: Annals of Nuclear Energy, Vol.5, p.569 (1978)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.400000E-01
+#   E-max [MeV]:  9.640000E-01
+#   F-value:  1.033117E+00
+#   A-value:  1.022808E+00
+#   chi-2:  1.678169E+00
+#   p-value:  3.788386E-01
+#   exp. data sets for p-value:      5
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.022870E+00   1.016306E+00   9.662026E-01
+# endfb8.1      1.023025E+00   1.016555E+00   9.838649E-01
+# jeff4.0       1.037452E+00   1.030481E+00   2.275604E+00
+# jendl5.0      1.031077E+00   1.022051E+00   1.477508E+00
+# cendl3.2      1.038143E+00   1.026303E+00   2.032367E+00
+# eaf.2010      1.046368E+00   1.028354E+00   2.793204E+00
+# irdff2.0      1.025957E+00   1.019699E+00   1.218433E+00

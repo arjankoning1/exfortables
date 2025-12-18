@@ -1,0 +1,52 @@
+# header: 
+#   title: Sr84(n,x)Sr83 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Strohal
+#   year: 1962
+#   subentry: 30008007
+#   X4 reaction: 38-SR-84(N,2N)38-SR-83,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30008007
+# target: 
+#   Z: 38
+#   A: 84
+#   nuclide: Sr84
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 38
+#     A: 83
+#     nuclide: Sr83
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.460000E+01   3.000000E-01   3.800000E+02   0.000000E+00   1.000000E+00
+# reference:
+#   author: P.Strohal, N.Cindro, B.Eman
+#   title: Reaction mechanism and shell effects from the  interaction of 14.6 MeV neutrons with nuclei
+#   journal: Jour: Nuclear Physics, Vol.30, p.49 (1962)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  0
+#   E-min [MeV]:  1.460000E+01
+#   E-max [MeV]:  1.460000E+01
+#   F-value:  1.726181E+00
+#   A-value:  1.716078E+00
+#   chi-2:  0.000000E+00
+#   p-value:  6.489634E-02
+#   exp. data sets for p-value:      8
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.920150E+00   1.920150E+00   0.000000E+00
+# jeff4.0       1.606728E+00   1.606728E+00   0.000000E+00
+# jendl5.0      1.638074E+00   1.638074E+00   0.000000E+00

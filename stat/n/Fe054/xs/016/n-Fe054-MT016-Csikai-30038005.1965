@@ -1,0 +1,56 @@
+# header: 
+#   title: Fe54(n,2n)Fe53 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Csikai
+#   year: 1965
+#   subentry: 30038005
+#   X4 reaction: 26-FE-54(N,2N)26-FE-53,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30038005
+# target: 
+#   Z: 26
+#   A: 54
+#   nuclide: Fe54
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 26
+#     A: 53
+#     nuclide: Fe53
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.460000E+01   1.000000E-01   1.553733E+01   3.000000E+00   9.710832E-01
+# reference:
+#   author: J.Csikai
+#   title: Fluctuations in the total cross-section of (n,2n) reactions
+#   journal: Conf: Nuclear Structure Study with Neutrons, Antwerp 1965, p.537 (1965)
+# statistics:
+#   NEA score: T2
+#   IAEA score:  1
+#   E-min [MeV]:  1.460000E+01
+#   E-max [MeV]:  1.460000E+01
+#   F-value:  2.086658E+00
+#   A-value:  4.985115E-01
+#   chi-2:  6.977323E+00
+#   p-value:  1.629497E-01
+#   exp. data sets for p-value:      8
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    2.373957E+00   4.212377E-01   9.032696E+00
+# endfb8.1      2.477454E+00   4.036402E-01   9.577230E+00
+# jeff4.0       2.477458E+00   4.036396E-01   9.577250E+00
+# jendl5.0      1.707033E+00   5.858119E-01   4.864616E+00
+# cendl3.2      1.504034E+00   6.648786E-01   3.436708E+00
+# eaf.2010      1.410209E+00   7.091149E-01   2.775514E+00
+# irdff2.0      2.477458E+00   4.036396E-01   9.577250E+00

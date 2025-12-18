@@ -1,0 +1,59 @@
+# header: 
+#   title: I127(n,x)I128 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Linenberger
+#   year: 1946
+#   subentry: 11945008
+#   X4 reaction: 53-I-127(N,G)53-I-128,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11945008
+# target: 
+#   Z: 53
+#   A: 127
+#   nuclide: I127
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 53
+#     A: 128
+#     nuclide: I128
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.000000E-03   3.000000E-03   2.948758E+03   0.000000E+00   9.605075E-01
+   1.600000E-02   1.200000E-02   1.210434E+03   0.000000E+00   8.835286E-01
+   3.300000E-02   3.500000E-02   8.753385E+02   0.000000E+00   8.336558E-01
+   6.700000E-02   4.000000E-02   6.025238E+02   0.000000E+00   8.287810E-01
+   9.800000E-02   3.500000E-02   4.838880E+02   0.000000E+00   8.160000E-01
+   1.950000E-01   2.000000E-02   4.353831E+02   0.000000E+00   8.230304E-01
+   3.900000E-01   2.000000E-02   2.364559E+02   0.000000E+00   8.210274E-01
+   5.900000E+00   1.000000E-01   2.368244E+01   0.000000E+00   8.194616E-01
+# reference:
+#   author: G.A.Linenberger,J.A.Miskel
+#   title: Capture cross sections of several substances for neutrons at various energies.
+#   journal: Rept: Los Alamos Scientific Lab. Reports, No.467 (1946)
+# statistics:
+#   NEA score: T2
+#   IAEA score:  1
+#   E-min [MeV]:  3.000000E-03
+#   E-max [MeV]:  5.900000E+00
+#   F-value:  5.674548E+00
+#   A-value:  3.557986E-01
+#   chi-2:  0.000000E+00
+#   p-value:  8.723476E-02
+#   exp. data sets for p-value:      2
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    5.544553E+00   3.607219E-01   0.000000E+00
+# jeff4.0       5.544552E+00   3.607219E-01   0.000000E+00
+# jendl5.0      5.938379E+00   3.461530E-01   0.000000E+00

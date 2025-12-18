@@ -1,0 +1,50 @@
+# header: 
+#   title: Fe56(p,np)Fe55 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Biryukov
+#   year: 1980
+#   subentry: A0068065P
+#   X4 reaction: 26-FE-56(P,X)26-FE-55,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/A0068065P
+# target: 
+#   Z: 26
+#   A: 56
+#   nuclide: Fe56
+# reaction: 
+#   type: (p,np)
+#   ENDF_MF: 3
+#   ENDF_MT: 28
+#   residual: 
+#     Z: 26
+#     A: 55
+#     nuclide: Fe55
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.200000E+01   2.000000E-01   4.070000E+02   2.645500E+01   1.000000E+00
+# reference:
+#   author: N.S.Biryukov,B.V.Zhuravlev,A.P.Rudenko, O.A.Salnikov,V.I.Trykova
+#   title: Direct and equilibrium processes in (p,n) reactions at proton energy of 22.2 MeV
+#   journal: Jour: Yadernaya Fizika, Vol.31, p.561 (1980)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  2.200000E+01
+#   E-max [MeV]:  2.200000E+01
+#   F-value:  1.704549E+00
+#   A-value:  1.704549E+00
+#   chi-2:  1.174887E+02
+#   p-value:  7.234846E-02
+#   exp. data sets for p-value:      2
+#   libraries:      1
+##  Library          F              A            chi-2
+# tendl.2025    1.704549E+00   1.704549E+00   1.174887E+02

@@ -1,0 +1,57 @@
+# header: 
+#   title: Ge74(p,g)As75 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Wu
+#   year: 2020
+#   subentry: S0231002
+#   X4 reaction: 32-GE-74(P,G)33-AS-75,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/S0231002
+# target: 
+#   Z: 32
+#   A: 74
+#   nuclide: Ge74
+# reaction: 
+#   type: (p,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 33
+#     A: 75
+#     nuclide: As75
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.399828E+00   0.000000E+00   1.150000E-02   1.800000E-03   1.000000E+00
+   1.500178E+00   0.000000E+00   2.860000E-02   4.100000E-03   1.000000E+00
+   1.600528E+00   0.000000E+00   5.520000E-02   5.600000E-03   1.000000E+00
+   1.800214E+00   0.000000E+00   2.000000E-01   1.900000E-02   1.000000E+00
+   1.999900E+00   0.000000E+00   6.040000E-01   5.900000E-02   1.000000E+00
+   2.400285E+00   0.000000E+00   2.150000E+00   2.100000E-01   1.000000E+00
+   2.800670E+00   0.000000E+00   7.750000E+00   7.500000E-01   1.000000E+00
+# reference:
+#   author: D.Wu,N.Y.Wang,B.Guo,C.Y.He,Y.Tian,X.Tao,T.L.Ma, F.L.Liu,W.S.Yang,J.H.Wei,Y.P.Shen,S.L.Guo,Q.W.Fan, X.G.Wu,Y.Zheng,T.X.Li,Z.Q.Wang,H.L.Luo,Y.N.Liu, M.L.Qiu
+#   title: New measurement of the 74Ge(p,g)75As reaction cross sections in the p-process nucleosynthesis
+#   journal: Jour: Physics Letters,Section B, Vol.805, p.135431 (2020)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.399828E+00
+#   E-max [MeV]:  2.800670E+00
+#   F-value:  1.599158E+00
+#   A-value:  6.550705E-01
+#   chi-2:  1.149132E+01
+#   p-value:  2.448422E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.825468E+00   5.545373E-01   1.721185E+01
+# jendl5.0      1.323629E+00   7.738295E-01   5.770795E+00

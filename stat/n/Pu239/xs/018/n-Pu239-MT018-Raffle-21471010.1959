@@ -1,0 +1,57 @@
+# header: 
+#   title: Pu239(n,f) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Raffle
+#   year: 1959
+#   subentry: 21471010
+#   X4 reaction: 94-PU-239(N,F),,SIG,,RTE
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21471010
+# target: 
+#   Z: 94
+#   A: 239
+#   nuclide: Pu239
+# reaction: 
+#   type: (n,f)
+#   ENDF_MF: 3
+#   ENDF_MT: 18
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.940000E-08   0.000000E+00   8.055490E+05   1.847519E+04   1.000000E+00
+   2.140000E-08   0.000000E+00   7.498938E+05   1.719874E+04   1.000000E+00
+   2.380000E-08   0.000000E+00   7.337666E+05   1.682887E+04   1.000000E+00
+   2.660000E-08   0.000000E+00   6.922343E+05   1.587633E+04   1.000000E+00
+   3.010000E-08   0.000000E+00   6.317239E+05   1.448853E+04   1.000000E+00
+   3.410000E-08   0.000000E+00   6.162616E+05   1.413390E+04   1.000000E+00
+# reference:
+#   author: J.F.Raffle
+#   title: Thermal neutron fission cross sections of several  isotopes
+#   journal: Rept: A.E.R.E. Harwell Reports, No.2998 (1959)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.940000E-08
+#   E-max [MeV]:  3.410000E-08
+#   F-value:  1.055378E+00
+#   A-value:  1.052364E+00
+#   chi-2:  6.159176E+00
+#   p-value:  2.110157E-01
+#   exp. data sets for p-value:      8
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.054045E+00   1.050793E+00   5.901035E+00
+# endfb8.1      1.058916E+00   1.056593E+00   6.869792E+00
+# jeff4.0       1.058448E+00   1.055300E+00   6.800513E+00
+# jendl5.0      1.054060E+00   1.050809E+00   5.903883E+00
+# cendl3.2      1.053119E+00   1.050253E+00   5.712523E+00
+# eaf.2010      1.054286E+00   1.051531E+00   5.935879E+00
+# irdff2.0      1.054503E+00   1.051285E+00   5.990613E+00

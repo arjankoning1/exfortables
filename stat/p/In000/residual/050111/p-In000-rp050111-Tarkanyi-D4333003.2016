@@ -1,0 +1,58 @@
+# header: 
+#   title: In0(p,x)Sn111 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Tarkanyi
+#   year: 2016
+#   subentry: D4333003
+#   X4 reaction: 49-IN-0(P,X)50-SN-111,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D4333003
+# target: 
+#   Z: 49
+#   A: 0
+#   nuclide: In0
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 50
+#     A: 111
+#     nuclide: Sn111
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.450000E+01   5.000000E-01   4.900000E+00   9.000000E-01   1.000000E+00
+   2.620000E+01   4.000000E-01   1.110000E+01   1.400000E+00   1.000000E+00
+   2.750000E+01   4.000000E-01   1.640000E+01   2.000000E+00   1.000000E+00
+   2.870000E+01   3.000000E-01   1.930000E+01   2.400000E+00   1.000000E+00
+   2.990000E+01   3.000000E-01   2.070000E+01   2.500000E+00   1.000000E+00
+   3.110000E+01   3.000000E-01   2.060000E+01   2.500000E+00   1.000000E+00
+   3.220000E+01   2.000000E-01   2.130000E+01   2.700000E+00   1.000000E+00
+   3.330000E+01   2.000000E-01   2.310000E+01   2.900000E+00   1.000000E+00
+# reference:
+#   author: F.Tarkanyi,F.Ditroi,A.Hermanne,S.Takacs,M.Baba
+#   title: Investigation of activation crosssections of proton induced reactions on indium up to 70 MeV for practical applications
+#   journal: Jour: Applied Radiation and Isotopes, Vol.107, p.391 (2016)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.450000E+01
+#   E-max [MeV]:  3.330000E+01
+#   F-value:  1.442269E+00
+#   A-value:  1.339908E+00
+#   chi-2:  1.109592E+01
+#   p-value:  2.164752E-01
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.309897E+00   1.188075E+00   5.184779E+00
+# jendl5.0      1.555805E+00   1.511144E+00   1.700705E+01

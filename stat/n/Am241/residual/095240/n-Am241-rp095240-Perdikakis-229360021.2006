@@ -1,0 +1,52 @@
+# header: 
+#   title: Am241(n,x)Am240 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Perdikakis
+#   year: 2006
+#   subentry: 229360021
+#   X4 reaction: 95-AM-241(N,2N)95-AM-240,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/229360021
+# target: 
+#   Z: 95
+#   A: 241
+#   nuclide: Am241
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 95
+#     A: 240
+#     nuclide: Am240
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   8.800000E+00   1.000000E-01   1.537396E+02   2.562327E+01   1.024931E+00
+   9.600000E+00   1.000000E-01   1.711634E+02   1.332410E+01   1.024931E+00
+# reference:
+#   author: G.Perdikakis, C.T.Papadopoulos, R.Vlastou,  A.Lagoyannis, A.Spyrou, M.Kokkoris, S.Galanopoulos,  N.Patronis, D.Karamanis, Ch.Zarkadas, G.Kalyva,  S.Kossionides
+#   title: Measurement of the 241Am(n,2n) reaction cross section  using the activation method
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.73, p.067601 (2006)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  8.800000E+00
+#   E-max [MeV]:  9.600000E+00
+#   F-value:  1.108510E+00
+#   A-value:  1.025762E+00
+#   chi-2:  2.035589E+00
+#   p-value:  2.968114E-01
+#   exp. data sets for p-value:      3
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.054761E+00   9.626535E-01   3.065345E-01
+# jendl5.0      1.145203E+00   1.093007E+00   3.764644E+00

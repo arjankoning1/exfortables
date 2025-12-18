@@ -1,0 +1,57 @@
+# header: 
+#   title: Ba136(n,x)Cs136 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Ikeda
+#   year: 1988
+#   subentry: 22089101
+#   X4 reaction: 56-BA-136(N,P)55-CS-136,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22089101
+# target: 
+#   Z: 56
+#   A: 136
+#   nuclide: Ba136
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 55
+#     A: 136
+#     nuclide: Cs136
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.333000E+01   0.000000E+00   2.900000E+00   8.600000E-01   1.000000E+00
+   1.357000E+01   0.000000E+00   2.960000E+00   8.000000E-01   1.000000E+00
+   1.399000E+01   0.000000E+00   5.940000E+00   1.000000E+00   1.000000E+00
+   1.444000E+01   0.000000E+00   5.810000E+00   8.900000E-01   1.000000E+00
+   1.468000E+01   0.000000E+00   8.000000E+00   1.100000E+00   1.000000E+00
+   1.494000E+01   0.000000E+00   6.930000E+00   9.500000E-01   1.000000E+00
+# reference:
+#   author: Y.Ikeda,C.Konno,K.Oishi,T.Nakamura,H.Miyade, K.Kawade,  H.Yamamoto, T.Katoh
+#   title: Activation cross section measurements for fusion  reactor structural materials at neutron energy from  13.3 to 15.0 MeV using FNS facility
+#   journal: Rept: JAERI Reports, No.1312 (1988)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.333000E+01
+#   E-max [MeV]:  1.494000E+01
+#   F-value:  1.364218E+00
+#   A-value:  1.248281E+00
+#   chi-2:  3.262514E+00
+#   p-value:  2.291571E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.307422E+00   1.221111E+00   2.178273E+00
+# jeff4.0       1.535307E+00   1.429516E+00   6.429270E+00
+# jendl5.0      1.201564E+00   1.114276E+00   1.179998E+00

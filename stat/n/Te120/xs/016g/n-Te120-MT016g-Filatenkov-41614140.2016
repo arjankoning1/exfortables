@@ -1,0 +1,64 @@
+# header: 
+#   title: Te120(n,2n)Te119g cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Filatenkov
+#   year: 2016
+#   subentry: 41614140
+#   X4 reaction: 52-TE-120(N,2N)52-TE-119-G,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/41614140
+# target: 
+#   Z: 52
+#   A: 120
+#   nuclide: Te120
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 52
+#     A: 119
+#     nuclide: Te119g
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.348000E+01   0.000000E+00   5.419973E+02   4.448253E+01   9.999947E-01
+   1.367000E+01   0.000000E+00   5.510007E+02   4.467791E+01   1.000001E+00
+   1.406000E+01   0.000000E+00   6.039955E+02   4.566168E+01   9.999925E-01
+   1.428000E+01   0.000000E+00   6.109954E+02   4.649774E+01   9.999922E-01
+   1.446000E+01   0.000000E+00   6.289946E+02   4.830892E+01   9.999912E-01
+   1.467000E+01   0.000000E+00   6.420056E+02   4.937384E+01   1.000009E+00
+   1.483000E+01   0.000000E+00   6.600013E+02   4.963599E+01   1.000002E+00
+# reference:
+#   author: A.A.Filatenkov
+#   title: Neutron activation cross sections measured at KRI in neutron energy region 13.4 - 14.9 MeV
+#   journal: Rept: USSR report to the I.N.D.C., No.0460 (2016)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.348000E+01
+#   E-max [MeV]:  1.483000E+01
+#   F-value:  1.079230E+00
+#   A-value:  9.472675E-01
+#   chi-2:  1.185519E+00
+#   p-value:  3.891686E-01
+#   exp. data sets for p-value:      2
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.105271E+00   9.129907E-01   2.009967E+00
+# jeff4.0       1.119695E+00   8.940387E-01   2.447833E+00
+# jendl5.0      1.021372E+00   9.861280E-01   2.574585E-01
+# eaf.2010      1.002747E+00   1.000310E+00   2.681616E-02

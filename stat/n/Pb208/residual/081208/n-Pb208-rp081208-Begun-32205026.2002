@@ -1,0 +1,56 @@
+# header: 
+#   title: Pb208(n,x)Tl208 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Begun
+#   year: 2002
+#   subentry: 32205026
+#   X4 reaction: 82-PB-208(N,P)81-TL-208,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/32205026
+# target: 
+#   Z: 82
+#   A: 208
+#   nuclide: Pb208
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 81
+#     A: 208
+#     nuclide: Tl208
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.356000E+01   3.000000E-02   4.374100E-01   4.970600E-02   9.941177E-01
+   1.369000E+01   3.000000E-02   6.064100E-01   5.964700E-02   9.941177E-01
+   1.395000E+01   4.000000E-02   6.958800E-01   6.958800E-02   9.941177E-01
+   1.421000E+01   5.000000E-02   8.350600E-01   4.970600E-02   9.941177E-01
+   1.447000E+01   4.000000E-02   1.023900E+00   6.958800E-02   9.941177E-01
+   1.453000E+01   4.000000E-02   1.183000E+00   6.958800E-02   9.941177E-01
+# reference:
+#   author: S.V.Begun, I.M.Kadenko, V.K.Maidanyuk, V.M.Neplyuev,  V.A.Plujko, G.I.Primenko, V.K.Tarakanov
+#   title: Determination of the cross sections of (n,x) nuclear  reactions on Y, La, Ta, Pb and Bi at the energy of  neutrons about 14 MeV
+#   journal: Jour: Jour. of Nuclear Science and Technology Suppl., Vol.2, p.425 (2002
+# statistics:
+#   NEA score: T2
+#   IAEA score:  1
+#   E-min [MeV]:  1.356000E+01
+#   E-max [MeV]:  1.453000E+01
+#   F-value:  3.839588E+00
+#   A-value:  2.614934E-01
+#   chi-2:  9.437206E+01
+#   p-value:  6.144946E-02
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    3.868029E+00   2.597812E-01   9.435178E+01
+# jendl5.0      3.811201E+00   2.632169E-01   9.439233E+01

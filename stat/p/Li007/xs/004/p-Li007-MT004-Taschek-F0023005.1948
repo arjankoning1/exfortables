@@ -1,0 +1,55 @@
+# header: 
+#   title: Li7(p,n')Be7 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Taschek
+#   year: 1948
+#   subentry: F0023005
+#   X4 reaction: 3-LI-7(P,N)4-BE-7,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/F0023005
+# target: 
+#   Z: 3
+#   A: 7
+#   nuclide: Li7
+# reaction: 
+#   type: (p,n')
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+#   residual: 
+#     Z: 4
+#     A: 7
+#     nuclide: Be7
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.999900E+00   0.000000E+00   2.470000E+02   2.964000E+01   1.000000E+00
+   2.099600E+00   0.000000E+00   2.909000E+02   3.490800E+01   1.000000E+00
+   2.199800E+00   0.000000E+00   4.237000E+02   5.084400E+01   1.000000E+00
+   2.249300E+00   0.000000E+00   4.656000E+02   5.587200E+01   1.000000E+00
+   2.299600E+00   0.000000E+00   4.181000E+02   5.017200E+01   1.000000E+00
+   2.399300E+00   0.000000E+00   3.128000E+02   3.753600E+01   1.000000E+00
+# reference:
+#   author: R.Taschek,A.Hemmendinger
+#   title: Reaction constants for Li-7(p,n)Be-7.
+#   journal: Jour: Physical Review, Vol.74, p.373 (1948)
+# statistics:
+#   NEA score: T3
+#   IAEA score:  1
+#   E-min [MeV]:  1.999900E+00
+#   E-max [MeV]:  2.399300E+00
+#   F-value:  4.369483E+00
+#   A-value:  2.316285E-01
+#   chi-2:  4.069717E+01
+#   p-value:  3.531699E-01
+#   exp. data sets for p-value:      7
+#   libraries:      1
+##  Library          F              A            chi-2
+# tendl.2025    4.369483E+00   2.316285E-01   4.069717E+01

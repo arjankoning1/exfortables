@@ -1,0 +1,48 @@
+# header: 
+#   title: U235(n,non) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Beyster
+#   year: 1956
+#   subentry: 11220036
+#   X4 reaction: 92-U-235(N,NON),,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11220036
+# target: 
+#   Z: 92
+#   A: 235
+#   nuclide: U235
+# reaction: 
+#   type: (n,non)
+#   ENDF_MF: 3
+#   ENDF_MT: 3
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.000000E+00   0.000000E+00   2.700000E+03   3.000000E+02   1.000000E+00
+   2.500000E+00   0.000000E+00   3.250000E+03   3.000000E+02   1.000000E+00
+# reference:
+#   author: J.R.Beyster,M.Walt,E.W.Salmi
+#   title: Interaction of 1.0-, 1.77-, 2.5-, 3.25-, and 7.0-Mev Neutrons with Nuclei
+#   journal: Jour: Physical Review, Vol.104, p.1319 (1956)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.000000E+00
+#   E-max [MeV]:  2.500000E+00
+#   F-value:  1.089278E+00
+#   A-value:  1.079741E+00
+#   chi-2:  1.255100E+00
+#   p-value:  4.037709E-01
+#   exp. data sets for p-value:      3
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.043396E+00   1.043121E+00   5.987924E-01
+# cendl3.2      1.119890E+00   1.117647E+00   1.911407E+00

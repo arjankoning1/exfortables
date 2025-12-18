@@ -1,0 +1,56 @@
+# header: 
+#   title: Zr90(n,x)Zr89 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Molla
+#   year: 1991
+#   subentry: 30985005
+#   X4 reaction: 40-ZR-90(N,2N)40-ZR-89,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30985005
+# target: 
+#   Z: 40
+#   A: 90
+#   nuclide: Zr90
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 40
+#     A: 89
+#     nuclide: Zr89
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.364000E+01   0.000000E+00   4.583153E+02   4.285298E+01   9.963376E-01
+   1.388000E+01   0.000000E+00   5.617953E+02   5.115874E+01   1.003206E+00
+   1.410000E+01   0.000000E+00   6.349817E+02   5.751413E+01   9.921589E-01
+   1.458000E+01   0.000000E+00   6.864201E+02   6.165154E+01   9.948116E-01
+   1.483000E+01   0.000000E+00   7.991343E+02   7.067379E+01   9.865853E-01
+# reference:
+#   author: N.I.Molla,R.U.Miah,M.Rahman,Aysha Akhter
+#   title: Excitation functions of some (n,p), (n,2n) and  (n,alpha) reactions on nickel, zirconium and niobium isotopes in the energy range 13.63 - 14.83 MeV.
+#   journal: Conf: Conf.on Nucl.Data for Sci.and Technol.,Juelich 1991, p.355 (1991)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.364000E+01
+#   E-max [MeV]:  1.483000E+01
+#   F-value:  1.028375E+00
+#   A-value:  1.013219E+00
+#   chi-2:  2.507740E-01
+#   p-value:  3.375974E-01
+#   exp. data sets for p-value:      8
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.027048E+00   1.012239E+00   2.361388E-01
+# jeff4.0       1.027048E+00   1.012239E+00   2.361388E-01
+# jendl5.0      1.030864E+00   1.015182E+00   2.800443E-01

@@ -1,0 +1,63 @@
+# header: 
+#   title: In115(n,n')In115m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Ikeda
+#   year: 1991
+#   subentry: 22209015
+#   X4 reaction: 49-IN-115(N,INL)49-IN-115-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22209015
+# target: 
+#   Z: 49
+#   A: 115
+#   nuclide: In115
+# reaction: 
+#   type: (n,n')
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+#   residual: 
+#     Z: 49
+#     A: 115
+#     nuclide: In115m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   9.500000E+00   5.000000E-01   2.677641E+02   3.322620E+01   9.772413E-01
+   1.100000E+01   5.000000E-01   2.178963E+02   1.515800E+01   9.473751E-01
+   1.200000E+01   5.000000E-01   1.602509E+02   1.563424E+01   9.771398E-01
+   1.320000E+01   5.000000E-01   9.570869E+01   6.174800E+00   1.029126E+00
+# reference:
+#   author: Y.Ikeda, C.Konno, M.Mizumoto, K.Hasegawa, S.Chiba, Y.Yamanouchi, M.Sugimoto
+#   title: Activation cross section measurement at neutron  energies of 9.5, 11.0, 12.0 and 13.2 MeV using  H-1(B-11,n)C-12  neutron source at JAERI.
+#   journal: Conf: Conf.on Nucl.Data for Sci.and Technol.,Juelich 1991, p.294 (1991)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  9.500000E+00
+#   E-max [MeV]:  1.320000E+01
+#   F-value:  1.055531E+00
+#   A-value:  9.612495E-01
+#   chi-2:  8.919331E-01
+#   p-value:  2.624919E-01
+#   exp. data sets for p-value:      3
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.037863E+00   9.750962E-01   5.375992E-01
+# endfb8.1      1.044797E+00   9.717045E-01   6.477215E-01
+# jeff4.0       1.058317E+00   9.536344E-01   1.012195E+00
+# jendl5.0      1.058317E+00   9.536344E-01   1.012195E+00
+# eaf.2010      1.079680E+00   9.421865E-01   1.494167E+00
+# irdff2.0      1.044797E+00   9.717045E-01   6.477215E-01

@@ -1,0 +1,62 @@
+# header: 
+#   title: Ge72(n,p)Ga72 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Hoang
+#   year: 1992
+#   subentry: 31434003
+#   X4 reaction: 32-GE-72(N,P)31-GA-72,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/31434003
+# target: 
+#   Z: 32
+#   A: 72
+#   nuclide: Ge72
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 31
+#     A: 72
+#     nuclide: Ga72
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.300000E+01   4.000000E-01   3.486098E+01   3.055900E+00   1.025323E+00
+   1.340000E+01   2.000000E-01   3.769845E+01   3.022200E+00   1.018877E+00
+   1.390000E+01   3.000000E-01   4.001863E+01   3.026300E+00   1.026119E+00
+   1.450000E+01   3.000000E-01   4.203999E+01   3.008700E+00   1.025365E+00
+   1.500000E+01   3.000000E-01   4.047489E+01   3.045100E+00   1.037818E+00
+   1.540000E+01   2.000000E-01   3.989768E+01   3.075800E+00   1.049939E+00
+   1.590000E+01   5.000000E-01   3.714168E+01   2.866200E+00   1.031713E+00
+   1.660000E+01   5.000000E-01   3.592112E+01   3.075000E+00   1.056503E+00
+# reference:
+#   author: H.M.Hoang,U.Garuska,D.Kielan,A.Marcinkowski, B.Zwieglinski
+#   title: Energy dependence of the isotopic effect in the (n,p) reaction on the germanium isotopes.
+#   journal: Jour: Zeitschrift fuer Physik A, Hadrons and Nuclei, Vol.342, Issue.3, p
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.300000E+01
+#   E-max [MeV]:  1.660000E+01
+#   F-value:  1.171095E+00
+#   A-value:  9.079103E-01
+#   chi-2:  3.607176E+00
+#   p-value:  2.754790E-01
+#   exp. data sets for p-value:      1
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.206025E+00   9.245079E-01   4.860145E+00
+# endfb8.1      1.215695E+00   8.348913E-01   5.365959E+00
+# jeff4.0       1.206025E+00   9.245079E-01   4.860143E+00
+# jendl5.0      1.215694E+00   8.348917E-01   5.365931E+00
+# cendl3.2      1.042982E+00   9.687683E-01   6.267866E-01
+# eaf.2010      1.038352E+00   9.704128E-01   5.640897E-01

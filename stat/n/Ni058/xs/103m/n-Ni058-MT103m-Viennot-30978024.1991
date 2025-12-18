@@ -1,0 +1,64 @@
+# header: 
+#   title: Ni58(n,p)Co58m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Viennot
+#   year: 1991
+#   subentry: 30978024
+#   X4 reaction: 28-NI-58(N,P)27-CO-58-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30978024
+# target: 
+#   Z: 28
+#   A: 58
+#   nuclide: Ni58
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 27
+#     A: 58
+#     nuclide: Co58m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.377000E+01   2.600000E-01   2.308499E+02   5.432710E+00   1.003695E+00
+   1.393000E+01   2.400000E-01   2.212024E+02   5.191700E+00   1.000916E+00
+   1.411000E+01   2.600000E-01   2.290330E+02   5.361400E+00   9.914848E-01
+   1.430000E+01   2.800000E-01   2.483040E+02   5.794600E+00   9.853333E-01
+   1.447000E+01   3.400000E-01   2.256255E+02   5.248400E+00   9.939450E-01
+   1.473000E+01   4.600000E-01   2.125586E+02   4.957400E+00   9.932643E-01
+   1.483000E+01   5.000000E-01   1.702210E+02   3.978300E+00   9.896567E-01
+# reference:
+#   author: M.Viennot, M.Berrada, G.Paic, S.Joly
+#   title: Cross section measurements of (n,p) and (n,np+pn+d)  reactions for some titanium, chromium, iron, cobalt,  nickel, and zinc isotopes around 14 MeV
+#   journal: Jour: Nuclear Science and Engineering, Vol.108, p.289 (1991)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.377000E+01
+#   E-max [MeV]:  1.483000E+01
+#   F-value:  1.334615E+00
+#   A-value:  7.646111E-01
+#   chi-2:  1.099341E+02
+#   p-value:  1.396743E-01
+#   exp. data sets for p-value:      3
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.357523E+00   7.461844E-01   1.232830E+02
+# jeff4.0       1.311666E+00   7.737456E-01   9.992989E+01
+# jendl5.0      1.246551E+00   8.176658E-01   6.866590E+01
+# eaf.2010      1.409192E+00   7.240062E-01   1.478578E+02

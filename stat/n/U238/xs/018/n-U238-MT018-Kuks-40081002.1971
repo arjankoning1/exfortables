@@ -1,0 +1,52 @@
+# header: 
+#   title: U238(n,f) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Kuks
+#   year: 1971
+#   subentry: 40081002
+#   X4 reaction: 92-U-238(N,F),,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/40081002
+# target: 
+#   Z: 92
+#   A: 238
+#   nuclide: U238
+# reaction: 
+#   type: (n,f)
+#   ENDF_MF: 3
+#   ENDF_MT: 18
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.500000E+00   0.000000E+00   5.500000E+02   2.000000E+01   1.000000E+00
+# reference:
+#   author: I.M.Kuks,V.I.Matvienko,Yu.A.Nemilov,K.A.Petrzhak, Yu.A.Selitskii,V.B.Funshtein
+#   title: Measurement of the cross section for fission of U-238 by 2.5 MeV neutrons, by determining the neutron flux by the method of accompanying particles
+#   journal: Jour: Soviet Atomic Energy, Vol.30, p.64 (1971)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  2.500000E+00
+#   E-max [MeV]:  2.500000E+00
+#   F-value:  1.012991E+00
+#   A-value:  1.000072E+00
+#   chi-2:  3.343640E-01
+#   p-value:  1.508986E-01
+#   exp. data sets for p-value:      8
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.002836E+00   9.971721E-01   9.907855E-02
+# endfb8.1      1.002535E+00   9.974717E-01   8.842492E-02
+# jeff4.0       1.028730E+00   1.028730E+00   1.189190E+00
+# jendl5.0      1.001737E+00   1.001737E+00   6.047205E-02
+# cendl3.2      1.003575E+00   9.964379E-01   1.253404E-01
+# eaf.2010      1.018256E+00   9.820715E-01   6.896175E-01
+# irdff2.0      1.002535E+00   9.974717E-01   8.842492E-02

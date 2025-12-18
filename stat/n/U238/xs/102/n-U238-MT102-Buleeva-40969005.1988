@@ -1,0 +1,72 @@
+# header: 
+#   title: U238(n,g)U239 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Buleeva
+#   year: 1988
+#   subentry: 40969005
+#   X4 reaction: 92-U-238(N,G)92-U-239,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/40969005
+# target: 
+#   Z: 92
+#   A: 238
+#   nuclide: U238
+# reaction: 
+#   type: (n,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 92
+#     A: 239
+#     nuclide: U239
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 17
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.390000E-01   3.200000E-02   1.190000E+02   4.165000E+00   1.000000E+00
+   3.400000E-01   3.400000E-02   1.190000E+02   4.165000E+00   1.000000E+00
+   3.400000E-01   3.000000E-02   1.150000E+02   4.025000E+00   1.000000E+00
+   3.430000E-01   2.000000E-02   1.114463E+02   4.410100E+00   1.004021E+00
+   5.800000E-01   2.800000E-02   1.224484E+02   4.842600E+00   9.955154E-01
+   5.900000E-01   2.800000E-02   1.118916E+02   4.425100E+00   9.990322E-01
+   5.960000E-01   4.000000E-02   1.090000E+02   4.360000E+00   1.000000E+00
+   6.190000E-01   7.000000E-02   1.210000E+02   4.840000E+00   1.000000E+00
+   6.930000E-01   4.400000E-02   1.250000E+02   4.375000E+00   1.000000E+00
+   7.800000E-01   6.200000E-02   1.210000E+02   4.840000E+00   1.000000E+00
+   7.820000E-01   2.800000E-02   1.330000E+02   5.985000E+00   1.000000E+00
+   1.015000E+00   2.800000E-02   1.250000E+02   5.000000E+00   1.000000E+00
+   1.183000E+00   3.800000E-02   8.700000E+01   3.045000E+00   1.000000E+00
+   1.198000E+00   2.600000E-02   8.600000E+01   3.010000E+00   1.000000E+00
+   1.387000E+00   3.200000E-02   7.300000E+01   2.555000E+00   1.000000E+00
+   1.391000E+00   3.800000E-02   7.000000E+01   2.450000E+00   1.000000E+00
+   1.391000E+00   3.800000E-02   7.600000E+01   2.660000E+00   1.000000E+00
+# reference:
+#   author: N.N.Buleeva, A.N.Davletshin, A.O.Tipunkov,  S.V.Tikhonov,V.A.Tolstikov
+#   title: Activation-measured radiative neutron-capture cross  sections for 236U, 238U, and 237Np
+#   journal: Jour: Atomnaya Energiya, Vol.65, Issue.5, p.348 (1988)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  3.390000E-01
+#   E-max [MeV]:  1.391000E+00
+#   F-value:  1.074889E+00
+#   A-value:  9.998713E-01
+#   chi-2:  4.381647E+00
+#   p-value:  2.701041E-01
+#   exp. data sets for p-value:      7
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.071178E+00   9.923011E-01   3.751554E+00
+# endfb8.1      1.073115E+00   9.947380E-01   3.996564E+00
+# jeff4.0       1.086363E+00   1.007751E+00   5.757776E+00
+# jendl5.0      1.076043E+00   1.013747E+00   4.943835E+00
+# cendl3.2      1.079960E+00   9.948725E-01   5.102918E+00
+# eaf.2010      1.062456E+00   1.001145E+00   3.122316E+00
+# irdff2.0      1.073115E+00   9.947380E-01   3.996564E+00

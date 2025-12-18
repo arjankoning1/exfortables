@@ -1,0 +1,53 @@
+# header: 
+#   title: Bi209(p,x)Pb203 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Titarenko
+#   year: 1998
+#   subentry: O0900031C
+#   X4 reaction: 83-BI-209(P,X)82-PB-203,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O0900031C
+# target: 
+#   Z: 83
+#   A: 209
+#   nuclide: Bi209
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 82
+#     A: 203
+#     nuclide: Pb203
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.300000E+02   0.000000E+00   2.780000E+02   4.200000E+01   1.000000E+00
+   1.500000E+03   0.000000E+00   5.320000E+01   5.900000E+00   1.000000E+00
+# reference:
+#   author: Yu.E.Titarenko, O.V.Shvedov, M.M.Igumnov, S.G.Mashnik, E.I.Karpikhin, V.D.Kazaritsky, V.F.Batyaev, A.B.Koldobsky, V.M.Zhivun, A.N.Sosnin, R.E.Prael, M.B.Chadwick, T.A.Gabriel, M.Blann
+#   title: Experimental and computer simulation study of the radionuclides produced in thin 209-Bi targets by 130 MeV and 1.5 GeV proton - induced reactions
+#   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.A, Vol.414, p.73 (199
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  1.300000E+02
+#   E-max [MeV]:  1.500000E+03
+#   F-value:  1.024583E+01
+#   A-value:  9.875476E-02
+#   chi-2:  3.539841E+01
+#   p-value:  2.086163E-07
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    7.748872E+00   1.290510E-01   3.323352E+01
+# endfb8.1      1.369032E+01   7.304430E-02   3.764514E+01
+# jendl5.0      9.787540E+00   1.021707E-01   3.531657E+01

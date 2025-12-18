@@ -1,0 +1,56 @@
+# header: 
+#   title: Fe56(n,tot) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Sarkisov
+#   year: 1984
+#   subentry: 40862003
+#   X4 reaction: 26-FE-56(N,TOT),,SIG,,AV
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/40862003
+# target: 
+#   Z: 26
+#   A: 56
+#   nuclide: Fe56
+# reaction: 
+#   type: (n,tot)
+#   ENDF_MF: 3
+#   ENDF_MT: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.000000E-01   1.000000E-01   3.030000E+03   9.000000E+01   1.000000E+00
+   3.000000E-01   1.000000E-01   2.900000E+03   2.000000E+02   1.000000E+00
+   3.000000E-01   1.000000E-01   2.800000E+03   2.000000E+02   1.000000E+00
+   3.000000E-01   1.000000E-01   2.600000E+03   2.000000E+02   1.000000E+00
+   3.000000E-01   1.000000E-01   2.500000E+03   2.000000E+02   1.000000E+00
+   3.000000E-01   1.000000E-01   2.300000E+03   2.000000E+02   1.000000E+00
+   3.000000E-01   1.000000E-01   2.200000E+03   3.000000E+02   1.000000E+00
+# reference:
+#   author: A.A.Sarkisov,I.N.Martem'yanov,A.M.Boguslavskij, V.N.Ivanov,G.N.Ivanov
+#   title: Resonance effects in the interaction of 0.2-0.8-MeV neutrons with Fe-56 nuclei.
+#   journal: Jour: Atomnaya Energiya, Vol.57, Issue.3, p.179 (1984)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  3.000000E-01
+#   E-max [MeV]:  3.000000E-01
+#   F-value:  2.456649E+00
+#   A-value:  4.115288E-01
+#   chi-2:  1.131920E+02
+#   p-value:  2.007791E-01
+#   exp. data sets for p-value:      3
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2025    2.567026E+00   3.920918E-01   1.199249E+02
+# endfb8.1      2.539427E+00   3.963832E-01   1.184582E+02
+# jeff4.0       2.538400E+00   3.965447E-01   1.184032E+02
+# jendl5.0      2.565399E+00   3.923421E-01   1.198391E+02
+# cendl3.2      2.066083E+00   4.881365E-01   8.933437E+01

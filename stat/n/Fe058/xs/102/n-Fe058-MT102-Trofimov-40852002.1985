@@ -1,0 +1,60 @@
+# header: 
+#   title: Fe58(n,g)Fe59 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Trofimov
+#   year: 1985
+#   subentry: 40852002
+#   X4 reaction: 26-FE-58(N,G)26-FE-59,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/40852002
+# target: 
+#   Z: 26
+#   A: 58
+#   nuclide: Fe58
+# reaction: 
+#   type: (n,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 26
+#     A: 59
+#     nuclide: Fe59
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.000000E-01   1.300000E-01   2.946900E+00   2.946900E-01   9.823009E-01
+   1.000000E+00   1.200000E-01   2.652200E+00   2.946900E-01   9.823009E-01
+   1.500000E+00   1.000000E-01   2.455800E+00   2.946900E-01   9.823009E-01
+   2.000000E+00   8.000000E-02   2.554000E+00   2.946900E-01   9.823009E-01
+   2.000000E+00   8.000000E-02   2.455800E+00   2.946900E-01   9.823009E-01
+# reference:
+#   author: Yu.N.Trofimov
+#   title: Radiative capture cross section of 58Fe at a neutron  energy of 0.5 - 2.0 MeV
+#   journal: Jour: Atomnaya Energiya, Vol.58, p.278 (1985)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  5.000000E-01
+#   E-max [MeV]:  2.000000E+00
+#   F-value:  1.858010E+00
+#   A-value:  6.637857E-01
+#   chi-2:  1.819589E+01
+#   p-value:  1.963944E-01
+#   exp. data sets for p-value:      1
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.939280E+00   5.873287E-01   1.699120E+01
+# endfb8.1      1.486215E+00   1.104526E+00   3.712016E+01
+# jeff4.0       1.935441E+00   5.894494E-01   1.687696E+01
+# jendl5.0      2.359874E+00   4.661161E-01   2.223658E+01
+# cendl3.2      2.001262E+00   5.365372E-01   1.713127E+01
+# eaf.2010      1.015235E+00   1.007282E+00   1.380963E-01
+# irdff2.0      1.935441E+00   5.894494E-01   1.687696E+01

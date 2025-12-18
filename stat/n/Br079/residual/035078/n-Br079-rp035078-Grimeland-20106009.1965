@@ -1,0 +1,52 @@
+# header: 
+#   title: Br79(n,x)Br78 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Grimeland
+#   year: 1965
+#   subentry: 20106009
+#   X4 reaction: 35-BR-79(N,2N)35-BR-78,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20106009
+# target: 
+#   Z: 35
+#   A: 79
+#   nuclide: Br79
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 35
+#     A: 78
+#     nuclide: Br78
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.480000E+01   1.000000E-01   1.141000E+03   2.931191E+01   1.000000E+00
+# reference:
+#   author: B.Grimeland, E.Kjellsby, J.Vines
+#   title: Cross sections of some reactions induced in nitrogen,  phosphorus, copper, and bromine with neutrons of  energy 14.8 MeV
+#   journal: Jour: Physical Review, Vol.137, p.B878 (1965)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  0
+#   E-min [MeV]:  1.480000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.194583E+00
+#   A-value:  8.371900E-01
+#   chi-2:  4.019323E+01
+#   p-value:  5.254841E-02
+#   exp. data sets for p-value:      8
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.199343E+00   8.337901E-01   4.185980E+01
+# jeff4.0       1.199343E+00   8.337901E-01   4.185980E+01
+# jendl5.0      1.184790E+00   8.440316E-01   3.686009E+01

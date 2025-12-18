@@ -1,0 +1,52 @@
+# header: 
+#   title: Cu65(n,x)Cu66 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Newsome
+#   year: 2018
+#   subentry: 14502004
+#   X4 reaction: 29-CU-65(N,G)29-CU-66,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/14502004
+# target: 
+#   Z: 29
+#   A: 65
+#   nuclide: Cu65
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 29
+#     A: 66
+#     nuclide: Cu66
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.900000E-01   1.000000E-01   1.253000E+01   1.300000E+00   1.000000E+00
+   8.800000E-01   9.000000E-02   9.030001E+00   1.120000E+00   1.000000E+00
+# reference:
+#   author: I.Newsome,M.Bhike,Krishichayan,W.Tornow
+#   title: Neutron radiative capture cross section of 63,65Cu between 0.4 and 7.5 MeV
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.97, p.044617 (2018)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  3.900000E-01
+#   E-max [MeV]:  8.800000E-01
+#   F-value:  1.249551E+00
+#   A-value:  8.304355E-01
+#   chi-2:  3.667459E+00
+#   p-value:  1.872966E-01
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.258949E+00   8.147898E-01   3.936259E+00
+# jendl5.0      1.239900E+00   8.463814E-01   3.398660E+00

@@ -1,0 +1,56 @@
+# header: 
+#   title: Pb206(n,a)Hg203 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: ShuqingYuann
+#   year: 2015
+#   subentry: 32740002
+#   X4 reaction: 82-PB-206(N,A)80-HG-203,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/32740002
+# target: 
+#   Z: 82
+#   A: 206
+#   nuclide: Pb206
+# reaction: 
+#   type: (n,a)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+#   residual: 
+#     Z: 80
+#     A: 203
+#     nuclide: Hg203
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.350000E+01   2.000000E-01   9.817800E-01   6.312600E-02   9.916950E-01
+   1.440000E+01   2.000000E-01   1.230340E+00   1.038700E-01   1.000276E+00
+   1.470000E+01   2.000000E-01   1.391140E+00   1.128900E-01   1.000820E+00
+# reference:
+#   author: Shuqing Yuan, Yueli Song, Fengqun Zhou, Yong Li, Mingli Tian, Changlin Lan
+#   title: Cross-section measurement for the 206Pb(n,a)203Hg reaction induced by neutrons around 14 MeV
+#   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.349, p.130 (20
+# statistics:
+#   NEA score: T2
+#   IAEA score:  1
+#   E-min [MeV]:  1.350000E+01
+#   E-max [MeV]:  1.470000E+01
+#   F-value:  2.715349E+00
+#   A-value:  4.763331E-01
+#   chi-2:  8.264117E+01
+#   p-value:  1.742659E-01
+#   exp. data sets for p-value:      2
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2025    2.792826E+00   3.700744E-01   7.447161E+01
+# jeff4.0       2.848757E+00   3.565045E-01   7.662045E+01
+# jendl5.0      2.658666E+00   3.830197E-01   7.096040E+01
+# cendl3.2      1.767063E+00   1.678541E+00   9.919611E+01
+# eaf.2010      3.484261E+00   2.890988E-01   9.195725E+01

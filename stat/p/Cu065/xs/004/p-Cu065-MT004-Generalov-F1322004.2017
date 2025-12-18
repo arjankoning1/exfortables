@@ -1,0 +1,68 @@
+# header: 
+#   title: Cu65(p,n')Zn65 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Generalov
+#   year: 2017
+#   subentry: F1322004
+#   X4 reaction: 29-CU-65(P,N)30-ZN-65,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/F1322004
+# target: 
+#   Z: 29
+#   A: 65
+#   nuclide: Cu65
+# reaction: 
+#   type: (p,n')
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+#   residual: 
+#     Z: 30
+#     A: 65
+#     nuclide: Zn65
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 17
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.839000E+00   0.000000E+00   2.957234E+01   9.191200E-01   9.792166E-01
+   3.467000E+00   0.000000E+00   6.404077E+01   1.523600E+00   9.792166E-01
+   4.080000E+00   0.000000E+00   1.120224E+02   2.469600E+00   9.792166E-01
+   4.642000E+00   0.000000E+00   1.855616E+02   4.414600E+00   9.792166E-01
+   5.090000E+00   0.000000E+00   2.535192E+02   5.372000E+00   9.792166E-01
+   5.730000E+00   0.000000E+00   3.395923E+02   7.486400E+00   9.792166E-01
+   6.310000E+00   0.000000E+00   4.243925E+02   8.992700E+00   9.792166E-01
+   6.850000E+00   0.000000E+00   4.788369E+02   1.014637E+01   9.792166E-01
+   7.380000E+00   0.000000E+00   5.219226E+02   1.105934E+01   9.792166E-01
+   7.910000E+00   0.000000E+00   6.059392E+02   1.283963E+01   9.792166E-01
+   8.440000E+00   0.000000E+00   6.468705E+02   1.370694E+01   9.792166E-01
+   8.960000E+00   0.000000E+00   6.762470E+02   1.432942E+01   9.792166E-01
+   9.480000E+00   0.000000E+00   6.944605E+02   1.471535E+01   9.792166E-01
+   1.000000E+01   0.000000E+00   7.126739E+02   1.510129E+01   9.792166E-01
+   1.052000E+01   0.000000E+00   7.402878E+02   1.568642E+01   9.792166E-01
+   1.120000E+01   0.000000E+00   7.207035E+02   1.588820E+01   9.792166E-01
+   1.170000E+01   0.000000E+00   6.854516E+02   1.452447E+01   9.792166E-01
+# reference:
+#   author: L.N.Generalov,S.N.Abramovich,S.M.Selyankina
+#   title: Activation measurements of the integral cross sections of reactions 7Li(p,n0+n1)7Be(gs), 6Li(d,n0+n1)7Be(gs), 7Li(d,2n)7Be(gs), 65Cu(p,n)65Zn, 65Cu(d,2n)65Zn, 63Cu(d,g)65Zn.
+#   journal: Jour: Izv. Rossiiskoi Akademii Nauk, Ser.Fiz., Vol.81, p.717 (2017)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  2.839000E+00
+#   E-max [MeV]:  1.170000E+01
+#   F-value:  1.167689E+00
+#   A-value:  9.744657E-01
+#   chi-2:  4.276702E+01
+#   p-value:  3.439171E-01
+#   exp. data sets for p-value:      8
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.213183E+00   9.118793E-01   6.706576E+01
+# endfb8.1      1.108949E+00   1.075126E+00   2.604128E+01
+# jendl5.0      1.150151E+00   9.641254E-01   3.281069E+01

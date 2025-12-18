@@ -1,0 +1,59 @@
+# header: 
+#   title: As75(n,p)Ge75m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Attar
+#   year: 2009
+#   subentry: 33027004
+#   X4 reaction: 33-AS-75(N,P)32-GE-75-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/33027004
+# target: 
+#   Z: 33
+#   A: 75
+#   nuclide: As75
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 32
+#     A: 75
+#     nuclide: Ge75m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.373000E+01   0.000000E+00   1.734588E+01   1.385800E+00   1.084118E+00
+   1.442000E+01   0.000000E+00   1.437901E+01   1.080500E+00   1.003420E+00
+   1.477000E+01   0.000000E+00   1.355988E+01   9.110000E-01   1.043068E+00
+# reference:
+#   author: F.M.D.Attar,S.D.Dhole,S.Kailas,V.N.Bhoraskar
+#   title: Cross-section for the formation of isomeric pair 75Ge-m,g through (n,2n),(n,p) and (n,alpha) reactions measured over 13.73 MeV to 14.77 MeV and calculated from near threshold to 20 MeV neutron energies
+#   journal: Jour: Nuclear Physics, Section A, Vol.828, p.253 (2009)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.373000E+01
+#   E-max [MeV]:  1.477000E+01
+#   F-value:  1.213893E+00
+#   A-value:  8.651615E-01
+#   chi-2:  4.810557E+00
+#   p-value:  3.232438E-01
+#   exp. data sets for p-value:      4
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.166211E+00   9.056926E-01   3.036720E+00
+# jeff4.0       1.166211E+00   9.056926E-01   3.036720E+00
+# eaf.2010      1.291482E+00   7.894595E-01   8.358232E+00

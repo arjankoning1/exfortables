@@ -1,0 +1,57 @@
+# header: 
+#   title: Ni0(a,x)Co57 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Takacs
+#   year: 1996
+#   subentry: D40500041
+#   X4 reaction: 28-NI-0(A,X)27-CO-57,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D40500041
+# target: 
+#   Z: 28
+#   A: 0
+#   nuclide: Ni0
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 27
+#     A: 57
+#     nuclide: Co57
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.348000E+01   3.500000E-01   2.996500E-02   4.994200E-03   9.988318E-01
+   1.785000E+01   2.400000E-01   4.295000E-01   5.993000E-02   9.988318E-01
+   1.912000E+01   2.900000E-01   9.998301E+00   1.498200E+00   9.988318E-01
+   1.936000E+01   3.500000E-01   1.460292E+01   2.187400E+00   9.988318E-01
+   1.977000E+01   2.000000E-01   7.321400E+00   1.098700E+00   9.988318E-01
+   2.096000E+01   2.400000E-01   4.026291E+01   5.993000E+00   9.988318E-01
+   2.269000E+01   2.000000E-01   7.091706E+01   1.058762E+01   9.988318E-01
+   2.446000E+01   2.000000E-01   1.321454E+02   1.987675E+01   9.988318E-01
+# reference:
+#   author: S.Takacs, F.Tarkanyi, Z.Kovacs
+#   title: Excitation function of alpha-particle induced nuclear  reactions on natural nickel
+#   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.113, p.424 (19
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.348000E+01
+#   E-max [MeV]:  2.446000E+01
+#   F-value:  1.714201E+00
+#   A-value:  7.914566E-01
+#   chi-2:  1.242844E+01
+#   p-value:  1.790093E-01
+#   exp. data sets for p-value:      1
+#   libraries:      1
+##  Library          F              A            chi-2
+# tendl.2025    1.714201E+00   7.914566E-01   1.242844E+01

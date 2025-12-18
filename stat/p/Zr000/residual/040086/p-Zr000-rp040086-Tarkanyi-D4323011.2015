@@ -1,0 +1,56 @@
+# header: 
+#   title: Zr0(p,x)Zr86 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Tarkanyi
+#   year: 2015
+#   subentry: D4323011
+#   X4 reaction: 40-ZR-0(P,X)40-ZR-86,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D4323011
+# target: 
+#   Z: 40
+#   A: 0
+#   nuclide: Zr0
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 40
+#     A: 86
+#     nuclide: Zr86
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.370000E+01   7.000000E-01   1.020000E+00   4.400000E-01   1.000000E+00
+   5.740000E+01   6.000000E-01   5.050000E+00   9.200000E-01   1.000000E+00
+   6.050000E+01   5.000000E-01   1.330000E+01   1.700000E+00   1.000000E+00
+   6.390000E+01   4.000000E-01   2.530000E+01   2.900000E+00   1.000000E+00
+   6.670000E+01   4.000000E-01   3.520000E+01   3.900000E+00   1.000000E+00
+   6.980000E+01   3.000000E-01   4.430000E+01   4.900000E+00   1.000000E+00
+# reference:
+#   author: F.Tarkanyi,F.Ditroi,S.Takacs,A.Hermanne,M.Al-Abyad, H.Yamazaki,M.Baba,M.A.Mohammadi
+#   title: New activation cross section data on longer lived radio-nuclei produced in proton induced nuclear reaction on zirconium
+#   journal: Jour: Applied Radiation and Isotopes, Vol.97, p.149 (2015)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  5.370000E+01
+#   E-max [MeV]:  6.980000E+01
+#   F-value:  2.523274E+00
+#   A-value:  2.078156E+00
+#   chi-2:  6.789597E+01
+#   p-value:  3.103311E-01
+#   exp. data sets for p-value:      4
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    2.173155E+00   1.696633E+00   3.145630E+01
+# jendl5.0      2.869024E+00   2.545472E+00   1.043356E+02

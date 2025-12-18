@@ -1,0 +1,57 @@
+# header: 
+#   title: Zr90(n,x)Zr90m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Amemiya
+#   year: 1981
+#   subentry: 21770002
+#   X4 reaction: 40-ZR-90(N,INL)40-ZR-90-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21770002
+# target: 
+#   Z: 40
+#   A: 90
+#   nuclide: Zr90
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+#   residual: 
+#     Z: 40
+#     A: 90
+#     nuclide: Zr90m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.480000E+01   0.000000E+00   3.940023E+02   3.709026E+01   9.609811E-01
+# reference:
+#   author: S.Amemiya,V.N.Bhoraskar,K.Katoh,T.Katoh
+#   title: Cross section measurements of (n,n') and (n,2n)  reactions on zirconium and lead targets at 14.8 MeV
+#   journal: Jour: Jour. of Nuclear Science and Technology, Vol.18, p.323 (1981)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.480000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.048199E+00
+#   A-value:  9.822349E-01
+#   chi-2:  5.277023E-01
+#   p-value:  4.882308E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.012936E+00   1.012936E+00   1.773357E-01
+# jeff4.0       1.012936E+00   1.012936E+00   1.773357E-01
+# jendl5.0      1.082725E+00   9.235954E-01   1.228435E+00

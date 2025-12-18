@@ -1,0 +1,52 @@
+# header: 
+#   title: Cu0(p,x)Fe52 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Haller
+#   year: 1961
+#   subentry: O04110094
+#   X4 reaction: 29-CU-0(P,X)26-FE-52,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O04110094
+# target: 
+#   Z: 29
+#   A: 0
+#   nuclide: Cu0
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 26
+#     A: 52
+#     nuclide: Fe52
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.530000E+02   8.000000E+00   9.200000E-02   1.300000E-02   1.000000E+00
+# reference:
+#   author: I.B.Haller,G.Rudstam
+#   title: Relative yields of the isomeric pairs 69g-Zn - 69m-Zn and 52g-Mn - 52m-Mn in some spallation reactions induced by 20-153 MeV protons
+#   journal: Jour: Journal of Inorganic and Nuclear Chemistry, Vol.19, p.1 (1961)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  1.530000E+02
+#   E-max [MeV]:  1.530000E+02
+#   F-value:  3.802999E+00
+#   A-value:  1.513752E+00
+#   chi-2:  3.642841E+02
+#   p-value:  1.675068E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    5.393768E+00   5.393768E+00   9.668591E+02
+# endfb8.1      2.406668E+00   2.406668E+00   9.909971E+01
+# jendl5.0      3.742352E+00   2.672116E-01   2.689344E+01

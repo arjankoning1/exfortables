@@ -1,0 +1,54 @@
+# header: 
+#   title: Li6(n,nd)He4 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Hopkins
+#   year: 1968
+#   subentry: 11153005
+#   X4 reaction: 3-LI-6(N,N+D)2-HE-4,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11153005
+# target: 
+#   Z: 3
+#   A: 6
+#   nuclide: Li6
+# reaction: 
+#   type: (n,nd)
+#   ENDF_MF: 3
+#   ENDF_MT: 32
+#   residual: 
+#     Z: 2
+#     A: 4
+#     nuclide: He4
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   4.830000E+00   4.700000E-02   6.700000E+02   4.200000E+01   1.000000E+00
+   5.740000E+00   2.300000E-01   6.500000E+02   5.100000E+01   1.000000E+00
+   7.500000E+00   1.700000E-01   7.200000E+02   5.900000E+01   1.000000E+00
+# reference:
+#   author: J.C.Hopkins, D.M.Drake, H.Conde
+#   title: Elastic and inelastic scattering of fast neutrons from 6Li and 7Li
+#   journal: Jour: Nuclear Physics, Section A, Vol.107, p.139 (1968)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  4.830000E+00
+#   E-max [MeV]:  7.500000E+00
+#   F-value:  1.198732E+00
+#   A-value:  8.740328E-01
+#   chi-2:  4.978861E+00
+#   p-value:  2.472683E-01
+#   exp. data sets for p-value:      3
+#   libraries:      3
+##  Library          F              A            chi-2
+# endfb8.1      1.232847E+00   8.271046E-01   7.208218E+00
+# cendl3.2      1.066211E+00   9.883288E-01   1.035125E+00
+# eaf.2010      1.252371E+00   8.168105E-01   6.693240E+00

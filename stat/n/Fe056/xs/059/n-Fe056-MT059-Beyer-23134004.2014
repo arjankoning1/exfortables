@@ -1,0 +1,65 @@
+# header: 
+#   title: Fe56(n,n'_09)Fe57 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Beyer
+#   year: 2014
+#   subentry: 23134004
+#   X4 reaction: 26-FE-56(N,INL)26-FE-56,PAR,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/23134004
+#   level energy [MeV]:  3.38800E+00
+# target: 
+#   Z: 26
+#   A: 56
+#   nuclide: Fe56
+# reaction: 
+#   type: (n,n'_09)
+#   ENDF_MF: 3
+#   ENDF_MT: 59
+#   level: 
+#     number: 9
+#     energy [MeV]:  3.369950E+00
+#     spin:  2.000000E+00
+#     parity: 1
+#   residual: 
+#     Z: 26
+#     A: 57
+#     nuclide: Fe57
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   4.818000E+00   0.000000E+00   2.600000E+01   7.000000E+00   1.000000E+00
+   5.428000E+00   0.000000E+00   2.100000E+01   5.000000E+00   1.000000E+00
+   6.163000E+00   0.000000E+00   2.100000E+01   4.000000E+00   1.000000E+00
+   7.060000E+00   0.000000E+00   3.700000E+01   6.000000E+00   1.000000E+00
+   8.168000E+00   0.000000E+00   5.100000E+01   7.000000E+00   1.000000E+00
+   9.562000E+00   0.000000E+00   5.100000E+01   1.800000E+01   1.000000E+00
+# reference:
+#   author: R.Beyer,R.Schwengner, R.Hannaske, A.R.Junghans, R.Massarczyk,M.Anders,D.Bemmerer, A.Ferrari,A.Hartmann, T.Koegler, M.Roeder, K.Schmidt, A.Wagner
+#   title: Inelastic scattering of fast neutrons from excited states in 56Fe.
+#   journal: Jour: Nuclear Physics, Section A, Vol.927, p.41 (2014)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  4.818000E+00
+#   E-max [MeV]:  9.562000E+00
+#   F-value:  6.878420E+00
+#   A-value:  2.006768E-01
+#   chi-2:  1.799612E+01
+#   p-value:  1.281911E-01
+#   exp. data sets for p-value:      1
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2025    8.848975E+00   1.297793E-01   1.957739E+01
+# endfb8.1      7.305572E+00   1.646737E-01   1.759675E+01
+# jeff4.0       7.305572E+00   1.646737E-01   1.759675E+01
+# jendl5.0      7.117758E+00   1.675328E-01   1.781615E+01
+# cendl3.2      4.227993E+00   5.519914E-01   1.739356E+01

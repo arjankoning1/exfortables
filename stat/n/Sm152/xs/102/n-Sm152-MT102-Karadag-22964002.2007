@@ -1,0 +1,55 @@
+# header: 
+#   title: Sm152(n,g)Sm153 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Karadag
+#   year: 2007
+#   subentry: 22964002
+#   X4 reaction: 62-SM-152(N,G)62-SM-153,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22964002
+# target: 
+#   Z: 62
+#   A: 152
+#   nuclide: Sm152
+# reaction: 
+#   type: (n,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 62
+#     A: 153
+#     nuclide: Sm153
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.500000E-08   0.000000E+00   2.046965E+05   7.896006E+03   9.994944E-01
+# reference:
+#   author: M.Karadag, H.Yuecel, M.G.Budak
+#   title: Measurement of thermal neutron cross section and  resonance integral for (n,gamma) reaction  by the activation method
+#   journal: Jour: Annals of Nuclear Energy, Vol.34, p.188 (2007)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.500000E-08
+#   E-max [MeV]:  2.500000E-08
+#   F-value:  1.000139E+00
+#   A-value:  1.000070E+00
+#   chi-2:  2.287260E-03
+#   p-value:  4.076283E-01
+#   exp. data sets for p-value:      8
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.000013E+00   1.000013E+00   4.230489E-04
+# endfb8.1      1.000010E+00   1.000010E+00   3.080168E-04
+# jeff4.0       1.000013E+00   1.000013E+00   4.230489E-04
+# jendl5.0      1.000001E+00   1.000001E+00   1.973594E-05
+# cendl3.2      1.000336E+00   1.000336E+00   1.094778E-02
+# eaf.2010      1.000049E+00   1.000049E+00   1.601936E-03

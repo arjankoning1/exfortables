@@ -1,0 +1,59 @@
+# header: 
+#   title: Y89(n,2n)Y88 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Wagner
+#   year: 1989
+#   subentry: 30972004
+#   X4 reaction: 39-Y-89(N,2N)39-Y-88,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30972004
+# target: 
+#   Z: 39
+#   A: 89
+#   nuclide: Y89
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 39
+#     A: 88
+#     nuclide: Y88
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.358600E+01   1.000000E-02   6.864001E+02   1.510000E+01   1.000000E+00
+   1.413200E+01   1.000000E-02   8.471000E+02   2.540000E+01   1.000000E+00
+   1.447600E+01   1.200000E-02   9.179001E+02   1.990000E+01   1.000000E+00
+   1.478900E+01   1.400000E-02   1.015800E+03   2.180000E+01   1.000000E+00
+# reference:
+#   author: M.Wagner,G.Winkler,H.Vonach,Cs.M.Buczko,J.Csikai
+#   title: Measurement of the cross sections for the reactions Cr-52(n,2n)Cr-51, Zn-66(n,2n)Zn-65, Y-89(n,2n)Y-88 and Zr-96(n,2n)Zr-95 from 13.5 to 14.8 MeV.
+#   journal: Jour: Annals of Nuclear Energy, Vol.16, Issue.12, p.623 (1989)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.358600E+01
+#   E-max [MeV]:  1.478900E+01
+#   F-value:  1.023475E+00
+#   A-value:  1.016335E+00
+#   chi-2:  1.461326E+00
+#   p-value:  3.514555E-01
+#   exp. data sets for p-value:      8
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.013953E+00   1.009163E+00   7.870698E-01
+# endfb8.1      1.015987E+00   1.012159E+00   9.324936E-01
+# jeff4.0       1.013953E+00   1.009163E+00   7.870679E-01
+# jendl5.0      1.017192E+00   1.011681E+00   9.009280E-01
+# cendl3.2      1.037855E+00   1.031135E+00   3.096519E+00
+# eaf.2010      1.035404E+00   1.029145E+00   2.792556E+00
+# irdff2.0      1.015989E+00   1.012161E+00   9.326444E-01

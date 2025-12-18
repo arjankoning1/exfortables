@@ -1,0 +1,55 @@
+# header: 
+#   title: Sr88(n,p)Rb88 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Levkovskii
+#   year: 1964
+#   subentry: 40016027
+#   X4 reaction: 38-SR-88(N,P)37-RB-88,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/40016027
+# target: 
+#   Z: 38
+#   A: 88
+#   nuclide: Sr88
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 37
+#     A: 88
+#     nuclide: Rb88
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.400000E+01   0.000000E+00   1.800000E+01   3.000000E+00   1.000000E+00
+# reference:
+#   author: V.N.Levkovskii
+#   title: Empirical behavior of the (n,p) reaction cross-  sections for 14 - 15 MeV neutrons
+#   journal: Jour: Journal of Experimental and Theoretical Physics, Vol.18, p.213 (19
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.400000E+01
+#   E-max [MeV]:  1.400000E+01
+#   F-value:  1.375490E+00
+#   A-value:  7.491231E-01
+#   chi-2:  2.944505E+00
+#   p-value:  1.030560E-01
+#   exp. data sets for p-value:      3
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.233817E+00   8.104929E-01   1.878828E+00
+# endfb8.1      1.437792E+00   6.955110E-01   3.726187E+00
+# jeff4.0       1.256522E+00   7.958474E-01   2.075261E+00
+# jendl5.0      1.076920E+00   9.285741E-01   5.904076E-01
+# cendl3.2      1.437792E+00   6.955110E-01   3.726187E+00
+# eaf.2010      1.639398E+00   6.099800E-01   5.670162E+00

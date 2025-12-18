@@ -1,0 +1,48 @@
+# header: 
+#   title: U238(p,f) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Isaev
+#   year: 2008
+#   subentry: O1708003
+#   X4 reaction: 92-U-238(P,F),,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O1708003
+# target: 
+#   Z: 92
+#   A: 238
+#   nuclide: U238
+# reaction: 
+#   type: (p,f)
+#   ENDF_MF: 3
+#   ENDF_MT: 18
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.650000E+01   0.000000E+00   1.540000E+03   7.700001E+01   1.000000E+00
+   6.290000E+01   0.000000E+00   1.980000E+03   9.900001E+01   1.000000E+00
+# reference:
+#   author: S.Isaev, R.Prieels, Th.Keutgen, J.van Mol, Y.El Masri, P.Demetriou
+#   title: Proton-induced fission on actinide nuclei at energies  27 and 63 MeV.
+#   journal: Jour: Nuclear Physics, Section A, Vol.809, p.1 (2008)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  2.650000E+01
+#   E-max [MeV]:  6.290000E+01
+#   F-value:  1.114470E+00
+#   A-value:  9.036093E-01
+#   chi-2:  4.455532E+00
+#   p-value:  1.924146E-01
+#   exp. data sets for p-value:      4
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.089923E+00   9.265693E-01   3.056845E+00
+# jendl5.0      1.135187E+00   8.812182E-01   5.854219E+00

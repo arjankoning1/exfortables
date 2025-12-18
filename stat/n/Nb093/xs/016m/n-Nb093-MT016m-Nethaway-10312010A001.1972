@@ -1,0 +1,69 @@
+# header: 
+#   title: Nb93(n,2n)Nb92m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Nethaway
+#   year: 1972
+#   subentry: 10312010
+#   X4 reaction: 41-NB-93(N,2N)41-NB-92-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/10312010
+# target: 
+#   Z: 41
+#   A: 93
+#   nuclide: Nb93
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 41
+#     A: 92
+#     nuclide: Nb92m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 11
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.380000E+01   3.000000E-02   4.792405E+02   2.396202E+01   1.006808E+00
+   1.384000E+01   3.000000E-02   4.809485E+02   2.404743E+01   1.012523E+00
+   1.399000E+01   3.000000E-02   4.680362E+02   2.340181E+01   1.008699E+00
+   1.413000E+01   3.000000E-02   4.605436E+02   2.302718E+01   1.003363E+00
+   1.415000E+01   3.000000E-02   4.735044E+02   2.367522E+01   1.001066E+00
+   1.438000E+01   3.000000E-02   4.588383E+02   2.294192E+01   9.996477E-01
+   1.452000E+01   3.000000E-02   4.709323E+02   2.354662E+01   9.914364E-01
+   1.472000E+01   3.000000E-02   4.540282E+02   2.270141E+01   9.913278E-01
+   1.480000E+01   3.000000E-02   4.670499E+02   2.335250E+01   9.895126E-01
+   1.488000E+01   3.000000E-02   4.493874E+02   2.246937E+01   9.876646E-01
+   1.494000E+01   3.000000E-02   4.606401E+02   2.303201E+01   9.884982E-01
+# reference:
+#   author: D.R.Nethaway
+#   title: Cross Sections for Several (n,2n) Reactions at 14 MeV
+#   journal: Jour: Nuclear Physics, Section A, Vol.190, p.635 (1972)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.380000E+01
+#   E-max [MeV]:  1.494000E+01
+#   F-value:  1.019538E+00
+#   A-value:  9.928019E-01
+#   chi-2:  3.545990E-01
+#   p-value:  3.523131E-01
+#   exp. data sets for p-value:      8
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2025    1.015242E+00   9.923747E-01   2.705106E-01
+# jeff4.0       1.015242E+00   9.923747E-01   2.705117E-01
+# jendl5.0      1.031515E+00   9.784749E-01   6.645729E-01
+# eaf.2010      1.015732E+00   1.008263E+00   3.085731E-01
+# irdff2.0      1.014524E+00   9.927458E-01   2.588264E-01

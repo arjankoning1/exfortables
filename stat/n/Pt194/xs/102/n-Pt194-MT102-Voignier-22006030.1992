@@ -1,0 +1,57 @@
+# header: 
+#   title: Pt194(n,g)Pt195 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Voignier
+#   year: 1992
+#   subentry: 22006030
+#   X4 reaction: 78-PT-194(N,G)78-PT-195,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22006030
+# target: 
+#   Z: 78
+#   A: 194
+#   nuclide: Pt194
+# reaction: 
+#   type: (n,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 78
+#     A: 195
+#     nuclide: Pt195
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.000000E-01   0.000000E+00   1.220000E+02   9.000000E+00   1.000000E+00
+   1.000000E+00   0.000000E+00   7.400000E+01   5.700000E+00   1.000000E+00
+   2.000000E+00   0.000000E+00   8.400001E+01   6.000000E+00   1.000000E+00
+   3.000000E+00   0.000000E+00   3.600000E+01   4.600000E+00   1.000000E+00
+# reference:
+#   author: J.Voignier, S.Joly, G.Grenier
+#   title: -Capture cross sections and gamma-ray spectra from  the interaction of 0.5 to 3.0 MeV neutron with  nuclei in the mass range A=63 to 209 .
+#   journal: Jour: Nuclear Science and Engineering, Vol.112, p.87 (1992)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  5.000000E-01
+#   E-max [MeV]:  3.000000E+00
+#   F-value:  1.382383E+00
+#   A-value:  7.942708E-01
+#   chi-2:  1.007409E+01
+#   p-value:  2.017017E-01
+#   exp. data sets for p-value:      1
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2025    1.365795E+00   7.553076E-01   8.848171E+00
+# endfb8.1      1.128433E+00   9.858643E-01   2.538717E+00
+# jeff4.0       1.365795E+00   7.553076E-01   8.848171E+00
+# jendl5.0      1.242809E+00   9.179162E-01   6.335760E+00
+# eaf.2010      1.678224E+00   6.123154E-01   2.379965E+01

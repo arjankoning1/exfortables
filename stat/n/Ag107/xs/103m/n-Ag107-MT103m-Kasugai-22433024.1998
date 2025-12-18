@@ -1,0 +1,63 @@
+# header: 
+#   title: Ag107(n,p)Pd107m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Kasugai
+#   year: 1998
+#   subentry: 22433024
+#   X4 reaction: 47-AG-107(N,P)46-PD-107-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22433024
+# target: 
+#   Z: 47
+#   A: 107
+#   nuclide: Ag107
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 46
+#     A: 107
+#     nuclide: Pd107m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.340000E+01   5.000000E-02   7.700000E+00   7.700000E-01   1.000000E+00
+   1.365000E+01   5.000000E-02   7.300000E+00   7.008000E-01   1.000000E+00
+   1.388000E+01   5.000000E-02   7.200000E+00   7.200000E-01   1.000000E+00
+   1.428000E+01   5.000000E-02   7.900000E+00   8.690000E-01   1.000000E+00
+   1.458000E+01   5.000000E-02   7.400000E+00   8.140000E-01   1.000000E+00
+   1.487000E+01   5.000000E-02   7.300000E+00   8.030000E-01   1.000000E+00
+# reference:
+#   author: Y.Kasugai, H.Yamamoto, K.Kawade, T.Iida
+#   title: Measurement of (n,p) cross-sections for short-lived  products by 13.4-14.9 MeV neutrons
+#   journal: Jour: Annals of Nuclear Energy, Vol.25, Issue.1-3, p.23 (1998)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.340000E+01
+#   E-max [MeV]:  1.487000E+01
+#   F-value:  1.068214E+00
+#   A-value:  9.839452E-01
+#   chi-2:  6.760991E-01
+#   p-value:  3.210464E-01
+#   exp. data sets for p-value:      1
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.052385E+00   1.014359E+00   5.219565E-01
+# jeff4.0       1.052385E+00   1.014359E+00   5.219565E-01
+# jendl5.0      1.079154E+00   9.586378E-01   8.041008E-01
+# eaf.2010      1.083291E+00   9.502673E-01   8.563824E-01

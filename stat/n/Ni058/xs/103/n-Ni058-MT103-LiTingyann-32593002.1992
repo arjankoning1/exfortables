@@ -1,0 +1,63 @@
+# header: 
+#   title: Ni58(n,p)Co58 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: LiTingyann
+#   year: 1992
+#   subentry: 32593002
+#   X4 reaction: 28-NI-58(N,P)27-CO-58,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/32593002
+# target: 
+#   Z: 28
+#   A: 58
+#   nuclide: Ni58
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 27
+#     A: 58
+#     nuclide: Co58
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.360000E+01   1.300000E-01   4.609981E+02   1.599994E+01   9.999960E-01
+   1.409000E+01   1.400000E-01   3.659985E+02   1.199995E+01   9.999960E-01
+   1.460000E+01   2.200000E-01   3.309987E+02   1.699993E+01   9.999960E-01
+   1.477000E+01   2.800000E-01   2.849989E+02   1.699993E+01   9.999960E-01
+   1.481000E+01   3.000000E-01   2.899988E+02   1.799993E+01   9.999960E-01
+   1.537000E+01   4.400000E-01   2.599989E+02   1.799993E+01   9.999960E-01
+   1.642000E+01   6.000000E-01   1.989992E+02   1.299995E+01   9.999960E-01
+   1.777000E+01   1.800000E-01   1.659993E+02   9.000000E+00   9.999960E-01
+# reference:
+#   author: Li Tingyan,Shi Zhaomin,Lu Hanlin,Zhao Wenrong, Yu Weixiang,Yuan Xialin
+#   title: The cross-section measurements and evaluations for Ni-58(n,p), Ni-60(n,p),Ni-62(n,alpha) and Fe-54(n,p) reaction
+#   journal: Jour: High Energy Physics and Nucl.Physics,Chinese ed., Vol.16, Issue.2,
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.360000E+01
+#   E-max [MeV]:  1.777000E+01
+#   F-value:  1.140074E+00
+#   A-value:  9.158903E-01
+#   chi-2:  5.361092E+00
+#   p-value:  2.836875E-01
+#   exp. data sets for p-value:      8
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.129362E+00   9.182919E-01   5.207371E+00
+# endfb8.1      1.133494E+00   9.152378E-01   5.193677E+00
+# jeff4.0       1.129362E+00   9.182917E-01   5.207386E+00
+# jendl5.0      1.153959E+00   8.932674E-01   6.566627E+00
+# cendl3.2      1.139987E+00   9.174292E-01   4.635342E+00
+# eaf.2010      1.158406E+00   9.339483E-01   5.523091E+00
+# irdff2.0      1.133504E+00   9.152336E-01   5.194149E+00

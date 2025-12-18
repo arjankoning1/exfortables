@@ -1,0 +1,69 @@
+# header: 
+#   title: Y89(n,x)Y89m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Doczi
+#   year: 1998
+#   subentry: 22452002
+#   X4 reaction: 39-Y-89(N,INL)39-Y-89-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22452002
+# target: 
+#   Z: 39
+#   A: 89
+#   nuclide: Y89
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+#   residual: 
+#     Z: 39
+#     A: 89
+#     nuclide: Y89m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 13
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   6.180000E+00   3.200000E-01   9.845502E+02   9.214510E+01   1.001577E+00
+   7.470000E+00   2.500000E-01   1.151814E+03   2.203469E+02   1.001577E+00
+   8.170000E+00   2.600000E-01   1.161829E+03   2.003154E+02   1.001577E+00
+   8.230000E+00   2.400000E-01   1.312066E+03   1.101735E+02   1.001577E+00
+   9.200000E+00   2.900000E-01   1.201892E+03   3.805993E+02   1.001577E+00
+   9.950000E+00   3.400000E-01   1.131782E+03   9.014194E+01   1.001577E+00
+   1.015000E+01   3.200000E-01   1.111750E+03   4.006308E+02   1.001577E+00
+   1.024000E+01   2.300000E-01   1.241956E+03   9.014194E+01   1.001577E+00
+   1.104000E+01   3.500000E-01   1.061672E+03   3.104889E+02   1.001577E+00
+   1.121000E+01   2.400000E-01   1.161829E+03   1.001577E+02   1.001577E+00
+   1.236000E+01   4.000000E-01   1.011593E+03   2.503943E+02   1.001577E+00
+   1.455000E+01   2.000000E-01   4.657333E+02   5.608832E+01   1.001577E+00
+   1.470000E+01   1.000000E-01   4.046371E+02   5.909305E+01   1.001577E+00
+# reference:
+#   author: R.Doczi,S.Sudar,J.Csikai,S.M.Qaim
+#   title: Excitation functions of the 89Y(n,n'gamma) and  89Y(n,alpha+gamma)86Rb-m processes
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.58, Issue.4, p.2577
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  6.180000E+00
+#   E-max [MeV]:  1.470000E+01
+#   F-value:  1.060553E+00
+#   A-value:  9.753689E-01
+#   chi-2:  5.644494E-01
+#   p-value:  3.176674E-01
+#   exp. data sets for p-value:      2
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.050233E+00   9.911796E-01   4.136750E-01
+# jeff4.0       1.071593E+00   9.583960E-01   7.705899E-01
+# jendl5.0      1.058065E+00   9.768082E-01   5.090835E-01

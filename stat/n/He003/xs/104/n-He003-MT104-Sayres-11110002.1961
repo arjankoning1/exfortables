@@ -1,0 +1,53 @@
+# header: 
+#   title: He3(n,d)H2 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Sayres
+#   year: 1961
+#   subentry: 11110002
+#   X4 reaction: 2-HE-3(N,D)1-H-2,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11110002
+# target: 
+#   Z: 2
+#   A: 3
+#   nuclide: He3
+# reaction: 
+#   type: (n,d)
+#   ENDF_MF: 3
+#   ENDF_MT: 104
+#   residual: 
+#     Z: 1
+#     A: 2
+#     nuclide: H2
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.000000E+00   2.000000E-02   4.100000E+01   1.599000E+01   1.000000E+00
+   8.070000E+00   2.000000E-02   7.100000E+01   7.810000E+00   1.000000E+00
+# reference:
+#   author: A.R.SAYRES,K.W.JONES,C.S.WU
+#   title: INTERACTION OF NEUTRONS WITH HE3.
+#   journal: Jour: Physical Review, Vol.122, p.1853 (1961)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  5.000000E+00
+#   E-max [MeV]:  8.070000E+00
+#   F-value:  1.552639E+00
+#   A-value:  7.190297E-01
+#   chi-2:  1.229286E+00
+#   p-value:  2.552493E-01
+#   exp. data sets for p-value:      2
+#   libraries:      3
+##  Library          F              A            chi-2
+# jeff4.0       1.581343E+00   7.134607E-01   1.199018E+00
+# jendl5.0      1.538034E+00   7.218305E-01   1.244420E+00
+# eaf.2010      1.538034E+00   7.218305E-01   1.244420E+00

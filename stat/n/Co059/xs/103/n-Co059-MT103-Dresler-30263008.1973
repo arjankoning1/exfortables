@@ -1,0 +1,56 @@
+# header: 
+#   title: Co59(n,p)Fe59 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Dresler
+#   year: 1973
+#   subentry: 30263008
+#   X4 reaction: 27-CO-59(N,P)26-FE-59,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30263008
+# target: 
+#   Z: 27
+#   A: 59
+#   nuclide: Co59
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 26
+#     A: 59
+#     nuclide: Fe59
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.460000E+01   0.000000E+00   8.680721E+01   5.700000E+00   1.032190E+00
+# reference:
+#   author: J.Dresler,J.Araminowicz,U.Garuska
+#   title: Cross sections of the (n,p) reactions at 14.6 MeV for 13 nuclides
+#   journal: Prog: Inst.Badan Jadr.(Nucl.Res.),Swierk+Warsaw,Repts, No.1464, p.12 (19
+# statistics:
+#   NEA score: R2
+#   IAEA score:  1
+#   E-min [MeV]:  1.460000E+01
+#   E-max [MeV]:  1.460000E+01
+#   F-value:  1.811503E+00
+#   A-value:  5.525568E-01
+#   chi-2:  4.645311E+01
+#   p-value:  3.613746E-02
+#   exp. data sets for p-value:      8
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.851963E+00   5.399675E-01   4.908388E+01
+# endfb8.1      1.852717E+00   5.397478E-01   4.913079E+01
+# jeff4.0       1.820465E+00   5.493102E-01   4.711046E+01
+# jendl5.0      1.807614E+00   5.532153E-01   4.629760E+01
+# cendl3.2      1.671942E+00   5.981070E-01   3.746130E+01
+# eaf.2010      1.818028E+00   5.500464E-01   4.695668E+01
+# irdff2.0      1.852721E+00   5.397466E-01   4.913103E+01

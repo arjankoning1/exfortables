@@ -1,0 +1,52 @@
+# header: 
+#   title: Pu239(n,x)Pu240 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Cabell
+#   year: 1968
+#   subentry: 21410014
+#   X4 reaction: 94-PU-239(N,G)94-PU-240,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21410014
+# target: 
+#   Z: 94
+#   A: 239
+#   nuclide: Pu239
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 94
+#     A: 240
+#     nuclide: Pu240
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.530000E-08   0.000000E+00   2.779000E+05   1.370000E+04   1.000000E+00
+# reference:
+#   author: M.J.Cabell
+#   title: A Re-assessment of Harwell mass spectrometric  measurements of the cross sections of Pu-239,  Pu-240 and Pu-241 for Maxwellian neutrons
+#   journal: Rept: A.E.R.E. Harwell Reports, No.5874, p.1 (1968)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.530000E-08
+#   E-max [MeV]:  2.530000E-08
+#   F-value:  1.011212E+00
+#   A-value:  9.890542E-01
+#   chi-2:  2.922172E-01
+#   p-value:  3.063580E-01
+#   exp. data sets for p-value:      3
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.012340E+00   9.878106E-01   3.268585E-01
+# jeff4.0       1.008525E+00   9.915475E-01   2.229007E-01
+# jendl5.0      1.012341E+00   9.878094E-01   3.268923E-01

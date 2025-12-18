@@ -1,0 +1,58 @@
+# header: 
+#   title: Se80(n,p)As80 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Attar
+#   year: 2014
+#   subentry: 33080003
+#   X4 reaction: 34-SE-80(N,P)33-AS-80,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/33080003
+# target: 
+#   Z: 34
+#   A: 80
+#   nuclide: Se80
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 33
+#     A: 80
+#     nuclide: As80
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.373000E+01   0.000000E+00   4.800000E+00   6.300000E-01   1.000000E+00
+   1.407000E+01   0.000000E+00   7.100000E+00   9.500000E-01   1.000000E+00
+   1.442000E+01   0.000000E+00   8.600000E+00   1.100000E+00   1.000000E+00
+   1.468000E+01   0.000000E+00   9.600000E+00   1.400000E+00   1.000000E+00
+   1.477000E+01   0.000000E+00   1.100000E+01   1.600000E+00   1.000000E+00
+# reference:
+#   author: F.M.D.Attar, S.D.Dhole, V.N.Bhoraskar
+#   title: Cross sections of the (n,p) reaction on the 78Se and 80Se isotopes measured for 13.73 MeV to 14.77 MeV and estimated for 10 MeV to 20 MeV neutron energies
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.90, p.064609 (2014)
+# statistics:
+#   NEA score: T2
+#   IAEA score:  1
+#   E-min [MeV]:  1.373000E+01
+#   E-max [MeV]:  1.477000E+01
+#   F-value:  1.532759E+00
+#   A-value:  1.408210E+00
+#   chi-2:  2.014691E+01
+#   p-value:  1.414819E-01
+#   exp. data sets for p-value:      2
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2025    1.208419E+00   1.142825E+00   3.287477E+00
+# endfb8.1      1.889966E+00   1.868117E+00   4.640870E+01
+# jeff4.0       1.208419E+00   1.142825E+00   3.287476E+00
+# jendl5.0      1.829223E+00   1.798784E+00   4.152008E+01
+# eaf.2010      1.303793E+00   1.261812E+00   6.230794E+00

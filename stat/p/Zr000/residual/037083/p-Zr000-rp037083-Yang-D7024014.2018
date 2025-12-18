@@ -1,0 +1,60 @@
+# header: 
+#   title: Zr0(p,x)Rb83 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Yang
+#   year: 2018
+#   subentry: D7024014
+#   X4 reaction: 40-ZR-0(P,X)37-RB-83,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D7024014
+# target: 
+#   Z: 40
+#   A: 0
+#   nuclide: Zr0
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 37
+#     A: 83
+#     nuclide: Rb83
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.510000E+01   6.000000E-01   5.700000E-01   8.000000E-02   1.000000E+00
+   5.650000E+01   6.000000E-01   5.900000E-01   8.000000E-02   1.000000E+00
+   5.780000E+01   6.000000E-01   1.460000E+00   1.600000E-01   1.000000E+00
+   5.920000E+01   6.000000E-01   2.100000E+00   2.100000E-01   1.000000E+00
+   6.040000E+01   6.000000E-01   2.960000E+00   2.900000E-01   1.000000E+00
+   6.170000E+01   7.000000E-01   4.640000E+00   4.400000E-01   1.000000E+00
+   6.300000E+01   7.000000E-01   6.830000E+00   6.300000E-01   1.000000E+00
+   6.420000E+01   7.000000E-01   8.590000E+00   7.900000E-01   1.000000E+00
+   6.540000E+01   7.000000E-01   1.068000E+01   9.700000E-01   1.000000E+00
+   6.660000E+01   7.000000E-01   1.356000E+01   1.220000E+00   1.000000E+00
+# reference:
+#   author: S.C.Yang, M.H.Jung, G.N.Kim, Y.O.Lee
+#   title: Measurement of production cross sections in proton induced reactions on natural zirconium
+#   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.436, p.179 (20
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  5.510000E+01
+#   E-max [MeV]:  6.660000E+01
+#   F-value:  8.499582E+00
+#   A-value:  1.381760E-01
+#   chi-2:  7.033362E+01
+#   p-value:  5.194659E-02
+#   exp. data sets for p-value:      3
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.481860E+01   7.079866E-02   8.540747E+01
+# jendl5.0      3.956421E+00   2.696748E-01   5.525977E+01

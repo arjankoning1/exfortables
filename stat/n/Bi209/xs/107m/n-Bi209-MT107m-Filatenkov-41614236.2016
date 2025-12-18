@@ -1,0 +1,63 @@
+# header: 
+#   title: Bi209(n,a)Tl206m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Filatenkov
+#   year: 2016
+#   subentry: 41614236
+#   X4 reaction: 83-BI-209(N,A)81-TL-206-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/41614236
+# target: 
+#   Z: 83
+#   A: 209
+#   nuclide: Bi209
+# reaction: 
+#   type: (n,a)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+#   residual: 
+#     Z: 81
+#     A: 206
+#     nuclide: Tl206m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.348000E+01   0.000000E+00   7.600000E-03   1.094400E-03   9.999999E-01
+   1.395000E+01   0.000000E+00   5.798500E-03   1.298800E-03   9.997351E-01
+   1.423000E+01   0.000000E+00   1.169200E-02   2.291600E-03   9.992957E-01
+   1.471000E+01   0.000000E+00   1.399100E-02   2.392600E-03   9.993713E-01
+   1.482000E+01   0.000000E+00   1.698500E-02   2.411900E-03   9.991354E-01
+   1.488000E+01   0.000000E+00   1.718400E-02   4.038200E-03   9.990617E-01
+# reference:
+#   author: A.A.Filatenkov
+#   title: Neutron activation cross sections measured at KRI in neutron energy region 13.4 - 14.9 MeV
+#   journal: Rept: USSR report to the I.N.D.C., No.0460 (2016)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  1.348000E+01
+#   E-max [MeV]:  1.488000E+01
+#   F-value:  4.139376E+00
+#   A-value:  3.124317E+00
+#   chi-2:  5.030884E+02
+#   p-value:  2.631710E-01
+#   exp. data sets for p-value:      1
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    7.326173E+00   7.070418E+00   1.398379E+03
+# jeff4.0       4.119417E+00   4.060730E+00   3.055359E+02
+# jendl5.0      4.119417E+00   4.060730E+00   3.055359E+02
+# eaf.2010      1.366338E+00   8.172733E-01   2.902802E+00

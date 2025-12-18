@@ -1,0 +1,61 @@
+# header: 
+#   title: U235(n,f) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Macklin
+#   year: 1966
+#   subentry: 12682002
+#   X4 reaction: 92-U-235(N,F),,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/12682002
+# target: 
+#   Z: 92
+#   A: 235
+#   nuclide: U235
+# reaction: 
+#   type: (n,f)
+#   ENDF_MF: 3
+#   ENDF_MT: 18
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.500000E-01   2.000000E-02   1.490000E+03   6.000000E+01   1.000000E+00
+   1.530000E-01   2.200000E-02   1.440000E+03   4.000000E+01   1.000000E+00
+   1.820000E-01   2.000000E-02   1.490000E+03   6.000000E+01   1.000000E+00
+   1.850000E-01   2.100000E-02   1.420000E+03   5.000000E+01   1.000000E+00
+   2.380000E-01   2.000000E-02   1.260000E+03   8.000000E+01   1.000000E+00
+   2.410000E-01   2.000000E-02   1.380000E+03   4.000000E+01   1.000000E+00
+   2.650000E-01   2.000000E-02   1.390000E+03   4.000000E+01   1.000000E+00
+   2.830000E-01   2.000000E-02   1.230000E+03   9.000000E+01   1.000000E+00
+   3.340000E-01   1.600000E-02   1.230000E+03   6.000000E+01   1.000000E+00
+   3.350000E-01   1.700000E-02   1.205000E+03   4.000000E+01   1.000000E+00
+# reference:
+#   author: R.L.MACKLIN,J.H.GIBBONS
+#   title: LACK OF STRUCTURE IN U-235 FISSION CROSS SECTION IN THE NEUTRON ENERGY RANGE FROM 150 TO 335 KEV
+#   journal: Jour: Physical Review Letters, Vol.16, p.248 (1966)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.500000E-01
+#   E-max [MeV]:  3.350000E-01
+#   F-value:  1.049539E+00
+#   A-value:  9.710392E-01
+#   chi-2:  2.392862E+00
+#   p-value:  3.358055E-01
+#   exp. data sets for p-value:      8
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.048297E+00   9.721831E-01   2.335445E+00
+# endfb8.1      1.048465E+00   9.719329E-01   2.347316E+00
+# jeff4.0       1.052117E+00   9.684209E-01   2.592021E+00
+# jendl5.0      1.048016E+00   9.735550E-01   2.179393E+00
+# cendl3.2      1.051691E+00   9.688087E-01   2.552970E+00
+# eaf.2010      1.049560E+00   9.704523E-01   2.395571E+00
+# irdff2.0      1.048465E+00   9.719329E-01   2.347316E+00

@@ -1,0 +1,57 @@
+# header: 
+#   title: Mo96(n,p)Nb96 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Reimer
+#   year: 2005
+#   subentry: 22889007
+#   X4 reaction: 42-MO-96(N,P)41-NB-96,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22889007
+# target: 
+#   Z: 42
+#   A: 96
+#   nuclide: Mo96
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 41
+#     A: 96
+#     nuclide: Nb96
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.622000E+01   5.000000E-01   1.990000E+01   1.800000E+00   1.000000E+00
+   1.930000E+01   1.000000E-01   2.510000E+01   2.500000E+00   1.000000E+00
+   2.060000E+01   1.000000E-01   2.530000E+01   2.700000E+00   1.000000E+00
+# reference:
+#   author: P.Reimer, V.Avrigeanu, S.V.Chuvaev, A.A.Filatenkov, T.Glodariu,A.Koning,A.J.M.Plompen, S.M.Qaim, D.L.Smith, H.Weigmann
+#   title: Reaction mechanisms of fast neutrons on stable Mo  isotopes below 21 MeV.
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.71, p.044617 (2005)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.622000E+01
+#   E-max [MeV]:  2.060000E+01
+#   F-value:  1.301542E+00
+#   A-value:  1.261115E+00
+#   chi-2:  1.055523E+01
+#   p-value:  1.405865E-01
+#   exp. data sets for p-value:      1
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.314455E+00   1.305109E+00   1.138069E+01
+# endfb8.1      1.315394E+00   1.293368E+00   1.265165E+01
+# jeff4.0       1.314455E+00   1.305109E+00   1.138069E+01
+# jendl5.0      1.395181E+00   1.387132E+00   1.599240E+01
+# cendl3.2      1.241985E+00   1.167069E+00   7.876480E+00
+# eaf.2010      1.194822E+00   1.124314E+00   5.408756E+00

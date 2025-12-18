@@ -1,0 +1,59 @@
+# header: 
+#   title: Th232(n,2n)Th231 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Raics
+#   year: 1990
+#   subentry: 30923004
+#   X4 reaction: 90-TH-232(N,2N)90-TH-231,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30923004
+# target: 
+#   Z: 90
+#   A: 232
+#   nuclide: Th232
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 90
+#     A: 231
+#     nuclide: Th231
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.349000E+01   1.200000E-01   1.967000E+03   7.900000E+01   1.000000E+00
+   1.374000E+01   9.000000E-02   1.807000E+03   6.900002E+01   1.000000E+00
+   1.410000E+01   8.000000E-02   1.585000E+03   5.700000E+01   1.000000E+00
+   1.446000E+01   1.200000E-01   1.400000E+03   5.500000E+01   1.000000E+00
+   1.484000E+01   1.900000E-01   1.231000E+03   4.700000E+01   1.000000E+00
+# reference:
+#   author: P.Raics,S.Nagy,S.Daroczy,N.V.Kornilov
+#   title: Measurement of the cross sections for the 238U(n,2n) and 232Th(n,2n) reactions in the 13.5 - 14.8 MeV energy range
+#   journal: Rept: Hungarian report to the I.N.D.C., No.029, p.3 (1990)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.349000E+01
+#   E-max [MeV]:  1.484000E+01
+#   F-value:  1.090810E+00
+#   A-value:  9.408378E-01
+#   chi-2:  5.039845E+00
+#   p-value:  2.968198E-01
+#   exp. data sets for p-value:      5
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.096398E+00   9.160780E-01   5.471323E+00
+# endfb8.1      1.091635E+00   9.205682E-01   5.045622E+00
+# jeff4.0       1.091635E+00   9.205682E-01   5.045622E+00
+# jendl5.0      1.075117E+00   1.064800E+00   4.237874E+00
+# cendl3.2      1.106448E+00   9.053777E-01   6.367348E+00
+# eaf.2010      1.080599E+00   9.267151E-01   4.071282E+00

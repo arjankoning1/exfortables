@@ -1,0 +1,59 @@
+# header: 
+#   title: Br79(n,2n)Br78 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Sakane
+#   year: 2001
+#   subentry: 22662006
+#   X4 reaction: 35-BR-79(N,2N)35-BR-78,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22662006
+# target: 
+#   Z: 35
+#   A: 79
+#   nuclide: Br79
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 35
+#     A: 78
+#     nuclide: Br78
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.340000E+01   5.000000E-02   7.100000E+02   3.692000E+01   1.000000E+00
+   1.365000E+01   5.000000E-02   7.710000E+02   3.932100E+01   1.000000E+00
+   1.388000E+01   5.000000E-02   8.310000E+02   4.238100E+01   1.000000E+00
+   1.428000E+01   5.000000E-02   9.200001E+02   4.876000E+01   1.000000E+00
+   1.458000E+01   5.000000E-02   9.500000E+02   5.035000E+01   1.000000E+00
+   1.487000E+01   5.000000E-02   1.024000E+03   5.427200E+01   1.000000E+00
+# reference:
+#   author: H.Sakane,Y.Kasugai,M.Shibata,T.Iida,A.Takahashi,  T.Fukahori,K.Kawade
+#   title: Measurement of activation cross-sections for (n,2n)  reactions producing short-lived nuclei in the energy  range between 13.4 and 14.9 MeV
+#   journal: Jour: Annals of Nuclear Energy, Vol.28, p.1175 (2001)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.340000E+01
+#   E-max [MeV]:  1.487000E+01
+#   F-value:  1.038677E+00
+#   A-value:  9.795879E-01
+#   chi-2:  8.439534E-01
+#   p-value:  4.067214E-01
+#   exp. data sets for p-value:      6
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2025    1.026423E+00   9.782461E-01   5.911508E-01
+# endfb8.1      1.029681E+00   1.016429E+00   6.321489E-01
+# jeff4.0       1.026423E+00   9.782461E-01   5.911508E-01
+# jendl5.0      1.015109E+00   9.924381E-01   2.259933E-01
+# eaf.2010      1.071424E+00   9.344162E-01   2.179323E+00

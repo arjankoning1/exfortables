@@ -1,0 +1,54 @@
+# header: 
+#   title: Mn55(n,a)V52 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: YanbinZhangg
+#   year: 2012
+#   subentry: 32701002
+#   X4 reaction: 25-MN-55(N,A)23-V-52,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/32701002
+# target: 
+#   Z: 25
+#   A: 55
+#   nuclide: Mn55
+# reaction: 
+#   type: (n,a)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+#   residual: 
+#     Z: 23
+#     A: 52
+#     nuclide: V52
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.410000E+01   2.000000E-01   2.130000E+01   7.000000E-01   1.000000E+00
+   1.470000E+01   2.000000E-01   2.380000E+01   8.000000E-01   1.000000E+00
+# reference:
+#   author: Yanbin Zhang, Liangyong Zhao, Xiangzhong Kong,  Rong Liu, Li Jiang
+#   title: Cross sections for (n,2n) and (n,alpha) reactions on  55Mn isotope around neutron energy of 14 MeV
+#   journal: Jour: Radiation Physics and Chemistry, Vol.81, p.1563 (2012)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.410000E+01
+#   E-max [MeV]:  1.470000E+01
+#   F-value:  1.236430E+00
+#   A-value:  1.183754E+00
+#   chi-2:  5.556212E+01
+#   p-value:  2.653363E-01
+#   exp. data sets for p-value:      5
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.393546E+00   1.392078E+00   1.413556E+02
+# jendl5.0      1.026151E+00   9.992214E-01   1.163329E+00
+# cendl3.2      1.267526E+00   1.263871E+00   6.593140E+01
+# eaf.2010      1.121607E+00   1.116908E+00   1.379818E+01

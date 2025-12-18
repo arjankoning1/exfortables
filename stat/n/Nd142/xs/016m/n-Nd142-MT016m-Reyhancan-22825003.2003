@@ -1,0 +1,63 @@
+# header: 
+#   title: Nd142(n,2n)Nd141m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Reyhancan
+#   year: 2003
+#   subentry: 22825003
+#   X4 reaction: 60-ND-142(N,2N)60-ND-141-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22825003
+# target: 
+#   Z: 60
+#   A: 142
+#   nuclide: Nd142
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 60
+#     A: 141
+#     nuclide: Nd141m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.357000E+01   4.000000E-02   6.787638E+02   2.651791E+01   1.050718E+00
+   1.375000E+01   5.000000E-02   7.674935E+02   3.018788E+01   1.057153E+00
+   1.415000E+01   7.000000E-02   6.947480E+02   2.774520E+01   1.035392E+00
+   1.452000E+01   9.000000E-02   7.357279E+02   2.848010E+01   1.012005E+00
+   1.475000E+01   9.000000E-02   7.124926E+02   2.805915E+01   1.019302E+00
+   1.483000E+01   1.000000E-01   7.318680E+02   2.821063E+01   1.029350E+00
+# reference:
+#   author: I.A.Reyhancan,M.Bostan,A.Durusoy,A.Elmali, A.Baykal, Y.Oezbir
+#   title: .Measurements of isomeric cross sections for (n,2n)  reaction on 140Ce, 142Nd and 144Sm isotopes  around 14 MeV incident neutron energy
+#   journal: Jour: Annals of Nuclear Energy, Vol.30, p.1539 (2003)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.357000E+01
+#   E-max [MeV]:  1.483000E+01
+#   F-value:  1.229167E+00
+#   A-value:  8.800239E-01
+#   chi-2:  2.098150E+01
+#   p-value:  2.609918E-01
+#   exp. data sets for p-value:      3
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.120515E+00   1.032139E+00   9.111232E+00
+# jeff4.0       1.278622E+00   7.900379E-01   3.006044E+01
+# jendl5.0      1.088221E+00   9.634930E-01   4.200384E+00
+# eaf.2010      1.349398E+00   7.633844E-01   4.055396E+01

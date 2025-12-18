@@ -1,0 +1,60 @@
+# header: 
+#   title: O16(p,x)C11 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Akagi
+#   year: 2013
+#   subentry: E2449003
+#   X4 reaction: 8-O-16(P,X)6-C-11,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/E2449003
+# target: 
+#   Z: 8
+#   A: 16
+#   nuclide: O16
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 6
+#     A: 11
+#     nuclide: C11
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 9
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   7.200000E+00   7.200000E+00   7.000000E-01   1.700000E+00   1.000000E+00
+   2.070000E+01   6.500000E+00   7.400000E+00   1.000000E+00   1.000000E+00
+   3.160000E+01   4.600000E+00   3.600000E+00   7.000000E-01   1.000000E+00
+   3.980000E+01   3.800000E+00   1.410000E+01   1.300000E+00   1.000000E+00
+   4.680000E+01   3.300000E+00   1.130000E+01   1.100000E+00   1.000000E+00
+   5.310000E+01   3.000000E+00   1.810000E+01   1.400000E+00   1.000000E+00
+   5.880000E+01   2.800000E+00   1.730000E+01   1.100000E+00   1.000000E+00
+   6.410000E+01   2.600000E+00   1.300000E+01   1.100000E+00   1.000000E+00
+   6.910000E+01   2.400000E+00   1.810000E+01   1.300000E+00   1.000000E+00
+# reference:
+#   author: T.Akagi, M.Yagi, T.Yamashita, M.Murakami, Y.Yamakawa,  K.Kitamura, K.Ogura, K.Kondo, S.Kawanishi
+#   title: Experimental study for the production cross sections of positron emitters induced from 12C and 16O nuclei by low-energy proton beams
+#   journal: Jour: Radiation Measurements, Vol.59, p.262 (2013)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  7.200000E+00
+#   E-max [MeV]:  6.910000E+01
+#   F-value:  1.593852E+00
+#   A-value:  1.044824E+00
+#   chi-2:  2.722647E+01
+#   p-value:  2.143227E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.358684E+00   1.108674E+00   1.409583E+01
+# endfb8.1      1.575934E+00   1.363733E+00   5.261987E+01
+# jendl5.0      1.808507E+00   7.543901E-01   1.496373E+01

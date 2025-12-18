@@ -1,0 +1,55 @@
+# header: 
+#   title: W0(p,x)Re177 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Yoon
+#   year: 2017
+#   subentry: D7025002
+#   X4 reaction: 74-W-0(P,X)75-RE-177,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D7025002
+# target: 
+#   Z: 74
+#   A: 0
+#   nuclide: W0
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 75
+#     A: 177
+#     nuclide: Re177
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   7.790000E+01   0.000000E+00   1.098885E+02   1.128102E+01   8.115844E-01
+   8.320000E+01   0.000000E+00   9.519884E+01   1.217376E+01   8.115844E-01
+   8.830000E+01   0.000000E+00   9.471189E+01   9.901300E+00   8.115844E-01
+   9.320000E+01   0.000000E+00   8.894965E+01   1.063175E+01   8.115844E-01
+# reference:
+#   author: J.R.Yoon, J.E.Lee, S.Y.Lee
+#   title: Measurement of natW(p,xn)177,178,179Re excitation function of natural tungsten by using a 100-MeV proton beam
+#   journal: Jour: Journal of the Korean Physical Society, Vol.70, p.47 (2017)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  7.790000E+01
+#   E-max [MeV]:  9.320000E+01
+#   F-value:  1.111719E+00
+#   A-value:  9.526282E-01
+#   chi-2:  1.086428E+00
+#   p-value:  3.789235E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.147509E+00   8.957758E-01   1.610566E+00
+# endfb8.1      1.116385E+00   9.305591E-01   1.189327E+00
+# jendl5.0      1.052270E+00   1.037115E+00   4.593910E-01

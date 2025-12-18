@@ -1,0 +1,62 @@
+# header: 
+#   title: Mo100(n,x)Nb99m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Sakane
+#   year: 2003
+#   subentry: 22827004
+#   X4 reaction: 42-MO-100(N,X)41-NB-99-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22827004
+# target: 
+#   Z: 42
+#   A: 100
+#   nuclide: Mo100
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 28
+#   residual: 
+#     Z: 41
+#     A: 99
+#     nuclide: Nb99m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.340000E+01   0.000000E+00   1.209700E-01   4.113100E-02   1.008108E+00
+   1.370000E+01   0.000000E+00   1.310500E-01   3.800600E-02   1.008108E+00
+   1.402000E+01   0.000000E+00   2.318600E-01   5.101000E-02   1.008108E+00
+   1.435000E+01   0.000000E+00   2.621100E-01   5.504300E-02   1.008108E+00
+   1.464000E+01   0.000000E+00   2.923500E-01   5.847000E-02   1.008108E+00
+   1.487000E+01   0.000000E+00   3.225900E-01   6.451900E-02   1.008108E+00
+# reference:
+#   author: H.Sakane,Y.Kasugai,M.Shibata,H.Takeuchi,K.Kawade
+#   title: Measurement of the (n,np+d) activation cross section  with 13.4 - 14.9 MeV neutrons using a fusion  neutronics source/JAERI
+#   journal: Jour: Annals of Nuclear Energy, Vol.30, p.1847 (2003)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  1.340000E+01
+#   E-max [MeV]:  1.487000E+01
+#   F-value:  3.060999E+01
+#   A-value:  3.442952E-02
+#   chi-2:  1.921335E+01
+#   p-value:  1.291434E-07
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    3.060999E+01   3.442952E-02   1.921335E+01
+# jeff4.0       3.060999E+01   3.442952E-02   1.921335E+01
+# jendl5.0      0.000000E+00   0.000000E+00   0.000000E+00

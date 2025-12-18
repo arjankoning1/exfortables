@@ -1,0 +1,56 @@
+# header: 
+#   title: Co59(n,x)Fe59 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Uno
+#   year: 1996
+#   subentry: 23279009
+#   X4 reaction: 27-CO-59(N,P)26-FE-59,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/23279009
+# target: 
+#   Z: 27
+#   A: 59
+#   nuclide: Co59
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 26
+#     A: 59
+#     nuclide: Fe59
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.755000E+01   0.000000E+00   3.560000E+01   1.800000E+00   1.000000E+00
+   1.984000E+01   0.000000E+00   2.670000E+01   1.300000E+00   1.000000E+00
+   2.266000E+01   0.000000E+00   2.450000E+01   1.200000E+00   1.000000E+00
+   2.499000E+01   0.000000E+00   2.140000E+01   1.100000E+00   1.000000E+00
+   2.779000E+01   0.000000E+00   1.510000E+01   8.000000E-01   1.000000E+00
+   3.009000E+01   0.000000E+00   1.170000E+01   6.000000E-01   1.000000E+00
+# reference:
+#   author: Y.Uno, S.Meigo, S.Chiba, T.Fukahori, Y.Kasugai,  O.Iwamoto, P.Siegler, Y.Ikeda
+#   title: Measurements of activation cross sections for the  neutron dosimetry at an energy range from 17.5 to  30 MeV by using the 7Li(p,n) quasi-mono-energetic  neutron source
+#   journal: Conf: 9.Internat.Symposium on Reactor Dosimetry,Prague,1996, p.465 (1996
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.755000E+01
+#   E-max [MeV]:  3.009000E+01
+#   F-value:  1.380815E+00
+#   A-value:  1.272866E+00
+#   chi-2:  6.777198E+01
+#   p-value:  2.272167E-01
+#   exp. data sets for p-value:      6
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.404638E+00   1.261104E+00   7.972218E+01
+# jendl5.0      1.356096E+00   1.284738E+00   5.582179E+01

@@ -1,0 +1,58 @@
+# header: 
+#   title: Al27(n,x)Mg27 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Kawade
+#   year: 2003
+#   subentry: 22860003
+#   X4 reaction: 13-AL-27(N,P)12-MG-27,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22860003
+# target: 
+#   Z: 13
+#   A: 27
+#   nuclide: Al27
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 12
+#     A: 27
+#     nuclide: Mg27
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.338000E+01   0.000000E+00   8.023001E+01   2.888280E+00   1.000000E+00
+   1.369000E+01   0.000000E+00   7.824000E+01   2.816640E+00   1.000000E+00
+   1.402000E+01   0.000000E+00   7.365000E+01   2.651400E+00   1.000000E+00
+   1.436000E+01   0.000000E+00   6.831000E+01   2.459160E+00   1.000000E+00
+   1.465000E+01   0.000000E+00   6.631001E+01   2.387160E+00   1.000000E+00
+   1.488000E+01   0.000000E+00   6.398001E+01   2.303280E+00   1.000000E+00
+# reference:
+#   author: K.Kawade,H.Sakane,Y.Kasugai,M.Shibata,T.Iida, A.Takahashi,T.Fukahori
+#   title: Measurement method of activation cross-sections of reactions producing short-lived nuclei with 14-MeV neutrons.
+#   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.A, Vol.496, p.183 (20
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.338000E+01
+#   E-max [MeV]:  1.488000E+01
+#   F-value:  1.039096E+00
+#   A-value:  1.030450E+00
+#   chi-2:  1.597363E+00
+#   p-value:  2.559040E-01
+#   exp. data sets for p-value:      8
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.027645E+00   1.023062E+00   1.017197E+00
+# endfb8.1      1.027440E+00   1.022705E+00   1.002060E+00
+# jeff4.0       1.027443E+00   1.022724E+00   1.002719E+00
+# jendl5.0      1.062486E+00   1.053650E+00   3.367474E+00

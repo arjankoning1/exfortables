@@ -1,0 +1,49 @@
+# header: 
+#   title: H2(n,el) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Shirato
+#   year: 1972
+#   subentry: 20344002
+#   X4 reaction: 1-H-2(N,EL)1-H-2,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20344002
+# target: 
+#   Z: 1
+#   A: 2
+#   nuclide: H2
+# reaction: 
+#   type: (n,el)
+#   ENDF_MF: 3
+#   ENDF_MT: 2
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.410000E+01   0.000000E+00   6.230000E+02   5.000000E+00   1.000000E+00
+# reference:
+#   author: S.Shirato, N.Koori
+#   title: -Differential cross section for the elastic scattering  of 14.1 MeV neutrons by deuterons.-
+#   journal: Conf: Conf. on Few-Particle Problems, Los Angeles 1972, p.472 (1972)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.410000E+01
+#   E-max [MeV]:  1.410000E+01
+#   F-value:  1.011623E+00
+#   A-value:  1.004589E+00
+#   chi-2:  2.491090E+00
+#   p-value:  2.873653E-01
+#   exp. data sets for p-value:      8
+#   libraries:      4
+##  Library          F              A            chi-2
+# endfb8.1      1.017765E+00   1.017765E+00   5.137649E+00
+# jeff4.0       1.010040E+00   1.010040E+00   2.135444E+00
+# jendl5.0      1.011073E+00   9.890479E-01   2.408445E+00
+# cendl3.2      1.001729E+00   1.001729E+00   2.828235E-01

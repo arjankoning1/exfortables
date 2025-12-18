@@ -1,0 +1,59 @@
+# header: 
+#   title: Te125(n,g)Te126 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Macklin
+#   year: 1967
+#   subentry: 11679014
+#   X4 reaction: 52-TE-125(N,G)52-TE-126,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11679014
+# target: 
+#   Z: 52
+#   A: 125
+#   nuclide: Te125
+# reaction: 
+#   type: (n,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 52
+#     A: 126
+#     nuclide: Te126
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.000000E-02   1.000000E-02   5.150000E+02   3.130000E+01   1.000000E+00
+   3.000000E-02   1.000000E-02   4.595000E+02   3.020000E+01   1.000000E+00
+   5.000000E-02   1.000000E-02   3.640000E+02   2.450000E+01   1.000000E+00
+   7.000000E-02   1.900000E-02   2.229000E+02   1.160000E+01   1.000000E+00
+   8.500000E-02   1.700000E-02   1.983000E+02   2.420000E+01   1.000000E+00
+   1.250000E-01   2.300000E-02   1.261000E+02   8.900000E+00   1.000000E+00
+# reference:
+#   author: R.L.MACKLIN,J.H.GIBBONS
+#   title: CAPTURE-CROSS-SECTION STUDIES FOR 30-220-KEV NEUTRONS USING A NEW TECHNIQUE.
+#   journal: Jour: Physical Review, Vol.159, p.1007 (1967)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  3.000000E-02
+#   E-max [MeV]:  1.250000E-01
+#   F-value:  1.119083E+00
+#   A-value:  1.005133E+00
+#   chi-2:  3.256387E+00
+#   p-value:  2.428859E-01
+#   exp. data sets for p-value:      3
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2025    1.114963E+00   1.045909E+00   3.489102E+00
+# endfb8.1      1.132830E+00   1.010610E+00   3.987826E+00
+# jeff4.0       1.119276E+00   9.497399E-01   2.883955E+00
+# jendl5.0      1.099414E+00   1.036121E+00   2.400528E+00
+# eaf.2010      1.126627E+00   9.863368E-01   3.520527E+00

@@ -1,0 +1,55 @@
+# header: 
+#   title: Na23(p,x)O15 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Cohen
+#   year: 1956
+#   subentry: C1748003
+#   X4 reaction: 11-NA-23(P,X)8-O-15,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C1748003
+# target: 
+#   Z: 11
+#   A: 23
+#   nuclide: Na23
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 8
+#     A: 15
+#     nuclide: O15
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.570700E+01   0.000000E+00   2.962000E+00   0.000000E+00   1.000000E+00
+   2.570700E+01   0.000000E+00   3.248000E+00   0.000000E+00   1.000000E+00
+   2.846900E+01   0.000000E+00   1.573000E+01   0.000000E+00   1.000000E+00
+   2.850400E+01   0.000000E+00   1.238000E+01   0.000000E+00   1.000000E+00
+   3.119600E+01   0.000000E+00   3.762000E+01   0.000000E+00   1.000000E+00
+# reference:
+#   author: B.L.Cohen
+#   title: Proton-Induced Reactions in Na23, Al27, and Si29
+#   journal: Jour: Physical Review, Vol.102, p.453 (1956)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  2.570700E+01
+#   E-max [MeV]:  3.119600E+01
+#   F-value:  2.475952E+01
+#   A-value:  6.087088E-02
+#   chi-2:  0.000000E+00
+#   p-value:  1.668930E-07
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    6.859027E+01   1.909205E-02   0.000000E+00
+# jendl5.0      5.204299E+00   1.940736E-01   0.000000E+00

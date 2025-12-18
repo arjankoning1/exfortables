@@ -1,0 +1,62 @@
+# header: 
+#   title: K39(n,x)K38m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Bass
+#   year: 1965
+#   subentry: 21269003
+#   X4 reaction: 19-K-39(N,2N)19-K-38-M,,SIG,,AV
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21269003
+# target: 
+#   Z: 19
+#   A: 39
+#   nuclide: K39
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 19
+#     A: 38
+#     nuclide: K38m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.580000E+01   3.000000E-02   2.700000E+00   1.400000E+00   1.000000E+00
+   1.770000E+01   3.000000E-02   5.400000E+00   1.800000E+00   1.000000E+00
+   1.905000E+01   3.000000E-02   9.100000E+00   2.000000E+00   1.000000E+00
+   2.015000E+01   3.000000E-02   1.060000E+01   2.100000E+00   1.000000E+00
+   2.075000E+01   3.000000E-02   1.280000E+01   2.600000E+00   1.000000E+00
+   2.220000E+01   3.000000E-02   1.240000E+01   2.600000E+00   1.000000E+00
+# reference:
+#   author: R.Bass,G.Presser
+#   title: Fast neutron cross section measurements by activation techniques
+#   journal: Prog: Report from Euratom-countries + Euratom to EANDC, No.57, p.1 (1965
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.580000E+01
+#   E-max [MeV]:  2.220000E+01
+#   F-value:  1.322790E+00
+#   A-value:  9.536999E-01
+#   chi-2:  1.487577E+00
+#   p-value:  3.182756E-01
+#   exp. data sets for p-value:      2
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.444870E+00   7.044090E-01   2.347060E+00
+# jeff4.0       1.084928E+00   1.028628E+00   2.208173E-01
+# jendl5.0      1.355871E+00   1.197159E+00   1.894853E+00

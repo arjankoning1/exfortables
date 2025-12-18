@@ -1,0 +1,52 @@
+# header: 
+#   title: Ga71(n,x)Ga72 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Anand
+#   year: 1979
+#   subentry: 30390004
+#   X4 reaction: 31-GA-71(N,G)31-GA-72,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30390004
+# target: 
+#   Z: 31
+#   A: 71
+#   nuclide: Ga71
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 31
+#     A: 72
+#     nuclide: Ga72
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.500000E-02   5.000000E-03   1.040000E+02   1.400000E+01   1.000000E+00
+# reference:
+#   author: R.P.Anand, M.L.Jhingan, D.Bhattacharya, E.Kondaiah
+#   title: 25 keV-neutron capture cross-sections
+#   journal: Jour: Nuovo Cimento A, Vol.50, p.247 (1979)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  0
+#   E-min [MeV]:  2.500000E-02
+#   E-max [MeV]:  2.500000E-02
+#   F-value:  1.296767E+00
+#   A-value:  1.294229E+00
+#   chi-2:  5.152721E+00
+#   p-value:  1.365232E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.265405E+00   1.265405E+00   4.217827E+00
+# jeff4.0       1.265405E+00   1.265405E+00   4.217827E+00
+# jendl5.0      1.353860E+00   1.353860E+00   7.022508E+00

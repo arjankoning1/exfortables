@@ -1,0 +1,58 @@
+# header: 
+#   title: Al27(p,x)Na22 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Bodemann
+#   year: 1993
+#   subentry: O0282009
+#   X4 reaction: 13-AL-27(P,X)11-NA-22,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O0282009
+# target: 
+#   Z: 13
+#   A: 27
+#   nuclide: Al27
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 11
+#     A: 22
+#     nuclide: Na22
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.160000E+01   2.470000E+00   7.237100E+00   7.367100E-01   9.995998E-01
+   5.400000E+01   1.370000E+00   3.328667E+01   3.378600E+00   9.995998E-01
+   6.290000E+01   1.210000E+00   2.598959E+01   2.948800E+00   9.995998E-01
+   7.100000E+01   9.290000E-01   2.279088E+01   2.309100E+00   9.995998E-01
+   8.560000E+01   6.840000E-01   2.089163E+01   2.109200E+00   9.995998E-01
+   9.390000E+01   5.020000E-01   2.079167E+01   2.339100E+00   9.995998E-01
+   9.850000E+01   3.460000E-01   1.979207E+01   2.009200E+00   9.995998E-01
+# reference:
+#   author: R.Bodemann, H.-J.Lange, I.Leya, R.Michel, T.Schiekel, R.Rosel, U.Herpers, H.J.Hofmann, B.Dittrich, M.Suter, W.Woelfli, B.Holmqvist, H.Conde, P.Malmborg
+#   title: Production of residual nuclei by proton-induced reactions on C, N, O, Mg, Al and Si.
+#   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.82, p.9 (1993)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  3.160000E+01
+#   E-max [MeV]:  9.850000E+01
+#   F-value:  1.308395E+00
+#   A-value:  1.035002E+00
+#   chi-2:  6.889946E+00
+#   p-value:  3.041010E-01
+#   exp. data sets for p-value:      8
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.311903E+00   9.466082E-01   6.474214E+00
+# endfb8.1      1.289540E+00   9.375667E-01   4.184386E+00
+# jendl5.0      1.323131E+00   1.249257E+00   1.001124E+01

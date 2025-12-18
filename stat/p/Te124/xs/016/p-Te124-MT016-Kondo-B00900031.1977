@@ -1,0 +1,60 @@
+# header: 
+#   title: Te124(p,2n)I123 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Kondo
+#   year: 1977
+#   subentry: B00900031
+#   X4 reaction: 52-TE-124(P,2N)53-I-123,,SIG,,FCT,EXP
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/B00900031
+# target: 
+#   Z: 52
+#   A: 124
+#   nuclide: Te124
+# reaction: 
+#   type: (p,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 53
+#     A: 123
+#     nuclide: I123
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.245000E+01   7.900000E-01   2.432416E+01   5.559800E+00   9.928229E-01
+   1.454000E+01   7.200000E-01   1.594474E+02   6.354100E+00   9.928229E-01
+   1.635000E+01   7.000000E-01   4.246304E+02   5.073325E+01   9.928229E-01
+   1.882000E+01   4.500000E-01   6.263721E+02   6.999402E+01   9.928229E-01
+   2.086000E+01   4.100000E-01   8.832152E+02   6.900120E+01   9.928229E-01
+   2.265000E+01   4.000000E-01   1.004141E+03   5.917224E+01   9.928229E-01
+   2.410000E+01   3.700000E-01   9.078374E+02   4.537201E+01   9.928229E-01
+   2.536000E+01   3.400000E-01   1.010595E+03   1.062321E+02   9.928229E-01
+   2.643000E+01   3.400000E-01   6.451364E+02   6.830623E+01   9.928229E-01
+   2.819000E+01   3.000000E-01   4.330695E+02   3.464952E+01   9.928229E-01
+# reference:
+#   author: K.KONDO, R.M.LAMBRECHT, A.P.WOLF
+#   title: Iodine-123 Production For Radiopharmaceuticals Excitation Functions of the Te-124(P,2N)I-123 and Te-124(P,N)I-124 Reactions and the Effect of Target Enrichment on Radionuclidic Purity
+#   journal: Jour: Applied Radiation and Isotopes, Vol.28, p.395 (1977)
+# statistics:
+#   NEA score: T3
+#   IAEA score: -1
+#   E-min [MeV]:  1.245000E+01
+#   E-max [MeV]:  2.819000E+01
+#   F-value:  2.292710E+00
+#   A-value:  1.654246E+00
+#   chi-2:  7.338112E+02
+#   p-value:  2.000230E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    2.363503E+00   1.585187E+00   8.194633E+02
+# jendl5.0      2.221464E+00   1.726315E+00   6.481592E+02

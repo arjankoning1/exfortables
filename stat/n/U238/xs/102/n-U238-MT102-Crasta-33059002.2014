@@ -1,0 +1,57 @@
+# header: 
+#   title: U238(n,g)U239 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Crasta
+#   year: 2014
+#   subentry: 33059002
+#   X4 reaction: 92-U-238(N,G)92-U-239,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/33059002
+# target: 
+#   Z: 92
+#   A: 238
+#   nuclide: U238
+# reaction: 
+#   type: (n,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 92
+#     A: 239
+#     nuclide: U239
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   8.040000E+00   3.000000E-01   1.070000E+00   2.400000E-01   1.000000E+00
+   1.190000E+01   3.500000E-01   1.120000E+00   3.300000E-01   1.000000E+00
+# reference:
+#   author: R.Crasta,S.Ganesh,H.Naik,A.Goswami,S.V.Suryanarayana, S.C.Sharma,P.V.Bhagwat,B.S.Shivashankar,V.K.Mulik, P.M.Prajapati
+#   title: Measurement of the 238U(n,c)239U and 238U(n,2n)237U Reaction Cross Sections Using a Neutron Activation Technique at Neutron Energies of 8.04 and 11.90 MeV
+#   journal: Jour: Nuclear Science and Engineering, Vol.178, p.66 (2014)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  8.040000E+00
+#   E-max [MeV]:  1.190000E+01
+#   F-value:  1.363966E+00
+#   A-value:  9.095179E-01
+#   chi-2:  1.645432E+00
+#   p-value:  3.511653E-01
+#   exp. data sets for p-value:      2
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.512395E+00   7.441010E-01   2.127370E+00
+# endfb8.1      1.512492E+00   7.440673E-01   2.127770E+00
+# jeff4.0       1.194459E+00   1.134895E+00   7.699895E-01
+# jendl5.0      1.120169E+00   9.090793E-01   4.403318E-01
+# cendl3.2      1.406622E+00   1.214296E+00   3.903129E+00
+# eaf.2010      1.004748E+00   9.975639E-01   2.166745E-02
+# irdff2.0      1.512492E+00   7.440673E-01   2.127770E+00

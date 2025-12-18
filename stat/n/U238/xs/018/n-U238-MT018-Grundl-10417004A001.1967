@@ -1,0 +1,53 @@
+# header: 
+#   title: U238(n,f) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Grundl
+#   year: 1967
+#   subentry: 10417004
+#   X4 reaction: 92-U-238(N,F),,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/10417004
+# target: 
+#   Z: 92
+#   A: 238
+#   nuclide: U238
+# reaction: 
+#   type: (n,f)
+#   ENDF_MF: 3
+#   ENDF_MT: 18
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.190000E+00   1.700000E-01   4.413214E+01   3.220000E+00   9.593944E-01
+   1.680000E+00   1.500000E-01   4.288556E+02   2.175000E+01   9.858749E-01
+# reference:
+#   author: J.A.Grundl
+#   title: A Study of Fission-Neutron Spectra with High-Energy  Activation Detectors - Part 1. DEtector Development  and Excitation Measurements
+#   journal: Jour: Nuclear Science and Engineering, Vol.30, p.39 (1967)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.190000E+00
+#   E-max [MeV]:  1.680000E+00
+#   F-value:  1.055022E+00
+#   A-value:  1.033056E+00
+#   chi-2:  1.481750E+00
+#   p-value:  4.155738E-01
+#   exp. data sets for p-value:      8
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.053474E+00   1.034331E+00   1.433768E+00
+# endfb8.1      1.055002E+00   1.034203E+00   1.506299E+00
+# jeff4.0       1.066312E+00   1.062240E+00   2.028987E+00
+# jendl5.0      1.051127E+00   1.040309E+00   1.365190E+00
+# cendl3.2      1.039681E+00   1.027240E+00   9.266549E-01
+# eaf.2010      1.061048E+00   9.998621E-01   1.605052E+00
+# irdff2.0      1.055002E+00   1.034203E+00   1.506299E+00

@@ -1,0 +1,58 @@
+# header: 
+#   title: Ni61(p,x)Cu62 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Krivonosov
+#   year: 1974
+#   subentry: A0696004
+#   X4 reaction: 28-NI-61(P,G)29-CU-62,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/A0696004
+# target: 
+#   Z: 28
+#   A: 61
+#   nuclide: Ni61
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 29
+#     A: 62
+#     nuclide: Cu62
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.110000E+00   0.000000E+00   8.200000E-03   8.200000E-04   1.000000E+00
+   1.310000E+00   0.000000E+00   2.480000E-02   2.480000E-03   1.000000E+00
+   1.520000E+00   0.000000E+00   1.230000E-01   1.230000E-02   1.000000E+00
+   1.720000E+00   0.000000E+00   2.320000E-01   2.320000E-02   1.000000E+00
+   1.920000E+00   0.000000E+00   4.420000E-01   4.420000E-02   1.000000E+00
+   2.330000E+00   0.000000E+00   8.170000E-01   8.170000E-02   1.000000E+00
+   2.740000E+00   0.000000E+00   1.260000E+00   1.260000E-01   1.000000E+00
+   2.940000E+00   0.000000E+00   1.460000E+00   1.460000E-01   1.000000E+00
+# reference:
+#   author: G.A.Krivonosov, B.A.Nemashkalo, O.I.Ekhichev, A.P.Klucharev, A.I.Popov, V.E.Storizhko, V.K.Chirt
+#   title: Absolute cross section of 58-,60-,61-Ni(p,g) reactions.
+#   journal: Conf: 24.Conf.on Nucl.Spectr.and Nucl.Struct.,Kharkov 1974, p.352 (1974)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.110000E+00
+#   E-max [MeV]:  2.940000E+00
+#   F-value:  1.925876E+00
+#   A-value:  1.243320E+00
+#   chi-2:  2.139053E+02
+#   p-value:  2.891257E-01
+#   exp. data sets for p-value:      4
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    2.282791E+00   1.530782E+00   4.005834E+02
+# jendl5.0      1.524432E+00   1.009839E+00   2.722730E+01

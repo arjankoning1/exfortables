@@ -1,0 +1,56 @@
+# header: 
+#   title: Y89(n,x)Y88 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Wagner
+#   year: 2014
+#   subentry: 317230051
+#   X4 reaction: 39-Y-89(N,2N)39-Y-88,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/317230051
+# target: 
+#   Z: 39
+#   A: 89
+#   nuclide: Y89
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 39
+#     A: 88
+#     nuclide: Y88
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.740000E+01   5.000000E-01   1.420000E+03   1.400000E+02   1.000000E+00
+   2.450000E+01   7.000000E-01   9.800000E+02   1.000000E+02   1.000000E+00
+   2.870000E+01   6.000000E-01   4.900000E+02   5.000000E+01   1.000000E+00
+   3.250000E+01   6.000000E-01   3.100000E+02   1.100000E+02   1.000000E+00
+   3.350000E+01   5.000000E-01   3.400000E+02   3.000000E+01   1.000000E+00
+# reference:
+#   author: V.Wagner,M.Suchopar,J.Vrzalova,P.Chudoba,T.Herman, O.Svoboda,B.Geier,A.Krasa,M.Majerle,A.Kugler,J.Adam, A.Baldin,W.Furman,M.Kadykov,J.Khushvaktov, A.Solnyshkin,V.Tsoupko-Sitnikov,S.Tyutyunikov, L.Zavorka,N.Vladimirova,M.Bielewicz,S.Kilim,M.Szuta, E.Strugalska-Gola
+#   title: Cross-section studies of important neutron and relativistic deuteron reactions
+#   journal: Jour: Jour. of Physics, Conference Series, Vol.533, p.012052 (2014)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.740000E+01
+#   E-max [MeV]:  3.350000E+01
+#   F-value:  1.111000E+00
+#   A-value:  9.942346E-01
+#   chi-2:  1.165619E+00
+#   p-value:  3.432994E-01
+#   exp. data sets for p-value:      8
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.155494E+00   1.074549E+00   1.745829E+00
+# jeff4.0       1.110843E+00   9.276211E-01   1.397197E+00
+# jendl5.0      1.036728E+00   9.859839E-01   3.538298E-01

@@ -1,0 +1,41 @@
+# header: 
+#   title: Bi209(i,x)Rn214 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Gates
+#   year: 2008
+#   subentry: C1703004
+#   X4 reaction: 83-BI-209(22-TI-50,N)105-DB-258,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C1703004
+# target: 
+#   Z: 83
+#   A: 209
+#   nuclide: Bi209
+# reaction: 
+#   type: (i,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+#   residual: 
+#     Z: 86
+#     A: 214
+#     nuclide: Rn214
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.295000E+02   2.295000E+00   5.500000E-08   2.500000E-07   1.000000E+00
+   2.318000E+02   2.318000E+00   2.550000E-06   7.200000E-07   1.000000E+00
+   2.336000E+02   2.336000E+00   5.480000E-06   1.730000E-06   1.000000E+00
+   2.360000E+02   2.360000E+00   3.360000E-06   1.940000E-06   1.000000E+00
+   2.384000E+02   2.384000E+00   2.600000E-06   1.190000E-06   1.000000E+00
+# reference:
+#   author: J.M.Gates,S.L.Nelson,K.E.Gregorich,I.Dragojevic, Ch.E.Dullmann,P.A.Ellison,C.M.Folden III,M.A.Garcia, L.Stavsetra,R.Sudowe,D.C.Hoffman,H.Nitsche
+#   title: Comparison of reactions for the production of 258, 257Db: 208Pb(51V,xn) and 209Bi(50Ti,xn)
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.78, p.034604 (2008)

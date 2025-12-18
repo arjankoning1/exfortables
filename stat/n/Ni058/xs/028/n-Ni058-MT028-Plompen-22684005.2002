@@ -1,0 +1,67 @@
+# header: 
+#   title: Ni58(n,np)Co57 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Plompen
+#   year: 2002
+#   subentry: 22684005
+#   X4 reaction: 28-NI-58(N,X)27-CO-57,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22684005
+# target: 
+#   Z: 28
+#   A: 58
+#   nuclide: Ni58
+# reaction: 
+#   type: (n,np)
+#   ENDF_MF: 3
+#   ENDF_MT: 28
+#   residual: 
+#     Z: 27
+#     A: 57
+#     nuclide: Co57
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 13
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.481000E+01   1.700000E-01   6.580001E+02   2.700000E+01   1.000000E+00
+   1.527000E+01   1.600000E-01   7.040001E+02   2.800000E+01   1.000000E+00
+   1.568000E+01   1.800000E-01   7.290000E+02   2.800000E+01   1.000000E+00
+   1.605000E+01   1.900000E-01   7.490001E+02   3.500000E+01   1.000000E+00
+   1.626000E+01   2.000000E-01   7.740000E+02   3.500000E+01   1.000000E+00
+   1.703000E+01   1.700000E-01   7.940000E+02   3.500000E+01   1.000000E+00
+   1.719000E+01   1.800000E-01   7.970001E+02   6.000000E+01   1.000000E+00
+   1.758000E+01   1.700000E-01   8.150001E+02   3.100000E+01   1.000000E+00
+   1.795000E+01   1.000000E-01   7.970001E+02   3.300000E+01   1.000000E+00
+   1.836000E+01   1.500000E-01   8.310000E+02   3.300000E+01   1.000000E+00
+   1.882000E+01   1.800000E-01   8.490000E+02   3.700000E+01   1.000000E+00
+   1.929000E+01   9.000000E-02   8.500000E+02   3.700000E+01   1.000000E+00
+   2.035000E+01   8.000000E-02   8.750001E+02   4.000000E+01   1.000000E+00
+# reference:
+#   author: A.J.M.Plompen,D.Smith,P.Reimer,S.M.Qaim,V.Semkova, F.Cserpak,V.Avrigeanu,S.Sudar,C.Borcea,L.Olah
+#   title: Recent cross section studies with the activation  technique for Ni, Co and Cu.
+#   journal: Jour: Jour. of Nuclear Science and Technology Suppl., Vol.2, Issue.1, p.
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.481000E+01
+#   E-max [MeV]:  2.035000E+01
+#   F-value:  1.104498E+00
+#   A-value:  9.375618E-01
+#   chi-2:  4.484981E+00
+#   p-value:  3.577965E-01
+#   exp. data sets for p-value:      8
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.141410E+00   8.848108E-01   8.156858E+00
+# endfb8.1      1.032147E+00   9.808402E-01   7.526020E-01
+# jeff4.0       1.177733E+00   8.573399E-01   1.187321E+01
+# jendl5.0      1.017590E+00   9.907852E-01   3.300692E-01
+# cendl3.2      1.006092E+00   9.990937E-01   1.127190E-01
+# eaf.2010      1.045088E+00   9.665458E-01   1.347382E+00

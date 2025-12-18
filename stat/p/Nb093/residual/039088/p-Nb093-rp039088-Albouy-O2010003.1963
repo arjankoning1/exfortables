@@ -1,0 +1,63 @@
+# header: 
+#   title: Nb93(p,x)Y88 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Albouy
+#   year: 1963
+#   subentry: O2010003
+#   X4 reaction: 41-NB-93(P,X)39-Y-88,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O2010003
+# target: 
+#   Z: 41
+#   A: 93
+#   nuclide: Nb93
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 39
+#     A: 88
+#     nuclide: Y88
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 12
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.555000E+01   4.640000E+00   3.266000E+00   1.306000E+00   1.000000E+00
+   4.042000E+01   4.810000E+00   8.066000E+00   1.708000E+00   1.000000E+00
+   5.038000E+01   3.810000E+00   1.066600E+01   2.109000E+00   1.000000E+00
+   5.269000E+01   3.800000E+00   1.080600E+01   2.009000E+00   1.000000E+00
+   5.847000E+01   3.810000E+00   1.406700E+01   2.311000E+00   1.000000E+00
+   6.711000E+01   3.810000E+00   1.063700E+01   2.009000E+00   1.000000E+00
+   8.702000E+01   3.640000E+00   1.285800E+01   2.345000E+00   1.000000E+00
+   1.053400E+02   3.480000E+00   2.301300E+01   3.717000E+00   1.000000E+00
+   1.148900E+02   2.320000E+00   2.400600E+01   3.785000E+00   1.000000E+00
+   1.185900E+02   2.480000E+00   2.297600E+01   3.549000E+00   1.000000E+00
+   1.286200E+02   2.820000E+00   2.433800E+01   3.985000E+00   1.000000E+00
+   1.501700E+02   2.650000E+00   3.007900E+01   4.822000E+00   1.000000E+00
+# reference:
+#   author: G.Albouy, J.P.Cohen, M.Gusakow, N.Poffe, H.Sergolle, L.Valentin
+#   title: Reaction (p,3n+3p) between 30 and 150 MeV.
+#   journal: Jour: Journal de Physique, Vol.24, p.67 (1963)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  3.555000E+01
+#   E-max [MeV]:  1.501700E+02
+#   F-value:  1.734981E+00
+#   A-value:  8.117723E-01
+#   chi-2:  6.875192E+00
+#   p-value:  2.477779E-01
+#   exp. data sets for p-value:      4
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.885488E+00   6.006197E-01   6.823521E+00
+# endfb8.1      1.732096E+00   7.430567E-01   6.273176E+00
+# jendl5.0      1.557041E+00   1.226228E+00   7.384522E+00

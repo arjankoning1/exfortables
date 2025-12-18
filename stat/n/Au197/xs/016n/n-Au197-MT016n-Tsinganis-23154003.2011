@@ -1,0 +1,60 @@
+# header: 
+#   title: Au197(n,2n)Au196n cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Tsinganis
+#   year: 2011
+#   subentry: 23154003
+#   X4 reaction: 79-AU-197(N,2N)79-AU-196-M2,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/23154003
+# target: 
+#   Z: 79
+#   A: 197
+#   nuclide: Au197
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 79
+#     A: 196
+#     nuclide: Au196n
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   9.000000E+00   4.500000E-02   7.999500E-01   9.999400E-02   9.999360E-01
+   9.500000E+00   4.750000E-02   8.899430E+00   3.799800E+00   9.999360E-01
+   1.000000E+01   5.000000E-02   1.619896E+01   1.599900E+00   9.999360E-01
+   1.050000E+01   5.250000E-02   3.279790E+01   2.699800E+00   9.999360E-01
+# reference:
+#   author: A.Tsinganis,M.Diakaki,M.Kokkoris,A.Lagoyannis, E.Mara,C.T.Papadopoulos,R.Vlastou
+#   title: Isomeric cross section of the 197Au(n,2n) reaction
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.83, p.024609 (2011)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  9.000000E+00
+#   E-max [MeV]:  1.050000E+01
+#   F-value:  4.532446E+00
+#   A-value:  3.271440E-01
+#   chi-2:  2.781561E+01
+#   p-value:  1.920750E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.167435E+01   8.900426E-02   6.435311E+01
+# jendl5.0      2.000607E+00   5.614617E-01   1.167819E+01
+# eaf.2010      1.779374E+00   7.006251E-01   7.415521E+00

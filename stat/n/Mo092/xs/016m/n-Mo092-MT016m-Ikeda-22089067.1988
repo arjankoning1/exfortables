@@ -1,0 +1,61 @@
+# header: 
+#   title: Mo92(n,2n)Mo91m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Ikeda
+#   year: 1988
+#   subentry: 22089067
+#   X4 reaction: 42-MO-92(N,2N)42-MO-91-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22089067
+# target: 
+#   Z: 42
+#   A: 92
+#   nuclide: Mo92
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 42
+#     A: 91
+#     nuclide: Mo91m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.414000E+01   0.000000E+00   4.370900E+00   7.883600E-01   9.979253E-01
+   1.447000E+01   0.000000E+00   1.417054E+01   1.896100E+00   9.979253E-01
+   1.473000E+01   0.000000E+00   2.205415E+01   3.392900E+00   9.979253E-01
+   1.501000E+01   0.000000E+00   3.143465E+01   4.790000E+00   9.979253E-01
+# reference:
+#   author: Y.Ikeda,C.Konno,K.Oishi,T.Nakamura,H.Miyade, K.Kawade,  H.Yamamoto, T.Katoh
+#   title: Activation cross section measurements for fusion  reactor structural materials at neutron energy from  13.3 to 15.0 MeV using FNS facility
+#   journal: Rept: JAERI Reports, No.1312 (1988)
+# statistics:
+#   NEA score: R2
+#   IAEA score:  1
+#   E-min [MeV]:  1.414000E+01
+#   E-max [MeV]:  1.501000E+01
+#   F-value:  1.718604E+00
+#   A-value:  1.307144E+00
+#   chi-2:  4.640282E+01
+#   p-value:  3.055214E-01
+#   exp. data sets for p-value:      8
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.291403E+00   1.052595E+00   3.464625E+00
+# jeff4.0       1.291403E+00   1.052595E+00   3.464625E+00
+# jendl5.0      1.265747E+00   1.115446E+00   2.852134E+00
+# eaf.2010      2.700083E+00   2.362233E+00   1.758299E+02

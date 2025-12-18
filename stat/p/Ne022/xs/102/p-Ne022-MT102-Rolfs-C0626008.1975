@@ -1,0 +1,54 @@
+# header: 
+#   title: Ne22(p,g)Na23 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Rolfs
+#   year: 1975
+#   subentry: C0626008
+#   X4 reaction: 10-NE-22(P,G)11-NA-23,,SIG,,SFC
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C0626008
+# target: 
+#   Z: 10
+#   A: 22
+#   nuclide: Ne22
+# reaction: 
+#   type: (p,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 11
+#     A: 23
+#     nuclide: Na23
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.420340E-01   0.000000E+00   1.726000E-04   3.118100E-05   1.000000E+00
+   8.104490E-01   0.000000E+00   1.207000E-03   1.278700E-04   1.000000E+00
+   1.242664E+00   0.000000E+00   6.963300E-03   5.643900E-04   1.000000E+00
+   1.496625E+00   0.000000E+00   1.237400E-02   1.336700E-03   1.000000E+00
+   1.692508E+00   0.000000E+00   2.044700E-02   2.269200E-03   1.000000E+00
+# reference:
+#   author: C.Rolfs,W.S.Rodney,M.H.Shapiro,H.Winkler
+#   title: Hydrogen burning of 20Ne and 22Ne in stars
+#   journal: Jour: Nuclear Physics, Section A, Vol.241, p.460 (1975)
+# statistics:
+#   NEA score: T3
+#   IAEA score: -1
+#   E-min [MeV]:  5.420340E-01
+#   E-max [MeV]:  1.692508E+00
+#   F-value:  6.171362E+01
+#   A-value:  5.602156E+01
+#   chi-2:  1.333888E+06
+#   p-value:  0.000000E+00
+#   exp. data sets for p-value:      2
+#   libraries:      1
+##  Library          F              A            chi-2
+# tendl.2025    6.171362E+01   5.602156E+01   1.333888E+06

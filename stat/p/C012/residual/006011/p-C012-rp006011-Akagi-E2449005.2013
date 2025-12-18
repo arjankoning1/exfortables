@@ -1,0 +1,55 @@
+# header: 
+#   title: C12(p,x)C11 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Akagi
+#   year: 2013
+#   subentry: E2449005
+#   X4 reaction: 6-C-12(P,X)6-C-11,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/E2449005
+# target: 
+#   Z: 6
+#   A: 12
+#   nuclide: C12
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 6
+#     A: 11
+#     nuclide: C11
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.250000E+01   4.500000E+00   7.250002E+01   3.000000E+00   1.000000E+00
+   4.750000E+01   3.300000E+00   7.980001E+01   3.300000E+00   1.000000E+00
+   5.940000E+01   2.800000E+00   7.120000E+01   2.900000E+00   1.000000E+00
+   6.960000E+01   2.500000E+00   7.190000E+01   2.900000E+00   1.000000E+00
+# reference:
+#   author: T.Akagi, M.Yagi, T.Yamashita, M.Murakami, Y.Yamakawa,  K.Kitamura, K.Ogura, K.Kondo, S.Kawanishi
+#   title: Experimental study for the production cross sections of positron emitters induced from 12C and 16O nuclei by low-energy proton beams
+#   journal: Jour: Radiation Measurements, Vol.59, p.262 (2013)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  3.250000E+01
+#   E-max [MeV]:  6.960000E+01
+#   F-value:  1.335178E+00
+#   A-value:  1.016100E+00
+#   chi-2:  6.058525E+01
+#   p-value:  2.981298E-01
+#   exp. data sets for p-value:      2
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.608396E+00   9.487180E-01   1.654238E+02
+# endfb8.1      1.098313E+00   9.855976E-01   5.031690E+00
+# jendl5.0      1.134977E+00   1.121947E+00   1.130031E+01

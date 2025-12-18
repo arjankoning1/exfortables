@@ -1,0 +1,58 @@
+# header: 
+#   title: Re185(n,x)W185m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Sakane
+#   year: 1998
+#   subentry: 22428010
+#   X4 reaction: 75-RE-185(N,P)74-W-185-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22428010
+# target: 
+#   Z: 75
+#   A: 185
+#   nuclide: Re185
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 74
+#     A: 185
+#     nuclide: W185m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.340000E+01   9.000000E-02   9.000000E-01   3.800000E-01   1.000000E+00
+   1.487000E+01   9.000000E-02   1.890000E+00   7.400000E-01   1.000000E+00
+# reference:
+#   author: H.Sakane, T.Iida, A.Takahashi, H.Yamamoto, K.Kawade
+#   title: Measurement of cross sections producing short-lived  nuclei by 14 MeV neutrons - Cd, Sn, Te, Nd, Gd, Re
+#   journal: Conf: JAERI Conference proceedings, No.98-003, p.318 (1998)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.340000E+01
+#   E-max [MeV]:  1.487000E+01
+#   F-value:  1.762258E+00
+#   A-value:  6.331790E-01
+#   chi-2:  1.399774E+00
+#   p-value:  2.465127E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    2.001501E+00   5.035704E-01   2.083788E+00
+# jeff4.0       2.001501E+00   5.035704E-01   2.083788E+00
+# jendl5.0      1.010375E+00   1.001058E+00   3.174592E-02

@@ -1,0 +1,52 @@
+# header: 
+#   title: Ti50(n,x)Sc50 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Barreirafilho
+#   year: 1981
+#   subentry: 21901002
+#   X4 reaction: 22-TI-50(N,P)21-SC-50,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21901002
+# target: 
+#   Z: 22
+#   A: 50
+#   nuclide: Ti50
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 21
+#     A: 50
+#     nuclide: Sc50
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.440000E+01   3.000000E-01   1.430000E+01   2.100000E+00   1.000000E+00
+# reference:
+#   author: J.L.BARREIRA FILHO,H.-U.FANGER
+#   title: -CROSS-SECTION DETERMINATION FOR THE TI-50(N,P)SC-50  REACTION IN THE 14 MEV NEUTRON ENERGY REGION-
+#   journal: Rept: Ges.Kernen.-Verwertung, Schiffbau and Schiffahrt, No.81-E-53 (1981
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.440000E+01
+#   E-max [MeV]:  1.440000E+01
+#   F-value:  1.055971E+00
+#   A-value:  9.476740E-01
+#   chi-2:  4.834844E-01
+#   p-value:  1.890932E-01
+#   exp. data sets for p-value:      6
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.045757E+00   9.562449E-01   3.983679E-01
+# jeff4.0       1.052113E+00   9.504684E-01   4.549966E-01
+# jendl5.0      1.067899E+00   9.364186E-01   5.970886E-01

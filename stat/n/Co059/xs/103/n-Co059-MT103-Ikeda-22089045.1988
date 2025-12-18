@@ -1,0 +1,62 @@
+# header: 
+#   title: Co59(n,p)Fe59 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Ikeda
+#   year: 1988
+#   subentry: 22089045
+#   X4 reaction: 27-CO-59(N,P)26-FE-59,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22089045
+# target: 
+#   Z: 27
+#   A: 59
+#   nuclide: Co59
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 26
+#     A: 59
+#     nuclide: Fe59
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.332000E+01   0.000000E+00   5.560000E+01   4.400000E+00   1.000000E+00
+   1.356000E+01   0.000000E+00   5.480000E+01   4.800000E+00   1.000000E+00
+   1.398000E+01   0.000000E+00   5.120000E+01   4.400000E+00   1.000000E+00
+   1.421000E+01   0.000000E+00   5.130000E+01   4.600000E+00   1.000000E+00
+   1.442000E+01   0.000000E+00   4.660000E+01   4.200000E+00   1.000000E+00
+   1.465000E+01   0.000000E+00   4.600000E+01   4.200000E+00   1.000000E+00
+   1.491000E+01   0.000000E+00   4.570000E+01   4.100000E+00   1.000000E+00
+# reference:
+#   author: Y.Ikeda,C.Konno,K.Oishi,T.Nakamura,H.Miyade, K.Kawade,  H.Yamamoto, T.Katoh
+#   title: Activation cross section measurements for fusion  reactor structural materials at neutron energy from  13.3 to 15.0 MeV using FNS facility
+#   journal: Rept: JAERI Reports, No.1312 (1988)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.332000E+01
+#   E-max [MeV]:  1.491000E+01
+#   F-value:  1.028086E+00
+#   A-value:  1.002256E+00
+#   chi-2:  2.543850E-01
+#   p-value:  3.124860E-01
+#   exp. data sets for p-value:      8
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.008220E+00   9.958650E-01   9.646376E-02
+# endfb8.1      1.007986E+00   9.960430E-01   9.300233E-02
+# jeff4.0       1.009967E+00   9.987379E-01   1.222565E-01
+# jendl5.0      1.010067E+00   1.002781E+00   1.123347E-01
+# cendl3.2      1.070669E+00   1.033257E+00   1.049358E+00
+# eaf.2010      1.017924E+00   9.936396E-01   2.142699E-01
+# irdff2.0      1.007987E+00   9.960425E-01   9.301025E-02

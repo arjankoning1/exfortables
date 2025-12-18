@@ -1,0 +1,53 @@
+# header: 
+#   title: Cu63(n,x)Cu62 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Letessier
+#   year: 1964
+#   subentry: 21401002
+#   X4 reaction: 29-CU-63(N,2N)29-CU-62,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21401002
+# target: 
+#   Z: 29
+#   A: 63
+#   nuclide: Cu63
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 29
+#     A: 62
+#     nuclide: Cu62
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.410000E+01   1.000000E-01   4.780000E+02   4.800000E+01   1.000000E+00
+# reference:
+#   author: J.Letessier,J.Dalmas
+#   title: -Measurement of the cross section of Cu-63 for  the (n,2n) reaction produced by 14.1 MeV neutrons -.
+#   journal: Jour: Comptes Rendus, Vol.259, p.4620 (1964)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.410000E+01
+#   E-max [MeV]:  1.410000E+01
+#   F-value:  1.016534E+00
+#   A-value:  9.859142E-01
+#   chi-2:  1.826319E-01
+#   p-value:  4.969985E-01
+#   exp. data sets for p-value:      8
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.020238E+00   9.801631E-01   2.582831E-01
+# endfb8.1      1.018530E+00   9.818068E-01   2.360342E-01
+# jeff4.0       1.018530E+00   9.818068E-01   2.360342E-01
+# jendl5.0      1.000014E+00   1.000014E+00   1.762633E-04

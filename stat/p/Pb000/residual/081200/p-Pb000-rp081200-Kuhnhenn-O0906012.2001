@@ -1,0 +1,58 @@
+# header: 
+#   title: Pb0(p,x)Tl200 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Kuhnhenn
+#   year: 2001
+#   subentry: O0906012
+#   X4 reaction: 82-PB-0(P,X)81-TL-200,IND,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O0906012
+# target: 
+#   Z: 82
+#   A: 0
+#   nuclide: Pb0
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 81
+#     A: 200
+#     nuclide: Tl200
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.320000E+01   8.000000E-01   4.090000E+00   2.070000E+00   1.000000E+00
+   5.570000E+01   8.000000E-01   1.460000E+01   5.700000E+00   1.000000E+00
+   6.000000E+01   7.000000E-01   4.230000E+00   1.260000E+00   1.000000E+00
+   6.220000E+01   7.000000E-01   1.650000E+01   2.000000E+00   1.000000E+00
+   6.440000E+01   7.000000E-01   1.600000E+01   2.100000E+00   1.000000E+00
+   6.660000E+01   6.000000E-01   2.430000E+01   2.400000E+00   1.000000E+00
+   6.900000E+01   6.000000E-01   1.590000E+01   9.000000E-01   1.000000E+00
+# reference:
+#   author: J.Kuhnhenn, U.Herpers, W.Glasser, R.Michel, P.W.Kubik, M.Suter
+#   title: Thin target cross sections for proton-induced production of radionuclides from lead for E(P)<71 MeV.
+#   journal: Jour: Radiochimica Acta, Vol.89, p.697 (2001)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  5.320000E+01
+#   E-max [MeV]:  6.900000E+01
+#   F-value:  2.261411E+00
+#   A-value:  5.967641E-01
+#   chi-2:  2.117546E+01
+#   p-value:  3.091086E-01
+#   exp. data sets for p-value:      4
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.736237E+00   8.315749E-01   1.272906E+01
+# endfb8.1      3.227586E+00   3.547482E-01   3.822525E+01
+# jendl5.0      1.760899E+00   7.204214E-01   1.257208E+01

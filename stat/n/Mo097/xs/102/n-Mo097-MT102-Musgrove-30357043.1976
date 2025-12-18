@@ -1,0 +1,69 @@
+# header: 
+#   title: Mo97(n,g)Mo98 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Musgrove
+#   year: 1976
+#   subentry: 30357043
+#   X4 reaction: 42-MO-97(N,G)42-MO-98,,SIG,,AV
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30357043
+# target: 
+#   Z: 42
+#   A: 97
+#   nuclide: Mo97
+# reaction: 
+#   type: (n,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 42
+#     A: 98
+#     nuclide: Mo98
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 15
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.500000E-03   5.000000E-04   1.337000E+03   1.670000E+02   1.000000E+00
+   4.500000E-03   5.000000E-04   1.254000E+03   1.470000E+02   1.000000E+00
+   5.500000E-03   5.000000E-04   1.278000E+03   1.470000E+02   1.000000E+00
+   7.000000E-03   1.000000E-03   1.042000E+03   1.470000E+02   1.000000E+00
+   9.000000E-03   1.000000E-03   9.830000E+02   1.180000E+02   1.000000E+00
+   1.250000E-02   2.500000E-03   6.640000E+02   7.900000E+01   1.000000E+00
+   1.750000E-02   2.500000E-03   5.900000E+02   7.400000E+01   1.000000E+00
+   2.500000E-02   5.000000E-03   4.520000E+02   5.900000E+01   1.000000E+00
+   3.500000E-02   5.000000E-03   3.740000E+02   4.900000E+01   1.000000E+00
+   4.500000E-02   5.000000E-03   2.900000E+02   4.900000E+01   1.000000E+00
+   5.500000E-02   5.000000E-03   2.600000E+02   4.900000E+01   1.000000E+00
+   7.000000E-02   1.000000E-02   2.060000E+02   3.900000E+01   1.000000E+00
+   9.000000E-02   1.000000E-02   1.770000E+02   2.900000E+01   1.000000E+00
+   1.250000E-01   2.500000E-02   1.470000E+02   2.500000E+01   1.000000E+00
+   1.750000E-01   2.500000E-02   1.330000E+02   2.500000E+01   1.000000E+00
+# reference:
+#   author: A.R.de L.Musgrove, B.J.Allen, J.W.Boldeman,  R.L.Macklin
+#   title: Average neutron resonance parameters and radiative  capture cross sections for the isotopes of molybdenum
+#   journal: Jour: Nuclear Physics, Section A, Vol.270, p.108 (1976)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  3.500000E-03
+#   E-max [MeV]:  1.750000E-01
+#   F-value:  1.083106E+00
+#   A-value:  9.546182E-01
+#   chi-2:  6.059178E-01
+#   p-value:  2.553263E-01
+#   exp. data sets for p-value:      2
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.067672E+00   9.590315E-01   4.699358E-01
+# endfb8.1      1.139583E+00   9.008736E-01   1.285293E+00
+# jeff4.0       1.067672E+00   9.590315E-01   4.699358E-01
+# jendl5.0      1.058416E+00   9.779888E-01   3.739180E-01
+# cendl3.2      1.068158E+00   9.686984E-01   4.525583E-01
+# eaf.2010      1.073430E+00   9.641091E-01   5.838654E-01

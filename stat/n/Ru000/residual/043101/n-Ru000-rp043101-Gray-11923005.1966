@@ -1,0 +1,52 @@
+# header: 
+#   title: Ru0(n,x)Tc101 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Gray
+#   year: 1966
+#   subentry: 11923005
+#   X4 reaction: 44-RU-0(N,X)43-TC-101,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11923005
+# target: 
+#   Z: 44
+#   A: 0
+#   nuclide: Ru0
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 43
+#     A: 101
+#     nuclide: Tc101
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.470000E+01   5.000000E-01   3.680899E+01   3.067400E+00   1.022472E+00
+# reference:
+#   author: P.R.Gray,A.R.Zander,T.G.Ebrey
+#   title: Activation cross sections for reactions of Rh and Ru with 14.7 MeV neutrons.
+#   journal: Jour: Nuclear Physics, Vol.75, p.215 (1966)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  1.470000E+01
+#   E-max [MeV]:  1.470000E+01
+#   F-value:  8.004617E+00
+#   A-value:  1.254645E-01
+#   chi-2:  1.098908E+02
+#   p-value:  1.192093E-07
+#   exp. data sets for p-value:      2
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    9.227969E+00   1.083662E-01   1.144827E+02
+# jeff4.0       8.211431E+00   1.217815E-01   1.110637E+02
+# jendl5.0      6.682089E+00   1.496538E-01   1.041258E+02

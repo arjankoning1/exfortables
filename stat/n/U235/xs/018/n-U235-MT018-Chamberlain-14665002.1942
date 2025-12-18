@@ -1,0 +1,52 @@
+# header: 
+#   title: U235(n,f) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Chamberlain
+#   year: 1942
+#   subentry: 14665002
+#   X4 reaction: 92-U-235(N,F),,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/14665002
+# target: 
+#   Z: 92
+#   A: 235
+#   nuclide: U235
+# reaction: 
+#   type: (n,f)
+#   ENDF_MF: 3
+#   ENDF_MT: 18
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.200000E-01   0.000000E+00   2.800000E+03   0.000000E+00   1.000000E+00
+# reference:
+#   author: O.Chamberlain,J.W.Kennedy,E.Segre
+#   title: Fission Cross-Section of U235 for Intermediate Velocity Neutrons
+#   journal: Rept: Chicago University Metallurgical Labs Reports, No.403 (1942)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  2.200000E-01
+#   E-max [MeV]:  2.200000E-01
+#   F-value:  2.125670E+00
+#   A-value:  4.704673E-01
+#   chi-2:  0.000000E+00
+#   p-value:  5.757624E-02
+#   exp. data sets for p-value:      8
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    2.132669E+00   4.688960E-01   0.000000E+00
+# endfb8.1      2.132675E+00   4.688947E-01   0.000000E+00
+# jeff4.0       2.140393E+00   4.672038E-01   0.000000E+00
+# jendl5.0      2.079227E+00   4.809480E-01   0.000000E+00
+# cendl3.2      2.139533E+00   4.673917E-01   0.000000E+00
+# eaf.2010      2.122299E+00   4.711872E-01   0.000000E+00
+# irdff2.0      2.132675E+00   4.688947E-01   0.000000E+00

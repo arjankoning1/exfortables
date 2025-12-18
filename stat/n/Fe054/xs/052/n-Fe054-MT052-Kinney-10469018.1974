@@ -1,0 +1,66 @@
+# header: 
+#   title: Fe54(n,n'_02)Fe55 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Kinney
+#   year: 1974
+#   subentry: 10469018
+#   X4 reaction: 26-FE-54(N,INL)26-FE-54,PAR,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/10469018
+#   level energy [MeV]:  2.53000E+00
+# target: 
+#   Z: 26
+#   A: 54
+#   nuclide: Fe54
+# reaction: 
+#   type: (n,n'_02)
+#   ENDF_MF: 3
+#   ENDF_MT: 52
+#   level: 
+#     number: 2
+#     energy [MeV]:  2.538100E+00
+#     spin:  4.000000E+00
+#     parity: 1
+#   residual: 
+#     Z: 26
+#     A: 55
+#     nuclide: Fe55
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.500000E+00   9.000000E-02   1.043400E+02   9.599279E+00   1.000000E+00
+   6.000000E+00   4.000000E-02   7.701001E+01   8.163100E+00   1.000000E+00
+   6.490000E+00   4.000000E-02   5.818000E+01   6.050720E+00   1.000000E+00
+   7.000000E+00   6.000000E-02   4.684000E+01   4.215600E+00   1.000000E+00
+   7.500000E+00   3.000000E-02   3.469000E+01   4.925980E+00   1.000000E+00
+   8.010000E+00   3.000000E-02   2.953000E+01   4.016080E+00   1.000000E+00
+   8.500000E+00   5.000000E-02   2.250000E+01   2.407500E+00   1.000000E+00
+# reference:
+#   author: W.E.Kinney,F.G.Perey
+#   title: 54Fe neutron elastic and inelastic scattering cross  sections from 5.50 to 8.50 MeV.
+#   journal: Rept: Oak Ridge National Lab. Reports, No.4907 (1974)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  5.500000E+00
+#   E-max [MeV]:  8.500000E+00
+#   F-value:  1.628806E+00
+#   A-value:  6.356929E-01
+#   chi-2:  1.302126E+01
+#   p-value:  1.483755E-01
+#   exp. data sets for p-value:      2
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2025    2.004629E+00   5.001954E-01   2.162286E+01
+# endfb8.1      1.572523E+00   6.415093E-01   1.217473E+01
+# jeff4.0       1.572523E+00   6.415093E-01   1.217473E+01
+# jendl5.0      1.528856E+00   6.783369E-01   1.115488E+01
+# cendl3.2      1.406293E+00   7.434397E-01   7.979102E+00

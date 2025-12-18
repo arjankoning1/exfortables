@@ -1,0 +1,55 @@
+# header: 
+#   title: Si0(n,x)Al26 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Caffee
+#   year: 2013
+#   subentry: 14351004
+#   X4 reaction: 14-SI-0(N,X)13-AL-26,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/14351004
+# target: 
+#   Z: 14
+#   A: 0
+#   nuclide: Si0
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 13
+#     A: 26
+#     nuclide: Al26
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   7.070000E+01   0.000000E+00   1.470000E+01   2.400000E+00   1.000000E+00
+   1.108000E+02   0.000000E+00   1.970000E+01   2.600000E+00   1.000000E+00
+   1.120000E+02   0.000000E+00   2.680000E+01   3.400000E+00   1.000000E+00
+# reference:
+#   author: M.W.Caffee,K.Nishiizumi,J.M.Sisterson,J.Ullmann, K.C.Welten
+#   title: Cross section measurements at neutron energies 71 and 112 MeV and energy integrated cross section measurements (0.1 < En < 750 MeV) for the neutron induced reactions O(n,x)10Be, Si(n,x)10Be, and Si(n,x)26Al
+#   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.294, p.479 (20
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  7.070000E+01
+#   E-max [MeV]:  1.120000E+02
+#   F-value:  1.855834E+00
+#   A-value:  1.419862E+00
+#   chi-2:  5.392958E+01
+#   p-value:  2.306849E-01
+#   exp. data sets for p-value:      1
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    2.603998E+00   2.314139E+00   1.606009E+02
+# endfb8.1      1.437502E+00   1.091122E+00   8.352161E+00
+# jeff4.0       1.437502E+00   1.091122E+00   8.352161E+00
+# jendl5.0      1.806901E+00   1.475191E+00   3.841305E+01

@@ -1,0 +1,57 @@
+# header: 
+#   title: Ge74(n,p)Ga74 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: ChangLinLannn
+#   year: 2008
+#   subentry: 31615003
+#   X4 reaction: 32-GE-74(N,P)31-GA-74,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/31615003
+# target: 
+#   Z: 32
+#   A: 74
+#   nuclide: Ge74
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 31
+#     A: 74
+#     nuclide: Ga74
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.350000E+01   3.000000E-01   9.600000E+00   8.000000E-01   1.000000E+00
+   1.410000E+01   2.000000E-01   1.095000E+01   1.000000E+00   1.000000E+00
+   1.480000E+01   3.000000E-01   1.180000E+01   1.800000E+00   1.000000E+00
+# reference:
+#   author: Chang-Lin Lan, Kai-Hong Fang, Xiao-San Xu, Qi Wang,  Xiang-Zhong Kong, Rong Liu, Li Jiang
+#   title: Activation cross-section measurements for producing  short-lived nuclei with 14 MeV neutrons - Ge, Pd, Yb
+#   journal: Jour: Radiation Physics and Chemistry, Vol.77, p.854 (2008)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.350000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.212500E+00
+#   A-value:  1.009824E+00
+#   chi-2:  4.740380E+00
+#   p-value:  3.162879E-01
+#   exp. data sets for p-value:      3
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.139065E+00   9.063500E-01   2.248051E+00
+# endfb8.1      1.072841E+00   9.446318E-01   9.957383E-01
+# jeff4.0       1.139065E+00   9.063500E-01   2.248051E+00
+# jendl5.0      1.072841E+00   9.446315E-01   9.957437E-01
+# cendl3.2      1.053646E+00   9.670658E-01   6.704752E-01
+# eaf.2010      1.521666E+00   1.495894E+00   2.128422E+01

@@ -1,0 +1,63 @@
+# header: 
+#   title: Ce140(n,a)Ba137m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Murahira
+#   year: 1996
+#   subentry: 22311007
+#   X4 reaction: 58-CE-140(N,A)56-BA-137-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22311007
+# target: 
+#   Z: 58
+#   A: 140
+#   nuclide: Ce140
+# reaction: 
+#   type: (n,a)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+#   residual: 
+#     Z: 56
+#     A: 137
+#     nuclide: Ba137m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.340000E+01   9.000000E-02   1.994400E+00   5.943400E-01   1.002225E+00
+   1.365000E+01   9.000000E-02   2.515600E+00   8.024700E-01   1.002225E+00
+   1.388000E+01   9.000000E-02   2.836300E+00   7.572900E-01   1.002225E+00
+   1.428000E+01   9.000000E-02   2.645900E+00   9.948499E-01   1.002225E+00
+   1.458000E+01   9.000000E-02   3.016700E+00   8.899300E-01   1.002225E+00
+   1.487000E+01   9.000000E-02   3.026700E+00   7.869500E-01   1.002225E+00
+# reference:
+#   author: S.Murahira,Y.Satoh,N.Honda,A.Takahashi,T.Iida, M.Shibata,H.Yamamoto,K.Kawade
+#   title: Measurement of formation cross sections producing  short-lived nuclei by 14 MeV neutrons - Pr, Ba, Ce,  Sm, W, Sn, Hf
+#   journal: Conf: Japanese report to the I.N.D.C., No.175, p.171 (1996)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.340000E+01
+#   E-max [MeV]:  1.487000E+01
+#   F-value:  1.214528E+00
+#   A-value:  8.727984E-01
+#   chi-2:  6.346808E-01
+#   p-value:  2.146159E-01
+#   exp. data sets for p-value:      5
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.133617E+00   9.033527E-01   4.587287E-01
+# jeff4.0       1.133617E+00   9.033527E-01   4.587287E-01
+# jendl5.0      1.401548E+00   7.411729E-01   1.375780E+00
+# eaf.2010      1.078285E+00   9.594481E-01   2.454861E-01

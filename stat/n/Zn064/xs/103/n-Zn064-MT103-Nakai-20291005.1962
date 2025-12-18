@@ -1,0 +1,62 @@
+# header: 
+#   title: Zn64(n,p)Cu64 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Nakai
+#   year: 1962
+#   subentry: 20291005
+#   X4 reaction: 30-ZN-64(N,P)29-CU-64,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20291005
+# target: 
+#   Z: 30
+#   A: 64
+#   nuclide: Zn64
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 29
+#     A: 64
+#     nuclide: Cu64
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.840000E+00   5.000000E-02   7.400000E+00   2.000000E+00   1.000000E+00
+   2.240000E+00   1.700000E-01   1.500000E+01   4.000000E+00   1.000000E+00
+   2.890000E+00   3.000000E-01   4.300000E+01   9.000000E+00   1.000000E+00
+   3.710000E+00   2.900000E-01   7.700001E+01   1.600000E+01   1.000000E+00
+   4.130000E+00   2.200000E-01   9.800000E+01   2.000000E+01   1.000000E+00
+   4.490000E+00   1.500000E-01   1.080000E+02   2.200000E+01   1.000000E+00
+   4.820000E+00   5.000000E-02   1.250000E+02   2.500000E+01   1.000000E+00
+# reference:
+#   author: K.Nakai, H.Gotoh, H.Amano
+#   title: Excitation functions of Ni-58(n,p)Co-58 and  Zn-64(n,p)Cu-64 reactions in the energy region from  1.8 to 4.8 MeV
+#   journal: Jour: Journal of the Physical Society of Japan, Vol.17, p.1215 (1962)
+# statistics:
+#   NEA score: T2
+#   IAEA score:  1
+#   E-min [MeV]:  1.840000E+00
+#   E-max [MeV]:  4.820000E+00
+#   F-value:  1.528528E+00
+#   A-value:  1.213776E+00
+#   chi-2:  5.208699E+00
+#   p-value:  9.487323E-02
+#   exp. data sets for p-value:      4
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.523704E+00   1.256822E+00   5.719472E+00
+# endfb8.1      1.534242E+00   1.250447E+00   5.769042E+00
+# jeff4.0       1.523705E+00   1.256822E+00   5.719479E+00
+# jendl5.0      1.487876E+00   1.166619E+00   4.067133E+00
+# cendl3.2      1.591951E+00   1.215612E+00   6.164439E+00
+# eaf.2010      1.501137E+00   1.108077E+00   3.252289E+00
+# irdff2.0      1.534239E+00   1.250440E+00   5.769039E+00

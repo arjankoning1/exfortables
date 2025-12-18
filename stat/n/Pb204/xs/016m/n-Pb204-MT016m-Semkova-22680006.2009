@@ -1,0 +1,61 @@
+# header: 
+#   title: Pb204(n,2n)Pb203m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Semkova
+#   year: 2009
+#   subentry: 22680006
+#   X4 reaction: 82-PB-204(N,2N)82-PB-203-M1+M2,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22680006
+# target: 
+#   Z: 82
+#   A: 204
+#   nuclide: Pb204
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 82
+#     A: 203
+#     nuclide: Pb203m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.626000E+01   2.000000E-01   1.039000E+03   7.200000E+01   1.000000E+00
+   1.795000E+01   1.200000E-01   1.030000E+03   7.000001E+01   1.000000E+00
+   1.911000E+01   9.000000E-02   1.032000E+03   8.200000E+01   1.000000E+00
+   2.031000E+01   8.000000E-02   8.280001E+02   7.300001E+01   1.000000E+00
+# reference:
+#   author: V.Semkova, P.Reimer, T.Altzitzoglou, A.J.M.Plompen, C.Quetel, S.Sudar, J.Vogl, A.J.Koning, S.M.Qaim, D.L.Smith, F.Cserpak, V.Avrigeanu
+#   title: Neutron activation cross sections on lead isotopes
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.80, p.024610 (2009)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.626000E+01
+#   E-max [MeV]:  2.031000E+01
+#   F-value:  1.116538E+00
+#   A-value:  9.711953E-01
+#   chi-2:  2.517150E+00
+#   p-value:  4.036070E-01
+#   exp. data sets for p-value:      2
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.113995E+00   9.031166E-01   2.351972E+00
+# endfb8.1      1.074086E+00   9.495257E-01   9.681003E-01
+# jeff4.0       1.113995E+00   9.031166E-01   2.351972E+00
+# eaf.2010      1.152681E+00   1.148767E+00   4.396557E+00

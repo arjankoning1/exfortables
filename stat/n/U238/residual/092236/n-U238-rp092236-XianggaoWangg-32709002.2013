@@ -1,0 +1,52 @@
+# header: 
+#   title: U238(n,x)U236 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: XianggaoWangg
+#   year: 2013
+#   subentry: 32709002
+#   X4 reaction: 92-U-238(N,3N)92-U-236,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/32709002
+# target: 
+#   Z: 92
+#   A: 238
+#   nuclide: U238
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 17
+#   residual: 
+#     Z: 92
+#     A: 236
+#     nuclide: U236
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.418000E+01   3.000000E-01   4.893000E+02   4.800000E+01   1.000000E+00
+   1.465000E+01   4.000000E-01   5.567001E+02   2.780000E+01   1.000000E+00
+# reference:
+#   author: Xianggao Wang,Shan Jiang,Ming He,Kejun Dong, Caijing Xiao,Yueming Hu,Qubo You,Hongtao Chen, Long Hou,Weixiang Yu,Xichao Ruan
+#   title: Determination of cross sections for the 238U(n,3n)236U reaction induced by 14-MeV neutrons with accelerator mass spectrometry
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.87, p.014612 (2013)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.418000E+01
+#   E-max [MeV]:  1.465000E+01
+#   F-value:  1.031296E+00
+#   A-value:  9.832712E-01
+#   chi-2:  3.602676E-01
+#   p-value:  3.779587E-01
+#   exp. data sets for p-value:      5
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.009879E+00   1.000080E+00   1.937362E-01
+# jendl5.0      1.043371E+00   9.667451E-01   5.267991E-01

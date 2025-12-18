@@ -1,0 +1,54 @@
+# header: 
+#   title: U238(n,xn) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Kornilov
+#   year: 1991
+#   subentry: 410660082
+#   X4 reaction: 92-U-238(N,X)0-NN-1,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/410660082
+# target: 
+#   Z: 92
+#   A: 238
+#   nuclide: U238
+# reaction: 
+#   type: (n,xn)
+#   ENDF_MF: 3
+#   ENDF_MT: 201
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.170000E+00   1.200000E-02   2.560000E+03   1.682798E+02   1.000000E+00
+   1.790000E+00   1.400000E-02   3.050000E+03   2.004897E+02   1.000000E+00
+   2.190000E+00   1.500000E-02   3.030000E+03   1.991750E+02   1.000000E+00
+# reference:
+#   author: N.V.Kornilov,A.B.Kagalenko,V.Ya.Baryba,A.B.Balitskij, A.A.Androsenko,P.A.Androsenko
+#   title: Inelastic scattering of 1-2.5 MeV neutrons by U-235 and  U-238 nuclei
+#   journal: Rept: Fiz.-Energ Institut, Obninsk Reports, No.2220 (1991)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.170000E+00
+#   E-max [MeV]:  2.190000E+00
+#   F-value:  1.078490E+00
+#   A-value:  1.045584E+00
+#   chi-2:  1.723395E+00
+#   p-value:  4.050446E-01
+#   exp. data sets for p-value:      2
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.105981E+00   1.067391E+00   2.940909E+00
+# endfb8.1      1.103843E+00   1.067817E+00   2.850334E+00
+# jeff4.0       1.039300E+00   1.023360E+00   5.867324E-01
+# jendl5.0      1.073042E+00   1.040206E+00   1.454675E+00
+# cendl3.2      1.047845E+00   1.029973E+00   7.843263E-01
+# eaf.2010      0.000000E+00   0.000000E+00   0.000000E+00
+# irdff2.0      0.000000E+00   0.000000E+00   0.000000E+00

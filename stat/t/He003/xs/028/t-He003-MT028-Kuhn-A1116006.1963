@@ -1,0 +1,53 @@
+# header: 
+#   title: He3(t,np)He4 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Kuhn
+#   year: 1963
+#   subentry: A1116006
+#   X4 reaction: 2-HE-3(T,N+P)2-HE-4,,SIG,,,EXP
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/A1116006
+# target: 
+#   Z: 2
+#   A: 3
+#   nuclide: He3
+# reaction: 
+#   type: (t,np)
+#   ENDF_MF: 3
+#   ENDF_MT: 28
+#   residual: 
+#     Z: 2
+#     A: 4
+#     nuclide: He4
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   4.600000E-01   0.000000E+00   1.440000E+01   1.700000E+00   1.000000E+00
+   6.650000E-01   0.000000E+00   2.250000E+01   2.700000E+00   1.000000E+00
+   9.000000E-01   0.000000E+00   2.710000E+01   3.200000E+00   1.000000E+00
+   1.087000E+00   0.000000E+00   2.750000E+01   3.300000E+00   1.000000E+00
+# reference:
+#   author: B.KUHN,B.SCHLENK
+#   title: The angular distribution for 3He + T reaction
+#   journal: Jour: Nuclear Physics, Vol.48, Issue.3, p.353 (1963)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  4.600000E-01
+#   E-max [MeV]:  1.087000E+00
+#   F-value:  1.412608E+00
+#   A-value:  1.384611E+00
+#   chi-2:  1.294586E+01
+#   p-value:  2.005863E-01
+#   exp. data sets for p-value:      2
+#   libraries:      1
+##  Library          F              A            chi-2
+# endfb8.1      1.412608E+00   1.384611E+00   1.294586E+01

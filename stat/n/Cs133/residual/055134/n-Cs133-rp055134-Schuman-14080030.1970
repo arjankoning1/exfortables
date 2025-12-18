@@ -1,0 +1,52 @@
+# header: 
+#   title: Cs133(n,x)Cs134 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Schuman
+#   year: 1970
+#   subentry: 14080030
+#   X4 reaction: 55-CS-133(N,G)55-CS-134,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/14080030
+# target: 
+#   Z: 55
+#   A: 133
+#   nuclide: Cs133
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 55
+#     A: 134
+#     nuclide: Cs134
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.000000E-03   7.000000E-04   2.741271E+03   0.000000E+00   1.142196E+00
+# reference:
+#   author: R.P.Schuman,R.L.Tromp
+#   title: Activation cross section measurements using the 2.0 keV  Sc filtered and 25 keV Fe filtered neutron beams
+#   journal: Prog: Idaho Nuclear Corp. Reports, No.1317, p.39 (1970)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  2.000000E-03
+#   E-max [MeV]:  2.000000E-03
+#   F-value:  2.639052E+02
+#   A-value:  4.057226E-03
+#   chi-2:  0.000000E+00
+#   p-value:  1.192093E-07
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    4.560554E+02   2.192716E-03   0.000000E+00
+# jeff4.0       4.560554E+02   2.192716E-03   0.000000E+00
+# jendl5.0      7.199093E+01   1.389064E-02   0.000000E+00

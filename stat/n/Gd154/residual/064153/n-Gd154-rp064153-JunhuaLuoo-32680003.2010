@@ -1,0 +1,53 @@
+# header: 
+#   title: Gd154(n,x)Gd153 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: JunhuaLuoo
+#   year: 2010
+#   subentry: 32680003
+#   X4 reaction: 64-GD-154(N,2N)64-GD-153,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/32680003
+# target: 
+#   Z: 64
+#   A: 154
+#   nuclide: Gd154
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 64
+#     A: 153
+#     nuclide: Gd153
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.350000E+01   2.000000E-01   1.850000E+03   1.550000E+02   1.000000E+00
+   1.410000E+01   2.000000E-01   1.910000E+03   1.650000E+02   1.000000E+00
+   1.480000E+01   2.000000E-01   2.001000E+03   1.080000E+02   1.000000E+00
+# reference:
+#   author: Junhua Luo,Rong Liu,Li Jiang,Guihua Sun,Zhenlai Liu, Fengqun Zhou
+#   title: Cross section measurements of (n,2n), (n,p) and (n,a) reactions on gadolinium isotopes in the neutron energy range of 13.5 to 14.8 MeV
+#   journal: Jour: Radiochimica Acta, Vol.98, p.127 (2010)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.350000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.027244E+00
+#   A-value:  9.858565E-01
+#   chi-2:  4.186515E-01
+#   p-value:  3.984256E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.010652E+00   9.957870E-01   1.709278E-01
+# jeff4.0       1.037181E+00   9.760252E-01   6.663751E-01

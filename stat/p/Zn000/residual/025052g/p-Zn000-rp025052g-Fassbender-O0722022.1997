@@ -1,0 +1,60 @@
+# header: 
+#   title: Zn0(p,x)Mn52g cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Fassbender
+#   year: 1997
+#   subentry: O0722022
+#   X4 reaction: 30-ZN-0(P,X)25-MN-52-G,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O0722022
+# target: 
+#   Z: 30
+#   A: 0
+#   nuclide: Zn0
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 25
+#     A: 52
+#     nuclide: Mn52g
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.340000E+02   6.774216E-01   2.400000E+00   4.000000E-01   1.000000E+00
+   1.570000E+02   7.913438E-01   2.900000E+00   5.000000E-01   1.000000E+00
+   1.720000E+02   8.657944E-01   3.600000E+00   6.000000E-01   1.000000E+00
+   2.147000E+02   1.078148E+00   5.800000E+00   1.300000E+00   1.000000E+00
+   2.543000E+02   1.275426E+00   5.500000E+00   1.300000E+00   1.000000E+00
+# reference:
+#   author: M.Fassbender, Yu.N.Shubin, V.P.Lunev, S.M.Qaim
+#   title: Experimental studies and nuclear model calculations on the formation of radioactive products in interactions of medium energy protons with copper, zinc and brass:  estimation of collimator activation in proton therapy facilities.
+#   journal: Jour: Applied Radiation and Isotopes, Vol.48, p.1221 (1997)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.340000E+02
+#   E-max [MeV]:  2.543000E+02
+#   F-value:  1.429388E+00
+#   A-value:  1.199411E+00
+#   chi-2:  8.717308E+00
+#   p-value:  2.387258E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.650230E+00   1.502062E+00   1.704218E+01
+# jendl5.0      1.068056E+00   9.577411E-01   3.924325E-01

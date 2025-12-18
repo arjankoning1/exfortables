@@ -1,0 +1,57 @@
+# header: 
+#   title: Mo98(n,x)Nb98m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Amemiya
+#   year: 1982
+#   subentry: 21840010
+#   X4 reaction: 42-MO-98(N,P)41-NB-98-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21840010
+# target: 
+#   Z: 42
+#   A: 98
+#   nuclide: Mo98
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 41
+#     A: 98
+#     nuclide: Nb98m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.480000E+01   3.000000E-01   5.200000E+00   6.000000E-01   1.000000E+00
+# reference:
+#   author: S.Amemiya,K.Ishibashi,T.Katoh
+#   title: Neutron activation cross section of  molybdenum isotopes at 14.8 MeV.
+#   journal: Jour: Jour. of Nuclear Science and Technology, Vol.19, Issue.10, p.781 (
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.480000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.011251E+00
+#   A-value:  1.011179E+00
+#   chi-2:  1.239871E-01
+#   p-value:  4.290852E-01
+#   exp. data sets for p-value:      8
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.012079E+00   1.012079E+00   1.341384E-01
+# jeff4.0       1.012079E+00   1.012079E+00   1.341384E-01
+# jendl5.0      1.009383E+00   1.009383E+00   1.036846E-01

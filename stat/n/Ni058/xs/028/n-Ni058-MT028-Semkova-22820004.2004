@@ -1,0 +1,66 @@
+# header: 
+#   title: Ni58(n,np)Co57 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Semkova
+#   year: 2004
+#   subentry: 22820004
+#   X4 reaction: 28-NI-58(N,X)27-CO-57,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22820004
+# target: 
+#   Z: 28
+#   A: 58
+#   nuclide: Ni58
+# reaction: 
+#   type: (n,np)
+#   ENDF_MF: 3
+#   ENDF_MT: 28
+#   residual: 
+#     Z: 27
+#     A: 57
+#     nuclide: Co57
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 12
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.481000E+01   1.700000E-01   6.580001E+02   2.700000E+01   1.000000E+00
+   1.527000E+01   1.600000E-01   7.040001E+02   2.800000E+01   1.000000E+00
+   1.568000E+01   1.800000E-01   7.290000E+02   2.800000E+01   1.000000E+00
+   1.605000E+01   1.900000E-01   7.490001E+02   3.500000E+01   1.000000E+00
+   1.626000E+01   2.000000E-01   7.740000E+02   3.500000E+01   1.000000E+00
+   1.703000E+01   1.700000E-01   7.940000E+02   3.500000E+01   1.000000E+00
+   1.719000E+01   1.800000E-01   7.970001E+02   6.000000E+01   1.000000E+00
+   1.758000E+01   1.700000E-01   8.150001E+02   3.100000E+01   1.000000E+00
+   1.836000E+01   1.500000E-01   8.310000E+02   3.300000E+01   1.000000E+00
+   1.882000E+01   1.800000E-01   8.490000E+02   3.700000E+01   1.000000E+00
+   1.929000E+01   9.000000E-02   8.500000E+02   3.700000E+01   1.000000E+00
+   2.035000E+01   8.000000E-02   8.750001E+02   4.000000E+01   1.000000E+00
+# reference:
+#   author: V.Semkova,V.Avrigeanu,T.Glodariu,A.J.Koning,  A.J.M.Plompen,D.L.Smith,S.Sudar,P.Reimer,R.Forrest
+#   title: .A systematic investigation of reaction cross sections  and isomer ratios for neutrons up to 20 MeV on  Ni-isotopes and Co-59 by measurements with activation  technique and new model studies of underlying  reaction mechanisms
+#   journal: Jour: Nuclear Physics, Section A, Vol.730, p.255 (2004)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.481000E+01
+#   E-max [MeV]:  2.035000E+01
+#   F-value:  1.106837E+00
+#   A-value:  9.354689E-01
+#   chi-2:  4.639475E+00
+#   p-value:  3.655477E-01
+#   exp. data sets for p-value:      8
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.144223E+00   8.830157E-01   8.394334E+00
+# endfb8.1      1.033600E+00   9.791493E-01   8.200115E-01
+# jeff4.0       1.180133E+00   8.561192E-01   1.206467E+01
+# jendl5.0      1.018366E+00   9.897439E-01   3.536372E-01
+# cendl3.2      1.004107E+00   9.975541E-01   7.442753E-02
+# eaf.2010      1.046893E+00   9.645405E-01   1.435703E+00

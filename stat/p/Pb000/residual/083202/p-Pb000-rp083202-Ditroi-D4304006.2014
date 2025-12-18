@@ -1,0 +1,59 @@
+# header: 
+#   title: Pb0(p,x)Bi202 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Ditroi
+#   year: 2014
+#   subentry: D4304006
+#   X4 reaction: 82-PB-0(P,X)83-BI-202,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D4304006
+# target: 
+#   Z: 82
+#   A: 0
+#   nuclide: Pb0
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 83
+#     A: 202
+#     nuclide: Bi202
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.420000E+01   6.000000E-01   2.700000E+00   3.000000E-01   1.000000E+00
+   2.620000E+01   5.000000E-01   8.300000E+00   1.000000E+00   1.000000E+00
+   2.810000E+01   5.000000E-01   1.090000E+01   1.200000E+00   1.000000E+00
+   2.990000E+01   4.000000E-01   1.200000E+01   1.400000E+00   1.000000E+00
+   3.160000E+01   4.000000E-01   1.350000E+01   1.500000E+00   1.000000E+00
+   3.320000E+01   4.000000E-01   1.360000E+01   1.500000E+00   1.000000E+00
+   3.480000E+01   3.000000E-01   1.050000E+01   1.200000E+00   1.000000E+00
+   3.630000E+01   3.000000E-01   9.400000E+00   1.100000E+00   1.000000E+00
+# reference:
+#   author: F.Ditroi,F.Tarkanyi,S.Takacs,A.Hermanne
+#   title: Proton-induced cross-sections of nuclear reactions on lead up to 37 MeV
+#   journal: Jour: Applied Radiation and Isotopes, Vol.90, p.208 (2014)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.420000E+01
+#   E-max [MeV]:  3.630000E+01
+#   F-value:  1.835862E+00
+#   A-value:  8.114668E-01
+#   chi-2:  1.550561E+01
+#   p-value:  4.321660E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.368793E+00   1.317417E+00   1.201331E+01
+# endfb8.1      5.379461E+00   1.858922E-01   4.839874E+01
+# jendl5.0      1.940627E+00   5.593134E-01   1.625245E+01

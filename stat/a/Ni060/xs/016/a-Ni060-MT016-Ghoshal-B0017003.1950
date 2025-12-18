@@ -1,0 +1,57 @@
+# header: 
+#   title: Ni60(a,2n)Zn62 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Ghoshal
+#   year: 1950
+#   subentry: B0017003
+#   X4 reaction: 28-NI-60(A,2N)30-ZN-62,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/B0017003
+# target: 
+#   Z: 28
+#   A: 60
+#   nuclide: Ni60
+# reaction: 
+#   type: (a,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 30
+#     A: 62
+#     nuclide: Zn62
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.000000E+01   0.000000E+00   1.200000E+01   0.000000E+00   1.000000E+00
+   2.300000E+01   0.000000E+00   6.200000E+01   0.000000E+00   1.000000E+00
+   2.600000E+01   0.000000E+00   1.190000E+02   0.000000E+00   1.000000E+00
+   2.850000E+01   0.000000E+00   1.750000E+02   0.000000E+00   1.000000E+00
+   3.130000E+01   0.000000E+00   2.230000E+02   1.700000E+01   1.000000E+00
+   3.380000E+01   0.000000E+00   2.240000E+02   0.000000E+00   1.000000E+00
+   3.620000E+01   0.000000E+00   1.580000E+02   0.000000E+00   1.000000E+00
+   3.900000E+01   0.000000E+00   1.290000E+02   0.000000E+00   1.000000E+00
+# reference:
+#   author: S.N.Ghoshal
+#   title: An experimental verification of the theory of compound  nucleus
+#   journal: Jour: Physical Review, Vol.80, p.939 (1950)
+# statistics:
+#   NEA score: T2
+#   IAEA score:  1
+#   E-min [MeV]:  2.000000E+01
+#   E-max [MeV]:  3.900000E+01
+#   F-value:  2.928006E+00
+#   A-value:  3.841062E-01
+#   chi-2:  1.044779E+01
+#   p-value:  1.351017E-01
+#   exp. data sets for p-value:      2
+#   libraries:      1
+##  Library          F              A            chi-2
+# tendl.2025    2.928006E+00   3.841062E-01   1.044779E+01

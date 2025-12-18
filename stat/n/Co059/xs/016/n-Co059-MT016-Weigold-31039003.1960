@@ -1,0 +1,56 @@
+# header: 
+#   title: Co59(n,2n)Co58 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Weigold
+#   year: 1960
+#   subentry: 31039003
+#   X4 reaction: 27-CO-59(N,2N)27-CO-58,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/31039003
+# target: 
+#   Z: 27
+#   A: 59
+#   nuclide: Co59
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 27
+#     A: 58
+#     nuclide: Co58
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.450000E+01   5.000000E-01   7.198603E+02   1.225040E+02   8.419418E-01
+# reference:
+#   author: E.Weigold
+#   title: Cross sections for the interactions of 14.5 MeV neutrons with manganese and cobalt.
+#   journal: Jour: Australian Journal of Physics, Vol.13, p.186 (1960)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.450000E+01
+#   E-max [MeV]:  1.450000E+01
+#   F-value:  1.008532E+00
+#   A-value:  1.005893E+00
+#   chi-2:  4.748652E-02
+#   p-value:  4.437910E-01
+#   exp. data sets for p-value:      8
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.003719E+00   1.003719E+00   2.751788E-02
+# endfb8.1      1.003719E+00   1.003719E+00   2.751276E-02
+# jeff4.0       1.001812E+00   1.001812E+00   1.337080E-02
+# jendl5.0      1.012114E+00   1.012114E+00   9.056749E-02
+# cendl3.2      1.017855E+00   1.017855E+00   1.344541E-01
+# eaf.2010      1.001556E+00   9.984463E-01   1.146443E-02
+# irdff2.0      1.003719E+00   1.003719E+00   2.751821E-02

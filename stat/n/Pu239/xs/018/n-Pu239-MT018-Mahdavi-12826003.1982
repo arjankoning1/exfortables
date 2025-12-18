@@ -1,0 +1,52 @@
+# header: 
+#   title: Pu239(n,f) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Mahdavi
+#   year: 1982
+#   subentry: 12826003
+#   X4 reaction: 94-PU-239(N,F),,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/12826003
+# target: 
+#   Z: 94
+#   A: 239
+#   nuclide: Pu239
+# reaction: 
+#   type: (n,f)
+#   ENDF_MF: 3
+#   ENDF_MT: 18
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.463000E+01   2.000000E-02   2.440000E+03   9.028000E+01   1.000000E+00
+# reference:
+#   author: M.Mahdavi, G.F.Knoll, J.C.Robertson
+#   title: Measurements of the 14 MeV fission cross-sections for  235U and 239Pu
+#   journal: Conf: Conf.on Nucl.Data for Sci.and Technol.,Antwerp 1982, p.58 (1982)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.463000E+01
+#   E-max [MeV]:  1.463000E+01
+#   F-value:  1.006853E+00
+#   A-value:  9.955357E-01
+#   chi-2:  1.910053E-01
+#   p-value:  3.844578E-01
+#   exp. data sets for p-value:      8
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.006899E+00   9.931480E-01   2.414786E-01
+# endfb8.1      1.006900E+00   9.931471E-01   2.415078E-01
+# jeff4.0       1.014019E+00   9.861748E-01   5.082685E-01
+# jendl5.0      1.005005E+00   9.950204E-01   1.735664E-01
+# cendl3.2      1.003147E+00   1.003147E+00   1.085475E-01
+# eaf.2010      1.000033E+00   1.000033E+00   1.109808E-03
+# irdff2.0      1.001831E+00   9.981722E-01   6.255853E-02

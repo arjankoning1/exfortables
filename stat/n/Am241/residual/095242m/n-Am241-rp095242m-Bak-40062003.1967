@@ -1,0 +1,55 @@
+# header: 
+#   title: Am241(n,x)Am242m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Bak
+#   year: 1967
+#   subentry: 40062003
+#   X4 reaction: 95-AM-241(N,G)95-AM-242-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/40062003
+# target: 
+#   Z: 95
+#   A: 241
+#   nuclide: Am241
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 95
+#     A: 242
+#     nuclide: Am242m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.000000E-07   2.000000E-07   7.000000E+04   5.000000E+03   1.000000E+00
+# reference:
+#   author: M.A.Bak, A.S.Krivokhatskii, K.A.Petrzhak, Yu.G.Petrov, Yu.F.Romanov, E.A.Shlyamin
+#   title: Cross sections and resonance integrals for capture and fission in long-lived americium isotopes
+#   journal: Jour: Atomnaya Energiya, Vol.23, p.316 (1967)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.000000E-07
+#   E-max [MeV]:  2.000000E-07
+#   F-value:  1.581779E+00
+#   A-value:  6.321994E-01
+#   chi-2:  2.651436E+01
+#   p-value:  2.400327E-01
+#   exp. data sets for p-value:      1
+#   libraries:      1
+##  Library          F              A            chi-2
+# tendl.2025    1.581779E+00   6.321994E-01   2.651436E+01

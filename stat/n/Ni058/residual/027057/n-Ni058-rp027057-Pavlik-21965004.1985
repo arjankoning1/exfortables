@@ -1,0 +1,64 @@
+# header: 
+#   title: Ni58(n,x)Co57 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Pavlik
+#   year: 1985
+#   subentry: 21965004
+#   X4 reaction: 28-NI-58(N,X)27-CO-57,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21965004
+# target: 
+#   Z: 28
+#   A: 58
+#   nuclide: Ni58
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 28
+#   residual: 
+#     Z: 27
+#     A: 57
+#     nuclide: Co57
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 12
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.276000E+01   2.500000E-02   4.020000E+02   3.200000E+01   1.000000E+00
+   1.330500E+01   2.500000E-02   4.980000E+02   3.500000E+01   1.000000E+00
+   1.395500E+01   3.000000E-02   5.720000E+02   3.800000E+01   1.000000E+00
+   1.469000E+01   3.000000E-02   6.560000E+02   4.000000E+01   1.000000E+00
+   1.548500E+01   3.500000E-02   7.130001E+02   5.800000E+01   1.000000E+00
+   1.630500E+01   4.000000E-02   7.690001E+02   4.300000E+01   1.000000E+00
+   1.712000E+01   4.000000E-02   8.030000E+02   4.300000E+01   1.000000E+00
+   1.788000E+01   3.500000E-02   8.150001E+02   4.300000E+01   1.000000E+00
+   1.854000E+01   3.000000E-02   8.220000E+02   4.300000E+01   1.000000E+00
+   1.906500E+01   2.500000E-02   8.410001E+02   4.400000E+01   1.000000E+00
+   1.941500E+01   2.500000E-02   8.440000E+02   4.400000E+01   1.000000E+00
+   1.957000E+01   2.000000E-02   8.360000E+02   4.400000E+01   1.000000E+00
+# reference:
+#   author: A.Pavlik, G.Winkler, M.Uhl, A.Paulsen, H.Liskien
+#   title: Neutron-induced reactions on Ni-58
+#   journal: Jour: Nuclear Science and Engineering, Vol.90, p.186 (1985)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.276000E+01
+#   E-max [MeV]:  1.957000E+01
+#   F-value:  1.063828E+00
+#   A-value:  9.614940E-01
+#   chi-2:  1.424762E+00
+#   p-value:  3.733431E-01
+#   exp. data sets for p-value:      4
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.073321E+00   9.427989E-01   1.991660E+00
+# endfb8.1      1.017704E+00   9.905382E-01   2.190049E-01
+# jeff4.0       1.104153E+00   9.206593E-01   3.341917E+00
+# jendl5.0      1.013600E+00   9.940246E-01   1.464684E-01

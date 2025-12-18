@@ -1,0 +1,68 @@
+# header: 
+#   title: Y89(n,x)Y90g cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Grench
+#   year: 1967
+#   subentry: 11882005
+#   X4 reaction: 39-Y-89(N,G)39-Y-90-G,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11882005
+# target: 
+#   Z: 39
+#   A: 89
+#   nuclide: Y89
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 39
+#     A: 90
+#     nuclide: Y90g
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 12
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.420000E-01   3.200000E-02   9.212000E+00   1.772000E-01   9.585895E-01
+   2.230000E-01   3.500000E-02   6.947500E+00   1.438200E-01   9.189779E-01
+   3.180000E-01   3.300000E-02   6.542400E+00   1.290900E-01   8.376942E-01
+   4.260000E-01   2.900000E-02   5.524400E+00   1.101500E-01   8.473032E-01
+   5.250000E-01   3.100000E-02   5.482200E+00   1.129700E-01   8.306289E-01
+   6.090000E-01   3.100000E-02   5.419200E+00   1.107300E-01   7.842608E-01
+   7.240000E-01   3.100000E-02   5.725800E+00   1.184700E-01   8.156427E-01
+   8.240000E-01   3.400000E-02   5.488700E+00   1.298100E-01   8.278570E-01
+   9.260000E-01   3.400000E-02   5.004400E+00   1.748200E-01   8.628252E-01
+   1.027000E+00   3.000000E-02   4.486400E+00   9.279300E-02   8.433153E-01
+   1.085000E+00   3.200000E-02   4.572900E+00   9.764200E-02   8.547483E-01
+   1.223000E+00   3.400000E-02   4.410500E+00   9.877100E-02   8.353205E-01
+# reference:
+#   author: H.A.Grench,K.L.Coop,H.O.Menlove,F.J.Vaughn
+#   title: A study of the spin dependence of the nuclear level density by means of the Y89(n,gamma)Y90g,90m reactions with fast neutrons.
+#   journal: Jour: Nuclear Physics, Section A, Vol.94, p.157 (1967)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.420000E-01
+#   E-max [MeV]:  1.223000E+00
+#   F-value:  1.304974E+00
+#   A-value:  1.204423E+00
+#   chi-2:  2.329595E+02
+#   p-value:  2.310916E-01
+#   exp. data sets for p-value:      2
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.046703E+00   1.023545E+00   4.296174E+00
+# jeff4.0       1.562166E+00   1.551979E+00   6.683792E+02
+# jendl5.0      1.113177E+00   1.099879E+00   2.620290E+01

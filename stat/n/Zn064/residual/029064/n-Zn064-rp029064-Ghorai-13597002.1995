@@ -1,0 +1,55 @@
+# header: 
+#   title: Zn64(n,x)Cu64 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Ghorai
+#   year: 1995
+#   subentry: 13597002
+#   X4 reaction: 30-ZN-64(N,P)29-CU-64,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/13597002
+# target: 
+#   Z: 30
+#   A: 64
+#   nuclide: Zn64
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 29
+#     A: 64
+#     nuclide: Cu64
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.420000E+01   2.000000E-01   1.935233E+02   1.073576E+01   1.075130E+00
+   1.520000E+01   2.000000E-01   1.620585E+02   9.170500E+00   1.066174E+00
+   1.620000E+01   2.000000E-01   1.261421E+02   6.115800E+00   1.087432E+00
+   1.720000E+01   2.000000E-01   1.359702E+02   8.585510E+00   1.114510E+00
+# reference:
+#   author: S.K.Ghorai,P.M.Sylva,J.R.Williams,W.L.Alford
+#   title: Partial neutron cross sections for 64Zn, 66Zn, 67Zn  and 68Zn between 14.2 and 18.2 MeV
+#   journal: Jour: Annals of Nuclear Energy, Vol.22, p.11 (1995)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.420000E+01
+#   E-max [MeV]:  1.720000E+01
+#   F-value:  1.284489E+00
+#   A-value:  8.011645E-01
+#   chi-2:  1.300873E+01
+#   p-value:  3.044221E-01
+#   exp. data sets for p-value:      8
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.274304E+00   8.087613E-01   1.214462E+01
+# jeff4.0       1.274303E+00   8.087615E-01   1.214460E+01
+# jendl5.0      1.304172E+00   7.861841E-01   1.473696E+01

@@ -1,0 +1,57 @@
+# header: 
+#   title: Mo92(n,x)Nb92m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Kimura
+#   year: 1990
+#   subentry: 22093020
+#   X4 reaction: 42-MO-92(N,P)41-NB-92-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22093020
+# target: 
+#   Z: 42
+#   A: 92
+#   nuclide: Mo92
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 41
+#     A: 92
+#     nuclide: Nb92m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.405000E+01   7.000000E-02   7.280901E+01   3.434900E+00   9.883129E-01
+# reference:
+#   author: I.Kimura, K.Kobayashi
+#   title: Calibrated fission and fusion neutron fields at the  Kyoto University Reactor
+#   journal: Jour: Nuclear Science and Engineering, Vol.106, p.332 (1990)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.405000E+01
+#   E-max [MeV]:  1.405000E+01
+#   F-value:  1.055645E+00
+#   A-value:  1.028835E+00
+#   chi-2:  1.613194E+00
+#   p-value:  4.881108E-01
+#   exp. data sets for p-value:      8
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.004174E+00   9.958439E-01   1.124864E-01
+# jeff4.0       1.004174E+00   9.958439E-01   1.124864E-01
+# jendl5.0      1.098131E+00   1.098131E+00   4.614611E+00

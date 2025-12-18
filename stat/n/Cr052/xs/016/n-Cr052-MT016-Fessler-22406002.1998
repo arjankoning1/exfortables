@@ -1,0 +1,58 @@
+# header: 
+#   title: Cr52(n,2n)Cr51 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Fessler
+#   year: 1998
+#   subentry: 22406002
+#   X4 reaction: 24-CR-52(N,2N)24-CR-51,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22406002
+# target: 
+#   Z: 24
+#   A: 52
+#   nuclide: Cr52
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 24
+#     A: 51
+#     nuclide: Cr51
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.425000E+01   2.000000E-01   3.286335E+02   1.691423E+01   9.949546E-01
+   1.720000E+01   2.500000E-01   5.880182E+02   2.895318E+01   9.949546E-01
+   1.880000E+01   3.000000E-01   6.187623E+02   3.114208E+01   9.949546E-01
+   1.940000E+01   3.200000E-01   6.341841E+02   3.303249E+01   9.949546E-01
+# reference:
+#   author: A.Fessler,E.Wattecamps,D.L.Smith,S.M.Qaim
+#   title: Excitation functions of (n,2n), (n,p), (n,np+pn+d), and  (n,alpha) reactions on isotopes of chromium
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.58, p.996 (1998)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.425000E+01
+#   E-max [MeV]:  1.940000E+01
+#   F-value:  1.087055E+00
+#   A-value:  9.690796E-01
+#   chi-2:  2.265971E+00
+#   p-value:  3.385687E-01
+#   exp. data sets for p-value:      8
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.015034E+00   1.000626E+00   3.318538E-01
+# endfb8.1      1.012341E+00   9.965202E-01   2.216472E-01
+# jeff4.0       1.012341E+00   9.965202E-01   2.216472E-01
+# jendl5.0      1.002371E+00   1.000830E+00   5.046574E-02
+# cendl3.2      1.223917E+00   8.369823E-01   1.235381E+01
+# eaf.2010      1.021434E+00   9.950294E-01   4.164038E-01

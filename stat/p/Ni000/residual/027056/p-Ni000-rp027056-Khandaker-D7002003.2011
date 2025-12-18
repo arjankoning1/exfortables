@@ -1,0 +1,67 @@
+# header: 
+#   title: Ni0(p,x)Co56 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Khandaker
+#   year: 2011
+#   subentry: D7002003
+#   X4 reaction: 28-NI-0(P,X)27-CO-56,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D7002003
+# target: 
+#   Z: 28
+#   A: 0
+#   nuclide: Ni0
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 27
+#     A: 56
+#     nuclide: Co56
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 16
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.310000E+01   9.000000E-01   6.804090E+00   2.301400E+00   1.000601E+00
+   2.380000E+01   9.000000E-01   7.604600E+00   2.201300E+00   1.000601E+00
+   2.570000E+01   8.000000E-01   1.190716E+01   2.701600E+00   1.000601E+00
+   2.630000E+01   8.000000E-01   1.390836E+01   2.601600E+00   1.000601E+00
+   2.810000E+01   7.000000E-01   3.632183E+01   5.603400E+00   1.000601E+00
+   2.860000E+01   7.000000E-01   5.253157E+01   6.704000E+00   1.000601E+00
+   3.030000E+01   6.000000E-01   8.745256E+01   9.405700E+00   1.000601E+00
+   3.080000E+01   6.000000E-01   9.685823E+01   1.020613E+01   1.000601E+00
+   3.240000E+01   5.000000E-01   1.475887E+02   1.190716E+01   1.000601E+00
+   3.290000E+01   5.000000E-01   1.599962E+02   1.270764E+01   1.000601E+00
+   3.440000E+01   4.000000E-01   2.039226E+02   1.570944E+01   1.000601E+00
+   3.530000E+01   4.000000E-01   2.134283E+02   1.640986E+01   1.000601E+00
+   3.670000E+01   3.000000E-01   2.421455E+02   1.841107E+01   1.000601E+00
+   3.750000E+01   3.000000E-01   2.439466E+02   2.321395E+01   1.000601E+00
+   3.880000E+01   3.000000E-01   2.544529E+02   1.931161E+01   1.000601E+00
+   3.960000E+01   3.000000E-01   2.535524E+02   1.921155E+01   1.000601E+00
+# reference:
+#   author: M.U.Khandaker, K.S.Kim, M.W.Lee, K.S.Kim, G.N.Kim
+#   title: Excitation functions of (p,x) reactions on natural nickel up to 40 MeV
+#   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.269, p.1140 (2
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.310000E+01
+#   E-max [MeV]:  3.960000E+01
+#   F-value:  1.489660E+00
+#   A-value:  9.522375E-01
+#   chi-2:  1.038193E+01
+#   p-value:  2.698922E-01
+#   exp. data sets for p-value:      5
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.626299E+00   1.412203E+00   1.414679E+01
+# endfb8.1      1.555564E+00   6.475314E-01   1.264835E+01
+# jendl5.0      1.235742E+00   9.442304E-01   4.350660E+00

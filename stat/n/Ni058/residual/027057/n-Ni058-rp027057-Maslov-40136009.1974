@@ -1,0 +1,54 @@
+# header: 
+#   title: Ni58(n,x)Co57 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Maslov
+#   year: 1974
+#   subentry: 40136009
+#   X4 reaction: 28-NI-58(N,X)27-CO-57,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/40136009
+# target: 
+#   Z: 28
+#   A: 58
+#   nuclide: Ni58
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 28
+#   residual: 
+#     Z: 27
+#     A: 57
+#     nuclide: Co57
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.420000E+01   2.000000E-01   5.977581E+02   5.074652E+01   9.084468E-01
+   1.460000E+01   2.000000E-01   7.415276E+02   5.323575E+01   9.132113E-01
+# reference:
+#   author: G.N.Maslov,F.Nasyrov,N.F.Pashkin
+#   title: Experimental cross-sections for nuclear reactions involving neutrons with energies of about 14 MeV
+#   journal: Rept: USSR report to the I.N.D.C., No.42, p.10 (1974)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.420000E+01
+#   E-max [MeV]:  1.460000E+01
+#   F-value:  1.124005E+00
+#   A-value:  9.186624E-01
+#   chi-2:  2.430848E+00
+#   p-value:  1.971706E-01
+#   exp. data sets for p-value:      8
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.141169E+00   9.050531E-01   2.995221E+00
+# endfb8.1      1.101755E+00   9.335491E-01   1.797390E+00
+# jeff4.0       1.147890E+00   9.008337E-01   3.218620E+00
+# jendl5.0      1.098402E+00   9.357675E-01   1.712160E+00

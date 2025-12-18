@@ -1,0 +1,67 @@
+# header: 
+#   title: Nb93(n,x)Nb92m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Ikeda
+#   year: 1988
+#   subentry: 22089065
+#   X4 reaction: 41-NB-93(N,2N)41-NB-92-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22089065
+# target: 
+#   Z: 41
+#   A: 93
+#   nuclide: Nb93
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 41
+#     A: 92
+#     nuclide: Nb92m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 11
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.355000E+01   0.000000E+00   4.582309E+02   1.900958E+01   1.000504E+00
+   1.368000E+01   0.000000E+00   4.612325E+02   1.900958E+01   1.000504E+00
+   1.381000E+01   0.000000E+00   4.742390E+02   1.900958E+01   1.000504E+00
+   1.395000E+01   0.000000E+00   4.682360E+02   1.900958E+01   1.000504E+00
+   1.410000E+01   0.000000E+00   4.692365E+02   1.900958E+01   1.000504E+00
+   1.432000E+01   0.000000E+00   4.652345E+02   1.900958E+01   1.000504E+00
+   1.453000E+01   0.000000E+00   4.842440E+02   2.001008E+01   1.000504E+00
+   1.471000E+01   0.000000E+00   4.702370E+02   2.001008E+01   1.000504E+00
+   1.484000E+01   0.000000E+00   4.652345E+02   2.001009E+01   1.000504E+00
+   1.492000E+01   0.000000E+00   4.652345E+02   2.001009E+01   1.000504E+00
+   1.496000E+01   0.000000E+00   4.602320E+02   1.900958E+01   1.000504E+00
+# reference:
+#   author: Y.Ikeda,C.Konno,K.Oishi,T.Nakamura,H.Miyade, K.Kawade,  H.Yamamoto, T.Katoh
+#   title: Activation cross section measurements for fusion  reactor structural materials at neutron energy from  13.3 to 15.0 MeV using FNS facility
+#   journal: Rept: JAERI Reports, No.1312 (1988)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.355000E+01
+#   E-max [MeV]:  1.496000E+01
+#   F-value:  1.021860E+00
+#   A-value:  9.852404E-01
+#   chi-2:  5.373008E-01
+#   p-value:  3.988954E-01
+#   exp. data sets for p-value:      8
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.014688E+00   9.909595E-01   3.130293E-01
+# jeff4.0       1.014688E+00   9.909594E-01   3.130334E-01
+# jendl5.0      1.031761E+00   9.739010E-01   9.858396E-01

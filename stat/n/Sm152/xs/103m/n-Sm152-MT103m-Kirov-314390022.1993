@@ -1,0 +1,57 @@
+# header: 
+#   title: Sm152(n,p)Pm152m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Kirov
+#   year: 1993
+#   subentry: 314390022
+#   X4 reaction: 62-SM-152(N,P)61-PM-152-M1,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/314390022
+# target: 
+#   Z: 62
+#   A: 152
+#   nuclide: Sm152
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 61
+#     A: 152
+#     nuclide: Pm152m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.454000E+01   2.400000E-01   1.377100E+00   1.942200E-01   9.836771E-01
+# reference:
+#   author: A.Kirov,N.Nenoff,E.Georgieva,C.Necheva,I.Ephtimov
+#   title: Activation cross sections and isomeric ratios in reactions induced by 14.5 MeV neutrons on 152Sm, 154Sm and 178Hf.
+#   journal: Jour: Zeitschrift fuer Physik A, Hadrons and Nuclei, Vol.345, p.285 (199
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.454000E+01
+#   E-max [MeV]:  1.454000E+01
+#   F-value:  1.457033E+00
+#   A-value:  9.922007E-01
+#   chi-2:  1.018094E+01
+#   p-value:  4.036517E-01
+#   exp. data sets for p-value:      2
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.315121E+00   7.603861E-01   3.324774E+00
+# jeff4.0       1.315121E+00   7.603861E-01   3.324774E+00
+# eaf.2010      1.689391E+00   1.689391E+00   2.389327E+01

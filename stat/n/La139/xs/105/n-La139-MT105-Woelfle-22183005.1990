@@ -1,0 +1,57 @@
+# header: 
+#   title: La139(n,t)Ba137 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Woelfle
+#   year: 1990
+#   subentry: 22183005
+#   X4 reaction: 57-LA-139(N,T)56-BA-137,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22183005
+# target: 
+#   Z: 57
+#   A: 139
+#   nuclide: La139
+# reaction: 
+#   type: (n,t)
+#   ENDF_MF: 3
+#   ENDF_MT: 105
+#   residual: 
+#     Z: 56
+#     A: 137
+#     nuclide: Ba137
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.632000E+01   5.800000E-01   7.600001E-01   9.999999E-02   1.000000E+00
+   1.768000E+01   7.700000E-01   1.210000E+00   1.600000E-01   1.000000E+00
+   1.902000E+01   5.600000E-01   1.700000E+00   2.500000E-01   1.000000E+00
+# reference:
+#   author: R.Woelfle,S.M.Qaim,H.Liskien,R.Widera
+#   title: Systematic studies of excitation functions of (n,t)  reactions on medium and heavy mass nuclei
+#   journal: Jour: Radiochimica Acta, Vol.50, p.5 (1990)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.632000E+01
+#   E-max [MeV]:  1.902000E+01
+#   F-value:  1.691308E+00
+#   A-value:  8.741875E-01
+#   chi-2:  1.709962E+01
+#   p-value:  3.073686E-01
+#   exp. data sets for p-value:      1
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.822276E+00   6.397998E-01   9.290809E+00
+# endfb8.1      1.654011E+00   6.496715E-01   8.027404E+00
+# jeff4.0       1.822276E+00   6.397998E-01   9.290809E+00
+# jendl5.0      1.460804E+00   1.237017E+00   1.164064E+01
+# cendl3.2      2.001206E+00   1.550747E+00   6.176999E+01
+# eaf.2010      1.273818E+00   8.748403E-01   2.578052E+00

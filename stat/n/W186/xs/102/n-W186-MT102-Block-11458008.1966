@@ -1,0 +1,63 @@
+# header: 
+#   title: W186(n,g)W187 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Block
+#   year: 1966
+#   subentry: 11458008
+#   X4 reaction: 74-W-186(N,G)74-W-187,,SIG,,AV
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11458008
+# target: 
+#   Z: 74
+#   A: 186
+#   nuclide: W186
+# reaction: 
+#   type: (n,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 74
+#     A: 187
+#     nuclide: W187
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 9
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.250000E-03   6.112055E-06   1.100000E+03   1.650000E+02   1.000000E+00
+   1.820000E-03   1.073814E-05   6.030000E+02   9.045000E+01   1.000000E+00
+   2.575000E-03   1.807124E-05   6.630000E+02   9.945000E+01   1.000000E+00
+   3.435000E-03   2.784276E-05   7.760000E+02   1.164000E+02   1.000000E+00
+   4.525000E-03   4.209689E-05   4.850000E+02   7.275000E+01   1.000000E+00
+   5.640000E-03   5.857885E-05   4.180000E+02   6.270000E+01   1.000000E+00
+   6.700000E-03   7.584630E-05   4.070000E+02   6.105000E+01   1.000000E+00
+   8.100000E-03   1.008207E-04   4.270000E+02   6.405000E+01   1.000000E+00
+   9.950000E-03   1.372641E-04   4.310000E+02   6.465000E+01   1.000000E+00
+# reference:
+#   author: R.C.BLOCK,R.W.HOCKENBURY,J.E.RUSSELL
+#   title: THE PARAMETERS OF THE NEUTRON RESONANCES IN 182-W,  183-W, 184-W, AND 186-W
+#   journal: Prog: Rensselaer Polytechnic Inst. Reports, No.328-56, p.14 (1966)
+# statistics:
+#   NEA score: T2
+#   IAEA score:  1
+#   E-min [MeV]:  1.250000E-03
+#   E-max [MeV]:  9.950000E-03
+#   F-value:  7.127123E+00
+#   A-value:  3.649532E-01
+#   chi-2:  1.191523E+01
+#   p-value:  1.422433E-01
+#   exp. data sets for p-value:      1
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    9.047822E+00   3.366123E-01   1.119449E+01
+# endfb8.1      6.188580E+00   3.650682E-01   1.253668E+01
+# jeff4.0       6.188580E+00   3.650682E-01   1.253668E+01
+# jendl5.0      9.374117E+00   3.064239E-01   1.203572E+01
+# eaf.2010      4.057980E+00   5.183786E-01   1.091551E+01
+# irdff2.0      8.691277E+00   3.315699E-01   1.227229E+01

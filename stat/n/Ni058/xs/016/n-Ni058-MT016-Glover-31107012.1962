@@ -1,0 +1,64 @@
+# header: 
+#   title: Ni58(n,2n)Ni57 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Glover
+#   year: 1962
+#   subentry: 31107012
+#   X4 reaction: 28-NI-58(N,2N)28-NI-57,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/31107012
+# target: 
+#   Z: 28
+#   A: 58
+#   nuclide: Ni58
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 28
+#     A: 57
+#     nuclide: Ni57
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 9
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.386000E+01   1.000000E-01   1.834267E+01   1.303800E+00   9.808915E-01
+   1.411000E+01   1.000000E-01   2.255398E+01   1.601400E+00   9.848902E-01
+   1.424000E+01   1.000000E-01   2.752218E+01   1.948000E+00   1.011845E+00
+   1.437000E+01   1.500000E-01   2.981355E+01   2.111600E+00   1.017527E+00
+   1.449000E+01   2.000000E-01   3.171690E+01   2.256600E+00   1.000533E+00
+   1.459000E+01   2.000000E-01   3.351482E+01   2.382400E+00   1.000442E+00
+   1.469000E+01   2.500000E-01   3.593966E+01   2.551500E+00   1.001105E+00
+   1.477000E+01   2.500000E-01   3.617424E+01   2.564000E+00   9.992883E-01
+   1.488000E+01   3.000000E-01   3.951791E+01   2.804200E+00   1.000453E+00
+# reference:
+#   author: R.N.GLOVER,E.WEIGOLD
+#   title: Some reaction cross sections for Copper and Nickel from 13.9 to 14.9 MeV neutron energy.
+#   journal: Jour: Nuclear Physics, Vol.29, p.309 (1962)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.386000E+01
+#   E-max [MeV]:  1.488000E+01
+#   F-value:  1.039818E+00
+#   A-value:  1.019118E+00
+#   chi-2:  5.331475E-01
+#   p-value:  3.385130E-01
+#   exp. data sets for p-value:      8
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.010711E+00   1.000543E+00   1.258616E-01
+# endfb8.1      1.011434E+00   1.002327E+00   1.242953E-01
+# jeff4.0       1.010711E+00   1.000543E+00   1.258621E-01
+# jendl5.0      1.081202E+00   1.068469E+00   1.804207E+00
+# cendl3.2      1.046096E+00   1.027159E+00   6.564032E-01
+# eaf.2010      1.046436E+00   1.034377E+00   7.710734E-01
+# irdff2.0      1.011438E+00   1.002331E+00   1.243293E-01

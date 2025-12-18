@@ -1,0 +1,70 @@
+# header: 
+#   title: Zn68(n,x)Zn69m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Dovbenko
+#   year: 1973
+#   subentry: 40344003
+#   X4 reaction: 30-ZN-68(N,G)30-ZN-69-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/40344003
+# target: 
+#   Z: 30
+#   A: 68
+#   nuclide: Zn68
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 30
+#     A: 69
+#     nuclide: Zn69m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 14
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.980000E-01   2.200000E-02   2.100000E+00   4.000000E-01   1.000000E+00
+   2.570000E-01   2.500000E-02   1.960000E+00   3.100000E-01   1.000000E+00
+   3.160000E-01   2.400000E-02   2.000000E+00   3.600000E-01   1.000000E+00
+   3.720000E-01   2.500000E-02   2.160000E+00   3.900000E-01   1.000000E+00
+   4.840000E-01   2.400000E-02   2.000000E+00   3.000000E-01   1.000000E+00
+   6.030000E-01   2.200000E-02   2.530000E+00   3.700000E-01   1.000000E+00
+   6.950000E-01   7.000000E-02   2.780000E+00   4.300000E-01   1.000000E+00
+   9.200000E-01   5.300000E-02   2.610000E+00   4.300000E-01   1.000000E+00
+   1.130000E+00   5.100000E-02   2.440000E+00   3.700000E-01   1.000000E+00
+   1.380000E+00   5.800000E-02   1.780000E+00   3.300000E-01   1.000000E+00
+   1.610000E+00   7.000000E-02   2.110000E+00   3.300000E-01   1.000000E+00
+   1.860000E+00   7.300000E-02   2.450000E+00   4.000000E-01   1.000000E+00
+   2.110000E+00   8.100000E-02   2.270000E+00   3.200000E-01   1.000000E+00
+   2.510000E+00   8.300000E-02   2.280000E+00   3.200000E-01   1.000000E+00
+# reference:
+#   author: A.G.Dovbenko,G.G.Zaikin,A.V.Ignatyuk,I.A.Korzh,  N.T.Sklyar,V.A.Tolstikov
+#   title: Study of the 68ZN(n,gamma)69g,mZn reaction
+#   journal: Conf: 2.Conf.on Neutron Physics, Kiev 1973, Vol.3, p.138 (1973)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.980000E-01
+#   E-max [MeV]:  2.510000E+00
+#   F-value:  1.224725E+00
+#   A-value:  8.683690E-01
+#   chi-2:  1.709854E+00
+#   p-value:  2.306678E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.273684E+00   8.149291E-01   2.203277E+00
+# jeff4.0       1.263754E+00   8.102816E-01   2.132496E+00
+# jendl5.0      1.104968E+00   9.916472E-01   7.937906E-01

@@ -1,0 +1,55 @@
+# header: 
+#   title: Ti50(n,g)Ti51 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Vanderlinden
+#   year: 1972
+#   subentry: 20643011
+#   X4 reaction: 22-TI-50(N,G)22-TI-51,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20643011
+# target: 
+#   Z: 22
+#   A: 50
+#   nuclide: Ti50
+# reaction: 
+#   type: (n,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 22
+#     A: 51
+#     nuclide: Ti51
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.530000E-08   0.000000E+00   1.400000E+02   0.000000E+00   1.000000E+00
+# reference:
+#   author: R.Van der Linden,F.De Corte,P.Van Den Winkel,J.Hoste
+#   title: A compilation of infinite dilution  resonance integrals, I.
+#   journal: Jour: Journal of Radioanalytical Chemistry, Vol.11, p.133 (1972)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.530000E-08
+#   E-max [MeV]:  2.530000E-08
+#   F-value:  1.267969E+00
+#   A-value:  1.267888E+00
+#   chi-2:  0.000000E+00
+#   p-value:  6.202717E-02
+#   exp. data sets for p-value:      5
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.276580E+00   1.276580E+00   0.000000E+00
+# endfb8.1      1.267651E+00   1.267651E+00   0.000000E+00
+# jeff4.0       1.276636E+00   1.276636E+00   0.000000E+00
+# jendl5.0      1.267651E+00   1.267651E+00   0.000000E+00
+# cendl3.2      1.259525E+00   1.259525E+00   0.000000E+00
+# eaf.2010      1.259401E+00   1.259401E+00   0.000000E+00

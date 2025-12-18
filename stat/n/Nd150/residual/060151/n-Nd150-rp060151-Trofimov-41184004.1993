@@ -1,0 +1,56 @@
+# header: 
+#   title: Nd150(n,x)Nd151 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Trofimov
+#   year: 1993
+#   subentry: 41184004
+#   X4 reaction: 60-ND-150(N,G)60-ND-151,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/41184004
+# target: 
+#   Z: 60
+#   A: 150
+#   nuclide: Nd150
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 60
+#     A: 151
+#     nuclide: Nd151
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.000000E-01   2.600000E-01   3.100000E+01   3.576900E+00   1.192308E+00
+   1.100000E+00   2.400000E-01   2.861539E+01   4.769200E+00   1.192308E+00
+   1.400000E+00   2.000000E-01   1.907692E+01   2.384600E+00   1.192308E+00
+   1.600000E+00   1.800000E-01   1.788462E+01   2.384600E+00   1.192308E+00
+   1.800000E+00   1.800000E-01   1.550000E+01   2.384600E+00   1.192308E+00
+   2.000000E+00   1.600000E-01   1.550000E+01   2.384600E+00   1.192308E+00
+# reference:
+#   author: Yu.N.Trofimov
+#   title: Neutron radiative capture cross-sections for even  isotopes of neodymium in the energy range from 0.5 to  2.2 MeV
+#   journal: Jour: Vop.At.Nauki i Tekhn.,Ser.Yaderno-Reak.Konstanty, Issue.1, p.17 (1
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  5.000000E-01
+#   E-max [MeV]:  2.000000E+00
+#   F-value:  1.126882E+00
+#   A-value:  1.029227E+00
+#   chi-2:  1.322286E+00
+#   p-value:  3.639762E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.150466E+00   1.089106E+00   2.015668E+00
+# jeff4.0       1.098886E+00   9.726405E-01   6.289033E-01

@@ -1,0 +1,52 @@
+# header: 
+#   title: Rh103(n,x)Rh104 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Brusegan
+#   year: 2004
+#   subentry: 22906003
+#   X4 reaction: 45-RH-103(N,G)45-RH-104,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22906003
+# target: 
+#   Z: 45
+#   A: 103
+#   nuclide: Rh103
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 45
+#     A: 104
+#     nuclide: Rh104
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.530000E-08   0.000000E+00   1.425000E+05   1.500000E+03   1.000000E+00
+# reference:
+#   author: A.Brusegan, E.Berthoumieux, A.Borella, F.Gunsing,  M.Moxon, P.Siegler, P.Schillebeeckx
+#   title: Neutron capture and transmission measurements on  Rh-103 down to thermal energies.
+#   journal: Conf: Conf.on Nucl.Data for Sci.and Techn., Santa Fe 2004, Vol.1, p.953
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.530000E-08
+#   E-max [MeV]:  2.530000E-08
+#   F-value:  1.000244E+00
+#   A-value:  1.000186E+00
+#   chi-2:  2.232347E-02
+#   p-value:  4.140745E-01
+#   exp. data sets for p-value:      4
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.000404E+00   1.000404E+00   4.848712E-02
+# jeff4.0       1.000120E+00   1.000120E+00   1.435254E-02
+# jendl5.0      1.000035E+00   1.000035E+00   4.130740E-03

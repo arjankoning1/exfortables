@@ -1,0 +1,54 @@
+# header: 
+#   title: Ni59(n,a)Fe56 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Eiland
+#   year: 1974
+#   subentry: 10387002
+#   X4 reaction: 28-NI-59(N,A)26-FE-56,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/10387002
+# target: 
+#   Z: 28
+#   A: 59
+#   nuclide: Ni59
+# reaction: 
+#   type: (n,a)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+#   residual: 
+#     Z: 26
+#     A: 56
+#     nuclide: Fe56
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.530000E-08   0.000000E+00   1.370000E+04   1.200000E+03   1.000000E+00
+# reference:
+#   author: H.M.Eiland,G.J.Kirouac
+#   title: MEASUREMENTS OF THE NI-59(N,ALPHA) CROSS SECTION FOR  THERMAL NEUTRONS.
+#   journal: Jour: Nuclear Science and Engineering, Vol.53, p.1 (1974)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.530000E-08
+#   E-max [MeV]:  2.530000E-08
+#   F-value:  1.081069E+00
+#   A-value:  9.283711E-01
+#   chi-2:  1.264936E+00
+#   p-value:  4.184871E-01
+#   exp. data sets for p-value:      7
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2025    1.080342E+00   9.256328E-01   1.297567E+00
+# endfb8.1      1.067908E+00   9.364100E-01   1.075041E+00
+# jeff4.0       1.047179E+00   9.549466E-01   7.231088E-01
+# jendl5.0      1.067908E+00   9.364100E-01   1.075041E+00
+# eaf.2010      1.123937E+00   8.897296E-01   2.153924E+00

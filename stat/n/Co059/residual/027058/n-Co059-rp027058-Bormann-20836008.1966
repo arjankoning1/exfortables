@@ -1,0 +1,56 @@
+# header: 
+#   title: Co59(n,x)Co58 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Bormann
+#   year: 1966
+#   subentry: 20836008
+#   X4 reaction: 27-CO-59(N,2N)27-CO-58,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20836008
+# target: 
+#   Z: 27
+#   A: 59
+#   nuclide: Co59
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 27
+#     A: 58
+#     nuclide: Co58
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.255000E+01   1.500000E-01   4.290000E+02   3.400000E+01   1.000000E+00
+   1.410000E+01   3.000000E-01   6.420000E+02   3.200000E+01   1.000000E+00
+   1.520000E+01   3.000000E-01   6.950001E+02   5.600000E+01   1.000000E+00
+   1.670000E+01   4.000000E-01   7.000000E+02   5.600000E+01   1.000000E+00
+   1.820000E+01   3.500000E-01   7.610000E+02   6.100000E+01   1.000000E+00
+   1.960000E+01   2.500000E-01   8.640001E+02   6.900002E+01   1.000000E+00
+# reference:
+#   author: M.Bormann,U.Seebeck,W.Voigts,G.Woelfer
+#   title: Level densities of some medium weight nuclei from  evaporation spectra of the alpha particles from  (n,alpha) reactions
+#   journal: Jour: Zeitschrift fuer Naturforschung, Section A, Vol.21, p.988 (1966)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.255000E+01
+#   E-max [MeV]:  1.960000E+01
+#   F-value:  1.108305E+00
+#   A-value:  1.074513E+00
+#   chi-2:  2.588190E+00
+#   p-value:  2.701926E-01
+#   exp. data sets for p-value:      8
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.100608E+00   1.072465E+00   2.240911E+00
+# jendl5.0      1.115561E+00   1.076566E+00   2.935470E+00

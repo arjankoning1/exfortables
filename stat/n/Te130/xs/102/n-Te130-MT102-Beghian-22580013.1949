@@ -1,0 +1,55 @@
+# header: 
+#   title: Te130(n,g)Te131 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Beghian
+#   year: 1949
+#   subentry: 22580013
+#   X4 reaction: 52-TE-130(N,G)52-TE-131,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22580013
+# target: 
+#   Z: 52
+#   A: 130
+#   nuclide: Te130
+# reaction: 
+#   type: (n,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 52
+#     A: 131
+#     nuclide: Te131
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   9.000000E-01   1.300000E-02   2.650000E+01   8.000000E+00   1.000000E+00
+# reference:
+#   author: L.E.Beghian, H.H.Halban
+#   title: Absolute cross-sections for the capture of neutrons  of 200 and 900 keV energy.
+#   journal: Jour: Nature (London), Vol.163, p.366 (1949)
+# statistics:
+#   NEA score: T2
+#   IAEA score:  0
+#   E-min [MeV]:  9.000000E-01
+#   E-max [MeV]:  9.000000E-01
+#   F-value:  4.504735E+00
+#   A-value:  2.221198E-01
+#   chi-2:  6.762657E+00
+#   p-value:  5.011183E-02
+#   exp. data sets for p-value:      1
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    4.543469E+00   2.200961E-01   6.797648E+00
+# endfb8.1      4.260410E+00   2.347192E-01   6.562190E+00
+# jeff4.0       4.543469E+00   2.200961E-01   6.797648E+00
+# jendl5.0      4.670210E+00   2.141231E-01   6.895401E+00
+# cendl3.2      4.260410E+00   2.347192E-01   6.562190E+00
+# eaf.2010      4.758412E+00   2.101541E-01   6.960863E+00

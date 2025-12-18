@@ -1,0 +1,60 @@
+# header: 
+#   title: Am241(g,x)Am240 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Tonchev
+#   year: 2010
+#   subentry: L0156004
+#   X4 reaction: 95-AM-241(G,N)95-AM-240,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/L0156004
+# target: 
+#   Z: 95
+#   A: 241
+#   nuclide: Am241
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+#   residual: 
+#     Z: 95
+#     A: 240
+#     nuclide: Am240
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 9
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   9.000000E+00   1.300000E-01   3.300000E+01   1.300000E+01   1.000000E+00
+   9.700000E+00   1.400000E-01   6.000000E+01   5.000000E+00   1.000000E+00
+   1.000000E+01   1.500000E-01   9.100002E+01   1.300000E+01   1.000000E+00
+   1.047000E+01   1.600000E-01   1.520000E+02   1.500000E+01   1.000000E+00
+   1.120000E+01   1.700000E-01   1.860000E+02   1.100000E+01   1.000000E+00
+   1.220000E+01   1.700000E-01   2.010000E+02   8.000000E+00   1.000000E+00
+   1.290000E+01   1.900000E-01   1.790000E+02   1.100000E+01   1.000000E+00
+   1.360000E+01   2.000000E-01   1.590000E+02   5.000000E+00   1.000000E+00
+   1.560000E+01   2.400000E-01   7.000001E+01   3.000000E+00   1.000000E+00
+# reference:
+#   author: A.P.Tonchev,S.L.Hammond,C.R.Howell,C.Huibregtse, A.Hutcheson,J.H.K Elley,E.Kwan,R.Raut,G.Rusev,W.Tornow, T.Kawano,D.J.Vieira,J.B.Wilhelmy
+#   title: Measurement of the 241Am(g,n)240Am reaction in the giant dipole resonance region
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.82, p.054620 (2010)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  9.000000E+00
+#   E-max [MeV]:  1.560000E+01
+#   F-value:  1.986107E+00
+#   A-value:  6.087741E-01
+#   chi-2:  8.962084E+01
+#   p-value:  3.255890E-01
+#   exp. data sets for p-value:      2
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    2.497467E+00   4.440308E-01   1.536674E+02
+# endfb8.1      0.000000E+00   0.000000E+00   0.000000E+00
+# jendl5.0      1.380442E+00   8.346400E-01   2.557433E+01

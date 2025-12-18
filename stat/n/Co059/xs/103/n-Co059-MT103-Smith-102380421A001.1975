@@ -1,0 +1,72 @@
+# header: 
+#   title: Co59(n,p)Fe59 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Smith
+#   year: 1975
+#   subentry: 102380421
+#   X4 reaction: 27-CO-59(N,P)26-FE-59,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/102380421
+# target: 
+#   Z: 27
+#   A: 59
+#   nuclide: Co59
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 26
+#     A: 59
+#     nuclide: Fe59
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 17
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   4.334000E+00   1.580000E-01   6.556000E+00   5.441000E-01   1.000000E+00
+   4.534000E+00   1.580000E-01   7.321000E+00   5.051000E-01   1.000000E+00
+   4.735000E+00   1.600000E-01   8.716001E+00   6.015000E-01   1.000000E+00
+   4.935000E+00   1.600000E-01   8.099000E+00   5.103000E-01   1.000000E+00
+   5.136000E+00   1.620000E-01   1.077000E+01   5.707000E-01   1.000000E+00
+   5.336000E+00   1.640000E-01   1.228000E+01   8.351000E-01   1.000000E+00
+   5.536000E+00   1.640000E-01   1.312000E+01   7.743000E-01   1.000000E+00
+   5.737000E+00   1.660000E-01   1.253000E+01   1.103000E+00   1.000000E+00
+   5.837000E+00   1.680000E-01   1.525000E+01   8.694000E-01   1.000000E+00
+   5.956000E+00   3.260000E-01   1.452000E+01   7.406000E-01   1.000000E+00
+   6.483000E+00   3.360000E-01   1.656000E+01   9.274000E-01   1.000000E+00
+   6.993000E+00   3.540000E-01   1.883000E+01   1.092000E+00   1.000000E+00
+   7.517000E+00   3.700000E-01   2.145000E+01   1.158000E+00   1.000000E+00
+   8.012000E+00   3.860000E-01   2.477000E+01   1.337000E+00   1.000000E+00
+   8.975000E+00   4.260000E-01   2.759000E+01   1.517000E+00   1.000000E+00
+   9.461000E+00   4.480000E-01   3.118000E+01   1.809000E+00   1.000000E+00
+   9.944000E+00   4.700000E-01   3.481000E+01   1.984000E+00   1.000000E+00
+# reference:
+#   author: D.L.Smith,J.W.Meadows
+#   title: Cross-section measurement of (n,p) reactions for 27Al,  46,47,48Ti, 54,56Fe, 58Ni, 59Co, and 64Zn from near  threshold to 10 MeV
+#   journal: Jour: Nuclear Science and Engineering, Vol.58, p.314 (1975)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  4.334000E+00
+#   E-max [MeV]:  9.944000E+00
+#   F-value:  1.121279E+00
+#   A-value:  9.877259E-01
+#   chi-2:  3.304873E+00
+#   p-value:  2.228325E-01
+#   exp. data sets for p-value:      2
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.146600E+00   9.985517E-01   4.866946E+00
+# endfb8.1      1.146930E+00   9.983492E-01   4.871433E+00
+# jeff4.0       1.098806E+00   9.956859E-01   2.859794E+00
+# jendl5.0      1.091424E+00   9.994729E-01   2.065925E+00
+# cendl3.2      1.106210E+00   9.521701E-01   1.970458E+00
+# eaf.2010      1.097772E+00   9.725483E-01   1.628149E+00
+# irdff2.0      1.146929E+00   9.983504E-01   4.871409E+00

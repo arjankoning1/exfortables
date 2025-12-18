@@ -1,0 +1,54 @@
+# header: 
+#   title: Cr52(n,x)Cr51 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Wagner
+#   year: 1989
+#   subentry: 30972005
+#   X4 reaction: 24-CR-52(N,2N)24-CR-51,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30972005
+# target: 
+#   Z: 24
+#   A: 52
+#   nuclide: Cr52
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 24
+#     A: 51
+#     nuclide: Cr51
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.352800E+01   1.000000E-02   1.718532E+02   3.578200E+00   9.939455E-01
+   1.404000E+01   1.000000E-02   2.688622E+02   4.770900E+00   9.939455E-01
+   1.439700E+01   1.100000E-02   3.372457E+02   6.162500E+00   9.939455E-01
+   1.478300E+01   1.300000E-02   3.981746E+02   6.758800E+00   9.939455E-01
+# reference:
+#   author: M.Wagner,G.Winkler,H.Vonach,Cs.M.Buczko,J.Csikai
+#   title: Measurement of the cross sections for the reactions Cr-52(n,2n)Cr-51, Zn-66(n,2n)Zn-65, Y-89(n,2n)Y-88 and Zr-96(n,2n)Zr-95 from 13.5 to 14.8 MeV.
+#   journal: Jour: Annals of Nuclear Energy, Vol.16, Issue.12, p.623 (1989)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.352800E+01
+#   E-max [MeV]:  1.478300E+01
+#   F-value:  1.088612E+00
+#   A-value:  1.082001E+00
+#   chi-2:  2.222518E+01
+#   p-value:  4.205125E-01
+#   exp. data sets for p-value:      7
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.108999E+00   1.102919E+00   3.321352E+01
+# jendl5.0      1.062835E+00   1.061481E+00   1.123684E+01

@@ -1,0 +1,67 @@
+# header: 
+#   title: Cu0(p,x)Cu64 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Shahid
+#   year: 2015
+#   subentry: D7015005
+#   X4 reaction: 29-CU-0(P,X)29-CU-64,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D7015005
+# target: 
+#   Z: 29
+#   A: 0
+#   nuclide: Cu0
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 29
+#     A: 64
+#     nuclide: Cu64
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 16
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.430000E+01   5.000000E-01   1.640000E+01   3.200000E+00   1.000000E+00
+   1.730000E+01   4.000000E-01   4.680000E+01   5.600000E+00   1.000000E+00
+   1.990000E+01   4.000000E-01   6.470000E+01   7.300000E+00   1.000000E+00
+   2.230000E+01   3.000000E-01   1.315000E+02   1.190000E+01   1.000000E+00
+   2.450000E+01   3.000000E-01   1.329000E+02   1.200000E+01   1.000000E+00
+   2.660000E+01   3.000000E-01   1.119000E+02   1.060000E+01   1.000000E+00
+   2.850000E+01   3.000000E-01   8.710001E+01   8.900000E+00   1.000000E+00
+   3.040000E+01   3.000000E-01   7.730000E+01   8.200000E+00   1.000000E+00
+   3.220000E+01   3.000000E-01   7.150000E+01   7.700000E+00   1.000000E+00
+   3.390000E+01   2.000000E-01   6.840000E+01   7.500000E+00   1.000000E+00
+   3.550000E+01   2.000000E-01   7.760001E+01   8.200000E+00   1.000000E+00
+   3.710000E+01   2.000000E-01   6.300000E+01   7.100000E+00   1.000000E+00
+   3.870000E+01   2.000000E-01   6.160000E+01   7.000000E+00   1.000000E+00
+   4.010000E+01   2.000000E-01   7.410001E+01   7.900000E+00   1.000000E+00
+   4.160000E+01   2.000000E-01   6.310000E+01   7.100000E+00   1.000000E+00
+   4.300000E+01   2.000000E-01   5.890001E+01   6.800000E+00   1.000000E+00
+# reference:
+#   author: M.Shahid, K.Kim, H.Naik, M.Zaman, S.C.Yang, G.N.Kim
+#   title: Measurement of excitation functions in proton induced  reactions on natural copper from their threshold to  43 MeV
+#   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.342, p.305 (20
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.430000E+01
+#   E-max [MeV]:  4.300000E+01
+#   F-value:  1.196325E+00
+#   A-value:  9.598024E-01
+#   chi-2:  2.817202E+00
+#   p-value:  3.147982E-01
+#   exp. data sets for p-value:      2
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.157034E+00   1.049028E+00   2.407773E+00
+# endfb8.1      1.251938E+00   9.166968E-01   4.255598E+00
+# jendl5.0      1.169943E+00   9.194596E-01   1.788235E+00

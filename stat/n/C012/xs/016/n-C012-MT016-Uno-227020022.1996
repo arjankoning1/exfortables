@@ -1,0 +1,57 @@
+# header: 
+#   title: C12(n,2n)C11 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Uno
+#   year: 1996
+#   subentry: 227020022
+#   X4 reaction: 6-C-12(N,2N)6-C-11,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/227020022
+# target: 
+#   Z: 6
+#   A: 12
+#   nuclide: C12
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 6
+#     A: 11
+#     nuclide: C11
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.180000E+01   1.900000E+00   1.480100E+00   1.400100E-01   1.000090E+00
+   2.760000E+01   1.700000E+00   1.020092E+01   1.400100E+00   1.000090E+00
+   3.280000E+01   1.500000E+00   1.680152E+01   1.900200E+00   1.000090E+00
+   3.830000E+01   1.400000E+00   1.480134E+01   1.800200E+00   1.000090E+00
+# reference:
+#   author: Y.Uno,Y.Uwamino,T.S.Soewarsono,T.Nakamura
+#   title: Measurement of neutron activation cross sections of 12C, 30Si, 47Ti, 48Ti, 52Cr, 59Co and 58Ni between 15 and 40 MeV
+#   journal: Jour: Nuclear Science and Engineering, Vol.122, p.247 (1996)
+# statistics:
+#   NEA score: T2
+#   IAEA score:  1
+#   E-min [MeV]:  2.180000E+01
+#   E-max [MeV]:  3.830000E+01
+#   F-value:  2.242672E+00
+#   A-value:  1.123240E+00
+#   chi-2:  1.557062E+02
+#   p-value:  3.717858E-01
+#   exp. data sets for p-value:      8
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2025    3.876090E+00   3.799778E+00   6.189303E+02
+# endfb8.1      1.938394E+00   5.472603E-01   1.797255E+01
+# jeff4.0       1.938394E+00   5.472603E-01   1.797255E+01
+# jendl5.0      1.256933E+00   1.154270E+00   5.387823E+00
+# eaf.2010      1.714815E+00   1.405151E+00   7.895457E+01

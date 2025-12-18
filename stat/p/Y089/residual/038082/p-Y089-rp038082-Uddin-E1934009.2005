@@ -1,0 +1,55 @@
+# header: 
+#   title: Y89(p,x)Sr82 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Uddin
+#   year: 2005
+#   subentry: E1934009
+#   X4 reaction: 39-Y-89(P,X)38-SR-82,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/E1934009
+# target: 
+#   Z: 39
+#   A: 89
+#   nuclide: Y89
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 38
+#     A: 82
+#     nuclide: Sr82
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.880000E+01   0.000000E+00   1.400000E+00   9.999999E-02   1.000000E+00
+   6.430000E+01   0.000000E+00   9.300000E+00   7.000000E-01   1.000000E+00
+   6.940000E+01   0.000000E+00   1.920000E+01   1.500000E+00   1.000000E+00
+   7.430000E+01   0.000000E+00   2.250000E+01   1.700000E+00   1.000000E+00
+   7.910000E+01   0.000000E+00   2.320000E+01   1.800000E+00   1.000000E+00
+# reference:
+#   author: M.S.Uddin, M.Hagiwara, M.Baba, F.Tarkanyi, F.Ditroi
+#   title: Experimental studies on excitation functions of the proton-induced activation reactions on yttrium
+#   journal: Jour: Applied Radiation and Isotopes, Vol.63, Issue.3, p.367 (2005)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  5.880000E+01
+#   E-max [MeV]:  7.910000E+01
+#   F-value:  2.032617E+00
+#   A-value:  1.100901E+00
+#   chi-2:  1.749182E+02
+#   p-value:  3.537736E-01
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    2.151294E+00   7.166761E-01   1.045939E+02
+# jendl5.0      1.910998E+00   1.691117E+00   2.452426E+02

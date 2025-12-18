@@ -1,0 +1,63 @@
+# header: 
+#   title: Sr86(n,p)Rb86m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Kasugai
+#   year: 1998
+#   subentry: 22433015
+#   X4 reaction: 38-SR-86(N,P)37-RB-86-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22433015
+# target: 
+#   Z: 38
+#   A: 86
+#   nuclide: Sr86
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 37
+#     A: 86
+#     nuclide: Rb86m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.340000E+01   5.000000E-02   1.009794E+01   5.049000E-01   9.997963E-01
+   1.365000E+01   5.000000E-02   1.109774E+01   5.548900E-01   9.997963E-01
+   1.388000E+01   5.000000E-02   1.269741E+01   5.967800E-01   9.997963E-01
+   1.428000E+01   5.000000E-02   1.209754E+01   6.895600E-01   9.997963E-01
+   1.458000E+01   5.000000E-02   1.319731E+01   6.598700E-01   9.997963E-01
+   1.487000E+01   5.000000E-02   1.289737E+01   6.319700E-01   9.997963E-01
+# reference:
+#   author: Y.Kasugai, H.Yamamoto, K.Kawade, T.Iida
+#   title: Measurement of (n,p) cross-sections for short-lived  products by 13.4-14.9 MeV neutrons
+#   journal: Jour: Annals of Nuclear Energy, Vol.25, Issue.1-3, p.23 (1998)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.340000E+01
+#   E-max [MeV]:  1.487000E+01
+#   F-value:  1.188814E+00
+#   A-value:  9.131681E-01
+#   chi-2:  8.985493E+00
+#   p-value:  3.286034E-01
+#   exp. data sets for p-value:      1
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.046788E+00   1.000709E+00   1.205552E+00
+# jeff4.0       1.399456E+00   7.172064E-01   3.245297E+01
+# jendl5.0      1.049863E+00   9.914359E-01   1.194015E+00
+# eaf.2010      1.048520E+00   9.772062E-01   1.089433E+00

@@ -1,0 +1,52 @@
+# header: 
+#   title: Al27(p,x)Si26 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Wilson
+#   year: 1976
+#   subentry: D4104009
+#   X4 reaction: 13-AL-27(P,2N)14-SI-26,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D4104009
+# target: 
+#   Z: 13
+#   A: 27
+#   nuclide: Al27
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 14
+#     A: 26
+#     nuclide: Si26
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.635000E+01   3.500000E-01   5.000000E-01   9.999999E-02   1.000000E+00
+# reference:
+#   author: R.L.Wilson,D.J.Frantsvog,A.R.Kunselman,C.Detraz, C.S.Zasdins
+#   title: Excitation functions of reactions induced by 1H and 2H ions on natural Mg, Al and Si
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.13, p.976 (1976)
+# statistics:
+#   NEA score: T2
+#   IAEA score:  1
+#   E-min [MeV]:  2.635000E+01
+#   E-max [MeV]:  2.635000E+01
+#   F-value:  3.342023E+00
+#   A-value:  2.632139E+00
+#   chi-2:  2.232448E+02
+#   p-value:  1.427436E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    5.690652E+00   5.690652E+00   5.500555E+02
+# endfb8.1      1.005296E+00   1.005296E+00   3.337282E-02
+# jendl5.0      3.187650E+00   3.187650E+00   1.196454E+02

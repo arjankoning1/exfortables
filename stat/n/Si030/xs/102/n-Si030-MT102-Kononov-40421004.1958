@@ -1,0 +1,55 @@
+# header: 
+#   title: Si30(n,g)Si31 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Kononov
+#   year: 1958
+#   subentry: 40421004
+#   X4 reaction: 14-SI-30(N,G)14-SI-31,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/40421004
+# target: 
+#   Z: 14
+#   A: 30
+#   nuclide: Si30
+# reaction: 
+#   type: (n,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 14
+#     A: 31
+#     nuclide: Si31
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.400000E-02   0.000000E+00   2.060000E+00   5.100000E-01   1.000000E+00
+# reference:
+#   author: V.N.Kononov,Iu.Ia.Stavisskii,V.A.Tolstikov
+#   title: Measurement of the radiative capture cross sections of  25 keV neutrons
+#   journal: Jour: Soviet Atomic Energy, Vol.5, p.1483 (1958)
+# statistics:
+#   NEA score: T2
+#   IAEA score:  1
+#   E-min [MeV]:  2.400000E-02
+#   E-max [MeV]:  2.400000E-02
+#   F-value:  1.594479E+01
+#   A-value:  6.320924E-02
+#   chi-2:  1.427968E+01
+#   p-value:  4.768372E-07
+#   exp. data sets for p-value:      2
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.816327E+01   5.505616E-02   1.457214E+01
+# endfb8.1      1.610063E+01   6.210936E-02   1.435588E+01
+# jeff4.0       1.610063E+01   6.210936E-02   1.435588E+01
+# jendl5.0      1.816327E+01   5.505616E-02   1.457214E+01
+# cendl3.2      1.816215E+01   5.505956E-02   1.457203E+01
+# eaf.2010      1.009428E+01   9.906597E-02   1.325003E+01

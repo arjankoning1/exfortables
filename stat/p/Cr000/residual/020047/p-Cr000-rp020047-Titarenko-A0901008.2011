@@ -1,0 +1,59 @@
+# header: 
+#   title: Cr0(p,x)Ca47 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Titarenko
+#   year: 2011
+#   subentry: A0901008
+#   X4 reaction: 24-CR-0(P,X)20-CA-47,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/A0901008
+# target: 
+#   Z: 24
+#   A: 0
+#   nuclide: Cr0
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 20
+#     A: 47
+#     nuclide: Ca47
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.480000E+02   1.000000E+00   2.755200E-02   8.477600E-03   1.059701E+00
+   2.480000E+02   1.000000E+00   5.404500E-02   9.537300E-03   1.059701E+00
+   3.990000E+02   2.000000E+00   8.371600E-02   1.377600E-02   1.059701E+00
+   5.990000E+02   2.000000E+00   1.027900E-01   2.649300E-02   1.059701E+00
+   7.990000E+02   2.000000E+00   1.133900E-01   4.238800E-02   1.059701E+00
+   1.198000E+03   3.000000E+00   1.430600E-01   1.907500E-02   1.059701E+00
+   1.598000E+03   4.000000E+00   1.186900E-01   1.165700E-02   1.059701E+00
+   2.605000E+03   8.000000E+00   9.431300E-02   9.537300E-03   1.059701E+00
+# reference:
+#   author: Yu.E.Titarenko, V.F.Batyaev, A.Yu.Titarenko, M.A.Butko, K.V.Pavlov, S.N.Florya, R.S.Tikhonov, V.M.Zhivun, A.V.Ignatyuk, S.G.Mashnik, S.Leray, A.Boudard, J.Cugnon, D.Mancusi, Y.Yariv, K.Nishihara, N.Matsuda, H.Kumawat, G.Mank, W.Gudowski
+#   title: Measurement and simulation of the cross sections for nuclide production in Fe-56 and Cr-nat targets irradiated with 0.04- to 2.6-GeV protons.
+#   journal: Jour: Yadernaya Fizika, Vol.74, p.548 (2011)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  1.480000E+02
+#   E-max [MeV]:  2.605000E+03
+#   F-value:  2.882109E+00
+#   A-value:  3.849705E-01
+#   chi-2:  4.183335E+00
+#   p-value:  1.521324E-02
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    4.725071E+00   2.116370E-01   6.693578E+00
+# endfb8.1      1.556469E+00   6.424800E-01   1.933486E+00
+# jendl5.0      2.383247E+00   4.195956E-01   3.922941E+00

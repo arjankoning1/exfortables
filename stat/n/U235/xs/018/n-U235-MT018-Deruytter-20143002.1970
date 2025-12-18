@@ -1,0 +1,52 @@
+# header: 
+#   title: U235(n,f) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Deruytter
+#   year: 1970
+#   subentry: 20143002
+#   X4 reaction: 92-U-235(N,F),,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20143002
+# target: 
+#   Z: 92
+#   A: 235
+#   nuclide: U235
+# reaction: 
+#   type: (n,f)
+#   ENDF_MF: 3
+#   ENDF_MT: 18
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.530000E-08   0.000000E+00   5.890019E+05   5.203349E+03   1.002386E+00
+# reference:
+#   author: A.J.Deruytter, W.Becker
+#   title: Precise 2200 m/sec fission cross-sections of Pu-239  and U-235
+#   journal: Conf: Nuclear Data for Reactors Conf., Helsinki 1970, Vol.1, p.117 (1970
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.530000E-08
+#   E-max [MeV]:  2.530000E-08
+#   F-value:  1.017685E+00
+#   A-value:  9.828529E-01
+#   chi-2:  4.214486E+00
+#   p-value:  3.608349E-01
+#   exp. data sets for p-value:      8
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.015313E+00   9.849182E-01   3.349733E+00
+# endfb8.1      1.016467E+00   9.837993E-01   3.748796E+00
+# jeff4.0       1.016507E+00   9.837607E-01   3.763090E+00
+# jendl5.0      1.015232E+00   9.849966E-01   3.322879E+00
+# cendl3.2      1.020884E+00   9.795436E-01   5.564133E+00
+# eaf.2010      1.022883E+00   9.776287E-01   6.549531E+00
+# irdff2.0      1.014867E+00   9.853509E-01   3.203243E+00

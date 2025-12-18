@@ -1,0 +1,52 @@
+# header: 
+#   title: Ag109(n,x)Ag110 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Anufriev
+#   year: 1982
+#   subentry: 40622011
+#   X4 reaction: 47-AG-109(N,G)47-AG-110,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/40622011
+# target: 
+#   Z: 47
+#   A: 109
+#   nuclide: Ag109
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 47
+#     A: 110
+#     nuclide: Ag110
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.500000E-08   6.341500E-12   9.100000E+04   4.000000E+03   1.000000E+00
+# reference:
+#   author: V.A.Anufriev, S.I.Babich,V.N.Nefedov
+#   title: Measurement of the neutron total cross-sections of 109Ag and 110mAg
+#   journal: Jour: Atomnaya Energiya, Vol.53, p.29 (1982)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.500000E-08
+#   E-max [MeV]:  2.500000E-08
+#   F-value:  1.016098E+00
+#   A-value:  1.013087E+00
+#   chi-2:  4.157517E-01
+#   p-value:  4.157102E-01
+#   exp. data sets for p-value:      2
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.019751E+00   1.019751E+00   6.220556E-01
+# jeff4.0       1.019751E+00   1.019751E+00   6.220556E-01
+# jendl5.0      1.000110E+00   9.998898E-01   3.143661E-03

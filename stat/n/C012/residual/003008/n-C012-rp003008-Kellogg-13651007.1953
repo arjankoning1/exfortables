@@ -1,0 +1,53 @@
+# header: 
+#   title: C12(n,x)Li8 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Kellogg
+#   year: 1953
+#   subentry: 13651007
+#   X4 reaction: 6-C-12(N,X)3-LI-8,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/13651007
+# target: 
+#   Z: 6
+#   A: 12
+#   nuclide: C12
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 3
+#     A: 8
+#     nuclide: Li8
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   9.000000E+01   6.000000E+01   8.200000E-01   4.200000E-01   1.000000E+00
+# reference:
+#   author: D.A.KELLOGG
+#   title: Cross Sections for Products of 90-MeV Neutrons on  Carbon
+#   journal: Jour: Physical Review, Vol.90, p.224 (1953)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  9.000000E+01
+#   E-max [MeV]:  9.000000E+01
+#   F-value:  1.567445E+00
+#   A-value:  1.420562E+00
+#   chi-2:  1.950711E+00
+#   p-value:  1.031649E-01
+#   exp. data sets for p-value:      1
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    2.202389E+00   2.202389E+00   5.702430E+00
+# endfb8.1      1.111805E+00   1.111805E+00   2.867118E-01
+# jeff4.0       1.111805E+00   1.111805E+00   2.867118E-01
+# jendl5.0      1.495857E+00   1.495857E+00   1.526990E+00

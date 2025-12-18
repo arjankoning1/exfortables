@@ -1,0 +1,57 @@
+# header: 
+#   title: Ti48(n,x)Sc47 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Ikeda
+#   year: 1988
+#   subentry: 22089030
+#   X4 reaction: 22-TI-48(N,X)21-SC-47,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22089030
+# target: 
+#   Z: 22
+#   A: 48
+#   nuclide: Ti48
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 28
+#   residual: 
+#     Z: 21
+#     A: 47
+#     nuclide: Sc47
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.337000E+01   0.000000E+00   2.437100E+00   1.705000E-01   1.002928E+00
+   1.360000E+01   0.000000E+00   3.550400E+00   2.507300E-01   1.002928E+00
+   1.399000E+01   0.000000E+00   6.107800E+00   4.112000E-01   1.002928E+00
+   1.446000E+01   0.000000E+00   1.240622E+01   8.224000E-01   1.002928E+00
+   1.471000E+01   0.000000E+00   1.594656E+01   1.002900E+00   1.002928E+00
+   1.500000E+01   0.000000E+00   2.076061E+01   1.404100E+00   1.002928E+00
+# reference:
+#   author: Y.Ikeda,C.Konno,K.Oishi,T.Nakamura,H.Miyade, K.Kawade,  H.Yamamoto, T.Katoh
+#   title: Activation cross section measurements for fusion  reactor structural materials at neutron energy from  13.3 to 15.0 MeV using FNS facility
+#   journal: Rept: JAERI Reports, No.1312 (1988)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  1.337000E+01
+#   E-max [MeV]:  1.500000E+01
+#   F-value:  1.921448E+00
+#   A-value:  5.593887E-01
+#   chi-2:  4.343633E+01
+#   p-value:  1.474325E-01
+#   exp. data sets for p-value:      2
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    2.258733E+00   4.524062E-01   6.478960E+01
+# jeff4.0       1.544977E+00   6.481733E-01   2.728843E+01
+# jendl5.0      1.921281E+00   5.969273E-01   3.823095E+01

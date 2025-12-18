@@ -1,0 +1,60 @@
+# header: 
+#   title: Ce142(n,x)Ce141 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Bormann
+#   year: 1968
+#   subentry: 20834008
+#   X4 reaction: 58-CE-142(N,2N)58-CE-141,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20834008
+# target: 
+#   Z: 58
+#   A: 142
+#   nuclide: Ce142
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 58
+#     A: 141
+#     nuclide: Ce141
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.294000E+01   2.000000E-01   1.792000E+03   1.680000E+02   1.000000E+00
+   1.351000E+01   2.200000E-01   1.778000E+03   1.640000E+02   1.000000E+00
+   1.410000E+01   2.700000E-01   1.695000E+03   1.020000E+02   1.000000E+00
+   1.488000E+01   3.100000E-01   1.802000E+03   1.600000E+02   1.000000E+00
+   1.562000E+01   3.300000E-01   1.581000E+03   1.420000E+02   1.000000E+00
+   1.631000E+01   3.400000E-01   1.570000E+03   1.410000E+02   1.000000E+00
+   1.723000E+01   3.400000E-01   1.326000E+03   1.180000E+02   1.000000E+00
+   1.802000E+01   3.000000E-01   1.199000E+03   1.030000E+02   1.000000E+00
+   1.889000E+01   1.900000E-01   8.760000E+02   7.400000E+01   1.000000E+00
+   1.956000E+01   1.400000E-01   7.940000E+02   6.400000E+01   1.000000E+00
+# reference:
+#   author: M.Bormann,A.Behrend,I.Riehle,O.Vogel
+#   title: Measurement of (n,2n) excitation functions
+#   journal: Jour: Nuclear Physics, Section A, Vol.115, p.309 (1968)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.294000E+01
+#   E-max [MeV]:  1.956000E+01
+#   F-value:  1.189595E+00
+#   A-value:  8.880215E-01
+#   chi-2:  3.476003E+00
+#   p-value:  2.912850E-01
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.195334E+00   8.827370E-01   3.648647E+00
+# jeff4.0       1.183721E+00   8.933375E-01   3.303360E+00

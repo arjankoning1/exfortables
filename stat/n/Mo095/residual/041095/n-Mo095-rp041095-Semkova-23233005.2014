@@ -1,0 +1,55 @@
+# header: 
+#   title: Mo95(n,x)Nb95 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Semkova
+#   year: 2014
+#   subentry: 23233005
+#   X4 reaction: 42-MO-95(N,P)41-NB-95,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/23233005
+# target: 
+#   Z: 42
+#   A: 95
+#   nuclide: Mo95
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 41
+#     A: 95
+#     nuclide: Nb95
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   8.080000E+00   1.200000E-01   5.700000E+00   8.000000E-01   1.000000E+00
+   1.005000E+01   1.100000E-01   1.510000E+01   1.000000E+00   1.000000E+00
+   1.209000E+01   1.100000E-01   2.770000E+01   1.500000E+00   1.000000E+00
+   1.308000E+01   1.100000E-01   3.600000E+01   1.000000E+00   1.000000E+00
+# reference:
+#   author: V.Semkova, R.Nolte
+#   title: Measurement of neutron activation cross sections on Mo isotopes in the energy range from 7 MeV to 15 MeV.
+#   journal: Jour: EPJ Web of Conferences, Vol.66, p.03077 (2014)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  8.080000E+00
+#   E-max [MeV]:  1.308000E+01
+#   F-value:  1.086123E+00
+#   A-value:  9.509464E-01
+#   chi-2:  2.580644E+00
+#   p-value:  3.150504E-01
+#   exp. data sets for p-value:      2
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.061398E+00   9.764130E-01   2.125424E+00
+# jeff4.0       1.061398E+00   9.764130E-01   2.125419E+00
+# jendl5.0      1.122599E+00   9.019886E-01   3.491089E+00

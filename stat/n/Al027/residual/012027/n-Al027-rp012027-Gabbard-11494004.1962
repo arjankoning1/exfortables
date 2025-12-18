@@ -1,0 +1,66 @@
+# header: 
+#   title: Al27(n,x)Mg27 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Gabbard
+#   year: 1962
+#   subentry: 11494004
+#   X4 reaction: 13-AL-27(N,P)12-MG-27,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11494004
+# target: 
+#   Z: 13
+#   A: 27
+#   nuclide: Al27
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 12
+#     A: 27
+#     nuclide: Mg27
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 14
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.240000E+01   0.000000E+00   8.795183E+01   1.134862E+01   1.418578E+00
+   1.290000E+01   0.000000E+00   8.795183E+01   5.674300E+00   1.418578E+00
+   1.310000E+01   0.000000E+00   8.227750E+01   8.511500E+00   1.418578E+00
+   1.370000E+01   0.000000E+00   8.227750E+01   5.674300E+00   1.418578E+00
+   1.440000E+01   0.000000E+00   5.958027E+01   8.623800E-01   1.418578E+00
+   1.445000E+01   0.000000E+00   6.383601E+01   9.239800E-01   1.418578E+00
+   1.490000E+01   0.000000E+00   6.525458E+01   6.798800E+00   1.418578E+00
+   1.545000E+01   0.000000E+00   5.958027E+01   1.900700E+00   1.418578E+00
+   1.595000E+01   0.000000E+00   4.255734E+01   6.109500E+00   1.418578E+00
+   1.640000E+01   0.000000E+00   4.113876E+01   6.295100E+00   1.418578E+00
+   1.650000E+01   0.000000E+00   4.113876E+01   5.674300E+00   1.418578E+00
+   1.680000E+01   0.000000E+00   5.106880E+01   8.844199E+00   1.418578E+00
+   1.740000E+01   0.000000E+00   3.688303E+01   6.787300E+00   1.418578E+00
+   1.770000E+01   0.000000E+00   1.418578E+01   8.279070E+00   1.418578E+00
+# reference:
+#   author: F.Gabbard,B.D.Kern
+#   title: Cross sections for charged particle reactions induced in medium weight nuclei by neutrons in the energy range 12-18 MeV.
+#   journal: Jour: Physical Review, Vol.128, p.1276 (1962)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.240000E+01
+#   E-max [MeV]:  1.770000E+01
+#   F-value:  1.404430E+00
+#   A-value:  1.192872E+00
+#   chi-2:  2.154122E+01
+#   p-value:  2.282610E-01
+#   exp. data sets for p-value:      4
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.363984E+00   1.166496E+00   1.756696E+01
+# endfb8.1      1.361948E+00   1.164611E+00   1.745365E+01
+# jeff4.0       1.361999E+00   1.164639E+00   1.745258E+01
+# jendl5.0      1.517901E+00   1.279734E+00   3.369167E+01

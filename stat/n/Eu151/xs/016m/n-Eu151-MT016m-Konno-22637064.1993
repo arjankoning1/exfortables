@@ -1,0 +1,63 @@
+# header: 
+#   title: Eu151(n,2n)Eu150m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Konno
+#   year: 1993
+#   subentry: 22637064
+#   X4 reaction: 63-EU-151(N,2N)63-EU-150-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22637064
+# target: 
+#   Z: 63
+#   A: 151
+#   nuclide: Eu151
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 63
+#     A: 150
+#     nuclide: Eu150m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.333000E+01   0.000000E+00   5.222676E+02   9.425048E+01   9.671621E-01
+   1.356000E+01   0.000000E+00   4.884170E+02   8.961137E+01   9.671621E-01
+   1.398000E+01   0.000000E+00   4.903512E+02   8.959312E+01   9.671621E-01
+   1.422000E+01   0.000000E+00   4.835812E+02   8.866521E+01   9.671621E-01
+   1.466000E+01   0.000000E+00   4.806796E+02   8.770079E+01   9.671621E-01
+   1.492000E+01   0.000000E+00   4.603692E+02   8.392528E+01   9.671621E-01
+# reference:
+#   author: C.Konno, Y.Ikeda, K.Oishi, K.Kawade, H.Yamamoto, H.Maekawa
+#   title: Activation Cross section measurements at neutron  energy from 13.3 to 14.9 MeV
+#   journal: Rept: JAERI Reports, No.1329 (1993)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.333000E+01
+#   E-max [MeV]:  1.492000E+01
+#   F-value:  1.023929E+00
+#   A-value:  1.019711E+00
+#   chi-2:  1.418377E-01
+#   p-value:  4.199965E-01
+#   exp. data sets for p-value:      3
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.020014E+00   1.017040E+00   1.204757E-01
+# jeff4.0       1.020014E+00   1.017040E+00   1.204756E-01
+# jendl5.0      1.019483E+00   1.014076E+00   1.055614E-01
+# eaf.2010      1.033394E+00   1.030772E+00   2.208380E-01

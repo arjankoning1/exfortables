@@ -1,0 +1,58 @@
+# header: 
+#   title: U238(n,tot) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Grigoriev
+#   year: 1990
+#   subentry: 41154002
+#   X4 reaction: 92-U-238(N,TOT),,SIG,,AV
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/41154002
+# target: 
+#   Z: 92
+#   A: 238
+#   nuclide: U238
+# reaction: 
+#   type: (n,tot)
+#   ENDF_MF: 3
+#   ENDF_MT: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   7.325000E-04   2.675000E-04   2.410000E+04   1.000000E+03   1.000000E+00
+   1.575000E-03   5.750000E-04   2.400000E+04   1.000000E+03   1.000000E+00
+   3.400000E-03   1.250000E-03   2.070000E+04   7.000000E+02   1.000000E+00
+   7.325000E-03   2.675000E-03   1.550000E+04   5.000000E+02   1.000000E+00
+   1.575000E-02   5.750000E-03   1.550000E+04   5.000000E+02   1.000000E+00
+   3.400000E-02   1.250000E-02   1.390000E+04   4.000000E+02   1.000000E+00
+   7.325000E-02   2.675000E-02   1.280000E+04   3.000000E+02   1.000000E+00
+   1.500000E-01   5.000000E-02   1.150000E+04   3.000000E+02   1.000000E+00
+# reference:
+#   author: Yu.V.Grigoriev,V.N.Koshcheev,G.N.Manturov, I.A.Sirakov,V.V.Sinitsa,N.B.Yaneva
+#   title: Determination of the resonance structure parameters  of the U-238 cross-section on the basis of the  measurements of total and partial transmissions  in the energy range 0.465 - 200 keV
+#   journal: Rept: Fiz.-Energ Institut, Obninsk Reports, No.2072 (1990)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  7.325000E-04
+#   E-max [MeV]:  1.500000E-01
+#   F-value:  1.284306E+00
+#   A-value:  9.307812E-01
+#   chi-2:  2.157249E+01
+#   p-value:  2.749526E-01
+#   exp. data sets for p-value:      8
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.284227E+00   9.298485E-01   2.162420E+01
+# endfb8.1      1.283925E+00   9.301158E-01   2.163393E+01
+# jeff4.0       1.284121E+00   9.364831E-01   2.136599E+01
+# jendl5.0      1.283805E+00   9.300866E-01   2.157631E+01
+# cendl3.2      1.285431E+00   9.286952E-01   2.156143E+01
+# irdff2.0      1.284328E+00   9.294795E-01   2.167309E+01

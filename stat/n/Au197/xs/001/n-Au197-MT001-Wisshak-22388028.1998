@@ -1,0 +1,59 @@
+# header: 
+#   title: Au197(n,tot) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Wisshak
+#   year: 1998
+#   subentry: 22388028
+#   X4 reaction: 79-AU-197(N,TOT),,SIG,,AV
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22388028
+# target: 
+#   Z: 79
+#   A: 197
+#   nuclide: Au197
+# reaction: 
+#   type: (n,tot)
+#   ENDF_MF: 3
+#   ENDF_MT: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 9
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.250000E-02   2.500000E-03   1.540000E+04   1.447600E+03   1.000000E+00
+   1.750000E-02   2.500000E-03   1.400000E+04   1.316000E+03   1.000000E+00
+   2.500000E-02   5.000000E-03   1.450000E+04   1.363000E+03   1.000000E+00
+   3.500000E-02   5.000000E-03   1.330000E+04   1.250200E+03   1.000000E+00
+   5.000000E-02   1.000000E-02   1.110000E+04   1.043400E+03   1.000000E+00
+   7.000000E-02   1.000000E-02   1.110000E+04   1.043400E+03   1.000000E+00
+   9.000000E-02   1.000000E-02   1.170000E+04   1.099800E+03   1.000000E+00
+   1.250000E-01   2.500000E-02   1.330000E+04   1.250200E+03   1.000000E+00
+   1.750000E-01   2.500000E-02   8.200000E+03   7.707999E+02   1.000000E+00
+# reference:
+#   author: K.Wisshak,F.Voss,F.Kaeppeler,L.Kazakov,G.Reffo
+#   title: Stellar neutron capture cross sections of the  neodymium isotopes
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.57, p.391 (1998)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.250000E-02
+#   E-max [MeV]:  1.750000E-01
+#   F-value:  1.223863E+00
+#   A-value:  1.031771E+00
+#   chi-2:  6.745680E+00
+#   p-value:  2.956406E-01
+#   exp. data sets for p-value:      8
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.529564E+00   1.482280E+00   3.368890E+01
+# endfb8.1      1.116469E+00   9.678861E-01   1.298077E+00
+# jeff4.0       1.116492E+00   9.678828E-01   1.298497E+00
+# jendl5.0      1.124464E+00   9.482422E-01   1.452987E+00
+# cendl3.2      1.125921E+00   9.466293E-01   1.437541E+00
+# irdff2.0      1.116469E+00   9.678863E-01   1.298078E+00

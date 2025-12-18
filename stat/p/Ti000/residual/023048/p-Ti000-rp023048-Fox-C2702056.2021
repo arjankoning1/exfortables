@@ -1,0 +1,57 @@
+# header: 
+#   title: Ti0(p,x)V48 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Fox
+#   year: 2021
+#   subentry: C2702056
+#   X4 reaction: 22-TI-0(P,X)23-V-48,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C2702056
+# target: 
+#   Z: 22
+#   A: 0
+#   nuclide: Ti0
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 23
+#     A: 48
+#     nuclide: V48
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.040500E+02   7.400000E-01   7.060000E+00   2.800000E-01   1.000000E+00
+   1.196300E+02   6.700000E-01   6.240000E+00   2.000000E-01   1.000000E+00
+   1.337200E+02   6.200000E-01   5.600000E+00   1.700000E-01   1.000000E+00
+   1.485200E+02   5.800000E-01   4.860000E+00   1.200000E-01   1.000000E+00
+   1.631800E+02   5.400000E-01   4.160000E+00   1.200000E-01   1.000000E+00
+   1.769900E+02   5.100000E-01   4.110000E+00   1.300000E-01   1.000000E+00
+   1.922600E+02   4.900000E-01   3.620000E+00   1.300000E-01   1.000000E+00
+# reference:
+#   author: M.B.Fox,A.S.Voyles,J.T.Morrell,L.A.Bernstein, J.C.Batchelder,E.R.Birnbaum,C.S.Cutler,A.J.Koning, A.M.Lewis,D.G.Medvedev,F.M.Nortier,E.M.O'Brien, Ch.Vermeulen
+#   title: Measurement and modeling of proton-induced reactions on arsenic from 35 to 200 MeV
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.104, p.064615 (2021)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  1.040500E+02
+#   E-max [MeV]:  1.922600E+02
+#   F-value:  3.022900E+00
+#   A-value:  3.370329E-01
+#   chi-2:  4.615798E+02
+#   p-value:  1.841043E-01
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    3.312690E+00   3.062156E-01   5.057720E+02
+# jendl5.0      2.735679E+00   3.709517E-01   4.173875E+02

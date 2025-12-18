@@ -1,0 +1,54 @@
+# header: 
+#   title: H1(n,g)H2 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Lolich
+#   year: 1980
+#   subentry: 30551003
+#   X4 reaction: 1-H-1(N,G)1-H-2,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30551003
+# target: 
+#   Z: 1
+#   A: 1
+#   nuclide: H1
+# reaction: 
+#   type: (n,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 1
+#     A: 2
+#     nuclide: H2
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.530000E-08   0.000000E+00   3.290000E+02   2.000000E+00   1.000000E+00
+# reference:
+#   author: J.V.Lolich,M.Abbate
+#   title: Total cross section and diffusion parameters of benzene  (from 0.001 to 225 eV neutron energy).
+#   journal: Jour: Atomkernenergie, Vol.35, Issue.1, p.23 (1980)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.530000E-08
+#   E-max [MeV]:  2.530000E-08
+#   F-value:  1.000303E+00
+#   A-value:  9.998281E-01
+#   chi-2:  3.610056E-02
+#   p-value:  2.607337E-01
+#   exp. data sets for p-value:      8
+#   libraries:      5
+##  Library          F              A            chi-2
+# endfb8.1      1.000047E+00   9.999529E-01   9.734453E-03
+# jeff4.0       1.000047E+00   9.999529E-01   9.734453E-03
+# jendl5.0      1.000047E+00   9.999529E-01   9.734453E-03
+# cendl3.2      1.000047E+00   9.999529E-01   9.734453E-03
+# eaf.2010      1.000671E+00   9.993292E-01   1.415650E-01

@@ -1,0 +1,66 @@
+# header: 
+#   title: Mg25(n,p)Na25 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Bormann
+#   year: 1966
+#   subentry: 20898003
+#   X4 reaction: 12-MG-25(N,P)11-NA-25,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20898003
+# target: 
+#   Z: 12
+#   A: 25
+#   nuclide: Mg25
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 11
+#     A: 25
+#     nuclide: Na25
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 12
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.300000E+01   1.600000E-01   5.250000E+01   5.300000E+00   1.000000E+00
+   1.325000E+01   1.800000E-01   5.000000E+01   5.000000E+00   1.000000E+00
+   1.355000E+01   1.400000E-01   5.300000E+01   5.300000E+00   1.000000E+00
+   1.400000E+01   1.400000E-01   4.900000E+01   4.900000E+00   1.000000E+00
+   1.428000E+01   1.600000E-01   4.300000E+01   4.300000E+00   1.000000E+00
+   1.474000E+01   2.000000E-01   4.000000E+01   4.000000E+00   1.000000E+00
+   1.521000E+01   2.800000E-01   3.700000E+01   3.700000E+00   1.000000E+00
+   1.568000E+01   2.900000E-01   3.600000E+01   3.600000E+00   1.000000E+00
+   1.592000E+01   2.300000E-01   3.750000E+01   3.800000E+00   1.000000E+00
+   1.617000E+01   2.800000E-01   3.600000E+01   3.600000E+00   1.000000E+00
+   1.642000E+01   3.000000E-01   3.400000E+01   3.400000E+00   1.000000E+00
+   1.665000E+01   2.000000E-01   2.750000E+01   2.800000E+00   1.000000E+00
+# reference:
+#   author: M.Bormann,F.Dreyer,H.Neuert,I.Riehle,U.Zielinski
+#   title: Measurements of some fast neutron cross sections  with the activation method
+#   journal: Conf: Nuclear Data For Reactors Conf., Paris 1966, Vol.1, p.225 (1966)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.300000E+01
+#   E-max [MeV]:  1.665000E+01
+#   F-value:  1.376189E+00
+#   A-value:  1.280086E+00
+#   chi-2:  1.624423E+01
+#   p-value:  1.820693E-01
+#   exp. data sets for p-value:      1
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.429947E+00   1.421440E+00   1.875002E+01
+# endfb8.1      1.151187E+00   1.093692E+00   2.789838E+00
+# jeff4.0       1.332519E+00   1.166436E+00   1.246663E+01
+# jendl5.0      1.151187E+00   1.093692E+00   2.789838E+00
+# cendl3.2      1.563710E+00   1.519240E+00   3.451355E+01
+# eaf.2010      1.495476E+00   1.460256E+00   2.615549E+01

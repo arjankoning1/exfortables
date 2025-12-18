@@ -1,0 +1,62 @@
+# header: 
+#   title: La139(n,a)Cs136 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Zupranska
+#   year: 1980
+#   subentry: 30581007
+#   X4 reaction: 57-LA-139(N,A)55-CS-136,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30581007
+# target: 
+#   Z: 57
+#   A: 139
+#   nuclide: La139
+# reaction: 
+#   type: (n,a)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+#   residual: 
+#     Z: 55
+#     A: 136
+#     nuclide: Cs136
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.300000E+01   1.000000E-01   1.443200E+00   2.709600E-01   1.016349E+00
+   1.330000E+01   1.000000E-01   1.446800E+00   1.388200E-01   1.026091E+00
+   1.390000E+01   2.000000E-01   1.739900E+00   1.154400E-01   1.074023E+00
+   1.450000E+01   2.000000E-01   1.769000E+00   1.277500E-01   1.105639E+00
+   1.510000E+01   2.000000E-01   1.901400E+00   1.367800E-01   1.125088E+00
+   1.550000E+01   2.000000E-01   2.220700E+00   1.115600E-01   1.088566E+00
+   1.590000E+01   2.000000E-01   2.420400E+00   4.141800E-01   1.095222E+00
+   1.660000E+01   1.000000E-01   2.583000E+00   5.021100E-01   1.085301E+00
+# reference:
+#   author: E.Zupranska,K.Rusek,J.Turkiewicz,P.Zupranski
+#   title: Excitation functions for (n,a) reactions in the neutron energy range from 13 to 18 MeV.
+#   journal: Jour: Acta Physica Polonica, Part B, Vol.11, p.853 (1980)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.300000E+01
+#   E-max [MeV]:  1.660000E+01
+#   F-value:  1.387773E+00
+#   A-value:  1.259769E+00
+#   chi-2:  2.334117E+01
+#   p-value:  1.965183E-01
+#   exp. data sets for p-value:      1
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.394581E+00   1.227472E+00   2.360588E+01
+# endfb8.1      1.395544E+00   1.214121E+00   1.937519E+01
+# jeff4.0       1.394581E+00   1.227472E+00   2.360588E+01
+# jendl5.0      1.422304E+00   1.294428E+00   2.718282E+01
+# cendl3.2      1.336218E+00   1.278871E+00   2.123018E+01
+# eaf.2010      1.380350E+00   1.319943E+00   2.504706E+01

@@ -1,0 +1,61 @@
+# header: 
+#   title: Cu63(n,2n)Cu62 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Ikeda
+#   year: 1994
+#   subentry: 22547003
+#   X4 reaction: 29-CU-63(N,2N)29-CU-62,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22547003
+# target: 
+#   Z: 29
+#   A: 63
+#   nuclide: Cu63
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 29
+#     A: 62
+#     nuclide: Cu62
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.340000E+01   0.000000E+00   2.900000E+02   1.000000E+01   1.000000E+00
+   1.370000E+01   0.000000E+00   3.500000E+02   2.000000E+01   1.000000E+00
+   1.400000E+01   0.000000E+00   3.700000E+02   2.000000E+01   1.000000E+00
+   1.440000E+01   0.000000E+00   4.300000E+02   1.000000E+01   1.000000E+00
+   1.470000E+01   0.000000E+00   4.600000E+02   2.000000E+01   1.000000E+00
+   1.500000E+01   0.000000E+00   4.900000E+02   1.000000E+01   1.000000E+00
+# reference:
+#   author: Y.IKEDA,D.L.SMITH, Y.UNO,Y.KASUGAI, C.KONNO,H.MAEKAWA
+#   title: -New Measurement of activation cross section for the  Cu-63(n,2n)Cu-62 and Cu-64(n,2n)Cu-63 Reactions at  Energy Range of 13.3 to 14.9 MeV.
+#   journal: Conf: Conf.on Nucl.Data for Sci.and Techn.,Gatlinburg 1994, Vol.2, p.944
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.340000E+01
+#   E-max [MeV]:  1.500000E+01
+#   F-value:  1.174227E+00
+#   A-value:  1.171154E+00
+#   chi-2:  3.258101E+01
+#   p-value:  1.066480E-01
+#   exp. data sets for p-value:      8
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.156146E+00   1.153805E+00   2.710340E+01
+# endfb8.1      1.158123E+00   1.156080E+00   2.758968E+01
+# jeff4.0       1.158123E+00   1.156080E+00   2.758968E+01
+# jendl5.0      1.210013E+00   1.208444E+00   4.467355E+01
+# cendl3.2      1.173071E+00   1.171181E+00   3.271191E+01
+# eaf.2010      1.199356E+00   1.197714E+00   4.081012E+01
+# irdff2.0      1.158120E+00   1.156077E+00   2.758871E+01

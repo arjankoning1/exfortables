@@ -1,0 +1,57 @@
+# header: 
+#   title: Ca40(n,x)Ar37 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Barnes
+#   year: 1975
+#   subentry: 10476003
+#   X4 reaction: 20-CA-40(N,A)18-AR-37,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/10476003
+# target: 
+#   Z: 20
+#   A: 40
+#   nuclide: Ca40
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+#   residual: 
+#     Z: 18
+#     A: 37
+#     nuclide: Ar37
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   7.520000E+00   1.000000E-02   1.990525E+02   1.242000E+01   9.616061E-01
+   7.850000E+00   1.000000E-02   1.802800E+02   1.158000E+01   9.340932E-01
+   8.550000E+00   1.000000E-02   1.741307E+02   1.134000E+01   9.213265E-01
+   9.280000E+00   1.000000E-02   1.767345E+02   1.086000E+01   9.764339E-01
+   9.300000E+00   1.000000E-02   1.803973E+02   1.110000E+01   9.751204E-01
+# reference:
+#   author: J.W.Barnes,B.P.Bayhurst,B.H.Erkkila,J.S.Gilmore, N.Jarmie,R.J.Prestwood
+#   title: The 40Ca(n,alpha)37Ar cross section from 3 to 14.7 MeV
+#   journal: Jour: Journal of Inorganic and Nuclear Chemistry, Vol.37, p.399 (1975)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  7.520000E+00
+#   E-max [MeV]:  9.300000E+00
+#   F-value:  1.078288E+00
+#   A-value:  1.026243E+00
+#   chi-2:  1.793302E+00
+#   p-value:  4.345926E-01
+#   exp. data sets for p-value:      2
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.051959E+00   9.708992E-01   8.119628E-01
+# endfb8.1      0.000000E+00   0.000000E+00   0.000000E+00
+# jeff4.0       1.098331E+00   1.084741E+00   2.774641E+00
+# jendl5.0      0.000000E+00   0.000000E+00   0.000000E+00

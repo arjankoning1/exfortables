@@ -1,0 +1,52 @@
+# header: 
+#   title: Rb87(n,x)Kr87 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Molla
+#   year: 1977
+#   subentry: 20721072
+#   X4 reaction: 37-RB-87(N,P)36-KR-87,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20721072
+# target: 
+#   Z: 37
+#   A: 87
+#   nuclide: Rb87
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 36
+#     A: 87
+#     nuclide: Kr87
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.470000E+01   3.000000E-01   1.159200E+01   1.255800E+00   9.660000E-01
+# reference:
+#   author: N.I.Molla,S.M.Qaim
+#   title: A systematic study of (n,p) reactions at 14.7 MeV
+#   journal: Jour: Nuclear Physics, Section A, Vol.283, p.269 (1977)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.470000E+01
+#   E-max [MeV]:  1.470000E+01
+#   F-value:  1.107916E+00
+#   A-value:  1.049739E+00
+#   chi-2:  1.310429E+00
+#   p-value:  3.315259E-01
+#   exp. data sets for p-value:      8
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.013987E+00   9.862056E-01   1.639606E-01
+# jeff4.0       1.192644E+00   1.192644E+00   3.569889E+00
+# jendl5.0      1.016798E+00   9.834794E-01   1.974369E-01

@@ -1,0 +1,52 @@
+# header: 
+#   title: Mo96(n,x)Nb96 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Pepelnik
+#   year: 1986
+#   subentry: 21999029
+#   X4 reaction: 42-MO-96(N,P)41-NB-96,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21999029
+# target: 
+#   Z: 42
+#   A: 96
+#   nuclide: Mo96
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 41
+#     A: 96
+#     nuclide: Nb96
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.470000E+01   6.000000E-02   1.900000E+01   1.000000E+00   1.000000E+00
+# reference:
+#   author: R.Pepelnik,B.Anders,B.M.Bahal,M.Farooq
+#   title: -14 MeV neutron activation cross sections-
+#   journal: Rept: Ges.Kernen.-Verwertung, Schiffbau and Schiffahrt, No.86-E-29 (1986
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.470000E+01
+#   E-max [MeV]:  1.470000E+01
+#   F-value:  1.246915E+00
+#   A-value:  1.243215E+00
+#   chi-2:  2.220915E+01
+#   p-value:  2.607148E-01
+#   exp. data sets for p-value:      8
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.275355E+00   1.275355E+00   2.737111E+01
+# jeff4.0       1.275355E+00   1.275355E+00   2.737111E+01
+# jendl5.0      1.181345E+00   1.181345E+00   1.188523E+01

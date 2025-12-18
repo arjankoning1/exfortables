@@ -1,0 +1,57 @@
+# header: 
+#   title: Ba0(n,x)Cs134 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: LuHanlinn
+#   year: 1992
+#   subentry: 31421006
+#   X4 reaction: 56-BA-0(N,X)55-CS-134,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/31421006
+# target: 
+#   Z: 56
+#   A: 0
+#   nuclide: Ba0
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 55
+#     A: 134
+#     nuclide: Cs134
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.350000E+01   1.500000E-01   4.585200E-01   1.565300E-02   1.009948E+00
+   1.410000E+01   1.500000E-01   5.258100E-01   1.649700E-02   1.007296E+00
+   1.464000E+01   2.100000E-01   6.933100E-01   2.320300E-02   1.003337E+00
+   1.482000E+01   2.100000E-01   6.446200E-01   2.080300E-02   1.005650E+00
+   1.695000E+01   3.300000E-01   1.899500E+00   5.799900E-02   1.061161E+00
+   1.798000E+01   2.100000E-01   1.443800E+00   5.284200E-02   1.069510E+00
+# reference:
+#   author: Lu Hanlin,Zhao Wenrong,Yu Weixiang
+#   title: Activation cross section for element barium
+#   journal: Jour: Chinese J.of Nuclear Physics (Beijing)., Vol.14, Issue.3, p.244 (1
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.350000E+01
+#   E-max [MeV]:  1.798000E+01
+#   F-value:  2.190758E+00
+#   A-value:  4.900742E-01
+#   chi-2:  2.555708E+02
+#   p-value:  2.927496E-01
+#   exp. data sets for p-value:      2
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.990312E+00   5.460704E-01   2.118234E+02
+# jeff4.0       2.117894E+00   4.843377E-01   2.536774E+02
+# jendl5.0      2.457219E+00   4.450292E-01   3.012115E+02

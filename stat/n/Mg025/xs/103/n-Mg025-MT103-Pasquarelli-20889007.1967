@@ -1,0 +1,55 @@
+# header: 
+#   title: Mg25(n,p)Na25 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Pasquarelli
+#   year: 1967
+#   subentry: 20889007
+#   X4 reaction: 12-MG-25(N,P)11-NA-25,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20889007
+# target: 
+#   Z: 12
+#   A: 25
+#   nuclide: Mg25
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 11
+#     A: 25
+#     nuclide: Na25
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.470000E+01   1.000000E-01   6.600001E+01   3.000000E+00   1.000000E+00
+# reference:
+#   author: A.PASQUARELLI
+#   title: -MEASUREMENT OF CROSS SECTIONS FOR (N,2N),(N,P)  AND (N,ALPHA) REACTIONS AT 14.7 MEV-
+#   journal: Jour: Nuclear Physics, Section A, Vol.93, p.218 (1967)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.470000E+01
+#   E-max [MeV]:  1.470000E+01
+#   F-value:  1.255843E+00
+#   A-value:  8.389116E-01
+#   chi-2:  1.868860E+01
+#   p-value:  2.214550E-01
+#   exp. data sets for p-value:      8
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.055328E+00   9.475726E-01   1.914668E+00
+# endfb8.1      1.378832E+00   7.252517E-01   3.653553E+01
+# jeff4.0       1.374710E+00   7.274259E-01   3.595957E+01
+# jendl5.0      1.378832E+00   7.252517E-01   3.653553E+01
+# cendl3.2      1.015353E+00   9.848796E-01   4.482690E-01
+# eaf.2010      1.024389E+00   9.761920E-01   7.380053E-01

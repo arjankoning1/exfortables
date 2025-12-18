@@ -1,0 +1,76 @@
+# header: 
+#   title: Tc99(n,n')Tc99m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Reimer
+#   year: 2009
+#   subentry: 22655007
+#   X4 reaction: 43-TC-99(N,INL)43-TC-99-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22655007
+# target: 
+#   Z: 43
+#   A: 99
+#   nuclide: Tc99
+# reaction: 
+#   type: (n,n')
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+#   residual: 
+#     Z: 43
+#     A: 99
+#     nuclide: Tc99m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 20
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   4.800000E-01   8.000000E-02   6.002000E+00   4.001300E+00   1.000337E+00
+   9.800000E-01   6.000000E-02   7.902664E+01   1.200405E+01   1.000337E+00
+   2.020000E+00   4.000000E-02   2.110711E+02   1.700573E+01   1.000337E+00
+   2.980000E+00   3.000000E-02   2.230752E+02   1.900641E+01   1.000337E+00
+   3.970000E+00   3.000000E-02   2.390806E+02   2.000674E+01   1.000337E+00
+   4.930000E+00   3.000000E-02   3.231089E+02   3.001011E+01   1.000337E+00
+   5.430000E+00   2.000000E-02   3.181072E+02   3.901315E+01   1.000337E+00
+   5.910000E+00   1.000000E-02   3.101045E+02   4.101383E+01   1.000337E+00
+   7.500000E+00   2.000000E-01   3.091041E+02   1.900640E+01   1.000337E+00
+   8.600000E+00   2.000000E-01   2.971001E+02   1.600539E+01   1.000337E+00
+   9.600000E+00   2.000000E-01   2.690907E+02   2.200742E+01   1.000337E+00
+   1.070000E+01   2.000000E-01   2.050691E+02   2.300775E+01   1.000337E+00
+   1.240000E+01   3.000000E-01   1.100371E+02   2.000674E+01   1.000337E+00
+   1.390000E+01   2.000000E-01   7.742610E+01   4.801600E+00   1.000337E+00
+   1.440000E+01   2.000000E-01   7.712600E+01   6.802300E+00   1.000337E+00
+   1.480000E+01   2.000000E-01   6.482185E+01   4.001300E+00   1.000337E+00
+   1.630000E+01   3.000000E-01   6.082050E+01   5.401800E+00   1.000337E+00
+   1.800000E+01   1.000000E-01   5.621896E+01   6.202100E+00   1.000337E+00
+   1.930000E+01   1.000000E-01   6.382151E+01   1.020344E+01   1.000337E+00
+   2.060000E+01   1.000000E-01   7.122400E+01   2.250759E+01   1.000337E+00
+# reference:
+#   author: P.Reimer, S.Sudar, A.J.M.Plompen, S.M.Qaim,A.J.Koning, V.Avrigeanu
+#   title: -Neutron induced reaction cross sections for the  radioactive target nucleus Tc-99.
+#   journal: Jour: Nuclear Physics, Section A, Vol.815, p.1 (2009)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  4.800000E-01
+#   E-max [MeV]:  2.060000E+01
+#   F-value:  1.225905E+00
+#   A-value:  9.589645E-01
+#   chi-2:  5.357800E+00
+#   p-value:  3.194527E-01
+#   exp. data sets for p-value:      2
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.215736E+00   9.247725E-01   4.412156E+00
+# jeff4.0       1.215736E+00   9.247725E-01   4.412156E+00
+# eaf.2010      1.245319E+00   1.031188E+00   7.249088E+00

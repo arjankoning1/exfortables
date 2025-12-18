@@ -1,0 +1,57 @@
+# header: 
+#   title: Y89(n,x)Y89m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Peto
+#   year: 1968
+#   subentry: 30069002
+#   X4 reaction: 39-Y-89(N,INL)39-Y-89-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30069002
+# target: 
+#   Z: 39
+#   A: 89
+#   nuclide: Y89
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+#   residual: 
+#     Z: 39
+#     A: 89
+#     nuclide: Y89m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.500000E+01   6.000000E-01   5.940000E+02   1.300000E+02   1.000000E+00
+# reference:
+#   author: G.Peto,P.Bornemisza-Pauspertl,J.Karolyi
+#   title: Applicability of the statistical model for explaining  the ratio of the (n,n')/(n,2n) cross-sections
+#   journal: Jour: Acta Physica Hungarica, Vol.25, p.91 (1968)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.500000E+01
+#   E-max [MeV]:  1.500000E+01
+#   F-value:  1.452932E+00
+#   A-value:  6.931782E-01
+#   chi-2:  2.519821E+00
+#   p-value:  5.634469E-02
+#   exp. data sets for p-value:      6
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.301932E+00   7.680893E-01   1.713612E+00
+# jeff4.0       1.519324E+00   6.581874E-01   2.927011E+00
+# jendl5.0      1.517842E+00   6.588300E-01   2.918841E+00

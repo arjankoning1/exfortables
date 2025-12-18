@@ -1,0 +1,55 @@
+# header: 
+#   title: F19(n,x)F18 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Shiokawa
+#   year: 1968
+#   subentry: 20278002
+#   X4 reaction: 9-F-19(N,2N)9-F-18,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20278002
+# target: 
+#   Z: 9
+#   A: 19
+#   nuclide: F19
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 9
+#     A: 18
+#     nuclide: F18
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.351000E+01   1.000000E-01   4.360000E+01   2.100000E+00   1.000000E+00
+   1.410000E+01   1.000000E-01   5.580000E+01   2.700000E+00   1.000000E+00
+   1.461000E+01   2.000000E-01   6.590000E+01   3.200000E+00   1.000000E+00
+   1.470000E+01   2.000000E-01   6.710001E+01   3.300000E+00   1.000000E+00
+   1.481000E+01   2.000000E-01   6.840000E+01   3.300000E+00   1.000000E+00
+# reference:
+#   author: T.SHIOKAWA, M.YAGI, H.KAJI, T.SASAKI
+#   title: -THE F-19(N,2N)F-18 REACTION AS A 14-MEV NEUTRON  FLUX MONITOR-
+#   journal: Jour: Journal of Inorganic and Nuclear Chemistry, Vol.30, p.1 (1968)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  0
+#   E-min [MeV]:  1.351000E+01
+#   E-max [MeV]:  1.481000E+01
+#   F-value:  1.406983E+00
+#   A-value:  7.217194E-01
+#   chi-2:  3.428468E+01
+#   p-value:  1.727132E-01
+#   exp. data sets for p-value:      5
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.527777E+00   6.564142E-01   5.044460E+01
+# jendl5.0      1.260387E+00   7.935218E-01   1.812477E+01

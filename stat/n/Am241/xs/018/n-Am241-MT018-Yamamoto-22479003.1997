@@ -1,0 +1,57 @@
+# header: 
+#   title: Am241(n,f) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Yamamoto
+#   year: 1997
+#   subentry: 22479003
+#   X4 reaction: 95-AM-241(N,F),,SIG,,AV
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22479003
+# target: 
+#   Z: 95
+#   A: 241
+#   nuclide: Am241
+# reaction: 
+#   type: (n,f)
+#   ENDF_MF: 3
+#   ENDF_MT: 18
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   4.950000E-07   3.950000E-07   4.897000E+03   1.990000E+02   1.000000E+00
+   2.220000E-06   1.330000E-06   1.914000E+03   8.750000E+01   1.000000E+00
+   1.177500E-05   8.225001E-06   7.636000E+02   3.170000E+01   1.000000E+00
+   1.100000E-04   9.000000E-05   2.514000E+02   1.110000E+01   1.000000E+00
+   6.000000E-04   4.000000E-04   1.096500E+02   6.280000E+00   1.000000E+00
+   5.500000E-03   4.500000E-03   3.570000E+01   3.080000E+00   1.000000E+00
+# reference:
+#   author: S.Yamamoto, K.Kobayashi, M.Miyoshi, I.Kimura, I.Kanno, N.Shinohara, Y.Fujita
+#   title: Fission cross-section measurements of Am-241 between  0.1eV and 10 keV with lead slowing-down spectrometer  and at thermal energy
+#   journal: Jour: Nuclear Science and Engineering, Vol.126, p.201 (1997)
+# statistics:
+#   NEA score: T3
+#   IAEA score: -1
+#   E-min [MeV]:  4.950000E-07
+#   E-max [MeV]:  5.500000E-03
+#   F-value:  5.200252E+00
+#   A-value:  3.298348E-01
+#   chi-2:  1.872780E+02
+#   p-value:  1.893101E-01
+#   exp. data sets for p-value:      8
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    4.933567E+00   3.552471E-01   1.832481E+02
+# endfb8.1      4.922491E+00   3.588456E-01   1.825716E+02
+# jeff4.0       5.452339E+00   2.966092E-01   1.983662E+02
+# jendl5.0      4.700786E+00   3.576797E-01   1.844990E+02
+# cendl3.2      5.353967E+00   3.152526E-01   1.942161E+02
+# eaf.2010      5.493357E+00   3.449522E-01   1.659594E+02
+# irdff2.0      5.572132E+00   2.887622E-01   2.020861E+02

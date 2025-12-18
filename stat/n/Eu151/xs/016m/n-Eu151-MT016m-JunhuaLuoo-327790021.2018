@@ -1,0 +1,60 @@
+# header: 
+#   title: Eu151(n,2n)Eu150m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: JunhuaLuoo
+#   year: 2018
+#   subentry: 327790021
+#   X4 reaction: 63-EU-151(N,2N)63-EU-150-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/327790021
+# target: 
+#   Z: 63
+#   A: 151
+#   nuclide: Eu151
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 63
+#     A: 150
+#     nuclide: Eu150m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.350000E+01   2.000000E-01   4.174823E+02   9.579295E+01   9.892946E-01
+   1.410000E+01   2.000000E-01   4.298681E+02   9.879298E+01   9.996933E-01
+   1.480000E+01   2.000000E-01   4.645046E+02   1.060301E+02   1.001088E+00
+# reference:
+#   author: Junhua Luo, Suyuan Li, Li Jiang
+#   title: Activation cross section and isomeric cross-section ratio for the 151Eu(n,2n)150m,gEu process
+#   journal: Jour: Radiation Physics and Chemistry, Vol.148, p.43 (2018)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.350000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.134601E+00
+#   A-value:  1.114835E+00
+#   chi-2:  7.542383E-01
+#   p-value:  2.492911E-01
+#   exp. data sets for p-value:      3
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.129371E+00   1.111032E+00   7.207833E-01
+# jeff4.0       1.129371E+00   1.111032E+00   7.207832E-01
+# jendl5.0      1.108300E+00   1.095924E+00   5.992629E-01
+# eaf.2010      1.166093E+00   1.141851E+00   9.761239E-01

@@ -1,0 +1,56 @@
+# header: 
+#   title: Pb208(n,x)Tl208 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Welch
+#   year: 1981
+#   subentry: 12912005
+#   X4 reaction: 82-PB-208(N,P)81-TL-208,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/12912005
+# target: 
+#   Z: 82
+#   A: 208
+#   nuclide: Pb208
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 81
+#     A: 208
+#     nuclide: Tl208
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.000000E+01   1.000000E-01   4.400000E+01   6.000000E+00   1.000000E+00
+   2.200000E+01   1.000000E-01   2.700000E+01   4.000000E+00   1.000000E+00
+   2.300000E+01   1.000000E-01   2.200000E+01   3.000000E+00   1.000000E+00
+   2.400000E+01   1.000000E-01   1.700000E+01   2.000000E+00   1.000000E+00
+   2.500000E+01   1.000000E-01   1.350000E+01   1.800000E+00   1.000000E+00
+   2.600000E+01   1.000000E-01   9.700001E+00   1.300000E+00   1.000000E+00
+# reference:
+#   author: P.Welch,J.Johnson,G.Randers-Pehrson,J.Rapaport
+#   title: Neutron Activation Cross Section on 12C and Pb with  20-26 MeV Monoenergetic Neutrons
+#   journal: Jour: Bulletin of the American Physical Society Ser.II, Vol.26, p.708(G3
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  2.000000E+01
+#   E-max [MeV]:  2.600000E+01
+#   F-value:  2.416739E+00
+#   A-value:  5.921544E-01
+#   chi-2:  1.386687E+01
+#   p-value:  1.852483E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    2.471812E+00   5.834469E-01   1.437683E+01
+# jendl5.0      2.361498E+00   6.009919E-01   1.335692E+01

@@ -1,0 +1,58 @@
+# header: 
+#   title: Pb0(p,x)Tl200 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Ditroi
+#   year: 2014
+#   subentry: D4304013
+#   X4 reaction: 82-PB-0(P,X)81-TL-200,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D4304013
+# target: 
+#   Z: 82
+#   A: 0
+#   nuclide: Pb0
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 81
+#     A: 200
+#     nuclide: Tl200
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.620000E+01   5.000000E-01   6.000000E-01   3.000000E-01   1.000000E+00
+   2.810000E+01   5.000000E-01   1.400000E+00   3.000000E-01   1.000000E+00
+   2.990000E+01   4.000000E-01   8.000000E-01   3.000000E-01   1.000000E+00
+   3.160000E+01   4.000000E-01   2.400000E+00   4.000000E-01   1.000000E+00
+   3.320000E+01   4.000000E-01   2.600000E+00   5.000000E-01   1.000000E+00
+   3.480000E+01   3.000000E-01   1.700000E+00   4.000000E-01   1.000000E+00
+   3.630000E+01   3.000000E-01   3.000000E+00   5.000000E-01   1.000000E+00
+# reference:
+#   author: F.Ditroi,F.Tarkanyi,S.Takacs,A.Hermanne
+#   title: Proton-induced cross-sections of nuclear reactions on lead up to 37 MeV
+#   journal: Jour: Applied Radiation and Isotopes, Vol.90, p.208 (2014)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  2.620000E+01
+#   E-max [MeV]:  3.630000E+01
+#   F-value:  1.990443E+01
+#   A-value:  5.672872E-02
+#   chi-2:  1.900024E+01
+#   p-value:  1.617840E-07
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.778078E+01   5.887316E-02   1.903470E+01
+# endfb8.1      5.584812E+01   1.870121E-02   2.371490E+01
+# jendl5.0      9.630633E+00   1.079640E-01   1.777297E+01

@@ -1,0 +1,68 @@
+# header: 
+#   title: Si0(p,x)Al29 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Aleksandrov
+#   year: 1988
+#   subentry: A03400036
+#   X4 reaction: 14-SI-0(P,X)13-AL-29,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/A03400036
+# target: 
+#   Z: 14
+#   A: 0
+#   nuclide: Si0
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 13
+#     A: 29
+#     nuclide: Al29
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 17
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.000000E+01   2.300000E+00   1.366900E-01   2.440800E-02   9.763314E-01
+   2.500000E+01   2.000000E+00   5.955600E-01   1.074000E-01   9.763314E-01
+   3.000000E+01   1.800000E+00   7.713000E-01   1.366900E-01   9.763314E-01
+   3.600000E+01   1.300000E+00   9.372800E-01   1.659800E-01   9.763314E-01
+   4.000000E+01   1.800000E+00   7.810700E-01   1.464500E-01   9.763314E-01
+   4.500000E+01   1.600000E+00   5.955600E-01   1.074000E-01   9.763314E-01
+   5.000000E+01   1.400000E+00   5.662701E-01   9.763300E-02   9.763314E-01
+   5.500000E+01   1.300000E+00   5.565100E-01   9.763300E-02   9.763314E-01
+   6.000000E+01   1.200000E+00   6.443800E-01   1.171600E-01   9.763314E-01
+   6.500000E+01   1.100000E+00   7.224900E-01   1.269200E-01   9.763314E-01
+   7.000000E+01   9.000000E-01   6.932000E-01   1.269200E-01   9.763314E-01
+   7.500000E+01   2.200000E+00   7.517800E-01   1.366900E-01   9.763314E-01
+   8.000000E+01   2.000000E+00   7.224900E-01   1.269200E-01   9.763314E-01
+   8.500000E+01   1.900000E+00   6.639100E-01   1.171600E-01   9.763314E-01
+   9.000000E+01   1.800000E+00   6.248500E-01   1.074000E-01   9.763314E-01
+   9.500000E+01   1.700000E+00   5.565100E-01   9.763300E-02   9.763314E-01
+   9.900000E+01   1.500000E+00   5.467499E-01   1.074000E-01   9.763314E-01
+# reference:
+#   author: V.N.Aleksandrov,M.P.Semenova,V.G.Semenov
+#   title: Cross sections of radionuclide production in (p,x)-reactions on aluminum and silicon
+#   journal: Jour: Atomnaya Energiya, Vol.64, p.445 (1988)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.000000E+01
+#   E-max [MeV]:  9.900000E+01
+#   F-value:  1.550405E+00
+#   A-value:  7.411904E-01
+#   chi-2:  3.607687E+00
+#   p-value:  2.317336E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.802595E+00   6.460060E-01   6.015412E+00
+# endfb8.1      1.570968E+00   6.972409E-01   3.800698E+00
+# jendl5.0      1.173783E+00   9.040031E-01   1.006952E+00

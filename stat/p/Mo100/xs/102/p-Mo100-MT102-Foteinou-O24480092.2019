@@ -1,0 +1,54 @@
+# header: 
+#   title: Mo100(p,g)Tc101 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Foteinou
+#   year: 2019
+#   subentry: O24480092
+#   X4 reaction: 42-MO-100(P,G)43-TC-101,,SIG,,SFC
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O24480092
+# target: 
+#   Z: 42
+#   A: 100
+#   nuclide: Mo100
+# reaction: 
+#   type: (p,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 43
+#     A: 101
+#     nuclide: Tc101
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.992877E+00   5.000000E-03   7.340000E+00   1.645500E+00   1.000000E+00
+   4.393881E+00   5.000000E-03   1.367428E+01   3.027130E+00   1.000000E+00
+   4.793876E+00   5.000000E-03   1.653858E+01   3.687700E+00   1.000000E+00
+   5.193871E+00   5.000000E-03   3.052116E+01   6.758300E+00   1.000000E+00
+# reference:
+#   author: V.Foteinou,M.Axiotis,S.Harissopulos,P.Dimitriou, G.Provatas, A.Lagoyannis,H.-W.Becker,D.Rogalla, A.Zilges,A.Schreckling, A.Endres
+#   title: Cross section measurements of proton capture reactions on Mo isotopes relevant to the astrophysical p process
+#   journal: Jour: European Physical Journal A: Hadrons and Nuclei, Vol.55, p.67 (201
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  3.992877E+00
+#   E-max [MeV]:  5.193871E+00
+#   F-value:  3.182288E+02
+#   A-value:  3.148560E-03
+#   chi-2:  2.007467E+01
+#   p-value:  1.788139E-07
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    3.066875E+02   3.267613E-03   2.006970E+01
+# jendl5.0      3.301268E+02   3.033845E-03   2.007963E+01

@@ -1,0 +1,68 @@
+# header: 
+#   title: Fe54(n,p)Mn54 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Mannhart
+#   year: 2007
+#   subentry: 22976015
+#   X4 reaction: 26-FE-54(N,P)25-MN-54,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22976015
+# target: 
+#   Z: 26
+#   A: 54
+#   nuclide: Fe54
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 25
+#     A: 54
+#     nuclide: Mn54
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 13
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   9.098000E+00   2.000000E-02   4.620731E+02   1.631118E+01   9.598527E-01
+   9.633000E+00   2.000000E-02   4.866840E+02   1.669326E+01   9.849908E-01
+   1.011900E+01   2.000000E-02   5.060573E+02   2.130501E+01   1.029199E+00
+   1.069400E+01   2.000000E-02   4.798253E+02   1.962485E+01   9.950750E-01
+   1.117200E+01   2.000000E-02   4.827068E+02   2.109428E+01   9.779310E-01
+   1.177900E+01   2.000000E-02   4.487292E+02   1.754531E+01   9.870857E-01
+   1.230700E+01   2.000000E-02   4.591569E+02   1.845811E+01   9.794301E-01
+   1.264500E+01   2.000000E-02   4.436087E+02   1.894209E+01   9.777577E-01
+   1.327700E+01   2.000000E-02   4.095281E+02   2.043545E+01   9.875287E-01
+   1.381000E+01   2.000000E-02   3.661805E+02   2.112861E+01   1.006820E+00
+   1.405000E+01   2.000000E-02   3.426808E+02   2.179450E+01   9.947194E-01
+   1.438400E+01   2.000000E-02   3.241492E+02   2.376014E+01   9.989190E-01
+   1.463800E+01   2.000000E-02   3.078526E+02   2.505920E+01   9.991971E-01
+# reference:
+#   author: W.Mannhart, D.Schmidt
+#   title: .Measurement of Neutron Activation Cross Sections in  the Energy Range from 8 MeV to 15 MeV
+#   journal: Rept: Phys.Techn.Bundesanst., Neutronenphysik Reports, No.53 (2007)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  9.098000E+00
+#   E-max [MeV]:  1.463800E+01
+#   F-value:  1.071476E+00
+#   A-value:  1.041481E+00
+#   chi-2:  3.448871E+00
+#   p-value:  3.435736E-01
+#   exp. data sets for p-value:      3
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.040858E+00   1.020678E+00   1.470676E+00
+# endfb8.1      1.041873E+00   1.022080E+00   1.523637E+00
+# jeff4.0       1.041873E+00   1.022080E+00   1.523637E+00
+# jendl5.0      1.040652E+00   1.008515E+00   1.166696E+00
+# cendl3.2      1.084229E+00   1.064974E+00   5.135480E+00
+# eaf.2010      1.146151E+00   1.135777E+00   1.181760E+01
+# irdff2.0      1.041575E+00   1.021849E+00   1.504372E+00

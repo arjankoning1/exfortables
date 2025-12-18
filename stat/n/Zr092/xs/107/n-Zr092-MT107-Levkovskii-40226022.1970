@@ -1,0 +1,54 @@
+# header: 
+#   title: Zr92(n,a)Sr89 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Levkovskii
+#   year: 1970
+#   subentry: 40226022
+#   X4 reaction: 40-ZR-92(N,A)38-SR-89,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/40226022
+# target: 
+#   Z: 40
+#   A: 92
+#   nuclide: Zr92
+# reaction: 
+#   type: (n,a)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+#   residual: 
+#     Z: 38
+#     A: 89
+#     nuclide: Sr89
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.480000E+01   0.000000E+00   9.000000E+00   2.000000E+00   1.000000E+00
+# reference:
+#   author: V.N.Levkovskii,G.P.Vinitskaya,G.E.Kovel'skaya, V.M.Stepanov
+#   title: Cross sections for (n,p) and (n,alpha) reactions  with 14.8-MeV neutrons
+#   journal: Jour: Soviet Journal of Nuclear Physics, Vol.10, p.25 (1970)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.480000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.067288E+00
+#   A-value:  1.042923E+00
+#   chi-2:  2.980891E-01
+#   p-value:  4.036117E-01
+#   exp. data sets for p-value:      3
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2025    1.004362E+00   9.956567E-01   2.459604E-02
+# jeff4.0       1.004362E+00   9.956567E-01   2.459604E-02
+# jendl5.0      1.046791E+00   1.046791E+00   2.760914E-01
+# cendl3.2      1.140860E+00   1.140860E+00   9.173176E-01
+# eaf.2010      1.042195E+00   1.042195E+00   2.478446E-01

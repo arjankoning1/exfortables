@@ -1,0 +1,58 @@
+# header: 
+#   title: U235(n,tot) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Safford
+#   year: 1959
+#   subentry: 12404003
+#   X4 reaction: 92-U-235(N,TOT),,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/12404003
+# target: 
+#   Z: 92
+#   A: 235
+#   nuclide: U235
+# reaction: 
+#   type: (n,tot)
+#   ENDF_MF: 3
+#   ENDF_MT: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   8.180000E-10   0.000000E+00   3.977500E+06   2.090000E+04   1.000000E+00
+   2.910000E-09   0.000000E+00   2.123800E+06   1.360000E+04   1.000000E+00
+   2.530000E-08   0.000000E+00   6.986800E+05   4.810000E+03   1.000000E+00
+   3.500000E-08   0.000000E+00   5.836300E+05   4.040000E+03   1.000000E+00
+   3.750000E-08   0.000000E+00   5.549000E+05   3.830000E+03   1.000000E+00
+   5.000000E-08   0.000000E+00   4.751800E+05   3.330000E+03   1.000000E+00
+   6.000000E-08   0.000000E+00   4.217000E+05   2.930000E+03   1.000000E+00
+   7.250000E-08   0.000000E+00   3.784800E+05   1.890000E+03   1.000000E+00
+# reference:
+#   author: G.J.SAFFORD,W.W.HAVENS JR,B.M.RUSTAD
+#   title: A PRECISE DETERMINATION OF THE TOTAL CROSS SECTION OF URANIUM-235 FROM 0.00818 EV TO 0.0818 EV.
+#   journal: Jour: Nuclear Science and Engineering, Vol.6, p.433 (1959)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  8.180000E-10
+#   E-max [MeV]:  7.250000E-08
+#   F-value:  1.008558E+00
+#   A-value:  9.984106E-01
+#   chi-2:  2.418680E+00
+#   p-value:  4.464523E-01
+#   exp. data sets for p-value:      2
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.005130E+00   9.993608E-01   1.049196E+00
+# endfb8.1      1.007079E+00   1.000073E+00   1.799459E+00
+# jeff4.0       1.007542E+00   9.965754E-01   1.798879E+00
+# jendl5.0      1.005121E+00   9.994138E-01   1.049865E+00
+# cendl3.2      1.015981E+00   9.953309E-01   7.756717E+00
+# irdff2.0      1.005090E+00   9.997199E-01   1.057963E+00

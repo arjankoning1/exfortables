@@ -1,0 +1,60 @@
+# header: 
+#   title: Ti48(n,p)Sc48 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Hecker
+#   year: 1989
+#   subentry: 13133003
+#   X4 reaction: 22-TI-48(N,P)21-SC-48,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/13133003
+# target: 
+#   Z: 22
+#   A: 48
+#   nuclide: Ti48
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 21
+#     A: 48
+#     nuclide: Sc48
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.430000E+01   6.000000E-01   6.887766E+01   2.869900E+00   9.566342E-01
+   1.490000E+01   1.200000E+00   6.806618E+01   5.918800E+00   9.864664E-01
+   1.620000E+01   4.000000E-01   5.492553E+01   3.273000E+00   9.154256E-01
+   1.710000E+01   2.000000E-01   5.291572E+01   1.077300E+00   1.058314E+00
+   1.820000E+01   2.000000E-01   4.391175E+01   3.659300E+00   9.148281E-01
+# reference:
+#   author: W.V.Hecker,J.R.Williams,W.L.Alford,S.K.Ghorai
+#   title: Partial neutron cross sections for 47Ti and 48Ti  between 14.3 and 19.1 MeV
+#   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.40-41, p.478 (
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.430000E+01
+#   E-max [MeV]:  1.820000E+01
+#   F-value:  1.068026E+00
+#   A-value:  9.538682E-01
+#   chi-2:  3.924673E+00
+#   p-value:  2.435766E-01
+#   exp. data sets for p-value:      8
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.074734E+00   9.449265E-01   5.116565E+00
+# endfb8.1      1.075643E+00   9.396871E-01   5.314233E+00
+# jeff4.0       1.074246E+00   9.457257E-01   4.983967E+00
+# jendl5.0      1.035372E+00   1.001246E+00   8.711623E-01
+# cendl3.2      1.069557E+00   9.528173E-01   2.929714E+00
+# eaf.2010      1.062103E+00   9.544200E-01   2.942584E+00
+# irdff2.0      1.075644E+00   9.396846E-01   5.314487E+00

@@ -1,0 +1,53 @@
+# header: 
+#   title: Si0(p,x)Ne21 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Baros
+#   year: 1984
+#   subentry: O2015014
+#   X4 reaction: 14-SI-0(P,X)10-NE-21,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O2015014
+# target: 
+#   Z: 14
+#   A: 0
+#   nuclide: Si0
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 10
+#     A: 21
+#     nuclide: Ne21
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.500000E+02   0.000000E+00   1.579842E+01   1.699830E+00   9.999000E-01
+   2.400000E+04   0.000000E+00   1.589841E+01   1.799820E+00   9.999000E-01
+# reference:
+#   author: F.Baros, S.Regnier
+#   title: Measurement of cross sections for 22Na, 20-22Ne and 36-42Ar in the spallation of Mg, Al, Si, Ca and Fe. Production ratios of some cosmogenic nuclides in meteorites
+#   journal: Jour: Journal de Physique, Vol.45, p.855 (1984)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.500000E+02
+#   E-max [MeV]:  2.400000E+04
+#   F-value:  1.203777E+00
+#   A-value:  9.028593E-01
+#   chi-2:  2.324684E+00
+#   p-value:  2.018585E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.021490E+00   1.021490E+00   2.612753E-01
+# endfb8.1      1.007412E+00   9.926426E-01   8.694515E-02
+# jendl5.0      1.377739E+00   7.258269E-01   6.625831E+00

@@ -1,0 +1,57 @@
+# header: 
+#   title: Pb208(n,x)Pb209 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Csikai
+#   year: 1967
+#   subentry: 30067024
+#   X4 reaction: 82-PB-208(N,G)82-PB-209,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30067024
+# target: 
+#   Z: 82
+#   A: 208
+#   nuclide: Pb208
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 82
+#     A: 209
+#     nuclide: Pb209
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.340000E+01   0.000000E+00   1.320000E+00   7.000000E-02   1.000000E+00
+   1.360000E+01   0.000000E+00   1.310000E+00   7.000000E-02   1.000000E+00
+   1.390000E+01   0.000000E+00   1.300000E+00   7.000000E-02   1.000000E+00
+   1.410000E+01   0.000000E+00   1.190000E+00   6.000000E-02   1.000000E+00
+   1.430000E+01   0.000000E+00   1.130000E+00   6.000000E-02   1.000000E+00
+   1.450000E+01   0.000000E+00   1.110000E+00   5.000000E-02   1.000000E+00
+   1.500000E+01   0.000000E+00   1.030000E+00   5.000000E-02   1.000000E+00
+# reference:
+#   author: J.Csikai, G.Peto, M.Buczko, Z.Miligy, N.A.Eissa
+#   title: Radiative capture cross sections for 14.7 MeV neutrons
+#   journal: Jour: Nuclear Physics, Section A, Vol.95, p.229 (1967)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.340000E+01
+#   E-max [MeV]:  1.500000E+01
+#   F-value:  1.430510E+00
+#   A-value:  1.288387E+00
+#   chi-2:  8.644765E+01
+#   p-value:  3.688343E-01
+#   exp. data sets for p-value:      3
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.659004E+00   1.656058E+00   1.726909E+02
+# jendl5.0      1.010855E+00   1.002345E+00   2.043494E-01

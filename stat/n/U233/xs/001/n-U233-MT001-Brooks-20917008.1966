@@ -1,0 +1,59 @@
+# header: 
+#   title: U233(n,tot) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Brooks
+#   year: 1966
+#   subentry: 20917008
+#   X4 reaction: 92-U-233(N,TOT),,SIG,,AV
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20917008
+# target: 
+#   Z: 92
+#   A: 233
+#   nuclide: U233
+# reaction: 
+#   type: (n,tot)
+#   ENDF_MF: 3
+#   ENDF_MT: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   4.000000E-07   5.000001E-08   1.767000E+05   4.216534E+03   1.000000E+00
+   4.750000E-07   2.500001E-08   1.661000E+05   4.040505E+03   1.000000E+00
+   5.250000E-07   2.500004E-08   1.589000E+05   4.581450E+03   1.000000E+00
+   6.250000E-07   7.499999E-08   1.506000E+05   3.321467E+03   1.000000E+00
+   8.500000E-07   1.500000E-07   1.508000E+05   3.177461E+03   1.000000E+00
+   1.150000E-06   1.500000E-07   2.097000E+05   4.421497E+03   1.000000E+00
+   1.550000E-06   2.500000E-07   5.410000E+05   1.247046E+04   1.000000E+00
+   3.150000E-06   1.350000E-06   2.056000E+05   4.231849E+03   1.000000E+00
+   4.750000E-06   2.500000E-07   1.236000E+05   2.598227E+03   1.000000E+00
+   7.500000E-06   2.500000E-06   1.194000E+05   5.705000E+04   1.000000E+00
+# reference:
+#   author: F.D.Brooks,J.E.Jolly,M.G.Schomberg,M.G.Sowerby
+#   title: Eta and neutron cross sections of Pu-239 and U-233
+#   journal: Rept: A.E.R.E. Harwell Reports, No.1709 (1966)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  4.000000E-07
+#   E-max [MeV]:  7.500000E-06
+#   F-value:  1.320194E+00
+#   A-value:  8.824010E-01
+#   chi-2:  7.997061E+01
+#   p-value:  2.038641E-01
+#   exp. data sets for p-value:      8
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2025    1.308148E+00   8.899073E-01   7.772058E+01
+# endfb8.1      1.328894E+00   8.798642E-01   8.362355E+01
+# jeff4.0       1.327579E+00   8.768708E-01   8.031747E+01
+# jendl5.0      1.308149E+00   8.899065E-01   7.772095E+01
+# cendl3.2      1.327726E+00   8.755675E-01   8.047056E+01

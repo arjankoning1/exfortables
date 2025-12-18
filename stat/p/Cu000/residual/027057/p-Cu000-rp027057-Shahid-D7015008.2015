@@ -1,0 +1,65 @@
+# header: 
+#   title: Cu0(p,x)Co57 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Shahid
+#   year: 2015
+#   subentry: D7015008
+#   X4 reaction: 29-CU-0(P,X)27-CO-57,IND,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D7015008
+# target: 
+#   Z: 29
+#   A: 0
+#   nuclide: Cu0
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 27
+#     A: 57
+#     nuclide: Co57
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 14
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.990000E+01   4.000000E-01   1.500000E+00   9.999999E-02   1.000000E+00
+   2.230000E+01   3.000000E-01   1.600000E+00   9.999999E-02   1.000000E+00
+   2.450000E+01   3.000000E-01   1.700000E+00   9.999999E-02   1.000000E+00
+   2.660000E+01   3.000000E-01   1.600000E+00   9.999999E-02   1.000000E+00
+   2.850000E+01   3.000000E-01   1.600000E+00   9.999999E-02   1.000000E+00
+   3.040000E+01   3.000000E-01   1.400000E+00   9.999999E-02   1.000000E+00
+   3.220000E+01   3.000000E-01   1.300000E+00   9.999999E-02   1.000000E+00
+   3.390000E+01   2.000000E-01   1.200000E+00   9.999999E-02   1.000000E+00
+   3.550000E+01   2.000000E-01   1.100000E+00   9.999999E-02   1.000000E+00
+   3.710000E+01   2.000000E-01   1.400000E+00   9.999999E-02   1.000000E+00
+   3.870000E+01   2.000000E-01   2.800000E+00   2.000000E-01   1.000000E+00
+   4.010000E+01   2.000000E-01   4.700000E+00   3.000000E-01   1.000000E+00
+   4.160000E+01   2.000000E-01   8.600000E+00   5.000000E-01   1.000000E+00
+   4.300000E+01   2.000000E-01   1.430000E+01   9.000000E-01   1.000000E+00
+# reference:
+#   author: M.Shahid, K.Kim, H.Naik, M.Zaman, S.C.Yang, G.N.Kim
+#   title: Measurement of excitation functions in proton induced  reactions on natural copper from their threshold to  43 MeV
+#   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.342, p.305 (20
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  1.990000E+01
+#   E-max [MeV]:  4.300000E+01
+#   F-value:  2.267076E+01
+#   A-value:  1.155630E-01
+#   chi-2:  1.136905E+02
+#   p-value:  1.422869E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.200357E+01   1.366930E-01   1.067674E+02
+# endfb8.1      1.757749E+01   1.841475E-01   1.125508E+02
+# jendl5.0      2.225706E+01   1.235275E-01   9.498005E+01

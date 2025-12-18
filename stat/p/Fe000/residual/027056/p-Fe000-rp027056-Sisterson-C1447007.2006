@@ -1,0 +1,57 @@
+# header: 
+#   title: Fe0(p,x)Co56 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Sisterson
+#   year: 2006
+#   subentry: C1447007
+#   X4 reaction: 26-FE-0(P,X)27-CO-56,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C1447007
+# target: 
+#   Z: 26
+#   A: 0
+#   nuclide: Fe0
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 27
+#     A: 56
+#     nuclide: Co56
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.400000E+02   1.000000E+00   3.600400E+00   3.000300E-01   1.000101E+00
+   1.600000E+02   1.000000E+00   2.800300E+00   2.000200E-01   1.000101E+00
+   2.000000E+02   1.000000E+00   2.300200E+00   2.000200E-01   1.000101E+00
+   3.000000E+02   1.000000E+00   2.400200E+00   2.000200E-01   1.000101E+00
+   4.000000E+02   1.000000E+00   1.900200E+00   2.000200E-01   1.000101E+00
+   5.000000E+02   1.000000E+00   2.200200E+00   2.000200E-01   1.000101E+00
+# reference:
+#   author: J.M.Sisterson,J.Vincent
+#   title: Cross section measurements for proton-induced reactions  in Fe and Ni producing relatively short-lived  radionuclides at Ep = 140-500 MeV
+#   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.251, p.1 (2006
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.400000E+02
+#   E-max [MeV]:  5.000000E+02
+#   F-value:  2.244252E+00
+#   A-value:  4.707906E-01
+#   chi-2:  4.458770E+01
+#   p-value:  1.286416E-01
+#   exp. data sets for p-value:      3
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    2.604486E+00   3.868949E-01   5.790790E+01
+# endfb8.1      1.044875E+00   9.570522E-01   7.247193E-01
+# jendl5.0      2.067319E+00   4.863593E-01   4.049379E+01

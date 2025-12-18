@@ -1,0 +1,71 @@
+# header: 
+#   title: Fe0(p,x)Cr51 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Michel
+#   year: 1979
+#   subentry: A0146016
+#   X4 reaction: 26-FE-0(P,X)24-CR-51,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/A0146016
+# target: 
+#   Z: 26
+#   A: 0
+#   nuclide: Fe0
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 24
+#     A: 51
+#     nuclide: Cr51
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 20
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.343000E+01   5.000000E-01   1.077900E+00   2.867800E-01   9.889001E-01
+   1.518000E+01   4.700000E-01   1.700900E+00   2.571100E-01   9.889001E-01
+   1.679000E+01   4.500000E-01   2.215100E+00   2.966700E-01   9.889001E-01
+   1.828000E+01   4.200000E-01   2.501900E+00   2.966700E-01   9.889001E-01
+   2.022000E+01   3.900000E-01   2.304100E+00   2.670000E-01   9.889001E-01
+   2.205000E+01   3.600000E-01   1.443800E+00   1.878900E-01   9.889001E-01
+   2.375000E+01   3.400000E-01   1.058100E+00   1.582200E-01   9.889001E-01
+   2.577000E+01   2.900000E-01   6.408100E-01   8.900100E-02   9.889001E-01
+   2.704000E+01   4.800000E-01   2.838100E-01   1.275700E-01   9.889001E-01
+   2.768000E+01   2.500000E-01   4.252300E-01   8.900100E-02   9.889001E-01
+   2.919000E+01   4.500000E-01   5.439000E-01   8.900100E-02   9.889001E-01
+   2.966000E+01   1.800000E-01   9.592300E-01   1.780000E-01   9.889001E-01
+   3.122000E+01   4.300000E-01   3.461150E+00   4.153400E-01   9.889001E-01
+   3.323000E+01   4.000000E-01   1.493239E+01   1.681130E+00   9.889001E-01
+   3.514000E+01   3.800000E-01   3.263370E+01   3.065590E+00   9.889001E-01
+   3.698000E+01   3.500000E-01   5.260948E+01   5.043400E+00   9.889001E-01
+   3.875000E+01   3.200000E-01   6.793743E+01   6.328960E+00   9.889001E-01
+   4.079000E+01   2.800000E-01   8.316649E+01   7.614530E+00   9.889001E-01
+   4.267000E+01   2.300000E-01   9.345107E+01   8.603431E+00   9.889001E-01
+   4.453000E+01   1.500000E-01   9.908778E+01   8.999001E+00   9.889001E-01
+# reference:
+#   author: R.Michel,G.Brinkmann,H.Weigel,W.Herr
+#   title: Measurement and Hybrid-Model Analysis of proton- induced reactions with V, Fe, and Co
+#   journal: Jour: Nuclear Physics, Section A, Vol.322, p.40 (1979)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  1.343000E+01
+#   E-max [MeV]:  4.453000E+01
+#   F-value:  3.410378E+00
+#   A-value:  4.297843E-01
+#   chi-2:  2.499533E+01
+#   p-value:  1.072200E-01
+#   exp. data sets for p-value:      2
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    4.804942E+00   2.830170E-01   3.072019E+01
+# endfb8.1      2.736800E+00   5.121818E-01   2.687327E+01
+# jendl5.0      2.769763E+00   5.476648E-01   1.739254E+01

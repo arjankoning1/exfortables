@@ -1,0 +1,65 @@
+# header: 
+#   title: Sn122(n,g)Sn123 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Timokhov
+#   year: 1988
+#   subentry: 40960011
+#   X4 reaction: 50-SN-122(N,G)50-SN-123,,SIG,,AV
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/40960011
+# target: 
+#   Z: 50
+#   A: 122
+#   nuclide: Sn122
+# reaction: 
+#   type: (n,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 50
+#     A: 123
+#     nuclide: Sn123
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 11
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.000000E-02   1.000000E-02   4.060000E+01   8.900000E+00   1.000000E+00
+   5.000000E-02   1.000000E-02   3.060000E+01   6.400000E+00   1.000000E+00
+   7.000000E-02   1.000000E-02   1.970000E+01   3.900000E+00   1.000000E+00
+   9.000000E-02   1.000000E-02   1.650000E+01   3.300000E+00   1.000000E+00
+   1.250000E-01   2.500000E-02   1.840000E+01   3.700000E+00   1.000000E+00
+   1.750000E-01   2.500000E-02   1.620000E+01   3.300000E+00   1.000000E+00
+   2.250000E-01   2.500000E-02   1.370000E+01   2.900000E+00   1.000000E+00
+   2.750000E-01   2.500000E-02   1.280000E+01   2.600000E+00   1.000000E+00
+   3.300000E-01   3.000000E-02   1.230000E+01   2.300000E+00   1.000000E+00
+   3.900000E-01   3.000000E-02   1.180000E+01   2.200000E+00   1.000000E+00
+   4.500000E-01   3.000000E-02   1.160000E+01   2.200000E+00   1.000000E+00
+# reference:
+#   author: V.M.Timokhov,M.V.Bokhovko,M.V.Isakov,L.E.Kazakov, V.N.Kononov,G.N.Manturov,E.D.Poletaev,V.G.Pronyaev
+#   title: Average cross-sections for neutron radiation capture,  transmission and average resonance parameters for  tin isotopes
+#   journal: Rept: Fiz.-Energ Institut, Obninsk Reports, No.1921 (1988)
+# statistics:
+#   NEA score: T2
+#   IAEA score:  1
+#   E-min [MeV]:  3.000000E-02
+#   E-max [MeV]:  4.500000E-01
+#   F-value:  2.220347E+00
+#   A-value:  5.592220E-01
+#   chi-2:  5.115214E+00
+#   p-value:  1.578123E-01
+#   exp. data sets for p-value:      2
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.733790E+00   5.838175E-01   4.587429E+00
+# endfb8.1      4.486202E+00   2.912842E-01   1.102226E+01
+# jeff4.0       1.733790E+00   5.838175E-01   4.587429E+00
+# jendl5.0      1.510633E+00   8.126420E-01   1.705691E+00
+# cendl3.2      1.278450E+00   8.625823E-01   1.105347E+00
+# eaf.2010      2.347735E+00   4.394752E-01   7.683130E+00

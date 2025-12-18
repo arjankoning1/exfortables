@@ -1,0 +1,59 @@
+# header: 
+#   title: U235(p,2n)Np234 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Gromova
+#   year: 2014
+#   subentry: O2399005
+#   X4 reaction: 92-U-235(P,2N)93-NP-234,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O2399005
+# target: 
+#   Z: 92
+#   A: 235
+#   nuclide: U235
+# reaction: 
+#   type: (p,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 93
+#     A: 234
+#     nuclide: Np234
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 9
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   9.000000E+00   3.000000E-01   1.880000E-01   9.000001E-03   1.000000E+00
+   9.820000E+00   1.000000E-01   4.300000E-01   5.000000E-02   1.000000E+00
+   9.820000E+00   1.000000E-01   3.900000E-01   2.000000E-02   1.000000E+00
+   1.040000E+01   2.000000E-01   3.060000E+00   1.300000E-01   1.000000E+00
+   1.170000E+01   2.000000E-01   1.540000E+01   7.000000E-01   1.000000E+00
+   1.290000E+01   2.000000E-01   3.110000E+01   8.000000E-01   1.000000E+00
+   1.403000E+01   1.400000E-01   4.600000E+01   2.000000E+00   1.000000E+00
+   1.508000E+01   1.200000E-01   4.200000E+01   2.000000E+00   1.000000E+00
+   1.608000E+01   1.100000E-01   3.010000E+01   9.000000E-01   1.000000E+00
+# reference:
+#   author: E.Gromova,V.Jakovlev,J.Aaltonen,K.Helariutta, S.Salminen-Paatero,J.Bergman,S.-J.Heselius,H.Penttila, J.Rissanen,A.Saastamoinen
+#   title: Study of proton and 3He induced reactions on 235U at low energies
+#   journal: Jour: Nuclear Data Sheets, Vol.119, p.237 (2014)
+# statistics:
+#   NEA score: T2
+#   IAEA score:  1
+#   E-min [MeV]:  9.000000E+00
+#   E-max [MeV]:  1.608000E+01
+#   F-value:  2.857068E+00
+#   A-value:  4.089619E-01
+#   chi-2:  2.039410E+02
+#   p-value:  1.995284E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    2.831966E+00   3.981542E-01   2.097169E+02
+# jendl5.0      2.882180E+00   4.200629E-01   1.981651E+02

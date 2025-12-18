@@ -1,0 +1,58 @@
+# header: 
+#   title: S32(n,x)P32 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Klema
+#   year: 1948
+#   subentry: 11581002
+#   X4 reaction: 16-S-32(N,P)15-P-32,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11581002
+# target: 
+#   Z: 16
+#   A: 32
+#   nuclide: S32
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 15
+#     A: 32
+#     nuclide: P32
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.630000E+00   5.000000E-02   1.310000E+00   0.000000E+00   1.000000E+00
+   1.830000E+00   5.000000E-02   5.090000E+00   0.000000E+00   1.000000E+00
+   2.500000E+00   3.000000E-01   7.840000E+01   0.000000E+00   1.000000E+00
+   2.900000E+00   3.000000E-01   1.550000E+02   0.000000E+00   1.000000E+00
+   3.400000E+00   7.000000E-02   2.040000E+02   0.000000E+00   1.000000E+00
+   4.300000E+00   1.100000E-01   3.490000E+02   0.000000E+00   1.000000E+00
+   4.600000E+00   1.500000E-01   2.880000E+02   0.000000E+00   1.000000E+00
+   5.800000E+00   1.700000E-01   3.000000E+02   0.000000E+00   1.000000E+00
+# reference:
+#   author: E.D.Klema,A.O.Hanson
+#   title: A determination of the S32(n,p)P32 cross section for neutrons having energies of 1.6 to 5.8 MeV.
+#   journal: Jour: Physical Review, Vol.73, p.106 (1948)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.630000E+00
+#   E-max [MeV]:  5.800000E+00
+#   F-value:  1.113635E+00
+#   A-value:  9.942215E-01
+#   chi-2:  0.000000E+00
+#   p-value:  3.135008E-01
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.113635E+00   9.942215E-01   0.000000E+00
+# jeff4.0       1.113635E+00   9.942215E-01   0.000000E+00

@@ -1,0 +1,66 @@
+# header: 
+#   title: Sc45(n,x)Sc44g cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Prestwood
+#   year: 1961
+#   subentry: 11645003
+#   X4 reaction: 21-SC-45(N,2N)21-SC-44-G,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11645003
+# target: 
+#   Z: 21
+#   A: 45
+#   nuclide: Sc45
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 21
+#     A: 44
+#     nuclide: Sc44g
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 11
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.197000E+01   8.000000E-02   6.500000E+00   3.000000E-01   1.000000E+00
+   1.340000E+01   2.000000E-01   8.700000E+01   3.300000E+00   1.000000E+00
+   1.369000E+01   1.000000E-01   1.119000E+02   4.200000E+00   1.000000E+00
+   1.401000E+01   1.000000E-01   1.385000E+02   5.200000E+00   1.000000E+00
+   1.409000E+01   1.000000E-01   1.500000E+02   5.700000E+00   1.000000E+00
+   1.431000E+01   1.300000E-01   1.690000E+02   6.400000E+00   1.000000E+00
+   1.450000E+01   2.000000E-01   1.814000E+02   6.900000E+00   1.000000E+00
+   1.468000E+01   2.600000E-01   2.043000E+02   7.700000E+00   1.000000E+00
+   1.650000E+01   3.000000E-01   2.837000E+02   1.360000E+01   1.000000E+00
+   1.795000E+01   3.200000E-01   3.189000E+02   1.520000E+01   1.000000E+00
+   1.976000E+01   4.300000E-01   3.222000E+02   1.540000E+01   1.000000E+00
+# reference:
+#   author: R.J.PRESTWOOD,B.P.BAYHURST
+#   title: (N,2N) EXCITATION FUNCTIONS OF SEVERAL NUCLEI FROM 12.0 TO 19.8 MEV.
+#   journal: Jour: Physical Review, Vol.121, p.1438 (1961)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.197000E+01
+#   E-max [MeV]:  1.976000E+01
+#   F-value:  1.366561E+00
+#   A-value:  8.037040E-01
+#   chi-2:  3.791777E+01
+#   p-value:  3.005144E-01
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.233886E+00   9.208843E-01   2.431491E+01
+# jeff4.0       1.474684E+00   7.014345E-01   5.152063E+01

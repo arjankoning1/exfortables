@@ -1,0 +1,56 @@
+# header: 
+#   title: Cu65(n,2n)Cu64 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Crumpton
+#   year: 1969
+#   subentry: 20930003
+#   X4 reaction: 29-CU-65(N,2N)29-CU-64,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20930003
+# target: 
+#   Z: 29
+#   A: 65
+#   nuclide: Cu65
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 29
+#     A: 64
+#     nuclide: Cu64
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.470000E+01   2.000000E-01   9.580001E+02   5.400001E+01   1.000000E+00
+# reference:
+#   author: D.Crumpton,A.J.Cox,P.N.Cooper,P.E.Francois,S.E.Hunt
+#   title: Absolute determination of activation cross-sections  for 14.7 and 14.8 MeV neutrons
+#   journal: Jour: Journal of Inorganic and Nuclear Chemistry, Vol.31, p.1 (1969)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.470000E+01
+#   E-max [MeV]:  1.470000E+01
+#   F-value:  1.000674E+00
+#   A-value:  9.995835E-01
+#   chi-2:  9.295404E-03
+#   p-value:  4.531106E-01
+#   exp. data sets for p-value:      8
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.000205E+00   9.997952E-01   4.557823E-03
+# endfb8.1      1.000119E+00   9.998806E-01   2.655288E-03
+# jeff4.0       1.000119E+00   9.998806E-01   2.655288E-03
+# jendl5.0      1.001694E+00   9.983085E-01   3.784687E-02
+# cendl3.2      1.000269E+00   9.997308E-01   5.992233E-03
+# eaf.2010      1.000391E+00   9.996088E-01   8.711665E-03
+# irdff2.0      1.000119E+00   9.998809E-01   2.648653E-03

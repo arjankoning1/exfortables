@@ -1,0 +1,66 @@
+# header: 
+#   title: Rb85(n,x)Kr85m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Augustyniak
+#   year: 1976
+#   subentry: 30350005
+#   X4 reaction: 37-RB-85(N,P)36-KR-85-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30350005
+# target: 
+#   Z: 37
+#   A: 85
+#   nuclide: Rb85
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 36
+#     A: 85
+#     nuclide: Kr85m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   4.100000E+00   7.000000E-01   1.971400E+00   6.571400E-01   1.642857E+00
+   4.300000E+00   6.000000E-01   1.314300E+00   4.928600E-01   1.642857E+00
+   1.300000E+01   2.000000E-01   6.242900E+00   1.314300E+00   1.642857E+00
+   1.330000E+01   1.000000E-01   6.571400E+00   1.150000E+00   1.642857E+00
+   1.380000E+01   1.000000E-01   6.735700E+00   1.478600E+00   1.642857E+00
+   1.450000E+01   1.000000E-01   6.078600E+00   1.314300E+00   1.642857E+00
+   1.510000E+01   2.000000E-01   7.885700E+00   1.642900E+00   1.642857E+00
+   1.540000E+01   2.000000E-01   7.885700E+00   1.314300E+00   1.642857E+00
+   1.600000E+01   2.000000E-01   6.735700E+00   1.314300E+00   1.642857E+00
+   1.660000E+01   1.000000E-01   5.092900E+00   9.857100E-01   1.642857E+00
+# reference:
+#   author: W.Augustyniak,M.Herman,A.Marcinkowski
+#   title: Cross-sections for the fast neutron induced reactions on rubidium isotopes.
+#   journal: Jour: Acta Physica Polonica, Part B, Vol.7, p.347 (1976)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  0
+#   E-min [MeV]:  4.100000E+00
+#   E-max [MeV]:  1.660000E+01
+#   F-value:  2.384069E+00
+#   A-value:  5.623450E-01
+#   chi-2:  3.178974E+00
+#   p-value:  1.065134E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    2.036209E+00   6.117496E-01   2.701471E+00
+# jeff4.0       3.264116E+00   4.101348E-01   5.162946E+00
+# jendl5.0      1.821167E+00   7.087747E-01   1.672505E+00

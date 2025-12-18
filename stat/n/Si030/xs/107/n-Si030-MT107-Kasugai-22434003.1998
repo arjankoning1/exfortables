@@ -1,0 +1,60 @@
+# header: 
+#   title: Si30(n,a)Mg27 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Kasugai
+#   year: 1998
+#   subentry: 22434003
+#   X4 reaction: 14-SI-30(N,A)12-MG-27,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22434003
+# target: 
+#   Z: 14
+#   A: 30
+#   nuclide: Si30
+# reaction: 
+#   type: (n,a)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+#   residual: 
+#     Z: 12
+#     A: 27
+#     nuclide: Mg27
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.340000E+01   5.000000E-02   6.658497E+01   2.663400E+00   1.002786E+00
+   1.370000E+01   5.000000E-02   6.016713E+01   2.888000E+00   1.002786E+00
+   1.401000E+01   5.000000E-02   6.036770E+01   3.139120E+00   1.002786E+00
+   1.435000E+01   5.000000E-02   6.447912E+01   3.030500E+00   1.002786E+00
+   1.464000E+01   5.000000E-02   6.859054E+01   3.360900E+00   1.002786E+00
+   1.487000E+01   5.000000E-02   6.377716E+01   2.614900E+00   1.002786E+00
+# reference:
+#   author: Y.Kasugai,H.Yamamoto,K.Kawade,T.Iida
+#   title: Measurement of (n,alpha) cross-sections for  short-lived products by 13.4 - 14.9 MeV neutrons
+#   journal: Jour: Annals of Nuclear Energy, Vol.25, Issue.18, p.1485 (1998)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.340000E+01
+#   E-max [MeV]:  1.487000E+01
+#   F-value:  1.176209E+00
+#   A-value:  1.108829E+00
+#   chi-2:  1.639427E+01
+#   p-value:  2.814572E-01
+#   exp. data sets for p-value:      4
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.076046E+00   1.029508E+00   3.464862E+00
+# endfb8.1      1.283918E+00   1.260097E+00   3.959319E+01
+# jeff4.0       1.283918E+00   1.260097E+00   3.959319E+01
+# jendl5.0      1.052716E+00   9.770408E-01   1.621226E+00
+# cendl3.2      1.158952E+00   1.148417E+00   1.188305E+01
+# eaf.2010      1.059609E+00   1.013299E+00   2.210140E+00

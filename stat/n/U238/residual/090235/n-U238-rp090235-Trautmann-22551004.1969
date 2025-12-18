@@ -1,0 +1,52 @@
+# header: 
+#   title: U238(n,x)Th235 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Trautmann
+#   year: 1969
+#   subentry: 22551004
+#   X4 reaction: 92-U-238(N,A)90-TH-235,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22551004
+# target: 
+#   Z: 92
+#   A: 238
+#   nuclide: U238
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+#   residual: 
+#     Z: 90
+#     A: 235
+#     nuclide: Th235
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.480000E+01   3.000000E-01   6.000000E-01   1.500000E-01   1.000000E+00
+# reference:
+#   author: N.TRAUTMANN,R.DENIG,G.HERRMANN
+#   title: .NEUTRON-PROTON AND NEUTRON-ALPHA CROSS SECTION  MEASUREMENTS
+#   journal: Jour: Radiochimica Acta, Vol.11, p.168 (1969)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.480000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.840957E+00
+#   A-value:  5.431957E-01
+#   chi-2:  3.727109E+00
+#   p-value:  2.517888E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    0.000000E+00   0.000000E+00   0.000000E+00
+# endfb8.1      1.840957E+00   5.431957E-01   3.727109E+00
+# jendl5.0      0.000000E+00   0.000000E+00   0.000000E+00

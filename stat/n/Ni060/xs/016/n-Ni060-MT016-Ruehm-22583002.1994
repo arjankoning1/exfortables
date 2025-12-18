@@ -1,0 +1,55 @@
+# header: 
+#   title: Ni60(n,2n)Ni59 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Ruehm
+#   year: 1994
+#   subentry: 22583002
+#   X4 reaction: 28-NI-60(N,2N)28-NI-59,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22583002
+# target: 
+#   Z: 28
+#   A: 60
+#   nuclide: Ni60
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 28
+#     A: 59
+#     nuclide: Ni59
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.480000E+01   0.000000E+00   4.100000E+02   1.000000E+02   1.000000E+00
+# reference:
+#   author: W.Ruehm, B.Schneck, K.Knie, G.Korschinek, L.Zerle, E.Nolte, D.Weselka, H.Vonach
+#   title: A new half-life determination of 59Ni
+#   journal: Jour: Planetary and Space Science, Vol.42, Issue.3, p.227 (1994)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.480000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.056841E+00
+#   A-value:  1.042881E+00
+#   chi-2:  2.397443E-01
+#   p-value:  3.629226E-01
+#   exp. data sets for p-value:      5
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.000172E+00   1.000172E+00   8.847211E-04
+# endfb8.1      1.040457E+00   1.040457E+00   2.153795E-01
+# jeff4.0       1.002065E+00   1.002065E+00   1.063237E-02
+# jendl5.0      1.036513E+00   1.036513E+00   1.937018E-01
+# cendl3.2      1.104611E+00   1.104611E+00   5.909357E-01
+# eaf.2010      1.077532E+00   1.077532E+00   4.269319E-01

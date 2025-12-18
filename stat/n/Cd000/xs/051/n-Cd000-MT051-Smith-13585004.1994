@@ -1,0 +1,66 @@
+# header: 
+#   title: Cd0(n,n'_01)Cd1 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Smith
+#   year: 1994
+#   subentry: 13585004
+#   X4 reaction: 48-CD-0(N,INL)48-CD-0,PAR,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/13585004
+#   level energy [MeV]:  6.00000E-01
+# target: 
+#   Z: 48
+#   A: 0
+#   nuclide: Cd0
+# reaction: 
+#   type: (n,n'_01)
+#   ENDF_MF: 3
+#   ENDF_MT: 51
+#   level: 
+#     number: 1
+#     energy [MeV]:  5.584560E-01
+#     spin:  2.000000E+00
+#     parity: 1
+#   residual: 
+#     Z: 48
+#     A: 1
+#     nuclide: Cd1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.000000E+00   0.000000E+00   1.320000E+02   3.000000E+01   1.000000E+00
+   5.500000E+00   0.000000E+00   1.410000E+02   2.800000E+01   1.000000E+00
+   5.900000E+00   0.000000E+00   1.370000E+02   2.650000E+01   1.000000E+00
+   6.500000E+00   0.000000E+00   1.250000E+02   2.500000E+01   1.000000E+00
+   7.100000E+00   0.000000E+00   1.330000E+02   2.600000E+01   1.000000E+00
+   7.500000E+00   0.000000E+00   1.330000E+02   2.600000E+01   1.000000E+00
+   8.030000E+00   0.000000E+00   1.120000E+02   2.210000E+01   1.000000E+00
+# reference:
+#   author: A.B.Smith,P.T.Guenther
+#   title: Fast-neutron interaction with collective cadmium nuclei
+#   journal: Jour: Nuclear Physics, Section A, Vol.568, p.221 (1994)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  5.000000E+00
+#   E-max [MeV]:  8.030000E+00
+#   F-value:  2.001244E+01
+#   A-value:  2.616524E-01
+#   chi-2:  5.670777E+00
+#   p-value:  3.841474E-01
+#   exp. data sets for p-value:      1
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2025    1.104830E+00   9.189765E-01   5.777278E-01
+# endfb8.1      1.081068E+00   9.358352E-01   4.438435E-01
+# jeff4.0       1.104830E+00   9.189765E-01   5.777278E-01
+# jendl5.0      1.238499E+00   1.219847E+00   1.904183E+00
+# cendl3.2      8.081096E+02   1.272068E-03   2.485040E+01

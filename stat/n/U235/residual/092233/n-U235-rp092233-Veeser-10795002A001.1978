@@ -1,0 +1,55 @@
+# header: 
+#   title: U235(n,x)U233 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Veeser
+#   year: 1978
+#   subentry: 10795002
+#   X4 reaction: 92-U-235(N,3N)92-U-233,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/10795002
+# target: 
+#   Z: 92
+#   A: 235
+#   nuclide: U235
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 17
+#   residual: 
+#     Z: 92
+#     A: 233
+#     nuclide: U233
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.480000E+01   2.000000E-01   8.700000E+01   2.400000E+01   1.000000E+00
+   1.700000E+01   2.000000E-01   2.060000E+02   2.900000E+01   1.000000E+00
+   1.900000E+01   1.500000E-01   2.580000E+02   2.700000E+01   1.000000E+00
+   2.000000E+01   1.200000E-01   2.650000E+02   4.000000E+01   1.000000E+00
+   2.100000E+01   1.200000E-01   2.770000E+02   4.600000E+01   1.000000E+00
+# reference:
+#   author: L.R.Veeser,E.D.Arthur
+#   title: Measurement of (n,3n) cross sections for 235U and 238U
+#   journal: Conf: Int.Conf.on Neutr.Phys.and Nucl.Data,Harwell 1978, p.1054 (1978)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.480000E+01
+#   E-max [MeV]:  2.100000E+01
+#   F-value:  1.681527E+00
+#   A-value:  1.458428E+00
+#   chi-2:  3.378520E+01
+#   p-value:  3.775245E-01
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.998624E+00   1.830951E+00   5.986119E+01
+# jendl5.0      1.279328E+00   1.161698E+00   7.709197E+00

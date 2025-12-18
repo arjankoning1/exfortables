@@ -1,0 +1,58 @@
+# header: 
+#   title: Ni64(n,x)Fe61 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Qaim
+#   year: 1984
+#   subentry: 21958004
+#   X4 reaction: 28-NI-64(N,A)26-FE-61,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21958004
+# target: 
+#   Z: 28
+#   A: 64
+#   nuclide: Ni64
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+#   residual: 
+#     Z: 26
+#     A: 61
+#     nuclide: Fe61
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   7.015000E+00   3.300000E-01   2.076200E-01   7.266700E-02   1.038095E+00
+   7.546000E+00   3.380000E-01   2.491400E-01   7.266700E-02   1.038095E+00
+   8.067000E+00   3.520000E-01   5.709500E-01   1.038100E-01   1.038095E+00
+   8.577000E+00   3.640000E-01   6.540000E-01   1.038100E-01   1.038095E+00
+   9.081000E+00   3.760000E-01   6.643800E-01   1.557100E-01   1.038095E+00
+   9.580000E+00   3.840000E-01   9.654300E-01   2.595200E-01   1.038095E+00
+# reference:
+#   author: S.M.Qaim,R.Woelfle,M.M.Rahman,H.Ollig
+#   title: Measurement of (n,p) and (n,alpha) reaction cross  sections on some isotopes of nickel in the energy  region of 5 to 10 MeV using a deuterium gas target  at a compact cyclotron
+#   journal: Jour: Nuclear Science and Engineering, Vol.88, Issue.2, p.143 (1984)
+# statistics:
+#   NEA score: R2
+#   IAEA score:  1
+#   E-min [MeV]:  7.015000E+00
+#   E-max [MeV]:  9.580000E+00
+#   F-value:  4.526342E+01
+#   A-value:  2.470451E-02
+#   chi-2:  2.417580E+01
+#   p-value:  9.934107E-08
+#   exp. data sets for p-value:      1
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    4.579908E+01   2.433717E-02   2.420065E+01
+# endfb8.1      0.000000E+00   0.000000E+00   0.000000E+00
+# jeff4.0       4.473240E+01   2.507739E-02   2.415095E+01
+# jendl5.0      0.000000E+00   0.000000E+00   0.000000E+00

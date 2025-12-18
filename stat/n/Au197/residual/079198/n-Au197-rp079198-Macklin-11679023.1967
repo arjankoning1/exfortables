@@ -1,0 +1,53 @@
+# header: 
+#   title: Au197(n,x)Au198 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Macklin
+#   year: 1967
+#   subentry: 11679023
+#   X4 reaction: 79-AU-197(N,G)79-AU-198,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11679023
+# target: 
+#   Z: 79
+#   A: 197
+#   nuclide: Au197
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 79
+#     A: 198
+#     nuclide: Au198
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.250000E-01   2.300000E-02   2.725000E+02   1.530000E+01   1.000000E+00
+   1.500000E-01   2.100000E-02   2.525000E+02   1.820000E+01   1.000000E+00
+   1.820000E-01   2.100000E-02   2.306000E+02   1.590000E+01   1.000000E+00
+# reference:
+#   author: R.L.MACKLIN,J.H.GIBBONS
+#   title: CAPTURE-CROSS-SECTION STUDIES FOR 30-220-KEV NEUTRONS USING A NEW TECHNIQUE.
+#   journal: Jour: Physical Review, Vol.159, p.1007 (1967)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.250000E-01
+#   E-max [MeV]:  1.820000E-01
+#   F-value:  1.095256E+00
+#   A-value:  1.088549E+00
+#   chi-2:  2.510315E+00
+#   p-value:  2.265631E-01
+#   exp. data sets for p-value:      8
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.100253E+00   1.094286E+00   2.721310E+00
+# jendl5.0      1.090020E+00   1.082841E+00   2.299319E+00

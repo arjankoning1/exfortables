@@ -1,0 +1,56 @@
+# header: 
+#   title: C12(n,2n)C11 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Brolleyjr
+#   year: 1952
+#   subentry: 11303002
+#   X4 reaction: 6-C-12(N,2N)6-C-11,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11303002
+# target: 
+#   Z: 6
+#   A: 12
+#   nuclide: C12
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 6
+#     A: 11
+#     nuclide: C11
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.300000E+01   0.000000E+00   4.500000E+00   0.000000E+00   1.000000E+00
+   2.400000E+01   0.000000E+00   5.000000E+00   0.000000E+00   1.000000E+00
+   2.700000E+01   0.000000E+00   1.000000E+01   0.000000E+00   1.000000E+00
+# reference:
+#   author: J.E.BROLLEY JR,J.L.FOWLER,L.K.SCHLACKS
+#   title: (N,2N) REACTIONS IN C-12, CU-63 AND MO-92.
+#   journal: Jour: Physical Review, Vol.88, p.618 (1952)
+# statistics:
+#   NEA score: R2
+#   IAEA score:  1
+#   E-min [MeV]:  2.300000E+01
+#   E-max [MeV]:  2.700000E+01
+#   F-value:  2.999025E+00
+#   A-value:  7.841854E-01
+#   chi-2:  0.000000E+00
+#   p-value:  3.101864E-01
+#   exp. data sets for p-value:      8
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2025    3.333352E+00   3.255204E+00   0.000000E+00
+# endfb8.1      4.328671E+00   2.510226E-01   0.000000E+00
+# jeff4.0       4.328671E+00   2.510226E-01   0.000000E+00
+# jendl5.0      1.213372E+00   8.842266E-01   0.000000E+00
+# eaf.2010      1.649096E+00   1.635032E+00   0.000000E+00

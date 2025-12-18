@@ -1,0 +1,62 @@
+# header: 
+#   title: Zr90(n,x)Zr89 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Ikeda
+#   year: 1986
+#   subentry: 21945003
+#   X4 reaction: 40-ZR-90(N,2N)40-ZR-89,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21945003
+# target: 
+#   Z: 40
+#   A: 90
+#   nuclide: Zr90
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 40
+#     A: 89
+#     nuclide: Zr89
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 11
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.350000E+01   0.000000E+00   4.479713E+02   2.374248E+01   9.999360E-01
+   1.363000E+01   0.000000E+00   4.969682E+02   2.633931E+01   9.999360E-01
+   1.377000E+01   0.000000E+00   5.519646E+02   2.925413E+01   9.999360E-01
+   1.394000E+01   0.000000E+00   5.869625E+02   3.169597E+01   9.999360E-01
+   1.410000E+01   0.000000E+00   6.279598E+02   3.390983E+01   9.999360E-01
+   1.430000E+01   0.000000E+00   6.899559E+02   3.656767E+01   9.999360E-01
+   1.450000E+01   0.000000E+00   7.609513E+02   4.033042E+01   9.999360E-01
+   1.467000E+01   0.000000E+00   7.949492E+02   4.213230E+01   9.999360E-01
+   1.480000E+01   0.000000E+00   8.229474E+02   4.361621E+01   9.999360E-01
+   1.488000E+01   0.000000E+00   8.499456E+02   4.504711E+01   9.999360E-01
+   1.491000E+01   0.000000E+00   8.419462E+02   4.462316E+01   9.999360E-01
+# reference:
+#   author: Y.Ikeda,H.Maekawa,T.Nakamura,H.Miyade,K.Kawade, H.Yamamoto,T.Katoh,K.Oishi
+#   title: Measurement of high threshold activation cross  sections for 13.5 to 15.0 MeV neutrons
+#   journal: Jour: Radiation Effects, Vol.92, p.175 (1986)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.350000E+01
+#   E-max [MeV]:  1.491000E+01
+#   F-value:  1.025052E+00
+#   A-value:  9.806296E-01
+#   chi-2:  5.205876E-01
+#   p-value:  2.134044E-01
+#   exp. data sets for p-value:      8
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.026594E+00   9.787182E-01   5.741223E-01
+# jeff4.0       1.026594E+00   9.787182E-01   5.741223E-01
+# jendl5.0      1.021654E+00   9.844637E-01   4.135184E-01

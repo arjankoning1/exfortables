@@ -1,0 +1,57 @@
+# header: 
+#   title: Np237(p,2n)Pu236 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Aaltonen
+#   year: 1993
+#   subentry: A0528005
+#   X4 reaction: 93-NP-237(P,X)94-PU-236,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/A0528005
+# target: 
+#   Z: 93
+#   A: 237
+#   nuclide: Np237
+# reaction: 
+#   type: (p,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 94
+#     A: 236
+#     nuclide: Pu236
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.090000E+01   0.000000E+00   2.590000E+00   1.800000E-01   1.000000E+00
+   1.210000E+01   0.000000E+00   7.290000E+00   2.600000E-01   1.000000E+00
+   1.330000E+01   0.000000E+00   1.387000E+01   3.200000E-01   1.000000E+00
+   1.430000E+01   0.000000E+00   1.716000E+01   3.700000E-01   1.000000E+00
+   1.530000E+01   0.000000E+00   1.682000E+01   3.600000E-01   1.000000E+00
+   1.630000E+01   0.000000E+00   1.613000E+01   3.500000E-01   1.000000E+00
+   1.750000E+01   0.000000E+00   1.750000E+01   4.000000E-01   1.000000E+00
+# reference:
+#   author: J.Aaltonen,M.Brenner,V.D.Dmitriev,A.M.Fridkin, V.B.Funshtein,E.A.Gromova,S.-J.Heselius,V.A.Jakovlev, Yu.A.Selitskiy
+#   title: Formation of Pu-236 and Pu-237 by proton-induced reactions on Np-237.
+#   journal: Jour: Applied Radiation and Isotopes, Vol.44, p.831 (1993)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  1.090000E+01
+#   E-max [MeV]:  1.750000E+01
+#   F-value:  6.221140E+01
+#   A-value:  4.576288E-02
+#   chi-2:  9.109194E+02
+#   p-value:  2.128835E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    3.361856E+02   3.114918E-03   1.598212E+03
+# jendl5.0      1.693446E+00   6.723258E-01   2.236266E+02

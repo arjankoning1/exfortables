@@ -1,0 +1,51 @@
+# header: 
+#   title: U235(n,tot) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Pattenden
+#   year: 1958
+#   subentry: 225700032
+#   X4 reaction: 92-U-235(N,TOT),,SIG,,RES
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/225700032
+# target: 
+#   Z: 92
+#   A: 235
+#   nuclide: U235
+# reaction: 
+#   type: (n,tot)
+#   ENDF_MF: 3
+#   ENDF_MT: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.130000E-06   0.000000E+00   1.110000E+05   3.000000E+03   1.000000E+00
+# reference:
+#   author: N.J.PATTENDEN,A.H.BASTON
+#   title:
+#   journal: Rept: A.E.R.E. Harwell Reports, No.88 (1958)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.130000E-06
+#   E-max [MeV]:  1.130000E-06
+#   F-value:  1.362896E+00
+#   A-value:  1.362572E+00
+#   chi-2:  1.804377E+02
+#   p-value:  1.257686E-01
+#   exp. data sets for p-value:      8
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.377463E+00   1.377463E+00   1.950524E+02
+# endfb8.1      1.352957E+00   1.352957E+00   1.705484E+02
+# jeff4.0       1.357481E+00   1.357481E+00   1.749482E+02
+# jendl5.0      1.377451E+00   1.377451E+00   1.950401E+02
+# cendl3.2      1.333392E+00   1.333392E+00   1.521646E+02
+# irdff2.0      1.377289E+00   1.377289E+00   1.948729E+02

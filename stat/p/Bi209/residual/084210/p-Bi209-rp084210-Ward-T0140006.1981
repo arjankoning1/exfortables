@@ -1,0 +1,64 @@
+# header: 
+#   title: Bi209(p,x)Po210 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Ward
+#   year: 1981
+#   subentry: T0140006
+#   X4 reaction: 83-BI-209(P,X)84-PO-210,IND,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/T0140006
+# target: 
+#   Z: 83
+#   A: 209
+#   nuclide: Bi209
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 84
+#     A: 210
+#     nuclide: Po210
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 14
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   6.200000E+01   0.000000E+00   1.520000E-02   3.344000E-03   1.000000E+00
+   8.000000E+01   0.000000E+00   1.080000E-02   2.376000E-03   1.000000E+00
+   9.500000E+01   0.000000E+00   6.700000E-03   1.474000E-03   1.000000E+00
+   1.150000E+02   0.000000E+00   5.700000E-03   1.254000E-03   1.000000E+00
+   1.250000E+02   0.000000E+00   4.700000E-03   1.034000E-03   1.000000E+00
+   1.360000E+02   0.000000E+00   4.900000E-03   1.078000E-03   1.000000E+00
+   1.440000E+02   0.000000E+00   5.500000E-03   1.210000E-03   1.000000E+00
+   1.500000E+02   0.000000E+00   6.700000E-03   1.474000E-03   1.000000E+00
+   1.540000E+02   0.000000E+00   6.600000E-03   1.452000E-03   1.000000E+00
+   1.600000E+02   0.000000E+00   1.140000E-02   2.508000E-03   1.000000E+00
+   1.650000E+02   0.000000E+00   1.160000E-02   2.552000E-03   1.000000E+00
+   1.700000E+02   0.000000E+00   9.800000E-03   2.156000E-03   1.000000E+00
+   1.790000E+02   0.000000E+00   9.300000E-03   2.046000E-03   1.000000E+00
+   1.900000E+02   0.000000E+00   1.010000E-02   2.222000E-03   1.000000E+00
+# reference:
+#   author: T.E.WARD,P.P.SINGH,D.L.FRIESEL,A.YAVIN,A.DORON, J.M.D'AURIA,G.SHEFFER,M.DILLIG
+#   title: Radiochemical study of the combined (p,pi0) and (p,  gamma) reactions on bismuth with protons from 62 to  480 MeV.
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.24, p.588 (1981)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  6.200000E+01
+#   E-max [MeV]:  1.900000E+02
+#   F-value:  5.295440E+00
+#   A-value:  2.860788E+00
+#   chi-2:  1.125541E+03
+#   p-value:  1.504868E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    9.439898E+00   8.845568E+00   2.237883E+03
+# jendl5.0      2.052396E+00   9.252218E-01   1.319955E+01

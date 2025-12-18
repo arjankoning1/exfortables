@@ -1,0 +1,65 @@
+# header: 
+#   title: Nb93(n,2n)Nb92m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: WangXiuyuann
+#   year: 1989
+#   subentry: 30935003
+#   X4 reaction: 41-NB-93(N,2N)41-NB-92-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30935003
+# target: 
+#   Z: 41
+#   A: 93
+#   nuclide: Nb93
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 41
+#     A: 92
+#     nuclide: Nb92m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.354000E+01   2.700000E-01   4.440494E+02   2.100744E+01   9.907393E-01
+   1.373000E+01   2.200000E-01   4.484114E+02   2.103599E+01   9.933792E-01
+   1.397000E+01   2.000000E-01   4.516927E+02   2.151750E+01   9.916414E-01
+   1.423000E+01   2.000000E-01   4.500831E+02   2.132662E+01   9.844336E-01
+   1.447000E+01   1.700000E-01   4.483688E+02   2.097926E+01   9.781170E-01
+   1.467000E+01   2.400000E-01   4.485930E+02   2.139383E+01   9.779659E-01
+   1.481000E+01   2.900000E-01   4.450079E+02   2.085165E+01   9.716329E-01
+# reference:
+#   author: Wang Xiuyuan,Hao Fanhua,Li Zhengtong,Huang Ruiliang
+#   title: Measurements of activation cross section.
+#   journal: Priv.Comm: Wang (1989)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.354000E+01
+#   E-max [MeV]:  1.481000E+01
+#   F-value:  1.018718E+00
+#   A-value:  1.013013E+00
+#   chi-2:  4.034607E-01
+#   p-value:  2.291270E-01
+#   exp. data sets for p-value:      8
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2025    1.010085E+00   1.009019E+00   2.529331E-01
+# jeff4.0       1.010085E+00   1.009019E+00   2.529285E-01
+# jendl5.0      1.002308E+00   1.000739E+00   4.188786E-02
+# eaf.2010      1.038247E+00   1.037360E+00   1.208431E+00
+# irdff2.0      1.010256E+00   1.009313E+00   2.611234E-01

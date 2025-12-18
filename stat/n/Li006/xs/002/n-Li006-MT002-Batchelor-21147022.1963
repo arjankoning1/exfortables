@@ -1,0 +1,56 @@
+# header: 
+#   title: Li6(n,el) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Batchelor
+#   year: 1963
+#   subentry: 21147022
+#   X4 reaction: 3-LI-6(N,EL)3-LI-6,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21147022
+# target: 
+#   Z: 3
+#   A: 6
+#   nuclide: Li6
+# reaction: 
+#   type: (n,el)
+#   ENDF_MF: 3
+#   ENDF_MT: 2
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.350000E+00   6.000000E-02   1.410000E+03   6.000000E+01   1.000000E+00
+   4.000000E+00   6.000000E-02   1.370000E+03   4.200000E+02   1.000000E+00
+   4.830000E+00   6.000000E-02   1.285000E+03   1.000000E+02   1.000000E+00
+   5.150000E+00   1.600000E-01   1.205000E+03   4.500000E+01   1.000000E+00
+   6.360000E+00   1.200000E-01   1.140000E+03   4.300000E+01   1.000000E+00
+   7.540000E+00   1.150000E-01   1.180000E+03   4.500000E+01   1.000000E+00
+# reference:
+#   author: R.BATCHELOR,J.H.TOWLE
+#   title: -THE INTERACTIONS OF NEUTRONS WITH LI-6 AND LI-7  BETWEEN 1.5 AND 7.5 MEV-.
+#   journal: Jour: Nuclear Physics, Vol.47, p.385 (1963)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  3.350000E+00
+#   E-max [MeV]:  7.540000E+00
+#   F-value:  1.186587E+00
+#   A-value:  1.031269E+00
+#   chi-2:  1.238001E+01
+#   p-value:  3.930032E-01
+#   exp. data sets for p-value:      3
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.506388E+00   1.138063E+00   6.773697E+01
+# endfb8.1      1.062544E+00   1.045448E+00   2.968337E+00
+# jeff4.0       1.020487E+00   9.937845E-01   4.464757E-01
+# jendl5.0      1.033807E+00   9.947147E-01   9.351315E-01
+# cendl3.2      1.047319E+00   1.029151E+00   1.746662E+00
+# irdff2.0      1.020487E+00   9.937847E-01   4.464643E-01

@@ -1,0 +1,56 @@
+# header: 
+#   title: Bi209(n,tot) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Mazari
+#   year: 1955
+#   subentry: 30037015
+#   X4 reaction: 83-BI-209(N,TOT),,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30037015
+# target: 
+#   Z: 83
+#   A: 209
+#   nuclide: Bi209
+# reaction: 
+#   type: (n,tot)
+#   ENDF_MF: 3
+#   ENDF_MT: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.300000E+01   0.000000E+00   5.360000E+03   2.800000E+02   1.000000E+00
+   1.350000E+01   0.000000E+00   5.440000E+03   2.800000E+02   1.000000E+00
+   1.402000E+01   0.000000E+00   5.590000E+03   2.400000E+02   1.000000E+00
+   1.460000E+01   0.000000E+00   5.710000E+03   1.200000E+02   1.000000E+00
+   1.520000E+01   0.000000E+00   5.900000E+03   2.700000E+02   1.000000E+00
+   1.586000E+01   0.000000E+00   5.860000E+03   2.900000E+02   1.000000E+00
+   1.620000E+01   0.000000E+00   5.920000E+03   2.100000E+02   1.000000E+00
+# reference:
+#   author: M.Mazari,F.Alba,V.Serment,A.Fernandez,T.W.Bonner
+#   title: Neutron total cross section measurements between 13.0 and 16.2 MeV for the following nuclei= 11-Na,13-Al-027, 26-Fe,28-Ni,29-Cu,30-Zn,38-Sr,40-Zr,47-Ag,50-Sn,80-Hg, 81-Tl,82-Pb and 83-Bi-209
+#   journal:
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.300000E+01
+#   E-max [MeV]:  1.620000E+01
+#   F-value:  1.041408E+00
+#   A-value:  9.655953E-01
+#   chi-2:  1.870573E+00
+#   p-value:  1.898684E-01
+#   exp. data sets for p-value:      8
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2025    1.060228E+00   9.467559E-01   3.268080E+00
+# endfb8.1      1.038327E+00   9.677432E-01   1.693419E+00
+# jeff4.0       1.035104E+00   9.703301E-01   1.530986E+00
+# jendl5.0      1.035104E+00   9.703301E-01   1.530986E+00
+# cendl3.2      1.032382E+00   9.730577E-01   1.329391E+00

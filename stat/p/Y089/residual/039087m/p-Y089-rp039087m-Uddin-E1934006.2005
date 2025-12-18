@@ -1,0 +1,65 @@
+# header: 
+#   title: Y89(p,x)Y87m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Uddin
+#   year: 2005
+#   subentry: E1934006
+#   X4 reaction: 39-Y-89(P,X)39-Y-87-M,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/E1934006
+# target: 
+#   Z: 39
+#   A: 89
+#   nuclide: Y89
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 39
+#     A: 87
+#     nuclide: Y87m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.840000E+01   0.000000E+00   3.526258E+02   2.401537E+01   1.000641E+00
+   3.900000E+01   0.000000E+00   6.840379E+02   4.652979E+01   1.000641E+00
+   4.430000E+01   0.000000E+00   6.799353E+02   4.612954E+01   1.000641E+00
+   4.930000E+01   0.000000E+00   5.019214E+02   3.412184E+01   1.000641E+00
+   5.420000E+01   0.000000E+00   3.429196E+02   2.331493E+01   1.000641E+00
+   5.880000E+01   0.000000E+00   2.644693E+02   1.801153E+01   1.000641E+00
+   6.430000E+01   0.000000E+00   2.366515E+02   1.611031E+01   1.000641E+00
+   6.940000E+01   0.000000E+00   2.240434E+02   1.520974E+01   1.000641E+00
+   7.430000E+01   0.000000E+00   1.988273E+02   1.350865E+01   1.000641E+00
+   7.910000E+01   0.000000E+00   2.113353E+02   1.440923E+01   1.000641E+00
+# reference:
+#   author: M.S.Uddin, M.Hagiwara, M.Baba, F.Tarkanyi, F.Ditroi
+#   title: Experimental studies on excitation functions of the proton-induced activation reactions on yttrium
+#   journal: Jour: Applied Radiation and Isotopes, Vol.63, Issue.3, p.367 (2005)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  3.840000E+01
+#   E-max [MeV]:  7.910000E+01
+#   F-value:  1.963380E+00
+#   A-value:  5.332140E-01
+#   chi-2:  4.793429E+01
+#   p-value:  1.502264E-01
+#   exp. data sets for p-value:      5
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.843696E+00   5.739498E-01   4.019138E+01
+# jendl5.0      2.079607E+00   4.953694E-01   5.567720E+01

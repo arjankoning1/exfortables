@@ -1,0 +1,50 @@
+# header: 
+#   title: Ni60(p,np)Ni59 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Biryukov
+#   year: 1980
+#   subentry: A0068067P
+#   X4 reaction: 28-NI-60(P,X)28-NI-59,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/A0068067P
+# target: 
+#   Z: 28
+#   A: 60
+#   nuclide: Ni60
+# reaction: 
+#   type: (p,np)
+#   ENDF_MF: 3
+#   ENDF_MT: 28
+#   residual: 
+#     Z: 28
+#     A: 59
+#     nuclide: Ni59
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.200000E+01   2.000000E-01   1.230000E+02   7.995000E+00   1.000000E+00
+# reference:
+#   author: N.S.Biryukov,B.V.Zhuravlev,A.P.Rudenko, O.A.Salnikov,V.I.Trykova
+#   title: Direct and equilibrium processes in (p,n) reactions at proton energy of 22.2 MeV
+#   journal: Jour: Yadernaya Fizika, Vol.31, p.561 (1980)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  0
+#   E-min [MeV]:  2.200000E+01
+#   E-max [MeV]:  2.200000E+01
+#   F-value:  4.771157E+00
+#   A-value:  4.771157E+00
+#   chi-2:  3.366067E+03
+#   p-value:  9.536784E-03
+#   exp. data sets for p-value:      1
+#   libraries:      1
+##  Library          F              A            chi-2
+# tendl.2025    4.771157E+00   4.771157E+00   3.366067E+03

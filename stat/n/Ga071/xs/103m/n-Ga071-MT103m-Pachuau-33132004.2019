@@ -1,0 +1,58 @@
+# header: 
+#   title: Ga71(n,p)Zn71m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Pachuau
+#   year: 2019
+#   subentry: 33132004
+#   X4 reaction: 31-GA-71(N,P)30-ZN-71-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/33132004
+# target: 
+#   Z: 31
+#   A: 71
+#   nuclide: Ga71
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 30
+#     A: 71
+#     nuclide: Zn71m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.490000E+01   2.000000E-02   9.680000E+00   6.747000E-01   1.000000E+00
+# reference:
+#   author: R.Pachuau, B.Lalremruata, A.Gandhi, S.V.Suryanarayana, B.K.Nayak, A.Kumar, L.S.Danu
+#   title: Neutron induced cross section measurements on gallium isotopes at neutron energy 14.90 +- 0.01 MeV and covariance analysis
+#   journal: Jour: Nuclear Physics, Section A, Vol.992, p.121613 (2019)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.490000E+01
+#   E-max [MeV]:  1.490000E+01
+#   F-value:  1.240239E+00
+#   A-value:  1.240117E+00
+#   chi-2:  1.189817E+01
+#   p-value:  1.608945E-01
+#   exp. data sets for p-value:      7
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.234697E+00   1.234697E+00   1.135528E+01
+# jeff4.0       1.234697E+00   1.234697E+00   1.135528E+01
+# jendl5.0      1.254064E+00   1.254064E+00   1.329378E+01
+# eaf.2010      1.237114E+00   1.237114E+00   1.158835E+01

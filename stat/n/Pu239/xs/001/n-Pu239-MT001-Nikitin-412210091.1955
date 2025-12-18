@@ -1,0 +1,51 @@
+# header: 
+#   title: Pu239(n,tot) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Nikitin
+#   year: 1955
+#   subentry: 412210091
+#   X4 reaction: 94-PU-239(N,TOT),,SIG,,RES
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/412210091
+# target: 
+#   Z: 94
+#   A: 239
+#   nuclide: Pu239
+# reaction: 
+#   type: (n,tot)
+#   ENDF_MF: 3
+#   ENDF_MT: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.000000E-07   5.000000E-09   4.600000E+06   3.000000E+05   1.000000E+00
+# reference:
+#   author: S.YA.NIKITIN,S.I.SUKHORUCHKIN,K.G.IGNATIEV, N.D.GALANINA
+#   title: .DEPENDENCE OF THE EFFECTIVE NUMBER OF SECONDARY .NEUTRONS ON THE ENERGY OF CAPTURED NEUTRONS.
+#   journal: Conf: USSR Conf. Peaceful Uses of At. En., Moscow 1955, p.87 (1955)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  3.000000E-07
+#   E-max [MeV]:  3.000000E-07
+#   F-value:  1.110564E+00
+#   A-value:  1.109856E+00
+#   chi-2:  3.321594E+00
+#   p-value:  2.721249E-01
+#   exp. data sets for p-value:      8
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.103786E+00   1.103786E+00   3.010046E+00
+# endfb8.1      1.109831E+00   1.109831E+00   3.280023E+00
+# jeff4.0       1.138196E+00   1.138196E+00   4.763124E+00
+# jendl5.0      1.103786E+00   1.103786E+00   3.010080E+00
+# cendl3.2      1.100533E+00   1.100533E+00   2.870760E+00
+# irdff2.0      1.103451E+00   1.103451E+00   2.995530E+00

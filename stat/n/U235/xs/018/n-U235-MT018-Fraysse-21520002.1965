@@ -1,0 +1,53 @@
+# header: 
+#   title: U235(n,f) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Fraysse
+#   year: 1965
+#   subentry: 21520002
+#   X4 reaction: 92-U-235(N,F),,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21520002
+# target: 
+#   Z: 92
+#   A: 235
+#   nuclide: U235
+# reaction: 
+#   type: (n,f)
+#   ENDF_MF: 3
+#   ENDF_MT: 18
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.216000E-08   4.000000E-11   5.120000E+05   1.100000E+04   1.000000E+00
+   6.260000E-08   9.999999E-11   3.430000E+05   9.000000E+03   1.000000E+00
+# reference:
+#   author: G.Fraysse,A.Prosdocimi
+#   title: -Fission cross section measurement of U-235 and  Pu-239 for low energy neutrons.-
+#   journal: Conf: Physics and Chemistry of Fission Conf., Salzburg 1965, Vol.1, p.25
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  3.216000E-08
+#   E-max [MeV]:  6.260000E-08
+#   F-value:  1.005181E+00
+#   A-value:  9.964292E-01
+#   chi-2:  2.119567E-01
+#   p-value:  4.722302E-01
+#   exp. data sets for p-value:      8
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.001498E+00   9.990116E-01   6.603725E-02
+# endfb8.1      1.001730E+00   9.987854E-01   7.324908E-02
+# jeff4.0       1.003088E+00   9.971142E-01   1.639910E-01
+# jendl5.0      1.001473E+00   9.990333E-01   6.516271E-02
+# cendl3.2      1.008302E+00   9.917722E-01   4.693015E-01
+# eaf.2010      1.010045E+00   9.901772E-01   5.849659E-01
+# irdff2.0      1.001347E+00   9.991544E-01   6.098944E-02

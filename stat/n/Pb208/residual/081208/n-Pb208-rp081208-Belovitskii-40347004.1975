@@ -1,0 +1,51 @@
+# header: 
+#   title: Pb208(n,x)Tl208 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Belovitskii
+#   year: 1975
+#   subentry: 40347004
+#   X4 reaction: 82-PB-208(N,P)81-TL-208,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/40347004
+# target: 
+#   Z: 82
+#   A: 208
+#   nuclide: Pb208
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 81
+#     A: 208
+#     nuclide: Tl208
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.450000E+01   0.000000E+00   5.000000E-01   9.999999E-02   1.000000E+00
+# reference:
+#   author: G.E.Belovitskii,O.S.Presnyak,L.V.Sukhov
+#   title: The measurement of excitation functions of (n,p) reactions for Pb and Bi isotopes at 13.4-14.8 MeV neutron energy
+#   journal: Conf: 3.All Union Conf.on Neutron Phys.,Kiev,9-13 Jun 1975, Vol.4, p.209
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.450000E+01
+#   E-max [MeV]:  1.450000E+01
+#   F-value:  1.541921E+00
+#   A-value:  6.486278E-01
+#   chi-2:  3.503169E+00
+#   p-value:  3.924291E-01
+#   exp. data sets for p-value:      8
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.525268E+00   6.556223E-01   3.394475E+00
+# jendl5.0      1.558342E+00   6.417078E-01   3.611863E+00

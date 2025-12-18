@@ -1,0 +1,61 @@
+# header: 
+#   title: Zn64(n,x)Cu64 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Smith
+#   year: 1975
+#   subentry: 102380451
+#   X4 reaction: 30-ZN-64(N,P)29-CU-64,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/102380451
+# target: 
+#   Z: 30
+#   A: 64
+#   nuclide: Zn64
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 29
+#     A: 64
+#     nuclide: Cu64
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.384000E+00   3.340000E-01   1.622954E+02   8.112600E+00   1.096591E+00
+   5.725000E+00   3.280000E-01   1.772091E+02   9.037000E+00   1.096591E+00
+   6.277000E+00   3.260000E-01   1.947545E+02   9.931800E+00   1.096591E+00
+   6.978000E+00   3.340000E-01   1.783057E+02   8.917500E+00   1.096591E+00
+   7.485000E+00   3.500000E-01   1.912455E+02   9.564500E+00   1.096591E+00
+   7.984000E+00   3.640000E-01   1.917937E+02   9.780500E+00   1.096591E+00
+   8.478000E+00   3.820000E-01   2.038562E+02   1.039678E+01   1.096591E+00
+   8.968000E+00   3.980000E-01   2.092295E+02   1.067312E+01   1.096591E+00
+   9.455000E+00   4.180000E-01   2.086812E+02   1.084967E+01   1.096591E+00
+   9.939000E+00   4.360000E-01   2.065977E+02   1.094836E+01   1.096591E+00
+# reference:
+#   author: D.L.Smith,J.W.Meadows
+#   title: Cross-section measurement of (n,p) reactions for 27Al,  46,47,48Ti, 54,56Fe, 58Ni, 59Co, and 64Zn from near  threshold to 10 MeV
+#   journal: Jour: Nuclear Science and Engineering, Vol.58, p.314 (1975)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  5.384000E+00
+#   E-max [MeV]:  9.939000E+00
+#   F-value:  1.170034E+00
+#   A-value:  1.159490E+00
+#   chi-2:  1.144388E+01
+#   p-value:  1.621332E-01
+#   exp. data sets for p-value:      8
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.173246E+00   1.161599E+00   1.187426E+01
+# jeff4.0       1.173246E+00   1.161599E+00   1.187428E+01
+# jendl5.0      1.163463E+00   1.155282E+00   1.058312E+01

@@ -1,0 +1,67 @@
+# header: 
+#   title: Pd110(n,x)Pd109m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Augustyniak
+#   year: 1977
+#   subentry: 30444004
+#   X4 reaction: 46-PD-110(N,2N)46-PD-109-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30444004
+# target: 
+#   Z: 46
+#   A: 110
+#   nuclide: Pd110
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 46
+#     A: 109
+#     nuclide: Pd109m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 11
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.300000E+01   4.000000E-01   4.370000E+02   5.200000E+01   1.000000E+00
+   1.360000E+01   3.000000E-01   4.110000E+02   3.700000E+01   1.000000E+00
+   1.390000E+01   3.000000E-01   4.100000E+02   1.000000E+02   1.000000E+00
+   1.420000E+01   3.000000E-01   4.240000E+02   3.800000E+01   1.000000E+00
+   1.450000E+01   3.000000E-01   4.620000E+02   4.300000E+01   1.000000E+00
+   1.480000E+01   3.000000E-01   4.520000E+02   4.600000E+01   1.000000E+00
+   1.520000E+01   2.000000E-01   5.000001E+02   9.400000E+01   1.000000E+00
+   1.540000E+01   3.000000E-01   4.820000E+02   4.300000E+01   1.000000E+00
+   1.590000E+01   5.000000E-01   5.070000E+02   5.900000E+01   1.000000E+00
+   1.660000E+01   1.000000E-01   4.770000E+02   5.700000E+01   1.000000E+00
+   1.790000E+01   1.000000E-01   4.200000E+02   4.300000E+01   1.000000E+00
+# reference:
+#   author: W.Augustyniak,M.Herman,A.Marcinkowski,B.Zwieglinski
+#   title: Cross sections for the (n,2n) reaction on Pd-102, Pd-110, Cd-112 and Os-192.
+#   journal:
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.300000E+01
+#   E-max [MeV]:  1.790000E+01
+#   F-value:  1.415336E+00
+#   A-value:  8.788229E-01
+#   chi-2:  8.076827E+00
+#   p-value:  3.998447E-01
+#   exp. data sets for p-value:      2
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.217519E+00   1.194453E+00   5.043466E+00
+# jeff4.0       1.568471E+00   6.465971E-01   1.111019E+01
+# jendl5.0      0.000000E+00   0.000000E+00   0.000000E+00

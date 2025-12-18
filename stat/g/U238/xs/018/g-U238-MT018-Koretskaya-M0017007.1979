@@ -1,0 +1,61 @@
+# header: 
+#   title: U238(g,f) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Koretskaya
+#   year: 1979
+#   subentry: M0017007
+#   X4 reaction: 92-U-238(G,F),,SIG,,BRS
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/M0017007
+# target: 
+#   Z: 92
+#   A: 238
+#   nuclide: U238
+# reaction: 
+#   type: (g,f)
+#   ENDF_MF: 3
+#   ENDF_MT: 18
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 14
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   8.000000E+00   0.000000E+00   2.500000E+01   1.000000E+01   1.000000E+00
+   9.000000E+00   0.000000E+00   4.100000E+01   1.200000E+01   1.000000E+00
+   1.000000E+01   0.000000E+00   6.600001E+01   1.300000E+01   1.000000E+00
+   1.100000E+01   0.000000E+00   8.900001E+01   1.400000E+01   1.000000E+00
+   1.200000E+01   0.000000E+00   9.800000E+01   1.500000E+01   1.000000E+00
+   1.250000E+01   0.000000E+00   1.010000E+02   1.500000E+01   1.000000E+00
+   1.300000E+01   0.000000E+00   1.230000E+02   1.600000E+01   1.000000E+00
+   1.390000E+01   0.000000E+00   1.620000E+02   1.800000E+01   1.000000E+00
+   1.500000E+01   0.000000E+00   1.500000E+02   2.000000E+01   1.000000E+00
+   1.600000E+01   0.000000E+00   1.240000E+02   2.200000E+01   1.000000E+00
+   1.700000E+01   0.000000E+00   1.010000E+02   2.500000E+01   1.000000E+00
+   1.800000E+01   0.000000E+00   7.100000E+01   2.700000E+01   1.000000E+00
+   1.900000E+01   0.000000E+00   5.300000E+01   3.000000E+01   1.000000E+00
+   2.000000E+01   0.000000E+00   3.400000E+01   3.200000E+01   1.000000E+00
+# reference:
+#   author: I.S.Koretskaya,V.L.Kuznetsov,L.E.Lazareva,  V.G.Nedoresov,N.V.Nikitina
+#   title: Photofission cross sections for the nuclei Am-241 and  Am-243 in the region of the E1 giant resonance.
+#   journal: Jour: Yadernaya Fizika, Vol.30, p.910 (1979)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  8.000000E+00
+#   E-max [MeV]:  2.000000E+01
+#   F-value:  1.398875E+00
+#   A-value:  8.697073E-01
+#   chi-2:  1.880523E+00
+#   p-value:  2.701218E-01
+#   exp. data sets for p-value:      8
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.749960E+00   6.607822E-01   4.992822E+00
+# endfb8.1      1.098596E+00   9.882724E-01   2.921293E-01
+# jendl5.0      1.134988E+00   1.007359E+00   3.566179E-01

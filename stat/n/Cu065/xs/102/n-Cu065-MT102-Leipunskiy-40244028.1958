@@ -1,0 +1,55 @@
+# header: 
+#   title: Cu65(n,g)Cu66 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Leipunskiy
+#   year: 1958
+#   subentry: 40244028
+#   X4 reaction: 29-CU-65(N,G)29-CU-66,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/40244028
+# target: 
+#   Z: 29
+#   A: 65
+#   nuclide: Cu65
+# reaction: 
+#   type: (n,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 29
+#     A: 66
+#     nuclide: Cu66
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.000000E-01   3.000000E-02   1.390000E+01   1.500000E+00   1.000000E+00
+# reference:
+#   author: A.I.Leipunskiy, O.D.Kazachkovskiy, G.Ja.Artyukhov, A.I.Baryshnikov, T.S.Belanova, V.I.Galkov, Yu.Ja.Stavisskiy, E.A.Stumbur, L.E.Sherman
+#   title: Radiative capture cross-section measurements  for fast neutrons.
+#   journal: Conf: Second Internat. At.En. Conf., Geneva 1958, Vol.15, p.50 (1958)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  2.000000E-01
+#   E-max [MeV]:  2.000000E-01
+#   F-value:  1.054201E+00
+#   A-value:  9.537768E-01
+#   chi-2:  6.011053E-01
+#   p-value:  2.394637E-01
+#   exp. data sets for p-value:      2
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.054599E+00   9.482275E-01   6.689454E-01
+# endfb8.1      1.066828E+00   9.373578E-01   8.291635E-01
+# jeff4.0       1.066828E+00   9.373578E-01   8.291635E-01
+# jendl5.0      1.036960E+00   9.643576E-01   4.448455E-01
+# cendl3.2      1.066982E+00   9.372230E-01   8.312003E-01
+# eaf.2010      1.000285E+00   9.997149E-01   3.313516E-03

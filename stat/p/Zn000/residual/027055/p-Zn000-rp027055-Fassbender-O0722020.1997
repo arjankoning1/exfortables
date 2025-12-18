@@ -1,0 +1,55 @@
+# header: 
+#   title: Zn0(p,x)Co55 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Fassbender
+#   year: 1997
+#   subentry: O0722020
+#   X4 reaction: 30-ZN-0(P,X)27-CO-55,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O0722020
+# target: 
+#   Z: 30
+#   A: 0
+#   nuclide: Zn0
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 27
+#     A: 55
+#     nuclide: Co55
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.340000E+02   6.774216E-01   1.400000E+00   2.000000E-01   1.000000E+00
+   1.570000E+02   7.913438E-01   1.600000E+00   2.000000E-01   1.000000E+00
+   1.720000E+02   8.657944E-01   1.800000E+00   3.000000E-01   1.000000E+00
+   2.147000E+02   1.078148E+00   1.400000E+00   3.000000E-01   1.000000E+00
+   2.543000E+02   1.275426E+00   1.500000E+00   4.000000E-01   1.000000E+00
+# reference:
+#   author: M.Fassbender, Yu.N.Shubin, V.P.Lunev, S.M.Qaim
+#   title: Experimental studies and nuclear model calculations on the formation of radioactive products in interactions of medium energy protons with copper, zinc and brass:  estimation of collimator activation in proton therapy facilities.
+#   journal: Jour: Applied Radiation and Isotopes, Vol.48, p.1221 (1997)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.340000E+02
+#   E-max [MeV]:  2.543000E+02
+#   F-value:  2.443658E+00
+#   A-value:  2.151937E+00
+#   chi-2:  1.475724E+02
+#   p-value:  1.192692E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    3.366509E+00   3.357702E+00   2.848381E+02
+# jendl5.0      1.420434E+00   1.379167E+00   1.030675E+01

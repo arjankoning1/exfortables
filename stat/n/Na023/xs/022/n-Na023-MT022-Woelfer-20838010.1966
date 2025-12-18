@@ -1,0 +1,57 @@
+# header: 
+#   title: Na23(n,na)F19 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Woelfer
+#   year: 1966
+#   subentry: 20838010
+#   X4 reaction: 11-NA-23(N,A+N)9-F-19,SEQ,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20838010
+# target: 
+#   Z: 11
+#   A: 23
+#   nuclide: Na23
+# reaction: 
+#   type: (n,na)
+#   ENDF_MF: 3
+#   ENDF_MT: 22
+#   residual: 
+#     Z: 9
+#     A: 19
+#     nuclide: F19
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.540000E+01   4.000000E-01   1.000000E+01   1.800000E+01   1.000000E+00
+   1.640000E+01   4.000000E-01   3.900000E+01   1.700000E+01   1.000000E+00
+   1.760000E+01   3.000000E-01   6.500002E+01   1.900000E+01   1.000000E+00
+   1.870000E+01   3.000000E-01   9.300000E+01   2.000000E+01   1.000000E+00
+# reference:
+#   author: G.WOELFER,M.BORMANN
+#   title: -THE SPECTRUM OF ALPHA PARTICLES FROM NEUTRON  REACTIONS ON NA-23 -.
+#   journal: Jour: Zeitschrift fuer Physik, Vol.194, p.75 (1966)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.540000E+01
+#   E-max [MeV]:  1.870000E+01
+#   F-value:  2.275557E+00
+#   A-value:  1.957282E+00
+#   chi-2:  5.491933E+00
+#   p-value:  1.558115E-01
+#   exp. data sets for p-value:      3
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2025    1.545532E+00   1.326231E+00   5.581973E-01
+# jeff4.0       1.964562E+00   1.656966E+00   1.700656E+00
+# jendl5.0      3.183301E+00   2.843520E+00   1.303865E+01
+# cendl3.2      2.526021E+00   2.338817E+00   7.623397E+00
+# eaf.2010      2.078470E+00   1.965538E+00   4.538764E+00

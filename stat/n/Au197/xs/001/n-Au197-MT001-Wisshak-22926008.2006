@@ -1,0 +1,59 @@
+# header: 
+#   title: Au197(n,tot) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Wisshak
+#   year: 2006
+#   subentry: 22926008
+#   X4 reaction: 79-AU-197(N,TOT),,SIG,,AV
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22926008
+# target: 
+#   Z: 79
+#   A: 197
+#   nuclide: Au197
+# reaction: 
+#   type: (n,tot)
+#   ENDF_MF: 3
+#   ENDF_MT: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 9
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.250000E-02   2.500000E-03   1.440000E+04   1.872000E+03   1.000000E+00
+   1.750000E-02   2.500000E-03   1.610000E+04   2.093000E+03   1.000000E+00
+   2.500000E-02   5.000000E-03   1.420000E+04   1.846000E+03   1.000000E+00
+   3.500000E-02   5.000000E-03   1.260000E+04   1.638000E+03   1.000000E+00
+   5.000000E-02   1.000000E-02   1.200000E+04   1.560000E+03   1.000000E+00
+   7.000000E-02   1.000000E-02   1.060000E+04   1.378000E+03   1.000000E+00
+   9.000000E-02   1.000000E-02   9.100000E+03   1.183000E+03   1.000000E+00
+   1.250000E-01   2.500000E-02   1.000000E+04   1.300000E+03   1.000000E+00
+   1.750000E-01   2.500000E-02   8.800000E+03   1.144000E+03   1.000000E+00
+# reference:
+#   author: K.Wisshak, F.Voss, F.Kaeppeler, L.Kazakov, F.Becvar, M.Krticka, R.Gallino, M.Pignatari
+#   title: Fast neutron capture on the Hf isotopes-cross section,  isomer production and stellar aspects.
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.73, p.045807 (2006)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.250000E-02
+#   E-max [MeV]:  1.750000E-01
+#   F-value:  1.208798E+00
+#   A-value:  1.083983E+00
+#   chi-2:  3.620708E+00
+#   p-value:  3.267103E-01
+#   exp. data sets for p-value:      8
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.573662E+00   1.559740E+00   2.017768E+01
+# endfb8.1      1.047213E+00   1.015679E+00   3.167967E-01
+# jeff4.0       1.047211E+00   1.015675E+00   3.168260E-01
+# jendl5.0      1.045773E+00   9.952236E-01   3.068362E-01
+# cendl3.2      1.043163E+00   9.974597E-01   2.893108E-01
+# irdff2.0      1.047213E+00   1.015679E+00   3.167984E-01

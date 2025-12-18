@@ -1,0 +1,55 @@
+# header: 
+#   title: Al27(n,x)Na24 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Swinhoe
+#   year: 1979
+#   subentry: 20986003
+#   X4 reaction: 13-AL-27(N,A)11-NA-24,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20986003
+# target: 
+#   Z: 13
+#   A: 27
+#   nuclide: Al27
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+#   residual: 
+#     Z: 11
+#     A: 24
+#     nuclide: Na24
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   7.500000E+00   0.000000E+00   2.540000E+01   6.000000E-01   1.000000E+00
+   9.800000E+00   0.000000E+00   8.840001E+01   2.200000E+00   1.000000E+00
+   1.180000E+01   0.000000E+00   1.170000E+02   3.700000E+00   1.000000E+00
+# reference:
+#   author: M.T.Swinhoe,C.A.Uttley
+#   title: -Measurements of MeV neutron cross-sections by  activation-.
+#   journal: Prog: A.E.R.E. Harwell Reports, No.26, p.39 (1979)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  7.500000E+00
+#   E-max [MeV]:  1.180000E+01
+#   F-value:  1.046407E+00
+#   A-value:  1.018490E+00
+#   chi-2:  4.183856E+00
+#   p-value:  2.974515E-01
+#   exp. data sets for p-value:      8
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.046821E+00   1.018045E+00   4.264968E+00
+# endfb8.1      0.000000E+00   0.000000E+00   0.000000E+00
+# jeff4.0       1.045990E+00   1.018935E+00   4.102743E+00
+# jendl5.0      0.000000E+00   0.000000E+00   0.000000E+00

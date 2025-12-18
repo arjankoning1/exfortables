@@ -1,0 +1,62 @@
+# header: 
+#   title: Zn64(n,x)Cu64 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Furuta
+#   year: 2008
+#   subentry: 23032009
+#   X4 reaction: 30-ZN-64(N,P)29-CU-64,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/23032009
+# target: 
+#   Z: 30
+#   A: 64
+#   nuclide: Zn64
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 29
+#     A: 64
+#     nuclide: Cu64
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 11
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.570000E+00   1.000000E-01   1.491364E+02   9.246500E+00   1.096591E+00
+   4.050000E+00   1.000000E-01   1.392670E+02   7.938200E+00   1.096591E+00
+   4.280000E+00   1.000000E-01   1.710682E+02   1.060623E+01   1.096591E+00
+   4.490000E+00   1.000000E-01   1.217216E+02   6.329500E+00   1.096591E+00
+   4.590000E+00   1.000000E-01   1.688750E+02   1.080800E+01   1.096591E+00
+   4.650000E+00   1.000000E-01   1.732614E+02   1.316786E+01   1.096591E+00
+   4.700000E+00   1.000000E-01   1.754545E+02   1.245727E+01   1.096591E+00
+   4.720000E+00   1.000000E-01   2.083523E+02   1.375125E+01   1.096591E+00
+   5.160000E+00   1.000000E-01   1.820341E+02   1.019391E+01   1.096591E+00
+   5.260000E+00   1.000000E-01   1.809375E+02   9.227800E+00   1.096591E+00
+   5.480000E+00   1.000000E-01   1.655852E+02   3.808460E+01   1.096591E+00
+# reference:
+#   author: M.Furuta, T.Shimizu, H.Hayashi, I.Miyazaki, H.Yamamoto, M.Shibata, K.Kawade
+#   title: Measurements of activation cross sections of (n,p)  and (n,alpha) reactions in the energy range of  3.5-5.9 MeV using a deuterium gas target
+#   journal: Jour: Annals of Nuclear Energy, Vol.35, p.1652 (2008)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  3.570000E+00
+#   E-max [MeV]:  5.480000E+00
+#   F-value:  1.140803E+00
+#   A-value:  9.681318E-01
+#   chi-2:  5.325940E+00
+#   p-value:  2.310276E-01
+#   exp. data sets for p-value:      8
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.129706E+00   9.845802E-01   5.239443E+00
+# jeff4.0       1.129706E+00   9.845805E-01   5.239440E+00
+# jendl5.0      1.161108E+00   9.360545E-01   5.498937E+00

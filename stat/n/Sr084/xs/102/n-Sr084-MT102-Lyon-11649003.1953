@@ -1,0 +1,54 @@
+# header: 
+#   title: Sr84(n,g)Sr85 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Lyon
+#   year: 1953
+#   subentry: 11649003
+#   X4 reaction: 38-SR-84(N,G)38-SR-85,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11649003
+# target: 
+#   Z: 38
+#   A: 84
+#   nuclide: Sr84
+# reaction: 
+#   type: (n,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 38
+#     A: 85
+#     nuclide: Sr85
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.530000E-08   0.000000E+00   1.460000E+03   1.460000E+02   1.000000E+00
+# reference:
+#   author: W.S.LYON
+#   title: NEUTRON CAPTURE CROSS SECTIONS FOR PRODUCTION OF SC-46  AND SR-85.
+#   journal: Jour: Physical Review, Vol.89, p.1307 (1953)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.530000E-08
+#   E-max [MeV]:  2.530000E-08
+#   F-value:  1.772990E+00
+#   A-value:  5.641993E-01
+#   chi-2:  1.899546E+01
+#   p-value:  8.576334E-02
+#   exp. data sets for p-value:      1
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2025    1.733992E+00   5.767041E-01   1.791877E+01
+# endfb8.1      1.796510E+00   5.566348E-01   1.965764E+01
+# jeff4.0       1.732374E+00   5.772424E-01   1.787324E+01
+# jendl5.0      1.784491E+00   5.603839E-01   1.932666E+01
+# eaf.2010      1.816371E+00   5.505483E-01   2.020097E+01

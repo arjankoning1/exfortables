@@ -1,0 +1,54 @@
+# header: 
+#   title: Nb93(n,x)Nb94 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Macklin
+#   year: 1976
+#   subentry: 10537003
+#   X4 reaction: 41-NB-93(N,G)41-NB-94,,SIG,,AV
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/10537003
+# target: 
+#   Z: 41
+#   A: 93
+#   nuclide: Nb93
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 41
+#     A: 94
+#     nuclide: Nb94
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.050000E-01   5.000000E-03   1.097000E+02   0.000000E+00   1.000000E+00
+   1.100000E-01   5.000000E-03   1.035000E+02   0.000000E+00   1.000000E+00
+   1.150000E-01   5.000000E-03   1.067000E+02   0.000000E+00   1.000000E+00
+# reference:
+#   author: R.L.Macklin
+#   title: Neutron Capture Cross Section of Niobium-93  from 2.6 to 700 keV
+#   journal: Jour: Nuclear Science and Engineering, Vol.59, p.12 (1976)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.050000E-01
+#   E-max [MeV]:  1.150000E-01
+#   F-value:  1.039264E+00
+#   A-value:  9.865723E-01
+#   chi-2:  0.000000E+00
+#   p-value:  4.293681E-01
+#   exp. data sets for p-value:      5
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.040547E+00   9.670429E-01   0.000000E+00
+# jeff4.0       1.040547E+00   9.670429E-01   0.000000E+00
+# jendl5.0      1.036570E+00   1.026822E+00   0.000000E+00

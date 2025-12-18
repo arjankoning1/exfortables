@@ -1,0 +1,56 @@
+# header: 
+#   title: U238(n,g)U239 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Crocker
+#   year: 1955
+#   subentry: 21181003
+#   X4 reaction: 92-U-238(N,G)92-U-239,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21181003
+# target: 
+#   Z: 92
+#   A: 238
+#   nuclide: U238
+# reaction: 
+#   type: (n,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 92
+#     A: 239
+#     nuclide: U239
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.530000E-08   0.000000E+00   2.750000E+03   1.000000E+02   1.000000E+00
+# reference:
+#   author: V.S.CROCKER
+#   title: -THE THERMAL ACTIVATION CROSS-SECTION OF U-238 AND  TH-232-
+#   journal: Jour: Journal of Nuclear Energy, Vol.1, p.234 (1955)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.530000E-08
+#   E-max [MeV]:  2.530000E-08
+#   F-value:  1.022426E+00
+#   A-value:  9.785543E-01
+#   chi-2:  8.498774E-01
+#   p-value:  1.938064E-01
+#   exp. data sets for p-value:      8
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.024321E+00   9.762564E-01   9.493924E-01
+# endfb8.1      1.024352E+00   9.762267E-01   9.507725E-01
+# jeff4.0       1.021766E+00   9.786976E-01   8.378640E-01
+# jendl5.0      1.024352E+00   9.762267E-01   9.507725E-01
+# cendl3.2      1.024239E+00   9.763349E-01   9.457468E-01
+# eaf.2010      1.010458E+00   9.896504E-01   3.793970E-01
+# irdff2.0      1.024000E+00   9.765627E-01   9.351967E-01

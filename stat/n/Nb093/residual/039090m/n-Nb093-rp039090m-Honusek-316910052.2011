@@ -1,0 +1,62 @@
+# header: 
+#   title: Nb93(n,x)Y90m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Honusek
+#   year: 2011
+#   subentry: 316910052
+#   X4 reaction: 41-NB-93(N,X)39-Y-90-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/316910052
+# target: 
+#   Z: 41
+#   A: 93
+#   nuclide: Nb93
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 39
+#     A: 90
+#     nuclide: Y90m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.250000E+01   1.500000E+00   4.173000E+00   2.900000E-01   1.000000E+00
+   2.500000E+01   1.000000E+00   3.097000E+00   2.700000E-01   1.000000E+00
+   2.750000E+01   1.500000E+00   2.971000E+00   2.900000E-01   1.000000E+00
+   3.000000E+01   1.000000E+00   2.502000E+00   3.400000E-01   1.000000E+00
+   3.250000E+01   1.500000E+00   2.351000E+00   4.040000E-01   1.000000E+00
+   3.500000E+01   1.000000E+00   5.030000E-01   5.100000E-01   1.000000E+00
+# reference:
+#   author: M.Honusek, P.Bem, V.Burjan, M.Goetz, V.Kroha, J.Novak,  E.Simeckova, U.Fischer, S.P.Simakov
+#   title: Neutron activation experiments on niobium in NPI p-7Li  quasi-monoenergetic neutron field
+#   journal: Jour: Journal of the Korean Physical Society, Vol.59, p.1374 (2011)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.250000E+01
+#   E-max [MeV]:  3.500000E+01
+#   F-value:  2.383992E+00
+#   A-value:  1.448306E+00
+#   chi-2:  1.431555E+01
+#   p-value:  3.336618E-01
+#   exp. data sets for p-value:      3
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    2.389324E+00   1.559593E+00   1.073726E+01
+# jeff4.0       2.897280E+00   1.406963E+00   2.706835E+01
+# jendl5.0      1.843365E+00   1.384480E+00   5.141055E+00

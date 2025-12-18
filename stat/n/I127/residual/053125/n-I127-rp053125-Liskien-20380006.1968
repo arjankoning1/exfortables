@@ -1,0 +1,52 @@
+# header: 
+#   title: I127(n,x)I125 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Liskien
+#   year: 1968
+#   subentry: 20380006
+#   X4 reaction: 53-I-127(N,3N)53-I-125,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20380006
+# target: 
+#   Z: 53
+#   A: 127
+#   nuclide: I127
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 17
+#   residual: 
+#     Z: 53
+#     A: 125
+#     nuclide: I125
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.950000E+01   2.000000E-01   3.100000E+02   2.500000E+01   1.000000E+00
+# reference:
+#   author: H.LISKIEN
+#   title: -(N,3N) PROCESSES AND THE STATISTICAL THEORY
+#   journal: Jour: Nuclear Physics, Section A, Vol.118, p.379 (1968)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.950000E+01
+#   E-max [MeV]:  1.950000E+01
+#   F-value:  1.663547E+00
+#   A-value:  6.544201E-01
+#   chi-2:  2.218286E+01
+#   p-value:  1.859099E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.864640E+00   5.362966E-01   3.306160E+01
+# jeff4.0       1.864640E+00   5.362966E-01   3.306160E+01
+# jendl5.0      1.026219E+00   9.744508E-01   4.253916E-01

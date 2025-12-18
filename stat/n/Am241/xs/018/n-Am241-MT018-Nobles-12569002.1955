@@ -1,0 +1,64 @@
+# header: 
+#   title: Am241(n,f) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Nobles
+#   year: 1955
+#   subentry: 12569002
+#   X4 reaction: 95-AM-241(N,F),,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/12569002
+# target: 
+#   Z: 95
+#   A: 241
+#   nuclide: Am241
+# reaction: 
+#   type: (n,f)
+#   ENDF_MF: 3
+#   ENDF_MT: 18
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 13
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   4.900000E-01   0.000000E+00   1.000000E+01   0.000000E+00   1.000000E+00
+   6.600000E-01   0.000000E+00   1.300000E+02   0.000000E+00   1.000000E+00
+   8.000000E-01   0.000000E+00   3.900000E+02   0.000000E+00   1.000000E+00
+   9.400000E-01   0.000000E+00   7.200000E+02   0.000000E+00   1.000000E+00
+   1.170000E+00   0.000000E+00   1.110000E+03   0.000000E+00   1.000000E+00
+   1.450000E+00   0.000000E+00   1.280000E+03   0.000000E+00   1.000000E+00
+   1.750000E+00   0.000000E+00   1.340000E+03   0.000000E+00   1.000000E+00
+   2.420000E+00   0.000000E+00   1.390000E+03   0.000000E+00   1.000000E+00
+   3.320000E+00   0.000000E+00   1.390000E+03   0.000000E+00   1.000000E+00
+   5.000000E+00   0.000000E+00   1.480000E+03   0.000000E+00   1.000000E+00
+   6.130000E+00   0.000000E+00   1.660000E+03   0.000000E+00   1.000000E+00
+   6.630000E+00   0.000000E+00   1.790000E+03   0.000000E+00   1.000000E+00
+   7.340000E+00   0.000000E+00   2.080000E+03   0.000000E+00   1.000000E+00
+# reference:
+#   author: R.A.Nobles,R.L.Henkel,R.K.Smith
+#   title: Neutron-induced fission curve for Am241.
+#   journal: Jour: Physical Review, Vol.99, p.616(CA2) (1955)
+# statistics:
+#   NEA score: T2
+#   IAEA score:  1
+#   E-min [MeV]:  4.900000E-01
+#   E-max [MeV]:  7.340000E+00
+#   F-value:  2.154547E+00
+#   A-value:  1.660168E+00
+#   chi-2:  0.000000E+00
+#   p-value:  1.272631E-01
+#   exp. data sets for p-value:      3
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    2.141211E+00   1.664156E+00   0.000000E+00
+# endfb8.1      2.108216E+00   1.637315E+00   0.000000E+00
+# jeff4.0       2.292212E+00   1.730838E+00   0.000000E+00
+# jendl5.0      2.147121E+00   1.699476E+00   0.000000E+00
+# cendl3.2      2.107645E+00   1.644359E+00   0.000000E+00
+# eaf.2010      2.157546E+00   1.590342E+00   0.000000E+00
+# irdff2.0      2.126321E+00   1.658366E+00   0.000000E+00

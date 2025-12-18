@@ -1,0 +1,65 @@
+# header: 
+#   title: Cu0(p,x)Zn65 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Szelecsenyi
+#   year: 2001
+#   subentry: D40830033
+#   X4 reaction: 29-CU-0(P,X)30-ZN-65,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D40830033
+# target: 
+#   Z: 29
+#   A: 0
+#   nuclide: Cu0
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 30
+#     A: 65
+#     nuclide: Zn65
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 14
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.700000E+00   4.000000E-01   1.044614E+02   1.217026E+01   1.014189E+00
+   6.500000E+00   4.000000E-01   1.379297E+02   1.622702E+01   1.014189E+00
+   7.200000E+00   4.000000E-01   1.541567E+02   1.724121E+01   1.014189E+00
+   8.200000E+00   4.000000E-01   1.876249E+02   2.129796E+01   1.014189E+00
+   9.100000E+00   3.000000E-01   2.109512E+02   2.434053E+01   1.014189E+00
+   1.000000E+01   3.000000E-01   2.251499E+02   2.535472E+01   1.014189E+00
+   1.150000E+01   3.000000E-01   2.322492E+02   2.636890E+01   1.014189E+00
+   1.290000E+01   2.000000E-01   1.683553E+02   1.926958E+01   1.014189E+00
+   1.430000E+01   2.000000E-01   1.247452E+02   1.419864E+01   1.014189E+00
+   1.550000E+01   2.000000E-01   7.738260E+01   9.127700E+00   1.014189E+00
+   1.610000E+01   2.000000E-01   6.399531E+01   8.012090E+00   1.014189E+00
+   1.660000E+01   1.000000E-01   5.851869E+01   7.200700E+00   1.014189E+00
+   1.720000E+01   1.000000E-01   4.513140E+01   5.375200E+00   1.014189E+00
+   1.770000E+01   1.000000E-01   3.732214E+01   4.868100E+00   1.014189E+00
+# reference:
+#   author: F.SZELECSENYI, F.Tarkanyi, S.TAKACS, A.HERMANNE,  M.SONCK, YU.SHUBIN, M.G.MUSTAFA, ZHUANG YOUXIANG
+#   title: Excitation function for the natTi(p,x)48V nuclear process: Evaluation and new measurements for practical applications
+#   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.174, p.47 (200
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  5.700000E+00
+#   E-max [MeV]:  1.770000E+01
+#   F-value:  1.330712E+00
+#   A-value:  8.199105E-01
+#   chi-2:  4.001750E+00
+#   p-value:  3.248455E-01
+#   exp. data sets for p-value:      5
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.508722E+00   7.113894E-01   7.342183E+00
+# endfb8.1      1.153968E+00   9.290338E-01   1.599031E+00
+# jendl5.0      1.264981E+00   8.339891E-01   3.064034E+00

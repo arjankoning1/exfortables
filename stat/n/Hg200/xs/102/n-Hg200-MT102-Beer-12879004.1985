@@ -1,0 +1,69 @@
+# header: 
+#   title: Hg200(n,g)Hg201 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Beer
+#   year: 1985
+#   subentry: 12879004
+#   X4 reaction: 80-HG-200(N,G)80-HG-201,,SIG,,AV
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/12879004
+# target: 
+#   Z: 80
+#   A: 200
+#   nuclide: Hg200
+# reaction: 
+#   type: (n,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 80
+#     A: 201
+#     nuclide: Hg201
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 16
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.500000E-03   5.000000E-04   2.904000E+02   9.631499E+00   1.000000E+00
+   5.000000E-03   1.000000E-03   2.868000E+02   9.512080E+00   1.000000E+00
+   7.000000E-03   1.000000E-03   1.908000E+02   6.328120E+00   1.000000E+00
+   9.000000E-03   1.000000E-03   2.781000E+02   9.223500E+00   1.000000E+00
+   1.250000E-02   2.500000E-03   1.488000E+02   4.935100E+00   1.000000E+00
+   1.750000E-02   2.500000E-03   9.170000E+01   3.041300E+00   1.000000E+00
+   2.500000E-02   5.000000E-03   1.133000E+02   3.757700E+00   1.000000E+00
+   3.500000E-02   5.000000E-03   8.860000E+01   2.938500E+00   1.000000E+00
+   5.000000E-02   1.000000E-02   8.280001E+01   2.746200E+00   1.000000E+00
+   7.000000E-02   1.000000E-02   9.380001E+01   3.111000E+00   1.000000E+00
+   9.000000E-02   1.000000E-02   8.070000E+01   2.676500E+00   1.000000E+00
+   1.250000E-01   2.500000E-02   7.880001E+01   2.613500E+00   1.000000E+00
+   1.750000E-01   2.500000E-02   7.260000E+01   2.407900E+00   1.000000E+00
+   2.500000E-01   5.000000E-02   5.410000E+01   1.794300E+00   1.000000E+00
+   3.500000E-01   5.000000E-02   6.020001E+01   1.996600E+00   1.000000E+00
+   4.500000E-01   5.000000E-02   4.370000E+01   1.449400E+00   1.000000E+00
+# reference:
+#   author: H.Beer,R.L.Macklin
+#   title: 198,199,200,201,202,204-Hg(n,g) cross sections and the  termination of s-process nucleosynthesis.
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.32, p.738 (1985)
+# statistics:
+#   NEA score: T3
+#   IAEA score:  1
+#   E-min [MeV]:  3.500000E-03
+#   E-max [MeV]:  4.500000E-01
+#   F-value:  3.530935E+00
+#   A-value:  7.250781E-01
+#   chi-2:  2.123868E+03
+#   p-value:  1.518414E-01
+#   exp. data sets for p-value:      1
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2025    2.893119E+00   8.030241E-01   2.979492E+03
+# endfb8.1      4.360367E+00   6.804119E-01   9.589557E+02
+# jeff4.0       2.893119E+00   8.030241E-01   2.979492E+03
+# jendl5.0      2.940014E+00   8.176171E-01   2.716375E+03
+# eaf.2010      4.660941E+00   5.586568E-01   9.850242E+02

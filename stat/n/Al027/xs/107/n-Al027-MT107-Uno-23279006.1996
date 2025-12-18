@@ -1,0 +1,61 @@
+# header: 
+#   title: Al27(n,a)Na24 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Uno
+#   year: 1996
+#   subentry: 23279006
+#   X4 reaction: 13-AL-27(N,A)11-NA-24,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/23279006
+# target: 
+#   Z: 13
+#   A: 27
+#   nuclide: Al27
+# reaction: 
+#   type: (n,a)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+#   residual: 
+#     Z: 11
+#     A: 24
+#     nuclide: Na24
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.755000E+01   0.000000E+00   6.872441E+01   2.720200E+00   1.000064E+00
+   1.984000E+01   0.000000E+00   3.609231E+01   1.420100E+00   1.000064E+00
+   2.266000E+01   0.000000E+00   1.841118E+01   7.400500E-01   1.000064E+00
+   2.499000E+01   0.000000E+00   1.004064E+01   4.000300E-01   1.000064E+00
+   2.779000E+01   0.000000E+00   5.380300E+00   2.200100E-01   1.000064E+00
+   3.009000E+01   0.000000E+00   2.670200E+00   1.100100E-01   1.000064E+00
+# reference:
+#   author: Y.Uno, S.Meigo, S.Chiba, T.Fukahori, Y.Kasugai,  O.Iwamoto, P.Siegler, Y.Ikeda
+#   title: Measurements of activation cross sections for the  neutron dosimetry at an energy range from 17.5 to  30 MeV by using the 7Li(p,n) quasi-mono-energetic  neutron source
+#   journal: Conf: 9.Internat.Symposium on Reactor Dosimetry,Prague,1996, p.465 (1996
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.755000E+01
+#   E-max [MeV]:  3.009000E+01
+#   F-value:  1.565346E+00
+#   A-value:  1.408428E+00
+#   chi-2:  2.486315E+02
+#   p-value:  2.208040E-01
+#   exp. data sets for p-value:      8
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.588387E+00   1.480375E+00   2.500145E+02
+# endfb8.1      1.069461E+00   1.046668E+00   3.328525E+00
+# jeff4.0       1.731475E+00   1.562340E+00   4.215129E+02
+# jendl5.0      1.079630E+00   1.045445E+00   4.451991E+00
+# cendl3.2      1.069718E+00   9.349434E-01   3.184074E+00
+# eaf.2010      1.424266E+00   1.285902E+00   1.456568E+02
+# irdff2.0      1.368009E+00   1.265345E+00   1.021066E+02

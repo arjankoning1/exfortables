@@ -1,0 +1,61 @@
+# header: 
+#   title: Co59(n,x)Co58m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Plompen
+#   year: 2002
+#   subentry: 22684010
+#   X4 reaction: 27-CO-59(N,2N)27-CO-58-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22684010
+# target: 
+#   Z: 27
+#   A: 59
+#   nuclide: Co59
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 27
+#     A: 58
+#     nuclide: Co58m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.527000E+01   1.600000E-01   5.350000E+02   5.200000E+01   1.000000E+00
+   1.556000E+01   1.900000E-01   5.550000E+02   5.600000E+01   1.000000E+00
+   1.703000E+01   1.700000E-01   5.800000E+02   5.800000E+01   1.000000E+00
+   1.719000E+01   5.500000E-02   5.380000E+02   5.400001E+01   1.000000E+00
+   1.798000E+01   6.000000E-02   5.640000E+02   5.400001E+01   1.000000E+00
+   1.928000E+01   9.000000E-02   6.280000E+02   6.000000E+01   1.000000E+00
+# reference:
+#   author: A.J.M.Plompen,D.Smith,P.Reimer,S.M.Qaim,V.Semkova, F.Cserpak,V.Avrigeanu,S.Sudar,C.Borcea,L.Olah
+#   title: Recent cross section studies with the activation  technique for Ni, Co and Cu.
+#   journal: Jour: Jour. of Nuclear Science and Technology Suppl., Vol.2, Issue.1, p.
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  1.527000E+01
+#   E-max [MeV]:  1.928000E+01
+#   F-value:  1.107997E+00
+#   A-value:  9.247791E-01
+#   chi-2:  1.345097E+00
+#   p-value:  3.346770E-01
+#   exp. data sets for p-value:      3
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.067469E+00   9.481353E-01   7.938606E-01
+# jendl5.0      1.138266E+00   9.019983E-01   1.896334E+00

@@ -1,0 +1,66 @@
+# header: 
+#   title: Se74(n,x)Se73g cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Bormann
+#   year: 1966
+#   subentry: 20836025
+#   X4 reaction: 34-SE-74(N,2N)34-SE-73-G,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20836025
+# target: 
+#   Z: 34
+#   A: 74
+#   nuclide: Se74
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 34
+#     A: 73
+#     nuclide: Se73g
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.295000E+01   2.000000E-01   6.190000E+01   5.600000E+00   1.000000E+00
+   1.330000E+01   2.500000E-01   1.340000E+02   1.200000E+01   1.000000E+00
+   1.410000E+01   2.500000E-01   2.580000E+02   2.100000E+01   1.000000E+00
+   1.490000E+01   3.000000E-01   3.940000E+02   3.500000E+01   1.000000E+00
+   1.560000E+01   3.500000E-01   4.300000E+02   3.900000E+01   1.000000E+00
+   1.630000E+01   3.500000E-01   4.790000E+02   4.300000E+01   1.000000E+00
+   1.720000E+01   4.000000E-01   5.270000E+02   4.700000E+01   1.000000E+00
+   1.800000E+01   3.500000E-01   5.660000E+02   5.100000E+01   1.000000E+00
+   1.890000E+01   3.000000E-01   5.900000E+02   5.300000E+01   1.000000E+00
+   1.960000E+01   2.500000E-01   5.890000E+02   5.300000E+01   1.000000E+00
+# reference:
+#   author: M.Bormann,U.Seebeck,W.Voigts,G.Woelfer
+#   title: Level densities of some medium weight nuclei from  evaporation spectra of the alpha particles from  (n,alpha) reactions
+#   journal: Jour: Zeitschrift fuer Naturforschung, Section A, Vol.21, p.988 (1966)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.295000E+01
+#   E-max [MeV]:  1.960000E+01
+#   F-value:  1.523906E+00
+#   A-value:  6.670337E-01
+#   chi-2:  1.458156E+01
+#   p-value:  1.168936E-01
+#   exp. data sets for p-value:      2
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.575361E+00   6.386539E-01   1.672792E+01
+# jeff4.0       1.575361E+00   6.386539E-01   1.672792E+01
+# jendl5.0      1.412573E+00   7.276329E-01   1.028884E+01

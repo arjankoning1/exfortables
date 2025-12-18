@@ -1,0 +1,51 @@
+# header: 
+#   title: Cu63(n,x)Cu64 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Pinoncelli
+#   year: 1967
+#   subentry: 20185002
+#   X4 reaction: 29-CU-63(N,G)29-CU-64,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20185002
+# target: 
+#   Z: 29
+#   A: 63
+#   nuclide: Cu63
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 29
+#     A: 64
+#     nuclide: Cu64
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.530000E-08   0.000000E+00   4.030000E+03   1.700000E+02   1.000000E+00
+# reference:
+#   author: B.PINONCELLI, A.FABRY
+#   title: - THERMAL ACTIVATION CROSS-SECTION FOR THE REACTION   CU-63(N,GAMMA)CU-64 -
+#   journal: Prog: Report from Euratom-countries + Euratom to EANDC, No.76, p.107(1)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.530000E-08
+#   E-max [MeV]:  2.530000E-08
+#   F-value:  1.116464E+00
+#   A-value:  1.116460E+00
+#   chi-2:  7.707196E+00
+#   p-value:  1.309605E-01
+#   exp. data sets for p-value:      8
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.115498E+00   1.115498E+00   7.585551E+00
+# jendl5.0      1.117423E+00   1.117423E+00   7.828842E+00

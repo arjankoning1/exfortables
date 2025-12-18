@@ -1,0 +1,52 @@
+# header: 
+#   title: Zr92(n,x)Y92 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Anders
+#   year: 1985
+#   subentry: 21976028
+#   X4 reaction: 40-ZR-92(N,P)39-Y-92,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21976028
+# target: 
+#   Z: 40
+#   A: 92
+#   nuclide: Zr92
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 39
+#     A: 92
+#     nuclide: Y92
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.470000E+01   3.000000E-01   1.920000E+01   1.800000E+00   1.000000E+00
+# reference:
+#   author: B.Anders,B.M.Bahal,R.Pepelnik
+#   title: Measurements of 14 MeV neutron activation  cross section at KORONA
+#   journal: Rept: Ges.Kernen.-Verwertung, Schiffbau and Schiffahrt, No.85-E-24 (1985
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.470000E+01
+#   E-max [MeV]:  1.470000E+01
+#   F-value:  1.048878E+00
+#   A-value:  1.048828E+00
+#   chi-2:  7.335933E-01
+#   p-value:  3.295508E-01
+#   exp. data sets for p-value:      8
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.050412E+00   1.050412E+00   7.602040E-01
+# jeff4.0       1.050412E+00   1.050412E+00   7.602040E-01
+# jendl5.0      1.045666E+00   1.045666E+00   6.803721E-01

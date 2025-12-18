@@ -1,0 +1,55 @@
+# header: 
+#   title: U235(n,f) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Davis
+#   year: 1978
+#   subentry: 10314002
+#   X4 reaction: 92-U-235(N,F),,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/10314002
+# target: 
+#   Z: 92
+#   A: 235
+#   nuclide: U235
+# reaction: 
+#   type: (n,f)
+#   ENDF_MF: 3
+#   ENDF_MT: 18
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.400000E-01   0.000000E+00   1.471000E+03   3.177360E+01   1.000000E+00
+   2.650000E-01   0.000000E+00   1.274000E+03   2.688140E+01   1.000000E+00
+   7.700000E-01   0.000000E+00   1.162000E+03   2.335620E+01   1.000000E+00
+   9.640000E-01   0.000000E+00   1.195000E+03   2.366100E+01   1.000000E+00
+# reference:
+#   author: M.C.Davis, G.F.Knoll, J.C.Robertson, D.M.Gilliam
+#   title: Absolute measurements of 235U and 239PU fission  cross-sections with photoneutron sources
+#   journal: Jour: Annals of Nuclear Energy, Vol.5, p.569 (1978)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.400000E-01
+#   E-max [MeV]:  9.640000E-01
+#   F-value:  1.021436E+00
+#   A-value:  9.855409E-01
+#   chi-2:  1.367781E+00
+#   p-value:  4.354807E-01
+#   exp. data sets for p-value:      8
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.019636E+00   9.865253E-01   1.226747E+00
+# endfb8.1      1.019550E+00   9.867175E-01   1.210906E+00
+# jeff4.0       1.021380E+00   9.847957E-01   1.374873E+00
+# jendl5.0      1.023633E+00   9.872105E-01   1.492407E+00
+# cendl3.2      1.021462E+00   9.846483E-01   1.385666E+00
+# eaf.2010      1.024312E+00   9.821807E-01   1.672965E+00
+# irdff2.0      1.019550E+00   9.867175E-01   1.210906E+00

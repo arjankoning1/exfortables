@@ -1,0 +1,59 @@
+# header: 
+#   title: Zn0(p,x)Co58 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Tarkanyi
+#   year: 2005
+#   subentry: D4149012
+#   X4 reaction: 30-ZN-0(P,X)27-CO-58,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D4149012
+# target: 
+#   Z: 30
+#   A: 0
+#   nuclide: Zn0
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 27
+#     A: 58
+#     nuclide: Co58
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 9
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.560000E+01   2.000000E+00   1.901000E-02   1.100600E-02   1.000503E+00
+   3.310000E+01   1.700000E+00   1.800900E-01   5.002500E-02   1.000503E+00
+   3.950000E+01   1.400000E+00   1.510800E+00   2.301200E-01   1.000503E+00
+   4.510000E+01   1.200000E+00   6.403200E+00   1.000500E+00   1.000503E+00
+   5.020000E+01   1.000000E+00   1.650830E+01   2.501300E+00   1.000503E+00
+   5.490000E+01   8.000000E-01   2.291152E+01   3.501760E+00   1.000503E+00
+   5.930000E+01   6.000000E-01   2.461237E+01   3.801900E+00   1.000503E+00
+   6.340000E+01   5.000000E-01   2.401207E+01   3.701900E+00   1.000503E+00
+   6.740000E+01   3.000000E-01   2.211111E+01   3.401710E+00   1.000503E+00
+# reference:
+#   author: F.Tarkanyi,F.Ditroi,J.Csikai,S.Takacs,M.S.Uddin,  M.Hagiwara,M.Baba,Yu.N.Shubin,A.I.Dityuk
+#   title: Activation cross-sections of long-lived products of proton-induced nuclear reactions on zinc
+#   journal: Jour: Applied Radiation and Isotopes, Vol.62, p.73 (2005)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.560000E+01
+#   E-max [MeV]:  6.740000E+01
+#   F-value:  2.035428E+00
+#   A-value:  7.824513E-01
+#   chi-2:  1.332213E+01
+#   p-value:  4.068383E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    2.428850E+00   4.162642E-01   1.386078E+01
+# jendl5.0      1.603048E+00   1.470773E+00   1.278349E+01

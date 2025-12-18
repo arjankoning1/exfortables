@@ -1,0 +1,57 @@
+# header: 
+#   title: Pu241(n,tot) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Smith
+#   year: 1970
+#   subentry: 13019004
+#   X4 reaction: 94-PU-241(N,TOT),,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/13019004
+# target: 
+#   Z: 94
+#   A: 241
+#   nuclide: Pu241
+# reaction: 
+#   type: (n,tot)
+#   ENDF_MF: 3
+#   ENDF_MT: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.571000E-08   0.000000E+00   1.791000E+06   1.000000E+03   1.000000E+00
+   1.735000E-08   0.000000E+00   1.699000E+06   1.000000E+03   1.000000E+00
+   1.905000E-08   0.000000E+00   1.619000E+06   1.000000E+03   1.000000E+00
+   2.086000E-08   0.000000E+00   1.543000E+06   2.000000E+03   1.000000E+00
+   2.317000E-08   0.000000E+00   1.450000E+06   2.000000E+03   1.000000E+00
+   2.528000E-08   0.000000E+00   1.393000E+06   1.000000E+03   1.000000E+00
+   5.942000E-08   0.000000E+00   9.210000E+05   3.000000E+02   1.000000E+00
+   6.067000E-08   0.000000E+00   9.149000E+05   3.000000E+02   1.000000E+00
+# reference:
+#   author: J.R.Smith,T.E.Young
+#   title: Low energy total cross section of 241-Pu
+#   journal: Prog: Idaho Nuclear Corp. Reports, No.1317, p.11 (1970)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.571000E-08
+#   E-max [MeV]:  6.067000E-08
+#   F-value:  1.012866E+00
+#   A-value:  9.892223E-01
+#   chi-2:  8.280815E+02
+#   p-value:  4.695970E-01
+#   exp. data sets for p-value:      5
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2025    1.015109E+00   9.857073E-01   1.173653E+03
+# endfb8.1      1.004888E+00   9.967413E-01   5.348595E+01
+# jeff4.0       1.008957E+00   9.940008E-01   6.482283E+02
+# jendl5.0      1.015111E+00   9.857054E-01   1.173904E+03
+# cendl3.2      1.016382E+00   9.840227E-01   1.091136E+03

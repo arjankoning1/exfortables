@@ -1,0 +1,52 @@
+# header: 
+#   title: Ni63(n,x)Ni64 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Harder
+#   year: 1992
+#   subentry: 22262004
+#   X4 reaction: 28-NI-63(N,G)28-NI-64,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22262004
+# target: 
+#   Z: 28
+#   A: 63
+#   nuclide: Ni63
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 28
+#     A: 64
+#     nuclide: Ni64
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.530000E-08   0.000000E+00   2.000000E+04   5.000000E+03   1.000000E+00
+# reference:
+#   author: A.HARDER,S.MICHAELSEN,A.JUNGCLAUS,K.P.LIEB,  A.P.WILLIAMS,H.G.BOERNER,M.TRAUTMANNSHEIMER
+#   title: -DOUBLE NEUTRON CAPTURE IN NI-62.
+#   journal: Jour: Zeitschrift fuer Physik A, Hadrons and Nuclei, Vol.343, p.7 (1992)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.530000E-08
+#   E-max [MeV]:  2.530000E-08
+#   F-value:  1.131274E+00
+#   A-value:  1.131273E+00
+#   chi-2:  7.400959E-01
+#   p-value:  1.657677E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.130656E+00   1.130656E+00   7.361774E-01
+# jeff4.0       1.131623E+00   1.131623E+00   7.423136E-01
+# jendl5.0      1.131541E+00   1.131541E+00   7.417966E-01

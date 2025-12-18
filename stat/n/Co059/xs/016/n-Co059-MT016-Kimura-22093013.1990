@@ -1,0 +1,56 @@
+# header: 
+#   title: Co59(n,2n)Co58 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Kimura
+#   year: 1990
+#   subentry: 22093013
+#   X4 reaction: 27-CO-59(N,2N)27-CO-58,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22093013
+# target: 
+#   Z: 27
+#   A: 59
+#   nuclide: Co59
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 27
+#     A: 58
+#     nuclide: Co58
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.405000E+01   7.000000E-02   7.204801E+02   1.837004E+01   9.883129E-01
+# reference:
+#   author: I.Kimura, K.Kobayashi
+#   title: Calibrated fission and fusion neutron fields at the  Kyoto University Reactor
+#   journal: Jour: Nuclear Science and Engineering, Vol.106, p.332 (1990)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.405000E+01
+#   E-max [MeV]:  1.405000E+01
+#   F-value:  1.049991E+00
+#   A-value:  9.630940E-01
+#   chi-2:  3.771481E+00
+#   p-value:  2.706425E-01
+#   exp. data sets for p-value:      8
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.037137E+00   9.641927E-01   2.508224E+00
+# endfb8.1      1.035641E+00   9.655858E-01   2.371650E+00
+# jeff4.0       1.051419E+00   9.510956E-01   4.031006E+00
+# jendl5.0      1.011568E+00   9.885641E-01   6.208073E-01
+# cendl3.2      1.005903E+00   1.005903E+00   3.049863E-01
+# eaf.2010      1.106239E+00   9.039637E-01   1.419179E+01
+# irdff2.0      1.035643E+00   9.655833E-01   2.371896E+00

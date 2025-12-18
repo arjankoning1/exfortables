@@ -1,0 +1,58 @@
+# header: 
+#   title: I127(n,g)I128 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Voignier
+#   year: 1992
+#   subentry: 22006036
+#   X4 reaction: 53-I-127(N,G)53-I-128,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22006036
+# target: 
+#   Z: 53
+#   A: 127
+#   nuclide: I127
+# reaction: 
+#   type: (n,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 53
+#     A: 128
+#     nuclide: I128
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.000000E-01   0.000000E+00   1.070000E+02   7.000000E+00   1.000000E+00
+   1.000000E+00   0.000000E+00   7.000001E+01   6.400000E+00   1.000000E+00
+   2.000000E+00   0.000000E+00   4.800000E+01   5.000000E+00   1.000000E+00
+   3.000000E+00   0.000000E+00   2.730000E+01   3.300000E+00   1.000000E+00
+# reference:
+#   author: J.Voignier, S.Joly, G.Grenier
+#   title: -Capture cross sections and gamma-ray spectra from  the interaction of 0.5 to 3.0 MeV neutron with  nuclei in the mass range A=63 to 209 .
+#   journal: Jour: Nuclear Science and Engineering, Vol.112, p.87 (1992)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  5.000000E-01
+#   E-max [MeV]:  3.000000E+00
+#   F-value:  1.109612E+00
+#   A-value:  1.031539E+00
+#   chi-2:  1.818916E+00
+#   p-value:  3.707886E-01
+#   exp. data sets for p-value:      5
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.052578E+00   9.586136E-01   6.651306E-01
+# endfb8.1      1.060896E+00   1.036109E+00   1.086042E+00
+# jeff4.0       1.052578E+00   9.586136E-01   6.651306E-01
+# jendl5.0      1.133231E+00   1.013543E+00   1.755114E+00
+# cendl3.2      1.096093E+00   1.062531E+00   2.231606E+00
+# eaf.2010      1.196222E+00   1.175001E+00   4.510470E+00

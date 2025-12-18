@@ -1,0 +1,54 @@
+# header: 
+#   title: Ni60(p,g)Cu61 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Krivonosov
+#   year: 1974
+#   subentry: A0696003
+#   X4 reaction: 28-NI-60(P,G)29-CU-61,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/A0696003
+# target: 
+#   Z: 28
+#   A: 60
+#   nuclide: Ni60
+# reaction: 
+#   type: (p,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 29
+#     A: 61
+#     nuclide: Cu61
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.370000E+00   0.000000E+00   3.060000E-01   3.060000E-02   1.000000E+00
+   2.570000E+00   0.000000E+00   4.430000E-01   4.430000E-02   1.000000E+00
+   2.770000E+00   0.000000E+00   7.110000E-01   7.110000E-02   1.000000E+00
+   2.970000E+00   0.000000E+00   6.700000E-01   6.700000E-02   1.000000E+00
+# reference:
+#   author: G.A.Krivonosov, B.A.Nemashkalo, O.I.Ekhichev, A.P.Klucharev, A.I.Popov, V.E.Storizhko, V.K.Chirt
+#   title: Absolute cross section of 58-,60-,61-Ni(p,g) reactions.
+#   journal: Conf: 24.Conf.on Nucl.Spectr.and Nucl.Struct.,Kharkov 1974, p.352 (1974)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.370000E+00
+#   E-max [MeV]:  2.970000E+00
+#   F-value:  1.278341E+00
+#   A-value:  9.133758E-01
+#   chi-2:  5.146029E+00
+#   p-value:  3.794916E-01
+#   exp. data sets for p-value:      3
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.364365E+00   7.533545E-01   6.912557E+00
+# jendl5.0      1.167847E+00   1.107387E+00   3.379501E+00

@@ -1,0 +1,53 @@
+# header: 
+#   title: Nb93(n,x)Nb92 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Paulsen
+#   year: 1970
+#   subentry: 20393003
+#   X4 reaction: 41-NB-93(N,2N)41-NB-92,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20393003
+# target: 
+#   Z: 41
+#   A: 93
+#   nuclide: Nb93
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 41
+#     A: 92
+#     nuclide: Nb92
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.680000E+01   0.000000E+00   1.380000E+03   1.794000E+02   1.000000E+00
+# reference:
+#   author: A.PAULSEN, R.WIDERA
+#   title: -THE (N,2N) EXCITATION FUNCTIONS FOR 41-NB-93 AND  45-RH-103 WITH SPECIAL RESPECT TO THE ISOMERIC STATES  IN 41-NB-92 AND 45-RH-102.-
+#   journal: Jour: Zeitschrift fuer Physik, Vol.238, p.23 (1970)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.680000E+01
+#   E-max [MeV]:  1.680000E+01
+#   F-value:  1.052943E+00
+#   A-value:  9.638335E-01
+#   chi-2:  3.864325E-01
+#   p-value:  2.536367E-01
+#   exp. data sets for p-value:      3
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.067065E+00   9.371504E-01   6.746944E-01
+# endfb8.1      1.002277E+00   9.977280E-01   2.198455E-02
+# jeff4.0       1.083469E+00   9.229612E-01   8.489784E-01
+# jendl5.0      1.000008E+00   1.000008E+00   7.273688E-05

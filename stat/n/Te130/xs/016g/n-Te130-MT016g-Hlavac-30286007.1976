@@ -1,0 +1,58 @@
+# header: 
+#   title: Te130(n,2n)Te129g cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Hlavac
+#   year: 1976
+#   subentry: 30286007
+#   X4 reaction: 52-TE-130(N,2N)52-TE-129-G,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30286007
+# target: 
+#   Z: 52
+#   A: 130
+#   nuclide: Te130
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 52
+#     A: 129
+#     nuclide: Te129g
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.470000E+01   2.000000E-01   7.198151E+02   8.022947E+01   8.620541E-01
+# reference:
+#   author: S.Hlavac, J.Kristiak, P.Oblozinsky, I.Turzo
+#   title: Cross-section measurements of some (n,2n) and (n,p) reactions at 14.7 MeV
+#   journal: Jour: Acta Physica Slovaca, Vol.26, p.64 (1976)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.470000E+01
+#   E-max [MeV]:  1.470000E+01
+#   F-value:  1.053318E+00
+#   A-value:  9.554847E-01
+#   chi-2:  5.588702E-01
+#   p-value:  2.281923E-01
+#   exp. data sets for p-value:      7
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.025009E+00   9.756010E-01   2.875668E-01
+# jeff4.0       1.025009E+00   9.756010E-01   2.875668E-01
+# jendl5.0      1.089697E+00   9.176860E-01   1.097067E+00
+# eaf.2010      1.047957E+00   9.542376E-01   5.632800E-01

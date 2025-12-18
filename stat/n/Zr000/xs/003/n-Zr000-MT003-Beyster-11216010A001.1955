@@ -1,0 +1,50 @@
+# header: 
+#   title: Zr0(n,non) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Beyster
+#   year: 1955
+#   subentry: 11216010
+#   X4 reaction: 40-ZR-0(N,NON),,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11216010
+# target: 
+#   Z: 40
+#   A: 0
+#   nuclide: Zr0
+# reaction: 
+#   type: (n,non)
+#   ENDF_MF: 3
+#   ENDF_MT: 3
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   4.000000E+00   7.000000E-01   1.560000E+03   5.000000E+01   1.000000E+00
+   4.500000E+00   7.000000E-01   1.590000E+03   7.000000E+01   1.000000E+00
+# reference:
+#   author: J.R.BEYSTER,R.L.HENKEL,R.A.NOBLES,J.M.KISTER
+#   title: INELASTIC COLLISION CROSS SECTIONS AT 1.0-, 4.0-, AND 4.5-MEV NEUTRON ENERGIES.
+#   journal: Jour: Physical Review, Vol.98, p.1216 (1955)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  4.000000E+00
+#   E-max [MeV]:  4.500000E+00
+#   F-value:  1.380038E+00
+#   A-value:  9.463273E-01
+#   chi-2:  5.265524E+01
+#   p-value:  4.725863E-01
+#   exp. data sets for p-value:      2
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.071733E+00   1.071581E+00   4.330084E+00
+# jeff4.0       1.071890E+00   1.071741E+00   4.345091E+00
+# jendl5.0      1.807866E+00   5.533588E-01   1.461229E+02
+# cendl3.2      1.263670E+00   1.261955E+00   5.582286E+01

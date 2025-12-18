@@ -1,0 +1,59 @@
+# header: 
+#   title: In113(n,3n)In111 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Liskien
+#   year: 1968
+#   subentry: 20380005
+#   X4 reaction: 49-IN-113(N,3N)49-IN-111,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20380005
+# target: 
+#   Z: 49
+#   A: 113
+#   nuclide: In113
+# reaction: 
+#   type: (n,3n)
+#   ENDF_MF: 3
+#   ENDF_MT: 17
+#   residual: 
+#     Z: 49
+#     A: 111
+#     nuclide: In111
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.860000E+01   3.500000E-01   1.100000E+01   2.000000E+00   1.000000E+00
+   1.894000E+01   2.900000E-01   2.900000E+01   3.000000E+00   1.000000E+00
+   1.919000E+01   2.300000E-01   3.500000E+01   4.000000E+00   1.000000E+00
+   1.942000E+01   2.000000E-01   4.800000E+01   5.000000E+00   1.000000E+00
+   1.950000E+01   2.000000E-01   5.700000E+01   5.000000E+00   1.000000E+00
+# reference:
+#   author: H.LISKIEN
+#   title: -(N,3N) PROCESSES AND THE STATISTICAL THEORY
+#   journal: Jour: Nuclear Physics, Section A, Vol.118, p.379 (1968)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.860000E+01
+#   E-max [MeV]:  1.950000E+01
+#   F-value:  1.738157E+00
+#   A-value:  1.438802E+00
+#   chi-2:  5.293322E+01
+#   p-value:  3.526387E-01
+#   exp. data sets for p-value:      1
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.512627E+00   1.478411E+00   1.694876E+01
+# endfb8.1      2.156088E+00   2.098608E+00   9.025793E+01
+# jeff4.0       1.182484E+00   1.065572E+00   1.587455E+00
+# jendl5.0      1.182484E+00   1.065572E+00   1.587455E+00
+# cendl3.2      1.120417E+00   9.476224E-01   1.346272E+00
+# eaf.2010      2.722397E+00   2.657528E+00   2.058714E+02

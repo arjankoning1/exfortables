@@ -1,0 +1,52 @@
+# header: 
+#   title: Re185(n,x)Re186 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Friesenhahn
+#   year: 1968
+#   subentry: 12163008
+#   X4 reaction: 75-RE-185(N,G)75-RE-186,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/12163008
+# target: 
+#   Z: 75
+#   A: 185
+#   nuclide: Re185
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 75
+#     A: 186
+#     nuclide: Re186
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.530000E-08   0.000000E+00   1.140000E+05   3.000000E+03   1.000000E+00
+# reference:
+#   author: S.J.FRIESENHAHN,D.A.GIBBS,E.HADDAD,F.H.FROHNER, W.M.LOPEZ
+#   title: NEUTRON CAPTURE CROSS SECTIONS AND RESONANCE PARAMETERS OF RHENIUM FROM 0.01EV TO 30KEV.
+#   journal: Jour: Journal of Nuclear Energy, Vol.22, p.191 (1968)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.530000E-08
+#   E-max [MeV]:  2.530000E-08
+#   F-value:  1.008330E+00
+#   A-value:  9.917424E-01
+#   chi-2:  4.210724E-01
+#   p-value:  3.473455E-01
+#   exp. data sets for p-value:      3
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.008142E+00   9.919241E-01   4.111381E-01
+# jeff4.0       1.008142E+00   9.919241E-01   4.111381E-01
+# jendl5.0      1.008696E+00   9.913793E-01   4.409409E-01

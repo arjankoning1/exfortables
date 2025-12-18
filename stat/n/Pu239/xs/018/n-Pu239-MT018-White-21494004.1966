@@ -1,0 +1,53 @@
+# header: 
+#   title: Pu239(n,f) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: White
+#   year: 1966
+#   subentry: 21494004
+#   X4 reaction: 94-PU-239(N,F),,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21494004
+# target: 
+#   Z: 94
+#   A: 239
+#   nuclide: Pu239
+# reaction: 
+#   type: (n,f)
+#   ENDF_MF: 3
+#   ENDF_MT: 18
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.530000E-08   0.000000E+00   7.257277E+05   1.500000E+04   1.017851E+00
+   2.530000E-08   0.000000E+00   7.501561E+05   1.700000E+04   1.017851E+00
+# reference:
+#   author: P.H.White,J.M.A.Reichelt,G.P.Warner
+#   title: Measurements of the fission cross sections of  Pu-239 and Pu-241 relative to that of U-235 in  the neutron energy range 0.016 to 0.55 eV
+#   journal: Conf: Nuclear Data For Reactors Conf., Paris 1966, Vol.2, p.29 (1966)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.530000E-08
+#   E-max [MeV]:  2.530000E-08
+#   F-value:  1.010909E+00
+#   A-value:  1.004285E+00
+#   chi-2:  6.629826E-01
+#   p-value:  3.530312E-01
+#   exp. data sets for p-value:      8
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.009931E+00   1.002967E+00   6.227143E-01
+# endfb8.1      1.012965E+00   1.007524E+00   7.600856E-01
+# jeff4.0       1.013076E+00   1.007653E+00   7.656057E-01
+# jendl5.0      1.009937E+00   1.002980E+00   6.229764E-01
+# cendl3.2      1.009656E+00   1.002261E+00   6.103690E-01
+# eaf.2010      1.010087E+00   1.003309E+00   6.295072E-01
+# irdff2.0      1.010090E+00   1.003315E+00   6.296203E-01

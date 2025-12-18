@@ -1,0 +1,70 @@
+# header: 
+#   title: Y89(p,x)Y87m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Khandaker
+#   year: 2012
+#   subentry: D0675007
+#   X4 reaction: 39-Y-89(P,X)39-Y-87-M,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D0675007
+# target: 
+#   Z: 39
+#   A: 89
+#   nuclide: Y89
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 39
+#     A: 87
+#     nuclide: Y87m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 15
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.150000E+01   5.000000E-01   4.400600E-01   1.400200E-01   1.000128E+00
+   2.290000E+01   5.000000E-01   1.510200E+00   1.800200E-01   1.000128E+00
+   2.410000E+01   5.000000E-01   2.200300E+00   3.000400E-01   1.000128E+00
+   2.530000E+01   5.000000E-01   3.700500E+00   4.000500E-01   1.000128E+00
+   2.650000E+01   4.000000E-01   2.090268E+01   1.700200E+00   1.000128E+00
+   2.770000E+01   4.000000E-01   5.230670E+01   4.200500E+00   1.000128E+00
+   2.870000E+01   4.000000E-01   1.160149E+02   9.401200E+00   1.000128E+00
+   2.980000E+01   4.000000E-01   2.053263E+02   1.660213E+01   1.000128E+00
+   3.140000E+01   4.000000E-01   3.336428E+02   2.690345E+01   1.000128E+00
+   3.430000E+01   4.000000E-01   5.026644E+02   4.050519E+01   1.000128E+00
+   3.570000E+01   4.000000E-01   5.697731E+02   4.600590E+01   1.000128E+00
+   3.840000E+01   4.000000E-01   6.205795E+02   5.010642E+01   1.000128E+00
+   3.970000E+01   4.000000E-01   6.314809E+02   5.090652E+01   1.000128E+00
+   4.100000E+01   3.000000E-01   6.143788E+02   4.950634E+01   1.000128E+00
+   4.210000E+01   3.000000E-01   5.982767E+02   4.830619E+01   1.000128E+00
+# reference:
+#   author: M.U.Khandaker, K.S.Kim, M.W.Lee, K.S.Kim, G.N.Kim,  N.Otuka
+#   title: Investigations of 89Y(p,x)86,88,89gZr, 86m+g,87g,87m,  88gY, 85gSr, and 84gRb nuclear processes up to 42 MeV
+#   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.271, p.72 (201
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.150000E+01
+#   E-max [MeV]:  4.210000E+01
+#   F-value:  2.503117E+00
+#   A-value:  6.010744E-01
+#   chi-2:  5.544415E+01
+#   p-value:  2.357096E-01
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    2.809275E+00   5.110019E-01   4.910680E+01
+# jendl5.0      2.193225E+00   7.070237E-01   6.178149E+01

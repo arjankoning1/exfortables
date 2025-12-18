@@ -1,0 +1,57 @@
+# header: 
+#   title: Cu0(p,x)Cu64 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Graves
+#   year: 2016
+#   subentry: C2243009
+#   X4 reaction: 29-CU-0(P,X)29-CU-64,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C2243009
+# target: 
+#   Z: 29
+#   A: 0
+#   nuclide: Cu0
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 29
+#     A: 64
+#     nuclide: Cu64
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.510000E+01   1.900000E+00   6.841074E+01   6.373100E+00   9.957895E-01
+   4.800000E+01   1.600000E+00   5.267727E+01   5.377300E+00   9.957895E-01
+   5.860000E+01   1.400000E+00   4.799705E+01   6.074300E+00   9.957895E-01
+   6.910000E+01   1.100000E+00   4.112611E+01   5.277700E+00   9.957895E-01
+   7.860000E+01   9.000000E-01   4.032947E+01   3.983200E+00   9.957895E-01
+   8.940000E+01   6.000000E-01   3.724253E+01   2.788200E+00   9.957895E-01
+# reference:
+#   author: S.A.Graves, P.A.Ellison, T.E.Barnhart, H.F.Valdovinos,  E.R.Birnbaum, F.M.Nortier, R.J.Nickles, J.W.Engle
+#   title: Nuclear excitation functions of proton-induced  reactions (Ep=35-90 MeV) from Fe, Cu, and Al
+#   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.386, p.44 (201
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  3.510000E+01
+#   E-max [MeV]:  8.940000E+01
+#   F-value:  1.140900E+00
+#   A-value:  9.597502E-01
+#   chi-2:  1.968729E+00
+#   p-value:  4.201771E-01
+#   exp. data sets for p-value:      3
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.090948E+00   1.037630E+00   1.342481E+00
+# endfb8.1      1.224068E+00   8.188575E-01   4.010057E+00
+# jendl5.0      1.062487E+00   1.040456E+00   5.536473E-01

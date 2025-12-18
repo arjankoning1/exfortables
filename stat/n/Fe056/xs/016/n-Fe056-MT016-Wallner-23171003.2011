@@ -1,0 +1,69 @@
+# header: 
+#   title: Fe56(n,2n)Fe55 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Wallner
+#   year: 2011
+#   subentry: 23171003
+#   X4 reaction: 26-FE-56(N,2N)26-FE-55,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/23171003
+# target: 
+#   Z: 26
+#   A: 56
+#   nuclide: Fe56
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 26
+#     A: 55
+#     nuclide: Fe55
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 15
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.335000E+01   1.500000E-01   3.000000E+02   1.000000E+02   1.000000E+00
+   1.349000E+01   4.000000E-02   3.224000E+02   1.610000E+01   1.000000E+00
+   1.369000E+01   4.000000E-02   3.813000E+02   3.290000E+01   1.000000E+00
+   1.397000E+01   7.000000E-02   3.812000E+02   1.910000E+01   1.000000E+00
+   1.424000E+01   7.000000E-02   4.692000E+02   2.350000E+01   1.000000E+00
+   1.463000E+01   5.000000E-02   4.672000E+02   4.050000E+01   1.000000E+00
+   1.467000E+01   6.000000E-02   5.015000E+02   2.510000E+01   1.000000E+00
+   1.467000E+01   5.000000E-02   4.611000E+02   2.310000E+01   1.000000E+00
+   1.469000E+01   5.000000E-02   4.839000E+02   2.810000E+01   1.000000E+00
+   1.474000E+01   5.000000E-02   5.083000E+02   2.540000E+01   1.000000E+00
+   1.482000E+01   9.000000E-02   5.454001E+02   2.730000E+01   1.000000E+00
+   1.800000E+01   2.000000E-01   6.470000E+02   6.000000E+01   1.000000E+00
+   1.800000E+01   2.000000E-01   6.220000E+02   4.700000E+01   1.000000E+00
+   1.833000E+01   1.500000E-01   7.020000E+02   4.100000E+01   1.000000E+00
+   2.068000E+01   1.000000E-01   5.680000E+02   3.800000E+01   1.000000E+00
+# reference:
+#   author: A.Wallner, K.Buczak,C.Lederer,H.Vonach, T.Faestermann, G.Korschinek,M.Poutivtsev, G.Rugel, A.Klix, K.Seidel, A.Plompen, V.Semkova
+#   title: Production of long-lived radionuclides 10Be, 14C, 53Mn, 55Fe, 59Ni and 202gPb in a Fusion Environment.
+#   journal: Jour: Journal of the Korean Physical Society, Vol.59, Issue.2, p.1378 (2
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.335000E+01
+#   E-max [MeV]:  2.068000E+01
+#   F-value:  1.118865E+00
+#   A-value:  9.718342E-01
+#   chi-2:  3.397134E+00
+#   p-value:  3.413539E-01
+#   exp. data sets for p-value:      2
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.282137E+00   7.937371E-01   1.455485E+01
+# endfb8.1      1.050037E+00   1.009023E+00   1.053572E+00
+# jeff4.0       1.050037E+00   1.009023E+00   1.053572E+00
+# jendl5.0      1.050400E+00   1.009252E+00   1.073521E+00
+# cendl3.2      1.046755E+00   1.023003E+00   1.073482E+00
+# eaf.2010      1.067844E+00   1.008785E+00   1.508845E+00

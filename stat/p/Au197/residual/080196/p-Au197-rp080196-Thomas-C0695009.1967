@@ -1,0 +1,60 @@
+# header: 
+#   title: Au197(p,x)Hg196 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Thomas
+#   year: 1967
+#   subentry: C0695009
+#   X4 reaction: 79-AU-197(P,2N)80-HG-196,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C0695009
+# target: 
+#   Z: 79
+#   A: 197
+#   nuclide: Au197
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 80
+#     A: 196
+#     nuclide: Hg196
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   9.700000E+00   0.000000E+00   3.100000E+01   1.000000E+01   1.000000E+00
+   1.000000E+01   0.000000E+00   5.600000E+01   1.500000E+01   1.000000E+00
+   1.060000E+01   0.000000E+00   1.290000E+02   1.500000E+01   1.000000E+00
+   1.110000E+01   0.000000E+00   1.890000E+02   3.400000E+01   1.000000E+00
+   1.150000E+01   0.000000E+00   2.620000E+02   1.900000E+01   1.000000E+00
+   1.210000E+01   0.000000E+00   3.970000E+02   3.100000E+01   1.000000E+00
+   1.230000E+01   0.000000E+00   3.980000E+02   3.400000E+01   1.000000E+00
+   1.290000E+01   0.000000E+00   5.230001E+02   2.700000E+01   1.000000E+00
+   1.320000E+01   0.000000E+00   6.370000E+02   4.200000E+01   1.000000E+00
+   1.390000E+01   0.000000E+00   7.910001E+02   5.000000E+01   1.000000E+00
+# reference:
+#   author: R.G.THOMAS,W.BARTOLINI
+#   title: Neutron Production in Ag, Ta, Au, Pt, and Pb by the  Interaction of 7.5-14-MeV Protons
+#   journal: Jour: Physical Review, Vol.159, p.1022 (1967)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  9.700000E+00
+#   E-max [MeV]:  1.390000E+01
+#   F-value:  1.346526E+00
+#   A-value:  9.423788E-01
+#   chi-2:  8.718725E+00
+#   p-value:  2.382095E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.276538E+00   9.853564E-01   5.036681E+00
+# jendl5.0      1.408730E+00   9.012757E-01   1.240077E+01

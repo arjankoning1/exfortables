@@ -1,0 +1,54 @@
+# header: 
+#   title: Fe56(p,x)Co57 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Boukharouba
+#   year: 1992
+#   subentry: C0471003
+#   X4 reaction: 26-FE-56(P,G)27-CO-57,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C0471003
+# target: 
+#   Z: 26
+#   A: 56
+#   nuclide: Fe56
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 27
+#     A: 57
+#     nuclide: Co57
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   4.080000E+00   0.000000E+00   1.455600E+00   7.278000E-02   1.039720E+00
+   5.020000E+00   0.000000E+00   2.287400E+00   1.143700E-01   1.039720E+00
+   5.840000E+00   0.000000E+00   2.703300E+00   1.351600E-01   1.039720E+00
+   6.560000E+00   0.000000E+00   2.807200E+00   1.403600E-01   1.039720E+00
+# reference:
+#   author: N.Boukharouba,C.E.Brient,S.M.Grimes,V.Mishra, R.S.Pedroni
+#   title: Low energy optical model studies of proton scattering on 54Fe and 56Fe
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.46, p.2375 (1992)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  4.080000E+00
+#   E-max [MeV]:  6.560000E+00
+#   F-value:  5.523597E+00
+#   A-value:  2.701466E-01
+#   chi-2:  1.740349E+02
+#   p-value:  2.027816E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.294483E+00   7.986123E-01   1.930981E+01
+# jendl5.0      1.105752E+01   9.138252E-02   3.287601E+02

@@ -1,0 +1,52 @@
+# header: 
+#   title: Pu242(p,2n)Am241 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Lark
+#   year: 1969
+#   subentry: O2328022
+#   X4 reaction: 94-PU-242(P,2N)95-AM-241,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O2328022
+# target: 
+#   Z: 94
+#   A: 242
+#   nuclide: Pu242
+# reaction: 
+#   type: (p,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 95
+#     A: 241
+#     nuclide: Am241
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.200000E+01   0.000000E+00   5.800000E-03   1.900000E-03   1.000000E+00
+   1.300000E+01   0.000000E+00   1.200000E-02   4.000000E-03   1.000000E+00
+# reference:
+#   author: N.L.Lark,G.Sletten,J.Pedersen,S.Bjornholm
+#   title: Spontaneously fissioning isomers in U, Np, Pu and  Am isotopes
+#   journal: Jour: Nuclear Physics, Section A, Vol.139, p.481 (1969)
+# statistics:
+#   NEA score: T3
+#   IAEA score: -1
+#   E-min [MeV]:  1.200000E+01
+#   E-max [MeV]:  1.300000E+01
+#   F-value:  5.176406E+02
+#   A-value:  2.318222E+02
+#   chi-2:  1.151382E+08
+#   p-value:  0.000000E+00
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.086003E+01   1.083289E+01   9.064009E+02
+# jendl5.0      4.963661E+03   4.960964E+03   2.302756E+08

@@ -1,0 +1,64 @@
+# header: 
+#   title: Rh103(n,3n)Rh101g cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Fotiades
+#   year: 2016
+#   subentry: 14461019
+#   X4 reaction: 45-RH-103(N,3N)45-RH-101-G,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/14461019
+# target: 
+#   Z: 45
+#   A: 103
+#   nuclide: Rh103
+# reaction: 
+#   type: (n,3n)
+#   ENDF_MF: 3
+#   ENDF_MT: 17
+#   residual: 
+#     Z: 45
+#     A: 101
+#     nuclide: Rh101g
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.798100E+01   8.100000E-01   2.400000E+00   8.000000E-01   1.000000E+00
+   1.967600E+01   9.310000E-01   4.990000E+01   1.400000E+00   1.000000E+00
+   2.162600E+01   1.075000E+00   1.422000E+02   1.700000E+00   1.000000E+00
+   2.388600E+01   1.251000E+00   2.316000E+02   2.000000E+00   1.000000E+00
+   2.652600E+01   1.467000E+00   2.833000E+02   2.100000E+00   1.000000E+00
+   2.963900E+01   1.738000E+00   2.597000E+02   1.900000E+00   1.000000E+00
+   3.334600E+01   2.081000E+00   2.100000E+02   1.700000E+00   1.000000E+00
+# reference:
+#   author: N.Fotiades,M.Devlin,R.O.Nelson,T.Kawano,J.J.Carroll
+#   title: Feeding of Rh and Ag isomers in fast-neutron-induced reactions
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.94, p.044608 (2016)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.798100E+01
+#   E-max [MeV]:  3.334600E+01
+#   F-value:  1.793219E+00
+#   A-value:  8.881614E-01
+#   chi-2:  1.380195E+03
+#   p-value:  2.048936E-01
+#   exp. data sets for p-value:      1
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.610488E+00   6.467327E-01   1.656825E+03
+# jeff4.0       1.610488E+00   6.467327E-01   1.656825E+03
+# jendl5.0      2.156995E+00   1.409650E+00   1.206415E+03
+# eaf.2010      1.759380E+00   1.055375E+00   1.000715E+03

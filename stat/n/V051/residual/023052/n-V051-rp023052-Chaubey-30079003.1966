@@ -1,0 +1,52 @@
+# header: 
+#   title: V51(n,x)V52 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Chaubey
+#   year: 1966
+#   subentry: 30079003
+#   X4 reaction: 23-V-51(N,G)23-V-52,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30079003
+# target: 
+#   Z: 23
+#   A: 51
+#   nuclide: V51
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 23
+#     A: 52
+#     nuclide: V52
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.400000E-02   0.000000E+00   4.000000E+01   1.200000E+01   1.000000E+00
+# reference:
+#   author: A.K.Chaubey, M.L.Sehgal
+#   title: Test of Statistical Theory of Nuclear Reactions at 24 keV.
+#   journal: Jour: Physical Review, Vol.152, p.1055 (1966)
+# statistics:
+#   NEA score: T2
+#   IAEA score:  1
+#   E-min [MeV]:  2.400000E-02
+#   E-max [MeV]:  2.400000E-02
+#   F-value:  1.232762E+01
+#   A-value:  8.112737E-02
+#   chi-2:  9.421374E+00
+#   p-value:  1.192093E-07
+#   exp. data sets for p-value:      6
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.253057E+01   7.980485E-02   9.448328E+00
+# jeff4.0       1.253003E+01   7.980829E-02   9.448260E+00
+# jendl5.0      1.192820E+01   8.383495E-02   9.367537E+00

@@ -1,0 +1,52 @@
+# header: 
+#   title: U238(n,f) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Merla
+#   year: 1991
+#   subentry: 22304007
+#   X4 reaction: 92-U-238(N,F),,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22304007
+# target: 
+#   Z: 92
+#   A: 238
+#   nuclide: U238
+# reaction: 
+#   type: (n,f)
+#   ENDF_MF: 3
+#   ENDF_MT: 18
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.470000E+01   0.000000E+00   1.228000E+03   2.591080E+01   1.000000E+00
+# reference:
+#   author: K.Merla, P.Hausch, C.M.Herbach, G.Musiol, G.Pausch,  U.Todt, L.V.Drapchinsky, V.A.Kalinin, V.I.Shpakov
+#   title: Absolute measurements of neutron induced fission  cross-sections of 235U, 238U, 237Np and 239Pu
+#   journal: Conf: Conf.on Nucl.Data for Sci.and Technol.,Juelich 1991, p.510 (1991)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.470000E+01
+#   E-max [MeV]:  1.470000E+01
+#   F-value:  1.023808E+00
+#   A-value:  9.863098E-01
+#   chi-2:  1.356836E+00
+#   p-value:  1.515639E-01
+#   exp. data sets for p-value:      8
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.001216E+00   9.987850E-01   7.304879E-02
+# endfb8.1      1.001216E+00   9.987850E-01   7.304879E-02
+# jeff4.0       1.000661E+00   9.993395E-01   3.949046E-02
+# jendl5.0      1.005704E+00   9.943283E-01   3.570450E-01
+# cendl3.2      1.051505E+00   9.510179E-01   5.589217E+00
+# eaf.2010      1.036941E+00   9.643750E-01   3.292956E+00
+# irdff2.0      1.001216E+00   9.987850E-01   7.304879E-02

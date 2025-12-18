@@ -1,0 +1,63 @@
+# header: 
+#   title: Pb208(g,x)Pb207 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Kondo
+#   year: 2012
+#   subentry: K2385002
+#   X4 reaction: 82-PB-208(G,N)82-PB-207,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/K2385002
+# target: 
+#   Z: 82
+#   A: 208
+#   nuclide: Pb208
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+#   residual: 
+#     Z: 82
+#     A: 207
+#     nuclide: Pb207
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 12
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   7.530000E+00   0.000000E+00   3.619000E+01   2.499000E+00   1.000000E+00
+   7.830000E+00   0.000000E+00   2.433000E+01   1.170200E+00   1.000000E+00
+   8.250000E+00   0.000000E+00   2.476000E+01   1.171800E+00   1.000000E+00
+   8.540000E+00   0.000000E+00   3.892000E+01   2.086700E+00   1.000000E+00
+   8.850000E+00   0.000000E+00   4.847001E+01   2.481600E+00   1.000000E+00
+   9.320000E+00   0.000000E+00   7.742001E+01   3.815700E+00   1.000000E+00
+   9.840000E+00   0.000000E+00   9.302000E+01   7.115900E+00   1.000000E+00
+   9.980000E+00   0.000000E+00   1.129300E+02   8.469601E+00   1.000000E+00
+   1.057000E+01   0.000000E+00   1.935200E+02   1.130068E+01   1.000000E+00
+   1.111000E+01   0.000000E+00   2.403800E+02   1.514366E+01   1.000000E+00
+   1.155000E+01   0.000000E+00   3.356800E+02   2.049051E+01   1.000000E+00
+   1.224000E+01   0.000000E+00   4.244801E+02   2.403565E+01   1.000000E+00
+# reference:
+#   author: T.Kondo, H.Utsunomiya, S.Goriely, I.Daoutidis,  C.Iwamoto, H.Akimune, A.Okamoto, T.Yamagata, M.Kamata,  O.Itoh, H.Toyokawa, Y.-W.Lui, H.Harada, F.Kitatani,  S.Hilaire, A.J.Koning
+#   title: Total and partial photoneutron cross sections for Pb isotopes
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.86, p.014316 (2012)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  7.530000E+00
+#   E-max [MeV]:  1.224000E+01
+#   F-value:  1.423814E+00
+#   A-value:  1.048146E+00
+#   chi-2:  5.418062E+01
+#   p-value:  3.035719E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.657819E+00   1.316338E+00   1.361617E+02
+# endfb8.1      1.153902E+00   9.781264E-01   8.776167E+00
+# jendl5.0      1.216603E+00   9.337880E-01   8.263671E+00

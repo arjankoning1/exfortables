@@ -1,0 +1,58 @@
+# header: 
+#   title: Bi209(p,x)Au193 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Michel
+#   year: 2002
+#   subentry: O1099258
+#   X4 reaction: 83-BI-209(P,X)79-AU-193,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O1099258
+# target: 
+#   Z: 83
+#   A: 209
+#   nuclide: Bi209
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 79
+#     A: 193
+#     nuclide: Au193
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.541000E+02   1.521000E+00   3.163000E+01   2.848000E+00   1.000000E+00
+   1.590000E+02   1.380000E+00   2.709000E+01   3.561000E+00   1.000000E+00
+   1.605000E+02   1.483000E+00   2.848000E+01   2.610000E+00   1.000000E+00
+   2.350000E+02   0.000000E+00   3.490000E+01   6.469000E+00   1.000000E+00
+   2.765000E+02   8.361000E-01   3.018000E+01   3.055000E+00   1.000000E+00
+   5.510000E+02   1.690000E+00   4.956000E+01   3.586000E+00   1.000000E+00
+   7.570000E+02   1.650000E+00   4.698000E+01   5.421000E+00   1.000000E+00
+# reference:
+#   author: R.Michel, M.Gloris, J.Protoschill, U.Herpers, J.Kuhnhenn, F.Sudbrock, P.Malmborg, P.Kubik
+#   title: Cross sections for the production of radionuclides by proton-induced reactions on W, Ta, Pb and Bi from thresholds up to 2.6 GeV
+#   journal: Jour: Jour. of Nuclear Science and Technology Suppl., Vol.2, p.242 (2002
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  1.541000E+02
+#   E-max [MeV]:  7.570000E+02
+#   F-value:  2.091716E+02
+#   A-value:  5.031552E-03
+#   chi-2:  9.882645E+01
+#   p-value:  1.106943E-07
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    9.544974E+01   1.048020E-02   9.803411E+01
+# endfb8.1      0.000000E+00   0.000000E+00   0.000000E+00
+# jendl5.0      4.142306E+02   2.415653E-03   9.961880E+01

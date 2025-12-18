@@ -1,0 +1,60 @@
+# header: 
+#   title: Mo92(n,x)Nb92m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Qaim
+#   year: 1989
+#   subentry: 22159002
+#   X4 reaction: 42-MO-92(N,P)41-NB-92-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22159002
+# target: 
+#   Z: 42
+#   A: 92
+#   nuclide: Mo92
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 41
+#     A: 92
+#     nuclide: Nb92m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   9.030000E+00   6.400000E-01   9.504792E+01   9.004499E+00   1.000504E+00
+   9.600000E+00   5.800000E-01   1.040524E+02   9.004499E+00   1.000504E+00
+   1.014000E+01   5.000000E-01   1.100555E+02   8.004001E+00   1.000504E+00
+   1.064000E+01   4.600000E-01   1.160585E+02   9.004499E+00   1.000504E+00
+# reference:
+#   author: S.M.QAIM,R.WOELFLE,B.STROHMAIER
+#   title: -FIRST- AND SECOND-CHANCE PROTON EMISSION IN THE  INTERACTION OF FAST NEUTRONS WITH 92-MO.
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.40, p.1993 (1989)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  9.030000E+00
+#   E-max [MeV]:  1.064000E+01
+#   F-value:  1.098848E+00
+#   A-value:  1.055015E+00
+#   chi-2:  1.559622E+00
+#   p-value:  3.494826E-01
+#   exp. data sets for p-value:      4
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.018859E+00   1.010874E+00   1.682513E-01
+# jeff4.0       1.018859E+00   1.010874E+00   1.682525E-01
+# jendl5.0      1.174820E+00   1.149163E+00   4.342363E+00

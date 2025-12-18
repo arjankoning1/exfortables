@@ -1,0 +1,53 @@
+# header: 
+#   title: Hg204(n,x)Au204 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Kasugai
+#   year: 2001
+#   subentry: 23018015
+#   X4 reaction: 80-HG-204(N,P)79-AU-204,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/23018015
+# target: 
+#   Z: 80
+#   A: 204
+#   nuclide: Hg204
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 79
+#     A: 204
+#     nuclide: Au204
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.460000E+01   2.000000E-01   6.700000E-01   1.700000E-01   1.000000E+00
+# reference:
+#   author: Y.Kasugai, F.Maekawa, Y.Ikeda, H.Takeuchi
+#   title: Measurement of activation cross sections for mercury isotopes in the neutron energy range between 13.4 and 14.9 MeV
+#   journal: Jour: Jour. of Nuclear Science and Technology, Vol.38, Issue.12, p.1048
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.460000E+01
+#   E-max [MeV]:  1.460000E+01
+#   F-value:  1.201962E+00
+#   A-value:  8.558922E-01
+#   chi-2:  8.255621E-01
+#   p-value:  1.500864E-01
+#   exp. data sets for p-value:      1
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.280685E+00   7.808322E-01   1.325216E+00
+# endfb8.1      1.119437E+00   8.933058E-01   5.782251E-01
+# jeff4.0       1.280685E+00   7.808322E-01   1.325216E+00
+# jendl5.0      1.014938E+00   9.852824E-01   7.359094E-02

@@ -1,0 +1,72 @@
+# header: 
+#   title: Ni58(n,p)Co58m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Filatenkov
+#   year: 2016
+#   subentry: 41614027
+#   X4 reaction: 28-NI-58(N,P)27-CO-58-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/41614027
+# target: 
+#   Z: 28
+#   A: 58
+#   nuclide: Ni58
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 27
+#     A: 58
+#     nuclide: Co58m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 15
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.347000E+01   0.000000E+00   2.279987E+02   1.508579E+01   9.999942E-01
+   1.356000E+01   0.000000E+00   2.260021E+02   7.545400E+00   1.000009E+00
+   1.364000E+01   0.000000E+00   2.160005E+02   1.083890E+01   1.000002E+00
+   1.374000E+01   0.000000E+00   2.109979E+02   8.748199E+00   9.999903E-01
+   1.388000E+01   0.000000E+00   2.070022E+02   1.372277E+01   1.000010E+00
+   1.396000E+01   0.000000E+00   1.989995E+02   9.349800E+00   9.999973E-01
+   1.405000E+01   0.000000E+00   1.950015E+02   9.827900E+00   1.000008E+00
+   1.419000E+01   0.000000E+00   1.840006E+02   7.727300E+00   1.000003E+00
+   1.428000E+01   0.000000E+00   1.889985E+02   1.100012E+01   9.999922E-01
+   1.442000E+01   0.000000E+00   1.760008E+02   7.779600E+00   1.000004E+00
+   1.447000E+01   0.000000E+00   1.769988E+02   8.833301E+00   9.999934E-01
+   1.461000E+01   0.000000E+00   1.650007E+02   7.870700E+00   1.000004E+00
+   1.468000E+01   0.000000E+00   1.659985E+02   1.007747E+01   9.999912E-01
+   1.478000E+01   0.000000E+00   1.570014E+02   6.802400E+00   1.000009E+00
+   1.486000E+01   0.000000E+00   1.570007E+02   9.720700E+00   1.000004E+00
+# reference:
+#   author: A.A.Filatenkov
+#   title: Neutron activation cross sections measured at KRI in neutron energy region 13.4 - 14.9 MeV
+#   journal: Rept: USSR report to the I.N.D.C., No.0460 (2016)
+# statistics:
+#   NEA score: E1
+#   IAEA score:  1
+#   E-min [MeV]:  1.347000E+01
+#   E-max [MeV]:  1.486000E+01
+#   F-value:  1.099163E+00
+#   A-value:  9.263588E-01
+#   chi-2:  3.566054E+00
+#   p-value:  4.198667E-01
+#   exp. data sets for p-value:      4
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.116781E+00   8.965064E-01   5.054196E+00
+# jeff4.0       1.070166E+00   9.364398E-01   2.448376E+00
+# jendl5.0      1.012489E+00   9.914249E-01   2.453627E-01
+# eaf.2010      1.146983E+00   8.847566E-01   6.516279E+00

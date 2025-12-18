@@ -1,0 +1,63 @@
+# header: 
+#   title: Fe0(p,x)Cr51 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Graves
+#   year: 2016
+#   subentry: C2243017
+#   X4 reaction: 26-FE-0(P,X)24-CR-51,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C2243017
+# target: 
+#   Z: 26
+#   A: 0
+#   nuclide: Fe0
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 24
+#     A: 51
+#     nuclide: Cr51
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 12
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.460000E+01   1.600000E+00   3.630000E+01   2.300000E+00   1.000000E+00
+   3.610000E+01   1.900000E+00   4.800000E+01   3.000000E+00   1.000000E+00
+   4.760000E+01   1.600000E+00   9.510001E+01   6.700000E+00   1.000000E+00
+   4.880000E+01   1.600000E+00   9.720001E+01   6.800000E+00   1.000000E+00
+   5.830000E+01   1.400000E+00   6.500002E+01   7.600000E+00   1.000000E+00
+   5.930000E+01   1.300000E+00   6.390001E+01   7.400000E+00   1.000000E+00
+   6.780000E+01   1.100000E+00   5.070001E+01   6.000000E+00   1.000000E+00
+   6.880000E+01   1.100000E+00   4.860000E+01   5.800000E+00   1.000000E+00
+   7.830000E+01   9.000000E-01   6.100000E+01   5.200000E+00   1.000000E+00
+   7.930000E+01   8.000000E-01   6.190000E+01   5.300000E+00   1.000000E+00
+   8.900000E+01   6.000000E-01   7.400000E+01   4.900000E+00   1.000000E+00
+   9.020000E+01   6.000000E-01   7.810001E+01   5.100000E+00   1.000000E+00
+# reference:
+#   author: S.A.Graves, P.A.Ellison, T.E.Barnhart, H.F.Valdovinos,  E.R.Birnbaum, F.M.Nortier, R.J.Nickles, J.W.Engle
+#   title: Nuclear excitation functions of proton-induced  reactions (Ep=35-90 MeV) from Fe, Cu, and Al
+#   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.386, p.44 (201
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  3.460000E+01
+#   E-max [MeV]:  9.020000E+01
+#   F-value:  1.954883E+00
+#   A-value:  5.557725E-01
+#   chi-2:  3.536016E+01
+#   p-value:  1.907975E-01
+#   exp. data sets for p-value:      6
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    2.192604E+00   4.948603E-01   4.484295E+01
+# endfb8.1      2.062695E+00   5.084177E-01   3.927187E+01
+# jendl5.0      1.576938E+00   6.823195E-01   2.196566E+01

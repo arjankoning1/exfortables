@@ -1,0 +1,55 @@
+# header: 
+#   title: W0(p,x)Re181 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Choudhury
+#   year: 2018
+#   subentry: D6349002
+#   X4 reaction: 74-W-0(P,X)75-RE-181,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D6349002
+# target: 
+#   Z: 74
+#   A: 0
+#   nuclide: W0
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 75
+#     A: 181
+#     nuclide: Re181
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.190000E+01   2.200000E-01   3.000000E+01   2.000000E+00   1.000000E+00
+   1.490000E+01   1.800000E-01   2.040000E+02   1.400000E+01   1.000000E+00
+   1.790000E+01   7.000000E-02   3.320000E+02   2.300000E+01   1.000000E+00
+   2.090000E+01   1.200000E-01   4.000000E+02   2.800000E+01   1.000000E+00
+# reference:
+#   author: D.Choudhury, N.Naskar, S.Lahiri
+#   title: Production and separation of no-carrier-added 181-184Re radioisotopes from proton irradiated tungsten target
+#   journal: Jour: Radiochimica Acta, Vol.106, p.743 (2018)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.190000E+01
+#   E-max [MeV]:  2.090000E+01
+#   F-value:  1.460956E+00
+#   A-value:  1.048857E+00
+#   chi-2:  8.315244E+01
+#   p-value:  2.748814E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.288737E+00   9.396175E-01   1.592311E+01
+# endfb8.1      1.737068E+00   1.232470E+00   2.155331E+02
+# jendl5.0      1.282383E+00   9.963707E-01   1.800109E+01

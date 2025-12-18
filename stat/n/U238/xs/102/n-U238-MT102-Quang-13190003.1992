@@ -1,0 +1,56 @@
+# header: 
+#   title: U238(n,g)U239 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Quang
+#   year: 1992
+#   subentry: 13190003
+#   X4 reaction: 92-U-238(N,G)92-U-239,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/13190003
+# target: 
+#   Z: 92
+#   A: 238
+#   nuclide: U238
+# reaction: 
+#   type: (n,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 92
+#     A: 239
+#     nuclide: U239
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   9.667000E-01   2.800000E-02   1.380000E+02   5.000000E+00   1.000000E+00
+# reference:
+#   author: E.Quang,G.F.Knoll
+#   title: Absolute measurements of the fast neutron capture cross  section of 238U
+#   journal: Jour: Nuclear Science and Engineering, Vol.110, p.282 (1992)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  9.667000E-01
+#   E-max [MeV]:  9.667000E-01
+#   F-value:  1.089182E+00
+#   A-value:  9.209405E-01
+#   chi-2:  5.343411E+00
+#   p-value:  2.173085E-01
+#   exp. data sets for p-value:      4
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.060580E+00   9.428806E-01   2.968049E+00
+# endfb8.1      1.057831E+00   9.453303E-01   2.781876E+00
+# jeff4.0       1.093732E+00   9.143004E-01   5.780512E+00
+# jendl5.0      1.110699E+00   9.003342E-01   7.653265E+00
+# cendl3.2      1.117239E+00   8.950634E-01   8.449855E+00
+# eaf.2010      1.104967E+00   9.050044E-01   6.988446E+00
+# irdff2.0      1.057831E+00   9.453303E-01   2.781876E+00

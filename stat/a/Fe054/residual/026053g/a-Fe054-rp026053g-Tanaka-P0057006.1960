@@ -1,0 +1,60 @@
+# header: 
+#   title: Fe54(a,x)Fe53g cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Tanaka
+#   year: 1960
+#   subentry: P0057006
+#   X4 reaction: 26-FE-54(A,N+A)26-FE-53-G,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/P0057006
+# target: 
+#   Z: 26
+#   A: 54
+#   nuclide: Fe54
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 22
+#   residual: 
+#     Z: 26
+#     A: 53
+#     nuclide: Fe53g
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.250000E+01   5.600000E-01   6.000000E+00   6.490000E-01   1.000000E+00
+   2.690000E+01   0.000000E+00   3.090000E+01   0.000000E+00   1.000000E+00
+   3.090000E+01   4.400000E-01   4.850000E+01   3.610000E+00   1.000000E+00
+   3.320000E+01   0.000000E+00   6.430001E+01   0.000000E+00   1.000000E+00
+   3.560000E+01   0.000000E+00   6.610000E+01   0.000000E+00   1.000000E+00
+   3.780000E+01   0.000000E+00   6.250001E+01   0.000000E+00   1.000000E+00
+# reference:
+#   author: S.TANAKA,M.FURUKAWA,S.IWATA,M.YAGI,H.AMANO,T.MIKUMO
+#   title: Reactions of Iron-54 with Alpha Particles
+#   journal: Jour: Journal of the Physical Society of Japan, Vol.15, p.1547 (1960)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  2.250000E+01
+#   E-max [MeV]:  3.780000E+01
+#   F-value:  4.163422E+00
+#   A-value:  2.540890E-01
+#   chi-2:  2.465060E+01
+#   p-value:  1.760650E-01
+#   exp. data sets for p-value:      1
+#   libraries:      1
+##  Library          F              A            chi-2
+# tendl.2025    4.163422E+00   2.540890E-01   2.465060E+01

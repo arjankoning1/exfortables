@@ -1,0 +1,57 @@
+# header: 
+#   title: Na23(n,g)Na24 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Macklin
+#   year: 1963
+#   subentry: 11331003
+#   X4 reaction: 11-NA-23(N,G)11-NA-24,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11331003
+# target: 
+#   Z: 11
+#   A: 23
+#   nuclide: Na23
+# reaction: 
+#   type: (n,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 11
+#     A: 24
+#     nuclide: Na24
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.000000E-02   7.000000E-03   5.000000E+00   7.000000E-01   1.000000E+00
+   6.500000E-02   2.000000E-02   7.000000E-01   3.000000E-01   1.000000E+00
+# reference:
+#   author: R.L.Macklin,J.H.Gibbons,T.Inada
+#   title: Average radiative capture cross sections for 30 and 65 keV neutrons
+#   journal: Jour: Physical Review, Vol.129, p.2695 (1963)
+# statistics:
+#   NEA score: T2
+#   IAEA score:  1
+#   E-min [MeV]:  3.000000E-02
+#   E-max [MeV]:  6.500000E-02
+#   F-value:  4.459343E+01
+#   A-value:  3.155145E-02
+#   chi-2:  2.712636E+01
+#   p-value:  5.960464E-08
+#   exp. data sets for p-value:      2
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    5.565405E+01   2.427958E-02   2.753510E+01
+# endfb8.1      6.401995E+01   2.105188E-02   2.763212E+01
+# jeff4.0       4.030346E+01   3.282160E-02   2.729819E+01
+# jendl5.0      1.127036E+01   1.176770E-01   2.496792E+01
+# cendl3.2      5.959681E+01   2.329816E-02   2.754677E+01
+# eaf.2010      7.273070E+01   1.892985E-02   2.768286E+01
+# irdff2.0      3.621200E+01   3.575054E-02   2.722156E+01

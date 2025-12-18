@@ -1,0 +1,55 @@
+# header: 
+#   title: H2(n,el) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Seagrave
+#   year: 1972
+#   subentry: 10159010
+#   X4 reaction: 1-H-2(N,EL)1-H-2,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/10159010
+# target: 
+#   Z: 1
+#   A: 2
+#   nuclide: H2
+# reaction: 
+#   type: (n,el)
+#   ENDF_MF: 3
+#   ENDF_MT: 2
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.550000E+00   0.000000E+00   1.480000E+03   0.000000E+00   1.000000E+00
+   7.000000E+00   0.000000E+00   1.267000E+03   0.000000E+00   1.000000E+00
+   8.000000E+00   0.000000E+00   1.127000E+03   0.000000E+00   1.000000E+00
+   9.000000E+00   0.000000E+00   1.002000E+03   0.000000E+00   1.000000E+00
+   1.855000E+01   0.000000E+00   4.860000E+02   3.900000E+01   1.000000E+00
+   2.050000E+01   0.000000E+00   4.420000E+02   3.600000E+01   1.000000E+00
+   2.300000E+01   0.000000E+00   3.990000E+02   3.500000E+01   1.000000E+00
+# reference:
+#   author: J.D.SEAGRAVE,J.C.HOPKINS,R.K.WALTER,A.NIILER,  P.W.KEATON,E.C.KERR,R.H.SHERMAN
+#   title: Elastic Scattering and Polarization of Fast Neutrons  by Liquid Deuterium and Tritium
+#   journal: Jour: Annals of Physics (New York), Vol.74, p.250 (1972)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  5.550000E+00
+#   E-max [MeV]:  2.300000E+01
+#   F-value:  1.040456E+00
+#   A-value:  9.719747E-01
+#   chi-2:  2.945268E-01
+#   p-value:  4.482324E-01
+#   exp. data sets for p-value:      4
+#   libraries:      4
+##  Library          F              A            chi-2
+# endfb8.1      1.021511E+00   9.838986E-01   1.361158E-01
+# jeff4.0       1.052339E+00   9.539086E-01   3.312944E-01
+# jendl5.0      1.046394E+00   9.692256E-01   4.082673E-01
+# cendl3.2      1.012040E+00   9.943303E-01   6.760605E-02

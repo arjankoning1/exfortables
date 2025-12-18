@@ -1,0 +1,63 @@
+# header: 
+#   title: Sc45(n,x)Sc44g cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Ikeda
+#   year: 1988
+#   subentry: 22089023
+#   X4 reaction: 21-SC-45(N,2N)21-SC-44-G,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22089023
+# target: 
+#   Z: 21
+#   A: 45
+#   nuclide: Sc45
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 21
+#     A: 44
+#     nuclide: Sc44g
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.338000E+01   0.000000E+00   7.809218E+01   3.999600E+00   9.998999E-01
+   1.359000E+01   0.000000E+00   9.379061E+01   4.899500E+00   9.998999E-01
+   1.376000E+01   0.000000E+00   1.296870E+02   6.699300E+00   9.998999E-01
+   1.399000E+01   0.000000E+00   1.219878E+02   6.299400E+00   9.998999E-01
+   1.424000E+01   0.000000E+00   1.596840E+02   8.299200E+00   9.998999E-01
+   1.445000E+01   0.000000E+00   1.729827E+02   8.899100E+00   9.998999E-01
+   1.469000E+01   0.000000E+00   1.864813E+02   9.599000E+00   9.998999E-01
+   1.496000E+01   0.000000E+00   2.029797E+02   9.999000E+00   9.998999E-01
+# reference:
+#   author: Y.Ikeda,C.Konno,K.Oishi,T.Nakamura,H.Miyade, K.Kawade,  H.Yamamoto, T.Katoh
+#   title: Activation cross section measurements for fusion  reactor structural materials at neutron energy from  13.3 to 15.0 MeV using FNS facility
+#   journal: Rept: JAERI Reports, No.1312 (1988)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.338000E+01
+#   E-max [MeV]:  1.496000E+01
+#   F-value:  1.187439E+00
+#   A-value:  8.803105E-01
+#   chi-2:  9.107177E+00
+#   p-value:  3.252383E-01
+#   exp. data sets for p-value:      5
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.075682E+00   9.677943E-01   2.356522E+00
+# jeff4.0       1.260802E+00   8.007348E-01   1.585783E+01

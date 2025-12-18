@@ -1,0 +1,60 @@
+# header: 
+#   title: Se77(p,x)Br78 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Krivonosov
+#   year: 1977
+#   subentry: A0048010
+#   X4 reaction: 34-SE-77(P,G)35-BR-78,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/A0048010
+# target: 
+#   Z: 34
+#   A: 77
+#   nuclide: Se77
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 35
+#     A: 78
+#     nuclide: Br78
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.550000E+00   2.000000E-03   4.000000E-02   2.900000E-02   1.000000E+00
+   1.750000E+00   2.000000E-03   9.800000E-02   3.000000E-02   1.000000E+00
+   1.950000E+00   2.000000E-03   2.700000E-01   8.600000E-02   1.000000E+00
+   2.050000E+00   2.000000E-03   6.700000E-01   1.400000E-02   1.000000E+00
+   2.160000E+00   2.000000E-03   7.700000E-01   1.500000E-01   1.000000E+00
+   2.260000E+00   2.000000E-03   7.100000E-01   1.300000E-01   1.000000E+00
+   2.360000E+00   2.000000E-03   5.800000E-01   9.800000E-02   1.000000E+00
+   2.560000E+00   2.000000E-03   3.600000E-01   5.400000E-02   1.000000E+00
+   2.770000E+00   2.000000E-03   5.600000E-01   8.400000E-02   1.000000E+00
+   2.970000E+00   2.000000E-03   8.800000E-01   1.300000E-01   1.000000E+00
+# reference:
+#   author: G.A.Krivonosov,O.I.Ekhichev,B.A.Nemashkalo, V.E.Storizhko,V.K.Chirt
+#   title: Radiative capture cross-section of protons by medium atomic weigh nuclei at low energy.
+#   journal: Jour: Izv. Rossiiskoi Akademii Nauk, Ser.Fiz., Vol.41, Issue.10, p.2196
+# statistics:
+#   NEA score: T3
+#   IAEA score: -1
+#   E-min [MeV]:  1.550000E+00
+#   E-max [MeV]:  2.970000E+00
+#   F-value:  2.746436E+00
+#   A-value:  4.680941E-01
+#   chi-2:  1.097461E+02
+#   p-value:  2.208211E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    2.925719E+00   5.111092E-01   1.173391E+02
+# jendl5.0      2.567251E+00   4.286992E-01   1.021531E+02

@@ -1,0 +1,61 @@
+# header: 
+#   title: Pd108(p,x)Ag108g cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Batij
+#   year: 1986
+#   subentry: A0304013
+#   X4 reaction: 46-PD-108(P,N)47-AG-108-G,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/A0304013
+# target: 
+#   Z: 46
+#   A: 108
+#   nuclide: Pd108
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+#   residual: 
+#     Z: 47
+#     A: 108
+#     nuclide: Ag108g
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   4.000000E+00   0.000000E+00   2.684700E+00   4.971600E-01   9.943182E-01
+   5.000000E+00   0.000000E+00   2.585227E+01   1.988600E+00   9.943182E-01
+   6.000000E+00   0.000000E+00   9.545455E+01   7.954500E+00   9.943182E-01
+   7.000000E+00   0.000000E+00   2.585227E+02   1.988636E+01   9.943182E-01
+   8.000000E+00   0.000000E+00   3.380682E+02   2.982954E+01   9.943182E-01
+   9.000000E+00   0.000000E+00   4.673296E+02   3.977273E+01   9.943182E-01
+# reference:
+#   author: V.G.Batij, E.A.Skakun, Yu.N.Rakivnenko, O.A.Rastrepin
+#   title: Absolute and relative (p,n)-reaction cross sections with isomer formation in argentum isotopes.
+#   journal: Conf: 36.Conf.Nucl.Spectrosc.and Nucl.Struct.,Kharkov 1986, p.280 (1986)
+# statistics:
+#   NEA score: T3
+#   IAEA score:  1
+#   E-min [MeV]:  4.000000E+00
+#   E-max [MeV]:  9.000000E+00
+#   F-value:  5.044286E+00
+#   A-value:  3.535074E-01
+#   chi-2:  5.170473E+01
+#   p-value:  2.436261E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.298535E+00   1.127815E+00   6.420359E+00
+# jendl5.0      9.714319E+00   1.108050E-01   9.698911E+01

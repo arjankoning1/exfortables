@@ -1,0 +1,66 @@
+# header: 
+#   title: U235(n,n'_01)U236 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Cranberg
+#   year: 1959
+#   subentry: 12373007
+#   X4 reaction: 92-U-235(N,INL)92-U-235,PAR,DA,,4PI
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/12373007
+#   level energy [MeV]:  9.20000E-02
+# target: 
+#   Z: 92
+#   A: 235
+#   nuclide: U235
+# reaction: 
+#   type: (n,n'_01)
+#   ENDF_MF: 3
+#   ENDF_MT: 51
+#   level: 
+#     number: 1
+#     energy [MeV]:  9.215000E-02
+#     spin:  4.500000E+00
+#     parity: 1
+#   residual: 
+#     Z: 92
+#     A: 236
+#     nuclide: U236
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.500000E-01   1.000000E-02   2.500000E+02   5.000000E+01   1.000000E+00
+   5.500000E-01   1.000000E-02   2.000000E+02   5.000000E+01   1.000000E+00
+   9.800000E-01   4.400000E-02   3.500000E+02   6.000000E+01   1.000000E+00
+   9.800000E-01   4.400000E-02   3.100000E+02   6.000000E+01   1.000000E+00
+   2.000000E+00   3.000000E-02   2.700000E+02   5.000000E+01   1.000000E+00
+   2.000000E+00   3.000000E-02   6.700000E+02   1.500000E+02   1.000000E+00
+   2.000000E+00   3.000000E-02   4.200000E+02   1.000000E+02   1.000000E+00
+# reference:
+#   author: L.CRANBERG
+#   title: NEUTRON SCATTERING BY U235,PU239, AND U238.
+#   journal: Rept: Los Alamos Scientific Lab. Reports, No.2177 (1959)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  5.500000E-01
+#   E-max [MeV]:  2.000000E+00
+#   F-value:  5.296971E+01
+#   A-value:  2.269996E-02
+#   chi-2:  2.226241E+01
+#   p-value:  1.362392E-07
+#   exp. data sets for p-value:      1
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2025    5.799874E+01   2.136654E-02   2.222559E+01
+# endfb8.1      5.795415E+01   2.138816E-02   2.222291E+01
+# jeff4.0       4.863338E+01   2.360191E-02   2.240040E+01
+# jendl5.0      4.383548E+01   2.733913E-02   2.196853E+01
+# cendl3.2      5.770617E+01   2.044025E-02   2.249463E+01

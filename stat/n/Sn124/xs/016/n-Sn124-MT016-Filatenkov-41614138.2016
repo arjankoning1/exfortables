@@ -1,0 +1,61 @@
+# header: 
+#   title: Sn124(n,2n)Sn123 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Filatenkov
+#   year: 2016
+#   subentry: 41614138
+#   X4 reaction: 50-SN-124(N,2N)50-SN-123,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/41614138
+# target: 
+#   Z: 50
+#   A: 124
+#   nuclide: Sn124
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 50
+#     A: 123
+#     nuclide: Sn123
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.345000E+01   0.000000E+00   1.779000E+03   2.170384E+02   9.999999E-01
+   1.388000E+01   0.000000E+00   1.847626E+03   2.364987E+02   9.997974E-01
+   1.405000E+01   0.000000E+00   1.929563E+03   2.604962E+02   9.997737E-01
+   1.428000E+01   0.000000E+00   1.927471E+03   2.563621E+02   9.992074E-01
+   1.449000E+01   0.000000E+00   1.861807E+03   2.122473E+02   9.998962E-01
+   1.470000E+01   0.000000E+00   1.959761E+03   2.528241E+02   9.993682E-01
+   1.488000E+01   0.000000E+00   1.777331E+03   2.168381E+02   9.990617E-01
+# reference:
+#   author: A.A.Filatenkov
+#   title: Neutron activation cross sections measured at KRI in neutron energy region 13.4 - 14.9 MeV
+#   journal: Rept: USSR report to the I.N.D.C., No.0460 (2016)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.345000E+01
+#   E-max [MeV]:  1.488000E+01
+#   F-value:  1.120069E+00
+#   A-value:  9.104183E-01
+#   chi-2:  1.103588E+00
+#   p-value:  1.897430E-01
+#   exp. data sets for p-value:      1
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.070609E+00   9.405445E-01   6.563664E-01
+# endfb8.1      1.201281E+00   8.360673E-01   2.265375E+00
+# jeff4.0       1.070609E+00   9.405445E-01   6.563664E-01
+# jendl5.0      1.100394E+00   9.145589E-01   9.943761E-01
+# cendl3.2      1.168838E+00   8.596848E-01   1.835857E+00
+# eaf.2010      1.027030E+00   9.792531E-01   2.131894E-01

@@ -1,0 +1,52 @@
+# header: 
+#   title: Am241(n,x)Am239 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Filatenkov
+#   year: 2016
+#   subentry: 41614242
+#   X4 reaction: 95-AM-241(N,3N)95-AM-239,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/41614242
+# target: 
+#   Z: 95
+#   A: 241
+#   nuclide: Am241
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 17
+#   residual: 
+#     Z: 95
+#     A: 239
+#     nuclide: Am239
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.473000E+01   0.000000E+00   3.000000E+00   2.001000E+00   9.999978E-01
+   1.486000E+01   0.000000E+00   1.200005E+01   3.000100E+00   1.000004E+00
+# reference:
+#   author: A.A.Filatenkov
+#   title: Neutron activation cross sections measured at KRI in neutron energy region 13.4 - 14.9 MeV
+#   journal: Rept: USSR report to the I.N.D.C., No.0460 (2016)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  1.473000E+01
+#   E-max [MeV]:  1.486000E+01
+#   F-value:  3.010908E+00
+#   A-value:  5.955633E-01
+#   chi-2:  4.534280E+00
+#   p-value:  2.332448E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.814878E+00   1.153610E+00   2.761671E+00
+# jendl5.0      4.222213E+00   3.074658E-01   6.306889E+00

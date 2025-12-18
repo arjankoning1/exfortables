@@ -1,0 +1,52 @@
+# header: 
+#   title: Y89(n,x)Y88 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Mather
+#   year: 1972
+#   subentry: 20795003
+#   X4 reaction: 39-Y-89(N,2N)39-Y-88,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20795003
+# target: 
+#   Z: 39
+#   A: 89
+#   nuclide: Y89
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 39
+#     A: 88
+#     nuclide: Y88
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.240000E+01   0.000000E+00   2.368449E+02   3.077582E+01   1.025303E+00
+# reference:
+#   author: D.S.MATHER,P.F.BAMPTON,R.E.COLES,G.JAMES,P.J.NIND
+#   title: -MEASUREMENT OF (N,2N) CROSS SECTIONS FOR INCIDENT  ENERGIES BETWEEN 6 AND 14 MEV-.
+#   journal: Rept: A.W.R.E. Aldermaston Reports, No.72/72 (1972)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.240000E+01
+#   E-max [MeV]:  1.240000E+01
+#   F-value:  1.033139E+00
+#   A-value:  9.721456E-01
+#   chi-2:  2.845106E-01
+#   p-value:  3.472884E-01
+#   exp. data sets for p-value:      6
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.016884E+00   9.833962E-01   1.645518E-01
+# jeff4.0       1.016884E+00   9.833962E-01   1.645518E-01
+# jendl5.0      1.052599E+00   9.500291E-01   5.244280E-01

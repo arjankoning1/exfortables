@@ -1,0 +1,69 @@
+# header: 
+#   title: Cu63(p,n')Zn63 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Ghoshal
+#   year: 1950
+#   subentry: B0017005
+#   X4 reaction: 29-CU-63(P,N)30-ZN-63,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/B0017005
+# target: 
+#   Z: 29
+#   A: 63
+#   nuclide: Cu63
+# reaction: 
+#   type: (p,n')
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+#   residual: 
+#     Z: 30
+#     A: 63
+#     nuclide: Zn63
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 18
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.900000E+00   0.000000E+00   1.500000E+01   0.000000E+00   1.000000E+00
+   4.400000E+00   0.000000E+00   2.800000E+01   0.000000E+00   1.000000E+00
+   4.800000E+00   0.000000E+00   5.100000E+01   0.000000E+00   1.000000E+00
+   5.300000E+00   0.000000E+00   7.800000E+01   0.000000E+00   1.000000E+00
+   5.700000E+00   0.000000E+00   1.130000E+02   0.000000E+00   1.000000E+00
+   6.200000E+00   0.000000E+00   1.500000E+02   0.000000E+00   1.000000E+00
+   7.500000E+00   0.000000E+00   2.810000E+02   0.000000E+00   1.000000E+00
+   8.900000E+00   0.000000E+00   3.910000E+02   0.000000E+00   1.000000E+00
+   1.030000E+01   0.000000E+00   4.690000E+02   0.000000E+00   1.000000E+00
+   1.080000E+01   0.000000E+00   5.460000E+02   5.000000E+01   1.000000E+00
+   1.190000E+01   0.000000E+00   5.140001E+02   0.000000E+00   1.000000E+00
+   1.330000E+01   0.000000E+00   5.310000E+02   0.000000E+00   1.000000E+00
+   1.510000E+01   0.000000E+00   4.630000E+02   0.000000E+00   1.000000E+00
+   1.640000E+01   0.000000E+00   3.370000E+02   0.000000E+00   1.000000E+00
+   1.760000E+01   0.000000E+00   2.470000E+02   0.000000E+00   1.000000E+00
+   1.960000E+01   0.000000E+00   1.460000E+02   0.000000E+00   1.000000E+00
+   2.030000E+01   0.000000E+00   1.950000E+02   0.000000E+00   1.000000E+00
+   2.210000E+01   0.000000E+00   6.900002E+01   0.000000E+00   1.000000E+00
+# reference:
+#   author: S.N.Ghoshal
+#   title: An experimental verification of the theory of compound  nucleus
+#   journal: Jour: Physical Review, Vol.80, p.939 (1950)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  3.900000E+00
+#   E-max [MeV]:  2.210000E+01
+#   F-value:  1.853356E+00
+#   A-value:  8.003368E-01
+#   chi-2:  7.683465E-01
+#   p-value:  1.617931E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.888302E+00   7.649668E-01   1.221793E+00
+# endfb8.1      1.938053E+00   7.185222E-01   8.929709E-01
+# jendl5.0      1.769644E+00   8.544412E-01   2.953312E-01

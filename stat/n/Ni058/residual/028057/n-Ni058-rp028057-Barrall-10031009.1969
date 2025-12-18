@@ -1,0 +1,53 @@
+# header: 
+#   title: Ni58(n,x)Ni57 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Barrall
+#   year: 1969
+#   subentry: 10031009
+#   X4 reaction: 28-NI-58(N,2N)28-NI-57,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/10031009
+# target: 
+#   Z: 28
+#   A: 58
+#   nuclide: Ni58
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 28
+#     A: 57
+#     nuclide: Ni57
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.480000E+01   2.000000E-01   3.600000E+01   3.000000E+00   1.000000E+00
+# reference:
+#   author: R.C.BARRALL,M.SILBERGELD,D.G.GARDNER
+#   title: Cross sections of some reactions of Al, S, Mn, Fe, Ni, In, and I with 14.8 MeV neutrons.
+#   journal: Jour: Nuclear Physics, Section A, Vol.138, p.387 (1969)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.480000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.043317E+00
+#   A-value:  1.032986E+00
+#   chi-2:  5.938434E-01
+#   p-value:  4.421306E-01
+#   exp. data sets for p-value:      8
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.014812E+00   1.014812E+00   2.313894E-01
+# endfb8.1      1.021105E+00   1.021105E+00   3.352408E-01
+# jeff4.0       1.014812E+00   1.014812E+00   2.313882E-01
+# jendl5.0      1.082772E+00   1.082772E+00   1.577355E+00

@@ -1,0 +1,53 @@
+# header: 
+#   title: Fe54(n,el) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Boschung
+#   year: 1971
+#   subentry: 10037002
+#   X4 reaction: 26-FE-54(N,EL)26-FE-54,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/10037002
+# target: 
+#   Z: 26
+#   A: 54
+#   nuclide: Fe54
+# reaction: 
+#   type: (n,el)
+#   ENDF_MF: 3
+#   ENDF_MT: 2
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   4.040000E+00   2.000000E-02   2.496000E+03   6.500000E+01   1.000000E+00
+   5.060000E+00   1.000000E-02   2.222000E+03   6.500000E+01   1.000000E+00
+   5.600000E+00   1.000000E-02   2.091000E+03   5.500000E+01   1.000000E+00
+# reference:
+#   author: P.Boschung,J.T.Lindow,E.F.Shrader
+#   title: Scattering of fast neutrons by C-12,Fe-54,Fe-56,Ni-58,  and Ni-60.
+#   journal: Jour: Nuclear Physics, Section A, Vol.161, p.593 (1971)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  4.040000E+00
+#   E-max [MeV]:  5.600000E+00
+#   F-value:  1.051014E+00
+#   A-value:  9.838837E-01
+#   chi-2:  3.652388E+00
+#   p-value:  4.058088E-01
+#   exp. data sets for p-value:      2
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.076571E+00   9.948731E-01   7.816539E+00
+# endfb8.1      1.047745E+00   9.714295E-01   3.151690E+00
+# jeff4.0       1.047745E+00   9.714295E-01   3.151690E+00
+# jendl5.0      1.053972E+00   9.952799E-01   4.136916E+00
+# cendl3.2      1.010561E+00   9.994336E-01   4.927489E-01
+# irdff2.0      1.047859E+00   9.713445E-01   3.164748E+00

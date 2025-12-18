@@ -1,0 +1,59 @@
+# header: 
+#   title: Mn55(n,4n)Mn52 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Uwamino
+#   year: 1992
+#   subentry: 22703010
+#   X4 reaction: 25-MN-55(N,4N)25-MN-52,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22703010
+# target: 
+#   Z: 25
+#   A: 55
+#   nuclide: Mn55
+# reaction: 
+#   type: (n,4n)
+#   ENDF_MF: 3
+#   ENDF_MT: 37
+#   residual: 
+#     Z: 25
+#     A: 52
+#     nuclide: Mn52
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.350000E+01   0.000000E+00   7.909000E-03   4.200000E-03   1.000000E+00
+   3.450000E+01   0.000000E+00   1.837000E-01   8.200000E-02   1.000000E+00
+   3.550000E+01   0.000000E+00   1.015000E+00   3.300000E-01   1.000000E+00
+   3.650000E+01   0.000000E+00   2.430000E+00   7.400000E-01   1.000000E+00
+   3.750000E+01   0.000000E+00   4.709000E+00   9.300000E-01   1.000000E+00
+   3.850000E+01   0.000000E+00   8.296000E+00   3.100000E+00   1.000000E+00
+# reference:
+#   author: Y.UWAMINO,H.SUGITA,Y.KONDO,T.NAKAMURA
+#   title: Measurement of neutron activation cross sections of energy up to 40 MeV using semimonoenergetic p-Be neutrons
+#   journal: Jour: Nuclear Science and Engineering, Vol.111, p.391 (1992)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  3.350000E+01
+#   E-max [MeV]:  3.850000E+01
+#   F-value:  3.591683E+00
+#   A-value:  2.378438E+00
+#   chi-2:  1.776489E+02
+#   p-value:  1.720835E-01
+#   exp. data sets for p-value:      1
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2025    4.469734E+00   2.831585E+00   3.392926E+02
+# endfb8.1      2.625823E+00   1.745756E+00   3.587380E+01
+# jeff4.0       2.625823E+00   1.745756E+00   3.587380E+01
+# jendl5.0      2.451903E+00   2.387195E+00   2.935953E+01
+# eaf.2010      4.187800E+00   2.581006E+00   2.849343E+02

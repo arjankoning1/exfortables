@@ -1,0 +1,57 @@
+# header: 
+#   title: Mo0(n,x)Nb96 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Filatenkov
+#   year: 2016
+#   subentry: 41614074
+#   X4 reaction: 42-MO-0(N,X)41-NB-96,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/41614074
+# target: 
+#   Z: 42
+#   A: 0
+#   nuclide: Mo0
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 41
+#     A: 96
+#     nuclide: Nb96
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.364000E+01   0.000000E+00   2.950000E+00   1.465500E-01   1.000002E+00
+   1.387000E+01   0.000000E+00   3.120000E+00   1.672000E-01   9.999938E-01
+   1.405000E+01   0.000000E+00   3.360000E+00   1.454900E-01   1.000008E+00
+   1.428000E+01   0.000000E+00   3.460000E+00   1.446400E-01   9.999922E-01
+   1.444000E+01   0.000000E+00   3.550000E+00   1.438000E-01   1.000009E+00
+   1.464000E+01   0.000000E+00   3.790000E+00   1.637500E-01   9.999956E-01
+# reference:
+#   author: A.A.Filatenkov
+#   title: Neutron activation cross sections measured at KRI in neutron energy region 13.4 - 14.9 MeV
+#   journal: Rept: USSR report to the I.N.D.C., No.0460 (2016)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.364000E+01
+#   E-max [MeV]:  1.464000E+01
+#   F-value:  1.135832E+00
+#   A-value:  1.111049E+00
+#   chi-2:  1.005239E+01
+#   p-value:  3.606902E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.168449E+00   1.166164E+00   1.491292E+01
+# jeff4.0       1.168449E+00   1.166164E+00   1.491292E+01
+# jendl5.0      1.014078E+00   1.008510E+00   3.313416E-01

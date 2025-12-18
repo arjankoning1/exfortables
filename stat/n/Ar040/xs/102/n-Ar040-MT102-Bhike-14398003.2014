@@ -1,0 +1,61 @@
+# header: 
+#   title: Ar40(n,g)Ar41 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Bhike
+#   year: 2014
+#   subentry: 14398003
+#   X4 reaction: 18-AR-40(N,G)18-AR-41,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/14398003
+# target: 
+#   Z: 18
+#   A: 40
+#   nuclide: Ar40
+# reaction: 
+#   type: (n,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 18
+#     A: 41
+#     nuclide: Ar41
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.310000E+00   1.000000E-01   1.023700E+00   7.202400E-02   9.938385E-01
+   1.840000E+00   1.300000E-01   7.668300E-01   5.205600E-02   1.022442E+00
+   2.720000E+00   1.600000E-01   6.416800E-01   1.004900E-01   1.002622E+00
+   3.410000E+00   1.600000E-01   5.678000E-01   9.965300E-02   9.961421E-01
+   4.090000E+00   6.300000E-01   4.874800E-01   3.064000E-02   1.015585E+00
+   5.460000E+00   4.700000E-01   3.723800E-01   5.059700E-02   1.006442E+00
+   6.000000E+00   4.100000E-01   3.532500E-01   5.938900E-02   9.812593E-01
+   7.040000E+00   3.400000E-01   3.123700E-01   5.057800E-02   1.007659E+00
+# reference:
+#   author: M.Bhike,B.Fallin,W.Tornow
+#   title: Measurements of the 40Ar(n,g)41Ar radiative-capture cross section between 0.4 and 14.8 MeV
+#   journal: Jour: Physics Letters,Section B, Vol.736, p.361 (2014)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.310000E+00
+#   E-max [MeV]:  7.040000E+00
+#   F-value:  1.518933E+00
+#   A-value:  7.966618E-01
+#   chi-2:  1.036368E+01
+#   p-value:  3.444217E-01
+#   exp. data sets for p-value:      1
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2025    1.150929E+00   9.157381E-01   3.112339E+00
+# endfb8.1      2.206140E+00   4.700654E-01   2.705389E+01
+# jeff4.0       1.258143E+00   8.670494E-01   5.598220E+00
+# jendl5.0      1.441378E+00   9.613567E-01   1.036477E+01
+# eaf.2010      1.225739E+00   8.943592E-01   5.689157E+00

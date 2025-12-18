@@ -1,0 +1,56 @@
+# header: 
+#   title: Al27(n,x)Mg27 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Shimizu
+#   year: 2004
+#   subentry: 22837002
+#   X4 reaction: 13-AL-27(N,P)12-MG-27,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22837002
+# target: 
+#   Z: 13
+#   A: 27
+#   nuclide: Al27
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 12
+#     A: 27
+#     nuclide: Mg27
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.460000E+00   5.000000E-02   3.352900E-02   8.861099E-03   9.861461E-01
+   2.690000E+00   5.000000E-02   3.234300E-01   1.836000E-02   1.001318E+00
+   2.900000E+00   5.000000E-02   8.115700E-01   3.232200E-02   1.005666E+00
+   3.090000E+00   5.000000E-02   1.661900E+00   5.172400E-02   1.001123E+00
+# reference:
+#   author: T.Shimizu,H.Sakane,M.Shibata,K.Kawade, T.Nishitani
+#   title: .Measurements of activation cross sections of (n,p)   and (n,alpha) reactions with d-D neutrons in   the energy range 2.1 - 3.1 MeV
+#   journal: Jour: Annals of Nuclear Energy, Vol.31, p.975 (2004)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  2.460000E+00
+#   E-max [MeV]:  3.090000E+00
+#   F-value:  1.305716E+00
+#   A-value:  8.053914E-01
+#   chi-2:  1.946009E+01
+#   p-value:  2.366363E-01
+#   exp. data sets for p-value:      3
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.375031E+00   8.010182E-01   2.771566E+01
+# endfb8.1      1.238533E+00   8.128290E-01   1.925441E+01
+# jeff4.0       1.249908E+00   8.043487E-01   2.080775E+01
+# jendl5.0      1.344599E+00   8.034191E-01   1.006256E+01

@@ -1,0 +1,54 @@
+# header: 
+#   title: Se80(g,n')Se79 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Yates
+#   year: 2018
+#   subentry: L0238002
+#   X4 reaction: 34-SE-80(G,N)34-SE-79,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/L0238002
+# target: 
+#   Z: 34
+#   A: 80
+#   nuclide: Se80
+# reaction: 
+#   type: (g,n')
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+#   residual: 
+#     Z: 34
+#     A: 79
+#     nuclide: Se79
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.560000E+01   4.680000E-01   1.087000E+02   1.500000E+01   1.000000E+00
+   1.580000E+01   4.740000E-01   1.129000E+02   1.610000E+01   1.000000E+00
+   1.600000E+01   4.800000E-01   1.131000E+02   1.510000E+01   1.000000E+00
+# reference:
+#   author: S.A.Yates,B.Fallin,C.R.Howell,Krishichayan, W.Tornow,S.M.Grimes
+#   title: Measurement of the 80Se(gamma,n) reaction with linearly polarized gamma rays
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.98, p.054621 (2018)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.560000E+01
+#   E-max [MeV]:  1.600000E+01
+#   F-value:  1.228822E+00
+#   A-value:  1.212538E+00
+#   chi-2:  3.323098E+00
+#   p-value:  2.059433E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.338103E+00   1.337867E+00   6.196585E+00
+# endfb8.1      1.136378E+00   1.133916E+00   1.573520E+00
+# jendl5.0      1.175718E+00   1.175149E+00   2.199191E+00

@@ -1,0 +1,53 @@
+# header: 
+#   title: Bi209(n,x)Pb209 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Ryves
+#   year: 1990
+#   subentry: 22148007
+#   X4 reaction: 83-BI-209(N,P)82-PB-209,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22148007
+# target: 
+#   Z: 83
+#   A: 209
+#   nuclide: Bi209
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 82
+#     A: 209
+#     nuclide: Pb209
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.430000E+01   1.000000E-01   1.197000E+00   1.235100E-01   9.892381E-01
+# reference:
+#   author: T.B.RYVES,P.KOLKOWSKI,A.C.HOOLEY
+#   title: - HO, PB AND BI CROSS SECTIONS FOR 14.3 MEV NEUTRONS.
+#   journal: Jour: Annals of Nuclear Energy, Vol.17, p.107 (1990)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.430000E+01
+#   E-max [MeV]:  1.430000E+01
+#   F-value:  1.150195E+00
+#   A-value:  9.323921E-01
+#   chi-2:  1.446139E+00
+#   p-value:  3.702103E-01
+#   exp. data sets for p-value:      3
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.000005E+00   9.999952E-01   5.759602E-05
+# endfb8.1      1.322950E+00   7.558866E-01   5.782813E+00
+# jeff4.0       1.000069E+00   9.999306E-01   8.434518E-04
+# jendl5.0      1.000069E+00   9.999306E-01   8.434518E-04

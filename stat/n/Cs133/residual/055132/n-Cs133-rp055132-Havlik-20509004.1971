@@ -1,0 +1,52 @@
+# header: 
+#   title: Cs133(n,x)Cs132 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Havlik
+#   year: 1971
+#   subentry: 20509004
+#   X4 reaction: 55-CS-133(N,2N)55-CS-132,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20509004
+# target: 
+#   Z: 55
+#   A: 133
+#   nuclide: Cs133
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 55
+#     A: 132
+#     nuclide: Cs132
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.470000E+01   1.500000E-01   1.586897E+03   1.090208E+02   1.004365E+00
+# reference:
+#   author: E.Havlik
+#   title: -Measurement of (N,P), (N,A) and (N,2N) cross-sections  of heavy nuclei.- (In German)
+#   journal: Jour: Acta Physica Austriaca, Vol.34, p.209 (1971)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.470000E+01
+#   E-max [MeV]:  1.470000E+01
+#   F-value:  1.039418E+00
+#   A-value:  1.033456E+00
+#   chi-2:  7.175838E-01
+#   p-value:  4.941536E-01
+#   exp. data sets for p-value:      7
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.048390E+00   1.048390E+00   1.037352E+00
+# jeff4.0       1.048390E+00   1.048390E+00   1.037352E+00
+# jendl5.0      1.004223E+00   1.004223E+00   7.804704E-02

@@ -1,0 +1,66 @@
+# header: 
+#   title: Zn64(n,2n)Zn63 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Koehler
+#   year: 1960
+#   subentry: 11807002
+#   X4 reaction: 30-ZN-64(N,2N)30-ZN-63,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11807002
+# target: 
+#   Z: 30
+#   A: 64
+#   nuclide: Zn64
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 30
+#     A: 63
+#     nuclide: Zn63
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 12
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.220000E+01   2.000000E-01   2.000000E+01   0.000000E+00   1.000000E+00
+   1.270000E+01   0.000000E+00   3.000000E+01   0.000000E+00   1.000000E+00
+   1.290000E+01   2.000000E-01   5.000000E+01   0.000000E+00   1.000000E+00
+   1.340000E+01   3.000000E-01   7.500000E+01   7.000000E+00   1.000000E+00
+   1.340000E+01   3.000000E-01   8.500000E+01   1.200000E+01   1.000000E+00
+   1.400000E+01   2.000000E-01   1.400000E+02   1.200000E+01   1.000000E+00
+   1.420000E+01   3.000000E-01   1.700000E+02   1.500000E+01   1.000000E+00
+   1.560000E+01   3.000000E-01   2.500000E+02   2.500000E+01   1.000000E+00
+   1.640000E+01   5.000000E-01   2.770000E+02   2.700000E+01   1.000000E+00
+   1.640000E+01   4.000000E-01   2.950000E+02   2.500000E+01   1.000000E+00
+   1.740000E+01   2.000000E-01   3.300000E+02   3.000000E+01   1.000000E+00
+   1.810000E+01   2.000000E-01   3.370000E+02   2.800000E+01   1.000000E+00
+# reference:
+#   author: D.R.Koehler,W.L.Alford
+#   title: Excitation function of Zn64(n,2n)Zn63.
+#   journal: Jour: Physical Review, Vol.119, p.311 (1960)
+# statistics:
+#   NEA score: R2
+#   IAEA score:  1
+#   E-min [MeV]:  1.220000E+01
+#   E-max [MeV]:  1.810000E+01
+#   F-value:  2.688899E+00
+#   A-value:  5.274909E-01
+#   chi-2:  8.620864E+00
+#   p-value:  1.971869E-01
+#   exp. data sets for p-value:      3
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    2.087720E+00   6.294139E-01   3.978053E+00
+# endfb8.1      2.206762E+00   6.102067E-01   3.967200E+00
+# jeff4.0       4.264141E+00   2.803237E-01   3.192723E+01
+# jendl5.0      2.322480E+00   5.813327E-01   4.788012E+00
+# cendl3.2      3.212608E+00   5.367948E-01   3.839419E+00
+# eaf.2010      2.066201E+00   6.411857E-01   3.225273E+00

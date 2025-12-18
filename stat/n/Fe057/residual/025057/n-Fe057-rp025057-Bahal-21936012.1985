@@ -1,0 +1,51 @@
+# header: 
+#   title: Fe57(n,x)Mn57 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Bahal
+#   year: 1985
+#   subentry: 21936012
+#   X4 reaction: 26-FE-57(N,P)25-MN-57,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21936012
+# target: 
+#   Z: 26
+#   A: 57
+#   nuclide: Fe57
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 25
+#     A: 57
+#     nuclide: Mn57
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.470000E+01   6.000000E-01   8.900001E+01   5.000000E+00   1.000000E+00
+# reference:
+#   author: B.M.Bahal, R.Pepelnik
+#   title: Cross section measurements of Cr,Mn,Fe,Co,Ni for an  accurate determination of these elements in natural  and synthetic samples using a 14 MeV neutron generator
+#   journal: Rept: Ges.Kernen.-Verwertung, Schiffbau and Schiffahrt, No.85-E-11 (1985
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.470000E+01
+#   E-max [MeV]:  1.470000E+01
+#   F-value:  1.635485E+00
+#   A-value:  6.119871E-01
+#   chi-2:  4.773981E+01
+#   p-value:  1.540678E-01
+#   exp. data sets for p-value:      8
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.683221E+00   5.940989E-01   5.220119E+01
+# jendl5.0      1.586259E+00   6.304139E-01   4.327842E+01

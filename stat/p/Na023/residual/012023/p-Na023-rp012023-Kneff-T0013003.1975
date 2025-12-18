@@ -1,0 +1,57 @@
+# header: 
+#   title: Na23(p,x)Mg23 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Kneff
+#   year: 1975
+#   subentry: T0013003
+#   X4 reaction: 11-NA-23(P,N)12-MG-23,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/T0013003
+# target: 
+#   Z: 11
+#   A: 23
+#   nuclide: Na23
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+#   residual: 
+#     Z: 12
+#     A: 23
+#     nuclide: Mg23
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.455099E+00   0.000000E+00   3.487000E+01   5.078000E+00   1.000000E+00
+   5.963448E+00   0.000000E+00   8.446001E+01   8.713000E+00   1.000000E+00
+   6.486411E+00   0.000000E+00   1.340000E+02   1.382000E+01   1.000000E+00
+   7.025031E+00   0.000000E+00   1.248000E+02   1.422000E+01   1.000000E+00
+   7.563652E+00   0.000000E+00   1.250000E+02   1.557000E+01   1.000000E+00
+   8.074089E+00   0.000000E+00   1.164000E+02   1.451000E+01   1.000000E+00
+   8.598096E+00   0.000000E+00   1.316000E+02   2.049000E+01   1.000000E+00
+# reference:
+#   author: D.W.Kneff,F.M.Mann,Z.E.Switkowski
+#   title: The 100Mo(p,n)100Tc reaction cross section and its use as a normalization for shuttle-system measurements
+#   journal: Jour: Nuclear Physics, Section A, Vol.250, p.285 (1975)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  5.455099E+00
+#   E-max [MeV]:  8.598096E+00
+#   F-value:  1.741556E+00
+#   A-value:  6.271508E-01
+#   chi-2:  1.199592E+01
+#   p-value:  1.101802E-01
+#   exp. data sets for p-value:      5
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.369965E+00   7.637488E-01   5.622179E+00
+# jendl5.0      2.051678E+00   5.149835E-01   1.836965E+01

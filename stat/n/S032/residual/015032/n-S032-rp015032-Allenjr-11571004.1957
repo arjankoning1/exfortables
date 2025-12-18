@@ -1,0 +1,62 @@
+# header: 
+#   title: S32(n,x)P32 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Allenjr
+#   year: 1957
+#   subentry: 11571004
+#   X4 reaction: 16-S-32(N,P)15-P-32,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11571004
+# target: 
+#   Z: 16
+#   A: 32
+#   nuclide: S32
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 15
+#     A: 32
+#     nuclide: P32
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 12
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.338000E+01   5.600000E-01   2.765903E+02   1.033765E+01   9.704921E-01
+   1.341000E+01   5.000000E-01   2.824132E+02   1.011915E+01   9.704921E-01
+   1.359000E+01   2.600000E-01   2.659148E+02   9.354460E+00   9.704921E-01
+   1.370000E+01   2.400000E-01   2.581509E+02   9.648500E+00   9.704921E-01
+   1.389000E+01   6.000000E-02   2.494165E+02   8.587800E+00   9.704921E-01
+   1.410000E+01   8.000000E-02   2.406820E+02   8.923500E+00   9.704921E-01
+   1.432000E+01   3.200000E-01   2.241837E+02   8.161740E+00   9.704921E-01
+   1.453000E+01   5.200000E-01   2.183607E+02   8.375700E+00   9.704921E-01
+   1.470000E+01   5.800000E-01   2.135083E+02   7.167100E+00   9.704921E-01
+   1.483000E+01   8.000000E-01   2.076853E+02   7.398300E+00   9.704921E-01
+   1.493000E+01   9.000000E-01   2.067148E+02   7.435600E+00   9.704921E-01
+   1.495000E+01   9.400000E-01   2.076853E+02   7.398300E+00   9.704921E-01
+# reference:
+#   author: L.Allen Jr,W.A.Biggers,R.J.Prestwood,R.K.Smith
+#   title: Cross sections for the S32(n,p)P32 and the S34(n,alpha) Si31 reactions.
+#   journal: Jour: Physical Review, Vol.107, p.1363 (1957)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.338000E+01
+#   E-max [MeV]:  1.495000E+01
+#   F-value:  1.019693E+00
+#   A-value:  1.013755E+00
+#   chi-2:  6.287221E-01
+#   p-value:  3.610745E-01
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.019693E+00   1.013755E+00   6.287221E-01
+# jeff4.0       1.019693E+00   1.013755E+00   6.287221E-01

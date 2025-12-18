@@ -1,0 +1,54 @@
+# header: 
+#   title: Ni60(n,x)Fe57 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: HaoyuJiangg
+#   year: 2020
+#   subentry: 32813003
+#   X4 reaction: 28-NI-60(N,A)26-FE-57,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/32813003
+# target: 
+#   Z: 28
+#   A: 60
+#   nuclide: Ni60
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+#   residual: 
+#     Z: 26
+#     A: 57
+#     nuclide: Fe57
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.000000E+00   1.400000E-01   4.225500E+00   6.327800E-01   1.001295E+00
+   5.500000E+00   1.600000E-01   7.861800E+00   1.093000E+00   9.989603E-01
+# reference:
+#   author: Haoyu Jiang,Zengqi Cui,Yiwei Hu,Jie Liu, Jinxiang Chen,Guohui Zhang,Yu.M.Gledenov, E.Sansarbayar,G.Khuukhenkhuu,L.Krupa,I.Chuprakov
+#   title: Cross-section measurements for 58,60,61Ni(n,a) 55,57,58Fe reactions in the 4.50 - 5.50 MeV neutron energy region
+#   journal: Jour: Chinese Physics C, Vol.44, p.114102 (2020)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  5.000000E+00
+#   E-max [MeV]:  5.500000E+00
+#   F-value:  1.999844E+00
+#   A-value:  5.006233E-01
+#   chi-2:  1.195240E+01
+#   p-value:  1.655155E-01
+#   exp. data sets for p-value:      1
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    2.000824E+00   5.003717E-01   1.196475E+01
+# endfb8.1      0.000000E+00   0.000000E+00   0.000000E+00
+# jeff4.0       1.998863E+00   5.008749E-01   1.194004E+01
+# jendl5.0      0.000000E+00   0.000000E+00   0.000000E+00

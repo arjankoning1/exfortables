@@ -1,0 +1,52 @@
+# header: 
+#   title: U235(h,4n)Pu234 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Aaltonen
+#   year: 2015
+#   subentry: O2270005
+#   X4 reaction: 92-U-235(HE3,4N)94-PU-234,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O2270005
+# target: 
+#   Z: 92
+#   A: 235
+#   nuclide: U235
+# reaction: 
+#   type: (h,4n)
+#   ENDF_MF: 3
+#   ENDF_MT: 37
+#   residual: 
+#     Z: 94
+#     A: 234
+#     nuclide: Pu234
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.040000E+01   4.000000E-01   9.999999E-02   1.300000E-01   1.000000E+00
+   2.590000E+01   4.000000E-01   2.000000E-01   2.000000E-01   1.000000E+00
+   3.050000E+01   3.000000E-01   2.500000E-01   3.000000E-02   1.000000E+00
+   3.470000E+01   3.000000E-01   1.500000E-01   5.000000E-02   1.000000E+00
+# reference:
+#   author: J.Aaltonen, E.A.Gromova, V.A.Jakovlev, K.Helariutta, N.A.Maltsev, H.Penttila, V.A.Rubchenya, W.H.Trzaska, S.Salminen-Paatero
+#   title: Formation of heavy neutron-deficient nuclides in He-3 induced reactions.
+#   journal: Jour: Izv. Rossiiskoi Akademii Nauk, Ser.Fiz., Vol.79, p.941 (2015)
+# statistics:
+#   NEA score:   
+#   IAEA score: -1
+#   E-min [MeV]:  2.040000E+01
+#   E-max [MeV]:  3.470000E+01
+#   F-value:  0.000000E+00
+#   A-value:  0.000000E+00
+#   chi-2:  0.000000E+00
+#   p-value:  0.000000E+00
+#   exp. data sets for p-value:      1
+#   libraries:      0
+##  Library          F              A            chi-2

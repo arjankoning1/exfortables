@@ -1,0 +1,52 @@
+# header: 
+#   title: Ru96(n,x)Ru97 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Lyon
+#   year: 1959
+#   subentry: 11407015
+#   X4 reaction: 44-RU-96(N,G)44-RU-97,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11407015
+# target: 
+#   Z: 44
+#   A: 96
+#   nuclide: Ru96
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 44
+#     A: 97
+#     nuclide: Ru97
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.950000E-01   5.000000E-02   1.400000E+02   2.800000E+01   1.000000E+00
+# reference:
+#   author: W.S.Lyon,R.L.Macklin
+#   title: Neutron activation at 195 keV.
+#   journal: Jour: Physical Review, Vol.114, p.1619 (1959)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  0
+#   E-min [MeV]:  1.950000E-01
+#   E-max [MeV]:  1.950000E-01
+#   F-value:  1.725155E+00
+#   A-value:  5.797890E-01
+#   chi-2:  4.695124E+00
+#   p-value:  1.247442E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.705732E+00   5.862584E-01   4.571901E+00
+# jeff4.0       1.705732E+00   5.862584E-01   4.571901E+00
+# jendl5.0      1.763470E+00   5.670637E-01   4.941568E+00

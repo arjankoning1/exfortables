@@ -1,0 +1,68 @@
+# header: 
+#   title: Fe54(n,p)Mn54 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Smith
+#   year: 1975
+#   subentry: 102380311
+#   X4 reaction: 26-FE-54(N,P)25-MN-54,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/102380311
+# target: 
+#   Z: 26
+#   A: 54
+#   nuclide: Fe54
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 25
+#     A: 54
+#     nuclide: Mn54
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 13
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.979000E+00   1.600000E-01   1.246964E+01   1.276300E+00   1.012146E+00
+   2.181000E+00   1.580000E-01   2.553210E+01   2.144100E+00   1.002832E+00
+   2.589000E+00   1.560000E-01   7.066018E+01   3.920200E+00   9.914436E-01
+   2.727000E+00   3.720000E-01   1.177346E+02   6.725900E+00   9.918672E-01
+   2.782000E+00   1.600000E-01   9.894019E+01   5.165300E+00   9.923791E-01
+   2.792000E+00   1.560000E-01   9.944576E+01   5.368300E+00   9.924727E-01
+   2.985000E+00   1.560000E-01   1.326316E+02   7.032100E+00   9.890501E-01
+   3.187000E+00   1.600000E-01   1.481230E+02   7.763600E+00   9.901270E-01
+   3.385000E+00   1.600000E-01   2.016948E+02   1.126476E+01   9.916166E-01
+   3.587000E+00   1.620000E-01   2.709251E+02   1.431396E+01   9.905853E-01
+   3.716000E+00   4.360000E-01   2.537278E+02   1.431919E+01   9.895781E-01
+   3.788000E+00   1.620000E-01   2.675909E+02   1.435540E+01   9.907106E-01
+   3.990000E+00   1.620000E-01   2.552999E+02   1.332816E+01   9.880028E-01
+# reference:
+#   author: D.L.Smith,J.W.Meadows
+#   title: Cross-section measurement of (n,p) reactions for 27Al,  46,47,48Ti, 54,56Fe, 58Ni, 59Co, and 64Zn from near  threshold to 10 MeV
+#   journal: Jour: Nuclear Science and Engineering, Vol.58, p.314 (1975)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.979000E+00
+#   E-max [MeV]:  3.990000E+00
+#   F-value:  1.151757E+00
+#   A-value:  9.898757E-01
+#   chi-2:  4.893839E+00
+#   p-value:  2.687572E-01
+#   exp. data sets for p-value:      2
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.138440E+00   9.696490E-01   4.308072E+00
+# endfb8.1      1.136314E+00   9.689912E-01   4.257432E+00
+# jeff4.0       1.136314E+00   9.689912E-01   4.257432E+00
+# jendl5.0      1.144427E+00   9.665164E-01   4.618530E+00
+# cendl3.2      1.198001E+00   1.038850E+00   6.626188E+00
+# eaf.2010      1.164382E+00   1.051222E+00   5.947121E+00
+# irdff2.0      1.136040E+00   9.690674E-01   4.242099E+00

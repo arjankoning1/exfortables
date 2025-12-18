@@ -1,0 +1,57 @@
+# header: 
+#   title: Pd106(n,x)Rh106m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Goncalves
+#   year: 1987
+#   subentry: 30740009
+#   X4 reaction: 46-PD-106(N,P)45-RH-106-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30740009
+# target: 
+#   Z: 46
+#   A: 106
+#   nuclide: Pd106
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 45
+#     A: 106
+#     nuclide: Rh106m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.480000E+01   1.700000E-01   8.500000E+00   7.000000E-01   1.000000E+00
+# reference:
+#   author: I.F.Goncalves,Zs.Schram,Z.Papp,S.Daroczy
+#   title: (n,p),(n,a) and (n,2n) reaction cross-sections for  some isotopes of Zr,Pd and Cd at 14.8 MeV
+#   journal: Jour: Applied Radiation and Isotopes, Vol.38, Issue.11, p.989 (1987)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.480000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.265356E+00
+#   A-value:  1.062411E+00
+#   chi-2:  8.687491E+00
+#   p-value:  3.165201E-01
+#   exp. data sets for p-value:      7
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.247774E+00   1.247774E+00   9.098642E+00
+# jeff4.0       1.247774E+00   1.247774E+00   9.098642E+00
+# jendl5.0      1.298355E+00   7.702055E-01   7.865190E+00

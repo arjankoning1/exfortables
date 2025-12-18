@@ -1,0 +1,52 @@
+# header: 
+#   title: Al27(p,xt) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Mekhedov
+#   year: 1967
+#   subentry: O0304003
+#   X4 reaction: 13-AL-27(P,X)1-H-3,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O0304003
+# target: 
+#   Z: 13
+#   A: 27
+#   nuclide: Al27
+# reaction: 
+#   type: (p,xt)
+#   ENDF_MF: 3
+#   ENDF_MT: 205
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.300000E+02   0.000000E+00   1.500000E+01   2.600000E+00   1.000000E+00
+   3.000000E+02   0.000000E+00   1.900000E+01   3.300000E+00   1.000000E+00
+   4.500000E+02   0.000000E+00   2.400000E+01   3.300000E+00   1.000000E+00
+   5.500000E+02   0.000000E+00   3.000000E+01   5.000000E+00   1.000000E+00
+   6.600000E+02   0.000000E+00   4.200000E+01   6.000000E+00   1.000000E+00
+# reference:
+#   author: V.N.Mekhedov
+#   title: Formation of tritium in C, Al and Fe under the influence of protons with Ep = 130-660 MeV.
+#   journal: Jour: Yadernaya Fizika, Vol.5, p.34 (1967)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.300000E+02
+#   E-max [MeV]:  6.600000E+02
+#   F-value:  1.194731E+00
+#   A-value:  1.088015E+00
+#   chi-2:  1.642275E+00
+#   p-value:  9.573241E-02
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.357085E+00   1.357085E+00   4.539736E+00
+# endfb8.1      1.012623E+00   9.875342E-01   9.151313E-02
+# jendl5.0      1.040529E+00   9.610493E-01   2.955762E-01

@@ -1,0 +1,56 @@
+# header: 
+#   title: Bi209(p,x)Po210 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Vysotskii
+#   year: 1991
+#   subentry: A0620002
+#   X4 reaction: 83-BI-209(P,G)84-PO-210,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/A0620002
+# target: 
+#   Z: 83
+#   A: 209
+#   nuclide: Bi209
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 84
+#     A: 210
+#     nuclide: Po210
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   4.770000E+00   0.000000E+00   6.400000E-02   0.000000E+00   1.000000E+00
+   5.170000E+00   0.000000E+00   6.700000E-02   0.000000E+00   1.000000E+00
+   5.530000E+00   0.000000E+00   6.400000E-02   0.000000E+00   1.000000E+00
+   5.840000E+00   0.000000E+00   6.200000E-02   0.000000E+00   1.000000E+00
+   6.170000E+00   0.000000E+00   7.200000E-02   0.000000E+00   1.000000E+00
+   6.520000E+00   0.000000E+00   5.900000E-02   0.000000E+00   1.000000E+00
+# reference:
+#   author: O.N.Vysotskii,S.N.Kondrat'ev,V.S.Prokopenko, V.D.Sklyarenko,Yu.S.Stryuk,V.V.Tokarevskii
+#   title: The investigation of 209-Bi(d,n)210-Po and 209-Bi(p,g) 210-Po.
+#   journal: Jour: Izv. Rossiiskoi Akademii Nauk, Ser.Fiz., Vol.55, Issue.1, p.153 (1
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  4.770000E+00
+#   E-max [MeV]:  6.520000E+00
+#   F-value:  2.116864E+01
+#   A-value:  5.460102E-02
+#   chi-2:  0.000000E+00
+#   p-value:  2.563154E-02
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.262808E+01   9.280965E-02   0.000000E+00
+# jendl5.0      3.058857E+01   3.491062E-02   0.000000E+00

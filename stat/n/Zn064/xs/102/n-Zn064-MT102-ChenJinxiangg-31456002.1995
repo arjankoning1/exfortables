@@ -1,0 +1,60 @@
+# header: 
+#   title: Zn64(n,g)Zn65 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: ChenJinxiangg
+#   year: 1995
+#   subentry: 31456002
+#   X4 reaction: 30-ZN-64(N,G)30-ZN-65,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/31456002
+# target: 
+#   Z: 30
+#   A: 64
+#   nuclide: Zn64
+# reaction: 
+#   type: (n,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 30
+#     A: 65
+#     nuclide: Zn65
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.560000E-01   1.000000E-02   2.509066E+01   1.315200E+00   1.011720E+00
+   3.300000E-01   2.000000E-02   2.134729E+01   1.719900E+00   1.011720E+00
+   5.400000E-01   4.000000E-02   2.053792E+01   9.105500E-01   1.011720E+00
+   7.350000E-01   5.400000E-02   1.972854E+01   8.093801E-01   1.011720E+00
+   9.300000E-01   6.200000E-02   1.962737E+01   8.093801E-01   1.011720E+00
+   1.150000E+00   7.000000E-02   1.861565E+01   9.105500E-01   1.011720E+00
+# reference:
+#   author: Chen Jinxiang, Shi Zhaomin, Tang Guoyou,  Zhang Guohui, Lu Hanlin, Zhao Wenrong, Yu Weixian
+#   title: Measurement of 64Zn(n,g)65Zn cross section
+#   journal: Jour: Chinese J.of Nuclear Physics (Beijing)., Vol.17, p.342 (1995)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.560000E-01
+#   E-max [MeV]:  1.150000E+00
+#   F-value:  1.198499E+00
+#   A-value:  9.443393E-01
+#   chi-2:  9.680430E+00
+#   p-value:  3.491955E-01
+#   exp. data sets for p-value:      3
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.209931E+00   9.285302E-01   1.073855E+01
+# endfb8.1      1.258775E+00   9.128634E-01   1.357580E+01
+# jeff4.0       1.184917E+00   9.651015E-01   9.249745E+00
+# jendl5.0      1.066278E+00   9.864863E-01   2.301406E+00
+# cendl3.2      1.284790E+00   9.387545E-01   1.792864E+01
+# eaf.2010      1.114408E+00   9.361609E-01   4.288437E+00

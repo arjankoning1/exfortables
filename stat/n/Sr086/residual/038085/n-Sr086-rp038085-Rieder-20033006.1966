@@ -1,0 +1,52 @@
+# header: 
+#   title: Sr86(n,x)Sr85 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Rieder
+#   year: 1966
+#   subentry: 20033006
+#   X4 reaction: 38-SR-86(N,2N)38-SR-85,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20033006
+# target: 
+#   Z: 38
+#   A: 86
+#   nuclide: Sr86
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 38
+#     A: 85
+#     nuclide: Sr85
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.470000E+01   2.000000E-01   9.470218E+02   4.925000E+01   9.614434E-01
+# reference:
+#   author: R.Rieder,H.Muenzer
+#   title: (n,2n)- cross sections of some nuclides with  neutron numbers close to the magic number 50  at neutron energies around 14 MeV
+#   journal: Jour: Acta Physica Austriaca, Vol.23, p.42 (1966)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.470000E+01
+#   E-max [MeV]:  1.470000E+01
+#   F-value:  1.035682E+00
+#   A-value:  9.969434E-01
+#   chi-2:  9.076359E-01
+#   p-value:  3.946171E-01
+#   exp. data sets for p-value:      8
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.043758E+00   1.043758E+00   1.283393E+00
+# jeff4.0       1.042717E+00   9.590329E-01   1.184984E+00
+# jendl5.0      1.010234E+00   9.898700E-01   2.545301E-01

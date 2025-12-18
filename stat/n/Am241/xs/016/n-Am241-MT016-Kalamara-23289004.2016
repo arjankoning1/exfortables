@@ -1,0 +1,58 @@
+# header: 
+#   title: Am241(n,2n)Am240 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Kalamara
+#   year: 2016
+#   subentry: 23289004
+#   X4 reaction: 95-AM-241(N,2N)95-AM-240,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/23289004
+# target: 
+#   Z: 95
+#   A: 241
+#   nuclide: Am241
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 95
+#     A: 240
+#     nuclide: Am240
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.000000E+01   1.000000E-01   2.057985E+02   1.520678E+01   1.013786E+00
+   1.040000E+01   1.000000E-01   2.321569E+02   1.622057E+01   1.013786E+00
+   1.080000E+01   1.000000E-01   2.402672E+02   2.027571E+01   1.013786E+00
+   1.710000E+01   3.000000E-01   1.368611E+02   1.115164E+01   1.013786E+00
+# reference:
+#   author: A.Kalamara, R.Vlastou, M.Kokkoris, M.Diakaki,  A.Tsinganis, N.Patronis, M.Axiotis, A.Lagoyannis
+#   title: Investigation of the 241Am(n,2n)240Am cross section
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.93, p.014610 (2016)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.000000E+01
+#   E-max [MeV]:  1.710000E+01
+#   F-value:  1.101463E+00
+#   A-value:  9.445696E-01
+#   chi-2:  1.802242E+00
+#   p-value:  2.083515E-01
+#   exp. data sets for p-value:      1
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.153930E+00   8.794752E-01   3.417939E+00
+# endfb8.1      1.072868E+00   9.591478E-01   8.990936E-01
+# jeff4.0       1.155000E+00   8.787160E-01   3.446104E+00
+# jendl5.0      1.068339E+00   1.048918E+00   1.259930E+00
+# cendl3.2      1.040320E+00   9.646975E-01   6.782418E-01
+# eaf.2010      1.064373E+00   9.469197E-01   1.112144E+00

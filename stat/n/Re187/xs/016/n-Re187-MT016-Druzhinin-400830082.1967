@@ -1,0 +1,56 @@
+# header: 
+#   title: Re187(n,2n)Re186 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Druzhinin
+#   year: 1967
+#   subentry: 400830082
+#   X4 reaction: 75-RE-187(N,2N)75-RE-186,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/400830082
+# target: 
+#   Z: 75
+#   A: 187
+#   nuclide: Re187
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 75
+#     A: 186
+#     nuclide: Re186
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.480000E+01   0.000000E+00   1.440000E+03   1.400000E+02   1.000000E+00
+   1.480000E+01   0.000000E+00   1.540000E+03   1.400000E+02   1.000000E+00
+   1.480000E+01   0.000000E+00   1.460000E+03   1.300000E+02   1.000000E+00
+# reference:
+#   author: A.A.Druzhinin,A.A.Lbov,L.P.Bilibin
+#   title: Cross sections of the fast-neutron reactions (n,gamma) and (n,2n) for Re isotopes
+#   journal: Jour: Soviet Journal of Nuclear Physics, Vol.5, p.13 (1967)
+# statistics:
+#   NEA score: T2
+#   IAEA score:  1
+#   E-min [MeV]:  1.480000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.430561E+00
+#   A-value:  1.428062E+00
+#   chi-2:  2.180139E+01
+#   p-value:  3.336259E-01
+#   exp. data sets for p-value:      4
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2025    1.419549E+00   1.417849E+00   2.065687E+01
+# endfb8.1      1.386785E+00   1.385002E+00   1.755565E+01
+# jeff4.0       1.419549E+00   1.417849E+00   2.065687E+01
+# jendl5.0      1.462330E+00   1.460716E+00   2.508807E+01
+# eaf.2010      1.461975E+00   1.460360E+00   2.504947E+01

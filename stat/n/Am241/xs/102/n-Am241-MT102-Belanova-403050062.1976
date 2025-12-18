@@ -1,0 +1,55 @@
+# header: 
+#   title: Am241(n,g)Am242 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Belanova
+#   year: 1976
+#   subentry: 403050062
+#   X4 reaction: 95-AM-241(N,G)95-AM-242,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/403050062
+# target: 
+#   Z: 95
+#   A: 241
+#   nuclide: Am241
+# reaction: 
+#   type: (n,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 95
+#     A: 242
+#     nuclide: Am242
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.530000E-08   0.000000E+00   6.240000E+05   2.000000E+04   1.000000E+00
+# reference:
+#   author: T.S.Belanova,A.G.Kolesov,V.A.Poruchikov,G.A.Timofeev, S.M.Kalebin,V.S.Artamonov,R.N.Ivanov
+#   title: total neutron cross section and neutron resonance parameters of Am-241 in energy range 0.004-30 eV.
+#   journal: Jour: Atomnaya Energiya, Vol.40, Issue.4, p.303 (1976)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.530000E-08
+#   E-max [MeV]:  2.530000E-08
+#   F-value:  1.086504E+00
+#   A-value:  1.066919E+00
+#   chi-2:  7.600033E+00
+#   p-value:  1.878974E-01
+#   exp. data sets for p-value:      7
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.080794E+00   1.080794E+00   6.494167E+00
+# endfb8.1      1.080793E+00   1.080793E+00   6.494008E+00
+# jeff4.0       1.135809E+00   1.135809E+00   1.795498E+01
+# jendl5.0      1.120167E+00   1.120167E+00   1.406151E+01
+# cendl3.2      1.011024E+00   9.890961E-01   4.592349E-01
+# eaf.2010      1.003408E+00   1.003408E+00   1.362971E-01

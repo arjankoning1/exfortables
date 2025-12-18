@@ -1,0 +1,55 @@
+# header: 
+#   title: Mo100(n,g)Mo101 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Anand
+#   year: 1979
+#   subentry: 30390008
+#   X4 reaction: 42-MO-100(N,G)42-MO-101,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30390008
+# target: 
+#   Z: 42
+#   A: 100
+#   nuclide: Mo100
+# reaction: 
+#   type: (n,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 42
+#     A: 101
+#     nuclide: Mo101
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.500000E-02   5.000000E-03   6.300000E+01   8.000000E+00   1.000000E+00
+# reference:
+#   author: R.P.Anand, M.L.Jhingan, D.Bhattacharya, E.Kondaiah
+#   title: 25 keV-neutron capture cross-sections
+#   journal: Jour: Nuovo Cimento A, Vol.50, p.247 (1979)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  0
+#   E-min [MeV]:  2.500000E-02
+#   E-max [MeV]:  2.500000E-02
+#   F-value:  1.585744E+00
+#   A-value:  1.581452E+00
+#   chi-2:  2.147244E+01
+#   p-value:  5.825649E-02
+#   exp. data sets for p-value:      5
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.673142E+00   1.673142E+00   2.810051E+01
+# endfb8.1      1.609654E+00   1.609654E+00   2.304990E+01
+# jeff4.0       1.600508E+00   1.600508E+00   2.236356E+01
+# jendl5.0      1.583368E+00   1.583368E+00   2.110525E+01
+# cendl3.2      1.609654E+00   1.609654E+00   2.304990E+01
+# eaf.2010      1.423962E+00   1.423962E+00   1.116553E+01

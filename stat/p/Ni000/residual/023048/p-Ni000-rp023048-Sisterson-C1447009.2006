@@ -1,0 +1,57 @@
+# header: 
+#   title: Ni0(p,x)V48 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Sisterson
+#   year: 2006
+#   subentry: C1447009
+#   X4 reaction: 28-NI-0(P,X)23-V-48,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C1447009
+# target: 
+#   Z: 28
+#   A: 0
+#   nuclide: Ni0
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 23
+#     A: 48
+#     nuclide: V48
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.400000E+02   1.000000E+00   1.050210E+01   8.001600E-01   1.000200E+00
+   1.600000E+02   1.000000E+00   1.120224E+01   1.100220E+00   1.000200E+00
+   2.000000E+02   1.000000E+00   1.400280E+01   1.000200E+00   1.000200E+00
+   3.000000E+02   1.000000E+00   1.920384E+01   1.500300E+00   1.000200E+00
+   4.000000E+02   1.000000E+00   1.890378E+01   1.400280E+00   1.000200E+00
+   5.000000E+02   1.000000E+00   2.150430E+01   1.600320E+00   1.000200E+00
+# reference:
+#   author: J.M.Sisterson,J.Vincent
+#   title: Cross section measurements for proton-induced reactions  in Fe and Ni producing relatively short-lived  radionuclides at Ep = 140-500 MeV
+#   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.251, p.1 (2006
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.400000E+02
+#   E-max [MeV]:  5.000000E+02
+#   F-value:  1.921694E+00
+#   A-value:  1.051246E+00
+#   chi-2:  7.439271E+01
+#   p-value:  2.283022E-01
+#   exp. data sets for p-value:      2
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.946722E+00   1.924202E+00   1.347974E+02
+# endfb8.1      1.458443E+00   1.357721E+00   3.822879E+01
+# jendl5.0      2.300194E+00   4.446842E-01   5.015195E+01

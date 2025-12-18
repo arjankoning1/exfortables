@@ -1,0 +1,52 @@
+# header: 
+#   title: U235(n,f) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Maslin
+#   year: 1965
+#   subentry: 21387002
+#   X4 reaction: 92-U-235(N,F),,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21387002
+# target: 
+#   Z: 92
+#   A: 235
+#   nuclide: U235
+# reaction: 
+#   type: (n,f)
+#   ENDF_MF: 3
+#   ENDF_MT: 18
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.530000E-08   0.000000E+00   5.720000E+05   6.000000E+03   1.000000E+00
+# reference:
+#   author: E.E.Maslin,J.A.Moore,J.M.A.Reichelt,J.B.Crowden
+#   title: -Absolute fission cross section of U-235 for 2200 m/Se  neutrons -.
+#   journal: Jour: Physical Review, Vol.139, p.B852 (1965)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.530000E-08
+#   E-max [MeV]:  2.530000E-08
+#   F-value:  1.008658E+00
+#   A-value:  1.008177E+00
+#   chi-2:  1.203169E+00
+#   p-value:  2.618832E-01
+#   exp. data sets for p-value:      8
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.010295E+00   1.010295E+00   1.553580E+00
+# endfb8.1      1.009104E+00   1.009104E+00   1.332966E+00
+# jeff4.0       1.009063E+00   1.009063E+00   1.325592E+00
+# jendl5.0      1.010378E+00   1.010378E+00   1.569513E+00
+# cendl3.2      1.004706E+00   1.004706E+00   6.209440E-01
+# eaf.2010      1.002970E+00   1.002970E+00   3.772902E-01
+# irdff2.0      1.010754E+00   1.010754E+00   1.642296E+00

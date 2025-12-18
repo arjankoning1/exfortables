@@ -1,0 +1,66 @@
+# header: 
+#   title: Nb93(n,x)Nb93m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Gayther
+#   year: 1988
+#   subentry: 22085002
+#   X4 reaction: 41-NB-93(N,INL)41-NB-93-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22085002
+# target: 
+#   Z: 41
+#   A: 93
+#   nuclide: Nb93
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+#   residual: 
+#     Z: 41
+#     A: 93
+#     nuclide: Nb93m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.090000E+00   1.900000E-01   7.480001E+01   3.366000E+00   1.000000E+00
+   2.100000E+00   1.400000E-01   2.010000E+02   7.839000E+00   1.000000E+00
+   2.700000E+00   2.000000E-01   2.455000E+02   8.101500E+00   1.000000E+00
+   3.290000E+00   3.600000E-01   2.555000E+02   1.303050E+01   1.000000E+00
+   3.730000E+00   3.400000E-01   2.742000E+02   1.014540E+01   1.000000E+00
+   4.030000E+00   1.400000E-01   2.615000E+02   2.013550E+01   1.000000E+00
+   4.450000E+00   2.700000E-01   2.513000E+02   9.298100E+00   1.000000E+00
+   5.050000E+00   2.500000E-01   2.802000E+02   1.204860E+01   1.000000E+00
+   5.530000E+00   1.800000E-01   2.510000E+02   1.029100E+01   1.000000E+00
+   5.760000E+00   1.800000E-01   2.315000E+02   1.064900E+01   1.000000E+00
+# reference:
+#   author: D.B.GAYTHER,C.A.UTTLEY,M.F.MURPHY,W.H.TAYLOR,K.RANDLE
+#   title: -A MEASUREMENT OF THE NB-93(N,INL)NB-93-M CROSS-SECTION  IN THE ENERGY RANGE 1 TO 6 MEV.
+#   journal: Conf: Conf.on Nucl.Data For Sci.and Technol.,Mito 1988, p.1057 (1988)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.090000E+00
+#   E-max [MeV]:  5.760000E+00
+#   F-value:  1.071856E+00
+#   A-value:  9.991563E-01
+#   chi-2:  3.138372E+00
+#   p-value:  3.645232E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.038650E+00   1.003818E+00   1.022761E+00
+# jeff4.0       1.038649E+00   1.003819E+00   1.022756E+00
+# jendl5.0      1.113561E+00   9.898970E-01   7.369599E+00

@@ -1,0 +1,63 @@
+# header: 
+#   title: Cd110(n,p)Ag110g cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Sakane
+#   year: 1998
+#   subentry: 22428002
+#   X4 reaction: 48-CD-110(N,P)47-AG-110-G,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22428002
+# target: 
+#   Z: 48
+#   A: 110
+#   nuclide: Cd110
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 47
+#     A: 110
+#     nuclide: Ag110g
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.340000E+01   9.000000E-02   9.400000E+00   8.000000E-01   1.000000E+00
+   1.365000E+01   9.000000E-02   9.600000E+00   8.000000E-01   1.000000E+00
+   1.388000E+01   9.000000E-02   9.900000E+00   8.000000E-01   1.000000E+00
+   1.428000E+01   9.000000E-02   1.040000E+01   9.000000E-01   1.000000E+00
+   1.458000E+01   9.000000E-02   1.140000E+01   1.000000E+00   1.000000E+00
+   1.487000E+01   9.000000E-02   1.170000E+01   1.100000E+00   1.000000E+00
+# reference:
+#   author: H.Sakane, T.Iida, A.Takahashi, H.Yamamoto, K.Kawade
+#   title: Measurement of cross sections producing short-lived  nuclei by 14 MeV neutrons - Cd, Sn, Te, Nd, Gd, Re
+#   journal: Conf: JAERI Conference proceedings, No.98-003, p.318 (1998)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.340000E+01
+#   E-max [MeV]:  1.487000E+01
+#   F-value:  1.463596E+00
+#   A-value:  1.379569E+00
+#   chi-2:  3.418476E+01
+#   p-value:  1.850895E-01
+#   exp. data sets for p-value:      1
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.356141E+00   1.351415E+00   1.708447E+01
+# jeff4.0       1.356141E+00   1.351415E+00   1.708447E+01
+# jendl5.0      1.866774E+00   1.863010E+00   1.013737E+02
+# eaf.2010      1.073823E+00   1.064587E+00   1.196388E+00

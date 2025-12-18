@@ -1,0 +1,48 @@
+# header: 
+#   title: Co60(n,tot) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Anufriev
+#   year: 1979
+#   subentry: 40549003
+#   X4 reaction: 27-CO-60(N,TOT),,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/40549003
+# target: 
+#   Z: 27
+#   A: 60
+#   nuclide: Co60
+# reaction: 
+#   type: (n,tot)
+#   ENDF_MF: 3
+#   ENDF_MT: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.530000E-08   0.000000E+00   6.000000E+03   0.000000E+00   1.000000E+00
+# reference:
+#   author: V.A.Anufriev, S.I.Babich, A.G.Kolesov, V.N.Nefedov, V.V.Tikhomirov, V.S.Artamonov, R.N.Ivanov, S.M.Kalebin
+#   title: Parameters of 60Co neutron levels
+#   journal: Jour: Soviet Atomic Energy, Vol.46, p.57 (1979)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.530000E-08
+#   E-max [MeV]:  2.530000E-08
+#   F-value:  1.066017E+00
+#   A-value:  1.066002E+00
+#   chi-2:  0.000000E+00
+#   p-value:  3.427055E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.067016E+00   1.067016E+00   0.000000E+00
+# jeff4.0       1.067016E+00   1.067016E+00   0.000000E+00
+# jendl5.0      1.063977E+00   1.063977E+00   0.000000E+00

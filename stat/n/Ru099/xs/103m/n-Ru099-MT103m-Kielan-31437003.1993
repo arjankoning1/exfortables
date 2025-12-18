@@ -1,0 +1,65 @@
+# header: 
+#   title: Ru99(n,p)Tc99m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Kielan
+#   year: 1993
+#   subentry: 31437003
+#   X4 reaction: 44-RU-99(N,P)43-TC-99-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/31437003
+# target: 
+#   Z: 44
+#   A: 99
+#   nuclide: Ru99
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 43
+#     A: 99
+#     nuclide: Tc99m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.300000E+01   4.000000E-01   1.288913E+01   2.198100E+00   9.991575E-01
+   1.340000E+01   2.000000E-01   1.278922E+01   1.798500E+00   9.991575E-01
+   1.390000E+01   3.000000E-01   1.119056E+01   1.698600E+00   9.991575E-01
+   1.450000E+01   3.000000E-01   1.198989E+01   1.898400E+00   9.991575E-01
+   1.500000E+01   3.000000E-01   1.188998E+01   1.898400E+00   9.991575E-01
+   1.540000E+01   2.000000E-01   1.139040E+01   1.898400E+00   9.991575E-01
+   1.590000E+01   5.000000E-01   1.228964E+01   2.298100E+00   9.991575E-01
+   1.660000E+01   1.000000E-01   1.208981E+01   2.597810E+00   9.991575E-01
+# reference:
+#   author: D.Kielan,A.Marcinkowski,U.Garuska
+#   title: Isotopic effect in (n,p) reaction on ruthenium
+#   journal: Jour: Nuclear Physics, Section A, Vol.559, Issue.3, p.333 (1993)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.300000E+01
+#   E-max [MeV]:  1.660000E+01
+#   F-value:  1.071812E+00
+#   A-value:  1.008324E+00
+#   chi-2:  4.401671E-01
+#   p-value:  2.103226E-01
+#   exp. data sets for p-value:      1
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.045902E+00   9.942923E-01   2.714591E-01
+# jeff4.0       1.045902E+00   9.942923E-01   2.714591E-01
+# jendl5.0      1.099659E+00   9.859363E-01   6.088579E-01
+# eaf.2010      1.081816E+00   1.060529E+00   6.088926E-01

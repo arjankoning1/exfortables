@@ -1,0 +1,52 @@
+# header: 
+#   title: I127(n,x)I126 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Gandhi
+#   year: 2020
+#   subentry: 33150005
+#   X4 reaction: 53-I-127(N,2N)53-I-126,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/33150005
+# target: 
+#   Z: 53
+#   A: 127
+#   nuclide: I127
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 53
+#     A: 126
+#     nuclide: I126
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.492000E+01   2.000000E-02   1.518461E+03   7.643280E+01   9.999878E-01
+# reference:
+#   author: A.Gandhi, A.Sharma, A.Kumar, R.Pachuau, B.Lalremruata, S.V.Suryanarayana, L.S.Danu, T.Patel, S.Bishnoi, B.K.Nayak
+#   title: Measurement of (n,g), (n,p), and (n,2n) reaction cross sections for sodium, potassium, copper, and iodine at neutron energy 14.92 +/- 0.02 MeV with covariance analysis
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.102, p.014603 (2020)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.492000E+01
+#   E-max [MeV]:  1.492000E+01
+#   F-value:  1.056370E+00
+#   A-value:  1.031859E+00
+#   chi-2:  1.422686E+00
+#   p-value:  3.350689E-01
+#   exp. data sets for p-value:      8
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.000447E+00   9.995537E-01   1.113379E-02
+# jeff4.0       1.000447E+00   9.995537E-01   1.113412E-02
+# jendl5.0      1.099637E+00   1.099637E+00   4.245790E+00

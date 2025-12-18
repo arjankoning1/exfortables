@@ -1,0 +1,50 @@
+# header: 
+#   title: Pb206(n,tot) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Coon
+#   year: 1952
+#   subentry: 12524053
+#   X4 reaction: 82-PB-206(N,TOT),,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/12524053
+# target: 
+#   Z: 82
+#   A: 206
+#   nuclide: Pb206
+# reaction: 
+#   type: (n,tot)
+#   ENDF_MF: 3
+#   ENDF_MT: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.412000E+01   4.000000E-02   5.400000E+03   1.100000E+02   1.000000E+00
+# reference:
+#   author: J.H.Coon,E.R.Graves,H.H.Barschall
+#   title: Total cross sections for 14 MeV neutrons
+#   journal: Jour: Physical Review, Vol.88, p.562 (1952)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.412000E+01
+#   E-max [MeV]:  1.412000E+01
+#   F-value:  1.011345E+00
+#   A-value:  9.906251E-01
+#   chi-2:  6.699694E-01
+#   p-value:  3.051344E-01
+#   exp. data sets for p-value:      7
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2025    1.012713E+00   9.874470E-01   8.879514E-01
+# endfb8.1      1.000237E+00   9.997628E-01   1.462609E-02
+# jeff4.0       1.004230E+00   9.957874E-01   2.709422E-01
+# jendl5.0      1.017240E+00   9.830526E-01   1.265865E+00
+# cendl3.2      1.012995E+00   9.871714E-01   9.104623E-01

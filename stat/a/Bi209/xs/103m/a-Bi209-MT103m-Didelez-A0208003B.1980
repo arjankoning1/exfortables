@@ -1,0 +1,58 @@
+# header: 
+#   title: Bi209(a,p)Po212m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Didelez
+#   year: 1980
+#   subentry: A0208003B
+#   X4 reaction: 83-BI-209(A,P)84-PO-212-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/A0208003B
+# target: 
+#   Z: 83
+#   A: 209
+#   nuclide: Bi209
+# reaction: 
+#   type: (a,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 84
+#     A: 212
+#     nuclide: Po212m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   4.500000E+01   0.000000E+00   2.200000E+00   6.000000E-01   1.000000E+00
+   6.100000E+01   0.000000E+00   8.000000E-01   3.100000E-01   1.000000E+00
+   7.500000E+01   0.000000E+00   2.000000E-01   9.000000E-02   1.000000E+00
+   9.000000E+01   0.000000E+00   1.300000E-01   6.000000E-02   1.000000E+00
+# reference:
+#   author: J.P.Didelez,R.M.Lieder,H.Beuscher,D.R.Haenni, H.Machner,M.Muller-Veggian,C.Mayer-Boricke
+#   title: Experimental study of excitation functions and isomer ratios for Po-211,212
+#   journal: Jour: Nuclear Physics, Section A, Vol.341, p.421 (1980)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  4.500000E+01
+#   E-max [MeV]:  9.000000E+01
+#   F-value:  1.455193E+01
+#   A-value:  7.372538E-02
+#   chi-2:  6.681519E+00
+#   p-value:  3.427267E-07
+#   exp. data sets for p-value:      1
+#   libraries:      1
+##  Library          F              A            chi-2
+# tendl.2025    1.455193E+01   7.372538E-02   6.681519E+00

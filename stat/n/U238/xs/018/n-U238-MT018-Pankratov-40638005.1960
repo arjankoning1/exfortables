@@ -1,0 +1,67 @@
+# header: 
+#   title: U238(n,f) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Pankratov
+#   year: 1960
+#   subentry: 40638005
+#   X4 reaction: 92-U-238(N,F),,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/40638005
+# target: 
+#   Z: 92
+#   A: 238
+#   nuclide: U238
+# reaction: 
+#   type: (n,f)
+#   ENDF_MF: 3
+#   ENDF_MT: 18
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 16
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.060000E+01   7.905694E-01   1.010000E+03   0.000000E+00   1.000000E+00
+   1.160000E+01   7.905694E-01   1.040000E+03   0.000000E+00   1.000000E+00
+   1.230000E+01   7.905694E-01   1.010000E+03   0.000000E+00   1.000000E+00
+   1.310000E+01   7.905694E-01   1.070000E+03   0.000000E+00   1.000000E+00
+   1.360000E+01   7.905694E-01   1.130000E+03   0.000000E+00   1.000000E+00
+   1.380000E+01   7.905694E-01   1.110000E+03   0.000000E+00   1.000000E+00
+   1.450000E+01   7.905694E-01   1.230000E+03   0.000000E+00   1.000000E+00
+   1.500000E+01   7.905694E-01   1.280000E+03   0.000000E+00   1.000000E+00
+   1.580000E+01   7.905694E-01   1.320000E+03   0.000000E+00   1.000000E+00
+   1.640000E+01   7.905694E-01   1.340000E+03   0.000000E+00   1.000000E+00
+   1.710000E+01   7.905694E-01   1.310000E+03   0.000000E+00   1.000000E+00
+   1.770000E+01   7.905694E-01   1.410000E+03   0.000000E+00   1.000000E+00
+   1.840000E+01   7.905694E-01   1.340000E+03   0.000000E+00   1.000000E+00
+   1.890000E+01   7.905694E-01   1.390000E+03   0.000000E+00   1.000000E+00
+   2.040000E+01   7.905694E-01   1.540000E+03   0.000000E+00   1.000000E+00
+   2.150000E+01   7.905694E-01   1.570000E+03   0.000000E+00   1.000000E+00
+# reference:
+#   author: V.M.PANKRATOV,N.A.VLASOV,B.V.RYBAKOV
+#   title: CROSS SECTIONS FOR THE FISSION OF TH232, U235 AND U238 INDUCED BY 10-22 MEV NEUTRONS.
+#   journal: Jour: Atomnaya Energiya, Vol.9, p.399 (1960)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.060000E+01
+#   E-max [MeV]:  2.150000E+01
+#   F-value:  1.042660E+00
+#   A-value:  9.727966E-01
+#   chi-2:  0.000000E+00
+#   p-value:  3.166736E-01
+#   exp. data sets for p-value:      8
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.028368E+00   9.823126E-01   0.000000E+00
+# endfb8.1      1.028368E+00   9.823137E-01   0.000000E+00
+# jeff4.0       1.025649E+00   1.000147E+00   0.000000E+00
+# jendl5.0      1.042061E+00   9.665089E-01   0.000000E+00
+# cendl3.2      1.066571E+00   9.450120E-01   0.000000E+00
+# eaf.2010      1.061597E+00   9.500195E-01   0.000000E+00
+# irdff2.0      1.028368E+00   9.823137E-01   0.000000E+00

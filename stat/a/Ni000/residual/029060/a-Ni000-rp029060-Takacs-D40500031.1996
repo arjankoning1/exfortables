@@ -1,0 +1,54 @@
+# header: 
+#   title: Ni0(a,x)Cu60 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Takacs
+#   year: 1996
+#   subentry: D40500031
+#   X4 reaction: 28-NI-0(A,X)29-CU-60,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D40500031
+# target: 
+#   Z: 28
+#   A: 0
+#   nuclide: Ni0
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 29
+#     A: 60
+#     nuclide: Cu60
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.715000E+01   3.500000E-01   2.301000E+00   3.431300E-01   1.009217E+00
+   1.912000E+01   2.900000E-01   2.486710E+01   3.734100E+00   1.009217E+00
+   2.096000E+01   2.400000E-01   7.983913E+01   1.200968E+01   1.009217E+00
+   2.269000E+01   2.000000E-01   1.325808E+02   1.988157E+01   1.009217E+00
+   2.446000E+01   2.000000E-01   2.496499E+02   3.744194E+01   1.009217E+00
+# reference:
+#   author: S.Takacs, F.Tarkanyi, Z.Kovacs
+#   title: Excitation function of alpha-particle induced nuclear  reactions on natural nickel
+#   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.113, p.424 (19
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.715000E+01
+#   E-max [MeV]:  2.446000E+01
+#   F-value:  2.414195E+00
+#   A-value:  6.886249E-01
+#   chi-2:  7.874879E+00
+#   p-value:  2.972371E-01
+#   exp. data sets for p-value:      1
+#   libraries:      1
+##  Library          F              A            chi-2
+# tendl.2025    2.414195E+00   6.886249E-01   7.874879E+00

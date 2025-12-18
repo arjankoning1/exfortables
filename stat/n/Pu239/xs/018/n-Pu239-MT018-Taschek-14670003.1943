@@ -1,0 +1,58 @@
+# header: 
+#   title: Pu239(n,f) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Taschek
+#   year: 1943
+#   subentry: 14670003
+#   X4 reaction: 94-PU-239(N,F),,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/14670003
+# target: 
+#   Z: 94
+#   A: 239
+#   nuclide: Pu239
+# reaction: 
+#   type: (n,f)
+#   ENDF_MF: 3
+#   ENDF_MT: 18
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   8.700000E-02   0.000000E+00   4.317000E+03   2.160000E+02   1.000000E+00
+   2.290000E-01   0.000000E+00   2.872000E+03   1.420000E+02   1.000000E+00
+   3.590000E-01   0.000000E+00   2.207000E+03   1.710000E+02   1.000000E+00
+   4.780000E-01   0.000000E+00   2.236000E+03   1.940000E+02   1.000000E+00
+   5.650000E-01   0.000000E+00   2.743000E+03   8.000000E+01   1.000000E+00
+   9.480000E-01   0.000000E+00   2.717000E+03   1.370000E+02   1.000000E+00
+   1.458000E+00   0.000000E+00   2.692000E+03   1.420000E+02   1.000000E+00
+# reference:
+#   author: R.F.Taschek,J.H.Williams,J.M.Blair,K.Greisen, A.O.Hanson,R.Perry,C.H.Turner,J.H.Williams
+#   title: Measurements on sigmaf(49)/sigmaf(25) and the Value of sigmaf as a Function of Neutron Energy
+#   journal: Rept: Los Alamos Scientific Lab. Reports, No.28 (1943)
+# statistics:
+#   NEA score: T3
+#   IAEA score: -1
+#   E-min [MeV]:  8.700000E-02
+#   E-max [MeV]:  1.458000E+00
+#   F-value:  1.783332E+00
+#   A-value:  5.894103E-01
+#   chi-2:  8.121278E+01
+#   p-value:  6.485271E-02
+#   exp. data sets for p-value:      4
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.787581E+00   5.872910E-01   8.207487E+01
+# endfb8.1      1.787569E+00   5.872859E-01   8.209557E+01
+# jeff4.0       1.762993E+00   5.955802E-01   7.942989E+01
+# jendl5.0      1.797698E+00   5.880690E-01   8.136443E+01
+# cendl3.2      1.777540E+00   5.909750E-01   8.046557E+01
+# eaf.2010      1.781196E+00   5.896166E-01   8.078931E+01
+# irdff2.0      1.788601E+00   5.871021E-01   8.226985E+01

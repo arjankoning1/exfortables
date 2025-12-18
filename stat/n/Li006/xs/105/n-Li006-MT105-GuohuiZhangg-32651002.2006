@@ -1,0 +1,56 @@
+# header: 
+#   title: Li6(n,t)He4 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: GuohuiZhangg
+#   year: 2006
+#   subentry: 32651002
+#   X4 reaction: 3-LI-6(N,T)2-HE-4,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/32651002
+# target: 
+#   Z: 3
+#   A: 6
+#   nuclide: Li6
+# reaction: 
+#   type: (n,t)
+#   ENDF_MF: 3
+#   ENDF_MT: 105
+#   residual: 
+#     Z: 2
+#     A: 4
+#     nuclide: He4
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.050000E+00   9.000000E-02   2.406000E+02   1.780000E+01   1.000000E+00
+   1.540000E+00   8.000000E-02   2.334000E+02   1.730000E+01   1.000000E+00
+   2.250000E+00   6.000000E-02   2.031000E+02   1.380000E+01   1.000000E+00
+# reference:
+#   author: Guohui Zhang, Rongtai Cao, Jinxiang Chen, Guoyou Tang, Yu.M.Gledenov, M.Sedysheva, G.Khuukhenkhuu
+#   title: Differential and Angle-Integrated Cross-Section measurement for the Li-6(n,t)He-4 reaction at En=1.05, 1.54, and 2.25 MeV
+#   journal: Jour: Nuclear Science and Engineering, Vol.153, p.41 (2006)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.050000E+00
+#   E-max [MeV]:  2.250000E+00
+#   F-value:  1.037265E+00
+#   A-value:  1.003264E+00
+#   chi-2:  4.827968E-01
+#   p-value:  3.380466E-01
+#   exp. data sets for p-value:      7
+#   libraries:      5
+##  Library          F              A            chi-2
+# endfb8.1      1.013858E+00   9.888950E-01   1.985821E-01
+# jeff4.0       1.027601E+00   1.015457E+00   3.599059E-01
+# jendl5.0      1.055499E+00   1.031696E+00   7.804857E-01
+# eaf.2010      1.046935E+00   9.661644E-01   7.151039E-01
+# irdff2.0      1.027601E+00   1.015457E+00   3.599059E-01

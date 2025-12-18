@@ -1,0 +1,60 @@
+# header: 
+#   title: Pb0(n,x)Hg203 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Glasser
+#   year: 2002
+#   subentry: 22691002
+#   X4 reaction: 82-PB-0(N,X)80-HG-203,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22691002
+# target: 
+#   Z: 82
+#   A: 0
+#   nuclide: Pb0
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 80
+#     A: 203
+#     nuclide: Hg203
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.830000E+01   1.180000E+01   1.760000E+00   5.300000E-01   1.000000E+00
+   4.110000E+01   9.000000E+00   2.680000E+00   3.000000E-01   1.000000E+00
+   5.640000E+01   5.000000E+00   1.290000E+00   5.700000E-01   1.000000E+00
+   7.010000E+01   5.000000E+00   2.020000E+00   3.100000E-01   1.000000E+00
+   9.380000E+01   4.400000E+00   3.000000E+00   3.500000E-01   1.000000E+00
+   1.312000E+02   1.380000E+01   2.530000E+00   3.600000E-01   1.000000E+00
+   1.435000E+02   1.060000E+01   2.540000E+00   4.200000E-01   1.000000E+00
+   1.751000E+02   9.800000E+00   1.490000E+00   2.300000E-01   1.000000E+00
+# reference:
+#   author: W.Glasser,R.Michel,S.Neumann,H.Schuhmacher, V.Dangendorf,R.Nolte,U.Herpers,A.N.Smirnov, I.Ryzhov, A.V.Prokofiev,P.Malmborg,D.Kollar, J.-P.Meulders
+#   title: .Radionuclide production from lead by neutron-induced   reactions up to 175 MeV
+#   journal: Jour: Jour. of Nuclear Science and Technology Suppl., Vol.2, Issue.1, p.
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  2.830000E+01
+#   E-max [MeV]:  1.751000E+02
+#   F-value:  4.121198E+01
+#   A-value:  3.684954E-01
+#   chi-2:  2.312365E+02
+#   p-value:  1.809860E-01
+#   exp. data sets for p-value:      1
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    3.991825E+00   3.906585E+00   4.392530E+02
+# endfb8.1      1.077610E+03   1.109465E-03   4.135853E+01
+# jeff4.0       6.408492E+02   2.018166E-03   4.030317E+01
+# jendl5.0      2.643252E+00   2.423670E+00   1.447844E+02

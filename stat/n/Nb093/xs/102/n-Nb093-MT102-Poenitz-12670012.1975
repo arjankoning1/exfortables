@@ -1,0 +1,71 @@
+# header: 
+#   title: Nb93(n,g)Nb94 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Poenitz
+#   year: 1975
+#   subentry: 12670012
+#   X4 reaction: 41-NB-93(N,G)41-NB-94,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/12670012
+# target: 
+#   Z: 41
+#   A: 93
+#   nuclide: Nb93
+# reaction: 
+#   type: (n,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 41
+#     A: 94
+#     nuclide: Nb94
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 16
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.973000E-01   0.000000E+00   5.742000E+01   4.198000E+00   1.000000E+00
+   3.983000E-01   0.000000E+00   5.617000E+01   3.438000E+00   1.000000E+00
+   4.975000E-01   0.000000E+00   5.219000E+01   4.417000E+00   1.000000E+00
+   5.930000E-01   0.000000E+00   5.035000E+01   2.468000E+00   1.000000E+00
+   6.903000E-01   0.000000E+00   4.918000E+01   4.179000E+00   1.000000E+00
+   8.325000E-01   0.000000E+00   4.626000E+01   6.002000E+00   1.000000E+00
+   8.932000E-01   0.000000E+00   4.402000E+01   4.241000E+00   1.000000E+00
+   9.932000E-01   0.000000E+00   3.646000E+01   4.327000E+00   1.000000E+00
+   1.105000E+00   0.000000E+00   2.908000E+01   3.464000E+00   1.000000E+00
+   1.186000E+00   0.000000E+00   2.348000E+01   2.520000E+00   1.000000E+00
+   1.288000E+00   0.000000E+00   2.071000E+01   2.226000E+00   1.000000E+00
+   1.397000E+00   0.000000E+00   2.153000E+01   2.319000E+00   1.000000E+00
+   1.483000E+00   0.000000E+00   1.783000E+01   1.711000E+00   1.000000E+00
+   1.689000E+00   0.000000E+00   1.318000E+01   9.607000E-01   1.000000E+00
+   1.991000E+00   0.000000E+00   1.052000E+01   1.127000E+00   1.000000E+00
+   2.492000E+00   0.000000E+00   6.445000E+00   6.940000E-01   1.000000E+00
+# reference:
+#   author: W.P.Poenitz
+#   title: Fast neutron capture and activation cross sections
+#   journal: Conf: Conf.on Nucl.Cross-Sect.and Techn.,Washington 1975, p.901 (1975)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.973000E-01
+#   E-max [MeV]:  2.492000E+00
+#   F-value:  1.093483E+00
+#   A-value:  1.000918E+00
+#   chi-2:  1.129722E+00
+#   p-value:  3.817840E-01
+#   exp. data sets for p-value:      5
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.065169E+00   9.688885E-01   5.093488E-01
+# endfb8.1      1.067762E+00   1.011047E+00   5.904180E-01
+# jeff4.0       1.065169E+00   9.688885E-01   5.093490E-01
+# jendl5.0      1.159863E+00   9.888354E-01   2.878923E+00
+# cendl3.2      1.120687E+00   1.097104E+00   2.280265E+00
+# eaf.2010      1.067766E+00   1.011054E+00   5.906605E-01
+# irdff2.0      1.068264E+00   9.667754E-01   5.490927E-01

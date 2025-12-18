@@ -1,0 +1,52 @@
+# header: 
+#   title: Ta181(p,x)Lu170 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Medvedev
+#   year: 2008
+#   subentry: C1650011
+#   X4 reaction: 73-TA-181(P,X)71-LU-170,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C1650011
+# target: 
+#   Z: 73
+#   A: 181
+#   nuclide: Ta181
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 71
+#     A: 170
+#     nuclide: Lu170
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.098000E+02   3.000000E-01   3.200000E+01   3.200000E+00   1.000000E+00
+   1.953000E+02   3.000000E-01   1.040000E+02   1.000000E+01   1.000000E+00
+# reference:
+#   author: D.G.Medvedev,L.F.Mausner,G.A.Greene,A.L.Hanson
+#   title: Activation of natural Hf and Ta in relation to the production of 177Lu
+#   journal: Jour: Applied Radiation and Isotopes, Vol.66, p.1300 (2008)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  1.098000E+02
+#   E-max [MeV]:  1.953000E+02
+#   F-value:  2.111081E+01
+#   A-value:  4.759252E-02
+#   chi-2:  9.430110E+01
+#   p-value:  2.384186E-07
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.980794E+01   5.083775E-02   9.364937E+01
+# jendl5.0      2.247008E+01   4.455446E-02   9.495284E+01

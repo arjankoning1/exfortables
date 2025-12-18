@@ -1,0 +1,62 @@
+# header: 
+#   title: Ni58(n,2n)Ni57 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Bayhurst
+#   year: 1975
+#   subentry: 10536005
+#   X4 reaction: 28-NI-58(N,2N)28-NI-57,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/10536005
+# target: 
+#   Z: 28
+#   A: 58
+#   nuclide: Ni58
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 28
+#     A: 57
+#     nuclide: Ni57
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.723000E+01   1.700000E-01   6.925758E+01   4.981400E+00   9.893939E-01
+   1.824000E+01   9.000000E-02   7.587993E+01   5.043700E+00   9.984199E-01
+   1.999000E+01   1.100000E-01   8.951561E+01   5.954200E+00   9.729957E-01
+   2.126000E+01   1.800000E-01   9.011740E+01   3.876000E+00   9.690043E-01
+   2.201000E+01   1.300000E-01   9.066309E+01   3.738700E+00   9.346710E-01
+   2.336000E+01   1.100000E-01   1.023517E+02   4.013800E+00   1.003448E+00
+   2.449000E+01   1.200000E-01   9.166475E+01   3.819400E+00   9.548410E-01
+# reference:
+#   author: B.P.Bayhurst,J.S.Gilmore,R.J.Prestwood,J.B.Wilhelmy, N.Jarmie,B.H.Erkkila,R.A.Hardekopf
+#   title: Cross sections for (n,xn) reactions between 7.5 and  28 MeV
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.12, p.451 (1975)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.723000E+01
+#   E-max [MeV]:  2.449000E+01
+#   F-value:  1.149158E+00
+#   A-value:  8.913583E-01
+#   chi-2:  7.541810E+00
+#   p-value:  1.705926E-01
+#   exp. data sets for p-value:      8
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.112885E+00   9.068068E-01   4.203550E+00
+# endfb8.1      1.230401E+00   8.225006E-01   1.822078E+01
+# jeff4.0       1.112885E+00   9.068068E-01   4.203545E+00
+# jendl5.0      1.229230E+00   8.156150E-01   1.431980E+01
+# cendl3.2      1.066402E+00   9.451928E-01   1.318797E+00
+# eaf.2010      1.043467E+00   9.766286E-01   1.148811E+00
+# irdff2.0      1.111423E+00   9.081637E-01   4.071938E+00

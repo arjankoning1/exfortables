@@ -1,0 +1,58 @@
+# header: 
+#   title: Ta181(n,g)Ta182 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: XuHaishann
+#   year: 1986
+#   subentry: 30741003
+#   X4 reaction: 73-TA-181(N,G)73-TA-182,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30741003
+# target: 
+#   Z: 73
+#   A: 181
+#   nuclide: Ta181
+# reaction: 
+#   type: (n,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 73
+#     A: 182
+#     nuclide: Ta182
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.010000E+00   1.500000E-01   1.151652E+02   1.400000E+01   9.677743E-01
+   1.210000E+00   1.400000E-01   1.035206E+02   1.300000E+01   9.766094E-01
+   1.440000E+00   1.100000E-01   9.363183E+01   1.200000E+01   9.652766E-01
+# reference:
+#   author: Xu Haishan,Xiang Zhengyu,Mu Yunshan,Chen Yaoshun, Liu Jinrong
+#   title: A large liquid scintillation counter for fast neutron capture cross section measurements
+#   journal: Jour: (Chinese J.of) Nuclear Techniques, Shanghai., Vol.9, Issue.9, p.5
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.010000E+00
+#   E-max [MeV]:  1.440000E+00
+#   F-value:  1.049348E+00
+#   A-value:  9.942813E-01
+#   chi-2:  4.234865E-01
+#   p-value:  2.911930E-01
+#   exp. data sets for p-value:      8
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.035047E+00   9.683866E-01   3.395181E-01
+# endfb8.1      1.046332E+00   1.042514E+00   4.629641E-01
+# jeff4.0       1.046332E+00   1.042514E+00   4.629641E-01
+# jendl5.0      1.096798E+00   9.156360E-01   9.892888E-01
+# cendl3.2      1.011464E+00   9.909493E-01   9.111076E-02
+# eaf.2010      1.040948E+00   1.030850E+00   3.630347E-01
+# irdff2.0      1.026321E+00   9.758479E-01   2.555250E-01

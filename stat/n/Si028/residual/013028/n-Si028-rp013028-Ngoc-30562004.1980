@@ -1,0 +1,53 @@
+# header: 
+#   title: Si28(n,x)Al28 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Ngoc
+#   year: 1980
+#   subentry: 30562004
+#   X4 reaction: 14-SI-28(N,P)13-AL-28,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30562004
+# target: 
+#   Z: 14
+#   A: 28
+#   nuclide: Si28
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 13
+#     A: 28
+#     nuclide: Al28
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.460000E+01   2.000000E-01   2.335583E+02   1.500000E+01   9.981124E-01
+# reference:
+#   author: P.N.Ngoc,S.Gueth,F.Deak,A.Kiss
+#   title: Investigations of (n,p), (n,a) and (n,2n) reactions around 14 MeV
+#   journal: Thesis: Ngoc (1980)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.460000E+01
+#   E-max [MeV]:  1.460000E+01
+#   F-value:  1.085318E+00
+#   A-value:  1.072929E+00
+#   chi-2:  2.174257E+00
+#   p-value:  4.399813E-01
+#   exp. data sets for p-value:      8
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.083253E+00   1.083253E+00   2.242167E+00
+# endfb8.1      1.085781E+00   1.085781E+00   2.337166E+00
+# jeff4.0       1.123875E+00   1.123875E+00   4.068065E+00
+# jendl5.0      1.002522E+00   1.002522E+00   4.963018E-02

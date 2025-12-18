@@ -1,0 +1,60 @@
+# header: 
+#   title: Bi209(p,x)Po207 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Mokhtarioranj
+#   year: 2020
+#   subentry: D7037002
+#   X4 reaction: 83-BI-209(P,3N)84-PO-207,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D7037002
+# target: 
+#   Z: 83
+#   A: 209
+#   nuclide: Bi209
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 17
+#   residual: 
+#     Z: 84
+#     A: 207
+#     nuclide: Po207
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 9
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   4.310000E+01   1.600000E+00   2.494000E+02   2.650000E+01   1.000000E+00
+   4.410000E+01   1.600000E+00   1.772000E+02   1.790000E+01   1.000000E+00
+   4.750000E+01   1.400000E+00   1.808000E+02   1.910000E+01   1.000000E+00
+   5.080000E+01   1.500000E+00   1.419000E+02   1.430000E+01   1.000000E+00
+   5.470000E+01   1.100000E+00   9.000000E+01   9.600000E+00   1.000000E+00
+   5.700000E+01   1.100000E+00   1.158000E+02   1.180000E+01   1.000000E+00
+   6.130000E+01   8.000000E-01   7.940000E+01   8.300000E+00   1.000000E+00
+   6.280000E+01   8.000000E-01   8.350002E+01   8.400000E+00   1.000000E+00
+   6.740000E+01   3.000000E-01   6.730000E+01   7.800000E+00   1.000000E+00
+# reference:
+#   author: L.Mokhtari Oranj, M.Bakhtiari, N.S.Jung, A.Lee,  H.S.Lee
+#   title: Extension of excitation functions of proton-induced reactions on bismuth
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.101, p.014602 (2020)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  4.310000E+01
+#   E-max [MeV]:  6.740000E+01
+#   F-value:  1.218008E+00
+#   A-value:  9.313020E-01
+#   chi-2:  3.163218E+00
+#   p-value:  1.696580E-01
+#   exp. data sets for p-value:      3
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.219422E+00   9.049649E-01   3.047857E+00
+# endfb8.1      1.189860E+00   9.361614E-01   2.594477E+00
+# jendl5.0      1.242407E+00   9.534306E-01   3.847319E+00

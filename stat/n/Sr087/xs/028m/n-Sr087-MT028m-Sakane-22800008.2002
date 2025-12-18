@@ -1,0 +1,63 @@
+# header: 
+#   title: Sr87(n,np)Rb86m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Sakane
+#   year: 2002
+#   subentry: 22800008
+#   X4 reaction: 38-SR-87(N,X)37-RB-86-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22800008
+# target: 
+#   Z: 38
+#   A: 87
+#   nuclide: Sr87
+# reaction: 
+#   type: (n,np)
+#   ENDF_MF: 3
+#   ENDF_MT: 28
+#   residual: 
+#     Z: 37
+#     A: 86
+#     nuclide: Rb86m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.340000E+01   0.000000E+00   2.999400E-01   8.998200E-02   9.997963E-01
+   1.365000E+01   0.000000E+00   1.099800E+00   1.429700E-01   9.997963E-01
+   1.388000E+01   0.000000E+00   1.799600E+00   1.745600E-01   9.997963E-01
+   1.428000E+01   0.000000E+00   2.199600E+00   2.199600E-01   9.997963E-01
+   1.458000E+01   0.000000E+00   3.399300E+00   2.821400E-01   9.997963E-01
+   1.487000E+01   0.000000E+00   4.299100E+00   2.837400E-01   9.997963E-01
+# reference:
+#   author: H.Sakane,Y.Kasugai,M.Shibata,T.Iida,A.Takahashi, T.Fukahori,K.Kawade
+#   title: Measurement of activation cross section of (n,np+d)  reactions producing short-lived nuclei in the energy  range between 13.4 and 14.9 MeV using an intense  neutron source OKTAVIAN
+#   journal: Jour: Annals of Nuclear Energy, Vol.29, p.53 (2002)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.340000E+01
+#   E-max [MeV]:  1.487000E+01
+#   F-value:  2.496028E+00
+#   A-value:  4.692525E-01
+#   chi-2:  3.388472E+01
+#   p-value:  1.754110E-01
+#   exp. data sets for p-value:      1
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    3.248999E+00   3.199553E-01   4.964001E+01
+# jeff4.0       2.603087E+00   4.050372E-01   4.011985E+01
+# jendl5.0      1.301586E+00   9.586290E-01   4.440849E+00
+# eaf.2010      2.682211E+00   3.902937E-01   4.133818E+01

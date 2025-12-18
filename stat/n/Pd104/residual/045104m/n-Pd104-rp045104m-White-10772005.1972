@@ -1,0 +1,60 @@
+# header: 
+#   title: Pd104(n,x)Rh104m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: White
+#   year: 1972
+#   subentry: 10772005
+#   X4 reaction: 46-PD-104(N,P)45-RH-104-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/10772005
+# target: 
+#   Z: 46
+#   A: 104
+#   nuclide: Pd104
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 45
+#     A: 104
+#     nuclide: Rh104m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.510000E+01   0.000000E+00   1.144611E+02   2.934900E+01   9.783000E-01
+   1.540000E+01   0.000000E+00   1.575063E+02   2.934900E+01   9.783000E-01
+   1.590000E+01   0.000000E+00   1.809855E+02   2.934900E+01   9.783000E-01
+   1.630000E+01   0.000000E+00   1.790289E+02   2.934900E+01   9.783000E-01
+# reference:
+#   author: R.L.White,T.J.Gray
+#   title: Neutron cross sections in Pd isotopes over an energy  range of 15.1 to 16.3 MeV.
+#   journal: Jour: Bulletin of the American Physical Society Ser.II, Vol.17, p.687(FD
+# statistics:
+#   NEA score: E2
+#   IAEA score:  0
+#   E-min [MeV]:  1.510000E+01
+#   E-max [MeV]:  1.630000E+01
+#   F-value:  5.253926E+00
+#   A-value:  1.936038E-01
+#   chi-2:  1.971450E+01
+#   p-value:  9.731565E-02
+#   exp. data sets for p-value:      3
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    4.443753E+00   2.265300E-01   1.823792E+01
+# jeff4.0       6.116745E+00   1.654634E-01   2.119107E+01
+# jendl5.0      0.000000E+00   0.000000E+00   0.000000E+00

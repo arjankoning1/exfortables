@@ -1,0 +1,57 @@
+# header: 
+#   title: Xe124(p,x)Xe122 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Hermanne
+#   year: 2011
+#   subentry: D4238006
+#   X4 reaction: 54-XE-124(P,X)54-XE-122,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D4238006
+# target: 
+#   Z: 54
+#   A: 124
+#   nuclide: Xe124
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 54
+#     A: 122
+#     nuclide: Xe122
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.730000E+01   4.000000E-01   7.600002E+01   1.000000E+01   1.000000E+00
+   2.860000E+01   4.000000E-01   8.600000E+01   1.100000E+01   1.000000E+00
+   2.980000E+01   5.000000E-01   2.450000E+02   3.200000E+01   1.000000E+00
+   3.160000E+01   4.000000E-01   2.980000E+02   3.900000E+01   1.000000E+00
+   3.380000E+01   4.000000E-01   3.530000E+02   4.600000E+01   1.000000E+00
+   3.560000E+01   3.000000E-01   3.830000E+02   5.000000E+01   1.000000E+00
+   3.720000E+01   2.000000E-01   4.020000E+02   5.200000E+01   1.000000E+00
+# reference:
+#   author: A.Hermanne,F.Tarkanyi,S.Takacs,R.Adam Rebeles, A.Ignatyuk,S.Spellerberg,R.Schweikert
+#   title: Limitation of the long-lived 121Te contaminant in production of 123I through the 124Xe(p,x) route
+#   journal: Jour: Applied Radiation and Isotopes, Vol.69, p.358 (2011)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.730000E+01
+#   E-max [MeV]:  3.720000E+01
+#   F-value:  1.398998E+00
+#   A-value:  1.238033E+00
+#   chi-2:  1.240188E+01
+#   p-value:  3.801675E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.351727E+00   1.122737E+00   1.061076E+01
+# jendl5.0      1.443287E+00   1.365170E+00   1.419299E+01

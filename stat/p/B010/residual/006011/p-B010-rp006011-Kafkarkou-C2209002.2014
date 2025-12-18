@@ -1,0 +1,59 @@
+# header: 
+#   title: B10(p,x)C11 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Kafkarkou
+#   year: 2014
+#   subentry: C2209002
+#   X4 reaction: 5-B-10(P,G)6-C-11,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C2209002
+# target: 
+#   Z: 5
+#   A: 10
+#   nuclide: B10
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 6
+#     A: 11
+#     nuclide: C11
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.800668E+00   1.500000E-02   2.570000E-03   1.000000E-04   1.000000E+00
+   2.000987E+00   1.500000E-02   3.560000E-03   1.600000E-04   1.000000E+00
+   2.501784E+00   1.500000E-02   8.100000E-03   2.000000E-04   1.000000E+00
+   3.001480E+00   1.500000E-02   1.050000E-02   3.000000E-04   1.000000E+00
+   3.502277E+00   1.500000E-02   9.200000E-02   2.000000E-03   1.000000E+00
+   4.001974E+00   1.500000E-02   8.700000E-02   2.000000E-03   1.000000E+00
+   4.502771E+00   1.500000E-02   6.400000E-02   2.000000E-03   1.000000E+00
+   5.002467E+00   1.500000E-02   1.180000E-01   3.000000E-03   1.000000E+00
+   5.503264E+00   1.500000E-02   1.580000E-01   4.000000E-03   1.000000E+00
+   5.998558E+00   1.500000E-02   2.560000E-01   6.000000E-03   1.000000E+00
+# reference:
+#   author: A.Kafkarkou,M.W.Ahmed,D.P.Kendellen,I.Mazumdar, J.M.Mueller,L.S.Myers,M.H.Sikora,H.R.Weller, W.R.Zimmerman
+#   title: Cross section measurements of the 10B(p,gamma)11C reaction between 2.0 and 6.0 MeV
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.89, p.014601 (2014)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  1.800668E+00
+#   E-max [MeV]:  5.998558E+00
+#   F-value:  9.947906E+00
+#   A-value:  1.557325E-01
+#   chi-2:  9.954446E+02
+#   p-value:  1.072395E-01
+#   exp. data sets for p-value:      1
+#   libraries:      1
+##  Library          F              A            chi-2
+# tendl.2025    9.947906E+00   1.557325E-01   9.954446E+02

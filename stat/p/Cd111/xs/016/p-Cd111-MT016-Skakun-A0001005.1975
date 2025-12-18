@@ -1,0 +1,57 @@
+# header: 
+#   title: Cd111(p,2n)In110 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Skakun
+#   year: 1975
+#   subentry: A0001005
+#   X4 reaction: 48-CD-111(P,2N)49-IN-110,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/A0001005
+# target: 
+#   Z: 48
+#   A: 111
+#   nuclide: Cd111
+# reaction: 
+#   type: (p,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 49
+#     A: 110
+#     nuclide: In110
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.180000E+01   0.000000E+00   1.700000E+01   5.100000E+00   1.000000E+00
+   1.370000E+01   0.000000E+00   3.320000E+02   9.960001E+01   1.000000E+00
+   1.520000E+01   0.000000E+00   6.280000E+02   1.884000E+02   1.000000E+00
+   1.700000E+01   0.000000E+00   7.110000E+02   2.133000E+02   1.000000E+00
+   1.830000E+01   0.000000E+00   7.900000E+02   2.370000E+02   1.000000E+00
+   1.970000E+01   0.000000E+00   9.170001E+02   2.751000E+02   1.000000E+00
+   2.090000E+01   0.000000E+00   7.180001E+02   2.154000E+02   1.000000E+00
+# reference:
+#   author: E.A.Skakun,A.P.Klyucharev,Yu.N.Rakivnenko, I.A.Romanii
+#   title: Excitation functions of (p,n)- and (p,2n)-reactions on cadmium isotopes
+#   journal: Jour: Izv. Rossiiskoi Akademii Nauk, Ser.Fiz., Vol.39, p.24 (1975)
+# statistics:
+#   NEA score: T2
+#   IAEA score:  1
+#   E-min [MeV]:  1.180000E+01
+#   E-max [MeV]:  2.090000E+01
+#   F-value:  2.233515E+00
+#   A-value:  8.023772E-01
+#   chi-2:  1.659364E+00
+#   p-value:  2.516644E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    2.226793E+00   7.870056E-01   1.544306E+00
+# jendl5.0      1.157037E+00   1.123380E+00   6.330100E-01

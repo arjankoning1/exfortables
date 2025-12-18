@@ -1,0 +1,55 @@
+# header: 
+#   title: Ni58(n,na)Fe54 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Khan
+#   year: 1973
+#   subentry: 30306003
+#   X4 reaction: 28-NI-58(N,N+A)26-FE-54,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30306003
+# target: 
+#   Z: 28
+#   A: 58
+#   nuclide: Ni58
+# reaction: 
+#   type: (n,na)
+#   ENDF_MF: 3
+#   ENDF_MT: 22
+#   residual: 
+#     Z: 26
+#     A: 54
+#     nuclide: Fe54
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.470000E+01   0.000000E+00   3.600000E+01   0.000000E+00   1.000000E+00
+# reference:
+#   author: N.A.Khan,S.Mubarakmand,Mahmud Ahmad
+#   title: Aspects of alpha-emission from the bombardment of Ni-58 with 14.7 MeV neutrons
+#   journal: Jour: Nuclear Physics, Section A, Vol.202, p.123 (1973)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  1.470000E+01
+#   E-max [MeV]:  1.470000E+01
+#   F-value:  3.466142E+00
+#   A-value:  3.238791E-01
+#   chi-2:  0.000000E+00
+#   p-value:  1.369932E-01
+#   exp. data sets for p-value:      1
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    3.737754E+00   2.675404E-01   0.000000E+00
+# endfb8.1      5.097246E+00   1.961844E-01   0.000000E+00
+# jeff4.0       3.692009E+00   2.708552E-01   0.000000E+00
+# jendl5.0      3.891308E+00   2.569830E-01   0.000000E+00
+# cendl3.2      3.165176E+00   3.159382E-01   0.000000E+00
+# eaf.2010      1.000000E+00   9.999999E-01   0.000000E+00

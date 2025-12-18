@@ -1,0 +1,58 @@
+# header: 
+#   title: Sm152(n,g)Sm153 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Bensch
+#   year: 1971
+#   subentry: 22612005
+#   X4 reaction: 62-SM-152(N,G)62-SM-153,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22612005
+# target: 
+#   Z: 62
+#   A: 152
+#   nuclide: Sm152
+# reaction: 
+#   type: (n,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 62
+#     A: 153
+#     nuclide: Sm153
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.400000E-02   0.000000E+00   5.690000E+02   4.552000E+01   1.000000E+00
+   1.380000E-01   0.000000E+00   3.070000E+02   3.684000E+01   1.000000E+00
+   2.640000E-01   0.000000E+00   1.950000E+02   1.560000E+01   1.000000E+00
+   9.740000E-01   0.000000E+00   1.220000E+02   1.525000E+01   1.000000E+00
+# reference:
+#   author: F.BENSCH,H.LEDERMANN
+#   title: The Activation Cross Section of Several Nuclides For Neutrons of Intermediate Energies
+#   journal: Prog: Report from misc. OECD Countries to EANDC, No.105, p.1 (1971)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  2.400000E-02
+#   E-max [MeV]:  9.740000E-01
+#   F-value:  1.262262E+00
+#   A-value:  8.228139E-01
+#   chi-2:  4.626368E+00
+#   p-value:  1.693664E-01
+#   exp. data sets for p-value:      3
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.134503E+00   9.159877E-01   1.954238E+00
+# endfb8.1      1.333231E+00   7.645133E-01   6.555047E+00
+# jeff4.0       1.240978E+00   8.387028E-01   4.161695E+00
+# jendl5.0      1.387412E+00   7.358913E-01   8.300455E+00
+# cendl3.2      1.205175E+00   8.474219E-01   3.396968E+00
+# eaf.2010      1.215756E+00   8.472542E-01   3.389801E+00

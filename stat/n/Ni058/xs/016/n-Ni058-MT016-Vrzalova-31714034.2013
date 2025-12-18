@@ -1,0 +1,58 @@
+# header: 
+#   title: Ni58(n,2n)Ni57 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Vrzalova
+#   year: 2013
+#   subentry: 31714034
+#   X4 reaction: 28-NI-58(N,2N)28-NI-57,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/31714034
+# target: 
+#   Z: 28
+#   A: 58
+#   nuclide: Ni58
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 28
+#     A: 57
+#     nuclide: Ni57
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.750000E+01   8.000000E-01   4.600000E+01   7.000000E+00   1.000000E+00
+   3.040000E+01   8.000000E-01   5.700000E+01   8.000000E+00   1.000000E+00
+   3.590000E+01   8.000000E-01   4.500000E+01   6.000000E+00   1.000000E+00
+# reference:
+#   author: J.Vrzalova, O.Svoboda, A.Krasa, A.Kugler, M.Majerle,  M.Suchopar, V.Wagner
+#   title: Studies of (n,xn) cross-sections in Al, Au, Bi, Cu,  Fe, I, In, Mg, Ni, Ta, Y, and Zn by the activation  method
+#   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.A, Vol.726, p.84 (201
+# statistics:
+#   NEA score: R2
+#   IAEA score:  0
+#   E-min [MeV]:  1.750000E+01
+#   E-max [MeV]:  3.590000E+01
+#   F-value:  1.317655E+00
+#   A-value:  1.230960E+00
+#   chi-2:  5.594730E+00
+#   p-value:  1.471631E-01
+#   exp. data sets for p-value:      8
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.377032E+00   1.376315E+00   7.350277E+00
+# endfb8.1      1.200601E+00   1.147364E+00   2.259469E+00
+# jeff4.0       1.500561E+00   1.490336E+00   1.344528E+01
+# jendl5.0      1.159571E+00   1.120297E+00   1.660788E+00
+# cendl3.2      1.455289E+00   1.455289E+00   9.000000E+00
+# eaf.2010      1.308931E+00   1.275016E+00   5.101920E+00
+# irdff2.0      1.245873E+00   1.013269E+00   2.864247E+00

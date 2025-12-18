@@ -1,0 +1,55 @@
+# header: 
+#   title: La139(n,x)La140 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: LuoJunhuaa
+#   year: 2013
+#   subentry: 327130023
+#   X4 reaction: 57-LA-139(N,G)57-LA-140,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/327130023
+# target: 
+#   Z: 57
+#   A: 139
+#   nuclide: La139
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 57
+#     A: 140
+#     nuclide: La140
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.350000E+01   2.000000E-01   1.663200E+00   1.989100E-01   1.046042E+00
+   1.410000E+01   2.000000E-01   1.428700E+00   1.772700E-01   1.042871E+00
+   1.480000E+01   2.000000E-01   1.133100E+00   1.767200E-01   1.039551E+00
+# reference:
+#   author: Luo Junhua, Han Jiuning, Liu Rong, Jiang Li, Liu Zhenlai, Sun Guihua, Ge Suhong
+#   title: Activation measurements of fast neutron radiative  capture for 139La
+#   journal: Jour: Radiation Physics and Chemistry, Vol.86, p.79 (2013)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.350000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.347720E+00
+#   A-value:  7.665690E-01
+#   chi-2:  4.439980E+00
+#   p-value:  1.547851E-01
+#   exp. data sets for p-value:      5
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.320721E+00   7.787906E-01   4.044019E+00
+# endfb8.1      1.272888E+00   8.112098E-01   3.252187E+00
+# jeff4.0       1.320721E+00   7.787906E-01   4.044019E+00
+# jendl5.0      1.460009E+00   7.018273E-01   6.419695E+00

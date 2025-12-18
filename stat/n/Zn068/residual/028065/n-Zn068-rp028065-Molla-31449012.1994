@@ -1,0 +1,54 @@
+# header: 
+#   title: Zn68(n,x)Ni65 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Molla
+#   year: 1994
+#   subentry: 31449012
+#   X4 reaction: 30-ZN-68(N,A)28-NI-65,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/31449012
+# target: 
+#   Z: 30
+#   A: 68
+#   nuclide: Zn68
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+#   residual: 
+#     Z: 28
+#     A: 65
+#     nuclide: Ni65
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.390000E+01   0.000000E+00   9.313601E+00   9.803399E-01   9.803798E-01
+   1.451000E+01   0.000000E+00   9.737901E+00   1.070500E+00   9.737886E-01
+   1.471000E+01   0.000000E+00   1.157455E+01   1.166500E+00   9.726509E-01
+# reference:
+#   author: N.I.Molla,R.U.Miah,S.Basunia,S.M.Hossain,M.Rahman
+#   title: Cross sections of (n,p), (n,a) and (n,2n) processes on scandium, vanadium, cobalt, copper and zinc isotope in the energy range 13.57 - 14.71 MeV.
+#   journal: Conf: Conf.on Nucl.Data for Sci.and Techn.,Gatlinburg 1994, Vol.2, p.938
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.390000E+01
+#   E-max [MeV]:  1.471000E+01
+#   F-value:  1.511976E+00
+#   A-value:  9.644678E-01
+#   chi-2:  1.566649E+01
+#   p-value:  3.782067E-01
+#   exp. data sets for p-value:      5
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.560815E+00   6.471133E-01   1.167472E+01
+# jeff4.0       1.460779E+00   1.437458E+00   1.965826E+01
+# jendl5.0      0.000000E+00   0.000000E+00   0.000000E+00

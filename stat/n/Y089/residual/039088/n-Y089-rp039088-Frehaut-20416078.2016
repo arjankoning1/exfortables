@@ -1,0 +1,58 @@
+# header: 
+#   title: Y89(n,x)Y88 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Frehaut
+#   year: 2016
+#   subentry: 20416078
+#   X4 reaction: 39-Y-89(N,2N)39-Y-88,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20416078
+# target: 
+#   Z: 39
+#   A: 89
+#   nuclide: Y89
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 39
+#     A: 88
+#     nuclide: Y88
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.188000E+01   1.700000E-01   5.000000E+01   8.000000E+00   1.000000E+00
+   1.236000E+01   1.700000E-01   1.940000E+02   1.300000E+01   1.000000E+00
+   1.285000E+01   1.600000E-01   4.070000E+02   2.100000E+01   1.000000E+00
+   1.333000E+01   1.500000E-01   6.070001E+02   4.100000E+01   1.000000E+00
+   1.380000E+01   1.500000E-01   7.790000E+02   3.600000E+01   1.000000E+00
+   1.428000E+01   1.400000E-01   8.540000E+02   4.200000E+01   1.000000E+00
+   1.476000E+01   1.300000E-01   9.410000E+02   7.100000E+01   1.000000E+00
+# reference:
+#   author: J.Frehaut,A.Bertin,R.Bois,J.Jary,G.Mosinski
+#   title: Status of (n,xn) cross section measurements  at Bruyeres-le-Chatel
+#   journal: Rept: Centre d'Etudes Nucleaires, Saclay Reports, No.6447 (2016)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.188000E+01
+#   E-max [MeV]:  1.476000E+01
+#   F-value:  1.120389E+00
+#   A-value:  1.017962E+00
+#   chi-2:  9.789271E-01
+#   p-value:  3.794791E-01
+#   exp. data sets for p-value:      3
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.091225E+00   1.050515E+00   9.174542E-01
+# jeff4.0       1.091225E+00   1.050515E+00   9.174542E-01
+# jendl5.0      1.165762E+00   9.558495E-01   1.101873E+00

@@ -1,0 +1,65 @@
+# header: 
+#   title: Ni58(n,x)Ni57 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: ZhaoWenrongg
+#   year: 1989
+#   subentry: 30637003
+#   X4 reaction: 28-NI-58(N,2N)28-NI-57,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30637003
+# target: 
+#   Z: 28
+#   A: 58
+#   nuclide: Ni58
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 28
+#     A: 57
+#     nuclide: Ni57
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 13
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.279000E+01   2.900000E-01   3.580400E+00   4.687100E-01   9.422100E-01
+   1.286000E+01   2.100000E-01   3.674600E+00   4.685800E-01   9.422100E-01
+   1.364000E+01   3.100000E-01   1.695978E+01   1.204100E+00   9.422100E-01
+   1.368000E+01   3.500000E-01   1.931530E+01   8.083900E-01   9.422100E-01
+   1.458000E+01   2.000000E-01   3.759418E+01   7.995500E-01   9.422100E-01
+   1.568000E+01   3.600000E-01   5.822857E+01   2.719100E+00   9.422100E-01
+   1.605000E+01   4.300000E-01   6.180897E+01   1.904000E+00   9.422100E-01
+   1.663000E+01   3.300000E-01   6.708535E+01   2.079000E+00   9.422100E-01
+   1.718000E+01   3.800000E-01   7.075996E+01   2.160610E+00   9.422100E-01
+   1.730000E+01   2.600000E-01   7.217328E+01   2.255100E+00   9.422100E-01
+   1.754000E+01   2.200000E-01   7.537681E+01   2.339400E+00   9.422100E-01
+   1.797000E+01   2.700000E-01   7.349238E+01   2.349900E+00   9.422100E-01
+   1.826000E+01   2.100000E-01   7.848610E+01   2.526500E+00   9.422100E-01
+# reference:
+#   author: Zhao Wenrong, Lu Hanlin, Yu Weixiang, Yuan Xialin
+#   title: Compilation of measurements and evaluations of nuclear  activation cross sections for nuclear data application
+#   journal: Rept: Chinese report to the I.N.D.C., No.16 (1989)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.279000E+01
+#   E-max [MeV]:  1.826000E+01
+#   F-value:  1.206363E+00
+#   A-value:  8.398142E-01
+#   chi-2:  1.958049E+01
+#   p-value:  1.239783E-01
+#   exp. data sets for p-value:      6
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.189361E+00   8.466904E-01   1.782883E+01
+# endfb8.1      1.233957E+00   8.262762E-01   1.804295E+01
+# jeff4.0       1.189361E+00   8.466904E-01   1.782884E+01
+# jendl5.0      1.210358E+00   8.397664E-01   2.462133E+01

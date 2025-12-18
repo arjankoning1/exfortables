@@ -1,0 +1,51 @@
+# header: 
+#   title: Fe54(n,x)Mn54 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Grallert
+#   year: 1993
+#   subentry: 31496033
+#   X4 reaction: 26-FE-54(N,P)25-MN-54,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/31496033
+# target: 
+#   Z: 26
+#   A: 54
+#   nuclide: Fe54
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 25
+#     A: 54
+#     nuclide: Mn54
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.460000E+01   1.200000E-01   3.089814E+02   1.699898E+01   9.999400E-01
+# reference:
+#   author: A.Grallert, J.Csikai, Cs.M.Buczko, I.Shaddad
+#   title: Investigations on the systematics in (n,a) cross  sections at 14.6 MeV
+#   journal: Rept: IAEA Nucl.Data Section report to the I.N.D.C., No.286, p.131 (1993
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.460000E+01
+#   E-max [MeV]:  1.460000E+01
+#   F-value:  1.055860E+00
+#   A-value:  9.572650E-01
+#   chi-2:  1.296550E+00
+#   p-value:  3.848027E-01
+#   exp. data sets for p-value:      8
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.011382E+00   9.887459E-01   2.678710E-01
+# jendl5.0      1.078997E+00   9.267863E-01   2.325229E+00

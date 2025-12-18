@@ -1,0 +1,57 @@
+# header: 
+#   title: Fe54(n,x)Mn54 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Filatenkov
+#   year: 2016
+#   subentry: 41614018
+#   X4 reaction: 26-FE-54(N,P)25-MN-54,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/41614018
+# target: 
+#   Z: 26
+#   A: 54
+#   nuclide: Fe54
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 25
+#     A: 54
+#     nuclide: Mn54
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.356000E+01   0.000000E+00   3.890036E+02   2.150876E+01   1.000009E+00
+   1.374000E+01   0.000000E+00   3.519966E+02   2.065246E+01   9.999903E-01
+   1.396000E+01   0.000000E+00   3.279991E+02   1.970869E+01   9.999973E-01
+   1.419000E+01   0.000000E+00   3.280011E+02   1.964634E+01   1.000003E+00
+   1.442000E+01   0.000000E+00   3.150013E+02   1.757759E+01   1.000004E+00
+   1.461000E+01   0.000000E+00   2.620011E+02   2.882022E+01   1.000004E+00
+   1.478000E+01   0.000000E+00   3.000026E+02   2.184500E+01   1.000009E+00
+# reference:
+#   author: A.A.Filatenkov
+#   title: Neutron activation cross sections measured at KRI in neutron energy region 13.4 - 14.9 MeV
+#   journal: Rept: USSR report to the I.N.D.C., No.0460 (2016)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.356000E+01
+#   E-max [MeV]:  1.478000E+01
+#   F-value:  1.047078E+00
+#   A-value:  1.007129E+00
+#   chi-2:  6.233559E-01
+#   p-value:  2.959261E-01
+#   exp. data sets for p-value:      7
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.045929E+00   1.019919E+00   5.127875E-01
+# jendl5.0      1.048201E+00   9.944988E-01   7.339244E-01

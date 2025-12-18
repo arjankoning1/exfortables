@@ -1,0 +1,56 @@
+# header: 
+#   title: Al27(n,x)Mg27 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Ryves
+#   year: 1978
+#   subentry: 20867005
+#   X4 reaction: 13-AL-27(N,P)12-MG-27,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20867005
+# target: 
+#   Z: 13
+#   A: 27
+#   nuclide: Al27
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 12
+#     A: 27
+#     nuclide: Mg27
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.465000E+01   1.000000E-01   6.702228E+01   1.317700E+00   9.958733E-01
+   1.735000E+01   2.000000E-01   4.460313E+01   2.735500E+00   1.006843E+00
+   1.806000E+01   1.900000E-01   3.771886E+01   2.276400E+00   9.926016E-01
+   1.900000E+01   1.900000E-01   4.026992E+01   3.748200E+00   9.894328E-01
+# reference:
+#   author: T.B.RYVES,P.KOLKOWSKI,K.J.ZIEBA
+#   title: -CROSS SECTION MEASUREMENTS OF N-14(N,2N)N-13 ,  F-19(N,2N)F-18 , FE-54(N,2N)FE-53 , AL-27(N,P)MG-27  AND AL-27(N,A)NA-24 BETWEEN 14.7 AND 19.0 MEV-.
+#   journal: Jour: Jour. of Physics, Part G (Nucl.and Part.Phys.), Vol.4, Issue.11, p
+# statistics:
+#   NEA score: T1
+#   IAEA score:  0
+#   E-min [MeV]:  1.465000E+01
+#   E-max [MeV]:  1.900000E+01
+#   F-value:  1.117975E+00
+#   A-value:  1.035426E+00
+#   chi-2:  4.558328E+00
+#   p-value:  3.091149E-01
+#   exp. data sets for p-value:      8
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.049054E+00   9.881702E-01   6.879338E-01
+# endfb8.1      1.055822E+00   9.837211E-01   7.414948E-01
+# jeff4.0       1.061888E+00   9.836788E-01   8.523383E-01
+# jendl5.0      1.224127E+00   1.202039E+00   1.595154E+01

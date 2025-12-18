@@ -1,0 +1,52 @@
+# header: 
+#   title: Tc99(n,x)Tc100 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Pattenden
+#   year: 1958
+#   subentry: 21325005
+#   X4 reaction: 43-TC-99(N,G)43-TC-100,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21325005
+# target: 
+#   Z: 43
+#   A: 99
+#   nuclide: Tc99
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 43
+#     A: 100
+#     nuclide: Tc100
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.530000E-08   0.000000E+00   2.480000E+04   2.000000E+03   1.000000E+00
+# reference:
+#   author: N.J.PATTENDEN
+#   title: -SOME NEUTRON CROSS SECTIONS OF IMPORTANCE TO  REACTORS - TC-99,ND-143,ND-145,SM-149,SM-152,EU-151  EU-153,GD-155,GD-157,PU-240
+#   journal: Conf: Second Internat. At.En. Conf., Geneva 1958, Vol.16, p.44 (1958)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.530000E-08
+#   E-max [MeV]:  2.530000E-08
+#   F-value:  1.055260E+00
+#   A-value:  9.524729E-01
+#   chi-2:  8.668894E-01
+#   p-value:  2.032014E-01
+#   exp. data sets for p-value:      8
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.066999E+00   9.372083E-01   1.168506E+00
+# jeff4.0       1.066999E+00   9.372083E-01   1.168506E+00
+# jendl5.0      1.016517E+00   9.837518E-01   2.636561E-01

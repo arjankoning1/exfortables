@@ -1,0 +1,54 @@
+# header: 
+#   title: Ba137(n,tot) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Koester
+#   year: 1985
+#   subentry: 21992008
+#   X4 reaction: 56-BA-137(N,TOT),,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21992008
+# target: 
+#   Z: 56
+#   A: 137
+#   nuclide: Ba137
+# reaction: 
+#   type: (n,tot)
+#   ENDF_MF: 3
+#   ENDF_MT: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.600000E-10   1.000000E-11   2.600000E+04   1.000000E+03   1.000000E+00
+   1.260000E-06   1.000000E-07   5.800000E+03   4.000000E+02   1.000000E+00
+   5.190000E-06   1.000000E-07   5.600000E+03   6.000000E+02   1.000000E+00
+   1.880000E-05   1.000000E-06   5.200000E+03   3.000000E+02   1.000000E+00
+   1.320000E-04   7.000000E-06   4.800000E+03   5.000000E+02   1.000000E+00
+# reference:
+#   author: L.KOESTER,K.KNOPF,W.WASCHKOWSKI
+#   title: -NEUTRON SCATTERING LENGTHS AND CROSS SECTIONS OF THE  BARIUM ISOTOPES
+#   journal: Jour: Zeitschrift fuer Physik A, Hadrons and Nuclei, Vol.322, p.105 (198
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  5.600000E-10
+#   E-max [MeV]:  1.320000E-04
+#   F-value:  1.490677E+00
+#   A-value:  7.958759E-01
+#   chi-2:  1.642529E+01
+#   p-value:  3.073311E-01
+#   exp. data sets for p-value:      1
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2025    1.172859E+00   1.027244E+00   7.825780E+00
+# endfb8.1      1.466607E+00   7.299337E-01   1.657711E+01
+# jeff4.0       1.172862E+00   1.027248E+00   7.826416E+00
+# jendl5.0      1.466607E+00   7.299338E-01   1.657712E+01
+# cendl3.2      1.959886E+00   5.679508E-01   3.332003E+01

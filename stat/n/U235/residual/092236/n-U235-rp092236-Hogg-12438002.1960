@@ -1,0 +1,51 @@
+# header: 
+#   title: U235(n,x)U236 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Hogg
+#   year: 1960
+#   subentry: 12438002
+#   X4 reaction: 92-U-235(N,G)92-U-236,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/12438002
+# target: 
+#   Z: 92
+#   A: 235
+#   nuclide: U235
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 92
+#     A: 236
+#     nuclide: U236
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.530000E-08   0.000000E+00   9.660000E+04   6.800000E+03   1.000000E+00
+# reference:
+#   author: C.H.HOGG,J.R.BERRETH,R.P.SCHUMAN
+#   title: U-235 CAPTURE CROSS SECTION.
+#   journal: Prog: Washington AEC Office Reports, No.1028, p.50 (1960)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.530000E-08
+#   E-max [MeV]:  2.530000E-08
+#   F-value:  1.009058E+00
+#   A-value:  1.009058E+00
+#   chi-2:  1.657465E-01
+#   p-value:  3.586012E-01
+#   exp. data sets for p-value:      4
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.009060E+00   1.009060E+00   1.657792E-01
+# jendl5.0      1.009057E+00   1.009057E+00   1.657137E-01

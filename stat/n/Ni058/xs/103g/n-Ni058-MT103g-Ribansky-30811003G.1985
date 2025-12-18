@@ -1,0 +1,58 @@
+# header: 
+#   title: Ni58(n,p)Co58g cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Ribansky
+#   year: 1985
+#   subentry: 30811003G
+#   X4 reaction: 28-NI-58(N,P)27-CO-58-G,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30811003G
+# target: 
+#   Z: 28
+#   A: 58
+#   nuclide: Ni58
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 27
+#     A: 58
+#     nuclide: Co58g
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.480000E+01   2.500000E-01   1.196722E+02   6.850900E+00   9.939550E-01
+# reference:
+#   author: I.Ribansky,J.Kristiak,L.Stoeva,C.Panteleev
+#   title: Neutron activation cross section for Ni isotopes at 14.8 MeV
+#   journal: Jour: Czech.J.of Physics, Part B, Vol.35, p.1128 (1985)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.480000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.197848E+00
+#   A-value:  1.161788E+00
+#   chi-2:  1.271633E+01
+#   p-value:  2.955484E-01
+#   exp. data sets for p-value:      5
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.192700E+00   1.192700E+00   1.134773E+01
+# jeff4.0       1.149819E+00   1.149819E+00   6.964354E+00
+# jendl5.0      1.001503E+00   1.001503E+00   3.309809E-02
+# eaf.2010      1.326460E+00   1.326460E+00   3.252015E+01

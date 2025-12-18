@@ -1,0 +1,61 @@
+# header: 
+#   title: Cu0(p,x)Mn52 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Fox
+#   year: 2021
+#   subentry: C2702030
+#   X4 reaction: 29-CU-0(P,X)25-MN-52,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C2702030
+# target: 
+#   Z: 29
+#   A: 0
+#   nuclide: Cu0
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 25
+#     A: 52
+#     nuclide: Mn52
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   7.222000E+01   6.100000E-01   1.008000E-01   6.300000E-03   1.000000E+00
+   7.903000E+01   5.700000E-01   5.090000E-01   2.200000E-02   1.000000E+00
+   9.094000E+01   5.200000E-01   1.759000E+00   6.700000E-02   1.000000E+00
+   1.044900E+02   7.400000E-01   1.727000E+00   7.000000E-02   1.000000E+00
+   1.200200E+02   6.700000E-01   1.934000E+00   5.900000E-02   1.000000E+00
+   1.340800E+02   6.200000E-01   2.733000E+00   7.000000E-02   1.000000E+00
+   1.488600E+02   5.800000E-01   3.340000E+00   1.200000E-01   1.000000E+00
+   1.634900E+02   5.400000E-01   4.220000E+00   1.100000E-01   1.000000E+00
+   1.772800E+02   5.200000E-01   4.720000E+00   1.400000E-01   1.000000E+00
+   1.925400E+02   4.900000E-01   5.340000E+00   1.900000E-01   1.000000E+00
+# reference:
+#   author: M.B.Fox,A.S.Voyles,J.T.Morrell,L.A.Bernstein, J.C.Batchelder,E.R.Birnbaum,C.S.Cutler,A.J.Koning, A.M.Lewis,D.G.Medvedev,F.M.Nortier,E.M.O'Brien, Ch.Vermeulen
+#   title: Measurement and modeling of proton-induced reactions on arsenic from 35 to 200 MeV
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.104, p.064615 (2021)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  7.222000E+01
+#   E-max [MeV]:  1.925400E+02
+#   F-value:  2.605733E+00
+#   A-value:  1.564910E+00
+#   chi-2:  3.745376E+03
+#   p-value:  2.636408E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    2.793777E+00   1.190920E+00   1.992578E+03
+# endfb8.1      3.527324E+00   3.301086E+00   9.167775E+03
+# jendl5.0      1.387268E+00   9.748297E-01   7.577438E+01

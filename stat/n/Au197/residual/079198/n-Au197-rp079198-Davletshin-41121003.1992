@@ -1,0 +1,55 @@
+# header: 
+#   title: Au197(n,x)Au198 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Davletshin
+#   year: 1992
+#   subentry: 41121003
+#   X4 reaction: 79-AU-197(N,G)79-AU-198,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/41121003
+# target: 
+#   Z: 79
+#   A: 197
+#   nuclide: Au197
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 79
+#     A: 198
+#     nuclide: Au198
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   8.133000E-01   3.530000E-02   9.212372E+01   4.196950E+00   9.991727E-01
+   1.030000E+00   3.300000E-02   8.061857E+01   2.894100E+00   1.002719E+00
+   1.533000E+00   3.000000E-02   7.134192E+01   2.797600E+00   1.006233E+00
+   2.036000E+00   3.000000E-02   4.878271E+01   1.891300E+00   1.012089E+00
+   2.435000E+00   3.100000E-02   3.589731E+01   1.392500E+00   1.008351E+00
+# reference:
+#   author: A.N.Davletshin,E.V.Teplov,A.O.Tipunkov,V.A.Tolstikov, I.A.Korzh,V.D.Ovdienko,N.M.Pravdivyy,N.T.Sklyar, V.A.Mishchenko
+#   title: Neutron radiative capture cross-section for 232Th  and 197Au nuclei in the 0.8 - 2.5 MeV neutron energy  range
+#   journal: Jour: Vop.At.Nauki i Tekhn.,Ser.Yaderno-Reak.Konstanty, Issue.1, p.41 (1
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  8.133000E-01
+#   E-max [MeV]:  2.435000E+00
+#   F-value:  1.042892E+00
+#   A-value:  1.010089E+00
+#   chi-2:  1.548537E+00
+#   p-value:  3.991355E-01
+#   exp. data sets for p-value:      8
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.025546E+00   9.963730E-01   7.660161E-01
+# jendl5.0      1.055242E+00   1.023994E+00   2.331058E+00

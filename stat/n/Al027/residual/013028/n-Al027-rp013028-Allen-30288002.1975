@@ -1,0 +1,57 @@
+# header: 
+#   title: Al27(n,x)Al28 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Allen
+#   year: 1975
+#   subentry: 30288002
+#   X4 reaction: 13-AL-27(N,G)13-AL-28,,SIG,,AV
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30288002
+# target: 
+#   Z: 13
+#   A: 27
+#   nuclide: Al27
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 13
+#     A: 28
+#     nuclide: Al28
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.500000E-03   5.000000E-04   1.500000E+02   1.500000E+01   1.000000E+00
+   3.000000E-02   2.000000E-02   2.900000E+00   2.900000E-01   1.000000E+00
+   7.500000E-02   2.500000E-02   2.540000E+00   2.540000E-01   1.000000E+00
+   1.500000E-01   5.000000E-02   2.050000E+00   2.050000E-01   1.000000E+00
+   2.500000E-01   5.000000E-02   1.020000E+00   1.020000E-01   1.000000E+00
+   3.500000E-01   5.000000E-02   6.000000E-01   6.000000E-02   1.000000E+00
+   4.500000E-01   5.000000E-02   1.200000E+00   1.200000E-01   1.000000E+00
+# reference:
+#   author: B.J.Allen, J.W.Boldeman, M.J.Kenny, A.R.DeL.Musgrove, Hla Pe, R.L.Macklin
+#   title: Neutron capture mechanism in light and closed shell  nuclides
+#   journal: Conf: Conf.on Nucl.Cross-Sect.and Techn.,Washington 1975, Vol.1, p.360 (
+# statistics:
+#   NEA score: T3
+#   IAEA score:  1
+#   E-min [MeV]:  5.500000E-03
+#   E-max [MeV]:  4.500000E-01
+#   F-value:  8.840131E+00
+#   A-value:  1.772074E-01
+#   chi-2:  5.537862E+01
+#   p-value:  1.364278E-01
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    8.840305E+00   1.772029E-01   5.537910E+01
+# jeff4.0       8.839958E+00   1.772120E-01   5.537814E+01

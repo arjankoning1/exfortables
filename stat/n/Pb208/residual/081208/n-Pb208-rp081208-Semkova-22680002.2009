@@ -1,0 +1,56 @@
+# header: 
+#   title: Pb208(n,x)Tl208 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Semkova
+#   year: 2009
+#   subentry: 22680002
+#   X4 reaction: 82-PB-208(N,P)81-TL-208,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22680002
+# target: 
+#   Z: 82
+#   A: 208
+#   nuclide: Pb208
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 81
+#     A: 208
+#     nuclide: Tl208
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.481000E+01   1.700000E-01   7.264701E-01   1.682400E-01   7.647058E-01
+   1.630000E+01   2.000000E-01   1.605900E+00   2.294100E-01   7.647058E-01
+   1.795000E+01   1.200000E-01   3.211800E+00   3.058800E-01   7.647058E-01
+   1.905000E+01   9.000000E-02   4.664700E+00   3.058800E-01   7.647058E-01
+   1.930000E+01   9.000000E-02   4.664700E+00   3.823500E-01   7.647058E-01
+   2.050000E+01   8.000000E-02   6.194100E+00   3.823500E-01   7.647058E-01
+# reference:
+#   author: V.Semkova, P.Reimer, T.Altzitzoglou, A.J.M.Plompen, C.Quetel, S.Sudar, J.Vogl, A.J.Koning, S.M.Qaim, D.L.Smith, F.Cserpak, V.Avrigeanu
+#   title: Neutron activation cross sections on lead isotopes
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.80, p.024610 (2009)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.481000E+01
+#   E-max [MeV]:  2.050000E+01
+#   F-value:  1.272820E+00
+#   A-value:  9.940758E-01
+#   chi-2:  6.663815E+00
+#   p-value:  3.576707E-01
+#   exp. data sets for p-value:      4
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.263482E+00   1.034595E+00   6.361666E+00
+# jendl5.0      1.281947E+00   9.551436E-01   6.965962E+00

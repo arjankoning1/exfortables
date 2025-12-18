@@ -1,0 +1,59 @@
+# header: 
+#   title: Cu63(n,g)Cu64 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Kim
+#   year: 2007
+#   subentry: 31593002
+#   X4 reaction: 29-CU-63(N,G)29-CU-64,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/31593002
+# target: 
+#   Z: 29
+#   A: 63
+#   nuclide: Cu63
+# reaction: 
+#   type: (n,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 29
+#     A: 64
+#     nuclide: Cu64
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.409000E+00   0.000000E+00   8.481601E+00   3.004600E-01   1.021879E+00
+   1.611000E+00   0.000000E+00   7.939800E+00   3.004100E-01   1.017921E+00
+   1.813000E+00   0.000000E+00   6.217000E+00   3.002600E-01   1.002742E+00
+   2.015000E+00   0.000000E+00   5.785740E+00   2.003500E-01   9.806338E-01
+# reference:
+#   author: G.D.Kim,H.J.Woo,H.W.Choi,N.B.Kim,T.K.Yang,J.H.Chang, K.S.Park
+#   title: Measurements of fast neutron capture cross sections on 63Cu and 186W
+#   journal: Jour: Journal of Radioanalytical and Nuclear Chemistry, Vol.271, p.553 (
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.409000E+00
+#   E-max [MeV]:  2.015000E+00
+#   F-value:  1.124002E+00
+#   A-value:  1.079175E+00
+#   chi-2:  1.040395E+01
+#   p-value:  2.357701E-01
+#   exp. data sets for p-value:      1
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.093270E+00   9.529603E-01   4.751041E+00
+# endfb8.1      1.143603E+00   1.122583E+00   1.417305E+01
+# jeff4.0       1.143603E+00   1.122583E+00   1.417305E+01
+# jendl5.0      1.152792E+00   1.133108E+00   1.553808E+01
+# cendl3.2      1.075901E+00   1.023856E+00   4.244634E+00
+# eaf.2010      1.126195E+00   1.107188E+00   1.121090E+01
+# irdff2.0      1.115751E+00   1.105097E+00   8.736914E+00

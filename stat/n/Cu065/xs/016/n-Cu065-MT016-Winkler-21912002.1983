@@ -1,0 +1,58 @@
+# header: 
+#   title: Cu65(n,2n)Cu64 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Winkler
+#   year: 1983
+#   subentry: 21912002
+#   X4 reaction: 29-CU-65(N,2N)29-CU-64,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21912002
+# target: 
+#   Z: 29
+#   A: 65
+#   nuclide: Cu65
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 29
+#     A: 64
+#     nuclide: Cu64
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.369200E+01   1.100000E-02   8.157890E+02   2.036533E+01   9.907566E-01
+   1.447300E+01   1.600000E-02   9.192134E+02   1.219588E+01   9.864920E-01
+   1.482200E+01   1.500000E-02   9.343686E+02   1.322075E+01   9.722878E-01
+# reference:
+#   author: G.WINKLER,T.B.RYVES
+#   title: --PRECISE MEASUREMENT OF CROSS SECTIONS FOR THE  REACTION 65-CU(N,2N)64-CU IN THE 14 MEV  REGION AND SIMULTANEOUS REEVALUATION OF SOME  IMPORTANT CROSS SECTIONS AT 14.70 MEV.
+#   journal: Jour: Annals of Nuclear Energy, Vol.10, Issue.11, p.601 (1983)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.369200E+01
+#   E-max [MeV]:  1.482200E+01
+#   F-value:  1.020156E+00
+#   A-value:  1.016677E+00
+#   chi-2:  2.300792E+00
+#   p-value:  3.527968E-01
+#   exp. data sets for p-value:      8
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.020401E+00   1.017237E+00   2.415094E+00
+# endfb8.1      1.021693E+00   1.018719E+00   2.658411E+00
+# jeff4.0       1.021693E+00   1.018719E+00   2.658411E+00
+# jendl5.0      1.016156E+00   1.013364E+00   1.504078E+00
+# cendl3.2      1.017571E+00   1.011286E+00   1.823719E+00
+# eaf.2010      1.021137E+00   1.018716E+00   2.386670E+00
+# irdff2.0      1.021697E+00   1.018724E+00   2.659159E+00

@@ -1,0 +1,51 @@
+# header: 
+#   title: Co59(n,x)Co60 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Stefanescu
+#   year: 1961
+#   subentry: 30073006
+#   X4 reaction: 27-CO-59(N,G)27-CO-60,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30073006
+# target: 
+#   Z: 27
+#   A: 59
+#   nuclide: Co59
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 27
+#     A: 60
+#     nuclide: Co60
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.530000E-08   0.000000E+00   3.840000E+04   9.900000E+02   1.000000E+00
+# reference:
+#   author: AL.Stefanescu,M.Sabau
+#   title: Capture cross-section measurements for thermal neutrons
+#   journal: Jour: Revue Roumaine de Physique, Vol.6, p.311 (1961)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.530000E-08
+#   E-max [MeV]:  2.530000E-08
+#   F-value:  1.023471E+00
+#   A-value:  9.771348E-01
+#   chi-2:  1.371169E+00
+#   p-value:  2.261411E-01
+#   exp. data sets for p-value:      8
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.025237E+00   9.753846E-01   1.500596E+00
+# jendl5.0      1.021567E+00   9.788881E-01   1.241742E+00

@@ -1,0 +1,59 @@
+# header: 
+#   title: Pb207(p,x)Hg194 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Titarenko
+#   year: 2022
+#   subentry: F1462007
+#   X4 reaction: 82-PB-207(P,X)80-HG-194,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/F1462007
+# target: 
+#   Z: 82
+#   A: 207
+#   nuclide: Pb207
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 80
+#     A: 194
+#     nuclide: Hg194
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.490000E+02   1.000000E+00   2.400000E+01   2.900000E+00   1.000000E+00
+   2.500000E+02   1.000000E+00   6.680001E+01   5.000000E+00   1.000000E+00
+   4.000000E+02   2.000000E+00   7.639999E+01   6.600000E+00   1.000000E+00
+   6.000000E+02   2.000000E+00   6.260000E+01   5.100000E+00   1.000000E+00
+   7.990000E+02   2.000000E+00   4.340000E+01   4.200000E+00   1.000000E+00
+   1.199000E+03   3.000000E+00   3.720000E+01   3.300000E+00   1.000000E+00
+   1.599000E+03   4.000000E+00   3.540000E+01   5.200000E+00   1.000000E+00
+   2.610000E+03   8.000000E+00   2.200000E+01   8.400000E+00   1.000000E+00
+# reference:
+#   author: Yu.E.Titarenko,V.F.Batyaev,K.V.Pavlov,A.Yu.Titarenko, S.V.Malinovskiy,V.I.Rogov,V.M.Zhivun,T.V.Kulevoy, M.V.Chauzova,R.S.Khalikov,A.V.Ignatyuk, V.Yu.Blandinskiy,A.A.Kovalishin,M.I.Baznat, A.Yu.Stankovskiy,A.I.Dubrouski,H.I.Kiyavitskaya, Tao Xue,Yang Tian,Ming Zeng,Zhi Zeng,O.Normahmedov, T.Sato
+#   title: 206,207,208,natPb(p,x)194Hg and 209Bi(p,x)194Hg excitation functions in the energy range 0.04-2.6 GeV
+#   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.A, Vol.1026, p.166151
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  1.490000E+02
+#   E-max [MeV]:  2.610000E+03
+#   F-value:  4.931880E+00
+#   A-value:  2.338372E-01
+#   chi-2:  3.687981E+01
+#   p-value:  1.375045E-02
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.918661E+00   5.211968E-01   1.570380E+01
+# endfb8.1      4.225807E+00   2.366412E-01   3.991020E+01
+# jendl5.0      9.646092E+00   1.036689E-01   5.502542E+01

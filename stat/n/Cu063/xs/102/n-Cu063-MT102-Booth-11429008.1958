@@ -1,0 +1,56 @@
+# header: 
+#   title: Cu63(n,g)Cu64 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Booth
+#   year: 1958
+#   subentry: 11429008
+#   X4 reaction: 29-CU-63(N,G)29-CU-64,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11429008
+# target: 
+#   Z: 29
+#   A: 63
+#   nuclide: Cu63
+# reaction: 
+#   type: (n,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 29
+#     A: 64
+#     nuclide: Cu64
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.400000E-02   5.000000E-03   1.140000E+02   2.400000E+01   1.000000E+00
+# reference:
+#   author: R.Booth,W.P.Ball,M.H.Mac GRegor
+#   title: Neutron activation cross sections at 25keV.
+#   journal: Jour: Physical Review, Vol.112, p.226 (1958)
+# statistics:
+#   NEA score: T2
+#   IAEA score:  1
+#   E-min [MeV]:  2.400000E-02
+#   E-max [MeV]:  2.400000E-02
+#   F-value:  2.145837E+00
+#   A-value:  4.674436E-01
+#   chi-2:  6.539536E+00
+#   p-value:  1.231685E-01
+#   exp. data sets for p-value:      6
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.857781E+00   5.382766E-01   5.055247E+00
+# endfb8.1      2.369401E+00   4.220476E-01   7.624095E+00
+# jeff4.0       2.242276E+00   4.459755E-01   7.037314E+00
+# jendl5.0      2.135173E+00   4.683461E-01   6.516001E+00
+# cendl3.2      2.135003E+00   4.683835E-01   6.515152E+00
+# eaf.2010      2.134960E+00   4.683928E-01   6.514940E+00
+# irdff2.0      2.134774E+00   4.684337E-01   6.514012E+00

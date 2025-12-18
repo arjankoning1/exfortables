@@ -1,0 +1,62 @@
+# header: 
+#   title: C12(n,d)B11 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Pillon
+#   year: 2017
+#   subentry: 23768006
+#   X4 reaction: 6-C-12(N,D)5-B-11,PAR,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/23768006
+# target: 
+#   Z: 6
+#   A: 12
+#   nuclide: C12
+# reaction: 
+#   type: (n,d)
+#   ENDF_MF: 3
+#   ENDF_MT: 104
+#   residual: 
+#     Z: 5
+#     A: 11
+#     nuclide: B11
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.891000E+01   4.727500E-02   4.180000E+00   2.168400E-01   1.000000E+00
+   1.924000E+01   4.810000E-02   5.060000E+00   2.713000E-01   1.000000E+00
+   1.954000E+01   4.885000E-02   6.680000E+00   6.614300E-01   1.000000E+00
+   1.956000E+01   4.890000E-02   6.220000E+00   2.859700E-01   1.000000E+00
+   1.988000E+01   4.970000E-02   7.320000E+00   3.429100E-01   1.000000E+00
+   2.019000E+01   5.047500E-02   7.200000E+00   3.328700E-01   1.000000E+00
+   2.049000E+01   5.122500E-02   6.700000E+00   3.177400E-01   1.000000E+00
+   2.069000E+01   5.172500E-02   5.920000E+00   5.118600E-01   1.000000E+00
+# reference:
+#   author: M.Pillon,M.Angelone,F.Belloni,W.Geerts,S.Loreti, A.Milocco,A.J.M.Plompen
+#   title: High-resolution measurements of the exited states  (n,pn), (n,dn) C-12 cross sections
+#   journal: Jour: EPJ Web of Conferences, Vol.146, p.11005 (2017)
+# statistics:
+#   NEA score: T2
+#   IAEA score:  1
+#   E-min [MeV]:  1.891000E+01
+#   E-max [MeV]:  2.069000E+01
+#   F-value:  7.881945E+00
+#   A-value:  7.679038E+00
+#   chi-2:  2.043399E+04
+#   p-value:  0.000000E+00
+#   exp. data sets for p-value:      4
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    5.700374E+00   5.665545E+00   7.786451E+03
+# endfb8.1      1.077317E+01   1.059758E+01   3.933096E+04
+# jeff4.0       1.077317E+01   1.059758E+01   3.933096E+04
+# jendl5.0      7.152916E+00   7.105054E+00   1.416742E+04
+# cendl3.2      5.911690E+00   5.859889E+00   9.124085E+03
+# eaf.2010      9.950681E+00   9.816035E+00   3.154942E+04

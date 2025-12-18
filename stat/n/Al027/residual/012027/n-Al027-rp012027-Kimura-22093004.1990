@@ -1,0 +1,53 @@
+# header: 
+#   title: Al27(n,x)Mg27 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Kimura
+#   year: 1990
+#   subentry: 22093004
+#   X4 reaction: 13-AL-27(N,P)12-MG-27,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22093004
+# target: 
+#   Z: 13
+#   A: 27
+#   nuclide: Al27
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 12
+#     A: 27
+#     nuclide: Mg27
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.405000E+01   7.000000E-02   7.616929E+01   1.328100E+00   9.883129E-01
+# reference:
+#   author: I.Kimura, K.Kobayashi
+#   title: Calibrated fission and fusion neutron fields at the  Kyoto University Reactor
+#   journal: Jour: Nuclear Science and Engineering, Vol.106, p.332 (1990)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.405000E+01
+#   E-max [MeV]:  1.405000E+01
+#   F-value:  1.006393E+00
+#   A-value:  1.000498E+00
+#   chi-2:  4.191638E-01
+#   p-value:  3.527022E-01
+#   exp. data sets for p-value:      8
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.003074E+00   9.969351E-01   2.287330E-01
+# endfb8.1      1.003227E+00   9.967837E-01   2.404853E-01
+# jeff4.0       1.003223E+00   9.967871E-01   2.402262E-01
+# jendl5.0      1.011568E+00   1.011568E+00   9.672106E-01

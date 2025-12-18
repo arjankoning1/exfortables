@@ -1,0 +1,55 @@
+# header: 
+#   title: Mn55(n,x)Ti51 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Soewarsono
+#   year: 1992
+#   subentry: 22335005
+#   X4 reaction: 25-MN-55(N,P+A)22-TI-51,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22335005
+# target: 
+#   Z: 25
+#   A: 55
+#   nuclide: Mn55
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 112
+#   residual: 
+#     Z: 22
+#     A: 51
+#     nuclide: Ti51
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.758000E+01   1.640000E+00   5.540000E-01   7.500000E-02   1.000000E+00
+   3.280000E+01   1.440000E+00   8.700000E-01   1.050000E-01   1.000000E+00
+   3.826000E+01   1.220000E+00   6.790000E-01   1.240000E-01   1.000000E+00
+# reference:
+#   author: T.S.Soewarsono, Y.Uwamino, T.Nakamura
+#   title: Neutron activation cross section measurement from  Li-7(p,n) in the proton energy region of 20 MeV to  40 MeV
+#   journal: Conf: JAERI-M Reports, No.92-027, p.354 (1992)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.758000E+01
+#   E-max [MeV]:  3.826000E+01
+#   F-value:  1.886518E+00
+#   A-value:  1.529450E+00
+#   chi-2:  5.213727E+01
+#   p-value:  3.526644E-01
+#   exp. data sets for p-value:      2
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.582187E+00   1.446848E+00   2.291241E+01
+# endfb8.1      2.271339E+00   2.138992E+00   9.144565E+01
+# jeff4.0       2.271339E+00   2.138992E+00   9.144565E+01
+# jendl5.0      1.264370E+00   8.266076E-01   2.745354E+00

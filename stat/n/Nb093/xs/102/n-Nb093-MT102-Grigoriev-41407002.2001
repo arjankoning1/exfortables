@@ -1,0 +1,61 @@
+# header: 
+#   title: Nb93(n,g)Nb94 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Grigoriev
+#   year: 2001
+#   subentry: 41407002
+#   X4 reaction: 41-NB-93(N,G)41-NB-94,,SIG,,AV
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/41407002
+# target: 
+#   Z: 41
+#   A: 93
+#   nuclide: Nb93
+# reaction: 
+#   type: (n,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 41
+#     A: 94
+#     nuclide: Nb94
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.400000E-05   1.250000E-05   8.900000E+02   3.600000E+02   1.000000E+00
+   7.325000E-05   2.675000E-05   1.600000E+02   2.000000E+01   1.000000E+00
+   1.575000E-04   5.750000E-05   3.000000E+03   7.000000E+01   1.000000E+00
+   3.400000E-04   1.250000E-04   1.690000E+03   1.000000E+02   1.000000E+00
+   7.325000E-04   2.675000E-04   1.190000E+03   1.100000E+02   1.000000E+00
+   1.575000E-03   5.750000E-04   1.530000E+03   1.500000E+02   1.000000E+00
+# reference:
+#   author: Yu.V.Grigoriev, V.Ya.Kitaev, B.V.Zhuravlev,  V.V.Sinitsa, S.B.Borzakov, H.Faikov-Stanchik,  G.L.Ilchev, Zh.V.Mezentseva, Ts.Ts.Panteleev, G.N.Kim
+#   title: .Investigation of the 93Nb Neutron cross-sections  in resonance energy range
+#   journal: Jour: Vop.At.Nauki i Tekhn.,Ser.Yaderno-Reak.Konstanty, Issue.1, p.5 (20
+# statistics:
+#   NEA score: T3
+#   IAEA score: -1
+#   E-min [MeV]:  3.400000E-05
+#   E-max [MeV]:  1.575000E-03
+#   F-value:  1.085676E+01
+#   A-value:  2.446957E-01
+#   chi-2:  3.365880E+02
+#   p-value:  1.318448E-01
+#   exp. data sets for p-value:      3
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.153456E+01   2.250519E-01   3.379778E+02
+# endfb8.1      1.190437E+01   2.318745E-01   3.377464E+02
+# jeff4.0       1.153440E+01   2.250564E-01   3.379776E+02
+# jendl5.0      1.146764E+01   2.382783E-01   3.364455E+02
+# cendl3.2      1.190436E+01   2.318744E-01   3.377463E+02
+# eaf.2010      6.448478E+00   3.568240E-01   3.313527E+02
+# irdff2.0      1.195420E+01   2.268646E-01   3.368695E+02

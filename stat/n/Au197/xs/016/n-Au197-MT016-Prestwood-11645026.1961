@@ -1,0 +1,65 @@
+# header: 
+#   title: Au197(n,2n)Au196 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Prestwood
+#   year: 1961
+#   subentry: 11645026
+#   X4 reaction: 79-AU-197(N,2N)79-AU-196,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11645026
+# target: 
+#   Z: 79
+#   A: 197
+#   nuclide: Au197
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 79
+#     A: 196
+#     nuclide: Au196
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.213000E+01   1.500000E-01   2.081000E+03   1.040000E+02   1.000000E+00
+   1.340000E+01   2.000000E-01   2.330000E+03   1.170000E+02   1.000000E+00
+   1.369000E+01   1.000000E-01   2.369000E+03   1.180000E+02   1.000000E+00
+   1.401000E+01   1.000000E-01   2.403000E+03   1.200000E+02   1.000000E+00
+   1.431000E+01   1.300000E-01   2.420000E+03   1.210000E+02   1.000000E+00
+   1.450000E+01   2.000000E-01   2.403000E+03   1.200000E+02   1.000000E+00
+   1.481000E+01   3.100000E-01   2.356000E+03   1.180000E+02   1.000000E+00
+   1.650000E+01   3.000000E-01   1.860000E+03   1.860000E+02   1.000000E+00
+   1.795000E+01   3.200000E-01   1.398000E+03   1.400000E+02   1.000000E+00
+   1.976000E+01   4.300000E-01   1.111000E+03   1.110000E+02   1.000000E+00
+# reference:
+#   author: R.J.PRESTWOOD,B.P.BAYHURST
+#   title: (N,2N) EXCITATION FUNCTIONS OF SEVERAL NUCLEI FROM 12.0 TO 19.8 MEV.
+#   journal: Jour: Physical Review, Vol.121, p.1438 (1961)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.213000E+01
+#   E-max [MeV]:  1.976000E+01
+#   F-value:  1.135750E+00
+#   A-value:  9.564338E-01
+#   chi-2:  4.534191E+00
+#   p-value:  1.441830E-01
+#   exp. data sets for p-value:      2
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.130500E+00   9.483504E-01   4.418270E+00
+# endfb8.1      1.129947E+00   9.488702E-01   4.377549E+00
+# jeff4.0       1.160973E+00   9.833351E-01   5.170770E+00
+# jendl5.0      1.112826E+00   9.920940E-01   2.853426E+00
+# cendl3.2      1.158599E+00   8.980753E-01   7.125604E+00
+# eaf.2010      1.121505E+00   9.786661E-01   3.416065E+00
+# irdff2.0      1.129949E+00   9.488710E-01   4.377649E+00

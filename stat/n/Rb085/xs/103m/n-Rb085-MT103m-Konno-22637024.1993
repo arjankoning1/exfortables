@@ -1,0 +1,65 @@
+# header: 
+#   title: Rb85(n,p)Kr85m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Konno
+#   year: 1993
+#   subentry: 22637024
+#   X4 reaction: 37-RB-85(N,P)36-KR-85-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22637024
+# target: 
+#   Z: 37
+#   A: 85
+#   nuclide: Rb85
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 36
+#     A: 85
+#     nuclide: Kr85m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.333000E+01   0.000000E+00   3.878600E+00   6.447800E-01   9.919611E-01
+   1.356000E+01   0.000000E+00   3.938100E+00   5.204600E-01   9.919611E-01
+   1.375000E+01   0.000000E+00   3.997600E+00   6.332700E-01   9.919611E-01
+   1.398000E+01   0.000000E+00   3.928200E+00   3.397800E-01   9.919611E-01
+   1.422000E+01   0.000000E+00   3.828970E+00   4.064400E-01   9.919611E-01
+   1.442000E+01   0.000000E+00   3.878600E+00   4.269000E-01   9.919611E-01
+   1.466000E+01   0.000000E+00   3.521500E+00   5.461600E-01   9.919611E-01
+   1.492000E+01   0.000000E+00   4.037300E+00   6.431000E-01   9.919611E-01
+# reference:
+#   author: C.Konno, Y.Ikeda, K.Oishi, K.Kawade, H.Yamamoto, H.Maekawa
+#   title: Activation Cross section measurements at neutron  energy from 13.3 to 14.9 MeV
+#   journal: Rept: JAERI Reports, No.1329 (1993)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.333000E+01
+#   E-max [MeV]:  1.492000E+01
+#   F-value:  1.258074E+00
+#   A-value:  1.181795E+00
+#   chi-2:  5.095169E+00
+#   p-value:  1.922325E-01
+#   exp. data sets for p-value:      4
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.239808E+00   1.233019E+00   4.188619E+00
+# jeff4.0       1.017704E+00   9.983013E-01   1.143632E-01
+# jendl5.0      1.485357E+00   1.481677E+00   1.518563E+01
+# eaf.2010      1.092176E+00   1.069506E+00   8.920676E-01

@@ -1,0 +1,53 @@
+# header: 
+#   title: Tl205(n,t)Hg203 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Woo
+#   year: 1979
+#   subentry: 10806013
+#   X4 reaction: 81-TL-205(N,T)80-HG-203,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/10806013
+# target: 
+#   Z: 81
+#   A: 205
+#   nuclide: Tl205
+# reaction: 
+#   type: (n,t)
+#   ENDF_MF: 3
+#   ENDF_MT: 105
+#   residual: 
+#     Z: 80
+#     A: 203
+#     nuclide: Hg203
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.460000E+01   0.000000E+00   3.300000E-02   8.000000E-03   1.000000E+00
+# reference:
+#   author: T.W.Woo,G.N.Salaita
+#   title: Production cross sections for (n,t) reaction in 40Ca,  54Fe, 86Sr, 89Y, 102Pd, 112Sn, 106Cd, 114Cd, 130Te,  139La, 204Pb, and 205Tl with 14.6 MeV neutrons.
+#   journal: Conf: Conf.on Nucl.Cross Sections F.Techn.,Knoxville 1979, p.853 (1979)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  1.460000E+01
+#   E-max [MeV]:  1.460000E+01
+#   F-value:  1.449324E+01
+#   A-value:  9.980838E-02
+#   chi-2:  1.155768E+01
+#   p-value:  3.173105E-01
+#   exp. data sets for p-value:      2
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    2.670778E+01   3.744227E-02   1.576753E+01
+# jeff4.0       2.670778E+01   3.744227E-02   1.576753E+01
+# jendl5.0      1.412721E+01   7.078540E-02   1.469568E+01
+# eaf.2010      1.000000E+00   1.000000E+00   8.673616E-13

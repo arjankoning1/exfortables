@@ -1,0 +1,52 @@
+# header: 
+#   title: Rh103(n,x)Rh104 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Gibbons
+#   year: 1961
+#   subentry: 11329025
+#   X4 reaction: 45-RH-103(N,G)45-RH-104,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11329025
+# target: 
+#   Z: 45
+#   A: 103
+#   nuclide: Rh103
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 45
+#     A: 104
+#     nuclide: Rh104
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   6.500000E-02   2.000000E-02   5.400000E+02   4.860000E+01   1.000000E+00
+# reference:
+#   author: J.H.Gibbons,R.L.Macklin,P.D.Miller,J.H.Neiler
+#   title: Average radiative capture cross sections for 7- to 170-keV neutrons.
+#   journal: Jour: Physical Review, Vol.122, p.182 (1961)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  6.500000E-02
+#   E-max [MeV]:  6.500000E-02
+#   F-value:  1.029838E+00
+#   A-value:  1.001144E+00
+#   chi-2:  4.145482E-01
+#   p-value:  2.357621E-01
+#   exp. data sets for p-value:      8
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.019825E+00   9.805605E-01   2.835593E-01
+# jeff4.0       1.019825E+00   9.805603E-01   2.835620E-01
+# jendl5.0      1.043617E+00   1.043617E+00   6.765232E-01

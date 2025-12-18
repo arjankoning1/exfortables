@@ -1,0 +1,77 @@
+# header: 
+#   title: U238(n,n'_01)U239 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Guenther
+#   year: 1975
+#   subentry: 10560003
+#   X4 reaction: 92-U-238(N,INL)92-U-238,PAR,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/10560003
+#   level energy [MeV]:  4.50000E-02
+# target: 
+#   Z: 92
+#   A: 238
+#   nuclide: U238
+# reaction: 
+#   type: (n,n'_01)
+#   ENDF_MF: 3
+#   ENDF_MT: 51
+#   level: 
+#     number: 1
+#     energy [MeV]:  4.491600E-02
+#     spin:  2.000000E+00
+#     parity: 1
+#   residual: 
+#     Z: 92
+#     A: 239
+#     nuclide: U239
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 18
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.500000E-01   0.000000E+00   1.320000E+03   2.600000E+02   1.000000E+00
+   1.750000E-01   0.000000E+00   1.330000E+03   1.600000E+02   1.000000E+00
+   2.000000E-01   0.000000E+00   1.140000E+03   1.600000E+02   1.000000E+00
+   2.250000E-01   0.000000E+00   1.430000E+03   1.400000E+02   1.000000E+00
+   2.500000E-01   0.000000E+00   1.610000E+03   1.900000E+02   1.000000E+00
+   2.750000E-01   0.000000E+00   1.650000E+03   1.000000E+02   1.000000E+00
+   3.000000E-01   0.000000E+00   1.810000E+03   2.200000E+02   1.000000E+00
+   3.250000E-01   0.000000E+00   1.590000E+03   9.000000E+01   1.000000E+00
+   3.500000E-01   0.000000E+00   1.630000E+03   1.100000E+02   1.000000E+00
+   3.750000E-01   0.000000E+00   1.660000E+03   1.300000E+02   1.000000E+00
+   4.000000E-01   0.000000E+00   1.580000E+03   1.100000E+02   1.000000E+00
+   4.250000E-01   0.000000E+00   1.480000E+03   1.000000E+02   1.000000E+00
+   4.500000E-01   0.000000E+00   1.570000E+03   1.200000E+02   1.000000E+00
+   4.750000E-01   0.000000E+00   1.450000E+03   1.200000E+02   1.000000E+00
+   5.000000E-01   0.000000E+00   1.620000E+03   8.000000E+01   1.000000E+00
+   5.350000E-01   0.000000E+00   1.530000E+03   9.000000E+01   1.000000E+00
+   5.650000E-01   0.000000E+00   1.430000E+03   7.000000E+01   1.000000E+00
+   6.110000E-01   0.000000E+00   1.580000E+03   7.000000E+01   1.000000E+00
+# reference:
+#   author: P.Guenther,D.Havel,A.Smith
+#   title: Fast neutron excitation of the ground-state rotational band of 238U
+#   journal: Rept: Argonne National Laboratory Reports, No.16 (1975)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.500000E-01
+#   E-max [MeV]:  6.110000E-01
+#   F-value:  1.217955E+00
+#   A-value:  8.695895E-01
+#   chi-2:  3.867173E+00
+#   p-value:  2.843682E-01
+#   exp. data sets for p-value:      2
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2025    1.223171E+00   8.792036E-01   3.615693E+00
+# endfb8.1      1.223653E+00   8.788751E-01   3.630690E+00
+# jeff4.0       1.197257E+00   8.621341E-01   4.014555E+00
+# jendl5.0      1.223653E+00   8.788751E-01   3.630690E+00
+# cendl3.2      1.221139E+00   8.492840E-01   4.444234E+00

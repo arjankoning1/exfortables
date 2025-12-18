@@ -1,0 +1,66 @@
+# header: 
+#   title: U235(n,x)U234 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Frehaut
+#   year: 1980
+#   subentry: 21568004
+#   X4 reaction: 92-U-235(N,2N)92-U-234,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21568004
+# target: 
+#   Z: 92
+#   A: 235
+#   nuclide: U235
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 92
+#     A: 234
+#     nuclide: U234
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 16
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.730000E+00   1.800000E-01   4.000000E+00   2.400000E+01   1.000000E+00
+   5.980000E+00   1.800000E-01   1.260000E+02   2.300000E+01   1.000000E+00
+   6.490000E+00   1.700000E-01   2.670000E+02   3.000000E+01   1.000000E+00
+   7.010000E+00   1.600000E-01   3.520000E+02   3.200000E+01   1.000000E+00
+   7.520000E+00   1.500000E-01   4.580000E+02   3.400000E+01   1.000000E+00
+   8.030000E+00   2.300000E-01   4.830000E+02   3.800000E+01   1.000000E+00
+   8.540000E+00   1.400000E-01   6.180000E+02   5.200000E+01   1.000000E+00
+   9.040000E+00   1.300000E-01   6.450000E+02   4.300000E+01   1.000000E+00
+   9.550000E+00   1.300000E-01   7.380000E+02   4.800000E+01   1.000000E+00
+   1.006000E+01   1.200000E-01   7.760000E+02   4.800000E+01   1.000000E+00
+   1.056000E+01   1.200000E-01   7.790000E+02   5.500000E+01   1.000000E+00
+   1.107000E+01   1.100000E-01   8.570001E+02   6.600001E+01   1.000000E+00
+   1.157000E+01   1.100000E-01   8.560001E+02   7.100000E+01   1.000000E+00
+   1.208000E+01   1.100000E-01   8.490000E+02   8.500001E+01   1.000000E+00
+   1.258000E+01   1.000000E-01   8.520001E+02   1.090000E+02   1.000000E+00
+   1.309000E+01   1.000000E-01   7.070000E+02   1.100000E+02   1.000000E+00
+# reference:
+#   author: J.Frehaut, A.Bertin, R.Bois
+#   title: Measurement of the U-235(n,2n) cross section between  threshold and 13 MeV
+#   journal: Jour: Nuclear Science and Engineering, Vol.74, p.29 (1980)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  5.730000E+00
+#   E-max [MeV]:  1.309000E+01
+#   F-value:  2.087366E+00
+#   A-value:  1.260516E+00
+#   chi-2:  1.558406E+00
+#   p-value:  3.488654E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    2.004339E+00   1.259687E+00   1.557761E+00
+# jendl5.0      2.169219E+00   1.261345E+00   1.559050E+00

@@ -1,0 +1,57 @@
+# header: 
+#   title: C0(p,x)Be7 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Baecker
+#   year: 2019
+#   subentry: O2474003
+#   X4 reaction: 6-C-0(P,X)4-BE-7,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O2474003
+# target: 
+#   Z: 6
+#   A: 0
+#   nuclide: C0
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 4
+#     A: 7
+#     nuclide: Be7
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.200000E+02   1.000000E+00   1.560000E+01   8.062300E-01   1.000000E+00
+   1.400000E+02   1.000000E+00   1.420000E+01   8.062300E-01   1.000000E+00
+   1.600000E+02   1.000000E+00   1.290000E+01   5.831000E-01   1.000000E+00
+   1.800000E+02   1.000000E+00   1.220000E+01   5.831000E-01   1.000000E+00
+   2.000000E+02   1.000000E+00   1.290000E+01   5.831000E-01   1.000000E+00
+   2.200000E+02   1.000000E+00   1.110000E+01   4.242600E-01   1.000000E+00
+# reference:
+#   author: C.M.Baecker, C.Baeumer, M.Gerhardt, K.Kroeninger,  C.Nitsch, H.M.Siregar, B.Timmermann, N.Verbeek,  J.Weingarten, J.Wulff, A.Yazgan
+#   title: Measurement of nuclear activation cross sections of  protons on natural carbon for proton beam energies  between 100 and 220 MeV
+#   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.454, p.50 (201
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.200000E+02
+#   E-max [MeV]:  2.200000E+02
+#   F-value:  1.348154E+00
+#   A-value:  1.142836E+00
+#   chi-2:  5.733400E+01
+#   p-value:  3.566787E-01
+#   exp. data sets for p-value:      2
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.250355E+00   1.218660E+00   2.539585E+01
+# endfb8.1      1.992502E+00   1.988985E+00   3.334972E+02
+# jendl5.0      1.118366E+00   9.220619E-01   5.295450E+00

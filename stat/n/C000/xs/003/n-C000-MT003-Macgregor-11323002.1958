@@ -1,0 +1,50 @@
+# header: 
+#   title: C0(n,non) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Macgregor
+#   year: 1958
+#   subentry: 11323002
+#   X4 reaction: 6-C-0(N,NON),,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11323002
+# target: 
+#   Z: 6
+#   A: 0
+#   nuclide: C0
+# reaction: 
+#   type: (n,non)
+#   ENDF_MF: 3
+#   ENDF_MT: 3
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.800000E+00   2.000000E-01   1.200000E+02   3.000000E+01   1.000000E+00
+   7.000000E+00   2.000000E-01   1.800000E+02   3.000000E+01   1.000000E+00
+# reference:
+#   author: M.H.MacGregor,R.Booth
+#   title: Neutron Nonelastic Cross-Section Measurements on Carbon
+#   journal: Jour: Physical Review, Vol.112, p.486 (1958)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  5.800000E+00
+#   E-max [MeV]:  7.000000E+00
+#   F-value:  1.586073E+00
+#   A-value:  1.387337E+00
+#   chi-2:  1.057208E+01
+#   p-value:  2.546037E-01
+#   exp. data sets for p-value:      1
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    2.263151E+00   2.251250E+00   3.720458E+01
+# endfb8.1      1.302351E+00   1.195603E+00   1.896070E+00
+# jeff4.0       1.302351E+00   1.195603E+00   1.896070E+00
+# cendl3.2      1.234497E+00   1.151146E+00   1.291617E+00

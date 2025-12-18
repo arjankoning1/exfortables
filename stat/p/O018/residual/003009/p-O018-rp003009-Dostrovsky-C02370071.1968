@@ -1,0 +1,51 @@
+# header: 
+#   title: O18(p,x)Li9 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Dostrovsky
+#   year: 1968
+#   subentry: C02370071
+#   X4 reaction: 8-O-18(P,X)3-LI-9,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C02370071
+# target: 
+#   Z: 8
+#   A: 18
+#   nuclide: O18
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 3
+#     A: 9
+#     nuclide: Li9
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.560000E+02   0.000000E+00   1.110000E-01   2.800000E-02   1.000000E+00
+# reference:
+#   author: I.Dostrovsky,H.Gauvin,M.Lefort
+#   title: (p,xp) and (p,xpya) Reactions of 156-MeV Protons  with Light Targets (A=11 to A=27)
+#   journal: Jour: Physical Review, Vol.169, p.836 (1968)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  1.560000E+02
+#   E-max [MeV]:  1.560000E+02
+#   F-value:  4.508286E+00
+#   A-value:  3.344187E-01
+#   chi-2:  6.262003E+00
+#   p-value:  1.643981E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.063894E+00   9.399436E-01   3.140854E-01
+# jendl5.0      8.404670E+00   1.189815E-01   1.220992E+01

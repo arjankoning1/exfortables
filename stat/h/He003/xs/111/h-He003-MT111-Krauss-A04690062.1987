@@ -1,0 +1,52 @@
+# header: 
+#   title: He3(h,2p)He4 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Krauss
+#   year: 1987
+#   subentry: A04690062
+#   X4 reaction: 2-HE-3(HE3,2P)2-HE-4,,SIG,,SFC
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/A04690062
+# target: 
+#   Z: 2
+#   A: 3
+#   nuclide: He3
+# reaction: 
+#   type: (h,2p)
+#   ENDF_MF: 3
+#   ENDF_MT: 111
+#   residual: 
+#     Z: 2
+#     A: 4
+#     nuclide: He4
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   9.800000E-02   0.000000E+00   2.971600E-05   2.020700E-06   1.000000E+00
+   3.410000E-01   0.000000E+00   2.157100E-01   8.157100E-03   1.000000E+00
+   3.410000E-01   0.000000E+00   2.143500E-01   7.250700E-03   1.000000E+00
+# reference:
+#   author: A.Krauss,H.W.Becker,H.P.Trautvetter,C.Rolfs
+#   title: Astrophysical S(E) factor of He-3(He-3,2p)He-4 at solar energies
+#   journal: Jour: Nuclear Physics, Section A, Vol.467, p.273 (1987)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  9.800000E-02
+#   E-max [MeV]:  3.410000E-01
+#   F-value:  1.015105E+00
+#   A-value:  1.014605E+00
+#   chi-2:  5.763389E-01
+#   p-value:  4.483912E-01
+#   exp. data sets for p-value:      4
+#   libraries:      1
+##  Library          F              A            chi-2
+# endfb8.1      1.015105E+00   1.014605E+00   5.763389E-01

@@ -1,0 +1,64 @@
+# header: 
+#   title: V51(p,x)Cr51 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Harris
+#   year: 1965
+#   subentry: T0030002
+#   X4 reaction: 23-V-51(P,N)24-CR-51,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/T0030002
+# target: 
+#   Z: 23
+#   A: 51
+#   nuclide: V51
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+#   residual: 
+#     Z: 24
+#     A: 51
+#     nuclide: Cr51
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 14
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.580000E+00   0.000000E+00   3.024500E-01   2.349100E-02   9.788093E-01
+   1.590000E+00   0.000000E+00   2.182700E-01   1.370300E-02   9.788093E-01
+   1.600000E+00   0.000000E+00   3.602000E-01   2.153400E-02   9.788093E-01
+   1.620000E+00   0.000000E+00   4.600400E-01   3.132200E-02   9.788093E-01
+   1.640000E+00   0.000000E+00   6.440600E-01   3.328000E-02   9.788093E-01
+   1.660000E+00   0.000000E+00   6.616800E-01   0.000000E+00   9.788093E-01
+   1.700000E+00   0.000000E+00   1.213700E+00   0.000000E+00   9.788093E-01
+   1.740000E+00   0.000000E+00   6.117600E-01   0.000000E+00   9.788093E-01
+   1.800000E+00   0.000000E+00   1.478000E+00   0.000000E+00   9.788093E-01
+   1.860000E+00   0.000000E+00   1.693340E+00   0.000000E+00   9.788093E-01
+   1.950000E+00   0.000000E+00   3.142000E+00   0.000000E+00   9.788093E-01
+   2.090000E+00   0.000000E+00   5.403000E+00   0.000000E+00   9.788093E-01
+   2.140000E+00   0.000000E+00   9.435700E+00   0.000000E+00   9.788093E-01
+   2.280000E+00   0.000000E+00   1.125631E+01   3.641200E-01   9.788093E-01
+# reference:
+#   author: K.K.HARRIS,H.A.GRENCH,R.G.JOHNSON,F.J.VAUGHN
+#   title: The V51(p,n)Cr51 reaction as a neutron source of  known intensity
+#   journal: Jour: Nuclear Instrum.and Methods in Physics Res., Vol.33, p.257 (1965)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.580000E+00
+#   E-max [MeV]:  2.280000E+00
+#   F-value:  2.069736E+00
+#   A-value:  1.864852E+00
+#   chi-2:  9.179388E+01
+#   p-value:  2.332369E-01
+#   exp. data sets for p-value:      4
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    2.109333E+00   1.914397E+00   1.175361E+02
+# jendl5.0      1.546111E+00   1.507837E+00   1.121982E+02

@@ -1,0 +1,55 @@
+# header: 
+#   title: Si30(n,g)Si31 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Booth
+#   year: 1958
+#   subentry: 11429003
+#   X4 reaction: 14-SI-30(N,G)14-SI-31,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11429003
+# target: 
+#   Z: 14
+#   A: 30
+#   nuclide: Si30
+# reaction: 
+#   type: (n,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 14
+#     A: 31
+#     nuclide: Si31
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.400000E-02   5.000000E-03   1.900000E+00   1.500000E+00   1.000000E+00
+# reference:
+#   author: R.Booth,W.P.Ball,M.H.Mac GRegor
+#   title: Neutron activation cross sections at 25keV.
+#   journal: Jour: Physical Review, Vol.112, p.226 (1958)
+# statistics:
+#   NEA score: T2
+#   IAEA score:  1
+#   E-min [MeV]:  2.400000E-02
+#   E-max [MeV]:  2.400000E-02
+#   F-value:  3.438238E+00
+#   A-value:  2.913832E-01
+#   chi-2:  1.388055E+00
+#   p-value:  4.768372E-07
+#   exp. data sets for p-value:      2
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    3.581566E+00   2.792075E-01   1.419032E+00
+# endfb8.1      3.464815E+00   2.886157E-01   1.396095E+00
+# jeff4.0       3.464815E+00   2.886157E-01   1.396095E+00
+# jendl5.0      3.581566E+00   2.792075E-01   1.419032E+00
+# cendl3.2      3.581509E+00   2.792119E-01   1.419021E+00
+# eaf.2010      2.962383E+00   3.375661E-01   1.279056E+00

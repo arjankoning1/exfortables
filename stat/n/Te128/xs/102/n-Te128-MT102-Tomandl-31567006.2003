@@ -1,0 +1,54 @@
+# header: 
+#   title: Te128(n,g)Te129 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Tomandl
+#   year: 2003
+#   subentry: 31567006
+#   X4 reaction: 52-TE-128(N,G)52-TE-129,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/31567006
+# target: 
+#   Z: 52
+#   A: 128
+#   nuclide: Te128
+# reaction: 
+#   type: (n,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 52
+#     A: 129
+#     nuclide: Te129
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.530000E-08   0.000000E+00   2.400000E+02   3.000000E+01   1.000000E+00
+# reference:
+#   author: I.Tomandl,J.Honzatko,T.von Egidy,H.-F.Wirth,T.Belgya, M.Lakatos,L.Szentmiklosi,Zs.Revay,G.L.Molnar, R.B.Firestone,V.Bondarenko
+#   title: Thermal neutron capture cross sections of tellurium isotopes
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.68, p.067602 (2003)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.530000E-08
+#   E-max [MeV]:  2.530000E-08
+#   F-value:  1.183930E+00
+#   A-value:  8.523188E-01
+#   chi-2:  2.040988E+00
+#   p-value:  8.995026E-02
+#   exp. data sets for p-value:      2
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2025    1.170807E+00   8.541118E-01   1.944945E+00
+# endfb8.1      1.174280E+00   8.515854E-01   1.990023E+00
+# jeff4.0       1.170807E+00   8.541118E-01   1.944945E+00
+# jendl5.0      1.280978E+00   7.806534E-01   3.496111E+00
+# eaf.2010      1.078215E+00   9.274584E-01   8.289169E-01

@@ -1,0 +1,58 @@
+# header: 
+#   title: Rh103(n,x)Rh104 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Csikai
+#   year: 1967
+#   subentry: 30067021
+#   X4 reaction: 45-RH-103(N,G)45-RH-104,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30067021
+# target: 
+#   Z: 45
+#   A: 103
+#   nuclide: Rh103
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 45
+#     A: 104
+#     nuclide: Rh104
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.340000E+01   0.000000E+00   1.660000E+01   8.000000E-01   1.000000E+00
+   1.360000E+01   0.000000E+00   1.600000E+01   8.000000E-01   1.000000E+00
+   1.390000E+01   0.000000E+00   1.500000E+01   7.000000E-01   1.000000E+00
+   1.410000E+01   0.000000E+00   1.460000E+01   7.000000E-01   1.000000E+00
+   1.430000E+01   0.000000E+00   1.380000E+01   7.000000E-01   1.000000E+00
+   1.450000E+01   0.000000E+00   1.330000E+01   7.000000E-01   1.000000E+00
+   1.500000E+01   0.000000E+00   1.290000E+01   6.000000E-01   1.000000E+00
+# reference:
+#   author: J.Csikai, G.Peto, M.Buczko, Z.Miligy, N.A.Eissa
+#   title: Radiative capture cross sections for 14.7 MeV neutrons
+#   journal: Jour: Nuclear Physics, Section A, Vol.95, p.229 (1967)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  1.340000E+01
+#   E-max [MeV]:  1.500000E+01
+#   F-value:  1.441072E+01
+#   A-value:  6.943502E-02
+#   chi-2:  3.632908E+02
+#   p-value:  1.788139E-07
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.406150E+01   7.113402E-02   3.620266E+02
+# jeff4.0       1.406150E+01   7.113402E-02   3.620266E+02
+# jendl5.0      1.512533E+01   6.615774E-02   3.658195E+02

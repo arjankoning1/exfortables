@@ -1,0 +1,56 @@
+# header: 
+#   title: Co59(n,g)Co60 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Silk
+#   year: 1970
+#   subentry: 21472002
+#   X4 reaction: 27-CO-59(N,G)27-CO-60,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21472002
+# target: 
+#   Z: 27
+#   A: 59
+#   nuclide: Co59
+# reaction: 
+#   type: (n,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 27
+#     A: 60
+#     nuclide: Co60
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.530000E-08   0.000000E+00   3.724000E+04   1.100000E+02   1.000000E+00
+# reference:
+#   author: M.G.Silk,B.O.Wade,J.S.Williams
+#   title: A pulsed neutron determination of the thermal neutron absorption cross-section of cobalt-59.
+#   journal: Jour: Journal of Nuclear Energy, Vol.24, p.43 (1970)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.530000E-08
+#   E-max [MeV]:  2.530000E-08
+#   F-value:  1.015683E+00
+#   A-value:  9.855491E-01
+#   chi-2:  2.722267E+01
+#   p-value:  3.512619E-01
+#   exp. data sets for p-value:      8
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.012928E+00   9.872365E-01   1.867185E+01
+# endfb8.1      1.013328E+00   9.868477E-01   1.982653E+01
+# jeff4.0       1.013328E+00   9.868477E-01   1.982653E+01
+# jendl5.0      1.009945E+00   9.901525E-01   1.113322E+01
+# cendl3.2      1.028155E+00   9.726158E-01   8.594725E+01
+# eaf.2010      1.012101E+00   9.880440E-01   1.638496E+01
+# irdff2.0      1.012962E+00   9.872035E-01   1.876834E+01

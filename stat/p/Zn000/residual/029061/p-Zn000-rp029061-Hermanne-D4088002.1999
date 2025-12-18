@@ -1,0 +1,53 @@
+# header: 
+#   title: Zn0(p,x)Cu61 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Hermanne
+#   year: 1999
+#   subentry: D4088002
+#   X4 reaction: 30-ZN-0(P,X)29-CU-61,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D4088002
+# target: 
+#   Z: 30
+#   A: 0
+#   nuclide: Zn0
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 29
+#     A: 61
+#     nuclide: Cu61
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.270000E+01   4.000000E-01   1.100000E+01   3.500000E+00   1.000000E+00
+   3.300000E+01   4.000000E-01   8.809999E+00   2.150000E+00   1.000000E+00
+   3.360000E+01   4.000000E-01   1.500000E+01   4.200000E+00   1.000000E+00
+# reference:
+#   author: A.HERMANNE, F.SZELECSENYI, M.SONCK, S.TAKACS,  F.TARKANYI, P.VAN DEN WINKEL
+#   title: New Cross Section Data on 68Zn(p,2n)67Ga and natZn(p,xn)67Ga Nuclear Reactions for the Development of a Reference Data Base
+#   journal: Jour: Journal of Radioanalytical and Nuclear Chemistry, Vol.240, p.623 (
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  3.270000E+01
+#   E-max [MeV]:  3.360000E+01
+#   F-value:  1.444082E+00
+#   A-value:  8.126535E-01
+#   chi-2:  1.456109E+00
+#   p-value:  2.276734E-01
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.653730E+00   6.271113E-01   2.291054E+00
+# jendl5.0      1.139403E+00   1.053092E+00   6.211643E-01

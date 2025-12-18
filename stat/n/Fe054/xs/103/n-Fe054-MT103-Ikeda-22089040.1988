@@ -1,0 +1,63 @@
+# header: 
+#   title: Fe54(n,p)Mn54 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Ikeda
+#   year: 1988
+#   subentry: 22089040
+#   X4 reaction: 26-FE-54(N,P)25-MN-54,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22089040
+# target: 
+#   Z: 26
+#   A: 54
+#   nuclide: Fe54
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 25
+#     A: 54
+#     nuclide: Mn54
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.332000E+01   0.000000E+00   4.231016E+02   1.900456E+01   1.000240E+00
+   1.355000E+01   0.000000E+00   3.910939E+02   1.700408E+01   1.000240E+00
+   1.374000E+01   0.000000E+00   3.750900E+02   1.700408E+01   1.000240E+00
+   1.397000E+01   0.000000E+00   3.510843E+02   1.600384E+01   1.000240E+00
+   1.421000E+01   0.000000E+00   3.370809E+02   1.500360E+01   1.000240E+00
+   1.441000E+01   0.000000E+00   3.000720E+02   1.400336E+01   1.000240E+00
+   1.464000E+01   0.000000E+00   2.870689E+02   1.300312E+01   1.000240E+00
+   1.489000E+01   0.000000E+00   2.720653E+02   1.300312E+01   1.000240E+00
+# reference:
+#   author: Y.Ikeda,C.Konno,K.Oishi,T.Nakamura,H.Miyade, K.Kawade,  H.Yamamoto, T.Katoh
+#   title: Activation cross section measurements for fusion  reactor structural materials at neutron energy from  13.3 to 15.0 MeV using FNS facility
+#   journal: Rept: JAERI Reports, No.1312 (1988)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.332000E+01
+#   E-max [MeV]:  1.489000E+01
+#   F-value:  1.057574E+00
+#   A-value:  1.019711E+00
+#   chi-2:  1.976595E+00
+#   p-value:  2.865425E-01
+#   exp. data sets for p-value:      7
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.024161E+00   9.965450E-01   6.124868E-01
+# endfb8.1      1.023638E+00   9.990791E-01   5.741076E-01
+# jeff4.0       1.023638E+00   9.990791E-01   5.741076E-01
+# jendl5.0      1.023208E+00   9.839585E-01   5.134659E-01
+# cendl3.2      1.040614E+00   1.028515E+00   1.097085E+00
+# eaf.2010      1.141823E+00   1.139782E+00   9.877030E+00
+# irdff2.0      1.024198E+00   9.991550E-01   5.878837E-01

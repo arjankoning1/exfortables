@@ -1,0 +1,56 @@
+# header: 
+#   title: Cu63(n,2n)Cu62 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Forbes
+#   year: 1952
+#   subentry: 11474006
+#   X4 reaction: 29-CU-63(N,2N)29-CU-62,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11474006
+# target: 
+#   Z: 29
+#   A: 63
+#   nuclide: Cu63
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 29
+#     A: 62
+#     nuclide: Cu62
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.410000E+01   0.000000E+00   5.100000E+02   3.570000E+01   1.000000E+00
+# reference:
+#   author: S.G.Forbes
+#   title: Activation Cross Sections for 14-Mev Neutrons
+#   journal: Jour: Physical Review, Vol.88, p.1309 (1952)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.410000E+01
+#   E-max [MeV]:  1.410000E+01
+#   F-value:  1.095920E+00
+#   A-value:  9.149013E-01
+#   chi-2:  2.095791E+00
+#   p-value:  2.629751E-01
+#   exp. data sets for p-value:      8
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.108588E+00   9.020487E-01   2.495368E+00
+# endfb8.1      1.105363E+00   9.046806E-01   2.401198E+00
+# jeff4.0       1.105363E+00   9.046806E-01   2.401198E+00
+# jendl5.0      1.039661E+00   9.618524E-01   7.717760E-01
+# cendl3.2      1.106987E+00   9.033529E-01   2.448450E+00
+# eaf.2010      1.081591E+00   9.245636E-01   1.751434E+00
+# irdff2.0      1.105359E+00   9.046831E-01   2.401111E+00

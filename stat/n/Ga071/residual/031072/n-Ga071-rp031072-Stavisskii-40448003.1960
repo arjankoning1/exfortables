@@ -1,0 +1,58 @@
+# header: 
+#   title: Ga71(n,x)Ga72 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Stavisskii
+#   year: 1960
+#   subentry: 40448003
+#   X4 reaction: 31-GA-71(N,G)31-GA-72,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/40448003
+# target: 
+#   Z: 31
+#   A: 71
+#   nuclide: Ga71
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 31
+#     A: 72
+#     nuclide: Ga72
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.700000E-01   1.000000E-01   2.720000E+01   1.200000E+00   1.000000E+00
+   4.700000E-01   1.000000E-01   2.980000E+01   1.200000E+00   1.000000E+00
+   6.800000E-01   1.000000E-01   1.880000E+01   9.000000E-01   1.000000E+00
+   8.900000E-01   1.000000E-01   1.730000E+01   7.000000E-01   1.000000E+00
+   1.270000E+00   1.000000E-01   1.320000E+01   8.000000E-01   1.000000E+00
+   1.430000E+00   1.000000E-01   9.600000E+00   4.000000E-01   1.000000E+00
+   1.670000E+00   1.200000E-01   6.800000E+00   3.000000E-01   1.000000E+00
+# reference:
+#   author: Yu.Ya.Stavisskii,V.A.Tolstikov
+#   title: Measurement of the fast neutron radiative capture cross-sections of gallium isotopes
+#   journal: Jour: Journal of Nuclear Energy A (Reactor Science), Vol.12, p.132 (1960
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  3.700000E-01
+#   E-max [MeV]:  1.670000E+00
+#   F-value:  1.267063E+00
+#   A-value:  9.105254E-01
+#   chi-2:  2.025546E+01
+#   p-value:  2.796620E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.287706E+00   8.813918E-01   2.132563E+01
+# jeff4.0       1.287706E+00   8.813918E-01   2.132563E+01
+# jendl5.0      1.222025E+00   9.717135E-01   1.811513E+01

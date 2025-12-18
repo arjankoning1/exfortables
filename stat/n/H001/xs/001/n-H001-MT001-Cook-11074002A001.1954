@@ -1,0 +1,56 @@
+# header: 
+#   title: H1(n,tot) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Cook
+#   year: 1954
+#   subentry: 11074002
+#   X4 reaction: 1-H-1(N,TOT),,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11074002
+# target: 
+#   Z: 1
+#   A: 1
+#   nuclide: H1
+# reaction: 
+#   type: (n,tot)
+#   ENDF_MF: 3
+#   ENDF_MT: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.410000E+01   0.000000E+00   6.900000E+02   1.200000E+01   1.000000E+00
+   1.500000E+01   0.000000E+00   6.620000E+02   1.000000E+01   1.000000E+00
+   1.550000E+01   0.000000E+00   6.480000E+02   1.200000E+01   1.000000E+00
+   1.600000E+01   0.000000E+00   5.820000E+02   3.000000E+01   1.000000E+00
+   1.650000E+01   0.000000E+00   6.090000E+02   1.500000E+01   1.000000E+00
+   1.700000E+01   0.000000E+00   6.120000E+02   3.000000E+01   1.000000E+00
+   1.750000E+01   0.000000E+00   5.870000E+02   2.000000E+01   1.000000E+00
+   1.800000E+01   0.000000E+00   5.390000E+02   1.500000E+01   1.000000E+00
+# reference:
+#   author: C.F.COOK,T.W.BONNER
+#   title: SCATTERING OF FAST NEUTRONS IN LIGHT NUCLEI.
+#   journal: Jour: Physical Review, Vol.94, p.651 (1954)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.410000E+01
+#   E-max [MeV]:  1.800000E+01
+#   F-value:  1.041484E+00
+#   A-value:  9.704916E-01
+#   chi-2:  2.521106E+00
+#   p-value:  3.055970E-01
+#   exp. data sets for p-value:      8
+#   libraries:      4
+##  Library          F              A            chi-2
+# endfb8.1      1.042708E+00   9.689603E-01   2.693601E+00
+# jeff4.0       1.042708E+00   9.689603E-01   2.693601E+00
+# jendl5.0      1.042708E+00   9.689603E-01   2.693601E+00
+# cendl3.2      1.037588E+00   9.751000E-01   2.003620E+00

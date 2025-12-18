@@ -1,0 +1,66 @@
+# header: 
+#   title: Ni0(p,x)Ni56 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Alsaleh
+#   year: 2007
+#   subentry: O1503002
+#   X4 reaction: 28-NI-0(P,X)28-NI-56,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O1503002
+# target: 
+#   Z: 28
+#   A: 0
+#   nuclide: Ni0
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 28
+#     A: 56
+#     nuclide: Ni56
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 15
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.830000E+01   4.000000E-01   2.304700E-02   2.004000E-03   1.002024E+00
+   1.860000E+01   4.000000E-01   3.006100E-01   1.002000E-01   1.002024E+00
+   1.970000E+01   4.000000E-01   3.006100E-01   1.002000E-01   1.002024E+00
+   2.099000E+01   4.500000E-01   4.008100E-01   1.002000E-01   1.002024E+00
+   2.168000E+01   4.500000E-01   6.012100E-01   1.002000E-01   1.002024E+00
+   2.235000E+01   4.500000E-01   5.010100E-01   1.002000E-01   1.002024E+00
+   2.310000E+01   4.500000E-01   5.010100E-01   1.002000E-01   1.002024E+00
+   2.384000E+01   4.500000E-01   8.016200E-01   2.004000E-01   1.002024E+00
+   2.410000E+01   4.500000E-01   7.014200E-01   2.004000E-01   1.002024E+00
+   2.479000E+01   4.500000E-01   6.012100E-01   2.004000E-01   1.002024E+00
+   2.540000E+01   5.000000E-01   7.014200E-01   2.004000E-01   1.002024E+00
+   2.600000E+01   5.000000E-01   9.018200E-01   3.006100E-01   1.002024E+00
+   2.700000E+01   5.000000E-01   9.018200E-01   3.006100E-01   1.002024E+00
+   2.720000E+01   5.000000E-01   1.202400E+00   3.006100E-01   1.002024E+00
+   2.740000E+01   5.000000E-01   1.002000E+00   3.006100E-01   1.002024E+00
+# reference:
+#   author: F.S.Al-Saleh, K.S.Al Mugren, A.Azzam
+#   title: Excitation functions of (p,x) reactions on natural nickel between proton energies of 2.7 and 27.5-MeV.
+#   journal: Jour: Applied Radiation and Isotopes, Vol.65, p.104 (2007)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  1.830000E+01
+#   E-max [MeV]:  2.740000E+01
+#   F-value:  5.521481E+00
+#   A-value:  3.075474E-01
+#   chi-2:  1.200770E+01
+#   p-value:  2.048478E-01
+#   exp. data sets for p-value:      3
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    6.442587E+00   2.310200E-01   1.350815E+01
+# endfb8.1      3.327421E+00   4.271997E-01   7.480038E+00
+# jendl5.0      7.101185E+00   2.947512E-01   1.503490E+01

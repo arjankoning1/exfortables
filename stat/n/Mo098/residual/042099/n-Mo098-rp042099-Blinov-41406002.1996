@@ -1,0 +1,56 @@
+# header: 
+#   title: Mo98(n,x)Mo99 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Blinov
+#   year: 1996
+#   subentry: 41406002
+#   X4 reaction: 42-MO-98(N,G)42-MO-99,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/41406002
+# target: 
+#   Z: 42
+#   A: 98
+#   nuclide: Mo98
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 42
+#     A: 99
+#     nuclide: Mo99
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   7.400000E-01   1.200000E-01   3.200000E+01   2.000000E+00   1.000000E+00
+   1.260000E+00   1.100000E-01   1.200000E+01   1.000000E+00   1.000000E+00
+   1.460000E+00   1.000000E-01   1.400000E+01   1.000000E+00   1.000000E+00
+   1.760000E+00   1.000000E-01   1.300000E+01   1.000000E+00   1.000000E+00
+   1.970000E+00   9.000000E-02   9.000000E+00   1.000000E+00   1.000000E+00
+# reference:
+#   author: M.V.Blinov,S.V.Chuvaev, A.A.Filatenkov,V.A.Jakovlev,  A.A.Rimski-Korsakov
+#   title: .Systematic Measurement of Activation Cross Sections  At Neutron Energies from 13.4 to 14.9 MeV
+#   journal: Conf: IAEA Nucl.Data Section report to the I.N.D.C., No.342, p.53 (1996)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  7.400000E-01
+#   E-max [MeV]:  1.970000E+00
+#   F-value:  1.427449E+00
+#   A-value:  1.399809E+00
+#   chi-2:  2.792199E+01
+#   p-value:  1.235919E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.473138E+00   1.453391E+00   3.401005E+01
+# jeff4.0       1.473138E+00   1.453391E+00   3.401005E+01
+# jendl5.0      1.326478E+00   1.298498E+00   1.574588E+01

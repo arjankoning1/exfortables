@@ -1,0 +1,56 @@
+# header: 
+#   title: U238(n,2n)U237 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Antropov
+#   year: 1958
+#   subentry: 40411002
+#   X4 reaction: 92-U-238(N,2N)92-U-237,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/40411002
+# target: 
+#   Z: 92
+#   A: 238
+#   nuclide: U238
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 92
+#     A: 237
+#     nuclide: U237
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.500000E+01   0.000000E+00   9.000000E+02   1.500000E+02   1.000000E+00
+# reference:
+#   author: G.P.Antropov,Yu.A.Zysin,A.A.Kovrizhnykh,A.A.Lbov
+#   title: Cross-section of the U-238(n,2n)U-237 reaction for 15 MeV neutrons
+#   journal: Jour: Soviet Atomic Energy, Vol.5, p.1352 (1958)
+# statistics:
+#   NEA score: T2
+#   IAEA score:  1
+#   E-min [MeV]:  1.500000E+01
+#   E-max [MeV]:  1.500000E+01
+#   F-value:  1.405188E+00
+#   A-value:  7.141469E-01
+#   chi-2:  3.397349E+00
+#   p-value:  5.005425E-02
+#   exp. data sets for p-value:      8
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.426741E+00   7.008983E-01   3.621914E+00
+# endfb8.1      1.426741E+00   7.008983E-01   3.621916E+00
+# jeff4.0       1.388075E+00   7.204219E-01   3.260284E+00
+# jendl5.0      1.260666E+00   7.932313E-01   2.111383E+00
+# cendl3.2      1.388402E+00   7.202523E-01   3.263321E+00
+# eaf.2010      1.495973E+00   6.684612E-01   4.280707E+00
+# irdff2.0      1.426741E+00   7.008983E-01   3.621916E+00

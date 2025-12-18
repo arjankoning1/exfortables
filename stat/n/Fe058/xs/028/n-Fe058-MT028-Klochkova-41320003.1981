@@ -1,0 +1,54 @@
+# header: 
+#   title: Fe58(n,np)Mn57 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Klochkova
+#   year: 1981
+#   subentry: 41320003
+#   X4 reaction: 26-FE-58(N,N+P)25-MN-57,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/41320003
+# target: 
+#   Z: 26
+#   A: 58
+#   nuclide: Fe58
+# reaction: 
+#   type: (n,np)
+#   ENDF_MF: 3
+#   ENDF_MT: 28
+#   residual: 
+#     Z: 25
+#     A: 57
+#     nuclide: Mn57
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.410000E+01   0.000000E+00   2.700000E+01   6.000000E+00   1.000000E+00
+# reference:
+#   author: L.I.KLOCHKOVA,B.S.KOVRIGIN,V.N.KURITSYN, N.S.LAVROVA,E.V.CHEREPANOV,V.A.SHIBAEV
+#   title: .STUDY OF THE REACTIONS (N,P) AND (N,NP) ON 27-AL,  50-CR, 54-FE, 58-FE WITH 14.1 MEV NEUTRONS
+#   journal: Conf: 31.Conf.Nucl.Spectr.and Nucl.Struct.,Samarkand 1981, p.342 (1981)
+# statistics:
+#   NEA score: R2
+#   IAEA score: -1
+#   E-min [MeV]:  1.410000E+01
+#   E-max [MeV]:  1.410000E+01
+#   F-value:  2.984371E+02
+#   A-value:  3.405736E-03
+#   chi-2:  2.009911E+01
+#   p-value:  1.788139E-07
+#   exp. data sets for p-value:      1
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2025    1.845820E+02   5.417647E-03   2.003148E+01
+# jeff4.0       3.829453E+02   2.611339E-03   2.014467E+01
+# jendl5.0      3.841816E+02   2.602936E-03   2.014501E+01
+# cendl3.2      1.666307E+02   6.001294E-03   2.000799E+01
+# eaf.2010      4.823117E+02   2.073348E-03   2.016640E+01

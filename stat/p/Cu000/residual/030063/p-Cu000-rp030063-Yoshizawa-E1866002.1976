@@ -1,0 +1,61 @@
+# header: 
+#   title: Cu0(p,x)Zn63 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Yoshizawa
+#   year: 1976
+#   subentry: E1866002
+#   X4 reaction: 29-CU-0(P,X)30-ZN-63,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/E1866002
+# target: 
+#   Z: 29
+#   A: 0
+#   nuclide: Cu0
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 30
+#     A: 63
+#     nuclide: Zn63
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.511000E+01   0.000000E+00   4.556000E+01   5.614000E+00   1.000000E+00
+   2.765000E+01   0.000000E+00   4.111000E+01   5.067000E+00   1.000000E+00
+   3.020000E+01   0.000000E+00   4.353000E+01   5.365000E+00   1.000000E+00
+   3.274000E+01   0.000000E+00   4.044000E+01   4.984000E+00   1.000000E+00
+   3.577000E+01   0.000000E+00   4.472001E+01   4.073000E+00   1.000000E+00
+   3.928000E+01   0.000000E+00   4.035000E+01   4.972000E+00   1.000000E+00
+   4.266000E+01   0.000000E+00   3.241000E+01   3.994000E+00   1.000000E+00
+   4.568000E+01   0.000000E+00   2.492000E+01   2.270000E+00   1.000000E+00
+   4.883000E+01   0.000000E+00   2.282000E+01   2.078000E+00   1.000000E+00
+   5.185000E+01   0.000000E+00   1.914000E+01   2.674000E+00   1.000000E+00
+# reference:
+#   author: Y.Yoshizawa, H.Noma, T.Horiguchi, T.Katoh, S.Amemiya, M.Itoh, K.Hisatake, M.Sekikawa, K.Chida
+#   title: Isotope separator on-line at INS FM cyclotron
+#   journal: Jour: Nuclear Instrum.and Methods in Physics Res., Vol.134, Issue.1, p.9
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.511000E+01
+#   E-max [MeV]:  5.185000E+01
+#   F-value:  1.295494E+00
+#   A-value:  8.234885E-01
+#   chi-2:  3.942063E+00
+#   p-value:  2.598044E-01
+#   exp. data sets for p-value:      5
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.271783E+00   8.216883E-01   3.829968E+00
+# endfb8.1      1.215270E+00   8.899254E-01   2.076553E+00
+# jendl5.0      1.383256E+00   7.636809E-01   5.919669E+00

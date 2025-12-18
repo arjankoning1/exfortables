@@ -1,0 +1,54 @@
+# header: 
+#   title: Mo0(n,x)Nb94 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Reimer
+#   year: 2001
+#   subentry: 22818003
+#   X4 reaction: 42-MO-0(N,X)41-NB-94,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22818003
+# target: 
+#   Z: 42
+#   A: 0
+#   nuclide: Mo0
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 41
+#     A: 94
+#     nuclide: Nb94
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.450000E+01   5.000000E-03   9.900800E+00   1.600100E+00   1.000079E+00
+   1.800000E+01   5.000000E-03   1.760139E+01   1.400100E+00   1.000079E+00
+   2.030000E+01   5.000000E-03   2.830223E+01   7.300600E+00   1.000079E+00
+# reference:
+#   author: P.Reimer, M.Hult, A.J.M.Plompen, P.N.Johnston, V.Avrigeanu, S.M.Qaim
+#   title: Fast neutron induced reactions leading to activation  products: selected cases relevant to development of  low activation materials, transmutation and hazard  assessment of nuclear wastes
+#   journal: Thesis: Reimer (2001)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.450000E+01
+#   E-max [MeV]:  2.030000E+01
+#   F-value:  1.287513E+00
+#   A-value:  8.100738E-01
+#   chi-2:  3.269445E+00
+#   p-value:  2.320396E-01
+#   exp. data sets for p-value:      3
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.184798E+00   8.751123E-01   1.238927E+00
+# jeff4.0       1.184798E+00   8.751123E-01   1.238927E+00
+# jendl5.0      1.442202E+00   6.941386E-01   7.330483E+00

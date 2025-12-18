@@ -1,0 +1,53 @@
+# header: 
+#   title: Si28(n,x)Al28 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Singh
+#   year: 1970
+#   subentry: 10217002
+#   X4 reaction: 14-SI-28(N,P)13-AL-28,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/10217002
+# target: 
+#   Z: 14
+#   A: 28
+#   nuclide: Si28
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 13
+#     A: 28
+#     nuclide: Al28
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.450000E+01   0.000000E+00   2.159678E+02   1.466610E+01   1.012982E+00
+# reference:
+#   author: J.J.SINGH
+#   title: Si(n,p) and Si(n,alpha) reaction cross sections at  14.5 MeV neutron energy
+#   journal: Rept: N.A.S.A. Technical Note, No.5946 (1970)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.450000E+01
+#   E-max [MeV]:  1.450000E+01
+#   F-value:  1.193931E+00
+#   A-value:  1.188061E+00
+#   chi-2:  8.410594E+00
+#   p-value:  2.181782E-01
+#   exp. data sets for p-value:      8
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.199430E+00   1.199430E+00   8.680191E+00
+# endfb8.1      1.199633E+00   1.199633E+00   8.697352E+00
+# jeff4.0       1.245850E+00   1.245850E+00   1.311424E+01
+# jendl5.0      1.111389E+00   1.111389E+00   3.150593E+00

@@ -1,0 +1,60 @@
+# header: 
+#   title: Co59(n,a)Mn56 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Molla
+#   year: 1994
+#   subentry: 31449007
+#   X4 reaction: 27-CO-59(N,A)25-MN-56,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/31449007
+# target: 
+#   Z: 27
+#   A: 59
+#   nuclide: Co59
+# reaction: 
+#   type: (n,a)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+#   residual: 
+#     Z: 25
+#     A: 56
+#     nuclide: Mn56
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.357000E+01   0.000000E+00   2.795680E+01   1.601500E+00   9.984571E-01
+   1.390000E+01   0.000000E+00   2.979877E+01   1.906100E+00   1.003326E+00
+   1.410000E+01   0.000000E+00   3.051587E+01   2.184900E+00   9.940023E-01
+   1.451000E+01   0.000000E+00   2.910014E+01   1.590500E+00   9.965801E-01
+   1.471000E+01   0.000000E+00   2.797119E+01   1.689600E+00   9.954159E-01
+# reference:
+#   author: N.I.Molla,R.U.Miah,S.Basunia,S.M.Hossain,M.Rahman
+#   title: Cross sections of (n,p), (n,a) and (n,2n) processes on scandium, vanadium, cobalt, copper and zinc isotope in the energy range 13.57 - 14.71 MeV.
+#   journal: Conf: Conf.on Nucl.Data for Sci.and Techn.,Gatlinburg 1994, Vol.2, p.938
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.357000E+01
+#   E-max [MeV]:  1.471000E+01
+#   F-value:  1.061698E+00
+#   A-value:  1.049234E+00
+#   chi-2:  1.521827E+00
+#   p-value:  3.001160E-01
+#   exp. data sets for p-value:      8
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.068933E+00   1.057425E+00   1.817758E+00
+# endfb8.1      1.070995E+00   1.059592E+00   1.904458E+00
+# jeff4.0       1.048092E+00   1.036171E+00   1.035050E+00
+# jendl5.0      1.059720E+00   1.051020E+00   1.502769E+00
+# cendl3.2      1.030625E+00   1.021564E+00   5.672539E-01
+# eaf.2010      1.071406E+00   1.059912E+00   1.920860E+00
+# irdff2.0      1.070999E+00   1.059597E+00   1.904638E+00

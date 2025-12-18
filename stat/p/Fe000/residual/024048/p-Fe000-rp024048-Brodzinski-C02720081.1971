@@ -1,0 +1,54 @@
+# header: 
+#   title: Fe0(p,x)Cr48 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Brodzinski
+#   year: 1971
+#   subentry: C02720081
+#   X4 reaction: 26-FE-0(P,X)24-CR-48,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C02720081
+# target: 
+#   Z: 26
+#   A: 0
+#   nuclide: Fe0
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 24
+#     A: 48
+#     nuclide: Cr48
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.200000E+02   0.000000E+00   3.450000E-01   4.500000E-02   1.000000E+00
+   4.340000E+02   0.000000E+00   4.540000E-01   7.900000E-02   1.000000E+00
+   5.850000E+02   0.000000E+00   5.500000E-01   1.700000E-01   1.000000E+00
+# reference:
+#   author: R.L.Brodzinski,L.A.Rancitelli,J.A.Cooper,N.A.Wogman
+#   title: High-Energy Proton Spallation of Iron
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.4, p.1257 (1971)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  1.200000E+02
+#   E-max [MeV]:  5.850000E+02
+#   F-value:  2.715775E+00
+#   A-value:  2.091463E+00
+#   chi-2:  3.440012E+02
+#   p-value:  9.255003E-02
+#   exp. data sets for p-value:      2
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    5.117957E+00   5.117957E+00   9.967278E+02
+# endfb8.1      1.773872E+00   1.773872E+00   3.520073E+01
+# jendl5.0      1.007700E+00   1.007700E+00   7.491525E-02

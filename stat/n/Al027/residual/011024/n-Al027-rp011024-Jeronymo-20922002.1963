@@ -1,0 +1,60 @@
+# header: 
+#   title: Al27(n,x)Na24 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Jeronymo
+#   year: 1963
+#   subentry: 20922002
+#   X4 reaction: 13-AL-27(N,A)11-NA-24,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20922002
+# target: 
+#   Z: 13
+#   A: 27
+#   nuclide: Al27
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+#   residual: 
+#     Z: 11
+#     A: 24
+#     nuclide: Na24
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.255000E+01   2.000000E-01   1.150000E+02   1.200000E+01   1.000000E+00
+   1.355000E+01   2.000000E-01   1.150000E+02   1.200000E+01   1.000000E+00
+   1.490000E+01   2.000000E-01   1.070000E+02   1.100000E+01   1.000000E+00
+   1.650000E+01   2.000000E-01   8.400001E+01   9.000000E+00   1.000000E+00
+   1.815000E+01   2.000000E-01   6.400000E+01   7.000000E+00   1.000000E+00
+   1.960000E+01   2.000000E-01   5.200000E+01   7.000000E+00   1.000000E+00
+   2.060000E+01   2.000000E-01   3.700000E+01   6.000000E+00   1.000000E+00
+   2.100000E+01   2.000000E-01   3.100000E+01   6.000000E+00   1.000000E+00
+# reference:
+#   author: J.M.F.Jeronymo, G.S.Mani, J.Olkowsky, A.Sadeghi,  C.F.Williamson
+#   title: Absolute cross sections for some (n,p), (n,alpha)  and (n,2n) reactions
+#   journal: Jour: Nuclear Physics, Vol.47, p.157 (1963)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.255000E+01
+#   E-max [MeV]:  2.100000E+01
+#   F-value:  1.208966E+00
+#   A-value:  9.578124E-01
+#   chi-2:  8.943062E-01
+#   p-value:  3.038548E-01
+#   exp. data sets for p-value:      8
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.047975E+00   1.024838E+00   3.016487E-01
+# endfb8.1      2.042350E+00   4.902779E-01   8.611311E+00
+# jeff4.0       1.050346E+00   1.020994E+00   3.343474E-01
+# jendl5.0      1.231122E+00   8.212218E-01   1.742016E+00

@@ -1,0 +1,55 @@
+# header: 
+#   title: Y89(n,x)Y88 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Raics
+#   year: 1981
+#   subentry: 30604006
+#   X4 reaction: 39-Y-89(N,2N)39-Y-88,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30604006
+# target: 
+#   Z: 39
+#   A: 89
+#   nuclide: Y89
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 39
+#     A: 88
+#     nuclide: Y88
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.375000E+01   1.000000E-01   7.615858E+02   2.700000E+01   1.007389E+00
+   1.412000E+01   8.000000E-02   8.342389E+02   3.000000E+01   1.002691E+00
+   1.445000E+01   1.200000E-01   9.273657E+02   3.400000E+01   9.971673E-01
+   1.480000E+01   1.800000E-01   9.811288E+02   4.300000E+01   1.006286E+00
+# reference:
+#   author: P.Raics,F.Paszti,S.Daroczy,S.Nagy
+#   title: Measurement of the cross sections for the Ni-58(n,2n), Ni-58(n,p), Ni-58(n,d) and Y-89(n,2n) reactions around 14 MeV
+#   journal: Jour: ATOMKI Koezlemenyek, Vol.23, p.45 (1981)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.375000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.015728E+00
+#   A-value:  1.008780E+00
+#   chi-2:  4.600725E-01
+#   p-value:  4.039703E-01
+#   exp. data sets for p-value:      8
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.010517E+00   1.006584E+00   3.180583E-01
+# jeff4.0       1.010517E+00   1.006584E+00   3.180594E-01
+# jendl5.0      1.022879E+00   1.013186E+00   7.440998E-01

@@ -1,0 +1,53 @@
+# header: 
+#   title: Al27(p,x)C14 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Jull
+#   year: 1998
+#   subentry: C0555003
+#   X4 reaction: 13-AL-27(P,X)6-C-14,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C0555003
+# target: 
+#   Z: 13
+#   A: 27
+#   nuclide: Al27
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 6
+#     A: 14
+#     nuclide: C14
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   8.100000E+01   3.500000E+00   3.510000E-01   1.900000E-02   1.000000E+00
+   1.305000E+02   2.000000E+00   5.710000E-01   3.100000E-02   1.000000E+00
+   1.594000E+02   1.000000E+00   5.410000E-01   2.900000E-02   1.000000E+00
+# reference:
+#   author: A.J.T.JULL,S.CLOUDT,D.J.DONAHUE,J.M.SISTERSON, R.C.REEDY,J.MASARIK
+#   title: 14C depth profiles in Apollo 15 and 17 core and  lunar rock 68815
+#   journal: Jour: Geochimica et Cosmochimica Acta, Vol.62, p.3025 (1998)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  8.100000E+01
+#   E-max [MeV]:  1.594000E+02
+#   F-value:  5.778146E+00
+#   A-value:  5.430967E-01
+#   chi-2:  6.525815E+02
+#   p-value:  1.657375E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    7.428302E+00   5.386730E-01   6.478579E+02
+# endfb8.1      4.927473E+00   2.286039E-01   1.880461E+02

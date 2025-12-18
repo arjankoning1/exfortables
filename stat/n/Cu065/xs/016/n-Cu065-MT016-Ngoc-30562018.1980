@@ -1,0 +1,61 @@
+# header: 
+#   title: Cu65(n,2n)Cu64 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Ngoc
+#   year: 1980
+#   subentry: 30562018
+#   X4 reaction: 29-CU-65(N,2N)29-CU-64,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30562018
+# target: 
+#   Z: 29
+#   A: 65
+#   nuclide: Cu65
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 29
+#     A: 64
+#     nuclide: Cu64
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.355000E+01   1.200000E-01   8.410001E+02   5.400001E+01   1.000000E+00
+   1.377000E+01   1.200000E-01   8.530000E+02   5.400001E+01   1.000000E+00
+   1.408000E+01   1.100000E-01   8.750001E+02   5.900000E+01   1.000000E+00
+   1.440000E+01   1.300000E-01   9.080001E+02   5.200000E+01   1.000000E+00
+   1.462000E+01   1.400000E-01   9.300001E+02   6.200000E+01   1.000000E+00
+   1.471000E+01   1.400000E-01   9.540001E+02   5.800000E+01   1.000000E+00
+# reference:
+#   author: P.N.Ngoc,S.Gueth,F.Deak,A.Kiss
+#   title: Investigations of (n,p), (n,a) and (n,2n) reactions around 14 MeV
+#   journal: Thesis: Ngoc (1980)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.355000E+01
+#   E-max [MeV]:  1.471000E+01
+#   F-value:  1.009980E+00
+#   A-value:  9.975903E-01
+#   chi-2:  1.157411E-01
+#   p-value:  3.717932E-01
+#   exp. data sets for p-value:      8
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.007835E+00   9.982365E-01   1.029407E-01
+# endfb8.1      1.007698E+00   9.986767E-01   1.024204E-01
+# jeff4.0       1.007698E+00   9.986767E-01   1.024204E-01
+# jendl5.0      1.006397E+00   9.981483E-01   7.589259E-02
+# cendl3.2      1.019542E+00   9.910918E-01   2.379999E-01
+# eaf.2010      1.006166E+00   9.996501E-01   8.609613E-02
+# irdff2.0      1.007697E+00   9.986777E-01   1.024178E-01

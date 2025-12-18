@@ -1,0 +1,50 @@
+# header: 
+#   title: U235(n,el) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Poortmans
+#   year: 1970
+#   subentry: 20145009
+#   X4 reaction: 92-U-235(N,EL)92-U-235,POT,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20145009
+# target: 
+#   Z: 92
+#   A: 235
+#   nuclide: U235
+# reaction: 
+#   type: (n,el)
+#   ENDF_MF: 3
+#   ENDF_MT: 2
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.350000E-05   2.650000E-05   1.170000E+04   0.000000E+00   1.000000E+00
+# reference:
+#   author: F.Poortmans,H.Ceulemans,E.Migneco,J.P.Theobald
+#   title: Scattering cross section of 235U below 100 eV  Determination of neutron width and J of resonances
+#   journal: Conf: Nuclear Data for Reactors Conf., Helsinki 1970, Vol.1, p.449 (1970
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  3.350000E-05
+#   E-max [MeV]:  3.350000E-05
+#   F-value:  1.127651E+00
+#   A-value:  1.127007E+00
+#   chi-2:  0.000000E+00
+#   p-value:  5.331261E-03
+#   exp. data sets for p-value:      2
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2025    1.114646E+00   1.114646E+00   0.000000E+00
+# endfb8.1      1.121212E+00   1.121212E+00   0.000000E+00
+# jeff4.0       1.136638E+00   1.136638E+00   0.000000E+00
+# jendl5.0      1.114805E+00   1.114805E+00   0.000000E+00
+# cendl3.2      1.148123E+00   1.148123E+00   0.000000E+00

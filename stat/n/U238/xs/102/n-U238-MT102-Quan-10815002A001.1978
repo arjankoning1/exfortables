@@ -1,0 +1,61 @@
+# header: 
+#   title: U238(n,g)U239 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Quan
+#   year: 1978
+#   subentry: 10815002
+#   X4 reaction: 92-U-238(N,G)92-U-239,,SIG,,AV
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/10815002
+# target: 
+#   Z: 92
+#   A: 238
+#   nuclide: U238
+# reaction: 
+#   type: (n,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 92
+#     A: 239
+#     nuclide: U239
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.480000E-02   1.200000E-03   4.960000E+02   1.500000E+01   1.000000E+00
+   7.010000E-02   5.600000E-03   2.970000E+02   2.200000E+01   1.000000E+00
+   8.070000E-02   4.200000E-03   1.900000E+02   9.000000E+00   1.000000E+00
+   1.242000E-01   1.750000E-02   1.670000E+02   6.000000E+00   1.000000E+00
+   1.642000E-01   8.900000E-03   1.280000E+02   7.000000E+00   1.000000E+00
+   1.832500E-01   7.650000E-03   1.180000E+02   6.000000E+00   1.000000E+00
+# reference:
+#   author: B.L.QUAN,R.C.BLOCK
+#   title: MEASUREMENT OF THE U-238(N,G) CROSS SECTION WITH AN FE-FILTERED NEUTRON BEAM
+#   journal: Rept: Chicago Operations Office,A.E.C.,Contract rept., No.2479-14 (1978)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.480000E-02
+#   E-max [MeV]:  1.832500E-01
+#   F-value:  1.134383E+00
+#   A-value:  9.643459E-01
+#   chi-2:  4.134747E+00
+#   p-value:  2.448947E-01
+#   exp. data sets for p-value:      8
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.136016E+00   9.583573E-01   3.898326E+00
+# endfb8.1      1.137324E+00   9.572750E-01   3.852016E+00
+# jeff4.0       1.135179E+00   9.338060E-01   4.263677E+00
+# jendl5.0      1.133215E+00   9.740917E-01   4.552363E+00
+# cendl3.2      1.130090E+00   9.948320E-01   4.540472E+00
+# eaf.2010      1.131384E+00   9.759387E-01   3.984332E+00
+# irdff2.0      1.137324E+00   9.572755E-01   3.852040E+00

@@ -1,0 +1,60 @@
+# header: 
+#   title: Au197(n,g)Au198 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Tolstikov
+#   year: 1995
+#   subentry: 41190002
+#   X4 reaction: 79-AU-197(N,G)79-AU-198,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/41190002
+# target: 
+#   Z: 79
+#   A: 197
+#   nuclide: Au197
+# reaction: 
+#   type: (n,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 79
+#     A: 198
+#     nuclide: Au198
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   4.860000E-01   4.100000E-02   1.307147E+02   4.725000E+00   9.682572E-01
+   5.390000E-01   4.100000E-02   1.210979E+02   5.000000E+00   9.687832E-01
+   5.930000E-01   4.100000E-02   1.080843E+02   4.460000E+00   9.693660E-01
+   6.460000E-01   4.100000E-02   9.927270E+01   3.552500E+00   9.780562E-01
+   6.920000E-01   4.400000E-02   9.387411E+01   3.820000E+00   9.829749E-01
+# reference:
+#   author: V.A.Tolstikov,A.N.Davletshin,E.V.Teplov,O.A.Tipunkov, O.T.Grudzevich
+#   title: Isomer production cross-sections for tin isotopes  for neutrons in the energy range 0.3 - 0.7 MEV
+#   journal: Jour: Vop.At.Nauki i Tekhn.,Ser.Yaderno-Reak.Konstanty, Issue.3-4, p.46
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  4.860000E-01
+#   E-max [MeV]:  6.920000E-01
+#   F-value:  1.020682E+00
+#   A-value:  1.010696E+00
+#   chi-2:  5.026902E-01
+#   p-value:  2.528618E-01
+#   exp. data sets for p-value:      8
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.035554E+00   1.019179E+00   1.147341E+00
+# endfb8.1      1.021931E+00   1.012778E+00   5.728897E-01
+# jeff4.0       1.016832E+00   1.009713E+00   4.040087E-01
+# jendl5.0      1.021422E+00   1.014457E+00   6.145622E-01
+# cendl3.2      1.004766E+00   1.003081E+00   1.050242E-01
+# eaf.2010      1.004610E+00   1.002990E+00   1.021157E-01
+# irdff2.0      1.021931E+00   1.012778E+00   5.728897E-01

@@ -1,0 +1,66 @@
+# header: 
+#   title: N14(n,2n)N13 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Bormann
+#   year: 1965
+#   subentry: 20887002
+#   X4 reaction: 7-N-14(N,2N)7-N-13,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20887002
+# target: 
+#   Z: 7
+#   A: 14
+#   nuclide: N14
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 7
+#     A: 13
+#     nuclide: N13
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 12
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.320000E+01   2.000000E-01   3.300000E+00   4.000000E-01   1.000000E+00
+   1.400000E+01   3.000000E-01   6.000000E+00   3.000000E-01   1.000000E+00
+   1.410000E+01   3.000000E-01   6.300000E+00   4.000000E-01   1.000000E+00
+   1.520000E+01   3.000000E-01   8.700000E+00   7.000000E-01   1.000000E+00
+   1.580000E+01   3.000000E-01   9.600000E+00   7.000000E-01   1.000000E+00
+   1.600000E+01   3.000000E-01   9.500000E+00   8.000000E-01   1.000000E+00
+   1.700000E+01   3.000000E-01   1.020000E+01   8.000000E-01   1.000000E+00
+   1.750000E+01   3.000000E-01   1.090000E+01   8.000000E-01   1.000000E+00
+   1.790000E+01   3.000000E-01   1.090000E+01   9.000000E-01   1.000000E+00
+   1.810000E+01   3.000000E-01   1.150000E+01   8.000000E-01   1.000000E+00
+   1.850000E+01   3.000000E-01   1.000000E+01   8.000000E-01   1.000000E+00
+   1.880000E+01   1.000000E-01   1.070000E+01   8.000000E-01   1.000000E+00
+# reference:
+#   author: M.Bormann,E.Fretwurst,P.Schehka,G.Wrege,  H.Buettner,A.Lindner,H.Meldner
+#   title: Some excitation functions of neutron induced reactions  in the energy range 12.6-19.6 MeV
+#   journal: Jour: Nuclear Physics, Vol.63, p.438 (1965)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.320000E+01
+#   E-max [MeV]:  1.880000E+01
+#   F-value:  1.055692E+00
+#   A-value:  9.881051E-01
+#   chi-2:  7.709982E-01
+#   p-value:  3.860520E-01
+#   exp. data sets for p-value:      3
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.072734E+00   9.764645E-01   1.088259E+00
+# endfb8.1      1.071648E+00   9.770828E-01   1.064624E+00
+# jeff4.0       1.071648E+00   9.770828E-01   1.064624E+00
+# jendl5.0      1.029016E+00   1.000779E+00   4.047565E-01
+# cendl3.2      1.039237E+00   9.968356E-01   5.989672E-01
+# eaf.2010      1.029016E+00   1.000779E+00   4.047567E-01

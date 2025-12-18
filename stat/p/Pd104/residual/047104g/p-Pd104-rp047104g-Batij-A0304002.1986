@@ -1,0 +1,58 @@
+# header: 
+#   title: Pd104(p,x)Ag104g cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Batij
+#   year: 1986
+#   subentry: A0304002
+#   X4 reaction: 46-PD-104(P,N)47-AG-104-G,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/A0304002
+# target: 
+#   Z: 46
+#   A: 104
+#   nuclide: Pd104
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+#   residual: 
+#     Z: 47
+#     A: 104
+#     nuclide: Ag104g
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   7.000000E+00   0.000000E+00   1.800000E+01   5.000000E+00   1.000000E+00
+   8.000000E+00   0.000000E+00   2.000000E+01   9.000000E+00   1.000000E+00
+   9.000000E+00   0.000000E+00   8.700000E+01   1.500000E+01   1.000000E+00
+# reference:
+#   author: V.G.Batij, E.A.Skakun, Yu.N.Rakivnenko, O.A.Rastrepin
+#   title: Absolute and relative (p,n)-reaction cross sections with isomer formation in argentum isotopes.
+#   journal: Conf: 36.Conf.Nucl.Spectrosc.and Nucl.Struct.,Kharkov 1986, p.280 (1986)
+# statistics:
+#   NEA score: T3
+#   IAEA score:  1
+#   E-min [MeV]:  7.000000E+00
+#   E-max [MeV]:  9.000000E+00
+#   F-value:  5.426800E+00
+#   A-value:  3.469403E+00
+#   chi-2:  5.434136E+02
+#   p-value:  1.418244E-01
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.506282E+00   1.201977E+00   2.121247E+00
+# jendl5.0      1.055490E+01   1.001413E+01   1.084706E+03

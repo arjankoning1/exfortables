@@ -1,0 +1,59 @@
+# header: 
+#   title: Cd112(n,x)Ag112 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Filatenkov
+#   year: 2016
+#   subentry: 41614109
+#   X4 reaction: 48-CD-112(N,P)47-AG-112,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/41614109
+# target: 
+#   Z: 48
+#   A: 112
+#   nuclide: Cd112
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 47
+#     A: 112
+#     nuclide: Ag112
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 9
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.346000E+01   0.000000E+00   9.999900E+00   8.997600E-01   9.999938E-01
+   1.364000E+01   0.000000E+00   1.040002E+01   9.920501E-01   1.000002E+00
+   1.389000E+01   0.000000E+00   1.280007E+01   1.087900E+00   1.000005E+00
+   1.405000E+01   0.000000E+00   1.360010E+01   1.300200E+00   1.000008E+00
+   1.428000E+01   0.000000E+00   1.469989E+01   1.187800E+00   9.999922E-01
+   1.447000E+01   0.000000E+00   1.459990E+01   1.187000E+00   9.999934E-01
+   1.468000E+01   0.000000E+00   1.689985E+01   1.284500E+00   9.999912E-01
+   1.481000E+01   0.000000E+00   1.649989E+01   1.445400E+00   9.999934E-01
+   1.486000E+01   0.000000E+00   1.540007E+01   1.193700E+00   1.000004E+00
+# reference:
+#   author: A.A.Filatenkov
+#   title: Neutron activation cross sections measured at KRI in neutron energy region 13.4 - 14.9 MeV
+#   journal: Rept: USSR report to the I.N.D.C., No.0460 (2016)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.346000E+01
+#   E-max [MeV]:  1.486000E+01
+#   F-value:  1.059724E+00
+#   A-value:  1.030026E+00
+#   chi-2:  8.226190E-01
+#   p-value:  3.432336E-01
+#   exp. data sets for p-value:      3
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.059724E+00   1.030026E+00   8.226211E-01
+# jeff4.0       1.059723E+00   1.030026E+00   8.226168E-01

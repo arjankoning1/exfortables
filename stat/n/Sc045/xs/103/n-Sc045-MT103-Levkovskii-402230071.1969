@@ -1,0 +1,54 @@
+# header: 
+#   title: Sc45(n,p)Ca45 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Levkovskii
+#   year: 1969
+#   subentry: 402230071
+#   X4 reaction: 21-SC-45(N,P)20-CA-45,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/402230071
+# target: 
+#   Z: 21
+#   A: 45
+#   nuclide: Sc45
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 20
+#     A: 45
+#     nuclide: Ca45
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.480000E+01   0.000000E+00   5.600000E+01   1.200000E+01   1.000000E+00
+# reference:
+#   author: V.N.Levkovskii,G.E.Kovel'skaya,G.P.Vinitskaya, V.M.Stepanov,V.V.Sokol'skii
+#   title: Cross sections of the (n,p) and (n,alpha) reactions  at 14.8 MeV .
+#   journal: Jour: Soviet Journal of Nuclear Physics, Vol.8, p.4 (1969)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.480000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.127646E+00
+#   A-value:  1.031016E+00
+#   chi-2:  6.199524E-01
+#   p-value:  3.557080E-01
+#   exp. data sets for p-value:      4
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2025    1.010923E+00   9.891949E-01   6.387039E-02
+# endfb8.1      1.002919E+00   9.970891E-01   1.707380E-02
+# jeff4.0       1.296821E+00   1.296821E+00   2.459715E+00
+# jendl5.0      1.039976E+00   9.615604E-01   2.336114E-01
+# eaf.2010      1.055714E+00   9.472262E-01   3.254913E-01

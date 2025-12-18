@@ -1,0 +1,52 @@
+# header: 
+#   title: Sn112(n,x)Sn113 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Krane
+#   year: 2006
+#   subentry: 14107002
+#   X4 reaction: 50-SN-112(N,G)50-SN-113,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/14107002
+# target: 
+#   Z: 50
+#   A: 112
+#   nuclide: Sn112
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 50
+#     A: 113
+#     nuclide: Sn113
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.530000E-08   0.000000E+00   5.130000E+02   3.000000E+01   1.000000E+00
+# reference:
+#   author: K.S.Krane,J.Sylvester
+#   title: Neutron capture cross sections of 112,116,122,124Sn
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.73, p.054312 (2006)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.530000E-08
+#   E-max [MeV]:  2.530000E-08
+#   F-value:  1.348007E+00
+#   A-value:  1.188186E+00
+#   chi-2:  4.472491E+01
+#   p-value:  3.815916E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.000023E+00   1.000023E+00   4.940382E-04
+# jeff4.0       1.000023E+00   1.000023E+00   4.940382E-04
+# jendl5.0      1.677388E+00   1.677388E+00   1.341738E+02

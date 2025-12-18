@@ -1,0 +1,52 @@
+# header: 
+#   title: U238(n,f) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Alekseev
+#   year: 2008
+#   subentry: 41503006
+#   X4 reaction: 92-U-238(N,F),,SIG,,RES
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/41503006
+# target: 
+#   Z: 92
+#   A: 238
+#   nuclide: U238
+# reaction: 
+#   type: (n,f)
+#   ENDF_MF: 3
+#   ENDF_MT: 18
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   7.200000E-04   0.000000E+00   1.780000E+00   2.400000E-01   1.000000E+00
+# reference:
+#   author: A.A.Alekseev, A.A.Bergman, A.I.Berlev, E.A.Koptelov, B.F.Samylin, A.M.Trufanov, B.I.Fursov, V.S.Shorin
+#   title: Cross section for the subthreshold fission of 236U
+#   journal: Jour: Physics of Atomic Nuclei, Vol.71, p.1351 (2008)
+# statistics:
+#   NEA score: T3
+#   IAEA score: -1
+#   E-min [MeV]:  7.200000E-04
+#   E-max [MeV]:  7.200000E-04
+#   F-value:  2.189273E+00
+#   A-value:  2.176606E+00
+#   chi-2:  8.009295E+01
+#   p-value:  1.899980E-01
+#   exp. data sets for p-value:      5
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    2.156343E+00   2.156343E+00   7.355145E+01
+# endfb8.1      2.139906E+00   2.139906E+00   7.147522E+01
+# jeff4.0       2.156340E+00   2.156340E+00   7.355103E+01
+# jendl5.0      2.139906E+00   2.139906E+00   7.147522E+01
+# cendl3.2      2.672139E+00   2.672139E+00   1.538020E+02
+# eaf.2010      1.886192E+00   1.886192E+00   4.319896E+01
+# irdff2.0      2.156699E+00   2.156699E+00   7.359669E+01

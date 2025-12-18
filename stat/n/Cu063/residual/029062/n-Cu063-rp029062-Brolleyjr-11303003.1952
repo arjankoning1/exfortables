@@ -1,0 +1,58 @@
+# header: 
+#   title: Cu63(n,x)Cu62 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Brolleyjr
+#   year: 1952
+#   subentry: 11303003
+#   X4 reaction: 29-CU-63(N,2N)29-CU-62,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11303003
+# target: 
+#   Z: 29
+#   A: 63
+#   nuclide: Cu63
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 29
+#     A: 62
+#     nuclide: Cu62
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.320000E+01   4.000000E-01   2.800000E+02   4.000000E+01   1.000000E+00
+   1.450000E+01   5.000000E-01   6.500000E+02   8.000000E+01   1.000000E+00
+   1.680000E+01   1.100000E+00   8.100000E+02   8.000000E+01   1.000000E+00
+   1.940000E+01   1.300000E+00   9.500000E+02   1.000000E+02   1.000000E+00
+   2.360000E+01   1.300000E+00   6.600000E+02   1.100000E+02   1.000000E+00
+   2.710000E+01   8.000000E-01   4.900000E+02   7.000000E+01   1.000000E+00
+# reference:
+#   author: J.E.BROLLEY JR,J.L.FOWLER,L.K.SCHLACKS
+#   title: (N,2N) REACTIONS IN C-12, CU-63 AND MO-92.
+#   journal: Jour: Physical Review, Vol.88, p.618 (1952)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.320000E+01
+#   E-max [MeV]:  2.710000E+01
+#   F-value:  1.331234E+00
+#   A-value:  8.001017E-01
+#   chi-2:  3.280402E+00
+#   p-value:  1.404265E-01
+#   exp. data sets for p-value:      8
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.257446E+00   8.308195E-01   2.698823E+00
+# endfb8.1      1.356744E+00   7.863565E-01   3.461525E+00
+# jeff4.0       1.356744E+00   7.863565E-01   3.461525E+00
+# jendl5.0      1.347134E+00   7.976918E-01   3.499737E+00

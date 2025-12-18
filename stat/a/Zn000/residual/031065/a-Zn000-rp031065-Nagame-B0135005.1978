@@ -1,0 +1,52 @@
+# header: 
+#   title: Zn0(a,x)Ga65 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Nagame
+#   year: 1978
+#   subentry: B0135005
+#   X4 reaction: 30-ZN-0(A,X)31-GA-65,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/B0135005
+# target: 
+#   Z: 30
+#   A: 0
+#   nuclide: Zn0
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 31
+#     A: 65
+#     nuclide: Ga65
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.080000E+01   0.000000E+00   3.905600E+00   0.000000E+00   1.055555E+00
+   3.230000E+01   0.000000E+00   6.966700E+00   0.000000E+00   1.055555E+00
+   3.710000E+01   0.000000E+00   3.061111E+01   0.000000E+00   1.055555E+00
+# reference:
+#   author: Y.Nagame, M.Unno, H.Nakahara, Y.Murakami
+#   title: Production of 67Ga by alpha bombardment of natural  zinc
+#   journal: Jour: Applied Radiation and Isotopes, Vol.29, p.615 (1978)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  3.080000E+01
+#   E-max [MeV]:  3.710000E+01
+#   F-value:  2.215134E+00
+#   A-value:  2.187662E+00
+#   chi-2:  0.000000E+00
+#   p-value:  3.138514E-01
+#   exp. data sets for p-value:      1
+#   libraries:      1
+##  Library          F              A            chi-2
+# tendl.2025    2.215134E+00   2.187662E+00   0.000000E+00

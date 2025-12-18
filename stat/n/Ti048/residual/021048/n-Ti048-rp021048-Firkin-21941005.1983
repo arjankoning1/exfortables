@@ -1,0 +1,57 @@
+# header: 
+#   title: Ti48(n,x)Sc48 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Firkin
+#   year: 1983
+#   subentry: 21941005
+#   X4 reaction: 22-TI-48(N,P)21-SC-48,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21941005
+# target: 
+#   Z: 22
+#   A: 48
+#   nuclide: Ti48
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 21
+#     A: 48
+#     nuclide: Sc48
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.470000E+00   0.000000E+00   7.100000E-01   1.400000E-01   1.000000E+00
+   7.350000E+00   0.000000E+00   1.090000E+01   5.000000E-01   1.000000E+00
+   9.800000E+00   0.000000E+00   3.220000E+01   1.000000E+00   1.000000E+00
+   1.180000E+01   0.000000E+00   5.370000E+01   2.200000E+00   1.000000E+00
+   1.400000E+01   0.000000E+00   6.800000E+01   2.600000E+00   1.000000E+00
+   1.410000E+01   0.000000E+00   6.300000E+01   2.000000E+00   1.000000E+00
+# reference:
+#   author: S.Firkin
+#   title: Differential neutron cross section of  Ti-47,48(n,p)Sc-47,48 and Al-27(n,alpha)Na-24
+#   journal: Rept: A.E.R.E. Harwell Reports, No.3350 (1983)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  5.470000E+00
+#   E-max [MeV]:  1.410000E+01
+#   F-value:  1.165493E+00
+#   A-value:  8.983198E-01
+#   chi-2:  3.950847E+00
+#   p-value:  2.662471E-01
+#   exp. data sets for p-value:      4
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.175886E+00   8.906351E-01   4.139379E+00
+# jeff4.0       1.175886E+00   8.906347E-01   4.139413E+00
+# jendl5.0      1.142973E+00   9.138892E-01   3.573750E+00

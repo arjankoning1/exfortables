@@ -1,0 +1,55 @@
+# header: 
+#   title: U235(n,f) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Fraysse
+#   year: 1965
+#   subentry: 21780002
+#   X4 reaction: 92-U-235(N,F),,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21780002
+# target: 
+#   Z: 92
+#   A: 235
+#   nuclide: U235
+# reaction: 
+#   type: (n,f)
+#   ENDF_MF: 3
+#   ENDF_MT: 18
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.216000E-08   4.000000E-11   2.686050E+06   6.082237E+04   5.246192E+00
+   6.260000E-08   9.999999E-11   1.761771E+06   4.379880E+04   5.243365E+00
+   6.260000E-08   9.999999E-11   1.767014E+06   5.393538E+04   5.243365E+00
+   6.260000E-08   9.999999E-11   1.735554E+06   4.374522E+04   5.243365E+00
+# reference:
+#   author: G.Fraysse,A.Prosdocimi,F.Netter,C.Samour
+#   title: Measurement of the fission cross-section of 235U and  239Pu for thermal neutrons. (in French)
+#   journal: Rept: Centre d'Etudes Nucleaires, Saclay Reports, No.2775 (1965)
+# statistics:
+#   NEA score: T3
+#   IAEA score: -1
+#   E-min [MeV]:  3.216000E-08
+#   E-max [MeV]:  6.260000E-08
+#   F-value:  5.181837E+00
+#   A-value:  1.929984E-01
+#   chi-2:  1.012626E+03
+#   p-value:  8.940697E-08
+#   exp. data sets for p-value:      8
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    5.150268E+00   1.941810E-01   1.009789E+03
+# endfb8.1      5.156586E+00   1.939424E-01   1.010362E+03
+# jeff4.0       5.192375E+00   1.926014E-01   1.013546E+03
+# jendl5.0      5.149940E+00   1.941933E-01   1.009758E+03
+# cendl3.2      5.236384E+00   1.909799E-01   1.017474E+03
+# eaf.2010      5.239773E+00   1.908583E-01   1.017885E+03
+# irdff2.0      5.147923E+00   1.942694E-01   1.009569E+03

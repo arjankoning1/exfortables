@@ -1,0 +1,59 @@
+# header: 
+#   title: I127(p,x)Xe127 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Sakamoto
+#   year: 1985
+#   subentry: E1867013
+#   X4 reaction: 53-I-127(P,N)54-XE-127,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/E1867013
+# target: 
+#   Z: 53
+#   A: 127
+#   nuclide: I127
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+#   residual: 
+#     Z: 54
+#     A: 127
+#     nuclide: Xe127
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 9
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   8.212000E+00   2.138000E+00   1.053716E+02   0.000000E+00   9.912664E-01
+   1.274000E+01   1.665000E+00   2.505921E+02   0.000000E+00   9.912664E-01
+   1.664000E+01   1.660000E+00   4.399242E+01   0.000000E+00   9.912664E-01
+   2.012000E+01   1.505000E+00   3.764830E+01   0.000000E+00   9.912664E-01
+   2.588000E+01   1.505000E+00   2.944061E+01   0.000000E+00   9.912664E-01
+   3.298000E+01   1.245000E+00   1.582061E+01   0.000000E+00   9.912664E-01
+   3.884000E+01   9.858000E-01   1.890345E+01   0.000000E+00   9.912664E-01
+   4.450000E+01   1.038000E+00   1.710926E+01   0.000000E+00   9.912664E-01
+   5.082000E+01   1.090000E+00   1.136983E+01   0.000000E+00   9.912664E-01
+# reference:
+#   author: K.Sakamoto, M.Dohniwa, K.Okada
+#   title: Excitation functions for (p,xn) and (p,pxn) reactions on natural 79+81Br, 85+87Rb, 127I and 133Cs upto Ep=52 MeV
+#   journal: Jour: Applied Radiation and Isotopes, Vol.36, Issue.6, p.481 (1985)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  8.212000E+00
+#   E-max [MeV]:  5.082000E+01
+#   F-value:  1.894923E+00
+#   A-value:  1.706816E+00
+#   chi-2:  0.000000E+00
+#   p-value:  2.019680E-01
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    2.152810E+00   2.023995E+00   0.000000E+00
+# jendl5.0      1.613978E+00   1.439342E+00   0.000000E+00

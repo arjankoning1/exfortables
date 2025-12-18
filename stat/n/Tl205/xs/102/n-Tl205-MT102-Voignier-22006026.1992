@@ -1,0 +1,56 @@
+# header: 
+#   title: Tl205(n,g)Tl206 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Voignier
+#   year: 1992
+#   subentry: 22006026
+#   X4 reaction: 81-TL-205(N,G)81-TL-206,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22006026
+# target: 
+#   Z: 81
+#   A: 205
+#   nuclide: Tl205
+# reaction: 
+#   type: (n,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 81
+#     A: 206
+#     nuclide: Tl206
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.000000E-01   8.000000E-01   1.000000E+01   4.000000E+00   1.000000E+00
+   1.000000E+00   7.000000E-01   9.000000E+00   4.000000E+00   1.000000E+00
+   2.500000E+00   6.000000E-01   4.400000E+00   2.000000E+00   1.000000E+00
+# reference:
+#   author: J.Voignier, S.Joly, G.Grenier
+#   title: -Capture cross sections and gamma-ray spectra from  the interaction of 0.5 to 3.0 MeV neutron with  nuclei in the mass range A=63 to 209 .
+#   journal: Jour: Nuclear Science and Engineering, Vol.112, p.87 (1992)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  5.000000E-01
+#   E-max [MeV]:  2.500000E+00
+#   F-value:  1.212371E+00
+#   A-value:  8.899779E-01
+#   chi-2:  3.668280E-01
+#   p-value:  2.769321E-01
+#   exp. data sets for p-value:      2
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2025    1.115425E+00   9.262358E-01   2.164323E-01
+# endfb8.1      1.281576E+00   8.112714E-01   5.771902E-01
+# jeff4.0       1.115425E+00   9.262358E-01   2.164323E-01
+# jendl5.0      1.069787E+00   9.684563E-01   1.282620E-01
+# eaf.2010      1.362033E+00   8.283367E-01   6.958229E-01

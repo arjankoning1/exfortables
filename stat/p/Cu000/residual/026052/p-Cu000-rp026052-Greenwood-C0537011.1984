@@ -1,0 +1,58 @@
+# header: 
+#   title: Cu0(p,x)Fe52 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Greenwood
+#   year: 1984
+#   subentry: C0537011
+#   X4 reaction: 29-CU-0(P,X)26-FE-52,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C0537011
+# target: 
+#   Z: 29
+#   A: 0
+#   nuclide: Cu0
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 26
+#     A: 52
+#     nuclide: Fe52
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.000000E+02   0.000000E+00   3.000000E-02   1.500000E-03   1.000000E+00
+   1.500000E+02   0.000000E+00   8.300000E-02   4.150000E-03   1.000000E+00
+   2.000000E+02   0.000000E+00   1.310000E-01   6.550000E-03   1.000000E+00
+   2.500000E+02   0.000000E+00   1.530000E-01   7.650000E-03   1.000000E+00
+   3.000000E+02   0.000000E+00   1.780000E-01   8.900000E-03   1.000000E+00
+   3.500000E+02   0.000000E+00   1.810000E-01   9.050000E-03   1.000000E+00
+   4.500000E+02   0.000000E+00   2.090000E-01   1.045000E-02   1.000000E+00
+# reference:
+#   author: L.R.Greenwood,R.K.Smither
+#   title: Measurement of Cu spallation cross sections at IPNS
+#   journal: Prog: U.S. Dept.of Energy, Fusion Energy Series, No.0046-18, p.11 (1984)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  1.000000E+02
+#   E-max [MeV]:  4.500000E+02
+#   F-value:  3.228635E+00
+#   A-value:  1.239342E+00
+#   chi-2:  2.496742E+03
+#   p-value:  1.394828E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    4.706037E+00   3.377282E+00   8.991415E+03
+# endfb8.1      2.006713E+00   1.835504E+00   5.074884E+02
+# jendl5.0      4.573540E+00   2.295361E-01   2.304797E+02

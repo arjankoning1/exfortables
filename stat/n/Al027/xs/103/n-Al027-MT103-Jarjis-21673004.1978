@@ -1,0 +1,64 @@
+# header: 
+#   title: Al27(n,p)Mg27 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Jarjis
+#   year: 1978
+#   subentry: 21673004
+#   X4 reaction: 13-AL-27(N,P)12-MG-27,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21673004
+# target: 
+#   Z: 13
+#   A: 27
+#   nuclide: Al27
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 12
+#     A: 27
+#     nuclide: Mg27
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 9
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.343000E+01   1.100000E-01   1.022888E+02   5.200000E+00   9.640788E-01
+   1.371000E+01   8.000000E-02   1.013247E+02   5.000000E+00   9.640788E-01
+   1.383000E+01   5.000000E-02   9.949294E+01   5.000000E+00   9.640788E-01
+   1.400000E+01   5.000000E-02   9.602225E+01   5.000000E+00   9.640788E-01
+   1.423000E+01   5.000000E-02   9.534740E+01   4.700000E+00   9.640788E-01
+   1.449000E+01   1.400000E-01   9.110545E+01   4.900000E+00   9.640788E-01
+   1.461000E+01   1.400000E-01   8.879166E+01   5.200000E+00   9.640788E-01
+   1.481000E+01   2.100000E-01   8.975573E+01   4.900000E+00   9.640788E-01
+   1.492000E+01   2.500000E-01   8.715273E+01   4.400000E+00   9.640788E-01
+# reference:
+#   author: R.A.Jarjis
+#   title: -Measurements of Cu-63(N,2N)Cu-62 and Al-27(N,P)mg-27  cross sections for 12.9 to 15.9 MeV neutrons -.
+#   journal: Jour: Jour. of Physics, Part G (Nucl.and Part.Phys.), Vol.4, Issue.3, p.
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.343000E+01
+#   E-max [MeV]:  1.492000E+01
+#   F-value:  1.295124E+00
+#   A-value:  7.737074E-01
+#   chi-2:  1.908974E+01
+#   p-value:  5.593561E-02
+#   exp. data sets for p-value:      8
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.294007E+00   7.744458E-01   1.891355E+01
+# endfb8.1      1.294531E+00   7.741579E-01   1.896289E+01
+# jeff4.0       1.294515E+00   7.741656E-01   1.896136E+01
+# jendl5.0      1.254013E+00   7.976979E-01   1.527145E+01
+# cendl3.2      1.304548E+00   7.680093E-01   1.999219E+01
+# eaf.2010      1.326614E+00   7.539613E-01   2.256369E+01
+# irdff2.0      1.294533E+00   7.741570E-01   1.896306E+01

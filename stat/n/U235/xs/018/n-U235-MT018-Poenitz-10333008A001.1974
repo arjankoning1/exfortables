@@ -1,0 +1,60 @@
+# header: 
+#   title: U235(n,f) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Poenitz
+#   year: 1974
+#   subentry: 10333008
+#   X4 reaction: 92-U-235(N,F),,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/10333008
+# target: 
+#   Z: 92
+#   A: 235
+#   nuclide: U235
+# reaction: 
+#   type: (n,f)
+#   ENDF_MF: 3
+#   ENDF_MT: 18
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 9
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.450000E-02   1.000000E-02   1.996000E+03   6.000000E+01   1.000000E+00
+   4.200000E-02   1.000000E-02   1.856000E+03   5.400001E+01   1.000000E+00
+   4.550000E-02   1.000000E-02   1.866000E+03   5.400001E+01   1.000000E+00
+   6.000000E-02   1.000000E-02   1.795000E+03   5.200000E+01   1.000000E+00
+   7.500000E-02   1.000000E-02   1.737000E+03   5.100000E+01   1.000000E+00
+   8.300000E-02   1.000000E-02   1.629000E+03   4.700000E+01   1.000000E+00
+   9.000000E-02   1.000000E-02   1.579000E+03   4.400000E+01   1.000000E+00
+   1.010000E-01   1.000000E-02   1.589000E+03   4.400000E+01   1.000000E+00
+   1.090000E-01   1.000000E-02   1.574000E+03   4.400000E+01   1.000000E+00
+# reference:
+#   author: W.P.Poenitz
+#   title: Relative and absolute measurements of the fast-neutron  fission cross section of uranium-235
+#   journal: Jour: Nuclear Science and Engineering, Vol.53, p.370 (1974)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  3.450000E-02
+#   E-max [MeV]:  1.090000E-01
+#   F-value:  1.026845E+00
+#   A-value:  9.861209E-01
+#   chi-2:  1.029451E+00
+#   p-value:  3.721559E-01
+#   exp. data sets for p-value:      8
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.037328E+00   9.816617E-01   1.626101E+00
+# endfb8.1      1.033804E+00   9.836162E-01   1.390812E+00
+# jeff4.0       1.014833E+00   9.936074E-01   4.744449E-01
+# jendl5.0      1.032008E+00   9.780504E-01   1.398860E+00
+# cendl3.2      1.014787E+00   9.912420E-01   4.739928E-01
+# eaf.2010      1.019630E+00   9.871492E-01   8.835454E-01
+# irdff2.0      1.026046E+00   9.876090E-01   9.583979E-01

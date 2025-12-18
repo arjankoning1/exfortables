@@ -1,0 +1,57 @@
+# header: 
+#   title: Eu153(n,2n)Eu152 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: JunhuaLuoo
+#   year: 2017
+#   subentry: 327720025
+#   X4 reaction: 63-EU-153(N,2N)63-EU-152,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/327720025
+# target: 
+#   Z: 63
+#   A: 153
+#   nuclide: Eu153
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 63
+#     A: 152
+#     nuclide: Eu152
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.350000E+01   2.000000E-01   1.754019E+03   1.913914E+02   9.892946E-01
+   1.410000E+01   2.000000E-01   1.771457E+03   2.165221E+02   9.996933E-01
+   1.480000E+01   2.000000E-01   1.803960E+03   2.097571E+02   1.001088E+00
+# reference:
+#   author: Junhua Luo, Li Jiang, Suyuan Li
+#   title: Activation cross section and isomeric cross section ratios for the (n,2n) reaction on 153Eu
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.96, p.044617 (2017)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.350000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.050425E+00
+#   A-value:  1.034827E+00
+#   chi-2:  4.521918E-01
+#   p-value:  2.937544E-01
+#   exp. data sets for p-value:      6
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.042934E+00   1.042815E+00   5.041287E-01
+# endfb8.1      1.108764E+00   1.107642E+00   1.451849E+00
+# jeff4.0       1.042934E+00   1.042815E+00   5.041287E-01
+# jendl5.0      1.001721E+00   1.000180E+00   1.671293E-02
+# cendl3.2      1.008296E+00   1.004310E+00   7.145550E-02
+# eaf.2010      1.016121E+00   1.014956E+00   1.648768E-01

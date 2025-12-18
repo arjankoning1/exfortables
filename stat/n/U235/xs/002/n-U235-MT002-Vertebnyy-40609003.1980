@@ -1,0 +1,51 @@
+# header: 
+#   title: U235(n,el) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Vertebnyy
+#   year: 1980
+#   subentry: 40609003
+#   X4 reaction: 92-U-235(N,EL)92-U-235,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/40609003
+# target: 
+#   Z: 92
+#   A: 235
+#   nuclide: U235
+# reaction: 
+#   type: (n,el)
+#   ENDF_MF: 3
+#   ENDF_MT: 2
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.000000E-03   0.000000E+00   1.186000E+04   1.000000E+02   1.000000E+00
+   2.450000E-02   0.000000E+00   1.150000E+04   1.400000E+02   1.000000E+00
+# reference:
+#   author: V.P.VERTEBNYY, N.L.GNIDAK, A.V.GREBNEV, A.L.KIRILYUK,  E.A.PAVLENKO, N.A.TROFIMOVA
+#   title: DETERMINATION OF TOTAL CROSS-SECTION AND SCATTERING  CROSS-SECTION OF U-235 FOR NEUTRON ENERGIES 2. AND  24.5 KEV
+#   journal: Conf: 5.All Union Conf.on Neutron Phys.,Kiev,15-19 Sep 1980, Vol.2, p.25
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.000000E-03
+#   E-max [MeV]:  2.450000E-02
+#   F-value:  1.062063E+00
+#   A-value:  1.014711E+00
+#   chi-2:  5.161628E+01
+#   p-value:  3.956410E-01
+#   exp. data sets for p-value:      2
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2025    1.039687E+00   1.023166E+00   2.247263E+01
+# endfb8.1      1.039931E+00   1.023517E+00   2.276980E+01
+# jeff4.0       1.117116E+00   1.040609E+00   1.793850E+02
+# jendl5.0      1.050409E+00   1.006306E+00   2.838135E+01
+# cendl3.2      1.020108E+00   9.809666E-01   5.072605E+00

@@ -1,0 +1,57 @@
+# header: 
+#   title: Ni60(p,x)Cu60 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Singh
+#   year: 2006
+#   subentry: D6012002
+#   X4 reaction: 28-NI-60(P,N)29-CU-60,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D6012002
+# target: 
+#   Z: 28
+#   A: 60
+#   nuclide: Ni60
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+#   residual: 
+#     Z: 29
+#     A: 60
+#     nuclide: Cu60
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   7.098700E+00   5.785100E-01   1.844100E+00   2.737500E-01   1.000000E+00
+   8.952900E+00   5.013700E-01   1.380200E+02   1.776000E+01   1.000000E+00
+   1.065000E+01   5.013700E-01   2.684700E+02   3.454500E+01   1.000000E+00
+   1.207700E+01   5.013700E-01   3.080100E+02   5.167700E+01   1.000000E+00
+   1.350400E+01   5.399400E-01   3.079000E+02   5.165900E+01   1.000000E+00
+   1.504700E+01   5.399400E-01   2.503300E+02   3.221200E+01   1.000000E+00
+# reference:
+#   author: B.P.Singh, Manoj K.Sharma, M.M.Musthafa, H.D.Bhardwaj,  R.Prasad
+#   title: A study of pre-equilibrium emission in some proton-  and alpha-induced reactions
+#   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.A, Vol.562, p.717 (20
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  7.098700E+00
+#   E-max [MeV]:  1.504700E+01
+#   F-value:  2.313231E+00
+#   A-value:  1.304774E+00
+#   chi-2:  2.508065E+02
+#   p-value:  2.451484E-01
+#   exp. data sets for p-value:      2
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    2.230938E+00   1.485808E+00   2.490817E+02
+# endfb8.1      1.616896E+00   6.551787E-01   6.572452E+00
+# jendl5.0      1.335703E+00   1.156313E+00   1.001226E+01

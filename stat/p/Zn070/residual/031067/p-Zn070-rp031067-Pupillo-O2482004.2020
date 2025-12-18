@@ -1,0 +1,57 @@
+# header: 
+#   title: Zn70(p,x)Ga67 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Pupillo
+#   year: 2020
+#   subentry: O2482004
+#   X4 reaction: 30-ZN-70(P,4N)31-GA-67,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O2482004
+# target: 
+#   Z: 30
+#   A: 70
+#   nuclide: Zn70
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 37
+#   residual: 
+#     Z: 31
+#     A: 67
+#     nuclide: Ga67
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   4.470000E+01   7.000000E-01   2.967145E+02   3.723521E+01   1.055172E+00
+   4.770000E+01   6.000000E-01   2.222682E+02   3.486626E+01   1.038636E+00
+   5.080000E+01   5.000000E-01   1.737390E+02   2.653177E+01   1.009524E+00
+   5.580000E+01   5.000000E-01   1.209007E+02   1.899632E+01   1.006667E+00
+   5.600000E+01   8.000000E-01   1.348630E+02   2.055990E+01   9.945652E-01
+   6.080000E+01   5.000000E-01   9.702972E+01   1.410826E+01   9.972222E-01
+   6.780000E+01   6.000000E-01   5.954560E+01   7.717400E+00   9.974138E-01
+# reference:
+#   author: G.Pupillo,L.Mou,P.Martini,M.Pasquali,A.Boschi, G.Cicoria, A.Duatti,F.Haddad,J.Esposito
+#   title: Production of 67Cu by enriched 70Zn targets: first measurements of formation cross sections of 67Cu, 64Cu, 67Ga, 66Ga, 69mZn and 65Zn in interactions of 70Zn with protons above 45 MeV
+#   journal: Jour: Radiochimica Acta, Vol.108, p.593 (2020)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  4.470000E+01
+#   E-max [MeV]:  6.780000E+01
+#   F-value:  2.096637E+00
+#   A-value:  5.100645E-01
+#   chi-2:  1.195374E+01
+#   p-value:  1.515750E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    2.625648E+00   3.831525E-01   1.829743E+01
+# jendl5.0      1.499873E+00   6.790135E-01   5.610042E+00

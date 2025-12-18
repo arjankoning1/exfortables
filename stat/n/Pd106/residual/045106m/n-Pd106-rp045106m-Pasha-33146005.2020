@@ -1,0 +1,57 @@
+# header: 
+#   title: Pd106(n,x)Rh106m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Pasha
+#   year: 2020
+#   subentry: 33146005
+#   X4 reaction: 46-PD-106(N,P)45-RH-106-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/33146005
+# target: 
+#   Z: 46
+#   A: 106
+#   nuclide: Pd106
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 45
+#     A: 106
+#     nuclide: Rh106m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.454000E+01   4.800000E-01   8.030000E+00   9.763300E-01   1.016458E+00
+# reference:
+#   author: I.Pasha, B.Rudraswamy, S.V.Suryanarayana, H.Naik, S.P.Ram, L.S.Danu, T.Patel, S.Bishnoi, M.P.Karantha
+#   title: Measurement of neutron induced reaction cross sections of palladium isotopes at the neutron energy of 14.54 +/- 0.24 MeV with covariance analysis
+#   journal: Jour: Journal of Radioanalytical and Nuclear Chemistry, Vol.325, p.175 (
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.454000E+01
+#   E-max [MeV]:  1.454000E+01
+#   F-value:  1.228000E+00
+#   A-value:  1.018924E+00
+#   chi-2:  3.147034E+00
+#   p-value:  3.958999E-01
+#   exp. data sets for p-value:      8
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.177474E+00   1.177474E+00   2.650912E+00
+# jeff4.0       1.177474E+00   1.177474E+00   2.650912E+00
+# jendl5.0      1.310622E+00   7.629966E-01   4.139278E+00

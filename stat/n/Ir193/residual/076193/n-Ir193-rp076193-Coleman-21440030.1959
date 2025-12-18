@@ -1,0 +1,52 @@
+# header: 
+#   title: Ir193(n,x)Os193 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Coleman
+#   year: 1959
+#   subentry: 21440030
+#   X4 reaction: 77-IR-193(N,P)76-OS-193,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21440030
+# target: 
+#   Z: 77
+#   A: 193
+#   nuclide: Ir193
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 76
+#     A: 193
+#     nuclide: Os193
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.450000E+01   0.000000E+00   2.700000E+00   5.400000E-01   1.000000E+00
+# reference:
+#   author: R.F.Coleman,B.E.Hawker,L.P.O'Connor,J.L.Perkin
+#   title: Cross sections for (n,p) and (n,alpha) reactions with  14.5 MeV neutrons
+#   journal: Jour: Proceedings of the Physical Society (London),, Vol.73, p.215 (1959
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.450000E+01
+#   E-max [MeV]:  1.450000E+01
+#   F-value:  1.019580E+00
+#   A-value:  9.840815E-01
+#   chi-2:  1.018615E-01
+#   p-value:  4.009025E-01
+#   exp. data sets for p-value:      3
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.008383E+00   9.916863E-01   5.255478E-02
+# jeff4.0       1.008383E+00   9.916863E-01   5.255478E-02
+# jendl5.0      1.031942E+00   9.690464E-01   2.004750E-01

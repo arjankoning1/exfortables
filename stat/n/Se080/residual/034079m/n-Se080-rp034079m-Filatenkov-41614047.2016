@@ -1,0 +1,59 @@
+# header: 
+#   title: Se80(n,x)Se79m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Filatenkov
+#   year: 2016
+#   subentry: 41614047
+#   X4 reaction: 34-SE-80(N,2N)34-SE-79-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/41614047
+# target: 
+#   Z: 34
+#   A: 80
+#   nuclide: Se80
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 34
+#     A: 79
+#     nuclide: Se79m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.405000E+01   0.000000E+00   2.147197E+02   1.567560E+01   1.008074E+00
+   1.464000E+01   0.000000E+00   2.146665E+02   2.447302E+01   1.007824E+00
+   1.484000E+01   0.000000E+00   2.437995E+02   2.381904E+01   1.007436E+00
+# reference:
+#   author: A.A.Filatenkov
+#   title: Neutron activation cross sections measured at KRI in neutron energy region 13.4 - 14.9 MeV
+#   journal: Rept: USSR report to the I.N.D.C., No.0460 (2016)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.405000E+01
+#   E-max [MeV]:  1.484000E+01
+#   F-value:  1.181709E+00
+#   A-value:  8.567379E-01
+#   chi-2:  3.251685E+00
+#   p-value:  3.476055E-01
+#   exp. data sets for p-value:      7
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.181709E+00   8.567379E-01   3.251685E+00
+# jeff4.0       1.181709E+00   8.567379E-01   3.251685E+00
+# jendl5.0      0.000000E+00   0.000000E+00   0.000000E+00

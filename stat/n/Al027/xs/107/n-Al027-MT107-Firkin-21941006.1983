@@ -1,0 +1,60 @@
+# header: 
+#   title: Al27(n,a)Na24 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Firkin
+#   year: 1983
+#   subentry: 21941006
+#   X4 reaction: 13-AL-27(N,A)11-NA-24,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21941006
+# target: 
+#   Z: 13
+#   A: 27
+#   nuclide: Al27
+# reaction: 
+#   type: (n,a)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+#   residual: 
+#     Z: 11
+#     A: 24
+#     nuclide: Na24
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   7.350000E+00   0.000000E+00   2.540000E+01   6.000000E-01   1.000000E+00
+   9.800000E+00   0.000000E+00   8.840001E+01   2.200000E+00   1.000000E+00
+   1.180000E+01   0.000000E+00   1.170000E+02   3.700000E+00   1.000000E+00
+   1.400000E+01   0.000000E+00   1.241000E+02   7.000000E-01   1.000000E+00
+   1.410000E+01   0.000000E+00   1.220000E+02   2.000000E+00   1.000000E+00
+# reference:
+#   author: S.Firkin
+#   title: Differential neutron cross section of  Ti-47,48(n,p)Sc-47,48 and Al-27(n,alpha)Na-24
+#   journal: Rept: A.E.R.E. Harwell Reports, No.3350 (1983)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  7.350000E+00
+#   E-max [MeV]:  1.410000E+01
+#   F-value:  1.030746E+00
+#   A-value:  9.801706E-01
+#   chi-2:  3.305017E+00
+#   p-value:  3.203482E-01
+#   exp. data sets for p-value:      6
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.026353E+00   9.808594E-01   2.799733E+00
+# endfb8.1      1.026350E+00   9.816003E-01   2.770472E+00
+# jeff4.0       1.026246E+00   9.816145E-01   2.762340E+00
+# jendl5.0      1.053843E+00   9.666618E-01   5.863655E+00
+# cendl3.2      1.020582E+00   9.827759E-01   3.743411E+00
+# eaf.2010      1.023808E+00   9.862043E-01   2.427913E+00
+# irdff2.0      1.026345E+00   9.815973E-01   2.767598E+00

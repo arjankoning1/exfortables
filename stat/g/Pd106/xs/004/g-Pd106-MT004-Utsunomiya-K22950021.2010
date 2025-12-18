@@ -1,0 +1,60 @@
+# header: 
+#   title: Pd106(g,n')Pd105 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Utsunomiya
+#   year: 2010
+#   subentry: K22950021
+#   X4 reaction: 46-PD-106(G,N)46-PD-105,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/K22950021
+# target: 
+#   Z: 46
+#   A: 106
+#   nuclide: Pd106
+# reaction: 
+#   type: (g,n')
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+#   residual: 
+#     Z: 46
+#     A: 105
+#     nuclide: Pd105
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 9
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   9.660000E+00   0.000000E+00   9.490000E+00   2.298300E+00   1.000000E+00
+   9.840000E+00   0.000000E+00   1.661000E+01   1.422200E+00   1.000000E+00
+   1.000000E+01   0.000000E+00   1.722000E+01   1.184100E+00   1.000000E+00
+   1.028000E+01   0.000000E+00   2.086000E+01   1.224100E+00   1.000000E+00
+   1.081000E+01   0.000000E+00   2.147000E+01   1.212400E+00   1.000000E+00
+   1.116000E+01   0.000000E+00   3.030000E+01   1.977100E+00   1.000000E+00
+   1.199000E+01   0.000000E+00   5.059000E+01   3.200800E+00   1.000000E+00
+   1.263000E+01   0.000000E+00   7.402000E+01   4.173700E+00   1.000000E+00
+   1.374000E+01   0.000000E+00   1.208000E+02   6.944900E+00   1.000000E+00
+# reference:
+#   author: H.Utsunomiya, S.Goriely, H.Akimune, H.Harada,  F.Kitatani, S.Goko, H.Toyokawa, K.Yamada, T.Kondo,  O.Itoh, M.Kamata, T.Yamagata, Y.-W.Lui, I.Daoutidis,  D.P.Arteaga, S.Hilaire, A.J.Koning
+#   title: gamma-ray strength function method and its application to 107Pd
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.82, p.064610 (2010)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  9.660000E+00
+#   E-max [MeV]:  1.374000E+01
+#   F-value:  1.354059E+00
+#   A-value:  1.177125E+00
+#   chi-2:  3.616125E+01
+#   p-value:  2.776054E-01
+#   exp. data sets for p-value:      2
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.525116E+00   1.373800E+00   8.028922E+01
+# endfb8.1      1.129718E+00   1.091738E+00   5.879026E+00
+# jendl5.0      1.129718E+00   1.091738E+00   5.879026E+00

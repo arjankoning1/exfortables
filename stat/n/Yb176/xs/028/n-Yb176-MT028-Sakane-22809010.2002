@@ -1,0 +1,57 @@
+# header: 
+#   title: Yb176(n,np)Tm175 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Sakane
+#   year: 2002
+#   subentry: 22809010
+#   X4 reaction: 70-YB-176(N,X)69-TM-175,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22809010
+# target: 
+#   Z: 70
+#   A: 176
+#   nuclide: Yb176
+# reaction: 
+#   type: (n,np)
+#   ENDF_MF: 3
+#   ENDF_MT: 28
+#   residual: 
+#     Z: 69
+#     A: 175
+#     nuclide: Tm175
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.402000E+01   5.000000E-02   3.000000E-01   6.000000E-02   1.000000E+00
+   1.435000E+01   5.000000E-02   5.500000E-01   8.250000E-02   1.000000E+00
+   1.464000E+01   5.000000E-02   7.300000E-01   1.022000E-01   1.000000E+00
+   1.487000E+01   5.000000E-02   8.700000E-01   1.218000E-01   1.000000E+00
+# reference:
+#   author: H.SAKANE, Y.KASUGAI, M.SHIBATA, Y.IKEDA, K.KAWADE
+#   title: - Measurement of the activation cross section of   (N,Np+d) reactions for lantanide isotopes in the   enegry range between 13.4 and 14.9 MeV
+#   journal: Jour: Annals of Nuclear Energy, Vol.29, Issue.10, p.1209 (2002)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  1.402000E+01
+#   E-max [MeV]:  1.487000E+01
+#   F-value:  5.977315E+01
+#   A-value:  1.698135E-02
+#   chi-2:  4.124280E+01
+#   p-value:  2.533197E-07
+#   exp. data sets for p-value:      1
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2025    6.611620E+01   1.527248E-02   4.144212E+01
+# endfb8.1      5.031060E+01   2.018527E-02   4.093750E+01
+# jeff4.0       6.611620E+01   1.527248E-02   4.144212E+01
+# jendl5.0      5.031060E+01   2.018527E-02   4.093750E+01
+# eaf.2010      6.814739E+01   1.485843E-02   4.145477E+01

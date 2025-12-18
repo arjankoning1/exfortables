@@ -1,0 +1,60 @@
+# header: 
+#   title: Be9(n,a)He6 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Vasilev
+#   year: 1958
+#   subentry: 40712002
+#   X4 reaction: 4-BE-9(N,A)2-HE-6,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/40712002
+# target: 
+#   Z: 4
+#   A: 9
+#   nuclide: Be9
+# reaction: 
+#   type: (n,a)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+#   residual: 
+#     Z: 2
+#     A: 6
+#     nuclide: He6
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.000000E+00   5.000000E-01   1.200000E+01   5.000000E+00   1.000000E+00
+   2.000000E+00   5.000000E-01   5.500000E+01   1.500000E+01   1.000000E+00
+   3.000000E+00   5.000000E-01   9.500000E+01   2.000000E+01   1.000000E+00
+   4.000000E+00   5.000000E-01   8.600000E+01   2.200000E+01   1.000000E+00
+   5.000000E+00   5.000000E-01   5.000000E+01   1.800000E+01   1.000000E+00
+   6.000000E+00   5.000000E-01   3.600000E+01   1.600000E+01   1.000000E+00
+   7.000000E+00   5.000000E-01   1.900000E+01   1.000000E+01   1.000000E+00
+# reference:
+#   author: S.S.Vasil'ev,V.V.Komarov,A.M.Popova
+#   title: An investigation of the (n,alpha) and (n,t) reactions in Be9.
+#   journal: Jour: Doklady Akademii Nauk, Vol.119, p.914 (1958)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  1.000000E+00
+#   E-max [MeV]:  7.000000E+00
+#   F-value:  2.861782E+00
+#   A-value:  7.577204E-01
+#   chi-2:  1.376663E+00
+#   p-value:  1.553116E-01
+#   exp. data sets for p-value:      3
+#   libraries:      5
+##  Library          F              A            chi-2
+# endfb8.1      2.661943E+00   7.866083E-01   1.374436E+00
+# jeff4.0       2.982649E+00   7.402107E-01   1.400044E+00
+# jendl5.0      3.020694E+00   7.367448E-01   1.334355E+00
+# cendl3.2      2.661943E+00   7.866083E-01   1.374436E+00
+# eaf.2010      2.982649E+00   7.402107E-01   1.400044E+00

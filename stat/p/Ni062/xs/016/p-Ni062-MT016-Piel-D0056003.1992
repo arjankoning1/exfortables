@@ -1,0 +1,60 @@
+# header: 
+#   title: Ni62(p,2n)Cu61 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Piel
+#   year: 1992
+#   subentry: D0056003
+#   X4 reaction: 28-NI-62(P,2N)29-CU-61,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D0056003
+# target: 
+#   Z: 28
+#   A: 62
+#   nuclide: Ni62
+# reaction: 
+#   type: (p,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 29
+#     A: 61
+#     nuclide: Cu61
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 9
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.400000E+01   3.000000E-01   2.800000E+00   8.000000E-01   1.000000E+00
+   1.520000E+01   2.000000E-01   3.400000E+01   9.000000E+00   1.000000E+00
+   1.620000E+01   2.000000E-01   1.000000E+02   2.500000E+01   1.000000E+00
+   1.650000E+01   2.000000E-01   1.300000E+02   3.300000E+01   1.000000E+00
+   1.710000E+01   2.000000E-01   1.800000E+02   4.500000E+01   1.000000E+00
+   1.740000E+01   2.000000E-01   1.900000E+02   4.700000E+01   1.000000E+00
+   1.780000E+01   2.000000E-01   2.300000E+02   5.500000E+01   1.000000E+00
+   1.790000E+01   2.000000E-01   2.200000E+02   5.300000E+01   1.000000E+00
+   1.830000E+01   2.000000E-01   2.300000E+02   0.000000E+00   1.000000E+00
+# reference:
+#   author: H.Piel,S.M.Qaim,G.Stoecklin
+#   title: Excitation functions of (p,xn)-reactions on natNi and highly enriched 62Ni: Possibility of production of medically important radioisotope 62Cu at a small cyclotron
+#   journal: Jour: Radiochimica Acta, Vol.57, p.1 (1992)
+# statistics:
+#   NEA score: T2
+#   IAEA score:  1
+#   E-min [MeV]:  1.400000E+01
+#   E-max [MeV]:  1.830000E+01
+#   F-value:  1.415262E+00
+#   A-value:  8.697452E-01
+#   chi-2:  1.594556E+00
+#   p-value:  2.889592E-01
+#   exp. data sets for p-value:      2
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.292263E+00   9.872455E-01   1.103691E+00
+# endfb8.1      1.577113E+00   6.463519E-01   2.260397E+00
+# jendl5.0      1.232349E+00   1.130868E+00   1.172733E+00

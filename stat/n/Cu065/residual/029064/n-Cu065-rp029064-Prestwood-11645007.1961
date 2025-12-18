@@ -1,0 +1,68 @@
+# header: 
+#   title: Cu65(n,x)Cu64 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Prestwood
+#   year: 1961
+#   subentry: 11645007
+#   X4 reaction: 29-CU-65(N,2N)29-CU-64,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11645007
+# target: 
+#   Z: 29
+#   A: 65
+#   nuclide: Cu65
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 29
+#     A: 64
+#     nuclide: Cu64
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 16
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.206000E+01   1.100000E-01   5.040000E+02   2.500000E+01   1.000000E+00
+   1.333000E+01   2.300000E-01   7.780000E+02   3.100000E+01   1.000000E+00
+   1.340000E+01   2.000000E-01   7.710000E+02   3.100000E+01   1.000000E+00
+   1.352000E+01   1.500000E-01   8.140000E+02   3.300000E+01   1.000000E+00
+   1.369000E+01   1.000000E-01   8.300000E+02   3.300000E+01   1.000000E+00
+   1.388000E+01   1.000000E-01   8.790000E+02   3.500000E+01   1.000000E+00
+   1.401000E+01   1.000000E-01   8.790000E+02   3.500000E+01   1.000000E+00
+   1.409000E+01   1.000000E-01   9.060000E+02   3.600000E+01   1.000000E+00
+   1.431000E+01   1.300000E-01   8.920000E+02   3.600000E+01   1.000000E+00
+   1.450000E+01   2.000000E-01   9.370000E+02   3.700000E+01   1.000000E+00
+   1.468000E+01   2.600000E-01   9.530000E+02   3.800000E+01   1.000000E+00
+   1.481000E+01   3.100000E-01   9.680000E+02   3.900000E+01   1.000000E+00
+   1.493000E+01   3.600000E-01   9.750000E+02   3.900000E+01   1.000000E+00
+   1.650000E+01   3.000000E-01   9.970000E+02   5.000000E+01   1.000000E+00
+   1.795000E+01   3.200000E-01   9.300000E+02   4.700000E+01   1.000000E+00
+   1.976000E+01   4.300000E-01   9.860000E+02   4.900000E+01   1.000000E+00
+# reference:
+#   author: R.J.PRESTWOOD,B.P.BAYHURST
+#   title: (N,2N) EXCITATION FUNCTIONS OF SEVERAL NUCLEI FROM 12.0 TO 19.8 MEV.
+#   journal: Jour: Physical Review, Vol.121, p.1438 (1961)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.206000E+01
+#   E-max [MeV]:  1.976000E+01
+#   F-value:  1.048951E+00
+#   A-value:  1.008631E+00
+#   chi-2:  1.156035E+00
+#   p-value:  3.534609E-01
+#   exp. data sets for p-value:      4
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.049754E+00   1.007065E+00   1.173416E+00
+# endfb8.1      1.049600E+00   1.008577E+00   1.179946E+00
+# jeff4.0       1.049600E+00   1.008577E+00   1.179946E+00
+# jendl5.0      1.046792E+00   1.010307E+00   1.090831E+00

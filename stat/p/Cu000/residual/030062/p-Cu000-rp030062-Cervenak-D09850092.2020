@@ -1,0 +1,67 @@
+# header: 
+#   title: Cu0(p,x)Zn62 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Cervenak
+#   year: 2020
+#   subentry: D09850092
+#   X4 reaction: 29-CU-0(P,X)30-ZN-62,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D09850092
+# target: 
+#   Z: 29
+#   A: 0
+#   nuclide: Cu0
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 30
+#     A: 62
+#     nuclide: Zn62
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 16
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.376000E+01   1.000000E+00   1.520000E+00   1.100000E-01   1.000000E+00
+   1.544000E+01   9.000000E-01   1.630000E+01   1.100000E+00   1.000000E+00
+   1.699000E+01   8.000000E-01   3.250000E+01   2.300000E+00   1.000000E+00
+   1.846000E+01   7.200000E-01   4.710000E+01   3.300000E+00   1.000000E+00
+   1.986000E+01   6.600000E-01   5.770000E+01   4.000000E+00   1.000000E+00
+   2.119000E+01   6.000000E-01   6.539999E+01   4.500000E+00   1.000000E+00
+   2.247000E+01   1.240000E+00   7.260000E+01   5.000000E+00   1.000000E+00
+   2.369000E+01   1.160000E+00   7.440001E+01   5.100000E+00   1.000000E+00
+   2.485000E+01   1.100000E+00   7.240000E+01   5.000000E+00   1.000000E+00
+   2.662000E+01   1.000000E+00   6.130000E+01   4.200000E+00   1.000000E+00
+   2.834000E+01   9.200000E-01   4.840000E+01   3.300000E+00   1.000000E+00
+   2.996000E+01   8.400000E-01   3.660000E+01   2.500000E+00   1.000000E+00
+   3.153000E+01   7.800000E-01   2.840000E+01   2.000000E+00   1.000000E+00
+   3.302000E+01   7.200000E-01   2.290000E+01   1.600000E+00   1.000000E+00
+   3.449000E+01   6.600000E-01   1.850000E+01   1.300000E+00   1.000000E+00
+   3.590000E+01   6.000000E-01   1.620000E+01   1.100000E+00   1.000000E+00
+# reference:
+#   author: J.Cervenak, O.Lebeda
+#   title: New cross-section data for proton-induced reactions on  natTi and natCu with special regard to the beam  monitoring
+#   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.480, p.78 (202
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.376000E+01
+#   E-max [MeV]:  3.590000E+01
+#   F-value:  1.403943E+00
+#   A-value:  7.659239E-01
+#   chi-2:  1.492500E+01
+#   p-value:  2.679451E-01
+#   exp. data sets for p-value:      3
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.668054E+00   6.386747E-01   3.078819E+01
+# endfb8.1      1.296612E+00   7.741060E-01   1.096625E+01
+# jendl5.0      1.121365E+00   9.181998E-01   2.677130E+00

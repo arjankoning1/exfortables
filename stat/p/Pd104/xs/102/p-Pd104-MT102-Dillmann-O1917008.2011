@@ -1,0 +1,56 @@
+# header: 
+#   title: Pd104(p,g)Ag105 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Dillmann
+#   year: 2011
+#   subentry: O1917008
+#   X4 reaction: 46-PD-104(P,G)47-AG-105,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O1917008
+# target: 
+#   Z: 46
+#   A: 104
+#   nuclide: Pd104
+# reaction: 
+#   type: (p,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 47
+#     A: 105
+#     nuclide: Ag105
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.740325E+00   1.700000E-02   2.400000E-02   3.000000E-03   1.000000E+00
+   2.991740E+00   1.400000E-02   9.100000E-02   1.100000E-02   1.000000E+00
+   3.688433E+00   2.800000E-02   6.340000E-01   4.700000E-02   1.000000E+00
+   4.029711E+00   2.800000E-02   1.654000E+00   1.240000E-01   1.000000E+00
+   4.516387E+00   2.900000E-02   3.640000E+00   2.140000E-01   1.000000E+00
+   5.083838E+00   3.100000E-02   6.104000E+00   3.940000E-01   1.000000E+00
+# reference:
+#   author: I.Dillmann, L.Coquard, C.Domingo-Pardo, F.Kaeppeler, J.Marganiec, E.Uberseder, U.Giesen, A.Heiske, G.Feinberg, D.Hentschel, S.Hilpp, H.Leiste, T.Rauscher, F.-K.Thielemann
+#   title: Cross section for proton-induced reactions on Pd isotopes at energies relevant for the gamma process.
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.84, p.015802 (2011)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.740325E+00
+#   E-max [MeV]:  5.083838E+00
+#   F-value:  1.705264E+00
+#   A-value:  1.620196E+00
+#   chi-2:  7.067725E+01
+#   p-value:  3.487294E-01
+#   exp. data sets for p-value:      4
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.474506E+00   1.402295E+00   2.459575E+01
+# jendl5.0      1.910261E+00   1.871955E+00   1.167588E+02

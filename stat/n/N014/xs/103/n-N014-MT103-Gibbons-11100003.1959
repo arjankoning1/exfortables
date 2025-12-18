@@ -1,0 +1,67 @@
+# header: 
+#   title: N14(n,p)C14 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Gibbons
+#   year: 1959
+#   subentry: 11100003
+#   X4 reaction: 7-N-14(N,P)6-C-14,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11100003
+# target: 
+#   Z: 7
+#   A: 14
+#   nuclide: N14
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 6
+#     A: 14
+#     nuclide: C14
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 13
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.900000E-02   0.000000E+00   1.700000E+00   5.111300E-01   1.000000E+00
+   4.300000E-02   0.000000E+00   1.500000E+00   4.510000E-01   1.000000E+00
+   5.700000E-02   0.000000E+00   1.500000E+00   4.510000E-01   1.000000E+00
+   7.100000E-02   0.000000E+00   1.250000E+00   3.758300E-01   1.000000E+00
+   1.000000E-01   0.000000E+00   1.600000E+00   4.810700E-01   1.000000E+00
+   1.300000E-01   0.000000E+00   1.500000E+00   4.510000E-01   1.000000E+00
+   1.600000E-01   0.000000E+00   1.100000E+00   3.307300E-01   1.000000E+00
+   1.900000E-01   0.000000E+00   1.300000E+00   3.908700E-01   1.000000E+00
+   2.200000E-01   0.000000E+00   1.200000E+00   3.608000E-01   1.000000E+00
+   2.500000E-01   0.000000E+00   1.200000E+00   3.608000E-01   1.000000E+00
+   2.800000E-01   0.000000E+00   1.200000E+00   3.608000E-01   1.000000E+00
+   3.200000E-01   0.000000E+00   1.300000E+00   3.908700E-01   1.000000E+00
+   3.500000E-01   0.000000E+00   1.300000E+00   3.908700E-01   1.000000E+00
+# reference:
+#   author: J.H.GIBBONS,R.L.MACKLIN
+#   title: TOTAL NEUTRON YIELDS FROM LIGHT ELEMENTS UNDER PROTON AND ALPHA BOMBARDMENT.
+#   journal: Jour: Physical Review, Vol.114, p.571 (1959)
+# statistics:
+#   NEA score: R3
+#   IAEA score: -1
+#   E-min [MeV]:  2.900000E-02
+#   E-max [MeV]:  3.500000E-01
+#   F-value:  4.357449E+00
+#   A-value:  1.945015E+00
+#   chi-2:  7.869754E+03
+#   p-value:  1.486782E-01
+#   exp. data sets for p-value:      2
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    3.378273E+01   2.158322E+01   4.720376E+04
+# endfb8.1      1.475717E+00   1.265793E+00   3.660169E+00
+# jeff4.0       1.475717E+00   1.265793E+00   3.660169E+00
+# jendl5.0      1.054178E+00   9.771434E-01   1.227772E-01
+# cendl3.2      1.475717E+00   1.265793E+00   3.660171E+00
+# eaf.2010      1.475990E+00   1.265831E+00   3.665602E+00

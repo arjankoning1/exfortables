@@ -1,0 +1,56 @@
+# header: 
+#   title: Sc45(n,x)Ca45 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Bayhurst
+#   year: 1961
+#   subentry: 11462004
+#   X4 reaction: 21-SC-45(N,P)20-CA-45,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11462004
+# target: 
+#   Z: 21
+#   A: 45
+#   nuclide: Sc45
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 20
+#     A: 45
+#     nuclide: Ca45
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.340000E+01   2.000000E-01   6.380000E+01   4.600000E+00   1.000000E+00
+   1.369000E+01   1.000000E-01   6.130000E+01   4.400000E+00   1.000000E+00
+   1.409000E+01   1.000000E-01   5.400000E+01   3.900000E+00   1.000000E+00
+   1.431000E+01   1.300000E-01   5.560000E+01   4.000000E+00   1.000000E+00
+   1.450000E+01   2.000000E-01   5.710000E+01   4.100000E+00   1.000000E+00
+   1.481000E+01   3.100000E-01   4.960000E+01   3.500000E+00   1.000000E+00
+# reference:
+#   author: B.P.BAYHURST,R.J.PRESTWOOD
+#   title: (N,P) AND (N,ALPHA) EXCITATION FUNCTIONS OF SEVERAL NUCLEI FROM 7.0 TO 19.8 MEV.
+#   journal: Jour: Journal of Inorganic and Nuclear Chemistry, Vol.23, p.173 (1961)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.340000E+01
+#   E-max [MeV]:  1.481000E+01
+#   F-value:  1.286832E+00
+#   A-value:  1.217844E+00
+#   chi-2:  1.804240E+01
+#   p-value:  2.860431E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.057056E+00   1.045073E+00   1.053524E+00
+# jeff4.0       1.422333E+00   1.419176E+00   3.503128E+01

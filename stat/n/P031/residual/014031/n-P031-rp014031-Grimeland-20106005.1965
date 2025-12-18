@@ -1,0 +1,53 @@
+# header: 
+#   title: P31(n,x)Si31 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Grimeland
+#   year: 1965
+#   subentry: 20106005
+#   X4 reaction: 15-P-31(N,P)14-SI-31,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20106005
+# target: 
+#   Z: 15
+#   A: 31
+#   nuclide: P31
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 14
+#     A: 31
+#     nuclide: Si31
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.480000E+01   1.000000E-01   8.500001E+01   3.118100E+00   1.000000E+00
+# reference:
+#   author: B.Grimeland, E.Kjellsby, J.Vines
+#   title: Cross sections of some reactions induced in nitrogen,  phosphorus, copper, and bromine with neutrons of  energy 14.8 MeV
+#   journal: Jour: Physical Review, Vol.137, p.B878 (1965)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.480000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.003902E+00
+#   A-value:  9.963739E-01
+#   chi-2:  1.268805E-01
+#   p-value:  3.849943E-01
+#   exp. data sets for p-value:      7
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.003074E+00   9.969352E-01   1.065733E-01
+# endfb8.1      1.002381E+00   9.976243E-01   8.227964E-02
+# jeff4.0       1.003074E+00   9.969352E-01   1.065733E-01
+# jendl5.0      1.006031E+00   9.940048E-01   2.120956E-01

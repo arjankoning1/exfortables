@@ -1,0 +1,56 @@
+# header: 
+#   title: In115(p,x)Sn116 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Harissopulos
+#   year: 2016
+#   subentry: O23300051
+#   X4 reaction: 49-IN-115(P,G)50-SN-116,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O23300051
+# target: 
+#   Z: 49
+#   A: 115
+#   nuclide: In115
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 50
+#     A: 116
+#     nuclide: Sn116
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.972148E+00   0.000000E+00   3.000000E-05   3.000000E-06   1.000000E+00
+   2.173902E+00   0.000000E+00   1.200000E-04   1.000000E-05   1.000000E+00
+   2.374647E+00   0.000000E+00   2.900000E-04   2.000000E-05   1.000000E+00
+   2.576401E+00   0.000000E+00   7.200000E-04   5.000000E-05   1.000000E+00
+   2.777147E+00   0.000000E+00   1.500000E-03   1.000000E-04   1.000000E+00
+   2.977892E+00   0.000000E+00   3.500000E-03   2.500000E-04   1.000000E+00
+# reference:
+#   author: S.Harissopulos, A.Spyrou, V.Foteinou, M.Axiotis, G.Provatas, P.Demetriou
+#   title: Systematic study of proton capture reactions in medium- mass nuclei relevant to the p-process- The case of 103Rh and 113,115In.
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.93, p.025804 (2016)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.972148E+00
+#   E-max [MeV]:  2.977892E+00
+#   F-value:  2.605168E+00
+#   A-value:  2.473439E+00
+#   chi-2:  6.996304E+02
+#   p-value:  1.794290E-01
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    2.669343E+00   2.538907E+00   7.539396E+02
+# jendl5.0      2.540922E+00   2.409660E+00   6.453213E+02

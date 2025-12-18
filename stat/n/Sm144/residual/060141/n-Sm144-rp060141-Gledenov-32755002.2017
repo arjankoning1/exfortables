@@ -1,0 +1,53 @@
+# header: 
+#   title: Sm144(n,x)Nd141 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Gledenov
+#   year: 2017
+#   subentry: 32755002
+#   X4 reaction: 62-SM-144(N,A)60-ND-141,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/32755002
+# target: 
+#   Z: 62
+#   A: 144
+#   nuclide: Sm144
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+#   residual: 
+#     Z: 60
+#     A: 141
+#     nuclide: Nd141
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   4.000000E+00   4.600000E-01   6.034000E-02   1.008000E-02   1.005662E+00
+   5.000000E+00   3.200000E-01   1.104600E-01   3.015300E-02   1.004204E+00
+   6.000000E+00   2.400000E-01   1.700400E-01   3.007200E-02   1.000262E+00
+# reference:
+#   author: Yu.Gledenov, Guohui Zhang, G.Khuukhenkhuu,  M.Sedysheva, L.Krupa, E.Sansarbayar, I.Chuprakov,  Wang Zhimin, Fan Xiao, Zhang Luyu, Bai Huaiyong
+#   title: Cross sections of the 144Sm(n,a)141Nd and 66Zn(n,a)63Ni  reactions at 4.0, 5.0 and 6.0 MeV
+#   journal: Jour: EPJ Web of Conferences, Vol.146, p.11033 (2017)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  4.000000E+00
+#   E-max [MeV]:  6.000000E+00
+#   F-value:  1.026681E+00
+#   A-value:  9.835545E-01
+#   chi-2:  1.246699E-01
+#   p-value:  3.888198E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.026681E+00   9.835545E-01   1.246699E-01
+# jeff4.0       1.026681E+00   9.835545E-01   1.246699E-01

@@ -1,0 +1,61 @@
+# header: 
+#   title: U238(n,2n)U237 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Konno
+#   year: 1993
+#   subentry: 22637090
+#   X4 reaction: 92-U-238(N,2N)92-U-237,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22637090
+# target: 
+#   Z: 92
+#   A: 238
+#   nuclide: U238
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 92
+#     A: 237
+#     nuclide: U237
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.331000E+01   0.000000E+00   1.323707E+03   3.964783E+01   1.076184E+00
+   1.374000E+01   0.000000E+00   1.107394E+03   3.370903E+01   1.076184E+00
+   1.420000E+01   0.000000E+00   9.276708E+02   2.750649E+01   1.076184E+00
+   1.440000E+01   0.000000E+00   8.383476E+02   2.529388E+01   1.076184E+00
+   1.462000E+01   0.000000E+00   7.490242E+02   2.307527E+01   1.076184E+00
+   1.486000E+01   0.000000E+00   6.779962E+02   1.980963E+01   1.076184E+00
+# reference:
+#   author: C.Konno, Y.Ikeda, K.Oishi, K.Kawade, H.Yamamoto, H.Maekawa
+#   title: Activation Cross section measurements at neutron  energy from 13.3 to 14.9 MeV
+#   journal: Rept: JAERI Reports, No.1329 (1993)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.331000E+01
+#   E-max [MeV]:  1.486000E+01
+#   F-value:  1.098603E+00
+#   A-value:  9.288318E-01
+#   chi-2:  8.849510E+00
+#   p-value:  2.515223E-01
+#   exp. data sets for p-value:      8
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.077678E+00   9.351781E-01   5.947958E+00
+# endfb8.1      1.077678E+00   9.351780E-01   5.947967E+00
+# jeff4.0       1.117246E+00   9.117529E-01   1.193757E+01
+# jendl5.0      1.053384E+00   9.935148E-01   3.211384E+00
+# cendl3.2      1.114374E+00   9.193165E-01   1.125797E+01
+# eaf.2010      1.145238E+00   8.757091E-01   1.769576E+01
+# irdff2.0      1.077678E+00   9.351780E-01   5.947967E+00

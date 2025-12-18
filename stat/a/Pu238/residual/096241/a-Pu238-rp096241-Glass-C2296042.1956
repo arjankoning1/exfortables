@@ -1,0 +1,56 @@
+# header: 
+#   title: Pu238(a,x)Cm241 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Glass
+#   year: 1956
+#   subentry: C2296042
+#   X4 reaction: 94-PU-238(A,N)96-CM-241,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C2296042
+# target: 
+#   Z: 94
+#   A: 238
+#   nuclide: Pu238
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+#   residual: 
+#     Z: 96
+#     A: 241
+#     nuclide: Cm241
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.360000E+01   0.000000E+00   6.800000E+00   1.700000E+00   1.000000E+00
+   2.590000E+01   0.000000E+00   8.200000E+00   2.050000E+00   1.000000E+00
+   2.710000E+01   0.000000E+00   6.500000E+00   1.625000E+00   1.000000E+00
+   2.850000E+01   0.000000E+00   7.800000E+00   1.950000E+00   1.000000E+00
+   3.280000E+01   0.000000E+00   6.200000E+00   1.550000E+00   1.000000E+00
+   3.880000E+01   0.000000E+00   2.900000E+00   7.250000E-01   1.000000E+00
+   4.350000E+01   0.000000E+00   2.800000E+00   7.000000E-01   1.000000E+00
+# reference:
+#   author: R.A.Glass,R.J.Carr,J.W.Cobble,G.T.Seaborg
+#   title: Spallation-Fission Competition in Heaviest Elements; Helium-Ion-Induced Reactions in Plutonium Isotopes
+#   journal: Jour: Physical Review, Vol.104, p.434 (1956)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  2.360000E+01
+#   E-max [MeV]:  4.350000E+01
+#   F-value:  1.348431E+01
+#   A-value:  7.497278E-02
+#   chi-2:  1.363585E+01
+#   p-value:  2.639634E-07
+#   exp. data sets for p-value:      1
+#   libraries:      1
+##  Library          F              A            chi-2
+# tendl.2025    1.348431E+01   7.497278E-02   1.363585E+01

@@ -1,0 +1,56 @@
+# header: 
+#   title: Al27(n,p)Mg27 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Tiwari
+#   year: 1968
+#   subentry: 30011002
+#   X4 reaction: 13-AL-27(N,P)12-MG-27,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30011002
+# target: 
+#   Z: 13
+#   A: 27
+#   nuclide: Al27
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 12
+#     A: 27
+#     nuclide: Mg27
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.420000E+01   2.000000E-01   7.385234E+01   8.799700E+00   1.040174E+00
+# reference:
+#   author: P.N.Tiwari,E.Kondaiah
+#   title: Activation cross sections of calcium, potassium, and aluminum for 14.2-MeV neutrons.
+#   journal: Jour: Physical Review, Vol.167, p.1091 (1968)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.420000E+01
+#   E-max [MeV]:  1.420000E+01
+#   F-value:  1.003367E+00
+#   A-value:  9.996546E-01
+#   chi-2:  2.095720E-02
+#   p-value:  3.120685E-01
+#   exp. data sets for p-value:      8
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.000094E+00   9.999059E-01   9.898525E-04
+# endfb8.1      1.000131E+00   9.998693E-01   1.375321E-03
+# jeff4.0       1.000131E+00   9.998692E-01   1.376029E-03
+# jendl5.0      1.005714E+00   1.005714E+00   6.071068E-02
+# cendl3.2      1.000859E+00   9.991415E-01   9.044044E-03
+# eaf.2010      1.006794E+00   9.932522E-01   7.182835E-02
+# irdff2.0      1.000131E+00   9.998692E-01   1.376158E-03

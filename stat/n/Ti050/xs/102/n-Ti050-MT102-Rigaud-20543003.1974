@@ -1,0 +1,55 @@
+# header: 
+#   title: Ti50(n,g)Ti51 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Rigaud
+#   year: 1974
+#   subentry: 20543003
+#   X4 reaction: 22-TI-50(N,G)22-TI-51,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20543003
+# target: 
+#   Z: 22
+#   A: 50
+#   nuclide: Ti50
+# reaction: 
+#   type: (n,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 22
+#     A: 51
+#     nuclide: Ti51
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.460000E+01   3.000000E-01   4.500000E-01   3.000000E-02   1.000000E+00
+# reference:
+#   author: F.RIGAUD, M.G.DESTHUILLIERS, G.Y.PETIT, J.L.IRIGARAY,  G.LONGO, F.SAPORETTI
+#   title: -IMPROVED ACTIVATION MEASUREMENTS OF (N,GAMMA) CROSS-  SECTION FOR 14.6-MEV NEUTRONS.-
+#   journal: Jour: Nuclear Science and Engineering, Vol.55, p.17 (1974)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.460000E+01
+#   E-max [MeV]:  1.460000E+01
+#   F-value:  1.732607E+00
+#   A-value:  1.561829E+00
+#   chi-2:  1.486094E+02
+#   p-value:  2.970899E-01
+#   exp. data sets for p-value:      5
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    2.423398E+00   2.423398E+00   4.558637E+02
+# endfb8.1      1.704951E+00   1.704951E+00   1.118151E+02
+# jeff4.0       2.069604E+00   2.069604E+00   2.574121E+02
+# jendl5.0      1.401769E+00   1.401769E+00   3.631912E+01
+# cendl3.2      1.114004E+00   8.976631E-01   2.853056E+00
+# eaf.2010      1.348922E+00   1.348922E+00   2.739302E+01

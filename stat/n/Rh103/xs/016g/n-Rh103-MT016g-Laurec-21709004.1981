@@ -1,0 +1,59 @@
+# header: 
+#   title: Rh103(n,2n)Rh102g cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Laurec
+#   year: 1981
+#   subentry: 21709004
+#   X4 reaction: 45-RH-103(N,2N)45-RH-102-G,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21709004
+# target: 
+#   Z: 45
+#   A: 103
+#   nuclide: Rh103
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 45
+#     A: 102
+#     nuclide: Rh102g
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.410000E+01   1.000000E-01   8.050001E+02   4.800000E+01   1.000000E+00
+   1.480000E+01   3.000000E-01   8.300000E+02   5.000000E+01   1.000000E+00
+# reference:
+#   author: J.Laurec,A.Adam,T.de Bruyne
+#   title: Measurement of the (n,2n) reaction cross sections  of the nuclei Y-89, Nb-93, Rh-103, Ag-107, Tm-169,  Lu-175, and Au-197 at 14.1 and 14.8 MeV.
+#   journal: Rept: Centre d'Etudes Nucleaires, Saclay Reports, No.5109 (1981)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.410000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.084779E+00
+#   A-value:  9.310512E-01
+#   chi-2:  2.088490E+00
+#   p-value:  1.659952E-01
+#   exp. data sets for p-value:      4
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.101021E+00   9.091827E-01   2.825720E+00
+# jeff4.0       1.101021E+00   9.091827E-01   2.825720E+00
+# jendl5.0      1.092385E+00   9.168245E-01   2.500972E+00
+# eaf.2010      1.012601E+00   9.915298E-01   2.015459E-01

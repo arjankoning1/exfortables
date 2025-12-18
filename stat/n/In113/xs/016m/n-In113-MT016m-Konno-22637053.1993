@@ -1,0 +1,62 @@
+# header: 
+#   title: In113(n,2n)In112m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Konno
+#   year: 1993
+#   subentry: 22637053
+#   X4 reaction: 49-IN-113(N,2N)49-IN-112-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22637053
+# target: 
+#   Z: 49
+#   A: 113
+#   nuclide: In113
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 49
+#     A: 112
+#     nuclide: In112m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.334000E+01   0.000000E+00   9.838499E+02   8.446660E+01   9.674039E-01
+   1.357000E+01   0.000000E+00   1.035122E+03   8.665448E+01   9.674039E-01
+   1.423000E+01   0.000000E+00   1.122189E+03   9.565604E+01   9.674039E-01
+   1.467000E+01   0.000000E+00   1.151211E+03   9.505882E+01   9.674039E-01
+   1.493000E+01   0.000000E+00   1.131863E+03   9.545907E+01   9.674039E-01
+# reference:
+#   author: C.Konno, Y.Ikeda, K.Oishi, K.Kawade, H.Yamamoto, H.Maekawa
+#   title: Activation Cross section measurements at neutron  energy from 13.3 to 14.9 MeV
+#   journal: Rept: JAERI Reports, No.1329 (1993)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.334000E+01
+#   E-max [MeV]:  1.493000E+01
+#   F-value:  1.041473E+00
+#   A-value:  1.031504E+00
+#   chi-2:  5.516250E-01
+#   p-value:  3.565042E-01
+#   exp. data sets for p-value:      5
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.027668E+00   1.022226E+00   3.652117E-01
+# jeff4.0       1.053529E+00   1.043788E+00   7.887688E-01
+# jendl5.0      1.053529E+00   1.043788E+00   7.887688E-01
+# eaf.2010      1.020751E+00   1.016511E+00   2.637506E-01

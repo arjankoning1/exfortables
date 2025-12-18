@@ -1,0 +1,61 @@
+# header: 
+#   title: Au197(n,2n)Au196 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Kalamara
+#   year: 2018
+#   subentry: 23396002
+#   X4 reaction: 79-AU-197(N,2N)79-AU-196,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/23396002
+# target: 
+#   Z: 79
+#   A: 197
+#   nuclide: Au197
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 79
+#     A: 196
+#     nuclide: Au196
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.530000E+01   5.000000E-01   1.994872E+03   9.299405E+01   9.999360E-01
+   1.710000E+01   3.000000E-01   1.771887E+03   8.599450E+01   9.999360E-01
+   1.790000E+01   3.000000E-01   1.650894E+03   7.999489E+01   9.999360E-01
+   1.890000E+01   3.000000E-01   1.393911E+03   6.399591E+01   9.999360E-01
+   2.000000E+01   2.000000E-01   1.048933E+03   9.099419E+01   9.999360E-01
+   2.090000E+01   2.000000E-01   7.159542E+02   5.599642E+01   9.999360E-01
+# reference:
+#   author: A.Kalamara, R.Vlastou, M.Kokkoris, N.G.Nicolis, N.Patronis, M.Serris, V.Michalopoulou, A.Stamatopoulos, A.Lagoyannis, S.Harissopulos
+#   title: 197Au(n,2n) reaction cross section in the 15-21 MeV energy range
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.97, p.034615 (2018)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.530000E+01
+#   E-max [MeV]:  2.090000E+01
+#   F-value:  1.136118E+00
+#   A-value:  1.088046E+00
+#   chi-2:  5.081739E+00
+#   p-value:  3.757812E-01
+#   exp. data sets for p-value:      5
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.164029E+00   1.094383E+00   6.426065E+00
+# endfb8.1      1.070537E+00   1.049102E+00   2.186510E+00
+# jeff4.0       1.226763E+00   1.197871E+00   1.269497E+01
+# jendl5.0      1.127874E+00   1.098287E+00   4.670676E+00
+# cendl3.2      1.010361E+00   9.909691E-01   2.409765E-01
+# eaf.2010      1.127471E+00   1.104868E+00   4.688178E+00
+# irdff2.0      1.070544E+00   1.049103E+00   2.187031E+00

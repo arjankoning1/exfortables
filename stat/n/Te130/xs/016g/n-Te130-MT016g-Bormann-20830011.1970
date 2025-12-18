@@ -1,0 +1,67 @@
+# header: 
+#   title: Te130(n,2n)Te129g cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Bormann
+#   year: 1970
+#   subentry: 20830011
+#   X4 reaction: 52-TE-130(N,2N)52-TE-129-G,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20830011
+# target: 
+#   Z: 52
+#   A: 130
+#   nuclide: Te130
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 52
+#     A: 129
+#     nuclide: Te129g
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.265000E+01   6.000000E-02   7.246307E+02   4.340471E+01   9.912866E-01
+   1.301000E+01   7.000000E-02   7.870816E+02   4.735259E+01   9.912866E-01
+   1.353000E+01   8.000000E-02   8.118639E+02   4.833418E+01   9.912866E-01
+   1.430000E+01   9.000000E-02   8.049247E+02   4.933427E+01   9.912866E-01
+   1.531000E+01   9.000000E-02   8.316895E+02   5.429753E+01   9.912866E-01
+   1.585000E+01   1.000000E-01   8.386286E+02   5.230261E+01   9.912866E-01
+   1.633000E+01   1.000000E-01   8.277243E+02   5.230870E+01   9.912866E-01
+   1.697000E+01   1.000000E-01   8.267332E+02   5.230926E+01   9.912866E-01
+   1.759000E+01   1.000000E-01   7.841079E+02   4.835027E+01   9.912866E-01
+   1.823000E+01   1.100000E-01   5.789115E+02   3.751234E+01   9.912866E-01
+# reference:
+#   author: M.Bormann,H.H.Bissem,E.Magiera,R.Warnemunde
+#   title: Total cross sections and isomeric cross section  ratios for (n,2n) reactions in the energy region  12 - 18 MeV
+#   journal: Jour: Nuclear Physics, Section A, Vol.157, p.481 (1970)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.265000E+01
+#   E-max [MeV]:  1.823000E+01
+#   F-value:  1.333516E+00
+#   A-value:  7.751427E-01
+#   chi-2:  1.499398E+01
+#   p-value:  1.530556E-01
+#   exp. data sets for p-value:      1
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.308596E+00   7.944157E-01   1.321661E+01
+# jeff4.0       1.308596E+00   7.944157E-01   1.321661E+01
+# jendl5.0      1.372172E+00   7.434160E-01   1.799139E+01
+# eaf.2010      1.342112E+00   7.694832E-01   1.555132E+01

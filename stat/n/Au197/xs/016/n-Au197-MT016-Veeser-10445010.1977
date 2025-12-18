@@ -1,0 +1,65 @@
+# header: 
+#   title: Au197(n,2n)Au196 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Veeser
+#   year: 1977
+#   subentry: 10445010
+#   X4 reaction: 79-AU-197(N,2N)79-AU-196,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/10445010
+# target: 
+#   Z: 79
+#   A: 197
+#   nuclide: Au197
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 79
+#     A: 196
+#     nuclide: Au196
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.470000E+01   1.500000E-01   2.064000E+03   1.250000E+02   1.000000E+00
+   1.600000E+01   2.000000E-01   2.148000E+03   1.010000E+02   1.000000E+00
+   1.700000E+01   2.000000E-01   2.031000E+03   9.200000E+01   1.000000E+00
+   1.800000E+01   1.500000E-01   1.692000E+03   8.700000E+01   1.000000E+00
+   1.900000E+01   1.500000E-01   1.223000E+03   5.500000E+01   1.000000E+00
+   2.000000E+01   1.100000E-01   9.040000E+02   1.300000E+02   1.000000E+00
+   2.100000E+01   1.200000E-01   7.950000E+02   7.400000E+01   1.000000E+00
+   2.200000E+01   1.000000E-01   6.790000E+02   7.400000E+01   1.000000E+00
+   2.300000E+01   7.000000E-02   4.870000E+02   1.020000E+02   1.000000E+00
+   2.400000E+01   6.000000E-02   4.340000E+02   1.510000E+02   1.000000E+00
+# reference:
+#   author: L.R.Veeser,E.D.Arthur,P.G.Young
+#   title: Cross sections for (n,2n) and (n,3n) reaction above  14 MeV
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.16, p.1792 (1977)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.470000E+01
+#   E-max [MeV]:  2.400000E+01
+#   F-value:  1.127952E+00
+#   A-value:  1.067266E+00
+#   chi-2:  2.323069E+00
+#   p-value:  2.660794E-01
+#   exp. data sets for p-value:      8
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.096324E+00   1.058592E+00   1.542713E+00
+# endfb8.1      1.036464E+00   1.012128E+00   5.481577E-01
+# jeff4.0       1.252971E+00   1.204459E+00   6.688330E+00
+# jendl5.0      1.128379E+00   1.095915E+00   2.308882E+00
+# cendl3.2      1.095948E+00   9.704143E-01   3.483744E+00
+# eaf.2010      1.109030E+00   1.078586E+00   1.834438E+00
+# irdff2.0      1.036469E+00   1.012130E+00   5.483527E-01

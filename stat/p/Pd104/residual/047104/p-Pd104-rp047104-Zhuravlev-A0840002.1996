@@ -1,0 +1,68 @@
+# header: 
+#   title: Pd104(p,x)Ag104 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Zhuravlev
+#   year: 1996
+#   subentry: A0840002
+#   X4 reaction: 46-PD-104(P,N)47-AG-104,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/A0840002
+# target: 
+#   Z: 46
+#   A: 104
+#   nuclide: Pd104
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+#   residual: 
+#     Z: 47
+#     A: 104
+#     nuclide: Ag104
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 18
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   6.146000E+00   0.000000E+00   1.181000E+02   0.000000E+00   1.000000E+00
+   6.399000E+00   0.000000E+00   1.317000E+02   0.000000E+00   1.000000E+00
+   6.446000E+00   0.000000E+00   1.417000E+02   0.000000E+00   1.000000E+00
+   6.554000E+00   0.000000E+00   1.720000E+02   1.800000E+01   1.000000E+00
+   6.573000E+00   0.000000E+00   1.830000E+02   2.000000E+01   1.000000E+00
+   6.598000E+00   0.000000E+00   2.080000E+02   1.500000E+01   1.000000E+00
+   6.624000E+00   0.000000E+00   2.160000E+02   1.600000E+01   1.000000E+00
+   6.653000E+00   0.000000E+00   2.760000E+02   2.000000E+01   1.000000E+00
+   6.675000E+00   0.000000E+00   2.410000E+02   2.000000E+01   1.000000E+00
+   6.700000E+00   0.000000E+00   2.730000E+02   1.800000E+01   1.000000E+00
+   6.729000E+00   0.000000E+00   2.840000E+02   2.100000E+01   1.000000E+00
+   6.751000E+00   0.000000E+00   2.840000E+02   2.000000E+01   1.000000E+00
+   6.777000E+00   0.000000E+00   3.170000E+02   2.000000E+01   1.000000E+00
+   6.805000E+00   0.000000E+00   3.040000E+02   2.000000E+01   1.000000E+00
+   6.826000E+00   0.000000E+00   2.680000E+02   1.900000E+01   1.000000E+00
+   6.856000E+00   0.000000E+00   3.790000E+02   1.800000E+01   1.000000E+00
+   6.875000E+00   0.000000E+00   3.530000E+02   2.000000E+01   1.000000E+00
+   6.897000E+00   0.000000E+00   3.310000E+02   2.000000E+01   1.000000E+00
+# reference:
+#   author: Yu.Yu.Zhuravlev, P.P.Zarubin, Yu.V.Zeits, A.A.Kolozhvari, I.V.Shelkunov, Hu Bi Tao
+#   title: Total cross sections for the (p,n) reaction at nuclei of Pd isotopes at E(p)=6.1-6.9 MeV.
+#   journal: Jour: Izv. Rossiiskoi Akademii Nauk, Ser.Fiz., Vol.60, Issue.5, p.169 (1
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  6.146000E+00
+#   E-max [MeV]:  6.897000E+00
+#   F-value:  1.432559E+00
+#   A-value:  7.453776E-01
+#   chi-2:  2.137357E+01
+#   p-value:  1.026770E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.396497E+00   7.726680E-01   1.914968E+01
+# jendl5.0      1.467067E+00   7.190511E-01   2.359747E+01

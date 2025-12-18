@@ -1,0 +1,59 @@
+# header: 
+#   title: Mg0(n,x)Na24 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Jeronymo
+#   year: 1963
+#   subentry: 20922003
+#   X4 reaction: 12-MG-0(N,X)11-NA-24,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20922003
+# target: 
+#   Z: 12
+#   A: 0
+#   nuclide: Mg0
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 11
+#     A: 24
+#     nuclide: Na24
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.255000E+01   2.000000E-01   2.550000E+02   3.000000E+01   1.000000E+00
+   1.355000E+01   2.000000E-01   2.830000E+02   3.500000E+01   1.000000E+00
+   1.490000E+01   2.000000E-01   1.950000E+02   2.400000E+01   1.000000E+00
+   1.650000E+01   2.000000E-01   1.770000E+02   2.200000E+01   1.000000E+00
+   1.815000E+01   2.000000E-01   1.580000E+02   2.000000E+01   1.000000E+00
+   1.960000E+01   2.000000E-01   1.340000E+02   1.800000E+01   1.000000E+00
+   2.060000E+01   2.000000E-01   1.400000E+02   2.000000E+01   1.000000E+00
+   2.100000E+01   2.000000E-01   1.220000E+02   1.400000E+01   1.000000E+00
+# reference:
+#   author: J.M.F.Jeronymo, G.S.Mani, J.Olkowsky, A.Sadeghi,  C.F.Williamson
+#   title: Absolute cross sections for some (n,p), (n,alpha)  and (n,2n) reactions
+#   journal: Jour: Nuclear Physics, Vol.47, p.157 (1963)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.255000E+01
+#   E-max [MeV]:  2.100000E+01
+#   F-value:  1.868771E+00
+#   A-value:  5.507712E-01
+#   chi-2:  1.287193E+01
+#   p-value:  1.227150E-01
+#   exp. data sets for p-value:      2
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.945714E+00   5.378808E-01   1.368300E+01
+# jeff4.0       1.882430E+00   5.449725E-01   1.318433E+01
+# jendl5.0      1.775750E+00   5.699713E-01   1.174844E+01

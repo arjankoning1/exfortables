@@ -1,0 +1,59 @@
+# header: 
+#   title: Ge70(n,p)Ga70 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Hoang
+#   year: 1992
+#   subentry: 31434002
+#   X4 reaction: 32-GE-70(N,P)31-GA-70,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/31434002
+# target: 
+#   Z: 32
+#   A: 70
+#   nuclide: Ge70
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 31
+#     A: 70
+#     nuclide: Ga70
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.340000E+01   2.000000E-01   1.715908E+02   2.108151E+01   1.059202E+00
+   1.390000E+01   3.000000E-01   1.504090E+02   1.908378E+01   1.066730E+00
+   1.450000E+01   3.000000E-01   1.268477E+02   1.908953E+01   1.065947E+00
+   1.500000E+01   3.000000E-01   1.078892E+02   1.609065E+01   1.078892E+00
+   1.540000E+01   2.000000E-01   1.015089E+02   1.737826E+01   1.091494E+00
+# reference:
+#   author: H.M.Hoang,U.Garuska,D.Kielan,A.Marcinkowski, B.Zwieglinski
+#   title: Energy dependence of the isotopic effect in the (n,p) reaction on the germanium isotopes.
+#   journal: Jour: Zeitschrift fuer Physik A, Hadrons and Nuclei, Vol.342, Issue.3, p
+# statistics:
+#   NEA score: R2
+#   IAEA score:  1
+#   E-min [MeV]:  1.340000E+01
+#   E-max [MeV]:  1.540000E+01
+#   F-value:  1.531409E+00
+#   A-value:  6.927628E-01
+#   chi-2:  6.179433E+00
+#   p-value:  1.411951E-01
+#   exp. data sets for p-value:      3
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.310814E+00   8.001671E-01   3.438491E+00
+# endfb8.1      1.771232E+00   5.662073E-01   9.861842E+00
+# jeff4.0       1.310814E+00   8.001671E-01   3.438491E+00
+# jendl5.0      1.771232E+00   5.662071E-01   9.861848E+00
+# cendl3.2      1.236931E+00   8.725775E-01   2.285035E+00
+# eaf.2010      1.639595E+00   6.171504E-01   8.190888E+00

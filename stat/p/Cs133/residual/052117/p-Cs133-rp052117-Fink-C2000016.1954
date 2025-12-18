@@ -1,0 +1,52 @@
+# header: 
+#   title: Cs133(p,x)Te117 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Fink
+#   year: 1954
+#   subentry: C2000016
+#   X4 reaction: 55-CS-133(P,X)52-TE-117,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C2000016
+# target: 
+#   Z: 55
+#   A: 133
+#   nuclide: Cs133
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 52
+#     A: 117
+#     nuclide: Te117
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.500000E+02   0.000000E+00   2.000000E-01   0.000000E+00   1.000000E+00
+   2.400000E+02   0.000000E+00   2.400000E+00   0.000000E+00   1.000000E+00
+# reference:
+#   author: R.W.Fink,E.O.Wiig
+#   title: Reactions of Cesium with Protons at 60, 80, 100, 150, and 240 MeV
+#   journal: Jour: Physical Review, Vol.96, p.185 (1954)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  1.500000E+02
+#   E-max [MeV]:  2.400000E+02
+#   F-value:  5.235965E+00
+#   A-value:  5.154953E+00
+#   chi-2:  0.000000E+00
+#   p-value:  2.308774E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    4.109376E+00   4.109376E+00   0.000000E+00
+# jendl5.0      6.466565E+00   6.466565E+00   0.000000E+00

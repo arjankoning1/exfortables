@@ -1,0 +1,58 @@
+# header: 
+#   title: Hg198(n,2n)Hg197m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Hankla
+#   year: 1972
+#   subentry: 10244011
+#   X4 reaction: 80-HG-198(N,2N)80-HG-197-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/10244011
+# target: 
+#   Z: 80
+#   A: 198
+#   nuclide: Hg198
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 80
+#     A: 197
+#     nuclide: Hg197m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.440000E+01   8.000000E-01   8.850001E+02   8.000002E+01   1.000000E+00
+# reference:
+#   author: A.K.Hankla,R.W.Fink,J.H.Hamilton
+#   title: Neutron activation cross sections at 14.4 MeV for some  naturally occurring heavy elements in the region  76 <= Z <= 82
+#   journal: Jour: Nuclear Physics, Section A, Vol.180, p.157 (1972)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.440000E+01
+#   E-max [MeV]:  1.440000E+01
+#   F-value:  1.055386E+00
+#   A-value:  1.049384E+00
+#   chi-2:  8.070658E-01
+#   p-value:  3.784780E-01
+#   exp. data sets for p-value:      3
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.066716E+00   1.066716E+00   1.096231E+00
+# jeff4.0       1.066716E+00   1.066716E+00   1.096231E+00
+# jendl5.0      1.058532E+00   1.058532E+00   9.402123E-01
+# eaf.2010      1.006786E+00   1.006786E+00   9.558873E-02

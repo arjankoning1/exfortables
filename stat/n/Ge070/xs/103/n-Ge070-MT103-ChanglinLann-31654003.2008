@@ -1,0 +1,56 @@
+# header: 
+#   title: Ge70(n,p)Ga70 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: ChanglinLann
+#   year: 2008
+#   subentry: 31654003
+#   X4 reaction: 32-GE-70(N,P)31-GA-70,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/31654003
+# target: 
+#   Z: 32
+#   A: 70
+#   nuclide: Ge70
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 31
+#     A: 70
+#     nuclide: Ga70
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.360000E+01   3.000000E-01   1.792718E+02   1.871621E+01   9.954016E-01
+   1.410000E+01   2.000000E-01   1.746228E+02   2.547473E+01   9.950020E-01
+# reference:
+#   author: Changlin Lan,Xiaosan Xu,Kaihong Fang,Gang Liu, Xiangzhong Kong,Rong Liu,Li Jiang
+#   title: Measurement of cross sections for (n,2n), (n,p) and (n,a) reactions on germanium isotopes induced by 14 MeV neutrons
+#   journal: Jour: Annals of Nuclear Energy, Vol.35, p.2105 (2008)
+# statistics:
+#   NEA score: R2
+#   IAEA score:  1
+#   E-min [MeV]:  1.360000E+01
+#   E-max [MeV]:  1.410000E+01
+#   F-value:  1.878568E+00
+#   A-value:  5.403320E-01
+#   chi-2:  1.463923E+01
+#   p-value:  6.243962E-02
+#   exp. data sets for p-value:      3
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.671169E+00   5.984312E-01   1.113110E+01
+# endfb8.1      2.143612E+00   4.667320E-01   1.942205E+01
+# jeff4.0       1.671169E+00   5.984312E-01   1.113110E+01
+# jendl5.0      2.143612E+00   4.667319E-01   1.942205E+01
+# cendl3.2      1.532214E+00   6.528886E-01   8.651674E+00
+# eaf.2010      2.046679E+00   4.886092E-01   1.807740E+01

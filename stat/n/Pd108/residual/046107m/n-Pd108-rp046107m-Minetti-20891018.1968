@@ -1,0 +1,57 @@
+# header: 
+#   title: Pd108(n,x)Pd107m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Minetti
+#   year: 1968
+#   subentry: 20891018
+#   X4 reaction: 46-PD-108(N,2N)46-PD-107-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20891018
+# target: 
+#   Z: 46
+#   A: 108
+#   nuclide: Pd108
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 46
+#     A: 107
+#     nuclide: Pd107m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.470000E+01   0.000000E+00   5.442725E+02   8.293324E+01   1.052751E+00
+# reference:
+#   author: B.MINETTI,A.PASQUARELLI
+#   title: -ISOMERIC CROSS SECTION RATIO FOR (N,2N) REACTIONS  INDUCED BY 14.7 MEV NEUTRONS-
+#   journal: Jour: Nuclear Physics, Section A, Vol.118, p.449 (1968)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.470000E+01
+#   E-max [MeV]:  1.470000E+01
+#   F-value:  1.059833E+00
+#   A-value:  9.457793E-01
+#   chi-2:  4.843598E-01
+#   p-value:  1.488397E-01
+#   exp. data sets for p-value:      6
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.045130E+00   9.568187E-01   3.776589E-01
+# jeff4.0       1.045130E+00   9.568187E-01   3.776589E-01
+# jendl5.0      1.082156E+00   9.240811E-01   6.977618E-01

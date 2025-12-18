@@ -1,0 +1,56 @@
+# header: 
+#   title: U238(p,x)Np238 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Aaltonen
+#   year: 1990
+#   subentry: O0190002
+#   X4 reaction: 92-U-238(P,N)93-NP-238,,SIG,,,EXP
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O0190002
+# target: 
+#   Z: 92
+#   A: 238
+#   nuclide: U238
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+#   residual: 
+#     Z: 93
+#     A: 238
+#     nuclide: Np238
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.190000E+01   4.000000E-01   5.500000E+00   5.000000E-01   1.000000E+00
+   1.320000E+01   4.000000E-01   6.900000E+00   5.000000E-01   1.000000E+00
+   1.380000E+01   4.000000E-01   6.400000E+00   5.000000E-01   1.000000E+00
+   1.500000E+01   4.000000E-01   6.860000E+00   3.000000E-01   1.000000E+00
+   1.620000E+01   4.000000E-01   8.200000E+00   6.000000E-01   1.000000E+00
+   1.740000E+01   4.000000E-01   1.030000E+01   7.000000E-01   1.000000E+00
+# reference:
+#   author: J.AALTONEN,M.BRENNER,S.A.EGOROV,A.M.FRIDKIN, V.B.FUNSCHTEIN,E.A.GROMOVA,P.MANNGARD,V.A.RUBCHEN'A, YU.A.SELITSKY,V.A.YAKOVLEV,V.S.ZENKEVICH
+#   title: Formation of Isomers in the Reaction U-238(P,3N)Np-236.
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.41, p.513 (1990)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.190000E+01
+#   E-max [MeV]:  1.740000E+01
+#   F-value:  1.840422E+00
+#   A-value:  1.635001E+00
+#   chi-2:  2.712255E+02
+#   p-value:  2.393443E-01
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    2.304943E+00   2.258007E+00   5.202747E+02
+# jendl5.0      1.241714E+00   1.183889E+00   2.217631E+01

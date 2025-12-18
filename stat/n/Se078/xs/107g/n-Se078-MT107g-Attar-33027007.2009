@@ -1,0 +1,60 @@
+# header: 
+#   title: Se78(n,a)Ge75g cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Attar
+#   year: 2009
+#   subentry: 33027007
+#   X4 reaction: 34-SE-78(N,A)32-GE-75-G,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/33027007
+# target: 
+#   Z: 34
+#   A: 78
+#   nuclide: Se78
+# reaction: 
+#   type: (n,a)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+#   residual: 
+#     Z: 32
+#     A: 75
+#     nuclide: Ge75g
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.373000E+01   0.000000E+00   2.097700E+00   2.480500E-01   1.086869E+00
+   1.442000E+01   0.000000E+00   2.444500E+00   2.892000E-01   1.005967E+00
+   1.477000E+01   0.000000E+00   2.823400E+00   3.312900E-01   1.045715E+00
+# reference:
+#   author: F.M.D.Attar,S.D.Dhole,S.Kailas,V.N.Bhoraskar
+#   title: Cross-section for the formation of isomeric pair 75Ge-m,g through (n,2n),(n,p) and (n,alpha) reactions measured over 13.73 MeV to 14.77 MeV and calculated from near threshold to 20 MeV neutron energies
+#   journal: Jour: Nuclear Physics, Section A, Vol.828, p.253 (2009)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.373000E+01
+#   E-max [MeV]:  1.477000E+01
+#   F-value:  1.166337E+00
+#   A-value:  9.490442E-01
+#   chi-2:  2.017050E+00
+#   p-value:  4.167425E-01
+#   exp. data sets for p-value:      1
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.199458E+00   8.361171E-01   2.499986E+00
+# jeff4.0       1.199458E+00   8.361171E-01   2.499986E+00
+# jendl5.0      1.182145E+00   1.179357E+00   2.887523E+00
+# eaf.2010      1.023708E+00   9.839347E-01   1.807058E-01

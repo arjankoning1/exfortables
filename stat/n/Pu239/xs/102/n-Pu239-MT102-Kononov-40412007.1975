@@ -1,0 +1,61 @@
+# header: 
+#   title: Pu239(n,g)Pu240 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Kononov
+#   year: 1975
+#   subentry: 40412007
+#   X4 reaction: 94-PU-239(N,G)94-PU-240,,SIG,,AV
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/40412007
+# target: 
+#   Z: 94
+#   A: 239
+#   nuclide: Pu239
+# reaction: 
+#   type: (n,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 94
+#     A: 240
+#     nuclide: Pu240
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.500000E-02   5.000000E-03   7.030000E+02   1.590000E+02   1.000000E+00
+   2.500000E-02   5.000000E-03   5.390000E+02   7.100000E+01   1.000000E+00
+   3.500000E-02   5.000000E-03   4.350000E+02   5.400000E+01   1.000000E+00
+   4.500000E-02   5.000000E-03   3.600000E+02   4.500000E+01   1.000000E+00
+   5.500000E-02   5.000000E-03   3.050000E+02   3.900000E+01   1.000000E+00
+   6.500000E-02   5.000000E-03   2.680000E+02   3.500000E+01   1.000000E+00
+   7.500000E-02   5.000000E-03   2.260000E+02   3.100000E+01   1.000000E+00
+# reference:
+#   author: V.N.Kononov, E.D.Poletaev,B.D.Yurlov, Yu.S.Prokopets, A.A.Metlev, Yu.Ya.Stavisskiy
+#   title: Measurement of alpha and the 235U and 239Pu fission and capture cross sections for 10-80 keV neutrons
+#   journal: Jour: Atomnaya Energiya, Vol.38, p.82 (1975)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.500000E-02
+#   E-max [MeV]:  7.500000E-02
+#   F-value:  1.112594E+00
+#   A-value:  1.060826E+00
+#   chi-2:  1.001387E+00
+#   p-value:  3.089662E-01
+#   exp. data sets for p-value:      1
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.082360E+00   1.035655E+00   5.723687E-01
+# endfb8.1      1.082530E+00   1.033236E+00   5.938158E-01
+# jeff4.0       1.128759E+00   1.085677E+00   1.286559E+00
+# jendl5.0      1.034447E+00   1.008015E+00   1.964692E-01
+# cendl3.2      1.062258E+00   1.037121E+00   3.588203E-01
+# eaf.2010      1.209837E+00   1.173422E+00   3.000286E+00

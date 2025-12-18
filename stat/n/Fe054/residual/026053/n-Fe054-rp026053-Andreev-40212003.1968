@@ -1,0 +1,60 @@
+# header: 
+#   title: Fe54(n,x)Fe53 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Andreev
+#   year: 1968
+#   subentry: 40212003
+#   X4 reaction: 26-FE-54(N,2N)26-FE-53,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/40212003
+# target: 
+#   Z: 26
+#   A: 54
+#   nuclide: Fe54
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 26
+#     A: 53
+#     nuclide: Fe53
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.387000E+01   4.900000E-01   1.312300E+00   7.400000E+00   1.009442E+00
+   1.430000E+01   5.200000E-01   1.524257E+01   9.900000E+00   1.009442E+00
+   1.510000E+01   5.700000E-01   1.968411E+01   1.000000E+01   1.009442E+00
+   1.547000E+01   1.300000E-01   5.047208E+01   1.270000E+01   1.009442E+00
+   1.582000E+01   2.900000E-01   6.056650E+01   1.140000E+01   1.009442E+00
+   1.600000E+01   1.700000E-01   5.461079E+01   1.060000E+01   1.009442E+00
+   1.604000E+01   1.800000E-01   7.530435E+01   1.260000E+01   1.009442E+00
+   1.653000E+01   2.500000E-01   9.508940E+01   1.490000E+01   1.009442E+00
+   1.698000E+01   2.800000E-01   1.170952E+02   1.680000E+01   1.009442E+00
+   1.740000E+01   3.000000E-01   1.313283E+02   1.870000E+01   1.009442E+00
+# reference:
+#   author: M.F.Andreev,V.I.Serov
+#   title: Cross section for the reaction Fe-54(n,2n)Fe-53
+#   journal: Jour: Soviet Journal of Nuclear Physics, Vol.7, p.454 (1968)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  0
+#   E-min [MeV]:  1.387000E+01
+#   E-max [MeV]:  1.740000E+01
+#   F-value:  1.832302E+00
+#   A-value:  5.834870E-01
+#   chi-2:  6.032660E+00
+#   p-value:  1.590376E-01
+#   exp. data sets for p-value:      8
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.903561E+00   5.595238E-01   6.304742E+00
+# jendl5.0      1.759181E+00   6.084765E-01   5.760580E+00

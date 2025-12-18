@@ -1,0 +1,59 @@
+# header: 
+#   title: Ti50(n,p)Sc50 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Fessler
+#   year: 2000
+#   subentry: 22414014
+#   X4 reaction: 22-TI-50(N,P)21-SC-50,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22414014
+# target: 
+#   Z: 22
+#   A: 50
+#   nuclide: Ti50
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 21
+#     A: 50
+#     nuclide: Sc50
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.608900E+01   6.200000E-02   1.596000E+01   1.190000E+00   1.000000E+00
+   1.706500E+01   4.000000E-02   1.814000E+01   1.430000E+00   1.000000E+00
+   1.782300E+01   3.200000E-02   1.883000E+01   1.420000E+00   1.000000E+00
+   1.915400E+01   1.100000E-02   1.697000E+01   1.360000E+00   1.000000E+00
+   2.036900E+01   1.000000E-02   1.403000E+01   1.310000E+00   1.000000E+00
+# reference:
+#   author: A.Fessler,A.J.M.Plompen,D.L.Smith,J.W.Meadows, Y.Ikeda
+#   title: Neutron activation cross-section measurements  from 16 to 20 MeV for isotopes of F, Na, Mg, Al, Si,  P, Cl, Ti, V, Mn, Fe, Nb, Sn, and Ba
+#   journal: Jour: Nuclear Science and Engineering, Vol.134, Issue.2, p.171 (2000)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.608900E+01
+#   E-max [MeV]:  2.036900E+01
+#   F-value:  1.284731E+00
+#   A-value:  1.189046E+00
+#   chi-2:  1.332022E+01
+#   p-value:  2.846106E-01
+#   exp. data sets for p-value:      2
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.389904E+00   1.363526E+00   2.268764E+01
+# endfb8.1      1.047348E+00   9.714861E-01   7.272502E-01
+# jeff4.0       1.218598E+00   1.201323E+00   7.268142E+00
+# jendl5.0      1.470281E+00   1.432382E+00   3.333216E+01
+# cendl3.2      1.019020E+00   1.004152E+00   2.431897E-01
+# eaf.2010      1.069577E+00   1.051447E+00   1.020218E+00

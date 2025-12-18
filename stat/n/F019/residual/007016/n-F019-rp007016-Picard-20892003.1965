@@ -1,0 +1,61 @@
+# header: 
+#   title: F19(n,x)N16 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Picard
+#   year: 1965
+#   subentry: 20892003
+#   X4 reaction: 9-F-19(N,A)7-N-16,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20892003
+# target: 
+#   Z: 9
+#   A: 19
+#   nuclide: F19
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+#   residual: 
+#     Z: 7
+#     A: 16
+#     nuclide: N16
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 11
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.418000E+01   0.000000E+00   1.500000E+01   5.000000E+00   1.000000E+00
+   1.489000E+01   0.000000E+00   3.200000E+01   6.000000E+00   1.000000E+00
+   1.567000E+01   0.000000E+00   3.300000E+01   6.000000E+00   1.000000E+00
+   1.615000E+01   0.000000E+00   2.800000E+01   5.000000E+00   1.000000E+00
+   1.733000E+01   0.000000E+00   2.170000E+01   5.000000E+00   1.000000E+00
+   1.849000E+01   0.000000E+00   1.000000E+01   3.000000E+00   1.000000E+00
+   1.892000E+01   0.000000E+00   1.650000E+01   3.000000E+00   1.000000E+00
+   1.961000E+01   0.000000E+00   1.700000E+01   3.000000E+00   1.000000E+00
+   2.019000E+01   0.000000E+00   2.500000E+01   5.000000E+00   1.000000E+00
+   2.063000E+01   0.000000E+00   2.600000E+01   5.000000E+00   1.000000E+00
+   2.100000E+01   0.000000E+00   1.600000E+01   3.000000E+00   1.000000E+00
+# reference:
+#   author: J.PICARD,C.F.WILLIAMSON
+#   title: -THE (N,P),(N,ALPHA) AND (N,2N) CROSS SECTIONS  FOR F-19 AND NA-29 BETWEEN 13 AND 21 MEV-
+#   journal: Jour: Nuclear Physics, Vol.63, p.673 (1965)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.418000E+01
+#   E-max [MeV]:  2.100000E+01
+#   F-value:  1.749237E+00
+#   A-value:  8.600130E-01
+#   chi-2:  4.541656E+00
+#   p-value:  2.649412E-01
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.718914E+00   8.737143E-01   4.376081E+00
+# jendl5.0      2.589185E+00   3.894663E-01   9.994230E+00

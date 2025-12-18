@@ -1,0 +1,65 @@
+# header: 
+#   title: Ag109(n,p)Pd109m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Augustyniak
+#   year: 1975
+#   subentry: 30316006
+#   X4 reaction: 47-AG-109(N,P)46-PD-109-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30316006
+# target: 
+#   Z: 47
+#   A: 109
+#   nuclide: Ag109
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 46
+#     A: 109
+#     nuclide: Pd109m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.305000E+01   3.000000E-01   6.898500E+00   2.583900E+00   9.997833E-01
+   1.346000E+01   2.500000E-01   7.072600E+00   7.490400E-01   9.823101E-01
+   1.388000E+01   2.100000E-01   9.731700E+00   1.125400E+00   9.731712E-01
+   1.400000E+01   2.500000E-01   8.995399E+00   1.351800E+00   9.885032E-01
+   1.480000E+01   2.500000E-01   9.359699E+00   1.249900E+00   9.957120E-01
+   1.530000E+01   4.000000E-01   1.085932E+01   1.666100E+00   1.014890E+00
+   1.561000E+01   3.000000E-01   7.791000E+00   1.915700E+00   1.025135E+00
+   1.660000E+01   1.000000E-01   7.313900E+00   1.706000E+00   1.030126E+00
+# reference:
+#   author: W.Augustyniak, M.Herman, A.Marcinkowski
+#   title: Cross-sections for the inelastic scattering, (n,p) and (n,2n) reactions on Ag-107 and Ag-109 isotopes
+#   journal: Jour: Nuclear Physics, Section A, Vol.247, p.231 (1975)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.305000E+01
+#   E-max [MeV]:  1.660000E+01
+#   F-value:  1.332650E+00
+#   A-value:  9.195641E-01
+#   chi-2:  3.025808E+00
+#   p-value:  2.857277E-01
+#   exp. data sets for p-value:      1
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.196326E+00   9.820953E-01   1.565103E+00
+# jeff4.0       1.196326E+00   9.820953E-01   1.565102E+00
+# jendl5.0      1.251918E+00   1.105782E+00   1.785226E+00
+# eaf.2010      1.590123E+00   6.704266E-01   7.187798E+00

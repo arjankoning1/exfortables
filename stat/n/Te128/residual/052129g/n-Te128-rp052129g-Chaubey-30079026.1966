@@ -1,0 +1,57 @@
+# header: 
+#   title: Te128(n,x)Te129g cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Chaubey
+#   year: 1966
+#   subentry: 30079026
+#   X4 reaction: 52-TE-128(N,G)52-TE-129-G,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30079026
+# target: 
+#   Z: 52
+#   A: 128
+#   nuclide: Te128
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 52
+#     A: 129
+#     nuclide: Te129g
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.400000E-02   0.000000E+00   1.450000E+02   2.500000E+01   1.000000E+00
+# reference:
+#   author: A.K.Chaubey, M.L.Sehgal
+#   title: Test of Statistical Theory of Nuclear Reactions at 24 keV.
+#   journal: Jour: Physical Review, Vol.152, p.1055 (1966)
+# statistics:
+#   NEA score: T2
+#   IAEA score:  1
+#   E-min [MeV]:  2.400000E-02
+#   E-max [MeV]:  2.400000E-02
+#   F-value:  3.271944E+00
+#   A-value:  3.078677E-01
+#   chi-2:  1.604833E+01
+#   p-value:  9.710294E-02
+#   exp. data sets for p-value:      2
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    2.960063E+00   3.378306E-01   1.475369E+01
+# jeff4.0       2.960063E+00   3.378306E-01   1.475369E+01
+# jendl5.0      3.911161E+00   2.556785E-01   1.863763E+01

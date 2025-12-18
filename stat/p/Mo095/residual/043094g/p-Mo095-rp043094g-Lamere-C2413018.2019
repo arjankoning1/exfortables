@@ -1,0 +1,61 @@
+# header: 
+#   title: Mo95(p,x)Tc94g cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Lamere
+#   year: 2019
+#   subentry: C2413018
+#   X4 reaction: 42-MO-95(P,2N)43-TC-94-G,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C2413018
+# target: 
+#   Z: 42
+#   A: 95
+#   nuclide: Mo95
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 43
+#     A: 94
+#     nuclide: Tc94g
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.302000E+01   7.000000E-02   1.500000E+01   3.000000E+00   1.000000E+00
+   1.403000E+01   6.000000E-02   1.070000E+02   1.500000E+01   1.000000E+00
+   1.507000E+01   2.000000E-02   1.790000E+02   3.800000E+01   1.000000E+00
+   1.603000E+01   6.000000E-02   2.380000E+02   4.800000E+01   1.000000E+00
+   1.799000E+01   6.000000E-02   3.240000E+02   6.400000E+01   1.000000E+00
+   1.903000E+01   6.000000E-02   3.100000E+02   6.900002E+01   1.000000E+00
+# reference:
+#   author: E.Lamere,M.Couder,M.Beard,A.Simon,A.Simonetti, M.Skulski,G.Seymour,P.Huestis,K.Manukyan,Z.Meisel, L.Morales,M.Moran,S.Moylan,C.Seymour,E.Stech
+#   title: Proton-induced reactions on molybdenum
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.100, p.034614 (2019)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.302000E+01
+#   E-max [MeV]:  1.903000E+01
+#   F-value:  1.751834E+00
+#   A-value:  1.552791E+00
+#   chi-2:  2.149435E+01
+#   p-value:  3.436615E-01
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.533668E+00   1.274947E+00   1.295280E+01
+# jendl5.0      1.949701E+00   1.891183E+00   3.003590E+01

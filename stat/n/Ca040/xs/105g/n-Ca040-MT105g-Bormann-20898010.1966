@@ -1,0 +1,63 @@
+# header: 
+#   title: Ca40(n,t)K38g cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Bormann
+#   year: 1966
+#   subentry: 20898010
+#   X4 reaction: 20-CA-40(N,T)19-K-38-G,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20898010
+# target: 
+#   Z: 20
+#   A: 40
+#   nuclide: Ca40
+# reaction: 
+#   type: (n,t)
+#   ENDF_MF: 3
+#   ENDF_MT: 105
+#   residual: 
+#     Z: 19
+#     A: 38
+#     nuclide: K38g
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.490000E+01   1.400000E+00   3.100000E-02   5.000000E-03   1.000000E+00
+   1.610000E+01   1.400000E+00   9.200000E-02   1.100000E-02   1.000000E+00
+   1.710000E+01   1.400000E+00   1.350000E-01   1.500000E-02   1.000000E+00
+   1.770000E+01   1.400000E+00   1.570000E-01   1.700000E-02   1.000000E+00
+   1.800000E+01   1.300000E+00   1.580000E-01   1.700000E-02   1.000000E+00
+   1.870000E+01   1.200000E+00   1.880000E-01   2.000000E-02   1.000000E+00
+   1.960000E+01   3.000000E-01   1.690000E-01   1.800000E-02   1.000000E+00
+# reference:
+#   author: M.Bormann,F.Dreyer,H.Neuert,I.Riehle,U.Zielinski
+#   title: Measurements of some fast neutron cross sections  with the activation method
+#   journal: Conf: Nuclear Data For Reactors Conf., Paris 1966, Vol.1, p.225 (1966)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  1.490000E+01
+#   E-max [MeV]:  1.960000E+01
+#   F-value:  7.346347E+00
+#   A-value:  2.207495E-01
+#   chi-2:  2.062862E+02
+#   p-value:  1.785981E-01
+#   exp. data sets for p-value:      3
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.489138E+01   8.427418E-02   6.089522E+01
+# jeff4.0       5.307502E+00   4.427406E-01   5.183608E+02
+# eaf.2010      3.897261E+00   2.883069E-01   3.960263E+01

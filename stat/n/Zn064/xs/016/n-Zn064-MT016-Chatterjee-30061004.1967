@@ -1,0 +1,55 @@
+# header: 
+#   title: Zn64(n,2n)Zn63 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Chatterjee
+#   year: 1967
+#   subentry: 30061004
+#   X4 reaction: 30-ZN-64(N,2N)30-ZN-63,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30061004
+# target: 
+#   Z: 30
+#   A: 64
+#   nuclide: Zn64
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 30
+#     A: 63
+#     nuclide: Zn63
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.480000E+01   1.000000E-01   1.650000E+02   1.600000E+01   1.000000E+00
+# reference:
+#   author: A.Chatterjee,A.Nath,A.M.Ghose
+#   title: Measurement of (n,2n) cross sections for fast neutrons
+#   journal: Prog: B.A.R.C., Trombay report series, No.305, p.30 (1967)
+# statistics:
+#   NEA score: T2
+#   IAEA score:  1
+#   E-min [MeV]:  1.480000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.356904E+00
+#   A-value:  8.929468E-01
+#   chi-2:  5.059641E+00
+#   p-value:  3.750844E-01
+#   exp. data sets for p-value:      8
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.005951E+00   1.005951E+00   7.791674E-02
+# endfb8.1      1.004482E+00   1.004482E+00   5.849783E-02
+# jeff4.0       2.108525E+00   4.742653E-01   2.939418E+01
+# jendl5.0      1.000314E+00   9.996856E-01   4.066529E-03
+# cendl3.2      1.048799E+00   1.048799E+00   7.056019E-01
+# eaf.2010      1.008922E+00   1.008922E+00   1.175760E-01

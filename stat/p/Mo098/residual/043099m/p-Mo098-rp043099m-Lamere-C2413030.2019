@@ -1,0 +1,65 @@
+# header: 
+#   title: Mo98(p,x)Tc99m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Lamere
+#   year: 2019
+#   subentry: C2413030
+#   X4 reaction: 42-MO-98(P,G)43-TC-99-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C2413030
+# target: 
+#   Z: 42
+#   A: 98
+#   nuclide: Mo98
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 43
+#     A: 99
+#     nuclide: Tc99m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.006000E+01   3.000000E-02   3.300000E-01   9.999999E-02   1.000000E+00
+   1.106000E+01   3.000000E-02   1.300000E-01   9.000000E-02   1.000000E+00
+   1.205000E+01   4.000000E-02   2.500000E-01   1.200000E-01   1.000000E+00
+   1.306000E+01   3.000000E-02   1.700000E-01   1.100000E-01   1.000000E+00
+   1.405000E+01   3.000000E-02   3.300000E-01   1.300000E-01   1.000000E+00
+   1.505000E+01   3.000000E-02   3.500000E-01   1.300000E-01   1.000000E+00
+   1.606000E+01   3.000000E-02   3.300000E-01   1.300000E-01   1.000000E+00
+   1.706000E+01   3.000000E-02   2.200000E-01   1.100000E-01   1.000000E+00
+   1.802000E+01   2.000000E-02   1.500000E-01   9.000000E-02   1.000000E+00
+   1.905000E+01   4.000000E-02   2.400000E-01   9.000000E-02   1.000000E+00
+# reference:
+#   author: E.Lamere,M.Couder,M.Beard,A.Simon,A.Simonetti, M.Skulski,G.Seymour,P.Huestis,K.Manukyan,Z.Meisel, L.Morales,M.Moran,S.Moylan,C.Seymour,E.Stech
+#   title: Proton-induced reactions on molybdenum
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.100, p.034614 (2019)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.006000E+01
+#   E-max [MeV]:  1.905000E+01
+#   F-value:  2.073590E+00
+#   A-value:  6.865959E-01
+#   chi-2:  1.565780E+00
+#   p-value:  3.274187E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.315415E+00   1.133764E+00   5.696850E-01
+# jendl5.0      2.702710E+00   4.157954E-01   2.561874E+00

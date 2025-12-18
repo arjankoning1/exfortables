@@ -1,0 +1,60 @@
+# header: 
+#   title: Ca0(p,x)Ar39 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Walton
+#   year: 1976
+#   subentry: O0350024
+#   X4 reaction: 20-CA-0(P,X)18-AR-39,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O0350024
+# target: 
+#   Z: 20
+#   A: 0
+#   nuclide: Ca0
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 18
+#     A: 39
+#     nuclide: Ar39
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.880000E+01   1.000000E+00   6.200000E-02   3.100000E-02   1.000000E+00
+   2.150000E+01   6.000000E-01   7.200000E-02   1.512000E-02   1.000000E+00
+   2.420000E+01   8.000000E-01   8.100000E-02   2.430000E-02   1.000000E+00
+   2.690000E+01   1.200000E+00   8.400000E-02   2.520000E-02   1.000000E+00
+   2.890000E+01   7.000000E-01   1.700000E-01   3.060000E-02   1.000000E+00
+   3.180000E+01   1.100000E+00   4.500000E-01   9.900000E-02   1.000000E+00
+   3.510000E+01   1.200000E+00   8.200000E-01   2.214000E-01   1.000000E+00
+   3.770000E+01   1.300000E+00   1.400000E+00   4.060000E-01   1.000000E+00
+   4.080000E+01   1.100000E+00   2.000000E+00   4.000000E-01   1.000000E+00
+   4.340000E+01   1.200000E+00   3.100000E+00   8.060001E-01   1.000000E+00
+# reference:
+#   author: J.R.Walton,D.Heymann,A.Yaniv,D.Edgerley,M.W.Rowe
+#   title: Cross sections for He and Ne isotopes in natural Mg,Al, and Si,He isotopes in Ca-F(2),Ar isotopes in natural Ca and radionuclides in natural Al,Si,Ti,Cr and stainless steel induced by 12-To 45-MeV protons.
+#   journal: Jour: Journal of Geophysical Research, Vol.81, p.5689 (1976)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  1.880000E+01
+#   E-max [MeV]:  4.340000E+01
+#   F-value:  3.009789E+00
+#   A-value:  3.581169E-01
+#   chi-2:  6.800775E+00
+#   p-value:  1.486672E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    3.690124E+00   2.812892E-01   8.542701E+00
+# jendl5.0      2.341006E+00   4.559282E-01   5.058847E+00

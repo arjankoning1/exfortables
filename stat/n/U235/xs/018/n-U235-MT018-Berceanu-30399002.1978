@@ -1,0 +1,52 @@
+# header: 
+#   title: U235(n,f) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Berceanu
+#   year: 1978
+#   subentry: 30399002
+#   X4 reaction: 92-U-235(N,F),,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30399002
+# target: 
+#   Z: 92
+#   A: 235
+#   nuclide: U235
+# reaction: 
+#   type: (n,f)
+#   ENDF_MF: 3
+#   ENDF_MT: 18
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.530000E-08   0.000000E+00   5.893000E+05   4.700000E+03   1.000000E+00
+# reference:
+#   author: I.Berceanu, C.Borcea, A.Buta, A.Constantinescu,  F.Cirstoiu, A.Galeriu, K.Galawez, A.Isbasescu,  I.Lazar, L.Marinescu, I.Mihai, I.M.Mihailescu,  P.Osiceanu, M.Petrascu, M.Petrovici, V.Simion,  G.Voiculescu
+#   title: The 235U fission cross-section for 2200 m/sec neutrons
+#   journal: Jour: Revue Roumaine de Physique, Vol.23, p.867 (1978)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.530000E-08
+#   E-max [MeV]:  2.530000E-08
+#   F-value:  1.018563E+00
+#   A-value:  9.819753E-01
+#   chi-2:  5.455204E+00
+#   p-value:  3.608349E-01
+#   exp. data sets for p-value:      8
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.016317E+00   9.839445E-01   4.366711E+00
+# endfb8.1      1.017419E+00   9.828790E-01   4.870708E+00
+# jeff4.0       1.017457E+00   9.828423E-01   4.888744E+00
+# jendl5.0      1.016240E+00   9.840193E-01   4.332764E+00
+# cendl3.2      1.021632E+00   9.788257E-01   7.155056E+00
+# eaf.2010      1.023558E+00   9.769842E-01   8.390960E+00
+# irdff2.0      1.015891E+00   9.843575E-01   4.181481E+00

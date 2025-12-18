@@ -1,0 +1,58 @@
+# header: 
+#   title: Mo94(p,np)Mo93m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Lamere
+#   year: 2019
+#   subentry: C2413010
+#   X4 reaction: 42-MO-94(P,X)42-MO-93-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C2413010
+# target: 
+#   Z: 42
+#   A: 94
+#   nuclide: Mo94
+# reaction: 
+#   type: (p,np)
+#   ENDF_MF: 3
+#   ENDF_MT: 28
+#   residual: 
+#     Z: 42
+#     A: 93
+#     nuclide: Mo93m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.606000E+01   4.000000E-02   1.200000E-01   3.000000E-02   1.000000E+00
+   1.706000E+01   3.000000E-02   2.100000E-01   4.000000E-02   1.000000E+00
+   1.805000E+01   4.000000E-02   4.800000E-01   1.300000E-01   1.000000E+00
+   1.906000E+01   3.000000E-02   8.500000E-01   2.100000E-01   1.000000E+00
+# reference:
+#   author: E.Lamere,M.Couder,M.Beard,A.Simon,A.Simonetti, M.Skulski,G.Seymour,P.Huestis,K.Manukyan,Z.Meisel, L.Morales,M.Moran,S.Moylan,C.Seymour,E.Stech
+#   title: Proton-induced reactions on molybdenum
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.100, p.034614 (2019)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.606000E+01
+#   E-max [MeV]:  1.906000E+01
+#   F-value:  6.937068E+00
+#   A-value:  6.893404E+00
+#   chi-2:  7.590364E+02
+#   p-value:  1.040128E-01
+#   exp. data sets for p-value:      1
+#   libraries:      1
+##  Library          F              A            chi-2
+# tendl.2025    6.937068E+00   6.893404E+00   7.590364E+02

@@ -1,0 +1,59 @@
+# header: 
+#   title: Nb93(n,x)Nb92m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Ikeda
+#   year: 1991
+#   subentry: 22209007
+#   X4 reaction: 41-NB-93(N,2N)41-NB-92-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22209007
+# target: 
+#   Z: 41
+#   A: 93
+#   nuclide: Nb93
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 41
+#     A: 92
+#     nuclide: Nb92m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.100000E+01   5.000000E-01   1.603419E+02   8.785900E+00   7.321548E-01
+   1.200000E+01   5.000000E-01   3.313383E+02   1.248521E+01   9.604008E-01
+   1.320000E+01   5.000000E-01   5.711655E+02   2.958740E+01   1.286409E+00
+# reference:
+#   author: Y.Ikeda, C.Konno, M.Mizumoto, K.Hasegawa, S.Chiba, Y.Yamanouchi, M.Sugimoto
+#   title: Activation cross section measurement at neutron  energies of 9.5, 11.0, 12.0 and 13.2 MeV using  H-1(B-11,n)C-12  neutron source at JAERI.
+#   journal: Conf: Conf.on Nucl.Data for Sci.and Technol.,Juelich 1991, p.294 (1991)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.100000E+01
+#   E-max [MeV]:  1.320000E+01
+#   F-value:  1.468475E+00
+#   A-value:  1.180071E+00
+#   chi-2:  8.630436E+01
+#   p-value:  1.535055E-01
+#   exp. data sets for p-value:      6
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.453279E+00   1.177867E+00   8.061387E+01
+# jeff4.0       1.453280E+00   1.177867E+00   8.061389E+01
+# jendl5.0      1.498140E+00   1.184492E+00   9.768531E+01

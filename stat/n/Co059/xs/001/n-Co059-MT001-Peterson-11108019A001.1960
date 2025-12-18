@@ -1,0 +1,54 @@
+# header: 
+#   title: Co59(n,tot) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Peterson
+#   year: 1960
+#   subentry: 11108019
+#   X4 reaction: 27-CO-59(N,TOT),,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11108019
+# target: 
+#   Z: 27
+#   A: 59
+#   nuclide: Co59
+# reaction: 
+#   type: (n,tot)
+#   ENDF_MF: 3
+#   ENDF_MT: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.740000E+01   2.610000E-01   2.450000E+03   3.000000E+01   1.000000E+00
+   2.140000E+01   0.000000E+00   2.340000E+03   3.000000E+01   1.000000E+00
+   2.530000E+01   0.000000E+00   2.320000E+03   3.000000E+01   1.000000E+00
+   2.900000E+01   2.030000E-01   2.410000E+03   3.000000E+01   1.000000E+00
+# reference:
+#   author: J.M.PETERSON,A.BRATENAHL,J.P.STOERING
+#   title: Neutron total cross sections in the 17- to 29-MEV region.
+#   journal: Jour: Physical Review, Vol.120, p.521 (1960)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.740000E+01
+#   E-max [MeV]:  2.900000E+01
+#   F-value:  1.025251E+00
+#   A-value:  9.878575E-01
+#   chi-2:  3.990960E+00
+#   p-value:  3.979635E-01
+#   exp. data sets for p-value:      6
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.039974E+00   9.831421E-01   9.355862E+00
+# endfb8.1      1.000528E+00   1.000528E+00   5.449003E-02
+# jeff4.0       1.000529E+00   1.000529E+00   5.467635E-02
+# jendl5.0      1.011209E+00   1.001087E+00   1.190876E+00
+# cendl3.2      1.001065E+00   9.989361E-01   1.109105E-01
+# irdff2.0      1.019074E+00   9.851213E-01   2.537258E+00

@@ -1,0 +1,64 @@
+# header: 
+#   title: Pd102(p,g)Ag103 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Dillmann
+#   year: 2011
+#   subentry: O1917002
+#   X4 reaction: 46-PD-102(P,G)47-AG-103,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O1917002
+# target: 
+#   Z: 46
+#   A: 102
+#   nuclide: Pd102
+# reaction: 
+#   type: (p,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 47
+#     A: 103
+#     nuclide: Ag103
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 14
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.711554E+00   1.800000E-02   5.800000E-02   1.000000E-02   1.000000E+00
+   2.960997E+00   1.800000E-02   1.050000E-01   1.600000E-02   1.000000E+00
+   3.209430E+00   1.600000E-02   2.660000E-01   2.800000E-02   1.000000E+00
+   3.455843E+00   1.500000E-02   5.220000E-01   4.600000E-02   1.000000E+00
+   3.715385E+00   2.900000E-02   7.970000E-01   7.000000E-02   1.000000E+00
+   3.932511E+00   2.900000E-02   1.430000E+00   1.100000E-01   1.000000E+00
+   3.972907E+00   2.900000E-02   1.420000E+00   1.200000E-01   1.000000E+00
+   4.210231E+00   2.800000E-02   2.120000E+00   1.800000E-01   1.000000E+00
+   4.412209E+00   2.900000E-02   2.600000E+00   1.800000E-01   1.000000E+00
+   4.478862E+00   3.000000E-02   3.060000E+00   2.300000E-01   1.000000E+00
+   4.937352E+00   3.000000E-02   5.080000E+00   3.800000E-01   1.000000E+00
+   4.960579E+00   3.200000E-02   5.260000E+00   4.300000E-01   1.000000E+00
+   5.857361E+00   3.300000E-02   1.230000E+01   1.000000E+00   1.000000E+00
+   6.918756E+00   3.700000E-02   1.060000E+01   2.000000E+00   1.000000E+00
+# reference:
+#   author: I.Dillmann, L.Coquard, C.Domingo-Pardo, F.Kaeppeler, J.Marganiec, E.Uberseder, U.Giesen, A.Heiske, G.Feinberg, D.Hentschel, S.Hilpp, H.Leiste, T.Rauscher, F.-K.Thielemann
+#   title: Cross section for proton-induced reactions on Pd isotopes at energies relevant for the gamma process.
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.84, p.015802 (2011)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.711554E+00
+#   E-max [MeV]:  6.918756E+00
+#   F-value:  1.580670E+00
+#   A-value:  6.472046E-01
+#   chi-2:  1.717562E+01
+#   p-value:  3.466363E-01
+#   exp. data sets for p-value:      3
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.649348E+00   6.133279E-01   2.008693E+01
+# jendl5.0      1.508232E+00   6.829525E-01   1.426432E+01

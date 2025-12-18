@@ -1,0 +1,68 @@
+# header: 
+#   title: Cu0(p,x)Co56 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Fox
+#   year: 2021
+#   subentry: C2702034
+#   X4 reaction: 29-CU-0(P,X)27-CO-56,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C2702034
+# target: 
+#   Z: 29
+#   A: 0
+#   nuclide: Cu0
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 27
+#     A: 56
+#     nuclide: Co56
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 17
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.122000E+01   8.000000E-01   3.730000E-01   5.700000E-02   1.000000E+00
+   5.324000E+01   7.700000E-01   7.130000E-01   3.900000E-02   1.000000E+00
+   5.521000E+01   7.500000E-01   1.272000E+00   6.200000E-02   1.000000E+00
+   5.711000E+01   7.300000E-01   2.405000E+00   9.900000E-02   1.000000E+00
+   5.973000E+01   7.100000E-01   4.470000E+00   1.800000E-01   1.000000E+00
+   6.273000E+01   6.800000E-01   7.660000E+00   3.200000E-01   1.000000E+00
+   6.681000E+01   6.500000E-01   1.095000E+01   4.600000E-01   1.000000E+00
+   7.222000E+01   6.100000E-01   1.268000E+01   5.600000E-01   1.000000E+00
+   7.903000E+01   5.700000E-01   1.212000E+01   4.900000E-01   1.000000E+00
+   9.094000E+01   5.200000E-01   1.031000E+01   4.400000E-01   1.000000E+00
+   1.044900E+02   7.400000E-01   1.051000E+01   3.700000E-01   1.000000E+00
+   1.200200E+02   6.700000E-01   1.155000E+01   3.100000E-01   1.000000E+00
+   1.340800E+02   6.200000E-01   1.229000E+01   2.700000E-01   1.000000E+00
+   1.488600E+02   5.800000E-01   1.318000E+01   3.400000E-01   1.000000E+00
+   1.634900E+02   5.400000E-01   1.257000E+01   2.900000E-01   1.000000E+00
+   1.772800E+02   5.200000E-01   1.265000E+01   3.500000E-01   1.000000E+00
+   1.925400E+02   4.900000E-01   1.250000E+01   4.300000E-01   1.000000E+00
+# reference:
+#   author: M.B.Fox,A.S.Voyles,J.T.Morrell,L.A.Bernstein, J.C.Batchelder,E.R.Birnbaum,C.S.Cutler,A.J.Koning, A.M.Lewis,D.G.Medvedev,F.M.Nortier,E.M.O'Brien, Ch.Vermeulen
+#   title: Measurement and modeling of proton-induced reactions on arsenic from 35 to 200 MeV
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.104, p.064615 (2021)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  5.122000E+01
+#   E-max [MeV]:  1.925400E+02
+#   F-value:  1.449412E+00
+#   A-value:  9.786459E-01
+#   chi-2:  1.415529E+02
+#   p-value:  4.159766E-01
+#   exp. data sets for p-value:      3
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.390604E+00   9.118061E-01   7.832344E+01
+# endfb8.1      1.519069E+00   1.285839E+00   2.517962E+02
+# jendl5.0      1.433613E+00   7.994432E-01   9.453916E+01

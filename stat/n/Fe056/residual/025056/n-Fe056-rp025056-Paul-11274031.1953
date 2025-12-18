@@ -1,0 +1,51 @@
+# header: 
+#   title: Fe56(n,x)Mn56 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Paul
+#   year: 1953
+#   subentry: 11274031
+#   X4 reaction: 26-FE-56(N,P)25-MN-56,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11274031
+# target: 
+#   Z: 26
+#   A: 56
+#   nuclide: Fe56
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 25
+#     A: 56
+#     nuclide: Mn56
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.450000E+01   0.000000E+00   9.670000E+01   1.160400E+01   1.000000E+00
+# reference:
+#   author: E.B.Paul,R.L.Clarke
+#   title: CROSS SECTION MEASUREMENTS OF REACTIONS INDUCED BY NEUTRONS OF THE 14.5 MEV ENERGY.
+#   journal: Jour: Canadian Journal of Physics, Vol.31, p.267 (1953)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.450000E+01
+#   E-max [MeV]:  1.450000E+01
+#   F-value:  1.108198E+00
+#   A-value:  1.107726E+00
+#   chi-2:  1.394180E+00
+#   p-value:  1.918804E-01
+#   exp. data sets for p-value:      8
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.097417E+00   1.097417E+00   1.228767E+00
+# jendl5.0      1.118131E+00   1.118131E+00   1.559593E+00

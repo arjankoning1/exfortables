@@ -1,0 +1,61 @@
+# header: 
+#   title: Nb93(n,x)Y91m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Honusek
+#   year: 2011
+#   subentry: 316910102
+#   X4 reaction: 41-NB-93(N,X)39-Y-91-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/316910102
+# target: 
+#   Z: 41
+#   A: 93
+#   nuclide: Nb93
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 39
+#     A: 91
+#     nuclide: Y91m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.475000E+01   1.625000E+00   1.840000E-01   5.400000E-02   1.000000E+00
+   2.762500E+01   1.250000E+00   3.670000E-01   5.700000E-02   1.000000E+00
+   3.025000E+01   1.375000E+00   6.370000E-01   8.000000E-02   1.000000E+00
+   3.287500E+01   1.250000E+00   9.170000E-01   1.500000E-01   1.000000E+00
+   3.562500E+01   1.500000E+00   1.207000E+00   2.300000E-01   1.000000E+00
+# reference:
+#   author: M.Honusek, P.Bem, V.Burjan, M.Goetz, V.Kroha, J.Novak,  E.Simeckova, U.Fischer, S.P.Simakov
+#   title: Neutron activation experiments on niobium in NPI p-7Li  quasi-monoenergetic neutron field
+#   journal: Jour: Journal of the Korean Physical Society, Vol.59, p.1374 (2011)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  2.475000E+01
+#   E-max [MeV]:  3.562500E+01
+#   F-value:  4.152230E+00
+#   A-value:  3.277737E+00
+#   chi-2:  7.859686E+02
+#   p-value:  2.800130E-01
+#   exp. data sets for p-value:      5
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    3.623622E+00   3.582580E+00   2.927005E+02
+# jeff4.0       8.089494E+00   8.019405E+00   2.061810E+03
+# jendl5.0      1.256797E+00   1.225700E+00   3.394516E+00

@@ -1,0 +1,67 @@
+# header: 
+#   title: Cr52(n,g)Cr53 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Kenny
+#   year: 1977
+#   subentry: 30393012
+#   X4 reaction: 24-CR-52(N,G)24-CR-53,,SIG,,AV
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30393012
+# target: 
+#   Z: 24
+#   A: 52
+#   nuclide: Cr52
+# reaction: 
+#   type: (n,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 24
+#     A: 53
+#     nuclide: Cr53
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 13
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.500000E-02   5.000000E-03   5.400000E-01   1.300000E-01   1.000000E+00
+   2.500000E-02   5.000000E-03   1.820000E+01   4.560000E+00   1.000000E+00
+   3.500000E-02   5.000000E-03   9.250000E+00   2.310000E+00   1.000000E+00
+   4.500000E-02   5.000000E-03   6.980000E+00   1.750000E+00   1.000000E+00
+   5.500000E-02   5.000000E-03   1.860000E+01   4.700000E+00   1.000000E+00
+   6.500000E-02   5.000000E-03   1.120000E+00   2.100000E-01   1.000000E+00
+   7.500000E-02   5.000000E-03   2.170000E+00   5.400000E-01   1.000000E+00
+   9.500000E-02   5.000000E-03   2.680000E+01   6.700000E+00   1.000000E+00
+   1.250000E-01   2.500000E-02   8.400000E+00   2.100000E+00   1.000000E+00
+   1.750000E-01   2.500000E-02   4.100000E+00   1.000000E+00   1.000000E+00
+   2.250000E-01   2.500000E-02   3.800000E+00   9.000000E-01   1.000000E+00
+   2.750000E-01   2.500000E-02   1.300000E+00   3.000000E-01   1.000000E+00
+   3.250000E-01   2.500000E-02   4.800000E+00   1.100000E+00   1.000000E+00
+# reference:
+#   author: M.J.Kenny, B.J.Allen, A.R.de L.Musgrove, R.L.Macklin,  J.Halperin
+#   title: Neutron capture by the chromium isotopes
+#   journal: Rept: Australian AEC Reports, No.400 (1977)
+# statistics:
+#   NEA score: T2
+#   IAEA score:  1
+#   E-min [MeV]:  1.500000E-02
+#   E-max [MeV]:  3.250000E-01
+#   F-value:  5.357270E+00
+#   A-value:  4.298897E-01
+#   chi-2:  9.356887E+00
+#   p-value:  1.601291E-01
+#   exp. data sets for p-value:      6
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    5.222259E+00   4.420878E-01   8.790812E+00
+# endfb8.1      4.066967E+00   5.525591E-01   1.059038E+01
+# jeff4.0       4.066967E+00   5.525591E-01   1.059038E+01
+# jendl5.0      4.517247E+00   4.803979E-01   8.738237E+00
+# cendl3.2      7.987937E+00   2.730799E-01   7.399865E+00
+# eaf.2010      6.744541E+00   3.564392E-01   1.003164E+01

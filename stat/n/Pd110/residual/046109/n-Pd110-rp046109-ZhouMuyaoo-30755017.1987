@@ -1,0 +1,52 @@
+# header: 
+#   title: Pd110(n,x)Pd109 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: ZhouMuyaoo
+#   year: 1987
+#   subentry: 30755017
+#   X4 reaction: 46-PD-110(N,2N)46-PD-109,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30755017
+# target: 
+#   Z: 46
+#   A: 110
+#   nuclide: Pd110
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 46
+#     A: 109
+#     nuclide: Pd109
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.460000E+01   2.000000E-01   2.510000E+03   1.100000E+02   1.000000E+00
+# reference:
+#   author: Zhou Muyao,Zhang Yongfa,Wang Chuanshan,Zhang Lu, Chen Yitai,Zhou Shuxin,Zhang Shenjin,Xie Kuanzhong, Zhou Shenmuo,Chen Xueshi,Zhang Yiping,Yan Qinguan
+#   title: Shell effect from the cross section of the (n,2n) reaction produced by 14.6 MeV neutrons
+#   journal: Jour: Chinese J.of Nuclear Physics (Beijing)., Vol.9, p.34 (1987)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  0
+#   E-min [MeV]:  1.460000E+01
+#   E-max [MeV]:  1.460000E+01
+#   F-value:  1.590955E+00
+#   A-value:  6.287999E-01
+#   chi-2:  7.177334E+01
+#   p-value:  1.417694E-01
+#   exp. data sets for p-value:      8
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.629374E+00   6.137328E-01   7.768512E+01
+# jeff4.0       1.587311E+00   6.299962E-01   7.128112E+01
+# jendl5.0      1.555177E+00   6.430135E-01   6.635376E+01

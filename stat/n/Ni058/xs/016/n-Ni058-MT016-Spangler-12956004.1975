@@ -1,0 +1,56 @@
+# header: 
+#   title: Ni58(n,2n)Ni57 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Spangler
+#   year: 1975
+#   subentry: 12956004
+#   X4 reaction: 28-NI-58(N,2N)28-NI-57,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/12956004
+# target: 
+#   Z: 28
+#   A: 58
+#   nuclide: Ni58
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 28
+#     A: 57
+#     nuclide: Ni57
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.410000E+01   0.000000E+00   4.895632E+01   3.337900E+00   1.112644E+00
+# reference:
+#   author: R.Spangler,E.L.Draper Jr,T.A.Parish
+#   title: 14-MeV cross section measurements of threshold  reactions for seven metals.
+#   journal: Jour: Transactions of the American Nuclear Society, Vol.22, p.818 (1975)
+# statistics:
+#   NEA score: T2
+#   IAEA score:  1
+#   E-min [MeV]:  1.410000E+01
+#   E-max [MeV]:  1.410000E+01
+#   F-value:  2.018357E+00
+#   A-value:  4.960051E-01
+#   chi-2:  5.464183E+01
+#   p-value:  2.190471E-04
+#   exp. data sets for p-value:      8
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    2.086134E+00   4.793555E-01   5.831141E+01
+# endfb8.1      2.077590E+00   4.813270E-01   5.787063E+01
+# jeff4.0       2.086134E+00   4.793555E-01   5.831142E+01
+# jendl5.0      1.875192E+00   5.332788E-01   4.685824E+01
+# cendl3.2      1.958252E+00   5.106595E-01   5.151022E+01
+# eaf.2010      1.962845E+00   5.094645E-01   5.176208E+01
+# irdff2.0      2.077554E+00   4.813352E-01   5.786880E+01

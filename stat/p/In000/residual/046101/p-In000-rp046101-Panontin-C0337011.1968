@@ -1,0 +1,52 @@
+# header: 
+#   title: In0(p,x)Pd101 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Panontin
+#   year: 1968
+#   subentry: C0337011
+#   X4 reaction: 49-IN-0(P,X)46-PD-101,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C0337011
+# target: 
+#   Z: 49
+#   A: 0
+#   nuclide: In0
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 46
+#     A: 101
+#     nuclide: Pd101
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.000000E+02   0.000000E+00   1.020000E+01   4.000000E-01   1.000000E+00
+   4.000000E+02   0.000000E+00   2.020000E+01   4.000000E-01   1.000000E+00
+# reference:
+#   author: J.A.PANONTIN,N.T.PORILE,A.A.CARETTO
+#   title: NUCLEAR REACTIONS OF SILVER AND INDIUM WITH 200- AND 400-MEV PROTONS
+#   journal: Jour: Physical Review, Vol.165, p.1273 (1968)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  2.000000E+02
+#   E-max [MeV]:  4.000000E+02
+#   F-value:  2.974626E+00
+#   A-value:  6.652936E-01
+#   chi-2:  4.100045E+02
+#   p-value:  2.329914E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.828602E+00   1.828602E+00   4.464494E+02
+# jendl5.0      4.131354E+00   2.420514E-01   3.735595E+02

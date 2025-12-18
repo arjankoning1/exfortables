@@ -1,0 +1,60 @@
+# header: 
+#   title: W0(p,x)Re181 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Nguyen
+#   year: 2022
+#   subentry: D7042008
+#   X4 reaction: 74-W-0(P,X)75-RE-181,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D7042008
+# target: 
+#   Z: 74
+#   A: 0
+#   nuclide: W0
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 75
+#     A: 181
+#     nuclide: Re181
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 9
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.250000E+01   7.900000E-01   9.868000E+01   1.085000E+01   1.000000E+00
+   1.861000E+01   5.900000E-01   3.887200E+02   4.268000E+01   1.000000E+00
+   2.347000E+01   5.100000E-01   3.546100E+02   2.894000E+01   1.000000E+00
+   2.769000E+01   4.600000E-01   2.414900E+02   2.651000E+01   1.000000E+00
+   3.149000E+01   4.100000E-01   3.738900E+02   4.103000E+01   1.000000E+00
+   3.495000E+01   3.800000E-01   4.521800E+02   4.972000E+01   1.000000E+00
+   3.817000E+01   3.700000E-01   3.889200E+02   4.268000E+01   1.000000E+00
+   4.119000E+01   3.300000E-01   2.624700E+02   2.882000E+01   1.000000E+00
+   4.408000E+01   3.300000E-01   2.066700E+02   2.266000E+01   1.000000E+00
+# reference:
+#   author: T.H.Nguyen, V.D.Nguyen, T.T.Kim, G.N.KIM, H.Naik
+#   title: Excitation functions of proton-induced reactions on natW target for rhenium isotope production
+#   journal: Jour: Radiation Physics and Chemistry, Vol.196, p.110145 (2022)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.250000E+01
+#   E-max [MeV]:  4.408000E+01
+#   F-value:  1.189025E+00
+#   A-value:  9.198382E-01
+#   chi-2:  2.400732E+00
+#   p-value:  2.483677E-01
+#   exp. data sets for p-value:      4
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.221825E+00   8.636202E-01   2.889354E+00
+# endfb8.1      1.180934E+00   9.675883E-01   2.540101E+00
+# jendl5.0      1.160397E+00   9.313672E-01   1.772740E+00

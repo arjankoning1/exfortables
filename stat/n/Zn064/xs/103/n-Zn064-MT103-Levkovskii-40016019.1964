@@ -1,0 +1,56 @@
+# header: 
+#   title: Zn64(n,p)Cu64 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Levkovskii
+#   year: 1964
+#   subentry: 40016019
+#   X4 reaction: 30-ZN-64(N,P)29-CU-64,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/40016019
+# target: 
+#   Z: 30
+#   A: 64
+#   nuclide: Zn64
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 29
+#     A: 64
+#     nuclide: Cu64
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.400000E+01   0.000000E+00   2.100000E+02   4.000000E+01   1.000000E+00
+# reference:
+#   author: V.N.Levkovskii
+#   title: Empirical behavior of the (n,p) reaction cross-  sections for 14 - 15 MeV neutrons
+#   journal: Jour: Journal of Experimental and Theoretical Physics, Vol.18, p.213 (19
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.400000E+01
+#   E-max [MeV]:  1.400000E+01
+#   F-value:  1.100599E+00
+#   A-value:  9.093797E-01
+#   chi-2:  6.635070E-01
+#   p-value:  4.745197E-02
+#   exp. data sets for p-value:      8
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.099203E+00   9.097496E-01   6.597298E-01
+# endfb8.1      1.097503E+00   9.111593E-01   6.482927E-01
+# jeff4.0       1.099203E+00   9.097496E-01   6.597298E-01
+# jendl5.0      1.121414E+00   8.917317E-01   8.095413E-01
+# cendl3.2      1.072031E+00   9.328090E-01   4.775432E-01
+# eaf.2010      1.111349E+00   8.998071E-01   7.415537E-01
+# irdff2.0      1.097483E+00   9.111758E-01   6.481588E-01

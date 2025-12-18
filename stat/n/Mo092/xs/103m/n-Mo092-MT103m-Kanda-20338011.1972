@@ -1,0 +1,69 @@
+# header: 
+#   title: Mo92(n,p)Nb92m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Kanda
+#   year: 1972
+#   subentry: 20338011
+#   X4 reaction: 42-MO-92(N,P)41-NB-92-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20338011
+# target: 
+#   Z: 42
+#   A: 92
+#   nuclide: Mo92
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 41
+#     A: 92
+#     nuclide: Nb92m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.341000E+01   2.100000E-01   7.250000E+01   6.800000E+00   1.000000E+00
+   1.357000E+01   1.400000E-01   6.640000E+01   8.600000E+00   1.000000E+00
+   1.383000E+01   2.100000E-01   7.240000E+01   6.500000E+00   1.000000E+00
+   1.388000E+01   6.000000E-02   4.980000E+01   6.500000E+00   1.000000E+00
+   1.401000E+01   4.000000E-02   4.820000E+01   7.600000E+00   1.000000E+00
+   1.417000E+01   6.000000E-02   4.470000E+01   3.900000E+00   1.000000E+00
+   1.431000E+01   1.300000E-01   4.200000E+01   3.600000E+00   1.000000E+00
+   1.460000E+01   2.200000E-01   4.150000E+01   5.100000E+00   1.000000E+00
+   1.474000E+01   2.300000E-01   3.970000E+01   4.200000E+00   1.000000E+00
+   1.492000E+01   3.400000E-01   3.610000E+01   3.900000E+00   1.000000E+00
+# reference:
+#   author: Y.Kanda
+#   title: The excitation functions and isomeric ratios for  neutron induced reactions on Mo-92 and Zr-90
+#   journal: Jour: Nuclear Physics, Section A, Vol.185, p.177 (1972)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.341000E+01
+#   E-max [MeV]:  1.492000E+01
+#   F-value:  1.474906E+00
+#   A-value:  1.431579E+00
+#   chi-2:  2.165017E+01
+#   p-value:  5.206389E-02
+#   exp. data sets for p-value:      8
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.448246E+00   1.402133E+00   1.938384E+01
+# endfb8.1      1.446650E+00   1.400432E+00   1.922433E+01
+# jeff4.0       1.448246E+00   1.402133E+00   1.938384E+01
+# jendl5.0      1.585492E+00   1.554086E+00   3.221740E+01
+# eaf.2010      1.466496E+00   1.436531E+00   2.046727E+01
+# irdff2.0      1.446650E+00   1.400432E+00   1.922433E+01

@@ -1,0 +1,60 @@
+# header: 
+#   title: Ru96(n,np)Tc95m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: JunhuaLuoo
+#   year: 2007
+#   subentry: 31632012
+#   X4 reaction: 44-RU-96(N,X)43-TC-95-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/31632012
+# target: 
+#   Z: 44
+#   A: 96
+#   nuclide: Ru96
+# reaction: 
+#   type: (n,np)
+#   ENDF_MF: 3
+#   ENDF_MT: 28
+#   residual: 
+#     Z: 43
+#     A: 95
+#     nuclide: Tc95m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.350000E+01   2.000000E-01   3.252571E+01   1.301000E+00   1.000791E+00
+   1.410000E+01   2.000000E-01   4.133267E+01   3.702900E+00   1.000791E+00
+   1.480000E+01   2.000000E-01   4.523576E+01   1.801400E+00   1.000791E+00
+# reference:
+#   author: Junhua Luo,Gang Liu,Fei Tuo,Xiangzhong Kong, Rong Liu,Lijiang,Benchao Lou
+#   title: Activation cross sections for reactions induced by 14 MeV neutronson natural ruthenium
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.76, p.057601 (2007)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.350000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.626151E+00
+#   A-value:  1.525627E+00
+#   chi-2:  2.248940E+02
+#   p-value:  1.166650E-01
+#   exp. data sets for p-value:      2
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.919423E+00   1.916579E+00   4.160701E+02
+# jeff4.0       1.919423E+00   1.916579E+00   4.160701E+02
+# jendl5.0      1.141847E+00   1.119260E+00   1.324443E+01
+# eaf.2010      1.321604E+00   1.317679E+00   5.419160E+01

@@ -1,0 +1,56 @@
+# header: 
+#   title: U238(n,g)U239 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Block
+#   year: 1972
+#   subentry: 105940032
+#   X4 reaction: 92-U-238(N,G)92-U-239,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/105940032
+# target: 
+#   Z: 92
+#   A: 238
+#   nuclide: U238
+# reaction: 
+#   type: (n,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 92
+#     A: 239
+#     nuclide: U239
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.430000E-02   2.400000E-03   4.453144E+02   1.880000E+01   9.474775E-01
+# reference:
+#   author: R.C.Block,N.N.Kaushal,R.W.Hockenbury
+#   title: Iron-filtered neutron beams - a new approach to  precision time-of-flight cross section measurements.
+#   journal: Conf: Conf.on Developm.in Reactor Phys.,Kiamesha Lake 1972, Vol.2, p.110
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  2.430000E-02
+#   E-max [MeV]:  2.430000E-02
+#   F-value:  1.057456E+00
+#   A-value:  1.054216E+00
+#   chi-2:  2.370270E+00
+#   p-value:  1.889774E-01
+#   exp. data sets for p-value:      8
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.034910E+00   1.034910E+00   1.256510E+00
+# endfb8.1      1.034914E+00   1.034914E+00   1.256696E+00
+# jeff4.0       1.065164E+00   1.065164E+00   2.876371E+00
+# jendl5.0      1.050358E+00   1.050358E+00   2.002421E+00
+# cendl3.2      1.080534E+00   1.080534E+00   3.995270E+00
+# eaf.2010      1.079947E+00   1.079947E+00   3.947929E+00
+# irdff2.0      1.034914E+00   1.034914E+00   1.256696E+00

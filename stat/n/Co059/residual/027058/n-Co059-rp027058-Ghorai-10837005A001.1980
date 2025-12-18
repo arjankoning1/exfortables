@@ -1,0 +1,56 @@
+# header: 
+#   title: Co59(n,x)Co58 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Ghorai
+#   year: 1980
+#   subentry: 10837005
+#   X4 reaction: 27-CO-59(N,2N)27-CO-58,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/10837005
+# target: 
+#   Z: 27
+#   A: 59
+#   nuclide: Co59
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 27
+#     A: 58
+#     nuclide: Co58
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.340000E+01   1.000000E-01   5.992143E+02   1.510266E+01   9.649182E-01
+   1.400000E+01   2.000000E-01   7.196436E+02   1.331850E+01   9.646695E-01
+   1.530000E+01   1.000000E-01   7.209695E+02   1.453236E+01   9.387622E-01
+   1.610000E+01   1.000000E-01   7.149912E+02   2.115463E+01   9.714553E-01
+   1.710000E+01   1.000000E-01   6.930955E+02   1.893066E+01   9.533637E-01
+   1.810000E+01   2.000000E-01   7.806154E+02   2.159423E+01   1.023087E+00
+# reference:
+#   author: S.K.GHORAI,J.E.GAISER,W.L.ALFORD
+#   title: THE (N,2N) ISOMERIC CROSS SECTION RATIOS AND THE  (N,2N) AND (N,ALPHA) EXCITATION FUNCTIONS FOR CO-59
+#   journal: Jour: Annals of Nuclear Energy, Vol.7, p.41 (1980)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.340000E+01
+#   E-max [MeV]:  1.810000E+01
+#   F-value:  1.119696E+00
+#   A-value:  1.083587E+00
+#   chi-2:  2.194474E+01
+#   p-value:  3.170431E-01
+#   exp. data sets for p-value:      8
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.114316E+00   1.076549E+00   1.974204E+01
+# jendl5.0      1.124880E+00   1.090672E+00   2.414744E+01

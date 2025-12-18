@@ -1,0 +1,59 @@
+# header: 
+#   title: U238(g,f) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Mafra
+#   year: 1972
+#   subentry: M0433002
+#   X4 reaction: 92-U-238(G,F),,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/M0433002
+# target: 
+#   Z: 92
+#   A: 238
+#   nuclide: U238
+# reaction: 
+#   type: (g,f)
+#   ENDF_MF: 3
+#   ENDF_MT: 18
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 12
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.430000E+00   0.000000E+00   5.300000E-01   4.200000E-01   1.000000E+00
+   6.070000E+00   0.000000E+00   6.780000E+00   7.500000E-01   1.000000E+00
+   6.420000E+00   0.000000E+00   2.100000E+00   1.000000E+00   1.000000E+00
+   6.730000E+00   0.000000E+00   1.040000E+01   1.700000E+00   1.000000E+00
+   6.830000E+00   0.000000E+00   1.900000E+00   2.000000E-01   1.000000E+00
+   7.230000E+00   0.000000E+00   3.700000E+00   2.400000E+00   1.000000E+00
+   7.380000E+00   0.000000E+00   1.020000E+01   1.100000E+00   1.000000E+00
+   7.640000E+00   0.000000E+00   1.000000E+01   4.300000E+00   1.000000E+00
+   7.730000E+00   0.000000E+00   9.200000E+00   2.600000E+00   1.000000E+00
+   7.880000E+00   0.000000E+00   1.110000E+01   3.400000E+00   1.000000E+00
+   7.910000E+00   0.000000E+00   1.430000E+01   1.500000E+00   1.000000E+00
+   9.000000E+00   0.000000E+00   3.700000E+01   1.100000E+01   1.000000E+00
+# reference:
+#   author: O.Y.Mafra,S.Kuniyoshi,J.Goldemberg
+#   title: Intermediate structure in the photoneutron and photofission cross sections in U-238 and Th-232.
+#   journal: Jour: Nuclear Physics, Section A, Vol.186, p.110 (1972)
+# statistics:
+#   NEA score: T3
+#   IAEA score: -1
+#   E-min [MeV]:  5.430000E+00
+#   E-max [MeV]:  9.000000E+00
+#   F-value:  2.042352E+00
+#   A-value:  1.388145E+00
+#   chi-2:  6.647212E+01
+#   p-value:  2.318496E-01
+#   exp. data sets for p-value:      8
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    2.424813E+00   1.402453E+00   6.319867E+01
+# endfb8.1      1.728874E+00   1.288052E+00   4.114452E+01
+# jendl5.0      1.949335E+00   1.480753E+00   9.507317E+01

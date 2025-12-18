@@ -1,0 +1,60 @@
+# header: 
+#   title: Cu63(p,x)Zn62 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Ghoshal
+#   year: 1950
+#   subentry: B0017006
+#   X4 reaction: 29-CU-63(P,2N)30-ZN-62,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/B0017006
+# target: 
+#   Z: 29
+#   A: 63
+#   nuclide: Cu63
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 30
+#     A: 62
+#     nuclide: Zn62
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 9
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.520000E+01   0.000000E+00   7.200000E+00   0.000000E+00   1.000000E+00
+   1.750000E+01   0.000000E+00   7.100000E+01   0.000000E+00   1.000000E+00
+   1.950000E+01   0.000000E+00   1.280000E+02   0.000000E+00   1.000000E+00
+   2.200000E+01   0.000000E+00   1.910000E+02   0.000000E+00   1.000000E+00
+   2.410000E+01   0.000000E+00   2.180000E+02   0.000000E+00   1.000000E+00
+   2.620000E+01   0.000000E+00   2.180000E+02   0.000000E+00   1.000000E+00
+   2.820000E+01   0.000000E+00   1.970000E+02   0.000000E+00   1.000000E+00
+   3.030000E+01   0.000000E+00   1.480000E+02   0.000000E+00   1.000000E+00
+   3.180000E+01   0.000000E+00   1.150000E+02   0.000000E+00   1.000000E+00
+# reference:
+#   author: S.N.Ghoshal
+#   title: An experimental verification of the theory of compound  nucleus
+#   journal: Jour: Physical Review, Vol.80, p.939 (1950)
+# statistics:
+#   NEA score: T2
+#   IAEA score:  0
+#   E-min [MeV]:  1.520000E+01
+#   E-max [MeV]:  3.180000E+01
+#   F-value:  3.072168E+00
+#   A-value:  4.289221E-01
+#   chi-2:  0.000000E+00
+#   p-value:  9.014563E-02
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    3.899775E+00   3.563668E-01   0.000000E+00
+# endfb8.1      2.812102E+00   4.352941E-01   0.000000E+00
+# jendl5.0      2.525266E+00   5.086923E-01   0.000000E+00

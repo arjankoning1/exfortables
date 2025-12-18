@@ -1,0 +1,59 @@
+# header: 
+#   title: Ga71(n,na)Cu67 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Bormann
+#   year: 1962
+#   subentry: 21339008
+#   X4 reaction: 31-GA-71(N,N+A)29-CU-67,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21339008
+# target: 
+#   Z: 31
+#   A: 71
+#   nuclide: Ga71
+# reaction: 
+#   type: (n,na)
+#   ENDF_MF: 3
+#   ENDF_MT: 22
+#   residual: 
+#     Z: 29
+#     A: 67
+#     nuclide: Cu67
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.520000E+01   4.000000E-01   6.152500E+00   2.060000E+00   1.025424E+00
+   1.600000E+01   4.000000E-01   1.179237E+01   2.498800E+00   1.025424E+00
+   1.710000E+01   4.000000E-01   1.650932E+01   2.806700E+00   1.025424E+00
+   1.800000E+01   4.000000E-01   1.999576E+01   3.186900E+00   1.025424E+00
+   1.960000E+01   3.000000E-01   2.091864E+01   3.334000E+00   1.025424E+00
+# reference:
+#   author: M.Bormann,S.Cierjacks,R.Langkau,H.Neuert
+#   title: Some cross sections of (n,Na)-reactions in the energy  range 12-19 MeV
+#   journal: Jour: Zeitschrift fuer Physik, Vol.166, p.477 (1962)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.520000E+01
+#   E-max [MeV]:  1.960000E+01
+#   F-value:  1.806279E+00
+#   A-value:  6.461976E-01
+#   chi-2:  5.401696E+00
+#   p-value:  1.697186E-01
+#   exp. data sets for p-value:      1
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.534035E+00   7.570586E-01   3.626598E+00
+# endfb8.1      1.319746E+00   9.826406E-01   3.867860E+00
+# jeff4.0       1.534035E+00   7.570586E-01   3.626598E+00
+# jendl5.0      2.358239E+00   4.291534E-01   9.714609E+00
+# cendl3.2      2.342865E+00   4.470675E-01   8.229033E+00
+# eaf.2010      1.552642E+00   6.738341E-01   3.345477E+00

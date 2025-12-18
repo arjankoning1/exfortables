@@ -1,0 +1,48 @@
+# header: 
+#   title: Pu239(n,non) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Bethe
+#   year: 1955
+#   subentry: 12397007
+#   X4 reaction: 94-PU-239(N,NON),,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/12397007
+# target: 
+#   Z: 94
+#   A: 239
+#   nuclide: Pu239
+# reaction: 
+#   type: (n,non)
+#   ENDF_MF: 3
+#   ENDF_MT: 3
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   4.000000E+00   0.000000E+00   3.300000E+03   3.500000E+02   1.000000E+00
+   4.500000E+00   0.000000E+00   3.300000E+03   3.500000E+02   1.000000E+00
+# reference:
+#   author: H.A.BETHE,J.R.BEYSTER,R.E.CARTER,R.L.HENKEL, R.A.NOBLES
+#   title: INELASTIC CROSS SECTIONS AND NU(BAR) FOR SOME FISSIONABLE ISOTOPES.
+#   journal: Rept: Los Alamos Scientific Lab. Reports, No.1939 (1955)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  4.000000E+00
+#   E-max [MeV]:  4.500000E+00
+#   F-value:  1.027742E+00
+#   A-value:  1.009528E+00
+#   chi-2:  3.186478E-01
+#   p-value:  3.970315E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.035712E+00   1.035171E+00   4.481733E-01
+# jeff4.0       1.016454E+00   9.845205E-01   1.891223E-01

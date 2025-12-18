@@ -1,0 +1,54 @@
+# header: 
+#   title: Cd0(n,tot) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Hoehne
+#   year: 1961
+#   subentry: 21091002
+#   X4 reaction: 48-CD-0(N,TOT),,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21091002
+# target: 
+#   Z: 48
+#   A: 0
+#   nuclide: Cd0
+# reaction: 
+#   type: (n,tot)
+#   ENDF_MF: 3
+#   ENDF_MT: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.830000E-10   0.000000E+00   2.300000E+07   4.000000E+03   1.000000E+00
+   2.750000E-10   0.000000E+00   1.880000E+07   2.600000E+03   1.000000E+00
+   4.100000E-10   0.000000E+00   1.470000E+07   1.800000E+03   1.000000E+00
+   6.000000E-10   0.000000E+00   1.270000E+07   1.500000E+03   1.000000E+00
+   1.000000E-09   0.000000E+00   9.980000E+06   1.700000E+03   1.000000E+00
+   1.450000E-09   0.000000E+00   8.280000E+06   1.400000E+03   1.000000E+00
+   2.000000E-09   0.000000E+00   6.990000E+06   1.600000E+03   1.000000E+00
+   2.800000E-09   0.000000E+00   6.200000E+06   1.800000E+03   1.000000E+00
+# reference:
+#   author: P.HOEHNE
+#   title: -MECHANICAL VELOCITY SELECTOR FOR SUB THERMAL NEUTRONS  AND ITS APPLICATION FOR MEASUREMENTS OF TOTAL CROSS  SECTIONS OF CADMIUM, SAMARIUM, EUROPIUM AND  GADOLINIUM -.
+#   journal: Jour: Annalen der Physik, Vol.7, p.50 (1961)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.830000E-10
+#   E-max [MeV]:  2.800000E-09
+#   F-value:  1.049029E+00
+#   A-value:  9.594893E-01
+#   chi-2:  7.280769E+04
+#   p-value:  3.575781E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# cendl3.2      1.033363E+00   9.736798E-01   3.319088E+04
+# irdff2.0      1.060992E+00   9.455057E-01   1.124245E+05

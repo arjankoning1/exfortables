@@ -1,0 +1,51 @@
+# header: 
+#   title: Gd155(n,tot) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Moller
+#   year: 1960
+#   subentry: 120970092
+#   X4 reaction: 64-GD-155(N,TOT),,SIG,,RES
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/120970092
+# target: 
+#   Z: 64
+#   A: 155
+#   nuclide: Gd155
+# reaction: 
+#   type: (n,tot)
+#   ENDF_MF: 3
+#   ENDF_MT: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.680000E-08   2.000000E-10   5.890000E+07   5.000000E+05   1.000000E+00
+   2.008000E-06   1.000000E-08   1.640000E+06   1.500000E+04   1.000000E+00
+   2.568000E-06   1.300000E-08   9.700000E+06   1.000000E+05   1.000000E+00
+# reference:
+#   author: H.B.Moller,F.J.Shore,V.L.Sailor
+#   title: Low Energy Neutron Resonances in Erbium and Gadolinium
+#   journal: Jour: Nuclear Science and Engineering, Vol.8, p.183 (1960)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.680000E-08
+#   E-max [MeV]:  2.568000E-06
+#   F-value:  1.143691E+00
+#   A-value:  8.963454E-01
+#   chi-2:  1.535944E+02
+#   p-value:  2.911935E-01
+#   exp. data sets for p-value:      2
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.146260E+00   8.934738E-01   1.570039E+02
+# endfb8.1      1.145053E+00   8.974649E-01   1.541342E+02
+# jendl5.0      1.130629E+00   9.007297E-01   1.372097E+02
+# cendl3.2      1.152112E+00   8.937332E-01   1.660296E+02

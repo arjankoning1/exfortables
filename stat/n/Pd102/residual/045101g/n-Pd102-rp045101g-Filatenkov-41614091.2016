@@ -1,0 +1,59 @@
+# header: 
+#   title: Pd102(n,x)Rh101g cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Filatenkov
+#   year: 2016
+#   subentry: 41614091
+#   X4 reaction: 46-PD-102(N,X)45-RH-101-G,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/41614091
+# target: 
+#   Z: 46
+#   A: 102
+#   nuclide: Pd102
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 28
+#   residual: 
+#     Z: 45
+#     A: 101
+#     nuclide: Rh101g
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.345000E+01   0.000000E+00   3.699975E+01   2.601072E+01   9.999933E-01
+   1.405000E+01   0.000000E+00   3.420026E+01   2.113576E+01   1.000008E+00
+   1.449000E+01   0.000000E+00   4.199990E+01   3.998392E+01   9.999977E-01
+# reference:
+#   author: A.A.Filatenkov
+#   title: Neutron activation cross sections measured at KRI in neutron energy region 13.4 - 14.9 MeV
+#   journal: Rept: USSR report to the I.N.D.C., No.0460 (2016)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  1.345000E+01
+#   E-max [MeV]:  1.449000E+01
+#   F-value:  1.138786E+00
+#   A-value:  9.445268E-01
+#   chi-2:  1.484544E-01
+#   p-value:  3.330885E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.141044E+00   9.213648E-01   1.396030E-01
+# jeff4.0       1.100389E+00   1.000232E+00   1.527021E-01
+# jendl5.0      1.167978E+00   9.143454E-01   1.530580E-01

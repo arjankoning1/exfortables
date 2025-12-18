@@ -1,0 +1,58 @@
+# header: 
+#   title: Cr53(n,x)V52 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Sakane
+#   year: 2002
+#   subentry: 22800005
+#   X4 reaction: 24-CR-53(N,X)23-V-52,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22800005
+# target: 
+#   Z: 24
+#   A: 53
+#   nuclide: Cr53
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 28
+#   residual: 
+#     Z: 23
+#     A: 52
+#     nuclide: V52
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.340000E+01   0.000000E+00   2.700000E+00   3.780000E-01   1.000000E+00
+   1.370000E+01   0.000000E+00   3.700000E+00   9.250000E-01   1.000000E+00
+   1.401000E+01   0.000000E+00   4.900000E+00   9.800000E-01   1.000000E+00
+   1.435000E+01   0.000000E+00   6.800000E+00   1.020000E+00   1.000000E+00
+   1.464000E+01   0.000000E+00   9.500000E+00   1.235000E+00   1.000000E+00
+   1.487000E+01   0.000000E+00   1.320000E+01   1.042800E+00   1.000000E+00
+# reference:
+#   author: H.Sakane,Y.Kasugai,M.Shibata,T.Iida,A.Takahashi, T.Fukahori,K.Kawade
+#   title: Measurement of activation cross section of (n,np+d)  reactions producing short-lived nuclei in the energy  range between 13.4 and 14.9 MeV using an intense  neutron source OKTAVIAN
+#   journal: Jour: Annals of Nuclear Energy, Vol.29, p.53 (2002)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.340000E+01
+#   E-max [MeV]:  1.487000E+01
+#   F-value:  1.660524E+00
+#   A-value:  6.631079E-01
+#   chi-2:  5.599847E+00
+#   p-value:  1.349330E-01
+#   exp. data sets for p-value:      1
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.802466E+00   6.248161E-01   6.605374E+00
+# endfb8.1      1.715962E+00   6.284580E-01   6.328457E+00
+# jeff4.0       1.715962E+00   6.284580E-01   6.328457E+00
+# jendl5.0      1.368656E+00   7.834873E-01   3.137098E+00

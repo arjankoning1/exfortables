@@ -1,0 +1,55 @@
+# header: 
+#   title: U235(n,g)U236 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Wallner
+#   year: 2014
+#   subentry: 31719002
+#   X4 reaction: 92-U-235(N,G)92-U-236,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/31719002
+# target: 
+#   Z: 92
+#   A: 235
+#   nuclide: U235
+# reaction: 
+#   type: (n,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 92
+#     A: 236
+#     nuclide: U236
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.530000E-08   0.000000E+00   1.005000E+05   2.100000E+03   1.000000E+00
+# reference:
+#   author: A.Wallner,T.Belgya,M.Bichler,K.Buczak,I.Dillmann, F.Kaeppeler,C.Lederer,A.Mengoni,F.Quinto,P.Steier, L.Szentmiklosi
+#   title: Novel Method to Study Neutron Capture of 235U and 238U Simultaneously at keV Energies
+#   journal: Jour: Physical Review Letters, Vol.112, p.192501 (2014)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.530000E-08
+#   E-max [MeV]:  2.530000E-08
+#   F-value:  1.020936E+00
+#   A-value:  9.795984E-01
+#   chi-2:  1.548671E+00
+#   p-value:  4.157670E-01
+#   exp. data sets for p-value:      4
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.019786E+00   9.805981E-01   1.449113E+00
+# endfb8.1      1.019527E+00   9.808474E-01   1.425963E+00
+# jeff4.0       1.019484E+00   9.808887E-01   1.422136E+00
+# jendl5.0      1.019793E+00   9.805912E-01   1.449757E+00
+# cendl3.2      1.020856E+00   9.795697E-01   1.546201E+00
+# eaf.2010      1.025527E+00   9.751082E-01   1.998857E+00

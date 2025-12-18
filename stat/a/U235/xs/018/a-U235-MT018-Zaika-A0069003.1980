@@ -1,0 +1,60 @@
+# header: 
+#   title: U235(a,f) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Zaika
+#   year: 1980
+#   subentry: A0069003
+#   X4 reaction: 92-U-235(A,F),,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/A0069003
+# target: 
+#   Z: 92
+#   A: 235
+#   nuclide: U235
+# reaction: 
+#   type: (a,f)
+#   ENDF_MF: 3
+#   ENDF_MT: 18
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 15
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.890000E+01   7.000000E-01   1.100000E+01   5.000000E+00   1.000000E+00
+   2.010000E+01   7.000000E-01   6.500002E+01   1.500000E+01   1.000000E+00
+   2.090000E+01   6.000000E-01   9.800000E+01   1.800000E+01   1.000000E+00
+   2.140000E+01   6.000000E-01   7.700001E+01   1.300000E+01   1.000000E+00
+   2.190000E+01   6.000000E-01   1.270000E+02   1.900000E+01   1.000000E+00
+   2.260000E+01   5.000000E-01   1.900000E+02   1.900000E+01   1.000000E+00
+   2.310000E+01   5.000000E-01   2.350000E+02   2.100000E+01   1.000000E+00
+   2.380000E+01   4.000000E-01   2.870000E+02   1.500000E+01   1.000000E+00
+   2.430000E+01   4.000000E-01   3.310000E+02   1.700000E+01   1.000000E+00
+   2.480000E+01   4.000000E-01   4.060000E+02   2.200000E+01   1.000000E+00
+   2.540000E+01   4.000000E-01   4.710000E+02   2.300000E+01   1.000000E+00
+   2.580000E+01   4.000000E-01   5.010000E+02   2.500000E+01   1.000000E+00
+   2.630000E+01   3.000000E-01   5.320000E+02   2.600000E+01   1.000000E+00
+   2.680000E+01   3.000000E-01   5.660000E+02   2.800000E+01   1.000000E+00
+   2.720000E+01   3.000000E-01   6.120000E+02   3.000000E+01   1.000000E+00
+# reference:
+#   author: N.I.Zaika,Ju.V.Kibkalo,A.V.Mokhnacn,V.S.Semenov, V.P.Tokarev, P.L.Shmarin
+#   title: Energy dependence of anisotropy in fission of actinide nuclei by 19-27 MeV alpha  particles.
+#   journal: Jour: Yadernaya Fizika, Vol.31, p.43 (1980)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  1.890000E+01
+#   E-max [MeV]:  2.720000E+01
+#   F-value:  2.755675E+00
+#   A-value:  4.527203E-01
+#   chi-2:  2.769804E+01
+#   p-value:  7.762435E-02
+#   exp. data sets for p-value:      1
+#   libraries:      1
+##  Library          F              A            chi-2
+# tendl.2025    2.755675E+00   4.527203E-01   2.769804E+01

@@ -1,0 +1,52 @@
+# header: 
+#   title: Mg25(n,x)Na25 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Pepelnik
+#   year: 1986
+#   subentry: 219990041
+#   X4 reaction: 12-MG-25(N,P)11-NA-25,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/219990041
+# target: 
+#   Z: 12
+#   A: 25
+#   nuclide: Mg25
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 11
+#     A: 25
+#     nuclide: Na25
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.470000E+01   6.000000E-02   6.300000E+01   4.000000E+00   1.000000E+00
+# reference:
+#   author: R.Pepelnik,B.Anders,B.M.Bahal,M.Farooq
+#   title: -14 MeV neutron activation cross sections-
+#   journal: Rept: Ges.Kernen.-Verwertung, Schiffbau and Schiffahrt, No.86-E-29 (1986
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.470000E+01
+#   E-max [MeV]:  1.470000E+01
+#   F-value:  1.249891E+00
+#   A-value:  8.323570E-01
+#   chi-2:  9.480020E+00
+#   p-value:  3.830459E-01
+#   exp. data sets for p-value:      8
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.004156E+00   9.958616E-01   8.281996E-02
+# jeff4.0       1.312150E+00   7.621078E-01   1.404354E+01
+# jendl5.0      1.316093E+00   7.598248E-01   1.431370E+01

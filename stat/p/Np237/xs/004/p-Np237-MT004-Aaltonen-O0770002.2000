@@ -1,0 +1,57 @@
+# header: 
+#   title: Np237(p,n')Pu237 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Aaltonen
+#   year: 2000
+#   subentry: O0770002
+#   X4 reaction: 93-NP-237(P,N)94-PU-237,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O0770002
+# target: 
+#   Z: 93
+#   A: 237
+#   nuclide: Np237
+# reaction: 
+#   type: (p,n')
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+#   residual: 
+#     Z: 94
+#     A: 237
+#     nuclide: Pu237
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.590000E+01   6.000000E-01   5.610000E+00   5.800000E-01   1.000000E+00
+   1.650000E+01   2.000000E-01   6.650000E+00   4.800000E-01   1.000000E+00
+   2.000000E+01   5.000000E-01   5.870000E+00   4.200000E-01   1.000000E+00
+   2.350000E+01   4.000000E-01   5.450000E+00   3.600000E-01   1.000000E+00
+   2.660000E+01   4.000000E-01   4.820000E+00   3.400000E-01   1.000000E+00
+   3.200000E+01   3.000000E-01   4.480000E+00   1.930000E+00   1.000000E+00
+   3.940000E+01   2.000000E-01   5.090000E+00   3.400000E-01   1.000000E+00
+# reference:
+#   author: J.Aaltonen,E.A.Gromova,V.Jakovlev,S.J.Heselius, P.Dendooven,W.Trzaska
+#   title: Proton-induced nuclear reactions in neptunium-237 targets. Production of plutonium tracers in the energy range 15-40 MeV.
+#   journal: Jour: Radiochimica Acta, Vol.88, p.129 (2000)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.590000E+01
+#   E-max [MeV]:  3.940000E+01
+#   F-value:  1.399963E+00
+#   A-value:  1.238225E+00
+#   chi-2:  3.140964E+01
+#   p-value:  3.260151E-01
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.589101E+00   1.551467E+00   6.070897E+01
+# jendl5.0      1.115086E+00   9.882263E-01   2.110301E+00

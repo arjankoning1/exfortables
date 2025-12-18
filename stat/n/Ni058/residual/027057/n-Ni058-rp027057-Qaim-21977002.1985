@@ -1,0 +1,59 @@
+# header: 
+#   title: Ni58(n,x)Co57 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Qaim
+#   year: 1985
+#   subentry: 21977002
+#   X4 reaction: 28-NI-58(N,X)27-CO-57,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21977002
+# target: 
+#   Z: 28
+#   A: 58
+#   nuclide: Ni58
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 28
+#   residual: 
+#     Z: 27
+#     A: 57
+#     nuclide: Co57
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   6.410000E+00   2.230000E-01   7.382200E-02   2.050600E-02   1.054598E+00
+   6.953000E+00   2.360000E-01   8.534600E-02   2.055200E-02   1.066823E+00
+   7.532000E+00   1.950000E-01   7.532300E-02   2.092800E-02   1.076036E+00
+   8.020000E+00   2.300000E-01   1.833600E-01   5.253400E-02   1.078607E+00
+   8.539000E+00   2.240000E-01   1.289700E-01   5.301400E-02   1.074783E+00
+   9.154000E+00   1.000000E-01   3.106800E-01   1.268600E-01   1.071296E+00
+   9.518000E+00   2.570000E-01   1.060400E+00   1.439100E-01   1.071068E+00
+# reference:
+#   author: S.M.Qaim,R.Woelfele
+#   title: Excitation function of the 58-Ni(n,d)57-Co reaction  near its threshold
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.32, p.305 (1985)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  6.410000E+00
+#   E-max [MeV]:  9.518000E+00
+#   F-value:  7.037777E+00
+#   A-value:  3.196089E-01
+#   chi-2:  9.092491E+00
+#   p-value:  1.532491E-01
+#   exp. data sets for p-value:      1
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    7.353188E+00   3.534083E-01   8.081496E+00
+# endfb8.1      6.110266E+00   2.977112E-01   5.191773E+00
+# jeff4.0       7.564747E+00   4.022950E-01   1.655839E+01
+# jendl5.0      7.167340E+00   2.465237E-01   6.538301E+00

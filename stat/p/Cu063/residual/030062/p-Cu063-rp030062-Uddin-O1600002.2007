@@ -1,0 +1,62 @@
+# header: 
+#   title: Cu63(p,x)Zn62 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Uddin
+#   year: 2007
+#   subentry: O1600002
+#   X4 reaction: 29-CU-63(P,2N)30-ZN-62,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O1600002
+# target: 
+#   Z: 29
+#   A: 63
+#   nuclide: Cu63
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 30
+#     A: 62
+#     nuclide: Zn62
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 11
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.580000E+01   0.000000E+00   1.400000E+01   1.820000E+00   1.000000E+00
+   1.680000E+01   0.000000E+00   1.510000E+01   1.963000E+00   1.000000E+00
+   1.989000E+01   0.000000E+00   4.620000E+01   6.006000E+00   1.000000E+00
+   2.048000E+01   0.000000E+00   5.000000E+01   6.500000E+00   1.000000E+00
+   2.446000E+01   0.000000E+00   6.300000E+01   8.190001E+00   1.000000E+00
+   2.649000E+01   0.000000E+00   6.100000E+01   7.930000E+00   1.000000E+00
+   2.962000E+01   0.000000E+00   4.000000E+01   5.200000E+00   1.000000E+00
+   3.025000E+01   0.000000E+00   3.420000E+01   4.446000E+00   1.000000E+00
+   3.314000E+01   0.000000E+00   2.090000E+01   2.717000E+00   1.000000E+00
+   3.741000E+01   0.000000E+00   1.360000E+01   1.768000E+00   1.000000E+00
+   4.066000E+01   0.000000E+00   1.100000E+01   1.430000E+00   1.000000E+00
+# reference:
+#   author: M.S.Uddin, M.U.Khandaker, K.S.Kim, Y.S.Lee, G.N.Kim
+#   title: Excitation functions of the proton induced nuclear reactions on Zn-nat up to 40-MeV.
+#   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.258, p.313 (20
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.580000E+01
+#   E-max [MeV]:  4.066000E+01
+#   F-value:  1.561761E+00
+#   A-value:  1.333486E+00
+#   chi-2:  2.530670E+01
+#   p-value:  2.078767E-01
+#   exp. data sets for p-value:      3
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.574099E+00   1.122003E+00   2.873729E+01
+# endfb8.1      1.415440E+00   1.308800E+00   1.422930E+01
+# jendl5.0      1.680908E+00   1.614725E+00   3.295350E+01

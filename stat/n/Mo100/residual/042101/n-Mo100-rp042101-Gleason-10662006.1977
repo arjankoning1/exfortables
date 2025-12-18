@@ -1,0 +1,52 @@
+# header: 
+#   title: Mo100(n,x)Mo101 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Gleason
+#   year: 1977
+#   subentry: 10662006
+#   X4 reaction: 42-MO-100(N,G)42-MO-101,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/10662006
+# target: 
+#   Z: 42
+#   A: 100
+#   nuclide: Mo100
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 42
+#     A: 101
+#     nuclide: Mo101
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.530000E-08   0.000000E+00   2.132812E+02   1.093750E+01   1.093750E+00
+# reference:
+#   author: G.Gleason
+#   title: Thermal neutron (n,gamma) cross sections and resonance  integrals: Part 2.
+#   journal: Priv.Comm: Gleason (1977)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.530000E-08
+#   E-max [MeV]:  2.530000E-08
+#   F-value:  1.071506E+00
+#   A-value:  9.347821E-01
+#   chi-2:  2.230372E+00
+#   p-value:  2.489423E-01
+#   exp. data sets for p-value:      5
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.060323E+00   9.431090E-01   1.818942E+00
+# jeff4.0       1.056903E+00   9.461610E-01   1.693201E+00
+# jendl5.0      1.092435E+00   9.153860E-01   3.178972E+00

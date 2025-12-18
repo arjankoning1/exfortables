@@ -1,0 +1,66 @@
+# header: 
+#   title: Cs133(p,x)Xe129m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Tarkanyi
+#   year: 2010
+#   subentry: D4226011
+#   X4 reaction: 55-CS-133(P,X)54-XE-129-M,IND,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D4226011
+# target: 
+#   Z: 55
+#   A: 133
+#   nuclide: Cs133
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 54
+#     A: 129
+#     nuclide: Xe129m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 11
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.990000E+01   2.600000E+00   3.700000E+00   2.100000E+00   1.000000E+00
+   3.490000E+01   2.300000E+00   3.400000E+00   1.600000E+00   1.000000E+00
+   4.290000E+01   1.800000E+00   2.600000E+00   1.200000E+00   1.000000E+00
+   4.660000E+01   1.600000E+00   3.300000E+00   1.100000E+00   1.000000E+00
+   5.010000E+01   1.400000E+00   2.400000E+00   1.000000E+00   1.000000E+00
+   5.350000E+01   1.200000E+00   3.200000E+00   1.800000E+00   1.000000E+00
+   5.660000E+01   1.000000E+00   2.130000E+00   7.300000E-01   1.000000E+00
+   5.980000E+01   8.000000E-01   4.800000E+00   1.200000E+00   1.000000E+00
+   6.260000E+01   6.000000E-01   5.200000E+00   2.000000E+00   1.000000E+00
+   6.530000E+01   5.000000E-01   3.800000E+00   1.200000E+00   1.000000E+00
+   6.800000E+01   3.000000E-01   6.700000E+00   1.800000E+00   1.000000E+00
+# reference:
+#   author: F.Tarkanyi,A.Hermanne,S.Takacs,F.Ditroi,B.Kiraly, H.Yamazaki,M.Baba,A.Mohammadi,A.V.Ignatyuk
+#   title: New measurements and evaluation of excitation functions for (p,xn), (p,pxn) and (p,2pxn) reactions on 133Cs up to 70 MeV proton energy
+#   journal: Jour: Applied Radiation and Isotopes, Vol.68, p.47 (2010)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.990000E+01
+#   E-max [MeV]:  6.800000E+01
+#   F-value:  1.839256E+00
+#   A-value:  1.690507E+00
+#   chi-2:  8.266542E+00
+#   p-value:  1.898128E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.889223E+00   1.725998E+00   1.030054E+01
+# jendl5.0      1.788402E+00   1.655746E+00   6.232544E+00

@@ -1,0 +1,57 @@
+# header: 
+#   title: Lu175(n,x)Lu176m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Allen
+#   year: 1981
+#   subentry: 307710021
+#   X4 reaction: 71-LU-175(N,G)71-LU-176-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/307710021
+# target: 
+#   Z: 71
+#   A: 175
+#   nuclide: Lu175
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 71
+#     A: 176
+#     nuclide: Lu176m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.000000E-02   1.000000E-02   9.767795E+02   4.790299E+01   1.019603E+00
+# reference:
+#   author: B.J.Allen,G.C.Lowenthal,J.W.Boldeman,J.R.de Laeter
+#   title: Lu-175(n,g)Lu-176-m cross sections
+#   journal:
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  3.000000E-02
+#   E-max [MeV]:  3.000000E-02
+#   F-value:  1.971295E+00
+#   A-value:  7.816114E-01
+#   chi-2:  7.786673E+01
+#   p-value:  4.420950E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.222338E+00   1.222338E+00   2.055421E+01
+# jeff4.0       1.222338E+00   1.222338E+00   2.055421E+01
+# jendl5.0      3.129032E+00   3.195876E-01   1.924918E+02

@@ -1,0 +1,59 @@
+# header: 
+#   title: Fe57(n,x)Mn56 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Ikeda
+#   year: 1988
+#   subentry: 22089043
+#   X4 reaction: 26-FE-57(N,X)25-MN-56,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22089043
+# target: 
+#   Z: 26
+#   A: 57
+#   nuclide: Fe57
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 28
+#   residual: 
+#     Z: 25
+#     A: 56
+#     nuclide: Mn56
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.335000E+01   0.000000E+00   4.891000E+00   6.501300E-01   1.000202E+00
+   1.359000E+01   0.000000E+00   4.711000E+00   5.601100E-01   1.000202E+00
+   1.376000E+01   0.000000E+00   4.981000E+00   5.501100E-01   1.000202E+00
+   1.424000E+01   0.000000E+00   1.092221E+01   8.101600E-01   1.000202E+00
+   1.446000E+01   0.000000E+00   1.500303E+01   1.000200E+00   1.000202E+00
+   1.471000E+01   0.000000E+00   1.930390E+01   1.200200E+00   1.000202E+00
+   1.500000E+01   0.000000E+00   2.480502E+01   1.500300E+00   1.000202E+00
+# reference:
+#   author: Y.Ikeda,C.Konno,K.Oishi,T.Nakamura,H.Miyade, K.Kawade,  H.Yamamoto, T.Katoh
+#   title: Activation cross section measurements for fusion  reactor structural materials at neutron energy from  13.3 to 15.0 MeV using FNS facility
+#   journal: Rept: JAERI Reports, No.1312 (1988)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  1.335000E+01
+#   E-max [MeV]:  1.500000E+01
+#   F-value:  1.434297E+00
+#   A-value:  7.830130E-01
+#   chi-2:  1.044344E+01
+#   p-value:  2.248716E-01
+#   exp. data sets for p-value:      1
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.632160E+00   6.407477E-01   2.572618E+01
+# endfb8.1      1.407944E+00   7.730998E-01   6.520724E+00
+# jeff4.0       1.407944E+00   7.730998E-01   6.520724E+00
+# jendl5.0      1.239881E+00   9.815618E-01   3.006125E+00

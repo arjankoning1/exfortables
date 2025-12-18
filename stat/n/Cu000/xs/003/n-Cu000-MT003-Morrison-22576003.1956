@@ -1,0 +1,51 @@
+# header: 
+#   title: Cu0(n,non) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Morrison
+#   year: 1956
+#   subentry: 22576003
+#   X4 reaction: 29-CU-0(N,NON),,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22576003
+# target: 
+#   Z: 29
+#   A: 0
+#   nuclide: Cu0
+# reaction: 
+#   type: (n,non)
+#   ENDF_MF: 3
+#   ENDF_MT: 3
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.200000E+00   0.000000E+00   5.000000E+02   1.000000E+02   1.000000E+00
+   1.600000E+00   0.000000E+00   7.000000E+02   1.400000E+02   1.000000E+00
+   2.000000E+00   0.000000E+00   1.100000E+03   2.200000E+02   1.000000E+00
+# reference:
+#   author: G.C.Morrison
+#   title: Inelastic neutron scattering
+#   journal: Jour: Physica (Utrecht), Vol.22, p.1135(22) (1956)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.200000E+00
+#   E-max [MeV]:  2.000000E+00
+#   F-value:  1.133193E+00
+#   A-value:  9.922338E-01
+#   chi-2:  6.732211E-01
+#   p-value:  3.730442E-01
+#   exp. data sets for p-value:      1
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.130789E+00   9.125635E-01   6.307862E-01
+# endfb8.1      1.135354E+00   1.079165E+00   7.132689E-01
+# jeff4.0       1.135350E+00   1.079163E+00   7.132370E-01
+# cendl3.2      1.131219E+00   9.120485E-01   6.355920E-01

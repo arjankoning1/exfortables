@@ -1,0 +1,54 @@
+# header: 
+#   title: U235(n,tot) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Peterson
+#   year: 1960
+#   subentry: 11108044
+#   X4 reaction: 92-U-235(N,TOT),,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11108044
+# target: 
+#   Z: 92
+#   A: 235
+#   nuclide: U235
+# reaction: 
+#   type: (n,tot)
+#   ENDF_MF: 3
+#   ENDF_MT: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.730000E+01   0.000000E+00   6.060000E+03   7.000000E+01   1.000000E+00
+   2.130000E+01   0.000000E+00   6.170000E+03   9.000000E+01   1.000000E+00
+   2.510000E+01   0.000000E+00   6.080000E+03   7.000000E+01   1.000000E+00
+   2.890000E+01   0.000000E+00   5.790000E+03   5.000000E+01   1.000000E+00
+# reference:
+#   author: J.M.PETERSON,A.BRATENAHL,J.P.STOERING
+#   title: Neutron total cross sections in the 17- to 29-MEV region.
+#   journal: Jour: Physical Review, Vol.120, p.521 (1960)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.730000E+01
+#   E-max [MeV]:  2.890000E+01
+#   F-value:  1.013706E+00
+#   A-value:  1.001893E+00
+#   chi-2:  2.119589E+00
+#   p-value:  4.146709E-01
+#   exp. data sets for p-value:      5
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.020090E+00   9.984196E-01   4.015415E+00
+# endfb8.1      1.011035E+00   9.943603E-01   1.752451E+00
+# jeff4.0       1.009642E+00   1.007741E+00   9.976516E-01
+# jendl5.0      1.014911E+00   1.014608E+00   2.179033E+00
+# cendl3.2      1.010954E+00   1.010954E+00   1.487835E+00
+# irdff2.0      1.011035E+00   9.943603E-01   1.752452E+00

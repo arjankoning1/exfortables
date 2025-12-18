@@ -1,0 +1,53 @@
+# header: 
+#   title: Bi209(n,tot) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Peterson
+#   year: 1960
+#   subentry: 11108040
+#   X4 reaction: 83-BI-209(N,TOT),,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11108040
+# target: 
+#   Z: 83
+#   A: 209
+#   nuclide: Bi209
+# reaction: 
+#   type: (n,tot)
+#   ENDF_MF: 3
+#   ENDF_MT: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.730000E+01   2.595000E-01   5.820000E+03   6.000000E+01   1.000000E+00
+   2.130000E+01   0.000000E+00   5.850000E+03   6.000000E+01   1.000000E+00
+   2.510000E+01   0.000000E+00   5.640000E+03   7.000000E+01   1.000000E+00
+   2.890000E+01   0.000000E+00   5.390000E+03   6.000000E+01   1.000000E+00
+# reference:
+#   author: J.M.PETERSON,A.BRATENAHL,J.P.STOERING
+#   title: Neutron total cross sections in the 17- to 29-MEV region.
+#   journal: Jour: Physical Review, Vol.120, p.521 (1960)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.730000E+01
+#   E-max [MeV]:  2.890000E+01
+#   F-value:  1.020776E+00
+#   A-value:  9.960148E-01
+#   chi-2:  3.840909E+00
+#   p-value:  3.577431E-01
+#   exp. data sets for p-value:      6
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2025    1.036954E+00   1.006808E+00   1.156162E+01
+# endfb8.1      1.008473E+00   9.941474E-01   9.325290E-01
+# jeff4.0       1.013538E+00   9.912847E-01   1.681247E+00
+# jendl5.0      1.013538E+00   9.912847E-01   1.681247E+00
+# cendl3.2      1.013720E+00   9.864659E-01   2.281752E+00

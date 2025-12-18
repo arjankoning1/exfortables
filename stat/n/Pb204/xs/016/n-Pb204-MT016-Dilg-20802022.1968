@@ -1,0 +1,55 @@
+# header: 
+#   title: Pb204(n,2n)Pb203 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Dilg
+#   year: 1968
+#   subentry: 20802022
+#   X4 reaction: 82-PB-204(N,2N)82-PB-203,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20802022
+# target: 
+#   Z: 82
+#   A: 204
+#   nuclide: Pb204
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 82
+#     A: 203
+#     nuclide: Pb203
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.470000E+01   1.500000E-01   2.128713E+03   1.066543E+02   1.008869E+00
+# reference:
+#   author: W.Dilg, H.Vonach, G.Winkler, P.Hille
+#   title: Measurement of (n,2n) reactions cross-sections on heavy nuclei.
+#   journal: Jour: Nuclear Physics, Section A, Vol.118, p.9 (1968)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.470000E+01
+#   E-max [MeV]:  1.470000E+01
+#   F-value:  1.017659E+00
+#   A-value:  1.012879E+00
+#   chi-2:  3.670090E-01
+#   p-value:  4.883666E-01
+#   exp. data sets for p-value:      8
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.003865E+00   1.003865E+00   9.827168E-02
+# endfb8.1      1.029607E+00   1.029607E+00   8.462125E-01
+# jeff4.0       1.003865E+00   1.003865E+00   9.827168E-02
+# jendl5.0      1.028901E+00   1.028901E+00   8.232206E-01
+# cendl3.2      1.000659E+00   9.993418E-01   1.651049E-02
+# eaf.2010      1.012126E+00   1.012126E+00   3.195674E-01

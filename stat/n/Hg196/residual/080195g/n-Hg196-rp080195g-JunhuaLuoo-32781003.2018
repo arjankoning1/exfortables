@@ -1,0 +1,64 @@
+# header: 
+#   title: Hg196(n,x)Hg195g cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: JunhuaLuoo
+#   year: 2018
+#   subentry: 32781003
+#   X4 reaction: 80-HG-196(N,2N)80-HG-195-G,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/32781003
+# target: 
+#   Z: 80
+#   A: 196
+#   nuclide: Hg196
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 80
+#     A: 195
+#     nuclide: Hg195g
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 9
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.350000E+01   2.000000E-01   6.781023E+02   9.440279E+01   1.009081E+00
+   1.350000E+01   2.000000E-01   6.851657E+02   9.946210E+01   1.009081E+00
+   1.350000E+01   2.000000E-01   7.225017E+02   1.034683E+02   1.009081E+00
+   1.410000E+01   2.000000E-01   7.861789E+02   1.095944E+02   1.019687E+00
+   1.410000E+01   2.000000E-01   7.148008E+02   1.014939E+02   1.019687E+00
+   1.410000E+01   2.000000E-01   7.453915E+02   1.024771E+02   1.019687E+00
+   1.480000E+01   2.000000E-01   6.524890E+02   9.068230E+01   1.021109E+00
+   1.480000E+01   2.000000E-01   7.249876E+02   1.018951E+02   1.021109E+00
+   1.480000E+01   2.000000E-01   7.362198E+02   1.008650E+02   1.021109E+00
+# reference:
+#   author: Junhua Luo, Li Jiang, Long He
+#   title: Measurement of cross sections and isomeric cross-section ratios for the (n,2n) reactions on 196,198Hg at energies between 13 and 15 MeV
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.98, p.014619 (2018)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.350000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.087888E+00
+#   A-value:  1.069058E+00
+#   chi-2:  7.671351E-01
+#   p-value:  3.515387E-01
+#   exp. data sets for p-value:      3
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.087888E+00   1.069058E+00   7.671351E-01
+# jeff4.0       1.087888E+00   1.069058E+00   7.671351E-01

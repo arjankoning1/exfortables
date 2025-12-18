@@ -1,0 +1,56 @@
+# header: 
+#   title: Bi209(n,2n)Bi208 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Takahashi
+#   year: 1992
+#   subentry: 22106013
+#   X4 reaction: 83-BI-209(N,2N)83-BI-208,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22106013
+# target: 
+#   Z: 83
+#   A: 209
+#   nuclide: Bi209
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 83
+#     A: 208
+#     nuclide: Bi208
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.410000E+01   2.000000E-01   3.840000E+03   1.200000E+02   1.000000E+00
+# reference:
+#   author: A.Takahashi, M.Gotoh, Y.Sasaki, H.Sugimoto
+#   title: Double, single differential neutron emission and  total cross sections at 14.1 MeV for B-10, B-11  and Bi-209
+#   journal: Rept: Osaka Univ., OKTAVIAN Reports, No.92-01 (1992)
+# statistics:
+#   NEA score: T3
+#   IAEA score:  0
+#   E-min [MeV]:  1.410000E+01
+#   E-max [MeV]:  1.410000E+01
+#   F-value:  1.717166E+00
+#   A-value:  5.824829E-01
+#   chi-2:  1.785282E+02
+#   p-value:  3.174543E-04
+#   exp. data sets for p-value:      8
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.729036E+00   5.783570E-01   1.820496E+02
+# endfb8.1      1.729101E+00   5.783353E-01   1.820683E+02
+# jeff4.0       1.704387E+00   5.867212E-01   1.748986E+02
+# jendl5.0      1.704387E+00   5.867212E-01   1.748986E+02
+# cendl3.2      1.756472E+00   5.693229E-01   1.899343E+02
+# eaf.2010      1.666472E+00   6.000702E-01   1.637825E+02
+# irdff2.0      1.729090E+00   5.783389E-01   1.820652E+02

@@ -1,0 +1,54 @@
+# header: 
+#   title: Fe0(n,non) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Beghian
+#   year: 1963
+#   subentry: 11705002
+#   X4 reaction: 26-FE-0(N,NON),,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11705002
+# target: 
+#   Z: 26
+#   A: 0
+#   nuclide: Fe0
+# reaction: 
+#   type: (n,non)
+#   ENDF_MF: 3
+#   ENDF_MT: 3
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   9.300000E-01   1.000000E-01   8.700000E+01   1.200000E+01   1.000000E+00
+   1.040000E+00   1.000000E-01   4.060000E+02   4.400000E+01   1.000000E+00
+   1.150000E+00   1.000000E-01   3.210000E+02   3.700000E+01   1.000000E+00
+   1.280000E+00   1.000000E-01   4.900000E+02   1.300000E+01   1.000000E+00
+   1.390000E+00   1.000000E-01   4.910000E+02   1.300000E+01   1.000000E+00
+   1.520000E+00   1.000000E-01   7.130000E+02   1.800000E+01   1.000000E+00
+# reference:
+#   author: L.E.Beghian,A.E.Profio,J.Weber,S.Wilensky
+#   title: The investigation of the non-elastic cross section for iron by the nanosecond pulsed neutron source technique.
+#   journal: Jour: Nuclear Science and Engineering, Vol.17, p.82 (1963)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  9.300000E-01
+#   E-max [MeV]:  1.520000E+00
+#   F-value:  4.071849E+01
+#   A-value:  7.402325E-02
+#   chi-2:  3.942743E+02
+#   p-value:  3.225415E-01
+#   exp. data sets for p-value:      1
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.172929E+00   1.075145E+00   2.983418E+01
+# endfb8.1      1.826200E+02   5.585207E-03   7.646127E+02
+# jeff4.0       1.947944E+02   5.235410E-03   7.648622E+02
+# cendl3.2      1.160031E+00   9.550269E-01   1.778812E+01

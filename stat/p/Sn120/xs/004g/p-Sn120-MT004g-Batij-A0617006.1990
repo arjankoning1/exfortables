@@ -1,0 +1,64 @@
+# header: 
+#   title: Sn120(p,n')Sb120g cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Batij
+#   year: 1990
+#   subentry: A0617006
+#   X4 reaction: 50-SN-120(P,N)51-SB-120-G,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/A0617006
+# target: 
+#   Z: 50
+#   A: 120
+#   nuclide: Sn120
+# reaction: 
+#   type: (p,n')
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+#   residual: 
+#     Z: 51
+#     A: 120
+#     nuclide: Sb120g
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 9
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.000000E+00   0.000000E+00   9.300000E+00   1.100000E+00   1.000000E+00
+   5.500000E+00   0.000000E+00   2.750000E+01   2.100000E+00   1.000000E+00
+   6.000000E+00   0.000000E+00   5.200000E+01   4.000000E+00   1.000000E+00
+   6.500000E+00   0.000000E+00   9.300000E+01   7.000000E+00   1.000000E+00
+   7.000000E+00   0.000000E+00   1.290000E+02   9.000000E+00   1.000000E+00
+   7.500000E+00   0.000000E+00   1.670000E+02   1.700000E+01   1.000000E+00
+   8.000000E+00   0.000000E+00   2.970000E+02   1.500000E+01   1.000000E+00
+   8.500000E+00   0.000000E+00   2.790000E+02   2.000000E+01   1.000000E+00
+   9.000000E+00   0.000000E+00   2.950000E+02   2.200000E+01   1.000000E+00
+# reference:
+#   author: V.G.Batij, E.A.Skakun
+#   title: (p,n) reaction cross sections on 115,116,120-Sn isotopes.
+#   journal: Conf: 40.Conf.Nucl.Spectroscopy Nucl.Struct.,Leningrad 1990, p.273 (1990
+# statistics:
+#   NEA score: T3
+#   IAEA score:  1
+#   E-min [MeV]:  5.000000E+00
+#   E-max [MeV]:  9.000000E+00
+#   F-value:  1.710239E+01
+#   A-value:  1.769522E-01
+#   chi-2:  1.148744E+02
+#   p-value:  3.465503E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.613259E+00   1.554968E+00   5.607185E+01
+# jendl5.0      5.387554E+01   2.013680E-02   1.736769E+02

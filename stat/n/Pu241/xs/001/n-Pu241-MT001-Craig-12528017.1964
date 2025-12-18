@@ -1,0 +1,50 @@
+# header: 
+#   title: Pu241(n,tot) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Craig
+#   year: 1964
+#   subentry: 12528017
+#   X4 reaction: 94-PU-241(N,TOT),,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/12528017
+# target: 
+#   Z: 94
+#   A: 241
+#   nuclide: Pu241
+# reaction: 
+#   type: (n,tot)
+#   ENDF_MF: 3
+#   ENDF_MT: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.530000E-08   0.000000E+00   1.383000E+06   3.000000E+04   1.000000E+00
+# reference:
+#   author: D.S.Craig,C.H.Westcott
+#   title: The total neutron cross section of Pu241 below 1000 eV
+#   journal: Jour: Canadian Journal of Physics, Vol.42, p.2384 (1964)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.530000E-08
+#   E-max [MeV]:  2.530000E-08
+#   F-value:  1.002792E+00
+#   A-value:  9.978452E-01
+#   chi-2:  1.288922E-01
+#   p-value:  4.739673E-01
+#   exp. data sets for p-value:      8
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2025    1.003439E+00   9.965729E-01   2.047940E-01
+# endfb8.1      1.000002E+00   9.999985E-01   9.040840E-05
+# jeff4.0       1.000007E+00   9.999931E-01   3.991671E-04
+# jendl5.0      1.003440E+00   9.965715E-01   2.048769E-01
+# cendl3.2      1.003918E+00   9.960977E-01   2.343004E-01

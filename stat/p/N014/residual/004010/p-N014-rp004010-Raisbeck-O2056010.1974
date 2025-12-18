@@ -1,0 +1,53 @@
+# header: 
+#   title: N14(p,x)Be10 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Raisbeck
+#   year: 1974
+#   subentry: O2056010
+#   X4 reaction: 7-N-14(P,X)4-BE-10,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O2056010
+# target: 
+#   Z: 7
+#   A: 14
+#   nuclide: N14
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 4
+#     A: 10
+#     nuclide: Be10
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.500000E+02   0.000000E+00   6.000000E-01   2.000000E-01   1.000000E+00
+   6.000000E+02   0.000000E+00   1.300000E+00   6.000000E-01   1.000000E+00
+# reference:
+#   author: G.M.Raisbeck,F.Yiou
+#   title: Cross sections for the spallation production of Be-10 in targets of N, Mg, Si and their astrophysical applications.
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.9, p.1385 (1974)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.500000E+02
+#   E-max [MeV]:  6.000000E+02
+#   F-value:  2.102358E+00
+#   A-value:  1.094689E+00
+#   chi-2:  1.085660E+01
+#   p-value:  2.225429E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    2.810293E+00   2.810293E+00   2.949445E+01
+# endfb8.1      2.153870E+00   4.642806E-01   3.054959E+00
+# jendl5.0      1.005401E+00   1.005401E+00   2.037811E-02

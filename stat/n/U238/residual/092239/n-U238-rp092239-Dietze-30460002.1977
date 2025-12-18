@@ -1,0 +1,52 @@
+# header: 
+#   title: U238(n,x)U239 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Dietze
+#   year: 1977
+#   subentry: 30460002
+#   X4 reaction: 92-U-238(N,G)92-U-239,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30460002
+# target: 
+#   Z: 92
+#   A: 238
+#   nuclide: U238
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 92
+#     A: 239
+#     nuclide: U239
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.400000E-02   2.000000E-03   5.050001E+02   3.000000E+01   1.000000E+00
+   3.000000E-02   3.000000E-03   4.750000E+02   3.000000E+01   1.000000E+00
+# reference:
+#   author: K.Dietze
+#   title: Determination of absolute neutron capture cross sections of uranium-238 by spherical shell transmission measurements
+#   journal: Rept: Zentralinst. f. Kernforschung Rossendorf Reports, No.341 (1977)
+# statistics:
+#   NEA score:   
+#   IAEA score:  1
+#   E-min [MeV]:  2.400000E-02
+#   E-max [MeV]:  3.000000E-02
+#   F-value:  0.000000E+00
+#   A-value:  0.000000E+00
+#   chi-2:  0.000000E+00
+#   p-value:  0.000000E+00
+#   exp. data sets for p-value:      8
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    0.000000E+00   0.000000E+00   0.000000E+00
+# jendl5.0      0.000000E+00   0.000000E+00   0.000000E+00

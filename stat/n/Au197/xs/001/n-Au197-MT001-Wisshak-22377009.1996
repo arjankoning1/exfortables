@@ -1,0 +1,59 @@
+# header: 
+#   title: Au197(n,tot) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Wisshak
+#   year: 1996
+#   subentry: 22377009
+#   X4 reaction: 79-AU-197(N,TOT),,SIG,,AV
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22377009
+# target: 
+#   Z: 79
+#   A: 197
+#   nuclide: Au197
+# reaction: 
+#   type: (n,tot)
+#   ENDF_MF: 3
+#   ENDF_MT: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 9
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.250000E-02   2.500000E-03   1.940000E+04   1.649000E+03   1.000000E+00
+   1.750000E-02   2.500000E-03   1.350000E+04   1.147500E+03   1.000000E+00
+   2.500000E-02   5.000000E-03   1.410000E+04   1.198500E+03   1.000000E+00
+   3.500000E-02   5.000000E-03   1.430000E+04   1.215500E+03   1.000000E+00
+   5.000000E-02   1.000000E-02   1.220000E+04   1.037000E+03   1.000000E+00
+   7.000000E-02   1.000000E-02   1.110000E+04   9.435000E+02   1.000000E+00
+   9.000000E-02   1.000000E-02   1.050000E+04   8.925000E+02   1.000000E+00
+   1.250000E-01   2.500000E-02   1.080000E+04   9.180000E+02   1.000000E+00
+   1.750000E-01   2.500000E-02   9.600000E+03   8.160000E+02   1.000000E+00
+# reference:
+#   author: K.WISSHAK,F.VOSS,CH.THEIS,F.KAEPPELER,K.GUBER, L.KAZAKOV,N.KORNILOV,G.REFFO
+#   title: STELLAR NEUTRON CAPTURE CROSS SECTIONS OF THE TIN  ISOTOPES
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.54, Issue.3, p.1451
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.250000E-02
+#   E-max [MeV]:  1.750000E-01
+#   F-value:  1.197274E+00
+#   A-value:  1.021283E+00
+#   chi-2:  6.628725E+00
+#   p-value:  3.196672E-01
+#   exp. data sets for p-value:      8
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.478045E+00   1.457572E+00   3.339595E+01
+# endfb8.1      1.083645E+00   9.616977E-01   1.074852E+00
+# jeff4.0       1.083646E+00   9.616955E-01   1.074857E+00
+# jendl5.0      1.109104E+00   9.365304E-01   1.517504E+00
+# cendl3.2      1.114534E+00   9.345658E-01   1.634333E+00
+# irdff2.0      1.083645E+00   9.616979E-01   1.074849E+00

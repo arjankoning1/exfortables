@@ -1,0 +1,58 @@
+# header: 
+#   title: Cu0(p,x)Cr51 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Yashima
+#   year: 2003
+#   subentry: E1829067
+#   X4 reaction: 29-CU-0(P,X)24-CR-51,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/E1829067
+# target: 
+#   Z: 29
+#   A: 0
+#   nuclide: Cu0
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 24
+#     A: 51
+#     nuclide: Cr51
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   6.300000E+01   0.000000E+00   3.577300E-01   2.038300E-02   1.019173E+00
+   7.600000E+01   0.000000E+00   3.139100E-01   2.038300E-02   1.019173E+00
+   8.800000E+01   0.000000E+00   8.418400E-01   2.038300E-02   1.019173E+00
+   1.000000E+02   0.000000E+00   3.907500E+00   1.223000E-01   1.019173E+00
+   1.390000E+02   0.000000E+00   7.398200E+00   2.242200E-01   1.019173E+00
+   1.730000E+02   0.000000E+00   1.012140E+01   3.057500E-01   1.019173E+00
+   2.020000E+02   0.000000E+00   1.279673E+01   3.872900E-01   1.019173E+00
+# reference:
+#   author: H.Yashima, Y.Uwamino, H.Iwase, H.Sugita, T.Nakamura,  S.Ito, A.Fukumura
+#   title: Measurement and calculation of radioactivities of spallation products by high-energy heavy ions
+#   journal: Jour: Radiochimica Acta, Vol.91, p.689 (2003)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  6.300000E+01
+#   E-max [MeV]:  2.020000E+02
+#   F-value:  2.679338E+00
+#   A-value:  6.322188E-01
+#   chi-2:  4.932015E+02
+#   p-value:  3.074740E-01
+#   exp. data sets for p-value:      4
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    4.189925E+00   3.478410E-01   3.317372E+02
+# endfb8.1      2.182553E+00   8.376947E-01   5.694867E+02
+# jendl5.0      1.903780E+00   5.410946E-01   1.511742E+02

@@ -1,0 +1,56 @@
+# header: 
+#   title: Na23(n,g)Na24 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Firestone
+#   year: 2014
+#   subentry: 317360031
+#   X4 reaction: 11-NA-23(N,G)11-NA-24,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/317360031
+# target: 
+#   Z: 11
+#   A: 23
+#   nuclide: Na23
+# reaction: 
+#   type: (n,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 11
+#     A: 24
+#     nuclide: Na24
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.530000E-08   0.000000E+00   5.439995E+02   5.000000E+00   9.999990E-01
+# reference:
+#   author: R.B.Firestone,Zs.Revay,T.Belgya
+#   title: Thermal neutron capture cross sections and neutron separation energies for 23Na(n,gamma)
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.89, p.014617 (2014)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.530000E-08
+#   E-max [MeV]:  2.530000E-08
+#   F-value:  1.111815E+00
+#   A-value:  9.308009E-01
+#   chi-2:  1.061124E+02
+#   p-value:  1.624175E-01
+#   exp. data sets for p-value:      8
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.056023E+00   9.469493E-01   3.331496E+01
+# endfb8.1      1.042158E+00   9.595472E-01   1.937150E+01
+# jeff4.0       1.050434E+00   9.519879E-01   2.728723E+01
+# jendl5.0      1.035152E+00   9.660413E-01   1.365687E+01
+# cendl3.2      1.035543E+00   9.656773E-01   1.395030E+01
+# eaf.2010      1.299081E+00   7.697748E-01   6.274264E+02
+# irdff2.0      1.026168E+00   9.744998E-01   7.779415E+00

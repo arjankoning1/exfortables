@@ -1,0 +1,62 @@
+# header: 
+#   title: Pu239(n,f) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Ryabov
+#   year: 1976
+#   subentry: 40312005
+#   X4 reaction: 94-PU-239(N,F),,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/40312005
+# target: 
+#   Z: 94
+#   A: 239
+#   nuclide: Pu239
+# reaction: 
+#   type: (n,f)
+#   ENDF_MF: 3
+#   ENDF_MT: 18
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 11
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.231000E-03   0.000000E+00   3.090000E+03   2.500000E+02   1.000000E+00
+   3.580000E-03   0.000000E+00   3.160000E+03   2.800000E+02   1.000000E+00
+   3.990000E-03   0.000000E+00   3.220000E+03   3.200000E+02   1.000000E+00
+   4.470000E-03   0.000000E+00   2.510000E+03   2.800000E+02   1.000000E+00
+   5.050000E-03   0.000000E+00   2.740000E+03   3.000000E+02   1.000000E+00
+   5.740000E-03   0.000000E+00   2.360000E+03   2.800000E+02   1.000000E+00
+   6.590000E-03   0.000000E+00   2.260000E+03   2.700000E+02   1.000000E+00
+   7.650000E-03   0.000000E+00   2.060000E+03   2.500000E+02   1.000000E+00
+   8.970000E-03   0.000000E+00   2.280000E+03   2.900000E+02   1.000000E+00
+   1.070000E-02   0.000000E+00   1.940000E+03   2.500000E+02   1.000000E+00
+   1.290000E-02   0.000000E+00   1.800000E+03   2.300000E+02   1.000000E+00
+# reference:
+#   author: Yu.V.Ryabov
+#   title: Measurement of ALPHA(E)=SIGc(E)/SIGf(E) of Pu-239 for the 0.007 eV - 12. keV neutrons.
+#   journal: Jour: Soviet Atomic Energy, Vol.41, p.655 (1976)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  3.231000E-03
+#   E-max [MeV]:  1.290000E-02
+#   F-value:  1.262436E+00
+#   A-value:  9.244832E-01
+#   chi-2:  9.485999E+00
+#   p-value:  3.409610E-01
+#   exp. data sets for p-value:      8
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.655055E+00   8.764142E-01   5.638781E+01
+# endfb8.1      1.218575E+00   9.044162E-01   2.765915E+00
+# jeff4.0       1.229961E+00   9.128187E-01   2.829750E+00
+# jendl5.0      1.076339E+00   9.659910E-01   7.470962E-01
+# cendl3.2      1.066967E+00   9.757920E-01   6.293295E-01
+# eaf.2010      1.142281E+00   9.182389E-01   1.542293E+00
+# irdff2.0      1.139640E+00   9.216049E-01   1.499804E+00

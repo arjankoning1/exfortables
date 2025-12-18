@@ -1,0 +1,65 @@
+# header: 
+#   title: Ta181(n,g)Ta182 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Wisshak
+#   year: 2004
+#   subentry: 22801006
+#   X4 reaction: 73-TA-181(N,G)73-TA-182,,SIG,,AV
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22801006
+# target: 
+#   Z: 73
+#   A: 181
+#   nuclide: Ta181
+# reaction: 
+#   type: (n,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 73
+#     A: 182
+#     nuclide: Ta182
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.125000E-02   1.250000E-03   1.433892E+03   9.276351E+01   1.018389E+00
+   1.375000E-02   1.250000E-03   1.353472E+03   8.284206E+01   1.104875E+00
+   1.750000E-02   2.500000E-03   1.125781E+03   4.308764E+01   1.096184E+00
+   2.250000E-02   2.500000E-03   9.559440E+02   3.234373E+01   1.106417E+00
+   2.750000E-02   2.500000E-03   8.330700E+02   2.584652E+01   1.068038E+00
+   3.500000E-02   5.000000E-03   7.262875E+02   1.884685E+01   1.093807E+00
+   4.500000E-02   5.000000E-03   5.970567E+02   1.496339E+01   1.062379E+00
+   5.500000E-02   5.000000E-03   5.365736E+02   1.303549E+01   1.088385E+00
+   7.000000E-02   1.000000E-02   4.751775E+02   1.081772E+01   1.089857E+00
+   9.000000E-02   1.000000E-02   4.103960E+02   1.294891E+01   1.097315E+00
+# reference:
+#   author: K.Wisshak,F.Voss,C.Arlandini,F.Becvar,O.Straniero,  R.Gallino,M.Heil,F.Kaeppeler,M.Krticka,S.Masera,  R.Reifarth,C.Travaglio
+#   title: Stellar neutron capture on 180-TA-m  I.cross section measurement between 10 keV and 100 keV
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.69, Issue.5, p.05580
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.125000E-02
+#   E-max [MeV]:  9.000000E-02
+#   F-value:  1.086970E+00
+#   A-value:  9.569340E-01
+#   chi-2:  6.329341E+00
+#   p-value:  3.338374E-01
+#   exp. data sets for p-value:      4
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.072140E+00   9.411874E-01   4.594255E+00
+# endfb8.1      1.024314E+00   1.009940E+00   3.669537E-01
+# jeff4.0       1.024314E+00   1.009940E+00   3.669537E-01
+# jendl5.0      1.017878E+00   9.916711E-01   5.448897E-01
+# cendl3.2      1.111973E+00   9.050971E-01   9.156168E+00
+# eaf.2010      1.151381E+00   9.420123E-01   2.015610E+01
+# irdff2.0      1.111772E+00   9.052888E-01   9.120072E+00

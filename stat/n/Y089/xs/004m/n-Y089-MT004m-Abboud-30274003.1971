@@ -1,0 +1,62 @@
+# header: 
+#   title: Y89(n,n')Y89m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Abboud
+#   year: 1971
+#   subentry: 30274003
+#   X4 reaction: 39-Y-89(N,INL)39-Y-89-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30274003
+# target: 
+#   Z: 39
+#   A: 89
+#   nuclide: Y89
+# reaction: 
+#   type: (n,n')
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+#   residual: 
+#     Z: 39
+#     A: 89
+#     nuclide: Y89m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.690000E+00   8.000000E-02   4.051453E+02   4.352965E+01   9.983865E-01
+   3.310000E+00   1.000000E-01   5.307423E+02   2.316257E+01   9.983865E-01
+   3.830000E+00   1.000000E-01   5.975344E+02   1.128177E+01   9.983865E-01
+   4.010000E+00   1.100000E-01   6.267870E+02   1.188080E+01   9.983865E-01
+# reference:
+#   author: A.Abboud,P.Decowski,W.Grochulski,A.Marcinkowski, K.Siwek,I.Turkiewicz,Z.Wilhelmi
+#   title: Cross-sections for the Y-89(n,n')Y-89m and Y-39 (n,2n)Y-88 reactions
+#   journal: Jour: Acta Physica Polonica, Part B, Vol.2, p.527 (1971)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  2.690000E+00
+#   E-max [MeV]:  4.010000E+00
+#   F-value:  1.043518E+00
+#   A-value:  1.012609E+00
+#   chi-2:  1.550540E+00
+#   p-value:  3.824818E-01
+#   exp. data sets for p-value:      3
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2025    1.017392E+00   9.983944E-01   9.674559E-01
+# endfb8.1      1.080535E+00   1.061573E+00   2.108573E+00
+# jeff4.0       1.039620E+00   1.033801E+00   2.436681E+00
+# jendl5.0      1.029718E+00   9.797864E-01   9.923137E-01
+# eaf.2010      1.020422E+00   9.917215E-01   1.247675E+00

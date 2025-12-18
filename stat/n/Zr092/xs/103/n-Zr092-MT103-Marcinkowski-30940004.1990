@@ -1,0 +1,61 @@
+# header: 
+#   title: Zr92(n,p)Y92 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Marcinkowski
+#   year: 1990
+#   subentry: 30940004
+#   X4 reaction: 40-ZR-92(N,P)39-Y-92,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30940004
+# target: 
+#   Z: 40
+#   A: 92
+#   nuclide: Zr92
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 39
+#     A: 92
+#     nuclide: Y92
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.340000E+01   4.000000E-01   1.430000E+01   2.600000E+00   1.000000E+00
+   1.360000E+01   3.000000E-01   1.840000E+01   2.400000E+00   1.000000E+00
+   1.420000E+01   3.000000E-01   1.830000E+01   2.300000E+00   1.000000E+00
+   1.480000E+01   3.000000E-01   1.760000E+01   2.300000E+00   1.000000E+00
+   1.520000E+01   2.000000E-01   2.080000E+01   2.600000E+00   1.000000E+00
+   1.540000E+01   2.000000E-01   2.100000E+01   2.600000E+00   1.000000E+00
+   1.590000E+01   5.000000E-01   2.250000E+01   3.300000E+00   1.000000E+00
+   1.660000E+01   1.000000E-01   2.190000E+01   3.300000E+00   1.000000E+00
+# reference:
+#   author: A.Marcinkowski,U.Garuska,H.M.Hoang,D.Kielan, B.Zwieglinski
+#   title: Cross sections of the (n,p) reaction on zirconium isotopes
+#   journal: Jour: Nuclear Physics, Section A, Vol.510, p.93 (1990)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.340000E+01
+#   E-max [MeV]:  1.660000E+01
+#   F-value:  1.103945E+00
+#   A-value:  1.056555E+00
+#   chi-2:  9.685822E-01
+#   p-value:  1.791936E-01
+#   exp. data sets for p-value:      5
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2025    1.102251E+00   1.054663E+00   9.306110E-01
+# jeff4.0       1.102251E+00   1.054663E+00   9.306110E-01
+# jendl5.0      1.092335E+00   1.043282E+00   8.227218E-01
+# cendl3.2      1.077941E+00   1.046467E+00   6.665483E-01
+# eaf.2010      1.137102E+00   1.084193E+00   1.492419E+00

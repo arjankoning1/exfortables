@@ -1,0 +1,57 @@
+# header: 
+#   title: K41(n,p)Ar41 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Furuta
+#   year: 2008
+#   subentry: 23032005
+#   X4 reaction: 19-K-41(N,P)18-AR-41,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/23032005
+# target: 
+#   Z: 19
+#   A: 41
+#   nuclide: K41
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 18
+#     A: 41
+#     nuclide: Ar41
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.010000E+00   1.000000E-01   1.409147E+01   1.113200E+00   9.993950E-01
+   5.150000E+00   1.000000E-01   1.359177E+01   1.359200E+00   9.993950E-01
+   5.610000E+00   1.000000E-01   1.629014E+01   1.335800E+00   9.993950E-01
+   5.840000E+00   1.000000E-01   1.429135E+01   3.429900E+00   9.993950E-01
+# reference:
+#   author: M.Furuta, T.Shimizu, H.Hayashi, I.Miyazaki, H.Yamamoto, M.Shibata, K.Kawade
+#   title: Measurements of activation cross sections of (n,p)  and (n,alpha) reactions in the energy range of  3.5-5.9 MeV using a deuterium gas target
+#   journal: Jour: Annals of Nuclear Energy, Vol.35, p.1652 (2008)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  5.010000E+00
+#   E-max [MeV]:  5.840000E+00
+#   F-value:  1.364432E+00
+#   A-value:  1.183591E+00
+#   chi-2:  1.333991E+01
+#   p-value:  3.648204E-01
+#   exp. data sets for p-value:      2
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2025    1.528019E+00   1.496174E+00   1.967440E+01
+# endfb8.1      1.096640E+00   9.358560E-01   1.510554E+00
+# jeff4.0       1.697903E+00   1.690985E+00   4.360746E+01
+# jendl5.0      1.078860E+00   1.048259E+00   3.965850E-01
+# eaf.2010      1.096640E+00   9.358560E-01   1.510554E+00

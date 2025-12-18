@@ -1,0 +1,64 @@
+# header: 
+#   title: Ar40(n,x)Cl40 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Bhatia
+#   year: 2012
+#   subentry: 14326002
+#   X4 reaction: 18-AR-40(N,P)17-CL-40,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/14326002
+# target: 
+#   Z: 18
+#   A: 40
+#   nuclide: Ar40
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 17
+#     A: 40
+#     nuclide: Cl40
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 13
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   8.870000E+00   3.700000E-01   8.900000E-01   8.000000E-02   1.000000E+00
+   9.370000E+00   3.700000E-01   1.790000E+00   1.200000E-01   1.000000E+00
+   9.870000E+00   3.600000E-01   2.780000E+00   1.700000E-01   1.000000E+00
+   1.036000E+01   3.500000E-01   4.370000E+00   2.200000E-01   1.000000E+00
+   1.086000E+01   3.500000E-01   6.200000E+00   2.700000E-01   1.000000E+00
+   1.136000E+01   3.500000E-01   7.920000E+00   3.000000E-01   1.000000E+00
+   1.185000E+01   3.400000E-01   9.130000E+00   3.100000E-01   1.000000E+00
+   1.235000E+01   3.500000E-01   1.107000E+01   3.600000E-01   1.000000E+00
+   1.284000E+01   3.400000E-01   1.430000E+01   4.200000E-01   1.000000E+00
+   1.334000E+01   3.400000E-01   1.580000E+01   4.500000E-01   1.000000E+00
+   1.384000E+01   3.400000E-01   2.190000E+01   5.600000E-01   1.000000E+00
+   1.433000E+01   3.400000E-01   2.369000E+01   6.000000E-01   1.000000E+00
+   1.483000E+01   3.400000E-01   2.786000E+01   6.700000E-01   1.000000E+00
+# reference:
+#   author: C.Bhatia,S.W.Finch,M.E.Gooden,W.Tornow
+#   title: 40Ar(n,p)40Cl reaction cross section between 9 and 15  MeV
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.86, p.041602 (2012)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  8.870000E+00
+#   E-max [MeV]:  1.483000E+01
+#   F-value:  1.410904E+00
+#   A-value:  9.069945E-01
+#   chi-2:  5.684888E+01
+#   p-value:  3.176229E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.238235E+00   9.070258E-01   3.605042E+01
+# jeff4.0       1.482166E+00   7.451707E-01   2.942400E+01
+# jendl5.0      1.482413E+00   1.103922E+00   1.050723E+02

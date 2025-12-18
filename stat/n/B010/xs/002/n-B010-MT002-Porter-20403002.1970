@@ -1,0 +1,57 @@
+# header: 
+#   title: B10(n,el) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Porter
+#   year: 1970
+#   subentry: 20403002
+#   X4 reaction: 5-B-10(N,EL)5-B-10,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20403002
+# target: 
+#   Z: 5
+#   A: 10
+#   nuclide: B10
+# reaction: 
+#   type: (n,el)
+#   ENDF_MF: 3
+#   ENDF_MT: 2
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.032000E+00   6.400000E-02   1.320000E+03   4.000000E+01   1.000000E+00
+   2.618000E+00   5.400000E-02   1.830000E+03   6.000000E+01   1.000000E+00
+   3.177000E+00   4.800000E-02   1.740000E+03   6.000000E+01   1.000000E+00
+   3.740000E+00   4.400000E-02   1.400000E+03   5.000000E+01   1.000000E+00
+   4.312000E+00   4.000000E-02   1.290000E+03   5.000000E+01   1.000000E+00
+   4.338000E+00   2.420000E-01   1.440000E+03   5.000000E+01   1.000000E+00
+   4.823000E+00   1.960000E-01   1.340000E+03   5.000000E+01   1.000000E+00
+# reference:
+#   author: D.Porter, R.E.Coles, K.Wyld
+#   title: Elastic and inelastic scattering of neutrons in the  energy range 2 to 5 MeV by B-10 and B-11
+#   journal: Rept: A.W.R.E. Aldermaston Reports, No.45/70 (1970)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.032000E+00
+#   E-max [MeV]:  4.823000E+00
+#   F-value:  1.167450E+00
+#   A-value:  9.159706E-01
+#   chi-2:  1.580019E+01
+#   p-value:  1.988487E-01
+#   exp. data sets for p-value:      3
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.163136E+00   9.156237E-01   1.494087E+01
+# endfb8.1      1.163973E+00   9.158686E-01   1.510565E+01
+# jeff4.0       1.163992E+00   9.158494E-01   1.510858E+01
+# jendl5.0      1.149909E+00   9.309493E-01   1.324516E+01
+# cendl3.2      1.181006E+00   9.088548E-01   1.820041E+01
+# irdff2.0      1.181006E+00   9.088543E-01   1.820050E+01

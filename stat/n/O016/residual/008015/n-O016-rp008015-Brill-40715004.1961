@@ -1,0 +1,61 @@
+# header: 
+#   title: O16(n,x)O15 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Brill
+#   year: 1961
+#   subentry: 40715004
+#   X4 reaction: 8-O-16(N,2N)8-O-15,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/40715004
+# target: 
+#   Z: 8
+#   A: 16
+#   nuclide: O16
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 8
+#     A: 15
+#     nuclide: O15
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 9
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.770000E+01   0.000000E+00   3.000000E-01   3.000000E-01   1.000000E+00
+   1.960000E+01   0.000000E+00   2.000000E+00   5.000000E-01   1.000000E+00
+   2.120000E+01   0.000000E+00   3.200000E+00   7.000000E-01   1.000000E+00
+   2.200000E+01   0.000000E+00   6.000000E+00   1.500000E+00   1.000000E+00
+   2.500000E+01   0.000000E+00   1.180000E+01   2.500000E+00   1.000000E+00
+   2.760000E+01   0.000000E+00   1.500000E+01   1.300000E+00   1.000000E+00
+   3.040000E+01   0.000000E+00   1.590000E+01   9.000000E-01   1.000000E+00
+   3.400000E+01   0.000000E+00   1.880000E+01   8.000000E-01   1.000000E+00
+   3.750000E+01   0.000000E+00   9.500000E+00   2.000000E+00   1.000000E+00
+# reference:
+#   author: O.D.BRILL,N.A.VLASOV,S.P.KALININ,L.S.SOKOLOV
+#   title: CROSS SECTION OF THE (N,2N) REACTION IN C12,N14,O16  AND F19 IN THE ENERGY INTERVAL 10-37MEV.
+#   journal: Jour: Doklady Akademii Nauk, Vol.136, Issue.1, p.55 (1961)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.770000E+01
+#   E-max [MeV]:  3.750000E+01
+#   F-value:  1.400095E+00
+#   A-value:  1.130778E+00
+#   chi-2:  1.055392E+01
+#   p-value:  3.627282E-01
+#   exp. data sets for p-value:      1
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.694801E+00   1.177326E+00   2.511708E+01
+# endfb8.1      1.211787E+00   1.048693E+00   2.127772E+00
+# jeff4.0       1.211787E+00   1.048693E+00   2.127772E+00
+# jendl5.0      1.373913E+00   1.262748E+00   1.284304E+01

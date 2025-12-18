@@ -1,0 +1,54 @@
+# header: 
+#   title: W186(n,tot) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Knopf
+#   year: 1987
+#   subentry: 22045011
+#   X4 reaction: 74-W-186(N,TOT),,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22045011
+# target: 
+#   Z: 74
+#   A: 186
+#   nuclide: W186
+# reaction: 
+#   type: (n,tot)
+#   ENDF_MF: 3
+#   ENDF_MT: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.700000E-10   0.000000E+00   2.570000E+03   5.000000E+03   1.000000E+00
+   1.260000E-06   0.000000E+00   6.220000E+03   3.000000E+02   1.000000E+00
+   5.190000E-06   0.000000E+00   6.800000E+03   6.000000E+02   1.000000E+00
+   1.430000E-01   0.000000E+00   8.600000E+03   5.000000E+02   1.000000E+00
+# reference:
+#   author: K.KNOPF,W.WASCHKOWSKI
+#   title: -INTERACTION OF NEUTRONS WITH TUNGSTEN AND ITS  ISOTOPES. (IN GERMAN).
+#   journal: Jour: Zeitschrift fuer Naturforschung, Section A, Vol.42, p.909 (1987)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  5.700000E-10
+#   E-max [MeV]:  1.430000E-01
+#   F-value:  9.860762E+00
+#   A-value:  3.169118E+00
+#   chi-2:  6.116868E+02
+#   p-value:  3.343946E-01
+#   exp. data sets for p-value:      1
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    9.860484E+00   3.201435E+00   6.111050E+02
+# endfb8.1      9.844272E+00   3.182150E+00   6.076924E+02
+# jeff4.0       9.844272E+00   3.182150E+00   6.076924E+02
+# jendl5.0      9.871359E+00   3.143844E+00   6.143651E+02
+# cendl3.2      9.871431E+00   3.134506E+00   6.144310E+02
+# irdff2.0      9.872787E+00   3.171129E+00   6.148351E+02

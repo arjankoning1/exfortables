@@ -1,0 +1,52 @@
+# header: 
+#   title: Pu240(n,f) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Belloni
+#   year: 2022
+#   subentry: 236530021
+#   X4 reaction: 94-PU-240(N,F),,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/236530021
+# target: 
+#   Z: 94
+#   A: 240
+#   nuclide: Pu240
+# reaction: 
+#   type: (n,f)
+#   ENDF_MF: 3
+#   ENDF_MT: 18
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.510000E+00   1.400000E-01   1.645000E+03   4.589550E+01   1.000000E+00
+   1.483000E+01   5.700000E-01   2.259000E+03   8.493840E+01   1.000000E+00
+# reference:
+#   author: F.Belloni, R.Eykens, J.Heyse, C.Matei, A.Moens,  R.Nolte, A.J.M.Plompen, S.Richter, G.Sibbens,  D.Vanleeuw, R.Wynants
+#   title: Neutron induced fission cross section measurements of  240Pu and 242Pu relative to the neutron-proton  scattering cross section at 2.5 and 14.8 MeV
+#   journal: Jour: European Physical Journal A: Hadrons and Nuclei, Vol.58, p.227 (20
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.510000E+00
+#   E-max [MeV]:  1.483000E+01
+#   F-value:  1.030898E+00
+#   A-value:  1.027677E+00
+#   chi-2:  1.387490E+00
+#   p-value:  3.716480E-01
+#   exp. data sets for p-value:      8
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.026792E+00   1.026487E+00   1.222463E+00
+# endfb8.1      1.026387E+00   1.025941E+00   1.185441E+00
+# jeff4.0       1.052738E+00   1.051909E+00   2.975473E+00
+# jendl5.0      1.015062E+00   1.013164E+00   6.469450E-01
+# cendl3.2      1.016580E+00   1.016438E+00   7.055649E-01
+# eaf.2010      1.032828E+00   1.032585E+00   1.589050E+00

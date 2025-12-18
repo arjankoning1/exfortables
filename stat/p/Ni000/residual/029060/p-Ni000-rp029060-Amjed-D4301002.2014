@@ -1,0 +1,66 @@
+# header: 
+#   title: Ni0(p,x)Cu60 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Amjed
+#   year: 2014
+#   subentry: D4301002
+#   X4 reaction: 28-NI-0(P,X)29-CU-60,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D4301002
+# target: 
+#   Z: 28
+#   A: 0
+#   nuclide: Ni0
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 29
+#     A: 60
+#     nuclide: Cu60
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 15
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   7.400000E+00   9.000000E-01   7.200000E+00   3.500000E+00   1.000000E+00
+   8.300000E+00   8.000000E-01   4.340000E+01   6.300000E+00   1.000000E+00
+   9.100000E+00   8.000000E-01   4.480000E+01   6.800000E+00   1.000000E+00
+   9.800000E+00   7.000000E-01   7.440001E+01   9.000000E+00   1.000000E+00
+   1.050000E+01   7.000000E-01   7.940000E+01   9.400000E+00   1.000000E+00
+   1.120000E+01   6.000000E-01   7.989999E+01   9.300000E+00   1.000000E+00
+   1.190000E+01   6.000000E-01   8.790001E+01   1.010000E+01   1.000000E+00
+   1.250000E+01   5.000000E-01   8.270000E+01   9.500000E+00   1.000000E+00
+   1.310000E+01   5.000000E-01   8.700000E+01   9.900000E+00   1.000000E+00
+   1.370000E+01   4.000000E-01   8.320000E+01   9.400000E+00   1.000000E+00
+   1.480000E+01   3.000000E-01   7.989999E+01   9.600000E+00   1.000000E+00
+   1.530000E+01   2.000000E-01   6.690001E+01   7.900000E+00   1.000000E+00
+   1.580000E+01   1.000000E-01   5.940000E+01   7.000000E+00   1.000000E+00
+   1.630000E+01   1.000000E-01   4.840000E+01   5.600000E+00   1.000000E+00
+   1.680000E+01   2.000000E-02   3.910000E+01   4.500000E+00   1.000000E+00
+# reference:
+#   author: N.Amjed,F.Tarkanyi,A.Hermanne,F.Ditroi,S.Takacs, M.Hussain
+#   title: Activation cross-sections of proton induced reactions on natural Ni up to 65MeV
+#   journal: Jour: Applied Radiation and Isotopes, Vol.92, p.73 (2014)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  7.400000E+00
+#   E-max [MeV]:  1.680000E+01
+#   F-value:  1.480887E+00
+#   A-value:  8.984637E-01
+#   chi-2:  5.314989E+00
+#   p-value:  3.326971E-01
+#   exp. data sets for p-value:      3
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.275106E+00   1.031502E+00   1.562147E+00
+# endfb8.1      1.741132E+00   5.908480E-01   1.274555E+01
+# jendl5.0      1.298336E+00   1.085645E+00   1.973297E+00

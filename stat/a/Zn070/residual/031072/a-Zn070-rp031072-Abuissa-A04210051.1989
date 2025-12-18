@@ -1,0 +1,55 @@
+# header: 
+#   title: Zn70(a,x)Ga72 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Abuissa
+#   year: 1989
+#   subentry: A04210051
+#   X4 reaction: 30-ZN-70(A,X)31-GA-72,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/A04210051
+# target: 
+#   Z: 30
+#   A: 70
+#   nuclide: Zn70
+# reaction: 
+#   type: (a,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 31
+#     A: 72
+#     nuclide: Ga72
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.000000E+01   0.000000E+00   5.000000E+00   1.000000E+00   1.000000E+00
+   2.060000E+01   0.000000E+00   8.000000E+00   2.000000E+00   1.000000E+00
+   2.180000E+01   0.000000E+00   1.600000E+01   3.000000E+00   1.000000E+00
+   2.240000E+01   0.000000E+00   1.800000E+01   4.000000E+00   1.000000E+00
+   2.340000E+01   0.000000E+00   1.600000E+01   3.000000E+00   1.000000E+00
+   2.440000E+01   0.000000E+00   1.000000E+01   2.000000E+00   1.000000E+00
+# reference:
+#   author: N.N.Abu Issa,A.E.Antropov,V.P.Gusev,P.P.Zarubin, A.A.Kolozhvari,A.V.Smirnov
+#   title: Analysis of the excitation functions of alpha-particles interactions with nuclei Zn-64,66,68,70 at energy 14.8 - 24.4 MeV
+#   journal: Conf: 39.Conf.Nucl.Spectrosc.and Nucl.Struct.,Tashkent 1989, p.350 (1989
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.000000E+01
+#   E-max [MeV]:  2.440000E+01
+#   F-value:  1.654983E+00
+#   A-value:  1.044825E+00
+#   chi-2:  1.653396E+01
+#   p-value:  2.818936E-01
+#   exp. data sets for p-value:      2
+#   libraries:      1
+##  Library          F              A            chi-2
+# tendl.2025    1.654983E+00   1.044825E+00   1.653396E+01

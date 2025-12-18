@@ -1,0 +1,62 @@
+# header: 
+#   title: Co59(n,p)Fe59 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Simeckova
+#   year: 2011
+#   subentry: 317640042
+#   X4 reaction: 27-CO-59(N,P)26-FE-59,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/317640042
+# target: 
+#   Z: 27
+#   A: 59
+#   nuclide: Co59
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 26
+#     A: 59
+#     nuclide: Fe59
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.750000E+01   2.500000E+00   6.230000E+01   7.100000E+00   1.000000E+00
+   2.200000E+01   2.000000E+00   2.720000E+01   3.100000E+00   1.000000E+00
+   2.450000E+01   1.500000E+00   1.850000E+01   2.100000E+00   1.000000E+00
+   2.750000E+01   1.500000E+00   1.880000E+01   2.100000E+00   1.000000E+00
+   3.000000E+01   1.000000E+00   1.760000E+01   2.000000E+00   1.000000E+00
+   3.250000E+01   1.500000E+00   1.900000E+01   2.200000E+00   1.000000E+00
+   3.500000E+01   1.000000E+00   1.040000E+01   1.200000E+00   1.000000E+00
+# reference:
+#   author: E.Simeckova, P.Bem, V.Burjan, M.Goetz, M.Honusek,  V.Kroha, J.Novak, U.Fischer, S.P.Simakov, R.A.Forrest
+#   title: The measurement of neutron activation cross section of  59Co below 36 MeV
+#   journal: Jour: Journal of the Korean Physical Society, Vol.59, p.1801 (2011)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  0
+#   E-min [MeV]:  1.750000E+01
+#   E-max [MeV]:  3.500000E+01
+#   F-value:  1.351912E+00
+#   A-value:  1.064306E+00
+#   chi-2:  7.660097E+00
+#   p-value:  2.391094E-01
+#   exp. data sets for p-value:      7
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.413086E+00   1.119418E+00   1.108730E+01
+# endfb8.1      1.773285E+00   5.639250E-01   1.464517E+01
+# jeff4.0       1.698375E+00   5.887979E-01   1.302677E+01
+# jendl5.0      1.354354E+00   1.090936E+00   8.050300E+00
+# cendl3.2      1.586173E+00   6.304484E-01   1.053962E+01
+# eaf.2010      1.345553E+00   1.071784E+00   7.238982E+00
+# irdff2.0      1.306144E+00   9.732733E-01   4.528122E+00

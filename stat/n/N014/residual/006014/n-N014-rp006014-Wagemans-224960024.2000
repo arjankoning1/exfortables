@@ -1,0 +1,53 @@
+# header: 
+#   title: N14(n,x)C14 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Wagemans
+#   year: 2000
+#   subentry: 224960024
+#   X4 reaction: 7-N-14(N,P)6-C-14,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/224960024
+# target: 
+#   Z: 7
+#   A: 14
+#   nuclide: N14
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 6
+#     A: 14
+#     nuclide: C14
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.530000E-08   0.000000E+00   1.980284E+03   6.038267E+01   1.005220E+00
+# reference:
+#   author: J.Wagemans,C.Wagemans,G.Goeminne,P.Geltenbort
+#   title: Experimental determination of the 14N(n,p)14C reaction  cross section for thermal neutrons
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.61, p.064601 (2000)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  2.530000E-08
+#   E-max [MeV]:  2.530000E-08
+#   F-value:  1.066243E+00
+#   A-value:  9.431684E-01
+#   chi-2:  4.383433E+00
+#   p-value:  3.642350E-01
+#   exp. data sets for p-value:      8
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.061485E+00   9.420768E-01   3.968053E+00
+# endfb8.1      1.082827E+00   9.235084E-01   6.436140E+00
+# jeff4.0       1.082827E+00   9.235084E-01   6.436140E+00
+# jendl5.0      1.015339E+00   9.848927E-01   6.933991E-01

@@ -1,0 +1,58 @@
+# header: 
+#   title: Ni60(n,x)Co60m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Paulsen
+#   year: 1967
+#   subentry: 20390006
+#   X4 reaction: 28-NI-60(N,P)27-CO-60-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20390006
+# target: 
+#   Z: 28
+#   A: 60
+#   nuclide: Ni60
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 27
+#     A: 60
+#     nuclide: Co60m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   8.190000E+00   3.500000E-01   5.000000E+01   7.000000E+00   1.000000E+00
+   1.400000E+01   1.200000E-01   6.450000E+01   6.000000E+00   1.000000E+00
+# reference:
+#   author: A.Paulsen
+#   title: The spin cut-off factor for Co-60.
+#   journal: Jour: Zeitschrift fuer Physik, Vol.205, p.226 (1967)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  8.190000E+00
+#   E-max [MeV]:  1.400000E+01
+#   F-value:  1.208072E+00
+#   A-value:  1.143436E+00
+#   chi-2:  5.468991E+00
+#   p-value:  3.159078E-01
+#   exp. data sets for p-value:      2
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.234529E+00   1.161809E+00   6.973004E+00
+# jeff4.0       1.200567E+00   1.138292E+00   5.045852E+00
+# jendl5.0      1.187001E+00   1.130440E+00   4.388117E+00

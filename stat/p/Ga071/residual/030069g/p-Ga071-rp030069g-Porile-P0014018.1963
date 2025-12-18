@@ -1,0 +1,62 @@
+# header: 
+#   title: Ga71(p,x)Zn69g cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Porile
+#   year: 1963
+#   subentry: P0014018
+#   X4 reaction: 31-GA-71(P,X)30-ZN-69-G,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/P0014018
+# target: 
+#   Z: 31
+#   A: 71
+#   nuclide: Ga71
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 30
+#     A: 69
+#     nuclide: Zn69g
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.540000E+01   0.000000E+00   9.330000E-01   1.399500E-01   1.000000E+00
+   2.950000E+01   0.000000E+00   2.900000E+00   4.350000E-01   1.000000E+00
+   3.530000E+01   0.000000E+00   4.760000E+00   7.140000E-01   1.000000E+00
+   3.620000E+01   0.000000E+00   5.500000E+00   8.250000E-01   1.000000E+00
+   4.280000E+01   0.000000E+00   6.370000E+00   9.555000E-01   1.000000E+00
+   4.870000E+01   0.000000E+00   8.130000E+00   1.219500E+00   1.000000E+00
+   5.480000E+01   0.000000E+00   8.130000E+00   1.219500E+00   1.000000E+00
+# reference:
+#   author: N.T.Porile,S.Tanaka,H.Amano,M.Furukawa,S.Iwata,M.Yagi
+#   title: Nuclear reactions of Ga69 and Ga71 with 13-56 MeV  protons
+#   journal: Jour: Nuclear Physics, Vol.43, p.500 (1963)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.540000E+01
+#   E-max [MeV]:  5.480000E+01
+#   F-value:  1.466073E+00
+#   A-value:  8.348497E-01
+#   chi-2:  4.005006E+00
+#   p-value:  3.230305E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.291031E+00   9.832235E-01   2.849101E+00
+# jendl5.0      1.611178E+00   7.088664E-01   5.160912E+00

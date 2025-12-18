@@ -1,0 +1,62 @@
+# header: 
+#   title: Cu65(n,2n)Cu64 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Filatenkov
+#   year: 2016
+#   subentry: 41614032
+#   X4 reaction: 29-CU-65(N,2N)29-CU-64,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/41614032
+# target: 
+#   Z: 29
+#   A: 65
+#   nuclide: Cu65
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 29
+#     A: 64
+#     nuclide: Cu64
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.356000E+01   0.000000E+00   8.340077E+02   4.878308E+01   1.000009E+00
+   1.374000E+01   0.000000E+00   8.649917E+02   3.672908E+01   9.999903E-01
+   1.396000E+01   0.000000E+00   9.209977E+02   6.197296E+01   9.999973E-01
+   1.419000E+01   0.000000E+00   8.650029E+02   3.658617E+01   1.000003E+00
+   1.442000E+01   0.000000E+00   9.480042E+02   4.256731E+01   1.000004E+00
+   1.461000E+01   0.000000E+00   9.000039E+02   3.762101E+01   1.000004E+00
+   1.478000E+01   0.000000E+00   9.670085E+02   4.991949E+01   1.000009E+00
+# reference:
+#   author: A.A.Filatenkov
+#   title: Neutron activation cross sections measured at KRI in neutron energy region 13.4 - 14.9 MeV
+#   journal: Rept: USSR report to the I.N.D.C., No.0460 (2016)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.356000E+01
+#   E-max [MeV]:  1.478000E+01
+#   F-value:  1.024570E+00
+#   A-value:  9.979395E-01
+#   chi-2:  6.091458E-01
+#   p-value:  3.493824E-01
+#   exp. data sets for p-value:      8
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.023609E+00   9.987209E-01   5.918888E-01
+# endfb8.1      1.023652E+00   9.998413E-01   5.902544E-01
+# jeff4.0       1.023652E+00   9.998413E-01   5.902544E-01
+# jendl5.0      1.020141E+00   9.979464E-01   5.141303E-01
+# cendl3.2      1.033676E+00   9.874487E-01   8.518292E-01
+# eaf.2010      1.021334E+00   1.002005E+00   5.354306E-01
+# irdff2.0      1.023652E+00   9.998431E-01   5.902333E-01

@@ -1,0 +1,57 @@
+# header: 
+#   title: Re185(n,x)W185m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Sothras
+#   year: 1977
+#   subentry: 10835023
+#   X4 reaction: 75-RE-185(N,P)74-W-185-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/10835023
+# target: 
+#   Z: 75
+#   A: 185
+#   nuclide: Re185
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 74
+#     A: 185
+#     nuclide: W185m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.480000E+01   0.000000E+00   6.200000E+01   6.000000E+00   1.000000E+00
+# reference:
+#   author: S.Sothras
+#   title: A study of the systematics for (n,2n) reactions
+#   journal: Thesis: Sothras (1977)
+# statistics:
+#   NEA score: R2
+#   IAEA score:  0
+#   E-min [MeV]:  1.480000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  6.657400E+01
+#   A-value:  1.533952E-02
+#   chi-2:  1.032152E+02
+#   p-value:  5.960464E-08
+#   exp. data sets for p-value:      3
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    8.769053E+01   1.140374E-02   1.043563E+02
+# jeff4.0       8.769053E+01   1.140374E-02   1.043563E+02
+# jendl5.0      3.602959E+01   2.775497E-02   1.009328E+02

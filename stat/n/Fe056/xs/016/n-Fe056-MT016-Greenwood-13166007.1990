@@ -1,0 +1,55 @@
+# header: 
+#   title: Fe56(n,2n)Fe55 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Greenwood
+#   year: 1990
+#   subentry: 13166007
+#   X4 reaction: 26-FE-56(N,2N)26-FE-55,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/13166007
+# target: 
+#   Z: 26
+#   A: 56
+#   nuclide: Fe56
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 26
+#     A: 55
+#     nuclide: Fe55
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.480000E+01   0.000000E+00   4.540000E+02   3.500000E+01   1.000000E+00
+# reference:
+#   author: L.R.Greenwood,D.L.Bowers
+#   title: Measurement of long-lived isotopes and helium production in fusion materials
+#   journal: Conf: 7.Int.Symposium on Reactor Dosimetry, Strasbourg,1990, p.437 (1990
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.480000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.142850E+00
+#   A-value:  1.088766E+00
+#   chi-2:  3.704085E+00
+#   p-value:  3.500265E-01
+#   exp. data sets for p-value:      5
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.139708E+00   8.774179E-01   3.006318E+00
+# endfb8.1      1.161803E+00   1.161803E+00   4.685718E+00
+# jeff4.0       1.161803E+00   1.161803E+00   4.685718E+00
+# jendl5.0      1.157050E+00   1.157050E+00   4.454710E+00
+# cendl3.2      1.156417E+00   1.156417E+00   4.424581E+00
+# eaf.2010      1.051160E+00   1.051160E+00   9.674704E-01

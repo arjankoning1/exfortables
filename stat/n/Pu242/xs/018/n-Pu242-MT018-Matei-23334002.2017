@@ -1,0 +1,55 @@
+# header: 
+#   title: Pu242(n,f) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Matei
+#   year: 2017
+#   subentry: 23334002
+#   X4 reaction: 94-PU-242(N,F),,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/23334002
+# target: 
+#   Z: 94
+#   A: 242
+#   nuclide: Pu242
+# reaction: 
+#   type: (n,f)
+#   ENDF_MF: 3
+#   ENDF_MT: 18
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.000000E+00   0.000000E+00   1.423000E+03   5.300000E+01   1.000000E+00
+   1.100000E+00   0.000000E+00   1.499000E+03   4.300000E+01   1.000000E+00
+   1.200000E+00   0.000000E+00   1.550000E+03   5.900000E+01   1.000000E+00
+   2.000000E+00   0.000000E+00   1.453000E+03   5.500000E+01   1.000000E+00
+   2.500000E+00   0.000000E+00   1.450000E+03   5.500000E+01   1.000000E+00
+# reference:
+#   author: C.Matei, F.Belloni,J.Heyse, A.J.M.Plompen, D.J.Thomas
+#   title: Absolute cross section measurements of neutron-induced  fission of 242Pu from 1 to 2.5 MeV .
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.95, p.024606 (2017)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.000000E+00
+#   E-max [MeV]:  2.500000E+00
+#   F-value:  1.022758E+00
+#   A-value:  9.933761E-01
+#   chi-2:  6.728763E-01
+#   p-value:  4.254089E-01
+#   exp. data sets for p-value:      8
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.019024E+00   1.004987E+00   4.964874E-01
+# endfb8.1      1.019051E+00   1.004938E+00   4.984411E-01
+# jeff4.0       1.015203E+00   9.901025E-01   4.276163E-01
+# jendl5.0      1.034534E+00   9.758361E-01   1.192814E+00
+# cendl3.2      1.024918E+00   9.891232E-01   7.922197E-01
+# eaf.2010      1.018635E+00   9.955786E-01   6.296796E-01

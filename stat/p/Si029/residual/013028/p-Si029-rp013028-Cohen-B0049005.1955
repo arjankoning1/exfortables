@@ -1,0 +1,52 @@
+# header: 
+#   title: Si29(p,x)Al28 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Cohen
+#   year: 1955
+#   subentry: B0049005
+#   X4 reaction: 14-SI-29(P,2P)13-AL-28,,SIG,,,EXP
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/B0049005
+# target: 
+#   Z: 14
+#   A: 29
+#   nuclide: Si29
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 111
+#   residual: 
+#     Z: 13
+#     A: 28
+#     nuclide: Al28
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.150000E+01   0.000000E+00   1.100000E+02   0.000000E+00   1.000000E+00
+# reference:
+#   author: B.L.Cohen, E.Newman, T.H.Handley
+#   title: (p,pn)+(p,2n) and (p,2p) cross sections in medium weight elements.
+#   journal: Jour: Physical Review, Vol.99, p.723 (1955)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.150000E+01
+#   E-max [MeV]:  2.150000E+01
+#   F-value:  2.052460E+00
+#   A-value:  5.343751E-01
+#   chi-2:  0.000000E+00
+#   p-value:  2.771151E-01
+#   exp. data sets for p-value:      2
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.624877E+00   6.154311E-01   0.000000E+00
+# endfb8.1      3.038661E+00   3.290923E-01   0.000000E+00
+# jendl5.0      1.327268E+00   7.534274E-01   0.000000E+00

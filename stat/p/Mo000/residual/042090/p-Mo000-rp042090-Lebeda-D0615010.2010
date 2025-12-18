@@ -1,0 +1,59 @@
+# header: 
+#   title: Mo0(p,x)Mo90 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Lebeda
+#   year: 2010
+#   subentry: D0615010
+#   X4 reaction: 42-MO-0(P,X)42-MO-90,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D0615010
+# target: 
+#   Z: 42
+#   A: 0
+#   nuclide: Mo0
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 42
+#     A: 90
+#     nuclide: Mo90
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.697000E+01   0.000000E+00   2.170000E-01   3.300000E-02   1.000000E+00
+   2.844000E+01   0.000000E+00   7.790000E-01   7.700000E-02   1.000000E+00
+   2.871000E+01   0.000000E+00   1.340000E+00   1.300000E-01   1.000000E+00
+   2.998000E+01   0.000000E+00   3.000000E+00   2.800000E-01   1.000000E+00
+   3.039000E+01   0.000000E+00   3.220000E+00   3.000000E-01   1.000000E+00
+   3.175000E+01   0.000000E+00   7.910000E+00   7.300000E-01   1.000000E+00
+   3.316000E+01   0.000000E+00   1.500000E+01   1.400000E+00   1.000000E+00
+   3.443000E+01   0.000000E+00   2.250000E+01   2.100000E+00   1.000000E+00
+   3.577000E+01   0.000000E+00   3.040000E+01   2.800000E+00   1.000000E+00
+   3.711000E+01   0.000000E+00   3.750000E+01   3.400000E+00   1.000000E+00
+# reference:
+#   author: O.Lebeda, M.Pruszynski
+#   title: New measurement of excitation functions for (p,x) reactions on natMo with  special regard to the formation of 95mTc, 96m+gTc, 99mTc and 99Mo
+#   journal: Jour: Applied Radiation and Isotopes, Vol.68, p.2355 (2010)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.697000E+01
+#   E-max [MeV]:  3.711000E+01
+#   F-value:  2.266422E+00
+#   A-value:  1.964851E+00
+#   chi-2:  1.970158E+02
+#   p-value:  2.559239E-01
+#   exp. data sets for p-value:      3
+#   libraries:      1
+##  Library          F              A            chi-2
+# tendl.2025    2.266422E+00   1.964851E+00   1.970158E+02

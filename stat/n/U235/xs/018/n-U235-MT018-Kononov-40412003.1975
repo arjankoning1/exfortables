@@ -1,0 +1,58 @@
+# header: 
+#   title: U235(n,f) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Kononov
+#   year: 1975
+#   subentry: 40412003
+#   X4 reaction: 92-U-235(N,F),,SIG,,AV
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/40412003
+# target: 
+#   Z: 92
+#   A: 235
+#   nuclide: U235
+# reaction: 
+#   type: (n,f)
+#   ENDF_MF: 3
+#   ENDF_MT: 18
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.500000E-02   5.000000E-03   2.259446E+03   1.530000E+02   9.586110E-01
+   2.500000E-02   5.000000E-03   2.088813E+03   1.390000E+02   9.586110E-01
+   3.500000E-02   5.000000E-03   1.927767E+03   1.290000E+02   9.586110E-01
+   4.500000E-02   5.000000E-03   1.810816E+03   1.210000E+02   9.586110E-01
+   5.500000E-02   5.000000E-03   1.775348E+03   1.190000E+02   9.586110E-01
+   6.500000E-02   5.000000E-03   1.694824E+03   1.130000E+02   9.586110E-01
+   7.500000E-02   5.000000E-03   1.598963E+03   1.070000E+02   9.586110E-01
+# reference:
+#   author: V.N.Kononov, E.D.Poletaev,B.D.Yurlov, Yu.S.Prokopets, A.A.Metlev, Yu.Ya.Stavisskiy
+#   title: Measurement of alpha and the 235U and 239Pu fission and capture cross sections for 10-80 keV neutrons
+#   journal: Jour: Atomnaya Energiya, Vol.38, p.82 (1975)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.500000E-02
+#   E-max [MeV]:  7.500000E-02
+#   F-value:  1.040486E+00
+#   A-value:  1.018552E+00
+#   chi-2:  6.098515E-01
+#   p-value:  3.592815E-01
+#   exp. data sets for p-value:      8
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.032842E+00   1.011246E+00   5.639784E-01
+# endfb8.1      1.029146E+00   1.011138E+00   4.835547E-01
+# jeff4.0       1.067003E+00   1.034838E+00   1.261440E+00
+# jendl5.0      1.035668E+00   1.017432E+00   4.758431E-01
+# cendl3.2      1.031881E+00   1.017610E+00   4.166086E-01
+# eaf.2010      1.038385E+00   1.022787E+00   5.580826E-01
+# irdff2.0      1.036977E+00   1.015012E+00   5.094537E-01

@@ -1,0 +1,51 @@
+# header: 
+#   title: U238(n,tot) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Gnidak
+#   year: 1977
+#   subentry: 40562005
+#   X4 reaction: 92-U-238(N,TOT),,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/40562005
+# target: 
+#   Z: 92
+#   A: 238
+#   nuclide: U238
+# reaction: 
+#   type: (n,tot)
+#   ENDF_MF: 3
+#   ENDF_MT: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.000000E-03   6.000000E-04   2.550000E+04   9.000000E+02   1.000000E+00
+# reference:
+#   author: N.L.Gnidak,A.L.Kiriljuk,E.A.Pavlenko, V.P.Vertebnyj,N.A.Trofimova,A.V.Grebnev
+#   title: Neutron cross-sections and alfa-value of U-235 for neutron energy 2.0 keV
+#   journal: Conf: 4.All Union Conf.on Neutron Phys.,Kiev,18-22 Apr 1977, Vol.2, p.22
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.000000E-03
+#   E-max [MeV]:  2.000000E-03
+#   F-value:  1.261788E+00
+#   A-value:  7.925301E-01
+#   chi-2:  3.455540E+01
+#   p-value:  6.298506E-02
+#   exp. data sets for p-value:      8
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.261350E+00   7.928011E-01   3.446437E+01
+# endfb8.1      1.260367E+00   7.934194E-01   3.425897E+01
+# jeff4.0       1.261447E+00   7.927405E-01   3.448452E+01
+# jendl5.0      1.260373E+00   7.934161E-01   3.426006E+01
+# cendl3.2      1.265847E+00   7.899849E-01   3.540759E+01
+# irdff2.0      1.261315E+00   7.928236E-01   3.445687E+01

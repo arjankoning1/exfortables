@@ -1,0 +1,63 @@
+# header: 
+#   title: Y89(p,x)Zr90 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Tsagari
+#   year: 2004
+#   subentry: O1182002S
+#   X4 reaction: 39-Y-89(P,G)40-ZR-90,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O1182002S
+# target: 
+#   Z: 39
+#   A: 89
+#   nuclide: Y89
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 40
+#     A: 90
+#     nuclide: Zr90
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 13
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.776917E+00   0.000000E+00   8.000000E-03   2.000000E-03   1.000000E+00
+   1.983230E+00   0.000000E+00   2.600000E-02   5.000000E-03   1.000000E+00
+   2.184486E+00   0.000000E+00   4.000000E-02   6.000000E-03   1.000000E+00
+   2.385742E+00   0.000000E+00   1.180000E-01   1.600000E-02   1.000000E+00
+   2.686108E+00   0.000000E+00   3.390000E-01   4.200000E-02   1.000000E+00
+   2.986475E+00   0.000000E+00   7.040000E-01   8.600000E-02   1.000000E+00
+   3.286842E+00   0.000000E+00   1.351000E+00   1.500000E-01   1.000000E+00
+   3.487086E+00   0.000000E+00   1.903000E+00   2.100000E-01   1.000000E+00
+   3.886564E+00   0.000000E+00   2.690000E+00   2.960000E-01   1.000000E+00
+   4.186931E+00   0.000000E+00   2.936000E+00   2.940000E-01   1.000000E+00
+   4.487298E+00   0.000000E+00   2.281000E+00   2.300000E-01   1.000000E+00
+   4.687542E+00   0.000000E+00   2.127000E+00   1.920000E-01   1.000000E+00
+   4.886775E+00   0.000000E+00   2.152000E+00   1.940000E-01   1.000000E+00
+# reference:
+#   author: P.Tsagari, M.Kokkoris, E.Skreti, A.G.Karydas, S.Harissopulos, T.Paradellis, P.Demetriou
+#   title: Cross section measurements of the 89-Y(p,gamma)90-Zr reaction at energies relevant to P-process nucleosynthesis
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.70, p.015802 (2004)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.776917E+00
+#   E-max [MeV]:  4.886775E+00
+#   F-value:  1.793739E+00
+#   A-value:  1.620976E+00
+#   chi-2:  5.152224E+01
+#   p-value:  3.335406E-01
+#   exp. data sets for p-value:      4
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.792353E+00   1.530143E+00   5.509353E+01
+# jendl5.0      1.795124E+00   1.717201E+00   4.795096E+01

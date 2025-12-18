@@ -1,0 +1,55 @@
+# header: 
+#   title: I127(p,x)I121 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Kuznetsova
+#   year: 1958
+#   subentry: A0924006
+#   X4 reaction: 53-I-127(P,X)53-I-121,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/A0924006
+# target: 
+#   Z: 53
+#   A: 127
+#   nuclide: I127
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 53
+#     A: 121
+#     nuclide: I121
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.000000E+02   0.000000E+00   1.049933E+02   1.599898E+01   9.999360E-01
+   1.700000E+02   0.000000E+00   2.049869E+01   3.199800E+00   9.999360E-01
+   3.000000E+02   0.000000E+00   4.999680E+01   9.999360E+00   9.999360E-01
+   4.800000E+02   0.000000E+00   2.749824E+01   6.599600E+00   9.999360E-01
+   6.600000E+02   0.000000E+00   1.629896E+01   2.499840E+00   9.999360E-01
+# reference:
+#   author: M.Ja.Kuznetsova, V.N.Mekhedov, V.A.Khalkin
+#   title: Investigation of the (p,pxn) reactions on iodine.
+#   journal: Jour: Zhurnal Eksperimental'noi i Teoret. Fiziki, Vol.34, p.1096 (1958)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.000000E+02
+#   E-max [MeV]:  6.600000E+02
+#   F-value:  2.161657E+00
+#   A-value:  1.582744E+00
+#   chi-2:  8.877892E+01
+#   p-value:  1.022925E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    2.507053E+00   1.897657E+00   1.461580E+02
+# jendl5.0      1.797310E+00   1.320091E+00   3.139987E+01

@@ -1,0 +1,55 @@
+# header: 
+#   title: Cu63(n,x)Ni63 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Qaim
+#   year: 1996
+#   subentry: 22671002A
+#   X4 reaction: 29-CU-63(N,P)28-NI-63,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22671002A
+# target: 
+#   Z: 29
+#   A: 63
+#   nuclide: Cu63
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 28
+#     A: 63
+#     nuclide: Ni63
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   7.200000E+00   4.000000E-01   9.100002E+01   2.300000E+01   1.000000E+00
+   8.200000E+00   4.000000E-01   1.050000E+02   1.800000E+01   1.000000E+00
+   9.200000E+00   4.000000E-01   1.120000E+02   2.900000E+01   1.000000E+00
+# reference:
+#   author: S.M.Qaim,St.Spellerberg,F.Cserpak,J.Csikai
+#   title: Radiochemical measurement of excitation function  of 63Cu(n,p)63Ni reaction from 7.2 to 14.6 MeV
+#   journal: Jour: Radiochimica Acta, Vol.73, p.111 (1996)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  7.200000E+00
+#   E-max [MeV]:  9.200000E+00
+#   F-value:  1.115677E+00
+#   A-value:  9.127309E-01
+#   chi-2:  5.959333E-01
+#   p-value:  1.881720E-01
+#   exp. data sets for p-value:      1
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.176064E+00   8.569332E-01   1.038884E+00
+# endfb8.1      1.091891E+00   9.302559E-01   4.591688E-01
+# jeff4.0       1.091891E+00   9.302559E-01   4.591688E-01
+# jendl5.0      1.081723E+00   9.358777E-01   4.265120E-01

@@ -1,0 +1,58 @@
+# header: 
+#   title: Zn68(n,p)Cu68m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Anders
+#   year: 1985
+#   subentry: 21976020
+#   X4 reaction: 30-ZN-68(N,P)29-CU-68-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21976020
+# target: 
+#   Z: 30
+#   A: 68
+#   nuclide: Zn68
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 29
+#     A: 68
+#     nuclide: Cu68m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.470000E+01   3.000000E-01   6.132600E+00   4.021400E-01   1.005347E+00
+# reference:
+#   author: B.Anders,B.M.Bahal,R.Pepelnik
+#   title: Measurements of 14 MeV neutron activation  cross section at KORONA
+#   journal: Rept: Ges.Kernen.-Verwertung, Schiffbau and Schiffahrt, No.85-E-24 (1985
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.470000E+01
+#   E-max [MeV]:  1.470000E+01
+#   F-value:  1.350932E+00
+#   A-value:  7.855864E-01
+#   chi-2:  1.413083E+01
+#   p-value:  1.784904E-01
+#   exp. data sets for p-value:      8
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.312556E+00   7.618722E-01   1.319468E+01
+# jeff4.0       1.650587E+00   6.058449E-01   3.613009E+01
+# jendl5.0      1.211487E+00   8.254321E-01   7.191971E+00
+# eaf.2010      1.000344E+00   9.996566E-01   6.571908E-03

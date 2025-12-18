@@ -1,0 +1,62 @@
+# header: 
+#   title: Al27(n,p)Mg27 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Enz
+#   year: 1985
+#   subentry: 22012002
+#   X4 reaction: 13-AL-27(N,P)12-MG-27,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22012002
+# target: 
+#   Z: 13
+#   A: 27
+#   nuclide: Al27
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 12
+#     A: 27
+#     nuclide: Mg27
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   6.360000E+00   1.600000E-01   8.538162E+01   8.646240E+00   1.350975E+00
+   6.560000E+00   1.600000E-01   7.876186E+01   8.105850E+00   1.350975E+00
+   6.740000E+00   1.600000E-01   8.038303E+01   8.240900E+00   1.350975E+00
+   6.930000E+00   1.600000E-01   8.943455E+01   9.186630E+00   1.350975E+00
+   7.900000E+00   1.400000E-01   1.017284E+02   1.148329E+01   1.350975E+00
+   8.100001E+00   1.300000E-01   1.060515E+02   1.202368E+01   1.350975E+00
+   8.290000E+00   1.300000E-01   1.124011E+02   1.269916E+01   1.350975E+00
+# reference:
+#   author: W.Enz,D.Kollewe,K.W.Hoffmann
+#   title: Measurements of cross sections for the reactions 27Al(n,p)27Mg, 27Al(n,alpha)24Na and 27Al(n,alpha)24mNa in the energy region between 43 MeV and 8.3 MeV
+#   journal: Jour: Annalen der Physik, Vol.42, Issue.3, p.283 (1985)
+# statistics:
+#   NEA score: T2
+#   IAEA score:  0
+#   E-min [MeV]:  6.360000E+00
+#   E-max [MeV]:  8.290000E+00
+#   F-value:  1.448147E+00
+#   A-value:  7.009231E-01
+#   chi-2:  8.514260E+00
+#   p-value:  5.589352E-02
+#   exp. data sets for p-value:      3
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.489129E+00   6.779152E-01   9.690573E+00
+# endfb8.1      1.378024E+00   7.271297E-01   6.830545E+00
+# jeff4.0       1.530339E+00   6.653965E-01   1.069218E+01
+# jendl5.0      1.271910E+00   8.022744E-01   4.402343E+00
+# cendl3.2      1.533058E+00   6.562121E-01   1.077233E+01
+# eaf.2010      1.517870E+00   6.619760E-01   1.038162E+01
+# irdff2.0      1.378011E+00   7.271360E-01   6.830237E+00

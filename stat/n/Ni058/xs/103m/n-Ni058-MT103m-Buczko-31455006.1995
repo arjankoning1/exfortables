@@ -1,0 +1,67 @@
+# header: 
+#   title: Ni58(n,p)Co58m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Buczko
+#   year: 1995
+#   subentry: 31455006
+#   X4 reaction: 28-NI-58(N,P)27-CO-58-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/31455006
+# target: 
+#   Z: 28
+#   A: 58
+#   nuclide: Ni58
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 27
+#     A: 58
+#     nuclide: Co58m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.380000E+00   6.000000E-02   1.680000E+02   1.200000E+01   1.000000E+00
+   5.890000E+00   6.000000E-02   2.100000E+02   1.400000E+01   1.000000E+00
+   6.390000E+00   6.000000E-02   2.200000E+02   1.500000E+01   1.000000E+00
+   6.800000E+00   6.000000E-02   2.540000E+02   1.800000E+01   1.000000E+00
+   8.020001E+00   6.000000E-02   2.590000E+02   1.800000E+01   1.000000E+00
+   8.430000E+00   6.000000E-02   2.610000E+02   1.800000E+01   1.000000E+00
+   8.920000E+00   6.000000E-02   2.470000E+02   1.700000E+01   1.000000E+00
+   9.600000E+00   6.000000E-02   2.940000E+02   2.000000E+01   1.000000E+00
+   1.113000E+01   7.000000E-02   2.660000E+02   1.800000E+01   1.000000E+00
+   1.220000E+01   8.000000E-02   2.310000E+02   1.600000E+01   1.000000E+00
+# reference:
+#   author: Cs.M.Buczko, J.Csikai, S.Sudar, A.Grallert, S.A.Jonah,  B.W.Jimba, T.Chimoye, M.Wagner
+#   title: Excitation functions and isomeric cross section  ratio of the 58Ni(n,p)58Com,g reactions from 2 to  15 MeV
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.52, p.1940 (1995)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  5.380000E+00
+#   E-max [MeV]:  1.220000E+01
+#   F-value:  1.111825E+00
+#   A-value:  1.028812E+00
+#   chi-2:  3.194762E+00
+#   p-value:  3.032934E-01
+#   exp. data sets for p-value:      1
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.074025E+00   9.617481E-01   1.333386E+00
+# jeff4.0       1.058488E+00   1.013085E+00   1.009239E+00
+# jendl5.0      1.079557E+00   1.009129E+00   1.637804E+00
+# eaf.2010      1.191689E+00   1.139436E+00   8.798618E+00

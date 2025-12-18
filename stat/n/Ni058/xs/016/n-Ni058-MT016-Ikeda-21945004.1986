@@ -1,0 +1,66 @@
+# header: 
+#   title: Ni58(n,2n)Ni57 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Ikeda
+#   year: 1986
+#   subentry: 21945004
+#   X4 reaction: 28-NI-58(N,2N)28-NI-57,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21945004
+# target: 
+#   Z: 28
+#   A: 58
+#   nuclide: Ni58
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 28
+#     A: 57
+#     nuclide: Ni57
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 11
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.354000E+01   0.000000E+00   1.339914E+01   7.369500E-01   9.999360E-01
+   1.366000E+01   0.000000E+00   1.599898E+01   8.479500E-01   9.999360E-01
+   1.380000E+01   0.000000E+00   1.959874E+01   1.058300E+00   9.999360E-01
+   1.395000E+01   0.000000E+00   2.219858E+01   1.220900E+00   9.999360E-01
+   1.410000E+01   0.000000E+00   2.569835E+01   1.413410E+00   9.999360E-01
+   1.432000E+01   0.000000E+00   3.059804E+01   1.652300E+00   9.999360E-01
+   1.452000E+01   0.000000E+00   3.599769E+01   1.943900E+00   9.999360E-01
+   1.469000E+01   0.000000E+00   3.859753E+01   2.045700E+00   9.999360E-01
+   1.481000E+01   0.000000E+00   4.229729E+01   2.241800E+00   9.999360E-01
+   1.489000E+01   0.000000E+00   4.309724E+01   2.284200E+00   9.999360E-01
+   1.492000E+01   0.000000E+00   4.379719E+01   2.365000E+00   9.999360E-01
+# reference:
+#   author: Y.Ikeda,H.Maekawa,T.Nakamura,H.Miyade,K.Kawade, H.Yamamoto,T.Katoh,K.Oishi
+#   title: Measurement of high threshold activation cross  sections for 13.5 to 15.0 MeV neutrons
+#   journal: Jour: Radiation Effects, Vol.92, p.175 (1986)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.354000E+01
+#   E-max [MeV]:  1.492000E+01
+#   F-value:  1.071029E+00
+#   A-value:  9.446424E-01
+#   chi-2:  1.909219E+00
+#   p-value:  2.180638E-01
+#   exp. data sets for p-value:      8
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.090471E+00   9.184805E-01   2.855940E+00
+# endfb8.1      1.089282E+00   9.195628E-01   2.803244E+00
+# jeff4.0       1.090471E+00   9.184804E-01   2.855946E+00
+# jendl5.0      1.017957E+00   9.934378E-01   3.319114E-01
+# cendl3.2      1.045058E+00   9.712452E-01   1.021050E+00
+# eaf.2010      1.033314E+00   9.752055E-01   6.935933E-01
+# irdff2.0      1.089273E+00   9.195706E-01   2.802852E+00

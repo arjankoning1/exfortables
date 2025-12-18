@@ -1,0 +1,51 @@
+# header: 
+#   title: H1(n,tot) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Lebowitz
+#   year: 1965
+#   subentry: 12663002
+#   X4 reaction: 1-H-1(N,TOT),,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/12663002
+# target: 
+#   Z: 1
+#   A: 1
+#   nuclide: H1
+# reaction: 
+#   type: (n,tot)
+#   ENDF_MF: 3
+#   ENDF_MT: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.204000E+00   4.165200E-03   2.212000E+03   3.760400E+00   1.000000E+00
+   5.585000E+00   5.585000E-03   1.465000E+03   2.344000E+00   1.000000E+00
+   7.870000E+00   7.870000E-03   1.168000E+03   2.452800E+00   1.000000E+00
+# reference:
+#   author: J.M.LEBOWITZ
+#   title: PRECISION MEASUREMENT OF THE NEUTRON-PROTON TOTAL  CROSS SECTION AT 3.204 AND 5.858 MEV.
+#   journal: Thesis: Lebowitz (1965)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  3.204000E+00
+#   E-max [MeV]:  7.870000E+00
+#   F-value:  1.020421E+00
+#   A-value:  9.896593E-01
+#   chi-2:  1.187383E+02
+#   p-value:  3.451463E-01
+#   exp. data sets for p-value:      8
+#   libraries:      4
+##  Library          F              A            chi-2
+# endfb8.1      1.020985E+00   9.884651E-01   1.226066E+02
+# jeff4.0       1.020985E+00   9.884651E-01   1.226066E+02
+# jendl5.0      1.020985E+00   9.884651E-01   1.226066E+02
+# cendl3.2      1.018630E+00   9.932507E-01   1.071333E+02

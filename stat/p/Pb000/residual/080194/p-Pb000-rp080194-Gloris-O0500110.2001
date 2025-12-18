@@ -1,0 +1,69 @@
+# header: 
+#   title: Pb0(p,x)Hg194 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Gloris
+#   year: 2001
+#   subentry: O0500110
+#   X4 reaction: 82-PB-0(P,X)80-HG-194,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O0500110
+# target: 
+#   Z: 82
+#   A: 0
+#   nuclide: Pb0
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 80
+#     A: 194
+#     nuclide: Hg194
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 18
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.060000E+02   1.000000E+00   2.900000E+00   9.899999E-01   1.000000E+00
+   1.120000E+02   2.000000E+00   5.640000E+00   1.020000E+00   1.000000E+00
+   1.130000E+02   1.000000E+00   5.550000E+00   1.410000E+00   1.000000E+00
+   1.220000E+02   1.000000E+00   9.160000E+00   1.530000E+00   1.000000E+00
+   1.230000E+02   2.000000E+00   1.080000E+01   1.500000E+00   1.000000E+00
+   1.290000E+02   1.000000E+00   1.700000E+01   3.700000E+00   1.000000E+00
+   1.320000E+02   2.000000E+00   1.560000E+01   2.800000E+00   1.000000E+00
+   1.430000E+02   1.000000E+00   2.110000E+01   5.400000E+00   1.000000E+00
+   1.440000E+02   1.000000E+00   2.520000E+01   3.500000E+00   1.000000E+00
+   1.580000E+02   1.000000E+00   3.050000E+01   4.100000E+00   1.000000E+00
+   1.600000E+02   1.000000E+00   3.420000E+01   4.000000E+00   1.000000E+00
+   1.670000E+02   1.000000E+00   3.670000E+01   4.900000E+00   1.000000E+00
+   1.700000E+02   1.000000E+00   4.500000E+01   7.000000E+00   1.000000E+00
+   2.720000E+02   1.000000E+00   7.730000E+01   9.600000E+00   1.000000E+00
+   3.220000E+02   2.000000E+00   8.080000E+01   1.500000E+01   1.000000E+00
+   5.530000E+02   2.000000E+00   7.270000E+01   1.250000E+01   1.000000E+00
+   9.960000E+02   1.000000E+00   5.250000E+01   1.370000E+01   1.000000E+00
+   1.390000E+03   1.000000E+00   3.540000E+01   8.290001E+01   1.000000E+00
+# reference:
+#   author: M.Gloris, R.Michel, F.Sudbrok, U.Herpers, P.Malmborg, B.Holmqvist
+#   title: Proton-induced production of residual radionuclides in lead at intermediate energies
+#   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.A, Vol.463, p.593 (20
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  1.060000E+02
+#   E-max [MeV]:  1.390000E+03
+#   F-value:  7.346759E+00
+#   A-value:  1.714416E-01
+#   chi-2:  2.312409E+01
+#   p-value:  6.684685E-02
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    2.068306E+00   5.388587E-01   1.052436E+01
+# endfb8.1      7.656911E+00   1.315968E-01   2.168509E+01
+# jendl5.0      1.462158E+01   6.887558E-02   3.236538E+01

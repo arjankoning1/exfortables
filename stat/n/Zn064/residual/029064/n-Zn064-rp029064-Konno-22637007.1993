@@ -1,0 +1,58 @@
+# header: 
+#   title: Zn64(n,x)Cu64 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Konno
+#   year: 1993
+#   subentry: 22637007
+#   X4 reaction: 30-ZN-64(N,P)29-CU-64,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22637007
+# target: 
+#   Z: 30
+#   A: 64
+#   nuclide: Zn64
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 29
+#     A: 64
+#     nuclide: Cu64
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.332000E+01   0.000000E+00   2.088529E+02   9.751300E+00   1.087775E+00
+   1.356000E+01   0.000000E+00   1.903607E+02   8.978701E+00   1.087775E+00
+   1.374000E+01   0.000000E+00   1.696930E+02   8.283400E+00   1.087775E+00
+   1.397000E+01   0.000000E+00   1.627312E+02   8.100500E+00   1.087775E+00
+   1.421000E+01   0.000000E+00   1.564221E+02   7.752500E+00   1.087775E+00
+   1.464000E+01   0.000000E+00   1.471760E+02   7.222700E+00   1.087775E+00
+   1.490000E+01   0.000000E+00   1.385826E+02   6.954170E+00   1.087775E+00
+# reference:
+#   author: C.Konno, Y.Ikeda, K.Oishi, K.Kawade, H.Yamamoto, H.Maekawa
+#   title: Activation Cross section measurements at neutron  energy from 13.3 to 14.9 MeV
+#   journal: Rept: JAERI Reports, No.1329 (1993)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.332000E+01
+#   E-max [MeV]:  1.490000E+01
+#   F-value:  1.056978E+00
+#   A-value:  1.041810E+00
+#   chi-2:  1.714005E+00
+#   p-value:  1.933816E-01
+#   exp. data sets for p-value:      8
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.062404E+00   1.048473E+00   2.004587E+00
+# jeff4.0       1.062405E+00   1.048473E+00   2.004607E+00
+# jendl5.0      1.044351E+00   1.028611E+00   1.132822E+00

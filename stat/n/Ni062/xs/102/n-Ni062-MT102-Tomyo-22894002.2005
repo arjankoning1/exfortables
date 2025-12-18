@@ -1,0 +1,62 @@
+# header: 
+#   title: Ni62(n,g)Ni63 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Tomyo
+#   year: 2005
+#   subentry: 22894002
+#   X4 reaction: 28-NI-62(N,G)28-NI-63,,SIG,,AV
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22894002
+# target: 
+#   Z: 28
+#   A: 62
+#   nuclide: Ni62
+# reaction: 
+#   type: (n,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 28
+#     A: 63
+#     nuclide: Ni63
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   6.250000E-03   7.500000E-04   3.090000E+02   3.000000E+01   1.000000E+00
+   7.750000E-03   7.500000E-04   1.590000E+02   1.700000E+01   1.000000E+00
+   1.025000E-02   1.750000E-03   1.110000E+02   1.000000E+01   1.000000E+00
+   1.350000E-02   1.500000E-03   4.410000E+01   4.200000E+00   1.000000E+00
+   2.000000E-02   5.000000E-03   2.070000E+01   1.700000E+00   1.000000E+00
+   3.000000E-02   5.000000E-03   2.430000E+01   1.400000E+00   1.000000E+00
+   4.500000E-02   1.000000E-02   1.680000E+01   9.000000E-01   1.000000E+00
+   7.250000E-02   1.750000E-02   7.400000E+00   5.000000E-01   1.000000E+00
+# reference:
+#   author: A.Tomyo,Y.Temma,M.Segawa,Y.Nagai,T.Shima,T.Ohsaki, M.Igashira, H.Makii,T.Masaki,J.Nishiyama
+#   title: Ni-62(n,gamma)Ni-63 reaction and overproduction   of Ni isotopes
+#   journal: Jour: Astrophysical Journal, Vol.623, p.L153 (2005)
+# statistics:
+#   NEA score: T2
+#   IAEA score:  1
+#   E-min [MeV]:  6.250000E-03
+#   E-max [MeV]:  7.250000E-02
+#   F-value:  7.059396E+00
+#   A-value:  2.469588E-01
+#   chi-2:  2.241146E+02
+#   p-value:  1.970065E-01
+#   exp. data sets for p-value:      2
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    6.784190E+00   2.396546E-01   1.465865E+02
+# endfb8.1      8.125258E+00   1.625304E-01   1.212366E+02
+# jeff4.0       6.784003E+00   2.396636E-01   1.465912E+02
+# jendl5.0      8.125258E+00   1.625304E-01   1.212366E+02
+# cendl3.2      4.218933E+00   1.002619E+00   6.860912E+02
+# eaf.2010      8.812305E+00   1.491262E-01   1.229453E+02

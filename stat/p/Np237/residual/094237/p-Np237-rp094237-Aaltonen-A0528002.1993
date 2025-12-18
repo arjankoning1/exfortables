@@ -1,0 +1,57 @@
+# header: 
+#   title: Np237(p,x)Pu237 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Aaltonen
+#   year: 1993
+#   subentry: A0528002
+#   X4 reaction: 93-NP-237(P,N)94-PU-237,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/A0528002
+# target: 
+#   Z: 93
+#   A: 237
+#   nuclide: Np237
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+#   residual: 
+#     Z: 94
+#     A: 237
+#     nuclide: Pu237
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.040000E+01   0.000000E+00   1.270000E+00   3.700000E-01   1.000000E+00
+   1.180000E+01   0.000000E+00   2.810000E+00   2.000000E-01   1.000000E+00
+   1.290000E+01   0.000000E+00   3.720000E+00   2.700000E-01   1.000000E+00
+   1.400000E+01   0.000000E+00   4.540000E+00   3.600000E-01   1.000000E+00
+   1.500000E+01   0.000000E+00   3.930000E+00   2.100000E-01   1.000000E+00
+   1.600000E+01   0.000000E+00   5.380000E+00   5.100000E-01   1.000000E+00
+   1.700000E+01   0.000000E+00   5.240000E+00   2.700000E-01   1.000000E+00
+# reference:
+#   author: J.Aaltonen,M.Brenner,V.D.Dmitriev,A.M.Fridkin, V.B.Funshtein,E.A.Gromova,S.-J.Heselius,V.A.Jakovlev, Yu.A.Selitskiy
+#   title: Formation of Pu-236 and Pu-237 by proton-induced reactions on Np-237.
+#   journal: Jour: Applied Radiation and Isotopes, Vol.44, p.831 (1993)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.040000E+01
+#   E-max [MeV]:  1.700000E+01
+#   F-value:  1.363432E+00
+#   A-value:  1.127295E+00
+#   chi-2:  4.293979E+01
+#   p-value:  3.895693E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.492173E+00   1.409923E+00   8.078400E+01
+# jendl5.0      1.195948E+00   9.013222E-01   5.095574E+00

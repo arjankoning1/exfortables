@@ -1,0 +1,51 @@
+# header: 
+#   title: Mn55(n,x)Mn54 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Kimura
+#   year: 1990
+#   subentry: 22093009
+#   X4 reaction: 25-MN-55(N,2N)25-MN-54,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22093009
+# target: 
+#   Z: 25
+#   A: 55
+#   nuclide: Mn55
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 25
+#     A: 54
+#     nuclide: Mn54
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.405000E+01   7.000000E-02   7.663378E+02   1.585501E+01   9.883129E-01
+# reference:
+#   author: I.Kimura, K.Kobayashi
+#   title: Calibrated fission and fusion neutron fields at the  Kyoto University Reactor
+#   journal: Jour: Nuclear Science and Engineering, Vol.106, p.332 (1990)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.405000E+01
+#   E-max [MeV]:  1.405000E+01
+#   F-value:  1.042390E+00
+#   A-value:  9.593437E-01
+#   chi-2:  4.196657E+00
+#   p-value:  4.238496E-01
+#   exp. data sets for p-value:      8
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.043346E+00   9.584548E-01   4.348440E+00
+# jendl5.0      1.041413E+00   9.602334E-01   4.044873E+00

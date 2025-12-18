@@ -1,0 +1,64 @@
+# header: 
+#   title: Ga71(p,x)Ga70 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Porile
+#   year: 1963
+#   subentry: P0014020
+#   X4 reaction: 31-GA-71(P,X)31-GA-70,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/P0014020
+# target: 
+#   Z: 31
+#   A: 71
+#   nuclide: Ga71
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 31
+#     A: 70
+#     nuclide: Ga70
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 14
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.710000E+01   0.000000E+00   1.060000E+02   1.590000E+01   1.000000E+00
+   2.090000E+01   0.000000E+00   2.410000E+02   3.615000E+01   1.000000E+00
+   2.440000E+01   0.000000E+00   2.440000E+02   3.660000E+01   1.000000E+00
+   2.570000E+01   0.000000E+00   2.960000E+02   4.440000E+01   1.000000E+00
+   2.870000E+01   0.000000E+00   2.960000E+02   4.440000E+01   1.000000E+00
+   3.260000E+01   0.000000E+00   2.200000E+02   3.300000E+01   1.000000E+00
+   3.600000E+01   0.000000E+00   2.360000E+02   3.540000E+01   1.000000E+00
+   3.750000E+01   0.000000E+00   1.760000E+02   2.640000E+01   1.000000E+00
+   4.130000E+01   0.000000E+00   1.760000E+02   2.640000E+01   1.000000E+00
+   4.360000E+01   0.000000E+00   1.890000E+02   2.835000E+01   1.000000E+00
+   4.930000E+01   0.000000E+00   2.200000E+02   3.300000E+01   1.000000E+00
+   5.030000E+01   0.000000E+00   1.850000E+02   2.775000E+01   1.000000E+00
+   5.530000E+01   0.000000E+00   1.920000E+02   2.880000E+01   1.000000E+00
+   5.650000E+01   0.000000E+00   1.770000E+02   2.655000E+01   1.000000E+00
+# reference:
+#   author: N.T.Porile,S.Tanaka,H.Amano,M.Furukawa,S.Iwata,M.Yagi
+#   title: Nuclear reactions of Ga69 and Ga71 with 13-56 MeV  protons
+#   journal: Jour: Nuclear Physics, Vol.43, p.500 (1963)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.710000E+01
+#   E-max [MeV]:  5.650000E+01
+#   F-value:  1.153793E+00
+#   A-value:  9.606382E-01
+#   chi-2:  1.160323E+00
+#   p-value:  3.122161E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.187888E+00   9.728979E-01   1.549954E+00
+# jendl5.0      1.112075E+00   9.485328E-01   7.706931E-01

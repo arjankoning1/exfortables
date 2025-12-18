@@ -1,0 +1,51 @@
+# header: 
+#   title: Er168(n,x)Ho168 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Dzysiuk
+#   year: 2012
+#   subentry: 32233024
+#   X4 reaction: 68-ER-168(N,P)67-HO-168,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/32233024
+# target: 
+#   Z: 68
+#   A: 168
+#   nuclide: Er168
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 67
+#     A: 168
+#     nuclide: Ho168
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.470000E+01   0.000000E+00   3.100000E+00   4.000000E-01   1.000000E+00
+# reference:
+#   author: N.Dzysiuk,A.Kadenko,I.Kadenko,G.Primenko
+#   title: Measurement and systematic study of (n, x) cross sections for dysprosium (Dy), erbium (Er), and ytterbium (Yb) isotopes at 14.7 MeV neutron energy
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.86, p.034609 (2012)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.470000E+01
+#   E-max [MeV]:  1.470000E+01
+#   F-value:  1.044131E+00
+#   A-value:  9.652455E-01
+#   chi-2:  3.654611E-01
+#   p-value:  3.071443E-01
+#   exp. data sets for p-value:      7
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.061991E+00   9.416277E-01   6.267226E-01
+# jeff4.0       1.010657E+00   9.894558E-01   1.041996E-01

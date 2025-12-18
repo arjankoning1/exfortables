@@ -1,0 +1,56 @@
+# header: 
+#   title: Nd142(n,x)Nd141 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Frehaut
+#   year: 2016
+#   subentry: 20416093
+#   X4 reaction: 60-ND-142(N,2N)60-ND-141,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20416093
+# target: 
+#   Z: 60
+#   A: 142
+#   nuclide: Nd142
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 60
+#     A: 141
+#     nuclide: Nd141
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.042000E+01   2.000000E-01   2.050000E+02   1.800000E+01   1.000000E+00
+   1.091000E+01   1.900000E-01   4.320000E+02   2.700000E+01   1.000000E+00
+   1.188000E+01   1.700000E-01   8.820000E+02   6.700000E+01   1.000000E+00
+   1.285000E+01   1.600000E-01   1.356000E+03   9.900001E+01   1.000000E+00
+   1.380000E+01   1.500000E-01   1.628000E+03   1.190000E+02   1.000000E+00
+   1.476000E+01   1.300000E-01   1.963000E+03   1.410000E+02   1.000000E+00
+# reference:
+#   author: J.Frehaut,A.Bertin,R.Bois,J.Jary,G.Mosinski
+#   title: Status of (n,xn) cross section measurements  at Bruyeres-le-Chatel
+#   journal: Rept: Centre d'Etudes Nucleaires, Saclay Reports, No.6447 (2016)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.042000E+01
+#   E-max [MeV]:  1.476000E+01
+#   F-value:  1.935754E+00
+#   A-value:  5.792812E-01
+#   chi-2:  3.291814E+01
+#   p-value:  1.898293E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.907653E+00   5.818222E-01   3.259542E+01
+# jeff4.0       1.963647E+00   5.767513E-01   3.324086E+01

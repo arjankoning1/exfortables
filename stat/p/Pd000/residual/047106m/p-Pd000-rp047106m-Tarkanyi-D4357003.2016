@@ -1,0 +1,65 @@
+# header: 
+#   title: Pd0(p,x)Ag106m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Tarkanyi
+#   year: 2016
+#   subentry: D4357003
+#   X4 reaction: 46-PD-0(P,X)47-AG-106-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D4357003
+# target: 
+#   Z: 46
+#   A: 0
+#   nuclide: Pd0
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 47
+#     A: 106
+#     nuclide: Ag106m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.620000E+01   1.900000E+00   1.255000E+02   1.410000E+01   1.000000E+00
+   4.200000E+01   1.500000E+00   7.181000E+01   8.070001E+00   1.000000E+00
+   4.720000E+01   1.100000E+00   4.122000E+01   4.640000E+00   1.000000E+00
+   5.200000E+01   1.400000E+00   4.372000E+01   4.920000E+00   1.000000E+00
+   5.650000E+01   1.200000E+00   4.267000E+01   4.800000E+00   1.000000E+00
+   6.070000E+01   1.000000E+00   4.161000E+01   4.680000E+00   1.000000E+00
+   6.570000E+01   8.000000E-01   3.270000E+01   3.690000E+00   1.000000E+00
+   7.040000E+01   6.000000E-01   2.178000E+01   2.460000E+00   1.000000E+00
+   7.490000E+01   5.000000E-01   1.729000E+01   1.950000E+00   1.000000E+00
+   7.920000E+01   5.000000E-01   1.868000E+01   2.110000E+00   1.000000E+00
+# reference:
+#   author: F.Tarkanyi,F.Ditroi,S.Takacs,J.Csikai,A.Hermanne, M.S.Uddin,M.Baba
+#   title: Activation cross sections of proton induced nuclear reactions on palladium up to 80 MeV
+#   journal: Jour: Applied Radiation and Isotopes, Vol.114, p.128 (2016)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  3.620000E+01
+#   E-max [MeV]:  7.920000E+01
+#   F-value:  1.672008E+00
+#   A-value:  6.358927E-01
+#   chi-2:  1.167892E+01
+#   p-value:  2.552896E-01
+#   exp. data sets for p-value:      3
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.835913E+00   5.690197E-01   1.536875E+01
+# jendl5.0      1.490587E+00   7.106248E-01   7.989102E+00

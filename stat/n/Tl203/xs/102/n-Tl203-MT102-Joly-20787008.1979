@@ -1,0 +1,56 @@
+# header: 
+#   title: Tl203(n,g)Tl204 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Joly
+#   year: 1979
+#   subentry: 20787008
+#   X4 reaction: 81-TL-203(N,G)81-TL-204,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20787008
+# target: 
+#   Z: 81
+#   A: 203
+#   nuclide: Tl203
+# reaction: 
+#   type: (n,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 81
+#     A: 204
+#     nuclide: Tl204
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.000000E-01   1.600000E-01   5.300000E+01   1.000000E+01   1.000000E+00
+   1.000000E+00   1.400000E-01   4.600000E+01   9.000000E+00   1.000000E+00
+   2.500000E+00   1.200000E-01   2.300000E+01   8.000000E+00   1.000000E+00
+# reference:
+#   author: S.Joly,J.Voignier,G.Grenier,D.M.Drake,L.Nilsson
+#   title: Neutron capture cross section of rhodium,  thulium, iridium and gold between 0.5 and 3 MeV
+#   journal: Jour: Nuclear Science and Engineering, Vol.70, p.53 (1979)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  5.000000E-01
+#   E-max [MeV]:  2.500000E+00
+#   F-value:  1.599206E+00
+#   A-value:  7.242809E-01
+#   chi-2:  1.589685E+00
+#   p-value:  1.230238E-01
+#   exp. data sets for p-value:      2
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2025    1.439659E+00   7.292662E-01   1.642095E+00
+# endfb8.1      1.111684E+00   9.036685E-01   5.621173E-01
+# jeff4.0       1.439659E+00   7.292662E-01   1.642095E+00
+# jendl5.0      1.415801E+00   7.360874E-01   1.652311E+00
+# eaf.2010      2.314851E+00   5.634100E-01   2.449809E+00

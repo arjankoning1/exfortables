@@ -1,0 +1,57 @@
+# header: 
+#   title: Zn66(n,x)Cu66 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Kasugai
+#   year: 1998
+#   subentry: 22433013
+#   X4 reaction: 30-ZN-66(N,P)29-CU-66,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22433013
+# target: 
+#   Z: 30
+#   A: 66
+#   nuclide: Zn66
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 29
+#     A: 66
+#     nuclide: Cu66
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.340000E+01   5.000000E-02   5.930000E+01   3.735900E+00   1.000000E+00
+   1.370000E+01   5.000000E-02   4.970000E+01   4.970000E+00   1.000000E+00
+   1.401000E+01   5.000000E-02   5.770000E+01   4.789100E+00   1.000000E+00
+   1.435000E+01   5.000000E-02   5.380000E+01   4.519200E+00   1.000000E+00
+   1.464000E+01   5.000000E-02   5.620001E+01   5.058000E+00   1.000000E+00
+   1.487000E+01   5.000000E-02   5.920000E+01   5.742400E+00   1.000000E+00
+# reference:
+#   author: Y.Kasugai, H.Yamamoto, K.Kawade, T.Iida
+#   title: Measurement of (n,p) cross-sections for short-lived  products by 13.4-14.9 MeV neutrons
+#   journal: Jour: Annals of Nuclear Energy, Vol.25, Issue.1-3, p.23 (1998)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.340000E+01
+#   E-max [MeV]:  1.487000E+01
+#   F-value:  1.251634E+00
+#   A-value:  1.193267E+00
+#   chi-2:  9.510171E+00
+#   p-value:  1.806207E-01
+#   exp. data sets for p-value:      3
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.215015E+00   1.193498E+00   6.530674E+00
+# jeff4.0       1.390799E+00   1.379918E+00   2.128089E+01
+# jendl5.0      1.068442E+00   1.031663E+00   7.189543E-01

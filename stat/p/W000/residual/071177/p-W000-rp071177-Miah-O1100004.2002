@@ -1,0 +1,56 @@
+# header: 
+#   title: W0(p,x)Lu177 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Miah
+#   year: 2002
+#   subentry: O1100004
+#   X4 reaction: 74-W-0(P,X)71-LU-177,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O1100004
+# target: 
+#   Z: 74
+#   A: 0
+#   nuclide: W0
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 71
+#     A: 177
+#     nuclide: Lu177
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.210000E+01   9.040000E-01   6.506000E+00   6.514000E-01   1.000000E+00
+   5.540000E+01   8.700000E-01   7.391000E+00   1.096000E+00   1.000000E+00
+   5.860000E+01   8.330000E-01   7.928000E+00   5.481000E-01   1.000000E+00
+   6.320000E+01   7.590000E-01   1.197000E+01   2.540000E+00   1.000000E+00
+   6.610000E+01   7.120000E-01   1.432000E+01   6.493000E-01   1.000000E+00
+   6.890000E+01   6.620000E-01   1.556000E+01   4.926000E-01   1.000000E+00
+# reference:
+#   author: M.H.Miah, J.Kuhnhenn, U.Herpers, R.Michel, P.Kubik
+#   title: Production of residual nuclides by proton-induced reactions on target W at an energy of 72 MeV
+#   journal: Jour: Jour. of Nuclear Science and Technology Suppl., Vol.2, p.369 (2002
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  5.210000E+01
+#   E-max [MeV]:  6.890000E+01
+#   F-value:  2.815757E+03
+#   A-value:  3.605869E-04
+#   chi-2:  3.098961E+02
+#   p-value:  2.086163E-07
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    4.442664E+03   2.254173E-04   3.100080E+02
+# jendl5.0      1.735648E+03   5.768097E-04   3.097842E+02

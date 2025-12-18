@@ -1,0 +1,55 @@
+# header: 
+#   title: Sr90(n,g)Sr91 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Harada
+#   year: 1994
+#   subentry: 22279002
+#   X4 reaction: 38-SR-90(N,G)38-SR-91,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22279002
+# target: 
+#   Z: 38
+#   A: 90
+#   nuclide: Sr90
+# reaction: 
+#   type: (n,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 38
+#     A: 91
+#     nuclide: Sr91
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.530000E-08   0.000000E+00   1.530000E+01   4.200000E+00   1.000000E+00
+# reference:
+#   author: H.Harada,T.Sekine,Y.Hatsukawa,N.Shigeta,K.Kobayashi,  T.Ohtsuki,T.Katoh
+#   title: Measurement of the thermal neutron cross section of  the 90-Sr(n,g)91-Sr reaction
+#   journal: Jour: Jour. of Nuclear Science and Technology, Vol.31, p.173 (1994)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.530000E-08
+#   E-max [MeV]:  2.530000E-08
+#   F-value:  1.284246E+00
+#   A-value:  8.160750E-01
+#   chi-2:  1.004385E+00
+#   p-value:  1.507579E-01
+#   exp. data sets for p-value:      3
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.321635E+00   7.566383E-01   1.368277E+00
+# endfb8.1      1.002745E+00   9.972625E-01   1.252457E-02
+# jeff4.0       1.321602E+00   7.566574E-01   1.368145E+00
+# jendl5.0      1.336569E+00   7.481844E-01   1.427391E+00
+# cendl3.2      1.000389E+00   9.996109E-01   1.776959E-03
+# eaf.2010      1.445628E+00   6.917410E-01   1.848198E+00

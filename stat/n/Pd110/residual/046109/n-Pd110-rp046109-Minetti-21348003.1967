@@ -1,0 +1,52 @@
+# header: 
+#   title: Pd110(n,x)Pd109 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Minetti
+#   year: 1967
+#   subentry: 21348003
+#   X4 reaction: 46-PD-110(N,2N)46-PD-109,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21348003
+# target: 
+#   Z: 46
+#   A: 110
+#   nuclide: Pd110
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 46
+#     A: 109
+#     nuclide: Pd109
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.470000E+01   0.000000E+00   1.673875E+03   7.112299E+01   1.052751E+00
+# reference:
+#   author: B.MINETTI,A.PASQUARELLI
+#   title: -ISOMERIC CROSS SECTION RATIO FOR PD-110(N,2N)PD-109  REACTION AT 14.7 MEV.
+#   journal: Jour: Zeitschrift fuer Physik, Vol.207, p.132 (1967)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.470000E+01
+#   E-max [MeV]:  1.470000E+01
+#   F-value:  1.053569E+00
+#   A-value:  9.541547E-01
+#   chi-2:  1.898822E+00
+#   p-value:  4.076676E-01
+#   exp. data sets for p-value:      8
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.079218E+00   9.265969E-01   3.411794E+00
+# jeff4.0       1.044959E+00   9.569753E-01   1.616506E+00
+# jendl5.0      1.020787E+00   9.796364E-01   6.681664E-01

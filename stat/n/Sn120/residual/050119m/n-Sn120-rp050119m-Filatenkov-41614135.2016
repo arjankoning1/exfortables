@@ -1,0 +1,63 @@
+# header: 
+#   title: Sn120(n,x)Sn119m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Filatenkov
+#   year: 2016
+#   subentry: 41614135
+#   X4 reaction: 50-SN-120(N,2N)50-SN-119-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/41614135
+# target: 
+#   Z: 50
+#   A: 120
+#   nuclide: Sn120
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 50
+#     A: 119
+#     nuclide: Sn119m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.345000E+01   0.000000E+00   6.119999E+02   5.061259E+01   9.999999E-01
+   1.388000E+01   0.000000E+00   7.008578E+02   5.508905E+01   9.997974E-01
+   1.405000E+01   0.000000E+00   7.038409E+02   5.448054E+01   9.997737E-01
+   1.428000E+01   0.000000E+00   6.784618E+02   5.353566E+01   9.992074E-01
+   1.449000E+01   0.000000E+00   7.379233E+02   5.608295E+01   9.998962E-01
+   1.470000E+01   0.000000E+00   6.615818E+02   5.187633E+01   9.993682E-01
+   1.488000E+01   0.000000E+00   7.183254E+02   5.416419E+01   9.990617E-01
+# reference:
+#   author: A.A.Filatenkov
+#   title: Neutron activation cross sections measured at KRI in neutron energy region 13.4 - 14.9 MeV
+#   journal: Rept: USSR report to the I.N.D.C., No.0460 (2016)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.345000E+01
+#   E-max [MeV]:  1.488000E+01
+#   F-value:  1.092279E+00
+#   A-value:  1.068114E+00
+#   chi-2:  1.758237E+00
+#   p-value:  3.230140E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.059910E+00   1.041093E+00   8.891195E-01
+# jeff4.0       1.059910E+00   1.041093E+00   8.891195E-01
+# jendl5.0      1.137520E+00   1.124279E+00   3.496472E+00

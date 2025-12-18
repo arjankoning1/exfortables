@@ -1,0 +1,57 @@
+# header: 
+#   title: Rb87(n,x)Rb86 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Tewes
+#   year: 1960
+#   subentry: 11504005
+#   X4 reaction: 37-RB-87(N,2N)37-RB-86,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11504005
+# target: 
+#   Z: 37
+#   A: 87
+#   nuclide: Rb87
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 37
+#     A: 86
+#     nuclide: Rb86
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.035000E+01   2.000000E-01   6.350000E+02   2.540000E+02   1.000000E+00
+   1.150000E+01   2.000000E-01   1.010000E+03   4.040000E+02   1.000000E+00
+   1.230000E+01   2.000000E-01   1.470000E+03   5.880001E+02   1.000000E+00
+   1.300000E+01   2.000000E-01   1.760000E+03   7.040000E+02   1.000000E+00
+   1.385000E+01   2.000000E-01   2.085000E+03   8.340000E+02   1.000000E+00
+   1.450000E+01   2.000000E-01   2.430000E+03   9.720001E+02   1.000000E+00
+# reference:
+#   author: H.A.Tewes,A.A.Caretto,A.E.Miller,D.R.Nethaway
+#   title: Excitation functions of neutron-induced reactions
+#   journal: Rept: U.C., Lawrence Rad.Lab. (Berkeley and Livermore), No.6028-T (1960)
+# statistics:
+#   NEA score: R2
+#   IAEA score:  0
+#   E-min [MeV]:  1.035000E+01
+#   E-max [MeV]:  1.450000E+01
+#   F-value:  2.911401E+00
+#   A-value:  4.475580E-01
+#   chi-2:  2.167980E+00
+#   p-value:  7.686991E-02
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    2.779450E+00   4.891660E-01   1.902932E+00
+# jeff4.0       3.115648E+00   4.322153E-01   2.209310E+00
+# jendl5.0      2.839893E+00   4.240250E-01   2.391698E+00

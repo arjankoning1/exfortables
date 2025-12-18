@@ -1,0 +1,59 @@
+# header: 
+#   title: Zn0(p,x)Zn65 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Asad
+#   year: 2014
+#   subentry: D0734005
+#   X4 reaction: 30-ZN-0(P,X)30-ZN-65,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D0734005
+# target: 
+#   Z: 30
+#   A: 0
+#   nuclide: Zn0
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 30
+#     A: 65
+#     nuclide: Zn65
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 9
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.368000E+01   3.000000E-01   1.116355E+01   5.915500E-01   1.011191E+00
+   1.452000E+01   2.500000E-01   3.283337E+01   1.698800E+00   1.011191E+00
+   1.489000E+01   2.500000E-01   4.289472E+01   2.184200E+00   1.011191E+00
+   1.526000E+01   2.500000E-01   5.649524E+01   2.876800E+00   1.011191E+00
+   1.563000E+01   2.500000E-01   7.035867E+01   3.852600E+00   1.011191E+00
+   1.640000E+01   2.500000E-01   1.003506E+02   5.404800E+00   1.011191E+00
+   1.675000E+01   2.500000E-01   1.036976E+02   5.414900E+00   1.011191E+00
+   1.710000E+01   2.500000E-01   1.145275E+02   6.486800E+00   1.011191E+00
+   1.745000E+01   2.500000E-01   1.837334E+01   6.496900E+00   1.011191E+00
+# reference:
+#   author: A.H.Asad,S.Chan,L.Morandeau,D.Cryer,S.V.Smith, R.I.Price
+#   title: Excitation functions of natZn(p,x) nuclear reactions with proton beam energy below 18 MeV
+#   journal: Jour: Applied Radiation and Isotopes, Vol.94, p.67 (2014)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.368000E+01
+#   E-max [MeV]:  1.745000E+01
+#   F-value:  2.120384E+00
+#   A-value:  1.592718E+00
+#   chi-2:  7.980326E+01
+#   p-value:  2.687554E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    2.156494E+00   1.674033E+00   9.347337E+01
+# jendl5.0      2.084069E+00   1.515353E+00   6.613316E+01

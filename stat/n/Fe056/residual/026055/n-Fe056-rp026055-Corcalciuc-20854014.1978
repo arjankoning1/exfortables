@@ -1,0 +1,55 @@
+# header: 
+#   title: Fe56(n,x)Fe55 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Corcalciuc
+#   year: 1978
+#   subentry: 20854014
+#   X4 reaction: 26-FE-56(N,2N)26-FE-55,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20854014
+# target: 
+#   Z: 26
+#   A: 56
+#   nuclide: Fe56
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 26
+#     A: 55
+#     nuclide: Fe55
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.620000E+01   4.000000E-01   6.620001E+02   0.000000E+00   1.000000E+00
+   1.810000E+01   4.000000E-01   7.730001E+02   0.000000E+00   1.000000E+00
+   1.930000E+01   4.000000E-01   8.300000E+02   0.000000E+00   1.000000E+00
+   2.050000E+01   4.000000E-01   6.800001E+02   0.000000E+00   1.000000E+00
+   2.180000E+01   4.000000E-01   4.750000E+02   0.000000E+00   1.000000E+00
+# reference:
+#   author: V.Corcalciuc,B.Holmqvist,A.Marcinkowski,  G.A.Prokopets
+#   title: A study of the neutron induced reactions for F-19,  Fe-56 and Co-59 in the energy interval 16 to 22 MeV
+#   journal: Jour: Nuclear Physics, Section A, Vol.307, Issue.3, p.445 (1978)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  0
+#   E-min [MeV]:  1.620000E+01
+#   E-max [MeV]:  2.180000E+01
+#   F-value:  1.284092E+00
+#   A-value:  8.375479E-01
+#   chi-2:  0.000000E+00
+#   p-value:  2.018582E-01
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.335379E+00   8.129380E-01   0.000000E+00
+# jendl5.0      1.225668E+00   8.629028E-01   0.000000E+00

@@ -1,0 +1,59 @@
+# header: 
+#   title: U238(p,3n)Np236m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Aaltonen
+#   year: 1990
+#   subentry: O0190003
+#   X4 reaction: 92-U-238(P,3N)93-NP-236-M,,SIG,,,EXP
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O0190003
+# target: 
+#   Z: 92
+#   A: 238
+#   nuclide: U238
+# reaction: 
+#   type: (p,3n)
+#   ENDF_MF: 3
+#   ENDF_MT: 17
+#   residual: 
+#     Z: 93
+#     A: 236
+#     nuclide: Np236m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.306000E+01   5.420332E-01   7.700000E-02   1.232000E-02   1.000000E+00
+   1.387000E+01   4.661545E-01   2.030000E+00   2.436000E-01   1.000000E+00
+   1.425000E+01   2.700000E-01   1.190000E+01   1.428000E+00   1.000000E+00
+   1.533000E+01   2.700000E-01   3.500000E+01   4.200000E+00   1.000000E+00
+   1.645000E+01   2.700000E-01   5.900000E+01   7.080000E+00   1.000000E+00
+# reference:
+#   author: J.AALTONEN,M.BRENNER,S.A.EGOROV,A.M.FRIDKIN, V.B.FUNSCHTEIN,E.A.GROMOVA,P.MANNGARD,V.A.RUBCHEN'A, YU.A.SELITSKY,V.A.YAKOVLEV,V.S.ZENKEVICH
+#   title: Formation of Isomers in the Reaction U-238(P,3N)Np-236.
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.41, p.513 (1990)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  1.306000E+01
+#   E-max [MeV]:  1.645000E+01
+#   F-value:  4.696832E+02
+#   A-value:  2.314674E-03
+#   chi-2:  6.894221E+01
+#   p-value:  1.788139E-07
+#   exp. data sets for p-value:      1
+#   libraries:      1
+##  Library          F              A            chi-2
+# tendl.2025    4.696832E+02   2.314674E-03   6.894221E+01

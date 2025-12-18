@@ -1,0 +1,53 @@
+# header: 
+#   title: S32(n,t)P30 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Baerg
+#   year: 1961
+#   subentry: 11542002
+#   X4 reaction: 16-S-32(N,T)15-P-30,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11542002
+# target: 
+#   Z: 16
+#   A: 32
+#   nuclide: S32
+# reaction: 
+#   type: (n,t)
+#   ENDF_MF: 3
+#   ENDF_MT: 105
+#   residual: 
+#     Z: 15
+#     A: 30
+#     nuclide: P30
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.460000E+01   0.000000E+00   4.000000E-03   1.000000E-03   1.000000E+00
+# reference:
+#   author: A.P.BAERG,G.C.BOWES
+#   title: SEARCH FOR THE (N,T)REACTION AT 14MEV IN SOME MEDIUM WEIGHT NUCLEI.
+#   journal: Jour: Canadian Journal of Chemistry, Vol.39, p.684 (1961)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  1.460000E+01
+#   E-max [MeV]:  1.460000E+01
+#   F-value:  3.153211E+00
+#   A-value:  6.557642E-01
+#   chi-2:  4.530684E+01
+#   p-value:  3.065764E-01
+#   exp. data sets for p-value:      8
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    2.811712E+00   3.556552E-01   6.767929E+00
+# jeff4.0       2.811712E+00   3.556552E-01   6.767929E+00
+# cendl3.2      2.852628E+00   3.505540E-01   6.868468E+00
+# eaf.2010      4.170401E+00   4.170401E+00   1.608230E+02

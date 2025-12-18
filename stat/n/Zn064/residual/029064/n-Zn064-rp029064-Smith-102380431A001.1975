@@ -1,0 +1,66 @@
+# header: 
+#   title: Zn64(n,x)Cu64 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Smith
+#   year: 1975
+#   subentry: 102380431
+#   X4 reaction: 30-ZN-64(N,P)29-CU-64,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/102380431
+# target: 
+#   Z: 30
+#   A: 64
+#   nuclide: Zn64
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 29
+#     A: 64
+#     nuclide: Cu64
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 15
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.159000E+00   1.020000E-01   2.377000E-01   1.855400E-02   1.049437E+00
+   1.363000E+00   1.040000E-01   5.269800E-01   3.372800E-02   1.071758E+00
+   1.571000E+00   1.020000E-01   1.324600E+00   8.743399E-02   1.092926E+00
+   1.774000E+00   1.020000E-01   2.662410E+00   1.517900E-01   1.101535E+00
+   1.949000E+00   1.600000E-01   5.912800E+00   3.074400E-01   1.108301E+00
+   2.154000E+00   1.580000E-01   1.076826E+01   5.492600E-01   1.100936E+00
+   2.356000E+00   1.580000E-01   1.846633E+01   9.420400E-01   1.088817E+00
+   2.562000E+00   1.560000E-01   3.170511E+01   1.617900E+00   1.086536E+00
+   2.762000E+00   1.560000E-01   5.427963E+01   2.714000E+00   1.087768E+00
+   2.963000E+00   1.560000E-01   8.095749E+01   4.048400E+00   1.084785E+00
+   3.165000E+00   1.560000E-01   1.022268E+02   5.111900E+00   1.085325E+00
+   3.367000E+00   1.560000E-01   1.183728E+02   5.920800E+00   1.086986E+00
+   3.568000E+00   1.560000E-01   1.234226E+02   6.173300E+00   1.086467E+00
+   3.770000E+00   1.560000E-01   1.360547E+02   6.801650E+00   1.085832E+00
+   3.958000E+00   1.560000E-01   1.412689E+02   7.062400E+00   1.083350E+00
+# reference:
+#   author: D.L.Smith,J.W.Meadows
+#   title: Cross-section measurement of (n,p) reactions for 27Al,  46,47,48Ti, 54,56Fe, 58Ni, 59Co, and 64Zn from near  threshold to 10 MeV
+#   journal: Jour: Nuclear Science and Engineering, Vol.58, p.314 (1975)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.159000E+00
+#   E-max [MeV]:  3.958000E+00
+#   F-value:  1.194070E+00
+#   A-value:  9.673560E-01
+#   chi-2:  5.040176E+00
+#   p-value:  3.539237E-01
+#   exp. data sets for p-value:      3
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.103990E+00   1.018017E+00   3.321820E+00
+# jeff4.0       1.103990E+00   1.018017E+00   3.321820E+00
+# jendl5.0      1.314559E+00   8.734714E-01   8.476887E+00

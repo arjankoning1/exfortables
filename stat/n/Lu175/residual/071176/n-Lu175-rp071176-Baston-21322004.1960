@@ -1,0 +1,52 @@
+# header: 
+#   title: Lu175(n,x)Lu176 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Baston
+#   year: 1960
+#   subentry: 21322004
+#   X4 reaction: 71-LU-175(N,G)71-LU-176,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21322004
+# target: 
+#   Z: 71
+#   A: 175
+#   nuclide: Lu175
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 71
+#     A: 176
+#     nuclide: Lu176
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.530000E-08   0.000000E+00   2.300000E+04   3.000000E+03   1.000000E+00
+# reference:
+#   author: A.H.Baston, J.C.Lisle, G.S.G.Tuckey
+#   title: -Thermal neutron cross section measurements on Lu-175  and Lu-176 -.
+#   journal: Jour: Journal of Nuclear Energy A (Reactor Science), Vol.13, p.35 (1960)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.530000E-08
+#   E-max [MeV]:  2.530000E-08
+#   F-value:  1.001098E+00
+#   A-value:  1.000883E+00
+#   chi-2:  8.754835E-03
+#   p-value:  4.922257E-01
+#   exp. data sets for p-value:      3
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.001344E+00   1.001344E+00   1.294439E-02
+# jeff4.0       1.001344E+00   1.001344E+00   1.294439E-02
+# jendl5.0      1.000039E+00   9.999609E-01   3.757187E-04

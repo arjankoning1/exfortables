@@ -1,0 +1,64 @@
+# header: 
+#   title: C12(n,2n)C11 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Anders
+#   year: 1981
+#   subentry: 20348002
+#   X4 reaction: 6-C-12(N,2N)6-C-11,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20348002
+# target: 
+#   Z: 6
+#   A: 12
+#   nuclide: C12
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 6
+#     A: 11
+#     nuclide: C11
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 11
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.280000E+01   3.000000E-01   3.000300E+00   3.000300E-01   1.000100E+00
+   2.390000E+01   3.100000E-01   6.300600E+00   6.000600E-01   1.000100E+00
+   2.500000E+01   3.500000E-01   1.140114E+01   1.000100E+00   1.000100E+00
+   2.600000E+01   3.500000E-01   1.390139E+01   1.300130E+00   1.000100E+00
+   2.670000E+01   3.500000E-01   1.630163E+01   1.500150E+00   1.000100E+00
+   2.800000E+01   3.500000E-01   2.070208E+01   1.900190E+00   1.000100E+00
+   2.970000E+01   3.500000E-01   2.290230E+01   2.300200E+00   1.000100E+00
+   3.040000E+01   3.900000E-01   2.580259E+01   2.300200E+00   1.000100E+00
+   3.130000E+01   4.000000E-01   2.700271E+01   2.400200E+00   1.000100E+00
+   3.260000E+01   4.300000E-01   2.420243E+01   2.400200E+00   1.000100E+00
+   3.360000E+01   4.400000E-01   2.700271E+01   2.700300E+00   1.000100E+00
+# reference:
+#   author: B.ANDERS,P.HERGES,W.SCOBEL
+#   title: -EXCITATION FUNCTIONS OF NUCLEAR REACTIONS  PRODUCING C-11-
+#   journal: Jour: Zeitschrift fuer Physik A, Hadrons and Nuclei, Vol.301, Issue.4, p
+# statistics:
+#   NEA score: R2
+#   IAEA score:  1
+#   E-min [MeV]:  2.280000E+01
+#   E-max [MeV]:  3.360000E+01
+#   F-value:  2.644613E+00
+#   A-value:  6.398683E-01
+#   chi-2:  8.271137E+01
+#   p-value:  2.797905E-01
+#   exp. data sets for p-value:      8
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2025    2.514428E+00   2.501359E+00   2.601230E+02
+# endfb8.1      3.773243E+00   2.703865E-01   5.982795E+01
+# jeff4.0       3.773243E+00   2.703865E-01   5.982795E+01
+# jendl5.0      1.603722E+00   6.417554E-01   1.590534E+01
+# eaf.2010      1.432010E+00   9.139810E-01   1.787259E+01

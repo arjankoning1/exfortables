@@ -1,0 +1,69 @@
+# header: 
+#   title: Ni58(n,x)Co57 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Mannhart
+#   year: 2007
+#   subentry: 22976023
+#   X4 reaction: 28-NI-58(N,X)27-CO-57,IND,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22976023
+# target: 
+#   Z: 28
+#   A: 58
+#   nuclide: Ni58
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 28
+#   residual: 
+#     Z: 27
+#     A: 57
+#     nuclide: Co57
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 17
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.006100E+01   2.000000E-02   1.390000E+01   1.604060E+00   1.000000E+00
+   1.039200E+01   2.000000E-02   3.570000E+01   2.209830E+00   1.000000E+00
+   1.067300E+01   2.000000E-02   6.220001E+01   3.029140E+00   1.000000E+00
+   1.094300E+01   2.000000E-02   8.980001E+01   3.448320E+00   1.000000E+00
+   1.116000E+01   2.000000E-02   1.249000E+02   4.359010E+00   1.000000E+00
+   1.152200E+01   2.000000E-02   1.701000E+02   5.069000E+00   1.000000E+00
+   1.212400E+01   2.000000E-02   2.782000E+02   8.596400E+00   1.000000E+00
+   1.252100E+01   2.000000E-02   3.550000E+02   1.107600E+01   1.000000E+00
+   1.268000E+01   2.000000E-02   3.817000E+02   1.206172E+01   1.000000E+00
+   1.298000E+01   2.000000E-02   4.293000E+02   1.412397E+01   1.000000E+00
+   1.315900E+01   2.000000E-02   4.660000E+02   1.565760E+01   1.000000E+00
+   1.351500E+01   2.000000E-02   5.120000E+02   1.807360E+01   1.000000E+00
+   1.378900E+01   2.000000E-02   5.575000E+02   2.062750E+01   1.000000E+00
+   1.400100E+01   2.000000E-02   5.785000E+02   2.221440E+01   1.000000E+00
+   1.401400E+01   2.000000E-02   5.846000E+02   2.151328E+01   1.000000E+00
+   1.424000E+01   2.000000E-02   5.941000E+02   2.400164E+01   1.000000E+00
+   1.442100E+01   2.000000E-02   6.236000E+02   2.600412E+01   1.000000E+00
+# reference:
+#   author: W.Mannhart, D.Schmidt
+#   title: .Measurement of Neutron Activation Cross Sections in  the Energy Range from 8 MeV to 15 MeV
+#   journal: Rept: Phys.Techn.Bundesanst., Neutronenphysik Reports, No.53 (2007)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.006100E+01
+#   E-max [MeV]:  1.442100E+01
+#   F-value:  1.152908E+00
+#   A-value:  9.762524E-01
+#   chi-2:  5.897803E+00
+#   p-value:  3.929457E-01
+#   exp. data sets for p-value:      1
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.106621E+00   1.044698E+00   3.800809E+00
+# endfb8.1      1.167011E+00   9.045572E-01   6.677154E+00
+# jeff4.0       1.142330E+00   1.064762E+00   6.514340E+00
+# jendl5.0      1.186201E+00   9.027533E-01   6.598907E+00

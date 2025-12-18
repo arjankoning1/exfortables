@@ -1,0 +1,63 @@
+# header: 
+#   title: Fe57(p,x)Mn54 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Alabyad
+#   year: 2009
+#   subentry: D0500009
+#   X4 reaction: 26-FE-57(P,A)25-MN-54,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D0500009
+# target: 
+#   Z: 26
+#   A: 57
+#   nuclide: Fe57
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+#   residual: 
+#     Z: 25
+#     A: 54
+#     nuclide: Mn54
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 12
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   4.800000E+00   5.000000E-01   1.399900E+00   2.999800E-01   9.999400E-01
+   6.500000E+00   5.000000E-01   4.999700E+00   9.999400E-01   9.999400E-01
+   8.600000E+00   4.000000E-01   1.989881E+01   3.499790E+00   9.999400E-01
+   1.040000E+01   4.000000E-01   2.859828E+01   5.099700E+00   9.999400E-01
+   1.240000E+01   4.000000E-01   3.509790E+01   6.299600E+00   9.999400E-01
+   1.250000E+01   4.000000E-01   3.699778E+01   6.599600E+00   9.999400E-01
+   1.340000E+01   4.000000E-01   4.539728E+01   8.199500E+00   9.999400E-01
+   1.400000E+01   4.000000E-01   4.609724E+01   8.399500E+00   9.999400E-01
+   1.420000E+01   5.000000E-01   4.259744E+01   7.599500E+00   9.999400E-01
+   1.510000E+01   4.000000E-01   4.249745E+01   7.599500E+00   9.999400E-01
+   1.680000E+01   2.000000E-01   4.379737E+01   7.799500E+00   9.999400E-01
+   1.850000E+01   2.000000E-01   2.279863E+01   8.399500E+00   9.999400E-01
+# reference:
+#   author: M.Al-Abyad, M.N.H.Comsan, S.M.Qaim
+#   title: Excitation functions of proton-induced reactions on natural Fe and enriched 57-Fe with particular reference to the production of 57-Co
+#   journal: Jour: Applied Radiation and Isotopes, Vol.67, Issue.1, p.122 (2009)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  4.800000E+00
+#   E-max [MeV]:  1.850000E+01
+#   F-value:  2.847591E+00
+#   A-value:  7.543432E-01
+#   chi-2:  3.779241E+00
+#   p-value:  3.078404E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    3.177750E+00   6.615393E-01   3.254600E+00
+# endfb8.1      1.927565E+00   1.056471E+00   4.667187E+00
+# jendl5.0      3.428195E+00   6.141772E-01   3.415936E+00

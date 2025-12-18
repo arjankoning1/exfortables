@@ -1,0 +1,53 @@
+# header: 
+#   title: Cu65(n,x)Ni65 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Kral
+#   year: 2020
+#   subentry: 31834011
+#   X4 reaction: 29-CU-65(N,P)28-NI-65,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/31834011
+# target: 
+#   Z: 29
+#   A: 65
+#   nuclide: Cu65
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 28
+#     A: 65
+#     nuclide: Ni65
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.910000E+01   0.000000E+00   1.280000E+01   1.900000E+00   1.000000E+00
+# reference:
+#   author: D.Kral, M.Zeman, K.Katovsky, E.Melyan, R.Holomb
+#   title: Cross section determination for TAD materials in quasi  mono-energetic neutron spectrum from p(Li) reaction
+#   journal: Jour: EPJ Web of Conferences, Vol.239, p.20004 (2020)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  2.910000E+01
+#   E-max [MeV]:  2.910000E+01
+#   F-value:  1.438144E+00
+#   A-value:  1.222561E+00
+#   chi-2:  8.954309E+00
+#   p-value:  3.978578E-01
+#   exp. data sets for p-value:      2
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.328944E+00   7.524770E-01   3.230721E+00
+# endfb8.1      1.578198E+00   1.578198E+00   1.517577E+01
+# jeff4.0       1.578198E+00   1.578198E+00   1.517577E+01
+# jendl5.0      1.191972E+00   1.191972E+00   2.234977E+00

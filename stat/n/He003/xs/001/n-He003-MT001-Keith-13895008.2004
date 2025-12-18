@@ -1,0 +1,52 @@
+# header: 
+#   title: He3(n,tot) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Keith
+#   year: 2004
+#   subentry: 13895008
+#   X4 reaction: 2-HE-3(N,TOT),,SIG,,AV
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/13895008
+# target: 
+#   Z: 2
+#   A: 3
+#   nuclide: He3
+# reaction: 
+#   type: (n,tot)
+#   ENDF_MF: 3
+#   ENDF_MT: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   7.251000E-06   0.000000E+00   3.179000E+05   2.590000E+02   1.000000E+00
+   9.215000E-06   0.000000E+00   2.822000E+05   2.316000E+02   1.000000E+00
+   1.535000E-05   0.000000E+00   2.191000E+05   1.725000E+02   1.000000E+00
+   2.385000E-05   0.000000E+00   1.767000E+05   1.522000E+02   1.000000E+00
+# reference:
+#   author: C.D.Keith,Z.Chowhuri,D.R.Rich,W.M.Snow,J.D.Bowman, S.L.Penttila,D.A.Smith,M.B.Leuschner,V.R.Pomeroy, G.L.Jones,E.I.Sharapov
+#   title: Neutron cross sections for 3He at epithermal energies
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.69, p.034005 (2004)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  7.251000E-06
+#   E-max [MeV]:  2.385000E-05
+#   F-value:  1.017299E+00
+#   A-value:  9.995582E-01
+#   chi-2:  4.415020E+02
+#   p-value:  4.140603E-01
+#   exp. data sets for p-value:      3
+#   libraries:      4
+##  Library          F              A            chi-2
+# endfb8.1      1.013644E+00   9.880991E-01   2.633096E+02
+# jeff4.0       1.028265E+00   1.027058E+00   1.197679E+03
+# jendl5.0      1.010448E+00   9.917872E-01   1.525096E+02
+# cendl3.2      1.010448E+00   9.917872E-01   1.525096E+02

@@ -1,0 +1,52 @@
+# header: 
+#   title: Mo97(n,x)Nb97 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Strohal
+#   year: 1962
+#   subentry: 30008028
+#   X4 reaction: 42-MO-97(N,P)41-NB-97,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30008028
+# target: 
+#   Z: 42
+#   A: 97
+#   nuclide: Mo97
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 41
+#     A: 97
+#     nuclide: Nb97
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.460000E+01   3.000000E-01   6.800000E+01   1.400000E+01   1.000000E+00
+# reference:
+#   author: P.Strohal, N.Cindro, B.Eman
+#   title: Reaction mechanism and shell effects from the  interaction of 14.6 MeV neutrons with nuclei
+#   journal: Jour: Nuclear Physics, Vol.30, p.49 (1962)
+# statistics:
+#   NEA score: R2
+#   IAEA score:  1
+#   E-min [MeV]:  1.460000E+01
+#   E-max [MeV]:  1.460000E+01
+#   F-value:  3.067737E+00
+#   A-value:  3.292240E-01
+#   chi-2:  1.058375E+01
+#   p-value:  1.670589E-01
+#   exp. data sets for p-value:      8
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    2.734051E+00   3.657576E-01   9.528646E+00
+# jeff4.0       2.734051E+00   3.657576E-01   9.528646E+00
+# jendl5.0      3.748973E+00   2.667397E-01   1.269395E+01

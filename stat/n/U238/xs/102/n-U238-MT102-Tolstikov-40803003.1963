@@ -1,0 +1,65 @@
+# header: 
+#   title: U238(n,g)U239 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Tolstikov
+#   year: 1963
+#   subentry: 40803003
+#   X4 reaction: 92-U-238(N,G)92-U-239,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/40803003
+# target: 
+#   Z: 92
+#   A: 238
+#   nuclide: U238
+# reaction: 
+#   type: (n,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 92
+#     A: 239
+#     nuclide: U239
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.500000E-02   0.000000E+00   6.000000E+02   0.000000E+00   1.000000E+00
+   2.000000E-02   0.000000E+00   5.400000E+02   0.000000E+00   1.000000E+00
+   2.350000E-02   0.000000E+00   5.300000E+02   0.000000E+00   1.000000E+00
+   2.900000E-02   0.000000E+00   5.200000E+02   0.000000E+00   1.000000E+00
+   3.800000E-02   0.000000E+00   4.900000E+02   0.000000E+00   1.000000E+00
+   4.800000E-02   0.000000E+00   4.000000E+02   0.000000E+00   1.000000E+00
+   5.400000E-02   0.000000E+00   2.900000E+02   0.000000E+00   1.000000E+00
+   7.000000E-02   0.000000E+00   2.700000E+02   0.000000E+00   1.000000E+00
+   1.600000E-01   0.000000E+00   1.600000E+02   0.000000E+00   1.000000E+00
+   1.700000E-01   0.000000E+00   1.400000E+02   0.000000E+00   1.000000E+00
+# reference:
+#   author: V.A.TOLSTIKOV,L.E.SHERMAN,JU.JA.STAVISSKII
+#   title: A Measurement Of The Capture Cross Sections Of U-238  And Th-232 For 5-200 keV Neutrons.
+#   journal: Jour: Atomnaya Energiya, Vol.15, Issue.5, p.414 (1963)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.500000E-02
+#   E-max [MeV]:  1.700000E-01
+#   F-value:  1.147092E+00
+#   A-value:  8.941718E-01
+#   chi-2:  0.000000E+00
+#   p-value:  2.465281E-01
+#   exp. data sets for p-value:      8
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.150409E+00   8.880425E-01   0.000000E+00
+# endfb8.1      1.149727E+00   8.914465E-01   0.000000E+00
+# jeff4.0       1.160554E+00   8.827103E-01   0.000000E+00
+# jendl5.0      1.147102E+00   8.949891E-01   0.000000E+00
+# cendl3.2      1.132747E+00   9.077813E-01   0.000000E+00
+# eaf.2010      1.137660E+00   9.041330E-01   0.000000E+00
+# irdff2.0      1.150061E+00   8.903652E-01   0.000000E+00

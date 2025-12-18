@@ -1,0 +1,60 @@
+# header: 
+#   title: Mn55(n,x)Mn54 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Menlove
+#   year: 1967
+#   subentry: 11421005
+#   X4 reaction: 25-MN-55(N,2N)25-MN-54,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11421005
+# target: 
+#   Z: 25
+#   A: 55
+#   nuclide: Mn55
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 25
+#     A: 54
+#     nuclide: Mn54
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.270000E+01   3.600000E-01   5.461311E+02   5.101224E+01   1.000240E+00
+   1.294000E+01   6.800000E-01   5.831400E+02   5.401297E+01   1.000240E+00
+   1.328000E+01   6.100000E-01   6.581579E+02   6.101464E+01   1.000240E+00
+   1.350000E+01   4.700000E-01   6.131471E+02   7.201728E+01   1.000240E+00
+   1.496000E+01   8.700000E-01   8.542050E+02   7.901897E+01   1.000240E+00
+   1.582000E+01   4.500000E-01   8.902137E+02   8.201968E+01   1.000240E+00
+   1.652000E+01   3.500000E-01   9.062175E+02   8.402016E+01   1.000240E+00
+   1.735000E+01   3.200000E-01   9.102185E+02   8.502041E+01   1.000240E+00
+   1.844000E+01   3.300000E-01   8.872130E+02   8.201968E+01   1.000240E+00
+   1.939000E+01   3.500000E-01   8.221974E+02   7.601823E+01   1.000240E+00
+# reference:
+#   author: H.O.MENLOVE,K.L.COOP,H.A.GRENCH,R.SHER
+#   title: ACTIVATION CROSS SECTIONS FOR THE F19(N,2N)F18, NA23(N,2N)NA22, MN55(N,2N)MN54, IN115(N,2N)IN114M, HO165(N,2N)HO164M, IN115(N,N )IN115M, AND AL27(N, ALPHA)NA24 REACTIONS.
+#   journal: Jour: Physical Review, Vol.163, p.1308 (1967)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.270000E+01
+#   E-max [MeV]:  1.939000E+01
+#   F-value:  1.043022E+00
+#   A-value:  9.731954E-01
+#   chi-2:  5.175671E-01
+#   p-value:  3.807620E-01
+#   exp. data sets for p-value:      5
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.035354E+00   9.781594E-01   4.170319E-01
+# jendl5.0      1.049578E+00   9.682565E-01   6.181024E-01

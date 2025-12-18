@@ -1,0 +1,59 @@
+# header: 
+#   title: Cu0(p,x)Mn54 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Garrido
+#   year: 2016
+#   subentry: O2315025
+#   X4 reaction: 29-CU-0(P,X)25-MN-54,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O2315025
+# target: 
+#   Z: 29
+#   A: 0
+#   nuclide: Cu0
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 25
+#     A: 54
+#     nuclide: Mn54
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.674000E+01   1.130000E+00   4.170000E+00   3.800000E-01   1.000000E+00
+   5.712000E+01   1.090000E+00   4.530000E+00   5.000000E-01   1.000000E+00
+   5.755000E+01   1.070000E+00   4.370000E+00   6.700000E-01   1.000000E+00
+   6.349000E+01   9.200000E-01   4.820000E+00   3.800000E-01   1.000000E+00
+   6.386000E+01   8.600000E-01   4.530000E+00   3.400000E-01   1.000000E+00
+   6.973000E+01   5.900000E-01   3.920000E+00   3.600000E-01   1.000000E+00
+   6.999000E+01   5.500000E-01   3.580000E+00   5.600000E-01   1.000000E+00
+   7.008000E+01   5.400000E-01   3.890000E+00   4.100000E-01   1.000000E+00
+# reference:
+#   author: E.Garrido,C.Duchemin,A.Guertin,F.Haddad,N.Michel, V.Metivier
+#   title: New excitation functions for proton induced reactions on natural titanium, nickel and copper up to 70 MeV.
+#   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.383, p.191 (20
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  5.674000E+01
+#   E-max [MeV]:  7.008000E+01
+#   F-value:  3.031900E+00
+#   A-value:  3.868878E-01
+#   chi-2:  3.591628E+01
+#   p-value:  2.624411E-01
+#   exp. data sets for p-value:      4
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    5.743805E+00   1.775670E-01   6.984460E+01
+# endfb8.1      1.704913E+00   5.881183E-01   1.727137E+01
+# jendl5.0      1.807405E+00   5.545338E-01   2.063288E+01

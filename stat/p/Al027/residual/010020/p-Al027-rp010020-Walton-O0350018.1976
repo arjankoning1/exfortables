@@ -1,0 +1,67 @@
+# header: 
+#   title: Al27(p,x)Ne20 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Walton
+#   year: 1976
+#   subentry: O0350018
+#   X4 reaction: 13-AL-27(P,X)10-NE-20,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O0350018
+# target: 
+#   Z: 13
+#   A: 27
+#   nuclide: Al27
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 10
+#     A: 20
+#     nuclide: Ne20
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 16
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.580000E+01   7.000000E-01   1.600000E+01   2.240000E+00   1.000000E+00
+   1.610000E+01   6.000000E-01   1.190000E+01   1.547000E+00   1.000000E+00
+   1.780000E+01   6.000000E-01   2.800000E+01   3.920000E+00   1.000000E+00
+   1.890000E+01   8.000000E-01   3.200000E+01   4.160000E+00   1.000000E+00
+   2.010000E+01   8.000000E-01   3.700000E+01   7.030000E+00   1.000000E+00
+   2.090000E+01   7.000000E-01   3.600000E+01   5.040000E+00   1.000000E+00
+   2.240000E+01   1.100000E+00   3.900000E+01   5.850000E+00   1.000000E+00
+   2.290000E+01   1.000000E+00   3.900000E+01   5.850000E+00   1.000000E+00
+   2.350000E+01   9.000000E-01   3.400000E+01   5.100000E+00   1.000000E+00
+   2.690000E+01   1.100000E+00   2.700000E+01   5.130000E+00   1.000000E+00
+   2.990000E+01   8.000000E-01   2.400000E+01   4.080000E+00   1.000000E+00
+   3.050000E+01   1.100000E+00   2.200000E+01   5.060000E+00   1.000000E+00
+   3.310000E+01   1.300000E+00   2.300000E+01   5.980000E+00   1.000000E+00
+   3.800000E+01   1.400000E+00   9.700001E+00   2.522000E+00   1.000000E+00
+   3.990000E+01   1.400000E+00   8.100000E+00   2.187000E+00   1.000000E+00
+   4.230000E+01   1.300000E+00   8.300000E+00   1.660000E+00   1.000000E+00
+# reference:
+#   author: J.R.Walton,D.Heymann,A.Yaniv,D.Edgerley,M.W.Rowe
+#   title: Cross sections for He and Ne isotopes in natural Mg,Al, and Si,He isotopes in Ca-F(2),Ar isotopes in natural Ca and radionuclides in natural Al,Si,Ti,Cr and stainless steel induced by 12-To 45-MeV protons.
+#   journal: Jour: Journal of Geophysical Research, Vol.81, p.5689 (1976)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.580000E+01
+#   E-max [MeV]:  4.230000E+01
+#   F-value:  1.469624E+00
+#   A-value:  7.557591E-01
+#   chi-2:  2.972714E+00
+#   p-value:  1.680827E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.832320E+00   5.642606E-01   6.297164E+00
+# endfb8.1      1.249308E+00   8.558583E-01   1.651259E+00
+# jendl5.0      1.183599E+00   8.938579E-01   9.697202E-01

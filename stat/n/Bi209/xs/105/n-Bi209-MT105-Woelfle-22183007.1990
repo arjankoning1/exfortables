@@ -1,0 +1,57 @@
+# header: 
+#   title: Bi209(n,t)Pb207 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Woelfle
+#   year: 1990
+#   subentry: 22183007
+#   X4 reaction: 83-BI-209(N,T)82-PB-207,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22183007
+# target: 
+#   Z: 83
+#   A: 209
+#   nuclide: Bi209
+# reaction: 
+#   type: (n,t)
+#   ENDF_MF: 3
+#   ENDF_MT: 105
+#   residual: 
+#     Z: 82
+#     A: 207
+#     nuclide: Pb207
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.632000E+01   5.800000E-01   4.600000E-01   6.000000E-02   1.000000E+00
+   1.768000E+01   7.700000E-01   8.100000E-01   9.000000E-02   1.000000E+00
+   1.902000E+01   5.600000E-01   1.140000E+00   1.300000E-01   1.000000E+00
+# reference:
+#   author: R.Woelfle,S.M.Qaim,H.Liskien,R.Widera
+#   title: Systematic studies of excitation functions of (n,t)  reactions on medium and heavy mass nuclei
+#   journal: Jour: Radiochimica Acta, Vol.50, p.5 (1990)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  1.632000E+01
+#   E-max [MeV]:  1.902000E+01
+#   F-value:  2.187266E+00
+#   A-value:  1.295878E+00
+#   chi-2:  8.384247E+01
+#   p-value:  3.253860E-01
+#   exp. data sets for p-value:      1
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.448180E+00   1.341648E+00   1.789165E+01
+# endfb8.1      3.257201E+00   3.104165E-01   3.465421E+01
+# jeff4.0       2.589767E+00   2.557374E+00   2.018262E+02
+# jendl5.0      2.589767E+00   2.557374E+00   2.018262E+02
+# cendl3.2      1.022910E+00   9.835628E-01   2.043689E-01
+# eaf.2010      1.779584E+00   1.767709E+00   4.665225E+01

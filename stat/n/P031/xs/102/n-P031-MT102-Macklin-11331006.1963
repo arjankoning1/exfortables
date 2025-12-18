@@ -1,0 +1,56 @@
+# header: 
+#   title: P31(n,g)P32 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Macklin
+#   year: 1963
+#   subentry: 11331006
+#   X4 reaction: 15-P-31(N,G)15-P-32,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11331006
+# target: 
+#   Z: 15
+#   A: 31
+#   nuclide: P31
+# reaction: 
+#   type: (n,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 15
+#     A: 32
+#     nuclide: P32
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.000000E-02   7.000000E-03   7.000000E+00   1.000000E+00   1.000000E+00
+   6.500000E-02   2.000000E-02   5.000000E-01   2.000000E-01   1.000000E+00
+# reference:
+#   author: R.L.Macklin,J.H.Gibbons,T.Inada
+#   title: Average radiative capture cross sections for 30 and 65 keV neutrons
+#   journal: Jour: Physical Review, Vol.129, p.2695 (1963)
+# statistics:
+#   NEA score: T2
+#   IAEA score:  1
+#   E-min [MeV]:  3.000000E-02
+#   E-max [MeV]:  6.500000E-02
+#   F-value:  1.465596E+02
+#   A-value:  1.659939E-02
+#   chi-2:  9.353160E+01
+#   p-value:  3.260348E-01
+#   exp. data sets for p-value:      1
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.012808E+02   1.131860E-02   2.731680E+01
+# endfb8.1      6.014736E+00   3.556164E+00   4.238958E+02
+# jeff4.0       1.012808E+02   1.131860E-02   2.731680E+01
+# jendl5.0      3.240966E+02   3.742919E-03   2.755984E+01
+# cendl3.2      4.218098E+02   3.277760E-03   2.754059E+01
+# eaf.2010      3.241024E+02   3.742823E-03   2.755985E+01

@@ -1,0 +1,67 @@
+# header: 
+#   title: Ni58(n,p)Co58 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Temperley
+#   year: 1968
+#   subentry: 11761002
+#   X4 reaction: 28-NI-58(N,P)27-CO-58,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11761002
+# target: 
+#   Z: 28
+#   A: 58
+#   nuclide: Ni58
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 27
+#     A: 58
+#     nuclide: Co58
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 12
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.200000E+00   1.400000E-01   1.088356E+02   1.098341E+01   9.984917E-01
+   2.570000E+00   1.900000E-01   1.557647E+02   1.597587E+01   9.984917E-01
+   2.980000E+00   2.200000E-01   2.036923E+02   1.996983E+01   9.984917E-01
+   3.120000E+00   2.200000E-01   2.266576E+02   2.296531E+01   9.984917E-01
+   3.340000E+00   2.000000E-01   2.126787E+02   2.096833E+01   9.984917E-01
+   3.480000E+00   1.200000E-01   2.006968E+02   1.996983E+01   9.984917E-01
+   1.372000E+01   2.000000E-01   5.152217E+02   5.192157E+01   9.984917E-01
+   1.395000E+01   2.000000E-01   4.802745E+02   4.792760E+01   9.984917E-01
+   1.420000E+01   2.500000E-01   3.804254E+02   3.794269E+01   9.984917E-01
+   1.431000E+01   3.100000E-01   3.914087E+02   3.894118E+01   9.984917E-01
+   1.453000E+01   3.200000E-01   3.165219E+02   3.195174E+01   9.984917E-01
+   1.479000E+01   3.000000E-01   3.025430E+02   2.995475E+01   9.984917E-01
+# reference:
+#   author: J.K.Temperley
+#   title: Some neutron reaction cross sections for Cd111,112, Sr87, and Ni58.
+#   journal: Jour: Nuclear Science and Engineering, Vol.32, p.195 (1968)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  2.200000E+00
+#   E-max [MeV]:  1.479000E+01
+#   F-value:  1.254286E+00
+#   A-value:  9.168862E-01
+#   chi-2:  4.455390E+00
+#   p-value:  2.244778E-01
+#   exp. data sets for p-value:      8
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.262868E+00   9.031550E-01   4.675471E+00
+# endfb8.1      1.260574E+00   9.076257E-01   4.605373E+00
+# jeff4.0       1.262868E+00   9.031548E-01   4.675476E+00
+# jendl5.0      1.305029E+00   9.048408E-01   5.742521E+00
+# cendl3.2      1.209384E+00   9.469534E-01   3.523633E+00
+# eaf.2010      1.209322E+00   9.461698E-01   3.359831E+00
+# irdff2.0      1.260576E+00   9.076259E-01   4.605424E+00

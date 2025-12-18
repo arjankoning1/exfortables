@@ -1,0 +1,59 @@
+# header: 
+#   title: Sr87(n,x)Sr87m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: XieKuanZhonggg
+#   year: 1983
+#   subentry: 30664002
+#   X4 reaction: 38-SR-87(N,INL)38-SR-87-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30664002
+# target: 
+#   Z: 38
+#   A: 87
+#   nuclide: Sr87
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+#   residual: 
+#     Z: 38
+#     A: 87
+#     nuclide: Sr87m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   6.830000E-01   3.500000E-02   1.547244E+01   1.087900E+00   1.208784E+00
+   9.970000E-01   3.000000E-02   4.182394E+01   2.901100E+00   1.208784E+00
+   1.509000E+00   6.000000E-02   2.353503E+02   1.643947E+01   1.208784E+00
+# reference:
+#   author: Xie Kuan-Zhong,Chen Xue-Si,Zhou Sheng-Mo
+#   title: Sr-87(n,n')Sr-87m inelastic scattering.
+#   journal: Jour: High Energy Physics and Nucl.Physics,Chinese ed., Vol.7, Issue.4,
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  6.830000E-01
+#   E-max [MeV]:  1.509000E+00
+#   F-value:  1.392903E+00
+#   A-value:  7.519243E-01
+#   chi-2:  1.527598E+01
+#   p-value:  1.456733E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.394832E+00   7.506951E-01   1.545131E+01
+# jeff4.0       1.395063E+00   7.504811E-01   1.546579E+01
+# jendl5.0      1.388796E+00   7.546038E-01   1.491082E+01

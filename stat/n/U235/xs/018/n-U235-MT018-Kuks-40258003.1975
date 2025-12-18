@@ -1,0 +1,52 @@
+# header: 
+#   title: U235(n,f) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Kuks
+#   year: 1975
+#   subentry: 40258003
+#   X4 reaction: 92-U-235(N,F),,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/40258003
+# target: 
+#   Z: 92
+#   A: 235
+#   nuclide: U235
+# reaction: 
+#   type: (n,f)
+#   ENDF_MF: 3
+#   ENDF_MT: 18
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.500000E+00   0.000000E+00   1.300000E+03   5.000000E+01   1.000000E+00
+# reference:
+#   author: I.M.Kuks, L.A.Razumovskij, Yu.A.Selitskij,  A.V.Fomichev, V.B.Funshtejn, V.I.Shpakov
+#   title: Measurement of the 235U fission cross-sections for  2.5 MeV neutrons
+#   journal: Rept: USSR report to the I.N.D.C., No.48, p.34 (1975)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.500000E+00
+#   E-max [MeV]:  2.500000E+00
+#   F-value:  1.020730E+00
+#   A-value:  9.801213E-01
+#   chi-2:  7.312163E-01
+#   p-value:  2.324418E-01
+#   exp. data sets for p-value:      8
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.020098E+00   9.802975E-01   7.198048E-01
+# endfb8.1      1.019589E+00   9.807870E-01   6.997960E-01
+# jeff4.0       1.018870E+00   9.814793E-01   6.717075E-01
+# jendl5.0      1.014914E+00   9.853048E-01   5.207300E-01
+# cendl3.2      1.018857E+00   9.814925E-01   6.711753E-01
+# eaf.2010      1.030119E+00   9.707617E-01   1.135505E+00
+# irdff2.0      1.019589E+00   9.807870E-01   6.997960E-01

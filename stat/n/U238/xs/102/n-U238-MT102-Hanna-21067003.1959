@@ -1,0 +1,65 @@
+# header: 
+#   title: U238(n,g)U239 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Hanna
+#   year: 1959
+#   subentry: 21067003
+#   X4 reaction: 92-U-238(N,G)92-U-239,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21067003
+# target: 
+#   Z: 92
+#   A: 238
+#   nuclide: U238
+# reaction: 
+#   type: (n,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 92
+#     A: 239
+#     nuclide: U239
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.900000E-02   4.500000E-02   3.760000E+02   7.700000E+01   1.000000E+00
+   1.520000E-01   4.000000E-02   1.600000E+02   8.000000E+00   1.000000E+00
+   2.240000E-01   7.000000E-02   1.490000E+02   8.000000E+00   1.000000E+00
+   3.000000E-01   8.000000E-02   1.350000E+02   7.000000E+00   1.000000E+00
+   3.600000E-01   1.000000E-01   1.240000E+02   8.000000E+00   1.000000E+00
+   3.900000E-01   7.000000E-02   1.160000E+02   6.000000E+00   1.000000E+00
+   3.920000E-01   7.000000E-02   1.240000E+02   8.000000E+00   1.000000E+00
+   5.300000E-01   1.300000E-01   1.240000E+02   8.000000E+00   1.000000E+00
+   6.820000E-01   1.600000E-01   1.470000E+02   9.000000E+00   1.000000E+00
+   8.400000E-01   1.600000E-01   1.610000E+02   1.000000E+01   1.000000E+00
+# reference:
+#   author: R.C.HANNA,B.ROSE
+#   title: -NEUTRON CAPTURE CROSS SECTIONS OF TH-232 AND U-238 .
+#   journal: Jour: Journal of Nuclear Energy, Vol.8, p.197 (1959)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  2.900000E-02
+#   E-max [MeV]:  8.400000E-01
+#   F-value:  1.175314E+00
+#   A-value:  8.770230E-01
+#   chi-2:  6.487157E+00
+#   p-value:  1.585991E-01
+#   exp. data sets for p-value:      8
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.172425E+00   8.760865E-01   6.273253E+00
+# endfb8.1      1.170001E+00   8.775039E-01   6.110702E+00
+# jeff4.0       1.200311E+00   8.590264E-01   8.508265E+00
+# jendl5.0      1.163844E+00   8.830541E-01   5.815053E+00
+# cendl3.2      1.181417E+00   8.752125E-01   6.773711E+00
+# eaf.2010      1.167186E+00   8.910944E-01   5.818538E+00
+# irdff2.0      1.169999E+00   8.775053E-01   6.110576E+00

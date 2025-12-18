@@ -1,0 +1,52 @@
+# header: 
+#   title: Rh103(n,x)Rh104 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Fuketa
+#   year: 1960
+#   subentry: 20275003
+#   X4 reaction: 45-RH-103(N,G)45-RH-104,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20275003
+# target: 
+#   Z: 45
+#   A: 103
+#   nuclide: Rh103
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 45
+#     A: 104
+#     nuclide: Rh104
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.530000E-08   0.000000E+00   1.640000E+05   1.100000E+04   1.000000E+00
+# reference:
+#   author: T.FUKETA, S.OTOMO
+#   title: -MEASUREMENT OF THERMAL-NEUTRON ABSORPTION CROSS-  SECTION WITH A PILE OSCILLATOR-
+#   journal: Rept: JAERI Reports, No.1009 (1960)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.530000E-08
+#   E-max [MeV]:  2.530000E-08
+#   F-value:  1.140256E+00
+#   A-value:  8.769982E-01
+#   chi-2:  3.748830E+00
+#   p-value:  9.887594E-02
+#   exp. data sets for p-value:      4
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.139050E+00   8.779243E-01   3.703771E+00
+# jeff4.0       1.140464E+00   8.768360E-01   3.756653E+00
+# jendl5.0      1.141246E+00   8.762351E-01   3.786065E+00

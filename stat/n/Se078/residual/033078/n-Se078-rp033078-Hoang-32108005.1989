@@ -1,0 +1,59 @@
+# header: 
+#   title: Se78(n,x)As78 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Hoang
+#   year: 1989
+#   subentry: 32108005
+#   X4 reaction: 34-SE-78(N,P)33-AS-78,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/32108005
+# target: 
+#   Z: 34
+#   A: 78
+#   nuclide: Se78
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 33
+#     A: 78
+#     nuclide: As78
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.300000E+01   4.000000E-01   1.739768E+01   2.039300E+00   1.023393E+00
+   1.340000E+01   4.000000E-01   1.932222E+01   3.041900E+00   1.016959E+00
+   1.390000E+01   2.000000E-01   1.945956E+01   3.060300E+00   1.024187E+00
+   1.450000E+01   3.000000E-01   2.046871E+01   3.054400E+00   1.023435E+00
+   1.500000E+01   3.000000E-01   1.968142E+01   3.091500E+00   1.035864E+00
+   1.540000E+01   2.000000E-01   2.095925E+01   3.123600E+00   1.047963E+00
+   1.590000E+01   5.000000E-01   2.162520E+01   3.013500E+00   1.029772E+00
+   1.660000E+01   1.000000E-01   2.109030E+01   3.131200E+00   1.054515E+00
+# reference:
+#   author: H.M.Hoang,U.Garuska,A.Marcinkowski,B.Zwieglinski
+#   title: Cross sections of fast neutron induced reaction on selenium isotopes
+#   journal: Jour: Zeitschrift fuer Physik A, Hadrons and Nuclei, Vol.334, Issue.3, p
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.300000E+01
+#   E-max [MeV]:  1.660000E+01
+#   F-value:  1.103384E+00
+#   A-value:  9.504369E-01
+#   chi-2:  7.044452E-01
+#   p-value:  3.307491E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.090610E+00   9.493862E-01   5.831859E-01
+# jeff4.0       1.090610E+00   9.493862E-01   5.831859E-01
+# jendl5.0      1.125559E+00   9.525416E-01   9.469635E-01

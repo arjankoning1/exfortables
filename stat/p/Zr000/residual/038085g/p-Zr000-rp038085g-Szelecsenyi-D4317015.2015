@@ -1,0 +1,66 @@
+# header: 
+#   title: Zr0(p,x)Sr85g cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Szelecsenyi
+#   year: 2015
+#   subentry: D4317015
+#   X4 reaction: 40-ZR-0(P,X)38-SR-85-G,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D4317015
+# target: 
+#   Z: 40
+#   A: 0
+#   nuclide: Zr0
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 38
+#     A: 85
+#     nuclide: Sr85g
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 11
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.530000E+01   1.400000E+00   3.000000E+00   3.300000E-01   1.000000E+00
+   3.880000E+01   1.300000E+00   1.450000E+01   1.600000E+00   1.000000E+00
+   4.220000E+01   1.200000E+00   2.690000E+01   2.900000E+00   1.000000E+00
+   4.530000E+01   1.200000E+00   3.550000E+01   3.900000E+00   1.000000E+00
+   4.830000E+01   1.100000E+00   4.000000E+01   4.300000E+00   1.000000E+00
+   5.120000E+01   1.000000E+00   3.890000E+01   4.200000E+00   1.000000E+00
+   5.390000E+01   1.000000E+00   3.530000E+01   3.800000E+00   1.000000E+00
+   5.660000E+01   9.000000E-01   3.170000E+01   3.400000E+00   1.000000E+00
+   5.980000E+01   9.000000E-01   2.920000E+01   3.200000E+00   1.000000E+00
+   6.300000E+01   8.000000E-01   2.900000E+01   3.200000E+00   1.000000E+00
+   6.590000E+01   7.000000E-01   2.970000E+01   3.200000E+00   1.000000E+00
+# reference:
+#   author: F.Szelecsenyi, G.F.Steyn, Z.Kovacs, C.Vermeulen,  K.Nagatsu, M.-R.Zhang, K.Suzuki
+#   title: Excitation functions of natZr+p nuclear processes up  to 70 MeV: New measurements and compilation
+#   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.343, p.173 (20
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  3.530000E+01
+#   E-max [MeV]:  6.590000E+01
+#   F-value:  5.743715E+00
+#   A-value:  1.958402E-01
+#   chi-2:  5.122026E+01
+#   p-value:  2.913969E-01
+#   exp. data sets for p-value:      3
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    8.997121E+00   1.150576E-01   6.501569E+01
+# jendl5.0      3.107248E+00   3.333406E-01   3.742482E+01

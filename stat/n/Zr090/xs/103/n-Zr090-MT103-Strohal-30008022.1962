@@ -1,0 +1,54 @@
+# header: 
+#   title: Zr90(n,p)Y90 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Strohal
+#   year: 1962
+#   subentry: 30008022
+#   X4 reaction: 40-ZR-90(N,P)39-Y-90,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30008022
+# target: 
+#   Z: 40
+#   A: 90
+#   nuclide: Zr90
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 39
+#     A: 90
+#     nuclide: Y90
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.460000E+01   3.000000E-01   2.330000E+02   2.900000E+01   1.000000E+00
+# reference:
+#   author: P.Strohal, N.Cindro, B.Eman
+#   title: Reaction mechanism and shell effects from the  interaction of 14.6 MeV neutrons with nuclei
+#   journal: Jour: Nuclear Physics, Vol.30, p.49 (1962)
+# statistics:
+#   NEA score: R2
+#   IAEA score:  1
+#   E-min [MeV]:  1.460000E+01
+#   E-max [MeV]:  1.460000E+01
+#   F-value:  5.591734E+00
+#   A-value:  1.792022E-01
+#   chi-2:  4.343751E+01
+#   p-value:  4.094857E-02
+#   exp. data sets for p-value:      7
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2025    5.819610E+00   1.718328E-01   4.427432E+01
+# jeff4.0       5.819610E+00   1.718328E-01   4.427432E+01
+# jendl5.0      6.238332E+00   1.602993E-01   4.551609E+01
+# cendl3.2      5.110682E+00   1.956686E-01   4.176244E+01
+# eaf.2010      5.011274E+00   1.995500E-01   4.136036E+01

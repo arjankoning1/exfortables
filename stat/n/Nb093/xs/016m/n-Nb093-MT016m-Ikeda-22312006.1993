@@ -1,0 +1,66 @@
+# header: 
+#   title: Nb93(n,2n)Nb92m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Ikeda
+#   year: 1993
+#   subentry: 22312006
+#   X4 reaction: 41-NB-93(N,2N)41-NB-92-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22312006
+# target: 
+#   Z: 41
+#   A: 93
+#   nuclide: Nb93
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 41
+#     A: 92
+#     nuclide: Nb92m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.333000E+01   0.000000E+00   4.553101E+02   1.497731E+01   9.984871E-01
+   1.357000E+01   0.000000E+00   4.543116E+02   1.497731E+01   9.984871E-01
+   1.375000E+01   0.000000E+00   4.503177E+02   1.497731E+01   9.984871E-01
+   1.398000E+01   0.000000E+00   4.593041E+02   1.597580E+01   9.984871E-01
+   1.422000E+01   0.000000E+00   4.563086E+02   2.196672E+01   9.984871E-01
+   1.437000E+01   0.000000E+00   4.563086E+02   1.497731E+01   9.984871E-01
+   1.465000E+01   0.000000E+00   4.553101E+02   1.497731E+01   9.984871E-01
+   1.495000E+01   0.000000E+00   4.682905E+02   1.497731E+01   9.984871E-01
+# reference:
+#   author: Y.Ikeda,C.Konno,Y.Oyama,K.Kosako,K.Oishi,H.Maekawa
+#   title: Absolute measurements of activation cross sections of  27-Al(n,p)27-Mg, 27-Al(n,alpha)24-Na, 56-Fe(n,p)56-Mn,  90-Zr(n,2n)89-Zr-m+g and 93-Nb(n,2n)92-Nb-m at  energy range of 13.3 - 14.9 MeV
+#   journal: Jour: Jour. of Nuclear Science and Technology, Vol.30, p.870 (1993)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.333000E+01
+#   E-max [MeV]:  1.495000E+01
+#   F-value:  1.011734E+00
+#   A-value:  1.001154E+00
+#   chi-2:  3.094305E-01
+#   p-value:  3.243266E-01
+#   exp. data sets for p-value:      8
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2025    1.003413E+00   9.996768E-01   9.884507E-02
+# jeff4.0       1.003413E+00   9.996768E-01   9.884411E-02
+# jendl5.0      1.015042E+00   9.888141E-01   4.819720E-01
+# eaf.2010      1.020761E+00   1.017873E+00   7.655832E-01
+# irdff2.0      1.003484E+00   9.999464E-01   1.019078E-01

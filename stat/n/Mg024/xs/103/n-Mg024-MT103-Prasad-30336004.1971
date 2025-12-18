@@ -1,0 +1,56 @@
+# header: 
+#   title: Mg24(n,p)Na24 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Prasad
+#   year: 1971
+#   subentry: 30336004
+#   X4 reaction: 12-MG-24(N,P)11-NA-24,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30336004
+# target: 
+#   Z: 12
+#   A: 24
+#   nuclide: Mg24
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 11
+#     A: 24
+#     nuclide: Na24
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.480000E+01   5.000000E-01   1.108486E+02   1.000000E+01   8.397619E-01
+# reference:
+#   author: R.Prasad, D.C.Sarkar
+#   title: Measured (n,p) reaction cross-sections and their predicted values at 14.8 MeV
+#   journal: Jour: Nuovo Cimento A, Vol.3, p.467 (1971)
+# statistics:
+#   NEA score: R3
+#   IAEA score:  0
+#   E-min [MeV]:  1.480000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.559796E+00
+#   A-value:  1.559273E+00
+#   chi-2:  3.855664E+01
+#   p-value:  4.565398E-05
+#   exp. data sets for p-value:      8
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.548212E+00   1.548212E+00   3.692812E+01
+# endfb8.1      1.537018E+00   1.537018E+00   3.543546E+01
+# jeff4.0       1.548212E+00   1.548212E+00   3.692812E+01
+# jendl5.0      1.549862E+00   1.549862E+00   3.715073E+01
+# cendl3.2      1.618722E+00   1.618722E+00   4.703830E+01
+# eaf.2010      1.577512E+00   1.577512E+00   4.098098E+01
+# irdff2.0      1.537013E+00   1.537013E+00   3.543479E+01

@@ -1,0 +1,54 @@
+# header: 
+#   title: Pt192(n,g)Pt193 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Koehler
+#   year: 2013
+#   subentry: 14372003
+#   X4 reaction: 78-PT-192(N,G)78-PT-193,,SIG,,AV
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/14372003
+# target: 
+#   Z: 78
+#   A: 192
+#   nuclide: Pt192
+# reaction: 
+#   type: (n,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 78
+#     A: 193
+#     nuclide: Pt193
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   4.000000E-03   1.000000E-03   1.302000E+03   2.900000E+01   1.000000E+00
+# reference:
+#   author: P.E.Koehler,K.H.Guber
+#   title: Improved 192,194,195,196Pt(n,gamma) and 192Ir(n,gamma) astrophysical reaction rates
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.88, p.035802 (2013)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  4.000000E-03
+#   E-max [MeV]:  4.000000E-03
+#   F-value:  1.360035E+00
+#   A-value:  1.322632E+00
+#   chi-2:  2.956866E+02
+#   p-value:  1.166581E-01
+#   exp. data sets for p-value:      3
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2025    1.240577E+00   1.240577E+00   1.166631E+02
+# endfb8.1      1.240753E+00   1.240753E+00   1.168342E+02
+# jeff4.0       1.240577E+00   1.240577E+00   1.166631E+02
+# jendl5.0      1.240741E+00   1.240741E+00   1.168221E+02
+# eaf.2010      1.708369E+00   1.708369E+00   1.011451E+03

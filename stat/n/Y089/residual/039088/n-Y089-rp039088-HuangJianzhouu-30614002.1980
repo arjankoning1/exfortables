@@ -1,0 +1,64 @@
+# header: 
+#   title: Y89(n,x)Y88 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: HuangJianzhouu
+#   year: 1980
+#   subentry: 30614002
+#   X4 reaction: 39-Y-89(N,2N)39-Y-88,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30614002
+# target: 
+#   Z: 39
+#   A: 89
+#   nuclide: Y89
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 39
+#     A: 88
+#     nuclide: Y88
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 13
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.281000E+01   1.300000E-01   3.719977E+02   1.925127E+01   9.763720E-01
+   1.351000E+01   1.600000E-01   6.854132E+02   2.344699E+01   9.763720E-01
+   1.365000E+01   2.000000E-01   7.283736E+02   3.431073E+01   9.763720E-01
+   1.369000E+01   2.200000E-01   7.371610E+02   3.529866E+01   9.763720E-01
+   1.409000E+01   7.000000E-02   8.777584E+02   3.073282E+01   9.763720E-01
+   1.461000E+01   2.100000E-01   9.939467E+02   2.130441E+01   9.763720E-01
+   1.470000E+01   2.300000E-01   1.023238E+03   4.348363E+01   9.763720E-01
+   1.496000E+01   6.000000E-02   1.050576E+03   3.837069E+01   9.763720E-01
+   1.568000E+01   3.100000E-01   1.128686E+03   5.095208E+01   9.763720E-01
+   1.608000E+01   3.300000E-01   1.175552E+03   5.251545E+01   9.763720E-01
+   1.663000E+01   3.000000E-01   1.227300E+03   5.400490E+01   9.763720E-01
+   1.720000E+01   2.800000E-01   1.239993E+03   5.830375E+01   9.763720E-01
+   1.800000E+01   3.000000E-01   1.256591E+03   5.582702E+01   9.763720E-01
+# reference:
+#   author: Huang Jianzhou,Lu HanlLin,Li Jizhou,Fan Peiguo
+#   title: Excitation curve measurement for the reaction  Y-89(n,2n)Y-88.
+#   journal: Jour: Chinese J.of Nuclear Physics (Beijing)., Vol.2, Issue.3, p.213 (19
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.281000E+01
+#   E-max [MeV]:  1.800000E+01
+#   F-value:  1.013398E+00
+#   A-value:  9.962393E-01
+#   chi-2:  3.803701E-01
+#   p-value:  3.741865E-01
+#   exp. data sets for p-value:      7
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.011374E+00   9.940078E-01   3.284478E-01
+# jeff4.0       1.011374E+00   9.940079E-01   3.284478E-01
+# jendl5.0      1.016739E+00   1.000717E+00   4.842149E-01

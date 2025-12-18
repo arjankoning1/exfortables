@@ -1,0 +1,53 @@
+# header: 
+#   title: U238(n,f) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Block
+#   year: 1973
+#   subentry: 10569005
+#   X4 reaction: 92-U-238(N,F),,SIG,,AV
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/10569005
+# target: 
+#   Z: 92
+#   A: 238
+#   nuclide: U238
+# reaction: 
+#   type: (n,f)
+#   ENDF_MF: 3
+#   ENDF_MT: 18
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.000000E-02   1.000000E-02   8.700000E-02   2.600000E-02   1.000000E+00
+   6.500000E-02   3.500000E-02   4.000000E-02   1.200000E-02   1.000000E+00
+# reference:
+#   author: R.C.Block,R.W.Hockenbury,R.E.Slovacek,E.B.Bean, D.S.Cramer
+#   title: Subthreshold Fission Induced by Neutrons on 238U
+#   journal: Jour: Physical Review Letters, Vol.31, p.247 (1973)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  2.000000E-02
+#   E-max [MeV]:  6.500000E-02
+#   F-value:  1.662840E+00
+#   A-value:  1.571191E+00
+#   chi-2:  5.930261E+00
+#   p-value:  3.955089E-01
+#   exp. data sets for p-value:      8
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.621586E+00   1.559672E+00   5.153979E+00
+# endfb8.1      1.649092E+00   1.587606E+00   5.582155E+00
+# jeff4.0       1.714850E+00   1.708917E+00   5.983639E+00
+# jendl5.0      1.537889E+00   1.399864E+00   4.033317E+00
+# cendl3.2      1.554317E+00   1.444049E+00   4.289192E+00
+# eaf.2010      2.326420E+00   2.326420E+00   1.954917E+01
+# irdff2.0      1.649092E+00   1.587606E+00   5.582155E+00

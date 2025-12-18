@@ -1,0 +1,56 @@
+# header: 
+#   title: Ni0(p,x)Cu61 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Michel
+#   year: 1980
+#   subentry: A0145009C
+#   X4 reaction: 28-NI-0(P,X)29-CU-61,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/A0145009C
+# target: 
+#   Z: 28
+#   A: 0
+#   nuclide: Ni0
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 29
+#     A: 61
+#     nuclide: Cu61
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   7.750000E+00   5.400000E-01   3.270000E+00   3.800000E-01   1.000000E+00
+   1.071000E+01   4.300000E-01   5.040000E+00   6.000000E-01   1.000000E+00
+   1.278000E+01   3.900000E-01   3.890000E+00   6.500000E-01   1.000000E+00
+   1.459000E+01   3.000000E-01   2.370000E+00   3.200000E-01   1.000000E+00
+   1.626000E+01   2.400000E-01   4.480000E+00   7.600001E-01   1.000000E+00
+# reference:
+#   author: R.Michel,G.Brinkmann
+#   title: On the depth-dependent production of radionuclides  (44 < 'A' < 59) by solar protons in extraterrestrial matter.
+#   journal: Jour: Journal of Radioanalytical Chemistry, Vol.59, p.467 (1980)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  7.750000E+00
+#   E-max [MeV]:  1.626000E+01
+#   F-value:  1.246554E+00
+#   A-value:  1.111273E+00
+#   chi-2:  4.407430E+00
+#   p-value:  2.904941E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.284921E+00   1.205510E+00   5.673815E+00
+# endfb8.1      1.112971E+00   9.333881E-01   9.323242E-01
+# jendl5.0      1.306314E+00   1.219632E+00   6.616149E+00

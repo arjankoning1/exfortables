@@ -1,0 +1,62 @@
+# header: 
+#   title: Pd105(p,x)Ag106m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Dillmann
+#   year: 2011
+#   subentry: O1917014
+#   X4 reaction: 46-PD-105(P,G)47-AG-106-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O1917014
+# target: 
+#   Z: 46
+#   A: 105
+#   nuclide: Pd105
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 47
+#     A: 106
+#     nuclide: Ag106m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.740074E+00   1.800000E-02   4.400000E-04   1.000000E-04   1.000000E+00
+   2.989447E+00   1.700000E-02   1.500000E-03   2.000000E-04   1.000000E+00
+   3.495260E+00   9.000000E-03   3.990000E-03   6.500000E-04   1.000000E+00
+   3.686076E+00   2.700000E-02   9.680000E-03   1.080000E-03   1.000000E+00
+   4.029342E+00   2.700000E-02   1.760000E-02   1.700000E-03   1.000000E+00
+   4.515973E+00   2.800000E-02   2.680000E-02   2.600000E-03   1.000000E+00
+   5.086401E+00   2.700000E-02   3.870000E-02   4.200000E-03   1.000000E+00
+# reference:
+#   author: I.Dillmann, L.Coquard, C.Domingo-Pardo, F.Kaeppeler, J.Marganiec, E.Uberseder, U.Giesen, A.Heiske, G.Feinberg, D.Hentschel, S.Hilpp, H.Leiste, T.Rauscher, F.-K.Thielemann
+#   title: Cross section for proton-induced reactions on Pd isotopes at energies relevant for the gamma process.
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.84, p.015802 (2011)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.740074E+00
+#   E-max [MeV]:  5.086401E+00
+#   F-value:  2.043165E+00
+#   A-value:  1.854078E+00
+#   chi-2:  1.173219E+02
+#   p-value:  3.078785E-01
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    2.248121E+00   1.957387E+00   1.697670E+02
+# jendl5.0      1.829348E+00   1.756223E+00   6.487679E+01

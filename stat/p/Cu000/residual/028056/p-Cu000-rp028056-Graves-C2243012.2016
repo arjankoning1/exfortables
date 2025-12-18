@@ -1,0 +1,55 @@
+# header: 
+#   title: Cu0(p,x)Ni56 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Graves
+#   year: 2016
+#   subentry: C2243012
+#   X4 reaction: 29-CU-0(P,X)28-NI-56,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C2243012
+# target: 
+#   Z: 29
+#   A: 0
+#   nuclide: Cu0
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 28
+#     A: 56
+#     nuclide: Ni56
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.860000E+01   1.400000E+00   1.690000E-02   2.500000E-03   1.000000E+00
+   6.910000E+01   1.100000E+00   7.620000E-02   9.100000E-03   1.000000E+00
+   7.860000E+01   9.000000E-01   8.780000E-02   7.700000E-03   1.000000E+00
+   8.940000E+01   6.000000E-01   8.240000E-02   5.600000E-03   1.000000E+00
+# reference:
+#   author: S.A.Graves, P.A.Ellison, T.E.Barnhart, H.F.Valdovinos,  E.R.Birnbaum, F.M.Nortier, R.J.Nickles, J.W.Engle
+#   title: Nuclear excitation functions of proton-induced  reactions (Ep=35-90 MeV) from Fe, Cu, and Al
+#   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.386, p.44 (201
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  5.860000E+01
+#   E-max [MeV]:  8.940000E+01
+#   F-value:  1.725090E+00
+#   A-value:  9.000363E-01
+#   chi-2:  3.226032E+01
+#   p-value:  4.225045E-01
+#   exp. data sets for p-value:      5
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.870507E+00   5.409461E-01   2.450179E+01
+# endfb8.1      1.846482E+00   1.781729E+00   5.810228E+01
+# jendl5.0      1.421567E+00   7.564576E-01   1.417690E+01

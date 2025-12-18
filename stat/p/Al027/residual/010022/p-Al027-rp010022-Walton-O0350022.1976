@@ -1,0 +1,65 @@
+# header: 
+#   title: Al27(p,x)Ne22 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Walton
+#   year: 1976
+#   subentry: O0350022
+#   X4 reaction: 13-AL-27(P,X)10-NE-22,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O0350022
+# target: 
+#   Z: 13
+#   A: 27
+#   nuclide: Al27
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 10
+#     A: 22
+#     nuclide: Ne22
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 14
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.590000E+01   8.000000E-01   7.000000E-03   7.000000E-03   1.000000E+00
+   1.810000E+01   7.000000E-01   2.300000E-02   6.900000E-03   1.000000E+00
+   1.910000E+01   6.000000E-01   2.400000E-02   2.400000E-02   1.000000E+00
+   2.100000E+01   0.000000E+00   3.800000E-04   4.408000E-05   1.000000E+00
+   2.240000E+01   6.000000E-01   3.100000E-02   9.300000E-03   1.000000E+00
+   2.360000E+01   7.000000E-01   3.300000E-02   1.650000E-02   1.000000E+00
+   2.700000E+01   1.400000E+00   5.300000E-01   7.950000E-02   1.000000E+00
+   3.010000E+01   1.100000E+00   5.100000E+00   8.160000E-01   1.000000E+00
+   3.070000E+01   9.000000E-01   3.600000E+00   6.840000E-01   1.000000E+00
+   3.110000E+01   1.000000E+00   7.400000E+00   6.660000E-01   1.000000E+00
+   3.320000E+01   1.200000E+00   9.100000E+00   2.366000E+00   1.000000E+00
+   3.780000E+01   1.000000E+00   1.800000E+01   2.340000E+00   1.000000E+00
+   3.980000E+01   1.600000E+00   2.800000E+01   7.000000E+00   1.000000E+00
+   4.210000E+01   1.600000E+00   2.280000E+01   2.052000E+00   1.000000E+00
+# reference:
+#   author: J.R.Walton,D.Heymann,A.Yaniv,D.Edgerley,M.W.Rowe
+#   title: Cross sections for He and Ne isotopes in natural Mg,Al, and Si,He isotopes in Ca-F(2),Ar isotopes in natural Ca and radionuclides in natural Al,Si,Ti,Cr and stainless steel induced by 12-To 45-MeV protons.
+#   journal: Jour: Journal of Geophysical Research, Vol.81, p.5689 (1976)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  1.590000E+01
+#   E-max [MeV]:  4.210000E+01
+#   F-value:  3.037632E+00
+#   A-value:  3.806256E-01
+#   chi-2:  2.111855E+01
+#   p-value:  8.318800E-02
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    2.342690E+00   4.454614E-01   1.958309E+01
+# endfb8.1      4.588781E+00   2.258618E-01   3.286050E+01
+# jendl5.0      1.868500E+00   6.083711E-01   9.845839E+00

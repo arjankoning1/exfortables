@@ -1,0 +1,64 @@
+# header: 
+#   title: U236(n,g)U237 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Adamchuk
+#   year: 1988
+#   subentry: 40987005
+#   X4 reaction: 92-U-236(N,G)92-U-237,,SIG,,EPI
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/40987005
+# target: 
+#   Z: 92
+#   A: 236
+#   nuclide: U236
+# reaction: 
+#   type: (n,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 92
+#     A: 237
+#     nuclide: U237
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.400000E-05   1.250000E-05   3.690000E+04   2.214000E+02   1.000000E+00
+   7.325000E-05   2.675000E-05   2.140000E+04   1.284000E+02   1.000000E+00
+   1.575000E-04   5.750000E-05   1.620000E+04   9.720001E+01   1.000000E+00
+   3.400000E-04   1.250000E-04   6.090000E+03   3.654000E+01   1.000000E+00
+   7.325000E-04   2.675000E-04   5.300000E+03   3.180000E+01   1.000000E+00
+   1.575000E-03   5.750000E-04   2.590000E+03   1.554000E+01   1.000000E+00
+   3.400000E-03   1.250000E-03   1.500000E+03   9.000000E+00   1.000000E+00
+   7.325000E-03   2.675000E-03   1.060000E+03   6.360000E+00   1.000000E+00
+   1.575000E-02   5.750000E-03   7.160000E+02   4.296000E+00   1.000000E+00
+   3.400000E-02   1.250000E-02   5.480000E+02   3.288000E+00   1.000000E+00
+# reference:
+#   author: Yu.V.Adamchuk,M.A.Voskanyan,G.V.Muradyan, V.A.Stepanov
+#   title: U-236 and U-238 radiative capture cross-sections  neutron energies from 10 eV to 50 keV
+#   journal: Jour: Atomnaya Energiya, Vol.65, Issue.5, p.356 (1988)
+# statistics:
+#   NEA score: T3
+#   IAEA score:  1
+#   E-min [MeV]:  3.400000E-05
+#   E-max [MeV]:  3.400000E-02
+#   F-value:  4.557002E+00
+#   A-value:  3.651778E-01
+#   chi-2:  9.779551E+03
+#   p-value:  1.561511E-01
+#   exp. data sets for p-value:      3
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    4.921402E+00   3.675580E-01   1.007505E+04
+# endfb8.1      4.916576E+00   3.615605E-01   9.972983E+03
+# jeff4.0       3.573155E+00   4.037967E-01   9.315689E+03
+# jendl5.0      5.042076E+00   3.298770E-01   1.031956E+04
+# cendl3.2      4.925709E+00   3.380917E-01   1.007874E+04
+# eaf.2010      4.032544E+00   3.962505E-01   8.915279E+03

@@ -1,0 +1,57 @@
+# header: 
+#   title: Sm152(n,g)Sm153 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Diamet
+#   year: 1999
+#   subentry: 22783006
+#   X4 reaction: 62-SM-152(N,G)62-SM-153,,SIG,,AV
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22783006
+# target: 
+#   Z: 62
+#   A: 152
+#   nuclide: Sm152
+# reaction: 
+#   type: (n,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 62
+#     A: 153
+#     nuclide: Sm153
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.000000E-02   5.000000E-03   5.470000E+02   2.400000E+01   1.000000E+00
+   3.500000E-02   1.000000E-02   4.390000E+02   1.800000E+01   1.000000E+00
+   6.750000E-02   2.250000E-02   3.290000E+02   1.300000E+01   1.000000E+00
+# reference:
+#   author: B.Diamet, M.Igashira, M.Mizumachi, S.Mizuno,  Jun-Ichi Hori, K.Masuda, T.Ohsaki
+#   title: .Measurements of keV-neutron capture cross sections  and capture gamma-ray spectra of 147,148,149,150,  152,154-Sm
+#   journal: Jour: Jour. of Nuclear Science and Technology, Vol.36, Issue.10, p.865 (
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  2.000000E-02
+#   E-max [MeV]:  6.750000E-02
+#   F-value:  1.059628E+00
+#   A-value:  1.016817E+00
+#   chi-2:  2.484353E+00
+#   p-value:  3.759343E-01
+#   exp. data sets for p-value:      2
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.103625E+00   1.102936E+00   6.330002E+00
+# endfb8.1      1.044402E+00   9.658520E-01   1.501444E+00
+# jeff4.0       1.022621E+00   1.015847E+00   5.543466E-01
+# jendl5.0      1.021641E+00   9.864689E-01   5.476869E-01
+# cendl3.2      1.020612E+00   9.901179E-01   5.828338E-01
+# eaf.2010      1.088187E+00   1.045680E+00   5.389806E+00

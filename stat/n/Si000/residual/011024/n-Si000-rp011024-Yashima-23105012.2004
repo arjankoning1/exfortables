@@ -1,0 +1,58 @@
+# header: 
+#   title: Si0(n,x)Na24 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Yashima
+#   year: 2004
+#   subentry: 23105012
+#   X4 reaction: 14-SI-0(N,X)11-NA-24,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/23105012
+# target: 
+#   Z: 14
+#   A: 0
+#   nuclide: Si0
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 11
+#     A: 24
+#     nuclide: Na24
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.700000E+01   0.000000E+00   1.170075E+01   1.260100E+00   1.000064E+00
+   3.100000E+01   0.000000E+00   5.980400E+00   3.800200E-01   1.000064E+00
+   3.700000E+01   0.000000E+00   3.410200E+00   2.200100E-01   1.000064E+00
+   4.600000E+01   0.000000E+00   3.160200E+00   3.400200E-01   1.000064E+00
+   5.600000E+01   0.000000E+00   3.530200E+00   3.800200E-01   1.000064E+00
+   6.600000E+01   0.000000E+00   3.490200E+00   3.700200E-01   1.000064E+00
+# reference:
+#   author: H.Yashima, K.Terunuma, T.Nakamura, M.Hagiwara, N.Kawata, M.Baba
+#   title: Measurement of neutron activation cross sections for  major elements of water, air and soil between 30 and  70 MeV.
+#   journal: Jour: Jour. of Nuclear Science and Technology Suppl., Vol.4, p.70 (2004)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.700000E+01
+#   E-max [MeV]:  6.600000E+01
+#   F-value:  2.158720E+00
+#   A-value:  1.775112E+00
+#   chi-2:  3.679495E+02
+#   p-value:  1.507007E-01
+#   exp. data sets for p-value:      1
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.709091E+00   1.464857E+00   9.381586E+01
+# endfb8.1      1.936927E+00   1.561611E+00   1.848784E+02
+# jeff4.0       1.936927E+00   1.561611E+00   1.848784E+02
+# jendl5.0      3.000408E+00   2.779469E+00   1.008225E+03

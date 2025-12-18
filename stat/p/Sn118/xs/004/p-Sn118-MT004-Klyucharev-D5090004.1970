@@ -1,0 +1,57 @@
+# header: 
+#   title: Sn118(p,n')Sb118 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Klyucharev
+#   year: 1970
+#   subentry: D5090004
+#   X4 reaction: 50-SN-118(P,N)51-SB-118,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D5090004
+# target: 
+#   Z: 50
+#   A: 118
+#   nuclide: Sn118
+# reaction: 
+#   type: (p,n')
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+#   residual: 
+#     Z: 51
+#     A: 118
+#     nuclide: Sb118
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.300000E+00   0.000000E+00   3.800000E+01   5.000000E+00   1.000000E+00
+   6.000000E+00   0.000000E+00   8.500001E+01   9.000000E+00   1.000000E+00
+   6.700000E+00   0.000000E+00   1.400000E+02   1.100000E+01   1.000000E+00
+   7.300000E+00   0.000000E+00   1.930000E+02   2.100000E+01   1.000000E+00
+   7.900000E+00   0.000000E+00   2.520000E+02   3.100000E+01   1.000000E+00
+   8.400000E+00   0.000000E+00   3.220000E+02   3.200000E+01   1.000000E+00
+   8.500000E+00   0.000000E+00   3.260000E+02   3.200000E+01   1.000000E+00
+# reference:
+#   author: A.P.Klyucharev,E.A.Skakun,Y.N.Rakivnenko,I.A.Romanii
+#   title: Excitation functions of (p, n) reactions on some Sn isotopes and the isomeric cross section ratios.
+#   journal: Jour: Yadernaya Fizika, Vol.11, Issue.5, p.953 (1970)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  5.300000E+00
+#   E-max [MeV]:  8.500000E+00
+#   F-value:  1.160820E+00
+#   A-value:  1.045453E+00
+#   chi-2:  2.296729E+00
+#   p-value:  2.266263E-01
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.072273E+00   1.024307E+00   8.932548E-01
+# jendl5.0      1.220203E+00   1.067035E+00   3.700203E+00

@@ -1,0 +1,68 @@
+# header: 
+#   title: I127(n,g)I128 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Weston
+#   year: 1960
+#   subentry: 11818010
+#   X4 reaction: 53-I-127(N,G)53-I-128,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11818010
+# target: 
+#   Z: 53
+#   A: 127
+#   nuclide: I127
+# reaction: 
+#   type: (n,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 53
+#     A: 128
+#     nuclide: I128
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 14
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.000000E-03   0.000000E+00   1.950000E+03   0.000000E+00   1.000000E+00
+   6.000000E-03   0.000000E+00   1.720000E+03   0.000000E+00   1.000000E+00
+   7.000000E-03   0.000000E+00   1.420000E+03   0.000000E+00   1.000000E+00
+   8.500000E-03   0.000000E+00   1.320000E+03   0.000000E+00   1.000000E+00
+   1.000000E-02   0.000000E+00   1.150000E+03   0.000000E+00   1.000000E+00
+   1.250000E-02   0.000000E+00   1.140000E+03   0.000000E+00   1.000000E+00
+   1.500000E-02   0.000000E+00   1.100000E+03   0.000000E+00   1.000000E+00
+   2.000000E-02   0.000000E+00   9.400000E+02   0.000000E+00   1.000000E+00
+   2.500000E-02   0.000000E+00   8.200000E+02   0.000000E+00   1.000000E+00
+   3.000000E-02   0.000000E+00   6.500000E+02   0.000000E+00   1.000000E+00
+   4.000000E-02   0.000000E+00   6.200000E+02   0.000000E+00   1.000000E+00
+   5.600000E-02   0.000000E+00   5.500000E+02   0.000000E+00   1.000000E+00
+   8.000000E-02   0.000000E+00   4.000000E+02   0.000000E+00   1.000000E+00
+   1.500000E-01   0.000000E+00   2.000000E+02   0.000000E+00   1.000000E+00
+# reference:
+#   author: L.W.WESTON,K.K.SETH,E.G.BILPUCH,H.W.NEWSON
+#   title: NEUTRON CAPTURE CROSS SECTIONS IN THE KEV REGION. PART II. SPIN-ORBIT COUPLING AND THE OPTICAL MODEL.
+#   journal: Jour: Annals of Physics (New York), Vol.10, p.477 (1960)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  5.000000E-03
+#   E-max [MeV]:  1.500000E-01
+#   F-value:  1.107114E+00
+#   A-value:  9.879752E-01
+#   chi-2:  0.000000E+00
+#   p-value:  2.874960E-01
+#   exp. data sets for p-value:      6
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.100064E+00   1.028275E+00   0.000000E+00
+# endfb8.1      1.125981E+00   9.532661E-01   0.000000E+00
+# jeff4.0       1.100064E+00   1.028275E+00   0.000000E+00
+# jendl5.0      1.125122E+00   9.807472E-01   0.000000E+00
+# cendl3.2      1.095677E+00   9.598880E-01   0.000000E+00
+# eaf.2010      1.091152E+00   9.800894E-01   0.000000E+00

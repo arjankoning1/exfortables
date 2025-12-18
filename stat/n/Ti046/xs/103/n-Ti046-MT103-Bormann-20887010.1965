@@ -1,0 +1,61 @@
+# header: 
+#   title: Ti46(n,p)Sc46 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Bormann
+#   year: 1965
+#   subentry: 20887010
+#   X4 reaction: 22-TI-46(N,P)21-SC-46,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20887010
+# target: 
+#   Z: 22
+#   A: 46
+#   nuclide: Ti46
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 21
+#     A: 46
+#     nuclide: Sc46
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.250000E+01   2.000000E-01   2.500000E+02   3.100000E+01   1.000000E+00
+   1.300000E+01   2.000000E-01   2.510000E+02   3.100000E+01   1.000000E+00
+   1.410000E+01   3.000000E-01   2.570000E+02   1.700000E+01   1.000000E+00
+   1.500000E+01   3.000000E-01   2.470000E+02   3.000000E+01   1.000000E+00
+   1.600000E+01   3.000000E-01   2.340000E+02   2.800000E+01   1.000000E+00
+   1.700000E+01   3.000000E-01   2.220000E+02   2.700000E+01   1.000000E+00
+# reference:
+#   author: M.Bormann,E.Fretwurst,P.Schehka,G.Wrege,  H.Buettner,A.Lindner,H.Meldner
+#   title: Some excitation functions of neutron induced reactions  in the energy range 12.6-19.6 MeV
+#   journal: Jour: Nuclear Physics, Vol.63, p.438 (1965)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.250000E+01
+#   E-max [MeV]:  1.700000E+01
+#   F-value:  1.189335E+00
+#   A-value:  9.509140E-01
+#   chi-2:  2.019439E+00
+#   p-value:  2.919235E-01
+#   exp. data sets for p-value:      2
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.206508E+00   9.398690E-01   2.309191E+00
+# endfb8.1      1.204999E+00   9.423153E-01   2.274367E+00
+# jeff4.0       1.206505E+00   9.398708E-01   2.309155E+00
+# jendl5.0      1.251191E+00   9.555325E-01   3.148599E+00
+# cendl3.2      1.030726E+00   9.855602E-01   2.875488E-01
+# eaf.2010      1.148988E+00   9.517799E-01   1.532650E+00
+# irdff2.0      1.205013E+00   9.423057E-01   2.274564E+00

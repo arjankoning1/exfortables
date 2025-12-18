@@ -1,0 +1,58 @@
+# header: 
+#   title: B11(n,p)Be11 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Stepancic
+#   year: 1966
+#   subentry: 30180002
+#   X4 reaction: 5-B-11(N,P)4-BE-11,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30180002
+# target: 
+#   Z: 5
+#   A: 11
+#   nuclide: B11
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 4
+#     A: 11
+#     nuclide: Be11
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.470000E+01   7.000000E-01   4.700000E+00   5.000000E-01   1.000000E+00
+   1.570000E+01   3.000000E-01   5.200000E+00   5.000000E-01   1.000000E+00
+   1.630000E+01   3.000000E-01   4.900000E+00   5.000000E-01   1.000000E+00
+   1.690000E+01   2.000000E-01   6.000000E+00   5.000000E-01   1.000000E+00
+# reference:
+#   author: B.Z.Stepancic, D.M.Stanojevic, R.V.Popic, M.R.Aleksic
+#   title: Cross section of the 11B(n,p)11Be reaction for  14.7-16.9 MeV neutrons
+#   journal: Jour: Bull.Boris Kidrich Inst.of Nucl.Sci., Vol.17, p.237 (1966)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.470000E+01
+#   E-max [MeV]:  1.690000E+01
+#   F-value:  1.171282E+00
+#   A-value:  1.048842E+00
+#   chi-2:  3.331020E+00
+#   p-value:  1.979465E-01
+#   exp. data sets for p-value:      8
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.242325E+00   1.100839E+00   6.435670E+00
+# endfb8.1      1.172390E+00   1.046567E+00   3.280304E+00
+# jeff4.0       1.172521E+00   1.046130E+00   3.282542E+00
+# jendl5.0      1.041287E+00   1.008861E+00   4.247604E-01
+# cendl3.2      1.172390E+00   1.046567E+00   3.280304E+00
+# eaf.2010      1.172521E+00   1.046130E+00   3.282542E+00

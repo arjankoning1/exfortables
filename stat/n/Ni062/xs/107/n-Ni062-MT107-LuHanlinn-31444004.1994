@@ -1,0 +1,58 @@
+# header: 
+#   title: Ni62(n,a)Fe59 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: LuHanlinn
+#   year: 1994
+#   subentry: 31444004
+#   X4 reaction: 28-NI-62(N,A)26-FE-59,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/31444004
+# target: 
+#   Z: 28
+#   A: 62
+#   nuclide: Ni62
+# reaction: 
+#   type: (n,a)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+#   residual: 
+#     Z: 26
+#     A: 59
+#     nuclide: Fe59
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.273000E+01   3.400000E-01   1.670000E+01   2.900000E+00   1.000000E+00
+   1.281000E+01   2.000000E-01   1.320000E+01   5.000000E-01   1.000000E+00
+   1.594000E+01   5.300000E-01   1.950000E+01   6.000000E-01   1.000000E+00
+   1.741000E+01   3.700000E-01   1.760000E+01   8.000000E-01   1.000000E+00
+# reference:
+#   author: Lu Hanlin,Zhao Wenrong,Yu Weixiang
+#   title: Cross-section measurement for Ni-58(n,np+pn+d)Co-57, Ni-60(n,p)Co-60 and Ni-62(n,alpha)Fe=59 reactions.
+#   journal: Jour: Chinese J.of Nuclear Physics (Beijing)., Vol.16, p.263 (1994)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.273000E+01
+#   E-max [MeV]:  1.741000E+01
+#   F-value:  1.133713E+00
+#   A-value:  1.024730E+00
+#   chi-2:  1.214153E+01
+#   p-value:  3.061315E-01
+#   exp. data sets for p-value:      2
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.092394E+00   9.441680E-01   1.666091E+00
+# endfb8.1      1.091742E+00   1.040092E+00   5.068810E+00
+# jeff4.0       1.113651E+00   9.193711E-01   2.892073E+00
+# jendl5.0      1.141663E+00   1.107921E+00   1.626760E+01
+# cendl3.2      1.073572E+00   9.968579E-01   2.374199E+00
+# eaf.2010      1.235743E+00   1.161188E+00   4.458043E+01

@@ -1,0 +1,58 @@
+# header: 
+#   title: Zn66(p,x)Zn65 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Tarkanyi
+#   year: 1990
+#   subentry: D40040022
+#   X4 reaction: 30-ZN-66(P,X)30-ZN-65,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D40040022
+# target: 
+#   Z: 30
+#   A: 66
+#   nuclide: Zn66
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 30
+#     A: 65
+#     nuclide: Zn65
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.330000E+01   2.000000E-01   2.880296E+01   3.744400E+00   1.014189E+00
+   1.460000E+01   2.000000E-01   1.007089E+02   1.309216E+01   1.014189E+00
+   1.580000E+01   2.000000E-01   3.194694E+02   4.153102E+01   1.014189E+00
+   1.690000E+01   2.000000E-01   5.436051E+02   7.066869E+01   1.014189E+00
+   1.800000E+01   2.000000E-01   6.825489E+02   8.873137E+01   1.014189E+00
+   1.910000E+01   2.000000E-01   8.458334E+02   1.099583E+02   1.014189E+00
+   2.010000E+01   2.000000E-01   9.594225E+02   1.247249E+02   1.014189E+00
+   2.110000E+01   2.000000E-01   9.959334E+02   1.294713E+02   1.014189E+00
+# reference:
+#   author: F.Tarkanyi,F.Szelecsenyi,Z.Kovacs,S.Sudar
+#   title: Excitation functions of proton induced nuclear reactions on enriched 66Zn, 67Zn and 68Zn. production of 67Ga and 66Ga.
+#   journal: Jour: Radiochimica Acta, Vol.50, p.19 (1990)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.330000E+01
+#   E-max [MeV]:  2.110000E+01
+#   F-value:  1.404155E+00
+#   A-value:  8.750945E-01
+#   chi-2:  6.656690E+00
+#   p-value:  2.198831E-01
+#   exp. data sets for p-value:      3
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.424879E+00   8.987002E-01   7.863553E+00
+# jendl5.0      1.382819E+00   8.521090E-01   5.449827E+00

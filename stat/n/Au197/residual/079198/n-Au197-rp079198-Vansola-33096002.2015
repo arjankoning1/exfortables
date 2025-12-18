@@ -1,0 +1,54 @@
+# header: 
+#   title: Au197(n,x)Au198 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Vansola
+#   year: 2015
+#   subentry: 33096002
+#   X4 reaction: 79-AU-197(N,G)79-AU-198,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/33096002
+# target: 
+#   Z: 79
+#   A: 197
+#   nuclide: Au197
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 79
+#     A: 198
+#     nuclide: Au198
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.120000E+00   1.200000E-01   6.044101E+01   3.403000E+00   1.000000E+00
+   2.120000E+00   1.500000E-01   4.058800E+01   3.063000E+00   1.000000E+00
+   3.120000E+00   2.100000E-01   1.977100E+01   2.673000E+00   1.000000E+00
+   4.120000E+00   3.200000E-01   1.394400E+01   1.611000E+00   1.000000E+00
+# reference:
+#   author: V.Vansola, R.Ghosh, S.Badwar, B.M.Lawriniang,  A.Gopalakrishna, H.Naik, Y.Naik, N.S.Tawade,  S.C.Sharma, J.P.Bhatt, S.K.Gupta, S.Sarode,  S.Mukherjee, N.L.Singh, P.Singh, A.Goswami
+#   title: Measurement of 197Au(n,g)198gAu reaction  cross-section at the neutron energies of 1.12, 2.12,  3.12 and 4.12 MeV
+#   journal: Jour: Radiochimica Acta, Vol.103, p.817 (2015)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.120000E+00
+#   E-max [MeV]:  4.120000E+00
+#   F-value:  1.201165E+00
+#   A-value:  1.084783E+00
+#   chi-2:  9.542291E+00
+#   p-value:  1.895382E-01
+#   exp. data sets for p-value:      5
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.197302E+00   1.089879E+00   8.977110E+00
+# jendl5.0      1.204975E+00   1.079710E+00   1.010747E+01

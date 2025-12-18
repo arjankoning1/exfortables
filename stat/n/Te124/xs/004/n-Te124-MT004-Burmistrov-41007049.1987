@@ -1,0 +1,62 @@
+# header: 
+#   title: Te124(n,n')Te124 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Burmistrov
+#   year: 1987
+#   subentry: 41007049
+#   X4 reaction: 52-TE-124(N,INL)52-TE-124,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/41007049
+# target: 
+#   Z: 52
+#   A: 124
+#   nuclide: Te124
+# reaction: 
+#   type: (n,n')
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+#   residual: 
+#     Z: 52
+#     A: 124
+#     nuclide: Te124
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   6.600000E-01   0.000000E+00   4.000000E+02   4.000000E+02   1.000000E+00
+   7.000000E-01   0.000000E+00   5.500000E+02   6.000000E+02   1.000000E+00
+   7.600000E-01   0.000000E+00   7.400000E+02   7.000000E+02   1.000000E+00
+   8.000000E-01   0.000000E+00   8.900000E+02   9.000000E+02   1.000000E+00
+   8.500000E-01   0.000000E+00   8.400000E+02   8.000000E+02   1.000000E+00
+   9.000000E-01   0.000000E+00   9.300000E+02   9.000000E+02   1.000000E+00
+   9.400000E-01   0.000000E+00   8.900000E+02   9.000000E+02   1.000000E+00
+   9.900000E-01   0.000000E+00   9.000000E+02   9.000000E+02   1.000000E+00
+   1.040000E+00   0.000000E+00   1.000000E+03   1.000000E+03   1.000000E+00
+   1.090000E+00   0.000000E+00   1.020000E+03   1.000000E+03   1.000000E+00
+# reference:
+#   author: Yu.M.Burmistrov,T.E.Grigor'ev,E.D.Molodtsov, R.M.Musaelyan,V.I.Popov,S.I.Potashev,V.M.Skorkin
+#   title: 1.2-2.0 MeV energy neutron scattering on the even tellurium isotopes
+#   journal: Conf: 1.Int.Conf.on Neutron Physics, Kiev,14-18 Sep 1987, Vol.3, p.217 (
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  6.600000E-01
+#   E-max [MeV]:  1.090000E+00
+#   F-value:  1.125683E+00
+#   A-value:  9.086741E-01
+#   chi-2:  1.157851E-01
+#   p-value:  1.505338E-01
+#   exp. data sets for p-value:      1
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.087494E+00   9.312537E-01   8.729000E-02
+# endfb8.1      1.216192E+00   8.265434E-01   2.266946E-01
+# jeff4.0       1.087208E+00   9.314685E-01   8.701643E-02
+# jendl5.0      1.062979E+00   9.508911E-01   6.213931E-02

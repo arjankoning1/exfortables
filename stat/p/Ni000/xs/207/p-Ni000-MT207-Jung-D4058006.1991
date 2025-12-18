@@ -1,0 +1,50 @@
+# header: 
+#   title: Ni0(p,xa) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Jung
+#   year: 1991
+#   subentry: D4058006
+#   X4 reaction: 28-NI-0(P,X)2-HE-4,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D4058006
+# target: 
+#   Z: 28
+#   A: 0
+#   nuclide: Ni0
+# reaction: 
+#   type: (p,xa)
+#   ENDF_MF: 3
+#   ENDF_MT: 207
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   7.600000E+00   4.000000E-01   2.000000E+00   0.000000E+00   1.000000E+00
+   1.570000E+01   3.000000E-01   4.100000E+01   5.000000E+00   1.000000E+00
+   2.370000E+01   3.000000E-01   8.400001E+01   0.000000E+00   1.000000E+00
+# reference:
+#   author: P.Jung
+#   title: Cross sections for the production of helium and long- living radioactive isotopes by protons and deuterons
+#   journal: Conf: Conf.on Nucl.Data for Sci.and Technol.,Juelich 1991, p.352 (1991)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  7.600000E+00
+#   E-max [MeV]:  2.370000E+01
+#   F-value:  1.401741E+00
+#   A-value:  8.836064E-01
+#   chi-2:  2.813791E+00
+#   p-value:  3.218776E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.435597E+00   9.773746E-01   5.154895E+00
+# endfb8.1      1.455170E+00   7.153382E-01   6.110862E-01
+# jendl5.0      1.304590E+00   9.867431E-01   2.675390E+00

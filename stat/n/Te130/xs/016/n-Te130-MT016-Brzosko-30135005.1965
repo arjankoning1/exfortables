@@ -1,0 +1,55 @@
+# header: 
+#   title: Te130(n,2n)Te129 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Brzosko
+#   year: 1965
+#   subentry: 30135005
+#   X4 reaction: 52-TE-130(N,2N)52-TE-129,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30135005
+# target: 
+#   Z: 52
+#   A: 130
+#   nuclide: Te130
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 52
+#     A: 129
+#     nuclide: Te129
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.420000E+01   2.000000E-01   4.150260E+02   6.818501E+01   9.081532E-01
+# reference:
+#   author: J.Brzosko,P.Decowski,K.Siwek-Diament,Z.Wilhelmi
+#   title: Isomeric cross section for the 130Te(n,2n)129Te reaction
+#   journal: Jour: Nuclear Physics, Vol.74, p.438 (1965)
+# statistics:
+#   NEA score: R3
+#   IAEA score:  0
+#   E-min [MeV]:  1.420000E+01
+#   E-max [MeV]:  1.420000E+01
+#   F-value:  4.136182E+00
+#   A-value:  4.134932E+00
+#   chi-2:  3.650578E+02
+#   p-value:  3.989998E-02
+#   exp. data sets for p-value:      2
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    4.057397E+00   4.057397E+00   3.463192E+02
+# endfb8.1      4.258817E+00   4.258817E+00   3.934530E+02
+# jeff4.0       4.057397E+00   4.057397E+00   3.463192E+02
+# jendl5.0      3.950171E+00   3.950171E+00   3.224537E+02
+# cendl3.2      4.258817E+00   4.258817E+00   3.934530E+02
+# eaf.2010      4.237611E+00   4.237611E+00   3.883488E+02

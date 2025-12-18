@@ -1,0 +1,61 @@
+# header: 
+#   title: W182(n,x)Ta182n cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Filatenkov
+#   year: 2016
+#   subentry: 41614183
+#   X4 reaction: 74-W-182(N,P)73-TA-182-M2,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/41614183
+# target: 
+#   Z: 74
+#   A: 182
+#   nuclide: W182
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 73
+#     A: 182
+#     nuclide: Ta182n
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.348000E+01   0.000000E+00   4.000000E-02   3.000000E-02   9.999999E-01
+   1.364000E+01   0.000000E+00   5.197000E-02   2.099600E-02   9.994242E-01
+   1.388000E+01   0.000000E+00   7.898400E-02   2.022000E-02   9.997974E-01
+   1.428000E+01   0.000000E+00   1.149100E-01   1.999500E-02   9.992074E-01
+   1.447000E+01   0.000000E+00   1.149800E-01   3.495500E-02   9.998618E-01
+   1.468000E+01   0.000000E+00   1.259300E-01   3.022400E-02   9.994506E-01
+   1.482000E+01   0.000000E+00   1.498700E-01   4.990700E-02   9.991354E-01
+# reference:
+#   author: A.A.Filatenkov
+#   title: Neutron activation cross sections measured at KRI in neutron energy region 13.4 - 14.9 MeV
+#   journal: Rept: USSR report to the I.N.D.C., No.0460 (2016)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.348000E+01
+#   E-max [MeV]:  1.482000E+01
+#   F-value:  1.091319E+00
+#   A-value:  1.004632E+00
+#   chi-2:  2.857914E-01
+#   p-value:  3.525074E-01
+#   exp. data sets for p-value:      2
+#   libraries:      1
+##  Library          F              A            chi-2
+# tendl.2025    1.091319E+00   1.004632E+00   2.857914E-01

@@ -1,0 +1,54 @@
+# header: 
+#   title: Zn68(p,x)Ga68 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Kotelnikova
+#   year: 1980
+#   subentry: A0223008B
+#   X4 reaction: 30-ZN-68(P,N)31-GA-68,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/A0223008B
+# target: 
+#   Z: 30
+#   A: 68
+#   nuclide: Zn68
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+#   residual: 
+#     Z: 31
+#     A: 68
+#     nuclide: Ga68
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   7.500000E+00   0.000000E+00   5.370001E+02   2.685000E+01   1.000000E+00
+   8.000000E+00   0.000000E+00   5.980000E+02   2.990000E+01   1.000000E+00
+   8.500000E+00   0.000000E+00   6.490000E+02   3.245001E+01   1.000000E+00
+   9.000000E+00   0.000000E+00   6.820000E+02   3.410000E+01   1.000000E+00
+# reference:
+#   author: G.V.KOTEL'NIKOVA, G.N.LOVCHIKOVA, O.A.SAL'NIKOV, S.P.SIMAKOV, A.M.TRUFANOV, N.I.FETISOV
+#   title: The Investigation of Neutron Energy Spectra For 68-Zn(P,N)68-Ga Reaction.
+#   journal: Rept: Fiz.-Energ Institut, Obninsk Reports, No.1141, p.1 (1980)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  7.500000E+00
+#   E-max [MeV]:  9.000000E+00
+#   F-value:  1.013042E+00
+#   A-value:  9.934497E-01
+#   chi-2:  2.326651E-01
+#   p-value:  4.533963E-01
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.002990E+00   1.001884E+00   5.530221E-02
+# jendl5.0      1.018245E+00   9.850861E-01   4.100280E-01

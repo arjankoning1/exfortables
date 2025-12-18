@@ -1,0 +1,67 @@
+# header: 
+#   title: Te122(n,x)Te123 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Wisshak
+#   year: 1992
+#   subentry: 22372007
+#   X4 reaction: 52-TE-122(N,G)52-TE-123,,SIG,,AV
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22372007
+# target: 
+#   Z: 52
+#   A: 122
+#   nuclide: Te122
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 52
+#     A: 123
+#     nuclide: Te123
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 16
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   6.250000E-03   1.250000E-03   6.853302E+02   5.312800E+01   1.031968E+00
+   8.750000E-03   1.250000E-03   5.739048E+02   2.928420E+01   1.058279E+00
+   1.125000E-02   1.250000E-03   4.541257E+02   1.426560E+01   1.018676E+00
+   1.375000E-02   1.250000E-03   5.539845E+02   1.203360E+01   1.104875E+00
+   1.750000E-02   2.500000E-03   4.857410E+02   6.645000E+00   1.096481E+00
+   2.250000E-02   2.500000E-03   3.685474E+02   4.663400E+00   1.106417E+00
+   2.750000E-02   2.500000E-03   3.194554E+02   5.980000E-01   1.068413E+00
+   3.500000E-02   5.000000E-03   2.968404E+02   2.716000E-01   1.092932E+00
+   4.500000E-02   5.000000E-03   2.571300E+02   2.422000E-01   1.061643E+00
+   5.500000E-02   5.000000E-03   2.152856E+02   1.976000E-01   1.089502E+00
+   7.000000E-02   1.000000E-02   2.025901E+02   1.861000E-01   1.088609E+00
+   9.000000E-02   1.000000E-02   1.701321E+02   1.552000E-01   1.096212E+00
+   1.100000E-01   1.000000E-02   1.575466E+02   1.937000E+00   1.057359E+00
+   1.350000E-01   1.500000E-02   1.497146E+02   2.868000E-01   1.044035E+00
+   1.625000E-01   1.250000E-02   1.459859E+02   1.839500E+00   1.031703E+00
+   1.875000E-01   1.250000E-02   1.467361E+02   1.988000E+00   1.033353E+00
+# reference:
+#   author: K.Wisshak,F.Voss,F.Kaeppeler,G.Reffo
+#   title: Neutron capture in 122,123,124,125,126-Te:  Critical test for s process studies
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.45, Issue.5, p.2470
+# statistics:
+#   NEA score: T3
+#   IAEA score:  1
+#   E-min [MeV]:  6.250000E-03
+#   E-max [MeV]:  1.875000E-01
+#   F-value:  1.021286E+01
+#   A-value:  3.955669E-01
+#   chi-2:  4.334912E+03
+#   p-value:  3.643562E-01
+#   exp. data sets for p-value:      2
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.466074E+01   3.234769E-01   1.009662E+04
+# jeff4.0       1.461065E+01   2.908042E-01   1.032710E+03
+# jendl5.0      3.819722E+00   6.579853E-01   1.875402E+03

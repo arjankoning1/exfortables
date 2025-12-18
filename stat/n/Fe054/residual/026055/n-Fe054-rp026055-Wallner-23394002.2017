@@ -1,0 +1,55 @@
+# header: 
+#   title: Fe54(n,x)Fe55 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Wallner
+#   year: 2017
+#   subentry: 23394002
+#   X4 reaction: 26-FE-54(N,G)26-FE-55,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/23394002
+# target: 
+#   Z: 26
+#   A: 54
+#   nuclide: Fe54
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 26
+#     A: 55
+#     nuclide: Fe55
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.530000E-08   0.000000E+00   2.210000E+03   1.500000E+02   1.000000E+00
+   2.530000E-08   0.000000E+00   2.280000E+03   1.500000E+02   1.000000E+00
+   2.530000E-08   0.000000E+00   2.240000E+03   1.500000E+02   1.000000E+00
+   2.530000E-08   0.000000E+00   2.300000E+03   1.500000E+02   1.000000E+00
+   2.530000E-08   0.000000E+00   2.260000E+03   1.500000E+02   1.000000E+00
+# reference:
+#   author: A.Wallner, K.Buczak, T.Belgya, M.Bichler, L.Coquard, I.Dillmann, R.Golser,F.Kaeppeler,A.Karakas,W.Kutschera, C.Lederer, A.Mengoni, M.Pignatari,A.Priller,R.Reifarth, P.Steier, L.Szentmiklosi
+#   title: Precise measurement of the thermal and stellar Fe54(n,g)Fe55 cross sections via accelerator mass spectrometry
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.96, p.025808 (2017)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  2.530000E-08
+#   E-max [MeV]:  2.530000E-08
+#   F-value:  1.003085E+00
+#   A-value:  9.996165E-01
+#   chi-2:  4.438691E-02
+#   p-value:  4.369085E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.003086E+00   9.996147E-01   4.439286E-02
+# jendl5.0      1.003085E+00   9.996182E-01   4.438097E-02

@@ -1,0 +1,54 @@
+# header: 
+#   title: Li6(n,t)He4 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Bormann
+#   year: 1960
+#   subentry: 21668012
+#   X4 reaction: 3-LI-6(N,T)2-HE-4,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21668012
+# target: 
+#   Z: 3
+#   A: 6
+#   nuclide: Li6
+# reaction: 
+#   type: (n,t)
+#   ENDF_MF: 3
+#   ENDF_MT: 105
+#   residual: 
+#     Z: 2
+#     A: 4
+#     nuclide: He4
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.500000E+00   1.000000E-01   1.900000E+02   1.500000E+01   1.000000E+00
+# reference:
+#   author: M.Bormann,H.Jeremie,G.Andersson-Lindstroem,  H.Neuert,H.Pollehn
+#   title: -Cross sections for 14 MeV neutrons in the  scintillation crystals NaI(Tl), KI(Tl), CsI(Tl) and  Li-6I(Eu) component nuclear reactions -. (in German)
+#   journal: Jour: Zeitschrift fuer Naturforschung, Section A, Vol.15, p.200 (1960)
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  2.500000E+00
+#   E-max [MeV]:  2.500000E+00
+#   F-value:  1.024235E+00
+#   A-value:  1.014081E+00
+#   chi-2:  3.054008E-01
+#   p-value:  3.244126E-01
+#   exp. data sets for p-value:      8
+#   libraries:      5
+##  Library          F              A            chi-2
+# endfb8.1      1.000414E+00   9.995866E-01   6.570192E-03
+# jeff4.0       1.038120E+00   1.038120E+00   6.737473E-01
+# jendl5.0      1.007645E+00   9.924127E-01   1.229233E-01
+# eaf.2010      1.003124E+00   1.003124E+00   5.001619E-02
+# irdff2.0      1.038120E+00   1.038120E+00   6.737473E-01

@@ -1,0 +1,58 @@
+# header: 
+#   title: Al27(n,x)Mg27 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Ikeda
+#   year: 1988
+#   subentry: 22089007
+#   X4 reaction: 13-AL-27(N,P)12-MG-27,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22089007
+# target: 
+#   Z: 13
+#   A: 27
+#   nuclide: Al27
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 12
+#     A: 27
+#     nuclide: Mg27
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.333000E+01   0.000000E+00   8.480823E+01   3.665200E+00   1.018106E+00
+   1.352000E+01   0.000000E+00   7.920865E+01   3.461560E+00   1.018106E+00
+   1.404000E+01   0.000000E+00   7.238732E+01   3.054300E+00   1.018106E+00
+   1.466000E+01   0.000000E+00   6.719499E+01   2.850700E+00   1.018106E+00
+   1.476000E+01   0.000000E+00   6.200266E+01   2.647100E+00   1.018106E+00
+   1.493000E+01   0.000000E+00   6.342799E+01   2.748900E+00   1.018106E+00
+# reference:
+#   author: Y.Ikeda,C.Konno,K.Oishi,T.Nakamura,H.Miyade, K.Kawade,  H.Yamamoto, T.Katoh
+#   title: Activation cross section measurements for fusion  reactor structural materials at neutron energy from  13.3 to 15.0 MeV using FNS facility
+#   journal: Rept: JAERI Reports, No.1312 (1988)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.333000E+01
+#   E-max [MeV]:  1.493000E+01
+#   F-value:  1.045951E+00
+#   A-value:  1.030675E+00
+#   chi-2:  1.509557E+00
+#   p-value:  2.460311E-01
+#   exp. data sets for p-value:      8
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.032438E+00   1.022570E+00   8.866637E-01
+# endfb8.1      1.031954E+00   1.022238E+00   8.682747E-01
+# jeff4.0       1.031938E+00   1.022242E+00   8.680603E-01
+# jendl5.0      1.073852E+00   1.056058E+00   3.415229E+00

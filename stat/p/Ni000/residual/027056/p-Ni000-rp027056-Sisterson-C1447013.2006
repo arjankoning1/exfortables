@@ -1,0 +1,57 @@
+# header: 
+#   title: Ni0(p,x)Co56 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Sisterson
+#   year: 2006
+#   subentry: C1447013
+#   X4 reaction: 28-NI-0(P,X)27-CO-56,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C1447013
+# target: 
+#   Z: 28
+#   A: 0
+#   nuclide: Ni0
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 27
+#     A: 56
+#     nuclide: Co56
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.400000E+02   1.000000E+00   7.020710E+01   5.200500E+00   1.000101E+00
+   1.600000E+02   1.000000E+00   5.840591E+01   4.300400E+00   1.000101E+00
+   2.000000E+02   1.000000E+00   5.310537E+01   3.900400E+00   1.000101E+00
+   3.000000E+02   1.000000E+00   4.550460E+01   3.400300E+00   1.000101E+00
+   4.000000E+02   1.000000E+00   4.140418E+01   3.100300E+00   1.000101E+00
+   5.000000E+02   1.000000E+00   3.510355E+01   2.600300E+00   1.000101E+00
+# reference:
+#   author: J.M.Sisterson,J.Vincent
+#   title: Cross section measurements for proton-induced reactions  in Fe and Ni producing relatively short-lived  radionuclides at Ep = 140-500 MeV
+#   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.251, p.1 (2006
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.400000E+02
+#   E-max [MeV]:  5.000000E+02
+#   F-value:  1.113001E+00
+#   A-value:  1.046567E+00
+#   chi-2:  2.681561E+00
+#   p-value:  2.163758E-01
+#   exp. data sets for p-value:      2
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.063580E+00   9.603403E-01   8.952431E-01
+# endfb8.1      1.033380E+00   1.033380E+00   6.240338E-01
+# jendl5.0      1.148894E+00   1.137407E+00   4.490362E+00

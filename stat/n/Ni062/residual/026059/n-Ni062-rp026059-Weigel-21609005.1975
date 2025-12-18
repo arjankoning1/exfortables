@@ -1,0 +1,53 @@
+# header: 
+#   title: Ni62(n,x)Fe59 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Weigel
+#   year: 1975
+#   subentry: 21609005
+#   X4 reaction: 28-NI-62(N,A)26-FE-59,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21609005
+# target: 
+#   Z: 28
+#   A: 62
+#   nuclide: Ni62
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+#   residual: 
+#     Z: 26
+#     A: 59
+#     nuclide: Fe59
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.440000E+01   3.500000E-01   1.927269E+01   2.000000E+00   8.379431E-01
+# reference:
+#   author: H.Weigel,R.Michel,W.Herr
+#   title: Measurement  of 14MeV cross sections for (n,p),  (n,alpha),(n,2n) and (n,np+pn+d) reactions in the  elements Sc,Ni,Ge,Pd,Cd,Sm,Dy,Gd and Yb by taking into  account the "effective" n-energy spectra. (in German)
+#   journal: Jour: Radiochimica Acta, Vol.22, p.11 (1975)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.440000E+01
+#   E-max [MeV]:  1.440000E+01
+#   F-value:  1.043857E+00
+#   A-value:  9.595602E-01
+#   chi-2:  5.351810E-01
+#   p-value:  4.273746E-01
+#   exp. data sets for p-value:      4
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.029961E+00   9.709101E-01   3.733106E-01
+# endfb8.1      0.000000E+00   0.000000E+00   0.000000E+00
+# jeff4.0       1.054471E+00   9.483430E-01   6.970515E-01
+# jendl5.0      0.000000E+00   0.000000E+00   0.000000E+00

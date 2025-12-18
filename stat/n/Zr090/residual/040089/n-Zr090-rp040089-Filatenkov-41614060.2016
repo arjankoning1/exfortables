@@ -1,0 +1,58 @@
+# header: 
+#   title: Zr90(n,x)Zr89 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Filatenkov
+#   year: 2016
+#   subentry: 41614060
+#   X4 reaction: 40-ZR-90(N,2N)40-ZR-89,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/41614060
+# target: 
+#   Z: 40
+#   A: 90
+#   nuclide: Zr90
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 40
+#     A: 89
+#     nuclide: Zr89
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.356000E+01   0.000000E+00   4.520041E+02   9.437200E+00   1.000009E+00
+   1.374000E+01   0.000000E+00   5.049952E+02   9.348700E+00   9.999903E-01
+   1.396000E+01   0.000000E+00   5.859985E+02   1.128716E+01   9.999973E-01
+   1.419000E+01   0.000000E+00   6.460021E+02   1.213903E+01   1.000003E+00
+   1.442000E+01   0.000000E+00   7.100030E+02   1.413232E+01   1.000004E+00
+   1.461000E+01   0.000000E+00   7.470032E+02   1.516560E+01   1.000004E+00
+   1.478000E+01   0.000000E+00   7.850069E+02   1.527625E+01   1.000009E+00
+# reference:
+#   author: A.A.Filatenkov
+#   title: Neutron activation cross sections measured at KRI in neutron energy region 13.4 - 14.9 MeV
+#   journal: Rept: USSR report to the I.N.D.C., No.0460 (2016)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.356000E+01
+#   E-max [MeV]:  1.478000E+01
+#   F-value:  1.004962E+00
+#   A-value:  1.000435E+00
+#   chi-2:  2.188766E-01
+#   p-value:  3.349019E-01
+#   exp. data sets for p-value:      8
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.003633E+00   9.991759E-01   1.632427E-01
+# jeff4.0       1.003633E+00   9.991759E-01   1.632427E-01
+# jendl5.0      1.006893E+00   1.002959E+00   3.301446E-01

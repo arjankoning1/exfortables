@@ -1,0 +1,60 @@
+# header: 
+#   title: F19(n,x)O19 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Bormann
+#   year: 1965
+#   subentry: 20887008
+#   X4 reaction: 9-F-19(N,P)8-O-19,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20887008
+# target: 
+#   Z: 9
+#   A: 19
+#   nuclide: F19
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 8
+#     A: 19
+#     nuclide: O19
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.260000E+01   2.000000E-01   2.640000E+01   2.300000E+00   1.000000E+00
+   1.320000E+01   2.000000E-01   2.350000E+01   2.000000E+00   1.000000E+00
+   1.410000E+01   3.000000E-01   1.990000E+01   1.300000E+00   1.000000E+00
+   1.520000E+01   3.000000E-01   1.730000E+01   1.500000E+00   1.000000E+00
+   1.600000E+01   3.000000E-01   1.570000E+01   1.400000E+00   1.000000E+00
+   1.710000E+01   3.000000E-01   1.580000E+01   1.400000E+00   1.000000E+00
+   1.800000E+01   3.000000E-01   1.430000E+01   1.300000E+00   1.000000E+00
+   1.870000E+01   3.000000E-01   1.280000E+01   1.100000E+00   1.000000E+00
+   1.940000E+01   1.000000E-01   1.130000E+01   1.000000E+00   1.000000E+00
+   1.960000E+01   1.000000E-01   1.090000E+01   9.000000E-01   1.000000E+00
+# reference:
+#   author: M.Bormann,E.Fretwurst,P.Schehka,G.Wrege,  H.Buettner,A.Lindner,H.Meldner
+#   title: Some excitation functions of neutron induced reactions  in the energy range 12.6-19.6 MeV
+#   journal: Jour: Nuclear Physics, Vol.63, p.438 (1965)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.260000E+01
+#   E-max [MeV]:  1.960000E+01
+#   F-value:  1.184988E+00
+#   A-value:  9.095156E-01
+#   chi-2:  3.482598E+00
+#   p-value:  2.854039E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.037307E+00   9.763802E-01   4.169195E-01
+# jendl5.0      1.267729E+00   8.472300E-01   6.548276E+00

@@ -1,0 +1,60 @@
+# header: 
+#   title: Cu63(n,2n)Cu62 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Fowler
+#   year: 1950
+#   subentry: 11797002
+#   X4 reaction: 29-CU-63(N,2N)29-CU-62,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11797002
+# target: 
+#   Z: 29
+#   A: 63
+#   nuclide: Cu63
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 29
+#     A: 62
+#     nuclide: Cu62
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.144000E+01   0.000000E+00   1.000000E+01   2.000000E+00   1.000000E+00
+   1.205000E+01   0.000000E+00   5.000000E+01   1.000000E+01   1.000000E+00
+   1.228000E+01   0.000000E+00   9.000000E+01   1.800000E+01   1.000000E+00
+   1.240000E+01   0.000000E+00   1.350000E+02   2.700000E+01   1.000000E+00
+   1.270000E+01   0.000000E+00   1.600000E+02   3.200000E+01   1.000000E+00
+# reference:
+#   author: J.L.Fowler,J.M.Slye Jr
+#   title: The Cu-63(n,2n)Cu-62 cross section as a function of  neutron energy near the threshold.
+#   journal: Jour: Physical Review, Vol.77, p.787 (1950)
+# statistics:
+#   NEA score: R2
+#   IAEA score:  1
+#   E-min [MeV]:  1.144000E+01
+#   E-max [MeV]:  1.270000E+01
+#   F-value:  1.263130E+00
+#   A-value:  1.182796E+00
+#   chi-2:  2.326253E+00
+#   p-value:  2.531871E-01
+#   exp. data sets for p-value:      3
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.243873E+00   1.178441E+00   2.021019E+00
+# endfb8.1      1.227537E+00   1.152642E+00   1.769215E+00
+# jeff4.0       1.227537E+00   1.152642E+00   1.769215E+00
+# jendl5.0      1.372652E+00   1.285647E+00   4.216688E+00
+# cendl3.2      1.185522E+00   1.111222E+00   1.315380E+00
+# eaf.2010      1.324459E+00   1.256207E+00   3.423198E+00
+# irdff2.0      1.227524E+00   1.152627E+00   1.769055E+00

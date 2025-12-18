@@ -1,0 +1,57 @@
+# header: 
+#   title: Cu0(p,x)Co57 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Voyles
+#   year: 2018
+#   subentry: C2327010
+#   X4 reaction: 29-CU-0(P,X)27-CO-57,IND,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C2327010
+# target: 
+#   Z: 29
+#   A: 0
+#   nuclide: Cu0
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 27
+#     A: 57
+#     nuclide: Co57
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   4.105000E+01   1.620000E+00   3.210000E+00   1.800000E-01   1.000000E+00
+   5.210000E+01   1.250000E+00   4.770000E+01   2.500000E+00   1.000000E+00
+   6.158000E+01   1.030000E+00   4.850000E+01   2.500000E+00   1.000000E+00
+   7.017000E+01   9.100000E-01   3.580000E+01   1.800000E+00   1.000000E+00
+   7.995000E+01   6.700000E-01   3.560000E+01   1.900000E+00   1.000000E+00
+   8.974000E+01   4.800000E-01   4.010000E+01   2.500000E+00   1.000000E+00
+# reference:
+#   author: A.S.Voyles,L.A.Bernstein,E.R.Birnbaum,J.W.Engle,  S.A.Graves,T.Kawano,A.M.Lewis,F.M.Nortier
+#   title: Excitation functions for (p,x) reactions of niobium in the energy range of Ep=40-90 MeV
+#   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.429, p.53 (201
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  4.105000E+01
+#   E-max [MeV]:  8.974000E+01
+#   F-value:  1.717626E+00
+#   A-value:  8.504347E-01
+#   chi-2:  1.444737E+02
+#   p-value:  3.045467E-01
+#   exp. data sets for p-value:      7
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.952613E+00   5.579616E-01   7.680352E+01
+# endfb8.1      1.700728E+00   1.229839E+00   2.924875E+02
+# jendl5.0      1.469283E+00   8.963349E-01   6.412996E+01

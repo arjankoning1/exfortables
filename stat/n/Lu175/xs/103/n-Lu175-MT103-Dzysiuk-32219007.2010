@@ -1,0 +1,56 @@
+# header: 
+#   title: Lu175(n,p)Yb175 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Dzysiuk
+#   year: 2010
+#   subentry: 32219007
+#   X4 reaction: 71-LU-175(N,P)70-YB-175,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/32219007
+# target: 
+#   Z: 71
+#   A: 175
+#   nuclide: Lu175
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 70
+#     A: 175
+#     nuclide: Yb175
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.350000E+01   2.000000E-01   1.070000E+01   7.000000E-01   1.000000E+00
+   1.420000E+01   2.000000E-01   9.800000E+00   7.000000E-01   1.000000E+00
+   1.460000E+01   3.000000E-01   1.320000E+01   9.000000E-01   1.000000E+00
+# reference:
+#   author: N.Dzysiuk, I.Kadenko, A.J.Koning, R.V.Yermolenko
+#   title: Cross sections for fast-neutron interaction with Lu,  Tb, and Ta isotopes
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.81, p.014610 (2010)
+# statistics:
+#   NEA score: T2
+#   IAEA score:  1
+#   E-min [MeV]:  1.350000E+01
+#   E-max [MeV]:  1.460000E+01
+#   F-value:  1.924821E+00
+#   A-value:  5.720870E-01
+#   chi-2:  4.127498E+01
+#   p-value:  8.605889E-02
+#   exp. data sets for p-value:      2
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2025    1.442976E+00   7.117312E-01   2.005533E+01
+# endfb8.1      3.263895E+00   3.079334E-01   1.030218E+02
+# jeff4.0       1.442976E+00   7.117312E-01   2.005533E+01
+# jendl5.0      1.593164E+00   6.427945E-01   2.930630E+01
+# eaf.2010      1.663305E+00   6.111522E-01   3.393615E+01

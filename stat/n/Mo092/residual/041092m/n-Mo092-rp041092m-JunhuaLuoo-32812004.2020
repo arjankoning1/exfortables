@@ -1,0 +1,59 @@
+# header: 
+#   title: Mo92(n,x)Nb92m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: JunhuaLuoo
+#   year: 2020
+#   subentry: 32812004
+#   X4 reaction: 42-MO-92(N,P)41-NB-92-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/32812004
+# target: 
+#   Z: 42
+#   A: 92
+#   nuclide: Mo92
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 41
+#     A: 92
+#     nuclide: Nb92m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.350000E+01   2.000000E-01   8.500001E+01   6.000000E+00   1.000000E+00
+   1.410000E+01   2.000000E-01   7.300001E+01   5.000000E+00   1.000000E+00
+   1.480000E+01   2.000000E-01   6.700000E+01   5.000000E+00   1.000000E+00
+# reference:
+#   author: Junhua Luo,Li Jiang
+#   title: Cross-sections for (n,2n),(n,a),(n,p),(n,d),and (n,t) reactions on molybdenum isotopes in the neutron energy range of 13 to 15 MeV
+#   journal: Jour: Chinese Physics C, Vol.44, p.114002 (2020)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.350000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.058688E+00
+#   A-value:  9.858091E-01
+#   chi-2:  9.460394E-01
+#   p-value:  4.405289E-01
+#   exp. data sets for p-value:      8
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.059840E+00   9.611177E-01   8.468018E-01
+# jeff4.0       1.059840E+00   9.611177E-01   8.468018E-01
+# jendl5.0      1.056319E+00   1.037111E+00   1.144515E+00

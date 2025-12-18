@@ -1,0 +1,65 @@
+# header: 
+#   title: U235(n,tot) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Grigoriev
+#   year: 1995
+#   subentry: 41363003
+#   X4 reaction: 92-U-235(N,TOT),,SIG,,AV
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/41363003
+# target: 
+#   Z: 92
+#   A: 235
+#   nuclide: U235
+# reaction: 
+#   type: (n,tot)
+#   ENDF_MF: 3
+#   ENDF_MT: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 15
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.400000E-06   1.250000E-06   3.191000E+04   0.000000E+00   1.000000E+00
+   7.325000E-06   2.675000E-06   4.949000E+04   0.000000E+00   1.000000E+00
+   1.575000E-05   5.750000E-06   5.080000E+04   0.000000E+00   1.000000E+00
+   3.400000E-05   1.250000E-05   4.968000E+04   0.000000E+00   1.000000E+00
+   7.325000E-05   2.675000E-05   4.480000E+04   0.000000E+00   1.000000E+00
+   1.575000E-04   5.750000E-05   3.588000E+04   0.000000E+00   1.000000E+00
+   3.400000E-04   1.250000E-04   3.234000E+04   0.000000E+00   1.000000E+00
+   7.325000E-04   2.675000E-04   2.521000E+04   0.000000E+00   1.000000E+00
+   1.575000E-03   5.750000E-04   2.075000E+04   0.000000E+00   1.000000E+00
+   3.400000E-03   1.250000E-03   1.550000E+04   0.000000E+00   1.000000E+00
+   7.325000E-03   2.675000E-03   1.208000E+04   0.000000E+00   1.000000E+00
+   1.575000E-02   5.750000E-03   1.335000E+04   0.000000E+00   1.000000E+00
+   3.400000E-02   1.250000E-02   1.475000E+04   0.000000E+00   1.000000E+00
+   7.325000E-02   2.675000E-02   1.430000E+04   0.000000E+00   1.000000E+00
+   1.500000E-01   5.000000E-02   1.081000E+04   0.000000E+00   1.000000E+00
+# reference:
+#   author: Yu.V.Grigoriev, V.V.Sinitsa, G.P.Georgiev,  N.A.Gundorin
+#   title: Investigation of Resonance Structure and Doppler  Effect of Cross-Section for Th-232, U-235 and Pu-239.
+#   journal: Conf: Int.Sem.on Interactions of Neutrons with Nuclei, No.3, p.324 (1995
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  3.400000E-06
+#   E-max [MeV]:  1.500000E-01
+#   F-value:  1.578048E+00
+#   A-value:  1.162765E+00
+#   chi-2:  0.000000E+00
+#   p-value:  2.036086E-01
+#   exp. data sets for p-value:      8
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.582158E+00   1.168262E+00   0.000000E+00
+# endfb8.1      1.579013E+00   1.165034E+00   0.000000E+00
+# jeff4.0       1.583661E+00   1.156265E+00   0.000000E+00
+# jendl5.0      1.575633E+00   1.155466E+00   0.000000E+00
+# cendl3.2      1.568549E+00   1.166775E+00   0.000000E+00
+# irdff2.0      1.579219E+00   1.164852E+00   0.000000E+00

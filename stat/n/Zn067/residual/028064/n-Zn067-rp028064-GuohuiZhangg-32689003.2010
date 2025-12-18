@@ -1,0 +1,54 @@
+# header: 
+#   title: Zn67(n,x)Ni64 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: GuohuiZhangg
+#   year: 2010
+#   subentry: 32689003
+#   X4 reaction: 30-ZN-67(N,A)28-NI-64,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/32689003
+# target: 
+#   Z: 30
+#   A: 67
+#   nuclide: Zn67
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+#   residual: 
+#     Z: 28
+#     A: 64
+#     nuclide: Ni64
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   4.000000E+00   0.000000E+00   7.441900E+00   9.075800E-01   1.005664E+00
+   5.000000E+00   0.000000E+00   7.632000E+00   9.066200E-01   1.004207E+00
+   6.000000E+00   0.000000E+00   8.102100E+00   9.041700E-01   1.000262E+00
+# reference:
+#   author: Guohui Zhang, Yu.M.Gledenov, G.Khuukhenkhuu,  M.V.Sedysheva, P.J.Szalanski, Jiaming Liu, Hao Wu,  Xiang Liu, Jinxiang Chen, V.A.Stolupin
+#   title: Cross section of the 67Zn(n,a)64Ni reaction at 4.0,  5.0, and 6.0 MeV
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.82, p.054619 (2010)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  4.000000E+00
+#   E-max [MeV]:  6.000000E+00
+#   F-value:  1.665892E+00
+#   A-value:  6.629472E-01
+#   chi-2:  9.474896E+00
+#   p-value:  2.149979E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.358022E+00   8.023561E-01   4.229925E+00
+# jeff4.0       1.922581E+00   5.477606E-01   1.471987E+01
+# jendl5.0      0.000000E+00   0.000000E+00   0.000000E+00

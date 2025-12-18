@@ -1,0 +1,54 @@
+# header: 
+#   title: K41(n,p)Ar41 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Levkovskii
+#   year: 1969
+#   subentry: 402230031
+#   X4 reaction: 19-K-41(N,P)18-AR-41,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/402230031
+# target: 
+#   Z: 19
+#   A: 41
+#   nuclide: K41
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 18
+#     A: 41
+#     nuclide: Ar41
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.480000E+01   0.000000E+00   3.400000E+01   7.000000E+00   1.000000E+00
+# reference:
+#   author: V.N.Levkovskii,G.E.Kovel'skaya,G.P.Vinitskaya, V.M.Stepanov,V.V.Sokol'skii
+#   title: Cross sections of the (n,p) and (n,alpha) reactions  at 14.8 MeV .
+#   journal: Jour: Soviet Journal of Nuclear Physics, Vol.8, p.4 (1969)
+# statistics:
+#   NEA score: R2
+#   IAEA score:  0
+#   E-min [MeV]:  1.480000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.397667E+00
+#   A-value:  1.392408E+00
+#   chi-2:  4.148798E+00
+#   p-value:  9.727775E-03
+#   exp. data sets for p-value:      8
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2025    1.342360E+00   1.342360E+00   3.217014E+00
+# endfb8.1      1.534017E+00   1.534017E+00   6.848734E+00
+# jeff4.0       1.353567E+00   1.353567E+00   3.380533E+00
+# jendl5.0      1.392579E+00   1.392579E+00   3.992527E+00
+# eaf.2010      1.348448E+00   1.348448E+00   3.305186E+00

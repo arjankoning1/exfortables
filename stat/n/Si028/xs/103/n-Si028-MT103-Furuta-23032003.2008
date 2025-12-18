@@ -1,0 +1,62 @@
+# header: 
+#   title: Si28(n,p)Al28 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Furuta
+#   year: 2008
+#   subentry: 23032003
+#   X4 reaction: 14-SI-28(N,P)13-AL-28,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/23032003
+# target: 
+#   Z: 14
+#   A: 28
+#   nuclide: Si28
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 13
+#     A: 28
+#     nuclide: Al28
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   4.230000E+00   1.000000E-01   2.180000E+00   3.706000E-01   1.000000E+00
+   4.420000E+00   1.000000E-01   3.400000E+00   7.140000E-01   1.000000E+00
+   4.810000E+00   1.000000E-01   1.390000E+01   4.031000E+00   1.000000E+00
+   5.010000E+00   1.000000E-01   1.810000E+01   3.258000E+00   1.000000E+00
+   5.260000E+00   1.000000E-01   2.880000E+01   6.624000E+00   1.000000E+00
+   5.610000E+00   1.000000E-01   4.070000E+01   4.477000E+00   1.000000E+00
+   5.930000E+00   1.000000E-01   8.240001E+01   2.060000E+01   1.000000E+00
+# reference:
+#   author: M.Furuta, T.Shimizu, H.Hayashi, I.Miyazaki, H.Yamamoto, M.Shibata, K.Kawade
+#   title: Measurements of activation cross sections of (n,p)  and (n,alpha) reactions in the energy range of  3.5-5.9 MeV using a deuterium gas target
+#   journal: Jour: Annals of Nuclear Energy, Vol.35, p.1652 (2008)
+# statistics:
+#   NEA score: R2
+#   IAEA score:  1
+#   E-min [MeV]:  4.230000E+00
+#   E-max [MeV]:  5.930000E+00
+#   F-value:  4.614827E+00
+#   A-value:  4.285541E-01
+#   chi-2:  9.003952E+00
+#   p-value:  1.718889E-01
+#   exp. data sets for p-value:      1
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    3.387690E+00   3.932630E-01   8.659578E+00
+# endfb8.1      3.366864E+00   3.955274E-01   8.612860E+00
+# jeff4.0       1.737814E+00   7.843747E-01   6.073021E+00
+# jendl5.0      2.740792E+01   1.169971E-01   2.037764E+01
+# cendl3.2      1.737814E+00   7.843747E-01   6.073021E+00
+# eaf.2010      1.825274E+00   5.994869E-01   4.618733E+00
+# irdff2.0      3.366878E+00   3.955284E-01   8.612817E+00

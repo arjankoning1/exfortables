@@ -1,0 +1,64 @@
+# header: 
+#   title: Cu63(n,x)Cu62 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Cohen
+#   year: 1956
+#   subentry: 21115005
+#   X4 reaction: 29-CU-63(N,2N)29-CU-62,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21115005
+# target: 
+#   Z: 29
+#   A: 63
+#   nuclide: Cu63
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 29
+#     A: 62
+#     nuclide: Cu62
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 12
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.305000E+01   1.500000E-01   3.550000E+02   2.500000E+01   1.000000E+00
+   1.325000E+01   1.500000E-01   3.650000E+02   4.000000E+01   1.000000E+00
+   1.390000E+01   1.500000E-01   4.400000E+02   3.500000E+01   1.000000E+00
+   1.402000E+01   1.300000E-01   4.750000E+02   3.500000E+01   1.000000E+00
+   1.445000E+01   1.500000E-01   4.700000E+02   3.000000E+01   1.000000E+00
+   1.490000E+01   2.000000E-01   5.600001E+02   4.500000E+01   1.000000E+00
+   1.505000E+01   1.500000E-01   4.700000E+02   3.500000E+01   1.000000E+00
+   1.540000E+01   2.000000E-01   5.250000E+02   4.000000E+01   1.000000E+00
+   1.590000E+01   1.500000E-01   5.900000E+02   5.000000E+01   1.000000E+00
+   1.610000E+01   2.000000E-01   6.300001E+02   6.500002E+01   1.000000E+00
+   1.680000E+01   2.000000E-01   5.350000E+02   4.500000E+01   1.000000E+00
+   1.755000E+01   2.000000E-01   6.250001E+02   7.000001E+01   1.000000E+00
+# reference:
+#   author: A.V.COHEN,P.H.WHITE
+#   title: -THE EXCITATION CURVES OF SOME (N,P) PROCESSES INDUCED  BY NEUTRONS OF 12.5-17.5 MEV ENERGY-
+#   journal: Jour: Nuclear Physics, Vol.1, p.73 (1956)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.305000E+01
+#   E-max [MeV]:  1.755000E+01
+#   F-value:  1.162612E+00
+#   A-value:  1.041627E+00
+#   chi-2:  4.138463E+00
+#   p-value:  2.440434E-01
+#   exp. data sets for p-value:      8
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.165087E+00   1.033310E+00   4.135489E+00
+# endfb8.1      1.166504E+00   1.035993E+00   4.224033E+00
+# jeff4.0       1.166504E+00   1.035993E+00   4.224033E+00
+# jendl5.0      1.151987E+00   1.061463E+00   3.970300E+00

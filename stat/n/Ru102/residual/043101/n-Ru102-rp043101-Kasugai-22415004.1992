@@ -1,0 +1,57 @@
+# header: 
+#   title: Ru102(n,x)Tc101 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Kasugai
+#   year: 1992
+#   subentry: 22415004
+#   X4 reaction: 44-RU-102(N,X)43-TC-101,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22415004
+# target: 
+#   Z: 44
+#   A: 102
+#   nuclide: Ru102
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 28
+#   residual: 
+#     Z: 43
+#     A: 101
+#     nuclide: Tc101
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.340000E+01   0.000000E+00   5.679900E-01   5.981700E-02   9.792993E-01
+   1.365000E+01   0.000000E+00   6.988000E-01   5.498900E-02   9.842244E-01
+   1.388000E+01   0.000000E+00   9.244700E-01   2.092700E-02   9.834824E-01
+   1.428000E+01   0.000000E+00   1.431400E+00   7.912500E-02   9.737605E-01
+   1.458000E+01   0.000000E+00   2.134500E+00   8.537300E-02   9.658331E-01
+   1.487000E+01   0.000000E+00   2.830700E+00   8.630900E-02   9.595639E-01
+# reference:
+#   author: Y.Kasugai, T.Tokushima,  K.Kawade, H.Yamamoto,  T.Katoh, A.Takahashi, T.Iida
+#   title: Measurement of activation cross section of short-lived  nuclei produced by 14 MeV neutrons - Ru, Pd, Cd, Sn
+#   journal: Conf: JAERI-M Reports, No.92-027, p.268 (1992)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  1.340000E+01
+#   E-max [MeV]:  1.487000E+01
+#   F-value:  3.645360E+00
+#   A-value:  5.102645E-01
+#   chi-2:  3.158816E+02
+#   p-value:  3.212677E-01
+#   exp. data sets for p-value:      2
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    8.223362E+00   1.249600E-01   5.198420E+02
+# jeff4.0       1.730125E+00   6.288669E-01   7.355758E+01
+# jendl5.0      1.696208E+00   1.690660E+00   3.542452E+02

@@ -1,0 +1,53 @@
+# header: 
+#   title: Ni60(n,x)Co60 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Hemingway
+#   year: 1973
+#   subentry: 20527005
+#   X4 reaction: 28-NI-60(N,P)27-CO-60,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20527005
+# target: 
+#   Z: 28
+#   A: 60
+#   nuclide: Ni60
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 27
+#     A: 60
+#     nuclide: Co60
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.470000E+01   4.000000E-01   1.413025E+02   1.600000E+01   1.095368E+00
+# reference:
+#   author: J.D.Hemingway
+#   title: Some activation cross-sections for 14.7 MeV neutrons  on nickel
+#   journal: Jour: Journal of Nuclear Energy, Vol.27, p.241 (1973)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.470000E+01
+#   E-max [MeV]:  1.470000E+01
+#   F-value:  1.015460E+00
+#   A-value:  9.866093E-01
+#   chi-2:  1.528171E-01
+#   p-value:  3.262767E-01
+#   exp. data sets for p-value:      8
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.018274E+00   9.820542E-01   2.054571E-01
+# endfb8.1      1.017022E+00   9.832627E-01   1.911777E-01
+# jeff4.0       1.018274E+00   9.820542E-01   2.054571E-01
+# jendl5.0      1.000829E+00   9.991722E-01   9.176438E-03

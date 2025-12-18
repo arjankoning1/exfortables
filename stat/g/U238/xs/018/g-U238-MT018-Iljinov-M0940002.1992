@@ -1,0 +1,54 @@
+# header: 
+#   title: U238(g,f) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Iljinov
+#   year: 1992
+#   subentry: M0940002
+#   X4 reaction: 92-U-238(G,F),,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/M0940002
+# target: 
+#   Z: 92
+#   A: 238
+#   nuclide: U238
+# reaction: 
+#   type: (g,f)
+#   ENDF_MF: 3
+#   ENDF_MT: 18
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   7.000000E+01   3.000000E+01   1.830700E+01   1.831000E+00   1.000000E+00
+   9.000000E+01   3.000000E+01   1.649100E+01   2.929000E+00   1.000000E+00
+   1.200000E+02   3.000000E+01   1.849000E+01   3.295000E+00   1.000000E+00
+   1.500000E+02   3.000000E+01   2.562900E+01   3.310000E+00   1.000000E+00
+   1.800000E+02   3.000000E+01   3.807800E+01   4.027000E+00   1.000000E+00
+   2.100000E+02   3.000000E+01   4.141700E+01   4.833000E+00   1.000000E+00
+   2.400000E+02   3.000000E+01   5.029200E+01   5.858000E+00   1.000000E+00
+# reference:
+#   author: A.S.Iljinov,D.I.Ivanov,M.V.Mebel,V.G.Nedorezov,  A.S.Sudov,G.Ya.Kezerashvili
+#   title: Fissilities of 238U and 237Np  nuclei  measured  with  tagged photons in the energy range 60 - 240 MeV.
+#   journal: Jour: Nuclear Physics, Section A, Vol.539, p.263 (1992)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  7.000000E+01
+#   E-max [MeV]:  2.400000E+02
+#   F-value:  2.429593E+00
+#   A-value:  4.947814E-01
+#   chi-2:  1.887191E+01
+#   p-value:  1.127630E-01
+#   exp. data sets for p-value:      6
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    2.606519E+00   4.324727E-01   2.169542E+01
+# endfb8.1      0.000000E+00   0.000000E+00   0.000000E+00
+# jendl5.0      2.250978E+00   5.660673E-01   1.604840E+01

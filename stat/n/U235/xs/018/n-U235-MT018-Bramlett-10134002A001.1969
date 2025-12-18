@@ -1,0 +1,59 @@
+# header: 
+#   title: U235(n,f) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Bramlett
+#   year: 1969
+#   subentry: 10134002
+#   X4 reaction: 92-U-235(N,F),,SIG,,AV
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/10134002
+# target: 
+#   Z: 92
+#   A: 235
+#   nuclide: U235
+# reaction: 
+#   type: (n,f)
+#   ENDF_MF: 3
+#   ENDF_MT: 18
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   7.320000E-06   2.680000E-06   5.010000E+04   2.004000E+03   1.000000E+00
+   1.575000E-05   5.750000E-06   5.130000E+04   2.052000E+03   1.000000E+00
+   3.395000E-05   1.245000E-05   4.110000E+04   1.644000E+03   1.000000E+00
+   7.320000E-05   2.680000E-05   3.290000E+04   1.316000E+03   1.000000E+00
+   1.575000E-04   5.750000E-05   2.060000E+04   8.240000E+02   1.000000E+00
+   3.395000E-04   1.245000E-04   1.670000E+04   6.680000E+02   1.000000E+00
+   7.320000E-04   2.680000E-04   1.200000E+04   4.800000E+02   1.000000E+00
+   1.575000E-03   5.750000E-04   7.700000E+03   3.080000E+02   1.000000E+00
+# reference:
+#   author: R.L.Bramlett,J.B.Czirr
+#   title: Energy-Dependent Shielding Factors for 235U Foils from Transmission Measurements
+#   journal: Jour: Nuclear Science and Engineering, Vol.35, p.350 (1969)
+# statistics:
+#   NEA score: T3
+#   IAEA score: -1
+#   E-min [MeV]:  7.320000E-06
+#   E-max [MeV]:  1.575000E-03
+#   F-value:  2.521667E+00
+#   A-value:  7.465426E-01
+#   chi-2:  3.324141E+02
+#   p-value:  2.810968E-01
+#   exp. data sets for p-value:      8
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    2.531633E+00   7.505673E-01   3.321996E+02
+# endfb8.1      2.581949E+00   7.450284E-01   3.332406E+02
+# jeff4.0       2.593648E+00   7.317533E-01   3.266295E+02
+# jendl5.0      2.531623E+00   7.517741E-01   3.320096E+02
+# cendl3.2      2.401861E+00   7.511381E-01   3.333555E+02
+# eaf.2010      2.478970E+00   7.451149E-01   3.372418E+02
+# irdff2.0      2.531530E+00   7.506277E-01   3.322222E+02

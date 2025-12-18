@@ -1,0 +1,54 @@
+# header: 
+#   title: Mn55(n,x)Mn56 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Vansola
+#   year: 2016
+#   subentry: 33100002
+#   X4 reaction: 25-MN-55(N,G)25-MN-56,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/33100002
+# target: 
+#   Z: 25
+#   A: 55
+#   nuclide: Mn55
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 25
+#     A: 56
+#     nuclide: Mn56
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.120000E+00   1.200000E-01   2.382000E+00   3.440000E-01   1.000000E+00
+   2.120000E+00   1.500000E-01   2.062000E+00   1.260000E-01   1.000000E+00
+   3.120000E+00   2.100000E-01   1.184000E+00   1.170000E-01   1.000000E+00
+   4.120000E+00   3.200000E-01   1.066000E+00   1.670000E-01   1.000000E+00
+# reference:
+#   author: V.Vansola, S.Mukherjee, H.Naik, S.V.Suryanarayana,  R.Ghosh,S.Badwar,B.M.Lawriniang, Y.S.Sheela
+#   title: Determination of 55Mn(n,g)56Mn reaction cross-section  at the neutron energies of 1.12, 2.12, 3.12 and  4.12 MeV
+#   journal: Jour: Radiochimica Acta, Vol.104, p.749 (2016)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.120000E+00
+#   E-max [MeV]:  4.120000E+00
+#   F-value:  1.158365E+00
+#   A-value:  9.317974E-01
+#   chi-2:  1.618608E+00
+#   p-value:  3.048985E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.172836E+00   9.239487E-01   2.436784E+00
+# jendl5.0      1.142757E+00   9.397128E-01   8.004325E-01

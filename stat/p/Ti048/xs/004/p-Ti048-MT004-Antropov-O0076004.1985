@@ -1,0 +1,51 @@
+# header: 
+#   title: Ti48(p,n')V48 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Antropov
+#   year: 1985
+#   subentry: O0076004
+#   X4 reaction: 22-TI-48(P,N)23-V-48,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O0076004
+# target: 
+#   Z: 22
+#   A: 48
+#   nuclide: Ti48
+# reaction: 
+#   type: (p,n')
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+#   residual: 
+#     Z: 23
+#     A: 48
+#     nuclide: V48
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   6.240000E+00   0.000000E+00   2.700000E+02   1.000000E+01   1.000000E+00
+# reference:
+#   author: A.E.Antropov,P.P.Zarubin,Yu.A.Aleksandrov, I.Yu.Gorshkov
+#   title: Cross sections measurements of (p,n),(alpha,pn),  (alpha,xn) reactions on nuclei of middle atomic weight
+#   journal: Conf: 35.Conf.Nucl.Spectr.and Nucl.Struct.,Leningrad 1985, p.369 (1985)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  6.240000E+00
+#   E-max [MeV]:  6.240000E+00
+#   F-value:  1.207064E+00
+#   A-value:  1.202804E+00
+#   chi-2:  3.160947E+01
+#   p-value:  1.024800E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.159918E+00   1.159918E+00   1.864380E+01
+# jendl5.0      1.247276E+00   1.247276E+00   4.457514E+01

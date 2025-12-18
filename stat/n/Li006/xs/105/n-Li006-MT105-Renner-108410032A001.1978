@@ -1,0 +1,65 @@
+# header: 
+#   title: Li6(n,t)He4 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Renner
+#   year: 1978
+#   subentry: 108410032
+#   X4 reaction: 3-LI-6(N,T)2-HE-4,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/108410032
+# target: 
+#   Z: 3
+#   A: 6
+#   nuclide: Li6
+# reaction: 
+#   type: (n,t)
+#   ENDF_MF: 3
+#   ENDF_MT: 105
+#   residual: 
+#     Z: 2
+#     A: 4
+#     nuclide: He4
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 12
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   8.160000E-02   0.000000E+00   7.003000E+02   2.801200E+01   1.000000E+00
+   1.275000E-01   0.000000E+00   7.432000E+02   2.229600E+01   1.000000E+00
+   1.367000E-01   0.000000E+00   8.087000E+02   1.374790E+01   1.000000E+00
+   1.674000E-01   0.000000E+00   1.168800E+03   2.337600E+01   1.000000E+00
+   1.835000E-01   0.000000E+00   1.487900E+03   2.380640E+01   1.000000E+00
+   2.187000E-01   0.000000E+00   2.859500E+03   4.003300E+01   1.000000E+00
+   2.437000E-01   0.000000E+00   3.301800E+03   6.933780E+01   1.000000E+00
+   2.727000E-01   0.000000E+00   2.475100E+03   1.980080E+01   1.000000E+00
+   3.111000E-01   0.000000E+00   1.381100E+03   1.242990E+01   1.000000E+00
+   3.520000E-01   0.000000E+00   8.502000E+02   1.020240E+01   1.000000E+00
+   3.751000E-01   0.000000E+00   7.200000E+02   1.080000E+01   1.000000E+00
+   4.665000E-01   0.000000E+00   4.206000E+02   9.253201E+00   1.000000E+00
+# reference:
+#   author: C.Renner,J.A.Harvey,N.W.Hill,G.L.Morgan,K.Rush
+#   title: The Li-6(n,alpha) cross section from 80-470 keV
+#   journal: Jour: Bulletin of the American Physical Society Ser.II, Vol.23, p.526(BI
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  8.160000E-02
+#   E-max [MeV]:  4.665000E-01
+#   F-value:  1.054981E+00
+#   A-value:  9.589649E-01
+#   chi-2:  2.073183E+01
+#   p-value:  3.542641E-01
+#   exp. data sets for p-value:      8
+#   libraries:      5
+##  Library          F              A            chi-2
+# endfb8.1      1.052707E+00   9.587258E-01   1.899550E+01
+# jeff4.0       1.052707E+00   9.587258E-01   1.899550E+01
+# jendl5.0      1.057290E+00   9.659968E-01   2.396405E+01
+# eaf.2010      1.059173E+00   9.526964E-01   2.270862E+01
+# irdff2.0      1.052707E+00   9.587258E-01   1.899550E+01

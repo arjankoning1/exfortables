@@ -1,0 +1,65 @@
+# header: 
+#   title: Mg0(p,x)Ne22 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Walton
+#   year: 1976
+#   subentry: O0350013
+#   X4 reaction: 12-MG-0(P,X)10-NE-22,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O0350013
+# target: 
+#   Z: 12
+#   A: 0
+#   nuclide: Mg0
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 10
+#     A: 22
+#     nuclide: Ne22
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 15
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.590000E+01   4.000000E-01   6.200000E-01   2.480000E-01   1.000000E+00
+   1.920000E+01   5.000000E-01   4.800000E+00   7.200000E-01   1.000000E+00
+   2.190000E+01   6.000000E-01   3.500000E+00   3.850000E-01   1.000000E+00
+   2.200000E+01   8.000000E-01   6.400000E+00   8.960000E-01   1.000000E+00
+   2.460000E+01   7.000000E-01   7.300000E+00   8.760000E-01   1.000000E+00
+   2.610000E+01   3.000000E-01   7.000000E+00   1.400000E+00   1.000000E+00
+   2.790000E+01   6.000000E-01   8.700000E+00   1.566000E+00   1.000000E+00
+   3.040000E+01   1.400000E+00   1.300000E+01   2.340000E+00   1.000000E+00
+   3.260000E+01   7.000000E-01   1.700000E+01   4.930000E+00   1.000000E+00
+   3.400000E+01   9.000000E-01   2.200000E+01   5.060000E+00   1.000000E+00
+   3.560000E+01   1.000000E+00   2.800000E+01   5.880000E+00   1.000000E+00
+   3.760000E+01   1.400000E+00   1.500000E+01   3.000000E+00   1.000000E+00
+   3.950000E+01   1.100000E+00   3.100000E+01   8.059999E+00   1.000000E+00
+   4.150000E+01   1.400000E+00   1.990000E+01   2.786000E+00   1.000000E+00
+   4.440000E+01   1.400000E+00   3.200000E+01   8.960000E+00   1.000000E+00
+# reference:
+#   author: J.R.Walton,D.Heymann,A.Yaniv,D.Edgerley,M.W.Rowe
+#   title: Cross sections for He and Ne isotopes in natural Mg,Al, and Si,He isotopes in Ca-F(2),Ar isotopes in natural Ca and radionuclides in natural Al,Si,Ti,Cr and stainless steel induced by 12-To 45-MeV protons.
+#   journal: Jour: Journal of Geophysical Research, Vol.81, p.5689 (1976)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.590000E+01
+#   E-max [MeV]:  4.440000E+01
+#   F-value:  1.496056E+00
+#   A-value:  8.490453E-01
+#   chi-2:  5.210271E+00
+#   p-value:  2.818712E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.487511E+00   9.878535E-01   6.533689E+00
+# jendl5.0      1.504529E+00   7.297417E-01   3.886852E+00

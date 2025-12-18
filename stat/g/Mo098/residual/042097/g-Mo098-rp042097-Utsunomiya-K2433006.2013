@@ -1,0 +1,61 @@
+# header: 
+#   title: Mo98(g,x)Mo97 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Utsunomiya
+#   year: 2013
+#   subentry: K2433006
+#   X4 reaction: 42-MO-98(G,N)42-MO-97,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/K2433006
+# target: 
+#   Z: 42
+#   A: 98
+#   nuclide: Mo98
+# reaction: 
+#   type: (g,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+#   residual: 
+#     Z: 42
+#     A: 97
+#     nuclide: Mo97
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   8.810000E+00   0.000000E+00   8.773000E+00   4.654100E-01   1.000000E+00
+   8.950000E+00   0.000000E+00   1.065000E+01   5.264800E-01   1.000000E+00
+   9.120000E+00   0.000000E+00   1.088000E+01   5.400700E-01   1.000000E+00
+   9.440000E+00   0.000000E+00   1.367000E+01   6.766700E-01   1.000000E+00
+   9.790000E+00   0.000000E+00   1.717000E+01   8.128700E-01   1.000000E+00
+   1.013000E+01   0.000000E+00   1.987000E+01   1.113800E+00   1.000000E+00
+   1.072000E+01   0.000000E+00   2.793000E+01   1.439700E+00   1.000000E+00
+   1.091000E+01   0.000000E+00   3.060000E+01   1.608500E+00   1.000000E+00
+   1.147000E+01   0.000000E+00   3.886000E+01   2.011800E+00   1.000000E+00
+   1.200000E+01   0.000000E+00   4.921000E+01   2.465900E+00   1.000000E+00
+# reference:
+#   author: H.Utsunomiya, S.Goriely, T.Kondo, C.Iwamoto,  H.Akimune, T.Yamagata, H.Toyokawa, H.Harada,  F.Kitatani, Y.W.Lui, A.C.Larsen, M.Guttormsen,  P.E.Koehler, S.Hilaire, S.Peru, M.Martini,  A.J.Koning
+#   title: Photoneutron cross sections for Mo isotopes: A step towards a unified understanding of (gamma,n) and  (n,gamma) reactions
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.88, p.015805 (2013)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  8.810000E+00
+#   E-max [MeV]:  1.200000E+01
+#   F-value:  1.196726E+00
+#   A-value:  1.109721E+00
+#   chi-2:  1.740821E+01
+#   p-value:  3.456124E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.292830E+00   1.237016E+00   3.650414E+01
+# endfb8.1      1.089152E+00   1.044652E+00   3.788514E+00
+# jendl5.0      1.089152E+00   1.044652E+00   3.788514E+00

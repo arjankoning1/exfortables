@@ -1,0 +1,55 @@
+# header: 
+#   title: Zr92(n,x)Y92 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Ibnmajah
+#   year: 1990
+#   subentry: 22144005
+#   X4 reaction: 40-ZR-92(N,P)39-Y-92,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22144005
+# target: 
+#   Z: 40
+#   A: 92
+#   nuclide: Zr92
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 39
+#     A: 92
+#     nuclide: Y92
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   6.102000E+00   2.500000E-01   1.810800E-01   3.908900E-02   1.006028E+00
+   6.480000E+00   3.780000E-01   2.267500E-01   2.973400E-02   1.030668E+00
+   7.180000E+00   2.540000E-01   3.372300E-01   4.709800E-02   9.635248E-01
+   7.704000E+00   2.600000E-01   5.811400E-01   7.184900E-02   1.056620E+00
+# reference:
+#   author: M.IBN MAJAH,S.M.QAIM
+#   title: -ACTIVATION CROSS SECTIONS OF NEUTRON THRESHOLD  REACTIONS ON SOME ZIRCONIUM ISOTOPES IN THE 5.4- TO  10.6-MEV ENERGY RANGE.
+#   journal: Jour: Nuclear Science and Engineering, Vol.104, p.271 (1990)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  6.102000E+00
+#   E-max [MeV]:  7.704000E+00
+#   F-value:  1.874887E+00
+#   A-value:  6.733764E-01
+#   chi-2:  5.425590E+00
+#   p-value:  2.821935E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.796425E+00   6.838471E-01   4.608465E+00
+# jeff4.0       1.796425E+00   6.838471E-01   4.608465E+00
+# jendl5.0      2.026535E+00   6.529136E-01   7.059839E+00

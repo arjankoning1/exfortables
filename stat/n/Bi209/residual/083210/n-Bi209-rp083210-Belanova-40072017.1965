@@ -1,0 +1,52 @@
+# header: 
+#   title: Bi209(n,x)Bi210 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Belanova
+#   year: 1965
+#   subentry: 40072017
+#   X4 reaction: 83-BI-209(N,G)83-BI-210,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/40072017
+# target: 
+#   Z: 83
+#   A: 209
+#   nuclide: Bi209
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 83
+#     A: 210
+#     nuclide: Bi210
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.400000E-02   0.000000E+00   3.000000E+00   3.000000E+00   1.000000E+00
+# reference:
+#   author: T.S.Belanova,A.A.Van'kov,F.F.Mikhailus, Yu.Ya.Stavisskii
+#   title: Absolute measurement of the absorption cross sections of neutrons of 24 keV energy.
+#   journal: Jour: Atomnaya Energiya, Vol.19, Issue.1, p.3 (1965)
+# statistics:
+#   NEA score: T2
+#   IAEA score:  0
+#   E-min [MeV]:  2.400000E-02
+#   E-max [MeV]:  2.400000E-02
+#   F-value:  3.035209E+00
+#   A-value:  3.294679E-01
+#   chi-2:  9.792195E-01
+#   p-value:  4.768372E-07
+#   exp. data sets for p-value:      2
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    3.022503E+00   3.308516E-01   9.768646E-01
+# jeff4.0       3.041564E+00   3.287782E-01   9.803970E-01
+# jendl5.0      3.041564E+00   3.287782E-01   9.803970E-01

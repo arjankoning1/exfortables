@@ -1,0 +1,55 @@
+# header: 
+#   title: Mn55(n,x)Mn54 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Greenwood
+#   year: 1987
+#   subentry: 12977008
+#   X4 reaction: 25-MN-55(N,2N)25-MN-54,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/12977008
+# target: 
+#   Z: 25
+#   A: 55
+#   nuclide: Mn55
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 25
+#     A: 54
+#     nuclide: Mn54
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.450000E+01   4.000000E-01   7.860891E+02   4.377200E+00   9.937913E-01
+   1.465000E+01   4.000000E-01   8.198779E+02   4.565300E+00   9.937913E-01
+   1.480000E+01   4.000000E-01   8.019896E+02   4.465700E+00   9.937913E-01
+   1.485000E+01   4.000000E-01   8.218654E+02   4.576390E+00   9.937913E-01
+   1.490000E+01   4.000000E-01   8.347847E+02   4.648300E+00   9.937913E-01
+# reference:
+#   author: L.R.Greenwood
+#   title: Recent research in neutron dosimetry and damage  analysis for materials irradiations.
+#   journal: Conf: American Soc. of Testing and Materials Reports, No.956, p.743 (198
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.450000E+01
+#   E-max [MeV]:  1.490000E+01
+#   F-value:  1.034786E+00
+#   A-value:  9.695514E-01
+#   chi-2:  3.624104E+01
+#   p-value:  3.612927E-01
+#   exp. data sets for p-value:      8
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.032814E+00   9.714710E-01   3.241406E+01
+# jendl5.0      1.036657E+00   9.676356E-01   4.006802E+01

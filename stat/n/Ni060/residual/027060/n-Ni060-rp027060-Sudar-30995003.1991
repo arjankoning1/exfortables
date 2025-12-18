@@ -1,0 +1,62 @@
+# header: 
+#   title: Ni60(n,x)Co60 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Sudar
+#   year: 1991
+#   subentry: 30995003
+#   X4 reaction: 28-NI-60(N,P)27-CO-60,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30995003
+# target: 
+#   Z: 28
+#   A: 60
+#   nuclide: Ni60
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 27
+#     A: 60
+#     nuclide: Co60
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.230000E+00   1.000000E-01   1.499842E+01   2.621900E+00   1.079023E+00
+   6.300000E+00   1.000000E-01   3.816123E+01   2.767600E+00   1.014926E+00
+   6.800000E+00   1.100000E-01   5.356061E+01   3.546300E+00   1.026065E+00
+   7.290000E+00   1.100000E-01   6.546349E+01   4.203500E+00   1.032547E+00
+   7.770000E+00   1.200000E-01   7.072803E+01   5.259400E+00   1.032526E+00
+   8.240000E+00   1.200000E-01   8.148986E+01   8.757500E+00   1.030213E+00
+   8.710000E+00   1.200000E-01   9.674184E+01   6.180100E+00   1.026983E+00
+   9.170000E+00   1.300000E-01   9.494597E+01   7.374000E+00   1.026443E+00
+   9.630000E+00   1.300000E-01   9.974226E+01   6.311600E+00   1.029332E+00
+   1.008000E+01   1.400000E-01   1.088922E+02   6.034000E+00   1.032154E+00
+# reference:
+#   author: S.Sudar,J.Csikai,S.M.Qaim,G.Stoecklin
+#   title: Neutron activation cross sections for Ni-60(n,p)Co-60-m Ni-60(n,p)Co-60-m+g and Ni-58(n,p)Co-58-m reactions in the 5 to 12 MeV energy range.
+#   journal: Conf: Conf.on Nucl.Data for Sci.and Technol.,Juelich 1991, p.291 (1991)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  5.230000E+00
+#   E-max [MeV]:  1.008000E+01
+#   F-value:  1.189561E+00
+#   A-value:  9.170406E-01
+#   chi-2:  3.105864E+00
+#   p-value:  2.973851E-01
+#   exp. data sets for p-value:      1
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.116593E+00   9.313911E-01   2.481867E+00
+# endfb8.1      1.107837E+00   9.367568E-01   2.201077E+00
+# jeff4.0       1.116593E+00   9.313910E-01   2.481870E+00
+# jendl5.0      1.340133E+00   8.702885E-01   5.258641E+00

@@ -1,0 +1,55 @@
+# header: 
+#   title: Ni58(n,x)Co58 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Shivashankar
+#   year: 2015
+#   subentry: 33094002
+#   X4 reaction: 28-NI-58(N,P)27-CO-58,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/33094002
+# target: 
+#   Z: 28
+#   A: 58
+#   nuclide: Ni58
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 27
+#     A: 58
+#     nuclide: Co58
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.888300E+00   1.194000E-01   4.128000E+02   4.530000E+01   1.000000E+00
+   1.011260E+01   5.630000E-02   5.792000E+02   5.660000E+01   1.000000E+00
+   1.586730E+01   1.297000E-01   1.640000E+02   1.680000E+01   1.000000E+00
+# reference:
+#   author: B.S.Shivashankar, S.Ganesan, H.Naik,  S.V.Suryanarayana, N.S.Nair, K.M.Prasad
+#   title: Measurement and covariance analysis of reaction cross  sections for 58Ni(n,p)58Co relative to cross section  for formation of 97Zr fission product in  neutron-induced fission of 232Th and 238U at  effective neutron energies En=5.89, 10.11, and  15.87 MeV
+#   journal: Jour: Nuclear Science and Engineering, Vol.179, p.423 (2015)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  0
+#   E-min [MeV]:  5.888300E+00
+#   E-max [MeV]:  1.586730E+01
+#   F-value:  1.260872E+00
+#   A-value:  1.222607E+00
+#   chi-2:  6.547264E+00
+#   p-value:  8.497178E-02
+#   exp. data sets for p-value:      8
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.266903E+00   1.228168E+00   6.824863E+00
+# endfb8.1      1.264308E+00   1.225551E+00   6.705770E+00
+# jeff4.0       1.266903E+00   1.228168E+00   6.824867E+00
+# jendl5.0      1.244924E+00   1.208649E+00   5.833552E+00

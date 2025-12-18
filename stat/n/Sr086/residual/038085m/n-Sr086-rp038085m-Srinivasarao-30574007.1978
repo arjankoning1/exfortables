@@ -1,0 +1,57 @@
+# header: 
+#   title: Sr86(n,x)Sr85m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Srinivasarao
+#   year: 1978
+#   subentry: 30574007
+#   X4 reaction: 38-SR-86(N,2N)38-SR-85-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30574007
+# target: 
+#   Z: 38
+#   A: 86
+#   nuclide: Sr86
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 38
+#     A: 85
+#     nuclide: Sr85m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.420000E+01   2.000000E-01   3.210000E+02   1.600000E+01   1.000000E+00
+# reference:
+#   author: C.V.Srinivasa Rao,N.Lakshmana Das,B.V.Thirumala Rao, J.Rama Rao
+#   title: Fluctuations in the systematics of (n,2n) reaction cross sections in the low mass region; Fast neutron cross-sections of fusion reactor interest
+#   journal: Conf: 21.Nucl.Phys.and Solid State Phys.Symp., Bombay 1978, Vol.2, p.113
+# statistics:
+#   NEA score: R1
+#   IAEA score:  0
+#   E-min [MeV]:  1.420000E+01
+#   E-max [MeV]:  1.420000E+01
+#   F-value:  1.523938E+00
+#   A-value:  6.675887E-01
+#   chi-2:  4.581552E+01
+#   p-value:  4.856694E-02
+#   exp. data sets for p-value:      8
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.288602E+00   7.760347E-01   2.019007E+01
+# jeff4.0       1.724730E+00   5.798008E-01   7.106907E+01
+# jendl5.0      1.512283E+00   6.612520E-01   4.618742E+01

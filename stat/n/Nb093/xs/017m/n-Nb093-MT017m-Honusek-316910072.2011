@@ -1,0 +1,63 @@
+# header: 
+#   title: Nb93(n,3n)Nb91m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Honusek
+#   year: 2011
+#   subentry: 316910072
+#   X4 reaction: 41-NB-93(N,3N)41-NB-91-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/316910072
+# target: 
+#   Z: 41
+#   A: 93
+#   nuclide: Nb93
+# reaction: 
+#   type: (n,3n)
+#   ENDF_MF: 3
+#   ENDF_MT: 17
+#   residual: 
+#     Z: 41
+#     A: 91
+#     nuclide: Nb91m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.250000E+01   1.500000E+00   6.292000E+01   1.950000E+00   1.000000E+00
+   2.500000E+01   1.000000E+00   7.496000E+01   3.900000E+00   1.000000E+00
+   2.750000E+01   1.500000E+00   8.770000E+01   2.800000E+00   1.000000E+00
+   3.000000E+01   1.000000E+00   7.734000E+01   2.600000E+00   1.000000E+00
+   3.250000E+01   1.500000E+00   6.964000E+01   3.300000E+00   1.000000E+00
+   3.500000E+01   1.000000E+00   4.936000E+01   3.600000E+00   1.000000E+00
+# reference:
+#   author: M.Honusek, P.Bem, V.Burjan, M.Goetz, V.Kroha, J.Novak,  E.Simeckova, U.Fischer, S.P.Simakov
+#   title: Neutron activation experiments on niobium in NPI p-7Li  quasi-monoenergetic neutron field
+#   journal: Jour: Journal of the Korean Physical Society, Vol.59, p.1374 (2011)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.250000E+01
+#   E-max [MeV]:  3.500000E+01
+#   F-value:  1.529237E+00
+#   A-value:  1.487582E+00
+#   chi-2:  1.528756E+02
+#   p-value:  2.337362E-01
+#   exp. data sets for p-value:      3
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.408473E+00   1.390236E+00   8.130157E+01
+# jeff4.0       1.762369E+00   1.703196E+00   2.850159E+02
+# jendl5.0      1.331899E+00   1.326284E+00   6.388733E+01
+# eaf.2010      1.565975E+00   1.559314E+00   1.812978E+02

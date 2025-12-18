@@ -1,0 +1,51 @@
+# header: 
+#   title: Bi209(n,tot) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Bollinger
+#   year: 1955
+#   subentry: 116900072
+#   X4 reaction: 83-BI-209(N,TOT),,SIG,,RES
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/116900072
+# target: 
+#   Z: 83
+#   A: 209
+#   nuclide: Bi209
+# reaction: 
+#   type: (n,tot)
+#   ENDF_MF: 3
+#   ENDF_MT: 1
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   8.100000E-04   0.000000E+00   5.800000E+03   3.000000E+02   1.000000E+00
+   2.370000E-03   0.000000E+00   1.700000E+04   1.500000E+03   1.000000E+00
+# reference:
+#   author: L.M.BOLLINGER,D.A.DAHLBERG,R.R.PALMER,G.E.THOMAS
+#   title: SLOW NEUTRON RESONANCES OF MANGANESE, BISMUTH, AND  SELENIUM.
+#   journal: Jour: Physical Review, Vol.100, p.126 (1955)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  8.100000E-04
+#   E-max [MeV]:  2.370000E-03
+#   F-value:  1.363356E+01
+#   A-value:  9.973071E+00
+#   chi-2:  2.094431E+05
+#   p-value:  5.395218E-02
+#   exp. data sets for p-value:      7
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2025    1.397282E+01   1.021239E+01   2.232181E+05
+# endfb8.1      1.374867E+01   9.985614E+00   2.164479E+05
+# jeff4.0       1.335220E+01   9.843133E+00   1.955499E+05
+# jendl5.0      1.335224E+01   9.843157E+00   1.955517E+05
+# cendl3.2      1.374867E+01   9.985614E+00   2.164479E+05

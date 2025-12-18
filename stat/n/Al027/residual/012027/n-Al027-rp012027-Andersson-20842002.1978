@@ -1,0 +1,53 @@
+# header: 
+#   title: Al27(n,x)Mg27 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Andersson
+#   year: 1978
+#   subentry: 20842002
+#   X4 reaction: 13-AL-27(N,P)12-MG-27,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20842002
+# target: 
+#   Z: 13
+#   A: 27
+#   nuclide: Al27
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 12
+#     A: 27
+#     nuclide: Mg27
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.490000E+01   2.000000E-01   6.800000E+01   4.000000E+00   1.000000E+00
+# reference:
+#   author: P.ANDERSSON,S.LUNDBERG,G.MAGNUSSON
+#   title: -ABSOLUTE MEASUREMENTS OF SOME NEUTRON ACTIVATION CROSS  SECTIONS IN AL-27,IN-115 AND AU-197 AT 14.9 MEV-.
+#   journal: Rept: Lund Univ., Nuclear Physics Series, No.3021 (1978)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  0
+#   E-min [MeV]:  1.490000E+01
+#   E-max [MeV]:  1.490000E+01
+#   F-value:  1.024120E+00
+#   A-value:  9.807274E-01
+#   chi-2:  5.019526E-01
+#   p-value:  2.631738E-01
+#   exp. data sets for p-value:      8
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.027358E+00   9.733703E-01   6.272123E-01
+# endfb8.1      1.028086E+00   9.726815E-01   6.452096E-01
+# jeff4.0       1.027903E+00   9.728548E-01   6.406734E-01
+# jendl5.0      1.004376E+00   1.004376E+00   9.471519E-02

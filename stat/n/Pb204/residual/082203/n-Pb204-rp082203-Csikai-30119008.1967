@@ -1,0 +1,53 @@
+# header: 
+#   title: Pb204(n,x)Pb203 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Csikai
+#   year: 1967
+#   subentry: 30119008
+#   X4 reaction: 82-PB-204(N,2N)82-PB-203,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30119008
+# target: 
+#   Z: 82
+#   A: 204
+#   nuclide: Pb204
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 82
+#     A: 203
+#     nuclide: Pb203
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.470000E+01   3.000000E-01   1.552529E+03   1.600000E+02   9.857329E-01
+# reference:
+#   author: J.Csikai, G.Peto
+#   title: Influence of direct inelastic scattering on (n,2n) cross-sections
+#   journal: Jour: Acta Physica Hungarica, Vol.23, p.87 (1967)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  0
+#   E-min [MeV]:  1.470000E+01
+#   E-max [MeV]:  1.470000E+01
+#   F-value:  1.413527E+00
+#   A-value:  1.413091E+00
+#   chi-2:  1.612117E+01
+#   p-value:  5.061587E-02
+#   exp. data sets for p-value:      8
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.392607E+00   1.392607E+00   1.451696E+01
+# endfb8.1      1.434309E+00   1.434309E+00   1.776069E+01
+# jeff4.0       1.392607E+00   1.392607E+00   1.451696E+01
+# jendl5.0      1.433445E+00   1.433445E+00   1.769006E+01

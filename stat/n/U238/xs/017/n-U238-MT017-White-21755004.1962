@@ -1,0 +1,55 @@
+# header: 
+#   title: U238(n,3n)U236 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: White
+#   year: 1962
+#   subentry: 21755004
+#   X4 reaction: 92-U-238(N,3N)92-U-236,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/21755004
+# target: 
+#   Z: 92
+#   A: 238
+#   nuclide: U238
+# reaction: 
+#   type: (n,3n)
+#   ENDF_MF: 3
+#   ENDF_MT: 17
+#   residual: 
+#     Z: 92
+#     A: 236
+#     nuclide: U236
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.420000E+01   0.000000E+00   8.900000E+02   2.000000E+02   1.000000E+00
+# reference:
+#   author: P.H.WHITE
+#   title: -THE VALUE OF ETA FOR U-238 WITH NEUTRONS  OF ENERGY BETWEEN 12 MEV AND 19 MEV.
+#   journal: Jour: J.Nuclear Energy A&B (Reactor Sci. and Technol.), Vol.16, p.261 (1
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.420000E+01
+#   E-max [MeV]:  1.420000E+01
+#   F-value:  1.879169E+00
+#   A-value:  5.360309E-01
+#   chi-2:  4.568919E+00
+#   p-value:  9.550780E-02
+#   exp. data sets for p-value:      5
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.806196E+00   5.536498E-01   4.270065E+00
+# endfb8.1      1.806196E+00   5.536498E-01   4.270065E+00
+# jeff4.0       1.654585E+00   6.043810E-01   3.514031E+00
+# jendl5.0      1.927207E+00   5.188855E-01   4.848329E+00
+# cendl3.2      2.253990E+00   4.436578E-01   6.281541E+00
+# eaf.2010      1.797884E+00   5.562096E-01   4.229480E+00

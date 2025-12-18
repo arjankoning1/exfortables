@@ -1,0 +1,53 @@
+# header: 
+#   title: Ag107(p,x)Cd108 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Khaliel
+#   year: 2017
+#   subentry: O24440022
+#   X4 reaction: 47-AG-107(P,G)48-CD-108,,SIG,,SFC
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O24440022
+# target: 
+#   Z: 47
+#   A: 107
+#   nuclide: Ag107
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 48
+#     A: 108
+#     nuclide: Cd108
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.184000E+00   0.000000E+00   3.610200E-03   3.522100E-04   1.000000E+00
+   3.488000E+00   0.000000E+00   3.301400E-02   3.220800E-03   1.000000E+00
+   3.989000E+00   0.000000E+00   1.034300E-01   1.070000E-02   1.000000E+00
+# reference:
+#   author: A.Khaliel,T.J.Mertzimekis,E.-M.Asimakopoulou, A.Kanellakopoulos,V.Lagaki,A.Psaltis,I.Psyrra, E.Mavrommatis
+#   title: First cross-section measurements of the reactions 107,109Ag(p,gamma)108,110Cd at energies relevant to the p process
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.96, p.035806 (2017)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.184000E+00
+#   E-max [MeV]:  3.989000E+00
+#   F-value:  1.372720E+00
+#   A-value:  8.154960E-01
+#   chi-2:  7.594353E+00
+#   p-value:  3.262781E-01
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.439116E+00   8.300931E-01   1.021155E+01
+# jendl5.0      1.298424E+00   8.011554E-01   4.977158E+00

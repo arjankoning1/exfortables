@@ -1,0 +1,59 @@
+# header: 
+#   title: Zr90(n,n')Zr90m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: ToshiakiShimizuu
+#   year: 2005
+#   subentry: 22851003
+#   X4 reaction: 40-ZR-90(N,INL)40-ZR-90-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22851003
+# target: 
+#   Z: 40
+#   A: 90
+#   nuclide: Zr90
+# reaction: 
+#   type: (n,n')
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+#   residual: 
+#     Z: 40
+#     A: 90
+#     nuclide: Zr90m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.540000E+00   5.000000E-02   4.017951E+01   3.551200E+00   1.014634E+00
+   3.100000E+00   5.000000E-02   1.329171E+02   1.116097E+01   1.014634E+00
+# reference:
+#   author: Toshiaki Shimizu,Itaru Miyazaki,Kazumasa Arakita, Michihiro Shibata,Kiyoshi Kawade,Jun-Ichi Hori, Takeo Nishitani,Kentaro Ochiai
+#   title: Measurement of (n,n') reaction cross sections of 79Br,  90Zr, 197Au and 207Pb with pulsed d-D neutrons
+#   journal: Jour: Annals of Nuclear Energy, Vol.32, p.949 (2005)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.540000E+00
+#   E-max [MeV]:  3.100000E+00
+#   F-value:  1.392570E+00
+#   A-value:  1.104567E+00
+#   chi-2:  2.924598E+01
+#   p-value:  3.021538E-01
+#   exp. data sets for p-value:      3
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.217221E+00   9.224584E-01   4.461871E+00
+# jeff4.0       1.217221E+00   9.224584E-01   4.461871E+00
+# jendl5.0      1.299062E+00   1.193440E+00   1.430257E+01
+# eaf.2010      1.718082E+00   1.465796E+00   9.375760E+01

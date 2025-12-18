@@ -1,0 +1,73 @@
+# header: 
+#   title: Rh103(n,2n)Rh102m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Fotiades
+#   year: 2016
+#   subentry: 14461014
+#   X4 reaction: 45-RH-103(N,2N)45-RH-102-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/14461014
+# target: 
+#   Z: 45
+#   A: 103
+#   nuclide: Rh103
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 45
+#     A: 102
+#     nuclide: Rh102m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 16
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   9.250000E+00   2.970000E-01   3.100000E+00   1.100000E+00   1.000000E+00
+   9.858000E+00   3.270000E-01   6.600000E+00   1.300000E+00   1.000000E+00
+   1.052800E+01   3.620000E-01   3.010000E+01   1.500000E+00   1.000000E+00
+   1.126900E+01   4.010000E-01   8.680001E+01   2.900000E+00   1.000000E+00
+   1.209200E+01   4.460000E-01   1.765000E+02   3.200000E+00   1.000000E+00
+   1.301000E+01   4.980000E-01   2.393000E+02   3.300000E+00   1.000000E+00
+   1.403700E+01   5.580000E-01   2.798000E+02   3.400000E+00   1.000000E+00
+   1.519200E+01   6.290000E-01   3.359000E+02   3.600000E+00   1.000000E+00
+   1.649800E+01   7.130000E-01   3.424000E+02   3.500000E+00   1.000000E+00
+   1.798100E+01   8.120000E-01   4.022000E+02   3.700000E+00   1.000000E+00
+   1.967600E+01   9.310000E-01   3.615000E+02   3.400000E+00   1.000000E+00
+   2.162600E+01   1.075000E+00   2.714000E+02   3.000000E+00   1.000000E+00
+   2.388600E+01   1.251000E+00   1.713000E+02   2.800000E+00   1.000000E+00
+   2.652600E+01   1.467000E+00   1.061000E+02   2.600000E+00   1.000000E+00
+   2.963900E+01   1.738000E+00   5.630000E+01   2.200000E+00   1.000000E+00
+   3.334600E+01   2.081000E+00   4.430000E+01   2.200000E+00   1.000000E+00
+# reference:
+#   author: N.Fotiades,M.Devlin,R.O.Nelson,T.Kawano,J.J.Carroll
+#   title: Feeding of Rh and Ag isomers in fast-neutron-induced reactions
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.94, p.044608 (2016)
+# statistics:
+#   NEA score: T3
+#   IAEA score:  1
+#   E-min [MeV]:  9.250000E+00
+#   E-max [MeV]:  3.334600E+01
+#   F-value:  2.202543E+00
+#   A-value:  1.974433E+00
+#   chi-2:  2.450875E+03
+#   p-value:  1.414940E-01
+#   exp. data sets for p-value:      1
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    2.091994E+00   1.890950E+00   1.502550E+03
+# jeff4.0       2.091994E+00   1.890950E+00   1.502550E+03
+# jendl5.0      2.189584E+00   2.045627E+00   4.494045E+03
+# eaf.2010      2.432410E+00   2.077701E+00   2.304353E+03

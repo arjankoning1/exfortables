@@ -1,0 +1,58 @@
+# header: 
+#   title: Ni64(n,x)Fe61 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Kasugai
+#   year: 1998
+#   subentry: 22434007
+#   X4 reaction: 28-NI-64(N,A)26-FE-61,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22434007
+# target: 
+#   Z: 28
+#   A: 64
+#   nuclide: Ni64
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+#   residual: 
+#     Z: 26
+#     A: 61
+#     nuclide: Fe61
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.340000E+01   5.000000E-02   3.112150E+00   1.556075E+01   1.037383E+00
+   1.365000E+01   5.000000E-02   3.838300E+00   1.556075E+01   1.037383E+00
+   1.388000E+01   5.000000E-02   4.668200E+00   1.452337E+01   1.037383E+00
+   1.428000E+01   5.000000E-02   5.290700E+00   1.659813E+01   1.037383E+00
+   1.458000E+01   5.000000E-02   5.705600E+00   1.452337E+01   1.037383E+00
+   1.487000E+01   5.000000E-02   6.224300E+00   1.452337E+01   1.037383E+00
+# reference:
+#   author: Y.Kasugai,H.Yamamoto,K.Kawade,T.Iida
+#   title: Measurement of (n,alpha) cross-sections for  short-lived products by 13.4 - 14.9 MeV neutrons
+#   journal: Jour: Annals of Nuclear Energy, Vol.25, Issue.18, p.1485 (1998)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.340000E+01
+#   E-max [MeV]:  1.487000E+01
+#   F-value:  1.011693E+00
+#   A-value:  9.930726E-01
+#   chi-2:  3.120697E-03
+#   p-value:  3.620230E-01
+#   exp. data sets for p-value:      2
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.016508E+00   9.852667E-01   5.794086E-03
+# endfb8.1      0.000000E+00   0.000000E+00   0.000000E+00
+# jeff4.0       1.001493E+00   1.000940E+00   4.473079E-04
+# jendl5.0      0.000000E+00   0.000000E+00   0.000000E+00

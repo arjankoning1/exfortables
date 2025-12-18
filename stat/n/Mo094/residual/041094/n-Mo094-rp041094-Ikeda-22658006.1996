@@ -1,0 +1,53 @@
+# header: 
+#   title: Mo94(n,x)Nb94 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Ikeda
+#   year: 1996
+#   subentry: 22658006
+#   X4 reaction: 42-MO-94(N,P)41-NB-94,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22658006
+# target: 
+#   Z: 42
+#   A: 94
+#   nuclide: Mo94
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 41
+#     A: 94
+#     nuclide: Nb94
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.410000E+01   0.000000E+00   5.821444E+01   8.950299E+00   1.003697E+00
+   1.480000E+01   0.000000E+00   5.419966E+01   1.199058E+01   1.003697E+00
+# reference:
+#   author: Y.Ikeda,C.Konno,A.Kumar,Y.Kasugai
+#   title: Summary of activation cross sections measurements  at FNS
+#   journal: Conf: IAEA Nucl.Data Section report to the I.N.D.C., No.342, p.19 (1996)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.410000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.018312E+00
+#   A-value:  1.002216E+00
+#   chi-2:  1.204345E-01
+#   p-value:  4.116825E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.014527E+00   9.916095E-01   9.283248E-02
+# jeff4.0       1.014527E+00   9.916095E-01   9.283248E-02
+# jendl5.0      1.024202E+00   1.023769E+00   1.756385E-01

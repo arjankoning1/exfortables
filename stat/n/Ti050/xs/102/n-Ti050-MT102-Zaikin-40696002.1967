@@ -1,0 +1,62 @@
+# header: 
+#   title: Ti50(n,g)Ti51 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Zaikin
+#   year: 1967
+#   subentry: 40696002
+#   X4 reaction: 22-TI-50(N,G)22-TI-51,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/40696002
+# target: 
+#   Z: 22
+#   A: 50
+#   nuclide: Ti50
+# reaction: 
+#   type: (n,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 22
+#     A: 51
+#     nuclide: Ti51
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.800000E-01   7.300000E-02   8.900000E-01   9.000000E-02   1.000000E+00
+   2.850000E-01   6.500000E-02   6.300000E-01   7.000000E-02   1.000000E+00
+   5.100000E-01   6.000000E-02   7.000000E-01   7.000000E-02   1.000000E+00
+   1.220000E+00   8.500000E-02   6.500000E-01   5.000000E-02   1.000000E+00
+   1.425000E+00   8.500000E-02   7.800000E-01   7.000000E-02   1.000000E+00
+   1.625000E+00   8.500000E-02   4.800000E-01   6.000000E-02   1.000000E+00
+   1.830000E+00   9.000000E-02   5.100000E-01   6.000000E-02   1.000000E+00
+   2.030000E+00   9.000000E-02   3.700000E-01   4.000000E-02   1.000000E+00
+# reference:
+#   author: G.G.ZAIKIN,I.A.KORZH,N.T.SKLJAR,I.A.TOTSKIJ
+#   title: CROSS SECTIONS FOR THE RADIATIVE CAPTURE OF FAST NEUTRONS BY TI50 AND V51.
+#   journal: Jour: Atomnaya Energiya, Vol.23, Issue.1, p.67 (1967)
+# statistics:
+#   NEA score: T2
+#   IAEA score:  1
+#   E-min [MeV]:  1.800000E-01
+#   E-max [MeV]:  2.030000E+00
+#   F-value:  2.533932E+00
+#   A-value:  8.501808E-01
+#   chi-2:  1.989222E+01
+#   p-value:  2.499804E-01
+#   exp. data sets for p-value:      1
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.392456E+00   1.319035E+00   1.548211E+01
+# endfb8.1      3.422224E+00   6.926596E-01   1.843958E+01
+# jeff4.0       3.925013E+00   5.462147E-01   5.042283E+01
+# jendl5.0      3.426704E+00   7.633445E-01   1.892089E+01
+# cendl3.2      1.282517E+00   1.122331E+00   7.210122E+00
+# eaf.2010      1.404092E+00   8.832559E-01   8.877810E+00

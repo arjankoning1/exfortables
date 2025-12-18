@@ -1,0 +1,59 @@
+# header: 
+#   title: Lu175(n,x)Lu174m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: JunhuaLuoo
+#   year: 2007
+#   subentry: 31609003
+#   X4 reaction: 71-LU-175(N,2N)71-LU-174-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/31609003
+# target: 
+#   Z: 71
+#   A: 175
+#   nuclide: Lu175
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 71
+#     A: 174
+#     nuclide: Lu174m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.350000E+01   4.000000E-01   4.326709E+02   2.404051E+01   9.900935E-01
+   1.410000E+01   4.000000E-01   4.932468E+02   2.718060E+01   1.000501E+00
+   1.460000E+01   4.000000E-01   6.000705E+02   2.851116E+01   1.001787E+00
+# reference:
+#   author: Junhua Luo, Xiaosan Xu, Xuexiang Cao, Xiangzhong Kong
+#   title: Activation cross sections and isomeric cross section  ratios for the (n,2n) reactions on 175Lu, 198Pt and  82Se from 13.5 to 14.6 MeV
+#   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.265, p.453 (20
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.350000E+01
+#   E-max [MeV]:  1.460000E+01
+#   F-value:  1.668570E+00
+#   A-value:  6.934678E-01
+#   chi-2:  5.583603E+01
+#   p-value:  4.276406E-01
+#   exp. data sets for p-value:      3
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.853267E+00   5.470498E-01   7.854626E+01
+# jeff4.0       1.853267E+00   5.470498E-01   7.854626E+01
+# jendl5.0      1.171578E+00   1.114359E+00   1.041554E+01

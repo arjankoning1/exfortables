@@ -1,0 +1,60 @@
+# header: 
+#   title: U235(n,f) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Nolte
+#   year: 2007
+#   subentry: 23078002
+#   X4 reaction: 92-U-235(N,F),,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/23078002
+# target: 
+#   Z: 92
+#   A: 235
+#   nuclide: U235
+# reaction: 
+#   type: (n,f)
+#   ENDF_MF: 3
+#   ENDF_MT: 18
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 9
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.280000E+01   1.600000E-01   2.080000E+03   1.200000E+02   1.000000E+00
+   3.300000E+01   1.800000E-01   2.100000E+03   1.100000E+02   1.000000E+00
+   4.491000E+01   2.400000E-01   1.970000E+03   1.400000E+02   1.000000E+00
+   4.625000E+01   2.300000E-01   1.960000E+03   8.000000E+01   1.000000E+00
+   5.995000E+01   0.000000E+00   1.720000E+03   1.000000E+02   1.000000E+00
+   5.995000E+01   0.000000E+00   1.960000E+03   1.200000E+02   1.000000E+00
+   9.650000E+01   8.000000E-01   1.930000E+03   2.100000E+02   1.000000E+00
+   1.470000E+02   1.400000E+00   1.400000E+03   1.300000E+02   1.000000E+00
+   1.990000E+02   2.000000E+00   1.380000E+03   1.200000E+02   1.000000E+00
+# reference:
+#   author: R.Nolte, M.S.Allie, F.D.Brooks, A.Buffler,  V.Dangendorf, J.P.Meulders, H.Schuhmacher, F.D.Smit,  M.Weierganz, S.Roettger
+#   title: Cross sections for neutron-induced fission of 235U,  238U, 209Bi, and natPb in the energy range from 33  to 200 MeV measured relative to n-p scattering
+#   journal: Jour: Nuclear Science and Engineering, Vol.156, p.197 (2007)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  3.280000E+01
+#   E-max [MeV]:  1.990000E+02
+#   F-value:  2.443150E+00
+#   A-value:  6.775677E-01
+#   chi-2:  1.629651E+01
+#   p-value:  2.973141E-01
+#   exp. data sets for p-value:      2
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    2.798146E+00   5.806916E-01   2.194574E+01
+# endfb8.1      0.000000E+00   0.000000E+00   0.000000E+00
+# jeff4.0       0.000000E+00   0.000000E+00   0.000000E+00
+# jendl5.0      2.089257E+00   7.593087E-01   1.253391E+01
+# cendl3.2      0.000000E+00   0.000000E+00   0.000000E+00
+# eaf.2010      1.023803E+00   1.017035E+00   4.472199E-01
+# irdff2.0      1.002600E+00   9.996644E-01   5.531726E-02

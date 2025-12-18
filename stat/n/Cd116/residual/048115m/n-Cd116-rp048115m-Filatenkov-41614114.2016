@@ -1,0 +1,64 @@
+# header: 
+#   title: Cd116(n,x)Cd115m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Filatenkov
+#   year: 2016
+#   subentry: 41614114
+#   X4 reaction: 48-CD-116(N,2N)48-CD-115-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/41614114
+# target: 
+#   Z: 48
+#   A: 116
+#   nuclide: Cd116
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 48
+#     A: 115
+#     nuclide: Cd115m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 9
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.345000E+01   0.000000E+00   5.029967E+02   1.800699E+02   9.999933E-01
+   1.356000E+01   0.000000E+00   6.210058E+02   2.651688E+02   1.000009E+00
+   1.374000E+01   0.000000E+00   7.049931E+02   2.897494E+02   9.999903E-01
+   1.388000E+01   0.000000E+00   5.110053E+02   1.814062E+02   1.000010E+00
+   1.396000E+01   0.000000E+00   5.909984E+02   2.570833E+02   9.999973E-01
+   1.419000E+01   0.000000E+00   5.900019E+02   2.554706E+02   1.000003E+00
+   1.444000E+01   0.000000E+00   5.590048E+02   1.945339E+02   1.000009E+00
+   1.464000E+01   0.000000E+00   5.299976E+02   1.950395E+02   9.999956E-01
+   1.488000E+01   0.000000E+00   5.259954E+02   1.972500E+02   9.999912E-01
+# reference:
+#   author: A.A.Filatenkov
+#   title: Neutron activation cross sections measured at KRI in neutron energy region 13.4 - 14.9 MeV
+#   journal: Rept: USSR report to the I.N.D.C., No.0460 (2016)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.345000E+01
+#   E-max [MeV]:  1.488000E+01
+#   F-value:  1.437572E+00
+#   A-value:  1.392982E+00
+#   chi-2:  1.963027E+00
+#   p-value:  1.691130E-01
+#   exp. data sets for p-value:      3
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.437572E+00   1.392982E+00   1.963027E+00
+# jeff4.0       1.437572E+00   1.392982E+00   1.963027E+00

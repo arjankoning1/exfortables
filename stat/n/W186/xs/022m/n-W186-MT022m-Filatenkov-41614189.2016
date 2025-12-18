@@ -1,0 +1,60 @@
+# header: 
+#   title: W186(n,na)Hf182m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Filatenkov
+#   year: 2016
+#   subentry: 41614189
+#   X4 reaction: 74-W-186(N,N+A)72-HF-182-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/41614189
+# target: 
+#   Z: 74
+#   A: 186
+#   nuclide: W186
+# reaction: 
+#   type: (n,na)
+#   ENDF_MF: 3
+#   ENDF_MT: 22
+#   residual: 
+#     Z: 72
+#     A: 182
+#     nuclide: Hf182m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.472000E+01   0.000000E+00   6.295500E-03   1.296900E-03   9.992854E-01
+   1.481000E+01   0.000000E+00   6.494400E-03   1.500200E-03   9.991326E-01
+# reference:
+#   author: A.A.Filatenkov
+#   title: Neutron activation cross sections measured at KRI in neutron energy region 13.4 - 14.9 MeV
+#   journal: Rept: USSR report to the I.N.D.C., No.0460 (2016)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.472000E+01
+#   E-max [MeV]:  1.481000E+01
+#   F-value:  3.859340E+00
+#   A-value:  3.014359E-01
+#   chi-2:  1.018865E+01
+#   p-value:  1.914713E-01
+#   exp. data sets for p-value:      1
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2025    3.395446E+00   2.948300E-01   1.059341E+01
+# endfb8.1      5.153129E+00   1.940920E-01   1.376254E+01
+# jeff4.0       5.153129E+00   1.940920E-01   1.376254E+01
+# jendl5.0      1.005866E+00   1.003166E+00   2.753550E-02
+# eaf.2010      4.479021E+00   2.233648E-01   1.279723E+01

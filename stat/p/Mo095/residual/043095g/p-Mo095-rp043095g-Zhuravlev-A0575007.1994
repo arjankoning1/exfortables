@@ -1,0 +1,57 @@
+# header: 
+#   title: Mo95(p,x)Tc95g cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Zhuravlev
+#   year: 1994
+#   subentry: A0575007
+#   X4 reaction: 42-MO-95(P,N)43-TC-95-G,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/A0575007
+# target: 
+#   Z: 42
+#   A: 95
+#   nuclide: Mo95
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+#   residual: 
+#     Z: 43
+#     A: 95
+#     nuclide: Tc95g
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.150000E+00   0.000000E+00   1.200000E+01   2.000000E+00   1.000000E+00
+   6.020000E+00   0.000000E+00   3.800000E+01   2.000000E+00   1.000000E+00
+# reference:
+#   author: Yu.Yu.Zhuravlev,P.P.Zarubin,A.A.Kolozhvari
+#   title: Excitation functions for (p,n) reaction on nuclei of Mo isotope in Ep interval from threshold to 7.2 MeV
+#   journal: Jour: Bull.Russian Academy of Sciences - Physics, Vol.58, p.798 (1994)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  5.150000E+00
+#   E-max [MeV]:  6.020000E+00
+#   F-value:  2.313119E+00
+#   A-value:  2.143836E+00
+#   chi-2:  3.024232E+02
+#   p-value:  1.982891E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    2.992217E+00   2.969520E+00   5.698096E+02
+# jendl5.0      1.573080E+00   1.547736E+00   3.503677E+01

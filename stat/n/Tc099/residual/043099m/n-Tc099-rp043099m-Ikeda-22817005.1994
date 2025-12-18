@@ -1,0 +1,58 @@
+# header: 
+#   title: Tc99(n,x)Tc99m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Ikeda
+#   year: 1994
+#   subentry: 22817005
+#   X4 reaction: 43-TC-99(N,INL)43-TC-99-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22817005
+# target: 
+#   Z: 43
+#   A: 99
+#   nuclide: Tc99
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+#   residual: 
+#     Z: 43
+#     A: 99
+#     nuclide: Tc99m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.350000E+01   2.000000E-01   1.019250E+02   5.698400E+00   9.800484E-01
+   1.480000E+01   2.000000E-01   7.448370E+01   3.774000E+00   9.800484E-01
+# reference:
+#   author: Y.Ikeda, E.T.Cheng, C.Konno, H.Maekawa
+#   title: Measurement of neutron activation cross sections for  the 99Tc(n,p)99Mo, 99Tc(n,alpha)96Nb,  99Tc(n,n'alpha)95Nb, and 99Tc(n,n')99mTc reactions  at 13.5 and 14.8 MeV
+#   journal: Jour: Nuclear Science and Engineering, Vol.116, p.28 (1994)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.350000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.107901E+00
+#   A-value:  9.387653E-01
+#   chi-2:  3.194890E+00
+#   p-value:  3.513333E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.107901E+00   9.387653E-01   3.194892E+00
+# jeff4.0       1.107901E+00   9.387653E-01   3.194888E+00
+# jendl5.0      0.000000E+00   0.000000E+00   0.000000E+00

@@ -1,0 +1,62 @@
+# header: 
+#   title: Bi209(n,n'_01)Bi210 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Korzh
+#   year: 1977
+#   subentry: 40532019
+#   X4 reaction: 83-BI-209(N,INL)83-BI-209,PAR,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/40532019
+#   level energy [MeV]:  9.00000E-01
+# target: 
+#   Z: 83
+#   A: 209
+#   nuclide: Bi209
+# reaction: 
+#   type: (n,n'_01)
+#   ENDF_MF: 3
+#   ENDF_MT: 51
+#   level: 
+#     number: 1
+#     energy [MeV]:  8.962800E-01
+#     spin:  3.500000E+00
+#     parity: -1
+#   residual: 
+#     Z: 83
+#     A: 210
+#     nuclide: Bi210
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.000000E+00   1.000000E-01   3.310000E+02   2.100000E+01   1.000000E+00
+   2.500000E+00   1.000000E-01   5.400000E+02   3.800000E+01   1.000000E+00
+   3.000000E+00   1.000000E-01   4.900000E+02   3.300000E+01   1.000000E+00
+# reference:
+#   author: I.A.Korzh,V.A.Mishchenko,E.N.Mozhzhukhin, N.M.Pravdivyy,I.E.Sanzhur
+#   title: Differential neutron scattering cross-sections at 1.5 to 3.0 MeV for titanium, iron and bismuth nuclei
+#   journal: Jour: Ukrainskii Fizichnii Zhurnal, Vol.22, p.87 (1977)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.000000E+00
+#   E-max [MeV]:  3.000000E+00
+#   F-value:  1.184413E+00
+#   A-value:  1.117773E+00
+#   chi-2:  8.991223E+00
+#   p-value:  4.026484E-01
+#   exp. data sets for p-value:      4
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2025    1.154411E+00   1.124322E+00   6.316864E+00
+# endfb8.1      1.105863E+00   1.056592E+00   3.066147E+00
+# jeff4.0       1.237793E+00   1.212416E+00   1.479868E+01
+# jendl5.0      1.237793E+00   1.212416E+00   1.479868E+01
+# cendl3.2      1.157765E+00   9.992338E-01   5.975742E+00

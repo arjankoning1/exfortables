@@ -1,0 +1,68 @@
+# header: 
+#   title: Sn119(p,g)Sb120g cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Chloupek
+#   year: 1999
+#   subentry: C0556004
+#   X4 reaction: 50-SN-119(P,G)51-SB-120-G,,SIG,,SFC
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C0556004
+# target: 
+#   Z: 50
+#   A: 119
+#   nuclide: Sn119
+# reaction: 
+#   type: (p,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 51
+#     A: 120
+#     nuclide: Sb120g
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 13
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.760199E+00   0.000000E+00   5.000600E-03   1.898500E-03   1.000000E+00
+   2.963911E+00   0.000000E+00   4.869400E-03   6.841300E-04   1.000000E+00
+   3.218047E+00   0.000000E+00   2.068500E-02   1.867000E-03   1.000000E+00
+   3.472183E+00   0.000000E+00   2.915300E-02   2.313700E-03   1.000000E+00
+   3.726319E+00   0.000000E+00   6.705400E-02   4.711900E-03   1.000000E+00
+   3.979447E+00   0.000000E+00   1.528200E-01   1.052600E-02   1.000000E+00
+   4.233583E+00   0.000000E+00   2.160200E-01   1.330600E-02   1.000000E+00
+   4.487719E+00   0.000000E+00   3.367900E-01   2.068000E-02   1.000000E+00
+   4.842702E+00   0.000000E+00   7.229100E-01   4.928900E-02   1.000000E+00
+   5.248110E+00   0.000000E+00   1.387100E+00   8.115900E-02   1.000000E+00
+   5.501237E+00   0.000000E+00   1.993700E+00   1.165900E-01   1.000000E+00
+   6.008501E+00   0.000000E+00   3.459900E+00   2.129200E-01   1.000000E+00
+   6.514756E+00   0.000000E+00   4.795300E+00   3.836300E-01   1.000000E+00
+# reference:
+#   author: F.R.Chloupek, A.St.J.Murphy, R.N.Boyd, A.L.Cole,  J.Goerres, R.T.Guray, G.Raimann, J.J.Zach, T.Rauscher,  J.V.Schwarzenberg, P.Tischhauser, M.C.Wiescher
+#   title: Measurements of proton radiative capture cross  sections relevant to the astrophysical rp- and  gamma-processes
+#   journal: Jour: Nuclear Physics, Section A, Vol.652, p.391 (1999)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  2.760199E+00
+#   E-max [MeV]:  6.514756E+00
+#   F-value:  2.021751E+01
+#   A-value:  1.484551E-01
+#   chi-2:  8.766823E+01
+#   p-value:  3.519123E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    2.192231E+00   4.941306E-01   4.987058E+01
+# jendl5.0      4.540194E+02   2.213048E-03   2.463898E+02

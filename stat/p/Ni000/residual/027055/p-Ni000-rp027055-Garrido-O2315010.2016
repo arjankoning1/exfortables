@@ -1,0 +1,64 @@
+# header: 
+#   title: Ni0(p,x)Co55 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Garrido
+#   year: 2016
+#   subentry: O2315010
+#   X4 reaction: 28-NI-0(P,X)27-CO-55,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O2315010
+# target: 
+#   Z: 28
+#   A: 0
+#   nuclide: Ni0
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 27
+#     A: 55
+#     nuclide: Co55
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 13
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.039000E+01   1.860000E+00   3.540000E+00   3.300000E-01   1.000000E+00
+   1.386000E+01   1.490000E+00   1.555000E+01   1.130000E+00   1.000000E+00
+   1.543000E+01   1.350000E+00   2.179000E+01   2.500000E+00   1.000000E+00
+   1.733000E+01   1.200000E+00   2.475000E+01   1.790000E+00   1.000000E+00
+   1.762000E+01   1.170000E+00   2.408000E+01   3.280000E+00   1.000000E+00
+   1.963000E+01   1.080000E+00   2.101000E+01   2.750000E+00   1.000000E+00
+   2.513000E+01   8.500000E-01   6.450000E+00   6.500000E-01   1.000000E+00
+   2.985000E+01   5.800000E-01   3.430000E+00   3.800000E-01   1.000000E+00
+   3.663000E+01   9.200000E-01   4.180000E+00   4.000000E-01   1.000000E+00
+   4.078000E+01   8.000000E-01   8.280000E+00   7.600001E-01   1.000000E+00
+   4.566000E+01   5.800000E-01   2.064000E+01   1.850000E+00   1.000000E+00
+   5.734000E+01   1.070000E+00   3.972000E+01   3.710000E+00   1.000000E+00
+   6.981000E+01   5.700000E-01   3.073000E+01   2.110000E+00   1.000000E+00
+# reference:
+#   author: E.Garrido,C.Duchemin,A.Guertin,F.Haddad,N.Michel, V.Metivier
+#   title: New excitation functions for proton induced reactions on natural titanium, nickel and copper up to 70 MeV.
+#   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.383, p.191 (20
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.039000E+01
+#   E-max [MeV]:  6.981000E+01
+#   F-value:  1.488240E+00
+#   A-value:  9.937217E-01
+#   chi-2:  2.364206E+01
+#   p-value:  3.423482E-01
+#   exp. data sets for p-value:      6
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.477062E+00   1.183038E+00   2.355527E+01
+# endfb8.1      1.471394E+00   7.665238E-01   1.226580E+01
+# jendl5.0      1.515678E+00   1.082106E+00   3.510512E+01

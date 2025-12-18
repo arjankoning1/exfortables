@@ -1,0 +1,57 @@
+# header: 
+#   title: W184(n,np)Ta183 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Semkova
+#   year: 2007
+#   subentry: 22877016
+#   X4 reaction: 74-W-184(N,X)73-TA-183,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22877016
+# target: 
+#   Z: 74
+#   A: 184
+#   nuclide: W184
+# reaction: 
+#   type: (n,np)
+#   ENDF_MF: 3
+#   ENDF_MT: 28
+#   residual: 
+#     Z: 73
+#     A: 183
+#     nuclide: Ta183
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.530000E+01   4.000000E-01   1.191200E+00   1.985300E-01   9.926471E-01
+   1.640000E+01   6.000000E-01   2.451800E+00   4.069900E-01   9.926471E-01
+   1.800000E+01   4.000000E-01   7.345600E+00   9.926500E-01   9.926471E-01
+   1.900000E+01   4.000000E-01   1.052206E+01   9.926500E-01   9.926471E-01
+# reference:
+#   author: V.Semkova, R.Capote, R.J.Tornin, A.J.Koning,  A.Moens, A.J.M.Plompen
+#   title: New cross section measurements for neutron-induced   reactions on Cr, Ni, Cu, Ta and W isotopes obtained   with the activation technique
+#   journal: Conf: Conf.on Nucl.Data for Sci. and Technology, Nice 2007, Vol.1, p.559
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.530000E+01
+#   E-max [MeV]:  1.900000E+01
+#   F-value:  6.025451E+00
+#   A-value:  1.891370E-01
+#   chi-2:  3.324107E+01
+#   p-value:  5.289647E-02
+#   exp. data sets for p-value:      1
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2025    2.322385E+00   4.360750E-01   1.720913E+01
+# endfb8.1      8.517561E+00   1.290590E-01   3.961177E+01
+# jeff4.0       8.517561E+00   1.290590E-01   3.961177E+01
+# jendl5.0      6.063650E+00   1.777968E-01   3.489847E+01
+# eaf.2010      5.639522E+00   1.874219E-01   3.487423E+01

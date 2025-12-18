@@ -1,0 +1,63 @@
+# header: 
+#   title: Hg198(n,2n)Hg197g cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Kasugai
+#   year: 2001
+#   subentry: 23018007
+#   X4 reaction: 80-HG-198(N,2N)80-HG-197-G,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/23018007
+# target: 
+#   Z: 80
+#   A: 198
+#   nuclide: Hg198
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 80
+#     A: 197
+#     nuclide: Hg197g
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.336000E+01   0.000000E+00   1.240000E+03   1.100000E+02   1.000000E+00
+   1.368000E+01   0.000000E+00   1.140000E+03   1.100000E+02   1.000000E+00
+   1.402000E+01   0.000000E+00   1.110000E+03   1.100000E+02   1.000000E+00
+   1.437000E+01   0.000000E+00   1.110000E+03   1.100000E+02   1.000000E+00
+   1.468000E+01   0.000000E+00   1.090000E+03   1.100000E+02   1.000000E+00
+   1.494000E+01   0.000000E+00   1.190000E+03   1.000000E+02   1.000000E+00
+# reference:
+#   author: Y.Kasugai, F.Maekawa, Y.Ikeda, H.Takeuchi
+#   title: Measurement of activation cross sections for mercury isotopes in the neutron energy range between 13.4 and 14.9 MeV
+#   journal: Jour: Jour. of Nuclear Science and Technology, Vol.38, Issue.12, p.1048
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.336000E+01
+#   E-max [MeV]:  1.494000E+01
+#   F-value:  1.090026E+00
+#   A-value:  9.392800E-01
+#   chi-2:  1.156854E+00
+#   p-value:  2.336223E-01
+#   exp. data sets for p-value:      2
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.090785E+00   9.357205E-01   1.206494E+00
+# jeff4.0       1.090785E+00   9.357205E-01   1.206494E+00
+# jendl5.0      1.031641E+00   9.838439E-01   2.992981E-01
+# eaf.2010      1.123932E+00   9.035700E-01   1.915128E+00

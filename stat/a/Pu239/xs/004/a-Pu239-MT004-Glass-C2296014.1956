@@ -1,0 +1,61 @@
+# header: 
+#   title: Pu239(a,n')Cm242 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Glass
+#   year: 1956
+#   subentry: C2296014
+#   X4 reaction: 94-PU-239(A,N)96-CM-242,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C2296014
+# target: 
+#   Z: 94
+#   A: 239
+#   nuclide: Pu239
+# reaction: 
+#   type: (a,n')
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+#   residual: 
+#     Z: 96
+#     A: 242
+#     nuclide: Cm242
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 12
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.020000E+01   0.000000E+00   1.100000E+00   1.650000E-01   1.000000E+00
+   2.450000E+01   0.000000E+00   8.400000E-01   1.260000E-01   1.000000E+00
+   2.680000E+01   0.000000E+00   1.100000E+00   1.650000E-01   1.000000E+00
+   2.750000E+01   0.000000E+00   1.300000E+00   1.950000E-01   1.000000E+00
+   3.400000E+01   0.000000E+00   2.400000E+00   3.600000E-01   1.000000E+00
+   3.800000E+01   0.000000E+00   2.200000E+00   3.300000E-01   1.000000E+00
+   3.920000E+01   0.000000E+00   1.800000E+00   2.700000E-01   1.000000E+00
+   4.070000E+01   0.000000E+00   9.700000E-01   1.455000E-01   1.000000E+00
+   4.380000E+01   0.000000E+00   1.500000E+00   2.250000E-01   1.000000E+00
+   4.430000E+01   0.000000E+00   1.600000E+00   2.400000E-01   1.000000E+00
+   4.600000E+01   0.000000E+00   2.600000E+00   3.900000E-01   1.000000E+00
+   4.750000E+01   0.000000E+00   8.200000E-01   1.230000E-01   1.000000E+00
+# reference:
+#   author: R.A.Glass,R.J.Carr,J.W.Cobble,G.T.Seaborg
+#   title: Spallation-Fission Competition in Heaviest Elements; Helium-Ion-Induced Reactions in Plutonium Isotopes
+#   journal: Jour: Physical Review, Vol.104, p.434 (1956)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  2.020000E+01
+#   E-max [MeV]:  4.750000E+01
+#   F-value:  3.841544E+00
+#   A-value:  3.039787E-01
+#   chi-2:  2.029566E+01
+#   p-value:  2.996950E-01
+#   exp. data sets for p-value:      1
+#   libraries:      1
+##  Library          F              A            chi-2
+# tendl.2025    3.841544E+00   3.039787E-01   2.029566E+01

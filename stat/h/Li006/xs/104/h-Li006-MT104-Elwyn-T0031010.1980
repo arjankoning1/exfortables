@@ -1,0 +1,53 @@
+# header: 
+#   title: Li6(h,d)Be7 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Elwyn
+#   year: 1980
+#   subentry: T0031010
+#   X4 reaction: 3-LI-6(HE3,D)4-BE-7,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/T0031010
+# target: 
+#   Z: 3
+#   A: 6
+#   nuclide: Li6
+# reaction: 
+#   type: (h,d)
+#   ENDF_MF: 3
+#   ENDF_MT: 104
+#   residual: 
+#     Z: 4
+#     A: 7
+#     nuclide: Be7
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.291000E+00   1.000000E-02   2.095000E+02   7.559418E+01   1.000000E+00
+   1.384000E+00   1.000000E-02   2.414000E+02   6.063113E+01   1.000000E+00
+   1.494000E+00   1.000000E-02   2.449000E+02   6.151026E+01   1.000000E+00
+   1.602000E+00   1.000000E-02   2.190000E+02   7.912901E+01   1.000000E+00
+# reference:
+#   author: A.J.ELWYN,R.E.HOLLAND,C.N.DAVIDS,J.E.MONAHAN, F.P.MOORING,W.RAY JR
+#   title: Cross sections for the 6Li(3He,p) reaction at energies  below 2 MeV
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.22, p.1406 (1980)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.291000E+00
+#   E-max [MeV]:  1.602000E+00
+#   F-value:  1.107968E+00
+#   A-value:  1.044142E+00
+#   chi-2:  2.786392E-01
+#   p-value:  3.073998E-01
+#   exp. data sets for p-value:      1
+#   libraries:      1
+##  Library          F              A            chi-2
+# endfb8.1      1.107968E+00   1.044142E+00   2.786392E-01

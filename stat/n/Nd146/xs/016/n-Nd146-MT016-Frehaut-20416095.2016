@@ -1,0 +1,65 @@
+# header: 
+#   title: Nd146(n,2n)Nd145 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Frehaut
+#   year: 2016
+#   subentry: 20416095
+#   X4 reaction: 60-ND-146(N,2N)60-ND-145,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/20416095
+# target: 
+#   Z: 60
+#   A: 146
+#   nuclide: Nd146
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 60
+#     A: 145
+#     nuclide: Nd145
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 11
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   8.030000E+00   2.300000E-01   1.600000E+02   1.500000E+01   1.000000E+00
+   8.440000E+00   2.700000E-01   4.360000E+02   2.500000E+01   1.000000E+00
+   8.940000E+00   2.500000E-01   7.830001E+02   4.200000E+01   1.000000E+00
+   9.440000E+00   2.300000E-01   1.058000E+03   5.600000E+01   1.000000E+00
+   9.930000E+00   2.200000E-01   1.269000E+03   6.700000E+01   1.000000E+00
+   1.042000E+01   2.000000E-01   1.377000E+03   7.300001E+01   1.000000E+00
+   1.091000E+01   1.900000E-01   1.535000E+03   8.300000E+01   1.000000E+00
+   1.188000E+01   1.700000E-01   1.638000E+03   1.180000E+02   1.000000E+00
+   1.285000E+01   1.600000E-01   1.791000E+03   1.290000E+02   1.000000E+00
+   1.380000E+01   1.500000E-01   1.907000E+03   1.380000E+02   1.000000E+00
+   1.476000E+01   1.300000E-01   1.937000E+03   1.480000E+02   1.000000E+00
+# reference:
+#   author: J.Frehaut,A.Bertin,R.Bois,J.Jary,G.Mosinski
+#   title: Status of (n,xn) cross section measurements  at Bruyeres-le-Chatel
+#   journal: Rept: Centre d'Etudes Nucleaires, Saclay Reports, No.6447 (2016)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  8.030000E+00
+#   E-max [MeV]:  1.476000E+01
+#   F-value:  1.103284E+00
+#   A-value:  9.964303E-01
+#   chi-2:  2.557117E+00
+#   p-value:  3.106878E-01
+#   exp. data sets for p-value:      1
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.106929E+00   1.071378E+00   3.326536E+00
+# endfb8.1      1.017960E+00   1.000300E+00   2.624883E-01
+# jeff4.0       1.160377E+00   8.693522E-01   4.979239E+00
+# jendl5.0      1.135064E+00   1.089411E+00   4.884259E+00
+# cendl3.2      1.093590E+00   9.590349E-01   1.198295E+00
+# eaf.2010      1.034504E+00   1.005511E+00   6.918812E-01

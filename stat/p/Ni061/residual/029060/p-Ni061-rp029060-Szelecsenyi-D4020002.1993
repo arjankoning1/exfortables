@@ -1,0 +1,60 @@
+# header: 
+#   title: Ni61(p,x)Cu60 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Szelecsenyi
+#   year: 1993
+#   subentry: D4020002
+#   X4 reaction: 28-NI-61(P,2N)29-CU-60,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D4020002
+# target: 
+#   Z: 28
+#   A: 61
+#   nuclide: Ni61
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 29
+#     A: 60
+#     nuclide: Cu60
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 9
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.540000E+01   3.000000E-01   3.100000E+00   3.100000E+00   1.000000E+00
+   1.550000E+01   3.000000E-01   2.500000E+00   2.500000E+00   1.000000E+00
+   1.600000E+01   3.000000E-01   5.600000E+00   3.000000E+00   1.000000E+00
+   1.640000E+01   3.000000E-01   7.700000E+00   2.600000E+00   1.000000E+00
+   1.670000E+01   3.000000E-01   1.290000E+01   2.700000E+00   1.000000E+00
+   1.690000E+01   2.000000E-01   1.650000E+01   2.900000E+00   1.000000E+00
+   1.770000E+01   2.000000E-01   3.050000E+01   4.500000E+00   1.000000E+00
+   1.860000E+01   2.000000E-01   5.400001E+01   7.100000E+00   1.000000E+00
+   1.860000E+01   2.000000E-01   6.280001E+01   8.500000E+00   1.000000E+00
+# reference:
+#   author: F.Szelecsenyi,G.Blessing,S.M.Qaim
+#   title: Excitation functions of proton induced nuclear reaction on enriched Ni-61 and Ni-64: possibility of production of no-carrier-added Cu-61 and Cu-64 at a small cyclotron
+#   journal: Jour: Applied Radiation and Isotopes, Vol.44, p.575 (1993)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.540000E+01
+#   E-max [MeV]:  1.860000E+01
+#   F-value:  1.467247E+00
+#   A-value:  1.256931E+00
+#   chi-2:  7.943920E+00
+#   p-value:  2.931902E-01
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.392337E+00   1.259719E+00   4.453267E+00
+# endfb8.1      1.173932E+00   1.030143E+00   9.058976E-01
+# jendl5.0      1.867237E+00   1.765128E+00   2.372462E+01

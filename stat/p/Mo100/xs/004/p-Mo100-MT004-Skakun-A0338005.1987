@@ -1,0 +1,61 @@
+# header: 
+#   title: Mo100(p,n')Tc100 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Skakun
+#   year: 1987
+#   subentry: A0338005
+#   X4 reaction: 42-MO-100(P,N)43-TC-100,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/A0338005
+# target: 
+#   Z: 42
+#   A: 100
+#   nuclide: Mo100
+# reaction: 
+#   type: (p,n')
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+#   residual: 
+#     Z: 43
+#     A: 100
+#     nuclide: Tc100
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 11
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   4.000000E+00   0.000000E+00   5.800000E+00   1.700000E+00   1.000000E+00
+   4.500000E+00   0.000000E+00   2.250000E+01   4.000000E+00   1.000000E+00
+   5.000000E+00   0.000000E+00   4.000000E+01   7.000000E+00   1.000000E+00
+   5.500000E+00   0.000000E+00   1.040000E+02   1.700000E+01   1.000000E+00
+   6.000000E+00   0.000000E+00   1.300000E+02   2.100000E+01   1.000000E+00
+   6.500000E+00   0.000000E+00   2.560000E+02   4.000000E+01   1.000000E+00
+   7.000000E+00   0.000000E+00   3.510000E+02   5.500000E+01   1.000000E+00
+   7.500000E+00   0.000000E+00   4.030000E+02   6.300000E+01   1.000000E+00
+   8.000000E+00   0.000000E+00   5.620000E+02   6.300000E+01   1.000000E+00
+   8.500000E+00   0.000000E+00   6.200001E+02   1.000000E+02   1.000000E+00
+   9.000000E+00   0.000000E+00   5.000001E+02   8.000002E+01   1.000000E+00
+# reference:
+#   author: E.A.Skakun, V.G.Batij, Yu.N.Rakivnenko, O.A.Rastrepin
+#   title: Excitation functions and isomer ratios for up-to-9 MeV proton interactions with Zr and Mo isotope nuclei.
+#   journal: Jour: Yadernaya Fizika, Vol.46, p.28 (1987)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  4.000000E+00
+#   E-max [MeV]:  9.000000E+00
+#   F-value:  1.380626E+00
+#   A-value:  1.073882E+00
+#   chi-2:  3.803606E+00
+#   p-value:  2.364862E-01
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.446381E+00   1.101843E+00   5.241192E+00
+# jendl5.0      1.307415E+00   1.046631E+00   2.366019E+00

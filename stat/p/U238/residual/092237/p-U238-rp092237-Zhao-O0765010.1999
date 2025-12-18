@@ -1,0 +1,63 @@
+# header: 
+#   title: U238(p,x)U237 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Zhao
+#   year: 1999
+#   subentry: O0765010
+#   X4 reaction: 92-U-238(P,X)92-U-237,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O0765010
+# target: 
+#   Z: 92
+#   A: 238
+#   nuclide: U238
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 92
+#     A: 237
+#     nuclide: U237
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 13
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.340000E+01   0.000000E+00   1.020000E+02   1.000000E+00   1.000000E+00
+   2.480000E+01   0.000000E+00   1.089000E+02   7.000000E-01   1.000000E+00
+   2.630000E+01   0.000000E+00   1.169000E+02   8.000000E-01   1.000000E+00
+   2.720000E+01   0.000000E+00   1.174000E+02   9.000000E-01   1.000000E+00
+   2.830000E+01   0.000000E+00   1.250000E+02   9.000000E-01   1.000000E+00
+   2.950000E+01   0.000000E+00   1.290000E+02   2.000000E+00   1.000000E+00
+   3.080000E+01   0.000000E+00   1.250000E+02   1.000000E+00   1.000000E+00
+   3.180000E+01   0.000000E+00   1.180000E+02   1.000000E+00   1.000000E+00
+   3.280000E+01   0.000000E+00   1.172000E+02   7.000000E-01   1.000000E+00
+   3.390000E+01   0.000000E+00   1.160000E+02   2.000000E+00   1.000000E+00
+   3.490000E+01   0.000000E+00   1.107000E+02   6.000000E-01   1.000000E+00
+   3.800000E+01   0.000000E+00   1.130000E+02   7.000000E+00   1.000000E+00
+   3.990000E+01   0.000000E+00   1.210000E+02   8.000000E+00   1.000000E+00
+# reference:
+#   author: Y.L.Zhao, M.Tanikawa, K.Sueki, I.Nishinaka, K.Tsukada, Y.Oura, Y.Nagame, H.Nakahara
+#   title: Angular momentum effects on mass division in actinide fission.
+#   journal: Jour: Radiochimica Acta, Vol.86, p.79 (1999)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  2.340000E+01
+#   E-max [MeV]:  3.990000E+01
+#   F-value:  2.511302E+00
+#   A-value:  4.504997E-01
+#   chi-2:  4.719259E+03
+#   p-value:  1.679921E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.891272E+00   5.720185E-01   3.095450E+03
+# jendl5.0      3.113144E+00   3.547961E-01   6.343070E+03

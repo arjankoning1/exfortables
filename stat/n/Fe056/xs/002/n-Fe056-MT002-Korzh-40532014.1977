@@ -1,0 +1,53 @@
+# header: 
+#   title: Fe56(n,el) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Korzh
+#   year: 1977
+#   subentry: 40532014
+#   X4 reaction: 26-FE-56(N,EL)26-FE-56,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/40532014
+# target: 
+#   Z: 26
+#   A: 56
+#   nuclide: Fe56
+# reaction: 
+#   type: (n,el)
+#   ENDF_MF: 3
+#   ENDF_MT: 2
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.500000E+00   1.000000E-01   1.909000E+03   6.100000E+01   1.000000E+00
+   2.000000E+00   1.000000E-01   2.173000E+03   1.290000E+02   1.000000E+00
+   2.500000E+00   1.000000E-01   2.600000E+03   1.440000E+02   1.000000E+00
+   3.000000E+00   1.000000E-01   2.135000E+03   8.600000E+01   1.000000E+00
+# reference:
+#   author: I.A.Korzh,V.A.Mishchenko,E.N.Mozhzhukhin, N.M.Pravdivyy,I.E.Sanzhur
+#   title: Differential neutron scattering cross-sections at 1.5 to 3.0 MeV for titanium, iron and bismuth nuclei
+#   journal: Jour: Ukrainskii Fizichnii Zhurnal, Vol.22, p.87 (1977)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.500000E+00
+#   E-max [MeV]:  3.000000E+00
+#   F-value:  1.205762E+00
+#   A-value:  1.184620E+00
+#   chi-2:  3.321068E+01
+#   p-value:  1.777705E-01
+#   exp. data sets for p-value:      2
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2025    1.186305E+00   1.160494E+00   2.916010E+01
+# endfb8.1      1.181458E+00   1.166658E+00   2.647477E+01
+# jeff4.0       1.181458E+00   1.166658E+00   2.647477E+01
+# jendl5.0      1.183661E+00   1.160016E+00   2.823958E+01
+# cendl3.2      1.282291E+00   1.273211E+00   5.570420E+01

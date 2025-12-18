@@ -1,0 +1,63 @@
+# header: 
+#   title: Xe124(n,g)Xe125 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Bhike
+#   year: 2015
+#   subentry: 14443002
+#   X4 reaction: 54-XE-124(N,G)54-XE-125,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/14443002
+# target: 
+#   Z: 54
+#   A: 124
+#   nuclide: Xe124
+# reaction: 
+#   type: (n,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 54
+#     A: 125
+#     nuclide: Xe125
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 9
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.700000E-01   1.000000E-01   2.669200E+02   1.544000E+01   1.000000E+00
+   8.600000E-01   1.000000E-01   1.761400E+02   1.120000E+01   1.000000E+00
+   1.860000E+00   1.000000E-01   1.419600E+02   9.920000E+00   1.000000E+00
+   2.730000E+00   1.500000E-01   1.261400E+02   2.031000E+01   1.000000E+00
+   3.610000E+00   1.500000E-01   1.336200E+02   2.422000E+01   1.000000E+00
+   4.480000E+00   2.600000E-01   6.414001E+01   5.610000E+00   1.000000E+00
+   5.310000E+00   3.500000E-01   2.951000E+01   5.320000E+00   1.000000E+00
+   6.310000E+00   3.300000E-01   2.278000E+01   3.460000E+00   1.000000E+00
+   7.250000E+00   3.300000E-01   1.610000E+01   2.930000E+00   1.000000E+00
+# reference:
+#   author: M.Bhike,B.Fallin,M.E.Gooden,N.Ludin,W.Tornow
+#   title: Comprehensive sets of 124Xe(n,gamma)125Xe and 124Xe(n,2n)123Xe cross- section data for assessment of inertial-confinement deuterium-tritium fusion plasma
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.91, p.011601 (2015)
+# statistics:
+#   NEA score: R3
+#   IAEA score:  1
+#   E-min [MeV]:  3.700000E-01
+#   E-max [MeV]:  7.250000E+00
+#   F-value:  2.932229E+00
+#   A-value:  7.719044E-01
+#   chi-2:  9.090852E+01
+#   p-value:  4.021857E-01
+#   exp. data sets for p-value:      1
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.331440E+00   1.236650E+00   1.004671E+01
+# endfb8.1      3.437570E+00   4.205622E-01   1.737528E+01
+# jeff4.0       1.331440E+00   1.236650E+00   1.004671E+01
+# jendl5.0      1.935272E+00   1.872654E+00   8.787534E+01
+# cendl3.2      3.136738E+00   8.564336E-01   3.853272E+02
+# eaf.2010      6.514977E+00   2.050717E-01   3.477983E+01

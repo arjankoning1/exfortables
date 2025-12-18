@@ -1,0 +1,64 @@
+# header: 
+#   title: Ga71(n,x)Ga72 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Zaikin
+#   year: 1976
+#   subentry: 40255003
+#   X4 reaction: 31-GA-71(N,G)31-GA-72,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/40255003
+# target: 
+#   Z: 31
+#   A: 71
+#   nuclide: Ga71
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 31
+#     A: 72
+#     nuclide: Ga72
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 13
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.980000E-01   2.700000E-02   4.150000E+01   1.900000E+00   1.000000E+00
+   2.850000E-01   2.300000E-02   3.840001E+01   1.800000E+00   1.000000E+00
+   3.400000E-01   5.200000E-02   3.320000E+01   1.500000E+00   1.000000E+00
+   4.540000E-01   4.800000E-02   2.520000E+01   1.100000E+00   1.000000E+00
+   6.000000E-01   2.000000E-02   1.850000E+01   8.000000E-01   1.000000E+00
+   6.700000E-01   4.600000E-02   1.480000E+01   7.000000E-01   1.000000E+00
+   8.300000E-01   4.600000E-02   1.480000E+01   8.000000E-01   1.000000E+00
+   1.030000E+00   4.500000E-02   1.210000E+01   6.000000E-01   1.000000E+00
+   1.240000E+00   4.700000E-02   1.060000E+01   6.000000E-01   1.000000E+00
+   1.460000E+00   7.000000E-02   8.100000E+00   4.000000E-01   1.000000E+00
+   1.710000E+00   7.700000E-02   6.700000E+00   4.000000E-01   1.000000E+00
+   1.970000E+00   6.600000E-02   6.200000E+00   4.000000E-01   1.000000E+00
+   2.580000E+00   6.800000E-02   5.200000E+00   4.000000E-01   1.000000E+00
+# reference:
+#   author: G.G.Zaikin,I.A.Korzh,M.V.Pasechnik,N.T.Sklyar
+#   title: Cross-sections of 69Ga, 71Ga, 139La and 141Pr isotopes for radiative capture of fast neutrons
+#   journal: Jour: Ukrainian Physics Journal, Vol.16, p.1476 (1976)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.980000E-01
+#   E-max [MeV]:  2.580000E+00
+#   F-value:  1.150493E+00
+#   A-value:  1.037359E+00
+#   chi-2:  9.764118E+00
+#   p-value:  3.290739E-01
+#   exp. data sets for p-value:      3
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.144734E+00   1.007619E+00   8.091673E+00
+# jeff4.0       1.144734E+00   1.007619E+00   8.091673E+00
+# jendl5.0      1.161512E+00   1.099500E+00   1.310901E+01

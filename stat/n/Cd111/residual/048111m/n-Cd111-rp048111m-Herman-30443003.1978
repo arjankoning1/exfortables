@@ -1,0 +1,66 @@
+# header: 
+#   title: Cd111(n,x)Cd111m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Herman
+#   year: 1978
+#   subentry: 30443003
+#   X4 reaction: 48-CD-111(N,INL)48-CD-111-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30443003
+# target: 
+#   Z: 48
+#   A: 111
+#   nuclide: Cd111
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+#   residual: 
+#     Z: 48
+#     A: 111
+#     nuclide: Cd111m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.400000E+00   2.000000E-01   2.297872E+02   6.914895E+01   1.063830E+00
+   4.200000E+00   7.000000E-01   4.617021E+02   5.531915E+01   1.063830E+00
+   1.300000E+01   3.000000E-01   2.659574E+02   5.000000E+01   1.063830E+00
+   1.340000E+01   3.000000E-01   2.010638E+02   1.914894E+01   1.063830E+00
+   1.390000E+01   3.000000E-01   1.542553E+02   2.127660E+01   1.063830E+00
+   1.450000E+01   3.000000E-01   1.585106E+02   2.872341E+01   1.063830E+00
+   1.500000E+01   3.000000E-01   1.585106E+02   1.489362E+01   1.063830E+00
+   1.540000E+01   3.000000E-01   9.893617E+01   1.489362E+01   1.063830E+00
+   1.600000E+01   3.000000E-01   1.340426E+02   3.723404E+01   1.063830E+00
+   1.660000E+01   1.000000E-01   1.191489E+02   6.382979E+01   1.063830E+00
+# reference:
+#   author: M.Herman,A.Marcinkowski,J.Bielewicz,P.Oblozinsky
+#   title: Cross sections for the (n,p) and (n,n') reactions on Pd, Cd and Os.
+#   journal:
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  3.400000E+00
+#   E-max [MeV]:  1.660000E+01
+#   F-value:  1.221801E+00
+#   A-value:  1.085254E+00
+#   chi-2:  1.578371E+00
+#   p-value:  3.163341E-01
+#   exp. data sets for p-value:      2
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.203349E+00   1.081294E+00   1.427106E+00
+# jeff4.0       1.203349E+00   1.081294E+00   1.427106E+00
+# jendl5.0      1.255748E+00   1.093217E+00   1.880901E+00

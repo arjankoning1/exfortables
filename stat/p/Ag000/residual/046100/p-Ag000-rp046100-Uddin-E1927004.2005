@@ -1,0 +1,64 @@
+# header: 
+#   title: Ag0(p,x)Pd100 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Uddin
+#   year: 2005
+#   subentry: E1927004
+#   X4 reaction: 47-AG-0(P,X)46-PD-100,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/E1927004
+# target: 
+#   Z: 47
+#   A: 0
+#   nuclide: Ag0
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 46
+#     A: 100
+#     nuclide: Pd100
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 14
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.026000E+01   0.000000E+00   1.280800E+00   8.653800E-02   8.653846E-01
+   3.329000E+01   0.000000E+00   1.202900E+00   8.653800E-02   8.653846E-01
+   3.857000E+01   0.000000E+00   1.246200E+00   9.519200E-02   8.653846E-01
+   4.270000E+01   0.000000E+00   1.531700E+00   1.125000E-01   8.653846E-01
+   4.726000E+01   0.000000E+00   2.128800E+00   1.298100E-01   8.653846E-01
+   5.091000E+01   0.000000E+00   4.119200E+00   1.990400E-01   8.653846E-01
+   5.503000E+01   0.000000E+00   1.001250E+01   4.153800E-01   8.653846E-01
+   5.823000E+01   0.000000E+00   1.536923E+01   6.230800E-01   8.653846E-01
+   6.189000E+01   0.000000E+00   2.060481E+01   8.567300E-01   8.653846E-01
+   6.335000E+01   0.000000E+00   2.160865E+01   1.246200E+00   8.653846E-01
+   6.498000E+01   0.000000E+00   2.231827E+01   9.086500E-01   8.653846E-01
+   6.861000E+01   0.000000E+00   2.110673E+01   1.254800E+00   8.653846E-01
+   7.340000E+01   0.000000E+00   1.806058E+01   1.073100E+00   8.653846E-01
+   7.812000E+01   0.000000E+00   1.721250E+01   1.021200E+00   8.653846E-01
+# reference:
+#   author: M.S.Uddin, M.Hagiwara, M.Baba, F.Tarkanyi, F.Ditroi
+#   title: Experimental studies on excitation functions of the proton-induced activation reactions on silver
+#   journal: Jour: Applied Radiation and Isotopes, Vol.62, Issue.4, p.533 (2005)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  3.026000E+01
+#   E-max [MeV]:  7.812000E+01
+#   F-value:  4.855824E+00
+#   A-value:  3.996927E-01
+#   chi-2:  1.425831E+02
+#   p-value:  2.229089E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    6.712348E+00   1.949109E-01   2.161033E+02
+# jendl5.0      3.222003E+00   8.196270E-01   6.906286E+01

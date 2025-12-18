@@ -1,0 +1,60 @@
+# header: 
+#   title: Se76(n,p)As76 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Filatenkov
+#   year: 2016
+#   subentry: 41614040
+#   X4 reaction: 34-SE-76(N,P)33-AS-76,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/41614040
+# target: 
+#   Z: 34
+#   A: 76
+#   nuclide: Se76
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 33
+#     A: 76
+#     nuclide: As76
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.349000E+01   0.000000E+00   4.590001E+01   2.836640E+00   9.999999E-01
+   1.389000E+01   0.000000E+00   4.969496E+01   3.165600E+00   9.998986E-01
+   1.405000E+01   0.000000E+00   4.748925E+01   4.245730E+00   9.997737E-01
+   1.426000E+01   0.000000E+00   5.216136E+01   3.349400E+00   9.992597E-01
+   1.444000E+01   0.000000E+00   5.048177E+01   3.539100E+00   9.996390E-01
+   1.481000E+01   0.000000E+00   5.435281E+01   4.299100E+00   9.991326E-01
+# reference:
+#   author: A.A.Filatenkov
+#   title: Neutron activation cross sections measured at KRI in neutron energy region 13.4 - 14.9 MeV
+#   journal: Rept: USSR report to the I.N.D.C., No.0460 (2016)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.349000E+01
+#   E-max [MeV]:  1.481000E+01
+#   F-value:  1.187315E+00
+#   A-value:  1.115023E+00
+#   chi-2:  9.106143E+00
+#   p-value:  3.115064E-01
+#   exp. data sets for p-value:      2
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.012507E+00   1.001936E+00   1.665344E-01
+# endfb8.1      1.445866E+00   1.431537E+00   4.365642E+01
+# jeff4.0       1.012507E+00   1.001936E+00   1.665344E-01
+# jendl5.0      1.149227E+00   1.145250E+00   4.735953E+00
+# cendl3.2      1.110002E+00   1.100313E+00   2.855071E+00
+# eaf.2010      1.107262E+00   1.061219E+00   3.056340E+00

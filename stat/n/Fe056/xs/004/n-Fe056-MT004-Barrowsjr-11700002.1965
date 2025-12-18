@@ -1,0 +1,56 @@
+# header: 
+#   title: Fe56(n,n')Fe56 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Barrowsjr
+#   year: 1965
+#   subentry: 11700002
+#   X4 reaction: 26-FE-56(N,INL)26-FE-56,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11700002
+# target: 
+#   Z: 26
+#   A: 56
+#   nuclide: Fe56
+# reaction: 
+#   type: (n,n')
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+#   residual: 
+#     Z: 26
+#     A: 56
+#     nuclide: Fe56
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.830000E+00   0.000000E+00   6.346000E+02   6.730000E+01   1.000000E+00
+   2.210000E+00   0.000000E+00   1.120000E+03   1.130000E+02   1.000000E+00
+   2.430000E+00   0.000000E+00   8.306000E+02   8.640000E+01   1.000000E+00
+# reference:
+#   author: T.W.BARROWS JR
+#   title: A STUDY OF THE (N,N GAMMA) REACTIONS IN V51 AND MN55 AND THE REACTION F19(D,N)NE20.
+#   journal: Thesis: Barrows (1965)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.830000E+00
+#   E-max [MeV]:  2.430000E+00
+#   F-value:  1.223558E+00
+#   A-value:  9.126900E-01
+#   chi-2:  3.577318E+00
+#   p-value:  2.853185E-01
+#   exp. data sets for p-value:      7
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2025    1.377244E+00   9.142796E-01   9.494671E+00
+# endfb8.1      1.125086E+00   9.274879E-01   1.316679E+00
+# jeff4.0       1.124835E+00   9.274630E-01   1.315813E+00
+# jendl5.0      1.115704E+00   9.328256E-01   1.510053E+00
+# cendl3.2      1.281116E+00   8.632413E-01   4.249375E+00

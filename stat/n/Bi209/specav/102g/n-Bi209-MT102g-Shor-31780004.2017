@@ -1,0 +1,40 @@
+# header: 
+#   title: Bi209(n,sacs) spectrum averaged cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Shor
+#   year: 2017
+#   subentry: 31780004
+#   X4 reaction: 83-BI-209(N,G)83-BI-210-G,,SIG,,MXW
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/31780004
+# target: 
+#   Z: 83
+#   A: 209
+#   nuclide: Bi209
+# reaction: 
+#   type: (n,sacs)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: spectrum averaged cross section
+#   datablock: 
+#     columns: 5
+#     entries: 3
+##     Elow           Ehigh         Average       dAverage     Normalization
+##     [eV]           [eV]            []             []             []
+   2.500000E-02   0.000000E+00   2.070000E+00   9.000000E-02   1.000000E+00
+   3.000000E-02   0.000000E+00   1.840000E+00   9.000000E-02   1.000000E+00
+   3.500000E-02   0.000000E+00   1.700000E+00   1.400000E-01   1.000000E+00
+# reference:
+#   author: A.Shor, M.Tessler, A.Plompen, A.Arenshtam, O.Aviv,  D.Berkovits, M.Brandis, Y.Eisen, I.Eliyahu,  G.Feinberg, M.Friedman, S.Halfon, M.Hult, B.Kaizer,  D.Kijel, A.Krasa, A.Kreisel, T.Palchan, M.Paul,  A.Perry, I.Silverman, S.Vaintraub, L.Weissman
+#   title: Bismuth activation with quasi-Maxwellian neutrons at  kT ~30 keV
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.96, p.055805 (2017)

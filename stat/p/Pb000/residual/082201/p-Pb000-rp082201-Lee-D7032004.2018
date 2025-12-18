@@ -1,0 +1,55 @@
+# header: 
+#   title: Pb0(p,x)Pb201 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Lee
+#   year: 2018
+#   subentry: D7032004
+#   X4 reaction: 82-PB-0(P,X)82-PB-201,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/D7032004
+# target: 
+#   Z: 82
+#   A: 0
+#   nuclide: Pb0
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 82
+#     A: 201
+#     nuclide: Pb201
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   7.150000E+01   0.000000E+00   6.256600E-02   1.355600E-02   1.042765E+00
+   7.860000E+01   0.000000E+00   1.240900E-01   1.147000E-02   1.042765E+00
+   8.540000E+01   0.000000E+00   1.720600E-01   3.024000E-02   1.042765E+00
+   9.170000E+01   0.000000E+00   1.845700E-01   3.336800E-02   1.042765E+00
+# reference:
+#   author: J.E.Lee, J.R.Yoon, T.I.Ro, S.Y.Lee
+#   title: Measurement of Excitation Functions for natPb(p,xn) 199,200,201Pb Reactions with Stacked Foil Activation Technique at KOMAC
+#   journal: Jour: Journal of the Korean Physical Society, Vol.72, p.228 (2018)
+# statistics:
+#   NEA score: T2
+#   IAEA score: -1
+#   E-min [MeV]:  7.150000E+01
+#   E-max [MeV]:  9.170000E+01
+#   F-value:  5.538344E+02
+#   A-value:  5.528768E+02
+#   chi-2:  1.437022E+07
+#   p-value:  0.000000E+00
+#   exp. data sets for p-value:      1
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    5.089165E+02   5.086571E+02   1.212914E+07
+# endfb8.1      5.672234E+02   5.659842E+02   1.450262E+07
+# jendl5.0      5.879641E+02   5.870239E+02   1.647890E+07

@@ -1,0 +1,68 @@
+# header: 
+#   title: Se80(p,x)Br80g cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Levkovski*0.82
+#   year: 1991
+#   subentry: A0510145
+#   X4 reaction: 34-SE-80(P,N)35-BR-80-G,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/A0510145
+# target: 
+#   Z: 34
+#   A: 80
+#   nuclide: Se80
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 4
+#   residual: 
+#     Z: 35
+#     A: 80
+#     nuclide: Br80g
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 13
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   7.700000E+00   0.000000E+00   2.609686E+02   3.182544E+01   7.631999E-01
+   8.600000E+00   0.000000E+00   2.972663E+02   3.625199E+01   7.631999E-01
+   9.500000E+00   0.000000E+00   2.841240E+02   3.464928E+01   7.631999E-01
+   1.040000E+01   0.000000E+00   3.066537E+02   3.739680E+01   7.631999E-01
+   1.130000E+01   0.000000E+00   2.872531E+02   3.503088E+01   7.631999E-01
+   1.210000E+01   0.000000E+00   2.747367E+02   3.350447E+01   7.631999E-01
+   1.280000E+01   0.000000E+00   2.083994E+02   2.541456E+01   7.631999E-01
+   1.380000E+01   0.000000E+00   8.949284E+01   1.091376E+01   7.631999E-01
+   1.480000E+01   0.000000E+00   6.946645E+01   8.471500E+00   7.631999E-01
+   1.580000E+01   0.000000E+00   4.255602E+01   5.189800E+00   7.631999E-01
+   1.670000E+01   0.000000E+00   3.504613E+01   4.273900E+00   7.631999E-01
+   1.750000E+01   0.000000E+00   2.878790E+01   3.510720E+00   7.631999E-01
+   1.830000E+01   0.000000E+00   2.565878E+01   3.129100E+00   7.631999E-01
+# reference:
+#   author: V.N.Levkovski
+#   title: Cross sections of medium mass nuclide activation  (A=40-100) by medium energy protons and alpha-particles (E=10-50 MeV)
+#   journal: Book: Levkovskij,Act.Cs.By Protons and Alphas,Moscow 1991,  (1991)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  7.700000E+00
+#   E-max [MeV]:  1.830000E+01
+#   F-value:  1.621530E+00
+#   A-value:  1.367786E+00
+#   chi-2:  3.323020E+01
+#   p-value:  2.750022E-01
+#   exp. data sets for p-value:      1
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.395697E+00   1.299204E+00   1.266661E+01
+# jendl5.0      1.816254E+00   1.439988E+00   5.379380E+01

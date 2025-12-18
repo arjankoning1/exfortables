@@ -1,0 +1,54 @@
+# header: 
+#   title: Ni62(n,x)Fe59 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: LiTingyann
+#   year: 1992
+#   subentry: 32593004
+#   X4 reaction: 28-NI-62(N,A)26-FE-59,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/32593004
+# target: 
+#   Z: 28
+#   A: 62
+#   nuclide: Ni62
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+#   residual: 
+#     Z: 26
+#     A: 59
+#     nuclide: Fe59
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.409000E+01   1.400000E-01   2.009992E+01   1.300000E+00   9.999960E-01
+   1.477000E+01   2.800000E-01   2.499990E+01   1.700000E+00   9.999960E-01
+# reference:
+#   author: Li Tingyan,Shi Zhaomin,Lu Hanlin,Zhao Wenrong, Yu Weixiang,Yuan Xialin
+#   title: The cross-section measurements and evaluations for Ni-58(n,p), Ni-60(n,p),Ni-62(n,alpha) and Fe-54(n,p) reaction
+#   journal: Jour: High Energy Physics and Nucl.Physics,Chinese ed., Vol.16, Issue.2,
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.409000E+01
+#   E-max [MeV]:  1.477000E+01
+#   F-value:  1.274521E+00
+#   A-value:  7.943826E-01
+#   chi-2:  1.009572E+01
+#   p-value:  3.368884E-01
+#   exp. data sets for p-value:      4
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.258495E+00   8.047821E-01   9.201110E+00
+# endfb8.1      0.000000E+00   0.000000E+00   0.000000E+00
+# jeff4.0       1.289939E+00   7.841175E-01   1.099034E+01
+# jendl5.0      0.000000E+00   0.000000E+00   0.000000E+00

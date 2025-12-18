@@ -1,0 +1,57 @@
+# header: 
+#   title: Zr90(n,x)Y90m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Husain
+#   year: 1970
+#   subentry: 10088007
+#   X4 reaction: 40-ZR-90(N,P)39-Y-90-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/10088007
+# target: 
+#   Z: 40
+#   A: 90
+#   nuclide: Zr90
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 39
+#     A: 90
+#     nuclide: Y90m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.480000E+01   2.000000E-01   1.300000E+01   1.000000E+00   1.000000E+00
+# reference:
+#   author: L.Husain,A.Bari,P.K.Kuroda
+#   title: Neutron Activation Cross Sections at 14.8 MeV for Rubidium, Zirconium, and Niobium
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.1, p.1233 (1970)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.480000E+01
+#   E-max [MeV]:  1.480000E+01
+#   F-value:  1.037107E+00
+#   A-value:  9.828184E-01
+#   chi-2:  6.442891E-01
+#   p-value:  2.655373E-01
+#   exp. data sets for p-value:      8
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.040804E+00   9.607959E-01   7.156881E-01
+# jeff4.0       1.040804E+00   9.607959E-01   7.156881E-01
+# jendl5.0      1.028389E+00   1.028389E+00   5.014911E-01

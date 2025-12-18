@@ -1,0 +1,58 @@
+# header: 
+#   title: Na23(n,x)Na22 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Ikeda
+#   year: 1988
+#   subentry: 22089003
+#   X4 reaction: 11-NA-23(N,2N)11-NA-22,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22089003
+# target: 
+#   Z: 11
+#   A: 23
+#   nuclide: Na23
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 11
+#     A: 22
+#     nuclide: Na22
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.333000E+01   0.000000E+00   2.189800E+00   2.799700E-01   9.998999E-01
+   1.356000E+01   0.000000E+00   6.429400E+00   3.199700E-01   9.998999E-01
+   1.375000E+01   0.000000E+00   9.919000E+00   3.799600E-01   9.998999E-01
+   1.398000E+01   0.000000E+00   1.379862E+01   5.499400E-01   9.998999E-01
+   1.422000E+01   0.000000E+00   2.359764E+01   8.999100E-01   9.998999E-01
+   1.443000E+01   0.000000E+00   3.129687E+01   1.099890E+00   9.998999E-01
+   1.466000E+01   0.000000E+00   4.179582E+01   1.499850E+00   9.998999E-01
+   1.493000E+01   0.000000E+00   4.899510E+01   1.799820E+00   9.998999E-01
+# reference:
+#   author: Y.Ikeda,C.Konno,K.Oishi,T.Nakamura,H.Miyade, K.Kawade,  H.Yamamoto, T.Katoh
+#   title: Activation cross section measurements for fusion  reactor structural materials at neutron energy from  13.3 to 15.0 MeV using FNS facility
+#   journal: Rept: JAERI Reports, No.1312 (1988)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.333000E+01
+#   E-max [MeV]:  1.493000E+01
+#   F-value:  1.281887E+00
+#   A-value:  8.730938E-01
+#   chi-2:  2.634343E+01
+#   p-value:  2.712349E-01
+#   exp. data sets for p-value:      8
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.194781E+00   9.713439E-01   1.007093E+01
+# jendl5.0      1.353600E+00   7.847816E-01   4.261594E+01

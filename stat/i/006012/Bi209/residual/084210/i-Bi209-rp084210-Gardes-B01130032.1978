@@ -1,0 +1,40 @@
+# header: 
+#   title: Bi209(i,x)Po210 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Gardes
+#   year: 1978
+#   subentry: B01130032
+#   X4 reaction: 83-BI-209(6-C-12,X)84-PO-210,CUM,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/B01130032
+# target: 
+#   Z: 83
+#   A: 209
+#   nuclide: Bi209
+# reaction: 
+#   type: (i,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 84
+#     A: 210
+#     nuclide: Po210
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   6.850000E+01   4.500000E+00   1.220000E+02   4.500000E+01   1.000000E+00
+   7.400000E+01   3.500000E+00   1.070000E+02   4.000000E+01   1.000000E+00
+   7.900000E+01   3.000000E+00   7.700001E+01   2.000000E+01   1.000000E+00
+   8.700000E+01   2.000000E+00   1.080000E+02   3.000000E+01   1.000000E+00
+# reference:
+#   author: D.Gardes, R.Bimbot, J.Maison, L.De Relihac,  M.F.Rivet, A.Fleury, F.Hubert, Y.Llabador
+#   title: Excitation functions for quasielastic transfer  reactions induced with heavy ions in bismuth
+#   journal: Jour: Physical Review, Part C, Nuclear Physics, Vol.18, p.1298 (1978)

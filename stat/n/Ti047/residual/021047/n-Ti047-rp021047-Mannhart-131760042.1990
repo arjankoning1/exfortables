@@ -1,0 +1,58 @@
+# header: 
+#   title: Ti47(n,x)Sc47 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Mannhart
+#   year: 1990
+#   subentry: 131760042
+#   X4 reaction: 22-TI-47(N,P)21-SC-47,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/131760042
+# target: 
+#   Z: 22
+#   A: 47
+#   nuclide: Ti47
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 21
+#     A: 47
+#     nuclide: Sc47
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   6.978000E+00   1.480000E-01   8.692661E+01   5.012000E+00   1.012423E+00
+   7.182000E+00   1.600000E-01   9.148129E+01   5.285300E+00   1.015331E+00
+   7.585000E+00   1.710000E-01   9.738097E+01   5.572200E+00   1.020658E+00
+   7.664000E+00   8.600000E-02   9.962974E+01   5.738400E+00   1.018084E+00
+   7.665000E+00   8.700000E-02   9.532424E+01   5.490450E+00   1.018095E+00
+   7.786000E+00   1.750000E-01   9.631324E+01   5.835800E+00   1.018003E+00
+   7.984000E+00   1.790000E-01   9.861413E+01   5.635300E+00   1.032609E+00
+# reference:
+#   author: W.Mannhart, D.L.Smith, J.W.Meadows
+#   title: Measurement of the Ti-47 (n,p) reaction cross section
+#   journal: Conf: Nucl. En. Agency Nucl. Data Committee reports, No.259, p.121 (1990
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  6.978000E+00
+#   E-max [MeV]:  7.984000E+00
+#   F-value:  1.008257E+00
+#   A-value:  9.974821E-01
+#   chi-2:  1.279962E-01
+#   p-value:  3.871460E-01
+#   exp. data sets for p-value:      3
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.006324E+00   9.988813E-01   1.091731E-01
+# jeff4.0       1.006324E+00   9.988820E-01   1.091775E-01
+# jendl5.0      1.011169E+00   9.946890E-01   1.656380E-01

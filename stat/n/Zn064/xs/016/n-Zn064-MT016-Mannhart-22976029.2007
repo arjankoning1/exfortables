@@ -1,0 +1,63 @@
+# header: 
+#   title: Zn64(n,2n)Zn63 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Mannhart
+#   year: 2007
+#   subentry: 22976029
+#   X4 reaction: 30-ZN-64(N,2N)30-ZN-63,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22976029
+# target: 
+#   Z: 30
+#   A: 64
+#   nuclide: Zn64
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 30
+#     A: 63
+#     nuclide: Zn63
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 9
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.220700E+01   2.000000E-02   7.500000E-01   1.707000E-01   1.000000E+00
+   1.249600E+01   2.000000E-02   5.590000E+00   2.202500E-01   1.000000E+00
+   1.269000E+01   2.000000E-02   1.301000E+01   4.618600E-01   1.000000E+00
+   1.296700E+01   2.000000E-02   2.621000E+01   9.383200E-01   1.000000E+00
+   1.317700E+01   2.000000E-02   4.109000E+01   1.495700E+00   1.000000E+00
+   1.353100E+01   2.000000E-02   6.857000E+01   2.550800E+00   1.000000E+00
+   1.369900E+01   2.000000E-02   8.241001E+01   3.139800E+00   1.000000E+00
+   1.398400E+01   2.000000E-02   1.048000E+02   4.139600E+00   1.000000E+00
+   1.432700E+01   2.000000E-02   1.431000E+02   5.938700E+00   1.000000E+00
+# reference:
+#   author: W.Mannhart, D.Schmidt
+#   title: .Measurement of Neutron Activation Cross Sections in  the Energy Range from 8 MeV to 15 MeV
+#   journal: Rept: Phys.Techn.Bundesanst., Neutronenphysik Reports, No.53 (2007)
+# statistics:
+#   NEA score: T2
+#   IAEA score:  1
+#   E-min [MeV]:  1.220700E+01
+#   E-max [MeV]:  1.432700E+01
+#   F-value:  1.544675E+00
+#   A-value:  9.338176E-01
+#   chi-2:  4.413104E+01
+#   p-value:  4.093669E-01
+#   exp. data sets for p-value:      3
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.431117E+00   1.204012E+00   1.639691E+01
+# endfb8.1      1.345927E+00   1.110050E+00   6.859198E+00
+# jeff4.0       2.292882E+00   4.577312E-01   2.121508E+02
+# jendl5.0      1.304832E+00   1.038551E+00   6.460439E+00
+# cendl3.2      1.169373E+00   8.752009E-01   7.925234E+00
+# eaf.2010      1.441580E+00   1.192485E+00   1.499368E+01

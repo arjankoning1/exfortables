@@ -1,0 +1,52 @@
+# header: 
+#   title: F19(p,x)F18 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Valentin
+#   year: 1965
+#   subentry: C0062014
+#   X4 reaction: 9-F-19(P,X)9-F-18,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C0062014
+# target: 
+#   Z: 9
+#   A: 19
+#   nuclide: F19
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 9
+#     A: 18
+#     nuclide: F18
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.550000E+02   1.000000E+00   2.800000E+01   3.000000E+00   1.000000E+00
+   5.700000E+03   1.000000E+00   1.900000E+01   2.000000E+00   1.000000E+00
+# reference:
+#   author: L.Valentin
+#   title: (p,n) and (p,pn) reactions of light nuclei at  intermediate energies
+#   journal: Jour: Nuclear Physics, Vol.62, p.81 (1965)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.550000E+02
+#   E-max [MeV]:  5.700000E+03
+#   F-value:  2.618833E+00
+#   A-value:  5.761568E-01
+#   chi-2:  2.695339E+01
+#   p-value:  2.241623E-01
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    3.821230E+00   2.616958E-01   4.748366E+01
+# jendl5.0      1.268483E+00   1.268483E+00   6.423124E+00

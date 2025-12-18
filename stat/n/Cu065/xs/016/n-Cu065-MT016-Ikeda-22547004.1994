@@ -1,0 +1,63 @@
+# header: 
+#   title: Cu65(n,2n)Cu64 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Ikeda
+#   year: 1994
+#   subentry: 22547004
+#   X4 reaction: 29-CU-65(N,2N)29-CU-64,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22547004
+# target: 
+#   Z: 29
+#   A: 65
+#   nuclide: Cu65
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 29
+#     A: 64
+#     nuclide: Cu64
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.340000E+01   0.000000E+00   8.334091E+02   1.096591E+01   1.096591E+00
+   1.360000E+01   0.000000E+00   8.772727E+02   2.193182E+01   1.096591E+00
+   1.380000E+01   0.000000E+00   8.992045E+02   1.096591E+01   1.096591E+00
+   1.400000E+01   0.000000E+00   9.211363E+02   1.096591E+01   1.096591E+00
+   1.420000E+01   0.000000E+00   9.540341E+02   1.096591E+01   1.096591E+00
+   1.440000E+01   0.000000E+00   1.008864E+03   1.096591E+01   1.096591E+00
+   1.470000E+01   0.000000E+00   1.008864E+03   1.096591E+01   1.096591E+00
+   1.500000E+01   0.000000E+00   1.052727E+03   2.193182E+01   1.096591E+00
+# reference:
+#   author: Y.IKEDA,D.L.SMITH, Y.UNO,Y.KASUGAI, C.KONNO,H.MAEKAWA
+#   title: -New Measurement of activation cross section for the  Cu-63(n,2n)Cu-62 and Cu-64(n,2n)Cu-63 Reactions at  Energy Range of 13.3 to 14.9 MeV.
+#   journal: Conf: Conf.on Nucl.Data for Sci.and Techn.,Gatlinburg 1994, Vol.2, p.944
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.340000E+01
+#   E-max [MeV]:  1.500000E+01
+#   F-value:  1.069084E+00
+#   A-value:  9.366070E-01
+#   chi-2:  2.423431E+01
+#   p-value:  2.245140E-01
+#   exp. data sets for p-value:      8
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.068218E+00   9.369900E-01   2.389421E+01
+# endfb8.1      1.066855E+00   9.382252E-01   2.292418E+01
+# jeff4.0       1.066855E+00   9.382252E-01   2.292418E+01
+# jendl5.0      1.068451E+00   9.372761E-01   2.439454E+01
+# cendl3.2      1.081371E+00   9.259173E-01   3.136620E+01
+# eaf.2010      1.063715E+00   9.414654E-01   2.121446E+01
+# irdff2.0      1.066851E+00   9.382285E-01   2.292238E+01

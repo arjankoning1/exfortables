@@ -1,0 +1,55 @@
+# header: 
+#   title: U238(p,f) cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Stevenson
+#   year: 1958
+#   subentry: C0370008
+#   X4 reaction: 92-U-238(P,F),,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/C0370008
+# target: 
+#   Z: 92
+#   A: 238
+#   nuclide: U238
+# reaction: 
+#   type: (p,f)
+#   ENDF_MF: 3
+#   ENDF_MT: 18
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 9
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.000000E+01   0.000000E+00   2.900000E+01   0.000000E+00   1.000000E+00
+   3.200000E+01   0.000000E+00   1.470000E+03   0.000000E+00   1.000000E+00
+   7.000000E+01   0.000000E+00   1.470000E+03   0.000000E+00   1.000000E+00
+   1.000000E+02   0.000000E+00   1.490000E+03   0.000000E+00   1.000000E+00
+   1.500000E+02   0.000000E+00   1.440000E+03   0.000000E+00   1.000000E+00
+   2.000000E+02   0.000000E+00   1.470000E+03   0.000000E+00   1.000000E+00
+   2.500000E+02   0.000000E+00   1.580000E+03   0.000000E+00   1.000000E+00
+   3.000000E+02   0.000000E+00   1.460000E+03   0.000000E+00   1.000000E+00
+   3.400000E+02   0.000000E+00   1.590000E+03   0.000000E+00   1.000000E+00
+# reference:
+#   author: P.C.STEVENSON,H.G.HICKS,W.E.NERVIK,D.R.NETHAWAY
+#   title: FURTHER RADIOCHEMICAL STUDIES OF THE HIGH-ENERGY  FISSION PRODUCTS
+#   journal: Jour: Physical Review, Vol.111, p.886 (1958)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.000000E+01
+#   E-max [MeV]:  3.400000E+02
+#   F-value:  1.263974E+00
+#   A-value:  1.148199E+00
+#   chi-2:  0.000000E+00
+#   p-value:  1.725894E-01
+#   exp. data sets for p-value:      6
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.343700E+00   1.152058E+00   0.000000E+00
+# jendl5.0      1.161752E+00   1.144354E+00   0.000000E+00

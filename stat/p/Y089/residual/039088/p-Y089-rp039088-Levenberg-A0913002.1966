@@ -1,0 +1,57 @@
+# header: 
+#   title: Y89(p,x)Y88 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Levenberg
+#   year: 1966
+#   subentry: A0913002
+#   X4 reaction: 39-Y-89(P,X)39-Y-88,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/A0913002
+# target: 
+#   Z: 39
+#   A: 89
+#   nuclide: Y89
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 39
+#     A: 88
+#     nuclide: Y88
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 7
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.200000E+02   0.000000E+00   9.550001E+01   3.000000E+00   1.000000E+00
+   2.000000E+02   0.000000E+00   7.370000E+01   2.500000E+00   1.000000E+00
+   3.000000E+02   0.000000E+00   6.770000E+01   1.000000E+00   1.000000E+00
+   4.000000E+02   0.000000E+00   6.610000E+01   2.800000E+00   1.000000E+00
+   5.000000E+02   0.000000E+00   6.610000E+01   1.800000E+00   1.000000E+00
+   6.000000E+02   0.000000E+00   6.300000E+01   1.400000E+00   1.000000E+00
+   6.700000E+02   0.000000E+00   6.200000E+01   9.000000E-01   1.000000E+00
+# reference:
+#   author: I.Levenberg, V.Pokrovsky, L.Tarasova, Van Cheng-Peng, I.Yutlandov
+#   title: Reactions (p,pn),(p,2n) and (p,n)  on Y-89 induced by  high-energy protons.
+#   journal: Jour: Nuclear Physics, Vol.81, p.81 (1966)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.200000E+02
+#   E-max [MeV]:  6.700000E+02
+#   F-value:  1.196258E+00
+#   A-value:  9.280072E-01
+#   chi-2:  2.208503E+01
+#   p-value:  9.220747E-02
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.277479E+00   8.925436E-01   4.043010E+01
+# jendl5.0      1.067394E+00   9.648800E-01   3.739964E+00

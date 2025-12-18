@@ -1,0 +1,55 @@
+# header: 
+#   title: Zn64(n,2n)Zn63 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Bramlitt
+#   year: 1963
+#   subentry: 11590024
+#   X4 reaction: 30-ZN-64(N,2N)30-ZN-63,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11590024
+# target: 
+#   Z: 30
+#   A: 64
+#   nuclide: Zn64
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 30
+#     A: 63
+#     nuclide: Zn63
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.470000E+01   4.000000E-01   1.509719E+02   3.600000E+01   9.867446E-01
+# reference:
+#   author: E.T.Bramlitt,R.W.Fink
+#   title: Rare nuclear reactions induced by 14.7-MeV neutrons.
+#   journal: Jour: Physical Review, Vol.131, p.2649 (1963)
+# statistics:
+#   NEA score: R2
+#   IAEA score:  1
+#   E-min [MeV]:  1.470000E+01
+#   E-max [MeV]:  1.470000E+01
+#   F-value:  1.318774E+00
+#   A-value:  9.106721E-01
+#   chi-2:  8.599143E-01
+#   p-value:  3.326889E-01
+#   exp. data sets for p-value:      8
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.020626E+00   1.020626E+00   1.104109E-01
+# endfb8.1      1.017432E+00   1.017432E+00   9.304691E-02
+# jeff4.0       1.964270E+00   5.090950E-01   4.534463E+00
+# jendl5.0      1.004971E+00   1.004971E+00   2.624057E-02
+# cendl3.2      1.049663E+00   1.049663E+00   2.729508E-01
+# eaf.2010      1.022817E+00   1.022817E+00   1.223738E-01

@@ -1,0 +1,59 @@
+# header: 
+#   title: Am241(n,2n)Am240 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Lougheed
+#   year: 2002
+#   subentry: 13883003
+#   X4 reaction: 95-AM-241(N,2N)95-AM-240,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/13883003
+# target: 
+#   Z: 95
+#   A: 241
+#   nuclide: Am241
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 95
+#     A: 240
+#     nuclide: Am240
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.367000E+01   0.000000E+00   2.608332E+02   3.640000E+00   1.003205E+00
+   1.398000E+01   0.000000E+00   2.621063E+02   4.662000E+00   1.011993E+00
+   1.429000E+01   0.000000E+00   2.494784E+02   4.267000E+00   9.939378E-01
+   1.477000E+01   0.000000E+00   2.330878E+02   4.194000E+00   1.000377E+00
+   1.512000E+01   0.000000E+00   2.191271E+02   3.552000E+00   9.870591E-01
+# reference:
+#   author: R.W.Lougheed,W.Webster,M.N.Namboodiri,D.R.Nethaway, K.J.Moody,J.H.Landrum,R.W.Hoff,R.J.Dupzyk,J.H.McQuaid, R.Gunnink,E.D.Watkins
+#   title: 239Pu and 241Am(n,2n) cross-section measurements near  E(n) = 14 MeV
+#   journal: Jour: Radiochimica Acta, Vol.90, p.833 (2002)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.367000E+01
+#   E-max [MeV]:  1.512000E+01
+#   F-value:  1.033763E+00
+#   A-value:  9.810942E-01
+#   chi-2:  4.192433E+00
+#   p-value:  2.732204E-01
+#   exp. data sets for p-value:      4
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.043140E+00   9.613123E-01   6.322082E+00
+# endfb8.1      1.006602E+00   9.971040E-01   3.940641E-01
+# jeff4.0       1.041728E+00   9.631181E-01   5.850440E+00
+# jendl5.0      1.053570E+00   9.803630E-01   1.027490E+01
+# cendl3.2      1.011961E+00   9.933541E-01   9.543459E-01
+# eaf.2010      1.016021E+00   9.919474E-01   1.358763E+00

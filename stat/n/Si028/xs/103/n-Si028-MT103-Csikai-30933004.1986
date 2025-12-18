@@ -1,0 +1,67 @@
+# header: 
+#   title: Si28(n,p)Al28 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Csikai
+#   year: 1986
+#   subentry: 30933004
+#   X4 reaction: 14-SI-28(N,P)13-AL-28,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30933004
+# target: 
+#   Z: 14
+#   A: 28
+#   nuclide: Si28
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 13
+#     A: 28
+#     nuclide: Al28
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 12
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.340000E+01   0.000000E+00   3.173770E+02   0.000000E+00   9.918032E-01
+   1.348000E+01   0.000000E+00   3.124180E+02   0.000000E+00   9.918032E-01
+   1.374000E+01   0.000000E+00   2.995246E+02   0.000000E+00   9.918032E-01
+   1.384000E+01   0.000000E+00   2.896065E+02   0.000000E+00   9.918032E-01
+   1.401000E+01   0.000000E+00   2.677869E+02   0.000000E+00   9.918032E-01
+   1.407000E+01   0.000000E+00   2.768123E+02   0.000000E+00   9.918032E-01
+   1.438000E+01   0.000000E+00   2.579680E+02   0.000000E+00   9.918032E-01
+   1.446000E+01   0.000000E+00   2.529098E+02   0.000000E+00   9.918032E-01
+   1.462000E+01   0.000000E+00   2.519180E+02   0.000000E+00   9.918032E-01
+   1.471000E+01   0.000000E+00   2.431901E+02   0.000000E+00   9.918032E-01
+   1.474000E+01   0.000000E+00   2.370410E+02   0.000000E+00   9.918032E-01
+   1.483000E+01   0.000000E+00   2.261311E+02   0.000000E+00   9.918032E-01
+# reference:
+#   author: J.CSIKAI,Z.LANTOS,S.SUDAR,T.CHIMOYE,T.VILAITHONG, N.CHIRAPATPIMOL
+#   title: Study of the excitation functions of Al-27(n,a), Al-27(n,p) and Si-28(n,p) reactions.
+#   journal: Jour: Zeitschrift fuer Physik A, Hadrons and Nuclei, Vol.325, p.69 (1986
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.340000E+01
+#   E-max [MeV]:  1.483000E+01
+#   F-value:  1.072042E+00
+#   A-value:  9.834816E-01
+#   chi-2:  0.000000E+00
+#   p-value:  3.578635E-01
+#   exp. data sets for p-value:      8
+#   libraries:      7
+##  Library          F              A            chi-2
+# tendl.2025    1.077679E+00   9.832705E-01   0.000000E+00
+# endfb8.1      1.077697E+00   9.856204E-01   0.000000E+00
+# jeff4.0       1.064728E+00   1.018252E+00   0.000000E+00
+# jendl5.0      1.083004E+00   9.349125E-01   0.000000E+00
+# cendl3.2      1.064728E+00   1.018252E+00   0.000000E+00
+# eaf.2010      1.054888E+00   9.611415E-01   0.000000E+00
+# irdff2.0      1.077700E+00   9.856264E-01   0.000000E+00

@@ -1,0 +1,60 @@
+# header: 
+#   title: U238(n,n'_01)U239 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Rosen
+#   year: 1957
+#   subentry: 12372003
+#   X4 reaction: 92-U-238(N,INL)92-U-238,PAR,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/12372003
+#   level energy [MeV]:  9.75000E+00
+# target: 
+#   Z: 92
+#   A: 238
+#   nuclide: U238
+# reaction: 
+#   type: (n,n'_01)
+#   ENDF_MF: 3
+#   ENDF_MT: 51
+#   level: 
+#     number: 1
+#     energy [MeV]:  6.848990E-01
+#     spin:  4.500000E+00
+#     parity: -1
+#   residual: 
+#     Z: 92
+#     A: 239
+#     nuclide: U239
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.400000E+01   0.000000E+00   2.700000E+02   4.000000E+01   1.000000E+00
+# reference:
+#   author: L.ROSEN,L.STEWART
+#   title: NEUTRON EMISSION PROBABILITIES FROM THE INTERACTION OF 14-MEV NEUTRONS WITH BE, TA, BI AND U238.
+#   journal: Rept: Los Alamos Scientific Lab. Reports, No.2111 (1957)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  1.400000E+01
+#   E-max [MeV]:  1.400000E+01
+#   F-value:  1.171489E+00
+#   A-value:  8.785190E-01
+#   chi-2:  1.334179E+00
+#   p-value:  5.458045E-02
+#   exp. data sets for p-value:      1
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2025    1.225332E+00   8.161050E-01   2.112953E+00
+# endfb8.1      1.225332E+00   8.161050E-01   2.112953E+00
+# jeff4.0       1.037705E+00   9.636653E-01   3.240713E-01
+# jendl5.0      1.225332E+00   8.161050E-01   2.112953E+00
+# cendl3.2      1.000941E+00   9.990597E-01   7.965595E-03

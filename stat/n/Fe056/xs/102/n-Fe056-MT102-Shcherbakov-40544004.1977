@@ -1,0 +1,55 @@
+# header: 
+#   title: Fe56(n,g)Fe57 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Shcherbakov
+#   year: 1977
+#   subentry: 40544004
+#   X4 reaction: 26-FE-56(N,G)26-FE-57,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/40544004
+# target: 
+#   Z: 26
+#   A: 56
+#   nuclide: Fe56
+# reaction: 
+#   type: (n,g)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 26
+#     A: 57
+#     nuclide: Fe57
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.530000E-08   0.000000E+00   2.570000E+03   1.400000E+02   1.000000E+00
+# reference:
+#   author: O.A.Shcherbakov,A.I.Stupak,A.N.Glukhovec
+#   title: Slow neutron total and capture cross-section of 56Fe
+#   journal: Prog: Yadernye Konstanty, No.25, p.51 (1977)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  2.530000E-08
+#   E-max [MeV]:  2.530000E-08
+#   F-value:  1.000493E+00
+#   A-value:  9.997261E-01
+#   chi-2:  7.164974E-03
+#   p-value:  4.173225E-01
+#   exp. data sets for p-value:      3
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.000054E+00   1.000054E+00   1.240012E-03
+# endfb8.1      1.001118E+00   9.988835E-01   2.579770E-02
+# jeff4.0       1.000411E+00   9.995891E-01   9.468406E-03
+# jendl5.0      1.000053E+00   9.999469E-01   1.221780E-03
+# cendl3.2      1.000056E+00   1.000056E+00   1.293761E-03
+# eaf.2010      1.000172E+00   9.998276E-01   3.968182E-03

@@ -1,0 +1,56 @@
+# header: 
+#   title: Bi209(n,4n)Bi206 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Vrzalova
+#   year: 2013
+#   subentry: 317140111
+#   X4 reaction: 83-BI-209(N,4N)83-BI-206,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/317140111
+# target: 
+#   Z: 83
+#   A: 209
+#   nuclide: Bi209
+# reaction: 
+#   type: (n,4n)
+#   ENDF_MF: 3
+#   ENDF_MT: 37
+#   residual: 
+#     Z: 83
+#     A: 206
+#     nuclide: Bi206
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.040000E+01   8.000000E-01   9.800000E+02   1.400000E+02   1.000000E+00
+   3.590000E+01   8.000000E-01   1.160000E+03   1.600000E+02   1.000000E+00
+# reference:
+#   author: J.Vrzalova, O.Svoboda, A.Krasa, A.Kugler, M.Majerle,  M.Suchopar, V.Wagner
+#   title: Studies of (n,xn) cross-sections in Al, Au, Bi, Cu,  Fe, I, In, Mg, Ni, Ta, Y, and Zn by the activation  method
+#   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.A, Vol.726, p.84 (201
+# statistics:
+#   NEA score: R1
+#   IAEA score: -1
+#   E-min [MeV]:  3.040000E+01
+#   E-max [MeV]:  3.590000E+01
+#   F-value:  1.134164E+00
+#   A-value:  9.583883E-01
+#   chi-2:  1.002953E+00
+#   p-value:  3.425477E-01
+#   exp. data sets for p-value:      3
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.221264E+00   9.734693E-01   2.452056E+00
+# endfb8.1      1.244236E+00   8.247612E-01   2.255238E+00
+# jeff4.0       1.044527E+00   9.597352E-01   3.819636E-01
+# jendl5.0      1.044527E+00   9.597352E-01   3.819636E-01
+# eaf.2010      1.004678E+00   9.966497E-01   3.067848E-02
+# irdff2.0      1.061616E+00   1.051364E+00   5.158169E-01

@@ -1,0 +1,61 @@
+# header: 
+#   title: Cu0(p,x)Co60 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Garrido
+#   year: 2016
+#   subentry: O2315024
+#   X4 reaction: 29-CU-0(P,X)27-CO-60,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/O2315024
+# target: 
+#   Z: 29
+#   A: 0
+#   nuclide: Cu0
+# reaction: 
+#   type: (p,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 5
+#   residual: 
+#     Z: 27
+#     A: 60
+#     nuclide: Co60
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 10
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   3.637000E+01   1.060000E+00   4.890000E+00   1.770000E+00   1.000000E+00
+   4.045000E+01   8.300000E-01   8.190001E+00   2.300000E+00   1.000000E+00
+   4.543000E+01   5.900000E-01   1.039000E+01   2.880000E+00   1.000000E+00
+   5.674000E+01   1.130000E+00   1.265000E+01   2.660000E+00   1.000000E+00
+   5.712000E+01   1.090000E+00   1.242000E+01   1.710000E+00   1.000000E+00
+   5.755000E+01   1.070000E+00   1.225000E+01   2.580000E+00   1.000000E+00
+   6.349000E+01   9.200000E-01   1.013000E+01   1.270000E+00   1.000000E+00
+   6.386000E+01   8.600000E-01   1.045000E+01   1.200000E+00   1.000000E+00
+   6.973000E+01   5.900000E-01   1.088000E+01   1.320000E+00   1.000000E+00
+   7.008000E+01   5.400000E-01   1.006000E+01   1.560000E+00   1.000000E+00
+# reference:
+#   author: E.Garrido,C.Duchemin,A.Guertin,F.Haddad,N.Michel, V.Metivier
+#   title: New excitation functions for proton induced reactions on natural titanium, nickel and copper up to 70 MeV.
+#   journal: Jour: Nucl. Instrum. Methods in Physics Res., Sect.B, Vol.383, p.191 (20
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  3.637000E+01
+#   E-max [MeV]:  7.008000E+01
+#   F-value:  1.352450E+00
+#   A-value:  9.172437E-01
+#   chi-2:  4.194265E+00
+#   p-value:  3.295335E-01
+#   exp. data sets for p-value:      4
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.334162E+00   1.252293E+00   7.065021E+00
+# endfb8.1      1.465045E+00   7.050650E-01   4.820975E+00
+# jendl5.0      1.234875E+00   8.740157E-01   6.967991E-01

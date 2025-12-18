@@ -1,0 +1,56 @@
+# header: 
+#   title: Ca40(n,a)Ar37 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: XuemeiZhangg
+#   year: 2000
+#   subentry: 31506005
+#   X4 reaction: 20-CA-40(N,A)18-AR-37,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/31506005
+# target: 
+#   Z: 20
+#   A: 40
+#   nuclide: Ca40
+# reaction: 
+#   type: (n,a)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+#   residual: 
+#     Z: 18
+#     A: 37
+#     nuclide: Ar37
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 2
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   4.930000E+00   1.200000E-01   1.990000E+02   2.000000E+01   1.000000E+00
+   5.980000E+00   1.200000E-01   1.980000E+02   2.000000E+01   1.000000E+00
+# reference:
+#   author: Xuemei Zhang, Zemin Chen, Yingtang Chen, Guoyou Tang,  Guohui Zhang, Jinxiang Chen, Yu.M.Gledenov,  G.Khuukhenkhuu
+#   title: Measurements and calculations of the 39K and 40Ca  (n,a) cross sections at En = 4.5 to 6.5 MeV
+#   journal: Jour: Nuclear Science and Engineering, Vol.134, p.89 (2000)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  4.930000E+00
+#   E-max [MeV]:  5.980000E+00
+#   F-value:  1.045770E+00
+#   A-value:  1.024104E+00
+#   chi-2:  3.975095E-01
+#   p-value:  4.017399E-01
+#   exp. data sets for p-value:      1
+#   libraries:      6
+##  Library          F              A            chi-2
+# tendl.2025    1.000465E+00   1.000278E+00   4.635201E-03
+# endfb8.1      1.056973E+00   1.048656E+00   7.118328E-01
+# jeff4.0       1.001097E+00   9.989253E-01   1.339241E-02
+# jendl5.0      1.097542E+00   1.087165E+00   1.439749E+00
+# cendl3.2      1.016256E+00   1.009287E+00   1.727662E-01
+# eaf.2010      1.004790E+00   1.003384E+00   4.268065E-02

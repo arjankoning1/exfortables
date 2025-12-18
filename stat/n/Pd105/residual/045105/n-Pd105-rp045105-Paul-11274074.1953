@@ -1,0 +1,52 @@
+# header: 
+#   title: Pd105(n,x)Rh105 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Paul
+#   year: 1953
+#   subentry: 11274074
+#   X4 reaction: 46-PD-105(N,P)45-RH-105,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/11274074
+# target: 
+#   Z: 46
+#   A: 105
+#   nuclide: Pd105
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 45
+#     A: 105
+#     nuclide: Rh105
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 1
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.450000E+01   0.000000E+00   7.430000E+02   5.201000E+02   1.000000E+00
+# reference:
+#   author: E.B.Paul,R.L.Clarke
+#   title: CROSS SECTION MEASUREMENTS OF REACTIONS INDUCED BY NEUTRONS OF THE 14.5 MEV ENERGY.
+#   journal: Jour: Canadian Journal of Physics, Vol.31, p.267 (1953)
+# statistics:
+#   NEA score: R2
+#   IAEA score:  0
+#   E-min [MeV]:  1.450000E+01
+#   E-max [MeV]:  1.450000E+01
+#   F-value:  4.369498E+00
+#   A-value:  2.289450E-01
+#   chi-2:  1.801772E+00
+#   p-value:  2.384186E-07
+#   exp. data sets for p-value:      7
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    4.266402E+00   2.343895E-01   1.785490E+00
+# jeff4.0       4.266402E+00   2.343895E-01   1.785490E+00
+# jendl5.0      4.578077E+00   2.184323E-01   1.834335E+00

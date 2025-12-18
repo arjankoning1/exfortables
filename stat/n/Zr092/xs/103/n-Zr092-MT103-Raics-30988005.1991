@@ -1,0 +1,64 @@
+# header: 
+#   title: Zr92(n,p)Y92 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Raics
+#   year: 1991
+#   subentry: 30988005
+#   X4 reaction: 40-ZR-92(N,P)39-Y-92,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/30988005
+# target: 
+#   Z: 40
+#   A: 92
+#   nuclide: Zr92
+# reaction: 
+#   type: (n,p)
+#   ENDF_MF: 3
+#   ENDF_MT: 103
+#   residual: 
+#     Z: 39
+#     A: 92
+#     nuclide: Y92
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 11
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   5.890000E+00   0.000000E+00   4.600000E-01   1.600000E-01   1.000000E+00
+   6.390000E+00   0.000000E+00   5.300000E-01   9.999999E-02   1.000000E+00
+   6.800000E+00   0.000000E+00   1.250000E+00   7.300000E-01   1.000000E+00
+   8.200000E+00   0.000000E+00   1.210000E+00   5.400000E-01   1.000000E+00
+   8.430000E+00   0.000000E+00   1.500000E+00   1.700000E-01   1.000000E+00
+   8.920000E+00   0.000000E+00   1.730000E+00   1.400000E-01   1.000000E+00
+   9.430000E+00   0.000000E+00   2.930000E+00   4.700000E-01   1.000000E+00
+   1.023000E+01   0.000000E+00   4.370000E+00   3.300000E-01   1.000000E+00
+   1.095000E+01   0.000000E+00   6.350000E+00   3.800000E-01   1.000000E+00
+   1.156000E+01   0.000000E+00   6.070000E+00   5.600000E-01   1.000000E+00
+   1.225000E+01   0.000000E+00   1.105000E+01   4.100000E-01   1.000000E+00
+# reference:
+#   author: P.Raics,S.Nagy,S.Szegedi,N.V.Kornilov,A.B.Kagalenko
+#   title: Cross section measurements of neutron induced reactions on the zirconium isotopes in the energy range of 5.4 to 12.3 MeV.
+#   journal: Conf: Conf.on Nucl.Data for Sci.and Technol.,Juelich 1991, p.660 (1991)
+# statistics:
+#   NEA score: R2
+#   IAEA score:  1
+#   E-min [MeV]:  5.890000E+00
+#   E-max [MeV]:  1.225000E+01
+#   F-value:  3.064541E+00
+#   A-value:  4.860522E-01
+#   chi-2:  1.023650E+01
+#   p-value:  1.308607E-01
+#   exp. data sets for p-value:      1
+#   libraries:      5
+##  Library          F              A            chi-2
+# tendl.2025    2.705862E+00   4.975012E-01   1.065835E+01
+# jeff4.0       2.705862E+00   4.975012E-01   1.065835E+01
+# jendl5.0      2.736389E+00   5.887228E-01   4.764294E+00
+# cendl3.2      3.352163E+00   5.306498E-01   4.873611E+00
+# eaf.2010      3.843382E+00   3.508389E-01   2.022792E+01

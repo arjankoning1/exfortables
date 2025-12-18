@@ -1,0 +1,60 @@
+# header: 
+#   title: Cu63(n,x)Co60 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Filatenkov
+#   year: 2016
+#   subentry: 41614030
+#   X4 reaction: 29-CU-63(N,A)27-CO-60,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/41614030
+# target: 
+#   Z: 29
+#   A: 63
+#   nuclide: Cu63
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+#   residual: 
+#     Z: 27
+#     A: 60
+#     nuclide: Co60
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.347000E+01   0.000000E+00   4.759973E+01   2.639900E+00   9.999942E-01
+   1.364000E+01   0.000000E+00   4.590011E+01   1.504100E+00   1.000002E+00
+   1.388000E+01   0.000000E+00   4.590049E+01   2.450700E+00   1.000010E+00
+   1.405000E+01   0.000000E+00   4.570034E+01   1.270400E+00   1.000008E+00
+   1.428000E+01   0.000000E+00   4.589965E+01   1.257900E+00   9.999922E-01
+   1.444000E+01   0.000000E+00   4.610040E+01   1.609100E+00   1.000009E+00
+   1.463000E+01   0.000000E+00   4.329962E+01   1.420500E+00   9.999912E-01
+   1.486000E+01   0.000000E+00   4.280018E+01   1.208400E+00   1.000004E+00
+# reference:
+#   author: A.A.Filatenkov
+#   title: Neutron activation cross sections measured at KRI in neutron energy region 13.4 - 14.9 MeV
+#   journal: Rept: USSR report to the I.N.D.C., No.0460 (2016)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.347000E+01
+#   E-max [MeV]:  1.486000E+01
+#   F-value:  1.023107E+00
+#   A-value:  9.873912E-01
+#   chi-2:  8.058558E-01
+#   p-value:  3.751930E-01
+#   exp. data sets for p-value:      6
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.023107E+00   9.873912E-01   8.058558E-01
+# endfb8.1      0.000000E+00   0.000000E+00   0.000000E+00
+# jeff4.0       0.000000E+00   0.000000E+00   0.000000E+00
+# jendl5.0      0.000000E+00   0.000000E+00   0.000000E+00

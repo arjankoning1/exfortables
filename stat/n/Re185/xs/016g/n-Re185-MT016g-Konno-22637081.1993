@@ -1,0 +1,65 @@
+# header: 
+#   title: Re185(n,2n)Re184g cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Konno
+#   year: 1993
+#   subentry: 22637081
+#   X4 reaction: 75-RE-185(N,2N)75-RE-184-G,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22637081
+# target: 
+#   Z: 75
+#   A: 185
+#   nuclide: Re185
+# reaction: 
+#   type: (n,2n)
+#   ENDF_MF: 3
+#   ENDF_MT: 16
+#   residual: 
+#     Z: 75
+#     A: 184
+#     nuclide: Re184g
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 8
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.333000E+01   0.000000E+00   1.388560E+03   4.383228E+01   9.925377E-01
+   1.356000E+01   0.000000E+00   1.425284E+03   4.510520E+01   9.925377E-01
+   1.375000E+01   0.000000E+00   1.405434E+03   4.454996E+01   9.925377E-01
+   1.398000E+01   0.000000E+00   1.378635E+03   4.272983E+01   9.925377E-01
+   1.422000E+01   0.000000E+00   1.403448E+03   4.300594E+01   9.925377E-01
+   1.443000E+01   0.000000E+00   1.359777E+03   4.376057E+01   9.925377E-01
+   1.466000E+01   0.000000E+00   1.374665E+03   4.295007E+01   9.925377E-01
+   1.493000E+01   0.000000E+00   1.409404E+03   4.433291E+01   9.925377E-01
+# reference:
+#   author: C.Konno, Y.Ikeda, K.Oishi, K.Kawade, H.Yamamoto, H.Maekawa
+#   title: Activation Cross section measurements at neutron  energy from 13.3 to 14.9 MeV
+#   journal: Rept: JAERI Reports, No.1329 (1993)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  1
+#   E-min [MeV]:  1.333000E+01
+#   E-max [MeV]:  1.493000E+01
+#   F-value:  1.171672E+00
+#   A-value:  1.118622E+00
+#   chi-2:  3.435138E+01
+#   p-value:  2.226092E-01
+#   exp. data sets for p-value:      4
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.055985E+00   1.052574E+00   3.568602E+00
+# jeff4.0       1.055985E+00   1.052574E+00   3.568602E+00
+# jendl5.0      1.354279E+00   1.353789E+00   1.272237E+02
+# eaf.2010      1.051221E+00   1.043944E+00   3.044567E+00

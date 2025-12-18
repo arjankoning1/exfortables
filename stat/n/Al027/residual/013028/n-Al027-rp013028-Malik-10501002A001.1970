@@ -1,0 +1,54 @@
+# header: 
+#   title: Al27(n,x)Al28 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Malik
+#   year: 1970
+#   subentry: 10501002
+#   X4 reaction: 13-AL-27(N,G)13-AL-28,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/10501002
+# target: 
+#   Z: 13
+#   A: 27
+#   nuclide: Al27
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 13
+#     A: 28
+#     nuclide: Al28
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 4
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   7.000000E-08   0.000000E+00   1.490000E+02   2.000000E+01   1.000000E+00
+   1.150000E-07   0.000000E+00   1.140000E+02   2.000000E+01   1.000000E+00
+   3.640000E-07   0.000000E+00   5.700000E+01   1.000000E+01   1.000000E+00
+   8.350000E-07   0.000000E+00   5.500000E+01   2.500000E+01   1.000000E+00
+# reference:
+#   author: S.S.Malik,G.Brunhart,F.J.Shore,V.L.Sailor
+#   title: Factors in the precision of slow neutron capture cross  section measurements using a simple Moxon-Rae  detector
+#   journal: Jour: Nuclear Instrum.and Methods in Physics Res., Vol.86, p.83 (1970)
+# statistics:
+#   NEA score: T1
+#   IAEA score: -1
+#   E-min [MeV]:  7.000000E-08
+#   E-max [MeV]:  8.350000E-07
+#   F-value:  1.064633E+00
+#   A-value:  9.706250E-01
+#   chi-2:  1.934027E-01
+#   p-value:  3.648823E-01
+#   exp. data sets for p-value:      2
+#   libraries:      2
+##  Library          F              A            chi-2
+# tendl.2025    1.064642E+00   9.706109E-01   1.934319E-01
+# jeff4.0       1.064625E+00   9.706391E-01   1.933736E-01

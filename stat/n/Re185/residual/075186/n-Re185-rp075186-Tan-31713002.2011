@@ -1,0 +1,56 @@
+# header: 
+#   title: Re185(n,x)Re186 cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Tan
+#   year: 2011
+#   subentry: 31713002
+#   X4 reaction: 75-RE-185(N,G)75-RE-186,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/31713002
+# target: 
+#   Z: 75
+#   A: 185
+#   nuclide: Re185
+# reaction: 
+#   type: (n,x)
+#   ENDF_MF: 3
+#   ENDF_MT: 102
+#   residual: 
+#     Z: 75
+#     A: 186
+#     nuclide: Re186
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 5
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   2.400000E-02   1.800000E-03   1.063423E+03   7.380724E+01   9.846513E-01
+   5.400000E-02   1.500000E-03   6.584840E+02   4.828597E+01   1.005319E+00
+   5.900000E-02   2.700000E-03   6.144033E+02   4.338115E+01   1.008872E+00
+   1.330000E-01   3.000000E-03   4.201358E+02   3.289364E+01   1.005110E+00
+   1.480000E-01   1.480000E-02   5.099046E+02   4.390521E+01   1.001777E+00
+# reference:
+#   author: V.H.Tan, P.N.Son, T.T.Anh, M.X.Trung
+#   title: Capture cross section measurements of 185,187Re with  filtered neutron beams at the Dalat Research Reactor
+#   journal: Jour: Journal of the Korean Physical Society, Vol.59, p.1757 (2011)
+# statistics:
+#   NEA score: T1
+#   IAEA score:  0
+#   E-min [MeV]:  2.400000E-02
+#   E-max [MeV]:  1.480000E-01
+#   F-value:  1.623362E+00
+#   A-value:  1.596376E+00
+#   chi-2:  7.419080E+01
+#   p-value:  1.268135E-01
+#   exp. data sets for p-value:      2
+#   libraries:      3
+##  Library          F              A            chi-2
+# tendl.2025    1.713451E+00   1.702156E+00   9.461516E+01
+# jeff4.0       1.713451E+00   1.702156E+00   9.461516E+01
+# jendl5.0      1.422575E+00   1.404128E+00   3.334205E+01

@@ -1,0 +1,63 @@
+# header: 
+#   title: Ga71(n,a)Cu68m cross section
+#   source: EXFOR
+#   user: Arjan Koning
+#   date: 2025-12-18
+#   format: YANDF-0.4
+# exfor: 
+#   author: Yamauchi
+#   year: 1994
+#   subentry: 22363004
+#   X4 reaction: 31-GA-71(N,A)29-CU-68-M,,SIG
+#   X4 source: IAEA-NDS C5 file, database version 2023-08-08
+#   X4 link: https://nds.iaea.org/EXFOR/22363004
+# target: 
+#   Z: 31
+#   A: 71
+#   nuclide: Ga71
+# reaction: 
+#   type: (n,a)
+#   ENDF_MF: 3
+#   ENDF_MT: 107
+#   residual: 
+#     Z: 29
+#     A: 68
+#     nuclide: Cu68m
+#     level: 
+#       number: 0
+#       energy [MeV]:  0.000000E+00
+#       spin:  0.000000E+00
+#       parity: 0
+#   quantity: 
+#     type: cross section
+#   datablock: 
+#     columns: 5
+#     entries: 6
+##       E             dE             xs             dxs       Normalization
+##     [MeV]          [MeV]          [mb]           [mb]            []
+   1.340000E+01   9.000000E-02   1.223300E+00   2.568800E-01   1.002674E+00
+   1.365000E+01   9.000000E-02   1.263400E+00   2.653100E-01   1.002674E+00
+   1.388000E+01   9.000000E-02   1.143000E+00   2.400400E-01   1.002674E+00
+   1.428000E+01   9.000000E-02   1.694500E+00   3.558500E-01   1.002674E+00
+   1.458000E+01   9.000000E-02   1.905080E+00   3.810200E-01   1.002674E+00
+   1.487000E+01   9.000000E-02   1.774700E+00   3.549500E-01   1.002674E+00
+# reference:
+#   author: K.Yamauchi, Y.Kasugai, H.Yamamoto, A.Takahashi,  T.Iida, K.Kawade
+#   title: Measurement of formation cross section producing  short-lived nuclei - Mg, S, Ga, Y, Mo, Pd, Sn
+#   journal: Conf: JAERI-M Reports, No.94-019, p.253 (1994)
+# statistics:
+#   NEA score: R1
+#   IAEA score:  1
+#   E-min [MeV]:  1.340000E+01
+#   E-max [MeV]:  1.487000E+01
+#   F-value:  1.378083E+00
+#   A-value:  1.264192E+00
+#   chi-2:  4.088613E+00
+#   p-value:  3.281593E-01
+#   exp. data sets for p-value:      1
+#   libraries:      4
+##  Library          F              A            chi-2
+# tendl.2025    1.530192E+00   1.509690E+00   7.114098E+00
+# jeff4.0       1.530192E+00   1.509690E+00   7.114098E+00
+# jendl5.0      1.232082E+00   1.170794E+00   1.727940E+00
+# eaf.2010      1.079847E+00   9.571860E-01   3.983151E-01
