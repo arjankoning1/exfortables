@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  14  28  0  -1 F0197008 R.Jahr,K.Kayse  1966     0 14-SI-28(D,A)13-AL-26,PAR,SIG   0.00      0.00      0.00      0.00         0.00      4.35      10.0      11.8      11.8      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

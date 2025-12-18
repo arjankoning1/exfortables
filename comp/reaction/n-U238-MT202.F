@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  92 238  0  -1 41379033 Yu.Ya.Nefedov,  2000     1 92-U-238(N,X)0-G-0,,SIG        4.792E+03 2.108E-04  124.     1.192E-07 T2  2.34     1.017E+04  9.00      14.3      14.3      0.00     3.117E+03 7.216E+03  0.00      0.00      0.00      0.00      0.00
-  92 238  0  -1 12408007 D.O.Nellis,I.L  1966     6 92-U-238(N,X)0-G-0,,SIG        7.060E+03 1.433E-04  0.00     1.291E-07 T2  1.08     6.807E+03  0.00      1.09      14.8      0.00     6.938E+03 3.677E+03  0.00      0.00      0.00      0.00      0.00

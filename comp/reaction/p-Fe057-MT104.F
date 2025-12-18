@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  26  57  0  -1 C1034004 J.B.Ball,C.B.F  1963     3 26-FE-57(P,D)26-FE-56,PAR,SIG   28.5      24.4     8.556E+04  0.00     T2  35.1      2.36      11.3      22.3      22.3      0.00      28.5      0.00      0.00      0.00      0.00      0.00      0.00

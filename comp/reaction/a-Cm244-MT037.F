@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  96 244  0  -1 C2295003 A.Chetham-Stro  1956     0 96-CM-244(A,4N)98-CF-244,,SIG   0.00      0.00      0.00     6.623E-09     0.00     0.158      22.6      36.1      40.5      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

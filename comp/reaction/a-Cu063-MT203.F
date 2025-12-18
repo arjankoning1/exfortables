@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  29  63  0  -1 C0971016 R.W.West        1966     1 29-CU-63(A,X)1-H-1,,SIG         1.39      1.39      40.0     0.282     T1 1.355E+03  975.      6.15      42.0      42.0      0.00      1.39      0.00      0.00      0.00      0.00      0.00      0.00
-  29  63  0  -1 O2245005 N.O.Lassen,V.A  1960     4 29-CU-63(A,X)1-H-1,,SIG         1.82      1.48      0.00     0.285     T2  385.      218.      0.00      11.9      19.3      0.00      1.82      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  72 176  0  -1 O0373029GY.SUGIYAMA,J.K  1971     0 72-HF-176(P,T)72-HF-174,PAR,SI  0.00      0.00      0.00      0.00         0.00     0.680      4.71      51.7      51.7      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  52 123  0  -1 40605009 Vo Kim Tkhan,   1979     2 52-TE-123(N,A)50-SN-120,PAR,SI  1.66      1.65      3.59     0.357     T1 9.972E-02 6.000E-02  37.5     8.750E-04 1.875E-03  0.00      0.00      0.00      0.00      1.66      0.00      0.00      0.00
-  52 123  0  -1 40667002 Yu.Andzheevski  1981     2 52-TE-123(N,A)50-SN-120,PAR,SI  1.66      1.65      3.59     0.357     T1 9.972E-02 6.000E-02  37.5     8.750E-04 1.875E-03  0.00      0.00      0.00      0.00      1.66      0.00      0.00      0.00

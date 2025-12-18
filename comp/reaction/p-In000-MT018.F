@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  49   0  0  -1 O06300031O.E.Shigaev,A.  1982     0 49-IN-0(P,F),,SIG               0.00      0.00      0.00      0.00         0.00     1.940E-02  7.73      200.      200.      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-  49   0  0  -1 O0649009 M.MAURETTE,C.S  1965     0 49-IN-0(P,F),,SIG,,,EXP         0.00      0.00      0.00      0.00         0.00     2.800E-04  50.0      156.      156.      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

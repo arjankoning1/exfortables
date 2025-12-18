@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  50 126  0   0 31631003 Sheng-Dong Zha  2006     1 50-SN-126(N,G)50-SN-127-G,,SIG  1.78      1.78      15.8     0.192     T1  355.      200.      19.5     2.530E-08 2.530E-08  0.00      1.78      0.00      1.78      0.00      0.00      0.00      0.00

@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  42  92  0  -1 10933035 D.W.KNEFF,B.M.  1986     1 42-MO-92(N,X)2-HE-4,,SIG        1.11     0.903      4.49     0.343     T1  27.7      30.8      5.01      14.8      14.8      0.00      1.08      1.19      1.08      1.10      1.09      0.00      0.00
-  42  92  0  -1 10960010 R.C.Haight,S.M  1981     1 42-MO-92(N,X)2-HE-4,,SIG        1.22     0.822      1.43     0.115     T1  27.7      36.0      19.4      14.8      14.8      0.00      1.19      1.32      1.19      1.21      1.19      0.00      0.00

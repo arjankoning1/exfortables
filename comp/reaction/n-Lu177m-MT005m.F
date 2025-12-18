@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  71 177  1   1 22915006 G.Belier, O.Ro  2006     1 71-LU-177-M(N,G)71-LU-178-M,,S  1.63     0.702      32.3     0.287     T1 3.058E+05 4.170E+05  6.24     2.530E-08 2.530E-08  0.00      2.00      0.00      0.00      1.01      0.00      0.00      0.00

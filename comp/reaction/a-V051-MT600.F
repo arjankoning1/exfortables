@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  23  51  0  -1 F0323004 V.Y.Hansper,A.  1993     0 23-V-51(A,P)24-CR-54,PAR,SIG    0.00      0.00      0.00      0.00         0.00     7.329E-02  35.6      5.10      9.56      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

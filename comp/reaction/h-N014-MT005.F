@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   7  14  0  -1 E2394003 T.Mikumo, R.Se  1966     0 7-N-14(HE3,X)4-BE-7,,SIG        0.00      0.00      0.00      0.00         0.00      4.23      25.9      14.7      28.6      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

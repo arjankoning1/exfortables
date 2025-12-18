@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  82 204  0  -1 A0139002 C.Wasilevsky,   1982     4 82-PB-204(A,4N)84-PO-204,,SIG   4.18      3.44      30.3     0.185     T3  928.      428.      62.4      43.7      54.5      0.00      4.18      0.00      0.00      0.00      0.00      0.00      0.00

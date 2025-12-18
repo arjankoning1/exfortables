@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  65 159  0   1 O1267003 O.Bonesso, H.O  1989     7 65-TB-159(A,3N)67-HO-160-M1,,S  15.6     6.871E-02  14.8     3.407E-02 T2  22.3      350.      24.9      30.4      55.0      0.00      15.6      0.00      0.00      0.00      0.00      0.00      0.00

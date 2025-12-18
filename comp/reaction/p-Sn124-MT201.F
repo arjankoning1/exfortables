@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  50 124  0  -1 D0522021 B.V.Zhuravlev,  2006     3 50-SN-124(P,X)0-NN-1,,SIG       1.09      1.08      2.65     0.301     T1 1.268E+03 1.160E+03  6.17      10.2      11.2      0.00      1.09      0.00      0.00      1.09      0.00      0.00      0.00

@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  49 113  0  -1 31481009 A.D.Majdeddin,  1997     1 49-IN-113(N,A)47-AG-110,,SIG    1.38      1.20      16.7     0.384     T1  5.85      4.70      10.6      14.7      14.7      0.00      1.00      1.00      1.00      1.00      1.64      1.85      0.00

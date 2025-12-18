@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  79 197  0  -1 C03570023T.M.KAVANAGH,R  1961     0 79-AU-197(P,P+3N)79-AU-194,,SI  0.00      0.00      0.00      0.00         0.00      108.      0.00      32.4      86.0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-  27  59  0  -1 P0034010 R.A.SHARP,R.M.  1956     0 27-CO-59(P,3N+P)27-CO-56,,SIG   0.00      0.00      0.00      0.00         0.00      34.4      0.00      34.2      98.6      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

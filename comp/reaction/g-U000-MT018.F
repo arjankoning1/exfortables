@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  92   0  0  -1 M0604003 T.Methasiri     1970     0 92-U-0(G,F),,SIG,,BRS           0.00      0.00      0.00      0.00         0.00      36.0      0.00      250.      850.      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-  92   0  0  -1 M0943004 M.Anghinolfi,N  1993     0 92-U-0(G,F),,SIG,,FCT           0.00      0.00      0.00      0.00         0.00     0.214      3.96      218.     1.163E+03  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

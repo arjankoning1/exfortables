@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   5  10  0  -1 T0010005 J.H.Gibbons, R  1959    37 5-B-10(A,N)7-N-13,,SIG          2.90     0.598      26.2     0.314     T2  26.0      38.4      1.36      2.55      4.83      0.00      1.67      0.00      0.00      4.12      0.00      0.00      0.00

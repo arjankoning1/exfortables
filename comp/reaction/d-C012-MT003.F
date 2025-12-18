@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   6  12  0  -1 O07440232J.Jaros,A.Wagn  1978     0 6-C-12(D,NON),,SIG              0.00      0.00      0.00      0.00         0.00      431.      5.07     4.200E+03 4.200E+03  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-   6  12  0  -1 A0604003 A.Auce,R.F.Car  1996     0 6-C-12(D,NON),,SIG              0.00      0.00      0.00      0.00         0.00      705.      2.64      37.9      97.4      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

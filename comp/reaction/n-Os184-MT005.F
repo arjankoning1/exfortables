@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  76 184  0  -1 23488087 F.De Corte,A.S  1988     1 76-OS-184(N,G)76-OS-185,,SIG    1.07     0.937     0.162     0.174     T1 2.999E+06 3.754E+06  50.0     2.530E-08 2.530E-08  0.00      1.07      0.00      1.07      0.00      0.00      0.00      0.00

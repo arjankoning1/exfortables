@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  91 232  0  -1 41420002 M.Andreev, S.A  2002     1 91-PA-232(N,G)91-PA-233,,SIG    1.06     0.946     0.720     0.317     T1 5.964E+05 6.550E+05  10.5     2.530E-08 2.530E-08  0.00      1.06      0.00      0.00      0.00      0.00      0.00      0.00

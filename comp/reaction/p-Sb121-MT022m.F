@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  51 121  0   1 F1461010 S.V.Ermolaev,B  2020     6 51-SB-121(P,X)50-SN-117-M,,SIG  1.80      1.09      7.56     8.474E-02 T1  5.91      7.49      20.7      16.8      88.0      0.00      1.80      0.00      0.00      0.00      0.00      0.00      0.00

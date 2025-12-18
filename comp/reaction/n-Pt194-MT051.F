@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  78 194  0  -1 12952004 M.C.MIRZAA,J.P  1985     1 78-PT-194(N,INL)78-PT-194,PAR,  1.09     0.925      0.00     0.376     T1  463.      500.      0.00      2.50      2.50      0.00      1.12      1.06      1.12      1.02      0.00      0.00      0.00
-  78 194  0  -1 40463010 V.P.Efrosinin,  1979    33 78-PT-194(N,INL)78-PT-194,PAR,  1.72     0.657      6.04     0.149     T1  574.      825.      16.8     0.329     0.831      0.00      1.91      1.49      1.91      1.53      0.00      0.00      0.00

@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  20  48  0  -1 M0636008 G.J.O'KEEFE,M.  1987    19 20-CA-48(G,2N)20-CA-46,,SIG,,B  1.46      1.13      14.2     0.227     T2  33.7      29.9      23.5      17.3      25.0      0.00      1.54      1.16      0.00      1.16      0.00      0.00      0.00

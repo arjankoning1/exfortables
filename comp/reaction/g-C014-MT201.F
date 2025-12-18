@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   6  14  0  -1 L0056004 R.E.PYWELL,B.L  1985   105 6-C-14(G,X)0-NN-1,,SIG          1.89      1.40      34.1     0.239     T3  8.15      4.98      37.3      8.24      36.2      0.00      2.23      1.50      0.00      1.89      0.00      0.00      0.00

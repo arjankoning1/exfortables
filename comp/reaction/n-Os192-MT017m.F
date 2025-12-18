@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  76 192  0   1 30444007 W.Augustyniak,  1977     3 76-OS-192(N,3N)76-OS-190-M,,SI  2.12     0.694      16.8     0.309     T1  25.8      37.3      16.0      16.6      17.8      0.00      2.60      0.00      2.60      1.23      0.00      1.85      0.00

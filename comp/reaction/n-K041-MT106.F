@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  19  41  0  -1 21010002 S.M.Qaim        1978     0 19-K-41(N,HE3)17-CL-39,,SIG     0.00      0.00      0.00     1.192E-07     0.00     6.130E-03  50.0      14.6      14.6      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-  19  41  0  -1 30152003 M.Diksic,P.Str  1974     0 19-K-41(N,HE3)17-CL-39,,SIG     0.00      0.00      0.00     1.192E-07     0.00     0.848      37.7      14.6      14.6      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

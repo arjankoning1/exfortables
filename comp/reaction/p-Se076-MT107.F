@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  34  76  0  -1 D0083005 Z.Kovacs,G.Ble  1985    17 34-SE-76(P,A)33-AS-73,,SIG      3.77     0.317      18.0     0.156     T2  10.0      35.0      18.1      9.98      39.8      0.00      3.77      0.00      0.00      0.00      0.00      0.00      0.00

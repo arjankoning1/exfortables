@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  58 140  0  -1 E1877002 M.Furukawa      1967    14 58-CE-140(P,N)59-PR-140,,SIG    1.36     0.973      1.57     0.157     T1  371.      461.      6.70      5.57      14.6      0.00      1.36      0.00      0.00      0.00      0.00      0.00      0.00

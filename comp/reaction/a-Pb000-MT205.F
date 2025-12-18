@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  82   0  0  -1 F1212015 V.V.Kuznetsov   1961     0 82-PB-0(A,X)1-H-3,,SIG          0.00      0.00      0.00      0.00         0.00      146.      22.9      540.      750.      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-  82   0  0  -1 F1212013 V.V.Kuznetsov   1961     1 82-PB-0(A,X)1-H-3,,SIG          1.98      1.98      20.4     0.142     T1  194.      96.1      24.3      140.      300.      0.00      1.98      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  30  67  0  -1 A0048008 G.A.Krivonosov  1977     8 30-ZN-67(P,G)31-GA-68,,SIG      1.44     0.973      12.3     0.407     T1 0.255     0.258      11.1      1.47      2.92      0.00      1.50      0.00      0.00      1.38      0.00      0.00      0.00
-  30  67  0  -1 D5071002 Ye.Skakun, S.U  2008    20 30-ZN-67(P,G)31-GA-68,,SIG,,SF  1.77     0.648      11.9     0.284     T1 0.236     0.344      12.0      1.26      2.98      0.00      1.90      0.00      0.00      1.63      0.00      0.00      0.00

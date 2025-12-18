@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   1   3  0  -1 F0751002 V.M.Bezotosny,  1969     0 1-H-3(D,G)2-HE-5,,SIG           0.00      0.00      0.00      0.00         0.00     0.570      32.4     2.581E-02 9.525E-02  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

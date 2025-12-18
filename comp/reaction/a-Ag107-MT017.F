@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  47 107  0  -1 D6155003 R.Guin, S.K.Sa  1992     9 47-AG-107(A,3N)49-IN-108,,SIG   2.61     0.505      52.7     0.301     T2  165.      429.      9.20      32.9      55.9      0.00      2.61      0.00      0.00      0.00      0.00      0.00      0.00
-  47 107  0  -1 O1235004 C.Wasilevsky,   1985    10 47-AG-107(A,3N)49-IN-108,,SIG   4.42     0.901      178.     0.235     T3  171.      375.      41.2      30.3      53.9      0.00      4.42      0.00      0.00      0.00      0.00      0.00      0.00

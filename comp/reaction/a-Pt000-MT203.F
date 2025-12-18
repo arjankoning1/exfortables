@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  78   0  0  -1 C0971031 R.W.West        1966     1 78-PT-0(A,X)1-H-1,,SIG          1.12     0.896     0.688     0.255     T1  39.2      47.5      21.1      42.0      42.0      0.00      1.12      0.00      0.00      0.00      0.00      0.00      0.00

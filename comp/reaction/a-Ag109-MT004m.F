@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  47 109  0   1 D40670031C.Wasilevsky,   1986    12 47-AG-109(A,N)49-IN-112-M,,SIG  1.91     0.681      2.65     0.286     T2  24.8      57.8      24.0      20.9      50.8      0.00      1.91      0.00      0.00      0.00      0.00      0.00      0.00
-  47 109  0   1 E1876003 S.Fukushima, S  1965     6 47-AG-109(A,N)49-IN-112-M,,SIG  2.35     0.430      5.17     0.297     T2  72.2      161.      26.8      10.1      20.2      0.00      2.35      0.00      0.00      0.00      0.00      0.00      0.00

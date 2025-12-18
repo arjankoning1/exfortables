@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  23  51  0  -1 10732003 S.M.Grimes,R.C  1978     1 23-V-51(N,D)22-TI-50,,SIG       1.12      1.06     0.230     0.334     T1  7.92      7.00      42.9      15.0      15.0      0.00      1.28      1.00      1.06      1.00      0.00      1.00      0.00
-  23  51  0  -1 10732009 S.M.Grimes,R.C  1978    14 23-V-51(N,D)22-TI-50,PAR,SIG    19.5      18.3     2.347E+03  0.00     T2  7.92     0.500      45.3      15.0      15.0      0.00      24.4      17.7      20.6      18.0      0.00      17.4      0.00

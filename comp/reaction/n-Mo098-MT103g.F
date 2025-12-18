@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  42  98  0   0 31281002 S.C.Gujrathi,S  1966     1 42-MO-98(N,P)41-NB-98-G,,SIG    1.80      1.39      4.92     0.276     R1  3.29      1.98      50.5      14.8      14.8      0.00      1.09      0.00      1.09      1.00      0.00      3.22      0.00

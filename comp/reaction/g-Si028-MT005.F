@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  14  28  0  -1 L0134004 R.L.Gulbranson  1983    71 14-SI-28(G,P)13-AL-27,,SIG      1.86      1.13      127.     0.233     T1  22.7      22.9      2.99      15.6      22.5      0.00      2.31      1.46      0.00      1.75      0.00      0.00      0.00
-  14  28  0  -1 L0130004 K.Shoda,K.Abe,  1962    16 14-SI-28(G,P)13-AL-27,,SIG,,BR  7.20      3.25      286.     8.925E-02 T3  20.1      12.9     0.400      16.5      23.8      0.00      8.56      5.33      0.00      7.90      0.00      0.00      0.00

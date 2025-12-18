@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  46 107  0  -1 12874003 R.L.MACKLIN     1985    17 46-PD-107(N,G)46-PD-108,,SIG,,  1.05     0.998      2.63     0.429     T1 1.307E+03 1.306E+03  3.16     3.500E-03 0.550      0.00      1.05      0.00      1.04      1.06      0.00      0.00      0.00

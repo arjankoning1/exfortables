@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  73 181  0  -1 O0759020TJ.MUTO, H.ITON  1963     1 73-TA-181(P,X)2-HE-4,,SIG       1.90      1.19      316.     0.488     T1  56.8      40.0      5.00      56.0      56.0      0.00      1.56      0.00      0.00      2.20      0.00      0.00      0.00
-  73 181  0  -1 O2263044 E.Gadioli, I.L  1973     3 73-TA-181(P,X)2-HE-4,,SIG       6.62      4.65     6.761E+03  0.00     T2  38.8      5.57      12.0      19.6      29.7      0.00      1.59      0.00      0.00      13.9      0.00      0.00      0.00

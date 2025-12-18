@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  77 191  0   1 21818010 B.Anders,R.Pep  1982     1 77-IR-191(N,INL)77-IR-191-M1,,  1.02     0.997     0.187     0.493     T1  201.      200.      9.95      14.6      14.6      0.00      1.01      0.00      1.01      1.03      0.00      0.00      0.00
-  77 191  0   1 30248013 K.Siddappa,J.R  1970     1 77-IR-191(N,G)77-IR-192-M1,,SI  12.1     8.284E-02  85.7     4.768E-07 T3  768.     9.200E+03  9.90     2.500E-02 2.500E-02  0.00      13.2      0.00      13.2      10.1      0.00      0.00      0.00

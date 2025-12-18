@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  28  64  0  -1 K2614005 H.Utsunomiya,   2018    17 28-NI-64(G,N)28-NI-63,,SIG      1.42      1.18      104.     0.331     T1  32.0      26.4      4.51      9.74      16.0      0.00      1.77      1.11      0.00      1.11      0.00      0.00      0.00

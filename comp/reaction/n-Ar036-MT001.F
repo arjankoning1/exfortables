@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  18  36  0  -1 11570003 D.G.HENSHAW     1957     1 18-AR-36(N,TOT),,SIG            1.56      1.37      28.2     0.357     T2 1.099E+05 7.700E+04  11.7     7.560E-08 7.560E-08  0.00      1.88      1.00      1.88      1.01      0.00      0.00      0.00
-  18  36  0  -1 11573003 R.E.CHRIEN,A.J  1962    17 18-AR-36(N,TOT),,SIG,,AV        1.75      1.49      0.00     0.287     T2 9.245E+04 5.871E+04  0.00     1.000E-07 5.900E-03  0.00      2.20      1.09      2.20      1.07      0.00      0.00      0.00

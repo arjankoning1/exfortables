@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  63 151  0  -1 A0433007 H.I.West Jr, R  1989     0 63-EU-151(D,2N)64-GD-151,,SIG   0.00      0.00      0.00      0.00         0.00      276.     0.761      4.86      33.3      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-  63 151  0  -1 F1231010 N.A.Konyakhin,  1969     0 63-EU-151(D,2N)64-GD-151,,SIG   0.00      0.00      0.00      0.00         0.00      149.      20.0      4.10      21.2      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

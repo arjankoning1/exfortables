@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  68 170  0   1 20860010 H.Liljavirta,T  1978     1 68-ER-170(N,P)67-HO-170-M,,SIG  1.60     0.672      11.3     0.369     R1 0.771      1.13      10.6      14.8      14.8      0.00      1.15      0.00      1.92      0.00      0.00      0.00      0.00
-  68 170  0   1 12033048 R.G.Wille,R.W.  1960     1 68-ER-170(N,P)67-HO-170-M,,SIG  2.55     0.407      5.30     0.124     R1 0.771      1.91      26.2      14.8      14.8      0.00      1.89      0.00      3.19      0.00      0.00      0.00      0.00

@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  44 100  0  -1 A0655011 E.A.Skakun,A.I  1997     8 44-RU-100(P,N)45-RH-100,,SIG    1.10      1.01      2.30     0.368     T1  302.      306.      7.50      5.41      8.95      0.00      1.13      0.00      0.00      1.06      0.00      0.00      0.00
-  44 100  0  -1 P0033017 J.P.Blaser,F.B  1951     6 44-RU-100(P,N)45-RH-100,,SIG    1.73      1.69      0.00     0.151     T2  72.1      38.7      0.00      4.25      6.19      0.00      1.80      0.00      0.00      1.66      0.00      0.00      0.00

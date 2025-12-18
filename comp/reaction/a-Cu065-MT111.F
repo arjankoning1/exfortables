@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  29  65  0  -1 B0156007 N.T.Porile, D.  1959     5 29-CU-65(A,2P)29-CU-67,,SIG     1.59     0.659      8.81     0.138     T1 0.205      1.06      12.0      21.0      40.1      0.00      1.59      0.00      0.00      0.00      0.00      0.00      0.00

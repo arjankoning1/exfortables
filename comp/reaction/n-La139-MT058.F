@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  57 139  0  -1 40040004 V.A.Bukarev,V.  1965     4 57-LA-139(N,INL)57-LA-139,PAR,  2.90     0.390      5.80     7.956E-02 T1  77.5      182.      25.0      1.50      1.97      0.00      2.52      3.78      2.52      2.20      3.51      0.00      0.00

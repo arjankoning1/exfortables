@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   2   4  0  -1 A1092005 G.G.Ohlsen, P.  1964     0 2-HE-4(D,P)2-HE-5,,SIG          0.00      0.00      0.00      0.00         0.00      100.      10.0      10.0      11.0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

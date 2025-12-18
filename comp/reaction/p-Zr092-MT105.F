@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  40  92  0  -1 C1034017 J.B.Ball,C.B.F  1963     1 40-ZR-92(P,T)40-ZR-90,PAR,SIG   1.09     0.920      1.09     0.442     T1  1.62      1.83      10.9      22.3      22.3      0.00      1.09      0.00      0.00      0.00      0.00      0.00      0.00

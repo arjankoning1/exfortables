@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  54 124  0   2 A0487002 F.Tarkanyi,S.M  1991     7 54-XE-124(P,3N)55-CS-122-M2,,S  5.64      5.55     1.164E+03 0.387     T2  98.9      17.7      14.2      31.1      44.0      0.00      6.77      0.00      0.00      4.59      0.00      0.00      0.00

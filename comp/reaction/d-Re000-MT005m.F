@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  75   0  0   1 D4278003 F.Ditroi,F.Tar  2013     0 75-RE-0(D,X)76-OS-183-M,,SIG    0.00      0.00      0.00      0.00         0.00      48.0      11.6      25.2      38.5      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-  75   0  0   1 D4278008 F.Ditroi,F.Tar  2013     0 75-RE-0(D,X)75-RE-184-M,,SIG    0.00      0.00      0.00      0.00         0.00      23.2      24.2      25.2      38.5      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

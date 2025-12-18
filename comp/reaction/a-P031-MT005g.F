@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  15  31  0   0 C1961003 C.J.Umbarger,K  1970    90 15-P-31(A,N)17-CL-34-G,,SIG     3.64      3.27     1.473E+03 0.177     T2  12.3      4.57      10.0      6.30      7.92      0.00      3.64      0.00      0.00      0.00      0.00      0.00      0.00

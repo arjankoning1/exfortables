@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  26  54  0   0 F1220005 N.A.Vlasov,S.P  1957     0 26-FE-54(D,A)25-MN-52-G,,SIG    0.00      0.00      0.00      0.00         0.00      23.0      15.0      4.61      13.5      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

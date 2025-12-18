@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  77 193  0   0 30403026 C.S.Khurana, H  1959     1 77-IR-193(N,A)75-RE-190-G,,SIG  137.     7.367E-03  42.4     2.384E-07 R2 8.749E-02  11.4      15.2      14.0      14.0      0.00      180.      0.00      180.      101.      0.00      104.      0.00

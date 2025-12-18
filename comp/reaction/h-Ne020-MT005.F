@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  10  20  0  -1 A0175004 H.Backhausen,   1981     0 10-NE-20(HE3,X)10-NE-18,IND,SI  0.00      0.00      0.00      0.00         0.00      1.41      23.9      18.4      30.9      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-  10  20  0  -1 A0175003 H.Backhausen,   1981     0 10-NE-20(HE3,X)9-F-18,CUM,SIG   0.00      0.00      0.00      0.00         0.00      190.      20.1      17.3      32.4      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

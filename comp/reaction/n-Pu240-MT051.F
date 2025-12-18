@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  94 240  0  -1 10179034 A.B.Smith,J.F.  1972    14 94-PU-240(N,INL)94-PU-240,PAR,  1.27      1.06     0.724     0.332     T1 1.015E+03 1.002E+03  22.1     0.350      1.30      0.00      1.25      1.25      1.28      1.29      1.27      0.00      0.00

@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  32  70  0   0 A0400002 A.Calboreanu,O  1987    31 32-GE-70(A,N)34-SE-73-G,,SIG    1.59     0.652     1.038E+03 0.275     T1  256.      384.      1.25      12.6      24.0      0.00      1.59      0.00      0.00      0.00      0.00      0.00      0.00

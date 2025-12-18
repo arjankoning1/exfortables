@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  27  59  0  -1 E2239030 T.Yamazaki, M.  1963     0 27-CO-59(A,P)28-NI-62,PAR,SIG   0.00      0.00      0.00      0.00         0.00     3.000E-02  0.00      22.2      22.2      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-  27  59  0  -1 D0064002 S.G.Tims,C.I.W  1988     0 27-CO-59(A,P)28-NI-62,PAR,SIG   0.00      0.00      0.00      0.00         0.00     7.825E-02  23.2      5.13      9.37      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

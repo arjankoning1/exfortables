@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   6   0  0  -1 E2011006 I.Tanihata, H.  1985     0 6-C-0(A,ABS),,SIG               0.00      0.00      0.00      0.00         0.00      503.     0.994     3.160E+03 3.160E+03  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

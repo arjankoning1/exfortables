@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  44  96  0  -1 E1879002 A.Mito, K.Komu  1969     0 44-RU-96(D,P)44-RU-97,,SIG      0.00      0.00      0.00      0.00         0.00      244.      3.23      4.49      14.3      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  93 237  0  -1 20638070 R.B.TATTERSALL  1960     0 93-NP-237(N,ABS),,SIG           0.00      0.00      0.00      0.00         0.00     1.690E+05  1.78     2.530E-08 2.530E-08  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-  93 237  0  -1 12487005 M.S.SMITH,R.R.  1957     0 93-NP-237(N,ABS),,SIG           0.00      0.00      0.00      0.00         0.00     1.700E+05  12.9     2.530E-08 2.530E-08  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

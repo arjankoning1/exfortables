@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  53 127  0   0 B0143003 R.WEINREICH, O  1974     0 53-I-127(D,4N)54-XE-125-G,M+,S  0.00      0.00      0.00      0.00         0.00      170.      0.00      24.2      89.2      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

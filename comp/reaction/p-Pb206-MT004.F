@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  82 206  0  -1 O0306006 C.Deptula,V.A.  1990    20 82-PB-206(P,N)83-BI-206,,SIG    1.49      1.35      17.4     0.240     T1  15.5      10.9      13.0      49.0      96.6      0.00      1.35      1.81      0.00      1.21      0.00      0.00      0.00
-  82 206  0  -1 O0689007 R.E.Bell, H.M.  1956     2 82-PB-206(P,N)83-BI-206,,SIG    1.50      1.44      12.8     0.141     T2  225.      145.      15.0      12.7      16.3      0.00      1.60      1.59      0.00      1.28      0.00      0.00      0.00

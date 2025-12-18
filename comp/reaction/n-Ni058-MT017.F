@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  28  58  0  -1 31714035 J.Vrzalova, O.  2013     2 28-NI-58(N,3N)28-NI-56,,SIG     1.65      1.01      11.6     0.447     R1  3.00      2.65      15.0      30.4      35.9      0.00      1.66      2.28      1.72      1.11      0.00      1.09      0.00

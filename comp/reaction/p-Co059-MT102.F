@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  27  59  0  -1 O0092003 D.M.Drake,S.L.  1973    16 27-CO-59(P,G)28-NI-60,,SIG      2.06      1.25      0.00     0.456     T2  1.01     0.671      0.00      7.02      22.1      0.00      2.48      0.00      0.00      1.61      0.00      0.00      0.00
-  27  59  0  -1 P0036002 J.W.BUTLER,C.R  1957    19 27-CO-59(P,G)28-NI-60,,SIG      4.27     0.246      0.00     0.211     T2 7.073E-02 0.296      0.00      1.00      1.90      0.00      4.08      0.00      0.00      4.58      0.00      0.00      0.00

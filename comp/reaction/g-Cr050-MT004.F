@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  24  50  0  -1 L0037005 W.E.DEL BIANCO  1962     1 24-CR-50(G,N)24-CR-49,,SIG      1.21     0.915     0.932     0.464     T1  27.8      29.1      20.6      20.5      20.5      0.00      1.39      1.03      0.00      1.03      0.00      0.00      0.00
-  24  50  0  -1 M0592002 W.DEL BIANCO,S  1973    13 24-CR-50(G,N)24-CR-49,,SIG      1.27     0.897      2.26     0.355     T1  25.5      28.0      13.9      20.4      22.2      0.00      1.49      1.08      0.00      1.08      0.00      0.00      0.00

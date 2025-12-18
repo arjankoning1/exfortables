@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  63 152  0  -1 40466002 V.F.Razbudej,   1977    18 63-EU-152(N,TOT),,SIG           1.09      1.04     0.804     0.275     T1 1.479E+07 1.379E+07  19.2     6.500E-09 1.680E-07  0.00      1.08      1.10      1.08      1.10      0.00      0.00      0.00
-  63 152  0  -1 40462003 V.P.Vertebnyj,  1977    18 63-EU-152(N,TOT),,SIG           1.28      1.16     0.157     0.274     T1 7.159E+06 6.610E+06  3.62     2.340E-08 1.920E-07  0.00      1.32      1.24      1.32      1.23      0.00      0.00      0.00

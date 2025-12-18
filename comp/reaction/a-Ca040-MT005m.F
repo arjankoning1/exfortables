@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  20  40  0   1 C0829002 P.C.Rogers,G.E  1963    17 20-CA-40(A,X)21-SC-42-M,,SIG    1.68      1.05      0.00     0.306     T1  98.1      73.7      0.00      17.8      30.1      0.00      1.68      0.00      0.00      0.00      0.00      0.00      0.00

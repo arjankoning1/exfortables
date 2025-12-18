@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  40  96  0   1 B0024021ML.B.CHURCH, A.  1969     0 40-ZR-96(P,2N)41-NB-95-M,,SIG,  0.00      0.00      0.00      0.00         0.00      1.06      17.0      400.      400.      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-  40  96  0   1 A0510205 V.N.Levkovski   1991    24 40-ZR-96(P,2N)41-NB-95-M,,SIG   1.92     0.557      14.5     0.176     T1  63.8      101.      12.2      7.70      29.5      0.00      2.07      0.00      0.00      1.77      0.00      0.00      0.00

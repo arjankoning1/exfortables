@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  80 200  0  -1 122360062R.T.CARPENTER,  1960     4 80-HG-200(N,TOT),,SIG,,RES      7.65     0.135      453.     2.364E-02 T2 1.386E+05 8.912E+05  4.39     1.325E-03 7.800E-03  0.00      7.71      7.59      7.71      7.60      0.00      0.00      0.00

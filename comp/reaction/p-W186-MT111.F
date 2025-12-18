@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  74 186  0  -1 C02990141P.P.Strohal,A.  1961     0 74-W-186(P,2P)73-TA-185,,SIG    0.00      0.00      0.00      0.00         0.00      43.9      15.0      250.      440.      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-  74 186  0  -1 C0697014 D.L.MORRISON,A  1962     0 74-W-186(P,2P)73-TA-185,,SIG    0.00      0.00      0.00      0.00         0.00      5.68      11.5      130.      425.      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

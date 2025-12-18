@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  62   0  0  -1 10007014 G.L.Sherwood,A  1970    72 62-SM-0(N,INL)62-SM-0,PAR,SIG   1.21      1.14      2.33     0.321     T1 1.015E+03  872.      17.0     0.520      1.42      0.00      1.29      1.10      1.30      1.19      1.06      0.00      0.00

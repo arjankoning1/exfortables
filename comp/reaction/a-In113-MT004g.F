@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  49 113  0   0 C17150042C.Yalcyn,R.T.G  2009    10 49-IN-113(A,N)51-SB-116-G,,SIG  1.23      1.04      3.70     7.780E-02 T1  14.0      13.1      13.8      10.0      14.1      0.00      1.23      0.00      0.00      0.00      0.00      0.00      0.00
-  49 113  0   0 A0622003 A.E.ANTROPOV,   1990     9 49-IN-113(A,N)51-SB-116-G,,SIG  2.33      1.09      168.     0.157     T3  137.      122.      9.67      11.3      24.1      0.00      2.33      0.00      0.00      0.00      0.00      0.00      0.00

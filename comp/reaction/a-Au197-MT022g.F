@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  79 197  0   0 E1306015 Y.Nagame, K.Su  1990     7 79-AU-197(A,N+A)79-AU-196-G,,S  31.9     3.716E-02  88.7     2.851E-08 T2 0.107      7.42      10.0      24.0      39.2      0.00      31.9      0.00      0.00      0.00      0.00      0.00      0.00

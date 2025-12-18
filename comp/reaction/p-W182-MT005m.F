@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  74 182  0   1 O1018004 Yu.E.Titarenko  2002     0 74-W-182(P,X)73-TA-178-M1,,SIG  0.00      0.00      0.00      0.00         0.00      8.80      8.70      200.     1.600E+03  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

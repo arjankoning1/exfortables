@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  30  67  0  -1 22800007 H.Sakane,Y.Kas  2002     6 30-ZN-67(N,X)29-CU-66,,SIG      1.61     0.727      2.00     0.195     T1  13.2      18.1      27.8      13.4      14.9      0.00      1.10      1.56      2.62      1.35      1.40      1.21      0.00
-  30  67  0  -1 21784005 S.M.Qaim        1982     1 30-ZN-67(N,X)29-CU-66,,SIG      2.78      2.60      28.3     7.348E-02 T1  18.4      6.61      38.4      14.7      14.7      0.00      3.34      2.28      1.42      2.53      2.43      4.64      0.00

@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  93 237  0  -1 20725010 L.Mewissen,F.P  1979   168 93-NP-237(N,EL)93-NP-237,,SIG   1.76      1.20     2.076E+04 0.106     T2 2.254E+04 2.313E+04 0.530     4.409E-05 5.197E-05  0.00      1.73      1.77      1.74      1.81      1.77      0.00      1.77

@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  80   0  0  -1 11139012 W.W.Havens Jr,  1946     0 80-HG-0(N,ABS),,SIG             0.00      0.00      0.00      0.00         0.00      381.      4.46     2.530E-08 2.530E-08  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  80 196  0   1 20254003 J.I.KIM, F.ADA  1967     0 80-HG-196(N,G)80-HG-197-M,,SIG  0.00      0.00      0.00      0.00         0.00     1.067E+05  12.0     2.530E-08 2.530E-08  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-  80 196  0   1 23488092 F.De Corte,A.S  1988     0 80-HG-196(N,G)80-HG-197-M,,SIG  0.00      0.00      0.00      0.00         0.00     1.026E+05  71.0     2.530E-08 2.530E-08  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  11  22  0  -1 13165002 P.E.KOEHLER,H.  1988     1 11-NA-22(N,P)10-NE-22,PAR,SIG   20.3      20.3     1.220E+05  0.00     T3 4.775E+06 2.350E+05  5.53     2.530E-08 2.530E-08  0.00      0.00      0.00      0.00      20.3      0.00      0.00      0.00
-  11  22  0  -1 13165003 P.E.KOEHLER,H.  1988    23 11-NA-22(N,P)10-NE-22,PAR,SIG   26.3      25.9     4.693E+04  0.00     T3 7.451E+05 3.311E+04  17.7     7.540E-08 4.200E-04  0.00      0.00      0.00      0.00      26.3      0.00      0.00      0.00

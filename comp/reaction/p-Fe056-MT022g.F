@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  26  56  0   0 A0901039 Yu.E.Titarenko  2011     0 26-FE-56(P,X)25-MN-52-G,CUM,SI  0.00      0.00      0.00      0.00         0.00      13.2      9.15      46.0     2.605E+03  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-  26  56  0   0 A0510049 V.N.Levkovski   1991    11 26-FE-56(P,X)25-MN-52-G,,SIG    1.78     0.634      12.1     0.258     T1  5.63      11.0      12.2      20.3      29.5      0.00      1.78      0.00      0.00      0.00      0.00      0.00      0.00

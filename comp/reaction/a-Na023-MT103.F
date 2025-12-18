@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  11  23  0  -1 C2107005 S.Almaraz-Cald  2014     3 11-NA-23(A,P)12-MG-26,,SIG      6.86      6.33      45.0     0.152     T3  2.47     0.544      33.5      2.13      2.84      0.00      8.39      0.00      0.00      5.47      0.00      0.00      0.00

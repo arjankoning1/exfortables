@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  30  64  0  -1 O2039003 J.H.Carver, G.  1959     0 30-ZN-64(D,G)31-GA-66,,SIG      0.00      0.00      0.00      0.00         0.00     3.821E-02  20.1      3.52      4.02      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-  30  64  0  -1 O20390021J.H.Carver, G.  1959     0 30-ZN-64(D,G)31-GA-66,,SIG      0.00      0.00      0.00      0.00         0.00     8.000E-02  15.0      4.50      4.50      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

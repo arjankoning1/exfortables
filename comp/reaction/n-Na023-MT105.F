@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  11  23  0  -1 12918003 D.A.LEICH,R.J.  1985     1 11-NA-23(N,T)10-NE-21,,SIG      2.89     0.442      67.1     0.236     T2  3.17      5.70      7.02      14.5      14.5      0.00      3.25      0.00      4.78      3.84      1.00      1.00      0.00

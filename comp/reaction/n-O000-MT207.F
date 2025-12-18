@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   8   0  0  -1 10933021 D.W.KNEFF,B.M.  1986     1 8-O-0(N,X)2-HE-4,,SIG           2.05     0.568      42.9     0.182     T1  246.      399.      6.87      14.8      14.8      0.00      2.19      1.61      1.27      3.64      1.03      0.00      0.00

@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  81   0  0  -1 M1007005 E.V.Minarik,V.  1957     5 81-TL-0(G,F),,SIG,,BRS          5.24      3.45     1.087E+03 0.124     T3 0.981     0.522      18.7      88.2      236.      0.00      9.97      0.00      0.00      1.55      0.00      0.00      0.00

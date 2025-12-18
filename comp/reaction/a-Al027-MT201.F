@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  13  27  0  -1 A0101002 N.S.Biryukov,B  1980     1 13-AL-27(A,X)0-NN-1,,SIG        1.35      1.35      24.0     0.276     T1 1.323E+03  980.      7.14      45.2      45.2      0.00      1.35      0.00      0.00      0.00      0.00      0.00      0.00
-  13  27  0  -1 A0624002 B.HOLMQVIST,E.  1986   107 13-AL-27(A,X)0-NN-1,,SIG        14.7      11.6     3.706E+05 1.719E-02 T3 0.848     0.175      6.00      3.05      3.66      0.00      14.7      0.00      0.00      0.00      0.00      0.00      0.00

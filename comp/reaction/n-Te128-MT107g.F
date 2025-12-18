@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  52 128  0   0 21300012 K.Kayashima,A.  1979     1 52-TE-128(N,A)50-SN-125-G,,SIG  1.19     0.889     0.244     0.236     R1 0.531     0.702      57.7      14.6      14.6      0.00      1.02      0.00      1.02      1.41      0.00      1.09      0.00
-  52 128  0   0 40029015 V.N.Levkovskii  1971     1 52-TE-128(N,A)50-SN-125-G,,SIG  1.24      1.11      1.73     0.422     T1 0.605     0.530      20.8      14.8      14.8      0.00      1.31      0.00      1.31      1.20      0.00      1.05      0.00

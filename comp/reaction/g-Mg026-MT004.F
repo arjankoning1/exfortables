@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  12  26  0  -1 L0197002 R.J.deBoer,A.B  2014    13 12-MG-26(G,N)12-MG-25,,SIG      2.69      1.44     3.722E+03 0.134     T3  4.87      3.16      7.57      11.0      12.8      0.00      2.98      2.24      0.00      2.86      0.00      0.00      0.00

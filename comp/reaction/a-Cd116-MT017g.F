@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  48 116  0   0 D6291002 M.B.Chatterjee  1990     3 48-CD-116(A,3N)50-SN-117-G,,SI  6.35     0.159      127.     4.684E-02 T2  143.      815.      7.45      40.0      50.0      0.00      6.35      0.00      0.00      0.00      0.00      0.00      0.00

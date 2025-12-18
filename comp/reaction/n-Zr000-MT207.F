@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  40   0  0  -1 10933032 D.W.KNEFF,B.M.  1986     1 40-ZR-0(N,X)2-HE-4,,SIG         2.52     0.633      53.4     0.310     T2  8.00      10.0      5.62      14.8      14.8      0.00      1.04      7.66      1.03      1.01      1.39      0.00      0.00

@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  59 141  0  -1 40040006 V.A.Bukarev,V.  1965     6 59-PR-141(N,INL)59-PR-141,PAR,  1.41     0.807      1.33     0.214     T1  126.      168.      30.0      1.29      1.87      0.00      1.32      1.75      1.30      1.34      1.28      0.00      0.00
-  59 141  0  -1 41188003 L.A.Pobedonost  1994     9 59-PR-141(N,INL)59-PR-141,PAR,  1.64      1.32      24.8     0.229     T1  144.      105.      15.7      1.96      2.37      0.00      1.37      1.29      1.39      1.44      2.47      0.00      0.00

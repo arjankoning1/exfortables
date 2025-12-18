@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  26  54  0  -1 23171002 A.Wallner, K.B  2011     2 26-FE-54(N,X)25-MN-53,,SIG      1.69     0.685      5.45     9.939E-02 T1  450.      647.      15.9      13.5      14.6      0.00      1.18      0.00      0.00      1.11      1.27      2.73      0.00

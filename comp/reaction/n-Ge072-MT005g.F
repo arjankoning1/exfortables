@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  32  72  0   0 400090171G.P.Vinitskaya  1968     1 32-GE-72(N,A)30-ZN-69-G,,SIG    1.24     0.809      2.03     0.166     T1  4.88      6.30      15.9      14.8      14.8      0.00      1.24      0.00      1.24      0.00      0.00      0.00      0.00
-  32  72  0   0 22823006 C.D.NESARAJA,   2003     5 32-GE-72(N,A)30-ZN-69-G,,SIG    1.86     0.569      2.72     0.165     R1  2.43      4.48      28.5      7.38      11.9      0.00      1.86      0.00      1.86      0.00      0.00      0.00      0.00

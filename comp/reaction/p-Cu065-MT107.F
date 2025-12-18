@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  29  65  0  -1 C0962007 J.Benveniste,R  1961     4 29-CU-65(P,A)28-NI-62,,SIG      2.00      1.36      278.     0.223     T2  43.2      29.8      13.0      6.20      11.0      0.00      2.00      0.00      0.00      0.00      0.00      0.00      0.00

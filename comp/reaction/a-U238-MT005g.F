@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  92 238  0   0 P0046020 M.LINDER,R.N.O  1954     0 92-U-238(A,F)56-BA-131-G,,SIG   0.00      0.00      0.00      0.00         0.00      3.03      0.00      49.6      383.      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

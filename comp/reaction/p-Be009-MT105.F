@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   4   9  0  -1 P0038003 B.L.COHEN,T.H.  1954    10 4-BE-9(P,T)4-BE-7,,SIG          2.89      2.83      44.4     0.207     T2  24.6      8.44      30.0      14.3      23.0      0.00      2.89      0.00      0.00      0.00      0.00      0.00      0.00

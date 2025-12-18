@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  12  25  0  -1 D0755002 M.R.Anderson,L  1983   135 12-MG-25(A,N)14-SI-28,,SIG      3.05      2.06      949.     0.181     T3  65.7      53.7      12.8      1.85      6.31      0.00      3.05      0.00      0.00      0.00      0.00      0.00      0.00

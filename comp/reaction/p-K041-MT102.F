@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  19  41  0  -1 D0854002 M.E.Sevior, M.  1982    45 19-K-41(P,G)20-CA-42,,SIG       1.79      1.20      52.4     0.344     T1 0.305     0.216      12.0     0.707      2.46      0.00      1.79      0.00      0.00      0.00      0.00      0.00      0.00
-  19  41  0  -1 A0392010 M.E.Sevior,L.M  1986    68 19-K-41(P,G)20-CA-42,,SIG       2.13      1.74      47.7     0.285     T2 0.506     0.246      17.7     0.640      3.95      0.00      2.13      0.00      0.00      0.00      0.00      0.00      0.00

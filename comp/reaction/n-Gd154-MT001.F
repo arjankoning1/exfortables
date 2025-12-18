@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  64 154  0  -1 40302015 A.N.Dyumin,A.I  1973     1 64-GD-154(N,TOT),,SIG           1.02     0.989      1.49     0.365     T1 5.164E+03 5.230E+03  1.53      14.2      14.2      0.00      1.02      1.01      1.02      1.00      1.00      0.00      0.00
-  64 154  0  -1 22386021 K.Wisshak,F.Vo  1995     9 64-GD-154(N,TOT),,SIG,,AV       1.24     0.867      2.05     0.258     T1 1.133E+04 1.303E+04  15.0     1.250E-02 0.175      0.00      1.10      1.30      1.17      1.25      1.33      0.00      0.00

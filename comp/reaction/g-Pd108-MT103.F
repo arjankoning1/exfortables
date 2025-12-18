@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  46 108  0  -1 M0839003 T.K.Deague,E.G  1969    62 46-PD-108(G,P)45-RH-107,,SIG,,  13.8     8.060E-02  506.     6.424E-03 T2 0.452      3.57      3.52      8.25      28.8      0.00      17.6      12.1      0.00      12.1      0.00      0.00      0.00

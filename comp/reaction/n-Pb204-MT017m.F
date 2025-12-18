@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  82 204  0   1 22680008 V.Semkova, P.R  2009     5 82-PB-204(N,3N)82-PB-202-M,,SI  3.00      2.54      194.     0.274     T2  46.5      24.1      20.0      18.0      20.5      0.00      3.08      3.00      3.08      0.00      0.00      2.83      0.00

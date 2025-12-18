@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  17  35  0  -1 11557003 C.T.HIBDON,C.O  1950     0 17-CL-35(N,EL)17-CL-35,POT,SIG  0.00      0.00      0.00      0.00         0.00     1.430E+03  0.00    -7.500E-05  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

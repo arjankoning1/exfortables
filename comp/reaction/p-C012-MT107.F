@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   6  12  0  -1 O0323043 P.Guazzoni,I.I  1971    10 6-C-12(P,A)5-B-9,,SIG,,,EXP     2.15      2.12     2.656E+03 8.530E-02 T3  141.      43.7      2.30      19.7      44.7      0.00      2.15      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  50 120  0   1 M1012002 Kuo Ch'i-Di,B.  1960    11 50-SN-120(G,P)49-IN-119-M,,SIG  29.9     4.085E-02  540.     3.707E-02 T2 9.535E-02  2.48      14.4      16.5      26.5      0.00      29.9      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  20  40  0  -1 21165008 A.KATASE,T.AKI  1968     1 20-CA-40(N,N+P)19-K-39,,SIG     2.64      2.60      88.6     0.141     T1  474.      180.      17.8      14.1      14.1      0.00      1.85      2.87      2.88      2.73      2.53      2.93      0.00

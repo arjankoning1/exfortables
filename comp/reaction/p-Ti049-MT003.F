@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  22  49  0  -1 C1217002 J.F.Dicello,G.  1967     1 22-TI-49(P,NON),,SIG            1.08      1.08      16.9     1.983E-02 T1 1.009E+03  931.      2.04      14.5      14.5      0.00      1.08      0.00      0.00      0.00      0.00      0.00      0.00

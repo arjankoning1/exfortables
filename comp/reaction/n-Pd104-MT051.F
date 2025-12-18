@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  46 104  0  -1 22405007 A.Meister,E.Wa  1997    12 46-PD-104(N,INL)46-PD-104,PAR,  1.42     0.827      13.8     0.260     T1  696.      691.      24.1     0.425      1.25      0.00      1.24      1.49      1.24      1.63      0.00      0.00      0.00
-  46 104  0  -1 40456005 E.S.Konobeevsk  1976    26 46-PD-104(N,INL)46-PD-104,PAR,  1.79     0.629      6.88     0.150     T1  554.      856.      15.2     0.565     0.963      0.00      1.38      1.97      1.38      2.30      0.00      0.00      0.00

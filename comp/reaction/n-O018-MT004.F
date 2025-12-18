@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   8  18  0  -1 20977003 P.EXTERMANN,E.  1964     6 8-O-18(N,INL)8-O-18,,SIG        1.65     0.730      2.42     0.213     T2  417.      650.      39.4      3.25      3.95      0.00      1.58      0.00      0.00      1.71      0.00      0.00      0.00

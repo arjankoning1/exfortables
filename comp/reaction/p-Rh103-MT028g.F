@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  45 103  0   0 D4377005 F.Tarkanyi,F.D  2017     2 45-RH-103(P,X)45-RH-102-G,,SIG  1.07     0.967     0.452     0.116     T1  98.7      106.      23.3      20.4      53.7      0.00      1.07      0.00      0.00      0.00      0.00      0.00      0.00
-  45 103  0   0 D41080052A.Hermanne,M.S  2000    31 45-RH-103(P,X)45-RH-102-G,,SIG  2.37      1.61      39.6     0.266     T1  48.5      26.2      21.2      11.9      28.9      0.00      2.37      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  30  70  0   0 22823009 C.D.NESARAJA,   2003     4 30-ZN-70(N,2N)30-ZN-69-G,,SIG   1.34      1.22      1.98     0.218     R1  295.      252.      28.1      10.3      12.3      0.00      1.42      0.00      1.17      1.40      0.00      0.00      0.00

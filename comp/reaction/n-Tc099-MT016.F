@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  43  99  0  -1 20350005 S.M.QAIM        1973     1 43-TC-99(N,2N)43-TC-98,,SIG     1.11      1.06     0.567     0.346     T1 1.341E+03 1.227E+03  18.4      14.7      14.7      0.00      1.01      1.16      1.01      1.22      1.00      1.00      0.00

@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  38   0  0  -1 11495022 D.B.THOMSON     1963     1 38-SR-0(N,INL)38-SR-0,,SIG      1.08     0.967     0.646     0.383     T1 1.666E+03 1.740E+03  9.20      7.00      7.00      0.00      1.00      1.00      1.00      1.00      1.18      0.00      0.00

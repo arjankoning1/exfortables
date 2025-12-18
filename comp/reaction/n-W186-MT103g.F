@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  74 186  0   0 22311014 S.Murahira,Y.S  1996     0 74-W-186(N,P)73-TA-186-G,,SIG   0.00      0.00      0.00      0.00         0.00      1.78      24.9      13.4      14.9      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

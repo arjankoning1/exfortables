@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  32  74  0  -1 11651004 L.D.Webber,J.L  1968     1 32-GE-74(N,X)31-GA-73,,SIG      1.70     0.648      14.0     0.418     T1 0.563     0.831      10.4      14.7      14.7      0.00      1.85      1.00      1.85      1.00      1.93      2.05      0.00
-  32  74  0  -1 22637017 C.Konno, Y.Ike  1993     4 32-GE-74(N,X)31-GA-73,,SIG      13.1     9.190E-02  184.     1.897E-02 T2 0.349      2.29      6.72      13.5      15.0      0.00      22.3      4.51      22.3      4.51      15.6      17.8      0.00

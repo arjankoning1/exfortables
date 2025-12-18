@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  23   0  0  -1 20416064 J.Frehaut,A.Be  2016     8 23-V-0(N,2N),,SIG               1.15      1.08      3.34     0.218     T1  334.      298.      8.60      11.4      14.8      0.00      1.10      1.20      1.14      1.15      1.09      1.19      0.00
-  23   0  0  -1 11097011 V.J.Ashby,H.C.  1958     1 23-V-0(N,2N),,SIG               1.16     0.880      3.29     0.229     T1  555.      640.      7.81      14.1      14.1      0.00      1.22      1.13      1.09      1.08      1.27      1.05      0.00

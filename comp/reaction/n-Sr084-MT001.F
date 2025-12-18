@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  38  84  0  -1 40585006 A.N.DJUMIN,A.I  1977     1 38-SR-84(N,TOT),,SIG            1.08      1.08      47.7     0.321     T1 3.686E+03 3.410E+03  1.17      14.2      14.2      0.00      1.08      1.07      1.08      1.08      0.00      0.00      0.00

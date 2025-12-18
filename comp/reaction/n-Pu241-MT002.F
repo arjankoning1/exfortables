@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  94 241  0  -1 12344004 G.D.SAUTER,C.D  1968   299 94-PU-241(N,EL)94-PU-241,,SIG   1.48     0.826      0.00     0.144     T2 1.635E+04 1.877E+04  0.00     3.040E-06 3.280E-05  0.00      1.48      1.48      1.47      1.48      1.49      0.00      0.00

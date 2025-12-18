@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  52 130  0   1 A0138002MC.Wasilevsky,R  1982     8 52-TE-130(A,N)54-XE-133-M,,SIG  2.79     0.409      3.98     0.154     T2  9.49      21.6      47.3      10.0      53.5      0.00      2.79      0.00      0.00      0.00      0.00      0.00      0.00
-  52 130  0   1 P0128002 P.ALEXANDER,J.  1968     8 52-TE-130(A,N)54-XE-133-M,,SIG  3.24     0.924      0.00     0.200     T2  20.1      10.1      0.00      6.25      22.9      0.00      3.24      0.00      0.00      0.00      0.00      0.00      0.00

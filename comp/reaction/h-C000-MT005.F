@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   6   0  0  -1 D4024002 F.Ditroi,S.Tak  1995     0 6-C-0(HE3,X)4-BE-7,,SIG         0.00      0.00      0.00      0.00         0.00      40.8      15.0      11.6      27.3      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-   6   0  0  -1 C2348003 C.B.Fulmer,D.A  1975     0 6-C-0(HE3,X)4-BE-7,,SIG         0.00      0.00      0.00      0.00         0.00      42.2      10.0      13.3      97.9      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

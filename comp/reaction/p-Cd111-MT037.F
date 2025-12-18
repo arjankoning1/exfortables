@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  48 111  0  -1 A0335002 M.Marten,A.Sch  1985     4 48-CD-111(P,4N)49-IN-108,,SIG   2.40     0.553      23.4     0.314     T2  166.      270.      10.7      35.7      44.4      0.00      3.43      0.00      0.00      1.11      0.00      0.00      0.00

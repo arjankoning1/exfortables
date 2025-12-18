@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  11  23  0  -1 21151004 J.M.FREEMAN,J.  1958     8 11-NA-23(N,INL)11-NA-23,PAR,SI  1.41     0.921      9.43     0.230     T1  44.0      49.2      15.4      2.53      2.99      0.00      1.56      1.06      1.49      1.48      1.33      0.00      0.00
-  11  23  0  -1 23137016 C.Rouki,P.Arch  2012    46 11-NA-23(N,INL)11-NA-23,PAR,SI  1.74      1.29      6.18     0.282     T1  18.6      15.5      79.8      2.50      2.75      0.00      1.99      1.61      1.99      1.01      1.81      0.00      0.00

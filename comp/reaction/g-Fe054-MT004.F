@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  26  54  0  -1 L0037006 W.E.DEL BIANCO  1962     1 26-FE-54(G,N)26-FE-53,,SIG      1.57      1.32      13.2     0.380     T2  41.5      30.0      16.0      20.5      20.5      0.00      1.25      1.69      0.00      1.69      0.00      0.00      0.00

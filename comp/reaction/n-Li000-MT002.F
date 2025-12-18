@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   3   0  0  -1 11130002 N.A.BOSTROM,I.  1959     2 3-LI-0(N,EL)3-LI-0,,SIG         1.03     0.986     0.197     0.422     T1 1.793E+03 1.850E+03  17.2      1.45      4.21      0.00      0.00      0.00      0.00      0.00      0.00      0.00      1.03

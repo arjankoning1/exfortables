@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  50 112  0  -1 40800003 A.P.Klyucharev  1963     1 50-SN-112(N,P)49-IN-112,,SIG    2.73     0.393      0.00     6.009E-02 R2  60.4      145.      0.00      14.1      14.1      0.00      2.01      4.40      2.01      1.99      4.10      1.88      0.00
-  50 112  0  -1 40798002 G.P.Chursin,V.  1963     1 50-SN-112(N,P)49-IN-112,,SIG    6.24      6.01      419.      0.00     R2  59.3      9.28      28.0      14.5      14.5      0.00      7.77      3.23      7.77      7.59      4.01      7.93      0.00

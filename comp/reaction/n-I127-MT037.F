@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  53 127  0  -1 31714006 J.Vrzalova, O.  2013     2 53-I-127(N,4N)53-I-124,,SIG     3.49      2.87      709.     0.242     T3  326.      192.      15.1      30.4      35.9      0.00      2.79      0.00      2.79      3.27      0.00      5.21      0.00

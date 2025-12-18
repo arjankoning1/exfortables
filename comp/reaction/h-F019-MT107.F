@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   9  19  0  -1 F02050051R.L.Hahn,E.Ric  1966     0 9-F-19(HE3,A)9-F-18,,SIG        0.00      0.00      0.00      0.00         0.00      17.3      9.93      3.70      9.35      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-   9  19  0  -1 F0207003 O.D.Brill'      1965     0 9-F-19(HE3,A)9-F-18,,SIG        0.00      0.00      0.00      0.00         0.00      27.3      25.0      7.99      30.3      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

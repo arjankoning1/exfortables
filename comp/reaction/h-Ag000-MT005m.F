@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  47   0  0   1 D4327004 F.Tarkanyi, S.  2015     0 47-AG-0(HE3,X)49-IN-110-M,,SIG  0.00      0.00      0.00      0.00         0.00      18.7      18.1      10.4      26.6      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-  47   0  0   1 E1963006 T.Omori, M.Yag  1980     0 47-AG-0(HE3,X)47-AG-106-M,,SIG  0.00      0.00      0.00      0.00         0.00      32.9      8.00      13.8      37.6      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

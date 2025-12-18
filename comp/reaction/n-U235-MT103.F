@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  92 235  0  -1 21440047 R.F.Coleman,B.  1959     1 92-U-235(N,P)91-PA-235,,SIG     1.19      1.01      1.34     0.499     R1  1.90      1.86      20.0      14.5      14.5      0.00      1.27      0.00      1.14      0.00      1.20      1.13      0.00

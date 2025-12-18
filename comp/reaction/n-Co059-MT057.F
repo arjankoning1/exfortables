@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  27  59  0  -1 30464042 M.Abdel-Harith  1976     1 27-CO-59(N,INL)27-CO-59,PAR,SI  1.27     0.817      2.28     0.107     T1  87.8      110.      15.0      3.40      3.40      0.00      1.01      1.41      1.41      1.21      1.14      0.00      0.00
-  27  59  0  -1 10112048 W.E.KINNEY,F.G  1970     6 27-CO-59(N,INL)27-CO-59,PAR,SI  1.39      1.01      5.52     0.351     T1  34.5      35.7      18.4      4.19      6.44      0.00      1.62      1.32      1.32      1.32      1.31      0.00      0.00

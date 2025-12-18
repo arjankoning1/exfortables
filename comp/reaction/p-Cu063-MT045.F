@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  29  63  0  -1 D0162008 G.A.Brinkman,J  1977     0 29-CU-63(P,N+P+A)27-CO-58,,SIG  0.00      0.00      0.00      0.00         0.00      135.      0.00      51.0      51.0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-  29  63  0  -1 D0162014 G.A.Brinkman,J  1977     1 29-CU-63(P,N+P+A)27-CO-58,,SIG  34.8     2.870E-02  0.00     2.384E-08 T2 9.675E-02  119.      0.00      26.1      50.4      0.00      34.8      0.00      0.00      0.00      0.00      0.00      0.00

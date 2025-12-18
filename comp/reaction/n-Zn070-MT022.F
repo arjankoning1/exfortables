@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  30  70  0  -1 11590026 E.T.Bramlitt,R  1963     1 30-ZN-70(N,N+A)28-NI-66,,SIG    1.47     0.982      1.69     0.232     R1 0.864     0.890      44.9      14.7      14.7      0.00      1.52      2.23      1.00      1.22      1.20      1.12      0.00
-  30  70  0  -1 20513004 S.M.Qaim, G.St  1974     1 30-ZN-70(N,N+A)28-NI-66,,SIG    1.81      1.44      48.6     0.215     T1 0.864     0.521      17.2      14.7      14.7      0.00      1.05      3.83      1.66      1.08      1.11      1.25      0.00

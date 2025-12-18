@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  72 178  0   0 314390061A.Kirov,N.Neno  1993     1 72-HF-178(N,P)71-LU-178-G,,SIG  1.04     0.958     0.250     0.206     T1  2.20      2.47      22.1      14.5      14.5      0.00      1.04      0.00      0.00      0.00      0.00      0.00      0.00
-  72 178  0   0 130390032J.L.MEASON,R.G  1966     1 72-HF-178(N,P)71-LU-178-G,,SIG  1.45      1.45      19.2     0.206     R1  2.40      1.66      10.2      14.8      14.8      0.00      1.45      0.00      0.00      0.00      0.00      0.00      0.00

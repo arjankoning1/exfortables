@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  50   0  0  -1 21231008 R.O.Owens,J.H.  1968     1 50-SN-0(N,INL)50-SN-0,,SIG      1.10     0.921      4.57     0.302     T1 2.180E+03 2.380E+03  4.20      5.98      5.98      0.00      1.09      1.16      1.09      1.04      1.04      0.00      0.00
-  50   0  0  -1 30213006 H.Oehler,H.Pos  1966     1 50-SN-0(N,INL)50-SN-0,,SIG      4.14      4.13      40.1     0.112     T3  166.      40.0      50.0     0.960     0.960      0.00      3.84      3.95      3.84      4.42      4.70      0.00      0.00

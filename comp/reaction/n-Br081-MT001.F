@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  35  81  0  -1 41576007 V.P.Alfimenkov  1983     1 35-BR-81(N,TOT),,SIG,,RES       6.35      6.29     2.468E+03  0.00     T2 5.763E+03  900.      11.1     8.800E-07 8.800E-07  0.00      7.16      6.83      7.16      4.46      0.00      0.00      0.00
-  35  81  0  -1 118330102J.M.LE BLANC,R  1959     3 35-BR-81(N,TOT),,SIG,,RES       18.3     5.585E-02  26.3     5.960E-08 T2 2.501E+05 3.843E+06  26.5     1.020E-04 2.050E-04  0.00      17.6      17.8      17.6      20.1      0.00      0.00      0.00

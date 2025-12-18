@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   4   9  0  -1 E2011005 I.Tanihata, H.  1985     0 4-BE-9(A,ABS),,SIG              0.00      0.00      0.00      0.00         0.00      485.     0.825     3.160E+03 3.160E+03  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-   4   9  0  -1 D0186002 A.Ingemarsson,  2000     4 4-BE-9(A,NON),,SIG              1.21     0.893      39.7     3.246E-02 T1  691.      787.      3.34      69.6      192.      0.00      1.21      0.00      0.00      0.00      0.00      0.00      0.00

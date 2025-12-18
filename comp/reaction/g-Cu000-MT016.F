@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  29   0  0  -1 M0541007 G.Baciu,G.C.Bo  1965    17 29-CU-0(G,2N),,SIG,,BRS         1.18      1.09     0.261     0.285     T1  12.5      11.7      7.63      19.0      27.0      0.00      1.26      1.13      0.00      1.13      0.00      0.00      0.00
-  29   0  0  -1 M0537004 B.S.Ishkhanov,  1970    20 29-CU-0(G,2N),,SIG,,BRS         2.85     0.381      22.6     0.111     T2  11.8      31.5      19.6      20.0      29.5      0.00      2.45      3.20      0.00      2.90      0.00      0.00      0.00

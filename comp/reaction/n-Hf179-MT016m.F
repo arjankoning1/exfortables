@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  72 179  0   1 30015006 R.Prasad, D.C.  1966     1 72-HF-179(N,2N)72-HF-178-M1,,S  1.47     0.812      5.10     0.372     R2  629.      739.      13.5      14.8      14.8      0.00      1.14      0.00      1.89      0.00      0.00      1.15      0.00

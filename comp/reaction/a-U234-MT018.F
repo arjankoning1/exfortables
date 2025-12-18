@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  92 234  0  -1 B0030008 J.GINDLER, H.M  1970     1 92-U-234(A,F),,SIG,,,EXP        1.08     0.924     0.421     0.269     T1 2.446E+03 2.900E+03  24.1      103.      103.      0.00      1.08      0.00      0.00      0.00      0.00      0.00      0.00

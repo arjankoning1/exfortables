@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  52 130  0  -1 D10270051A.Kirov, N.Nen  1992     8 52-TE-130(A,N)54-XE-133,,SIG    2.01      1.41      77.7     0.252     T2  26.7      19.5      29.7      14.7      36.5      0.00      2.01      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  38  84  0   0 A0426002 Gy.Gyurky, E.S  2001    13 38-SR-84(P,G)39-Y-85-G,,SIG     2.03      1.34      186.     0.373     T1 0.124     0.101      10.5      1.69      3.00      0.00      2.52      0.00      0.00      1.46      0.00      0.00      0.00

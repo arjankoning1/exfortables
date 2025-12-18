@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  29  63  0  -1 30656024 Shi Xiamin,She  1982     1 29-CU-63(N,INL)29-CU-63,,SIG    1.16     0.880      2.02     0.231     T1  512.      596.      10.7      14.2      14.2      0.00      1.19      1.07      1.26      1.16      1.02      0.00      0.00
-  29  63  0  -1 40680012 N.P.Glazkov     1963     3 29-CU-63(N,INL)29-CU-63,,SIG,,  1.49     0.726      7.34     9.671E-02 T2  286.      439.      25.9     0.800      1.20      0.00      1.56      1.24      1.24      1.37      1.90      0.00      0.00

@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  62 148  0  -1 12949003 S.N.TRIPATHI    1978     1 62-SM-148(N,INL)62-SM-148,PAR,  1.21     0.900      2.47     0.142     T1  459.      500.      12.0      2.50      2.50      0.00      1.08      1.11      1.08      1.36      1.30      0.00      0.00
-  62 148  0  -1 40473002 V.P.Efrosinin,  1979    24 62-SM-148(N,INL)62-SM-148,PAR,  1.39      1.07      6.81     0.344     T1 1.138E+03 1.009E+03  12.5     0.564      1.16      0.00      1.49      1.37      1.49      1.30      1.24      0.00      0.00

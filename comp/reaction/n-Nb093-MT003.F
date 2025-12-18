@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  41  93  0  -1 40647003 A.I.ABRAMOV     1962    10 41-NB-93(N,NON),,SIG            1.17     0.968      3.65     0.280     T1 1.510E+03 1.588E+03  13.4     0.800      2.60      0.00      1.19      0.00      1.17      1.15      1.17      0.00      0.00

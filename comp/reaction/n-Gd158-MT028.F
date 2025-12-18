@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  64 158  0  -1 22809006 H.SAKANE, Y.KA  2002     4 64-GD-158(N,X)63-EU-157,,SIG    8.65     0.176      23.5     0.330     T2 0.124     0.243      19.2      14.0      14.9      0.00      6.62      1.97      0.00      10.4      21.7      7.87      0.00

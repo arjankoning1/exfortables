@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   4   9  0  -1 C1867003 D.G.Montague,R  1973     4 4-BE-9(P,INL)4-BE-9,PAR,SIG     3.95     0.262      0.00     0.245     T2  13.3      51.5      0.00      17.0      29.1      0.00      0.00      3.95      0.00      0.00      0.00      0.00      0.00
-   4   9  0  -1 F0196004 F.W.Bingham,M.  1964    11 4-BE-9(P,INL)4-BE-9,PAR,SIG     5.28     0.194      249.     0.138     T2  24.2      117.      5.23      4.98      15.0      0.00      0.00      5.28      0.00      0.00      0.00      0.00      0.00

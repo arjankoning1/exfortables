@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  12  24  0  -1 F0592009 J.Ploskonka,K.  1976     0 12-MG-24(A,P)13-AL-27,PAR,SIG,  0.00      0.00      0.00      0.00         0.00      1.79      9.82      25.8      25.8      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

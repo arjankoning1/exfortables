@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  82 208  0  -1 32205006 S.V.Begun, I.M  2002     1 82-PB-208(N,A)80-HG-205,,SIG    3.41     0.578      187.     0.393     T2 0.530     0.540      7.41      14.5      14.5      0.00      10.7      0.00      1.54      1.54      2.96      1.82      0.00
-  82 208  0  -1 21440043 R.F.Coleman,B.  1959     1 82-PB-208(N,A)80-HG-205,,SIG    7.09     0.197      24.9     0.152     R2 0.530      1.58      15.0      14.5      14.5      0.00      31.3      0.00      4.49      4.49      1.00      5.33      0.00

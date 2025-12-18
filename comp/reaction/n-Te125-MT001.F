@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  52 125  0  -1 40813030 Yu.V.Dukarevic  1967     1 52-TE-125(N,TOT),,SIG           1.03      1.02      15.5     0.425     T1 4.780E+03 4.690E+03 0.853      14.2      14.2      0.00      1.00      1.07      1.00      1.01      0.00      0.00      0.00

@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  57 139  0  -1 31263006 J.C.Malan, W.R  1969     8 57-LA-139(N,EL)57-LA-139,,SIG   1.24     0.840      6.32     0.231     T2 5.314E+03 6.365E+03  7.53     0.232      1.57      0.00      1.36      1.10      1.36      1.17      1.10      0.00      1.22
-  57 139  0  -1 12054004 D.L.BERNARD,G.  1968     1 57-LA-139(N,EL)57-LA-139,,SIG   1.45     0.692      8.72     0.125     T2 2.184E+03 3.160E+03  10.5      8.00      8.00      0.00      1.49      1.34      1.49      1.45      1.39      0.00      1.52

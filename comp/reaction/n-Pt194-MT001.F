@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  78 194  0  -1 13553002 S.E.HICKS,J.P.  1987    40 78-PT-194(N,TOT),,SIG           1.08     0.955      14.4     0.415     T1 6.532E+03 6.819E+03  2.00     0.250      3.99      0.00      1.11      1.02      1.11      1.05      0.00      0.00      0.00

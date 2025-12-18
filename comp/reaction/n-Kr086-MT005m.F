@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  36  86  0   1 14429003 Megha Bhike,E.  2015     9 36-KR-86(N,2N)36-KR-85-M,,SIG   1.12      1.09      2.41     0.302     R1  210.      194.      8.18      10.9      14.8      0.00      1.15      0.00      1.07      0.00      0.00      0.00      0.00
-  36  86  0   1 11884009 E.KONDAIAH,N.R  1968     1 36-KR-86(N,2N)36-KR-85-M,,SIG   1.26     0.799      6.50     0.138     R1  316.      397.      8.07      14.4      14.4      0.00      1.20      0.00      1.30      0.00      0.00      0.00      0.00

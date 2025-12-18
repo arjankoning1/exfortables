@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  39  89  0   1 D0029011MA.Gruetter      1982     0 39-Y-89(P,X)38-SR-85-M,IND,SIG  0.00      0.00      0.00      0.00         0.00      7.35      0.00      540.      593.      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-  39  89  0   1 C11590111H.I.West,H.O.B  1993    11 39-Y-89(P,N+A)38-SR-85-M,,SIG   1.74     0.713      110.     9.171E-02 T1  2.24      4.47      10.2      19.9      39.6      0.00      1.74      0.00      0.00      0.00      0.00      0.00      0.00

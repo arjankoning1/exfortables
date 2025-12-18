@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  40  96  0  -1 11876016 W.M.Good,H.Kim  1968   360 40-ZR-96(N,TOT),,SIG            2.60     0.614      45.1     9.707E-02 T2 1.217E+04 1.692E+04  27.3     2.499E-03 6.852E-02  0.00      2.57      2.83      2.57      2.59      2.43      0.00      0.00

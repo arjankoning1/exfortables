@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  28  64  0  -1 A0510076 V.N.Levkovski   1991    23 28-NI-64(P,A)27-CO-61,,SIG      1.34      1.01      15.1     0.335     T1  6.88      7.71      12.2      9.50      29.5      0.00      1.34      0.00      0.00      0.00      0.00      0.00      0.00
-  28  64  0  -1 D4015002 S.M.Qaim,M.Uhl  1995    24 28-NI-64(P,A)27-CO-61,,SIG      1.58     0.664      7.40     0.264     T1  6.49      9.88      12.8      5.04      18.5      0.00      1.58      0.00      0.00      0.00      0.00      0.00      0.00

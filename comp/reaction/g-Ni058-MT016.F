@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  28  58  0  -1 M0597004 B.I.Goryachev,  1970    75 28-NI-58(G,2N)28-NI-56,,SIG,,B  11.4     0.101      73.0     1.017E-02 T2  1.03      10.5      2.73      22.6      30.0      0.00      6.40      15.9      0.00      15.9      0.00      0.00      0.00

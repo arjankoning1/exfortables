@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  42  92  0  -1 13949009 P.E.Garrett,L.  2000    21 42-MO-92(N,2P)40-ZR-91,PAR,SIG  1.71      1.13      7.15     0.125     R1  2.29      1.72      47.4      16.2      202.      0.00      1.87      2.15      1.87      0.00      0.00      1.76      0.00

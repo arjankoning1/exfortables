@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  44  98  0  -1 A0654014 J.Bork,H.Schat  1998     0 44-RU-98(P,G)45-RH-99,,SIG,,SF  0.00      0.00      0.00      0.00         0.00     3.518E-19  9.66      1.62      3.41      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-  44  98  0  -1 A0654007 J.Bork,H.Schat  1998    22 44-RU-98(P,G)45-RH-99,,SIG      1.94     0.680      29.9     0.246     T1 0.138     0.353      9.24      1.62      3.41      0.00      2.10      0.00      0.00      1.78      0.00      0.00      0.00

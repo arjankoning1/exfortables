@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   3   6  0  -1 20985002 M.G.Silk, B.O.  1970     0 3-LI-6(N,ABS),,SIG              0.00      0.00      0.00      0.00         0.00     9.438E+05 0.297     2.530E-08 2.530E-08  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-   3   6  0  -1 10148003 J.W.Meadows,J.  1970     0 3-LI-6(N,ABS),,SIG              0.00      0.00      0.00      0.00         0.00     9.360E+05 0.427     2.530E-08 2.530E-08  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

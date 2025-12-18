@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   3   6  0  -1 F0017003 Z.T.Body,J.Sza  1979     0 3-LI-6(D,P)3-LI-7,,SIG          0.00      0.00      0.00      0.00         0.00      2.92      10.5     0.100     0.180      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-   3   6  0  -1 A1513008 F.Bertrand,G.G  1968     0 3-LI-6(D,P)3-LI-7,,SIG          0.00      0.00      0.00      0.00         0.00      44.8      0.00     0.300      1.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

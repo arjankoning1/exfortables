@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  74 183  0   1 41614185 A.A.Filatenkov  2016     6 74-W-183(N,A)72-HF-180-M,,SIG   1.29      1.21      2.15     0.215     T1 5.406E-02 4.581E-02  22.7      13.6      14.8      0.00      1.28      1.28      1.28      1.24      0.00      1.33      0.00
-  74 183  0   1 20668011 S.M.Qaim,C.Gra  1975     1 74-W-183(N,A)72-HF-180-M,,SIG   3.43     0.292      26.9     9.179E-02 T2 6.432E-02 0.220      13.6      14.7      14.7      0.00      3.14      3.45      3.45      3.86      0.00      3.28      0.00

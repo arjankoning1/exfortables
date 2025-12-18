@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   5  10  0  -1 F0407004 J.R.Patterson,  1965     0 5-B-10(HE3,X)6-C-11,,SIG        0.00      0.00      0.00      0.00         0.00      118.      30.1      3.95      7.99      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-   5  10  0  -1 F0207010 O.D.Brill'      1965     0 5-B-10(HE3,X)6-C-11,,SIG        0.00      0.00      0.00      0.00         0.00      164.      25.0      8.87      29.8      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

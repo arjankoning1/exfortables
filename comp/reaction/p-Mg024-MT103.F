@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  12  24  0  -1 O2096006 G.W.Greenless,  1956     1 12-MG-24(P,INL)12-MG-24,,SIG    1.09     0.943     0.738     0.408     T1  735.      782.      12.8      9.62      9.62      0.00      1.13      0.00      0.00      1.01      0.00      0.00      0.00

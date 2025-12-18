@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   2   3  0  -1 T0046005 R.Roy,F.Seiler  1981     2 2-HE-3(D,EL)2-HE-3,,SIG,,D4PI   1.04      1.02      15.0     0.114     T1 1.000E+03  770.      1.06      14.6      40.0      0.00      0.00      1.04      0.00      0.00      0.00      0.00      0.00

@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  78   0  0  -1 D4132006 A.Hermanne,F.T  2006     5 78-PT-0(A,X)80-HG-192,,SIG      1.47      1.15      7.37     0.242     T1 0.125     0.114      49.9      23.6      37.1      0.00      1.47      0.00      0.00      0.00      0.00      0.00      0.00
-  78   0  0  -1 A0092008 R.N.Sagaidak,V  1979    10 78-PT-0(A,X)79-AU-198,,SIG      2.95     0.354      51.7     0.250     T2  2.44      8.32      12.1      24.7      35.3      0.00      2.95      0.00      0.00      0.00      0.00      0.00      0.00

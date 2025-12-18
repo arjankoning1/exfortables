@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  41  93  0  -1 O1123007 C.Necheva, D.K  1998     0 41-NB-93(HE3,2N+A)41-NB-90,,SI  0.00      0.00      0.00      0.00         0.00     9.300E-02  18.3      6.20      19.5      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

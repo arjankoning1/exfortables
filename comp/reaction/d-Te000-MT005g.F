@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  52   0  0   0 A0234003 J.H.Zaidi,S.M.  1983     0 52-TE-0(D,X)53-I-130-G,,SIG     0.00      0.00      0.00      0.00         0.00      44.6      8.10      6.79      13.2      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

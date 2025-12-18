@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  50   0  0   0 D41890051R.A.Rebeles, A  2007    12 50-SN-0(A,X)52-TE-121-G,,SIG    1.70     0.639      22.5     0.269     T1  68.7      105.      8.00      14.9      37.9      0.00      1.70      0.00      0.00      0.00      0.00      0.00      0.00
-  50   0  0   0 D41890041R.A.Rebeles, A  2007    13 50-SN-0(A,X)52-TE-119-G,,SIG    2.61      2.34      500.     0.232     T1  41.3      15.0      8.08      11.6      37.9      0.00      2.61      0.00      0.00      0.00      0.00      0.00      0.00

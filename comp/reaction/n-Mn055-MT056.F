@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  25  55  0  -1 30463051 Th.Schweitzer,  1978     1 25-MN-55(N,INL)25-MN-55,PAR,SI  1.58     0.638      4.89     0.102     T1  55.6      88.6      16.9      3.40      3.40      0.00      1.47      1.70      1.70      1.53      1.46      0.00      0.00

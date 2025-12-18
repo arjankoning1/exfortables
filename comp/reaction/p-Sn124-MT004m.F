@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  50 124  0   1 A01340035E.A.Skakun,A.I  1979     3 50-SN-124(P,N)51-SB-124-M1,,SI  10.9      10.9     1.125E+03  0.00     T3  51.6      4.70      29.7      6.90      9.10      0.00      10.9      0.00      0.00      0.00      0.00      0.00      0.00
-  50 124  0   1 A0280008 V.G.Batij, E.A  1991     6 50-SN-124(P,N)51-SB-124-M1,,SI  53.5      50.8     6.123E+04  0.00     T3  30.5     0.473      27.2      4.00      9.00      0.00      53.5      0.00      0.00      0.00      0.00      0.00      0.00

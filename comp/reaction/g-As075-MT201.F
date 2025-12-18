@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  33  75  0  -1 L0043022 P.CARLOS,H.BEI  1976    59 33-AS-75(G,X)0-NN-1,,SIG        1.12      1.01      1.59     0.356     T1  83.6      79.6      10.5      9.92      26.2      0.00      1.16      1.05      0.00      1.08      0.00      0.00      0.00
-  33  75  0  -1 L0014002 B.L.Berman,R.L  1969    63 33-AS-75(G,X)0-NN-1,,SIG        1.37      1.31      126.     0.123     T1  75.8      57.2      8.14      10.0      29.5      0.00      1.51      1.32      0.00      1.26      0.00      0.00      0.00

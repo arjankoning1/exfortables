@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  50 118  0   1 F1291007 A.E.Antropov,V  1992     3 50-SN-118(A,X)51-SB-120-M,,SIG  2.85      2.55      120.     0.304     T1  1.63     0.600      19.4      22.1      24.4      0.00      2.85      0.00      0.00      0.00      0.00      0.00      0.00

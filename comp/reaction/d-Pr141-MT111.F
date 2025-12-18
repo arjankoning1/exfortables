@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  59 141  0  -1 D4355009 A.Hermanne,F.T  2016     0 59-PR-141(D,2P)58-CE-141,,SIG   0.00      0.00      0.00      0.00         0.00      1.53      12.1      36.0      48.7      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  14  30  0  -1 A0509008 D.S.Flynn,K.K.  1978   295 14-SI-30(A,N)16-S-33,,SIG       3.71      2.16     5.786E+03 0.112     T3  97.1      56.0      7.43      3.98      6.28      0.00      3.17      0.00      0.00      4.26      0.00      0.00      0.00

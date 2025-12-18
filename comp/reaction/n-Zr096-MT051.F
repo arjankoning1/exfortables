@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  40  96  0  -1 14075003 G.Molnar,T.Bel  1989    14 40-ZR-96(N,INL)40-ZR-96,PAR,SI  2.47     0.627      46.7     9.250E-02 T1  97.0      152.      6.47      2.51      4.01      0.00      2.15      2.09      2.18      2.70      3.24      0.00      0.00

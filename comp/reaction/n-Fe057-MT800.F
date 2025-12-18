@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  26  57  0  -1 32748002 Yu.M.Gledenov,  2014     4 26-FE-57(N,A)24-CR-54,PAR,SIG   1.37      1.08      9.31     0.408     T1  2.04      1.82      11.8      5.00      6.50      0.00      0.00      1.37      1.37      1.37      0.00      0.00      0.00

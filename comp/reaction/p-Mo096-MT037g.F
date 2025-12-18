@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  42  96  0   0 B0025005GJ.J.HOGAN       1972     4 42-MO-96(P,4N)43-TC-93-G,,SIG,  7.52     0.145     6.303E+03 3.312E-02 T2  29.5      121.      34.7      30.0      65.0      0.00      4.49      0.00      0.00      11.3      0.00      0.00      0.00

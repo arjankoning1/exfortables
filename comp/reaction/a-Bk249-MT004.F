@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  97 249  0  -1 C2319002 B.G.Harvey,A.C  1956    10 97-BK-249(A,N)99-ES-252,,SIG    1.79      1.13      25.0     0.431     T2 0.652     0.653      30.0      23.9      40.2      0.00      1.79      0.00      0.00      0.00      0.00      0.00      0.00

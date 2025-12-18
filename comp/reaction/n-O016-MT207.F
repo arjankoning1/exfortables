@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   8  16  0  -1 23005006 T.Sanami, M.Ba  2000     3 8-O-16(N,X)2-HE-4,,SIG          1.53     0.857      14.4     0.382     T1  232.      257.      9.61      13.7      15.0      0.00      1.39      1.33      1.26      2.06      1.44      0.00      0.00
-   8  16  0  -1 11302005 A.B.Lillie      1952     1 8-O-16(N,X)2-HE-4,,SIG          1.58     0.707      0.00     0.180     T1  231.      314.      0.00      14.1      14.1      0.00      1.61      1.48      1.15      2.21      1.07      0.00      0.00

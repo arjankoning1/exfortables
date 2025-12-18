@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  37  83  0  -1 C2660003 G.Lotay,S.A.Gi  2021     1 37-RB-83(P,G)38-SR-84,,SIG      9.84      9.78      134.      0.00     T3 0.684     6.900E-02  78.3      2.42      2.42      0.00      11.5      0.00      0.00      8.34      0.00      0.00      0.00

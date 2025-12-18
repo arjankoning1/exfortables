@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   7  14  0  -1 L0064003 N.Bezic,D.Braj  1969    80 7-N-14(G,ABS),,SIG              2.82      1.23      7.91     0.217     T2  10.9      10.6      63.2      12.0      30.7      0.00      2.82      0.00      0.00      0.00      0.00      0.00      0.00

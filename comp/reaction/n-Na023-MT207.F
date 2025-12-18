@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  11  23  0  -1 31112003 O.N.Kaul        1962     1 11-NA-23(N,X)2-HE-4,,SIG        1.27     0.812      2.32     0.163     T1  147.      185.      15.0      14.0      14.0      0.00      1.39      1.28      0.00      1.01      1.29      0.00      0.00

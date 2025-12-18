@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  98 249  0  -1 40467014 V.D.Gavrilov,V  1976     1 98-CF-249(N,G)98-CF-250,,SIG    1.05     0.955      1.09     0.240     T1 4.958E+05 5.300E+05  6.23     2.530E-08 2.530E-08  0.00      1.06      1.04      1.04      1.04      1.06      1.04      0.00
-  98 249  0  -1 22941043 A.Letourneau,   2009     1 98-CF-249(N,G)98-CF-250,,SIG    1.29      1.29      125.     7.707E-02 T1 4.958E+05 3.840E+05  2.60     2.530E-08 2.530E-08  0.00      1.28      1.30      1.30      1.30      1.28      1.29      0.00

@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  45 103  0  -1 L0035002 A.LEPRETRE,H.B  1974    57 45-RH-103(G,X)0-NN-1,,SIG       1.17      1.03      12.1     0.360     T1  130.      120.      6.33      9.16      25.8      0.00      1.22      1.16      0.00      1.09      0.00      0.00      0.00

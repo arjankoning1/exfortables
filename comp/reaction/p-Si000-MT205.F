@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  14   0  0  -1 O0529013 S.T.KRUGER,D.H  1973     0 14-SI-0(P,X)1-H-3,,SIG          0.00      0.00      0.00      0.00         0.00      47.0      11.6      600.     3.000E+03  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

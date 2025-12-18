@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  39  89  0   1 D0777002 O.Lebeda, J.St  2015     0 39-Y-89(D,2N)40-ZR-89-M,,SIG    0.00      0.00      0.00      0.00         0.00      137.      10.6      7.74      19.5      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-  39  89  0   1 A0347038 H.H.Bissem,R.G  1980     0 39-Y-89(D,2N)40-ZR-89-M,,SIG    0.00      0.00      0.00      0.00         0.00      89.9      8.00      10.4      25.9      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

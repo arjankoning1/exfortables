@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  48 106  0  -1 D4169006 Gy.Gyurky,G.G.  2006     6 48-CD-106(A,N)50-SN-109,,SIG    1.19      1.12      1.72     0.361     T1  4.71      4.35      16.1      10.8      12.5      0.00      1.19      0.00      0.00      0.00      0.00      0.00      0.00
-  48 106  0  -1 C2121003 R.L.Hahn        1965     8 48-CD-106(A,N)50-SN-109,,SIG    2.13     0.619      19.8     0.235     T2  251.      387.      12.0      15.8      31.0      0.00      2.13      0.00      0.00      0.00      0.00      0.00      0.00

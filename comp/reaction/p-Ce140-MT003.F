@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  58 140  0  -1 F1165006 N.E.Davison,D.  1977     7 58-CE-140(P,NON),,SIG           1.07     0.979      2.21     3.076E-02 T1 1.545E+03 1.575E+03  2.69      17.5      48.0      0.00      1.07      0.00      0.00      0.00      0.00      0.00      0.00
-  58 140  0  -1 C1868006 N.E.Davison,D.  1977     7 58-CE-140(P,NON),,SIG           1.07     0.979      2.21     3.076E-02 T1 1.545E+03 1.575E+03  2.69      17.5      48.0      0.00      1.07      0.00      0.00      0.00      0.00      0.00      0.00

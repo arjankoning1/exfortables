@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  46 106  0   0 400290041V.N.Levkovskii  1971     1 46-PD-106(N,P)45-RH-106-G,,SIG  1.23     0.812     0.959     0.219     T1  10.1      14.0      28.6      14.8      14.8      0.00      0.00      0.00      0.00      1.23      0.00      0.00      0.00
-  46 106  0   0 10145014 W.D.Lu, N.Rana  1970     1 46-PD-106(N,P)45-RH-106-G,,SIG  2.18     0.458      6.54     1.192E-07 T1  9.00      19.9      21.4      14.4      14.4      0.00      0.00      0.00      0.00      2.18      0.00      0.00      0.00

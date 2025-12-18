@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  52   0  0  -1 B01650021Y.Homma, Y.Mur  1977     0 52-TE-0(HE3,X)54-XE-125,,SIG    0.00      0.00      0.00      0.00         0.00      69.6      0.00      7.41      38.9      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

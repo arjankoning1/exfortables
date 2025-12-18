@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  69 169  0  -1 10536036 B.P.Bayhurst,J  1975     1 69-TM-169(N,4N)69-TM-166,,SIG   1.72     0.726      103.     0.345     T1  186.      231.      4.33      28.0      28.0      0.00      1.33      1.85      1.46      0.00      0.00      2.13      0.00
-  69 169  0  -1 10536035 B.P.Bayhurst,J  1975     1 69-TM-169(N,4N)69-TM-166,,SIG   2.60     0.638      366.     0.392     T2  23.4      26.0      3.85      26.0      26.0      0.00      1.03      3.44      2.07      0.00      0.00      3.55      0.00

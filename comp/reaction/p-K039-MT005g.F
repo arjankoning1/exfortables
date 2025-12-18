@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  19  39  0   0 B0049008 B.L.Cohen, E.N  1955     1 19-K-39(P,X)19-K-38-G,IND,SIG,  1.14      1.14      0.00     0.310     T1  119.      105.      0.00      21.5      21.5      0.00      1.14      0.00      0.00      0.00      0.00      0.00      0.00

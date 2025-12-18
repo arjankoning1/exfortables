@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  50 122  0   1 30202006 S.Lulic,P.Stro  1968     1 50-SN-122(N,2N)50-SN-121-M,,SI  1.01     0.990     8.414E-02 0.462     T1  848.      875.      15.4      14.4      14.4      0.00      1.02      0.00      1.02      1.00      0.00      1.00      0.00

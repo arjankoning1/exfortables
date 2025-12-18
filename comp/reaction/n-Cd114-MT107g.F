@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  48 114  0   0 40710004 B.G.DZANTIJEV,  1956     1 48-CD-114(N,A)46-PD-111-G,,SIG  1.05     0.972     0.137     0.429     T1 0.422     0.448      29.0      14.0      14.0      0.00      1.00      0.00      1.00      1.04      0.00      1.09      0.00
-  48 114  0   0 11583015 YU-WEN YU,D.G.  1967     1 48-CD-114(N,A)46-PD-111-G,,SIG  1.12     0.931     0.711     0.329     T1 0.459     0.500      15.0      14.1      14.1      0.00      1.00      0.00      1.00      1.09      0.00      1.23      0.00

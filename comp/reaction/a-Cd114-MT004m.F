@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  48 114  0   1 D4204002 R.Adam Rebeles  2008     9 48-CD-114(A,N)50-SN-117-M,,SIG  1.16     0.990      2.42     0.259     T1  33.1      32.9      11.0      6.70      38.1      0.00      1.16      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  40  94  0  -1 L0011017 B.L.Berman,J.T  1967    18 40-ZR-94(G,3N)40-ZR-91,,SIG     1.84      1.29      1.99     0.205     T1  8.29      4.43      49.6      23.2      31.0      0.00      2.50      1.47      0.00      1.44      0.00      0.00      0.00
-  40  94  0  -1 K2115004 H.Utsunomiya,   2008    18 40-ZR-94(G,N)40-ZR-93,,SIG      2.22     0.698      34.4     0.308     T1  18.1      19.3      6.06      8.29      12.8      0.00      2.33      1.09      0.00      1.06      0.00      0.00      0.00

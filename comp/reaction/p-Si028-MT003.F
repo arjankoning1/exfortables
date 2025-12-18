@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  14  28  0  -1 O0579005 A.INGEMARSSON,  1999     1 14-SI-28(P,NON),,SIG            1.00      1.00     4.180E-02 4.823E-02 T1  558.      555.      2.74      65.5      65.5      0.00      1.00      0.00      0.00      0.00      0.00      0.00      0.00

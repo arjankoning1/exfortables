@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  95 241  0  -1 20785002 D.B.Gayther, B  1977     0 95-AM-241(N,ABS),,SIG,,AV       0.00      0.00      0.00      0.00         0.00     7.886E+03  12.4     1.250E-04 0.450      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

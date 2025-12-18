@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  41  93  0  -1 D0431012 A.M.Ferrero,E.  1979     5 41-NB-93(P,X)2-HE-4,,SIG        1.67      1.33      19.7     0.231     T1  61.5      52.0      15.8      19.9      44.3      0.00      1.51      1.89      0.00      1.58      0.00      0.00      0.00

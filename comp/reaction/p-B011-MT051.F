@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   5  11  0  -1 F0257003 J.Kokame        1961     0 5-B-11(P,INL)5-B-11,PAR,SIG     0.00      0.00      0.00      0.00         0.00      54.3      0.00      6.15      7.45      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-   5  11  0  -1 F0294004 F.Borchers,H.D  1983     0 5-B-11(P,INL)5-B-11,PAR,SIG     0.00      0.00      0.00      0.00         0.00      64.6      9.20      3.71      7.52      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

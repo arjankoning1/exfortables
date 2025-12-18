@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  79 197  0  -1 O0276458 R.Michel, R.Bo  1997     8 79-AU-197(P,4N)80-HG-194,,SIG   1.21     0.886      3.38     0.271     T1  540.      634.      10.4      28.9      80.4      0.00      1.21      0.00      0.00      1.20      0.00      0.00      0.00

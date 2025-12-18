@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  66 163  0  -1 K2613003 T.Renstrom, H.  2018    15 66-DY-163(G,N)66-DY-162,,SIG    1.18      1.03      41.4     0.326     T1  90.8      86.1      2.88      6.48      13.2      0.00      1.26      1.12      0.00      1.12      0.00      0.00      0.00

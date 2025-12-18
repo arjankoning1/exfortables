@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  82   0  0  -1 O0839003 I.Leya, R.Wiel  2005    12 82-PB-0(P,X)2-HE-4,,SIG         2.13      1.42      91.9     0.231     T2  89.9      435.      19.9      44.2     2.595E+03  0.00      3.21      1.54      0.00      1.39      0.00      0.00      0.00

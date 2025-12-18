@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  49 113  0  -1 40519005 S.P.Simakov,G.  1981     4 49-IN-113(N,INL)49-IN-113,,SIG  1.07     0.942      1.49     0.323     T1 2.115E+03 2.278E+03  6.58      5.34      8.53      0.00      1.04      1.07      1.07      1.07      1.10      0.00      0.00
-  49 113  0  -1 41155014 S.P.Simakov,G.  1992     4 49-IN-113(N,INL)49-IN-113,,SIG  1.08     0.938      1.25     0.282     T1 2.115E+03 2.298E+03  7.95      5.34      8.53      0.00      1.06      1.07      1.07      1.07      1.11      0.00      0.00

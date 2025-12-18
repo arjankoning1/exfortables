@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  36  86  0  -1 L0174002 R.Raut,A.P.Ton  2013    24 36-KR-86(G,N)36-KR-85,,SIG      1.21      1.13      11.1     0.364     T1  27.2      23.2      25.4      10.0      12.9      0.00      1.30      0.00      0.00      1.09      0.00      0.00      0.00

@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  42  98  0  -1 A01640032A.M.Trufanov,G  1982     4 42-MO-98(P,N)43-TC-98,,SIG      1.09     0.928      3.12     0.326     T1  401.      431.      4.99      6.00      9.00      0.00      1.07      0.00      0.00      1.11      0.00      0.00      0.00
-  42  98  0  -1 C1900007 D.S.Flynn,R.L.  1979   232 42-MO-98(P,N)43-TC-98,,SIG      1.37      1.01     2.677E+03 0.222     T1  83.5      92.6      1.06      2.52      6.80      0.00      1.38      0.00      0.00      1.35      0.00      0.00      0.00

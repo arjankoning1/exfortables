@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  45 103  0   0 O12140021G.W.A.Newton,   1981     5 45-RH-103(A,N)47-AG-106-G,,SIG  1.75     0.916      0.00     0.301     T2  69.9      102.      0.00      16.6      25.1      0.00      1.75      0.00      0.00      0.00      0.00      0.00      0.00

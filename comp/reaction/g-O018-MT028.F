@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   8  18  0  -1 M0613002 K.G.Mcneill,J.  1991    35 8-O-18(G,X)7-N-16,,SIG          3.20     0.352      63.0     6.272E-02 T1 0.284     0.394      74.6      15.0      43.5      0.00      3.20      0.00      0.00      0.00      0.00      0.00      0.00

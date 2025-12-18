@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  44  96  0  -1 A0451004 W.Rapp, M.Heil  2002     5 44-RU-96(A,N)46-PD-99,,SIG      4.17      4.07     1.905E+03 0.116     T3  2.06     0.605      7.79      10.1      11.0      0.00      4.17      0.00      0.00      0.00      0.00      0.00      0.00

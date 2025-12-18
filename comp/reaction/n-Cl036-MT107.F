@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  17  36  0  -1 22368003 C.WAGEMANS,R.B  1996     1 17-CL-36(N,A)15-P-33,,SIG       25.1      5.01     6.994E+06  0.00     T3  93.1     0.590      11.9     2.530E-08 2.530E-08  0.00      1.00      0.00      1.00      1.00      0.00      629.      0.00

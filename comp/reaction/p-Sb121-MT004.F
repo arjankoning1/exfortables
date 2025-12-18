@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  51 121  0  -1 D6012005 B.P.Singh, Man  2006    12 51-SB-121(P,N)52-TE-121,,SIG    4.66     0.344      18.3     0.125     T2  181.      325.      13.5      4.37      20.0      0.00      4.22      0.00      0.00      5.10      0.00      0.00      0.00

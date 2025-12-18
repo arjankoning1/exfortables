@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  34  82  0  -1 40845017 E.S.Konobeevsk  1984     1 34-SE-82(N,INL)34-SE-82,,SIG    1.63     0.617      24.9     0.203     T2  804.     1.300E+03  7.69      1.18      1.18      0.00      1.55      1.83      1.55      1.50      1.70      0.00      0.00
-  34  82  0  -1 40845021 E.S.Konobeevsk  1984     1 34-SE-82(N,INL)34-SE-82,,SIG    1.64     0.612      32.0     0.203     T3  804.     1.310E+03  6.87      1.18      1.18      0.00      1.56      1.84      1.56      1.52      1.71      0.00      0.00

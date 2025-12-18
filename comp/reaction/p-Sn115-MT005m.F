@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  50 115  0   1 D1036008 E.Betak, E.Rur  2007     1 50-SN-115(P,2P)49-IN-114-M,,SI  15.4      13.6     1.141E+04  0.00     T2 0.179     9.704E-03  20.0      23.6      23.6      0.00      6.00      0.00      0.00      30.8      0.00      0.00      0.00

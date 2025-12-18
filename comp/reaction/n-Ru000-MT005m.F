@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  44   0  0   1 32702002 Junhua Luo, Ji  2012     2 44-RU-0(N,X)43-TC-99-M,IND,SIG  5.66     0.178      36.8     5.573E-02 T2  1.67      9.36      13.8      13.5      14.8      0.00      5.90      0.00      5.39      5.70      0.00      0.00      0.00
-  44   0  0   1 10214021 J.K.Temperley,  1970     1 44-RU-0(N,X)43-TC-99-M,,SIG     6.63     0.151      20.2     3.576E-07 T2  1.65      10.9      18.9      14.1      14.1      0.00      6.88      0.00      6.35      6.68      0.00      0.00      0.00

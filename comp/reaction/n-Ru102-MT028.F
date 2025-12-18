@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  44 102  0  -1 22415004 Y.Kasugai, T.T  1992     6 44-RU-102(N,X)43-TC-101,,SIG    17.8     6.394E-02  577.     2.881E-07 T2 0.159      1.43      5.54      13.4      14.9      0.00      41.2      23.7      4.81      13.4      23.7      13.1      0.00
-  44 102  0  -1 22800011 H.Sakane,Y.Kas  2002     6 44-RU-102(N,X)43-TC-101,,SIG    18.3     6.196E-02  130.     2.881E-07 T2 0.159      1.49      8.18      13.4      14.9      0.00      42.3      24.4      4.94      13.8      24.4      13.4      0.00

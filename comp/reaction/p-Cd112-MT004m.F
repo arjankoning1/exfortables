@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  48 112  0   1 P0019010 K.Otozai,S.Kum  1966     5 48-CD-112(P,N)49-IN-112-M,,SIG  1.59     0.669      8.41     0.259     T2  111.      182.      15.4      9.40      22.8      0.00      1.59      0.00      0.00      0.00      0.00      0.00      0.00

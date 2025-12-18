@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  48 106  0  -1 C2121006 R.L.Hahn        1965     1 48-CD-106(A,X)49-IN-108,CUM,SI  13.0      13.0     2.435E+04  0.00     T3  676.      143.      8.56      28.5      37.7      0.00      13.0      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  40  93  0  -1 01040093 Kadonis         2024    19                                 1.01      1.00     8.384E-02 0.336     T1  78.0      90.7      10.6     5.000E-03 0.100      0.00      1.01      1.01      1.01      1.00      1.01      1.02      0.00
-  40  93  0  -1 12915003 R.L.MACKLIN     1985    14 40-ZR-93(N,G)40-ZR-94,,SIG,,AV  1.26      1.08      102.     0.166     T1  162.      157.      12.7     3.500E-03 0.250      0.00      1.26      1.26      1.26      1.26      1.27      1.27      0.00

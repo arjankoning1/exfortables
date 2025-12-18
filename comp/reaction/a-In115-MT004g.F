@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  49 115  0   0 D4385004 G.G.Kiss,T.Szu  2018     6 49-IN-115(A,N)51-SB-118-G,,SIG  1.33     0.780      2.17     0.288     T1  68.8      94.1      19.9      11.5      16.1      0.00      1.33      0.00      0.00      0.00      0.00      0.00      0.00
-  49 115  0   0 A0277004 A.E.Antropov,V  1991     7 49-IN-115(A,N)51-SB-118-G,,SIG  2.52      2.07      42.0     0.290     T3  108.      71.0      22.5      14.6      24.1      0.00      2.52      0.00      0.00      0.00      0.00      0.00      0.00

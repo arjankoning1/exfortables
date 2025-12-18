@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  24  50  0  -1 40557002 I.A.Korzh,V.A.  1977     4 24-CR-50(N,EL)24-CR-50,,SIG     1.12      1.07      1.27     0.323     T1 2.764E+03 2.546E+03  11.5      1.50      3.00      0.00      1.11      1.11      1.14      1.12      1.11      0.00      0.00

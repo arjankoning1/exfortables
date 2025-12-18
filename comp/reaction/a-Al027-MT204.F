@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  13  27  0  -1 C08840052J.R.Wu,C.C.Cha  1979     1 13-AL-27(A,X)1-H-2,,SIG         1.47      1.47      11.0     0.266     T1  457.      311.      14.1      140.      140.      0.00      1.47      0.00      0.00      0.00      0.00      0.00      0.00

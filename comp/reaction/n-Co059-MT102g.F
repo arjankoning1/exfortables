@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  27  59  0   0 23266047 F.Farina Arboc  2013     0 27-CO-59(N,G)27-CO-60-G,,SIG    0.00      0.00      0.00      0.00         0.00     1.670E+04  0.00     2.530E-08 2.530E-08  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-  27  59  0   0 23266046 F.Farina Arboc  2013     0 27-CO-59(N,G)27-CO-60-G,,SIG,,  0.00      0.00      0.00      0.00         0.00     1.670E+04  1.02     2.530E-08 2.530E-08  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

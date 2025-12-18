@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  39  89  0   1 D7014005 M.Shahid, K.Ki  2015    20 39-Y-89(A,2N)41-NB-91-M,,SIG    2.35      1.78      106.     0.321     T2  109.      88.6      12.8      19.4      43.0      0.00      2.35      0.00      0.00      0.00      0.00      0.00      0.00
-  39  89  0   1 E2617003 T.Murata, M.Ai  2019    11 39-Y-89(A,2N)41-NB-91-M,,SIG    2.71      2.31      185.     0.242     T2  123.      66.0      15.4      19.5      38.6      0.00      2.71      0.00      0.00      0.00      0.00      0.00      0.00

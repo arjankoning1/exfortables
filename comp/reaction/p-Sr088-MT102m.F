@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  38  88  0   1 O03160102S.Harissopulos  2021    33 38-SR-88(P,G)39-Y-89-M,,SIG,,S  1.84      1.77      143.     0.415     T1 0.646     0.287      14.9      1.39      4.99      0.00      1.84      0.00      0.00      0.00      0.00      0.00      0.00
-  38  88  0   1 O03160101S.Harissopulos  2021    33 38-SR-88(P,G)39-Y-89-M,,SIG     1.84      1.77      151.     0.413     T1 0.646     0.287      14.9      1.39      4.99      0.00      1.84      0.00      0.00      0.00      0.00      0.00      0.00

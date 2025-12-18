@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  32  73  0  -1 23451003 C.Lederer-Wood  2019   135 32-GE-73(N,G)32-GE-74,,SIG      1.45     0.761      17.3     0.214     T1  190.      258.      7.25     1.406E-02 0.296      0.00      1.17      1.65      1.17      1.65      1.56      1.31      0.00
-  32  73  0  -1 02032073 Gamgam          2024     2                                 1.82     0.714      1.52     0.289     T1  577.      771.      30.9     5.000E-03 1.000E-02  0.00      1.02      2.09      1.02      2.09      2.79      1.02      0.00

@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  26  54  0  -1 D41370032M.R.Zaman,S.Sp  2003     0 26-FE-54(D,T)26-FE-53,,SIG      0.00      0.00      0.00      0.00         0.00     0.325      30.3      11.2      13.8      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

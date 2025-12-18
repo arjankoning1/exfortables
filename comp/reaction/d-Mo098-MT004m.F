@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  42  98  0   1 A0037003 P.P.Zarubin,V.  1978     0 42-MO-98(D,N)43-TC-99-M,,SIG    0.00      0.00      0.00      0.00         0.00      84.7      6.01      6.05      11.8      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-  42  98  0   1 B0109003 Z.Randa, K.Svo  1976     0 42-MO-98(D,N)43-TC-99-M,,SIG    0.00      0.00      0.00      0.00         0.00      26.4      0.00      0.00      11.3      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

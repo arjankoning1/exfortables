@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  76 192  0   1 D4198003 K.Hilgers, H.H  2008     6 76-OS-192(A,3N)78-PT-193-M,,SI  1.88      1.72      42.5     0.152     T1  149.      83.7      15.1      23.5      27.5      0.00      1.88      0.00      0.00      0.00      0.00      0.00      0.00
-  76 192  0   1 O1850003 M.S.Uddin, B.S  2010    26 76-OS-192(A,3N)78-PT-193-M,,SI  1.90     0.621      10.3     0.147     T1  596.     1.047E+03  14.2      26.0      38.9      0.00      1.90      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  46 105  0   1 22433022 Y.Kasugai, H.Y  1998     6 46-PD-105(N,P)45-RH-105-M,,SIG  1.39     0.782      7.28     0.187     R1  10.3      13.1      9.78      13.4      14.9      0.00      1.12      0.00      1.12      0.00      0.00      1.73      0.00
-  46 105  0   1 30336029 R.Prasad, D.C.  1971     1 46-PD-105(N,P)45-RH-105-M,,SIG  1.52     0.698      1.07     9.906E-02 R1  11.3      19.3      41.4      14.8      14.8      0.00      1.24      0.00      1.24      0.00      0.00      1.93      0.00

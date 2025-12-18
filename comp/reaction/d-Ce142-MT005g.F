@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  58 142  0   0 E1881004 K.Otozai, S.Ku  1966     0 58-CE-142(D,2N)59-PR-142-G,,SI  0.00      0.00      0.00      0.00         0.00      397.      9.34      5.58      14.2      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

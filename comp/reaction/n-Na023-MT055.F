@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  11  23  0  -1 23137018 C.Rouki,P.Arch  2012    16 11-NA-23(N,INL)11-NA-23,PAR,SI  5.60      2.45     2.478E+03 0.173     T2  10.4      4.24      145.      2.83      3.10      0.00      8.53      4.43      9.12      1.06      5.88      0.00      0.00

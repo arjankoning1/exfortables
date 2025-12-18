@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  78 196  0   0 30492004GA.Lakshmana Ra  1972     0 78-PT-196(N,G)78-PT-197-G,,SIG  0.00      0.00      0.00      0.00         0.00      62.0      12.9     2.500E-02 2.500E-02  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-  78 196  0   0 232601392F.Farina Arboc  2014     0 78-PT-196(N,G)78-PT-197-G,,SIG  0.00      0.00      0.00      0.00         0.00      718.     0.418     2.530E-08 2.530E-08  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

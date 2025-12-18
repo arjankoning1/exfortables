@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  42  98  0   0 C2413028 E.Lamere,M.Cou  2019    10 42-MO-98(P,X)41-NB-95-G,,SIG    1.28     0.926      2.24     0.222     T1  3.35      3.35      17.5      10.1      19.0      0.00      1.32      0.00      0.00      1.23      0.00      0.00      0.00

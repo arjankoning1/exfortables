@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   5  10  0  -1 F0752007 A.U.Aldzhauakh  1967     3 5-B-10(A,D)6-C-12,PAR,SIG       12.2      12.2     3.249E+03  0.00     T2  55.4      4.67      20.0      21.2      25.0      0.00      12.2      0.00      0.00      0.00      0.00      0.00      0.00

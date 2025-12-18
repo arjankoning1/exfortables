@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   6  12  0  -1 B0013002 J.BANAIGS, J.B  1971     0 6-C-12(D,2N+P)6-C-11,,SIG,,,EX  0.00      0.00      0.00      0.00         0.00      41.7      6.95     2.330E+03 2.330E+03  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  58 142  0  -1 C0711003 B.M.FOREMAN     1961     0 58-CE-142(A,N+2P)58-CE-143,,SI  0.00      0.00      0.00      0.00         0.00      1.02      16.1      16.6      40.1      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  92 235  0  -1 20394004 H.-H.Knitter,   1972     3 92-U-235(N,INL)92-U-235,PAR,SI  5.41     0.249      8.84     1.724E-02 T2  6.73      57.0      110.      1.50      2.30      0.00      0.00      6.45      1.16      4.44      0.00      0.00      0.00

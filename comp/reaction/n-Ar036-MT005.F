@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  18  36  0  -1 40774003 A.V.Elpidinski  1957     1 18-AR-36(N,A)16-S-33,,SIG       1.55      1.55      3.75     0.181     T1  72.7      46.0      30.0      2.50      2.50      0.00      1.55      0.00      1.55      0.00      0.00      0.00      0.00

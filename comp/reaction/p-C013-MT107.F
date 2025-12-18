@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   6  13  0  -1 C2711004 D.L.Oberg,D.Bo  1975    19 6-C-13(P,A)5-B-10,,SIG          2.25      1.83      858.     0.189     T3  134.      84.3      6.56      5.77      18.0      0.00      2.25      0.00      0.00      0.00      0.00      0.00      0.00

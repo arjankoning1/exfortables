@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  29  65  0  -1 D5117009 L.V.Dubar,O.F.  1972     1 29-CU-65(A,NON),,SIG            1.12     0.890      9.26     2.599E-02 T1 1.376E+03 1.546E+03  3.62      26.3      26.3      0.00      1.12      0.00      0.00      0.00      0.00      0.00      0.00

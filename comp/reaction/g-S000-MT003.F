@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  16   0  0  -1 L0122009 J.M.Wyckoff,B.  1965    50 16-S-0(G,ABS),,SIG              3.04      1.70      4.08     0.182     T2  22.9      18.1     0.847      10.1      35.0      0.00      3.04      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  26  56  0  -1 11644004 C.Spira,J.M.Ro  1969     1 26-FE-56(N,A)24-CR-53,PAR,SIG   18.0     5.673E-02  9.58     3.576E-07 T2 0.133      2.30      30.4      14.6      14.6      0.00      0.00      18.5      18.5      26.5      10.7      0.00      0.00

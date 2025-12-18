@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  33  75  0  -1 O2337005 K.Breunig,I.Sp  2017    28 33-AS-75(A,N)35-BR-78,,SIG      1.86      1.27      87.7     0.259     T3  235.      196.      8.29      8.80      37.9      0.00      1.86      0.00      0.00      0.00      0.00      0.00      0.00
-  33  75  0  -1 A0346003 S.M.Qaim,G.Ble  1986    17 33-AS-75(A,N)35-BR-78,,SIG      2.42      1.32      132.     0.190     T3  267.      242.      20.2      12.0      27.7      0.00      2.42      0.00      0.00      0.00      0.00      0.00      0.00

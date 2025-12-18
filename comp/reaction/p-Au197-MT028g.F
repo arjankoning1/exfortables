@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  79 197  0   0 O06900641S.B.Kaufman, M  1976     0 79-AU-197(P,X)79-AU-196-G,,SIG  0.00      0.00      0.00      0.00         0.00      75.0      6.67     1.150E+04 1.150E+04  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-  79 197  0   0 E1306011 Y.Nagame, K.Su  1990     7 79-AU-197(P,N+P)79-AU-196-G,,S  17.6     7.192E-02  80.2     9.045E-03 T2  12.4      117.      10.1      13.9      49.0      0.00      17.6      0.00      0.00      0.00      0.00      0.00      0.00

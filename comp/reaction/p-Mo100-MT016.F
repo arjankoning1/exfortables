@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  42 100  0  -1 O2103008 J.Delaunay-Olk  1963     1 42-MO-100(P,2N)43-TC-99,,SIG    6.95      6.95     1.925E+03  0.00     T3  716.      103.      13.6      11.2      11.2      0.00      6.61      0.00      0.00      7.30      0.00      0.00      0.00

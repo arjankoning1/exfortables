@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  44  99  0   1 22637040 C.Konno, Y.Ike  1993     8 44-RU-99(N,P)43-TC-99-M,,SIG    1.02     0.997     0.219     0.386     R1  12.0      12.1      9.93      13.3      14.9      0.00      1.02      0.00      1.02      1.02      0.00      0.00      0.00
-  44  99  0   1 31437003 D.Kielan,A.Mar  1993     8 44-RU-99(N,P)43-TC-99-M,,SIG    1.07     0.991     0.384     0.304     T1  12.2      12.1      16.9      13.0      16.6      0.00      1.05      0.00      1.05      1.10      0.00      0.00      0.00

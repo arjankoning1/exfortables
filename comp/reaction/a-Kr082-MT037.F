@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  36  82  0  -1 A0887003 V.A.Zagryadski  2011     3 36-KR-82(A,4N)38-SR-82,,SIG     1.35     0.757      2.81     0.191     T1  125.      125.      18.9      36.6      52.3      0.00      1.35      0.00      0.00      0.00      0.00      0.00      0.00

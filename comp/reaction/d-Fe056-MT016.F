@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  26  56  0  -1 S0015004 Tao Zhenlan, Z  1984     0 26-FE-56(D,2N)27-CO-56,,SIG     0.00      0.00      0.00      0.00         0.00      204.      7.13      8.90      15.7      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-  26  56  0  -1 D4018007 S.Sudar,S.M.Qa  1994     0 26-FE-56(D,2N)27-CO-56,,SIG     0.00      0.00      0.00      0.00         0.00      111.      7.58      7.87      13.0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

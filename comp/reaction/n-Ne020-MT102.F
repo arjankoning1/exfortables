@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  10  20  0  -1 13139007 R.R.Winters,R.  1988   111 10-NE-20(N,G)10-NE-21,,SIG      3.15     0.497     0.881     2.144E-02 R2  3.80      14.6      304.     0.142     0.152      0.00      2.77      3.25      2.77      2.84      0.00      4.16      0.00
-  10  20  0  -1 21808008 J.Almeida, F.K  1983   128 10-NE-20(N,G)10-NE-21,,SIG      9.17     0.149      2.51     8.165E-04 T2 0.171      5.00      64.5     4.100E-03 0.215      0.00      9.37      9.64      9.37      7.15      0.00      10.5      0.00

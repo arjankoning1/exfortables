@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  26  56  0  -1 A0510334 V.N.Levkovski   1991    14 26-FE-56(A,X)27-CO-58,,SIG      1.93      1.84      69.0     5.021E-02 T1  725.      408.      12.2      20.1      45.9      0.00      1.93      0.00      0.00      0.00      0.00      0.00      0.00
-  26  56  0  -1 C0716002 A.EWART,C.VALE  1965     4 26-FE-56(A,N+P)27-CO-58,,SIG    2.01      1.82      0.00     4.108E-02 T1  563.      211.      0.00      18.1      67.9      0.00      2.01      0.00      0.00      0.00      0.00      0.00      0.00

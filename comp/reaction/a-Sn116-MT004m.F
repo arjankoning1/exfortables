@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  50 116  0   1 D0652005 D.Filipescu, V  2011     3 50-SN-116(A,N)52-TE-119-M,,SIG  1.39      1.35      6.61     0.207     T1  32.7      18.7      288.      10.3      15.3      0.00      1.39      0.00      0.00      0.00      0.00      0.00      0.00
-  50 116  0   1 A0203002AV.G.Batij,E.A.  1982     9 50-SN-116(A,N)52-TE-119-M,,SIG  1.53     0.756      6.02     0.228     T2  206.      237.      13.8      19.7      29.7      0.00      1.53      0.00      0.00      0.00      0.00      0.00      0.00

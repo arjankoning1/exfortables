@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  36   0  0  -1 11863002 M.CROUCH,V.KRO  1956     0 36-KR-0(N,EL)36-KR-0,COH,SIG    0.00      0.00      0.00      0.00         0.00     7.440E-12  2.02     2.530E-08 2.530E-08  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

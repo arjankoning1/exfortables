@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  51 123  0   0 400290072V.N.Levkovskii  1971     1 51-SB-123(N,P)50-SN-123-G,,SIG  1.66      1.50      5.70     0.166     T1  4.52      2.80      32.1      14.8      14.8      0.00      1.01      0.00      2.31      1.67      0.00      1.29      0.00

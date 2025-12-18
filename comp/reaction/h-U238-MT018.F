@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  92 238  0  -1 B01500022S.MUBARAKMAND,  1977     0 92-U-238(HE3,F),,SIG,,,EXP      0.00      0.00      0.00      0.00         0.00      51.9      0.00      25.1      30.0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-  92 238  0  -1 C2326007 R.H.Iyer,J.W.C  1968     0 92-U-238(HE3,F),,SIG,,AV        0.00      0.00      0.00      0.00         0.00      440.      0.00      32.6      39.4      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

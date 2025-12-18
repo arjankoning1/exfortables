@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  74 186  0   0 F1474002 R.A.Aliev,V.A.  2021    10 74-W-186(A,X)75-RE-186-G,,SIG   1.55      1.18      7.88     0.308     T1  18.0      11.9      19.0      35.2      62.5      0.00      1.55      0.00      0.00      0.00      0.00      0.00      0.00
-  74 186  0   0 F1474003 R.A.Aliev,V.A.  2021    12 74-W-186(A,X)75-RE-188-G,,SIG   3.26     0.548      4.96     0.297     T2  8.98      12.3      19.6      24.2      62.5      0.00      3.26      0.00      0.00      0.00      0.00      0.00      0.00

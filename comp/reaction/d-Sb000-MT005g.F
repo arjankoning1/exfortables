@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  51   0  0   0 D4265006 S.Takacs,M.P.T  2012     0 51-SB-0(D,X)52-TE-121-G,IND,SI  0.00      0.00      0.00      0.00         0.00      86.7      21.0      5.20      49.2      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-  51   0  0   0 D4265004 S.Takacs,M.P.T  2012     0 51-SB-0(D,X)52-TE-119-G,,SIG    0.00      0.00      0.00      0.00         0.00      81.8      11.4      26.0      49.2      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

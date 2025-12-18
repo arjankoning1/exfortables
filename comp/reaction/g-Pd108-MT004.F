@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  46 108  0  -1 K22950042H.Utsunomiya,   2010    10 46-PD-108(G,N)46-PD-107,,SIG    1.39     0.911      10.3     0.340     T1  47.3      45.1      6.92      9.35      13.7      0.00      1.43      1.11      0.00      1.11      0.00      0.00      0.00
-  46 108  0  -1 K22950041H.Utsunomiya,   2010    10 46-PD-108(G,N)46-PD-107,,SIG    1.39     0.911      10.5     0.332     T1  47.3      45.4      6.91      9.35      13.7      0.00      1.44      1.10      0.00      1.10      0.00      0.00      0.00

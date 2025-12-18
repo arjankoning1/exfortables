@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  48 111  0  -1 A0335003 M.Marten,A.Sch  1985    10 48-CD-111(P,3N)49-IN-109,,SIG   1.46     0.802      10.2     0.278     T1  374.      468.      9.40      22.0      44.4      0.00      1.71      0.00      0.00      1.04      0.00      0.00      0.00
-  48 111  0  -1 D4027006 F.Tarkanyi,F.S  1994     7 48-CD-111(P,3N)49-IN-109,,SIG   2.45      1.93      258.     0.189     T3  335.      261.      12.4      20.5      29.3      0.00      2.53      0.00      0.00      1.89      0.00      0.00      0.00

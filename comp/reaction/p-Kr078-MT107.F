@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  36  78  0  -1 D4022004 F.Tarkanyi,Z.K  1993    39 36-KR-78(P,A)35-BR-75,,SIG      1.67     0.834      20.3     0.263     T1  14.0      18.7      13.1      10.8      19.6      0.00      1.67      0.00      0.00      0.00      0.00      0.00      0.00
-  36  78  0  -1 O1618002 F.Helus, St.Ze  1991     9 36-KR-78(P,A)35-BR-75,,SIG      8.52     0.133      17.5     5.904E-02 T2  9.57      70.4      20.0      12.8      28.8      0.00      8.52      0.00      0.00      0.00      0.00      0.00      0.00

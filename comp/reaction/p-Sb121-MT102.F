@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  51 121  0  -1 O21500042S.Harissopulos  2013     5 51-SB-121(P,G)52-TE-122,,SIG,,  1.27     0.849      15.9     0.404     T1 5.607E-03 5.836E-03  7.97      2.40      3.41      0.00      1.39      0.00      0.00      1.07      0.00      0.00      0.00
-  51 121  0  -1 O21500041S.Harissopulos  2013     5 51-SB-121(P,G)52-TE-122,,SIG    1.27     0.850      15.9     0.403     T1 5.607E-03 5.833E-03  7.97      2.40      3.41      0.00      1.39      0.00      0.00      1.07      0.00      0.00      0.00

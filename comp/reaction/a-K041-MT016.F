@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  19  41  0  -1 C1280003 T.Matsuo,T.T.S  1961     7 19-K-41(A,2N)21-SC-43,,SIG      1.29      1.20      11.2     0.452     T2  193.      165.      9.48      24.3      39.9      0.00      1.29      0.00      0.00      0.00      0.00      0.00      0.00
-  19  41  0  -1 A0510258 V.N.Levkovski   1991    37 19-K-41(A,2N)21-SC-43,,SIG      1.81      1.64      46.2     0.220     T3  158.      95.2      12.2      14.2      45.7      0.00      1.81      0.00      0.00      0.00      0.00      0.00      0.00

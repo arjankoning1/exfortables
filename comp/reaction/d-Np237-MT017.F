@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  93 237  0  -1 A0480050 R.Vandenbosch,  1958     0 93-NP-237(D,3N)94-PU-236,,SIG   0.00      0.00      0.00      0.00         0.00      8.39      15.0      13.7      23.3      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-  93 237  0  -1 A0322006 S.Baba,K.Hata,  1985     0 93-NP-237(D,X)94-PU-236,CUM,SI  0.00      0.00      0.00      0.00         0.00      28.5      0.00      10.9      25.0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

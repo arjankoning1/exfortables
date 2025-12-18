@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  55 133  0   1 C2325012 J.B.Natowitz,R  1967     0 55-CS-133(D,P)55-CS-134-M,,SIG  0.00      0.00      0.00      0.00         0.00      25.6      11.9      2.33      13.8      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-  55 133  0   1 D4059027 N.Baron, B.L.C  1963     0 55-CS-133(D,P)55-CS-134-M,,SIG  0.00      0.00      0.00      0.00         0.00      36.5      7.50      19.4      19.4      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

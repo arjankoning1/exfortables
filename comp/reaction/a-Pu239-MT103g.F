@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  94 239  0   0 C2296019 R.A.Glass,R.J.  1956     8 94-PU-239(A,P)95-AM-242-G,,SIG  9.38     0.129      11.2     0.158     T2 0.123     0.680      25.0      20.2      47.5      0.00      9.38      0.00      0.00      0.00      0.00      0.00      0.00

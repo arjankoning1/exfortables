@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  40  90  0  -1 L0248002 A.Banu,E.G.Mee  2019     7 40-ZR-90(G,N)40-ZR-89,,SIG      2.65      1.90      829.     0.130     T3  15.8      5.64      17.4      11.8      13.5      0.00      3.64      2.04      0.00      1.81      0.00      0.00      0.00

@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  22  49  0  -1 C0522002 H.I.WEST JR,R.  1993    19 22-TI-49(P,2N)23-V-48,,SIG      1.35     0.891      1.77     0.191     T2  252.      261.      33.0      13.2      29.9      0.00      1.37      0.00      0.00      1.27      0.00      0.00      0.00
-  22  49  0  -1 A0510027 V.N.Levkovski   1991    18 22-TI-49(P,2N)23-V-48,,SIG      1.43      1.16      25.4     0.245     T2  255.      206.      12.2      12.8      29.5      0.00      1.44      0.00      0.00      1.42      0.00      0.00      0.00

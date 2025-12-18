@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  19  39  0  -1 F1209008 I.B.Teplov,B.A  1957     0 19-K-39(D,P)19-K-40,PAR,SIG     0.00      0.00      0.00      0.00         0.00      12.0      30.0      4.00      4.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  63 151  0   2 41104005 V.I.Gavrilyuk,  1990     1 63-EU-151(N,G)63-EU-152-M2,,SI  1.32     0.757      10.0     0.180     T1 2.949E+03 3.900E+03  7.69     2.530E-08 2.530E-08  0.00      1.32      0.00      1.32      0.00      0.00      0.00      0.00
-  63 151  0   2 30234020 A.Lakshmana Ra  1972     1 63-EU-151(N,G)63-EU-152-M2,,SI  32.6     3.063E-02  52.9     5.960E-08 T2  1.84      60.0      13.3     2.500E-02 2.500E-02  0.00      32.6      0.00      32.6      0.00      0.00      0.00      0.00

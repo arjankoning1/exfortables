@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   4   9  0  -1 O0726002 V.V.VERBINSKI,  1969     1 4-BE-9(P,X)0-NN-1,,SIG          1.80     0.586      0.00     0.128     T2  328.      545.      0.00      18.0      18.0      0.00      2.40      1.38      0.00      1.50      0.00      0.00      0.00

@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   9  19  0  -1 A1406002 T.W.BONNER,J.E  1948    14 9-F-19(P,G)10-NE-20,,SIG,,,EXP 1.184E+03 9.796E-04  769.     1.448E-07 T2 2.170E-02  43.4      3.60     0.334      1.36      0.00     1.184E+03  0.00      0.00      0.00      0.00      0.00      0.00

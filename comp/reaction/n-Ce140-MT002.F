@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  58 140  0  -1 32227011 I.A.Korzh,V.A.  1989     6 58-CE-140(N,EL)58-CE-140,,SIG   1.07      1.02     0.502     0.395     T1 5.575E+03 5.411E+03  13.9      1.00      5.00      0.00      1.10      1.03      1.10      1.06      1.02      0.00      0.00
-  58 140  0  -1 41280013 V.P.VERTEBNYJ,  1970     1 58-CE-140(N,EL)58-CE-140,,SIG   4.22     0.340      144.     0.100     T2 1.943E+03 4.000E+03  5.00     2.530E-08 2.530E-08  0.00      9.43      1.30      9.43      1.38      1.38      0.00      0.00

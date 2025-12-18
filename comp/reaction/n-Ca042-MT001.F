@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  20  42  0  -1 40585003 A.N.DJUMIN,A.I  1977     1 20-CA-42(N,TOT),,SIG            1.03     0.984      7.49     0.329     T1 2.121E+03 2.160E+03 0.926      14.2      14.2      0.00      1.00      1.00      1.00      1.05      0.00      0.00      0.00
-  20  42  0  -1 11601002 J.A.Farrell,E.  1966  1137 20-CA-42(N,TOT),,SIG            2.12      1.25      0.00     0.152     T2 3.711E+03 2.934E+03  0.00     8.000E-02 0.651      0.00      2.07      2.19      2.07      2.16      0.00      0.00      0.00

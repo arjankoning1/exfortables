@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  12   0  0  -1 A0877002 V.V.Kuznetsov,  1958     0 12-MG-0(P,X)1-H-3,,SIG          0.00      0.00      0.00      0.00         0.00      29.5      30.6      300.      660.      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-  12   0  0  -1 C0836008 L.A.Currie,W.F  1956     0 12-MG-0(P,X)1-H-3,,SIG          0.00      0.00      0.00      0.00         0.00      36.0      20.0     2.050E+03 2.050E+03  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

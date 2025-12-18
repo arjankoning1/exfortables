@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  56 134  0  -1 13967002 B.Fazekas,T.Be  1992     3 56-BA-134(N,INL)56-BA-134,PAR,  1.22     0.967      4.93     0.177     T1  641.      684.      9.72      2.00      3.00      0.00      1.16      1.32      1.14      1.13      1.31      0.00      0.00
-  56 134  0  -1 13967003 B.Fazekas,T.Be  1992    15 56-BA-134(N,INL)56-BA-134,PAR,  16.7      15.4      0.00      0.00     T2  603.      41.8      0.00      2.20      2.99      0.00      18.4      19.1      18.3      15.2      13.1      0.00      0.00

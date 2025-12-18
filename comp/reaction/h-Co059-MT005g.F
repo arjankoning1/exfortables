@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  27  59  0   0 A0602011 S.N.KONDRATYEV  1998     0 27-CO-59(HE3,X)25-MN-52-G,CUM,  0.00      0.00      0.00      0.00         0.00      8.40      9.97      17.0      91.9      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  62 144  0  -1 D40550052F.-O.Denzler,   1995     7 62-SM-144(A,2N)64-GD-146,,SIG   6.13      5.10     1.596E+03 0.209     T3  223.      88.0      20.0      20.9      25.4      0.00      6.13      0.00      0.00      0.00      0.00      0.00      0.00

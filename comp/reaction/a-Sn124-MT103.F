@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  50 124  0  -1 F1291010 A.E.Antropov,V  1992     6 50-SN-124(A,P)51-SB-127,,SIG    1.59      1.52      23.7     0.270     T2  4.26      2.92      13.4      19.0      24.4      0.00      1.59      0.00      0.00      0.00      0.00      0.00      0.00
-  50 124  0  -1 C0710004 R.L.HAHN,J.M.M  1961    25 50-SN-124(A,P)51-SB-127,,SIG    1.85     0.644      0.00     0.228     T2  6.33      9.56      0.00      14.7      41.2      0.00      1.85      0.00      0.00      0.00      0.00      0.00      0.00

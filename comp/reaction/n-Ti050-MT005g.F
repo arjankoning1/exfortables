@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  22  50  0   0 30648003 V.K.Chindhade,  1982     1 22-TI-50(N,P)21-SC-50-G,,SIG    3.82     0.268      8.54     0.115     T2  4.35      16.0      25.0      14.4      14.4      0.00      5.24      0.00      3.04      3.28      0.00      0.00      0.00

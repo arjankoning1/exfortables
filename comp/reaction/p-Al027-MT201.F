@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  13  27  0  -1 C06930021G.Chodil,R.C.J  1967    18 13-AL-27(P,X)0-NN-1,,SIG        1.23      1.06      5.19     0.399     T1  91.7      85.0      10.0      7.00      15.0      0.00      1.21      1.23      0.00      1.25      0.00      0.00      0.00
-  13  27  0  -1 O0726007 V.V.VERBINSKI,  1969     2 13-AL-27(P,X)0-NN-1,,SIG        2.48     0.466      0.00     0.124     T2  151.      318.      0.00      14.5      18.3      0.00      2.28      3.07      0.00      2.08      0.00      0.00      0.00

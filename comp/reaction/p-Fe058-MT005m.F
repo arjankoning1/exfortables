@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  26  58  0   1 O02430022P.P.Zarubin,N.  1990     1 26-FE-58(P,N)27-CO-58-M,,SIG    1.02     0.980     6.394E-02 0.328     T1  104.      115.      39.1      6.10      6.10      0.00      1.02      0.00      0.00      0.00      0.00      0.00      0.00
-  26  58  0   1 O10400031S.Sudar, S.M.Q  1996    26 26-FE-58(P,N)27-CO-58-M,,SIG    1.22     0.924      5.60     0.305     T1  191.      211.      8.48      3.54      14.1      0.00      1.22      0.00      0.00      0.00      0.00      0.00      0.00

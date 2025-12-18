@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   6  12  0  -1 E2224008 Y.Ishizaki      1961     0 6-C-12(D,INL)6-C-12,PAR,SIG     0.00      0.00      0.00      0.00         0.00      111.      13.8      14.8      18.2      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

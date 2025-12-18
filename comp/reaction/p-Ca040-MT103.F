@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  20  40  0  -1 O0807002 O.Artun,Y.Cass  1975     2 20-CA-40(P,INL)20-CA-40,,SIG    1.08     0.997     0.400     0.276     T1  16.7      12.9      20.0      110.      600.      0.00      1.16      1.04      0.00      1.12      0.00      0.00      0.00

@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  92 238  0  -1 C0709014 J.WING,W.J.RAM  1959     5 92-U-238(A,X)94-PU-239,CUM,SIG  311.     3.502E-03  0.00     1.788E-07 T2 0.261      44.6      0.00      24.1      43.0      0.00      311.      0.00      0.00      0.00      0.00      0.00      0.00

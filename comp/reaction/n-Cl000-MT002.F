@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  17   0  0  -1 40706005 L.Ya.Kazakova,  1965     1 17-CL-0(N,EL)17-CL-0,,SIG       1.29     0.773      0.00     0.247     T2 2.395E+03 3.100E+03  0.00      2.00      2.00      0.00      0.00      0.00      0.00      0.00      1.29      0.00      0.00

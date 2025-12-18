@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  23  51  0  -1 M0892009 A.D.Antonov,N.  1990    19 23-V-51(G,A)21-SC-47,,SIG,,BRS  1.52      1.08     2.204E-04 0.351     T1 0.453     0.474      3.15      17.6      24.6      0.00      1.52      0.00      0.00      0.00      0.00      0.00      0.00
-  23  51  0  -1 M0894003 A.D.Antonov,N.  1991    45 23-V-51(G,A)21-SC-47,,SIG,,BRS  3.78      1.89      0.00     0.160     T2 0.322     0.382      0.00      15.5      25.1      0.00      3.78      0.00      0.00      0.00      0.00      0.00      0.00

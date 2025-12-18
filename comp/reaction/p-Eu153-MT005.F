@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  63 153  0  -1 A0433003 H.I.West Jr, R  1989    64 63-EU-153(P,N)64-GD-153,,SIG    1.53      1.06     4.250E+03 0.219     T1  57.7      64.9      1.34      4.72      35.5      0.00      1.53      0.00      0.00      0.00      0.00      0.00      0.00
-  63 153  0  -1 A0433004 H.I.West Jr, R  1989    28 63-EU-153(P,3N)64-GD-151,,SIG   1.61      1.17     6.321E+03 0.277     T1  592.      566.     0.698      17.8      35.5      0.00      1.61      0.00      0.00      0.00      0.00      0.00      0.00

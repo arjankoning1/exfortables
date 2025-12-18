@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  50 115  0  -1 D0652006 D.Filipescu, V  2011     4 50-SN-115(A,N)52-TE-118,,SIG    1.19      1.17      2.08     0.314     T1  62.5      49.1      15.4      10.6      15.3      0.00      1.19      0.00      0.00      0.00      0.00      0.00      0.00

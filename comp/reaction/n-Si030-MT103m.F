@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  14  30  0   1 21846018 W.Schantl       1970     0 14-SI-30(N,P)13-AL-30-M,,SIG    0.00      0.00      0.00      0.00         0.00      60.0      16.2      14.7      14.7      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

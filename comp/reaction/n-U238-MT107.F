@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  92 238  0  -1 22551004 N.TRAUTMANN,R.  1969     1 92-U-238(N,A)90-TH-235,,SIG     4.89     0.204      10.2     0.175     T2 0.122     0.600      25.0      14.8      14.8      0.00      0.00      0.00      4.89      0.00      0.00      0.00      0.00
-  92 238  0  -1 21440048 R.F.Coleman,B.  1959     1 92-U-238(N,A)90-TH-235,,SIG     16.0     6.237E-02  22.0     2.384E-07 R2 9.355E-02  1.50      20.0      14.5      14.5      0.00      0.00      0.00      16.0      0.00      0.00      0.00      0.00

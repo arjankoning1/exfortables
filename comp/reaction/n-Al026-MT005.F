@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  13  26  0  -1 23752002 C.Lederer-Wood  2021    18 13-AL-26(N,A)11-NA-23,,SIG      2.25     0.555      1.59     0.174     T1  40.7      104.      69.2     8.180E-02 0.158      0.00      2.25      0.00      2.25      0.00      0.00      0.00      0.00
-  13  26  0  -1 22890003 L.De Smet, C.W  2007   568 13-AL-26(N,A)11-NA-23,,SIG      20.6     0.189      6.88     2.201E-02 T2  10.1      327.      70.7     4.226E-04 0.120      0.00      20.6      0.00      20.6      0.00      0.00      0.00      0.00

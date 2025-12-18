@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  94 242  0   1 E1411183 T.Ohtsuki, Y.N  1991     0 94-PU-242(P,F)36-KR-85-M,(CUM)  0.00      0.00      0.00      0.00         0.00      2.25      3.90      12.0      18.0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

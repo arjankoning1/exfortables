@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  64   0  0  -1 22495002 H.Rauch,M.Zawi  1999     0 64-GD-0(N,ABS),FA,SIG           0.00      0.00      0.00      0.00         0.00     1.090E+10  7.34     5.227E-13 5.227E-13  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  32  72  0  -1 40843018 R.M.Musaelyan,  1983    59 32-GE-72(N,TOT),,SIG            1.21     0.872      30.0     0.171     T1 4.973E+03 5.678E+03  3.38     0.290      1.36      0.00      1.12      1.28      1.12      1.28      1.21      0.00      0.00
-  32  72  0  -1 22046009 L.Koester,K.Kn  1987     2 32-GE-72(N,TOT),,SIG            1.42      1.03      77.4     9.707E-02 T2 1.186E+04 1.075E+04  4.18     5.700E-10 1.260E-06  0.00      1.45      1.41      1.45      1.41      1.42      0.00      0.00

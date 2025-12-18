@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  48 114  0   1 230900031S.Nakamura, H.  2009     0 48-CD-114(N,G)48-CD-115-M,,SIG  0.00      0.00      0.00      0.00         0.00      38.6      35.2     2.530E-08 2.530E-08  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-  48 114  0   1 23113004 T.Hayakawa, T.  2009     0 48-CD-114(N,G)48-CD-115-M,,SIG  0.00      0.00      0.00      0.00         0.00      33.0      30.3     2.530E-08 2.530E-08  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

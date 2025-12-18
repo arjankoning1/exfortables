@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  20  44  0  -1 C1863003 B.D.Anderson,P  1979     0 20-CA-44(P,NON),,SIG            0.00      0.00      0.00      0.00         0.00      643.      6.20      700.      700.      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-  20  44  0  -1 C0462003 R.F.CARLSON,A.  1994     7 20-CA-44(P,NON),,SIG            1.01      1.00     0.190     2.841E-02 T1  959.      957.      2.45      20.8      47.8      0.00      1.01      0.00      0.00      0.00      0.00      0.00      0.00

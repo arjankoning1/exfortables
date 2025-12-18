@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  41  93  0   0 A0382007 N.Ramamoorthy,  1986    21 41-NB-93(A,N)43-TC-96-G,,SIG    2.12     0.871      648.     0.244     T3  56.6      72.5      2.50      9.12      37.6      0.00      2.12      0.00      0.00      0.00      0.00      0.00      0.00
-  41  93  0   0 C0718012 T.MATSUO,J.M.M  1965    16 41-NB-93(A,N)43-TC-96-G,,SIG    4.32      2.86      0.00     0.156     T2  151.      61.1      0.00      13.5      26.5      0.00      4.32      0.00      0.00      0.00      0.00      0.00      0.00

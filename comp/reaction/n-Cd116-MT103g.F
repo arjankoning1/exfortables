@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  48 116  0   0 22433025 Y.Kasugai, H.Y  1998     6 48-CD-116(N,P)47-AG-116-G,,SIG  1.68     0.637      9.41     6.204E-02 R1  1.42      2.24      12.8      13.4      14.9      0.00      2.01      0.00      2.01      1.31      0.00      1.22      0.00
-  48 116  0   0 11583017 YU-WEN YU,D.G.  1967     1 48-CD-116(N,P)47-AG-116-G,,SIG  6.78      6.70      146.      0.00     R2  1.37     0.200      50.0      14.1      14.1      0.00      5.40      0.00      5.40      7.96      0.00      8.67      0.00

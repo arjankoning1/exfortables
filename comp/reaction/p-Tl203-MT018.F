@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  81 203  0  -1 A0878003 L.A.Vaishnene,  2011     0 81-TL-203(P,F),,SIG             0.00      0.00      0.00      0.00         0.00      113.      5.79      207.     1.000E+03  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-  81 203  0  -1 O0627011 V.N.OKOLOVICH,  1974     9 81-TL-203(P,F),,SIG,,,EXP       38.8      37.6     6.273E+05  0.00     T2 0.520     1.791E-02  6.00      23.6      29.6      0.00      38.8      0.00      0.00      0.00      0.00      0.00      0.00

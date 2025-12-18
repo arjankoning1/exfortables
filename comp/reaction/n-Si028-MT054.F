@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  14  28  0  -1 23173012 A.Negret, C.Bo  2013    39 14-SI-28(N,INL)14-SI-28,PAR,SI  1.59      1.09      34.9     0.188     T1  47.3      36.3      12.4      3.43      16.7      0.00      1.91      1.52      1.52      1.53      1.39      0.00      0.00
-  14  28  0  -1 30563014 D.Seeliger, D.  1986     4 14-SI-28(N,INL)14-SI-28,PAR,SI  1.81      1.22      63.8     0.124     T1  46.7      35.8      9.90      8.00      12.0      0.00      2.14      1.76      1.76      1.60      1.78      0.00      0.00

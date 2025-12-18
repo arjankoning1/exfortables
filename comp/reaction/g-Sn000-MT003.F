@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  50   0  0  -1 M0590006 N.Bianchi,V.Mu  1996     0 50-SN-0(G,ABS),,SIG             0.00      0.00      0.00      0.00         0.00      28.4      6.70      301.     1.163E+03  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-  50   0  0  -1 L0061003 A.Lepretre,H.B  1981    25 50-SN-0(G,ABS),,SIG             3.60     0.485      109.     0.363     T2  8.20      10.2      13.0      24.5      132.      0.00      1.48      5.86      0.00      0.00      0.00      0.00      0.00

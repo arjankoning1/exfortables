@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  22  46  0   0 D41050102K.L.Chen, J.M.  1964     0 22-TI-46(D,X)21-SC-44-G,,SIG    0.00      0.00      0.00      0.00         0.00      30.0      7.14      5.50      20.2      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-  22  46  0   0 C0522015 H.I.WEST JR,R.  1993     0 22-TI-46(D,A)21-SC-44-G,,SIG    0.00      0.00      0.00      0.00         0.00      36.8      8.48      5.06      19.8      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

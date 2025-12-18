@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  56 130  0  -1 D4271005 Z.Halasz, Gy.G  2012     9 56-BA-130(A,N)58-CE-133,,SIG    1.35      1.16      10.2     0.284     T1  46.8      36.1      12.9      12.4      16.5      0.00      1.35      0.00      0.00      0.00      0.00      0.00      0.00

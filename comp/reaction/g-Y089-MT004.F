@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  39  89  0  -1 L0059002 L.M.YOUNG       1972    47 39-Y-89(G,N)39-Y-88,,SIG        1.40      1.24      14.9     0.301     T1  144.      122.      11.5      13.4      18.1      0.00      1.68      1.19      0.00      1.21      0.00      0.00      0.00

@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  76 184  0  -1 23488087 F.De Corte,A.S  1988     1 76-OS-184(N,G)76-OS-185,,SIG    1.07     0.940     0.155     0.101     R1 3.025E+06 3.754E+06  50.0     2.530E-08 2.530E-08  0.00      1.07      1.07      1.07      1.07      0.00      1.03      0.00
-  76 184  0  -1 01076184 Kadonis         2024    20                                 1.20      1.15      2.92     0.209     R1  616.      529.      12.3     5.000E-03 0.100      0.00      1.00      1.24      1.00      1.24      0.00      1.30      0.00

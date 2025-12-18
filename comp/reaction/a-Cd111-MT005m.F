@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  48 111  0   1 C2312002 N.T.Porile      1961    13 48-CD-111(A,INL)48-CD-111-M,,S  2.02      1.49      40.3     0.257     T1  14.2      7.11      28.6      16.2      40.0      0.00      2.02      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  63 151  0  -1 40729027 V.P.Vertebnij,  1980     1 63-EU-151(N,EL)63-EU-151,,SIG   1.57     0.781      225.     0.354     T2 1.538E+04 1.842E+04  2.17     2.000E-03 2.000E-03  0.00      2.04      1.08      2.04      1.04      1.08      0.00      0.00

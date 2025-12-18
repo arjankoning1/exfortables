@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  38  88  0  -1 B0069009 D.R.Sachdev, N  1967     2 38-SR-88(P,X)37-RB-84,,SIG      1.52      1.32      26.6     5.010E-02 T1  10.3      29.6      11.0      25.0      85.0      0.00      1.52      0.00      0.00      0.00      0.00      0.00      0.00
-  38  88  0  -1 A0510184 V.N.Levkovski   1991     9 38-SR-88(P,X)37-RB-84,,SIG      1.66     0.617      10.0     0.230     T1  7.85      12.2      12.2      22.2      29.5      0.00      1.66      0.00      0.00      0.00      0.00      0.00      0.00

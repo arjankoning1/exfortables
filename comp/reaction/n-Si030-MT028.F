@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  14  30  0  -1 22702003 Y.Uno,Y.Uwamin  1996     5 14-SI-30(N,X)13-AL-29,,SIG      2.99     0.736      2.96     0.306     T1  87.8      103.      16.0      17.6      38.3      0.00      1.19      1.28      1.28      1.17      375.      1.17      0.00
-  14  30  0  -1 22800004 H.Sakane,Y.Kas  2002     2 14-SI-30(N,X)13-AL-29,,SIG      111.     1.138E-02  124.     1.192E-07 T2 0.179      3.63      22.9      13.4      14.9      0.00      375.      16.9      16.9      193.      0.00      290.      0.00

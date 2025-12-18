@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  23  51  0  -1 10732002 S.M.Grimes,R.C  1978     1 23-V-51(N,X)1-H-1,,SIG          1.38      1.31      6.85     0.234     T1  122.      91.0      15.4      15.0      15.0      0.00      1.63      1.01      1.28      1.40      0.00      0.00      0.00
-  23  51  0  -1 22467012 Kokooo, I.Mura  1999     1 23-V-51(N,X)1-H-1,,SIG          1.55      1.51      883.     0.124     T2  129.      84.3      1.90      14.1      14.1      0.00      1.72      1.21      1.53      1.65      0.00      0.00      0.00

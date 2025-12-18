@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  48 114  0  -1 O25360071P.Vasileiou, T  2021     3 48-CD-114(P,G)49-IN-115,,SIG    1.82     0.699      9.69     0.342     T1 8.684E-02 0.155      25.3      3.40      3.60      0.00      1.82      0.00      0.00      0.00      0.00      0.00      0.00
-  48 114  0  -1 O25360072P.Vasileiou, T  2021     3 48-CD-114(P,G)49-IN-115,,SIG,,  2.25     0.607      5.31     0.331     T2 8.684E-02 0.166      26.1      3.40      3.60      0.00      2.25      0.00      0.00      0.00      0.00      0.00      0.00

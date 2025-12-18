@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  18  38  0  -1 11548002 L.Husain,P.K.K  1968     1 18-AR-38(N,P)17-CL-38,,SIG      1.22     0.877      1.12     0.435     T1  94.3      107.      20.5      14.8      14.8      0.00      1.17      1.46      1.04      1.21      0.00      1.03      0.00
-  18  38  0  -1 11585002 N.Ranakumar,E.  1969     1 18-AR-38(N,P)17-CL-38,,SIG      1.42      1.29      3.28     0.187     T2  103.      75.0      26.7      14.4      14.4      0.00      1.08      1.00      1.77      1.10      0.00      1.71      0.00

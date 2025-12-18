@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  13  27  0  -1 E2239021 T.Yamazaki, M.  1963     0 13-AL-27(A,P)14-SI-30,PAR,SIG   0.00      0.00      0.00      0.00         0.00     0.100      0.00      22.2      22.2      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-  13  27  0  -1 F0957008 A.V.Spassky,I.  1968     0 13-AL-27(A,P)14-SI-30,PAR,SIG   0.00      0.00      0.00      0.00         0.00     0.342      0.00      13.0      25.1      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

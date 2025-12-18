@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  37  85  0  -1 P0064008 S.J.IWATA       1962    14 37-RB-85(A,N)39-Y-88,,SIG       1.99      1.48      0.00     0.269     T2  181.      111.      0.00      10.1      27.5      0.00      1.99      0.00      0.00      0.00      0.00      0.00      0.00
-  37  85  0  -1 A0510467 V.N.Levkovski   1991    38 37-RB-85(A,N)39-Y-88,,SIG       3.22      2.99      406.     0.268     T3  117.      62.2      12.2      13.4      46.0      0.00      3.22      0.00      0.00      0.00      0.00      0.00      0.00

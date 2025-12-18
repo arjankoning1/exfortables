@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  79 197  0  -1 B0033004SF.HERMES, E.W.  1974     0 79-AU-197(HE3,4N)81-TL-196,,SI  0.00      0.00      0.00      0.00         0.00      183.      0.00      25.2      71.8      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

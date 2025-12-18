@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  54 130  0  -1 22816007 R.Reifarth,M.H  2002    18 54-XE-130(N,G)54-XE-131,,SIG,,  1.10     0.967      13.2     0.383     T1  150.      157.      3.74     4.000E-03 0.213      0.00      1.07      0.00      1.07      1.14      0.00      0.00      0.00

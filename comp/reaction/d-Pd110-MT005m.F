@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  46 110  0   1 D4138003 A.Hermanne,S.T  2004     0 46-PD-110(D,2N)47-AG-110-M,,SI  0.00      0.00      0.00      0.00         0.00      222.      9.40      5.80      20.3      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-  46 110  0   1 C2325008 J.B.Natowitz,R  1967     0 46-PD-110(D,P)46-PD-111-M,,SIG  0.00      0.00      0.00      0.00         0.00      15.2      10.2      4.85      14.2      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

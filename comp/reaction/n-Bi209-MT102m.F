@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  83 209  0   1 318490042A.Shor, L.Weis  2022     0 83-BI-209(N,G)83-BI-210-M,,SIG  0.00      0.00      0.00      0.00         0.00      5.70      17.5     5.000E-07 5.000E-07  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-  83 209  0   1 318490022A.Shor, L.Weis  2022     0 83-BI-209(N,G)83-BI-210-M,,SIG  0.00      0.00      0.00      0.00         0.00      22.3      12.6     2.530E-08 2.530E-08  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

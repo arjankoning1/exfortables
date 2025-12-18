@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  72 182  0  -1 01072182 Kadonis         2024    20                                 1.11     0.998      5.01     0.269     T1  133.      131.      4.42     5.000E-03 0.100      0.00      1.13      1.07      1.13      1.07      0.00      1.13      0.00
-  72 182  0  -1 23022004 C.Vockenhuber,  2008     1 72-HF-182(N,G)72-HF-183,,SIG    2.75     0.636      21.2     0.453     T2 1.089E+05 1.343E+05  8.71     2.500E-08 2.500E-08  0.00      1.00      1.00      1.00      1.00      0.00      9.57      0.00

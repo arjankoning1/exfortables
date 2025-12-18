@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  56 136  0   0 C2740005 D.M.Montgomery  1970     8 56-BA-136(A,3N)58-CE-137-G,,SI  3.05      2.28      498.     0.162     T3  397.      130.      9.35      27.1      44.2      0.00      3.05      0.00      0.00      0.00      0.00      0.00      0.00
-  56 136  0   0 C0718018 T.MATSUO,J.M.M  1965     9 56-BA-136(A,3N)58-CE-137-G,,SI  7.47      5.67      0.00     0.143     T2  400.      56.1      0.00      28.0      40.0      0.00      7.47      0.00      0.00      0.00      0.00      0.00      0.00

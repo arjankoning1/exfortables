@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  24  52  0  -1 A0510315 V.N.Levkovski   1991    11 24-CR-52(A,X)24-CR-51,,SIG      1.84     0.740      6.79     0.127     T1  80.6      126.      12.2      20.1      45.8      0.00      1.84      0.00      0.00      0.00      0.00      0.00      0.00
-  24  52  0  -1 A0204009 D.P.Chowdhury,  1995     4 24-CR-52(A,N+A)24-CR-51,,SIG    2.21     0.491      17.1     0.257     T1  26.0      46.1      12.2      20.4      24.7      0.00      2.21      0.00      0.00      0.00      0.00      0.00      0.00

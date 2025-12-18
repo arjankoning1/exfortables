@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  74 182  0  -1 12174003 D.LISTER,A.B.S  1967    55 74-W-182(N,EL)74-W-182,,SIG     1.03     0.997      0.00     0.450     T1 4.814E+03 4.831E+03  0.00     0.333      1.43      0.00      1.03      1.04      1.04      1.03      0.00      0.00      0.00
-  74 182  0  -1 10803008 P.T.Guenther,A  1982    12 74-W-182(N,EL)74-W-182,,SIG     1.04     0.996     0.757     0.459     T1 3.736E+03 3.762E+03  5.52      1.50      3.90      0.00      1.04      1.04      1.04      1.04      0.00      0.00      0.00

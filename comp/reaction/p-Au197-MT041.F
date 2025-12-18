@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  79 197  0  -1 C03570022T.M.KAVANAGH,R  1961     2 79-AU-197(P,P+2N)79-AU-195,,SI  14.7     9.064E-02  0.00     1.364E-02 T2  4.16      114.      0.00      23.2      86.0      0.00      14.7      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  81 203  0   0 10493018GP.K.Eapen,G.N.  1975     0 81-TL-203(N,2N)81-TL-202-G,,SI  0.00      0.00      0.00      0.00         0.00     2.482E+03  7.98      14.8      14.8      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-  81 203  0   0 31496030 A.Grallert, J.  1993     0 81-TL-203(N,A)79-AU-200-G,,SIG  0.00      0.00      0.00      0.00         0.00     0.370      16.2      14.6      14.6      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

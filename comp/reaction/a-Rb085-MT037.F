@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  37  85  0  -1 D0122004 A.Agarwal,M.K.  2003     3 37-RB-85(A,4N)39-Y-85,,SIG      1.23      1.20      16.1     0.353     T1  248.      200.      6.93      42.3      49.9      0.00      1.23      0.00      0.00      0.00      0.00      0.00      0.00
-  37  85  0  -1 O20380041A.Demeyer, N.C  1971     9 37-RB-85(A,4N)39-Y-85,,SIG      1.50      1.19      0.00     0.260     T1  298.      286.      0.00      40.5      54.0      0.00      1.50      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  68 166  0  -1 R0052010 G.C.Martin Jr,  1966     5 68-ER-166(A,N+P)69-TM-168,,SIG  10.6     0.100      12.2     2.304E-02 T2  1.78      28.1      26.3      24.8      39.3      0.00      10.6      0.00      0.00      0.00      0.00      0.00      0.00

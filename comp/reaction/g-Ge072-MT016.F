@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  32  72  0  -1 L0043012 P.CARLOS,H.BEI  1976    31 32-GE-72(G,2N)32-GE-70,,SIG     1.26      1.13      2.60     0.318     T2  26.8      22.4      89.1      17.8      26.5      0.00      1.42      1.11      0.00      1.11      0.00      0.00      0.00
-  32  72  0  -1 M0496009 J.J.Mccarthy,R  1975    10 32-GE-72(G,2N)32-GE-70,,SIG,,B  2.00     0.805      16.8     9.947E-02 T2  17.2      13.8      30.5      10.0      38.0      0.00      1.71      2.13      0.00      2.13      0.00      0.00      0.00

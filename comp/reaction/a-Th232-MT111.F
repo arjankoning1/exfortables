@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  90 232  0  -1 C2309008 B.M.Foreman Jr  1959     0 90-TH-232(A,2P)90-TH-234,,SIG   0.00      0.00      0.00      0.00         0.00     0.108      50.5      26.9      30.9      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

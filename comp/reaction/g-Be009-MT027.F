@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   4   9  0  -1 L0122002 J.M.Wyckoff,B.  1965     0 4-BE-9(G,ABS),,SIG,,BRS         0.00      0.00      0.00      0.00         0.00      3.14      25.0      10.5      34.9      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-   4   9  0  -1 M0856002 M.Anghinolfi,V  1993     0 4-BE-9(G,ABS),,SIG,,FCT         0.00      0.00      0.00      0.00         0.00     0.214      6.42      219.     1.090E+03  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   6  13  0  -1 C0989004 J.B.Marion,G.W  1956     0 6-C-13(D,P)6-C-14,PAR,SIG       0.00      0.00      0.00      0.00         0.00      24.9      5.06     0.640      2.84      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

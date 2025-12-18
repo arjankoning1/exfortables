@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  38   0  0  -1 11617022 D.W.KENT,S.P.P  1962     1 38-SR-0(N,NON),,SIG             1.04     0.965     0.298     0.487     T1 1.538E+03 1.680E+03  15.5      3.66      3.66      0.00      1.04      0.00      1.04      0.00      0.00      0.00      0.00
-  38   0  0  -1 41256003 G.N.Lovchikova  1961     2 38-SR-0(N,NON),,SIG             2.36      1.84      12.9     0.243     T2 1.081E+03  710.      29.3      2.50      2.50      0.00      2.36      0.00      2.36      0.00      0.00      0.00      0.00

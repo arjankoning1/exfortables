@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  48 106  0  -1 130250021T.Mavaddat,S.A  1974     1 48-CD-106(N,P)47-AG-106,,SIG    4.34     0.232      107.     9.033E-02 R3  115.      487.      7.39      14.8      14.8      0.00      4.75      5.00      4.75      3.21      0.00      4.08      0.00

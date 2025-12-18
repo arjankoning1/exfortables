@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  13  27  0  -1 M0747004 P.Golubev,V.Av  2008     0 13-AL-27(G,X)1-PP-0,PAR,SIG     0.00      0.00      0.00      0.00         0.00     4.300E-02  32.3      176.      176.      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-  13  27  0  -1 L0130003 K.Shoda,K.Abe,  1962    20 13-AL-27(G,P)12-MG-26,,SIG,,BR  7.01      3.26      59.4     0.136     T3  9.18      6.60     0.472      14.5      23.9      0.00      9.76      4.87      0.00      6.81      0.00      0.00      0.00

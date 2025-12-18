@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  26  56  0  -1 C0716007 A.EWART,C.VALE  1965    14 26-FE-56(A,4N)28-NI-56,,SIG     1.35      1.16      0.00     0.266     T1 0.336     0.307      0.00      47.6      68.0      0.00      1.35      0.00      0.00      0.00      0.00      0.00      0.00

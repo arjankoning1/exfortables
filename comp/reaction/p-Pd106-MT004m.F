@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  46 106  0   1 A0304009 V.G.Batij, E.A  1986     5 46-PD-106(P,N)47-AG-106-M,,SIG  1.49      1.05      17.6     0.282     T1  21.2      27.6      10.0      6.00      9.00      0.00      1.49      0.00      0.00      0.00      0.00      0.00      0.00
-  46 106  0   1 O1917016 I.Dillmann, L.  2011     5 46-PD-106(P,N)47-AG-106-M,,SIG  1.74      1.52      81.4     0.407     T2 0.316     0.264      9.37      4.21      4.96      0.00      1.74      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  19  39  0  -1 21048007 R.BASS,U.FANGE  1964     9 19-K-39(N,P)18-AR-39,PAR,SIG    1.26      1.21      3.42     0.238     T1  26.3      22.1      15.5      4.00      8.00      0.00      0.00      1.22      0.00      1.29      0.00      0.00      0.00
-  19  39  0  -1 11609004 R.Bass,H.P.Hae  1961    21 19-K-39(N,P)18-AR-39,PAR,SIG    1.75      1.23      3.78     0.350     T1  18.2      12.9      40.0      2.50      3.55      0.00      0.00      1.97      0.00      1.51      0.00      0.00      0.00

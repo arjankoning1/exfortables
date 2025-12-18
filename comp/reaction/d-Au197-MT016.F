@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  79 197  0  -1 S0012004 Long Xianguan,  1987     0 79-AU-197(D,2N)80-HG-197,,SIG   0.00      0.00      0.00      0.00         0.00      398.      8.55      7.70      13.1      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-  79 197  0  -1 F1206003 Yu.V.Khrisanfo  1972     0 79-AU-197(D,2N)80-HG-197,,SIG   0.00      0.00      0.00      0.00         0.00      173.      25.3      8.19      11.7      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

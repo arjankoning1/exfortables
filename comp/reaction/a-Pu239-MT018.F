@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  94 239  0  -1 C2324008 J.A.Powers,N.A  1966     2 94-PU-239(A,F),,SIG             1.48     0.802      0.00     0.292     T1  514.      474.      0.00      21.5      32.0      0.00      1.48      0.00      0.00      0.00      0.00      0.00      0.00
-  94 239  0  -1 A0069005 N.I.Zaika,Ju.V  1980     9 94-PU-239(A,F),,SIG             2.20     0.656      4.80     0.291     T2  182.      173.      19.2      19.1      27.2      0.00      2.20      0.00      0.00      0.00      0.00      0.00      0.00

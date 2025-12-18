@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  78 196  0  -1 40463011 V.P.Efrosinin,  1979    24 78-PT-196(N,INL)78-PT-196,PAR,  1.81     0.612      7.19     0.154     T1  524.      792.      15.7     0.355     0.831      0.00      2.03      1.52      2.03      1.62      0.00      0.00      0.00

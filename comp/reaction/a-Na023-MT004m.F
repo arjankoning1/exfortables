@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  11  23  0   1 C0731003 E.B.NORMAN,T.E  1982    32 11-NA-23(A,N)13-AL-26-M,,SIG    3.04      2.60      653.     0.266     T2  60.9      31.2      15.0      4.10      14.9      0.00      3.04      0.00      0.00      0.00      0.00      0.00      0.00

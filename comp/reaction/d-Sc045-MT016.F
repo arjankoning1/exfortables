@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  21  45  0  -1 E2682002 Z.Tsoodol, M.A  2021     0 21-SC-45(D,2N)22-TI-45,,SIG     0.00      0.00      0.00      0.00         0.00      226.      15.3      5.80      23.3      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-  21  45  0  -1 D4257003 A.Hermanne,R.A  2012     0 21-SC-45(D,2N)22-TI-45,,SIG     0.00      0.00      0.00      0.00         0.00      236.      15.5      4.70      20.5      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

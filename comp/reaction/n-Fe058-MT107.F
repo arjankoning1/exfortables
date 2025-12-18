@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  26  58  0  -1 31481004 A.D.Majdeddin,  1997     1 26-FE-58(N,A)24-CR-55,,SIG      1.22     0.931      2.40     0.433     T1  20.0      21.0      11.0      14.7      14.7      0.00      1.00      0.00      1.09      1.00      1.56      1.00      0.00
-  26  58  0  -1 11718008 D.M.Chittenden  1961     1 26-FE-58(N,A)24-CR-55,,SIG      1.23     0.928      3.34     0.439     R1  20.3      21.5      9.30      14.8      14.8      0.00      1.00      0.00      1.09      1.00      1.57      1.01      0.00

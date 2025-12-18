@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  20  42  0  -1 A0310004 L.W.Mitchell,R  1985     0 20-CA-42(A,P)21-SC-45,PAR,SIG   0.00      0.00      0.00      0.00         0.00      2.65      9.61      4.72      5.91      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-  20  42  0  -1 A0310003 L.W.Mitchell,R  1985     0 20-CA-42(A,P)21-SC-45,PAR,SIG   0.00      0.00      0.00      0.00         0.00      1.50      19.5      4.02      5.88      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

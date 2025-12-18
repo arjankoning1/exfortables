@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  27  59  0  -1 23279011 Y.Uno, S.Meigo  1996     2 27-CO-59(N,2N+A)25-MN-54,,SIG   1.08     0.970      4.38     0.382     T1  14.5      15.4      3.94      27.8      30.1      0.00      1.03      0.00      0.00      0.00      0.00      1.10      0.00
-  27  59  0  -1 22335019 T.S.Soewarsono  1992     3 27-CO-59(N,2N+A)25-MN-54,,SIG   1.43     0.741      9.04     0.307     T1  29.2      44.4      11.5      27.6      37.7      0.00      1.10      0.00      0.00      0.00      0.00      1.43      0.00

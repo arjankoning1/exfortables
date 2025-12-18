@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  47   0  0  -1 C2318011 L.F.Hansen,M.L  1964    10 47-AG-0(A,N),,SIG               2.18     0.484      105.     0.262     T3  134.      320.      5.00      11.9      17.9      0.00      2.18      0.00      0.00      0.00      0.00      0.00      0.00

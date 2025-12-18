@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  40  91  0  -1 A0597008 A.M.Trufanov,G  1990     3 40-ZR-91(P,X)0-NN-1,,SIG        1.18      1.15      3.61     0.264     T1  484.      425.      10.0      7.00      9.00      0.00      1.21      0.00      0.00      1.14      0.00      0.00      0.00

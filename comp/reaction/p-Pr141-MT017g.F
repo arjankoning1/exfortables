@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  59 141  0   0 D0357006 G.F.Steyn,C.Ve  2006    19 59-PR-141(P,3N)60-ND-139-G,,SI  1.20      1.02      11.4     0.247     T1  123.      125.      9.78      23.5      63.7      0.00      1.20      0.00      0.00      0.00      0.00      0.00      0.00

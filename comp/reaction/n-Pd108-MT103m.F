@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  46 108  0   1 10772006 R.L.White,T.J.  1972     4 46-PD-108(N,P)45-RH-108-M,,SIG  1.36      1.05      9.14     0.452     R1  9.92      9.17      11.7      15.1      16.3      0.00      1.30      0.00      1.30      1.45      0.00      1.39      0.00
-  46 108  0   1 22433023 Y.Kasugai, H.Y  1998     6 46-PD-108(N,P)45-RH-108-M,,SIG  1.87      1.69      14.3     0.145     T2  5.38      3.06      26.5      13.4      14.9      0.00      1.37      0.00      1.37      2.38      0.00      2.20      0.00

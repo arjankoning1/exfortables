@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  80 202  0  -1 40215004 E.S.Konobeevsk  1974    21 80-HG-202(N,INL)80-HG-202,PAR,  1.60     0.774      5.62     0.281     T1  456.      533.      12.8     0.448     0.732      0.00      1.68      1.62      1.68      1.41      0.00      0.00      0.00
-  80 202  0  -1 40463008 V.P.Efrosinin,  1979    38 80-HG-202(N,INL)80-HG-202,PAR,  1.60     0.802      2.98     0.255     T1  472.      531.      13.9     0.446     0.923      0.00      1.66      1.64      1.66      1.43      0.00      0.00      0.00

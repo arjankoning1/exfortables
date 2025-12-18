@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  34  77  0  -1 A0048010 G.A.Krivonosov  1977    10 34-SE-77(P,G)35-BR-78,,SIG      2.80     0.382      111.     0.253     T3 0.169     0.494      23.7      1.55      2.97      0.00      2.96      0.00      0.00      2.63      0.00      0.00      0.00

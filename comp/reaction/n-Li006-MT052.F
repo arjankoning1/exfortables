@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   3   6  0  -1 21253003 G.Presser,R.Ba  1969    41 3-LI-6(N,INL)3-LI-6,PAR,SIG     4.52      2.86     1.303E+03 0.236     R2  27.7      6.54      23.5      4.25      7.00      0.00      3.05      1.19      11.9      5.74      1.20      0.00      0.00

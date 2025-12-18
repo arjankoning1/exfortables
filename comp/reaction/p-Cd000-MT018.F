@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  48   0  0  -1 O0649010 M.MAURETTE,C.S  1965     0 48-CD-0(P,F),,SIG,,,EXP         0.00      0.00      0.00      0.00         0.00     3.000E-04  53.3      156.      156.      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

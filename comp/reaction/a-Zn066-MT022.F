@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  30  66  0  -1 A0510390 V.N.Levkovski   1991     6 30-ZN-66(A,X)30-ZN-65,,SIG      1.10      1.07      1.00     5.804E-02 T1  99.8      153.      12.2      23.8      46.0      0.00      1.10      0.00      0.00      0.00      0.00      0.00      0.00
-  30  66  0  -1 A0448007 Y.Nagame, H.Na  1989    13 30-ZN-66(A,X)30-ZN-65,,SIG      2.04      1.23     1.296E+03 0.129     T1  66.4      143.      7.94      19.8      37.9      0.00      2.04      0.00      0.00      0.00      0.00      0.00      0.00

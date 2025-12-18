@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  23  51  0  -1 C0627002 J.L.ZYSKIND,C.  1980    71 23-V-51(P,G)24-CR-52,,SIG       1.79      1.15      298.     0.281     T1 0.259     0.186      6.22     0.925      4.47      0.00      1.96      0.00      0.00      1.62      0.00      0.00      0.00

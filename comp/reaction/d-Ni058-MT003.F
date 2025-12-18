@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  28  58  0  -1 D0314017 K.Bearpark, W.  1965     0 28-NI-58(D,NON),,SIG            0.00      0.00      0.00      0.00         0.00     1.375E+03  4.44      11.0      11.0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-  28  58  0  -1 A0604008 A.Auce,R.F.Car  1996     0 28-NI-58(D,NON),,SIG            0.00      0.00      0.00      0.00         0.00     1.573E+03  2.73      37.9      97.4      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

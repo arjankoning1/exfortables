@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  62 149  0  -1 D0646005 M.Ivascu, I.Ca  2010    20 62-SM-149(P,N)63-EU-149,,SIG    1.37     0.926      6.41     0.279     T1  81.3      109.      33.7      5.43      8.57      0.00      1.37      0.00      0.00      0.00      0.00      0.00      0.00
-  62 149  0  -1 D0742003 I.Gheorghe,D.F  2014     6 62-SM-149(P,N)63-EU-149,,SIG    1.60      1.20      29.8     0.298     T2  54.3      72.2      28.3      3.58      8.57      0.00      1.60      0.00      0.00      0.00      0.00      0.00      0.00

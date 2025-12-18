@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  74 182  0  -1 M0773002 J.D.T.Arruda-N  1995    41 74-W-182(G,F),,SIG,,BRS         1.91     0.932      14.9     0.297     T2 8.115E-03 9.124E-03  10.4      120.      160.      0.00      1.86      0.00      0.00      1.96      0.00      0.00      0.00

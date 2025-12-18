@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   2   3  0  -1 C0205007 R.E.Brown,F.D.  1987     1 2-HE-3(HE3,X)1-H-1,,SIG         1.33     0.751      32.9     8.586E-02 T1  206.      378.      5.49      17.9      24.0      0.00      0.00      1.33      0.00      0.00      0.00      0.00      0.00

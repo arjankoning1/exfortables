@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  79 198  0  -1 20457002 M.J.CABELL, M.  1969     1 79-AU-198(N,G)79-AU-199,,SIG    1.00      1.00     1.305E-03 0.494     T1 2.511E+07 2.510E+07  1.48     2.530E-08 2.530E-08  0.00      1.00      0.00      0.00      1.00      0.00      0.00      0.00

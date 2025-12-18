@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  38  88  0   0 C1756003 C.Riley,K.Ueno  1966     0 38-SR-88(HE3,P)39-Y-90-G,,SIG   0.00      0.00      0.00      0.00         0.00      5.94      25.0      14.0      19.0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-  12  24  0   0 O1718004 C.Fitoussi,J.D  2008     0 12-MG-24(HE3,P)13-AL-26-G,,SIG  0.00      0.00      0.00      0.00         0.00      76.5      20.2      5.90      24.9      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

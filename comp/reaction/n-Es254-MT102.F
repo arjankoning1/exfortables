@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  99 254  0  -1 12933002 J.Halperin,G.D  1985     1 99-ES-254(N,G)99-ES-255,,SIG    1.01     0.996     5.465E-02 0.425     T1 2.778E+04 2.830E+04  8.83     2.530E-08 2.530E-08  0.00      1.01      1.00      1.00      1.00      0.00      1.00      0.00

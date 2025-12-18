@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   8  20  0  -1 E2532003 N.Nakatsuka, H  2017     0 8-O-20(A,INL)8-O-20,PAR,SIG     0.00      0.00      0.00      0.00         0.00      5.10     1.216E+03 1.104E+03 1.104E+03  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-   8  20  0  -1 E2532002 N.Nakatsuka, H  2017     0 8-O-20(A,INL)8-O-20,PAR,SIG     0.00      0.00      0.00      0.00         0.00      1.11     1.441E+03 1.104E+03 1.104E+03  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

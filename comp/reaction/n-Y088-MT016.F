@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  39  88  0  -1 127630042R.J.Prestwood,  1984     2 39-Y-88(N,2N)39-Y-87,,SIG       1.03     0.976     0.958     0.385     T1 1.126E+03 1.160E+03  4.31      14.2      14.8      0.00      1.05      0.00      1.04      1.01      0.00      1.01      0.00

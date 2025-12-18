@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  80 194  0   0 14408002 S.F.Dorsett,K.  2015     1 80-HG-194(N,G)80-HG-195-G,,SIG  14.3     0.114      54.8     0.478     T3 3.165E+05 8.770E+05  10.6     2.500E-08 2.500E-08  0.00      26.0      0.00      26.0      1.00      0.00      0.00      0.00

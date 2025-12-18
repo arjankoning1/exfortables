@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  41  93  0  -1 D0143006 J.Ernst,R.Ibow  1982    37 41-NB-93(A,4N)43-TC-93,,SIG     2.28     0.485      111.     0.283     T2  29.2      73.9      5.56      38.8      171.      0.00      2.28      0.00      0.00      0.00      0.00      0.00      0.00
-  41  93  0  -1 D0140005 C.L.Branquinho  1979     8 41-NB-93(A,4N)43-TC-93,,SIG     2.98     0.348      0.00     0.285     T2  83.3      259.      0.00      43.7      71.9      0.00      2.98      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  92 233  0   2 C0492002 P.A.Beeley,L.Y  1983     0 92-U-233(P,F)ELEM/MASS,,SIG     0.00      0.00      0.00      0.00         0.00      12.9      10.7      35.0      90.0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  28  60  0  -1 C2181002 A.Simon,M.Bear  2015    11 28-NI-60(A,G)30-ZN-64,,SIG      1.65      1.31      28.7     0.345     T1 0.247     0.131      13.3      5.35      7.38      0.00      1.65      0.00      0.00      0.00      0.00      0.00      0.00

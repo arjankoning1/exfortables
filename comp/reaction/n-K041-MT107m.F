@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  19  41  0   1 30322007 J.Janczyszyn,L  1973     1 19-K-41(N,A)17-CL-38-M,,SIG     1.30      1.12      3.46     0.410     R1  12.6      11.0      18.2      14.0      14.0      0.00      1.62      0.00      1.11      1.00      0.00      1.16      0.00

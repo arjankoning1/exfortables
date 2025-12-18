@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   3   6  0  -1 11071002 G.M.Frye Jr     1954     0 3-LI-6(N,D)2-HE-5,PAR,SIG       0.00      0.00      0.00      0.00         0.00      83.0      11.5      14.1      14.1      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

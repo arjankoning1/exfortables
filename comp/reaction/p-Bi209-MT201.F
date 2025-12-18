@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  83 209  0  -1 A0869015 B.V.Zhuravlev,  2010     2 83-BI-209(P,X)0-NN-1,,SIG       1.30      1.21      11.0     0.237     T1  248.      198.      10.0      10.2      11.1      0.00      1.02      1.55      0.00      1.13      0.00      0.00      0.00

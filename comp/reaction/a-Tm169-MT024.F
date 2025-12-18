@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  69 169  0  -1 D0137013 N.L.Singh, S.A  1990     0 69-TM-169(A,2N+A)69-TM-167,,SI  0.00      0.00      0.00      0.00         0.00      8.85      13.7      37.1      46.8      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

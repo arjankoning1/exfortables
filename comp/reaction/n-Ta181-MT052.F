@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  73 181  0  -1 11269008 W.L.ROGERS,D.I  1961     2 73-TA-181(N,INL)73-TA-181,PAR,  1.97     0.510      28.3     9.638E-02 T1  606.     1.185E+03  9.26     0.707     0.901      0.00      1.94      2.08      2.08      1.69      2.06      0.00      0.00
-  73 181  0  -1 40680062 N.P.Glazkov     1963     5 73-TA-181(N,INL)73-TA-181,PAR,  2.28     0.447      26.3     0.101     T1  568.     1.280E+03  11.1     0.400      1.20      0.00      2.21      2.40      2.40      1.95      2.43      0.00      0.00

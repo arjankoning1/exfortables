@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  82 204  0  -1 O0297003 N.G.Zaitseva,E  1994     7 82-PB-204(P,X)82-PB-200,CUM,SI  167.     6.818E-03  18.1     2.742E-07 T2  1.01      49.8      27.3      26.2      39.7      0.00      413.      0.00      0.00      55.5      0.00      0.00      0.00
-  82 204  0  -1 O0297002 N.G.Zaitseva,E  1994    20 82-PB-204(P,X)82-PB-201,CUM,SI  200.     6.277E-03  42.2     1.729E-07 T2  9.58      527.      15.2      25.7      39.7      0.00      375.      0.00      0.00      98.1      0.00      0.00      0.00

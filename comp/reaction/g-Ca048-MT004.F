@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  20  48  0  -1 L0164002 J.R.Tompkins,C  2011    21 20-CA-48(G,N)20-CA-47,,SIG      2.14      1.11     1.205E+03 0.282     T3  13.1      8.18      3.95      9.30      15.3      0.00      2.90      1.54      0.00      1.54      0.00      0.00      0.00

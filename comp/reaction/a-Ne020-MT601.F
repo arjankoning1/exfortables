@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  10  20  0  -1 E1943005 H.Yamaguchi     1961     0 10-NE-20(A,P)11-NA-23,PAR,SIG   0.00      0.00      0.00      0.00         0.00      1.33      0.00      26.9      26.9      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

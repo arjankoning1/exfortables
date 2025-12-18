@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  44  99  0   1 B0052014 H.G.Blosser, T  1955     1 44-RU-99(P,N)45-RH-99-M,,SIG    1.02      1.02     9.295E-02 0.135     T1  457.      420.      28.6      12.0      12.0      0.00      1.02      0.00      0.00      0.00      0.00      0.00      0.00
-  44  99  0   1 A0655003 E.A.Skakun,A.I  1997     5 44-RU-99(P,N)45-RH-99-M,,SIG    1.31     0.779      9.65     0.215     T1  159.      198.      7.50      4.87      8.86      0.00      1.31      0.00      0.00      0.00      0.00      0.00      0.00

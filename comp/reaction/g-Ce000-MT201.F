@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  58   0  0  -1 L0024007 H.BEIL,R.BERGE  1971    61 58-CE-0(G,X)0-NN-1,,SIG         1.23     0.962      17.2     0.271     T1  200.      190.      9.87      8.77      16.9      0.00      1.25      1.11      0.00      1.31      0.00      0.00      0.00
-  58   0  0  -1 M0542004 J.Miller,C.Sch  1962    29 58-CE-0(G,X)0-NN-1,,SIG         2.42      1.73      14.8     0.150     T2  200.      146.      56.1      8.20      22.4      0.00      2.45      2.59      0.00      2.23      0.00      0.00      0.00

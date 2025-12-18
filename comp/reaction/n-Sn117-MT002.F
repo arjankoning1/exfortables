@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  50 117  0  -1 40143007 Yu.V.Adamchuk,  1969     1 50-SN-117(N,EL)50-SN-117,POT,S  1.04     0.988      24.5     0.474     T1 4.695E+03 4.750E+03 0.842     1.000E-04 1.000E-04  0.00      1.02      1.02      1.02      1.07      1.06      0.00      0.00
-  50 117  0  -1 40937037 Zo-In-Ok, V.G.  1985    34 50-SN-117(N,EL)50-SN-117,,SIG   1.23      1.10      12.1     0.267     T2 6.498E+03 5.904E+03  7.35     7.000E-04 0.442      0.00      1.26      1.15      1.26      1.31      1.14      0.00      0.00

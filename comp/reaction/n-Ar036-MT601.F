@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  18  36  0  -1 11553008 E.A.DAVIS,T.W.  1964    37 18-AR-36(N,P)17-CL-36,PAR,SIG   2.02      1.86      14.3     0.283     T2  80.7      41.0      18.2      2.12      5.01      0.00      0.00      0.00      0.00      2.02      0.00      0.00      0.00

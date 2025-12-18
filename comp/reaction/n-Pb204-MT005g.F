@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  82 204  0   0 22818020 P.Reimer, M.Hu  2001     5 82-PB-204(N,2N)82-PB-203-G,,SI  2.08     0.483      41.2     0.131     T1  885.     1.811E+03  8.23      18.0      20.5      0.00      2.11      2.03      2.11      0.00      0.00      0.00      0.00

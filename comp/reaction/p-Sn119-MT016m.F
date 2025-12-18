@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  50 119  0   1 O1706003 H.Thisgaard, M  2009     4 50-SN-119(P,2N)51-SB-118-M,,SI  1.35     0.744      16.0     0.274     T1  40.1      52.2      6.51      12.3      15.2      0.00      1.35      0.00      0.00      0.00      0.00      0.00      0.00

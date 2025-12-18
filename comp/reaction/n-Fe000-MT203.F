@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  26   0  0  -1 10827033 S.M.Grimes,R.C  1979     1 26-FE-0(N,X)1-H-1,,SIG          1.37     0.853      3.22     0.306     T1  198.      230.      13.0      14.8      14.8      0.00      1.03      2.03      1.04      1.00      1.02      0.00      0.00
-  26   0  0  -1 22467014 Kokooo, I.Mura  1999     1 26-FE-0(N,X)1-H-1,,SIG          1.52     0.799      201.     0.306     T3  173.      206.      1.95      14.1      14.1      0.00      1.06      2.52      1.10      1.03      1.07      0.00      0.00

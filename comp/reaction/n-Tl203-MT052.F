@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  81 203  0  -1 10367002 N.Ahmed,D.R.Gi  1975     8 81-TL-203(N,INL)81-TL-203,PAR,  1.64     0.895      21.2     0.226     T1  168.      179.      10.1      1.21      2.76      0.00      1.75      1.67      1.75      1.36      0.00      0.00      0.00

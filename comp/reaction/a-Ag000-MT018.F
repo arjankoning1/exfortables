@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  47   0  0  -1 O1101007 M.Debeauvais,   1980     0 47-AG-0(A,F),,SIG               0.00      0.00      0.00      0.00         0.00      1.30      38.5      640.      640.      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-  47   0  0  -1 C1751002 A.Buttkewitz,H  2009     0 47-AG-0(A,F),,SIG               0.00      0.00      0.00      0.00         0.00     3.000E-02  23.3      120.      120.      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

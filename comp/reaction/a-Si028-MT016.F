@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  14  28  0  -1 C0915047 D.J.Frantsvog,  1982     1 14-SI-28(A,2N)16-S-30,,SIG,,AV  5.72      5.72      557.     0.304     T2 0.572     0.100      20.0      30.0      30.0      0.00      5.72      0.00      0.00      0.00      0.00      0.00      0.00

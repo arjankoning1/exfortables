@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   7  14  0  -1 C0179007 P.N.Shrivastav  1968    16 7-N-14(P,HE3)6-C-12,PAR,SIG     3.30      3.04      784.     0.225     T1  30.7      11.2      10.0      8.20      10.4      0.00      3.30      0.00      0.00      0.00      0.00      0.00      0.00
-   7  14  0  -1 D0110003 A.M.MacLeod,J.  1966     2 7-N-14(P,HE3)6-C-12,PAR,SIG     5.24      5.22      444.     0.354     T1  73.0      14.1      21.2      13.2      13.2      0.00      5.24      0.00      0.00      0.00      0.00      0.00      0.00

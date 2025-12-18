@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  32  73  0  -1 22637014 C.Konno, Y.Ike  1993     4 32-GE-73(N,X)31-GA-72,,SIG      1.97     0.562      44.8     8.553E-02 T1  2.43      3.90      7.69      13.5      15.0      0.00      2.07      1.52      2.07      1.52      3.04      1.34      0.00

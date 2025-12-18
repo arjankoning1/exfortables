@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  83 209  0  -1 A0544008 O.N.Vysotsky,A  1992     0 83-BI-209(HE3,X)84-PO-210,CUM,  0.00      0.00      0.00      0.00         0.00      117.      16.1      30.0      93.4      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-  83 209  0  -1 R0053006 N.E.Scott, J.W  1968     0 83-BI-209(HE3,X)84-PO-210,,SIG  0.00      0.00      0.00      0.00         0.00      111.      0.00      24.7      34.7      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

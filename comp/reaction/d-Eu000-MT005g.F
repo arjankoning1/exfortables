@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  63   0  0   0 D4284011 S.Takacs,F.Tar  2013     0 63-EU-0(D,X)63-EU-150-G,,SIG    0.00      0.00      0.00      0.00         0.00      69.4      16.2      2.20      49.7      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

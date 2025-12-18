@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   6  13  0  -1 C2239003 N.Curtis,S.Alm  2016     1 6-C-13(A,N+A)6-C-12,ISP/PAR,SI 4.518E+03 4.518E+03 3.598E+08  0.00     T3  448.     9.910E-02  23.8      27.5      27.5      0.00     4.518E+03  0.00      0.00      0.00      0.00      0.00      0.00

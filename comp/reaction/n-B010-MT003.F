@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   5  10  0  -1 11226003 M.H.MacGregor,  1957     1 5-B-10(N,NON),,SIG              302.      12.8     2.150E+12  0.00     T2 3.935E+07  560.      10.7      14.2      14.2      0.00     3.513E+05  1.00      1.00      1.03      1.00      0.00      0.00

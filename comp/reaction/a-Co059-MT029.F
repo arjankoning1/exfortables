@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  27  59  0  -1 C0265009 E.F.Neuzil,R.H  1963     0 27-CO-59(A,N+2A)25-MN-54,,SIG   0.00      0.00      0.00      0.00         0.00      3.95      20.0      36.8      40.5      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

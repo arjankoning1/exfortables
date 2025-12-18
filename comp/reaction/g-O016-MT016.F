@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   8  16  0  -1 M0829003 B.Johnsson,M.N  1977     0 8-O-16(G,2N)8-O-14,,SIG,,BRS    0.00      0.00      0.00      0.00         0.00     7.462E-03  21.4      215.      706.      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  69 169  0   0 31497027 XIANGZHONG KON  1998     1 69-TM-169(N,A)67-HO-166-G,,SIG  1.89      1.36      144.     0.426     T1  2.70      1.61      11.8      14.7      14.7      0.00      1.01      4.16      1.09      1.04      0.00      1.00      0.00
-  69 169  0   0 219970121S.M.Qaim        1984     1 69-TM-169(N,A)67-HO-166-G,,SIG  1.98      1.50      356.     0.280     T1  2.70      1.48      8.36      14.7      14.7      0.00      1.11      4.51      1.22      1.16      0.00      1.05      0.00

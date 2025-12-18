@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  98 252  0  -1 10323002 M.S.Moore,J.H.  1971  1333 98-CF-252(N,F),,SIG             8.29     0.537     6.868E+06 9.616E-02 T3 2.111E+04 2.891E+04 7.763E+03 2.401E-05  4.68      0.00      37.8      4.54      4.54      4.54      0.00      4.54      0.00

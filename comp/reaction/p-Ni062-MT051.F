@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  28  62  0  -1 F0834005 C.I.W.Tingwell  1989     0 28-NI-62(P,INL)28-NI-62,PAR,SI  0.00      0.00      0.00      0.00         0.00      8.80      11.4      2.07      4.38      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-  28  62  0  -1 O0167022 S.F.ECCLES,H.F  1966     0 28-NI-62(P,INL)28-NI-62,PAR,SI  0.00      0.00      0.00      0.00         0.00      37.0      10.0      18.6      18.6      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

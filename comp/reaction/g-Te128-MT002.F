@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  52 128  0  -1 L0273003 J.Isaak,D.Savr  2021     0 52-TE-128(G,EL)52-TE-128,,SIG   0.00      0.00      0.00      0.00         0.00      2.82      11.9      2.77      8.92      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

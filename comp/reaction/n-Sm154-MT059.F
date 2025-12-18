@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  62 154  0  -1 10362009 S.A.Elbakr,I.J  1973     5 62-SM-154(N,INL)62-SM-154,PAR,  4.08      2.95      130.     0.134     T2  95.0      27.3      42.0      1.40      2.10      0.00      1.45      7.88      1.45      3.20      7.41      0.00      0.00

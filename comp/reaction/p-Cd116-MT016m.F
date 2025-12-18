@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  48 116  0   1 A0001013 E.A.Skakun,A.P  1975     7 48-CD-116(P,2N)49-IN-115-M,,SI  1.22     0.902      1.88     0.141     T1  237.      269.      15.0      11.5      20.9      0.00      1.22      0.00      0.00      0.00      0.00      0.00      0.00
-  48 116  0   1 D4229004 A.Hermanne,F.T  2010    21 48-CD-116(P,2N)49-IN-115-M,,SI  1.32     0.863      9.46     0.218     T1  116.      111.      9.38      7.40      36.8      0.00      1.32      0.00      0.00      0.00      0.00      0.00      0.00

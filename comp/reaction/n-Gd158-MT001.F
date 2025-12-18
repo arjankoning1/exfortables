@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  64 158  0  -1 22386025 K.Wisshak,F.Vo  1995     9 64-GD-158(N,TOT),,SIG,,AV       1.12     0.989      6.42     0.331     T1 9.985E+03 1.003E+04  4.80     1.250E-02 0.175      0.00      1.13      1.10      0.00      1.12      1.13      0.00      0.00

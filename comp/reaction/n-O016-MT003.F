@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   8  16  0  -1 20907013 D.MEIER,M.BREU  1969     1 8-O-16(N,NON),,SIG              1.04     0.968     0.290     0.316     T1  637.      690.      14.5      14.1      14.1      0.00      1.05      0.00      1.02      0.00      1.02      0.00      0.00

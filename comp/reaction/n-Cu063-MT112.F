@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  29  63  0  -1 22877005 V.Semkova, R.C  2007     5 29-CU-63(N,P+A)26-FE-59,,SIG    1.64      1.11      103.     0.316     T1 0.265     0.187      8.24      17.4      19.9      0.00      2.20      0.00      0.00      1.20      0.00      1.34      0.00

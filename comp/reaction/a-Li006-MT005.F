@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   3   6  0  -1 A1489005 W.Auwarter,V.M  1975     1 3-LI-6(A,G)5-B-10,,SIG,,,EXP    1.62     0.619      3.38     0.167     T1 1.065E-03 1.800E-03  22.2      4.06      4.06      0.00      1.62      0.00      0.00      0.00      0.00      0.00      0.00

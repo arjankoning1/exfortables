@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  74 182  0  -1 22937008 A.N.Smirnov, O  2007     4 74-W-182(N,F),,SIG              6.71     0.334      20.5     0.219     T2 0.281     0.553      12.0      65.1      172.      0.00      30.1      1.12      1.12      0.00      0.00      0.00      0.00

@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  34  78  0  -1 D0568005 I.Spahn,G.F.St  2009    26 34-SE-78(P,3N)35-BR-76,,SIG     1.81      1.08      321.     0.220     T1  157.      144.      11.8      23.4      64.7      0.00      1.85      0.00      0.00      1.77      0.00      0.00      0.00
-  34  78  0  -1 A0510142 V.N.Levkovski   1991     6 34-SE-78(P,3N)35-BR-76,,SIG     2.01      1.72      114.     0.257     T1  75.1      54.5      12.2      24.8      29.5      0.00      2.28      0.00      0.00      1.24      0.00      0.00      0.00

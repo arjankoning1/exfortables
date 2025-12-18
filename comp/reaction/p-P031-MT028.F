@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  15  31  0  -1 B0049006 B.L.Cohen, E.N  1955     1 15-P-31(P,X)15-P-30,CUM,SIG,,,  1.08     0.922      0.00     0.168     T1  221.      240.      0.00      21.5      21.5      0.00      1.08      0.00      0.00      0.00      0.00      0.00      0.00
-  15  31  0  -1 A0181004 S.M.Sahakundu,  1979     8 15-P-31(P,X)15-P-30,CUM,SIG     3.48      2.42     1.386E+04 0.178     T1  214.      109.      5.00      19.6      34.4      0.00      3.48      0.00      0.00      0.00      0.00      0.00      0.00

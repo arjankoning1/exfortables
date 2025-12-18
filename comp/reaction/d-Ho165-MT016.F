@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  67 165  0  -1 D4200002 F.Tarkanyi, A.  2008     0 67-HO-165(D,2N)68-ER-165,,SIG   0.00      0.00      0.00      0.00         0.00      311.      11.7      5.50      21.1      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-  67 165  0  -1 D4285003 A.Hermanne,R.A  2013     0 67-HO-165(D,2N)68-ER-165,,SIG   0.00      0.00      0.00      0.00         0.00      165.      14.9      3.70      42.9      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

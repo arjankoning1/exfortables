@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  79 197  0  -1 P0107008 D.VINCIGUERRA,  1966     0 79-AU-197(A,3N+P)80-HG-197,,SI  0.00      0.00      0.00      0.00         0.00      16.3      0.00      42.5      51.7      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

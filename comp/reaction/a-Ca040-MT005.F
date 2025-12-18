@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  20  40  0  -1 A0510261 V.N.Levkovski   1991    26 20-CA-40(A,P)21-SC-43,,SIG      1.88     0.844      15.3     0.259     T1  289.      224.      12.2      6.80      35.0      0.00      1.88      0.00      0.00      0.00      0.00      0.00      0.00
-  20  40  0  -1 C1406002 H.Nassar,M.Pau  2006     1 20-CA-40(A,G)22-TI-44,,SIG      3.95     0.253      29.5     0.233     T2 2.025E-03 8.000E-03  13.7      3.45      3.45      0.00      3.95      0.00      0.00      0.00      0.00      0.00      0.00

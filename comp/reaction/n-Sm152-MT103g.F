@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  62 152  0   0 314390021A.Kirov,N.Neno  1993     1 62-SM-152(N,P)61-PM-152-G,,SIG  2.01     0.845      26.8     0.443     T2  4.11      4.03      9.49      14.5      14.5      0.00      1.36      0.00      1.36      0.00      0.00      3.08      0.00
-  62 152  0   0 231830021I.A.Reyhancan   2012     6 62-SM-152(N,P)61-PM-152-G,,SIG  2.05     0.778      3.57     0.388     T2  3.67      3.86      26.1      13.6      14.8      0.00      1.30      0.00      1.30      0.00      0.00      3.27      0.00

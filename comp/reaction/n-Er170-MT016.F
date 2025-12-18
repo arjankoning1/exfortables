@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  68 170  0  -1 20058003 H.Spenke        1964     1 68-ER-170(N,2N)68-ER-169,,SIG   1.08      1.05     0.704     0.495     T1 1.944E+03 1.813E+03  12.1      14.8      14.8      0.00      1.00      1.18      1.00      1.05      0.00      1.02      0.00
-  68 170  0  -1 12033049 R.G.Wille,R.W.  1960     1 68-ER-170(N,2N)68-ER-169,,SIG   1.64      1.63      2.68     0.138     R2 1.944E+03 1.136E+03  44.0      14.8      14.8      0.00      1.48      1.88      1.54      1.67      0.00      1.59      0.00

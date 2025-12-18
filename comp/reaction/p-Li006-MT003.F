@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   3   6  0  -1 C0215002 R.F.CARLSON,A.  1985     6 3-LI-6(P,NON),,SIG              1.03      1.02      2.22     9.907E-02 T1  327.      321.      2.54      25.0      48.0      0.00      1.03      0.00      0.00      0.00      0.00      0.00      0.00

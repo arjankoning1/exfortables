@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   5  11  0  -1 D6072002 D.R.Chakrabart  2008    20 5-B-11(P,G)6-C-12,,SIG          119.      95.8     1.304E+07  0.00     T2 0.443     1.966E-03  8.74      7.02      24.5      0.00      119.      0.00      0.00      0.00      0.00      0.00      0.00

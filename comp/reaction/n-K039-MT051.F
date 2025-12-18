@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  19  39  0  -1 21098005 J.H.Towle,W.B.  1965     1 19-K-39(N,INL)19-K-39,PAR,SIG   1.58     0.700      45.5     7.314E-02 T1  75.4      104.      4.81      3.76      3.76      0.00      1.24      2.32      1.25      1.16      0.00      0.00      0.00

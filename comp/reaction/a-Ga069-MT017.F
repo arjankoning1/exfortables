@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  31  69  0  -1 A0631005 I.A.Rizvi,M.K.  1989     7 31-GA-69(A,3N)33-AS-70,,SIG     2.96     0.342      79.1     0.334     T2  38.0      116.      10.9      34.6      59.6      0.00      2.96      0.00      0.00      0.00      0.00      0.00      0.00
-  31  69  0  -1 A0510407 V.N.Levkovski   1991    13 31-GA-69(A,3N)33-AS-70,,SIG     3.52     0.285      34.4     0.258     T2  53.3      189.      12.2      34.7      46.0      0.00      3.52      0.00      0.00      0.00      0.00      0.00      0.00

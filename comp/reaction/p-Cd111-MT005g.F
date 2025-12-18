@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  48 111  0   0 D4027003 F.Tarkanyi,F.S  1994    17 48-CD-111(P,2N)49-IN-110-G,,SI  2.26      1.70      308.     0.300     T1  367.      200.      12.1      13.3      29.3      0.00      1.24      0.00      0.00      3.11      0.00      0.00      0.00
-  48 111  0   0 P0019008 K.Otozai,S.Kum  1966     2 48-CD-111(P,2N)49-IN-110-G,,SI  3.31      2.37      388.     0.326     T3  216.      47.6      44.6      11.2      14.7      0.00      1.05      0.00      0.00      5.44      0.00      0.00      0.00

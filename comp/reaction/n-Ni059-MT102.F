@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  28  59  0  -1 10680006 J.A.Harvey,J.H  1976     1 28-NI-59(N,G)28-NI-60,,SIG      1.02     0.982     0.252     0.424     T1 7.496E+04 7.800E+04  10.3     2.530E-08 2.530E-08  0.00      1.03      1.01      1.04      1.01      0.00      1.00      0.00
-  28  59  0  -1 02028059 Gamgam          2024     1                                 3.32     0.481      1.60     6.155E-02 T2  142.      335.      42.8     5.000E-03 1.000E-02  0.00      1.00      2.36      12.6      1.10      0.00      1.18      0.00

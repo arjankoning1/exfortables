@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  20  48  0  -1 C0670002 J.L.ZYSKIND,J.  1979    87 20-CA-48(P,G)21-SC-49,,SIG      2.20     0.884     1.661E+03 0.257     T2 6.763E-02 7.367E-02  6.45     0.579      2.67      0.00      2.31      0.00      0.00      2.07      0.00      0.00      0.00
-  20  48  0  -1 O1125002 S.R.Kennett, Z  1979    37 20-CA-48(P,G)21-SC-49,,SIG      2.57     0.590      11.2     0.241     T2 6.186E-02 0.100      20.0     0.738      2.17      0.00      3.23      0.00      0.00      1.67      0.00      0.00      0.00

@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   5  10  0  -1 22106027 A.Takahashi, M  1992     1 5-B-10(N,INL)5-B-10,PAR,SIG     6.61     0.157      284.     3.576E-07 T2  16.1      96.9      4.95      14.1      14.1      0.00      0.00      4.92      4.92      10.7      0.00      0.00      0.00

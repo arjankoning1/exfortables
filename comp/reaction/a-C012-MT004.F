@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   6  12  0  -1 C2316002 J.W.Nelson,E.B  1963    38 6-C-12(A,N)8-O-15,,SIG          2.51      2.18      12.5     0.387     T2  22.6      9.79      50.0      11.3      19.2      0.00      2.84      0.00      0.00      1.17      0.00      0.00      0.00
-   6  12  0  -1 P0133002 J.L.BLACK,H.M.  1968   243 6-C-12(A,N)8-O-15,,SIG          3.21      2.78      76.0     0.329     T2  27.3      9.56      30.0      11.4      22.7      0.00      3.57      0.00      0.00      1.16      0.00      0.00      0.00

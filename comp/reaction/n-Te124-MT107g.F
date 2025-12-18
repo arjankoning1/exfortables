@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  52 124  0   0 40029010 V.N.Levkovskii  1971     1 52-TE-124(N,A)50-SN-121-G,,SIG  1.91      1.60      28.9     0.234     T1  1.35     0.760      19.7      14.8      14.8      0.00      1.00      0.00      2.37      1.04      0.00      2.61      0.00
-  52 124  0   0 31117002 N.K.Majumdar,A  1963     1 52-TE-124(N,A)50-SN-121-G,,SIG  2.23     0.489      1.40     7.800E-02 R1  1.35      3.65      54.8      14.8      14.8      0.00      3.04      0.00      1.48      2.83      0.00      1.37      0.00

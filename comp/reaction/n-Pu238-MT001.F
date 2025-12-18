@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  94 238  0  -1 12484008 T.E.YOUNG,F.B.  1967   594 94-PU-238(N,TOT),,SIG           1.95      1.04      0.00     0.233     T2 1.371E+05 1.323E+05  0.00     8.200E-09 6.496E-03  0.00      1.99      1.88      1.97      1.88      2.06      0.00      0.00
-  94 238  0  -1 12484014 T.E.YOUNG,F.B.  1967   179 94-PU-238(N,TOT),,SIG           3.12      1.30      0.00     0.133     T2 7.506E+04 5.511E+04  0.00     1.003E-04 1.995E-04  0.00      3.10      3.06      3.07      3.06      3.31      0.00      0.00

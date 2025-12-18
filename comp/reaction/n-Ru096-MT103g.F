@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  44  96  0   0 31632007 Junhua Luo,Gan  2007     3 44-RU-96(N,P)43-TC-96-G,,SIG    1.63     0.788      67.7     0.267     R1  126.      150.      3.94      13.5      14.8      0.00      1.10      0.00      1.10      1.09      0.00      2.61      0.00
-  44  96  0   0 10214020 J.K.Temperley,  1970     1 44-RU-96(N,P)43-TC-96-G,,SIG    1.74     0.703      10.8     0.168     R1  126.      171.      10.7      14.1      14.1      0.00      1.13      0.00      1.13      1.08      0.00      2.97      0.00

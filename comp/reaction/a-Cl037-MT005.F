@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  17  37  0  -1 A0510255 V.N.Levkovski   1991     8 17-CL-37(A,2P)17-CL-39,,SIG     1.68     0.613      10.6     0.248     T1  1.71      2.89      12.2      26.9      35.0      0.00      1.68      0.00      0.00      0.00      0.00      0.00      0.00
-  17  37  0  -1 C0669002 J.L.ZYSKIND,J.  1979    36 17-CL-37(A,G)19-K-41,,SIG       1.95      1.06      318.     0.240     T1 0.106     0.154      11.2      2.94      5.25      0.00      1.95      0.00      0.00      0.00      0.00      0.00      0.00

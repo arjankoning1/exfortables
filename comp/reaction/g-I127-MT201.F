@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  53 127  0  -1 L0057007 B.L.BERMAN,R.E  1987    11 53-I-127(G,X)0-NN-1,,SIG        1.14      1.07      2.21     0.459     T1  202.      189.      10.2      12.1      16.9      0.00      1.25      1.01      0.00      1.01      0.00      0.00      0.00
-  53 127  0  -1 L0009002 R.L.BRAMBLETT,  1966    84 53-I-127(G,X)0-NN-1,,SIG        1.37      1.13      35.9     0.241     T1  121.      100.      13.8      8.79      29.5      0.00      1.59      1.14      0.00      1.14      0.00      0.00      0.00

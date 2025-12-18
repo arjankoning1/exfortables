@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  51 121  0   0 30234018 A.Lakshmana Ra  1972     0 51-SB-121(N,G)51-SB-122-G,,SIG  0.00      0.00      0.00      0.00         0.00     1.035E+03  9.66     2.500E-02 2.500E-02  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-  51 121  0   0 30077013 S.S.Hasan,A.K.  1968     0 51-SB-121(N,G)51-SB-122-G,,SIG  0.00      0.00      0.00      0.00         0.00      700.      10.0     2.400E-02 2.400E-02  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

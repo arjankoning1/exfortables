@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   5  10  0  -1 F0278009 H.D.Holmgren,L  1963     0 5-B-10(T,D)5-B-11,PAR,SIG       0.00      0.00      0.00      0.00         0.00      25.5      5.00      1.95      1.95      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-   2   3  0  -1 A1116005 B.KUHN,B.SCHLE  1963     0 2-HE-3(T,D)2-HE-4,,SIG,,,EXP    0.00      0.00      0.00      0.00         0.00      17.2      4.99     0.460      1.09      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

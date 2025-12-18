@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  13  26  0  -1 13897003 P.E.Koehler,R.  1997    23 13-AL-26(N,A)11-NA-23,PAR,SIG   2.57     0.448      1.65     0.150     T2  660.     2.077E+03  57.3     1.628E-08 8.865E-03  0.00      0.00      0.00      0.00      2.57      0.00      0.00      0.00

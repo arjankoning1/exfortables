@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  91 231  0  -1 40579003 L.N.Jurova,A.A  1984     1 91-PA-231(N,G)91-PA-232,,SIG    1.09     0.915      9.71     0.413     T1 2.003E+05 2.190E+05  2.74     2.530E-08 2.530E-08  0.00      1.09      0.00      0.00      0.00      0.00      0.00      0.00
-  91 231  0  -1 40163002 B.M.Aleksandro  1972     1 91-PA-231(N,G)91-PA-232,,SIG    1.30     0.770      21.1     0.167     T1 2.003E+05 2.600E+05  5.00     2.530E-08 2.530E-08  0.00      1.30      0.00      0.00      0.00      0.00      0.00      0.00

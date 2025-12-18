@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  79 197  0  -1 D0737009 N.K.Skobelev,   2014     0 79-AU-197(HE3,2N)81-TL-198,,SI  0.00      0.00      0.00      0.00         0.00      11.9      12.6      17.3      24.2      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-  79 197  0  -1 B0033002SF.HERMES, E.W.  1974     0 79-AU-197(HE3,2N)81-TL-198,,SI  0.00      0.00      0.00      0.00         0.00      44.4      0.00      14.3      41.6      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

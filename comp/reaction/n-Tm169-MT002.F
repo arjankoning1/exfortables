@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  69 169  0  -1 40475010 V.P.Alfimenkov  1975     1 69-TM-169(N,EL)69-TM-169,,SIG   1.10      1.09      3.22     0.286     T1 5.476E+03 5.000E+03  6.00     1.000E-06 1.000E-06  0.00      1.12      1.12      1.12      1.00      0.00      0.00      0.00
-  69 169  0  -1 20174007 C.CANSOY        1971     1 69-TM-169(N,EL)69-TM-169,POT,S  2.28     0.440      2.91     9.770E-02 T2 3.989E+03 1.030E+04  35.9     1.775E-06 1.775E-06  0.00      2.18      2.19      2.18      2.54      0.00      0.00      0.00

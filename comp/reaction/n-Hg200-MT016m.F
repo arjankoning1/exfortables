@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  80 200  0   1 10244015 A.K.Hankla,R.W  1972     1 80-HG-200(N,2N)80-HG-199-M,,SI  1.03     0.989     0.163     0.443     T1  877.      883.      15.2      14.4      14.4      0.00      1.00      0.00      1.00      1.01      0.00      1.06      0.00
-  80 200  0   1 12219009 J.K.Temperley   1969     1 80-HG-200(N,2N)80-HG-199-M,,SI  1.12     0.912      27.1     0.336     R1  859.      942.      2.01      14.1      14.1      0.00      1.08      0.00      1.08      1.02      0.00      1.22      0.00

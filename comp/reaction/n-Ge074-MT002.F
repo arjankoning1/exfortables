@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  32  74  0  -1 41280011 V.P.VERTEBNYJ,  1970     1 32-GE-74(N,EL)32-GE-74,,SIG     1.28      1.23      20.1     0.196     T2 7.600E+03 6.100E+03  6.56     2.530E-08 2.530E-08  0.00      1.43      1.18      1.43      1.18      1.00      0.00      0.00
-  32  74  0  -1 317540081A.Andreeff      1963     1 32-GE-74(N,EL)32-GE-74,POT,SIG  1.64     0.621      56.5     7.870E-02 T2 7.381E+03 1.180E+04  5.08     5.025E-05 5.025E-05  0.00      1.40      1.68      1.40      1.68      1.96      0.00      0.00

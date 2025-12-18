@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  12  25  0  -1 C0484003 C.W.Cheng,J.D.  1980    16 12-MG-25(P,N)13-AL-25,,SIG      1.70     0.714      2.41     0.263     T2  78.6      112.      22.4      5.49      9.25      0.00      1.35      0.00      0.00      2.13      0.00      0.00      0.00
-  12  25  0  -1 D0095007 J.P.Blaser, F.  1951    26 12-MG-25(P,N)13-AL-25,,SIG      2.59     0.467      0.00     0.175     T2  33.8      54.7      0.00      5.07      6.56      0.00      1.79      0.00      0.00      4.88      0.00      0.00      0.00

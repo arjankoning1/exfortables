@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  82 208  0  -1 A0869010 B.V.Zhuravlev,  2010     2 82-PB-208(P,X)0-NN-1,,SIG       1.34      1.19      15.0     0.346     T1  283.      226.      10.0      10.2      11.2      0.00      1.03      1.66      0.00      1.07      0.00      0.00      0.00
-  82 208  0  -1 O0726015 V.V.VERBINSKI,  1969     1 82-PB-208(P,X)0-NN-1,,SIG       1.54     0.653      0.00     0.129     T1 2.206E+03 3.370E+03  0.00      17.6      17.6      0.00      1.62      1.39      0.00      1.60      0.00      0.00      0.00

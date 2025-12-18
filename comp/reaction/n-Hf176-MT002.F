@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  72 176  0  -1 40279008 V.P.Vertebny,A  1974     1 72-HF-176(N,EL)72-HF-176,,SIG   1.52      1.50     0.524     5.819E-02 T2 5.856E+03 3.000E+03  133.     2.530E-08 2.530E-08  0.00      1.42      1.49      1.33      1.49      1.80      0.00      0.00

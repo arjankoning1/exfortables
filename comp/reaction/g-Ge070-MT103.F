@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  32  70  0  -1 M0497002 J.J.Mccarthy,R  1973    30 32-GE-70(G,P)31-GA-69,,SIG,,BR  4.51      1.15      1.68     0.128     T2  5.17      2.94     0.226      9.00      40.0      0.00      5.13      4.21      0.00      4.21      0.00      0.00      0.00

@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  66   0  0   1 F1467004 E.S.Kormazeva,  2022     7 66-DY-0(A,X)67-HO-162-M,,SIG    2.90     0.350      16.7     0.242     T2  9.56      25.6      17.8      35.4      52.9      0.00      2.90      0.00      0.00      0.00      0.00      0.00      0.00

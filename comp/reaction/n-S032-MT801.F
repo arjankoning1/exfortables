@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  16  32  0  -1 21170002 T.Huerlimann,P  1955     0 16-S-32(N,A)14-SI-29,PAR,SIG    0.00      0.00      0.00      0.00     R3  0.00      25.5      40.0      2.20      3.63      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-  16  32  0  -1 20832006 F.FOROUGHI,J.R  1972     0 16-S-32(N,A)14-SI-29,PAR,SIG    0.00      0.00      0.00      0.00     R3  0.00      51.0      13.7      5.85      5.85      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

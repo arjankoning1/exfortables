@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  42  95  0  -1 30934002 I.Szarka, M.Fl  1986     1 42-MO-95(N,A)40-ZR-92,PAR,SIG   3.19      3.19      24.2     0.232     T2 0.287     9.000E-02  44.4      3.00      3.00      0.00      0.00      0.00      0.00      0.00      3.19      0.00      0.00

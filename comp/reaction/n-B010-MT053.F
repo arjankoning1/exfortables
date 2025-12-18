@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   5  10  0  -1 11202007 J.C.HOPKINS,D.  1969     2 5-B-10(N,INL)5-B-10,PAR,SIG     1.21     0.865     0.695     0.323     T1  23.0      28.5      28.1      7.02      7.55      0.00      1.03      1.18      1.18      1.44      1.03      0.00      0.00

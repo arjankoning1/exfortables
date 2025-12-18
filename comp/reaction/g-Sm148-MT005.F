@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  62 148  0  -1 L0033007 P.CARLOS,H.BEI  1974    21 62-SM-148(G,2N)62-SM-146,,SIG   1.21      1.07      47.7     0.313     T1  108.      80.7      63.3      13.2      20.0      0.00      1.34      1.09      0.00      1.09      0.00      0.00      0.00
-  62 148  0  -1 K2472004 D.M.Filipescu,  2014    12 62-SM-148(G,N)62-SM-147,,SIG    1.40      1.24      33.8     0.167     T1  69.4      52.4      11.0      8.22      12.6      0.00      1.52      1.24      0.00      1.24      0.00      0.00      0.00

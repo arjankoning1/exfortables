@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  81 203  0   0 31496030 A.Grallert, J.  1993     1 81-TL-203(N,A)79-AU-200-G,,SIG  1.02     0.988     9.569E-02 0.470     T1 0.360     0.370      16.2      14.6      14.6      0.00      1.00      0.00      1.00      0.00      0.00      1.04      0.00

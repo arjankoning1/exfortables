@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  46 110  0  -1 31329004 A.K.Ganguly,H.  1963     1 46-PD-110(N,X)45-RH-109,,SIG    63.5     1.618E-02  0.00     2.384E-07 T2 3.025E-02  1.70      0.00      14.8      14.8      0.00      50.5      37.5      152.      50.3      0.00      62.3      0.00

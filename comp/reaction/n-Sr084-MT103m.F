@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  38  84  0   1 20721073 N.I.Molla,S.M.  1977     1 38-SR-84(N,P)37-RB-84-M,,SIG    1.01     0.995     4.465E-02 0.305     R1  45.6      46.9      14.9      14.7      14.7      0.00      1.00      0.00      1.01      1.00      0.00      1.01      0.00

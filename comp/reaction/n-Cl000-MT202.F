@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  17   0  0  -1 41379019 Yu.Ya.Nefedov,  2000     0 17-CL-0(N,X)0-G-0,,SIG          0.00      0.00      0.00      0.00         0.00     1.732E+03  9.01      14.3      14.3      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

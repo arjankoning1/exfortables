@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  26  54  0  -1 32515004 Xiangzhong Kon  1998     0 26-FE-54(N,T)25-MN-52,,SIG      0.00      0.00      0.00     1.788E-06 R3  0.00     8.000E-02  10.0      14.7      14.7      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-  26  54  0  -1 20522007 S.M.Qaim, G.L.  1973     0 26-FE-54(N,T)25-MN-52,,SIG      0.00      0.00      0.00     2.444E-06     0.00     0.105      33.3      14.6      14.6      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

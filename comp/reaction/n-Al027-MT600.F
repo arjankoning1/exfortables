@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  13  27  0  -1 21100005 K.Debertin,H.G  1967     1 13-AL-27(N,P)12-MG-27,PAR,SIG   1.23     0.867      3.28     0.349     T1  6.25      7.10      9.86      7.90      7.90      0.00      0.00      1.00      0.00      0.00      1.33      0.00      0.00
-  13  27  0  -1 40433020 D.V.Aleksandro  1975     1 13-AL-27(N,P)12-MG-27,PAR,SIG   1.53      1.04      4.86     0.489     T1  1.01     0.900      22.2      14.1      14.1      0.00      0.00      1.59      0.00      0.00      1.47      0.00      0.00

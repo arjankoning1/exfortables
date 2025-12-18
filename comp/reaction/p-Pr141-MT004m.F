@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  59 141  0   1 P0012005 V.T.Gritsyna,A  1963    10 59-PR-141(P,N)60-ND-141-M,,SIG  1.76      1.70      0.00     0.257     T2  153.      94.7      0.00      6.80      20.0      0.00      1.76      0.00      0.00      0.00      0.00      0.00      0.00
-  59 141  0   1 D41970021K.Hilgers, S.S  2007    10 59-PR-141(P,N)60-ND-141-M,,SIG  2.25      2.16      78.5     0.171     T3  263.      129.      15.1      9.00      15.6      0.00      2.25      0.00      0.00      0.00      0.00      0.00      0.00

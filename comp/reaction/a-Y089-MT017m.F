@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  39  89  0   1 O1366004 F.Smend, W.Wei  1967     8 39-Y-89(A,3N)41-NB-90-M,,SIG    2.01      1.95      37.6     0.222     T1  128.      69.3      2.54      33.7      54.7      0.00      2.01      0.00      0.00      0.00      0.00      0.00      0.00

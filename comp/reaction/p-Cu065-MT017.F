@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  29  65  0  -1 B0054009 J.W.MEADOWS     1953    11 29-CU-65(P,3N)30-ZN-63,,SIG,,,  2.33     0.446      0.00     0.123     T2  30.1      59.9      0.00      29.8      99.2      0.00      2.33      2.51      0.00      2.15      0.00      0.00      0.00

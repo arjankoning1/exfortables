@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  75   0  0  -1 O0707009 V.A.Kon'shin,E  1965     1 75-RE-0(P,F),,SIG               1.39      1.39      5.21     4.392E-02 T1  2.38      11.0      14.2      150.      660.      0.00      1.39      0.00      0.00      0.00      0.00      0.00      0.00

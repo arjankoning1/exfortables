@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  79 197  0   2 D0967006 J.Cervenak, O.  2019     9 79-AU-197(P,X)79-AU-196-M2,,SI  2.49      1.56      341.     0.224     T1  6.55      4.56      15.0      17.0      35.3      0.00      2.49      0.00      0.00      0.00      0.00      0.00      0.00
-  79 197  0   2 D4351009 F.Ditroi,F.Tar  2016    16 79-AU-197(P,X)79-AU-196-M2,,SI  3.30      1.90      326.     8.557E-02 T1  7.65      5.59      14.7      10.1      63.5      0.00      3.30      0.00      0.00      0.00      0.00      0.00      0.00

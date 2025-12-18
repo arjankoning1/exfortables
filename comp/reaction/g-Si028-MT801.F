@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  14  28  0  -1 K2195002 S.Matsumoto, H  1965     0 14-SI-28(G,A)12-MG-24,PAR,SIG   0.00      0.00      0.00      0.00         0.00     0.604      4.13      17.5      22.3      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-  14  28  0  -1 L0134003 R.L.Gulbranson  1983     0 14-SI-28(G,A)12-MG-24,PAR,SIG   0.00      0.00      0.00      0.00         0.00     0.395      2.99      15.6      22.5      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

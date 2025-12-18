@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  92 236  0  -1 S0250004 Ma Nanru,Lin C  2017    14 92-U-236(A,2N)94-PU-238,,SIG    168.     7.795E-03  19.5     1.431E-07 T2 0.105      31.1      36.7      17.9      32.0      0.00      168.      0.00      0.00      0.00      0.00      0.00      0.00

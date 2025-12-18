@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  58 142  0  -1 11452015 H.W.NEWSON,R.C  1959   118 58-CE-142(N,TOT),,SIG           3.51      1.12      311.     0.185     T2 1.563E+04 9.820E+03  26.7     2.000E-04 6.000E-02  0.00      3.44      3.67      3.44      3.50      3.50      0.00      0.00
-  58 142  0  -1 20819003 M.Ohkubo,M.Miz  1993  3789 58-CE-142(N,TOT),,SIG           3.78      1.76     1.385E+04 0.211     T2 1.219E+05 7.777E+04  38.2     7.089E-04 0.182      0.00      5.80      2.52      5.80      2.59      2.59      0.00      0.00

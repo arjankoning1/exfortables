@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  38  86  0   0 A0510167 V.N.Levkovski   1991    15 38-SR-86(P,2N)39-Y-85-G,,SIG    2.03      1.53      88.1     0.262     T3  264.      156.      12.2      16.7      29.5      0.00      1.43      0.00      0.00      2.54      0.00      0.00      0.00
-  38  86  0   0 D4030004 F.Roesch, S.M.  1993     2 38-SR-86(P,2N)39-Y-85-G,,SIG    3.51     0.359      9.53     7.045E-02 T2  63.8      99.7      27.4      15.3      17.0      0.00      4.16      0.00      0.00      2.90      0.00      0.00      0.00

@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  55 133  0  -1 O2418005 S.V.Harissopul  2018     5 55-CS-133(P,G)56-BA-134,,SIG    1.65     0.789      6.85     0.231     T1 0.139     0.237      19.9      3.99      5.99      0.00      1.63      0.00      0.00      1.67      0.00      0.00      0.00

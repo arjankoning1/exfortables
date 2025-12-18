@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  27  59  0  -1 13131006 A.B.Smith,P.T.  1988    12 27-CO-59(N,INL)27-CO-59,PAR,SI  14.8     7.275E-02  64.1     2.682E-07 T2  12.8      137.      14.9      4.50      10.0      0.00      5.73      21.1      21.1      10.5      20.9      0.00      0.00

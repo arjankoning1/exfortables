@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  79 197  0   1 O1340003 R.Kantus, W.-D  1979     0 79-AU-197(D,G)80-HG-199-M,,SIG  0.00      0.00      0.00      0.00         0.00     8.573E-04  18.4      5.00      15.9      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

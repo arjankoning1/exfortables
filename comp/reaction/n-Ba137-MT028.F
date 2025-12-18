@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  56 137  0  -1 22089102 Y.Ikeda,C.Konn  1988     6 56-BA-137(N,X)55-CS-136,,SIG    6.90     0.183      12.3     4.481E-02 R1 0.197     0.767      29.6      13.4      15.0      0.00      3.00      6.85      9.69      2.19      16.8      5.36      0.00

@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  52 130  0   1 14583005 W.Tornow,M.Bhi  2017     0 52-TE-130(N,G)52-TE-131-M,,SIG  0.00      0.00      0.00      0.00         0.00      1.75      9.97     0.570      14.8      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-  52 130  0   1 30086006 A.K.Chaubey, M  1968     0 52-TE-130(N,G)52-TE-131-M,,SIG  0.00      0.00      0.00      0.00         0.00      22.0      36.4     2.400E-02 2.400E-02  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

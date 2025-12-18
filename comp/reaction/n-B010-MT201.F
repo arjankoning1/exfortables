@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   5  10  0  -1 12928006 M.Drosg,P.W.Li  1988     1 5-B-10(N,X)0-NN-1,,SIG          3.88     0.261      491.     7.341E-02 T2  397.     1.490E+03  3.32      14.1      14.1      0.00      2.67      4.22      4.22      4.64      3.72      0.00      0.00

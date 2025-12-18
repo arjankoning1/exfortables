@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  48 106  0   0 108060091T.W.Woo,G.N.Sa  1979     1 48-CD-106(N,T)47-AG-104-G,,SIG  9.68     0.158      13.6     0.417     T2 9.608E-03 2.400E-02  20.8      14.6      14.6      0.00      16.1      0.00      16.1      0.00      0.00      1.02      0.00

@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  77 191  0  -1 41614207 A.A.Filatenkov  2016     7 77-IR-191(N,A)75-RE-188,,SIG    1.26      1.09      3.01     0.259     R1 0.733     0.676      21.3      13.6      14.8      0.00      1.10      1.11      1.10      1.09      0.00      1.62      0.00
-  77 191  0  -1 21440029 R.F.Coleman,B.  1959     1 77-IR-191(N,A)75-RE-188,,SIG    3.13     0.326      20.0     6.744E-02 R2 0.809      2.43      15.0      14.5      14.5      0.00      3.41      3.45      3.41      3.31      0.00      2.06      0.00

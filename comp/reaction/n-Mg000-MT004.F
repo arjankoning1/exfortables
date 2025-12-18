@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  12   0  0  -1 41186004 A.I.Lashuk, I.  1994    13 12-MG-0(N,INL)12-MG-0,,SIG      1.31      1.05      6.31     0.400     T1  503.      473.      9.97      1.60      4.00      0.00      1.21      1.23      1.23      1.23      1.58      0.00      0.00
-  12   0  0  -1 11509003 R.N.LITTLE,R.W  1946     1 12-MG-0(N,INL)12-MG-0,,SIG      1.36     0.888      0.00     0.302     T1  552.      600.      0.00      2.50      2.50      0.00      1.01      1.03      1.02      1.03      2.00      0.00      0.00

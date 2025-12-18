@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   8  16  0  -1 C0899013 W.F.Hornyak,R.  1955     0 8-O-16(P,INL)8-O-16,PAR,SIG     0.00      0.00      0.00      0.00         0.00      34.0      11.8      19.0      19.0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-   4   9  0  -1 C1867004 D.G.Montague,R  1973     4 4-BE-9(P,INL)4-BE-9,PAR,SIG     1.68      1.47      0.00     0.318     T1  6.64      4.60      0.00      17.0      29.1      0.00      0.00      1.68      0.00      0.00      0.00      0.00      0.00

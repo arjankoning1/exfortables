@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  56 138  0  -1 L0151004 A.P.Tonchev, S  2010    12 56-BA-138(G,INL)56-BA-138,,SIG  3.69      2.81     1.496E+03 0.161     T3  6.69      2.59      6.30      4.11      8.50      0.00      2.56      5.02      0.00      3.58      0.00      0.00      0.00

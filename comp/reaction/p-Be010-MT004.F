@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   4  10  0  -1 A0336002 N.V.EREMIN, SH  1987    48 4-BE-10(P,N)5-B-10,,SIG         511.      480.     1.749E+09  0.00     T3  52.0     0.125      7.60     0.987      2.03      0.00      511.      0.00      0.00      0.00      0.00      0.00      0.00

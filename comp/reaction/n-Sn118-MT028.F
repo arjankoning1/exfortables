@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  50 118  0  -1 30105011 J.Brzosko,P.De  1965     1 50-SN-118(N,X)49-IN-117,,SIG    7.49     0.140      20.3      0.00     T1 0.217      1.43      18.8      14.9      14.9      0.00      4.33      0.00      4.33      10.8      9.03      10.3      0.00

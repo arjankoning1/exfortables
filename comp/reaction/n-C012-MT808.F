@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   6  12  0  -1 30436003 R.Barjon, Y.Fl  1962     0 6-C-12(N,A)4-BE-9,PAR,SIG       0.00      0.00      0.00      0.00         0.00      150.      0.00      14.9      14.9      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

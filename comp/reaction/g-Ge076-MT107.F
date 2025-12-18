@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  32  76  0  -1 M0892010 A.D.Antonov,N.  1990    13 32-GE-76(G,A)30-ZN-72,,SIG,,BR  5.16     0.210     0.219     0.190     T2 1.534E-02 8.277E-02  3.92      19.1      24.1      0.00      5.16      0.00      0.00      0.00      0.00      0.00      0.00
-  32  76  0  -1 M0894005 A.D.Antonov,N.  1991    35 32-GE-76(G,A)30-ZN-72,,SIG,,BR  5.55     0.604      0.00     3.956E-02 T2 1.923E-02 5.684E-02  0.00      16.0      25.1      0.00      5.55      0.00      0.00      0.00      0.00      0.00      0.00

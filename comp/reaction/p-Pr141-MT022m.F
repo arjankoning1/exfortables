@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  59 141  0   1 O1511005 C.Vermeulen, G  2007     2 59-PR-141(P,X)58-CE-137-M,,SIG  1.00      1.00     1.132E-03 3.277E-02 T1  6.16      7.52      12.2      26.2      96.5      0.00      1.00      0.00      0.00      0.00      0.00      0.00      0.00

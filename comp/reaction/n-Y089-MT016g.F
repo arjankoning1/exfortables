@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  39  89  0   0 14211003 P.E.Garrett,W.  2003     7 39-Y-89(N,2N)39-Y-88-G,,SIG     1.18     0.855      7.24     0.295     R1  549.      644.      5.74      11.9      19.3      0.00      0.00      1.18      0.00      0.00      0.00      0.00      0.00
-  39  89  0   0 10493008GP.K.Eapen,G.N.  1975     1 39-Y-89(N,2N)39-Y-88-G,,SIG     1.94     0.515      37.1     0.244     R3  665.     1.292E+03  7.97      14.8      14.8      0.00      0.00      1.94      0.00      0.00      0.00      0.00      0.00

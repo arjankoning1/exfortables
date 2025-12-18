@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  82 208  0   0 C2125002 D.H.Templeton,  1947     0 82-PB-208(A,X)83-BI-210-G,,SIG  0.00      0.00      0.00      0.00         0.00      8.00      0.00      40.0      40.0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

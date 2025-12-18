@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  54 124  0  -1 D4365003 Z.Halasz,E.Som  2016     5 54-XE-124(A,N)56-BA-127,,SIG    4.82      4.72      902.     0.305     T3  14.1      3.83      13.4      12.5      14.5      0.00      4.82      0.00      0.00      0.00      0.00      0.00      0.00

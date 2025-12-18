@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  24   0  0  -1 C0696003 R.G.THOMAS,W.B  1968    10 24-CR-0(P,N),,SIG               1.22     0.883      0.00     0.271     T1  429.      490.      0.00      7.80      14.4      0.00      1.17      1.16      0.00      1.31      0.00      0.00      0.00
-  24   0  0  -1 T0130003 R.D.ALBERT      1959     5 24-CR-0(P,N),,SIG               6.84     0.147      32.2     1.114E-02 T3  36.2      238.      15.0      3.60      5.50      0.00      6.54      6.10      0.00      7.94      0.00      0.00      0.00

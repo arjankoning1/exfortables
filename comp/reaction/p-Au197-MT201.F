@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  79 197  0  -1 O0678009 M.Enke,C.-M.He  1999     0 79-AU-197(P,X)0-NN-1,,SIG       0.00      0.00      0.00      0.00         0.00     2.670E+04  0.00     1.200E+03 1.200E+03  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-  79 197  0  -1 C06930101G.Chodil,R.C.J  1967    20 79-AU-197(P,X)0-NN-1,,SIG       1.42     0.736      237.     0.177     T1  521.      680.      8.59      7.00      15.0      0.00      1.32      0.00      0.00      1.50      0.00      0.00      0.00

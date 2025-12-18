@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  24  52  0   1 C1766009 M.W.Greene,E.L  1970     0 24-CR-52(HE3,X)25-MN-52-M,,SIG  0.00      0.00      0.00      0.00         0.00      39.5      6.96      29.2      39.5      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

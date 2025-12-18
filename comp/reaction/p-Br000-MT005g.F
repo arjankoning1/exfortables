@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  35   0  0   0 O1022011 D.De Villiers,  2002    17 35-BR-0(P,X)34-SE-73-G,CUM,SIG  1.89     0.567      29.1     0.173     T1  7.44      12.8      8.23      41.8      100.      0.00      2.15      0.00      0.00      1.62      0.00      0.00      0.00

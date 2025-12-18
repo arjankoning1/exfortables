@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  92 236  0  -1 D0362003 J.Aaltonen,E.A  2005     7 92-U-236(P,2N)93-NP-235,,SIG    3.71     0.280      39.4     0.207     T2  3.36      13.7      12.8      17.5      39.9      0.00      3.71      0.00      0.00      0.00      0.00      0.00      0.00
-  92 236  0  -1 O0349003 J.Aaltonen,E.K  1996     7 92-U-236(P,2N)93-NP-235,,SIG    5.14     0.199      35.3     0.149     T2  7.87      38.8      15.5      11.3      17.5      0.00      5.14      0.00      0.00      0.00      0.00      0.00      0.00

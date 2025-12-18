@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  30   0  0  -1 21343011 M.Bormann, S.C  1963     1 30-ZN-0(N,A),,SIG               3.11     0.333      8.29     7.007E-02 R2  44.4      130.      23.1      14.8      14.8      0.00      2.68      2.86      1.97      3.25      5.06      2.95      0.00

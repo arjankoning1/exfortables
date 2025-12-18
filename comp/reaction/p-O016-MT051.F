@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   8  16  0  -1 O0445007 S.KOBAYASHI     1960     0 8-O-16(P,INL)8-O-16,PAR,SIG     0.00      0.00      0.00      0.00         0.00      94.0      10.6      15.6      15.6      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-   8  16  0  -1 O0445006 S.KOBAYASHI     1960     0 8-O-16(P,INL)8-O-16,PAR,SIG     0.00      0.00      0.00      0.00         0.00      118.      11.4      11.8      19.0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

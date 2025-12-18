@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  47 107  0   0 A0319013GP.Misaelides,H  1980     4 47-AG-107(A,3N)49-IN-108-G,,SI  1.54      1.38      15.4     0.224     T1  132.      101.      17.1      31.9      41.6      0.00      1.54      0.00      0.00      0.00      0.00      0.00      0.00
-  47 107  0   0 E1874006 S.Fukushima, S  1963    11 47-AG-107(A,3N)49-IN-108-G,,SI  2.55     0.432      4.55     0.211     T2  115.      265.      27.9      26.2      39.4      0.00      2.55      0.00      0.00      0.00      0.00      0.00      0.00

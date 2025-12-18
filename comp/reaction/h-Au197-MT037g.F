@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  79 197  0   0 E1306005 Y.Nagame, K.Su  1990     0 79-AU-197(HE3,4N)81-TL-196-G,,  0.00      0.00      0.00      0.00         0.00      63.2      10.0      23.2      38.7      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-  79 197  0   0 B0033004GF.HERMES, E.W.  1974     0 79-AU-197(HE3,4N)81-TL-196-G,,  0.00      0.00      0.00      0.00         0.00      72.5      0.00      25.2      50.4      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

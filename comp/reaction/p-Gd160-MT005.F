@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  64 160  0  -1 C2692002 R.K.Chapman,A.  2021    15 64-GD-160(P,N)65-TB-160,,SIG    1.80     0.762      120.     0.286     T1  44.6      53.7      3.02      5.01      17.1      0.00      1.80      0.00      0.00      0.00      0.00      0.00      0.00
-  64 160  0  -1 B0018003 C.BIRATTARI, E  1973    20 64-GD-160(P,N)65-TB-160,,SIG,,  2.15      1.30      164.     0.246     T1  34.0      25.5      5.57      4.30      43.6      0.00      2.15      0.00      0.00      0.00      0.00      0.00      0.00

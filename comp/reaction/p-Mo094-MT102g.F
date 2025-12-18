@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  42  94  0   0 A0653010 T.Sauter,F.Kap  1997     0 42-MO-94(P,G)43-TC-95-G,,SIG,,  0.00      0.00      0.00      0.00         0.00     8.136E-21  11.6      1.48      2.49      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-  42  94  0   0 A0653004 T.Sauter,F.Kap  1997    15 42-MO-94(P,G)43-TC-95-G,,SIG    1.85      1.17      388.     0.294     T1 1.386E-02 9.052E-03  7.10      1.48      2.49      0.00      1.62      0.00      0.00      2.06      0.00      0.00      0.00

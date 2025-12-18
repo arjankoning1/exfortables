@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  38  88  0  -1 30008011 P.Strohal, N.C  1962     1 38-SR-88(N,2N)38-SR-87,,SIG     4.64      4.64     1.068E+03 7.472E-02 R3  999.      215.      11.2      14.6      14.6      0.00      4.82      4.60      4.46      4.88      4.60      4.52      0.00

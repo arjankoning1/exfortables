@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   7  15  0  -1 21846005 W.Schantl       1970     1 7-N-15(N,P)6-C-15,,SIG          1.28      1.22      7.16     0.181     T1  18.9      15.0      12.0      14.7      14.7      0.00      1.08      1.15      1.15      1.64      0.00      1.15      0.00
-   7  15  0  -1 30007002 R.PRASAD, D.C.  1966     1 7-N-15(N,P)6-C-15,,SIG          1.35      1.28      2.17     0.105     R1  18.5      13.4      29.8      14.8      14.8      0.00      1.12      1.19      1.19      1.82      0.00      1.19      0.00

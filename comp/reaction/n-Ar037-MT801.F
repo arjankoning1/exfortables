@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  18  37  0  -1 22427002 R.Bieber,C.Wag  1999     2 18-AR-37(N,A)16-S-34,PAR,SIG,,  98.2     0.121      270.     5.960E-08 T2 2.210E+03 5.352E+05  19.9     2.530E-08 2.530E-08  0.00      0.00      0.00      0.00      98.2      0.00      0.00      0.00

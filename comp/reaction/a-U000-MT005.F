@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  92   0  0  -1 C02910091V.P.CRESPO,J.M  1963     0 92-U-0(A,X)12-MG-28,,SIG        0.00      0.00      0.00      0.00         0.00     0.219      0.00      320.      880.      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-  92   0  0  -1 C02910093V.P.CRESPO,J.M  1963     0 92-U-0(A,X)11-NA-24,,SIG        0.00      0.00      0.00      0.00         0.00     0.420      2.60      320.      880.      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

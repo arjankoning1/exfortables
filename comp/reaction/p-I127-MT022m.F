@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  53 127  0   1 O2052009 G.Modolo, M.Ho  1996     0 53-I-127(P,X)52-TE-123-M,,SIG   0.00      0.00      0.00      0.00         0.00      13.0      10.5      145.     2.600E+03  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  33  75  0   0 A0253011 A.M.J.Paans,J.  1980    10 33-AS-75(A,3N)35-BR-76-G,,SIG   2.07     0.485      21.5     0.281     T1  108.      228.      11.6      37.9      71.7      0.00      2.07      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  26  54  0  -1 23461016 A.Olacel,C.Bor  2018   421 26-FE-54(N,INL)26-FE-54,,SIG    1.28      1.05      33.9     0.296     T1  762.      718.      4.95      1.41      17.8      0.00      1.35      1.30      1.30      1.11      1.30      0.00      0.00
-  26  54  0  -1 13104007 P.T.Guenther,D  1986    32 26-FE-54(N,INL)26-FE-54,,SIG    3.26     0.743      0.00     0.255     T2  642.      684.      0.00      1.42      3.56      0.00      1.42      1.26      1.26      3.28      1.46      0.00      0.00

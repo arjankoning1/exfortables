@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   6  12  0  -1 D06540031A.Pichard, J.M  2011     0 6-C-12(HE3,X)6-C-10,,SIG        0.00      0.00      0.00      0.00         0.00      8.56      35.9      18.0      35.3      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  76 184  0   0 30290009 P.Kovacs,I.Ura  1976     1 76-OS-184(N,P)75-RE-184-G,,SIG  23.0     4.393E-02  126.      0.00     T2  13.0      288.      8.51      14.7      14.7      0.00      18.4      0.00      18.4      24.0      0.00      33.1      0.00

@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  17  35  0  -1 31556003 G.L.Molnar, Zs  2004     1 17-CL-35(N,G)17-CL-36,,SIG,,A   1.01     0.993      3.46     0.383     R1 4.311E+04 4.346E+04 0.425     2.530E-08 2.530E-08  0.00      1.01      1.01      1.01      1.01      0.00      1.01      0.00
-  17  35  0  -1 10042005 G.H.E.SIMS, D.  1969     1 17-CL-35(N,G)17-CL-36,,SIG      1.02      1.02      1.20     0.419     R1 4.311E+04 4.180E+04  2.87     2.530E-08 2.530E-08  0.00      1.02      1.02      1.02      1.02      0.00      1.02      0.00

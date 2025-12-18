@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  28  62  0  -1 O0132034 M.E.Sadler,P.P  1980     4 28-NI-62(P,INL)28-NI-62,,SIG    1.21      1.08     0.674     0.343     T1  25.4      22.2      46.5      80.0      164.      0.00      1.35      1.03      0.00      1.13      0.00      0.00      0.00

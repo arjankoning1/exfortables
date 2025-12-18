@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  18  40  0  -1 C1885004 J.W.Engle,G.W.  2012     0 18-AR-40(D,P)18-AR-41,,SIG      0.00      0.00      0.00      0.00         0.00      221.      4.67      3.20      7.86      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

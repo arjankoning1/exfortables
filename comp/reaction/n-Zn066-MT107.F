@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  30  66  0  -1 32755003 Yu.Gledenov, G  2017     3 30-ZN-66(N,A)28-NI-63,,SIG      1.39     0.927      10.7     0.349     T1  5.92      5.76      9.92      4.00      6.00      0.00      1.14      1.46      1.42      1.14      1.73      1.26      0.00

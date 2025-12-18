@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  56 138  0  -1 F1473009 I.A.Khomenko,E  2023    14 56-BA-138(A,N)58-CE-141,,SIG    1.88     0.551      24.5     0.259     T1  7.24      12.0      10.0      21.9      59.0      0.00      1.88      0.00      0.00      0.00      0.00      0.00      0.00
-  56 138  0  -1 C1997006 A.A.Caretto,G.  1958     5 56-BA-138(A,P)57-LA-141,,SIG    145.     8.516E-03 6.604E+03 3.576E-08 T2  2.03      147.      3.40      19.3      41.0      0.00      145.      0.00      0.00      0.00      0.00      0.00      0.00

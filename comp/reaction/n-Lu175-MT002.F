@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  71 175  0  -1 40291002 V.P.Vertebnyi,  1968    18 71-LU-175(N,EL)71-LU-175,,SIG   1.21     0.994      18.1     0.287     T1 6.008E+03 5.950E+03  3.38     1.000E-08 1.000E-05  0.00      1.22      1.18      1.22      1.21      0.00      0.00      0.00

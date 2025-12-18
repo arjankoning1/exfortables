@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  78 190  0  -1 01078190 Kadonis         2024    20                                 1.12      1.05     0.768     0.374     T1  546.      513.      18.1     5.000E-03 0.100      0.00      1.00      1.08      1.00      1.04      0.00      1.28      0.00
-  78 190  0  -1 40276004 V.P.Vertebnyi,  1975     1 78-PT-190(N,G)78-PT-191,,SIG    5.32     0.188      86.1     0.104     T3 1.503E+05 8.000E+05  8.75     2.530E-08 2.530E-08  0.00      5.33      5.29      5.33      5.35      0.00      5.31      0.00

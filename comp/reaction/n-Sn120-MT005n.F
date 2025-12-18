@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  50 120  0   2 22433029 Y.Kasugai, H.Y  1998     6 50-SN-120(N,P)49-IN-120-M2,,SI  1.04     0.979     0.119     0.349     R1 0.599     0.627      29.0      13.4      14.9      0.00      1.04      0.00      1.04      0.00      0.00      0.00      0.00
-  50 120  0   2 41032006 P.M.Gopych, M.  1987     1 50-SN-120(N,P)49-IN-120-M2,,SI  3.44     0.291      14.7     0.124     R2 0.785      2.70      18.5      14.6      14.6      0.00      3.44      0.00      3.44      0.00      0.00      0.00      0.00

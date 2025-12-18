@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  62 144  0  -1 E2496003 N.Kinoshita, K  2016    10 62-SM-144(P,G)63-EU-145,,SIG    1.44      1.32      25.8     0.332     T1  6.37      3.36      12.6      2.83      7.62      0.00      1.44      0.00      0.00      0.00      0.00      0.00      0.00
-  62 144  0  -1 E2496002 N.Kinoshita, K  2016    10 62-SM-144(P,G)63-EU-145,,SIG    1.45      1.21      20.5     0.385     T1  6.37      3.56      12.6      2.83      7.62      0.00      1.45      0.00      0.00      0.00      0.00      0.00      0.00

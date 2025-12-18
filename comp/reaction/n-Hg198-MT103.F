@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  80 198  0  -1 12219006 J.K.Temperley   1969     1 80-HG-198(N,P)79-AU-198,,SIG    1.18     0.933      5.23     0.446     R1  4.81      5.05      6.38      14.1      14.1      0.00      1.02      1.15      1.02      1.09      0.00      1.38      0.00

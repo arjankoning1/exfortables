@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  73 181  0  -1 22646015 A.V.Prokofiev,  2001     3 73-TA-181(N,F),,SIG             332.      299.     6.570E+06  0.00     T2  30.8     0.197      20.4      73.8      133.      0.00      332.      0.00      0.00      0.00      0.00      0.00      0.00
-  73 181  0  -1 22882013 A.N.Smirnov,V.  2004     6 73-TA-181(N,F),,SIG             378.      335.     9.654E+06  0.00     T2  28.2     0.173      21.5      66.6      173.      0.00      378.      0.00      0.00      0.00      0.00      0.00      0.00

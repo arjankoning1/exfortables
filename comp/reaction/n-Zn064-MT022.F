@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  30  64  0  -1 20836017 M.Bormann,U.Se  1966     1 30-ZN-64(N,N+A)28-NI-60,SEQ,SI  1.59      1.45      53.0     0.135     T1  110.      73.0      9.59      14.1      14.1      0.00      1.39      2.49      1.16      1.55      1.46      1.00      0.00

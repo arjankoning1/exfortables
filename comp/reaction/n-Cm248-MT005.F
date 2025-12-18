@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  96 248  0  -1 10121034 M.S.Moore,G.A.  1971   106 96-CM-248(N,G)96-CM-249,,SIG    3.38     0.437      1.84     3.912E-02 T2 5.897E+05 9.672E+05  168.     2.522E-05 1.002E-04  0.00      3.38      0.00      0.00      0.00      0.00      0.00      0.00
-  96 248  0  -1 40486012 V.D.Gavrilov,V  1978     1 96-CM-248(N,G)96-CM-249,,SIG    3.73     0.268      27.2     0.253     T2 2.871E+03 1.070E+04  14.0     2.530E-08 2.530E-08  0.00      3.73      0.00      0.00      0.00      0.00      0.00      0.00

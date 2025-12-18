@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  31  71  0  -1 A0510106 V.N.Levkovski   1991     8 31-GA-71(P,3N)32-GE-69,,SIG     1.31      1.27      7.30     0.201     T1  244.      189.      12.2      23.1      29.5      0.00      1.43      0.00      0.00      1.16      0.00      0.00      0.00
-  31  71  0  -1 P0014013 N.T.Porile,S.T  1963    20 31-GA-71(P,3N)32-GE-69,,SIG     1.89     0.543      9.48     0.158     T1  167.      284.      15.0      26.6      57.5      0.00      1.83      0.00      0.00      1.96      0.00      0.00      0.00

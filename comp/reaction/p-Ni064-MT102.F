@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  28  64  0  -1 C2026006 A.Simon,A.Spyr  2013    16 28-NI-64(P,G)29-CU-65,,SIG      1.60      1.20      10.3     0.304     T1 0.463     0.428      16.1      1.99      5.00      0.00      1.74      0.00      0.00      1.45      0.00      0.00      0.00
-  28  64  0  -1 A0198004 M.E.Sevior,L.W  1983    49 28-NI-64(P,G)29-CU-65,,SIG      1.64     0.988      12.1     0.315     T1 0.446     0.431      13.0     0.984      3.44      0.00      1.81      0.00      0.00      1.46      0.00      0.00      0.00

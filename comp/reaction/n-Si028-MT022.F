@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  14  28  0  -1 32688008 Hong-Yu Zhou,   2011     1 14-SI-28(N,N+A)12-MG-24,,SIG    6.28      6.20     1.106E+03  0.00     T1  38.1      6.00      16.7      14.9      14.9      0.00      5.98      6.63      6.63      4.60      9.12      5.14      0.00

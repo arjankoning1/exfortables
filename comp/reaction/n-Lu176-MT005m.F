@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  71 176  0   1 20096002 M.JORGENSEN, O  1962     1 71-LU-176(N,G)71-LU-177-M,,SIG  1.65      1.52      0.00     0.232     T1 1.573E+03 1.000E+03  0.00     2.530E-08 2.530E-08  0.00      1.85      0.00      1.85      1.02      0.00      0.00      0.00
-  71 176  0   1 40990003 E.A.GRITSAY     1987     1 71-LU-176(N,G)71-LU-177-M,,SIG  56.6     1.992E-02  106.     2.384E-07 T3  89.8     3.180E+03  9.43     1.000E-06 1.000E-06  0.00      25.1      0.00      25.1      201.      0.00      0.00      0.00

@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  96 245  0  -1 40486004 V.D.Gavrilov,V  1978     1 96-CM-245(N,G)96-CM-246,,SIG    1.04      1.04      1.20     0.452     T1 3.697E+05 3.500E+05  5.14     2.530E-08 2.530E-08  0.00      1.04      0.00      0.00      0.00      0.00      0.00      0.00
-  96 245  0  -1 10164002 J.HALPERIN,R.E  1969     1 96-CM-245(N,G)96-CM-246,,SIG    1.09      1.09      2.66     0.389     T1 3.726E+05 3.400E+05  5.88     2.500E-08 2.500E-08  0.00      1.09      0.00      0.00      0.00      0.00      0.00      0.00

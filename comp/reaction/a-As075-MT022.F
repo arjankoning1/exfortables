@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  33  75  0  -1 A0510435 V.N.Levkovski   1991    12 33-AS-75(A,X)33-AS-74,,SIG      2.09     0.799      8.36     0.113     T1  33.2      52.5      12.2      20.2      46.0      0.00      2.09      0.00      0.00      0.00      0.00      0.00      0.00
-  33  75  0  -1 O2337004 K.Breunig,I.Sp  2017    22 33-AS-75(A,X)33-AS-74,,SIG      5.14     0.333      27.0     0.107     T1  19.6      42.4      10.3      16.3      36.9      0.00      5.14      0.00      0.00      0.00      0.00      0.00      0.00

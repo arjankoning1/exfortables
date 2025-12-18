@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  36  84  0  -1 21683002 F.HENSLEY       1980   100 36-KR-84(N,G)36-KR-85,,SIG      2.09     0.772     0.749     0.131     T2  23.2      49.9      330.     6.260E-03 0.236      0.00      1.62      2.10      1.76      1.53      3.69      1.69      0.00
-  36  84  0  -1 01036084 Kadonis         2024    20                                 3.95     0.636      21.2     0.389     T2  28.2      35.8      10.7     5.000E-03 0.100      0.00      2.33      3.90      3.41      1.03      14.7      1.22      0.00

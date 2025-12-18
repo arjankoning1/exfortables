@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  34  78  0   1 21107008 B.Minetti,A.Pa  1967     1 34-SE-78(N,2N)34-SE-77-M,,SIG   1.10     0.963      3.97     0.496     R1  755.      777.      4.70      14.7      14.7      0.00      1.03      0.00      1.03      1.21      0.00      1.01      0.00
-  34  78  0   1 30154002 E.Rurarz, Z.Ha  1970     1 34-SE-78(N,2N)34-SE-77-M,,SIG   1.43     0.707      8.99     0.127     T2  739.     1.044E+03  9.96      14.5      14.5      0.00      1.31      0.00      1.31      1.64      0.00      1.41      0.00

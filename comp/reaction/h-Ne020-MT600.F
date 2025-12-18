@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  10  20  0  -1 F0484004 C.Meynadier, J  1971     0 10-NE-20(HE3,P)11-NA-22,PAR,SI  0.00      0.00      0.00      0.00         0.00     0.255      5.00      2.90      2.90      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

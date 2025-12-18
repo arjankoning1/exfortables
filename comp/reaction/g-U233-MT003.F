@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  92 233  0  -1 M0381002 M.A.P.V.De Mor  1993     9 92-U-233(G,ABS),,SIG            1.09     0.995     0.397     0.235     T1  58.7      57.2      21.2      6.73      9.72      0.00      1.12      1.08      0.00      1.08      0.00      0.00      0.00

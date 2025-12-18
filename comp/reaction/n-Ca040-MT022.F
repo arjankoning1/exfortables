@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  20  40  0  -1 20836005 M.Bormann,U.Se  1966     1 20-CA-40(N,N+A)18-AR-36,SEQ,SI  1.50      1.34      4.76     0.299     T1  32.3      23.0      26.1      14.1      14.1      0.00      1.03      1.53      1.16      2.07      1.65      1.00      0.00

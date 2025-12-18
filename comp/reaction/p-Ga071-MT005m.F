@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  31  71  0   1 P0014017 N.T.Porile,S.T  1963    24 31-GA-71(P,X)30-ZN-69-M,,SIG    1.66     0.885      9.90     0.412     T1  8.49      7.93      15.0      25.2      56.0      0.00      1.49      0.00      0.00      1.81      0.00      0.00      0.00
-  31  71  0   1 T0123004MG.H.McCormick,  1956     1 31-GA-71(P,X)30-ZN-69-M,,SIG    2.63      2.09      0.00     0.223     T1 0.125     5.000E-02  0.00      22.4      22.4      0.00      3.90      0.00      0.00      1.12      0.00      0.00      0.00

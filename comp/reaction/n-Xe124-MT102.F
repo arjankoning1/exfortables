@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  54 124  0  -1 01054124 Kadonis         2024    20                                 1.44      1.19      8.09     0.341     R1  680.      542.      17.0     5.000E-03 0.100      0.00      1.00      1.25      1.00      1.55      1.97      1.35      0.00
-  54 124  0  -1 14443002 M.Bhike,B.Fall  2015     9 54-XE-124(N,G)54-XE-125,,SIG    2.93     0.772      90.9     0.402     R3  138.      109.      12.6     0.370      7.25      0.00      1.33      3.44      1.33      1.94      3.14      6.51      0.00

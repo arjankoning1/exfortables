@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  74 184  0  -1 O0617008 L.N.Andronenko  1984     0 74-W-184(P,F),,SIG              0.00      0.00      0.00      0.00         0.00      25.0      20.0     1.000E+03 1.000E+03  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-  74 184  0  -1 O1697004 A.N.Smirnov,O.  2007     6 74-W-184(P,F),,SIG              4.75      2.93     1.491E+03 0.203     T2 0.877     0.945      14.5      40.4      170.      0.00      4.75      0.00      0.00      0.00      0.00      0.00      0.00

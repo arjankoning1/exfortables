@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  59 141  0  -1 O1352008 K.Hilgers, Yu.  2005    10 59-PR-141(P,3N)60-ND-139,,SIG   2.12      1.26      99.9     0.130     T1  467.      430.      30.2      21.0      44.8      0.00      2.12      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   4   9  0  -1 F1457003 L.N.Generalov,  2020     0 4-BE-9(P,A)3-LI-6,PAR,SIG       0.00      0.00      0.00      0.00         0.00      41.7      5.34      1.96      5.24      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-   4   9  0  -1 C0633002 R.B.DAY,R.L.WA  1952     0 4-BE-9(P,A)3-LI-6,PAR,SIG       0.00      0.00      0.00      0.00         0.00     5.057E-02  10.0      2.38      2.71      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  66 160  0  -1 20541042 S.M.Qaim        1974     1 66-DY-160(N,2N)66-DY-159,,SIG   1.01     0.994     7.760E-02 0.456     R1 1.996E+03 2.020E+03  10.8      14.7      14.7      0.00      1.00      1.00      1.03      1.00      0.00      1.00      0.00
-  66 160  0  -1 20802006 W.Dilg, H.Vona  1968     1 66-DY-160(N,2N)66-DY-159,,SIG   1.03     0.988     0.324     0.470     T1 1.996E+03 2.033E+03  5.78      14.7      14.7      0.00      1.00      1.00      1.06      1.00      0.00      1.00      0.00

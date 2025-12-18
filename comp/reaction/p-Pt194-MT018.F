@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  78 194  0  -1 O0627007 V.N.OKOLOVICH,  1974     8 78-PT-194(P,F),,SIG,,,EXP       38.5      37.5     5.709E+05  0.00     T2 0.188     5.461E-03  6.00      23.6      29.6      0.00      38.5      0.00      0.00      0.00      0.00      0.00      0.00

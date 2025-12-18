@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  56 135  0   1 22191009 Y.Ikeda,C.Konn  1990     2 56-BA-135(N,INL)56-BA-135-M,,S  1.31     0.807      11.6     0.220     T1  579.      704.      6.74      2.20      3.01      0.00      1.48      0.00      1.41      1.02      0.00      1.17      0.00
-  56 135  0   1 30338005 P.Bornemisza-P  1968     1 56-BA-135(N,INL)56-BA-135-M,,S  1.99      1.95      223.     6.849E-02 T3  633.      320.      6.88      2.80      2.80      0.00      1.59      0.00      1.83      2.44      0.00      2.04      0.00

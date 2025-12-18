@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  13  26  0  -1 227120051H.P.TRAUTVETTE  1986     1 13-AL-26(N,P)12-MG-26,PAR,SIG,  1.55     0.645      3.34     0.247     T1  44.6      72.0      20.8     0.310     0.310      0.00      0.00      0.00      0.00      1.55      0.00      0.00      0.00

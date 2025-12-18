@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  79 197  0  -1 41614227 A.A.Filatenkov  2016     3 79-AU-197(N,A)77-IR-194,,SIG    1.06     0.987     0.201     0.358     T1 0.366     0.383      26.8      13.6      14.8      0.00      1.03      1.09      1.09      1.07      1.03      1.01      0.00
-  79 197  0  -1 11462018 B.P.BAYHURST,R  1961    15 79-AU-197(N,A)77-IR-194,,SIG    1.42      1.03      9.58     0.261     T1 0.605     0.578      13.2      7.00      19.8      0.00      1.33      1.14      1.14      1.49      1.30      1.65      0.00

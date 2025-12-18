@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   3   6  0  -1 A0081004 B.JA.Guzhovski  1980     0 3-LI-6(T,2N)4-BE-7,,SIG         0.00      0.00      0.00      0.00         0.00      51.9      4.19      4.81      12.0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-   3   6  0  -1 A1437003 S.N.Abramovich  1986     0 3-LI-6(T,P)3-LI-8,,SIG          0.00      0.00      0.00      0.00         0.00      33.9      19.0      2.15      10.2      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

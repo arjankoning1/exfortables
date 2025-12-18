@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  54 124  0  -1 D4238009 A.Hermanne,F.T  2011     1 54-XE-124(P,2N+A)53-I-119,,SIG  2.17     0.461      14.9     4.883E-02 T2  1.99      9.95      14.6      29.8      37.2      0.00      2.17      0.00      0.00      0.00      0.00      0.00      0.00

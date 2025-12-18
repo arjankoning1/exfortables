@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  29  63  0   0 20471003 M.BORMANN, W.S  1972     1 29-CU-63(N,A)27-CO-60-G,DI,SIG  11.0      10.8     2.561E+03  0.00     T2  26.8      2.40      20.8      14.2      14.2      0.00      8.71      0.00      0.00      9.72      0.00      15.1      0.00

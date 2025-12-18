@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  16  34  0  -1 M0510002 Y.I.ASSAFIRI,M  1986    18 16-S-34(G,P)15-P-33,,SIG,,BRS   2.96     0.482      3.94     0.216     T2  7.13      15.9      40.9      12.3      25.3      0.00      2.61      1.46      0.00      5.45      0.00      0.00      0.00

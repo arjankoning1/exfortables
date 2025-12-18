@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  49 113  0  -1 20380005 H.LISKIEN       1968     5 49-IN-113(N,3N)49-IN-111,,SIG   1.74      1.44      52.9     0.353     T1  53.0      36.0      11.8      18.6      19.5      0.00      1.51      2.16      1.18      1.18      1.12      2.72      0.00

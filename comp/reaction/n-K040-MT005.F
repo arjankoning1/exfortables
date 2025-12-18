@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  19  40  0  -1 23512002 J.Rossel, J.We  1958     1 19-K-40(N,P)18-AR-40,,SIG       1.18     0.846      1.27     0.128     R1 3.010E+03 3.800E+03  18.4     5.400E-08 5.400E-08  0.00      1.18      0.00      1.18      1.18      0.00      0.00      0.00

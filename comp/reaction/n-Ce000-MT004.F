@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  58   0  0  -1 11495042 D.B.THOMSON     1963     2 58-CE-0(N,INL)58-CE-0,,SIG      1.08     0.952     0.750     0.444     T1 2.222E+03 2.380E+03  10.0      5.00      7.00      0.00      1.12      1.03      1.12      1.01      1.04      0.00      0.00
-  58   0  0  -1 21231020 R.O.Owens,J.H.  1968     3 58-CE-0(N,INL)58-CE-0,,SIG      1.13     0.908      7.79     0.360     T1 2.212E+03 2.447E+03  4.52      5.00      6.97      0.00      1.18      1.08      1.19      1.05      1.11      0.00      0.00

@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   3   6  0  -1 31768023 R.B.Firestone,  2016     1 3-LI-6(N,G)3-LI-7,,SIG          1.03     0.971      3.11     0.353     T1  38.1      39.3      1.78     2.530E-08 2.530E-08  0.00      0.00      1.03      1.03      1.03      0.00      1.03      0.00

@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  26  56  0  -1 C1151008 S.I.Al-Quraish  2000     0 26-FE-56(D,P)26-FE-57,PAR,SIG   0.00      0.00      0.00      0.00         0.00     0.446      0.00      5.00      5.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

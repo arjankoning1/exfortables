@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  78   0  0  -1 C0695007 R.G.THOMAS,W.B  1967    10 78-PT-0(P,2N),,SIG              1.42      1.01      12.7     0.183     T2  236.      285.      14.3      9.70      13.9      0.00      1.42      0.00      0.00      0.00      0.00      0.00      0.00

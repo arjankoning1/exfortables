@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  38  88  0   1 P0008002 A.M.MOROZOV,V.  1962     0 38-SR-88(P,N)39-Y-88-M,,SIG     0.00      0.00      0.00      0.00         0.00      130.      2.90      7.66      19.2      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  88 226  0  -1 O1236002 C.Apostolidis,  2005     5 88-RA-226(P,2N)89-AC-225,,SIG   1.93      1.44      22.8     0.241     T1  233.      241.      22.0      8.80      24.8      0.00      1.93      0.00      0.00      0.00      0.00      0.00      0.00

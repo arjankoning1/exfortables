@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  27  59  0  -1 L0028006 R.A.Alvarez,B.  1979   153 27-CO-59(G,X)0-NN-1,,SIG        1.33      1.17      56.5     0.300     T1  50.0      41.2      11.9      10.2      36.5      0.00      1.55      1.18      0.00      1.18      0.00      0.00      0.00
-  27  59  0  -1 L0001009 S.C.Fultz,R.L.  1962    59 27-CO-59(G,X)0-NN-1,,SIG        1.61      1.32      48.2     0.210     T1  53.9      39.5      21.7      9.65      27.8      0.00      1.85      1.45      0.00      1.49      0.00      0.00      0.00

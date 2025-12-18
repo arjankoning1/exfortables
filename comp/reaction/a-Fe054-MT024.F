@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  26  54  0  -1 P0057010 S.TANAKA,M.FUR  1960     0 26-FE-54(A,2N+A)26-FE-52,,SIG   0.00      0.00      0.00      0.00         0.00     0.256      7.62      37.9      39.7      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  78 190  0  -1 31622008 Junhua Luo, Gu  2005     2 78-PT-190(N,2N)78-PT-189,,SIG   1.57     0.639      23.9     0.170     T1 1.554E+03 2.435E+03  7.36      14.1      14.4      0.00      1.57      0.00      1.57      0.00      0.00      0.00      0.00
-  78 190  0  -1 40276004 V.P.Vertebnyi,  1975     1 78-PT-190(N,G)78-PT-191,,SIG    5.27     0.190      85.7     0.197     T3 1.519E+05 8.000E+05  8.75     2.530E-08 2.530E-08  0.00      5.27      0.00      5.27      0.00      0.00      0.00      0.00

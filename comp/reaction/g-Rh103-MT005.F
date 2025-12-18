@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  45 103  0  -1 M0166003 B.S.Ishkhanov,  1963    19 45-RH-103(G,P)44-RU-102,,SIG,,  4.34     0.238      2.78     3.808E-02 T2 0.764      4.72      50.0      14.0      32.0      0.00      4.57      0.00      0.00      4.11      0.00      0.00      0.00

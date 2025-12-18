@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  49 115  0   1 L0237002 W.Tornow,M.Bhi  2018    11 49-IN-115(G,INL)49-IN-115-M,,S  3.80      3.24      476.     0.138     T3 3.198E-02 8.725E-03  19.7      1.90      3.70      0.00      2.72      6.40      0.00      2.58      0.00      0.00      0.00
-  49 115  0   1 M1004003 O.V.Bogdankevi  1956    12 49-IN-115(G,2N)49-IN-113-M,,SI  6.48      3.11      0.00     9.457E-02 T2  7.52      2.65      0.00      16.0      28.0      0.00      8.21      3.59      0.00      5.54      0.00      0.00      0.00

@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  92 238  0  -1 O2130002 M.Lefort        1961     8 92-U-238(P,3N)93-NP-236,,SIG    1.85      1.03      16.9     0.357     T1  8.80      8.01      19.3      32.0      150.      0.00      1.81      0.00      0.00      1.88      0.00      0.00      0.00
-  92 238  0  -1 S0026003 V.A.Ageev,V.YA  1987    10 92-U-238(P,3N)93-NP-236,,SIG    10.4     0.357      42.1     0.339     T2  32.9      41.4      12.0      14.0      29.6      0.00      26.0      0.00      0.00      1.84      0.00      0.00      0.00

@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  36  84  0   1 30501002 B.V.Thirumala   1972     1 36-KR-84(N,G)36-KR-85-M,,SIG    10.8     0.205      13.2     0.300     T2  28.2      57.0      17.5     2.500E-02 2.500E-02  0.00      57.7      0.00      1.01      2.00      0.00      0.00      0.00

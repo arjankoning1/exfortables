@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  40  92  0  -1 C1900002 D.S.Flynn,R.L.  1979   209 40-ZR-92(P,N)41-NB-92,,SIG      1.63      1.32     2.984E+04 0.263     T3  67.4      57.5     0.970      2.92      6.51      0.00      1.69      0.00      0.00      1.32      0.00      0.00      0.00
-  40  92  0  -1 P0033014 J.P.Blaser,F.B  1951    10 40-ZR-92(P,N)41-NB-92,,SIG      1.66      1.64      0.00     0.174     T2  114.      70.3      0.00      3.50      6.67      0.00      1.78      0.00      0.00      1.53      0.00      0.00      0.00

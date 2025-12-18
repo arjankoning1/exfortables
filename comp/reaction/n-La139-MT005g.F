@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  57 139  0   0 12033007 R.G.Wille,R.W.  1960     1 57-LA-139(N,A)55-CS-136-G,,SIG  1.32      1.28      0.00     0.138     R1  1.59      1.23      0.00      14.8      14.8      0.00      1.16      1.55      1.16      0.00      0.00      0.00      0.00
-  57 139  0   0 12872011 A.BARI          1982     1 57-LA-139(N,A)55-CS-136-G,,SIG  1.78     0.570      16.1     0.100     T1  1.59      2.76      10.8      14.8      14.8      0.00      1.94      1.44      1.94      0.00      0.00      0.00      0.00

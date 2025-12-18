@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  41  93  0  -1 30473005 S.Sudar,J.Csik  1979     2 41-NB-93(N,T)40-ZR-91,,SIG      1.54     0.846      1.21     0.417     T1 0.345     0.370      27.1      14.6      14.6      0.00      1.08      1.02      1.01      2.60      0.00      1.05      0.00
-  41  93  0  -1 218370041S.M.QAIM,R.WOE  1982     3 41-NB-93(N,T)40-ZR-91,,SIG      2.07      1.63      157.     0.329     T1  1.46     0.777      11.1      16.3      19.0      0.00      3.81      1.35      2.18      1.02      0.00      1.51      0.00

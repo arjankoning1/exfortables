@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  40  90  0   1 M0741003 D.BRAJNIK,D.JA  1976    26 40-ZR-90(G,P)39-Y-89-M,,SIG,,B  2.13     0.759      2.55     0.174     T1  1.29      2.13      55.2      14.5      30.8      0.00      2.11      0.00      0.00      2.14      0.00      0.00      0.00

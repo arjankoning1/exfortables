@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  32   0  0  -1 11826005 D.LISTER,A.B.S  1969    50 32-GE-0(N,INL),PAR,SIG          4.90     0.731      145.     0.214     T3  378.      363.      12.2     0.900      1.50      0.00      2.00      2.22      2.00      2.22      25.2      0.00      0.00

@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  74 180  0   0 31665003 Kaihong Fang,   2009     2 74-W-180(N,2N)74-W-179-G,,SIG   1.07      1.05     0.261     0.347     T1 1.505E+03 1.362E+03  28.0      13.5      14.1      0.00      1.08      1.10      1.10      1.00      0.00      1.00      0.00

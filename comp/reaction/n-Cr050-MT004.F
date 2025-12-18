@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  24  50  0  -1 11676004 D.M.VAN PATTER  1962    10 24-CR-50(N,INL)24-CR-50,,SIG    1.35      1.19      3.87     0.238     T1  909.      736.      17.8     0.980      3.31      0.00      1.40      1.36      1.36      1.29      1.34      0.00      0.00

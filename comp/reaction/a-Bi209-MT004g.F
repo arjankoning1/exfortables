@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  83 209  0   0 C1659011 A.R.Barnett,J.  1974    24 83-BI-209(A,N)85-AT-212-G,,SIG  1.51     0.787      40.7     0.191     T3  19.3      29.3      5.21      16.0      24.0      0.00      1.51      0.00      0.00      0.00      0.00      0.00      0.00
-  83 209  0   0 A0208004AJ.P.Didelez,R.  1980     4 83-BI-209(A,N)85-AT-212-G,,SIG  1.80      1.02      3.26     0.357     T2 0.304     0.588      29.4      45.0      90.0      0.00      1.80      0.00      0.00      0.00      0.00      0.00      0.00

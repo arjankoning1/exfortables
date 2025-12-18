@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  80   0  0  -1 11621031 L.D.VINCENT,I.  1960     1 80-HG-0(N,INL),,SIG             1.18     0.855      1.48     0.138     R1 2.602E+03 3.200E+03  15.6      4.10      4.10      0.00      1.16      1.16      1.16      1.10      1.28      0.00      0.00
-  80   0  0  -1 40662018 N.P.Glazkov     1963     4 80-HG-0(N,INL)80-HG-0,,SIG      1.92      1.70      71.0     0.146     R3  822.      542.      11.3     0.400      1.00      0.00      1.54      2.01      1.54      2.44      2.00      0.00      0.00

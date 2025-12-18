@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  89 227  0  -1 23378002 H.F.Aly,U.Herp  1974     1 89-AC-227(N,G)89-AC-228,,SIG    1.22     0.821      22.6     0.189     T1 8.396E+05 1.021E+06  3.82     2.530E-08 2.530E-08  0.00      1.17      1.29      1.17      1.29      0.00      1.16      0.00
-  89 227  0  -1 23378005 H.F.Aly,U.Herp  1974     3 89-AC-227(N,G)89-AC-228,,SIG    1.23     0.822      139.     0.176     T1 8.396E+05 1.021E+06  2.89     2.530E-08 2.530E-08  0.00      1.18      1.29      1.18      1.29      0.00      1.17      0.00

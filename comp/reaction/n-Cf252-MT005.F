@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  98 252  0  -1 10018002 J.HALPERIN,C.E  1969     1 98-CF-252(N,G)98-CF-253,,SIG    1.00      1.00     2.001E-02 0.478     T1 2.068E+04 2.040E+04  9.80     2.500E-08 2.500E-08  0.00      1.00      0.00      0.00      0.00      0.00      0.00      0.00
-  98 252  0  -1 231090041S.H.Eberle,W.R  1971     1 98-CF-252(N,G)98-CF-253,,SIG    1.01      1.01     7.748E-02 0.439     T1 2.056E+04 2.000E+04  10.0     2.530E-08 2.530E-08  0.00      1.01      0.00      0.00      0.00      0.00      0.00      0.00

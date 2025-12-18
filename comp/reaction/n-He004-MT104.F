@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   2   4  0  -1 30405009 R.E.Shamu, J.G  1964     0 2-HE-4(N,D)1-H-3,,SIG           0.00      0.00      0.00      0.00         0.00      54.5      13.6      22.1      22.4      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

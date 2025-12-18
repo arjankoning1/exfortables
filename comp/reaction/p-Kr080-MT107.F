@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  36  80  0  -1 O1618003 F.Helus, St.Ze  1991     7 36-KR-80(P,A)35-BR-77,,SIG      4.28     0.342      11.0     0.174     T2  12.4      43.9      20.0      12.5      28.8      0.00      4.28      0.00      0.00      0.00      0.00      0.00      0.00

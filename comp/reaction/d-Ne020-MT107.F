@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  10  20  0  -1 D0112004 M.Guillaume     1976     0 10-NE-20(D,A)9-F-18,,SIG        0.00      0.00      0.00      0.00         0.00      197.      0.00      7.00      12.5      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-  10  20  0  -1 D4134004 A.Fenyvesi, S.  1997     0 10-NE-20(D,A)9-F-18,,SIG        0.00      0.00      0.00      0.00         0.00      180.      12.9      2.80      8.50      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

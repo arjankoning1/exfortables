@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  24  50  0   0 D4335003 A.Hermanne,R.A  2015    14 24-CR-50(A,X)25-MN-52-G,CUM,SI  1.43     0.761      8.88     0.106     T1  320.      383.      11.6      5.20      38.3      0.00      1.43      0.00      0.00      0.00      0.00      0.00      0.00
-  24  50  0   0 A0510309 V.N.Levkovski   1991    17 24-CR-50(A,X)25-MN-52-G,,SIG    2.80     0.627      9.66     9.878E-02 T1  307.      296.      12.2      14.6      45.8      0.00      2.80      0.00      0.00      0.00      0.00      0.00      0.00

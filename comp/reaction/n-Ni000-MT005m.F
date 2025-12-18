@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  28   0  0   1 31640005 Fang Kai-Hong,  2008     2 28-NI-0(N,X)27-CO-62-M,,SIG     1.14     0.899      3.13     0.233     T1 0.580     0.657      7.75      13.5      14.6      0.00      1.02      0.00      1.18      1.15      0.00      0.00      0.00
-  28   0  0   1 31640003 Fang Kai-Hong,  2008     2 28-NI-0(N,X)27-CO-60-M,,SIG     1.40     0.735      12.3     0.134     T1  21.7      30.2      7.95      13.5      14.6      0.00      1.36      0.00      1.41      1.43      0.00      0.00      0.00

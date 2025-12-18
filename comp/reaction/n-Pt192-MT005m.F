@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  78 192  0   1 12244002 B.C.Haldar      1953     1 78-PT-192(N,G)78-PT-193-M,,SIG  20.9     4.780E-02  4.85     2.384E-07 T2 1.872E+03 9.000E+04  44.4     2.353E-08 2.353E-08  0.00      20.9      0.00      20.9      0.00      0.00      0.00      0.00

@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  22  47  0  -1 41186037 A.I.Lashuk, I.  1994     7 22-TI-47(N,INL)22-TI-47,PAR,SI  1.50     0.673      12.9     0.100     T1  623.      932.      9.34     0.930      1.40      0.00      1.47      1.52      1.47      1.52      1.53      0.00      0.00

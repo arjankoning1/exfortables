@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  15  31  0  -1 20341020 K.Tsukada, S.T  1961     4 15-P-31(N,INL)15-P-31,PAR,SIG   3.54     0.287      33.5     0.158     T3  176.      612.      12.3      3.85      4.80      0.00      3.12      0.00      3.12      4.74      3.24      0.00      0.00

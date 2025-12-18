@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  26   0  0  -1 D0530005 A.Budzanowski,  1967     1 26-FE-0(A,NON),,SIG             1.03      1.03      1.28     2.242E-02 T1 1.305E+03 1.262E+03  3.01      24.7      24.7      0.00      1.03      0.00      0.00      0.00      0.00      0.00      0.00
-  26   0  0  -1 D5117003 L.V.Dubar,O.F.  1972     1 26-FE-0(A,NON),,SIG             1.18     0.849      43.4     1.762E-02 T1 1.332E+03 1.569E+03  2.29      26.2      26.2      0.00      1.18      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  42  94  0   1 22089072 Y.Ikeda,C.Konn  1988     6 42-MO-94(N,P)41-NB-94-M,,SIG    1.22      1.16     0.876     0.272     R1  37.7      30.3      31.1      13.3      14.9      0.00      1.18      0.00      1.18      1.37      0.00      1.06      0.00
-  42  94  0   1 11590063 E.T.Bramlitt,R  1963     1 42-MO-94(N,P)41-NB-94-M,,SIG    6.43      6.42      446.      0.00     R2  37.4      5.81      25.8      14.7      14.7      0.00      6.58      0.00      6.58      6.97      0.00      5.61      0.00

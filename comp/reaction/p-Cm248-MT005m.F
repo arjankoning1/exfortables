@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  96 248  0   1 E1852018 Z.Qin, K.Tsuka  1999     0 96-CM-248(P,F)52-TE-133-M,(CUM  0.00      0.00      0.00      0.00         0.00      7.45      15.1      10.5      20.0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

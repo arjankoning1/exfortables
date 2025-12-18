@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   3   7  0  -1 A0273003 S.N.Abramovich  1983     0 3-LI-7(T,X)3-LI-8,,SIG          0.00      0.00      0.00      0.00         0.00      51.1      20.9      6.23      10.1      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-   3   7  0  -1 A0273002 S.N.Abramovich  1983     0 3-LI-7(T,X)3-LI-8,,SIG          0.00      0.00      0.00      0.00         0.00      52.3      20.9      6.27      10.1      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

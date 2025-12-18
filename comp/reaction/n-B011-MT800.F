@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   5  11  0  -1 30530002 B.Antolkovic,   1979     1 5-B-11(N,A)3-LI-8,PAR,SIG       1.02      1.02     0.186     0.379     T1  22.0      20.5      17.1      14.4      14.4      0.00      0.00      0.00      0.00      0.00      1.02      0.00      0.00
-   5  11  0  -1 20475002 M.BORMANN, D.K  1973     1 5-B-11(N,A)3-LI-8,PAR,SIG       1.16      1.16     0.773     0.266     T1  22.4      17.7      30.0      14.1      14.1      0.00      0.00      0.00      0.00      0.00      1.16      0.00      0.00

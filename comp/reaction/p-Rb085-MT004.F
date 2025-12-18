@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  37  85  0  -1 A0510159 V.N.Levkovski   1991    13 37-RB-85(P,N)38-SR-85,,SIG      1.39      1.20      12.7     0.230     T1  468.      354.      12.2      7.70      18.3      0.00      1.38      0.00      0.00      1.40      0.00      0.00      0.00
-  37  85  0  -1 D4214003 G.G.Kiss,T.Rau  2008    11 37-RB-85(P,N)38-SR-85,,SIG      3.14      2.84     1.283E+03 0.168     T3  8.56      4.10      8.46      2.18      4.00      0.00      3.59      0.00      0.00      2.70      0.00      0.00      0.00

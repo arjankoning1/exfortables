@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  41  93  0  -1 C2343003 P.Bond,S.Jha    1970     2 41-NB-93(A,X)41-NB-92,,SIG      15.8      15.8     5.453E+03  0.00     T2  80.5      9.79      20.0      26.0      41.0      0.00      15.8      0.00      0.00      0.00      0.00      0.00      0.00

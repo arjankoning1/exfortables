@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  42   0  0  -1 21264008 L.Colli,U.Facc  1959     1 42-MO-0(N,N+P),,SIG             1.12      1.10      1.87     0.278     T1  124.      111.      10.1      14.1      14.1      0.00      1.10      1.09      1.10      1.00      1.23      1.09      0.00

@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  50 120  0  -1 40937040 Zo-In-Ok, V.G.  1985    34 50-SN-120(N,EL)50-SN-120,,SIG   1.11     0.994      2.37     0.293     T1 5.642E+03 5.660E+03  8.34     7.000E-04 0.442      0.00      1.10      1.10      1.10      1.10      1.13      0.00      0.00
-  50 120  0  -1 13158011 P.P.GUSS,R.C.B  1989     3 50-SN-120(N,EL)50-SN-120,,SIG   1.73     0.580      148.     0.102     T2 2.548E+03 4.393E+03  4.17      9.94      16.9      0.00      1.75      1.72      1.75      1.72      1.70      0.00      0.00

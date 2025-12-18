@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  82 208  0  -1 D0214010 B.Bonin, N.Ala  1985     0 82-PB-208(A,NON),,SIG           0.00      0.00      0.00      0.00         0.00     2.869E+03  1.91      288.      699.      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-  82 208  0  -1 D0186013 A.Ingemarsson,  2000     3 82-PB-208(A,NON),,SIG           1.04     0.975     0.791     1.458E-02 T1 2.786E+03 2.870E+03  7.25      117.      192.      0.00      1.04      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   4   9  0  -1 B0005002 C.E.MOSS, C.S.  1974     0 4-BE-9(HE3,2N)6-C-10,,SIG,,,EX  0.00      0.00      0.00      0.00         0.00     0.254      22.6      10.3      40.8      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

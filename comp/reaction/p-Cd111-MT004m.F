@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  48 111  0   1 A01350021E.A.Skakun, A.  1979     3 48-CD-111(P,N)49-IN-111-M,,SIG  1.03     0.989     0.236     0.145     T1  117.      119.      12.3      6.10      9.10      0.00      1.03      0.00      0.00      0.00      0.00      0.00      0.00

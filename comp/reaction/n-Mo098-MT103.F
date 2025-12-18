@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  42  98  0  -1 41321018 O.I.Artem'ev,I  1980     1 42-MO-98(N,P)41-NB-98,,SIG      1.26     0.960      4.85     0.306     T1  8.78      9.00      11.1      14.8      14.8      0.00      1.10      1.40      1.10      1.21      1.43      1.13      0.00
-  42  98  0  -1 31459007 I.Garlea, C.Mi  1992     1 42-MO-98(N,P)41-NB-98,,SIG      1.80      1.71      214.     7.638E-02 R2  8.78      4.98      6.03      14.8      14.8      0.00      1.58      1.28      1.58      1.47      2.58      2.09      0.00

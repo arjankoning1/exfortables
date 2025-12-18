@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  47 107  0  -1 S0024002 Peng Xiufeng,   1992     0 47-AG-107(D,2N)48-CD-107,,SIG   0.00      0.00      0.00      0.00         0.00      523.      7.26      5.70      13.3      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

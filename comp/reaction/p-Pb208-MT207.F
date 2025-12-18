@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  82 208  0  -1 O2263040 E.Gadioli, I.L  1973     4 82-PB-208(P,X)2-HE-4,,SIG       1.48      1.04      10.5     0.385     T1  14.7      13.4      15.0      30.0      44.5      0.00      1.36      1.21      0.00      1.77      0.00      0.00      0.00
-  82 208  0  -1 D0452030 L.Milazzo-Coll  1975     4 82-PB-208(P,X)2-HE-4,,SIG       1.62     0.958      5.71     0.353     T1  5.77      5.20      20.0      20.0      30.0      0.00      1.93      1.10      0.00      1.65      0.00      0.00      0.00

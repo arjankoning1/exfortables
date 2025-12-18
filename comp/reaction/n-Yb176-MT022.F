@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  70 176  0  -1 32233011 N.Dzysiuk,A.Ka  2012     1 70-YB-176(N,N+A)68-ER-172,,SIG  2.12      2.00      13.7     0.117     T1 3.160E-02 1.500E-02  33.3      14.7      14.7      0.00      2.76      1.78      2.76      1.78      0.00      1.34      0.00
-  70 176  0  -1 22022007 S.M.QAIM        1986     1 70-YB-176(N,N+A)68-ER-172,,SIG  3.28     0.312      2.41     6.459E-02 T1 3.160E-02 0.140      50.0      14.7      14.7      0.00      2.45      3.59      2.45      3.59      0.00      4.36      0.00

@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  12  25  0  -1 C2004006 F.O.Bartell,S.  1951     7 12-MG-25(P,2A)9-F-18,,SIG       7.74     0.130      0.00     1.417E-02 T2  4.02      35.8      0.00      21.4      32.4      0.00      7.74      0.00      0.00      0.00      0.00      0.00      0.00
-  12  25  0  -1 C1999003 B.L.Cohen,H.L.  1954    20 12-MG-25(P,2A)9-F-18,,SIG       16.8     6.357E-02  1.85     1.043E-07 T2 0.513      5.12     0.727      17.8      21.6      0.00      16.8      0.00      0.00      0.00      0.00      0.00      0.00

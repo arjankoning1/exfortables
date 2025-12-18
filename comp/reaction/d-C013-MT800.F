@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   6  13  0  -1 A0289004 A.A.Naqvi, M.M  1998     0 6-C-13(D,A)5-B-11,PAR,SIG       0.00      0.00      0.00      0.00         0.00     0.302      13.3     0.180     0.350      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-   6  13  0  -1 O1771006 R.Klabes, F.Ba  1970     0 6-C-13(D,A)5-B-11,PAR,SIG       0.00      0.00      0.00      0.00         0.00      6.41      20.0      12.1      14.1      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

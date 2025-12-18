@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  22   0  0  -1 11492015 F.L.HASSLER,R.  1962     1 22-TI-0(N,P),,SIG               2.26      2.26      122.     8.144E-02 T2  79.2      35.0      11.4      14.4      14.4      0.00      2.23      2.25      2.23      2.38      2.21      2.27      0.00

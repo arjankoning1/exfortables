@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  73 181  0   1 M0690002MS.Goko,H.Utsun  2006     6 73-TA-181(G,N)73-TA-180-M,,SIG  1.19     0.946     0.335     0.190     T1  12.3      16.2      60.4      9.20      12.3      0.00      1.22      0.00      0.00      1.16      0.00      0.00      0.00

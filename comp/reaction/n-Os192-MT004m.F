@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  76 192  0   1 21818011 B.Anders,R.Pep  1982     1 76-OS-192(N,INL)76-OS-192-M,,S  2.35      2.03      212.     0.167     T2  5.87      2.60      10.4      14.6      14.6      0.00      2.85      0.00      2.85      0.00      0.00      1.03      0.00

@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  42  98  0  -1 22793003 I.-G.Birn, A.M  1997    12 42-MO-98(N,INL)42-MO-98,PAR,SI  1.20      1.14      4.35     0.250     T1  743.      564.      18.2     0.725      1.90      0.00      1.25      1.08      1.25      1.20      1.15      0.00      0.00
-  42  98  0  -1 32201005 I.A.Korzh,V.A.  1994     6 42-MO-98(N,INL)42-MO-98,PAR,SI  3.14      1.71      15.1     0.266     T1  739.      554.      37.6     0.856      1.40      0.00      3.26      3.04      3.26      3.12      3.03      0.00      0.00

@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  73 181  0  -1 M0947008 P.Carlos,H.Bei  1984     0 73-TA-181(G,ABS),,SIG,,FCT      0.00      0.00      0.00      0.00         0.00     0.366      10.2      235.      330.      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-  73 181  0  -1 M0947007 P.Carlos,H.Bei  1984     0 73-TA-181(G,ABS),,SIG,,FCT      0.00      0.00      0.00      0.00         0.00     0.347      7.42      235.      330.      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

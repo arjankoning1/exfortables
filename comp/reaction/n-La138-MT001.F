@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  57 138  0  -1 120650052H.SHWE,R.E.COT  1967     2 57-LA-138(N,TOT),,SIG,,RES      5.91     0.223      11.6     4.853E-02 T2 2.071E+06 4.590E+06  4.41     2.994E-06 2.050E-05  0.00      6.66      5.32      6.38      5.32      0.00      0.00      0.00

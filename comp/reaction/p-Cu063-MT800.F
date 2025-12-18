@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  29  63  0  -1 D0118004 Z.E.Switkowski  1978     0 29-CU-63(P,A)28-NI-60,PAR,SIG   0.00      0.00      0.00      0.00         0.00      5.02     0.730      2.08      4.54      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

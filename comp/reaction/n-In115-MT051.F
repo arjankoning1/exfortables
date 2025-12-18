@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  49 115  0  -1 20788016 E.Almen-Ramstr  1975     4 49-IN-115(N,INL)49-IN-115,PAR,  2.13     0.523      3.63     9.102E-02 T1  9.95      19.1      26.4      2.02      2.77      0.00      1.52      1.31      2.30      2.30      2.99      0.00      0.00

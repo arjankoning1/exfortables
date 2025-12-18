@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  22   0  0  -1 20416063 J.Frehaut,A.Be  2016    12 22-TI-0(N,2N),,SIG              1.27      1.21      9.50     0.214     R2  185.      165.      8.99      10.2      14.8      0.00      1.32      1.11      1.20      1.26      1.16      1.15      0.00
-  22   0  0  -1 11632002 V.J.ASHBY,H.C.  1958     1 22-TI-0(N,2N),,SIG              1.29     0.777      8.70     6.817E-02 R2  404.      520.      7.69      14.1      14.1      0.00      1.38      1.27      1.37      1.28      1.20      1.23      0.00

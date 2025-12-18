@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   5  11  0  -1 L0044007 U.KNEISSL,K.H.  1976    92 5-B-11(G,X)0-NN-1,,SIG          1.64      1.01      21.5     0.265     T1  4.29      3.58      18.6      11.0      35.1      0.00      1.94      0.00      0.00      1.25      0.00      0.00      0.00

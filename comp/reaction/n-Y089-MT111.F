@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  39  89  0  -1 30106009 S.Lulic,P.Stro  1970     0 39-Y-89(N,2P)37-RB-88,,SIG      0.00      0.00      0.00     2.384E-07     0.00     4.171E-02  79.1      14.6      14.6      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

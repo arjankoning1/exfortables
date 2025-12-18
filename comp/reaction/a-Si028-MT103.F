@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  14  28  0  -1 C0531002 M.A.BUCKBY,J.D  1984    25 14-SI-28(A,P)15-P-31,,SIG       4.23      2.79      906.     0.184     T3  233.      119.      32.3      5.25      11.5      0.00      3.68      0.00      0.00      4.80      0.00      0.00      0.00

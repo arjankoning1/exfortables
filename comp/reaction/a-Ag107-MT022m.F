@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  47 107  0   1 D6218004 N.L.Singh, S.A  1987     3 47-AG-107(A,X)47-AG-106-M,,SIG  2.51      2.37      152.     0.139     T1  52.3      28.2      13.3      23.8      47.2      0.00      2.51      0.00      0.00      0.00      0.00      0.00      0.00
-  47 107  0   1 E1874008 S.Fukushima, S  1963     9 47-AG-107(A,X)47-AG-106-M,,SIG  3.35      3.31      56.6     0.132     T1  41.4      30.3      30.7      20.6      39.4      0.00      3.35      0.00      0.00      0.00      0.00      0.00      0.00

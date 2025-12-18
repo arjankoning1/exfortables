@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  48 116  0   1 R00490022D.M.Montgometr  1969     5 48-CD-116(A,N+A)48-CD-115-M,,S  1.81     0.880      50.4     0.108     T1  4.18      11.9      6.72      18.0      44.6      0.00      1.81      0.00      0.00      0.00      0.00      0.00      0.00

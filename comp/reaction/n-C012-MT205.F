@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   6  12  0  -1 22715003 M.Moszynski,G.  1994     2 6-C-12(N,X)1-H-3,,SIG           1.51     0.742      2.20     0.173     T1  28.4      44.0      52.9      40.0      56.0      0.00      1.66      0.00      0.00      1.33      0.00      0.00      0.00

@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  61 147  0  -1 40363003 V.K.Gorshkov,R  1957     1 61-PM-147(N,G)61-PM-148,,SIG    1.89      1.89      15.9     0.274     T1 1.697E+05 9.000E+04  22.2     2.500E-08 2.500E-08  0.00      1.89      0.00      0.00      0.00      0.00      0.00      0.00

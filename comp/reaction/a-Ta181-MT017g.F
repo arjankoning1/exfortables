@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  73 181  0   0 A04420023M.Ismail,A.S.D  1988    12 73-TA-181(A,3N)75-RE-182-G,,SI  1.80     0.959      30.8     0.271     T1  332.      272.      8.25      26.3      57.5      0.00      1.80      0.00      0.00      0.00      0.00      0.00      0.00
-  73 181  0   0 O1119004 N.L.Singh, S.M  1994     5 73-TA-181(A,3N)75-RE-182-G,,SI  2.14     0.955      62.8     0.159     T1  435.      363.      7.56      26.5      47.8      0.00      2.14      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  39  89  0  -1 C1299025 A.A.Caretto,E.  1959     4 39-Y-89(P,NON),,SIG             2.20      2.06      84.2     0.160     T2 1.054E+03  521.      15.3      60.0      240.      0.00      2.18      0.00      0.00      2.22      0.00      0.00      0.00

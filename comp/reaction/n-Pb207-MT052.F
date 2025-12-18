@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  82 207  0  -1 22988012 E.Poenitz, R.N  2007     1 82-PB-207(N,INL)82-PB-207,PAR,  1.15     0.956      4.04     4.144E-02 T1  475.      490.      6.38      2.94      2.94      0.00      1.04      1.00      1.37      1.05      1.00      0.00      0.00
-  82 207  0  -1 30464030 M.Abdel-Harith  1976     1 82-PB-207(N,INL)82-PB-207,PAR,  1.82     0.549      9.08     0.162     T1  420.      765.      15.0      3.40      3.40      0.00      1.75      1.91      1.80      1.72      1.92      0.00      0.00

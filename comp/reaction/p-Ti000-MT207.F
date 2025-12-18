@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  22   0  0  -1 D4058003 P.Jung          1991     3 22-TI-0(P,X)2-HE-4,,SIG         1.97     0.584      1.03     0.168     T1  35.7      45.5      13.9      7.60      23.8      0.00      1.95      0.00      0.00      1.99      0.00      0.00      0.00

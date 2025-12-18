@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  80 198  0  -1 C2433003 E.F.Neuzil      1976     0 80-HG-198(A,F)ELEM/MASS,,SIG    0.00      0.00      0.00      0.00         0.00      5.25      20.0      65.0      65.0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-  80 198  0  -1 C2433002 E.F.Neuzil      1976     0 80-HG-198(A,F)ELEM/MASS,,SIG    0.00      0.00      0.00      0.00         0.00     9.006E-03  20.0      41.0      41.0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

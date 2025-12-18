@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  40  90  0  -1 C20650021A.Spyrou,S.J.Q  2013    12 40-ZR-90(P,G)41-NB-91,,SIG      1.15      1.05      1.79     0.319     T1  2.30      2.42      13.4      2.77      4.98      0.00      1.10      0.00      0.00      1.18      0.00      0.00      0.00
-  40  90  0  -1 C20650022A.Spyrou,S.J.Q  2013     7 40-ZR-90(P,G)41-NB-91,,SIG,,SF 1.021E+03 1.020E+03 5.640E+07  0.00     T3  3.53     2.245E-03  13.4      2.77      4.98      0.00     1.005E+03  0.00      0.00     1.037E+03  0.00      0.00      0.00

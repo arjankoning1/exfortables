@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  52 126  0  -1 41007050 Yu.M.Burmistro  1987     9 52-TE-126(N,INL)52-TE-126,,SIG  1.09     0.923     9.718E-02 0.148     T1  467.      668.      101.     0.700      1.09      0.00      1.09      1.13      1.09      1.04      0.00      0.00      0.00

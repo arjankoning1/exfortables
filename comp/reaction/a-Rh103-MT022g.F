@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  45 103  0   0 O1169006 M.S.Gadkari, N  2004     1 45-RH-103(A,X)45-RH-102-G,,SIG  1.78     0.562      31.0     2.294E-02 T1  17.1      79.0      7.89      28.4      47.8      0.00      1.78      0.00      0.00      0.00      0.00      0.00      0.00
-  45 103  0   0 A0484003 M.J.Ozafran,H.  1989     3 45-RH-103(A,X)45-RH-102-G,,SIG  4.61     0.473      47.0     1.298E-02 T1  5.98      56.2      10.5      15.4      89.5      0.00      4.61      0.00      0.00      0.00      0.00      0.00      0.00

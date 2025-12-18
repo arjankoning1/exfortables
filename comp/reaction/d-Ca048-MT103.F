@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  20  48  0  -1 R0045006 T.J.de Waal, M  1971     0 20-CA-48(D,P)20-CA-49,,SIG      0.00      0.00      0.00      0.00         0.00      61.2      10.0      1.91      5.46      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

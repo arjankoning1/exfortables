@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  79 197  0   0 A0582005 N.Chakravarty,  1998     5 79-AU-197(A,4N)81-TL-197-G,M+,  3.13     0.327      17.0     0.246     T2  245.      840.      19.0      38.8      48.4      0.00      3.13      0.00      0.00      0.00      0.00      0.00      0.00

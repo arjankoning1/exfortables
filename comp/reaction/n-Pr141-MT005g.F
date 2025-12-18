@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  59 141  0   0 40336096 M.V.Pasechnik,  1958     3 59-PR-141(N,G)59-PR-142-G,,SIG  3.21     0.339      314.     0.175     T2  2.82      7.33      4.02      2.50      4.00      0.00      4.00      0.00      2.44      0.00      0.00      0.00      0.00
-  59 141  0   0 30023010 M.Diksic, P.St  1970     1 59-PR-141(N,G)59-PR-142-G,,SIG  3.89     0.263      78.6     0.155     T2  2.95      10.9      8.26      3.00      3.00      0.00      4.85      0.00      2.98      0.00      0.00      0.00      0.00

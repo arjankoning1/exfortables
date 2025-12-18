@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  78   0  0   0 E2738002 D.Gantumur, M.  2023    24 78-PT-0(P,X)79-AU-198-G,,SIG    1.26      1.05      3.96     0.293     T1  2.25      2.08      9.70      4.80      29.6      0.00      1.26      0.00      0.00      0.00      0.00      0.00      0.00
-  78   0  0   0 D0950007 H.Showaimy, A.  2019     9 78-PT-0(P,X)79-AU-198-G,,SIG    2.55     0.731      4.22     0.256     T1  2.39      2.44      16.2      4.51      14.1      0.00      2.55      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  51 123  0  -1 O1898003 M.S.Uddin, A.H  2011    32 51-SB-123(A,2N)53-I-125,,SIG    1.86     0.693      7.30     9.940E-02 T2  534.      647.      12.1      14.8      39.6      0.00      1.86      0.00      0.00      0.00      0.00      0.00      0.00

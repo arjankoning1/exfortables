@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   7  15  0  -1 A0316005 M.Sajjad,R.M.L  1985    12 7-N-15(P,N+A)6-C-11,,SIG        1.30      1.19      19.9     0.301     T1  17.6      14.2      7.00      17.7      29.8      0.00      1.30      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  51 121  0   0 13025006 T.Mavaddat,S.A  1974     1 51-SB-121(N,P)50-SN-121-G,,SIG  12.2     8.670E-02  21.0     7.153E-07 R2  5.05      51.7      19.7      14.8      14.8      0.00      7.46      0.00      6.85      14.7      0.00      23.5      0.00

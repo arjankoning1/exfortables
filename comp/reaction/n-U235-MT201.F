@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  92 235  0  -1 410660072N.V.Kornilov,A  1991     3 92-U-235(N,X)0-NN-1,,SIG        1.06     0.963     0.985     0.307     R1 2.054E+03 2.160E+03  6.57      1.17      2.19      0.00      1.10      0.00      1.04      1.03      1.01      0.00      0.00
-  92 235  0  -1 410660071N.V.Kornilov,A  1991     3 92-U-235(N,X)0-NN-1,,SIG        1.28      1.27      12.4     0.101     R1 2.054E+03 1.623E+03  7.91      1.17      2.19      0.00      1.20      0.00      1.28      1.27      1.35      0.00      0.00

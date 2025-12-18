@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  92 235  0  -1 B0139009 H.Delagrange,   1978    28 92-U-235(A,2N)94-PU-237,,SIG    27.8     3.669E-02  651.     2.014E-07 T2 0.250      7.48      6.69      19.2      46.0      0.00      27.8      0.00      0.00      0.00      0.00      0.00      0.00
-  92 235  0  -1 A0480012 R.Vandenbosch,  1958     9 92-U-235(A,2N)94-PU-237,,SIG    31.5     3.226E-02  41.5     1.921E-07 T2 0.245      7.71      15.0      21.9      45.4      0.00      31.5      0.00      0.00      0.00      0.00      0.00      0.00

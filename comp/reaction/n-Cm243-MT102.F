@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  96 243  0  -1 10681004 C.E.Bemis Jr,J  1977     1 96-CM-243(N,G)96-CM-244,,SIG    1.00     0.999     1.457E-02 0.489     T1 1.295E+05 1.307E+05  7.76     2.530E-08 2.530E-08  0.00      1.00      1.00      1.00      1.00      0.00      1.00      0.00
-  96 243  0  -1 02096243 Gamgam          2024     2                                 8.24     0.133      16.5     1.192E-07 T2  757.     4.935E+03  20.9     5.000E-03 1.000E-02  0.00      24.1      6.38      6.40      6.38      0.00      3.81      0.00

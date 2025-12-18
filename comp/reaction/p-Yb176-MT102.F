@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  70 176  0  -1 O2385002 B.Palsson,J.Kr  1980    40 70-YB-176(P,G)71-LU-177,,SIG    1.63      1.55      11.2     0.350     T1 0.484     0.293      20.1      6.06      24.0      0.00      1.63      0.00      0.00      0.00      0.00      0.00      0.00

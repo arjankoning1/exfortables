@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   6  13  0  -1 31531003 F.Sudbrock,U.H  2000     1 6-C-13(N,A)4-BE-10,,SIG         2.84      1.70     1.014E+03 0.178     T2  57.2      21.8      9.09      14.6      14.6      0.00      6.01      0.00      0.00      1.03      0.00      1.26      0.00

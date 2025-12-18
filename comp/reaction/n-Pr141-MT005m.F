@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  59 141  0   1 21994006 S.M.Qaim        1985     1 59-PR-141(N,X)58-CE-139-M,,SIG  3.63      2.14      86.7     0.406     T2 8.676E-02 2.597E-02  38.5      14.6      14.6      0.00      1.32      0.00      6.05      0.00      0.00      0.00      0.00
-  59 141  0   1 30023011 M.Diksic, P.St  1970     1 59-PR-141(N,G)59-PR-142-M,,SIG  11.2      11.2     3.716E+03  0.00     T2  3.28     0.290      17.2      3.00      3.00      0.00      9.37      0.00      13.3      0.00      0.00      0.00      0.00

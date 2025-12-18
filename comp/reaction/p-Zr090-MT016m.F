@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  40  90  0   1 O10160051S.Busse, F.Ros  2002     3 40-ZR-90(P,2N)41-NB-89-M,,SIG   1.22     0.876     0.705     0.358     T1  38.9      35.5      26.3      17.2      19.0      0.00      1.22      0.00      0.00      0.00      0.00      0.00      0.00
-  40  90  0   1 A0510191 V.N.Levkovski   1991    14 40-ZR-90(P,2N)41-NB-89-M,,SIG   2.36     0.449      20.2     0.220     T2  49.8      93.7      12.2      15.8      29.5      0.00      2.36      0.00      0.00      0.00      0.00      0.00      0.00

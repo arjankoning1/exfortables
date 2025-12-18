@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  12  26  0  -1 B0174009 H.J.PRobst, S.  1976     1 12-MG-26(A,2P)12-MG-28,,SIG     3.23      3.23      262.     2.946E-03 T2  1.08      1.70      7.85      17.2      152.      0.00      3.23      0.00      0.00      0.00      0.00      0.00      0.00
-  12  26  0  -1 P0123002 R.H.Lindsay,R.  1960    11 12-MG-26(A,2P)12-MG-28,,SIG     4.21      1.14      0.00     0.194     T2  1.20      1.05      0.00      18.9      36.6      0.00      4.21      0.00      0.00      0.00      0.00      0.00      0.00

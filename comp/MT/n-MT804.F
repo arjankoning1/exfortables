@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  14  28  0  -1 30702006 D.W.Mingay,J.P  1971   141 14-SI-28(N,A)12-MG-25,PAR,SIG   1.24      1.08      4.00     0.222     E1  6.96      6.44      12.5      12.8      16.2      0.00      0.00      1.23      1.23      1.25      1.23      0.00      0.00
-  14  28  0  -1 21361008 D.Blanc,F.Camb  1962     3 14-SI-28(N,A)12-MG-25,PAR,SIG   5.14      5.06      482.     0.128     E2  7.17      1.48      20.0      13.6      14.8      0.00      0.00      5.08      5.08      5.31      5.08      0.00      0.00

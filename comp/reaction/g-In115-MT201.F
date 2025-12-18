@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  49 115  0  -1 L0017002 S.C.FULTZ,B.L.  1969    80 49-IN-115(G,X)0-NN-1,,SIG       1.29      1.13      35.3     0.287     T1  136.      126.      7.33      9.10      31.1      0.00      1.39      1.12      0.00      1.23      0.00      0.00      0.00
-  49 115  0  -1 L0035014 A.LEPRETRE,H.B  1974    56 49-IN-115(G,X)0-NN-1,,SIG       1.58      1.12      58.0     0.293     T1  145.      132.      29.8      8.87      24.0      0.00      1.60      1.17      0.00      1.11      0.00      0.00      0.00

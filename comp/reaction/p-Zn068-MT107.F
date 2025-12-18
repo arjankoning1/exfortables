@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  30  68  0  -1 C0650004 M.T.ESAT,R.H.S  1981    56 30-ZN-68(P,A)29-CU-65,,SIG      1.52     0.726      543.     0.247     T1 0.512     0.707      3.92      3.36      5.00      0.00      1.52      0.00      0.00      0.00      0.00      0.00      0.00

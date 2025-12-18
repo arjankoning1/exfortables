@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  78 190  0  -1 31622008 Junhua Luo, Gu  2005     2 78-PT-190(N,2N)78-PT-189,,SIG   1.47     0.686      18.6     0.171     T2 1.674E+03 2.435E+03  7.36      14.1      14.4      0.00      1.57      1.24      1.57      1.46      0.00      1.49      0.00

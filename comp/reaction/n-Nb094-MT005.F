@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  41  94  0  -1 10404008 M.R.Serpa       1970     1 41-NB-94(N,G)41-NB-95,,SIG      1.00      1.00     3.355E-03 0.467     T1 1.530E+04 1.500E+04  46.7     2.530E-08 2.530E-08  0.00      1.00      0.00      1.00      1.00      0.00      0.00      0.00

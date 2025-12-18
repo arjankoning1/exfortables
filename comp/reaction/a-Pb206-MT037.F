@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  82 206  0  -1 O2013002 R.Bimbot, Y.Le  1971     4 82-PB-206(A,4N)84-PO-206,,SIG   2.34     0.432      8.79     0.267     T2  11.2      26.6      20.8      100.      166.      0.00      2.34      0.00      0.00      0.00      0.00      0.00      0.00
-  82 206  0  -1 O2012003 R.Bimbot, H.Ja  1969    12 82-PB-206(A,4N)84-PO-206,,SIG   2.89     0.507      82.9     0.244     T2  96.0      150.      16.9      42.0      141.      0.00      2.89      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  28   0  0   0 D4011003 S.Takacs,F.Tar  1995     0 28-NI-0(HE3,X)26-FE-52-G,,SIG   0.00      0.00      0.00      0.00         0.00     0.137      21.6      29.8      35.0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-  28   0  0   0 D4011002 S.Takacs,F.Tar  1995     0 28-NI-0(HE3,X)25-MN-52-G,CUM,S  0.00      0.00      0.00      0.00         0.00      2.91      13.9      27.6      35.0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

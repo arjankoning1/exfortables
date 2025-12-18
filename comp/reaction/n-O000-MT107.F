@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   8   0  0  -1 11400002 R.B.WALTON,J.D  1957   106 8-O-0(N,A),,SIG                 18.6     0.406      47.5     0.225     T3  92.3      77.8      15.0      3.96      5.22      0.00      2.37      1.49     1.159E+03  1.68      1.40      1.61      0.00

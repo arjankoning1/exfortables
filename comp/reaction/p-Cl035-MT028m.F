@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  17  35  0   1 B0049007 B.L.Cohen, E.N  1955     1 17-CL-35(P,X)17-CL-34-M,IND,SI  1.21     0.825      0.00     0.270     T1  99.0      120.      0.00      21.5      21.5      0.00      1.21      0.00      0.00      0.00      0.00      0.00      0.00

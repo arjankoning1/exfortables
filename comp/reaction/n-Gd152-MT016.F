@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  64 152  0  -1 20541033 S.M.Qaim        1974     1 64-GD-152(N,2N)64-GD-151,,SIG   1.03     0.981     0.209     0.423     R1 1.789E+03 1.867E+03  12.5      14.7      14.7      0.00      1.02      1.00      1.02      1.08      1.00      1.01      0.00
-  64 152  0  -1 32680002 Junhua Luo,Ron  2010     3 64-GD-152(N,2N)64-GD-151,,SIG   1.08      1.02      1.00     0.373     T1 1.749E+03 1.711E+03  8.92      13.5      14.8      0.00      1.07      1.10      1.07      1.08      1.08      1.08      0.00

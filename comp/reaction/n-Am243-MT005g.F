@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  95 243  0   0 23744002 S.Nakamura,Y.S  2021     1 95-AM-243(N,G)95-AM-244-G,,SIG  8.36      8.36     1.663E+04  0.00     T3 3.985E+04 4.766E+03  5.71     2.530E-08 2.530E-08  0.00      8.36      0.00      0.00      0.00      0.00      0.00      0.00

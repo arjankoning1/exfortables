@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  77 193  0   1 10536051 B.P.Bayhurst,J  1975     4 77-IR-193(N,INL)77-IR-193-M,,S  1.35     0.890      8.08     0.280     T1  818.      899.      19.3      7.57      14.7      0.00      1.40      1.15      1.40      1.39      0.00      1.36      0.00

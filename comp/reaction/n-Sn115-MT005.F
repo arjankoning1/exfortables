@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  50 115  0  -1 22377017 K.WISSHAK,F.VO  1996    15 50-SN-115(N,G)50-SN-116,,SIG,,  1.09      1.02      6.70     0.367     T1  323.      308.      3.01     1.125E-02 0.213      0.00      1.09      0.00      1.09      1.10      0.00      0.00      0.00
-  50 115  0  -1 40960004 V.M.Timokhov,M  1988    48 50-SN-115(N,G)50-SN-116,,SIG,,  1.10     0.932      3.18     0.309     T1  203.      223.      5.50     2.200E-02 0.450      0.00      1.09      0.00      1.09      1.12      0.00      0.00      0.00

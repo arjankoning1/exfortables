@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  50 116  0   0 A0617004 V.G.Batij, E.A  1990     7 50-SN-116(P,N)51-SB-116-G,,SIG  20.3     0.173      37.7     0.230     T3  115.      156.      15.1      5.50      9.00      0.00      1.37      0.00      0.00      97.7      0.00      0.00      0.00
-  50 116  0   0 D5090002 A.P.Klyucharev  1970     5 50-SN-116(P,N)51-SB-116-G,,SIG  48.5     7.066E-02  43.7     0.347     T3  95.0      177.      10.8      6.10      8.20      0.00      1.25      0.00      0.00      241.      0.00      0.00      0.00

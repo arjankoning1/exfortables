@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  92 238  0   0 32860002 Luocheng Yang,  2022     0 92-U-238(N,F)52-TE-131-G,M+,SI  0.00      0.00      0.00      0.00         0.00      19.8      5.25      14.1      14.7      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

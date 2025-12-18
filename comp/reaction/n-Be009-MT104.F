@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   4   9  0  -1 20833003 W.SCOBEL,M.BOR  1970    17 4-BE-9(N,D)3-LI-8,,SIG          1.30      1.05      7.55     0.370     T1  6.88      6.67      10.8      16.6      18.8      0.00      1.88      1.05      1.00      1.06      1.05      1.00      0.00

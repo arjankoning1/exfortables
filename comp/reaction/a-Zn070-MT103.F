@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  30  70  0  -1 A04210052N.N.Abu Issa,A  1989     9 30-ZN-70(A,P)31-GA-73,,SIG      1.67      1.24      33.8     0.332     T2  14.6      11.3      20.3      14.8      24.4      0.00      1.67      0.00      0.00      0.00      0.00      0.00      0.00
-  30  70  0  -1 A0510401 V.N.Levkovski   1991    44 30-ZN-70(A,P)31-GA-73,,SIG      4.02      1.34      143.     0.222     T2  12.4      6.26      12.2      7.80      46.0      0.00      4.02      0.00      0.00      0.00      0.00      0.00      0.00

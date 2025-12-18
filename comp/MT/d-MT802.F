@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   8  16  0  -1 E2167055 T.Yanabu, S.Ya  1963     0 8-O-16(D,A)7-N-14,PAR,SIG       0.00      0.00      0.00      0.00         0.00      9.67      0.00      14.9      19.6      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

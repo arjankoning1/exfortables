@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  30  64  0  -1 C0704009 N.T.Porile      1959     2 30-ZN-64(A,N+2P)30-ZN-65,,SIG   19.9     7.052E-02  74.1     3.418E-02 T2 0.642      254.      10.0      26.0      40.8      0.00      19.9      0.00      0.00      0.00      0.00      0.00      0.00

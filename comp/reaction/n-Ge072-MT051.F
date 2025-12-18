@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  32  72  0  -1 40196004 E.S.Konobeevsk  1972    23 32-GE-72(N,INL)32-GE-72,PAR,SI  1.44      1.29      3.09     0.138     T1  139.      103.      28.8     0.710     0.943      0.00      1.11      1.63      1.11      1.63      1.50      0.00      0.00
-  32  72  0  -1 10231002 D.L.Smith       1972   179 32-GE-72(N,INL)32-GE-72,PAR,SI  3.04     0.377      61.6     0.151     T3  164.      371.      7.60     0.695      5.00      0.00      3.13      3.02      3.13      3.02      2.91      0.00      0.00

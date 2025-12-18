@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  43  99  0   1 O0298005 N.G.Zaitseva,E  1992    39 43-TC-99(P,INL)43-TC-99-M,,SIG  3.69     0.338      17.8     0.216     T2  14.8      44.5      15.0      16.1      99.1      0.00      3.69      0.00      0.00      0.00      0.00      0.00      0.00

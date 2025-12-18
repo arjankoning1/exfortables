@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   5   0  0  -1 40391005 V.M.GORBACHEV,  1958     1 5-B-0(N,NON),,SIG               183.      1.95     8.049E+10  0.00     T2 8.882E+06  740.      9.46      14.0      14.0      0.00     6.001E+04  6.67      6.67      7.13      6.67      0.00      0.00
-   5   0  0  -1 40369003 N.N.Flerov,V.M  1956     1 5-B-0(N,NON),,SIG               352.      18.9     1.184E+11  0.00     T2 6.155E+06  64.0      62.5      14.5      14.5      0.00     4.808E+05  1.53      1.53      1.41      1.53      0.00      0.00

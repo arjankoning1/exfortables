@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  24  53  0  -1 41653006 T.Khromyleva,   2018     7 24-CR-53(N,A)22-TI-50,,SIG      2.01      1.51      169.     0.348     R2  5.62      2.90      13.1      4.50      7.15      0.00      1.19      0.00      0.00      1.13      3.53      2.10      0.00

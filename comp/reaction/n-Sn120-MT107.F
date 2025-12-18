@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  50 120  0  -1 13030002 YU-WEN YU       1966     1 50-SN-120(N,A)48-CD-117,,SIG    1.19     0.870     0.174     0.211     T1 0.280     0.421      95.0      14.1      14.1      0.00      1.33      1.10      1.33      1.00      1.10      1.08      0.00
-  50 120  0  -1 41614134 A.A.Filatenkov  2016     3 50-SN-120(N,A)48-CD-117,,SIG    1.59     0.715      6.68     0.291     T1 0.219     0.294      14.3      13.5      14.1      0.00      2.05      1.42      2.05      1.23      1.25      1.24      0.00

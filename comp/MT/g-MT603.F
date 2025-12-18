@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   9  19  0  -1 M0951005 E.Kerkhove,R.V  1985     0 9-F-19(G,P)8-O-18,PAR,SIG,,BRS  0.00      0.00      0.00      0.00         0.00      1.03      59.1      16.9      25.1      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-   8  16  0  -1 M0039004 A.F.Khodyachik  1980     0 8-O-16(G,P)7-N-15,PAR,SIG       0.00      0.00      0.00      0.00         0.00      1.97      8.46      19.2      115.      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   5  11  0  -1 20794009 D.S.Mather,L.F  1969     1 5-B-11(N,2N)5-B-10,,SIG         2.83     0.576      4.50     0.229     T2  13.9      19.2      21.0      14.1      14.1      0.00      2.49      1.01      1.01      10.8      1.01      1.01      0.00

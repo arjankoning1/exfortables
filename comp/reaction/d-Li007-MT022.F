@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   3   7  0  -1 S0009005 Ma Weiyi, Wang  1980     2 3-LI-7(D,N+A)2-HE-4,,SIG        1.23     0.828     0.520     0.253     T1  473.      699.      43.6      12.0      13.0      0.00      0.00      1.23      0.00      0.00      0.00      0.00      0.00

@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  49   0  0  -1 11951010 W.G.Vonach,A.B  1966     1 49-IN-0(N,INL)49-IN-0,PAR,SIG   5.36     0.188      10.5     4.987E-02 T2  15.2      80.0      25.0      1.25      1.25      0.00      7.12      4.27      4.85      4.85      5.90      0.00      0.00
-  49   0  0  -1 21385004 E.A.Eliot,D.Hi  1954     1 49-IN-0(N,INL)49-IN-0,PAR,SIG   10.3     9.720E-02  3.65     1.192E-07 T2  8.98      200.      50.0      2.50      2.50      0.00      8.61      8.36      11.3      11.3      12.6      0.00      0.00

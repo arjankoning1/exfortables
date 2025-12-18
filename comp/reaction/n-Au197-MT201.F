@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  79 197  0  -1 41102009 G.A.PROKOPETS   1980     1 79-AU-197(N,X)0-NN-1,,SIG       1.71     0.785      2.55     0.418     R1 4.954E+03 5.700E+03  20.0      20.6      20.6      0.00      1.05      1.01      1.03      1.00      0.00      0.00      3.32

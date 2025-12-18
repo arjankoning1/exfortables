@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  25  55  0  -1 22703010 Y.UWAMINO,H.SU  1992     6 25-MN-55(N,4N)25-MN-52,,SIG     3.59      2.38      178.     0.172     T2  3.77      2.77      36.3      33.5      38.5      0.00      4.47      2.63      2.63      2.45      0.00      4.19      0.00

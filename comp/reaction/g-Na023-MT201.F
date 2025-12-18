@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  11  23  0  -1 L0022002 R.A.ALVAREZ,B.  1971    70 11-NA-23(G,X)0-NN-1,,SIG        1.54      1.08      44.3     0.280     T1  8.30      7.45      8.12      12.4      27.1      0.00      1.82      1.26      0.00      1.37      0.00      0.00      0.00
-  11  23  0  -1 L0039014 A.VEYSSIERE,H.  1974   127 11-NA-23(G,X)0-NN-1,,SIG        1.55      1.24      20.4     0.240     T1  9.70      7.69      19.3      12.1      30.1      0.00      1.94      1.21      0.00      1.31      0.00      0.00      0.00

@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  47 109  0   1 14461016 N.Fotiades,M.D  2016     7 47-AG-109(N,3N)47-AG-107-M,,SI  3.92      3.57     6.399E+03 7.449E-02 R3  406.      110.      11.4      16.5      33.3      0.00      2.61      0.00      2.61      5.17      0.00      5.51      0.00

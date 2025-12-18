@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  56 130  0   1 21999044 R.Pepelnik,B.A  1986     1 56-BA-130(N,2N)56-BA-129-M,,SI  1.23      1.13      6.85     0.486     T1  842.      728.      10.0      14.7      14.7      0.00      1.07      0.00      1.51      1.00      0.00      1.00      0.00

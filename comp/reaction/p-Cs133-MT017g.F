@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  55 133  0   0 D4224002GR.S.Tilbury, L  1963     5 55-CS-133(P,3N)56-BA-131-G,,SI  1.61     0.839      0.00     0.290     T1  271.      280.      0.00      25.0      45.0      0.00      1.87      0.00      0.00      1.30      0.00      0.00      0.00

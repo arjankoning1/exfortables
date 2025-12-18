@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  29  63  0  -1 D0653004 E.Simeckova, P  2011     0 29-CU-63(D,3N)30-ZN-62,,SIG     0.00      0.00      0.00      0.00         0.00      1.20      19.1      16.4      19.9      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-  29  63  0  -1 B0121008 C.B.FULMER, I.  1970     0 29-CU-63(D,3N)30-ZN-62,,SIG,,A  0.00      0.00      0.00      0.00         0.00      65.9      19.0      17.3      38.3      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  82 208  0  -1 A0850003 S.M.Lukyanov,   2009     9 82-PB-208(A,2N)84-PO-210,,SIG   3.74      2.32      0.00     4.356E-02 T2  626.      504.      0.00      20.5      31.4      0.00      3.74      0.00      0.00      0.00      0.00      0.00      0.00
-  82 208  0  -1 C2124003 D.H.Templeton,  1947     1 82-PB-208(A,2N)84-PO-210,,SIG   10.2     9.796E-02  0.00     1.192E-07 T2  39.2      400.      0.00      40.0      40.0      0.00      10.2      0.00      0.00      0.00      0.00      0.00      0.00

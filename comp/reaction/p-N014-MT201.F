@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   7  14  0  -1 C1812003 E.L.Fireman,F.  1955     0 7-N-14(P,X)0-NN-1,,SIG          0.00      0.00      0.00      0.00         0.00     1.000E+03  40.0     2.200E+03 2.200E+03  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-   7  14  0  -1 O0726005 V.V.VERBINSKI,  1969     1 7-N-14(P,X)0-NN-1,,SIG          2.08      1.08      0.00     0.346     T2  127.      95.0      0.00      17.9      17.9      0.00      1.64      2.57      0.00      1.98      0.00      0.00      0.00

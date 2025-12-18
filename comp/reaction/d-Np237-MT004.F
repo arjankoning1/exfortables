@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  93 237  0  -1 A0322008 S.Baba,K.Hata,  1985     0 93-NP-237(D,X)94-PU-238,CUM,SI  0.00      0.00      0.00      0.00         0.00      149.      0.00      10.8      24.8      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

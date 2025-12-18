@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  72 179  0   1 22838012 T.Shimizu, H.S  2004     6 72-HF-179(N,INL)72-HF-179-M1,,  1.20     0.886      7.78     0.278     T1  531.      600.      5.88      2.09      3.09      0.00      1.33      0.00      1.13      0.00      0.00      1.06      0.00
-  72 179  0   1 11850010 K.G.Broadhead,  1967     1 72-HF-179(N,INL)72-HF-179-M1,,  1.29      1.24      2.21     0.182     T1  521.      404.      21.9      2.80      2.80      0.00      1.03      0.00      1.27      0.00      0.00      1.44      0.00

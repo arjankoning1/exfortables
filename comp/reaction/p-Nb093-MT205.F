@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  41  93  0  -1 E1854005 M.Noguchi, T.M  1991     0 41-NB-93(P,X)1-H-3,,SIG         0.00      0.00      0.00      0.00         0.00      229.      14.8     1.200E+04 1.200E+04  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-  41  93  0  -1 O0342005 P.C.Brun, M.Le  1962     1 41-NB-93(P,X)1-H-3,,SIG         1.69      1.52      24.2     0.301     T1  31.7      20.0      15.0      150.      150.      0.00      2.03      1.01      0.00      1.75      0.00      0.00      0.00

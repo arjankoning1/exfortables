@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  22  48  0  -1 23346024 A.Olacel, F.Be  2017    31 22-TI-48(N,INL)22-TI-48,PAR,SI  1.73     0.731      9.37     0.134     T1  70.6      101.      10.7      2.35      5.64      0.00      1.58      1.97      1.57      1.66      1.82      0.00      0.00

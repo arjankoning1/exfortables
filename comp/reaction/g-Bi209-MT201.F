@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  83 209  0  -1 L0007011 R.R.HARVEY,J.T  1964   109 83-BI-209(G,X)0-NN-1,,SIG       1.38      1.28      84.9     0.200     T1  287.      214.      10.8      8.01      26.4      0.00      1.49      1.31      0.00      1.31      0.00      0.00      0.00
-  83 209  0  -1 M0542008 J.Miller,C.Sch  1962    16 83-BI-209(G,X)0-NN-1,,SIG       2.92      1.64      17.7     0.274     T2  324.      274.      98.5      8.00      21.3      0.00      3.25      2.79      0.00      2.72      0.00      0.00      0.00

@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  40  96  0  -1 O2030005 R.Bock          1961     0 40-ZR-96(D,N)41-NB-97,,SIG      0.00      0.00      0.00      0.00         0.00      56.4      0.00      3.82      9.91      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-  40  96  0  -1 O20300032R.Bock          1961     0 40-ZR-96(D,N)41-NB-97,,SIG      0.00      0.00      0.00      0.00         0.00      84.0      5.95      7.50      7.50      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

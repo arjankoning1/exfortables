@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  30  68  0  -1 31460006 D.Kielan,A.Mar  1995     5 30-ZN-68(N,P)29-CU-68,,SIG      1.47     0.730      1.15     0.109     T2  20.3      31.8      39.2      13.4      15.4      0.00      1.62      1.20      1.18      1.40      1.25      1.92      0.00
-  30  68  0  -1 20748006 J.L.Casanova,M  1976     1 30-ZN-68(N,P)29-CU-68,,SIG      2.30     0.445      25.6     9.383E-02 R2  19.8      43.8      10.9      14.1      14.1      0.00      2.58      1.90      1.87      2.27      1.99      3.15      0.00

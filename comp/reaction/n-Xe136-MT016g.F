@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  54 136  0   0 107750082R.A.Sigg,P.K.K  1976     1 54-XE-136(N,2N)54-XE-135-G,,SI  1.00      1.00     2.345E-03 0.495     R1  768.      771.      10.3      14.6      14.6      0.00      1.00      0.00      1.00      0.00      0.00      1.00      0.00
-  54 136  0   0 306980102A.Reggoug,G.Pa  1982     1 54-XE-136(N,2N)54-XE-135-G,,SI  1.00     0.999     8.692E-03 0.495     T1  766.      772.      10.4      14.7      14.7      0.00      1.00      0.00      1.00      0.00      0.00      1.00      0.00

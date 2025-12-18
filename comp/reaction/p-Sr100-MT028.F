@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  38 100  0  -1 E2626049 N.Paul, A.Ober  2019     0 38-SR-100(P,X)38-SR-99,,SIG     0.00      0.00      0.00      0.00         0.00      54.0      5.56      226.      226.      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

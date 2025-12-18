@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  65 159  0  -1 32219010 N.Dzysiuk, I.K  2010     1 65-TB-159(N,N+A)63-EU-155,,SIG  1.14      1.09     0.282     0.354     T1 4.712E-02 4.000E-02  50.0      14.6      14.6      0.00      1.00      1.28      1.10      1.02      0.00      1.10      0.00

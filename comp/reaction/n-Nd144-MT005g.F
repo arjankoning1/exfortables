@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  60 144  0   0 30649006GS.Gmuca,I.Riba  1983     1 60-ND-144(N,P)59-PR-144-G,,SIG  27.1     3.684E-02  19.3     1.192E-07 T2 0.426      11.6      21.9      14.8      14.8      0.00      27.1      0.00      27.1      0.00      0.00      0.00      0.00

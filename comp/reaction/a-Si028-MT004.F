@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  14  28  0  -1 C0484005 C.W.Cheng,J.D.  1980    13 14-SI-28(A,N)16-S-31,,SIG       1.65     0.742      3.35     0.215     T2  11.8      19.1      23.9      9.49      12.5      0.00      1.54      0.00      0.00      1.76      0.00      0.00      0.00

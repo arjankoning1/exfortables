@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   5  10  0  -1 L0044004 U.KNEISSL,K.H.  1976    94 5-B-10(G,X)0-NN-1,,SIG          2.09     0.655      9.85     0.345     T2  2.64      3.50      23.2      10.5      35.1      0.00      2.78      0.00      0.00      1.23      0.00      0.00      0.00
-   5  10  0  -1 M0217005 L.Green,D.J.Do  1964     4 5-B-10(G,X)0-NN-1,,SIG          4.81     0.225      29.2     0.117     T2 7.821E-02 0.332      21.6      9.00      10.8      0.00      6.07      0.00      0.00      3.67      0.00      0.00      0.00

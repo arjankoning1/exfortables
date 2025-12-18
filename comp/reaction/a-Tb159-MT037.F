@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  65 159  0  -1 D0066004 N.L.Singh,M.S.  2001     4 65-TB-159(A,4N)67-HO-159,,SIG   1.59      1.14      120.     0.230     T1  603.      689.      6.81      35.5      46.4      0.00      1.59      0.00      0.00      0.00      0.00      0.00      0.00
-  65 159  0  -1 O1267004 O.Bonesso, H.O  1989     5 65-TB-159(A,4N)67-HO-159,,SIG   2.66      1.81      181.     0.251     T3  736.      519.      25.4      39.6      55.0      0.00      2.66      0.00      0.00      0.00      0.00      0.00      0.00

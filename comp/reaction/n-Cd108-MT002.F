@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  48 108  0  -1 405730062V.F.Razbudey,V  1977     1 48-CD-108(N,EL)48-CD-108,POT,S  1.23     0.856      4.07     0.274     T2 3.556E+03 4.100E+03  9.76     1.665E-08 1.665E-08  0.00      1.30      1.21      1.30      1.09      0.00      0.00      0.00
-  48 108  0  -1 40933003 A.B.POPOV,G.S.  1985    18 48-CD-108(N,EL)48-CD-108,,SIG   1.27      1.17      18.1     0.316     T2 7.914E+03 6.735E+03  6.01     1.800E-03 0.253      0.00      1.25      1.38      1.25      1.14      0.00      0.00      0.00

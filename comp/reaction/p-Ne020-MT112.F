@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  10  20  0  -1 D0138007 R.Chapman,A.M.  1967     2 10-NE-20(P,P+A)8-O-16,PAR,SIG,  15.8      1.17      255.      0.00     T2  20.4      138.      53.2      13.1      13.1      0.00      15.8      0.00      0.00      0.00      0.00      0.00      0.00

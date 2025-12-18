@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  42  98  0  -1 10770023 F.D.McDaniel,J  1977     1 42-MO-98(N,EL)42-MO-98,,SIG     1.04     0.990      0.00     2.784E-02 T1 2.446E+03 2.468E+03  0.00      2.52      2.52      0.00      1.01      1.06      1.01      1.03      1.07      0.00      0.00
-  42  98  0  -1 10277019 P.Lambropoulos  1973   123 42-MO-98(N,EL)42-MO-98,,SIG     1.04     0.992     0.436     0.383     T1 7.309E+03 7.369E+03  8.00     0.300      1.50      0.00      1.05      1.05      1.05      1.03      1.03      0.00      0.00

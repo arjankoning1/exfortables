@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  25  55  0  -1 M0961002 B.S.Dolbilkin,  1969    34 25-MN-55(G,ABS),,SIG            2.23      1.29      2.17     0.219     T2  51.1      47.7      123.      8.95      27.7      0.00      2.23      0.00      0.00      0.00      0.00      0.00      0.00

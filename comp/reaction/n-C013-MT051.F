@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   6  13  0  -1 12716005 J.H.DAVE,C.R.G  1982     1 6-C-13(N,INL)6-C-13,PAR,SIG     3.58     0.357      358.     0.231     T2  27.9      57.0      3.51      10.0      10.0      0.00      1.22      5.15      5.15      2.83      0.00      0.00      0.00

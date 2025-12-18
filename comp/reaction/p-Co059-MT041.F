@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  27  59  0  -1 P0034007 R.A.SHARP,R.M.  1956     4 27-CO-59(P,2N+P)27-CO-57,,SIG   7.85      6.83      0.00     7.535E-03 T2  161.      62.7      0.00      25.0      98.9      0.00      7.85      0.00      0.00      0.00      0.00      0.00      0.00

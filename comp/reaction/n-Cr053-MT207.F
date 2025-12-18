@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  24  53  0  -1 40416004 G.P.Dolya,V.P.  1973     1 24-CR-53(N,X)2-HE-4,,SIG        43.8     6.936E-02  77.1     0.292     T2  19.2      45.1      8.20      14.7      14.7      0.00      1.12      359.      359.      4.34      1.00      0.00      0.00

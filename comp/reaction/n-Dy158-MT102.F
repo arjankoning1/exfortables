@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  66 158  0  -1 20187004 J.ALSTAD, A.C.  1972     1 66-DY-158(N,G)66-DY-159,,SIG    1.00     0.999     6.391E-03 0.482     T1 4.260E+04 4.300E+04  14.0     2.530E-08 2.530E-08  0.00      1.00      1.00      1.00      1.00      0.00      1.00      0.00

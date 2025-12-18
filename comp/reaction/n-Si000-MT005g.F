@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  14   0  0   0 22210003 M.IMAMURA,H.NA  1990     6 14-SI-0(N,X)13-AL-26-G,,SIG     1.46      1.27      5.66     0.359     T1  17.0      14.3      17.8      26.5      35.6      0.00      1.46      0.00      0.00      0.00      0.00      0.00      0.00

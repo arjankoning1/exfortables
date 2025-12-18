@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  10  21  0  -1 21808009 J.Almeida, F.K  1983   133 10-NE-21(N,G)10-NE-22,,SIG      3.50     0.436      2.39     1.747E-02 T2 0.474      2.47      174.     4.100E-03 0.215      0.00      3.62      3.71      3.62      3.04      0.00      0.00      0.00
-  10  21  0  -1 40794002 A.I.ABRAMOV,M.  1961     1 10-NE-21(N,A)8-O-18,,SIG        276.     3.627E-03  8.46     5.960E-08 T2 0.180     9.600E+04  34.4     2.530E-08 2.530E-08  0.00      276.      276.      276.      0.00      0.00      0.00      0.00

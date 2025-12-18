@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  29  63  0  -1 B01040022H.NOMA, T.HORI  1977     7 29-CU-63(P,3N)30-ZN-61,,SIG,,,  2.54     0.487      9.89     0.263     T2  2.10      3.73      16.9      30.2      47.2      0.00      4.49      1.42      0.00      1.62      0.00      0.00      0.00
-  29  63  0  -1 B01040021H.NOMA, T.HORI  1977     8 29-CU-63(P,3N)30-ZN-61,,SIG,,,  3.38     0.346      27.3     0.112     T2  1.96      4.60      13.7      30.0      51.5      0.00      5.96      2.07      0.00      2.34      0.00      0.00      0.00

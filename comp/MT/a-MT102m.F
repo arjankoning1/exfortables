@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  50 117  0   1 D0518002 I.Cata-Danil,D  2008     3 50-SN-117(A,G)52-TE-121-M,,SIG  8.56     0.136      44.1     0.161     T2 0.212      2.63      12.2      11.9      15.1      0.00      8.56      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   7   0  0  -1 11210014 D.D.Phillips,R  1952     1 7-N-0(N,INL)7-N-0,PAR,SIG       53.4     1.926E-02  81.1      0.00     T2  9.86      460.      10.9      14.1      14.1      0.00      111.      59.4      59.4      30.9      31.1      0.00      0.00
-   7   0  0  -1 11210004 D.D.Phillips,R  1952     1 7-N-0(N,INL)7-N-0,PAR,SIG       91.5     1.122E-02  243.      0.00     T2  9.86      790.      6.33      14.1      14.1      0.00      191.      102.      102.      53.1      53.5      0.00      0.00

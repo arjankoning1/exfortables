@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  29  63  0  -1 21264006 L.Colli,U.Facc  1959     1 29-CU-63(N,N+P)28-NI-62,,SIG    1.43      1.40      19.9     0.123     T1  350.      248.      10.1      14.1      14.1      0.00      1.70      1.24      1.24      1.56      1.48      1.24      0.00

@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  96 242  0  -1 22941018 A.Letourneau,   2009     1 96-CM-242(N,G)96-CM-243,,SIG    1.00      1.00     7.029E-04 0.493     T1 1.914E+04 1.910E+04  7.85     2.530E-08 2.530E-08  0.00      1.00      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  64   0  0   1 O2334005 C.Duchemin, A.  2016     0 64-GD-0(D,X)65-TB-154-M1,,SIG   0.00      0.00      0.00      0.00         0.00      128.      16.0      10.6      33.3      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-  64   0  0   1 D4292007 F.Tarkanyi,S.T  2014     0 64-GD-0(D,X)65-TB-154-M1,IND,S  0.00      0.00      0.00      0.00         0.00      168.      11.8      8.40      49.2      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

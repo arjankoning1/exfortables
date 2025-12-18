@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  92 238  0   1 C0709008 J.WING,W.J.RAM  1959     0 92-U-238(D,4N)93-NP-236-M,,SIG  0.00      0.00      0.00      0.00         0.00      11.2      0.00      15.7      21.5      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-  92 238  0   1 O1064005 L.F.Bellido, V  1993     0 92-U-238(D,4N)93-NP-236-M,,SIG  0.00      0.00      0.00      0.00         0.00      48.3      5.52      21.7      27.7      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

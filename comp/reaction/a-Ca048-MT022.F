@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  20  48  0  -1 C0929002 B.M.Gordon      1967     3 20-CA-48(A,N+A)20-CA-47,,SIG    4.17     0.295      19.4     4.345E-02 T1  25.4      102.      15.0      19.3      39.0      0.00      4.17      0.00      0.00      0.00      0.00      0.00      0.00

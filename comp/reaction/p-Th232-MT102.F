@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  90 232  0  -1 A0383002 J.Szerypo,B.Sz  1986    13 90-TH-232(P,G)91-PA-233,,SIG    1.19     0.912     0.715     0.384     T1 0.177     0.178      17.9      6.85      19.7      0.00      1.19      0.00      0.00      0.00      0.00      0.00      0.00
-  90 232  0  -1 O0965002 A.Roshchin, S.  1997     7 90-TH-232(P,G)91-PA-233,,SIG    1.53     0.675      57.8     0.350     T1 0.233     0.337      4.90      11.1      17.5      0.00      1.53      0.00      0.00      0.00      0.00      0.00      0.00

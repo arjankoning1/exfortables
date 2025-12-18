@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  16  32  0  -1 M0273012 L.KATZ,A.G.W.C  1951     6 16-S-32(G,N+P)15-P-30,,SIG,,BR  1.62      1.06      0.00     0.258     T1  3.12      1.99      0.00      20.0      27.0      0.00      1.62      0.00      0.00      0.00      0.00      0.00      0.00
-  16  32  0  -1 L0039025 A.VEYSSIERE,H.  1974    15 16-S-32(G,N+P)15-P-30,,SIG      2.39      2.15      65.2     0.215     T1  4.02      1.49      31.4      20.8      30.0      0.00      2.39      0.00      0.00      0.00      0.00      0.00      0.00

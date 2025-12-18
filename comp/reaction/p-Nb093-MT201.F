@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  41  93  0  -1 C06930071G.Chodil,R.C.J  1967    17 41-NB-93(P,X)0-NN-1,,SIG        1.02      1.00     0.175     0.433     T1  905.      897.      10.0      7.00      15.0      0.00      1.01      1.02      0.00      1.02      0.00      0.00      0.00

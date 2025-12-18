@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   3   7  0  -1 D6090009 B.Lalremruata,  2009     0 3-LI-7(D,A)2-HE-5,,SIG,,SFC     0.00      0.00      0.00      0.00         0.00     9.277E-05  15.0     0.100     0.100      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-   3   7  0  -1 D6090006 B.Lalremruata,  2009     0 3-LI-7(D,A)2-HE-5,,SIG          0.00      0.00      0.00      0.00         0.00     0.209      14.0     0.100     0.100      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

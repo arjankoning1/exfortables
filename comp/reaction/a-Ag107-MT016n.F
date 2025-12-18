@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  47 107  0   2 D5186006 K.S.Goncharov,  1980     2 47-AG-107(A,2N)49-IN-109-M2,,S  2.07     0.495      0.00     0.248     T2  103.      194.      0.00      24.8      37.8      0.00      2.07      0.00      0.00      0.00      0.00      0.00      0.00

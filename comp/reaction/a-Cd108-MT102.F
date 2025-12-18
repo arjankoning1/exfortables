@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  48 108  0  -1 O2318002 P.Scholz,F.Hei  2016     4 48-CD-108(A,G)50-SN-112,,SIG    1.49      1.39      3.20     0.341     T1  1.50     0.970      30.7      12.4      14.0      0.00      1.49      0.00      0.00      0.00      0.00      0.00      0.00
-  48 108  0  -1 C2453004 R.Kelmar,A.Sim  2020    14 48-CD-108(A,G)50-SN-112,,SIG    1.56      1.20      14.8     0.348     T1 4.964E-02 2.274E-02  30.0      8.74      12.0      0.00      1.56      0.00      0.00      0.00      0.00      0.00      0.00

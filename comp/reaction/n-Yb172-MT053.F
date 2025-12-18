@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  70 172  0  -1 31759002 T.J.Al-Janabi,  1986    13 70-YB-172(N,INL)70-YB-172,PAR,  15.6     7.020E-02  404.     1.651E-07 T2  18.9      231.      5.30     0.940      3.32      0.00      11.4      12.0      31.3      12.0      0.00      0.00      0.00

@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   2   4  0  -1 O2382005 M.Jung,Y.Sakam  1973     0 2-HE-4(P,P+D)1-H-2,,SIG         0.00      0.00      0.00      0.00         0.00      1.70      35.3      145.      145.      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

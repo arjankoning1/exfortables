@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  30  68  0   1 R0042009 J.L.Gilly, G.A  1963     0 30-ZN-68(D,P)30-ZN-69-M,,SIG    0.00      0.00      0.00      0.00         0.00      210.      14.7      3.30      11.6      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-  30  68  0   1 D4059021 N.Baron, B.L.C  1963     0 30-ZN-68(D,P)30-ZN-69-M,,SIG    0.00      0.00      0.00      0.00         0.00      37.0      7.50      18.0      18.0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

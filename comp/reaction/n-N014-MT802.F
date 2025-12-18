@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   7  14  0  -1 11281018 F.Gabbard,H.Bi  1959    54 7-N-14(N,A)5-B-11,PAR,SIG       1.24     0.889     0.405     0.237     T1  26.9      28.4      40.0      5.79      8.20      0.00      0.00      1.24      1.24      0.00      1.24      0.00      0.00

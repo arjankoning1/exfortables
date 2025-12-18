@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  29  65  0  -1 D0653007 E.Simeckova, P  2011     0 29-CU-65(D,2P)28-NI-65,,SIG     0.00      0.00      0.00      0.00         0.00     0.763      15.9      11.4      19.9      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-  29  65  0  -1 D4059044 N.Baron, B.L.C  1963     0 29-CU-65(D,2P)28-NI-65,,SIG     0.00      0.00      0.00      0.00         0.00     0.820      7.50      19.4      19.4      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

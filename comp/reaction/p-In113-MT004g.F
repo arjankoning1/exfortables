@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  49 113  0   0 D0949005 E.K.Elmaghraby  2019    14 49-IN-113(P,N)50-SN-113-G,,SIG  12.2     0.428      72.6     0.207     T3  218.      160.      16.1      2.94      14.2      0.00      18.2      0.00      0.00      7.56      0.00      0.00      0.00

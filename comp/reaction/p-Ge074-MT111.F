@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  32  74  0  -1 C1913003 N.P.Jacob Jr,S  1975     0 32-GE-74(P,2P)31-GA-73,,SIG     0.00      0.00      0.00      0.00         0.00      20.6      8.00      400.     4.620E+03  0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

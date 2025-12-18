@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  77 191  0  -1 O1266004 M.Ismail        1998     6 77-IR-191(A,N)79-AU-194,,SIG    1.87     0.779      25.7     0.281     T2  25.9      25.2      7.67      16.1      30.7      0.00      1.87      0.00      0.00      0.00      0.00      0.00      0.00
-  77 191  0  -1 D0142002 M.K.Bhardwaj,I  1992     9 77-IR-191(A,N)79-AU-194,,SIG    3.03     0.574      6.17     0.246     T2  21.0      32.4      21.6      16.7      37.5      0.00      3.03      0.00      0.00      0.00      0.00      0.00      0.00

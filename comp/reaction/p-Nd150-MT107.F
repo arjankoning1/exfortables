@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  60 150  0  -1 B0006003 L.MILAZZO-COLL  1974     1 60-ND-150(P,A)59-PR-147,,SIG,,  2.26     0.442      0.00     0.244     T2  2.96      6.70      0.00      18.0      18.0      0.00      2.26      0.00      0.00      0.00      0.00      0.00      0.00

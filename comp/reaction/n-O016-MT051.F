@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   8  16  0  -1 21984094 M.Baba, M.Ono,  1986     1 8-O-16(N,INL)8-O-16,PAR,SIG     25.1     4.671E-02  252.     5.960E-08 T2  9.17      115.      5.82      14.2      14.2      0.00      11.0      46.3      46.3      4.13      46.3      0.00      0.00
-   8  16  0  -1 10276023 W.E.Kinney,F.G  1972     3 8-O-16(N,INL)8-O-16,PAR,SIG     27.0     4.385E-02  34.3     1.987E-08 T2  17.8      284.      18.3      7.54      8.56      0.00      6.25      50.1      50.1      9.25      50.1      0.00      0.00

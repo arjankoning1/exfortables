@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  55 133  0  -1 20306007 S.KIKUCHI       1971    39 55-CS-133(N,INL)55-CS-133,PAR,  1.47     0.816     0.932     0.146     R1  23.9      29.8      61.0     0.579     0.967      0.00      1.44      1.59      1.44      1.51      1.35      0.00      0.00

@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  75 185  0  -1 41614195 A.A.Filatenkov  2016     1 75-RE-185(N,A)73-TA-182,,SIG    1.02      1.01     4.236E-02 0.472     R1  1.42      1.40      35.7      14.5      14.5      0.00      1.00      1.05      1.00      1.00      0.00      1.00      0.00
-  75 185  0  -1 32734002 Xiangzhong Kon  1997     1 75-RE-185(N,A)73-TA-182,,SIG    1.12      1.08      1.06     0.318     R1  1.57      1.40      14.3      14.7      14.7      0.00      1.02      1.27      1.02      1.09      0.00      1.02      0.00

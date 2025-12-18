@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  52 128  0  -1 11999014 L.HUSAIN,P.K.K  1968     1 52-TE-128(N,2N)52-TE-127,,SIG   1.16      1.13      0.00     0.355     R1 1.582E+03 1.390E+03  0.00      14.8      14.8      0.00      1.26      1.04      1.26      1.04      0.00      1.09      0.00

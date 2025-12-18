@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  30  70  0   1 22338024 A.Ercan,M.N.Er  1991     1 30-ZN-70(N,P)29-CU-70-M,,SIG    3.31     0.384      3.48     0.101     R2  2.44      5.70      33.3      14.6      14.6      0.00      1.09      0.00      2.37      8.07      0.00      2.21      0.00

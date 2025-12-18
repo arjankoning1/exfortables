@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   6  12  0  -1 O1539021 C.Baixeras-Aig  1970     0 6-C-12(A,X)7-N-14,,SIG          0.00      0.00      0.00      0.00         0.00      2.50      52.0      70.0      70.0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

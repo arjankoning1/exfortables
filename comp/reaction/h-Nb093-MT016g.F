@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  41  93  0   0 D4014005 M.Fassbender,A  1994     0 41-NB-93(HE3,2N)43-TC-94-G,,SI  0.00      0.00      0.00      0.00         0.00      80.4      21.4      8.60      35.0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-  41  93  0   0 A0347014 H.H.Bissem,R.G  1980     0 41-NB-93(HE3,2N)43-TC-94-G,,SI  0.00      0.00      0.00      0.00         0.00      55.6      10.0      11.2      42.8      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

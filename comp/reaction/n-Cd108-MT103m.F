@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  48 108  0   1 31433002 Yuan Junqian,   1994     1 48-CD-108(N,P)47-AG-108-M,,SIG  1.45      1.18      9.34     0.444     T1  22.6      18.2      18.2      14.6      14.6      0.00      1.00      0.00      1.00      2.11      0.00      1.07      0.00

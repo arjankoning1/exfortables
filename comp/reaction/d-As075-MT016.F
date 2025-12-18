@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  33  75  0  -1 R00460021H.F.Roehm, H.M  1972     0 33-AS-75(D,2N)34-SE-75,,SIG     0.00      0.00      0.00      0.00         0.00      209.      7.02      10.2      49.4      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-  33  75  0  -1 A0467005 A.Mushtaq,S.M.  1988     0 33-AS-75(D,2N)34-SE-75,,SIG     0.00      0.00      0.00      0.00         0.00      237.      16.4      5.68      55.0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

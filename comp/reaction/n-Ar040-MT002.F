@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  18  40  0  -1 11570004 D.G.HENSHAW     1957     1 18-AR-40(N,EL)18-AR-40,,SIG     1.52      1.33      0.00     0.329     T2  501.      360.      0.00     7.020E-08 7.020E-08  0.00      1.02      1.81      1.02      1.81      0.00      0.00      0.00

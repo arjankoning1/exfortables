@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  36   0  0  -1 22621002 B.Leugers,F.Ka  1980     0 36-KR-0(N,G),,SIG,,AV           0.00      0.00      0.00      0.00         0.00      47.2      5.31     1.500E-02 0.190      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
-  36   0  0  -1 21683003 F.HENSLEY       1980     0 36-KR-0(N,G),,SIG               0.00      0.00      0.00      0.00         0.00      65.3      28.8     5.620E-03 0.236      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

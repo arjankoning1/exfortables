@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  15  31  0  -1 E2239023 T.Yamazaki, M.  1963     0 15-P-31(A,P)16-S-34,PAR,SIG     0.00      0.00      0.00      0.00         0.00     0.190      0.00      22.2      22.2      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

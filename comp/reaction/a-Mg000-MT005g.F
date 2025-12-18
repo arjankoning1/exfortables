@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  12   0  0   0 A0517023 H.-J.Lange, T.  1995    13 12-MG-0(A,X)13-AL-26-G,,SIG     2.23     0.510      53.8     0.304     T1  45.4      58.9      8.01      27.5      163.      0.00      2.23      0.00      0.00      0.00      0.00      0.00      0.00

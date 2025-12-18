@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  22  47  0  -1 40149003 A.I.Dyumin,D.M  1972     1 22-TI-47(N,TOT),,SIG            1.01     0.990     0.702     0.401     T1 2.281E+03 2.319E+03  2.07      14.2      14.2      0.00      1.01      1.02      1.00      1.01      1.02      0.00      0.00
-  22  47  0  -1 11626019 W.M.Good,D.Pay  1966   881 22-TI-47(N,TOT),,SIG            4.21     0.341      0.00     8.842E-02 T2 2.129E+04 3.269E+04  0.00     2.488E-03 6.713E-02  0.00      4.30      4.17      4.30      4.17      4.10      0.00      0.00

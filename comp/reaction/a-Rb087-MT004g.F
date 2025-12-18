@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  37  87  0   0 C2317002 C.Riley,B.Lind  1964    11 37-RB-87(A,N)39-Y-90-G,,SIG     1.47     0.714      2.74     0.252     T1  73.1      103.      20.0      11.0      18.0      0.00      1.47      0.00      0.00      0.00      0.00      0.00      0.00

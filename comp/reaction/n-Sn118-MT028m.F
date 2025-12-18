@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  50 118  0   1 22827009 H.Sakane,Y.Kas  2003     3 50-SN-118(N,X)49-IN-117-M,,SIG  21.0     4.831E-02  30.1     2.583E-07 T2 1.442E-02 0.273      17.3      14.4      14.9      0.00      16.8      0.00      16.8      28.4      0.00      23.5      0.00
-  50 118  0   1 30105010 J.Brzosko,P.De  1965     1 50-SN-118(N,X)49-IN-117-M,,SIG  21.1     4.776E-02  12.5      0.00     R2 2.399E-02 0.492      26.9      14.9      14.9      0.00      16.6      0.00      16.6      28.9      0.00      24.2      0.00

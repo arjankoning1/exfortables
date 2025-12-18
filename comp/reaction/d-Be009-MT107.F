@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   4   9  0  -1 F0109004 S.Szegedi       1973     0 4-BE-9(D,A)3-LI-7,,SIG          0.00      0.00      0.00      0.00         0.00      24.0      10.0     0.210     0.500      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

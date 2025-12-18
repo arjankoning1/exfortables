@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  50 118  0  -1 L0017016 S.C.FULTZ,B.L.  1969     8 50-SN-118(G,3N)50-SN-115,,SIG   1.99     0.694      1.66     9.129E-02 T1  5.18      4.54      47.5      26.0      30.8      0.00      1.73      1.94      0.00      2.29      0.00      0.00      0.00

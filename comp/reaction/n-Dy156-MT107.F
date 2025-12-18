@@ -1,2 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  66 156  0  -1 32670003 Junhua Luo, Xi  2009     1 66-DY-156(N,A)64-GD-153,,SIG    2.55      2.38     1.278E+03 8.803E-02 T2  4.94      1.95      5.00      14.7      14.7      0.00      1.50      3.00      2.00      2.08      0.00      4.08      0.00

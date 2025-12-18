@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  48 113  0  -1 C0345004 W.J.Nieckarz,A  1969     4 48-CD-113(P,3N)49-IN-111,,SIG   1.27     0.921      3.72     0.189     T1  24.9      18.2      12.0      70.0      400.      0.00      1.27      0.00      0.00      0.00      0.00      0.00      0.00
-  48 113  0  -1 A05690021N.G.Zaitseva,O  1990    21 48-CD-113(P,3N)49-IN-111,,SIG   1.46     0.853      7.75     0.205     T1  249.      244.      17.5      5.80      63.0      0.00      1.46      0.00      0.00      0.00      0.00      0.00      0.00

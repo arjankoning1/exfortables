@@ -1,3 +1,0 @@
-# Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  80 196  0  -1 327810043Junhua Luo, Li  2018     3 80-HG-196(N,2N)80-HG-195,,SIG   1.11      1.09      2.45     0.115     R1 1.924E+03 1.737E+03  7.56      13.5      14.8      0.00      1.03      1.11      1.03      1.18      0.00      1.11      0.00
-  80 196  0  -1 23018002 Y.Kasugai, F.M  2001     6 80-HG-196(N,2N)80-HG-195,,SIG   1.14     0.897      2.53     0.224     T1 1.928E+03 2.187E+03  8.21      13.4      14.9      0.00      1.19      1.12      1.19      1.07      0.00      1.12      0.00
