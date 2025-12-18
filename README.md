@@ -36,7 +36,7 @@ The *exfortables/* directory contains the following directories and files:
 + `source/` contains the source code. You don't need this unless you want to reproduce the database.
 + `special/` contains a set of special output files for all thermal cross sections, MACS etc.
 + `n/ p/ d/ t/ h/ a/ g/ i/ FY/` contains the directory structured experimental reaction database
-+ `stat/` contains 'comp/' a a statistical comparison with nuclear data libraries and again `n/ p/ d/ t/ h/ a/ g/ i/ FY/` but this time including
++ `stat/` contains `comp/` a a statistical comparison with nuclear data libraries and again `n/ p/ d/ t/ h/ a/ g/ i/ FY/` but this time including
 a comparison with nuclear data libraries per experimental data set.
 
 ## License and Copyright
