@@ -38,11 +38,11 @@ subroutine checkkeyword
 !
 ! EXFORTABLES will stop if a keyword is incorrect
 !
-  data (keyword(i), i = 1, numkey) / ' ', 'amin', 'amax', 'cendl', 'dexp', 'eaf', 'emin', 'emax', 'endfb', 'erf', &
- &  'expo', 'eview', 'filespath', 'fmax', ' format', 'group', 'irdff', 'jeff', 'jendl', 'lib', 'libspath', 'mt', 'maxentry', &
+  data (keyword(i), i = 1, numkey) / ' ', 'amin', 'amax', 'cendl', 'dexp', 'eaf', 'emax', 'emin', 'endfb', 'erf', 'eview', &
+ &  'expo', 'filespath', 'fmax', ' format', 'group', 'irdff', 'jeff', 'jendl', 'lib', 'libspath', 'maxentry', 'mt', &
  &  'outliers', 'outprocess', 'particle', 'pointcomp', 'qualitycomp', 'reacstyle', 'remove', 'source', 'statistics', 'tables', &
- &  'talys', 'talysemin', 'talysemax', 'talyspath', 'tendl',  'uncertainty', 'user', 'x4', 'xc5', 'xseps', 'xsonly', 'zmin', &
- &  'zmax'/
+ &  'talys', 'talysemax', 'talysemin', 'talyspath', 'tendl',  'uncertainty', 'user', 'x4', 'xc5', 'xseps', 'xsonly', 'zmax', &
+ &  'zmin'/
 !
 ! A keyword can be de-activated by putting a # in front of it.
 ! All first words of the input lines are checked against the list of keywords.
