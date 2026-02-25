@@ -24,7 +24,7 @@
 CWD = $(shell pwd)
 PREFIX ?= $(CWD)/../
 
-FC = ifort
+FC = gfortran
 FFLAGS = -w
 
 fsub = $(shell echo [A-z]*.f90)
