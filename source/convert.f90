@@ -5,7 +5,7 @@ subroutine convert(i)
 !
 ! Revision    Date      Author      Quality  Description
 ! ======================================================
-!    1     05-12-2019   A.J. Koning    A     Original code
+!    1     2026-04-24   A.J. Koning    A     Original code
 !-----------------------------------------------------------------------------------------------------------------------------------
 !
 ! *** Use data from other modules
@@ -17,7 +17,7 @@ subroutine convert(i)
 ! *** Declaration of local data
 !
   implicit none
-  integer, parameter :: numkey=3        ! number of keywords
+  integer, parameter :: numkey=6        ! number of keywords
   character(len=132) :: keyword(numkey) ! keyword
   character(len=132) :: str             ! input line
   integer            :: i               ! counter
@@ -30,7 +30,7 @@ subroutine convert(i)
 ! For easy handling of all the input parameters, the whole input, both keywords and values, is converted to lowercase characters,
 ! with the exception of filenames or other character strings.
 !
-  data (keyword(m), m = 1, numkey) / 'filespath', 'libspath', 'talyspath'/
+  data (keyword(m), m = 1, numkey) / 'filespath', 'format', 'libspath', 'source', 'talyspath', 'user'/
   str = inline(i)
   do k = 1, 132
     if (inline(i)(k:k) >= 'A' .and. inline(i)(k:k) <= 'Z') inline(i)(k:k) = achar(iachar(inline(i)(k:k)) + 32)
