@@ -39,7 +39,7 @@ subroutine checkkeyword
 ! EXFORTABLES will stop if a keyword is incorrect
 !
   data (keyword(i), i = 1, numkey) / ' ', 'amin', 'amax', 'cendl', 'dexp', 'eaf', 'emax', 'emin', 'endfb', 'erf', 'eview', &
- &  'expo', 'filespath', 'fmax', ' format', 'group', 'irdff', 'jeff', 'jendl', 'lib', 'libspath', 'maxentry', 'mt', &
+ &  'expo', 'filespath', 'fmax', 'format', 'group', 'irdff', 'jeff', 'jendl', 'lib', 'libspath', 'maxentry', 'mt', &
  &  'outliers', 'outprocess', 'particle', 'pointcomp', 'qualitycomp', 'reacstyle', 'remove', 'source', 'statistics', 'tables', &
  &  'talys', 'talysemax', 'talysemin', 'talyspath', 'tendl',  'uncertainty', 'user', 'x4', 'xc5', 'xseps', 'xsonly', 'zmax', &
  &  'zmin'/
