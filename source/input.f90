@@ -336,6 +336,7 @@ Loop1:  do i2 = 2, 40
       flagmtinput = .true.
       read(val, * , iostat = istat) mt
       if (istat /= 0) call read_error(line, istat)
+      if (mt > nummt) call read_error(line, istat)
       mtinput(mt) = .true.
       cycle
     endif
