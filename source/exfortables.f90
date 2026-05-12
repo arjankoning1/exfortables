@@ -4,11 +4,11 @@ program exfortables
 ! Purpose   : Translate EXFOR database into x-y tables
 !
 ! Author    : Arjan Koning
-! 2025-12-18: Current revision
+! 2026-05-12: Current revision
 !-----------------------------------------------------------------------------------------------------------------------------------
 !
 !   |-------------------------------------------------------|
-!   |                 EXFORTABLES-2.2                       |
+!   |                 EXFORTABLES-2.23                      |
 !   |                 Arjan Koning                          |
 !   |                                                       |
 !   | Email: A.Koning@@iaea.org                             |
@@ -16,7 +16,7 @@ program exfortables
 !
 ! MIT License
 !
-! Copyright (c) 2025 Arjan Koning
+! Copyright (c) 2026 Arjan Koning
 !
 ! Permission is hereby granted, free of charge, to any person obtaining a copy
 ! of this software and associated documentation files (the "Software"), to deal
@@ -67,4 +67,4 @@ program exfortables
   call dealloc
   call timer
 end program exfortables
-! Copyright A.J. Koning 2025
+! Copyright A.J. Koning 2026
