@@ -48,11 +48,11 @@ subroutine checkvalue
 ! ******************* Check for wrong input variables ******************
 !
   call range_integer_error('maxentry', maxentry, 1, 1000000000)
-  call range_integer_error('Zmin', Zmin, 0, 150)
-  call range_integer_error('Zmax', Zmax, 0, 150)
+  call range_integer_error('Zmin', Zmin, 0, 110)
+  call range_integer_error('Zmax', Zmax, 0, 110)
   call range_integer_error('Zmin', Zmin, 0, Zmax)
-  call range_integer_error('Amin', Amin, -1, 400)
-  call range_integer_error('Amax', Amax, -1, 400)
+  call range_integer_error('Amin', Amin, -1, 270)
+  call range_integer_error('Amax', Amax, -1, 270)
   call range_integer_error('Amin', Amin, -1, Amax)
   ipo = 0
   do i = 0, 7
