@@ -2,7 +2,7 @@
 #   title: F per reaction summed over all nuclides for proton
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2025-12-18
+#   date: 2026-05-13
 #   format: YANDF-0.4
 # reaction: 
 #   type: (p,x)

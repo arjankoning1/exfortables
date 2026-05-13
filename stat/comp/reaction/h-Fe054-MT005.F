@@ -1,2 +1,2 @@
 # Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  26  54  0  -1 B0138002 P.HORNSHOJ, L.  1977     0 26-FE-54(HE3,2N)28-NI-55,,SIG,  0.00      0.00      0.00      0.00         0.00     0.349      14.9      12.2      15.0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  26  54  0  -1 B0138002 P.HORNSHOJ, L.  1977     5 26-FE-54(HE3,2N)28-NI-55,,SIG,  13.2     8.202E-02 1.044E+03 1.703E-08 T2 4.918E-02 0.349      14.9      12.2      15.0      0.00      13.2      0.00      0.00      0.00      0.00      0.00      0.00

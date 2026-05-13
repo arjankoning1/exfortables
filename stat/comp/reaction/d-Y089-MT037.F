@@ -1,2 +1,2 @@
 # Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  39  89  0  -1 C1159005 H.I.West,H.O.B  1993     0 39-Y-89(D,4N)40-ZR-87,,SIG      0.00      0.00      0.00      0.00         0.00      75.8      4.12      31.1      39.4      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  39  89  0  -1 C1159005 H.I.West,H.O.B  1993     6 39-Y-89(D,4N)40-ZR-87,,SIG      2.71      2.21     2.108E+03 0.229     T2  114.      75.8      4.12      31.1      39.4      0.00      2.71      0.00      0.00      0.00      0.00      0.00      0.00

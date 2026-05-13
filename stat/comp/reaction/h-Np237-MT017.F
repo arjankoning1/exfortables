@@ -1,2 +1,2 @@
 # Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  93 237  0  -1 D0371006 J.Aaltonen,V.D  1996     0 93-NP-237(HE3,3N)95-AM-237,,SI  0.00      0.00      0.00      0.00         0.00     0.215      38.4      25.3      26.0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  93 237  0  -1 D0371006 J.Aaltonen,V.D  1996     2 93-NP-237(HE3,3N)95-AM-237,,SI  62.3     1.997E-02  12.1     2.980E-08 T2 1.123E-03 0.215      38.4      25.3      26.0      0.00      62.3      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,2 +1,2 @@
 # Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  28  62  0  -1 D4059004 N.Baron, B.L.C  1963     0 28-NI-62(D,P+A)26-FE-59,,SIG    0.00      0.00      0.00      0.00         0.00      1.35      7.50      17.4      17.4      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  28  62  0  -1 D4059004 N.Baron, B.L.C  1963     1 28-NI-62(D,P+A)26-FE-59,,SIG    1.97     0.507      43.2     0.240     T1 0.684      1.35      7.50      17.4      17.4      0.00      1.97      0.00      0.00      0.00      0.00      0.00      0.00

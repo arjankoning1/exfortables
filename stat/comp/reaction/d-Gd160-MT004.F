@@ -1,2 +1,2 @@
 # Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  64 160  0  -1 D4294002 F.Tarkanyi,A.H  2013     0 64-GD-160(D,X)65-TB-161,CUM,SI  0.00      0.00      0.00      0.00         0.00      129.      17.0      5.40      46.4      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  64 160  0  -1 D4294002 F.Tarkanyi,A.H  2013    21 64-GD-160(D,X)65-TB-161,CUM,SI  12.7     8.002E-02  52.3     6.954E-03 T2  9.64      129.      17.0      5.40      46.4      0.00      12.7      0.00      0.00      0.00      0.00      0.00      0.00

@@ -1,2 +1,2 @@
 # Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  28  58  0  -1 C0705003 M.BLANN,G.MERK  1963     0 28-NI-58(D,N+2P)27-CO-57,,SIG   0.00      0.00      0.00      0.00         0.00      149.      15.0      4.90      24.0      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  28  58  0  -1 C0705003 M.BLANN,G.MERK  1963    16 28-NI-58(D,N+2P)27-CO-57,,SIG   14.4     0.189      17.4     0.121     T2  131.      149.      15.0      4.90      24.0      0.00      14.4      0.00      0.00      0.00      0.00      0.00      0.00

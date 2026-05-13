@@ -1,2 +1,2 @@
 # Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  48 106  0   0 C1128006 K.L.Hall,W.W.M  1959     0 48-CD-106(D,A)47-AG-104-G,,SIG  0.00      0.00      0.00      0.00         0.00      1.70      11.8      7.80      7.80      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  48 106  0   0 C1128006 K.L.Hall,W.W.M  1959     1 48-CD-106(D,A)47-AG-104-G,,SIG  1.00      1.00     1.203E-03 0.485     T1  1.69      1.70      11.8      7.80      7.80      0.00      1.00      0.00      0.00      0.00      0.00      0.00      0.00

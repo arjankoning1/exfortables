@@ -1,2 +1,2 @@
 # Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  26  56  0  -1 D0230009 R.C.Brown,A.A.  1973     0 26-FE-56(D,NON),,SIG            0.00      0.00      0.00      0.00         0.00     1.549E+03  10.0      12.3      12.3      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  26  56  0  -1 D0230009 R.C.Brown,A.A.  1973     1 26-FE-56(D,NON),,SIG            1.08     0.928      1.06     2.158E-02 T1 1.390E+03 1.549E+03  10.0      12.3      12.3      0.00      1.08      0.00      0.00      0.00      0.00      0.00      0.00

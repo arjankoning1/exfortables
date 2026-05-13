@@ -1,2 +1,2 @@
 # Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  73 181  0   1 C2325014 J.B.Natowitz,R  1967     0 73-TA-181(D,P)73-TA-182-M,,SIG  0.00      0.00      0.00      0.00         0.00      2.39      10.2      8.98      14.8      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  73 181  0   1 C2325014 J.B.Natowitz,R  1967    10 73-TA-181(D,P)73-TA-182-M,,SIG  22.2      18.4     2.721E+05 3.822E-02 T3  32.0      2.39      10.2      8.98      14.8      0.00      22.2      0.00      0.00      0.00      0.00      0.00      0.00

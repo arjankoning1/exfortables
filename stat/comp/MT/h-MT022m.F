@@ -1,2 +1,2 @@
 # Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  45 103  0   1 D4391007 B.M.Ali,M.Al-A  2018     0 45-RH-103(HE3,X)45-RH-101-M,,S  0.00      0.00      0.00      0.00         0.00      19.4      13.5      12.4      26.3      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  45 103  0   1 D4391007 B.M.Ali,M.Al-A  2018    11 45-RH-103(HE3,X)45-RH-101-M,,S  3.81     0.313      35.4     0.230     T1  4.54      19.4      13.5      12.4      26.3      0.00      3.81      0.00      0.00      0.00      0.00      0.00      0.00

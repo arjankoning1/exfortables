@@ -1,2 +1,2 @@
 # Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  92 234  0  -1 C0719006 R.M.Lessler,W.  1966     0 92-U-234(D,2N)93-NP-234,,SIG    0.00      0.00      0.00      0.00         0.00      21.3      20.0      8.70      23.4      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  92 234  0  -1 C0719006 R.M.Lessler,W.  1966    10 92-U-234(D,2N)93-NP-234,,SIG    1.79     0.622      4.21     0.254     T2  14.5      21.3      20.0      8.70      23.4      0.00      1.79      0.00      0.00      0.00      0.00      0.00      0.00

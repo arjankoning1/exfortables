@@ -1,2 +1,2 @@
 # Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  10  22  0  -1 O1621003 F.Helus, W.Mai  1986     0 10-NE-22(D,P)10-NE-23,,SIG      0.00      0.00      0.00      0.00         0.00      338.      10.0     0.800      9.50      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  10  22  0  -1 O1621003 F.Helus, W.Mai  1986     8 10-NE-22(D,P)10-NE-23,,SIG      8.02     0.167      60.2     0.120     T2  65.7      338.      10.0     0.800      9.50      0.00      8.02      0.00      0.00      0.00      0.00      0.00      0.00

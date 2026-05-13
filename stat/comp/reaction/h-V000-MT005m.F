@@ -1,2 +1,2 @@
 # Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  23   0  0   1 D4345003 B.M.Ali,M.Al-A  2016     0 23-V-0(HE3,X)25-MN-52-M,,SIG    0.00      0.00      0.00      0.00         0.00      24.2      11.7      21.6      26.7      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  23   0  0   1 D4345003 B.M.Ali,M.Al-A  2016     6 23-V-0(HE3,X)25-MN-52-M,,SIG    2.42     0.415      26.9     0.249     T1  9.93      24.2      11.7      21.6      26.7      0.00      2.42      0.00      0.00      0.00      0.00      0.00      0.00

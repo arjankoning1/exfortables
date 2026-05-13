@@ -1,2 +1,2 @@
 # Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  23  51  0  -1 D0954005 A.Kreisel, L.W  2019     0 23-V-51(D,P)23-V-52,,SIG        0.00      0.00      0.00      0.00         0.00      125.      4.56      2.70      5.40      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  23  51  0  -1 D0954005 A.Kreisel, L.W  2019     7 23-V-51(D,P)23-V-52,,SIG        4.63     0.238      271.     0.195     T3  37.8      125.      4.56      2.70      5.40      0.00      4.63      0.00      0.00      0.00      0.00      0.00      0.00

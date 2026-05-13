@@ -1,2 +1,2 @@
 # Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   8  16  0  -1 D0185004 A.Ingemarsson,  2001     0 8-O-16(HE3,NON),,SIG            0.00      0.00      0.00      0.00         0.00      875.      4.20      96.4      167.      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+   8  16  0  -1 D0185004 A.Ingemarsson,  2001     3 8-O-16(HE3,NON),,SIG            1.15     0.875      11.8     5.852E-02 T1  762.      875.      4.20      96.4      167.      0.00      1.15      0.00      0.00      0.00      0.00      0.00      0.00

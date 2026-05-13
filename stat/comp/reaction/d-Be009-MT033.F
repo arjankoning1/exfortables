@@ -1,2 +1,2 @@
 # Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-   4   9  0  -1 F0127004 R.E.Heft,W.F.L  1955     0 4-BE-9(D,N+T)4-BE-7,,SIG        0.00      0.00      0.00      0.00         0.00     3.367E-02  2.95      17.1      21.6      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+   4   9  0  -1 F0127004 R.E.Heft,W.F.L  1955    11 4-BE-9(D,N+T)4-BE-7,,SIG        46.6      46.5     4.615E+06  0.00     T2  1.85     3.367E-02  2.95      17.1      21.6      0.00      46.6      0.00      0.00      0.00      0.00      0.00      0.00

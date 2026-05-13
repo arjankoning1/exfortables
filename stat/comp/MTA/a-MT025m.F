@@ -2,7 +2,7 @@
 #   title: F per nuclide for (a,3na)m
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2025-12-18
+#   date: 2026-05-13
 #   format: YANDF-0.4
 # reaction: 
 #   type: (a,3na)m

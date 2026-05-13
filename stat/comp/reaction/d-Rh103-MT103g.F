@@ -1,2 +1,2 @@
 # Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  45 103  0   0 C2325007 J.B.Natowitz,R  1967     0 45-RH-103(D,P)45-RH-104-G,,SIG  0.00      0.00      0.00      0.00         0.00      114.      13.8      5.65      14.4      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  45 103  0   0 C2325007 J.B.Natowitz,R  1967    10 45-RH-103(D,P)45-RH-104-G,,SIG  5.49     0.199      31.5     0.108     T2  20.4      114.      13.8      5.65      14.4      0.00      5.49      0.00      0.00      0.00      0.00      0.00      0.00

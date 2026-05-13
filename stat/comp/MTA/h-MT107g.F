@@ -2,17 +2,17 @@
 #   title: F per nuclide for (h,a)g
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2025-12-18
+#   date: 2026-05-13
 #   format: YANDF-0.4
 # reaction: 
 #   type: (h,a)g
 #   ENDF_MF: 3
 #   ENDF_MT: 107
 #   parameters: 
-#     Number of sets: 0
-#     Number of points: 0
+#     Number of sets: 3
+#     Number of points: 30
 #     F for TALYS:  0.000000E+00
-#     F for tendl.2025:  0.000000E+00
+#     F for tendl.2025:  1.580736E+00
 #     F for endfb8.1:  0.000000E+00
 #     F for jeff4.0:  0.000000E+00
 #     F for jendl5.0:  0.000000E+00
@@ -23,6 +23,9 @@
 #     type: F
 #   datablock: 
 #     columns: 13
-#     entries: 0
+#     entries: 10
 ##       Z              A             iso           TALYS       tendl.2025      endfb8.1        jeff4.0       jendl5.0       cendl3.2       eaf.2010       irdff2.0         sets          points
 ##      []             []             []             []             []             []             []             []             []             []             []             []             []
+       19             39              0             0.000000       1.330194       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000           1             10
+       21             45              0             0.000000       1.605251       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000           1             13
+       48            116              0             0.000000       1.831622       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000           1              7

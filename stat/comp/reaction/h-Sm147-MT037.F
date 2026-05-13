@@ -1,2 +1,2 @@
 # Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  62 147  0  -1 D40550031F.-O.Denzler,   1995     0 62-SM-147(HE3,4N)64-GD-146,,SI  0.00      0.00      0.00      0.00         0.00      214.      16.4      23.7      34.5      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  62 147  0  -1 D40550031F.-O.Denzler,   1995    13 62-SM-147(HE3,4N)64-GD-146,,SI  45.1     2.285E-02  41.0     6.419E-08 T2  6.47      214.      16.4      23.7      34.5      0.00      45.1      0.00      0.00      0.00      0.00      0.00      0.00

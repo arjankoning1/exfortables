@@ -1,2 +1,2 @@
 # Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  59 141  0   0 D4059031 N.Baron, B.L.C  1963     0 59-PR-141(D,P)59-PR-142-G,,SIG  0.00      0.00      0.00      0.00         0.00      89.0      7.50      19.7      19.7      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  59 141  0   0 D4059031 N.Baron, B.L.C  1963     1 59-PR-141(D,P)59-PR-142-G,,SIG  16.0     6.259E-02  156.     2.980E-07 T2  5.57      89.0      7.50      19.7      19.7      0.00      16.0      0.00      0.00      0.00      0.00      0.00      0.00

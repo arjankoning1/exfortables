@@ -2,7 +2,7 @@
 #   title: F per nuclide for (n,np)g
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2025-12-18
+#   date: 2026-05-13
 #   format: YANDF-0.4
 # reaction: 
 #   type: (n,np)g

@@ -1,2 +1,2 @@
 # Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  24  52  0  -1 D5003011 M.P.Bilaniuk,V  1981     0 24-CR-52(D,NON),,SIG            0.00      0.00      0.00      0.00         0.00     1.344E+03  3.87      13.6      13.6      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  24  52  0  -1 D5003011 M.P.Bilaniuk,V  1981     1 24-CR-52(D,NON),,SIG            1.06      1.06      2.71     1.830E-02 T1 1.430E+03 1.344E+03  3.87      13.6      13.6      0.00      1.06      0.00      0.00      0.00      0.00      0.00      0.00

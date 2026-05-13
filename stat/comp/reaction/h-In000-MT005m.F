@@ -1,2 +1,2 @@
 # Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  49   0  0   1 D0081007 S.M.Qaim,H.Doe  1984     0 49-IN-0(HE3,X)50-SN-117-M,,SIG  0.00      0.00      0.00      0.00         0.00      1.61      14.6      12.8      117.      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  49   0  0   1 D0081007 S.M.Qaim,H.Doe  1984    33 49-IN-0(HE3,X)50-SN-117-M,,SIG  16.1     9.392E-02  35.7     9.706E-02 T2 0.627      1.61      14.6      12.8      117.      0.00      16.1      0.00      0.00      0.00      0.00      0.00      0.00

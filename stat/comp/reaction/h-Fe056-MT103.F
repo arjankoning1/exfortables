@@ -1,2 +1,2 @@
 # Z   A   T   M  SUBENT      AUTHOR     YEAR     N            Reaction               F          A      chi2    p-value Quality World     Exp     Dexp(%)    E-min     E-max   TALYS     tendl.2025endfb8.1  jeff4.0   jendl5.0  cendl3.2  eaf.2010  irdff2.0
-  26  56  0  -1 C2320006 J.-P.Hazan,M.B  1965     0 26-FE-56(HE3,P)27-CO-58,,SIG    0.00      0.00      0.00      0.00         0.00      28.8      25.0      5.70      21.5      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+  26  56  0  -1 C2320006 J.-P.Hazan,M.B  1965    15 26-FE-56(HE3,P)27-CO-58,,SIG    2.29     0.621      2.68     0.245     T2  20.6      28.8      25.0      5.70      21.5      0.00      2.29      0.00      0.00      0.00      0.00      0.00      0.00
