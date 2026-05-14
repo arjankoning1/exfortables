@@ -109,9 +109,9 @@ subroutine input
   flagoutliers = .true.
   flagreacstyle = .false.
   Zmin = 0
-  Zmax = 150
+  Zmax = numZ
   Amin = -1
-  Amax = 400
+  Amax = numA
   pointcomp = 'talys'
   qualitycomp = 'all'
   parinclude = .true.
