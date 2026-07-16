@@ -2,7 +2,7 @@
 #   title: F per energy bin for (a,3n)
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2026-05-13
+#   date: 2026-07-16
 #   format: YANDF-0.4
 # reaction: 
 #   type: (a,3n)

@@ -2,20 +2,20 @@
 #   title: F per reaction summed over all nuclides for neutron
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2026-05-13
+#   date: 2026-07-16
 #   format: YANDF-0.4
 # reaction: 
 #   type: (n,x)
 #   Maximum F:  3.000000E+00
-#   Subentries: 25949
+#   Subentries: 25948
 #   parameters: 
-#     Number of sets: 25949
-#     Number of points: 3477956
+#     Number of sets: 25948
+#     Number of points: 3477879
 #     F for TALYS:  0.000000E+00
-#     F for tendl.2025:  1.513675E+00
-#     F for endfb8.1:  1.493664E+00
-#     F for jeff4.0:  1.497385E+00
-#     F for jendl5.0:  1.501413E+00
+#     F for tendl.2025:  1.513680E+00
+#     F for endfb8.1:  1.493669E+00
+#     F for jeff4.0:  1.497391E+00
+#     F for jendl5.0:  1.501418E+00
 #     F for cendl3.2:  1.479625E+00
 #     F for eaf.2010:  1.572411E+00
 #     F for irdff2.0:  1.479443E+00
@@ -26,7 +26,7 @@
 #     entries: 0
 ##      MT             iso           TALYS       tendl.2025      endfb8.1        jeff4.0       jendl5.0       cendl3.2       eaf.2010       irdff2.0         sets          points
 ##      []             []             []             []             []             []             []             []             []             []             []             []
-           1             -1      0.000000E+00   1.492746E+00   1.475899E+00   1.480202E+00   1.478776E+00   1.450959E+00   0.000000E+00   1.462605E+00      ******           2814
+           1             -1      0.000000E+00   1.492754E+00   1.475905E+00   1.480209E+00   1.478784E+00   1.450959E+00   0.000000E+00   1.462605E+00      ******           2813
            2             -1      0.000000E+00   1.264979E+00   1.195497E+00   1.194114E+00   1.195783E+00   1.184330E+00   0.000000E+00   1.196699E+00       10280            797
            3             -1      0.000000E+00   1.312637E+00   1.326551E+00   1.187160E+00   1.300508E+00   1.302574E+00   0.000000E+00   0.000000E+00        1042            495
            4             -1      0.000000E+00   1.637829E+00   1.624609E+00   1.605485E+00   1.651449E+00   1.569748E+00   0.000000E+00   0.000000E+00       27806            202

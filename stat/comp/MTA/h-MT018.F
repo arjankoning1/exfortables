@@ -2,7 +2,7 @@
 #   title: F per nuclide for (h,f)
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2026-05-13
+#   date: 2026-07-16
 #   format: YANDF-0.4
 # reaction: 
 #   type: (h,f)
@@ -12,7 +12,7 @@
 #     Number of sets: 12
 #     Number of points: 80
 #     F for TALYS:  0.000000E+00
-#     F for tendl.2025:  1.949722E+00
+#     F for tendl.2025:  1.949723E+00
 #     F for endfb8.1:  0.000000E+00
 #     F for jeff4.0:  0.000000E+00
 #     F for jendl5.0:  0.000000E+00
