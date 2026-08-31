@@ -1,48 +1,58 @@
-# This file is part of EXFORTABLES
-# 
-#    Author: Arjan Koning Copyright: (C) 2024
+# EXFORTABLES Makefile
 #
-# EXFORTABLES is free software; you can redistribute it and/or modify it
-# under the terms of the MIT License; see LICENSE file for more details.
+# Examples:
 #
-# Basic installation (verified with the sample cases)
-#
-# FC="gfortran " FFLAGS=" "
-#
-# Distribution FC & FFLAGS (options provided by J-C Sublet)
-#
-# FC="gfortran " FFLAGS=" -Ofast "
-# FC="ifort    " FFLAGS=" -Ofast "
-# FC="nagfor   " FFLAGS=" -w     "
-#
-# Development FC & FFLAGS  (options provided by J-C Sublet)
-#
-# FC="gfortran " FFLAGS=" -Wall -fcheck=all -Og -g -fbacktrace   "
-# FC="ifort    " FFLAGS=" -O0 -g -traceback -check all -debug all"
-# FC="nagfor   " FFLAGS=" -C=all -O0 -g -gline                   "
-#
-CWD = $(shell pwd)
-PREFIX ?= $(CWD)/../
+#   make
+#   make FC=gfortran FFLAGS="-w -O3 -ffp-contract=off"
+#   make FC=ifx FFLAGS="-O3"
+#   make clean
+#   make check
 
-FC = gfortran
-FFLAGS = -w
+# Compiler-specific flags can be supplied by the user.
+ifeq ($(origin FC), default)
+  FC = gfortran
+endif
 
-fsub = $(shell echo [A-z]*.f90)
-obj = $(fsub:.f=.o)
-src = $(fsub)
+ifeq ($(origin FFLAGS), undefined)
+  ifneq ($(findstring gfortran,$(FC)),)
+    FFLAGS = -w -O3 -ffp-contract=off
+  else
+    FFLAGS =
+  endif
+endif
 
-all: change exfortables install clean
+# Installation directories.
 
-change : 
-	../path_change.bash
+EXFORTABLES_DIR := $(abspath ..)
+BIN_DIR         := $(EXFORTABLES_DIR)/bin
+TARGET          := $(BIN_DIR)/exfortables
 
-exfortables : $(obj)
-	$(FC) $(FFLAGS) -o  exfortables  $(obj)
+# EXFORTABLES source files.
 
-install:
-	mkdir -p $(PREFIX)bin
-	mv exfortables $(PREFIX)bin  
+SOURCES := $(sort $(wildcard *.f) $(wildcard *.f90))
+
+.PHONY: all install clean check
+
+all install: $(TARGET)
+
+$(TARGET): $(SOURCES)
+	@echo "Compiler: $(FC)"
+	@echo "Flags:    $(FFLAGS)"
+	@mkdir -p "$(BIN_DIR)"
+	$(FC) $(FFLAGS) -o "$(TARGET)" $(SOURCES)
+	@rm -f *.o *.mod
+	@echo "Installed: $(TARGET)"
 
 clean:
-	rm -f *.o *.mod
+	rm -f *.o *.mod exfortables "$(TARGET)"
 
+# A full run is intentionally not part of check: reconstruction requires
+# additional raw input data and may regenerate a large database.
+
+check: all
+	@test -x "$(TARGET)" || { \
+	  echo "EXFORTABLES check error: executable not found:" >&2; \
+	  echo "  $(TARGET)" >&2; \
+	  exit 1; \
+	}
+	@echo "EXFORTABLES build check completed successfully"
