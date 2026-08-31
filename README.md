@@ -25,17 +25,19 @@ For compiling the EXFORTABLES reconstruction code, the prerequisites are:
 A complete reconstruction additionally uses:
 
 ```text
-.../exfortables/files/
-.../drip/
-.../libraries/
+parent_directory/
+├── exfortables/files
+├── drip/
+└── libraries/
 ```
 
 With the default layout, `drip/` and `libraries/` are sibling directories of `exfortables/`:
 
 ```text
-.../exfortables/
-.../drip/
-.../libraries/
+parent_directory/
+├── exfortables/
+├── drip/
+└── libraries/
 ```
 
 The current Git repository contains the produced EXFORTABLES database, but does not contain the raw `exfortables/files/` reconstruction tree. That tree must be supplied separately when the database itself is to be regenerated.
