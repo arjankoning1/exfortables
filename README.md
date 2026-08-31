@@ -26,7 +26,7 @@ A complete reconstruction additionally uses:
 
 ```text
 parent_directory/
-├── exfortables/files
+├── exfortables/files/
 ├── drip/
 └── libraries/
 ```
