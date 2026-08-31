@@ -2,7 +2,7 @@
 #   title: F per energy bin for (t,a)
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2026-07-16
+#   date: 2026-08-30
 #   format: YANDF-0.4
 # reaction: 
 #   type: (t,a)

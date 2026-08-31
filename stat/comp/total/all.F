@@ -2,7 +2,7 @@
 #   title: F per projectile summed over all reactions and nuclides
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2026-07-16
+#   date: 2026-08-30
 #   format: YANDF-0.4
 # parameters: 
 #   Maximum F:  3.000000E+00

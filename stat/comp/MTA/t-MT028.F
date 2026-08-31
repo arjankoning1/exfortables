@@ -2,7 +2,7 @@
 #   title: F per nuclide for (t,np)
 #   source: EXFOR
 #   user: Arjan Koning
-#   date: 2026-07-16
+#   date: 2026-08-30
 #   format: YANDF-0.4
 # reaction: 
 #   type: (t,np)
