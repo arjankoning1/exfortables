@@ -55,7 +55,7 @@ libspath /path/to/libraries/
 #### 1. Download the entire tar file
 
 ```bash
-curl -LO https://nds.iaea.org/talys/exfortables.tar
+curl -LO https://nds.iaea.org/talys/codes/exfortables.tar
 tar zxf exfortables.tar
 ```
 
