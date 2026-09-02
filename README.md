@@ -18,9 +18,9 @@ No compilation is required if you only want to use the distributed EXFORTABLES d
 
 For compiling the EXFORTABLES reconstruction code, the prerequisites are:
 
-- git (only if the package is downloaded via GitHub)
 - GNU make
 - a recent Fortran compiler, such as GNU Fortran (gfortran)
+- git, only when EXFORTABLES is downloaded using `git clone`
 
 A complete reconstruction additionally uses:
 
@@ -52,23 +52,54 @@ libspath /path/to/libraries/
 
 ### Downloads
 
-#### 1. Download the entire tar file
+EXFORTABLES can be downloaded in one of the following ways.
 
-This is available at the the [TALYS page](https://nds.iaea.org/talys/), and can be retrieved by clicking on the download link or
+#### 1. Frozen version (December 2025)
+
+The frozen EXFORTABLES distribution is available from the [TALYS page](https://nds.iaea.org/talys/). It can be retrieved by clicking on the download link or with
+
 ```bash
 curl -LO https://nds.iaea.org/talys/codes/exfortables.tar
 tar zxf exfortables.tar
 ```
 
-#### 2. Using git
+This version is fixed and will not change.
+
+#### 2. Latest beta version without git
+
+Users who do not have git can download a snapshot of the current `main` branch directly from GitHub:
+
+```bash
+curl -L \
+  -o exfortables-main.tar.gz \
+  https://github.com/arjankoning1/exfortables/archive/refs/heads/main.tar.gz
+
+tar zxf exfortables-main.tar.gz
+mv exfortables-main exfortables
+```
+
+This produces the same `exfortables/` directory structure as the git version, but without the git history.
+
+The downloaded snapshot contains the latest version of the `main` branch at the time of download. To obtain a newer version later, download the snapshot again.
+
+#### 3. Latest beta version using git
+
+Users with git can clone the repository with
 
 ```bash
 git clone https://github.com/arjankoning1/exfortables.git
 ```
 
+The advantage of this method is that the local EXFORTABLES installation can subsequently be updated with
+
+```bash
+cd exfortables
+git pull --ff-only
+```
+
 ## Compiling the reconstruction code
 
-For the modern git version:
+For the latest beta version, whether obtained as a GitHub tar snapshot or using `git clone`:
 
 ```bash
 cd exfortables
@@ -84,6 +115,12 @@ cd exfortables/source
 make
 ```
 
+The executable is installed as:
+
+```text
+exfortables/bin/exfortables
+```
+
 The default compiler is `gfortran`. When `gfortran` is used and no `FFLAGS` are supplied, the Makefile uses:
 
 ```text
@@ -95,14 +132,11 @@ For other compilers, no default compiler flags are imposed.
 Compiler and compilation options can be passed through `install_exfortables.bash`, for example:
 
 ```bash
+# GNU Fortran
 ./install_exfortables.bash FC=gfortran FFLAGS="-O3 -ffp-contract=off"
+
+# Intel Fortran
 ./install_exfortables.bash FC=ifx FFLAGS="-O3"
-```
-
-The executable is installed as:
-
-```text
-exfortables/bin/exfortables
 ```
 
 Set `EXFORTABLES_DIR` to the EXFORTABLES installation directory. For example:
@@ -128,8 +162,6 @@ These lines can be added to `~/.zshrc` or `~/.profile`.
 If setting `EXFORTABLES_DIR` is not possible, edit `code_dir` in `source/machine.f90` and rebuild EXFORTABLES.
 
 The existing `user` input keyword can override `EXFORTABLES_USER` for an individual run.
-
-For the modern git version, `code_build.bash` and `path_change.bash` are no longer required and can be removed after adopting the new installer, Makefile and `machine.f90`.
 
 ## Build check
 
